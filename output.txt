@@ -1,0 +1,959 @@
+Starting a Gradle Daemon, 2 busy and 1 incompatible Daemons could not be reused, use --status for details
+> Task :buildSrc:compileMinimumRuntimeJava UP-TO-DATE
+> Task :buildSrc:compileMinimumRuntimeGroovy NO-SOURCE
+> Task :buildSrc:processMinimumRuntimeResources NO-SOURCE
+> Task :buildSrc:minimumRuntimeClasses UP-TO-DATE
+> Task :buildSrc:compileJava UP-TO-DATE
+> Task :buildSrc:compileGroovy UP-TO-DATE
+> Task :buildSrc:generateVersionProperties UP-TO-DATE
+> Task :buildSrc:pluginDescriptors UP-TO-DATE
+> Task :buildSrc:processResources UP-TO-DATE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:reaper:compileJava UP-TO-DATE
+> Task :buildSrc:reaper:processResources NO-SOURCE
+> Task :buildSrc:reaper:classes UP-TO-DATE
+> Task :buildSrc:reaper:jar UP-TO-DATE
+> Task :buildSrc:pluginUnderTestMetadata UP-TO-DATE
+> Task :buildSrc:compileTestJava UP-TO-DATE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources UP-TO-DATE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test SKIPPED
+> Task :buildSrc:validateTaskProperties UP-TO-DATE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
+> Task :buildSrc:reaper:assemble UP-TO-DATE
+> Task :buildSrc:reaper:compileTestJava NO-SOURCE
+> Task :buildSrc:reaper:processTestResources NO-SOURCE
+> Task :buildSrc:reaper:testClasses UP-TO-DATE
+> Task :buildSrc:reaper:test NO-SOURCE
+> Task :buildSrc:reaper:check UP-TO-DATE
+> Task :buildSrc:reaper:build UP-TO-DATE
+
+> Configure project :distribution:docker
+Tests for :distribution:docker require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :modules:reindex
+Disabling reindex-from-old tests because we can't get the pid file on windows
+
+> Configure project :test:fixtures:krb5kdc-fixture
+Tests for :test:fixtures:krb5kdc-fixture require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :plugins:repository-hdfs
+Tests for :plugins:repository-hdfs require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+hdfsFixture unsupported, please set HADOOP_HOME and put HADOOP_HOME\bin in PATH
+
+> Configure project :test:fixtures:minio-fixture
+Tests for :test:fixtures:minio-fixture require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :test:fixtures:s3-fixture
+Tests for :test:fixtures:s3-fixture require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :plugins:repository-s3
+Tests for :plugins:repository-s3 require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :x-pack:snapshot-tool
+Tests for :x-pack:snapshot-tool require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :test:fixtures:azure-fixture
+Tests for :test:fixtures:azure-fixture require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :test:fixtures:gcs-fixture
+Tests for :test:fixtures:gcs-fixture require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :x-pack:qa:kerberos-tests
+Tests for :x-pack:qa:kerberos-tests require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :x-pack:test:idp-fixture
+Tests for :x-pack:test:idp-fixture require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :x-pack:qa:oidc-op-tests
+Tests for :x-pack:qa:oidc-op-tests require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :x-pack:qa:openldap-tests
+Tests for :x-pack:qa:openldap-tests require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :x-pack:qa:saml-idp-tests
+Tests for :x-pack:qa:saml-idp-tests require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :x-pack:test:smb-fixture
+Tests for :x-pack:test:smb-fixture require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :plugins:repository-azure:qa:microsoft-azure-storage
+Tests for :plugins:repository-azure:qa:microsoft-azure-storage require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :plugins:repository-gcs:qa:google-cloud-storage
+Tests for :plugins:repository-gcs:qa:google-cloud-storage require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Configure project :x-pack:qa:third-party:active-directory
+Tests for :x-pack:qa:third-party:active-directory require docker-compose at /usr/local/bin/docker-compose or /usr/bin/docker-compose but none could be found so these will be skipped
+
+> Task :generateGlobalBuildInfo UP-TO-DATE
+
+> Task :printGlobalBuildInfo UP-TO-DATE
+=======================================
+Elasticsearch Build Hamster says Hello!
+  Gradle Version        : 5.6.2
+  OS Info               : Windows 7 6.1 (amd64)
+  JDK Version           : 12 (Oracle Corporation 12.0.2 [OpenJDK 64-Bit Server VM 12.0.2+10])
+  JAVA_HOME             : C:\Program Files\Java\jdk-12.0.2
+  Random Testing Seed   : 9EA1F2A3814E5F76
+=======================================
+
+> Task :libs:elasticsearch-core:compileJava UP-TO-DATE
+> Task :libs:elasticsearch-core:processResources NO-SOURCE
+> Task :libs:elasticsearch-core:classes UP-TO-DATE
+> Task :libs:elasticsearch-core:compileJava9Java UP-TO-DATE
+> Task :libs:elasticsearch-core:processJava9Resources NO-SOURCE
+> Task :libs:elasticsearch-core:java9Classes UP-TO-DATE
+> Task :libs:elasticsearch-core:jar UP-TO-DATE
+> Task :libs:elasticsearch-cli:compileJava UP-TO-DATE
+> Task :libs:elasticsearch-cli:processResources NO-SOURCE
+> Task :libs:elasticsearch-cli:classes UP-TO-DATE
+> Task :libs:elasticsearch-cli:jar UP-TO-DATE
+> Task :libs:elasticsearch-geo:compileJava UP-TO-DATE
+> Task :libs:elasticsearch-geo:processResources NO-SOURCE
+> Task :libs:elasticsearch-geo:classes UP-TO-DATE
+> Task :libs:elasticsearch-geo:jar UP-TO-DATE
+> Task :libs:elasticsearch-plugin-classloader:compileJava UP-TO-DATE
+> Task :libs:elasticsearch-plugin-classloader:processResources NO-SOURCE
+> Task :libs:elasticsearch-plugin-classloader:classes UP-TO-DATE
+> Task :libs:elasticsearch-plugin-classloader:jar UP-TO-DATE
+> Task :libs:elasticsearch-secure-sm:compileJava UP-TO-DATE
+> Task :libs:elasticsearch-secure-sm:processResources NO-SOURCE
+> Task :libs:elasticsearch-secure-sm:classes UP-TO-DATE
+> Task :libs:elasticsearch-secure-sm:jar UP-TO-DATE
+> Task :libs:elasticsearch-x-content:compileJava UP-TO-DATE
+> Task :libs:elasticsearch-x-content:processResources NO-SOURCE
+> Task :libs:elasticsearch-x-content:classes UP-TO-DATE
+> Task :libs:elasticsearch-x-content:jar UP-TO-DATE
+> Task :server:compileJava UP-TO-DATE
+> Task :server:generateModulesList UP-TO-DATE
+> Task :server:generatePluginsList UP-TO-DATE
+> Task :server:processResources UP-TO-DATE
+> Task :server:classes UP-TO-DATE
+> Task :server:compileJava9Java UP-TO-DATE
+> Task :server:processJava9Resources NO-SOURCE
+> Task :server:java9Classes UP-TO-DATE
+> Task :server:jar UP-TO-DATE
+> Task :client:rest:compileJava UP-TO-DATE
+> Task :client:rest:processResources NO-SOURCE
+> Task :client:rest:classes UP-TO-DATE
+> Task :client:rest:jar UP-TO-DATE
+> Task :client:sniffer:compileJava UP-TO-DATE
+> Task :client:sniffer:processResources NO-SOURCE
+> Task :client:sniffer:classes UP-TO-DATE
+> Task :client:sniffer:jar UP-TO-DATE
+> Task :libs:elasticsearch-nio:compileJava UP-TO-DATE
+> Task :libs:elasticsearch-nio:processResources NO-SOURCE
+> Task :libs:elasticsearch-nio:classes UP-TO-DATE
+> Task :libs:elasticsearch-nio:jar UP-TO-DATE
+> Task :test:framework:compileJava UP-TO-DATE
+> Task :test:framework:processResources UP-TO-DATE
+> Task :test:framework:classes UP-TO-DATE
+> Task :test:framework:compileTestJava UP-TO-DATE
+> Task :test:framework:processTestResources UP-TO-DATE
+> Task :test:framework:testClasses UP-TO-DATE
+
+> Task :test:framework:test
+
+> Task :test:framework:jar UP-TO-DATE
+> Task :test:logger-usage:compileJava UP-TO-DATE
+> Task :test:logger-usage:processResources NO-SOURCE
+> Task :test:logger-usage:classes UP-TO-DATE
+> Task :test:logger-usage:compileTestJava UP-TO-DATE
+> Task :test:logger-usage:processTestResources NO-SOURCE
+> Task :test:logger-usage:testClasses UP-TO-DATE
+> Task :test:logger-usage:test
+> Task :libs:elasticsearch-core:compileTestJava UP-TO-DATE
+> Task :libs:elasticsearch-core:processTestResources UP-TO-DATE
+> Task :libs:elasticsearch-core:testClasses UP-TO-DATE
+
+> Task :libs:elasticsearch-core:test
+
+> Task :libs:elasticsearch-cli:compileTestJava NO-SOURCE
+> Task :libs:elasticsearch-cli:processTestResources NO-SOURCE
+> Task :libs:elasticsearch-cli:testClasses UP-TO-DATE
+> Task :libs:elasticsearch-cli:test SKIPPED
+> Task :libs:elasticsearch-geo:compileTestJava UP-TO-DATE
+> Task :libs:elasticsearch-geo:processTestResources NO-SOURCE
+> Task :libs:elasticsearch-geo:testClasses UP-TO-DATE
+> Task :libs:elasticsearch-geo:test
+> Task :libs:elasticsearch-plugin-classloader:compileTestJava NO-SOURCE
+> Task :libs:elasticsearch-plugin-classloader:processTestResources NO-SOURCE
+> Task :libs:elasticsearch-plugin-classloader:testClasses UP-TO-DATE
+> Task :libs:elasticsearch-plugin-classloader:test SKIPPED
+> Task :libs:elasticsearch-secure-sm:compileTestJava UP-TO-DATE
+> Task :libs:elasticsearch-secure-sm:processTestResources NO-SOURCE
+> Task :libs:elasticsearch-secure-sm:testClasses UP-TO-DATE
+> Task :libs:elasticsearch-secure-sm:test
+> Task :libs:elasticsearch-x-content:compileTestJava UP-TO-DATE
+> Task :libs:elasticsearch-x-content:processTestResources NO-SOURCE
+> Task :libs:elasticsearch-x-content:testClasses UP-TO-DATE
+> Task :libs:elasticsearch-x-content:test
+> Task :server:compileTestJava UP-TO-DATE
+> Task :server:processTestResources UP-TO-DATE
+> Task :server:testClasses UP-TO-DATE
+
+> Task :server:test
+
+org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests > classMethod FAILED
+    java.io.IOException: Could not remove the following files (in the order of attempts):
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001\tempDir-001: java.nio.file.AccessDeniedException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001\tempDir-001
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001
+  1> [2020-02-16T23:20:02,811][INFO ][o.e.a.a.c.s.s.SnapshotIndexShardStatusTests] [testFromXContent] before test
+  1> [2020-02-16T23:20:02,845][INFO ][o.e.a.a.c.s.s.SnapshotIndexShardStatusTests] [testFromXContent] after test
+
+org.elasticsearch.common.geo.builders.MultiLineStringBuilderTests > classMethod FAILED
+    java.io.IOException: Could not remove the following files (in the order of attempts):
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.common.geo.builders.MultiLineStringBuilderTests_9EA1F2A3814E5F76-001\tempDir-001: java.nio.file.AccessDeniedException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.common.geo.builders.MultiLineStringBuilderTests_9EA1F2A3814E5F76-001\tempDir-001
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.common.geo.builders.MultiLineStringBuilderTests_9EA1F2A3814E5F76-001: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.common.geo.builders.MultiLineStringBuilderTests_9EA1F2A3814E5F76-001
+  1> [2020-02-16T16:21:42,229][INFO ][o.e.c.g.b.MultiLineStringBuilderTests] [testFromXContent] before test
+  1> [2020-02-16T16:21:42,240][INFO ][o.e.c.g.b.MultiLineStringBuilderTests] [testFromXContent] after test
+  1> [2020-02-16T16:21:42,243][INFO ][o.e.c.g.b.MultiLineStringBuilderTests] [testEqualsAndHashcode] before test
+  1> [2020-02-16T16:21:42,244][INFO ][o.e.c.g.b.MultiLineStringBuilderTests] [testEqualsAndHashcode] after test
+  1> [2020-02-16T16:21:42,245][INFO ][o.e.c.g.b.MultiLineStringBuilderTests] [testSerialization] before test
+  1> [2020-02-16T16:21:42,246][INFO ][o.e.c.g.b.MultiLineStringBuilderTests] [testSerialization] after test
+
+org.elasticsearch.index.MergeSchedulerSettingsTests > testMaxThreadAndMergeCount FAILED
+    java.lang.AssertionError: 
+    Expected: an empty collection
+         but: <[299 Elasticsearch-7.5.1-SNAPSHOT-unknown "setting [node.processors] to value [8] which is more than available processors [4] is deprecated"]>
+  1> [2020-02-17T04:53:33,819][INFO ][o.e.i.MergeSchedulerSettingsTests] [testUpdateAutoThrottleSettings] before test
+  1> [2020-02-17T04:53:33,822][INFO ][o.e.c.s.IndexScopedSettings] [testUpdateAutoThrottleSettings] updating [index.merge.scheduler.auto_throttle] from [true] to [false]
+  1> [2020-02-17T04:53:33,824][INFO ][o.e.i.MergeSchedulerSettingsTests] [testUpdateAutoThrottleSettings] after test
+  1> [2020-02-17T04:53:33,826][INFO ][o.e.i.MergeSchedulerSettingsTests] [testMaxThreadAndMergeCount] before test
+  1> [2020-02-17T04:53:33,827][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_thread_count] from [4] to [15]
+  1> [2020-02-17T04:53:33,827][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [10] to [20]
+  1> [2020-02-17T04:53:33,828][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_thread_count] from [15] to [40]
+  1> [2020-02-17T04:53:33,828][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [20] to [50]
+  1> [2020-02-17T04:53:33,828][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [50] to [45]
+  1> [2020-02-17T04:53:33,828][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [45] to [30]
+  1> [2020-02-17T04:53:33,828][WARN ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] failed to apply settings
+  1> java.lang.IllegalArgumentException: maxThreadCount (= 40) should be <= maxMergeCount (= 30)
+  1> 	at org.elasticsearch.index.MergeSchedulerConfig.setMaxThreadAndMergeCount(MergeSchedulerConfig.java:113) ~[main/:?]
+  1> 	at org.elasticsearch.common.settings.Setting$1.apply(Setting.java:621) ~[main/:?]
+  1> 	at org.elasticsearch.common.settings.Setting$1.apply(Setting.java:599) ~[main/:?]
+  1> 	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.lambda$updater$0(AbstractScopedSettings.java:609) ~[main/:?]
+  1> 	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:191) [main/:?]
+  1> 	at org.elasticsearch.index.IndexSettings.updateIndexMetaData(IndexSettings.java:716) [main/:?]
+  1> 	at org.elasticsearch.index.MergeSchedulerSettingsTests.lambda$testMaxThreadAndMergeCount$1(MergeSchedulerSettingsTests.java:176) [test/:?]
+  1> 	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.elasticsearch.index.MergeSchedulerSettingsTests.testMaxThreadAndMergeCount(MergeSchedulerSettingsTests.java:175) [test/:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+  1> 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+  1> 	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at java.lang.Thread.run(Thread.java:835) [?:?]
+  1> [2020-02-17T04:53:33,830][WARN ][o.e.d.c.u.c.EsExecutors  ] [testMaxThreadAndMergeCount] setting [node.processors] to value [8] which is more than available processors [4] is deprecated
+  1> [2020-02-17T04:53:33,831][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_thread_count] from [40] to [4]
+  1> [2020-02-17T04:53:33,832][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [45] to [3]
+  1> [2020-02-17T04:53:33,832][WARN ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] failed to apply settings
+  1> java.lang.IllegalArgumentException: maxThreadCount (= 4) should be <= maxMergeCount (= 3)
+  1> 	at org.elasticsearch.index.MergeSchedulerConfig.setMaxThreadAndMergeCount(MergeSchedulerConfig.java:113) ~[main/:?]
+  1> 	at org.elasticsearch.common.settings.Setting$1.apply(Setting.java:621) ~[main/:?]
+  1> 	at org.elasticsearch.common.settings.Setting$1.apply(Setting.java:599) ~[main/:?]
+  1> 	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.lambda$updater$0(AbstractScopedSettings.java:609) ~[main/:?]
+  1> 	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:191) [main/:?]
+  1> 	at org.elasticsearch.index.IndexSettings.updateIndexMetaData(IndexSettings.java:716) [main/:?]
+  1> 	at org.elasticsearch.index.MergeSchedulerSettingsTests.lambda$testMaxThreadAndMergeCount$2(MergeSchedulerSettingsTests.java:180) [test/:?]
+  1> 	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.elasticsearch.index.MergeSchedulerSettingsTests.testMaxThreadAndMergeCount(MergeSchedulerSettingsTests.java:179) [test/:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+  1> 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+  1> 	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at java.lang.Thread.run(Thread.java:835) [?:?]
+  1> [2020-02-17T04:53:33,837][INFO ][o.e.i.MergeSchedulerSettingsTests] [testUpdateMergeMaxThreadCount] before test
+  1> [2020-02-17T04:53:33,839][INFO ][o.e.c.s.IndexScopedSettings] [testUpdateMergeMaxThreadCount] updating [index.merge.scheduler.max_thread_count] from [10000] to [1]
+  1> [2020-02-17T04:53:33,841][INFO ][o.e.i.MergeSchedulerSettingsTests] [testUpdateMergeMaxThreadCount] after test
+
+org.elasticsearch.rest.action.admin.indices.RestGetIndicesActionTests > classMethod FAILED
+    java.io.IOException: Could not remove the following files (in the order of attempts):
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.rest.action.admin.indices.RestGetIndicesActionTests_9EA1F2A3814E5F76-001: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.rest.action.admin.indices.RestGetIndicesActionTests_9EA1F2A3814E5F76-001
+  1> [2020-02-16T15:24:04,688][INFO ][o.e.r.a.a.i.RestGetIndicesActionTests] [testIncludeTypeNamesWarning] before test
+  1> [2020-02-16T15:24:04,690][WARN ][o.e.d.r.a.a.i.RestGetIndicesAction] [testIncludeTypeNamesWarning] [types removal] Using `include_type_name` in get indices requests is deprecated. The parameter will be removed in the next major version.
+  1> [2020-02-16T15:24:04,690][INFO ][o.e.r.a.a.i.RestGetIndicesActionTests] [testIncludeTypeNamesWarning] after test
+  1> [2020-02-16T15:24:04,693][INFO ][o.e.r.a.a.i.RestGetIndicesActionTests] [testIncludeTypeNamesWarningExists] before test
+  1> [2020-02-16T15:24:04,693][INFO ][o.e.r.a.a.i.RestGetIndicesActionTests] [testIncludeTypeNamesWarningExists] after test
+
+org.elasticsearch.index.shard.IndexShardTests > classMethod FAILED
+    java.io.IOException: Could not remove the following files (in the order of attempts):
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241\indices\_na_\0\translog: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241\indices\_na_\0\translog
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241\indices\_na_\0: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241\indices\_na_\0
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241\indices\_na_: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241\indices\_na_
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241\indices: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241\indices
+       E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-241
+  1> [2020-02-16T23:23:55,844][INFO ][o.e.i.s.IndexShardTests  ] [testDelayedOperationsBeforeAndAfterRelocated] before test
+  1> [2020-02-16T23:23:55,933][INFO ][o.e.i.s.IndexShardTests  ] [testDelayedOperationsBeforeAndAfterRelocated] after test
+  1> [2020-02-16T23:23:55,935][INFO ][o.e.i.s.IndexShardTests  ] [testRestoreShard] before test
+  1> [2020-02-16T23:23:56,251][INFO ][o.e.i.s.IndexShardTests  ] [testRestoreShard] after test
+  1> [2020-02-16T23:23:56,254][INFO ][o.e.i.s.IndexShardTests  ] [testClosedIndicesSkipSyncGlobalCheckpoint] before test
+  1> [2020-02-16T23:23:56,418][INFO ][o.e.i.s.IndexShardTests  ] [testClosedIndicesSkipSyncGlobalCheckpoint] after test
+  1> [2020-02-16T23:23:56,421][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStoreWithOutOfOrderDelete] before test
+  1> [2020-02-16T23:23:56,721][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStoreWithOutOfOrderDelete] after test
+  1> [2020-02-16T23:23:56,726][INFO ][o.e.i.s.IndexShardTests  ] [testFailIfIndexNotPresentInRecoverFromStore] before test
+  1> [2020-02-16T23:23:56,918][INFO ][o.e.i.s.IndexShardTests  ] [testFailIfIndexNotPresentInRecoverFromStore] after test
+  1> [2020-02-16T23:23:56,921][INFO ][o.e.i.s.IndexShardTests  ] [testReadSnapshotAndCheckIndexConcurrently] before test
+  1> [2020-02-16T23:23:58,663][INFO ][o.e.i.s.IndexShardTests  ] [testReadSnapshotAndCheckIndexConcurrently] after test
+  1> [2020-02-16T23:23:58,667][INFO ][o.e.i.s.IndexShardTests  ] [testPrimaryPromotionRollsGeneration] before test
+  1> [2020-02-16T23:23:58,832][INFO ][o.e.i.s.IndexShardTests  ] [testPrimaryPromotionRollsGeneration] after test
+  1> [2020-02-16T23:23:58,836][INFO ][o.e.i.s.IndexShardTests  ] [testShardStateMetaHashCodeEquals] before test
+  1> [2020-02-16T23:23:58,836][INFO ][o.e.i.s.IndexShardTests  ] [testShardStateMetaHashCodeEquals] after test
+  1> [2020-02-16T23:23:58,839][INFO ][o.e.i.s.IndexShardTests  ] [testEstimateTotalDocSize] before test
+  1> [2020-02-16T23:23:59,157][INFO ][o.e.i.s.IndexShardTests  ] [testEstimateTotalDocSize] after test
+  1> [2020-02-16T23:23:59,176][INFO ][o.e.i.s.IndexShardTests  ] [testStressRelocated] before test
+  1> [2020-02-16T23:23:59,266][INFO ][o.e.i.s.IndexShardTests  ] [testStressRelocated] after test
+  1> [2020-02-16T23:23:59,270][INFO ][o.e.i.s.IndexShardTests  ] [testCloseShardWhileEngineIsWarming] before test
+  1> [2020-02-16T23:23:59,495][INFO ][o.e.i.s.IndexShardTests  ] [testCloseShardWhileEngineIsWarming] after test
+  1> [2020-02-16T23:23:59,500][INFO ][o.e.i.s.IndexShardTests  ] [testResetEngine] before test
+  1> [2020-02-16T23:24:01,169][INFO ][o.e.i.s.IndexShardTests  ] [testResetEngine] after test
+  1> [2020-02-16T23:24:01,181][INFO ][o.e.i.s.IndexShardTests  ] [testLockingBeforeAndAfterRelocated] before test
+  1> [2020-02-16T23:24:01,266][INFO ][o.e.i.s.IndexShardTests  ] [testLockingBeforeAndAfterRelocated] after test
+  1> [2020-02-16T23:24:01,269][INFO ][o.e.i.s.IndexShardTests  ] [testIndexingOperationListenersIsInvokedOnRecovery] before test
+  1> [2020-02-16T23:24:01,514][INFO ][o.e.i.s.IndexShardTests  ] [testIndexingOperationListenersIsInvokedOnRecovery] after test
+  1> [2020-02-16T23:24:01,519][INFO ][o.e.i.s.IndexShardTests  ] [testReaderWrapperIsUsed] before test
+  1> [2020-02-16T23:24:01,732][INFO ][o.e.i.s.IndexShardTests  ] [testReaderWrapperIsUsed] after test
+  1> [2020-02-16T23:24:01,738][INFO ][o.e.i.s.IndexShardTests  ] [testRunUnderPrimaryPermitOnFailure] before test
+  1> [2020-02-16T23:24:01,812][INFO ][o.e.i.s.IndexShardTests  ] [testRunUnderPrimaryPermitOnFailure] after test
+  1> [2020-02-16T23:24:01,815][INFO ][o.e.i.s.IndexShardTests  ] [testPrimaryHandOffUpdatesLocalCheckpoint] before test
+  1> [2020-02-16T23:24:02,216][INFO ][o.e.i.s.IndexShardTests  ] [testPrimaryHandOffUpdatesLocalCheckpoint] after test
+  1> [2020-02-16T23:24:02,223][INFO ][o.e.i.s.IndexShardTests  ] [testSnapshotStore] before test
+  1> [2020-02-16T23:24:02,381][INFO ][o.e.i.s.IndexShardTests  ] [testSnapshotStore] after test
+  1> [2020-02-16T23:24:02,419][INFO ][o.e.i.s.IndexShardTests  ] [testTranslogRecoverySyncsTranslog] before test
+  1> [2020-02-16T23:24:02,660][INFO ][o.e.i.s.IndexShardTests  ] [testTranslogRecoverySyncsTranslog] after test
+  1> [2020-02-16T23:24:02,664][INFO ][o.e.i.s.IndexShardTests  ] [testRecoveryFailsAfterMovingToRelocatedState] before test
+  1> [2020-02-16T23:24:02,736][INFO ][o.e.i.s.IndexShardTests  ] [testRecoveryFailsAfterMovingToRelocatedState] after test
+  1> [2020-02-16T23:24:02,739][INFO ][o.e.i.s.IndexShardTests  ] [testShardActiveDuringPeerRecovery] before test
+  1> [2020-02-16T23:24:03,001][INFO ][o.e.i.s.IndexShardTests  ] [testShardActiveDuringPeerRecovery] after test
+  1> [2020-02-16T23:24:03,004][INFO ][o.e.i.s.IndexShardTests  ] [testOnCloseStats] before test
+  1> [2020-02-16T23:24:03,195][INFO ][o.e.i.s.IndexShardTests  ] [testOnCloseStats] after test
+  1> [2020-02-16T23:24:03,209][INFO ][o.e.i.s.IndexShardTests  ] [testFlushOnInactive] before test
+  1> [2020-02-16T23:24:03,424][INFO ][o.e.i.s.IndexShardTests  ] [testFlushOnInactive] after test
+  1> [2020-02-16T23:24:03,427][INFO ][o.e.i.s.IndexShardTests  ] [testConcurrentAcquireAllReplicaOperationsPermitsWithPrimaryTermUpdate] before test
+  1> [2020-02-16T23:24:03,878][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.shard.IndexShardTests] [index][0] detected new primary with primary term [63], global checkpoint [-1], max_seq_no [838]
+  1> [2020-02-16T23:24:04,086][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.shard.IndexShardTests] [index][0] detected new primary with primary term [64], global checkpoint [-1], max_seq_no [-1]
+  1> [2020-02-16T23:24:04,095][INFO ][o.e.i.s.IndexShardTests  ] [testConcurrentAcquireAllReplicaOperationsPermitsWithPrimaryTermUpdate] after test
+  1> [2020-02-16T23:24:04,100][INFO ][o.e.i.s.IndexShardTests  ] [testResetEngineWithBrokenTranslog] before test
+  1> [2020-02-16T23:24:04,259][INFO ][o.e.i.s.IndexShardTests  ] [testResetEngineWithBrokenTranslog] after test
+  1> [2020-02-16T23:24:04,263][INFO ][o.e.i.s.IndexShardTests  ] [testScheduledRefresh] before test
+  1> [2020-02-16T23:24:04,349][INFO ][o.e.c.s.IndexScopedSettings] [testScheduledRefresh] updating [index.search.idle.after] from [30s] to [0ms]
+  1> [2020-02-16T23:24:04,432][INFO ][o.e.i.s.IndexShardTests  ] [testScheduledRefresh] after test
+  1> [2020-02-16T23:24:04,437][INFO ][o.e.i.s.IndexShardTests  ] [testTypelessDelete] before test
+  1> [2020-02-16T23:24:04,553][INFO ][o.e.i.s.IndexShardTests  ] [testTypelessDelete] after test
+  1> [2020-02-16T23:24:04,556][INFO ][o.e.i.s.IndexShardTests  ] [testConcurrentTermIncreaseOnReplicaShard] before test
+  1> [2020-02-16T23:24:04,740][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.shard.IndexShardTests] [index][0] detected new primary with primary term [61], global checkpoint [-1], max_seq_no [-1]
+  1> [2020-02-16T23:24:04,746][INFO ][o.e.i.s.IndexShardTests  ] [testConcurrentTermIncreaseOnReplicaShard] after test
+  1> [2020-02-16T23:24:04,750][INFO ][o.e.i.s.IndexShardTests  ] [testCompletionStatsMarksSearcherAccessed] before test
+  1> [2020-02-16T23:24:04,932][INFO ][o.e.i.s.IndexShardTests  ] [testCompletionStatsMarksSearcherAccessed] after test
+  1> [2020-02-16T23:24:04,935][INFO ][o.e.i.s.IndexShardTests  ] [testPublishingOrderOnPromotion] before test
+  1> [2020-02-16T23:24:05,127][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.shard.IndexShardTests] [index][0] primary-replica resync completed with 0 operations
+  1> [2020-02-16T23:24:05,130][INFO ][o.e.i.s.IndexShardTests  ] [testPublishingOrderOnPromotion] after test
+  1> [2020-02-16T23:24:05,133][INFO ][o.e.i.s.IndexShardTests  ] [testRelocatedShardCanNotBeRevived] before test
+  1> [2020-02-16T23:24:05,218][INFO ][o.e.i.s.IndexShardTests  ] [testRelocatedShardCanNotBeRevived] after test
+  1> [2020-02-16T23:24:05,221][INFO ][o.e.i.s.IndexShardTests  ] [testWriteShardState] before test
+  1> [2020-02-16T23:24:05,244][INFO ][o.e.e.NodeEnvironment    ] [testWriteShardState] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+  1> [2020-02-16T23:24:05,244][INFO ][o.e.e.NodeEnvironment    ] [testWriteShardState] heap size [512mb], compressed ordinary object pointers [true]
+  1> [2020-02-16T23:24:05,267][INFO ][o.e.i.s.IndexShardTests  ] [testWriteShardState] after test
+  1> [2020-02-16T23:24:05,271][INFO ][o.e.i.s.IndexShardTests  ] [testRestoreLocalHistoryFromTranslogOnPromotion] before test
+  1> [2020-02-16T23:24:06,118][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.shard.IndexShardTests] [index][0] detected new primary with primary term [19], global checkpoint [108], max_seq_no [721]
+  1> [2020-02-16T23:24:06,488][INFO ][o.e.i.s.IndexShardTests  ] [testRestoreLocalHistoryFromTranslogOnPromotion] after test
+  1> [2020-02-16T23:24:06,491][INFO ][o.e.i.s.IndexShardTests  ] [testIndexCheckOnStartup] before test
+  1> [2020-02-16T23:24:06,603][INFO ][o.e.t.CorruptionUtils    ] [testIndexCheckOnStartup] Corrupting file --  flipping at position 264 from 4c to 4d file: _0.cfe
+  1> [2020-02-16T23:24:06,604][INFO ][o.e.t.CorruptionUtils    ] [testIndexCheckOnStartup] Checksum before: [1560192971] after: [303401268] checksum value after corruption: 1560192971] file: _0.cfe length: 331
+  1> [2020-02-16T23:24:06,639][WARN ][o.e.i.s.IndexShard       ] [testIndexCheckOnStartup] [index][0] check index [failure]
+  1> checksum failed: _0.cfe
+  1> org.apache.lucene.index.CorruptIndexException: checksum failed (hardware problem?) : expected=5cfea7cb actual=35b2a23a (resource=BufferedChecksumIndexInput(MockIndexInputWrapper(NIOFSIndexInput(path="E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.IndexShardTests_9EA1F2A3814E5F76-001\tempDir-104\indices\_na_\0\index\_0.cfe"))))
+  1> 	at org.apache.lucene.codecs.CodecUtil.checkFooter(CodecUtil.java:419)
+  1> 	at org.apache.lucene.codecs.CodecUtil.checksumEntireFile(CodecUtil.java:526)
+  1> 	at org.elasticsearch.index.store.Store.checkIntegrity(Store.java:537)
+  1> 	at org.elasticsearch.index.shard.IndexShard.doCheckIndex(IndexShard.java:2478)
+  1> 	at org.elasticsearch.index.shard.IndexShard.checkIndex(IndexShard.java:2454)
+  1> 	at org.elasticsearch.index.shard.IndexShard.maybeCheckIndex(IndexShard.java:2444)
+  1> 	at org.elasticsearch.index.shard.IndexShard.openEngineAndRecoverFromTranslog(IndexShard.java:1579)
+  1> 	at org.elasticsearch.index.shard.StoreRecovery.internalRecoverFromStore(StoreRecovery.java:422)
+  1> 	at org.elasticsearch.index.shard.StoreRecovery.lambda$recoverFromStore$0(StoreRecovery.java:95)
+  1> 	at org.elasticsearch.index.shard.StoreRecovery.executeRecovery(StoreRecovery.java:308)
+  1> 	at org.elasticsearch.index.shard.StoreRecovery.recoverFromStore(StoreRecovery.java:93)
+  1> 	at org.elasticsearch.index.shard.IndexShard.recoverFromStore(IndexShard.java:1859)
+  1> 	at org.elasticsearch.index.shard.IndexShardTestCase.recoverShardFromStore(IndexShardTestCase.java:549)
+  1> 	at org.elasticsearch.index.shard.IndexShardTestCase.newStartedShard(IndexShardTestCase.java:511)
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.lambda$testIndexCheckOnStartup$78(IndexShardTests.java:3127)
+  1> 	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842)
+  1> 	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717)
+  1> 	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712)
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.testIndexCheckOnStartup(IndexShardTests.java:3127)
+  1> 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  1> 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  1> 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  1> 	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750)
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938)
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974)
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988)
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49)
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45)
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48)
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64)
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47)
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368)
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817)
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468)
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947)
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832)
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883)
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894)
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45)
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41)
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40)
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40)
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53)
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47)
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64)
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54)
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368)
+  1> 	at java.base/java.lang.Thread.run(Thread.java:835)
+  1> checksum passed: _0.si
+  1> checksum passed: _0.cfs
+  1> checksum passed: segments_3
+  1> 
+  1> [2020-02-16T23:24:06,647][INFO ][o.e.i.s.IndexShardTests  ] [testIndexCheckOnStartup] after test
+  1> [2020-02-16T23:24:06,653][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromCleanStore] before test
+  1> [2020-02-16T23:24:06,826][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromCleanStore] after test
+  1> [2020-02-16T23:24:06,829][INFO ][o.e.i.s.IndexShardTests  ] [testSegmentMemoryTrackedInBreaker] before test
+  1> [2020-02-16T23:24:07,027][INFO ][o.e.i.s.IndexShardTests  ] [testSegmentMemoryTrackedInBreaker] after test
+  1> [2020-02-16T23:24:07,029][INFO ][o.e.i.s.IndexShardTests  ] [testRelocatedShardCanNotBeRevivedConcurrently] before test
+  1> [2020-02-16T23:24:07,107][INFO ][o.e.i.s.IndexShardTests  ] [testRelocatedShardCanNotBeRevivedConcurrently] after test
+  1> [2020-02-16T23:24:07,113][INFO ][o.e.i.s.IndexShardTests  ] [testFailShard] before test
+  1> [2020-02-16T23:24:07,281][WARN ][o.e.i.e.Engine           ] [testFailShard] [index][0] failed engine [test shard fail]
+  1> org.apache.lucene.index.CorruptIndexException:  (resource=)
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.testFailShard(IndexShardTests.java:268) [test/:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+  1> 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+  1> 	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at java.lang.Thread.run(Thread.java:835) [?:?]
+  1> [2020-02-16T23:24:07,288][INFO ][o.e.i.s.IndexShardTests  ] [testFailShard] after test
+  1> [2020-02-16T23:24:07,291][INFO ][o.e.i.s.IndexShardTests  ] [testAcquireReplicaPermitAdvanceMaxSeqNoOfUpdates] before test
+  1> [2020-02-16T23:24:07,498][INFO ][o.e.i.s.IndexShardTests  ] [testAcquireReplicaPermitAdvanceMaxSeqNoOfUpdates] after test
+  1> [2020-02-16T23:24:07,502][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStoreRemoveStaleOperations] before test
+  1> [2020-02-16T23:24:08,121][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStoreRemoveStaleOperations] after test
+  1> [2020-02-16T23:24:08,236][INFO ][o.e.i.s.IndexShardTests  ] [testDoNotTrimCommitsWhenOpenReadOnlyEngine] before test
+  1> [2020-02-16T23:24:08,638][INFO ][o.e.i.s.IndexShardTests  ] [testDoNotTrimCommitsWhenOpenReadOnlyEngine] after test
+  1> [2020-02-16T23:24:08,646][INFO ][o.e.i.s.IndexShardTests  ] [testSegmentMemoryTrackedWithRandomSearchers] before test
+  1> [2020-02-16T23:24:08,738][INFO ][o.e.i.s.IndexShardTests  ] [testSegmentMemoryTrackedWithRandomSearchers] --> running with 3 threads and 80 iterations each
+  1> [2020-02-16T23:24:14,085][INFO ][o.e.i.s.IndexShardTests  ] [testSegmentMemoryTrackedWithRandomSearchers] --> comparing segmentMem: 1053 - breaker: 1053 => true
+  1> [2020-02-16T23:24:14,103][INFO ][o.e.i.s.IndexShardTests  ] [testSegmentMemoryTrackedWithRandomSearchers] after test
+  1> [2020-02-16T23:24:14,105][INFO ][o.e.i.s.IndexShardTests  ] [testOperationPermitOnReplicaShards] before test
+  1> [2020-02-16T23:24:14,132][INFO ][o.e.i.s.IndexShardTests  ] [testOperationPermitOnReplicaShards] shard routing to [test][0], node[local_node], relocating [sourceNode], [P], recovery_source[existing store recovery; bootstrap_history_uuid=false], s[INITIALIZING], a[id=yAmX3mHLTQ-k7d1qDr7qeA, rId=RBL1br4cQrqRt0KhWbxLag], unassigned_info[[reason=NEW_INDEX_RESTORED], at[2020-02-16T22:24:14.106Z], delayed=false, details[auto generated for test], allocation_status[no_attempt]]
+  1> [2020-02-16T23:24:14,134][INFO ][o.e.i.s.IndexShardTests  ] [testOperationPermitOnReplicaShards] after test
+  1> [2020-02-16T23:24:14,137][INFO ][o.e.i.s.IndexShardTests  ] [testTypelessGet] before test
+  1> [2020-02-16T23:24:14,249][INFO ][o.e.i.s.IndexShardTests  ] [testTypelessGet] after test
+  1> [2020-02-16T23:24:14,252][INFO ][o.e.i.s.IndexShardTests  ] [testRefreshIsNeededWithRefreshListeners] before test
+  1> [2020-02-16T23:24:14,374][INFO ][o.e.c.s.IndexScopedSettings] [testRefreshIsNeededWithRefreshListeners] updating [index.search.idle.after] from [30s] to [0ms]
+  1> [2020-02-16T23:24:14,405][INFO ][o.e.i.s.IndexShardTests  ] [testRefreshIsNeededWithRefreshListeners] after test
+  1> [2020-02-16T23:24:14,409][INFO ][o.e.i.s.IndexShardTests  ] [testShardStats] before test
+  1> [2020-02-16T23:24:14,490][INFO ][o.e.i.s.IndexShardTests  ] [testShardStats] after test
+  1> [2020-02-16T23:24:14,512][INFO ][o.e.i.s.IndexShardTests  ] [testSearchIsReleaseIfWrapperFails] before test
+  1> [2020-02-16T23:24:14,714][INFO ][o.e.i.s.IndexShardTests  ] [testSearchIsReleaseIfWrapperFails] after test
+  1> [2020-02-16T23:24:14,727][INFO ][o.e.i.s.IndexShardTests  ] [testShardActiveDuringInternalRecovery] before test
+  1> [2020-02-16T23:24:14,937][INFO ][o.e.i.s.IndexShardTests  ] [testShardActiveDuringInternalRecovery] after test
+  1> [2020-02-16T23:24:15,012][INFO ][o.e.i.s.IndexShardTests  ] [testRunUnderPrimaryPermitDelaysToExecutorWhenBlocked] before test
+  1> [2020-02-16T23:24:15,094][INFO ][o.e.i.s.IndexShardTests  ] [testRunUnderPrimaryPermitDelaysToExecutorWhenBlocked] after test
+  1> [2020-02-16T23:24:15,097][INFO ][o.e.i.s.IndexShardTests  ] [testSnapshotWhileResettingEngine] before test
+  1> [2020-02-16T23:24:15,653][INFO ][o.e.i.s.IndexShardTests  ] [testSnapshotWhileResettingEngine] after test
+  1> [2020-02-16T23:24:15,656][INFO ][o.e.i.s.IndexShardTests  ] [testIndexingOperationsListeners] before test
+  1> [2020-02-16T23:24:15,882][INFO ][o.e.i.s.IndexShardTests  ] [testIndexingOperationsListeners] after test
+  1> [2020-02-16T23:24:15,897][INFO ][o.e.i.s.IndexShardTests  ] [testShardStatsWithFailures] before test
+  1> [2020-02-16T23:24:15,977][WARN ][o.e.i.e.Engine           ] [testShardStatsWithFailures] [index][0] failed engine [Failing shard because of exception during storeStats]
+  1> org.apache.lucene.index.CorruptIndexException: Test CorruptIndexException (resource=Test resource)
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.lambda$testShardStatsWithFailures$38(IndexShardTests.java:1554) ~[test/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShardTests$16.fileLength(IndexShardTests.java:1521) ~[test/:?]
+  1> 	at org.elasticsearch.index.store.ByteSizeCachingDirectory.estimateSizeInBytes(ByteSizeCachingDirectory.java:56) ~[main/:?]
+  1> 	at org.elasticsearch.index.store.ByteSizeCachingDirectory.access$200(ByteSizeCachingDirectory.java:37) ~[main/:?]
+  1> 	at org.elasticsearch.index.store.ByteSizeCachingDirectory$1.refresh(ByteSizeCachingDirectory.java:90) ~[main/:?]
+  1> 	at org.elasticsearch.index.store.ByteSizeCachingDirectory$1.refresh(ByteSizeCachingDirectory.java:72) ~[main/:?]
+  1> 	at org.elasticsearch.common.util.SingleObjectCache.getOrRefresh(SingleObjectCache.java:54) ~[main/:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.index.store.ByteSizeCachingDirectory.estimateSizeInBytes(ByteSizeCachingDirectory.java:121) ~[main/:?]
+  1> 	at org.elasticsearch.index.store.Store$StoreDirectory.estimateSize(Store.java:721) ~[main/:?]
+  1> 	at org.elasticsearch.index.store.Store.stats(Store.java:369) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.storeStats(IndexShard.java:1027) [main/:?]
+  1> 	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.testShardStatsWithFailures(IndexShardTests.java:1559) [test/:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+  1> 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+  1> 	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at java.lang.Thread.run(Thread.java:835) [?:?]
+  1> [2020-02-16T23:24:15,981][INFO ][o.e.i.s.IndexShardTests  ] [testShardStatsWithFailures] after test
+  1> [2020-02-16T23:24:15,988][INFO ][o.e.i.s.IndexShardTests  ] [testPersistenceStateMetadataPersistence] before test
+  1> [2020-02-16T23:24:16,077][INFO ][o.e.i.s.IndexShardTests  ] [testPersistenceStateMetadataPersistence] after test
+  1> [2020-02-16T23:24:16,082][INFO ][o.e.i.s.IndexShardTests  ] [testShardCanNotBeMarkedAsRelocatedIfRelocationCancelled] before test
+  1> [2020-02-16T23:24:16,179][INFO ][o.e.i.s.IndexShardTests  ] [testShardCanNotBeMarkedAsRelocatedIfRelocationCancelled] after test
+  1> [2020-02-16T23:24:16,183][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStalePrimaryForceNewHistoryUUID] before test
+  1> [2020-02-16T23:24:16,393][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStalePrimaryForceNewHistoryUUID] after test
+  1> [2020-02-16T23:24:16,401][INFO ][o.e.i.s.IndexShardTests  ] [testRunUnderPrimaryPermitRunsUnderPrimaryPermit] before test
+  1> [2020-02-16T23:24:16,478][INFO ][o.e.i.s.IndexShardTests  ] [testRunUnderPrimaryPermitRunsUnderPrimaryPermit] after test
+  1> [2020-02-16T23:24:16,521][INFO ][o.e.i.s.IndexShardTests  ] [testAsyncFsync] before test
+  1> [2020-02-16T23:24:16,924][INFO ][o.e.i.s.IndexShardTests  ] [testAsyncFsync] after test
+  1> [2020-02-16T23:24:16,933][INFO ][o.e.i.s.IndexShardTests  ] [testPrimaryFillsSeqNoGapsOnPromotion] before test
+  1> [2020-02-16T23:24:17,623][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.shard.IndexShardTests] [index][0] primary-replica resync completed with 0 operations
+  1> [2020-02-16T23:24:17,689][INFO ][o.e.i.s.IndexShardTests  ] [testPrimaryFillsSeqNoGapsOnPromotion] after test
+  1> [2020-02-16T23:24:17,695][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromTranslog] before test
+  1> [2020-02-16T23:24:17,777][INFO ][o.e.i.s.IndexShard       ] [testRecoverFromTranslog] [test][0] ignoring recovery of a corrupt translog entry
+  1> org.elasticsearch.index.mapper.MapperParsingException: failed to parse field [foo] of type [text] in document with id '2'. Preview of field's value: ''
+  1> 	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:299) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrField(DocumentParser.java:488) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:614) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:427) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:395) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:112) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:71) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:267) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:791) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:768) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.applyTranslogOperation(IndexShard.java:1506) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.runTranslogRecovery(IndexShard.java:1537) [main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.testRecoverFromTranslog(IndexShardTests.java:2639) [test/:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+  1> 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+  1> 	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at java.lang.Thread.run(Thread.java:835) [?:?]
+  1> Caused by: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input in VALUE_STRING
+  1>  at [Source: org.elasticsearch.common.bytes.BytesReference$MarkSupportingStreamInputWrapper@266525da; line: 1, column: 29]
+  1> 	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:483) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:460) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._loadMoreGuaranteed(UTF8StreamJsonParser.java:2404) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2489) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishAndReturnString(UTF8StreamJsonParser.java:2469) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:315) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at org.elas  1> ticsearch.common.xcontent.json.JsonXContentParser.text(JsonXContentParser.java:83) ~[elasticsearch-x-content-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.textOrNull(AbstractXContentParser.java:253) ~[elasticsearch-x-content-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.index.mapper.TextFieldMapper.parseCreateField(TextFieldMapper.java:822) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:277) ~[main/:?]
+  1> 	... 48 more
+  1> [2020-02-16T23:24:17,781][INFO ][o.e.i.s.IndexShard       ] [testRecoverFromTranslog] [test][0] ignoring recovery of a corrupt translog entry
+  1> org.elasticsearch.index.mapper.MapperParsingException: failed to parse field [foo] of type [text] in document with id '2'. Preview of field's value: ''
+  1> 	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:299) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrField(DocumentParser.java:488) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:614) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:427) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:395) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:112) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:71) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:267) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:791) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:768) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.applyTranslogOperation(IndexShard.java:1506) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.runTranslogRecovery(IndexShard.java:1537) [main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.testRecoverFromTranslog(IndexShardTests.java:2639) [test/:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+  1> 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+  1> 	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at java.lang.Thread.run(Thread.java:835) [?:?]
+  1> Caused by: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input in VALUE_STRING
+  1>  at [Source: org.elasticsearch.common.bytes.BytesReference$MarkSupportingStreamInputWrapper@450e221b; line: 1, column: 29]
+  1> 	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:483) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:460) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._loadMoreGuaranteed(UTF8StreamJsonParser.java:2404) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2489) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishAndReturnString(UTF8StreamJsonParser.java:2469) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:315) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at org.elas  1> ticsearch.common.xcontent.json.JsonXContentParser.text(JsonXContentParser.java:83) ~[elasticsearch-x-content-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.textOrNull(AbstractXContentParser.java:253) ~[elasticsearch-x-content-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.index.mapper.TextFieldMapper.parseCreateField(TextFieldMapper.java:822) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:277) ~[main/:?]
+  1> 	... 48 more
+  1> [2020-02-16T23:24:17,782][INFO ][o.e.i.s.IndexShard       ] [testRecoverFromTranslog] [test][0] ignoring recovery of a corrupt translog entry
+  1> org.elasticsearch.index.mapper.MapperParsingException: failed to parse field [foo] of type [text] in document with id '2'. Preview of field's value: ''
+  1> 	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:299) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrField(DocumentParser.java:488) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:614) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:427) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:395) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:112) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:71) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:267) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:791) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:768) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.applyTranslogOperation(IndexShard.java:1506) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.runTranslogRecovery(IndexShard.java:1537) [main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.testRecoverFromTranslog(IndexShardTests.java:2639) [test/:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+  1> 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+  1> 	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at java.lang.Thread.run(Thread.java:835) [?:?]
+  1> Caused by: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input in VALUE_STRING
+  1>  at [Source: org.elasticsearch.common.bytes.BytesReference$MarkSupportingStreamInputWrapper@6f60242f; line: 1, column: 29]
+  1> 	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:483) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:460) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._loadMoreGuaranteed(UTF8StreamJsonParser.java:2404) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2489) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishAndReturnString(UTF8StreamJsonParser.java:2469) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:315) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at org.elas  1> ticsearch.common.xcontent.json.JsonXContentParser.text(JsonXContentParser.java:83) ~[elasticsearch-x-content-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.textOrNull(AbstractXContentParser.java:253) ~[elasticsearch-x-content-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.index.mapper.TextFieldMapper.parseCreateField(TextFieldMapper.java:822) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:277) ~[main/:?]
+  1> 	... 48 more
+  1> [2020-02-16T23:24:17,783][INFO ][o.e.i.s.IndexShard       ] [testRecoverFromTranslog] [test][0] ignoring recovery of a corrupt translog entry
+  1> org.elasticsearch.index.mapper.MapperParsingException: failed to parse field [foo] of type [text] in document with id '2'. Preview of field's value: ''
+  1> 	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:299) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrField(DocumentParser.java:488) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseValue(DocumentParser.java:614) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.innerParseObject(DocumentParser.java:427) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseObjectOrNested(DocumentParser.java:395) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.internalParseDocument(DocumentParser.java:112) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentParser.parseDocument(DocumentParser.java:71) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.DocumentMapper.parse(DocumentMapper.java:267) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.prepareIndex(IndexShard.java:791) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.applyIndexOperation(IndexShard.java:768) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.applyTranslogOperation(IndexShard.java:1506) ~[main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShard.runTranslogRecovery(IndexShard.java:1537) [main/:?]
+  1> 	at org.elasticsearch.index.shard.IndexShardTests.testRecoverFromTranslog(IndexShardTests.java:2639) [test/:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+  1> 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+  1> 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+  1> 	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+  1> 	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+  1> 	at java.lang.Thread.run(Thread.java:835) [?:?]
+  1> Caused by: com.fasterxml.jackson.core.io.JsonEOFException: Unexpected end-of-input in VALUE_STRING
+  1>  at [Source: org.elasticsearch.common.bytes.BytesReference$MarkSupportingStreamInputWrapper@5245545b; line: 1, column: 29]
+  1> 	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:483) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportInvalidEOF(ParserMinimalBase.java:460) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._loadMoreGuaranteed(UTF8StreamJsonParser.java:2404) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishString2(UTF8StreamJsonParser.java:2489) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._finishAndReturnString(UTF8StreamJsonParser.java:2469) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.getText(UTF8StreamJsonParser.java:315) ~[jackson-core-2.8.11.jar:2.8.11]
+  1> 	at org.elas  1> ticsearch.common.xcontent.json.JsonXContentParser.text(JsonXContentParser.java:83) ~[elasticsearch-x-content-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.common.xcontent.support.AbstractXContentParser.textOrNull(AbstractXContentParser.java:253) ~[elasticsearch-x-content-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+  1> 	at org.elasticsearch.index.mapper.TextFieldMapper.parseCreateField(TextFieldMapper.java:822) ~[main/:?]
+  1> 	at org.elasticsearch.index.mapper.FieldMapper.parse(FieldMapper.java:277) ~[main/:?]
+  1> 	... 48 more
+  1> [2020-02-16T23:24:17,817][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromTranslog] after test
+  1> [2020-02-16T23:24:17,819][INFO ][o.e.i.s.IndexShardTests  ] [testRejectOperationPermitWithHigherTermWhenNotStarted] before test
+  1> [2020-02-16T23:24:17,869][INFO ][o.e.i.s.IndexShardTests  ] [testRejectOperationPermitWithHigherTermWhenNotStarted] after test
+  1> [2020-02-16T23:24:17,875][INFO ][o.e.i.s.IndexShardTests  ] [testClosesPreventsNewOperations] before test
+  1> [2020-02-16T23:24:17,966][INFO ][o.e.i.s.IndexShardTests  ] [testClosesPreventsNewOperations] after test
+  1> [2020-02-16T23:24:17,971][INFO ][o.e.i.s.IndexShardTests  ] [testShardDoesNotStartIfCorruptedMarkerIsPresent] before test
+  1> [2020-02-16T23:24:18,187][INFO ][o.e.i.s.IndexShardTests  ] [testShardDoesNotStartIfCorruptedMarkerIsPresent] after test
+  1> [2020-02-16T23:24:18,193][INFO ][o.e.i.s.IndexShardTests  ] [testSupplyTombstoneDoc] before test
+  1> [2020-02-16T23:24:18,376][INFO ][o.e.i.s.IndexShardTests  ] [testSupplyTombstoneDoc] after test
+  1> [2020-02-16T23:24:18,395][INFO ][o.e.i.s.IndexShardTests  ] [testIsSearchIdle] before test
+  1> [2020-02-16T23:24:18,525][INFO ][o.e.c.s.IndexScopedSettings] [testIsSearchIdle] updating [index.search.idle.after] from [30s] to [0ms]
+  1> [2020-02-16T23:24:18,525][INFO ][o.e.c.s.IndexScopedSettings] [testIsSearchIdle] updating [index.search.idle.after] from [0ms] to [1m]
+  1> [2020-02-16T23:24:18,526][INFO ][o.e.c.s.IndexScopedSettings] [testIsSearchIdle] updating [index.search.idle.after] from [1m] to [10ms]
+  1> [2020-02-16T23:24:18,538][INFO ][o.e.i.s.IndexShardTests  ] [testIsSearchIdle] after test
+  1> [2020-02-16T23:24:18,540][INFO ][o.e.i.s.IndexShardTests  ] [testMinimumCompatVersion] before test
+  1> [2020-02-16T23:24:18,667][INFO ][o.e.i.s.IndexShardTests  ] [testMinimumCompatVersion] after test
+  1> [2020-02-16T23:24:18,670][INFO ][o.e.i.s.IndexShardTests  ] [testRefreshListenersDuringPeerRecovery] before test
+  1> [2020-02-16T23:24:19,017][INFO ][o.e.i.s.IndexShardTests  ] [testRefreshListenersDuringPeerRecovery] after test
+  1> [2020-02-16T23:24:19,028][INFO ][o.e.i.s.IndexShardTests  ] [testAcquirePrimaryAllOperationsPermits] before test
+  1> [2020-02-16T23:24:19,181][INFO ][o.e.i.s.IndexShardTests  ] [testAcquirePrimaryAllOperationsPermits] after test
+  1> [2020-02-16T23:24:19,184][INFO ][o.e.i.s.IndexShardTests  ] [testReaderWrapperWorksWithGlobalOrdinals] before test
+  1> [2020-02-16T23:24:19,349][INFO ][o.e.i.s.IndexShardTests  ] [testReaderWrapperWorksWithGlobalOrdinals] after test
+  1> [2020-02-16T23:24:19,356][INFO ][o.e.i.s.IndexShardTests  ] [testRollbackReplicaEngineOnPromotion] before test
+  1> [2020-02-16T23:24:19,897][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.shard.IndexShardTests] [index][0] detected new primary with primary term [87], global checkpoint [28], max_seq_no [590]
+  1> [2020-02-16T23:24:20,443][INFO ][o.e.i.s.IndexShardTests  ] [testRollbackReplicaEngineOnPromotion] after test
+  1> [2020-02-16T23:24:20,446][INFO ][o.e.i.s.IndexShardTests  ] [testReadSnapshotConcurrently] before test
+  1> [2020-02-16T23:24:20,751][INFO ][o.e.i.s.IndexShardTests  ] [testReadSnapshotConcurrently] after test
+  1> [2020-02-16T23:24:20,754][INFO ][o.e.i.s.IndexShardTests  ] [testOperationPermitsOnPrimaryShards] before test
+  1> [2020-02-16T23:24:20,843][INFO ][o.e.i.s.IndexShardTests  ] [testOperationPermitsOnPrimaryShards] after test
+  1> [2020-02-16T23:24:20,853][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromLocalShard] before test
+  1> [2020-02-16T23:24:21,308][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromLocalShard] after test
+  1> [2020-02-16T23:24:21,321][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStoreWithNoOps] before test
+  1> [2020-02-16T23:24:21,605][INFO ][o.e.c.s.IndexScopedSettings] [testRecoverFromStoreWithNoOps] updating [index.soft_deletes.retention.operations] from [244] to [496]
+  1> [2020-02-16T23:24:21,956][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStoreWithNoOps] after test
+  1> [2020-02-16T23:24:21,962][INFO ][o.e.i.s.IndexShardTests  ] [testRefreshMetric] before test
+  1> [2020-02-16T23:24:22,283][INFO ][o.e.i.s.IndexShardTests  ] [testRefreshMetric] after test
+  1> [2020-02-16T23:24:22,299][INFO ][o.e.i.s.IndexShardTests  ] [testGlobalCheckpointSync] before test
+  1> [2020-02-16T23:24:22,506][INFO ][o.e.i.s.IndexShardTests  ] [testGlobalCheckpointSync] after test
+  1> [2020-02-16T23:24:22,511][INFO ][o.e.i.s.IndexShardTests  ] [testCloseShardWhileResettingEngine] before test
+  1> [2020-02-16T23:24:22,757][INFO ][o.e.i.s.IndexShardTests  ] [[Thread-4479]] start check index
+  1> [2020-02-16T23:24:22,760][INFO ][o.e.i.s.IndexShardTests  ] [[Thread-4479]] end check index
+  1> [2020-02-16T23:24:22,791][INFO ][o.e.i.s.IndexShardTests  ] [testCloseShardWhileResettingEngine] after test
+  1> [2020-02-16T23:24:22,800][INFO ][o.e.i.s.IndexShardTests  ] [testDocStats] before test
+  1> [2020-02-16T23:24:23,267][INFO ][o.e.i.s.IndexShardTests  ] [testDocStats] after test
+  1> [2020-02-16T23:24:23,305][INFO ][o.e.i.s.IndexShardTests  ] [testExternalRefreshMetric] before test
+  1> [2020-02-16T23:24:23,633][INFO ][o.e.i.s.IndexShardTests  ] [testExternalRefreshMetric] after test
+  1> [2020-02-16T23:24:23,643][INFO ][o.e.i.s.IndexShardTests  ] [testPrimaryPromotionDelaysOperations] before test
+  1> [2020-02-16T23:24:23,878][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.shard.IndexShardTests] [index][0] primary-replica resync completed with 0 operations
+  1> [2020-02-16T23:24:23,881][INFO ][o.e.i.s.IndexShardTests  ] [testPrimaryPromotionDelaysOperations] after test
+  1> [2020-02-16T23:24:23,886][INFO ][o.e.i.s.IndexShardTests  ] [testRelocateMissingTarget] before test
+  1> [2020-02-16T23:24:24,015][INFO ][o.e.i.s.IndexShardTests  ] [testRelocateMissingTarget] after test
+  1> [2020-02-16T23:24:24,028][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStore] before test
+  1> [2020-02-16T23:24:24,219][INFO ][o.e.i.s.IndexShardTests  ] [testRecoverFromStore] after test
+
+Tests with failures:
+ - org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests.classMethod
+ - org.elasticsearch.common.geo.builders.MultiLineStringBuilderTests.classMethod
+ - org.elasticsearch.index.MergeSchedulerSettingsTests.testMaxThreadAndMergeCount
+ - org.elasticsearch.rest.action.admin.indices.RestGetIndicesActionTests.classMethod
+ - org.elasticsearch.index.shard.IndexShardTests.classMethod
+
+> Task :server:test FAILED
+48 actionable tasks: 7 executed, 41 up-to-date
