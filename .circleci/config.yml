@@ -34,4 +34,4 @@ jobs:
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
       # run tests!
-      - run: ./gradlew --no-daemon :modules:rank-eval:test -Dtests.filter=@awaitsfix
+      - run: ./gradlew --no-daemon :modules:rank-eval:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
