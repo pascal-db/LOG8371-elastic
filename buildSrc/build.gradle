@@ -222,7 +222,7 @@ if (project != rootProject) {
     inputs.dir(file("src/testKit")).withPropertyName("testkit dir").withPathSensitivity(PathSensitivity.RELATIVE)
     systemProperty 'test.version_under_test', version
     onlyIf { project.inFipsJvm == false }
-    maxParallelForks = System.getProperty('tests.jvms', project.rootProject.ext.defaultParallel.toString()) as Integer
+    maxParallelForks = 1//System.getProperty('tests.jvms', project.rootProject.ext.defaultParallel.toString()) as Integer
   }
   check.dependsOn(integTest)
 
