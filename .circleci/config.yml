@@ -34,4 +34,4 @@ jobs:
           key: v1-dependencies-{{ checksum "build.gradle" }}
 
       # run tests!
-      - run: ./gradlew test --no-daemon
+      - run: ./gradlew --no-daemon test -Dtests.filter=@awaitsfix
