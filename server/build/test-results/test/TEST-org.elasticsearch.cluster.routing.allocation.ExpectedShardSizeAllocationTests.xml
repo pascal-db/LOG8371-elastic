@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ExpectedShardSizeAllocationTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.123">
+  <properties/>
+  <testcase name="testExpectedSizeOnMove" classname="org.elasticsearch.cluster.routing.allocation.ExpectedShardSizeAllocationTests" time="0.117"/>
+  <testcase name="testInitializingHasExpectedSize" classname="org.elasticsearch.cluster.routing.allocation.ExpectedShardSizeAllocationTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T22:20:38,722][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testExpectedSizeOnMove] before test
+[2020-02-16T22:20:38,834][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testExpectedSizeOnMove] creating an index with 1 shard, no replica
+[2020-02-16T22:20:38,835][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testExpectedSizeOnMove] adding two nodes and performing rerouting
+[2020-02-16T22:20:38,835][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testExpectedSizeOnMove] start primary shard
+[2020-02-16T22:20:38,836][INFO ][o.e.c.r.a.AllocationService] [testExpectedSizeOnMove] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T22:20:38,836][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testExpectedSizeOnMove] move the shard
+[2020-02-16T22:20:38,836][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testExpectedSizeOnMove] finish moving the shard
+[2020-02-16T22:20:38,836][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testExpectedSizeOnMove] after test
+[2020-02-16T22:20:38,839][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testInitializingHasExpectedSize] before test
+[2020-02-16T22:20:38,841][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testInitializingHasExpectedSize] Building initial routing table
+[2020-02-16T22:20:38,842][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testInitializingHasExpectedSize] Adding one node and performing rerouting
+[2020-02-16T22:20:38,842][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testInitializingHasExpectedSize] Start the primary shard
+[2020-02-16T22:20:38,842][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testInitializingHasExpectedSize] Add another one node and reroute
+[2020-02-16T22:20:38,843][INFO ][o.e.c.r.a.ExpectedShardSizeAllocationTests] [testInitializingHasExpectedSize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.codec.CodecTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:27" hostname="Escoto-PC" time="0.056">
+  <properties/>
+  <testcase name="testDefault" classname="org.elasticsearch.index.codec.CodecTests" time="0.029"/>
+  <testcase name="testBestCompression" classname="org.elasticsearch.index.codec.CodecTests" time="0.007"/>
+  <testcase name="testResolveDefaultCodecs" classname="org.elasticsearch.index.codec.CodecTests" time="0.02"/>
+  <system-out><![CDATA[[2020-02-16T19:22:27,399][INFO ][o.e.i.c.CodecTests       ] [testDefault] before test
+[2020-02-16T19:22:27,425][INFO ][o.e.i.c.CodecTests       ] [testDefault] after test
+[2020-02-16T19:22:27,428][INFO ][o.e.i.c.CodecTests       ] [testBestCompression] before test
+[2020-02-16T19:22:27,432][INFO ][o.e.i.c.CodecTests       ] [testBestCompression] after test
+[2020-02-16T19:22:27,449][INFO ][o.e.i.c.CodecTests       ] [testResolveDefaultCodecs] before test
+[2020-02-16T19:22:27,452][INFO ][o.e.i.c.CodecTests       ] [testResolveDefaultCodecs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

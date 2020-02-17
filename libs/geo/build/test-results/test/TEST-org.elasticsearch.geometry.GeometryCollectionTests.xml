@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.GeometryCollectionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:21" hostname="Escoto-PC" time="2.427">
+  <properties/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.GeometryCollectionTests" time="1.829"/>
+  <testcase name="testInitValidation" classname="org.elasticsearch.geometry.GeometryCollectionTests" time="0.007"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.GeometryCollectionTests" time="0.149"/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.GeometryCollectionTests" time="0.015"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.GeometryCollectionTests" time="0.426"/>
+  <system-out><![CDATA[[2020-02-17T08:50:22,054][INFO ][o.e.g.GeometryCollectionTests] [testBasicSerialization] before test
+[2020-02-17T08:50:23,652][INFO ][o.e.g.GeometryCollectionTests] [testBasicSerialization] after test
+[2020-02-17T08:50:23,666][INFO ][o.e.g.GeometryCollectionTests] [testInitValidation] before test
+[2020-02-17T08:50:23,668][INFO ][o.e.g.GeometryCollectionTests] [testInitValidation] after test
+[2020-02-17T08:50:23,672][INFO ][o.e.g.GeometryCollectionTests] [testSerialization] before test
+[2020-02-17T08:50:23,817][INFO ][o.e.g.GeometryCollectionTests] [testSerialization] after test
+[2020-02-17T08:50:23,831][INFO ][o.e.g.GeometryCollectionTests] [testVisitor] before test
+[2020-02-17T08:50:23,832][INFO ][o.e.g.GeometryCollectionTests] [testVisitor] after test
+[2020-02-17T08:50:23,837][INFO ][o.e.g.GeometryCollectionTests] [testEqualsAndHashcode] before test
+[2020-02-17T08:50:24,259][INFO ][o.e.g.GeometryCollectionTests] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

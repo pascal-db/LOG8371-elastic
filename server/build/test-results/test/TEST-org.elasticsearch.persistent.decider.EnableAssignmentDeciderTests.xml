@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.persistent.decider.EnableAssignmentDeciderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:01" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testAllocationValues" classname="org.elasticsearch.persistent.decider.EnableAssignmentDeciderTests" time="0.007"/>
+  <testcase name="testEnableAssignment" classname="org.elasticsearch.persistent.decider.EnableAssignmentDeciderTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T00:24:01,534][INFO ][o.e.p.d.EnableAssignmentDeciderTests] [testAllocationValues] before test
+[2020-02-17T00:24:01,537][INFO ][o.e.p.d.EnableAssignmentDeciderTests] [testAllocationValues] after test
+[2020-02-17T00:24:01,538][INFO ][o.e.p.d.EnableAssignmentDeciderTests] [testEnableAssignment] before test
+[2020-02-17T00:24:01,540][INFO ][o.e.c.s.ClusterSettings  ] [testEnableAssignment] updating [cluster.persistent_tasks.allocation.enable] from [all] to [none]
+[2020-02-17T00:24:01,543][INFO ][o.e.p.d.EnableAssignmentDeciderTests] [testEnableAssignment] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

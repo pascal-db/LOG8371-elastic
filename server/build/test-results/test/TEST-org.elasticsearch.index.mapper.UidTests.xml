@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.UidTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:33" hostname="Escoto-PC" time="0.058">
+  <properties/>
+  <testcase name="testIsURLBase64WithoutPadding" classname="org.elasticsearch.index.mapper.UidTests" time="0.006"/>
+  <testcase name="testEncodeBase64Ids" classname="org.elasticsearch.index.mapper.UidTests" time="0.016"/>
+  <testcase name="testEncodeNumericIds" classname="org.elasticsearch.index.mapper.UidTests" time="0.024"/>
+  <testcase name="testEncodeUTF8Ids" classname="org.elasticsearch.index.mapper.UidTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-17T00:23:33,693][INFO ][o.e.i.m.UidTests         ] [testIsURLBase64WithoutPadding] before test
+[2020-02-17T00:23:33,694][INFO ][o.e.i.m.UidTests         ] [testIsURLBase64WithoutPadding] after test
+[2020-02-17T00:23:33,696][INFO ][o.e.i.m.UidTests         ] [testEncodeBase64Ids] before test
+[2020-02-17T00:23:33,711][INFO ][o.e.i.m.UidTests         ] [testEncodeBase64Ids] after test
+[2020-02-17T00:23:33,714][INFO ][o.e.i.m.UidTests         ] [testEncodeNumericIds] before test
+[2020-02-17T00:23:33,734][INFO ][o.e.i.m.UidTests         ] [testEncodeNumericIds] after test
+[2020-02-17T00:23:33,737][INFO ][o.e.i.m.UidTests         ] [testEncodeUTF8Ids] before test
+[2020-02-17T00:23:33,747][INFO ][o.e.i.m.UidTests         ] [testEncodeUTF8Ids] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

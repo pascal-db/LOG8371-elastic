@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.coordination.FollowersCheckerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.coordination.FollowersCheckerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.coordination.html">org.elasticsearch.cluster.coordination</a> &gt; FollowersCheckerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.096s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testChecksExpectedNodes</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailsNodeThatDisconnects</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailsNodeThatDoesNotRespond</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailsNodeThatIsDisconnected</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailsNodeThatRejectsCheck</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailureCounterResetsOnSuccess</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFollowerCheckRequestEqualsHashCodeSerialization</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPreferMasterNodes</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testResponder</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:20:32,386][INFO ][o.e.c.c.FollowersCheckerTests] [testPreferMasterNodes] before test
+[2020-02-16T22:20:32,392][INFO ][o.e.c.c.FollowersCheckerTests] [testPreferMasterNodes] after test
+[2020-02-16T22:20:32,397][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatIsDisconnected] before test
+[2020-02-16T22:20:32,403][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatIsDisconnected] after test
+[2020-02-16T22:20:32,405][INFO ][o.e.c.c.FollowersCheckerTests] [testFollowerCheckRequestEqualsHashCodeSerialization] before test
+[2020-02-16T22:20:32,406][INFO ][o.e.c.c.FollowersCheckerTests] [testFollowerCheckRequestEqualsHashCodeSerialization] after test
+[2020-02-16T22:20:32,411][INFO ][o.e.c.c.FollowersCheckerTests] [testResponder] before test
+[2020-02-16T22:20:32,415][INFO ][o.e.c.c.FollowersCheckerTests] [testResponder] after test
+[2020-02-16T22:20:32,417][INFO ][o.e.c.c.FollowersCheckerTests] [testChecksExpectedNodes] before test
+[2020-02-16T22:20:32,422][INFO ][o.e.c.c.FollowersCheckerTests] [testChecksExpectedNodes] after test
+[2020-02-16T22:20:32,428][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatDoesNotRespond] before test
+[2020-02-16T22:20:32,431][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatDoesNotRespond] after test
+[2020-02-16T22:20:32,443][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatRejectsCheck] before test
+[2020-02-16T22:20:32,447][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatRejectsCheck] after test
+[2020-02-16T22:20:32,456][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatDisconnects] before test
+[2020-02-16T22:20:32,460][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatDisconnects] after test
+[2020-02-16T22:20:32,465][INFO ][o.e.c.c.FollowersCheckerTests] [testFailureCounterResetsOnSuccess] before test
+[2020-02-16T22:20:32,473][INFO ][o.e.c.c.FollowersCheckerTests] [testFailureCounterResetsOnSuccess] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

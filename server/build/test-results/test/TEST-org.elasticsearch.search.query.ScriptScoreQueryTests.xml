@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.query.ScriptScoreQueryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:36" hostname="Escoto-PC" time="0.057">
+  <properties/>
+  <testcase name="testExplainDefault" classname="org.elasticsearch.search.query.ScriptScoreQueryTests" time="0.047"/>
+  <testcase name="testExplain" classname="org.elasticsearch.search.query.ScriptScoreQueryTests" time="0.005"/>
+  <testcase name="testExplainDefaultNoScore" classname="org.elasticsearch.search.query.ScriptScoreQueryTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T06:25:36,357][INFO ][o.e.s.q.ScriptScoreQueryTests] [testExplainDefault] before test
+[2020-02-17T06:25:36,401][INFO ][o.e.s.q.ScriptScoreQueryTests] [testExplainDefault] after test
+[2020-02-17T06:25:36,403][INFO ][o.e.s.q.ScriptScoreQueryTests] [testExplain] before test
+[2020-02-17T06:25:36,406][INFO ][o.e.s.q.ScriptScoreQueryTests] [testExplain] after test
+[2020-02-17T06:25:36,409][INFO ][o.e.s.q.ScriptScoreQueryTests] [testExplainDefaultNoScore] before test
+[2020-02-17T06:25:36,412][INFO ][o.e.s.q.ScriptScoreQueryTests] [testExplainDefaultNoScore] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

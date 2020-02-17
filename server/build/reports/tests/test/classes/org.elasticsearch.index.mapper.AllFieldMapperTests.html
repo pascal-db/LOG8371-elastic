@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.mapper.AllFieldMapperTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.mapper.AllFieldMapperTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.mapper.html">org.elasticsearch.index.mapper</a> &gt; AllFieldMapperTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.257s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAllDisabled</td>
+<td class="success">1.149s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateDefaultSearchAnalyzer</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T00:22:53,878][INFO ][o.e.e.NodeEnvironment    ] [testAllDisabled] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:53,879][INFO ][o.e.e.NodeEnvironment    ] [testAllDisabled] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:53,881][INFO ][o.e.n.Node               ] [testAllDisabled] node name [node_s_0], node ID [SK7Soac-RO6AZ5kcC2qCwA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-4058383957168232901]-HASH=[14509074DB8]]
+[2020-02-17T00:22:53,881][INFO ][o.e.n.Node               ] [testAllDisabled] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T00:22:53,881][INFO ][o.e.n.Node               ] [testAllDisabled] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T00:22:53,882][INFO ][o.e.n.Node               ] [testAllDisabled] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T00:22:53,882][INFO ][o.e.p.PluginsService     ] [testAllDisabled] no modules loaded
+[2020-02-17T00:22:53,882][INFO ][o.e.p.PluginsService     ] [testAllDisabled] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T00:22:53,882][INFO ][o.e.p.PluginsService     ] [testAllDisabled] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T00:22:54,092][INFO ][o.e.d.DiscoveryModule    ] [testAllDisabled] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T00:22:54,103][INFO ][o.e.n.Node               ] [testAllDisabled] initialized
+[2020-02-17T00:22:54,103][INFO ][o.e.n.Node               ] [testAllDisabled] starting ...
+[2020-02-17T00:22:54,587][INFO ][o.e.t.TransportService   ] [testAllDisabled] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T00:22:54,594][INFO ][o.e.c.c.Coordinator      ] [testAllDisabled] setting initial configuration to VotingConfiguration{SK7Soac-RO6AZ5kcC2qCwA}
+[2020-02-17T00:22:54,714][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{SK7Soac-RO6AZ5kcC2qCwA}{lmoiQSj-Q5CTxRallWoSiw}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{SK7Soac-RO6AZ5kcC2qCwA}{lmoiQSj-Q5CTxRallWoSiw}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T00:22:54,727][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [MymgIi8ERyK2R4lj__i2HA]
+[2020-02-17T00:22:54,746][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{SK7Soac-RO6AZ5kcC2qCwA}{lmoiQSj-Q5CTxRallWoSiw}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T00:22:54,747][INFO ][o.e.n.Node               ] [testAllDisabled] started
+[2020-02-17T00:22:54,767][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T00:22:54,768][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T00:22:54,779][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T00:22:54,795][INFO ][o.e.i.m.AllFieldMapperTests] [testAllDisabled] before test
+[2020-02-17T00:22:54,796][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test_6x] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T00:22:54,861][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test_6x][0]]]).
+[2020-02-17T00:22:54,883][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T00:22:54,967][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:22:54,980][INFO ][o.e.i.m.AllFieldMapperTests] [testAllDisabled] after test
+[2020-02-17T00:22:54,981][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test_6x/QZvwsBl-TYmfcIt42thfRg] deleting index
+[2020-02-17T00:22:54,981][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/LoEEhGL9SJmO1JBpPtvOjQ] deleting index
+[2020-02-17T00:22:55,020][INFO ][o.e.i.m.AllFieldMapperTests] [testUpdateDefaultSearchAnalyzer] before test
+[2020-02-17T00:22:55,022][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T00:22:55,085][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:22:55,103][INFO ][o.e.i.m.AllFieldMapperTests] [testUpdateDefaultSearchAnalyzer] after test
+[2020-02-17T00:22:55,103][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/PXeHYyzcT9m15LUQauGbqw] deleting index
+[2020-02-17T00:22:55,126][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T00:22:55,130][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T00:22:55,130][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T00:22:55,133][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

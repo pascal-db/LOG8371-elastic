@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridParserTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:13" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testParseValidFromStrings" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridParserTests" time="0.003"/>
+  <testcase name="testParseErrorOnBooleanPrecision" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridParserTests" time="0.003"/>
+  <testcase name="testParseErrorOnPrecisionOutOfRange" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridParserTests" time="0.002"/>
+  <testcase name="testParseValidFromInts" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridParserTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T05:24:13,095][INFO ][o.e.s.a.b.g.GeoTileGridParserTests] [testParseValidFromStrings] before test
+[2020-02-17T05:24:13,096][INFO ][o.e.s.a.b.g.GeoTileGridParserTests] [testParseValidFromStrings] after test
+[2020-02-17T05:24:13,099][INFO ][o.e.s.a.b.g.GeoTileGridParserTests] [testParseErrorOnBooleanPrecision] before test
+[2020-02-17T05:24:13,099][INFO ][o.e.s.a.b.g.GeoTileGridParserTests] [testParseErrorOnBooleanPrecision] after test
+[2020-02-17T05:24:13,102][INFO ][o.e.s.a.b.g.GeoTileGridParserTests] [testParseErrorOnPrecisionOutOfRange] before test
+[2020-02-17T05:24:13,102][INFO ][o.e.s.a.b.g.GeoTileGridParserTests] [testParseErrorOnPrecisionOutOfRange] after test
+[2020-02-17T05:24:13,104][INFO ][o.e.s.a.b.g.GeoTileGridParserTests] [testParseValidFromInts] before test
+[2020-02-17T05:24:13,104][INFO ][o.e.s.a.b.g.GeoTileGridParserTests] [testParseValidFromInts] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

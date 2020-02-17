@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.recovery.RecoveryTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:54" hostname="Escoto-PC" time="5.833">
+  <properties/>
+  <testcase name="testDifferentHistoryUUIDDisablesOPsRecovery" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.511"/>
+  <testcase name="testRetentionPolicyChangeDuringRecovery" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.258"/>
+  <testcase name="testTranslogHistoryTransferred" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.225"/>
+  <testcase name="testShouldFlushAfterPeerRecovery" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.27"/>
+  <testcase name="testPeerRecoverySendSafeCommitInFileBased" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="1.653"/>
+  <testcase name="testRecoveryTrimsLocalTranslog" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.551"/>
+  <testcase name="testRecoveryWithOutOfOrderDeleteWithSoftDeletes" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.39"/>
+  <testcase name="testSequenceBasedRecoveryKeepsTranslog" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.913"/>
+  <testcase name="testPeerRecoveryPersistGlobalCheckpoint" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.441"/>
+  <testcase name="testFailsToIndexDuringPeerRecovery" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.188"/>
+  <testcase name="testRecoveryWithOutOfOrderDeleteWithTranslog" classname="org.elasticsearch.indices.recovery.RecoveryTests" time="0.432"/>
+  <system-out><![CDATA[[2020-02-16T17:23:54,288][INFO ][o.e.i.r.RecoveryTests    ] [testDifferentHistoryUUIDDisablesOPsRecovery] before test
+[2020-02-16T17:23:54,797][INFO ][o.e.i.r.RecoveryTests    ] [testDifferentHistoryUUIDDisablesOPsRecovery] after test
+[2020-02-16T17:23:54,799][INFO ][o.e.i.r.RecoveryTests    ] [testRetentionPolicyChangeDuringRecovery] before test
+[2020-02-16T17:23:54,979][INFO ][o.e.i.r.RecoveryTests    ] [org.elasticsearch.indices.recovery.RecoveryTests] --> blocking recovery on stage [TRANSLOG]
+[2020-02-16T17:23:54,980][INFO ][o.e.c.s.IndexScopedSettings] [testRetentionPolicyChangeDuringRecovery] updating [index.translog.flush_threshold_size] from [512mb] to [100b]
+[2020-02-16T17:23:54,980][INFO ][o.e.c.s.IndexScopedSettings] [testRetentionPolicyChangeDuringRecovery] updating [index.translog.retention.age] from [12h] to [-1]
+[2020-02-16T17:23:54,980][INFO ][o.e.c.s.IndexScopedSettings] [testRetentionPolicyChangeDuringRecovery] updating [index.translog.retention.size] from [512MB] to [-1]
+[2020-02-16T17:23:54,980][INFO ][o.e.i.r.RecoveryTests    ] [org.elasticsearch.indices.recovery.RecoveryTests] --> recovery continues from stage [TRANSLOG]
+[2020-02-16T17:23:55,055][INFO ][o.e.i.r.RecoveryTests    ] [testRetentionPolicyChangeDuringRecovery] after test
+[2020-02-16T17:23:55,058][INFO ][o.e.i.r.RecoveryTests    ] [testTranslogHistoryTransferred] before test
+[2020-02-16T17:23:55,280][INFO ][o.e.i.r.RecoveryTests    ] [testTranslogHistoryTransferred] after test
+[2020-02-16T17:23:55,283][INFO ][o.e.i.r.RecoveryTests    ] [testShouldFlushAfterPeerRecovery] before test
+[2020-02-16T17:23:55,434][INFO ][o.e.c.s.IndexScopedSettings] [testShouldFlushAfterPeerRecovery] updating [index.translog.flush_threshold_size] from [512mb] to [3163b]
+[2020-02-16T17:23:55,550][INFO ][o.e.i.r.RecoveryTests    ] [testShouldFlushAfterPeerRecovery] after test
+[2020-02-16T17:23:55,554][INFO ][o.e.i.r.RecoveryTests    ] [testPeerRecoverySendSafeCommitInFileBased] before test
+[2020-02-16T17:23:56,936][INFO ][o.e.c.s.IndexScopedSettings] [testPeerRecoverySendSafeCommitInFileBased] updating [index.translog.retention.age] from [12h] to [-1]
+[2020-02-16T17:23:56,936][INFO ][o.e.c.s.IndexScopedSettings] [testPeerRecoverySendSafeCommitInFileBased] updating [index.translog.retention.size] from [512MB] to [-1]
+[2020-02-16T17:23:56,937][INFO ][o.e.c.s.IndexScopedSettings] [testPeerRecoverySendSafeCommitInFileBased] updating [index.soft_deletes.retention.operations] from [840] to [0]
+[2020-02-16T17:23:57,203][INFO ][o.e.i.r.RecoveryTests    ] [testPeerRecoverySendSafeCommitInFileBased] after test
+[2020-02-16T17:23:57,206][INFO ][o.e.i.r.RecoveryTests    ] [testRecoveryTrimsLocalTranslog] before test
+[2020-02-16T17:23:57,503][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.indices.recovery.RecoveryTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T17:23:57,733][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.indices.recovery.RecoveryTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T17:23:57,753][INFO ][o.e.i.r.RecoveryTests    ] [testRecoveryTrimsLocalTranslog] after test
+[2020-02-16T17:23:57,759][INFO ][o.e.i.r.RecoveryTests    ] [testRecoveryWithOutOfOrderDeleteWithSoftDeletes] before test
+[2020-02-16T17:23:57,762][WARN ][o.e.i.IndexSettings      ] [testRecoveryWithOutOfOrderDeleteWithSoftDeletes] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-16T17:23:57,767][WARN ][o.e.i.IndexSettings      ] [testRecoveryWithOutOfOrderDeleteWithSoftDeletes] [index] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-16T17:23:57,777][WARN ][o.e.i.IndexSettings      ] [testRecoveryWithOutOfOrderDeleteWithSoftDeletes] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-16T17:23:57,782][WARN ][o.e.i.IndexSettings      ] [testRecoveryWithOutOfOrderDeleteWithSoftDeletes] [index] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-16T17:23:58,029][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.indices.recovery.RecoveryTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T17:23:58,030][WARN ][o.e.i.IndexSettings      ] [testRecoveryWithOutOfOrderDeleteWithSoftDeletes] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-16T17:23:58,033][WARN ][o.e.i.IndexSettings      ] [testRecoveryWithOutOfOrderDeleteWithSoftDeletes] [index] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-16T17:23:58,143][INFO ][o.e.i.r.RecoveryTests    ] [testRecoveryWithOutOfOrderDeleteWithSoftDeletes] after test
+[2020-02-16T17:23:58,146][INFO ][o.e.i.r.RecoveryTests    ] [testSequenceBasedRecoveryKeepsTranslog] before test
+[2020-02-16T17:23:59,057][INFO ][o.e.i.r.RecoveryTests    ] [testSequenceBasedRecoveryKeepsTranslog] after test
+[2020-02-16T17:23:59,060][INFO ][o.e.i.r.RecoveryTests    ] [testPeerRecoveryPersistGlobalCheckpoint] before test
+[2020-02-16T17:23:59,495][INFO ][o.e.i.r.RecoveryTests    ] [testPeerRecoveryPersistGlobalCheckpoint] after test
+[2020-02-16T17:23:59,501][INFO ][o.e.i.r.RecoveryTests    ] [testFailsToIndexDuringPeerRecovery] before test
+[2020-02-16T17:23:59,649][WARN ][o.e.i.e.Engine           ] [org.elasticsearch.indices.recovery.RecoveryTests] [test][0] failed engine [index id[1] origin[PEER_RECOVERY] seq#[0]]
+java.io.IOException: simulated
+	at org.elasticsearch.indices.recovery.RecoveryTests.testFailsToIndexDuringPeerRecovery(RecoveryTests.java:429) ~[test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T17:23:59,684][INFO ][o.e.i.r.RecoveryTests    ] [testFailsToIndexDuringPeerRecovery] after test
+[2020-02-16T17:23:59,697][INFO ][o.e.i.r.RecoveryTests    ] [testRecoveryWithOutOfOrderDeleteWithTranslog] before test
+[2020-02-16T17:23:59,893][INFO ][o.e.i.r.RecoveryTests    ] [testRecoveryWithOutOfOrderDeleteWithTranslog] --> flushing shard (translog will be trimmed)
+[2020-02-16T17:23:59,893][INFO ][o.e.c.s.IndexScopedSettings] [testRecoveryWithOutOfOrderDeleteWithTranslog] updating [index.translog.retention.age] from [12h] to [-1]
+[2020-02-16T17:23:59,893][INFO ][o.e.c.s.IndexScopedSettings] [testRecoveryWithOutOfOrderDeleteWithTranslog] updating [index.translog.retention.size] from [512MB] to [-1]
+[2020-02-16T17:23:59,935][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.indices.recovery.RecoveryTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T17:24:00,118][INFO ][o.e.i.r.RecoveryTests    ] [testRecoveryWithOutOfOrderDeleteWithTranslog] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

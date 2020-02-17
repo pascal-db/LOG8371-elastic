@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:24" hostname="Escoto-PC" time="0.061">
+  <properties/>
+  <testcase name="testParseRemove" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.008"/>
+  <testcase name="testParseAdd" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.003"/>
+  <testcase name="testValidate" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.002"/>
+  <testcase name="testRoundTrip" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.002"/>
+  <testcase name="testEmptyAlias" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.008"/>
+  <testcase name="testParseIndexAndIndicesThrowsError" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.003"/>
+  <testcase name="testFromToXContent" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.015"/>
+  <testcase name="testParseRemoveIndex" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.003"/>
+  <testcase name="testEmptyIndex" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.003"/>
+  <testcase name="testParseAliasAndAliasesThrowsError" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.003"/>
+  <testcase name="testBadOptionsInNonIndex" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.004"/>
+  <testcase name="testParseAddDefaultRouting" classname="org.elasticsearch.action.admin.indices.alias.AliasActionsTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T01:50:24,856][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseRemove] before test
+[2020-02-17T01:50:24,862][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseRemove] after test
+[2020-02-17T01:50:24,864][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseAdd] before test
+[2020-02-17T01:50:24,866][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseAdd] after test
+[2020-02-17T01:50:24,868][INFO ][o.e.a.a.i.a.AliasActionsTests] [testValidate] before test
+[2020-02-17T01:50:24,869][INFO ][o.e.a.a.i.a.AliasActionsTests] [testValidate] after test
+[2020-02-17T01:50:24,871][INFO ][o.e.a.a.i.a.AliasActionsTests] [testRoundTrip] before test
+[2020-02-17T01:50:24,871][INFO ][o.e.a.a.i.a.AliasActionsTests] [testRoundTrip] after test
+[2020-02-17T01:50:24,877][INFO ][o.e.a.a.i.a.AliasActionsTests] [testEmptyAlias] before test
+[2020-02-17T01:50:24,879][INFO ][o.e.a.a.i.a.AliasActionsTests] [testEmptyAlias] after test
+[2020-02-17T01:50:24,881][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseIndexAndIndicesThrowsError] before test
+[2020-02-17T01:50:24,882][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseIndexAndIndicesThrowsError] after test
+[2020-02-17T01:50:24,886][INFO ][o.e.a.a.i.a.AliasActionsTests] [testFromToXContent] before test
+[2020-02-17T01:50:24,896][INFO ][o.e.a.a.i.a.AliasActionsTests] [testFromToXContent] after test
+[2020-02-17T01:50:24,898][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseRemoveIndex] before test
+[2020-02-17T01:50:24,899][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseRemoveIndex] after test
+[2020-02-17T01:50:24,902][INFO ][o.e.a.a.i.a.AliasActionsTests] [testEmptyIndex] before test
+[2020-02-17T01:50:24,903][INFO ][o.e.a.a.i.a.AliasActionsTests] [testEmptyIndex] after test
+[2020-02-17T01:50:24,905][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseAliasAndAliasesThrowsError] before test
+[2020-02-17T01:50:24,906][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseAliasAndAliasesThrowsError] after test
+[2020-02-17T01:50:24,909][INFO ][o.e.a.a.i.a.AliasActionsTests] [testBadOptionsInNonIndex] before test
+[2020-02-17T01:50:24,910][INFO ][o.e.a.a.i.a.AliasActionsTests] [testBadOptionsInNonIndex] after test
+[2020-02-17T01:50:24,914][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseAddDefaultRouting] before test
+[2020-02-17T01:50:24,914][INFO ][o.e.a.a.i.a.AliasActionsTests] [testParseAddDefaultRouting] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

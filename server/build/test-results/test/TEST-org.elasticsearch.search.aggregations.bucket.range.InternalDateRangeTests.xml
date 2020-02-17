@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.range.InternalDateRangeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.057">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.range.InternalDateRangeTests" time="0.022"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.range.InternalDateRangeTests" time="0.005"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.range.InternalDateRangeTests" time="0.011"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.range.InternalDateRangeTests" time="0.008"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.range.InternalDateRangeTests" time="0.007"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.range.InternalDateRangeTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T06:24:21,362][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T06:24:21,381][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T06:24:21,384][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testReduceRandom] before test
+[2020-02-17T06:24:21,387][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testReduceRandom] after test
+[2020-02-17T06:24:21,390][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testFromXContent] before test
+[2020-02-17T06:24:21,399][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testFromXContent] after test
+[2020-02-17T06:24:21,402][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:24:21,406][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:24:21,410][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testSerialization] before test
+[2020-02-17T06:24:21,414][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testSerialization] after test
+[2020-02-17T06:24:21,416][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testIterators] before test
+[2020-02-17T06:24:21,417][INFO ][o.e.s.a.b.r.InternalDateRangeTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

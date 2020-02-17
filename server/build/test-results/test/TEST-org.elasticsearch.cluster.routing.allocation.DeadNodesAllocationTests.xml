@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.DeadNodesAllocationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testDeadNodeWhileRelocatingOnToNode" classname="org.elasticsearch.cluster.routing.allocation.DeadNodesAllocationTests" time="0.006"/>
+  <testcase name="testDeadNodeWhileRelocatingOnFromNode" classname="org.elasticsearch.cluster.routing.allocation.DeadNodesAllocationTests" time="0.007"/>
+  <testcase name="testSimpleDeadNodeOnStartedPrimaryShard" classname="org.elasticsearch.cluster.routing.allocation.DeadNodesAllocationTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T19:20:37,993][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnToNode] before test
+[2020-02-16T19:20:37,995][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnToNode] --> building initial routing table
+[2020-02-16T19:20:37,995][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnToNode] --> adding 2 nodes on same rack and do rerouting
+[2020-02-16T19:20:37,997][INFO ][o.e.c.r.a.AllocationService] [testDeadNodeWhileRelocatingOnToNode] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:20:37,997][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnToNode] --> verifying all is allocated
+[2020-02-16T19:20:37,997][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnToNode] --> adding additional node
+[2020-02-16T19:20:37,997][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnToNode] --> moving primary shard to node3
+[2020-02-16T19:20:37,998][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnToNode] --> fail primary shard recovering instance on node3 being initialized by killing node3
+[2020-02-16T19:20:37,998][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnToNode] after test
+[2020-02-16T19:20:38,002][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnFromNode] before test
+[2020-02-16T19:20:38,003][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnFromNode] --> building initial routing table
+[2020-02-16T19:20:38,004][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnFromNode] --> adding 2 nodes on same rack and do rerouting
+[2020-02-16T19:20:38,004][INFO ][o.e.c.r.a.AllocationService] [testDeadNodeWhileRelocatingOnFromNode] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:20:38,004][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnFromNode] --> verifying all is allocated
+[2020-02-16T19:20:38,004][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnFromNode] --> adding additional node
+[2020-02-16T19:20:38,004][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnFromNode] --> moving primary shard to node3
+[2020-02-16T19:20:38,005][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnFromNode] --> fail primary shard recovering instance on 'origPrimaryNodeId' being relocated
+[2020-02-16T19:20:38,006][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testDeadNodeWhileRelocatingOnFromNode] after test
+[2020-02-16T19:20:38,009][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testSimpleDeadNodeOnStartedPrimaryShard] before test
+[2020-02-16T19:20:38,010][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testSimpleDeadNodeOnStartedPrimaryShard] --> building initial routing table
+[2020-02-16T19:20:38,010][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testSimpleDeadNodeOnStartedPrimaryShard] --> adding 2 nodes on same rack and do rerouting
+[2020-02-16T19:20:38,014][INFO ][o.e.c.r.a.AllocationService] [testSimpleDeadNodeOnStartedPrimaryShard] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:20:38,014][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testSimpleDeadNodeOnStartedPrimaryShard] --> verifying all is allocated
+[2020-02-16T19:20:38,014][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testSimpleDeadNodeOnStartedPrimaryShard] --> fail node with primary
+[2020-02-16T19:20:38,014][INFO ][o.e.c.r.a.DeadNodesAllocationTests] [testSimpleDeadNodeOnStartedPrimaryShard] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

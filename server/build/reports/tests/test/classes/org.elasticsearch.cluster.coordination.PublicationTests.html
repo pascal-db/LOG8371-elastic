@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.coordination.PublicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.coordination.PublicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.coordination.html">org.elasticsearch.cluster.coordination</a> &gt; PublicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.064s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testClusterStatePublishingFailsOrTimesOutBeforeCommit</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterStatePublishingTimesOutAfterCommit</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterStatePublishingWithFaultyNodeAfterCommit</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterStatePublishingWithFaultyNodeBeforeCommit</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPublishingToMastersFirst</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleClusterStatePublishing</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T19:21:32,540][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeBeforeCommit] before test
+[2020-02-16T19:21:32,542][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeBeforeCommit] Injecting fault at: 3
+[2020-02-16T19:21:32,544][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingWithFaultyNodeBeforeCommit] cluster UUID set to [enFrDwAAQACUenBHAAAAAA]
+[2020-02-16T19:21:32,544][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingWithFaultyNodeBeforeCommit] cluster UUID set to [enFrDwAAQACUenBHAAAAAA]
+[2020-02-16T19:21:32,544][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeBeforeCommit] after test
+[2020-02-16T19:21:32,546][INFO ][o.e.c.c.PublicationTests ] [testPublishingToMastersFirst] before test
+[2020-02-16T19:21:32,547][INFO ][o.e.c.c.PublicationTests ] [testPublishingToMastersFirst] after test
+[2020-02-16T19:21:32,548][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeAfterCommit] before test
+[2020-02-16T19:21:32,549][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeAfterCommit] Injecting fault at: 1, publicationDidNotMakeItToNode2: false
+[2020-02-16T19:21:32,549][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingWithFaultyNodeAfterCommit] cluster UUID set to [XJnPIAAAQACZ6L6T_____w]
+[2020-02-16T19:21:32,549][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingWithFaultyNodeAfterCommit] cluster UUID set to [XJnPIAAAQACZ6L6T_____w]
+[2020-02-16T19:21:32,549][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeAfterCommit] after test
+[2020-02-16T19:21:32,551][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingFailsOrTimesOutBeforeCommit] before test
+[2020-02-16T19:21:32,552][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingFailsOrTimesOutBeforeCommit] after test
+[2020-02-16T19:21:32,554][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingTimesOutAfterCommit] before test
+[2020-02-16T19:21:32,554][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingTimesOutAfterCommit] Committing nodes: [{node1}{XP-AagAAQACsA1eQ_____w}{0.0.0.0}{0.0.0.0:23}{dim}, {node2}{Ml5oqf__T_-iLQ8fAAAAAA}{0.0.0.0}{0.0.0.0:24}{dim}]
+[2020-02-16T19:21:32,555][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingTimesOutAfterCommit] cluster UUID set to [YzWMewAAQACoxmg6AAAAAA]
+[2020-02-16T19:21:32,555][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingTimesOutAfterCommit] cluster UUID set to [YzWMewAAQACoxmg6AAAAAA]
+[2020-02-16T19:21:32,555][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingTimesOutAfterCommit] Non-committed nodes: [{node3}{P-tiPwAAQACMgFWc_____w}{0.0.0.0}{0.0.0.0:25}{dim}]
+[2020-02-16T19:21:32,584][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingTimesOutAfterCommit] after test
+[2020-02-16T19:21:32,588][INFO ][o.e.c.c.PublicationTests ] [testSimpleClusterStatePublishing] before test
+[2020-02-16T19:21:32,596][INFO ][o.e.c.c.CoordinationState] [testSimpleClusterStatePublishing] cluster UUID set to [2JHXagAAQACr-xhcAAAAAA]
+[2020-02-16T19:21:32,596][INFO ][o.e.c.c.CoordinationState] [testSimpleClusterStatePublishing] cluster UUID set to [2JHXagAAQACr-xhcAAAAAA]
+[2020-02-16T19:21:32,596][INFO ][o.e.c.c.PublicationTests ] [testSimpleClusterStatePublishing] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

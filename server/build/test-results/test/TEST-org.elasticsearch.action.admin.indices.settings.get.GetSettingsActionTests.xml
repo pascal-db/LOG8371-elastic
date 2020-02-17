@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.settings.get.GetSettingsActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:06" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testIncludeDefaults" classname="org.elasticsearch.action.admin.indices.settings.get.GetSettingsActionTests" time="0.018"/>
+  <testcase name="testIncludeDefaultsWithFiltering" classname="org.elasticsearch.action.admin.indices.settings.get.GetSettingsActionTests" time="0.02"/>
+  <system-out><![CDATA[[2020-02-16T17:20:06,303][INFO ][o.e.a.a.i.s.g.GetSettingsActionTests] [testIncludeDefaults] before test
+[2020-02-16T17:20:06,317][INFO ][o.e.a.a.i.s.g.GetSettingsActionTests] [testIncludeDefaults] after test
+[2020-02-16T17:20:06,320][INFO ][o.e.a.a.i.s.g.GetSettingsActionTests] [testIncludeDefaultsWithFiltering] before test
+[2020-02-16T17:20:06,336][INFO ][o.e.a.a.i.s.g.GetSettingsActionTests] [testIncludeDefaultsWithFiltering] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

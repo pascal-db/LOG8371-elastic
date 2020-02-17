@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.bootstrap.MaxMapCountCheckTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:28" hostname="Escoto-PC" time="0.055">
+  <properties/>
+  <testcase name="testMaxMapCountCheckParse" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.003"/>
+  <testcase name="testMaxMapCountCheckBelowLimit" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.003"/>
+  <testcase name="testMaxMapCountCheckNotEnforcedIfMemoryMapNotAllowed" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.004"/>
+  <testcase name="testMaxMapCountCheckRead" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.01"/>
+  <testcase name="testGetMaxMapCount" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.014"/>
+  <testcase name="testMaxMapCountCheckAboveLimit" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.008"/>
+  <testcase name="testMaxMapCountCheckBelowLimitAndMemoryMapAllowed" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.006"/>
+  <testcase name="testGetMaxMapCountOnLinux" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.003"/>
+  <testcase name="testMaxMapCountCheckMaxMapCountNotAvailable" classname="org.elasticsearch.bootstrap.MaxMapCountCheckTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T03:20:28,926][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckParse] before test
+[2020-02-17T03:20:28,926][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckParse] after test
+[2020-02-17T03:20:28,928][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckBelowLimit] before test
+[2020-02-17T03:20:28,929][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckBelowLimit] after test
+[2020-02-17T03:20:28,931][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckNotEnforcedIfMemoryMapNotAllowed] before test
+[2020-02-17T03:20:28,933][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckNotEnforcedIfMemoryMapNotAllowed] after test
+[2020-02-17T03:20:28,937][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckRead] before test
+[2020-02-17T03:20:28,943][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckRead] after test
+[2020-02-17T03:20:28,946][INFO ][o.e.b.MaxMapCountCheckTests] [testGetMaxMapCount] before test
+[2020-02-17T03:20:28,951][WARN ][testGetMaxMapCountIOException] [testGetMaxMapCount] I/O exception while trying to read [\proc\sys\vm\max_map_count]
+java.io.IOException: fatal
+	at org.elasticsearch.bootstrap.BootstrapChecks$MaxMapCountCheck.readProcSysVmMaxMapCount(BootstrapChecks.java:462) ~[main/:7.5.1-SNAPSHOT]
+	at org.elasticsearch.bootstrap.BootstrapChecks$MaxMapCountCheck.getMaxMapCount(BootstrapChecks.java:436) [main/:7.5.1-SNAPSHOT]
+	at org.elasticsearch.bootstrap.MaxMapCountCheckTests.testGetMaxMapCount(MaxMapCountCheckTests.java:152) [test/:7.5.1-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T03:20:28,955][WARN ][testGetMaxMapCountNumberFormatException] [testGetMaxMapCount] unable to parse vm.max_map_count [eof]
+java.lang.NumberFormatException: For input string: "eof"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:68) ~[?:?]
+	at java.lang.Long.parseLong(Long.java:699) ~[?:?]
+	at java.lang.Long.parseLong(Long.java:824) ~[?:?]
+	at org.elasticsearch.bootstrap.BootstrapChecks$MaxMapCountCheck.parseProcSysVmMaxMapCount(BootstrapChecks.java:467) ~[main/:7.5.1-SNAPSHOT]
+	at org.elasticsearch.bootstrap.BootstrapChecks$MaxMapCountCheck.getMaxMapCount(BootstrapChecks.java:439) [main/:7.5.1-SNAPSHOT]
+	at org.elasticsearch.bootstrap.MaxMapCountCheckTests.testGetMaxMapCount(MaxMapCountCheckTests.java:174) [test/:7.5.1-SNAPSHOT]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T03:20:28,957][INFO ][o.e.b.MaxMapCountCheckTests] [testGetMaxMapCount] after test
+[2020-02-17T03:20:28,965][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckAboveLimit] before test
+[2020-02-17T03:20:28,965][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckAboveLimit] after test
+[2020-02-17T03:20:28,969][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckBelowLimitAndMemoryMapAllowed] before test
+[2020-02-17T03:20:28,971][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckBelowLimitAndMemoryMapAllowed] after test
+[2020-02-17T03:20:28,974][INFO ][o.e.b.MaxMapCountCheckTests] [testGetMaxMapCountOnLinux] before test
+[2020-02-17T03:20:28,975][INFO ][o.e.b.MaxMapCountCheckTests] [testGetMaxMapCountOnLinux] after test
+[2020-02-17T03:20:28,978][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckMaxMapCountNotAvailable] before test
+[2020-02-17T03:20:28,978][INFO ][o.e.b.MaxMapCountCheckTests] [testMaxMapCountCheckMaxMapCountNotAvailable] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

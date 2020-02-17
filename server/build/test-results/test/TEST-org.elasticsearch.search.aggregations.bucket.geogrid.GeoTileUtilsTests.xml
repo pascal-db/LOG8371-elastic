@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileUtilsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:13" hostname="Escoto-PC" time="1.287">
+  <properties/>
+  <testcase name="testHashToGeoPoint" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileUtilsTests" time="0.021"/>
+  <testcase name="testLongEncode" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileUtilsTests" time="0.01"/>
+  <testcase name="testCheckPrecisionRange" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileUtilsTests" time="0.002"/>
+  <testcase name="testLongEncodeFromString" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileUtilsTests" time="0.004"/>
+  <testcase name="testSingularityAtPoles" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileUtilsTests" time="0.002"/>
+  <testcase name="testStringEncode" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileUtilsTests" time="0.004"/>
+  <testcase name="testGeoTileAsLongRoutines" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileUtilsTests" time="1.243"/>
+  <system-out><![CDATA[[2020-02-16T16:24:13,127][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testHashToGeoPoint] before test
+[2020-02-16T16:24:13,145][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testHashToGeoPoint] after test
+[2020-02-16T16:24:13,155][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testLongEncode] before test
+[2020-02-16T16:24:13,155][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testLongEncode] after test
+[2020-02-16T16:24:13,157][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testCheckPrecisionRange] before test
+[2020-02-16T16:24:13,157][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testCheckPrecisionRange] after test
+[2020-02-16T16:24:13,161][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testLongEncodeFromString] before test
+[2020-02-16T16:24:13,162][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testLongEncodeFromString] after test
+[2020-02-16T16:24:13,164][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testSingularityAtPoles] before test
+[2020-02-16T16:24:13,164][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testSingularityAtPoles] after test
+[2020-02-16T16:24:13,166][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testStringEncode] before test
+[2020-02-16T16:24:13,169][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testStringEncode] after test
+[2020-02-16T16:24:13,176][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testGeoTileAsLongRoutines] before test
+[2020-02-16T16:24:14,410][INFO ][o.e.s.a.b.g.GeoTileUtilsTests] [testGeoTileAsLongRoutines] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

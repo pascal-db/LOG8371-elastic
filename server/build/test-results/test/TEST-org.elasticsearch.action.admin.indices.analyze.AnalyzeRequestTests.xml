@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.analyze.AnalyzeRequestTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:25" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.analyze.AnalyzeRequestTests" time="0.008"/>
+  <testcase name="testValidation" classname="org.elasticsearch.action.admin.indices.analyze.AnalyzeRequestTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T07:50:25,016][INFO ][o.e.a.a.i.a.AnalyzeRequestTests] [testSerialization] before test
+[2020-02-17T07:50:25,022][INFO ][o.e.a.a.i.a.AnalyzeRequestTests] [testSerialization] after test
+[2020-02-17T07:50:25,026][INFO ][o.e.a.a.i.a.AnalyzeRequestTests] [testValidation] before test
+[2020-02-17T07:50:25,026][INFO ][o.e.a.a.i.a.AnalyzeRequestTests] [testValidation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

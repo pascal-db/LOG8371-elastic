@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.phrase.LaplaceModelTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.phrase.LaplaceModelTests" time="0.003"/>
+  <testcase name="testBuildWordScorer" classname="org.elasticsearch.search.suggest.phrase.LaplaceModelTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.suggest.phrase.LaplaceModelTests" time="0.005"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.phrase.LaplaceModelTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T12:24:43,443][INFO ][o.e.s.s.p.LaplaceModelTests] [testSerialization] before test
+[2020-02-16T12:24:43,443][INFO ][o.e.s.s.p.LaplaceModelTests] [testSerialization] after test
+[2020-02-16T12:24:43,445][INFO ][o.e.s.s.p.LaplaceModelTests] [testBuildWordScorer] before test
+[2020-02-16T12:24:43,448][INFO ][o.e.s.s.p.LaplaceModelTests] [testBuildWordScorer] after test
+[2020-02-16T12:24:43,453][INFO ][o.e.s.s.p.LaplaceModelTests] [testEqualsAndHashcode] before test
+[2020-02-16T12:24:43,453][INFO ][o.e.s.s.p.LaplaceModelTests] [testEqualsAndHashcode] after test
+[2020-02-16T12:24:43,455][INFO ][o.e.s.s.p.LaplaceModelTests] [testFromXContent] before test
+[2020-02-16T12:24:43,456][INFO ][o.e.s.s.p.LaplaceModelTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

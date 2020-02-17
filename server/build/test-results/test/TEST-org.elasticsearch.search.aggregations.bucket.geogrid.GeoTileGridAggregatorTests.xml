@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridAggregatorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testPrecision" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridAggregatorTests" time="0.003"/>
+  <testcase name="testFieldMissing" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridAggregatorTests" time="0.011"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridAggregatorTests" time="0.005"/>
+  <testcase name="testWithSeveralDocs" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridAggregatorTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T19:25:20,555][INFO ][o.e.s.a.b.g.GeoTileGridAggregatorTests] [testPrecision] before test
+[2020-02-16T19:25:20,556][INFO ][o.e.s.a.b.g.GeoTileGridAggregatorTests] [testPrecision] after test
+[2020-02-16T19:25:20,558][INFO ][o.e.s.a.b.g.GeoTileGridAggregatorTests] [testFieldMissing] before test
+[2020-02-16T19:25:20,567][INFO ][o.e.s.a.b.g.GeoTileGridAggregatorTests] [testFieldMissing] after test
+[2020-02-16T19:25:20,568][INFO ][o.e.s.a.b.g.GeoTileGridAggregatorTests] [testNoDocs] before test
+[2020-02-16T19:25:20,572][INFO ][o.e.s.a.b.g.GeoTileGridAggregatorTests] [testNoDocs] after test
+[2020-02-16T19:25:20,574][INFO ][o.e.s.a.b.g.GeoTileGridAggregatorTests] [testWithSeveralDocs] before test
+[2020-02-16T19:25:20,583][INFO ][o.e.s.a.b.g.GeoTileGridAggregatorTests] [testWithSeveralDocs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

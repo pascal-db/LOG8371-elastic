@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.WriteStateExceptionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:25" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testDirtyRethrow" classname="org.elasticsearch.gateway.WriteStateExceptionTests" time="0.005"/>
+  <testcase name="testDirtyFlag" classname="org.elasticsearch.gateway.WriteStateExceptionTests" time="0.001"/>
+  <testcase name="testNonDirtyRethrow" classname="org.elasticsearch.gateway.WriteStateExceptionTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T06:22:25,964][INFO ][o.e.g.WriteStateExceptionTests] [testDirtyRethrow] before test
+[2020-02-17T06:22:25,965][INFO ][o.e.g.WriteStateExceptionTests] [testDirtyRethrow] after test
+[2020-02-17T06:22:25,967][INFO ][o.e.g.WriteStateExceptionTests] [testDirtyFlag] before test
+[2020-02-17T06:22:25,967][INFO ][o.e.g.WriteStateExceptionTests] [testDirtyFlag] after test
+[2020-02-17T06:22:25,970][INFO ][o.e.g.WriteStateExceptionTests] [testNonDirtyRethrow] before test
+[2020-02-17T06:22:25,971][INFO ][o.e.g.WriteStateExceptionTests] [testNonDirtyRethrow] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

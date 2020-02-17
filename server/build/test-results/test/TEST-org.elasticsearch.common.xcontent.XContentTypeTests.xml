@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.XContentTypeTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:57" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testFromYaml" classname="org.elasticsearch.common.xcontent.XContentTypeTests" time="0.001"/>
+  <testcase name="testFromCbor" classname="org.elasticsearch.common.xcontent.XContentTypeTests" time="0.003"/>
+  <testcase name="testFromWildcardUppercase" classname="org.elasticsearch.common.xcontent.XContentTypeTests" time="0.002"/>
+  <testcase name="testFromRubbish" classname="org.elasticsearch.common.xcontent.XContentTypeTests" time="0.001"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.common.xcontent.XContentTypeTests" time="0.002"/>
+  <testcase name="testFromJsonUppercase" classname="org.elasticsearch.common.xcontent.XContentTypeTests" time="0.001"/>
+  <testcase name="testFromSmile" classname="org.elasticsearch.common.xcontent.XContentTypeTests" time="0.001"/>
+  <testcase name="testFromWildcard" classname="org.elasticsearch.common.xcontent.XContentTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T21:20:57,306][INFO ][o.e.c.x.XContentTypeTests] [testFromYaml] before test
+[2020-02-16T21:20:57,307][INFO ][o.e.c.x.XContentTypeTests] [testFromYaml] after test
+[2020-02-16T21:20:57,309][INFO ][o.e.c.x.XContentTypeTests] [testFromCbor] before test
+[2020-02-16T21:20:57,309][INFO ][o.e.c.x.XContentTypeTests] [testFromCbor] after test
+[2020-02-16T21:20:57,311][INFO ][o.e.c.x.XContentTypeTests] [testFromWildcardUppercase] before test
+[2020-02-16T21:20:57,311][INFO ][o.e.c.x.XContentTypeTests] [testFromWildcardUppercase] after test
+[2020-02-16T21:20:57,312][INFO ][o.e.c.x.XContentTypeTests] [testFromRubbish] before test
+[2020-02-16T21:20:57,312][INFO ][o.e.c.x.XContentTypeTests] [testFromRubbish] after test
+[2020-02-16T21:20:57,314][INFO ][o.e.c.x.XContentTypeTests] [testFromJson] before test
+[2020-02-16T21:20:57,314][INFO ][o.e.c.x.XContentTypeTests] [testFromJson] after test
+[2020-02-16T21:20:57,316][INFO ][o.e.c.x.XContentTypeTests] [testFromJsonUppercase] before test
+[2020-02-16T21:20:57,316][INFO ][o.e.c.x.XContentTypeTests] [testFromJsonUppercase] after test
+[2020-02-16T21:20:57,317][INFO ][o.e.c.x.XContentTypeTests] [testFromSmile] before test
+[2020-02-16T21:20:57,317][INFO ][o.e.c.x.XContentTypeTests] [testFromSmile] after test
+[2020-02-16T21:20:57,319][INFO ][o.e.c.x.XContentTypeTests] [testFromWildcard] before test
+[2020-02-16T21:20:57,319][INFO ][o.e.c.x.XContentTypeTests] [testFromWildcard] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

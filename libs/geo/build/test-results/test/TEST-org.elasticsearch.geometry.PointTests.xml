@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.PointTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:23" hostname="Escoto-PC" time="0.079">
+  <properties/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.PointTests" time="0.009"/>
+  <testcase name="testWKTValidation" classname="org.elasticsearch.geometry.PointTests" time="0.013"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.PointTests" time="0.027"/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.PointTests" time="0.014"/>
+  <testcase name="testInitValidation" classname="org.elasticsearch.geometry.PointTests" time="0.005"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.PointTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T17:50:23,422][INFO ][o.e.g.PointTests         ] [testVisitor] before test
+[2020-02-16T17:50:23,425][INFO ][o.e.g.PointTests         ] [testVisitor] after test
+[2020-02-16T17:50:23,440][INFO ][o.e.g.PointTests         ] [testWKTValidation] before test
+[2020-02-16T17:50:23,443][INFO ][o.e.g.PointTests         ] [testWKTValidation] after test
+[2020-02-16T17:50:23,465][INFO ][o.e.g.PointTests         ] [testEqualsAndHashcode] before test
+[2020-02-16T17:50:23,470][INFO ][o.e.g.PointTests         ] [testEqualsAndHashcode] after test
+[2020-02-16T17:50:23,483][INFO ][o.e.g.PointTests         ] [testBasicSerialization] before test
+[2020-02-16T17:50:23,485][INFO ][o.e.g.PointTests         ] [testBasicSerialization] after test
+[2020-02-16T17:50:23,489][INFO ][o.e.g.PointTests         ] [testInitValidation] before test
+[2020-02-16T17:50:23,490][INFO ][o.e.g.PointTests         ] [testInitValidation] after test
+[2020-02-16T17:50:23,494][INFO ][o.e.g.PointTests         ] [testSerialization] before test
+[2020-02-16T17:50:23,495][INFO ][o.e.g.PointTests         ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

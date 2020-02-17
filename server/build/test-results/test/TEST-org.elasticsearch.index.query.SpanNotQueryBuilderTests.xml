@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.SpanNotQueryBuilderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:09" hostname="Escoto-PC" time="0.145">
+  <properties/>
+  <testcase name="testDist" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.034"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.003"/>
+  <testcase name="testParseDist" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.007"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.003"/>
+  <testcase name="testPrePost" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.008"/>
+  <testcase name="testParserExceptions" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.004"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.005"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.016"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.006"/>
+  <testcase name="testIllegalArgument" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.014"/>
+  <testcase name="testFromJsonWithNonDefaultBoostInExcludeQuery" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.009"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.009"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJsonWithNonDefaultBoostInIncludeQuery" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.004"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.SpanNotQueryBuilderTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T17:23:09,191][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testDist] before test
+[2020-02-16T17:23:09,205][INFO ][o.e.p.PluginsService     ] [testDist] no modules loaded
+[2020-02-16T17:23:09,205][INFO ][o.e.p.PluginsService     ] [testDist] no plugins loaded
+[2020-02-16T17:23:09,220][INFO ][o.e.p.PluginsService     ] [testDist] no modules loaded
+[2020-02-16T17:23:09,220][INFO ][o.e.p.PluginsService     ] [testDist] no plugins loaded
+[2020-02-16T17:23:09,223][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testDist] after test
+[2020-02-16T17:23:09,225][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:09,226][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:09,232][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testParseDist] before test
+[2020-02-16T17:23:09,233][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testParseDist] after test
+[2020-02-16T17:23:09,234][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:09,236][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:09,239][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testPrePost] before test
+[2020-02-16T17:23:09,240][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testPrePost] after test
+[2020-02-16T17:23:09,244][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:09,248][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T17:23:09,250][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testParserExceptions] before test
+[2020-02-16T17:23:09,250][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testParserExceptions] after test
+[2020-02-16T17:23:09,254][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:09,255][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:09,258][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:09,260][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:09,276][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:09,276][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:09,279][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testFromJson] before test
+[2020-02-16T17:23:09,282][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testFromJson] after test
+[2020-02-16T17:23:09,296][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testIllegalArgument] before test
+[2020-02-16T17:23:09,297][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testIllegalArgument] after test
+[2020-02-16T17:23:09,306][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testFromJsonWithNonDefaultBoostInExcludeQuery] before test
+[2020-02-16T17:23:09,306][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testFromJsonWithNonDefaultBoostInExcludeQuery] after test
+[2020-02-16T17:23:09,308][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:09,309][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:09,317][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:09,318][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:09,320][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:09,320][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T17:23:09,323][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testFromJsonWithNonDefaultBoostInIncludeQuery] before test
+[2020-02-16T17:23:09,324][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testFromJsonWithNonDefaultBoostInIncludeQuery] after test
+[2020-02-16T17:23:09,328][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:09,328][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:23:09,333][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:09,334][INFO ][o.e.i.q.SpanNotQueryBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

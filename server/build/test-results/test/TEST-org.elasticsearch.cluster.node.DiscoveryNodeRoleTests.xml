@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.node.DiscoveryNodeRoleTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:36" hostname="Escoto-PC" time="0.035">
+  <properties/>
+  <testcase name="testUnknownRoleIsDistinctFromKnownRoles" classname="org.elasticsearch.cluster.node.DiscoveryNodeRoleTests" time="0.008"/>
+  <testcase name="testDiscoveryNodeRoleEqualsHashCode" classname="org.elasticsearch.cluster.node.DiscoveryNodeRoleTests" time="0.009"/>
+  <testcase name="testDiscoveryNodeSetPossibleRolesRejectsDuplicateRoleNameAbbreviations" classname="org.elasticsearch.cluster.node.DiscoveryNodeRoleTests" time="0.003"/>
+  <testcase name="testDiscoveryNodeSetPossibleRolesRejectsDuplicateRoleNames" classname="org.elasticsearch.cluster.node.DiscoveryNodeRoleTests" time="0.013"/>
+  <system-out><![CDATA[[2020-02-17T01:20:36,994][INFO ][o.e.c.n.DiscoveryNodeRoleTests] [testUnknownRoleIsDistinctFromKnownRoles] before test
+[2020-02-17T01:20:36,996][INFO ][o.e.c.n.DiscoveryNodeRoleTests] [testUnknownRoleIsDistinctFromKnownRoles] after test
+[2020-02-17T01:20:37,004][INFO ][o.e.c.n.DiscoveryNodeRoleTests] [testDiscoveryNodeRoleEqualsHashCode] before test
+[2020-02-17T01:20:37,005][INFO ][o.e.c.n.DiscoveryNodeRoleTests] [testDiscoveryNodeRoleEqualsHashCode] after test
+[2020-02-17T01:20:37,008][INFO ][o.e.c.n.DiscoveryNodeRoleTests] [testDiscoveryNodeSetPossibleRolesRejectsDuplicateRoleNameAbbreviations] before test
+[2020-02-17T01:20:37,009][INFO ][o.e.c.n.DiscoveryNodeRoleTests] [testDiscoveryNodeSetPossibleRolesRejectsDuplicateRoleNameAbbreviations] after test
+[2020-02-17T01:20:37,022][INFO ][o.e.c.n.DiscoveryNodeRoleTests] [testDiscoveryNodeSetPossibleRolesRejectsDuplicateRoleNames] before test
+[2020-02-17T01:20:37,023][INFO ][o.e.c.n.DiscoveryNodeRoleTests] [testDiscoveryNodeSetPossibleRolesRejectsDuplicateRoleNames] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

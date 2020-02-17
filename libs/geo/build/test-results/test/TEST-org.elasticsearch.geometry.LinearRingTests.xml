@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.LinearRingTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:24" hostname="Escoto-PC" time="0.033">
+  <properties/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.LinearRingTests" time="0.021"/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.LinearRingTests" time="0.006"/>
+  <testcase name="testInitValidation" classname="org.elasticsearch.geometry.LinearRingTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T08:50:24,525][INFO ][o.e.g.LinearRingTests    ] [testVisitor] before test
+[2020-02-17T08:50:24,536][INFO ][o.e.g.LinearRingTests    ] [testVisitor] after test
+[2020-02-17T08:50:24,541][INFO ][o.e.g.LinearRingTests    ] [testBasicSerialization] before test
+[2020-02-17T08:50:24,542][INFO ][o.e.g.LinearRingTests    ] [testBasicSerialization] after test
+[2020-02-17T08:50:24,545][INFO ][o.e.g.LinearRingTests    ] [testInitValidation] before test
+[2020-02-17T08:50:24,548][INFO ][o.e.g.LinearRingTests    ] [testInitValidation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

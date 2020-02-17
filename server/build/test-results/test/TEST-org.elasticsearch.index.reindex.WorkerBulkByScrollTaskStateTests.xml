@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.reindex.WorkerBulkByScrollTaskStateTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:42" hostname="Escoto-PC" time="0.055">
+  <properties/>
+  <testcase name="testDelayAndRethrottle" classname="org.elasticsearch.index.reindex.WorkerBulkByScrollTaskStateTests" time="0.023"/>
+  <testcase name="testPerfectlyThrottledBatchTime" classname="org.elasticsearch.index.reindex.WorkerBulkByScrollTaskStateTests" time="0.003"/>
+  <testcase name="testProgress" classname="org.elasticsearch.index.reindex.WorkerBulkByScrollTaskStateTests" time="0.004"/>
+  <testcase name="testBasicData" classname="org.elasticsearch.index.reindex.WorkerBulkByScrollTaskStateTests" time="0.01"/>
+  <testcase name="testDelayNeverNegative" classname="org.elasticsearch.index.reindex.WorkerBulkByScrollTaskStateTests" time="0.014"/>
+  <system-out><![CDATA[[2020-02-17T06:23:42,364][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testDelayAndRethrottle] before test
+[2020-02-17T06:23:42,380][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testDelayAndRethrottle] Rethrottled [123] times
+[2020-02-17T06:23:42,380][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testDelayAndRethrottle] Rethrottled [125] times
+[2020-02-17T06:23:42,380][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testDelayAndRethrottle] Rethrottled [0] times
+[2020-02-17T06:23:42,381][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testDelayAndRethrottle] Rethrottled [0] times
+[2020-02-17T06:23:42,384][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testDelayAndRethrottle] after test
+[2020-02-17T06:23:42,387][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testPerfectlyThrottledBatchTime] before test
+[2020-02-17T06:23:42,387][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testPerfectlyThrottledBatchTime] after test
+[2020-02-17T06:23:42,390][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testProgress] before test
+[2020-02-17T06:23:42,391][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testProgress] after test
+[2020-02-17T06:23:42,402][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testBasicData] before test
+[2020-02-17T06:23:42,402][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testBasicData] after test
+[2020-02-17T06:23:42,416][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testDelayNeverNegative] before test
+[2020-02-17T06:23:42,417][INFO ][o.e.i.r.WorkerBulkByScrollTaskStateTests] [testDelayNeverNegative] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

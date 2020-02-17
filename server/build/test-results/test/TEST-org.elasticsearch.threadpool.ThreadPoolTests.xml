@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.threadpool.ThreadPoolTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:00" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testBoundedByBelowMin" classname="org.elasticsearch.threadpool.ThreadPoolTests" time="0.002"/>
+  <testcase name="testBoundedByBetweenMinAndMax" classname="org.elasticsearch.threadpool.ThreadPoolTests" time="0.003"/>
+  <testcase name="testBoundedByAboveMax" classname="org.elasticsearch.threadpool.ThreadPoolTests" time="0.002"/>
+  <testcase name="testAbsoluteTime" classname="org.elasticsearch.threadpool.ThreadPoolTests" time="0.002"/>
+  <testcase name="testAssertCurrentMethodIsNotCalledRecursively" classname="org.elasticsearch.threadpool.ThreadPoolTests" time="0.005"/>
+  <testcase name="testEstimatedTimeIntervalSettingAcceptsOnlyZeroAndPositiveTime" classname="org.elasticsearch.threadpool.ThreadPoolTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T15:26:00,368][INFO ][o.e.t.ThreadPoolTests    ] [testBoundedByBelowMin] before test
+[2020-02-16T15:26:00,369][INFO ][o.e.t.ThreadPoolTests    ] [testBoundedByBelowMin] after test
+[2020-02-16T15:26:00,372][INFO ][o.e.t.ThreadPoolTests    ] [testBoundedByBetweenMinAndMax] before test
+[2020-02-16T15:26:00,372][INFO ][o.e.t.ThreadPoolTests    ] [testBoundedByBetweenMinAndMax] after test
+[2020-02-16T15:26:00,374][INFO ][o.e.t.ThreadPoolTests    ] [testBoundedByAboveMax] before test
+[2020-02-16T15:26:00,374][INFO ][o.e.t.ThreadPoolTests    ] [testBoundedByAboveMax] after test
+[2020-02-16T15:26:00,376][INFO ][o.e.t.ThreadPoolTests    ] [testAbsoluteTime] before test
+[2020-02-16T15:26:00,377][INFO ][o.e.t.ThreadPoolTests    ] [testAbsoluteTime] after test
+[2020-02-16T15:26:00,379][INFO ][o.e.t.ThreadPoolTests    ] [testAssertCurrentMethodIsNotCalledRecursively] before test
+[2020-02-16T15:26:00,383][INFO ][o.e.t.ThreadPoolTests    ] [testAssertCurrentMethodIsNotCalledRecursively] after test
+[2020-02-16T15:26:00,384][INFO ][o.e.t.ThreadPoolTests    ] [testEstimatedTimeIntervalSettingAcceptsOnlyZeroAndPositiveTime] before test
+[2020-02-16T15:26:00,385][INFO ][o.e.t.ThreadPoolTests    ] [testEstimatedTimeIntervalSettingAcceptsOnlyZeroAndPositiveTime] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.blobstore.fs.FsBlobStoreTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.03">
+  <properties/>
+  <testcase name="testReadOnly" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreTests" time="0.013"/>
+  <testcase name="testContainerCreationAndDeletion" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreTests" time="0.017"/>
+  <system-out><![CDATA[[2020-02-17T08:51:39,828][INFO ][o.e.c.b.f.FsBlobStoreTests] [testReadOnly] before test
+[2020-02-17T08:51:39,839][INFO ][o.e.c.b.f.FsBlobStoreTests] [testReadOnly] after test
+[2020-02-17T08:51:39,850][INFO ][o.e.c.b.f.FsBlobStoreTests] [testContainerCreationAndDeletion] before test
+[2020-02-17T08:51:39,856][INFO ][o.e.c.b.f.FsBlobStoreTests] [testContainerCreationAndDeletion] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.ReplicaShardAllocatorTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:12" hostname="Escoto-PC" time="0.093">
+  <properties/>
+  <testcase name="testSyncIdMatch" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.025"/>
+  <testcase name="testNoPrimaryData" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testNotCancellingRecoveryIfCurrentRecoveryHasRetentionLease" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.004"/>
+  <testcase name="testNoMatchingFilesForReplicaOnAnyNode" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testSimpleFullMatchAllocation" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testNotCancelIfPrimaryDoesNotHaveValidRetentionLease" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testNotCancellingRecoveryIfSyncedOnExistingRecovery" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testAsyncFetchOnAnythingButIndexCreation" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testCancelRecoveryBetterSyncId" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.004"/>
+  <testcase name="testFileChecksumMatch" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testIgnoreRetentionLeaseIfCopyIsEmpty" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.005"/>
+  <testcase name="testNotCancellingRecovery" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testPreferCopyWithHighestMatchingOperations" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.004"/>
+  <testcase name="testNoAsyncFetchData" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testDelayedAllocation" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.004"/>
+  <testcase name="testNoDataForReplicaOnAnyNode" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.004"/>
+  <testcase name="testThrottleWhenAllocatingToMatchingNode" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testCancelRecoveryIfFoundCopyWithNoopRetentionLease" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.004"/>
+  <testcase name="testDoNotCancelForBrokenNode" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.003"/>
+  <testcase name="testNoOrThrottleDecidersRemainsInUnassigned" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.002"/>
+  <testcase name="testNoAsyncFetchOnIndexCreation" classname="org.elasticsearch.gateway.ReplicaShardAllocatorTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T00:21:12,822][INFO ][o.e.g.ReplicaShardAllocatorTests] [testSyncIdMatch] before test
+[2020-02-17T00:21:12,830][INFO ][o.e.g.ReplicaShardAllocatorTests] [testSyncIdMatch] after test
+[2020-02-17T00:21:12,832][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoPrimaryData] before test
+[2020-02-17T00:21:12,833][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoPrimaryData] after test
+[2020-02-17T00:21:12,835][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNotCancellingRecoveryIfCurrentRecoveryHasRetentionLease] before test
+[2020-02-17T00:21:12,837][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNotCancellingRecoveryIfCurrentRecoveryHasRetentionLease] after test
+[2020-02-17T00:21:12,839][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoMatchingFilesForReplicaOnAnyNode] before test
+[2020-02-17T00:21:12,840][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoMatchingFilesForReplicaOnAnyNode] after test
+[2020-02-17T00:21:12,842][INFO ][o.e.g.ReplicaShardAllocatorTests] [testSimpleFullMatchAllocation] before test
+[2020-02-17T00:21:12,843][INFO ][o.e.g.ReplicaShardAllocatorTests] [testSimpleFullMatchAllocation] after test
+[2020-02-17T00:21:12,845][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNotCancelIfPrimaryDoesNotHaveValidRetentionLease] before test
+[2020-02-17T00:21:12,846][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNotCancelIfPrimaryDoesNotHaveValidRetentionLease] after test
+[2020-02-17T00:21:12,848][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNotCancellingRecoveryIfSyncedOnExistingRecovery] before test
+[2020-02-17T00:21:12,849][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNotCancellingRecoveryIfSyncedOnExistingRecovery] after test
+[2020-02-17T00:21:12,851][INFO ][o.e.g.ReplicaShardAllocatorTests] [testAsyncFetchOnAnythingButIndexCreation] before test
+[2020-02-17T00:21:12,852][INFO ][o.e.g.ReplicaShardAllocatorTests] [testAsyncFetchOnAnythingButIndexCreation] after test
+[2020-02-17T00:21:12,854][INFO ][o.e.g.ReplicaShardAllocatorTests] [testCancelRecoveryBetterSyncId] before test
+[2020-02-17T00:21:12,856][INFO ][o.e.g.ReplicaShardAllocatorTests] [testCancelRecoveryBetterSyncId] after test
+[2020-02-17T00:21:12,858][INFO ][o.e.g.ReplicaShardAllocatorTests] [testFileChecksumMatch] before test
+[2020-02-17T00:21:12,859][INFO ][o.e.g.ReplicaShardAllocatorTests] [testFileChecksumMatch] after test
+[2020-02-17T00:21:12,861][INFO ][o.e.g.ReplicaShardAllocatorTests] [testIgnoreRetentionLeaseIfCopyIsEmpty] before test
+[2020-02-17T00:21:12,864][INFO ][o.e.g.ReplicaShardAllocatorTests] [testIgnoreRetentionLeaseIfCopyIsEmpty] after test
+[2020-02-17T00:21:12,866][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNotCancellingRecovery] before test
+[2020-02-17T00:21:12,867][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNotCancellingRecovery] after test
+[2020-02-17T00:21:12,869][INFO ][o.e.g.ReplicaShardAllocatorTests] [testPreferCopyWithHighestMatchingOperations] before test
+[2020-02-17T00:21:12,871][INFO ][o.e.g.ReplicaShardAllocatorTests] [testPreferCopyWithHighestMatchingOperations] after test
+[2020-02-17T00:21:12,873][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoAsyncFetchData] before test
+[2020-02-17T00:21:12,874][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoAsyncFetchData] after test
+[2020-02-17T00:21:12,876][INFO ][o.e.g.ReplicaShardAllocatorTests] [testDelayedAllocation] before test
+[2020-02-17T00:21:12,878][INFO ][o.e.g.ReplicaShardAllocatorTests] [testDelayedAllocation] after test
+[2020-02-17T00:21:12,880][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoDataForReplicaOnAnyNode] before test
+[2020-02-17T00:21:12,882][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoDataForReplicaOnAnyNode] after test
+[2020-02-17T00:21:12,884][INFO ][o.e.g.ReplicaShardAllocatorTests] [testThrottleWhenAllocatingToMatchingNode] before test
+[2020-02-17T00:21:12,885][INFO ][o.e.g.ReplicaShardAllocatorTests] [testThrottleWhenAllocatingToMatchingNode] after test
+[2020-02-17T00:21:12,888][INFO ][o.e.g.ReplicaShardAllocatorTests] [testCancelRecoveryIfFoundCopyWithNoopRetentionLease] before test
+[2020-02-17T00:21:12,889][INFO ][o.e.g.ReplicaShardAllocatorTests] [testCancelRecoveryIfFoundCopyWithNoopRetentionLease] after test
+[2020-02-17T00:21:12,891][INFO ][o.e.g.ReplicaShardAllocatorTests] [testDoNotCancelForBrokenNode] before test
+[2020-02-17T00:21:12,892][INFO ][o.e.g.ReplicaShardAllocatorTests] [testDoNotCancelForBrokenNode] after test
+[2020-02-17T00:21:12,894][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoOrThrottleDecidersRemainsInUnassigned] before test
+[2020-02-17T00:21:12,895][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoOrThrottleDecidersRemainsInUnassigned] after test
+[2020-02-17T00:21:12,897][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoAsyncFetchOnIndexCreation] before test
+[2020-02-17T00:21:12,898][INFO ][o.e.g.ReplicaShardAllocatorTests] [testNoAsyncFetchOnIndexCreation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

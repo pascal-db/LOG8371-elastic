@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ActionListenerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:59" hostname="Escoto-PC" time="0.209">
+  <properties/>
+  <testcase name="testOnFailure" classname="org.elasticsearch.action.ActionListenerTests" time="0.117"/>
+  <testcase name="testOnResponse" classname="org.elasticsearch.action.ActionListenerTests" time="0.062"/>
+  <testcase name="testCompleteWith" classname="org.elasticsearch.action.ActionListenerTests" time="0.016"/>
+  <testcase name="testRunAfter" classname="org.elasticsearch.action.ActionListenerTests" time="0.004"/>
+  <testcase name="testRunBefore" classname="org.elasticsearch.action.ActionListenerTests" time="0.004"/>
+  <testcase name="testWrap" classname="org.elasticsearch.action.ActionListenerTests" time="0.003"/>
+  <testcase name="testNotifyOnce" classname="org.elasticsearch.action.ActionListenerTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T16:19:59,240][INFO ][o.e.a.ActionListenerTests] [testOnFailure] before test
+[2020-02-16T16:19:59,353][INFO ][o.e.a.ActionListenerTests] [testOnFailure] after test
+[2020-02-16T16:19:59,414][INFO ][o.e.a.ActionListenerTests] [testOnResponse] before test
+[2020-02-16T16:19:59,415][INFO ][o.e.a.ActionListenerTests] [testOnResponse] after test
+[2020-02-16T16:19:59,417][INFO ][o.e.a.ActionListenerTests] [testCompleteWith] before test
+[2020-02-16T16:19:59,430][INFO ][o.e.a.ActionListenerTests] [testCompleteWith] after test
+[2020-02-16T16:19:59,433][INFO ][o.e.a.ActionListenerTests] [testRunAfter] before test
+[2020-02-16T16:19:59,435][INFO ][o.e.a.ActionListenerTests] [testRunAfter] after test
+[2020-02-16T16:19:59,437][INFO ][o.e.a.ActionListenerTests] [testRunBefore] before test
+[2020-02-16T16:19:59,439][INFO ][o.e.a.ActionListenerTests] [testRunBefore] after test
+[2020-02-16T16:19:59,441][INFO ][o.e.a.ActionListenerTests] [testWrap] before test
+[2020-02-16T16:19:59,442][INFO ][o.e.a.ActionListenerTests] [testWrap] after test
+[2020-02-16T16:19:59,444][INFO ][o.e.a.ActionListenerTests] [testNotifyOnce] before test
+[2020-02-16T16:19:59,445][INFO ][o.e.a.ActionListenerTests] [testNotifyOnce] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

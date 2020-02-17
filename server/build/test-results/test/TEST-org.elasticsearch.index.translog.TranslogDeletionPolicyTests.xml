@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.translog.TranslogDeletionPolicyTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:39" hostname="Escoto-PC" time="0.195">
+  <properties/>
+  <testcase name="testBytesRetention" classname="org.elasticsearch.index.translog.TranslogDeletionPolicyTests" time="0.085"/>
+  <testcase name="testRetentionHierarchy" classname="org.elasticsearch.index.translog.TranslogDeletionPolicyTests" time="0.054"/>
+  <testcase name="testTotalFilesRetention" classname="org.elasticsearch.index.translog.TranslogDeletionPolicyTests" time="0.019"/>
+  <testcase name="testAgeRetention" classname="org.elasticsearch.index.translog.TranslogDeletionPolicyTests" time="0.018"/>
+  <testcase name="testNoRetention" classname="org.elasticsearch.index.translog.TranslogDeletionPolicyTests" time="0.019"/>
+  <system-out><![CDATA[[2020-02-17T01:23:39,217][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testBytesRetention] before test
+[2020-02-17T01:23:39,301][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testBytesRetention] after test
+[2020-02-17T01:23:39,332][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testRetentionHierarchy] before test
+[2020-02-17T01:23:39,355][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testRetentionHierarchy] after test
+[2020-02-17T01:23:39,360][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testTotalFilesRetention] before test
+[2020-02-17T01:23:39,374][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testTotalFilesRetention] after test
+[2020-02-17T01:23:39,376][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testAgeRetention] before test
+[2020-02-17T01:23:39,392][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testAgeRetention] after test
+[2020-02-17T01:23:39,399][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testNoRetention] before test
+[2020-02-17T01:23:39,411][INFO ][o.e.i.t.TranslogDeletionPolicyTests] [testNoRetention] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

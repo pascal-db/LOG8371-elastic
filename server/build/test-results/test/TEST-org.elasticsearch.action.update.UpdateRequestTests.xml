@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.update.UpdateRequestTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:28" hostname="Escoto-PC" time="0.153">
+  <properties/>
+  <testcase name="testValidate" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.007"/>
+  <testcase name="testNoopDetection" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.018"/>
+  <testcase name="testUpdateScript" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.007"/>
+  <testcase name="testToValidateUpsertRequestWithVersion" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.004"/>
+  <testcase name="testUpsertTimeout" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.003"/>
+  <testcase name="testRoutingExtraction" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.002"/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.032"/>
+  <testcase name="testIndexTimeout" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.003"/>
+  <testcase name="testToValidateUpsertRequestAndCAS" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.014"/>
+  <testcase name="testDeleteTimeout" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.033"/>
+  <testcase name="testFetchSourceParsing" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.004"/>
+  <testcase name="testToString" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.004"/>
+  <testcase name="testNowInScript" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.005"/>
+  <testcase name="testUnknownFieldParsing" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.008"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.update.UpdateRequestTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T00:20:28,035][INFO ][o.e.a.u.UpdateRequestTests] [testValidate] before test
+[2020-02-17T00:20:28,040][INFO ][o.e.a.u.UpdateRequestTests] [testValidate] after test
+[2020-02-17T00:20:28,058][INFO ][o.e.a.u.UpdateRequestTests] [testNoopDetection] before test
+[2020-02-17T00:20:28,059][INFO ][o.e.a.u.UpdateRequestTests] [testNoopDetection] after test
+[2020-02-17T00:20:28,061][INFO ][o.e.a.u.UpdateRequestTests] [testUpdateScript] before test
+[2020-02-17T00:20:28,067][INFO ][o.e.a.u.UpdateRequestTests] [testUpdateScript] after test
+[2020-02-17T00:20:28,070][INFO ][o.e.a.u.UpdateRequestTests] [testToValidateUpsertRequestWithVersion] before test
+[2020-02-17T00:20:28,071][INFO ][o.e.a.u.UpdateRequestTests] [testToValidateUpsertRequestWithVersion] after test
+[2020-02-17T00:20:28,073][INFO ][o.e.a.u.UpdateRequestTests] [testUpsertTimeout] before test
+[2020-02-17T00:20:28,074][INFO ][o.e.a.u.UpdateRequestTests] [testUpsertTimeout] after test
+[2020-02-17T00:20:28,076][INFO ][o.e.a.u.UpdateRequestTests] [testRoutingExtraction] before test
+[2020-02-17T00:20:28,077][INFO ][o.e.a.u.UpdateRequestTests] [testRoutingExtraction] after test
+[2020-02-17T00:20:28,109][INFO ][o.e.a.u.UpdateRequestTests] [testToAndFromXContent] before test
+[2020-02-17T00:20:28,110][INFO ][o.e.a.u.UpdateRequestTests] [testToAndFromXContent] after test
+[2020-02-17T00:20:28,112][INFO ][o.e.a.u.UpdateRequestTests] [testIndexTimeout] before test
+[2020-02-17T00:20:28,113][INFO ][o.e.a.u.UpdateRequestTests] [testIndexTimeout] after test
+[2020-02-17T00:20:28,126][INFO ][o.e.a.u.UpdateRequestTests] [testToValidateUpsertRequestAndCAS] before test
+[2020-02-17T00:20:28,127][INFO ][o.e.a.u.UpdateRequestTests] [testToValidateUpsertRequestAndCAS] after test
+[2020-02-17T00:20:28,160][INFO ][o.e.a.u.UpdateRequestTests] [testDeleteTimeout] before test
+[2020-02-17T00:20:28,161][INFO ][o.e.a.u.UpdateRequestTests] [testDeleteTimeout] after test
+[2020-02-17T00:20:28,163][INFO ][o.e.a.u.UpdateRequestTests] [testFetchSourceParsing] before test
+[2020-02-17T00:20:28,165][INFO ][o.e.a.u.UpdateRequestTests] [testFetchSourceParsing] after test
+[2020-02-17T00:20:28,168][INFO ][o.e.a.u.UpdateRequestTests] [testToString] before test
+[2020-02-17T00:20:28,169][INFO ][o.e.a.u.UpdateRequestTests] [testToString] after test
+[2020-02-17T00:20:28,171][INFO ][o.e.a.u.UpdateRequestTests] [testNowInScript] before test
+[2020-02-17T00:20:28,174][INFO ][o.e.a.u.UpdateRequestTests] [testNowInScript] after test
+[2020-02-17T00:20:28,180][INFO ][o.e.a.u.UpdateRequestTests] [testUnknownFieldParsing] before test
+[2020-02-17T00:20:28,182][INFO ][o.e.a.u.UpdateRequestTests] [testUnknownFieldParsing] after test
+[2020-02-17T00:20:28,184][INFO ][o.e.a.u.UpdateRequestTests] [testFromXContent] before test
+[2020-02-17T00:20:28,186][INFO ][o.e.a.u.UpdateRequestTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

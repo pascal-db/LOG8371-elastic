@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.RegexpQueryBuilderTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:08" hostname="Escoto-PC" time="0.078">
+  <properties/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.014"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.01"/>
+  <testcase name="testNumeric" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.003"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.004"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.013"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.RegexpQueryBuilderTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T01:23:08,260][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T01:23:08,262][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-17T01:23:08,262][INFO ][o.e.p.PluginsService     ] [testValidOutput] no plugins loaded
+[2020-02-17T01:23:08,268][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-17T01:23:08,268][INFO ][o.e.p.PluginsService     ] [testValidOutput] no plugins loaded
+[2020-02-17T01:23:08,272][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T01:23:08,274][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-17T01:23:08,275][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-17T01:23:08,277][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T01:23:08,277][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T01:23:08,279][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testSerialization] before test
+[2020-02-17T01:23:08,280][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testSerialization] after test
+[2020-02-17T01:23:08,284][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T01:23:08,284][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T01:23:08,288][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T01:23:08,288][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T01:23:08,290][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T01:23:08,298][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T01:23:08,300][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testNumeric] before test
+[2020-02-17T01:23:08,300][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testNumeric] after test
+[2020-02-17T01:23:08,303][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T01:23:08,303][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T01:23:08,306][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T01:23:08,307][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T01:23:08,309][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testFromJson] before test
+[2020-02-17T01:23:08,309][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testFromJson] after test
+[2020-02-17T01:23:08,312][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T01:23:08,313][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T01:23:08,316][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testCacheability] before test
+[2020-02-17T01:23:08,316][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testCacheability] after test
+[2020-02-17T01:23:08,321][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testToQuery] before test
+[2020-02-17T01:23:08,329][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testToQuery] after test
+[2020-02-17T01:23:08,336][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-17T01:23:08,336][INFO ][o.e.i.q.RegexpQueryBuilderTests] [testIllegalArguments] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

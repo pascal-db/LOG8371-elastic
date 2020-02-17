@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.QueryShardExceptionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:08" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testCreateFromIndex" classname="org.elasticsearch.index.query.QueryShardExceptionTests" time="0.008"/>
+  <testcase name="testCreateFromQueryShardContext" classname="org.elasticsearch.index.query.QueryShardExceptionTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T23:23:08,068][INFO ][o.e.i.q.QueryShardExceptionTests] [testCreateFromIndex] before test
+[2020-02-16T23:23:08,074][INFO ][o.e.i.q.QueryShardExceptionTests] [testCreateFromIndex] after test
+[2020-02-16T23:23:08,079][INFO ][o.e.i.q.QueryShardExceptionTests] [testCreateFromQueryShardContext] before test
+[2020-02-16T23:23:08,082][INFO ][o.e.i.q.QueryShardExceptionTests] [testCreateFromQueryShardContext] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

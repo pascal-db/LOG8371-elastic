@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:00" hostname="Escoto-PC" time="0.24">
+  <properties/>
+  <testcase name="testOnlyMatchesMasterEligibleNodes" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.047"/>
+  <testcase name="testWithdrawsVoteFromLocalNode" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.02"/>
+  <testcase name="testWithdrawsVotesFromNodesMatchingWildcard" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.006"/>
+  <testcase name="testWithdrawsVotesFromMultipleNodes" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.01"/>
+  <testcase name="testReturnsImmediatelyIfVoteAlreadyWithdrawn" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.006"/>
+  <testcase name="testSucceedsEvenIfAllExclusionsAlreadyAdded" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.006"/>
+  <testcase name="testTimesOut" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.109"/>
+  <testcase name="testWithdrawsVotesFromAllMasterEligibleNodes" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.012"/>
+  <testcase name="testReturnsErrorIfNoMatchingNodes" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.007"/>
+  <testcase name="testReturnsErrorIfMaximumExclusionCountExceeded" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.006"/>
+  <testcase name="testWithdrawsVoteFromANode" classname="org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T01:20:00,387][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testOnlyMatchesMasterEligibleNodes] before test
+[2020-02-17T01:20:00,417][INFO ][o.e.c.s.ClusterApplierService] [test] added {{data}{data}{dN8Y3LN_RDq32JYgNvBqBg}{0.0.0.0}{0.0.0.0:4},{other2}{other2}{SnT0Z64fS-afAi81GsGj8Q}{0.0.0.0}{0.0.0.0:3}{m},{other1}{other1}{FOzMUY74RNWs2yr7w-SWEA}{0.0.0.0}{0.0.0.0:2}{m}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T01:20:00,429][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testOnlyMatchesMasterEligibleNodes] after test
+[2020-02-17T01:20:00,432][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVoteFromLocalNode] before test
+[2020-02-17T01:20:00,449][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVoteFromLocalNode] after test
+[2020-02-17T01:20:00,453][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromNodesMatchingWildcard] before test
+[2020-02-17T01:20:00,456][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromNodesMatchingWildcard] after test
+[2020-02-17T01:20:00,459][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromMultipleNodes] before test
+[2020-02-17T01:20:00,466][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromMultipleNodes] after test
+[2020-02-17T01:20:00,469][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsImmediatelyIfVoteAlreadyWithdrawn] before test
+[2020-02-17T01:20:00,473][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsImmediatelyIfVoteAlreadyWithdrawn] after test
+[2020-02-17T01:20:00,475][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testSucceedsEvenIfAllExclusionsAlreadyAdded] before test
+[2020-02-17T01:20:00,478][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testSucceedsEvenIfAllExclusionsAlreadyAdded] after test
+[2020-02-17T01:20:00,482][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testTimesOut] before test
+[2020-02-17T01:20:00,588][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testTimesOut] after test
+[2020-02-17T01:20:00,595][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromAllMasterEligibleNodes] before test
+[2020-02-17T01:20:00,599][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromAllMasterEligibleNodes] after test
+[2020-02-17T01:20:00,604][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsErrorIfNoMatchingNodes] before test
+[2020-02-17T01:20:00,607][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsErrorIfNoMatchingNodes] after test
+[2020-02-17T01:20:00,611][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsErrorIfMaximumExclusionCountExceeded] before test
+[2020-02-17T01:20:00,614][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsErrorIfMaximumExclusionCountExceeded] after test
+[2020-02-17T01:20:00,617][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVoteFromANode] before test
+[2020-02-17T01:20:00,622][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVoteFromANode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

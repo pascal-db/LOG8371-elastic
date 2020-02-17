@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.index.IndexRequestTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.039">
+  <properties/>
+  <testcase name="testAutoGenIdTimestampIsSet" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.015"/>
+  <testcase name="testRejectsEmptyStringPipeline" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.003"/>
+  <testcase name="testWaitForActiveShards" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.002"/>
+  <testcase name="testToStringSizeLimit" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.003"/>
+  <testcase name="testIndexRequestXContentSerialization" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.002"/>
+  <testcase name="testIndexResponse" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.003"/>
+  <testcase name="testIndexingRejectsLongIds" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.002"/>
+  <testcase name="testSerializationOfEmptyRequestWorks" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.002"/>
+  <testcase name="testIndexRequestOpTypeFromString" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.002"/>
+  <testcase name="testCreateOperationRejectsVersions" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.001"/>
+  <testcase name="testReadIncorrectOpType" classname="org.elasticsearch.action.index.IndexRequestTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T03:20:18,298][INFO ][o.e.a.i.IndexRequestTests] [testAutoGenIdTimestampIsSet] before test
+[2020-02-17T03:20:18,311][INFO ][o.e.a.i.IndexRequestTests] [testAutoGenIdTimestampIsSet] after test
+[2020-02-17T03:20:18,314][INFO ][o.e.a.i.IndexRequestTests] [testRejectsEmptyStringPipeline] before test
+[2020-02-17T03:20:18,314][INFO ][o.e.a.i.IndexRequestTests] [testRejectsEmptyStringPipeline] after test
+[2020-02-17T03:20:18,315][INFO ][o.e.a.i.IndexRequestTests] [testWaitForActiveShards] before test
+[2020-02-17T03:20:18,316][INFO ][o.e.a.i.IndexRequestTests] [testWaitForActiveShards] after test
+[2020-02-17T03:20:18,318][INFO ][o.e.a.i.IndexRequestTests] [testToStringSizeLimit] before test
+[2020-02-17T03:20:18,319][INFO ][o.e.a.i.IndexRequestTests] [testToStringSizeLimit] after test
+[2020-02-17T03:20:18,321][INFO ][o.e.a.i.IndexRequestTests] [testIndexRequestXContentSerialization] before test
+[2020-02-17T03:20:18,321][INFO ][o.e.a.i.IndexRequestTests] [testIndexRequestXContentSerialization] after test
+[2020-02-17T03:20:18,324][INFO ][o.e.a.i.IndexRequestTests] [testIndexResponse] before test
+[2020-02-17T03:20:18,324][INFO ][o.e.a.i.IndexRequestTests] [testIndexResponse] after test
+[2020-02-17T03:20:18,326][INFO ][o.e.a.i.IndexRequestTests] [testIndexingRejectsLongIds] before test
+[2020-02-17T03:20:18,326][INFO ][o.e.a.i.IndexRequestTests] [testIndexingRejectsLongIds] after test
+[2020-02-17T03:20:18,328][INFO ][o.e.a.i.IndexRequestTests] [testSerializationOfEmptyRequestWorks] before test
+[2020-02-17T03:20:18,328][INFO ][o.e.a.i.IndexRequestTests] [testSerializationOfEmptyRequestWorks] after test
+[2020-02-17T03:20:18,330][INFO ][o.e.a.i.IndexRequestTests] [testIndexRequestOpTypeFromString] before test
+[2020-02-17T03:20:18,330][INFO ][o.e.a.i.IndexRequestTests] [testIndexRequestOpTypeFromString] after test
+[2020-02-17T03:20:18,332][INFO ][o.e.a.i.IndexRequestTests] [testCreateOperationRejectsVersions] before test
+[2020-02-17T03:20:18,332][INFO ][o.e.a.i.IndexRequestTests] [testCreateOperationRejectsVersions] after test
+[2020-02-17T03:20:18,333][INFO ][o.e.a.i.IndexRequestTests] [testReadIncorrectOpType] before test
+[2020-02-17T03:20:18,334][INFO ][o.e.a.i.IndexRequestTests] [testReadIncorrectOpType] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

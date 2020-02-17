@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.routing.allocation.html">org.elasticsearch.cluster.routing.allocation</a> &gt; FailedNodeRoutingTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.045s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testRandomClusterPromotesNewestReplica</td>
+<td class="success">0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleFailedNodeTest</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T00:21:37,655][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] before test
+[2020-02-17T00:21:37,660][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; adding random nodes
+[2020-02-17T00:21:37,663][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; node [node_002] has version [7.5.1]
+[2020-02-17T00:21:37,663][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; node [node_006] has version [6.8.2]
+[2020-02-17T00:21:37,663][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; node [node_007] has version [6.6.0]
+[2020-02-17T00:21:37,663][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; node [node_003] has version [6.8.1]
+[2020-02-17T00:21:37,663][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; node [node_005] has version [7.4.0]
+[2020-02-17T00:21:37,663][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; node [node_009] has version [6.1.0]
+[2020-02-17T00:21:37,663][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; node [node_008] has version [6.8.2]
+[2020-02-17T00:21:37,663][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; creating some indices
+[2020-02-17T00:21:37,664][INFO ][o.e.c.m.MetaDataCreateIndexService] [testRandomClusterPromotesNewestReplica] [index_ysxwzjdu] creating index, cause [api], templates [], shards [1]/[2], mappings []
+[2020-02-17T00:21:37,665][INFO ][o.e.c.m.MetaDataCreateIndexService] [testRandomClusterPromotesNewestReplica] [index_fyeuwdjd] creating index, cause [api], templates [], shards [4]/[3], mappings []
+[2020-02-17T00:21:37,667][INFO ][o.e.c.m.MetaDataCreateIndexService] [testRandomClusterPromotesNewestReplica] [index_ejzgjehp] creating index, cause [api], templates [], shards [4]/[2], mappings []
+[2020-02-17T00:21:37,669][INFO ][o.e.c.m.MetaDataCreateIndexService] [testRandomClusterPromotesNewestReplica] [index_krhrppfr] creating index, cause [api], templates [], shards [1]/[4], mappings []
+[2020-02-17T00:21:37,671][INFO ][o.e.c.r.a.AllocationService] [testRandomClusterPromotesNewestReplica] Cluster health status changed from [YELLOW] to [RED] (reason: [index [index_krhrppfr] created]).
+[2020-02-17T00:21:37,671][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; starting shards
+[2020-02-17T00:21:37,672][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; starting replicas a random number of times
+[2020-02-17T00:21:37,677][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; state before failing shards: cluster uuid: AWGFHL58SMev4--CXZAwtw [committed: false]
+version: 0
+state uuid: MDXkdYbvSKOEpa-d8vUC5Q
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+   [index_fyeuwdjd/H25iVsm6QaeF_LeFxmHmfA]: v[3], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [b-wnNzK2QmyRsQh1crF43g]
+      1: p_term [1], isa_ids [G5oyzmv6QqWLrjNJz0h-Mg]
+      2: p_term [1], isa_ids [J0kNib95QqKgHRuVrW8Z-w]
+      3: p_term [1], isa_ids [PYAEZiJ-T2WCfmOcolpiMw]
+   [index_krhrppfr/u1K2jrTVRDyTVyJH02rw5Q]: v[1], mv[1], sv[1], av[1]
+      0: p_term [0], isa_ids []
+   [index_ysxwzjdu/jaDPOi1sQ4CxkMq7nrfgKw]: v[3], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [eSsfQnj_TC6tpY4pDYr14g]
+   [index_ejzgjehp/6QbUBJOlROSoL3y1UPm08g]: v[4], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [DxSu3QfQSkCCGA0tiw3tSA]
+      1: p_term [1], isa_ids [pfzlW89ZRtOK6EhKCB-OIw]
+      2: p_term [1], isa_ids [fwDU5NquTJG3U6vBU4ci4Q]
+      3: p_term [1], isa_ids [lOwbPMOeSSK-UknkHeRhKA]
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node_006}{node_006}{ZAAEQse5ShC_FejqifigxQ}{0.0.0.0}{0.0.0.0:6}{dim}
+   {node_002}{node_002}{uwvOj8DgRZ--6SaVaIedmw}{0.0.0.0}{0.0.0.0:2}{d}
+   {node_005}{node_005}{7pNsVD-6TrCR6ECXuuWRsA}{0.0.0.0}{0.0.0.0:5}{dim}
+   {node_001}{node_001}{vvNKkKj7QjCobrTrmY-fBw}{0.0.0.0}{0.0.0.0:1}{m}, local, master
+   {node_007}{node_007}{9MC7piX9RJSLRa87oRld5w}{0.0.0.0}{0.0.0.0:7}{d}
+   {node_008}{node_008}{_EqoshPKSiubRfkydZlbGQ}{0.0.0.0}{0.0.0.0:8}{d}
+   {node_010}{node_010}{Y7Gel1PCT56sUSSZMlxCrQ}{0.0.0.0}{0.0.0.0:10}
+   {node_003}{node_003}{3v8tVDvcRXqLWulFky4J6w}{0.0.0.0}{0.0.0.0:3}{d}
+   {node_011}{node_011}{to9eAPuPQDq2N8M9q0pfkg}{0.0.0.0}{0.0.0.0:11}{im}
+   {node_004}{node_004}{GkIud67OTNC9yOBBMsrpLA}{0.0.0.0}{0.0.0.0:4}{m}
+   {node_009}{node_009}{eFb7yJpgSROkRSchnl_2DA}{0.0.0.0}{0.0.0.0:9}{dm}
+routing_table (version 0):
+-- index [[index_fyeuwdjd/H25iVsm6QaeF_LeFxmHmfA]]
+----shard_id [index_fyeuwdjd][0]
+--------[index_fyeuwdjd][0], node[node_003], [P], s[STARTED], a[id=b-wnNzK2QmyRsQh1crF43g]
+--------[index_fyeuwdjd][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+----shard_id [index_fyeuwdjd][1]
+--------[index_fyeuwdjd][1], node[node_008], [P], s[STARTED], a[id=G5oyzmv6QqWLrjNJz0h-Mg]
+--------[index_fyeuwdjd][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+----shard_id [index_fyeuwdjd][2]
+--------[index_fyeuwdjd][2], node[node_006], [P], s[STARTED], a[id=J0kNib95QqKgHRuVrW8Z-w]
+--------[index_fyeuwdjd][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+----shard_id [index_fyeuwdjd][3]
+--------[index_fyeuwdjd][3], node[node_007], [P], s[STARTED], a[id=PYAEZiJ-T2WCfmOcolpiMw]
+--------[index_fyeuwdjd][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+
+-- index [[index_krhrppfr/u1K2jrTVRDyTVyJH02rw5Q]]
+----shard_id [index_krhrppfr][0]
+--------[index_krhrppfr][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [P], recovery_source[new shard recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[deciders_no]]
+
+-- index [[index_ysxwzjdu/jaDPOi1sQ4CxkMq7nrfgKw]]
+----shard_id [index_ysxwzjdu][0]
+--------[index_ysxwzjdu][0], node[node_009], [P], s[STARTED], a[id=eSsfQnj_TC6tpY4pDYr14g]
+--------[index_ysxwzjdu][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.664Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ysxwzjdu][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.664Z], delayed=false, allocation_status[no_attempt]]
+
+-- index [[index_ejzgjehp/6QbUBJOlROSoL3y1UPm08g]]
+----shard_id [index_ejzgjehp][0]
+--------[index_ejzgjehp][0], node[node_002], [P], s[STARTED], a[id=DxSu3QfQSkCCGA0tiw3tSA]
+--------[index_ejzgjehp][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+----shard_id [index_ejzgjehp][1]
+--------[index_ejzgjehp][1], node[node_009], [P], s[STARTED], a[id=pfzlW89ZRtOK6EhKCB-OIw]
+--------[index_ejzgjehp][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+----shard_id [index_ejzgjehp][2]
+--------[index_ejzgjehp][2], node[node_006], [P], s[STARTED], a[id=fwDU5NquTJG3U6vBU4ci4Q]
+--------[index_ejzgjehp][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+----shard_id [index_ejzgjehp][3]
+--------[index_ejzgjehp][3], node[node_007], [P], s[STARTED], a[id=lOwbPMOeSSK-UknkHeRhKA]
+--------[index_ejzgjehp][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+
+routing_nodes:
+-----node_id[node_002][V]
+--------[index_ejzgjehp][0], node[node_002], [P], s[STARTED], a[id=DxSu3QfQSkCCGA0tiw3tSA]
+-----node_id[node_003][V]
+--------[index_fyeuwdjd][0], node[node_003], [P], s[STARTED], a[id=b-wnNzK2QmyRsQh1crF43g]
+-----node_id[node_009][V]
+--------[index_ysxwzjdu][0], node[node_009], [P], s[STARTED], a[id=eSsfQnj_TC6tpY4pDYr14g]
+--------[index_ejzgjehp][1], node[node_009], [P], s[STARTED], a[id=pfzlW89ZRtOK6EhKCB-OIw]
+-----node_id[node_005][V]
+-----node_id[node_006][V]
+--------[index_fyeuwdjd][2], node[node_006], [P], s[STARTED], a[id=J0kNib95QqKgHRuVrW8Z-w]
+--------[index_ejzgjehp][2], node[node_006], [P], s[STARTED], a[id=fwDU5NquTJG3U6vBU4ci4Q]
+-----node_id[node_007][V]
+--------[index_fyeuwdjd][3], node[node_007], [P], s[STARTED], a[id=PYAEZiJ-T2WCfmOcolpiMw]
+--------[index_ejzgjehp][3], node[node_007], [P], s[STARTED], a[id=lOwbPMOeSSK-UknkHeRhKA]
+-----node_id[node_008][V]
+--------[index_fyeuwdjd][1], node[node_008], [P], s[STARTED], a[id=G5oyzmv6QqWLrjNJz0h-Mg]
+---- unassigned
+--------[index_fyeuwdjd][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_fyeuwdjd][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.665Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[no_attempt]]
+--------[index_krhrppfr][0], node[null], [P], recovery_source[new shard recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.669Z], delayed=false, allocation_status[deciders_no]]
+--------[index_ysxwzjdu][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.664Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ysxwzjdu][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.664Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+--------[index_ejzgjehp][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:37.668Z], delayed=false, allocation_status[no_attempt]]
+
+[2020-02-17T00:21:37,678][WARN ][o.e.c.r.a.AllocationService] [testRandomClusterPromotesNewestReplica] failing shard [failed shard, shard [index_ejzgjehp][1], node[node_009], [P], s[STARTED], a[id=pfzlW89ZRtOK6EhKCB-OIw], message [failed primary], failure [Exception[null]], markAsStale [false]]
+java.lang.Exception: null
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.lambda$testRandomClusterPromotesNewestReplica$0(FailedNodeRoutingTests.java:168) ~[test/:?]
+	at java.util.ArrayList$SubList$2.forEachRemaining(ArrayList.java:1510) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[?:?]
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.testRandomClusterPromotesNewestReplica(FailedNodeRoutingTests.java:167) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:21:37,680][WARN ][o.e.c.r.a.AllocationService] [testRandomClusterPromotesNewestReplica] failing shard [failed shard, shard [index_fyeuwdjd][0], node[node_003], [P], s[STARTED], a[id=b-wnNzK2QmyRsQh1crF43g], message [failed primary], failure [Exception[null]], markAsStale [false]]
+java.lang.Exception: null
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.lambda$testRandomClusterPromotesNewestReplica$0(FailedNodeRoutingTests.java:168) ~[test/:?]
+	at java.util.ArrayList$SubList$2.forEachRemaining(ArrayList.java:1510) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[?:?]
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.testRandomClusterPromotesNewestReplica(FailedNodeRoutingTests.java:167) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:21:37,680][WARN ][o.e.c.r.a.AllocationService] [testRandomClusterPromotesNewestReplica] failing shard [failed shard, shard [index_ejzgjehp][2], node[node_006], [P], s[STARTED], a[id=fwDU5NquTJG3U6vBU4ci4Q], message [failed primary], failure [Exception[null]], markAsStale [true]]
+java.lang.Exception: null
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.lambda$testRandomClusterPromotesNewestReplica$0(FailedNodeRoutingTests.java:168) ~[test/:?]
+	at java.util.ArrayList$SubList$2.forEachRemaining(ArrayList.java:1510) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[?:?]
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.testRandomClusterPromotesNewestReplica(FailedNodeRoutingTests.java:167) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:21:37,683][WARN ][o.e.c.r.a.AllocationService] [testRandomClusterPromotesNewestReplica] failing shard [failed shard, shard [index_fyeuwdjd][3], node[node_007], [P], s[STARTED], a[id=PYAEZiJ-T2WCfmOcolpiMw], message [failed primary], failure [Exception[null]], markAsStale [true]]
+java.lang.Exception: null
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.lambda$testRandomClusterPromotesNewestReplica$0(FailedNodeRoutingTests.java:168) ~[test/:?]
+	at java.util.ArrayList$SubList$2.forEachRemaining(ArrayList.java:1510) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[?:?]
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.testRandomClusterPromotesNewestReplica(FailedNodeRoutingTests.java:167) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:21:37,684][WARN ][o.e.c.r.a.AllocationService] [testRandomClusterPromotesNewestReplica] failing shard [failed shard, shard [index_fyeuwdjd][2], node[node_006], [P], s[STARTED], a[id=J0kNib95QqKgHRuVrW8Z-w], message [failed primary], failure [Exception[null]], markAsStale [false]]
+java.lang.Exception: null
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.lambda$testRandomClusterPromotesNewestReplica$0(FailedNodeRoutingTests.java:168) ~[test/:?]
+	at java.util.ArrayList$SubList$2.forEachRemaining(ArrayList.java:1510) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[?:?]
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.testRandomClusterPromotesNewestReplica(FailedNodeRoutingTests.java:167) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:21:37,685][WARN ][o.e.c.r.a.AllocationService] [testRandomClusterPromotesNewestReplica] failing shard [failed shard, shard [index_ysxwzjdu][0], node[node_009], [P], s[STARTED], a[id=eSsfQnj_TC6tpY4pDYr14g], message [failed primary], failure [Exception[null]], markAsStale [false]]
+java.lang.Exception: null
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.lambda$testRandomClusterPromotesNewestReplica$0(FailedNodeRoutingTests.java:168) ~[test/:?]
+	at java.util.ArrayList$SubList$2.forEachRemaining(ArrayList.java:1510) ~[?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) ~[?:?]
+	at org.elasticsearch.cluster.routing.allocation.FailedNodeRoutingTests.testRandomClusterPromotesNewestReplica(FailedNodeRoutingTests.java:167) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; verifying version for [index_ejzgjehp][1], node[node_009], [P], s[STARTED], a[id=pfzlW89ZRtOK6EhKCB-OIw]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; new primary is on version null: [index_ejzgjehp][1], node[null], [P], recovery_source[existing store recovery; bootstrap_history_uuid=false], s[UNASSIGNED], unassigned_info[[reason=ALLOCATION_FAILED], at[2020-02-16T22:21:37.678Z], failed_attempts[1], delayed=false, details[failed shard on node [node_009]: failed primary, failure Exception[null]], allocation_status[no_valid_shard_copy]]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; verifying version for [index_fyeuwdjd][0], node[node_003], [P], s[STARTED], a[id=b-wnNzK2QmyRsQh1crF43g]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; new primary is on version null: [index_fyeuwdjd][0], node[null], [P], recovery_source[existing store recovery; bootstrap_history_uuid=false], s[UNASSIGNED], unassigned_info[[reason=ALLOCATION_FAILED], at[2020-02-16T22:21:37.680Z], failed_attempts[1], delayed=false, details[failed shard on node [node_003]: failed primary, failure Exception[null]], allocation_status[no_valid_shard_copy]]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; verifying version for [index_ejzgjehp][2], node[node_006], [P], s[STARTED], a[id=fwDU5NquTJG3U6vBU4ci4Q]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; new primary is on version null: [index_ejzgjehp][2], node[null], [P], recovery_source[existing store recovery; bootstrap_history_uuid=false], s[UNASSIGNED], unassigned_info[[reason=ALLOCATION_FAILED], at[2020-02-16T22:21:37.680Z], failed_attempts[1], delayed=false, details[failed shard on node [node_006]: failed primary, failure Exception[null]], allocation_status[no_valid_shard_copy]]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; verifying version for [index_fyeuwdjd][3], node[node_007], [P], s[STARTED], a[id=PYAEZiJ-T2WCfmOcolpiMw]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; new primary is on version null: [index_fyeuwdjd][3], node[null], [P], recovery_source[existing store recovery; bootstrap_history_uuid=false], s[UNASSIGNED], unassigned_info[[reason=ALLOCATION_FAILED], at[2020-02-16T22:21:37.683Z], failed_attempts[1], delayed=false, details[failed shard on node [node_007]: failed primary, failure Exception[null]], allocation_status[no_valid_shard_copy]]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; verifying version for [index_fyeuwdjd][2], node[node_006], [P], s[STARTED], a[id=J0kNib95QqKgHRuVrW8Z-w]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; new primary is on version null: [index_fyeuwdjd][2], node[null], [P], recovery_source[existing store recovery; bootstrap_history_uuid=false], s[UNASSIGNED], unassigned_info[[reason=ALLOCATION_FAILED], at[2020-02-16T22:21:37.684Z], failed_attempts[1], delayed=false, details[failed shard on node [node_006]: failed primary, failure Exception[null]], allocation_status[no_valid_shard_copy]]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; verifying version for [index_ysxwzjdu][0], node[node_009], [P], s[STARTED], a[id=eSsfQnj_TC6tpY4pDYr14g]
+[2020-02-17T00:21:37,689][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] --&gt; new primary is on version null: [index_ysxwzjdu][0], node[null], [P], recovery_source[existing store recovery; bootstrap_history_uuid=false], s[UNASSIGNED], unassigned_info[[reason=ALLOCATION_FAILED], at[2020-02-16T22:21:37.685Z], failed_attempts[1], delayed=false, details[failed shard on node [node_009]: failed primary, failure Exception[null]], allocation_status[no_valid_shard_copy]]
+[2020-02-17T00:21:37,690][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testRandomClusterPromotesNewestReplica] after test
+[2020-02-17T00:21:37,692][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testSimpleFailedNodeTest] before test
+[2020-02-17T00:21:37,693][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testSimpleFailedNodeTest] start 4 nodes
+[2020-02-17T00:21:37,694][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testSimpleFailedNodeTest] start all the primary shards, replicas will start initializing
+[2020-02-17T00:21:37,695][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testSimpleFailedNodeTest] start the replica shards
+[2020-02-17T00:21:37,695][INFO ][o.e.c.r.a.AllocationService] [testSimpleFailedNodeTest] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0], [test2][0]]]).
+[2020-02-17T00:21:37,695][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testSimpleFailedNodeTest] remove 2 nodes where primaries are allocated, reroute
+[2020-02-17T00:21:37,697][INFO ][o.e.c.r.a.FailedNodeRoutingTests] [testSimpleFailedNodeTest] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.significant.SignificantTextAggregatorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.118">
+  <properties/>
+  <testcase name="testSignificance" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantTextAggregatorTests" time="0.028"/>
+  <testcase name="testFieldAlias" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantTextAggregatorTests" time="0.027"/>
+  <testcase name="testSignificanceOnTextArrays" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantTextAggregatorTests" time="0.063"/>
+  <system-out><![CDATA[[2020-02-16T15:24:21,941][INFO ][o.e.s.a.b.s.SignificantTextAggregatorTests] [testSignificance] before test
+[2020-02-16T15:24:21,965][INFO ][o.e.s.a.b.s.SignificantTextAggregatorTests] [testSignificance] after test
+[2020-02-16T15:24:21,967][INFO ][o.e.s.a.b.s.SignificantTextAggregatorTests] [testFieldAlias] before test
+[2020-02-16T15:24:21,992][INFO ][o.e.s.a.b.s.SignificantTextAggregatorTests] [testFieldAlias] after test
+[2020-02-16T15:24:22,043][INFO ][o.e.s.a.b.s.SignificantTextAggregatorTests] [testSignificanceOnTextArrays] before test
+[2020-02-16T15:24:22,054][INFO ][o.e.s.a.b.s.SignificantTextAggregatorTests] [testSignificanceOnTextArrays] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

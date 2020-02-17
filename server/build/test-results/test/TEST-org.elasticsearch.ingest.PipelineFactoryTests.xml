@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.PipelineFactoryTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:00" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testCreateWithPipelineEmptyOnFailure" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.004"/>
+  <testcase name="testCreateWithPipelineOnFailure" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.002"/>
+  <testcase name="testCreateUnusedProcessorOptions" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.002"/>
+  <testcase name="testCreateWithPipelineEmptyOnFailureInProcessor" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.002"/>
+  <testcase name="testFlattenProcessors" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.002"/>
+  <testcase name="testCreateWithEmptyProcessorsField" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.002"/>
+  <testcase name="testCreateProcessorsWithOnFailureProperties" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.002"/>
+  <testcase name="testCreate" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.001"/>
+  <testcase name="testCreateWithNoProcessorsField" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.002"/>
+  <testcase name="testCreateWithPipelineIgnoreFailure" classname="org.elasticsearch.ingest.PipelineFactoryTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T19:24:00,637][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithPipelineEmptyOnFailure] before test
+[2020-02-16T19:24:00,639][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithPipelineEmptyOnFailure] after test
+[2020-02-16T19:24:00,641][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithPipelineOnFailure] before test
+[2020-02-16T19:24:00,641][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithPipelineOnFailure] after test
+[2020-02-16T19:24:00,643][INFO ][o.e.i.PipelineFactoryTests] [testCreateUnusedProcessorOptions] before test
+[2020-02-16T19:24:00,643][INFO ][o.e.i.PipelineFactoryTests] [testCreateUnusedProcessorOptions] after test
+[2020-02-16T19:24:00,645][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithPipelineEmptyOnFailureInProcessor] before test
+[2020-02-16T19:24:00,645][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithPipelineEmptyOnFailureInProcessor] after test
+[2020-02-16T19:24:00,647][INFO ][o.e.i.PipelineFactoryTests] [testFlattenProcessors] before test
+[2020-02-16T19:24:00,647][INFO ][o.e.i.PipelineFactoryTests] [testFlattenProcessors] after test
+[2020-02-16T19:24:00,649][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithEmptyProcessorsField] before test
+[2020-02-16T19:24:00,649][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithEmptyProcessorsField] after test
+[2020-02-16T19:24:00,651][INFO ][o.e.i.PipelineFactoryTests] [testCreateProcessorsWithOnFailureProperties] before test
+[2020-02-16T19:24:00,652][INFO ][o.e.i.PipelineFactoryTests] [testCreateProcessorsWithOnFailureProperties] after test
+[2020-02-16T19:24:00,653][INFO ][o.e.i.PipelineFactoryTests] [testCreate] before test
+[2020-02-16T19:24:00,654][INFO ][o.e.i.PipelineFactoryTests] [testCreate] after test
+[2020-02-16T19:24:00,656][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithNoProcessorsField] before test
+[2020-02-16T19:24:00,656][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithNoProcessorsField] after test
+[2020-02-16T19:24:00,663][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithPipelineIgnoreFailure] before test
+[2020-02-16T19:24:00,663][INFO ][o.e.i.PipelineFactoryTests] [testCreateWithPipelineIgnoreFailure] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

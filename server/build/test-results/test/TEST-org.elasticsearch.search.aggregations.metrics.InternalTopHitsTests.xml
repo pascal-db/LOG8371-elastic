@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalTopHitsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:32" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalTopHitsTests" time="0.006"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalTopHitsTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalTopHitsTests" time="0.008"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalTopHitsTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalTopHitsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:25:32,459][INFO ][o.e.s.a.m.InternalTopHitsTests] [testSerialization] before test
+[2020-02-16T23:25:32,463][INFO ][o.e.s.a.m.InternalTopHitsTests] [testSerialization] after test
+[2020-02-16T23:25:32,465][INFO ][o.e.s.a.m.InternalTopHitsTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T23:25:32,466][INFO ][o.e.s.a.m.InternalTopHitsTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T23:25:32,468][INFO ][o.e.s.a.m.InternalTopHitsTests] [testReduceRandom] before test
+[2020-02-16T23:25:32,474][INFO ][o.e.s.a.m.InternalTopHitsTests] [testReduceRandom] after test
+[2020-02-16T23:25:32,476][INFO ][o.e.s.a.m.InternalTopHitsTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:25:32,480][INFO ][o.e.s.a.m.InternalTopHitsTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:25:32,482][INFO ][o.e.s.a.m.InternalTopHitsTests] [testFromXContent] before test
+[2020-02-16T23:25:32,483][INFO ][o.e.s.a.m.InternalTopHitsTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

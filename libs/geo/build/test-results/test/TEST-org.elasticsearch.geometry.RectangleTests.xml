@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.RectangleTests" tests="5" skipped="2" failures="0" errors="0" timestamp="2020-02-16T22:50:23" hostname="Escoto-PC" time="0.03">
+  <properties/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.RectangleTests" time="0.009"/>
+  <testcase name="testInitValidation" classname="org.elasticsearch.geometry.RectangleTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.RectangleTests" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.RectangleTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.RectangleTests" time="0.004">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[[2020-02-16T17:50:23,548][INFO ][o.e.g.RectangleTests     ] [testBasicSerialization] before test
+[2020-02-16T17:50:23,553][INFO ][o.e.g.RectangleTests     ] [testBasicSerialization] after test
+[2020-02-16T17:50:23,556][INFO ][o.e.g.RectangleTests     ] [testInitValidation] before test
+[2020-02-16T17:50:23,558][INFO ][o.e.g.RectangleTests     ] [testInitValidation] after test
+[2020-02-16T17:50:23,562][INFO ][o.e.g.RectangleTests     ] [testSerialization] before test
+[2020-02-16T17:50:23,563][INFO ][o.e.g.RectangleTests     ] [testSerialization] after test
+[2020-02-16T17:50:23,568][INFO ][o.e.g.RectangleTests     ] [testVisitor] before test
+[2020-02-16T17:50:23,569][INFO ][o.e.g.RectangleTests     ] [testVisitor] after test
+[2020-02-16T17:50:23,571][INFO ][o.e.g.RectangleTests     ] [testEqualsAndHashcode] before test
+[2020-02-16T17:50:23,573][INFO ][o.e.g.RectangleTests     ] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

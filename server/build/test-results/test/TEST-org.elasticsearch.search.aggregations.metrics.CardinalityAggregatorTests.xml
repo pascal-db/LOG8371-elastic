@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:23" hostname="Escoto-PC" time="0.248">
+  <properties/>
+  <testcase name="testSomeMatchesNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.036"/>
+  <testcase name="testUnmappedMissingNumber" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.016"/>
+  <testcase name="testQueryFiltering" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.016"/>
+  <testcase name="testSomeMatchesSortedNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.01"/>
+  <testcase name="testUnmappedMissingString" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.015"/>
+  <testcase name="testQueryFiltersAll" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.088"/>
+  <testcase name="testNoMatchingField" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.012"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.031"/>
+  <testcase name="testRangeFieldValues" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.011"/>
+  <testcase name="testUnmappedMissingGeoPoint" classname="org.elasticsearch.search.aggregations.metrics.CardinalityAggregatorTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-16T18:24:23,461][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testSomeMatchesNumericDocValues] before test
+[2020-02-16T18:24:23,495][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testSomeMatchesNumericDocValues] after test
+[2020-02-16T18:24:23,501][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testUnmappedMissingNumber] before test
+[2020-02-16T18:24:23,510][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testUnmappedMissingNumber] after test
+[2020-02-16T18:24:23,512][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testQueryFiltering] before test
+[2020-02-16T18:24:23,526][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testQueryFiltering] after test
+[2020-02-16T18:24:23,529][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testSomeMatchesSortedNumericDocValues] before test
+[2020-02-16T18:24:23,537][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testSomeMatchesSortedNumericDocValues] after test
+[2020-02-16T18:24:23,546][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testUnmappedMissingString] before test
+[2020-02-16T18:24:23,551][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testUnmappedMissingString] after test
+[2020-02-16T18:24:23,635][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testQueryFiltersAll] before test
+[2020-02-16T18:24:23,639][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testQueryFiltersAll] after test
+[2020-02-16T18:24:23,647][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testNoMatchingField] before test
+[2020-02-16T18:24:23,652][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testNoMatchingField] after test
+[2020-02-16T18:24:23,681][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testNoDocs] before test
+[2020-02-16T18:24:23,684][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testNoDocs] after test
+[2020-02-16T18:24:23,686][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testRangeFieldValues] before test
+[2020-02-16T18:24:23,695][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testRangeFieldValues] after test
+[2020-02-16T18:24:23,701][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testUnmappedMissingGeoPoint] before test
+[2020-02-16T18:24:23,706][INFO ][o.e.s.a.m.CardinalityAggregatorTests] [testUnmappedMissingGeoPoint] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

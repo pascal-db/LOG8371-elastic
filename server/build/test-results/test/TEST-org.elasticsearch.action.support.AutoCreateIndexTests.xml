@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.AutoCreateIndexTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:24" hostname="Escoto-PC" time="0.106">
+  <properties/>
+  <testcase name="testExistingIndex" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.025"/>
+  <testcase name="testAutoCreationPatternDisabled" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.004"/>
+  <testcase name="testParseFailed" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.005"/>
+  <testcase name="testAutoCreationEnabled" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.006"/>
+  <testcase name="testHandleSpaces" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.006"/>
+  <testcase name="testUpdate" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.003"/>
+  <testcase name="testAutoCreationConflictingPatternsFirstWins" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.005"/>
+  <testcase name="testAutoCreationMultipleIndexNames" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.006"/>
+  <testcase name="testAutoCreationPatternEnabled" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.004"/>
+  <testcase name="testAutoCreationMultiplePatternsWithWildcards" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.004"/>
+  <testcase name="testAutoCreationMultiplePatternsNoWildcards" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.017"/>
+  <testcase name="testParseFailedMissingIndex" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.003"/>
+  <testcase name="testDefaultAutoCreation" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.005"/>
+  <testcase name="testAutoCreationDisabled" classname="org.elasticsearch.action.support.AutoCreateIndexTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T18:20:24,476][INFO ][o.e.a.s.AutoCreateIndexTests] [testExistingIndex] before test
+[2020-02-16T18:20:24,478][INFO ][o.e.a.s.AutoCreateIndexTests] [testExistingIndex] after test
+[2020-02-16T18:20:24,481][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationPatternDisabled] before test
+[2020-02-16T18:20:24,483][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationPatternDisabled] after test
+[2020-02-16T18:20:24,487][INFO ][o.e.a.s.AutoCreateIndexTests] [testParseFailed] before test
+[2020-02-16T18:20:24,488][INFO ][o.e.a.s.AutoCreateIndexTests] [testParseFailed] after test
+[2020-02-16T18:20:24,493][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationEnabled] before test
+[2020-02-16T18:20:24,495][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationEnabled] after test
+[2020-02-16T18:20:24,499][INFO ][o.e.a.s.AutoCreateIndexTests] [testHandleSpaces] before test
+[2020-02-16T18:20:24,502][INFO ][o.e.a.s.AutoCreateIndexTests] [testHandleSpaces] after test
+[2020-02-16T18:20:24,504][INFO ][o.e.a.s.AutoCreateIndexTests] [testUpdate] before test
+[2020-02-16T18:20:24,505][INFO ][o.e.c.s.ClusterSettings  ] [testUpdate] updating [action.auto_create_index] from [false] to [true]
+[2020-02-16T18:20:24,506][INFO ][o.e.c.s.ClusterSettings  ] [testUpdate] updating [action.auto_create_index] from [true] to [logs-*]
+[2020-02-16T18:20:24,506][INFO ][o.e.a.s.AutoCreateIndexTests] [testUpdate] after test
+[2020-02-16T18:20:24,510][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationConflictingPatternsFirstWins] before test
+[2020-02-16T18:20:24,511][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationConflictingPatternsFirstWins] after test
+[2020-02-16T18:20:24,516][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationMultipleIndexNames] before test
+[2020-02-16T18:20:24,517][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationMultipleIndexNames] after test
+[2020-02-16T18:20:24,520][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationPatternEnabled] before test
+[2020-02-16T18:20:24,521][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationPatternEnabled] after test
+[2020-02-16T18:20:24,524][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationMultiplePatternsWithWildcards] before test
+[2020-02-16T18:20:24,526][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationMultiplePatternsWithWildcards] after test
+[2020-02-16T18:20:24,541][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationMultiplePatternsNoWildcards] before test
+[2020-02-16T18:20:24,543][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationMultiplePatternsNoWildcards] after test
+[2020-02-16T18:20:24,545][INFO ][o.e.a.s.AutoCreateIndexTests] [testParseFailedMissingIndex] before test
+[2020-02-16T18:20:24,546][INFO ][o.e.a.s.AutoCreateIndexTests] [testParseFailedMissingIndex] after test
+[2020-02-16T18:20:24,549][INFO ][o.e.a.s.AutoCreateIndexTests] [testDefaultAutoCreation] before test
+[2020-02-16T18:20:24,551][INFO ][o.e.a.s.AutoCreateIndexTests] [testDefaultAutoCreation] after test
+[2020-02-16T18:20:24,558][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationDisabled] before test
+[2020-02-16T18:20:24,560][INFO ][o.e.a.s.AutoCreateIndexTests] [testAutoCreationDisabled] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.similarity.SimilarityServiceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:36" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testSimilarityValidation" classname="org.elasticsearch.index.similarity.SimilarityServiceTests" time="0.008"/>
+  <testcase name="testDefaultSimilarity" classname="org.elasticsearch.index.similarity.SimilarityServiceTests" time="0.003"/>
+  <testcase name="testOverrideBuiltInSimilarity" classname="org.elasticsearch.index.similarity.SimilarityServiceTests" time="0.004"/>
+  <testcase name="testOverrideDefaultSimilarity" classname="org.elasticsearch.index.similarity.SimilarityServiceTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T17:23:36,972][INFO ][o.e.i.s.SimilarityServiceTests] [testSimilarityValidation] before test
+[2020-02-16T17:23:36,974][INFO ][o.e.i.s.SimilarityServiceTests] [testSimilarityValidation] after test
+[2020-02-16T17:23:36,976][INFO ][o.e.i.s.SimilarityServiceTests] [testDefaultSimilarity] before test
+[2020-02-16T17:23:36,977][INFO ][o.e.i.s.SimilarityServiceTests] [testDefaultSimilarity] after test
+[2020-02-16T17:23:36,981][INFO ][o.e.i.s.SimilarityServiceTests] [testOverrideBuiltInSimilarity] before test
+[2020-02-16T17:23:36,981][INFO ][o.e.i.s.SimilarityServiceTests] [testOverrideBuiltInSimilarity] after test
+[2020-02-16T17:23:36,987][INFO ][o.e.i.s.SimilarityServiceTests] [testOverrideDefaultSimilarity] before test
+[2020-02-16T17:23:36,988][INFO ][o.e.i.s.SimilarityServiceTests] [testOverrideDefaultSimilarity] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

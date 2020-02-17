@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.profile.query.CollectorResultTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.profile.query.CollectorResultTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.profile.query.CollectorResultTests" time="0.003"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.profile.query.CollectorResultTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T00:25:35,841][INFO ][o.e.s.p.q.CollectorResultTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T00:25:35,843][INFO ][o.e.s.p.q.CollectorResultTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T00:25:35,845][INFO ][o.e.s.p.q.CollectorResultTests] [testFromXContent] before test
+[2020-02-17T00:25:35,845][INFO ][o.e.s.p.q.CollectorResultTests] [testFromXContent] after test
+[2020-02-17T00:25:35,847][INFO ][o.e.s.p.q.CollectorResultTests] [testToXContent] before test
+[2020-02-17T00:25:35,847][INFO ][o.e.s.p.q.CollectorResultTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

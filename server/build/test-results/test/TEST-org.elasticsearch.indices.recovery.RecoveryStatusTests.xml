@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.recovery.RecoveryStatusTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:53" hostname="Escoto-PC" time="0.73">
+  <properties/>
+  <testcase name="testRenameTempFiles" classname="org.elasticsearch.indices.recovery.RecoveryStatusTests" time="0.73"/>
+  <system-out><![CDATA[[2020-02-16T23:23:53,524][INFO ][o.e.e.NodeEnvironment    ] [testRenameTempFiles] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:23:53,525][INFO ][o.e.e.NodeEnvironment    ] [testRenameTempFiles] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:23:53,529][INFO ][o.e.n.Node               ] [testRenameTempFiles] node name [node_s_0], node ID [qL5rCoiGTOiLGIuznQ7W-A], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[-1650451490025578133]-HASH=[152EC30B6E2]]
+[2020-02-16T23:23:53,529][INFO ][o.e.n.Node               ] [testRenameTempFiles] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T23:23:53,529][INFO ][o.e.n.Node               ] [testRenameTempFiles] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T23:23:53,529][INFO ][o.e.n.Node               ] [testRenameTempFiles] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T23:23:53,529][INFO ][o.e.p.PluginsService     ] [testRenameTempFiles] no modules loaded
+[2020-02-16T23:23:53,529][INFO ][o.e.p.PluginsService     ] [testRenameTempFiles] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T23:23:53,529][INFO ][o.e.p.PluginsService     ] [testRenameTempFiles] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T23:23:53,733][INFO ][o.e.d.DiscoveryModule    ] [testRenameTempFiles] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T23:23:53,740][INFO ][o.e.n.Node               ] [testRenameTempFiles] initialized
+[2020-02-16T23:23:53,740][INFO ][o.e.n.Node               ] [testRenameTempFiles] starting ...
+[2020-02-16T23:23:54,037][INFO ][o.e.t.TransportService   ] [testRenameTempFiles] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T23:23:54,043][INFO ][o.e.c.c.Coordinator      ] [testRenameTempFiles] setting initial configuration to VotingConfiguration{qL5rCoiGTOiLGIuznQ7W-A}
+[2020-02-16T23:23:54,099][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{qL5rCoiGTOiLGIuznQ7W-A}{ROdf_E3WTYy6VEPLUrCj7A}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{qL5rCoiGTOiLGIuznQ7W-A}{ROdf_E3WTYy6VEPLUrCj7A}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-16T23:23:54,112][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [2tXM2OXwSuG6FEymq9m1BQ]
+[2020-02-16T23:23:54,120][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{qL5rCoiGTOiLGIuznQ7W-A}{ROdf_E3WTYy6VEPLUrCj7A}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T23:23:54,123][INFO ][o.e.n.Node               ] [testRenameTempFiles] started
+[2020-02-16T23:23:54,127][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T23:23:54,128][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T23:23:54,137][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T23:23:54,145][INFO ][o.e.i.r.RecoveryStatusTests] [testRenameTempFiles] before test
+[2020-02-16T23:23:54,146][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T23:23:54,206][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T23:23:54,221][INFO ][o.e.i.r.RecoveryStatusTests] [testRenameTempFiles] after test
+[2020-02-16T23:23:54,221][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/kihkqLd7TVCz7-45R1NPkQ] deleting index
+[2020-02-16T23:23:54,242][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T23:23:54,251][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T23:23:54,251][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T23:23:54,254][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

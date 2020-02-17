@@ -1,0 +1,879 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="build-eclipse"/>
+	<classpathentry output="build-eclipse/1" kind="src" path="src/test/java">
+		<attributes>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry kind="src" path="/_x-pack_plugin_security"/>
+	<classpathentry kind="src" path="/_x-pack_plugin_core"/>
+	<classpathentry kind="src" path="/_test_framework"/>
+	<classpathentry kind="src" path="/_x-pack_plugin_monitoring"/>
+	<classpathentry kind="src" path="/_client_sniffer"/>
+	<classpathentry kind="src" path="/_modules_reindex"/>
+	<classpathentry kind="src" path="/_client_rest-high-level"/>
+	<classpathentry kind="src" path="/_client_rest"/>
+	<classpathentry kind="src" path="/_plugins_transport-nio"/>
+	<classpathentry kind="src" path="/_libs_elasticsearch-nio"/>
+	<classpathentry kind="src" path="/_x-pack_plugin_sql_sql-action"/>
+	<classpathentry kind="src" path="/_server"/>
+	<classpathentry kind="src" path="/_libs_elasticsearch-cli"/>
+	<classpathentry kind="src" path="/_modules_transport-netty4"/>
+	<classpathentry kind="src" path="/_modules_parent-join"/>
+	<classpathentry kind="src" path="/_modules_lang-mustache"/>
+	<classpathentry kind="src" path="/_modules_analysis-common"/>
+	<classpathentry kind="src" path="/_x-pack_license-tools"/>
+	<classpathentry kind="src" path="/_x-pack_plugin_sql_sql-proto"/>
+	<classpathentry kind="src" path="/_libs_elasticsearch-x-content"/>
+	<classpathentry kind="src" path="/_libs_elasticsearch-ssl-config"/>
+	<classpathentry kind="src" path="/_libs_elasticsearch-core"/>
+	<classpathentry kind="src" path="/_libs_elasticsearch-secure-sm"/>
+	<classpathentry kind="src" path="/_libs_elasticsearch-geo"/>
+	<classpathentry kind="src" path="/_modules_mapper-extras"/>
+	<classpathentry kind="src" path="/_modules_aggs-matrix-stats"/>
+	<classpathentry kind="src" path="/_modules_rank-eval"/>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.carrotsearch.randomizedtesting/randomizedtesting-runner/2.7.1/297eb65573826548c173ab16d60ad9ef4435aa5a/randomizedtesting-runner-2.7.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.carrotsearch.randomizedtesting/randomizedtesting-runner/2.7.1/e917f4983144c3b969eb7d3648338ecde5e3ba89/randomizedtesting-runner-2.7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.1/aa6763235632b77fd9245c850b6a7dc09382314c/hamcrest-2.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest/2.1/9420ba32c29217b54eebd26ff7f9234d31c3fbb2/hamcrest-2.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-test-framework/8.3.0/70b439112c84119345ea665e66513ce3a8ea7fcd/lucene-test-framework-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-test-framework/8.3.0/7994396d8b0aa4df7be97895a5016e5e77c6883c/lucene-test-framework-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/8.3.0/32bc5bf9c42af75a6ff0e36630bf6467b8b8922b/lucene-codecs-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/8.3.0/3e7131b40c384555eafbb9902aee080808cb7020/lucene-codecs-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/bce4ba84fd527950e35040b20a991c63e90e2850/commons-codec-1.11-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.elasticsearch/securemock/1.2/98201d4ad5ac93f6b415ae9172d52b5e7cda490e/securemock-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.elasticsearch/mocksocket/1.2/5a7e4e48580119231e834b5d77333248275e3fb7/mocksocket-1.2-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.elasticsearch/mocksocket/1.2/190ad3f42fd6ab7367bae0c0e14d1dc4e4a3c361/mocksocket-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.10/b88c634257720718f33caebc6fc6ec52e4cce190/httpclient-4.5.10-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.10/7ca2e4276f4ef95e4db725a8cd4a1d1e7585b9e5/httpclient-4.5.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.12/8b6f2545070a53107665c1e390e690a859bd2266/httpcore-4.4.12-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.12/21ebaf6d532bc350ba95bd81938fa5f0e511c132/httpcore-4.4.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.4.12/8874d7eaacedca57d3c9a2af4ae0e8ea867142ab/httpcore-nio-4.4.12-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore-nio/4.4.12/84cd29eca842f31db02987cfedea245af020198b/httpcore-nio-4.4.12.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.1.4/1e5c5d894e85baa50550e9cb8d8ddc112fbea178/httpasyncclient-4.1.4-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpasyncclient/4.1.4/f3a3240681faae3fa46b573a4c7e50cec9db0d86/httpasyncclient-4.1.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-1.2-api/2.11.1/9dad1910c9ed0f466ac7601bfb85e2f422ccf33d/log4j-1.2-api-2.11.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-1.2-api/2.11.1/3aba3398fe064a3eab4331f88161c7480e848418/log4j-1.2-api-2.11.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.unboundid/unboundid-ldapsdk/4.0.8/d57f490b3b11369cf8432331f77782369674141/unboundid-ldapsdk-4.0.8-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.unboundid/unboundid-ldapsdk/4.0.8/bf1a0d3790f8f7bd28f1172323c26fed2e3bbaa5/unboundid-ldapsdk-4.0.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-core/3.3.0/8949d87d1d5c0cf946dc49f009cca0706ffcbb1f/opensaml-core-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-core/3.3.0/6fac68342891abec3c22d53e14c706ba3e58918b/opensaml-core-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-saml-api/3.3.0/297c50ed3ba0389bc221f3abe2561f9541775d8f/opensaml-saml-api-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-saml-api/3.3.0/c9611395e073206e59816b0b5ce5166450e8101e/opensaml-saml-api-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-saml-impl/3.3.0/f6a799b54bd223a77b4f96462e9f80f2fc37959d/opensaml-saml-impl-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-saml-impl/3.3.0/391ac88f96a9f8f522d693c168d4c65fad20535d/opensaml-saml-impl-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-messaging-api/3.3.0/ba3d977e17a3c47ecd960c9423106efb076d06df/opensaml-messaging-api-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-messaging-api/3.3.0/5da0ff5d28546b3af8cc1487b4717fdeb675b8c4/opensaml-messaging-api-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-messaging-impl/3.3.0/e2b2a28895f92a6a1f34485d312533c86c5073bd/opensaml-messaging-impl-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-messaging-impl/3.3.0/38b21389971105f32099d04c6f63b4af505364ca/opensaml-messaging-impl-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-security-api/3.3.0/2f1ffc90b4696fd8564dc6b6cd112a973117f38d/opensaml-security-api-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-security-api/3.3.0/89477899f0836040e9a584b451895a61d923bf96/opensaml-security-api-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-security-impl/3.3.0/9bdb5b4deafe10bc625a7f75287ac71ab4e885e4/opensaml-security-impl-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-security-impl/3.3.0/48cf37a5080ee406aef21a49045f5e1d15ea46e6/opensaml-security-impl-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-profile-api/3.3.0/58245e66c111c99f3b9177bbf221038304bda058/opensaml-profile-api-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-profile-api/3.3.0/e4c72301b98cf4967c49c450de7da2dbc1f6b8d0/opensaml-profile-api-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-profile-impl/3.3.0/22178a329977bde9a04ba3ae1e9f48cef63616f4/opensaml-profile-impl-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-profile-impl/3.3.0/25c28fb4ab027fcaacaa268902cffc4451ac840c/opensaml-profile-impl-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-xmlsec-api/3.3.0/92de42e810f533ff48a784c787a42becaab63932/opensaml-xmlsec-api-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-xmlsec-api/3.3.0/e824f1e3ec14080412a4ab4b0807a13933d9be80/opensaml-xmlsec-api-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-xmlsec-impl/3.3.0/28a9751be7227af794e89425b082128545fed0da/opensaml-xmlsec-impl-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-xmlsec-impl/3.3.0/569ae8fc7c84817c5324e9f9b7958adf700a94c1/opensaml-xmlsec-impl-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-soap-api/3.3.0/2853891ff4ea69c576388dc2f3d0ede1035b58ed/opensaml-soap-api-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-soap-api/3.3.0/4e900056cd80c1f0bd72497c26a48664089e04a8/opensaml-soap-api-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-soap-impl/3.3.0/a6d7441727388c43838db289779c8f77cec9e099/opensaml-soap-impl-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-soap-impl/3.3.0/ea912fe660d11ad443775974e3208f0563edcebd/opensaml-soap-impl-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-storage-api/3.3.0/eabfaed2e36e44b716635d7a21c5f981546901bc/opensaml-storage-api-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-storage-api/3.3.0/7492688b067dca0568554ec4c7abf9f0b5e1f682/opensaml-storage-api-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-storage-impl/3.3.0/bf04fc9f20da5662846d93238d3b4541d95bbe75/opensaml-storage-impl-3.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.opensaml/opensaml-storage-impl/3.3.0/1244ecd4e8eccf74eb178906b0e9cac8a62bcbf7/opensaml-storage-impl-3.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.shibboleth.utilities/java-support/7.3.0/373e26fc8ee779221d83da120a23917da817d908/java-support-7.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.shibboleth.utilities/java-support/7.3.0/288ecc17f2025ad14f768163d42808987d5ffcd6/java-support-7.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.santuario/xmlsec/2.0.8/4c82d6ad338d4801484b215ab3898c80e0f7d737/xmlsec-2.0.8-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.santuario/xmlsec/2.0.8/f5995bd4cd75816568c3b26d2552d957316ba8dc/xmlsec-2.0.8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/3.2.2/d8341de37a301b38988b40f5b20976258f2b77e8/metrics-core-3.2.2-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.dropwizard.metrics/metrics-core/3.2.2/cd9886f498ee2ab2d994f0c779e5553b2c450416/metrics-core-3.2.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.cryptacular/cryptacular/1.2.0/19574eec18f8f486cb1e756576f755c47129e4f4/cryptacular-1.2.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.cryptacular/cryptacular/1.2.0/94f6cb97d7f7487a183f283ae80c6e61c86156e3/cryptacular-1.2.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.2/6b5f6572792e2192ecf714ea12ae894b0fbcf750/slf4j-api-1.6.2-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.6.2/8619e95939167fb37245b5670135e4feb0ec7d50/slf4j-api-1.6.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.11.1/2b387980561fb77b2aafdcf0d61552e0fa74928a/log4j-slf4j-impl-2.11.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-slf4j-impl/2.11.1/4b41b53a3a2d299ce381a69d165381ca19f62912/log4j-slf4j-impl-2.11.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-cache/4.5.10/619470b732b3a736a504bc2aba3ddaa56541bc16/httpclient-cache-4.5.10-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient-cache/4.5.10/b195778247a21e980cb9f80c41364dc0c38feaef/httpclient-cache-4.5.10.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/91a4d115400e904f22b03a78deb355e9ea803cd4/guava-19.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/19.0/6ce200f6b23222af3d8abb6b6459e6c44f4bb0e9/guava-19.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.nimbusds/oauth2-oidc-sdk/6.16.5/c23b45ef58e30d2336529b1f0cb3d95b2193a575/oauth2-oidc-sdk-6.16.5-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.nimbusds/oauth2-oidc-sdk/6.16.5/690bf0290fe0c03dabfb43566dbd334f78ddce84/oauth2-oidc-sdk-6.16.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.nimbusds/nimbus-jose-jwt/8.2/dda89bf4551e5db21de1b939d329452ab4d4703e/nimbus-jose-jwt-8.2-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.nimbusds/nimbus-jose-jwt/8.2/3cc99de85969253f2f085c39d87124e21011ae74/nimbus-jose-jwt-8.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.nimbusds/lang-tag/1.4.4/1663d422d8b0133349c2f213303e01756f6a3cf8/lang-tag-1.4.4-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.nimbusds/lang-tag/1.4.4/1db9a709239ae473a69b5424c7e78d0b7108229d/lang-tag-1.4.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.sun.mail/jakarta.mail/1.6.3/27536feaaa314c859d290c4b90d8cbf2fa2cc565/jakarta.mail-1.6.3-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.sun.mail/jakarta.mail/1.6.3/787e007e377223bba85a33599d3da416c135f99b/jakarta.mail-1.6.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/d853625d8001c00d40abed553e670279504699f9/jcip-annotations-1.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.jcip/jcip-annotations/1.0/afba4942caaeaf46aab0b976afd57cc7c181467e/jcip-annotations-1.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/36c61f1b839bde5b284528cb76f6811efbe0f08b/json-smart-2.3-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.3/7396407491352ce4fa30de92efb158adb76b5b/json-smart-2.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c837e3903ff07b478041f761915d764b98e71e05/accessors-smart-1.2-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.2/c592b500269bfde36096641b01238a8350f8aa31/accessors-smart-1.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/7.1/9d170062d595240da35301362b079e5579c86f49/asm-7.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/7.1/fa29aa438674ff19d5e1386d2c3527a0267f291e/asm-7.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.locationtech.spatial4j/spatial4j/0.7/a5ce80e5742f35c523f64963a3786cd4a3ca9fd7/spatial4j-0.7-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.locationtech.spatial4j/spatial4j/0.7/faa8ba85d503da4ab872d17ba8c00da0098ab2f2/spatial4j-0.7.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.locationtech.jts/jts-core/1.15.0/85f9b98dfa591c1cee8d3d4fe5a2bf68667adf83/jts-core-1.15.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.locationtech.jts/jts-core/1.15.0/705981b7e25d05a76a3654e597dab6ba423eb79e/jts-core-1.15.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.11.1/23bef4ea0494ba9fb9835df0e3e23c6883d8d545/log4j-core-2.11.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-core/2.11.1/592a48674c926b01a9a747c7831bcd82a9e6d6e4/log4j-core-2.11.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.1/acf35297ef03716fc14e11e2978d7c749ed3f7e5/log4j-api-2.11.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.11.1/268f0fe4df3eefe052b57c87ec48517d64fb2a10/log4j-api-2.11.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.elasticsearch/jna/4.5.1/965bf0f4cf5b71c2b1e9bb5a8d7b6919020e0492/jna-4.5.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.elasticsearch/jna/4.5.1/da10908ae23dc59b19dc258e63aea1c44621dc3a/jna-4.5.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.59/85a78cf9aa7020b89cd8c14daf4b7d2a397abe91/bcprov-jdk15on-1.59-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.59/2507204241ab450456bdb8e8c0a8f986e418bd99/bcprov-jdk15on-1.59.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.59/c83071240b9dedc183e671a2df97ebce4f33b828/bcpkix-jdk15on-1.59-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.59/9cef0aab8a4bb849a8476c058ce3ff302aba3fff/bcpkix-jdk15on-1.59.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/caf033a4a7c37b4a8ff3ea084cba591539b0b69/commons-io-2.5-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-simplekdc/1.1.1/d341ebe2cc11e2ed207bffa0e9eef97240902815/kerb-simplekdc-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-simplekdc/1.1.1/b74dbb0f402470f6cd833719418b61d4b5a46f38/kerb-simplekdc-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-client/1.1.1/41bbe009571e6716b52bb965899fa32a13acadb2/kerb-client-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-client/1.1.1/f3ed44be283d760d2cc091a7ade2bf84e4a34c39/kerb-client-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-config/1.1.1/6c0483446ae407d7ed9bbd74d4268ba1f094d166/kerby-config-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-config/1.1.1/9bb9c3c2b5ad8c2bcc0cab461a8b96c20e4a73cf/kerby-config-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-core/1.1.1/5ea226a3b10706328e0ea6b90c0e4a85300e5340/kerb-core-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-core/1.1.1/abbad483a908940378cf17c8cfdc53a8aae861f4/kerb-core-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-pkix/1.1.1/72f32f8f5430cbeebe00a9abe7d7427b4ee355bd/kerby-pkix-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-pkix/1.1.1/ee026862c5aab5cf6fef788c25dfd7dd95299cda/kerby-pkix-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-asn1/1.1.1/813c385a39731e1fa9d3bcb16b0f5ca40cf33700/kerby-asn1-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-asn1/1.1.1/16aaeb84d09f4c9c30f9b149501cceb47c6a7be/kerby-asn1-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-util/1.1.1/18ea50ee763ae0fe5e1896e87b63b91efad655/kerby-util-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-util/1.1.1/953c9b60eef991cefce126f10158ba80f58e62fa/kerby-util-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-common/1.1.1/5c9cad9505067186aa51a302615a840cef449cc3/kerb-common-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-common/1.1.1/375ad35edf62f73ea6b132ca2947f2b43af4ae48/kerb-common-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-crypto/1.1.1/92ebcdd1b1acd38528d95a9014513b421499262b/kerb-crypto-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-crypto/1.1.1/f0027e417977c41bd97977d680909dd94dba5d9/kerb-crypto-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-util/1.1.1/b9062b09045072f23ab1c5a462300a279eb19539/kerb-util-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-util/1.1.1/94c20044bbd63a4440b13b0f538da8a12e225f4/kerb-util-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/token-provider/1.1.1/d38012259664a371de7e78c8b6414dc6da865b1/token-provider-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/token-provider/1.1.1/63b3efa31acc505df4593e1d8d4160a3193ae3c4/token-provider-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-admin/1.1.1/6603651d7ddc72fb8697e17e8d039590bd6b835c/kerb-admin-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-admin/1.1.1/77d11cb3fb1ebd5e17ef2e401c66e3e8308858e0/kerb-admin-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-server/1.1.1/fd140b76677055006e24214f5944e02653309592/kerb-server-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-server/1.1.1/5955b605b0ec96fe5534bf5134ce5631ee2fbe9a/kerb-server-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-identity/1.1.1/69a6b09a7f3800cf2aa742385d1ef6ec302a4a14/kerb-identity-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerb-identity/1.1.1/affab39198968b7f81e281f2067beeda328d4bb1/kerb-identity-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-xdr/1.1.1/5cc56e616523b79a33e50d8fe76be7ee68496854/kerby-xdr-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/kerby-xdr/1.1.1/3ca6092f6e18b1a6418d3a31be9fa2a7a956116f/kerby-xdr-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/ldap-backend/1.1.1/554fd3dd32754c97ce9b586249fe660ee039d15e/ldap-backend-1.1.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.kerby/ldap-backend/1.1.1/1df72cfb24945404d5947c4303a9b179bfc78eba/ldap-backend-1.1.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-client-api/1.0.0/ada9368cadf8694b1968fb9831e9c74d6c2d685f/api-ldap-client-api-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-client-api/1.0.0/488f1b1efbb07c2a38854f4ee6b0cda4d2f446cb/api-ldap-client-api-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-schema-data/1.0.0/3b910f12afa7aa24e3b488b570a91df9bb727336/api-ldap-schema-data-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-schema-data/1.0.0/eca194f6baca671c466a4eb3ebc669856d997baa/api-ldap-schema-data-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-codec-core/1.0.0/26ca5edd868c18c7439f33df7fef5d282fb553b4/api-ldap-codec-core-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-codec-core/1.0.0/77c168f83293bad4fdfea5ae97e6edb107ed7bec/api-ldap-codec-core-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-aci/1.0.0/3c72a8b1d9c8a0c1574c36fa0dd4e0f974764327/api-ldap-extras-aci-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-aci/1.0.0/4fa63ab0703b8349d0bf68c013e7cb1cbe9276e0/api-ldap-extras-aci-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-codec/1.0.0/59f7f7667f488eb82cb7edf49f599d2fa91bc24f/api-ldap-extras-codec-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-codec/1.0.0/64ba27fb732c5f3ce823e27979c751b1608fce2/api-ldap-extras-codec-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-codec-api/1.0.0/412e111ad1831a4222b625112eb7fd5a99574e17/api-ldap-extras-codec-api-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-codec-api/1.0.0/bfa27c6cb594d5d0bc709230b49d5ccaa9134bd1/api-ldap-extras-codec-api-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/9376f5559455b8fe1b15308d3ad9c545f6905b1a/commons-pool-1.6-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-pool/commons-pool/1.6/4572d589699f09d866a226a14b7f4323c6d8f040/commons-pool-1.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2/73d0340eaecbb0ec9d3e0ace90547ef08cbfaf27/commons-collections-3.2-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/commons-collections/commons-collections/3.2/f951934aa5ae5a88d7e6dfaa6d32307d834a88be/commons-collections-3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.17/dce9babffbef164b13e3093c05bf83096e18e1bf/mina-core-2.0.17-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.mina/mina-core/2.0.17/7e10ec974760436d931f3e58be507d1957bcc8db/mina-core-2.0.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-util/1.0.1/414ab1ac669b7009f9adb4958e0f4e95b620d3c0/api-util-1.0.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-util/1.0.1/6d735de2b602f45e6ffc63d6d01a9e5533618e45/api-util-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-i18n/1.0.1/8f7c5c5f2113fe579cdc1841115048d16a307819/api-i18n-1.0.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-i18n/1.0.1/17552ed63c41aa95a9b148d9f01d85e5baf03e6c/api-i18n-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-model/1.0.1/de2bf22213282f14dfcef0a90b3ca0d2680f4829/api-ldap-model-1.0.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-model/1.0.1/dad37d44345f7aeedf4da6ed92ae73183cf736c5/api-ldap-model-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-asn1-api/1.0.1/f860fbbaaa8f362f362c8c3fd95dc3097c71fc5d/api-asn1-api-1.0.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-asn1-api/1.0.1/490a0ccaa859f2c7618ed2c15c318b0d58500aef/api-asn1-api-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-asn1-ber/1.0.1/556f61c88b587b1cca1267c3d2af5f3b0a763d7/api-asn1-ber-1.0.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-asn1-ber/1.0.1/c1a0b6504456dab91fe3012d513a28cc7f22fc97/api-asn1-ber-1.0.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.servicemix.bundles/org.apache.servicemix.bundles.antlr/2.7.7_5/98912946d4e6746792c631d31a742f7d4d9c75a3/org.apache.servicemix.bundles.antlr-2.7.7_5.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-core-api/2.0.0-M24/39f7e9546507cc158181e664fa8d00da9ad1db71/apacheds-core-api-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-core-api/2.0.0-M24/5ac7d54b455bbd681d7061e9e919e6504ed77c99/apacheds-core-api-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-i18n/2.0.0-M24/c19254eefa04e4cbe8bb58d904894d3105830839/apacheds-i18n-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-i18n/2.0.0-M24/d351eefa0e1a4dbc1f23bd513417888cc73dc9cc/apacheds-i18n-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-util/1.0.0/4b72d28d00d87caeae2f7ad79e360824ad4720b3/api-ldap-extras-util-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-util/1.0.0/4821c25cbf30f4b50f14ff03948cf8b97bce7433/api-ldap-extras-util-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.4/b4f70d19432f70ff7164aacbe01e5bbf2d844e2a/ehcache-2.10.4-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.sf.ehcache/ehcache/2.10.4/9022b1eedfafa11039597b1c1918c1abe414df93/ehcache-2.10.4.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-kerberos-codec/2.0.0-M24/4da698af96f9337d00a48ac07e73a2b0170a617/apacheds-kerberos-codec-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-kerberos-codec/2.0.0-M24/9219f9bb1e779ba0f56b8060dce161dbf78d45e2/apacheds-kerberos-codec-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-protocol-ldap/2.0.0-M24/187be2473dd5cf1706b0b83bd825e757ae94b494/apacheds-protocol-ldap-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-protocol-ldap/2.0.0-M24/43d5437c1928d66518e989bba6c8287f25a31bcc/apacheds-protocol-ldap-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-protocol-shared/2.0.0-M24/25203c430201e62f25b4d1c4059187300e2e3183/apacheds-protocol-shared-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-protocol-shared/2.0.0-M24/d7e2cb9df05fb0833442a8228275c47eddf0f415/apacheds-protocol-shared-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.jdbm/apacheds-jdbm1/2.0.0-M3/d836cea7766692ea62c68612c97f7340f010baad/apacheds-jdbm1-2.0.0-M3-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.jdbm/apacheds-jdbm1/2.0.0-M3/d26d8a464641b50b46f109b19f01b0cd1d841533/apacheds-jdbm1-2.0.0-M3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-jdbm-partition/2.0.0-M24/b56d2894b1eeb4080c8b18e7e5f7e6bad9c73c7f/apacheds-jdbm-partition-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-jdbm-partition/2.0.0-M24/4295a2cb41aedaa64d8421462890ec7ecec82951/apacheds-jdbm-partition-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-xdbm-partition/2.0.0-M24/704c9f3bc06834822e5867ae7d1180acc3ab4a8a/apacheds-xdbm-partition-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-xdbm-partition/2.0.0-M24/13bc01649c0a47a2bdc4edae7b21638888ad13bb/apacheds-xdbm-partition-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-sp/1.0.0/90df514b71432a64035a95b0c859ee483ce0d44e/api-ldap-extras-sp-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-extras-sp/1.0.0/8bce99239bdc3a884e37667262995959925a7afc/api-ldap-extras-sp-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-test-framework/2.0.0-M24/918b0e15f160e53f2ee060c3142dd3da59aaef98/apacheds-test-framework-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-test-framework/2.0.0-M24/ec325f1ca565271a2f96e1a06fdf501aa72b41a0/apacheds-test-framework-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-core-annotations/2.0.0-M24/f69ca21372408ff38c79a8766e1dd85664d38407/apacheds-core-annotations-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-core-annotations/2.0.0-M24/ef20340c41d361f58d1605244c20ed42141f4ee5/apacheds-core-annotations-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-ldif-partition/2.0.0-M24/a3ab9a03a3aa0c2b3d792a856cbedf7fcdb7acc3/apacheds-ldif-partition-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-ldif-partition/2.0.0-M24/9ce916675ac1a5075b408e752c83b7324ad31e2/apacheds-ldif-partition-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-mavibot-partition/2.0.0-M24/5b3370afa3a20767d0d8173250e78245b4ef16ed/apacheds-mavibot-partition-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-mavibot-partition/2.0.0-M24/e63f7a9c8ecc956b4fd3e7458ed9e97a70ab953e/apacheds-mavibot-partition-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-protocol-kerberos/2.0.0-M24/3fe66f6dfcd4e76a2e7ab40139be4fb736167225/apacheds-protocol-kerberos-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-protocol-kerberos/2.0.0-M24/5ab139de4d740b797424ea692738b5f86d32a42/apacheds-protocol-kerberos-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-server-annotations/2.0.0-M24/c31407155ca1de775a619250180035bb336a1f7b/apacheds-server-annotations-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-server-annotations/2.0.0-M24/8b4aad539bd619f6d5ef3cbd43f42412e0d9b3a/apacheds-server-annotations-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-codec-standalone/1.0.0/ff8e596915112608adcb5f5c1816c68d1d6ea124/api-ldap-codec-standalone-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-codec-standalone/1.0.0/15ae054275dac69080599db8c1d69f742d9fa772/api-ldap-codec-standalone-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-net-mina/1.0.0/400f6c3a3dbeab8c81f65fb2c03b8009dc134fe7/api-ldap-net-mina-1.0.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.api/api-ldap-net-mina/1.0.0/e14540c5629c265999c7b446f3e6eebc5357e0c4/api-ldap-net-mina-1.0.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/ldap-client-test/2.0.0-M24/947e57ebf03444072c77362da55e186df5655c0f/ldap-client-test-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/ldap-client-test/2.0.0-M24/d1bf9ee1b17f6dfba2a0635f5ef77302f82671ca/ldap-client-test-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-interceptor-kerberos/2.0.0-M24/3353cb700b08701a3dedc80e557b43f96185e315/apacheds-interceptor-kerberos-2.0.0-M24-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.server/apacheds-interceptor-kerberos/2.0.0-M24/cd523cf5e8051e114fa7351183985c8e2453c35/apacheds-interceptor-kerberos-2.0.0-M24.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.mavibot/mavibot/1.0.0-M8/c225843b0ac7892d749e75efc58f1b8872635bac/mavibot-1.0.0-M8-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.directory.mavibot/mavibot/1.0.0-M8/511d8c0027a44eff79199ad5ef9bd16c00768e10/mavibot-1.0.0-M8.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.11/1e1df4d8c9ca05f1708e0ce1d842cf82931a7fc9/jackson-core-2.8.11-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.11/876ead1db19f0c9e79c9789273a3ef8c6fd6c29b/jackson-core-2.8.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/8.3.0/2ecb8232ba352fed0286b0ff3896d7c3746b9c5b/lucene-core-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/8.3.0/e98c442fa8b041072d5a5fe2d417d78a8ce46eaf/lucene-core-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/8.3.0/55d3a99d1c7294e025afff8e4b2fdc03d8459280/lucene-analyzers-common-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/8.3.0/832806ff4af08d32e9974db75b0210c140f375fc/lucene-analyzers-common-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-backward-codecs/8.3.0/2449cc614fa6e86af9c580e15ffae2018147c3ef/lucene-backward-codecs-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-backward-codecs/8.3.0/91f8d4aab0b7a3ffd0846990eb1dd72897452fa/lucene-backward-codecs-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-grouping/8.3.0/7e7206c7250ef0082c418131be71848e1b3a659e/lucene-grouping-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-grouping/8.3.0/82a9aad0f3916369cbe8d70f8328b5a5f6cbe5eb/lucene-grouping-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-highlighter/8.3.0/81ccab09e322eca7f2de259f0d2e2ea7d74a6001/lucene-highlighter-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-highlighter/8.3.0/431f12cc7e968061d9cb8c98dff94dad830862f0/lucene-highlighter-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-join/8.3.0/794e6b80394036f4af658c73703c622495841a66/lucene-join-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-join/8.3.0/c3d1fd013eff70ccbde093879d0cecd59b0a8668/lucene-join-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-memory/8.3.0/9a8255524789fccb9d17aa2dba4cf081636f3ec8/lucene-memory-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-memory/8.3.0/a556004c230704b7473031338f17cb65525b55bf/lucene-memory-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-misc/8.3.0/7b07a965b64680513e5742863c554dd37ce30053/lucene-misc-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-misc/8.3.0/465741f0824e010d69bc9c1fcb549457e0f21000/lucene-misc-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queries/8.3.0/759859ff8678b660d11f3933445315615d6de2bf/lucene-queries-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queries/8.3.0/a2b2cf250d5377da5ee22bb25626bf3e0dc4c5ca/lucene-queries-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/8.3.0/18fbd8316bc5c7f102abfc81dbc6ceb7a234cb97/lucene-queryparser-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/8.3.0/b10ceccf3a3ca92bc3a83d5930cac1244286dc60/lucene-queryparser-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-sandbox/8.3.0/eb34068579eda64cfd1521396899eb46f8e0fb15/lucene-sandbox-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-sandbox/8.3.0/e381b9095f0946f0328e70216149cb28f0f926b2/lucene-sandbox-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial/8.3.0/65bf85c5e2fbbf3169a2e86adb44b464b8dedf75/lucene-spatial-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial/8.3.0/14574c7a4ba654b6e3543b2e7750b94bbbcfc9a5/lucene-spatial-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial-extras/8.3.0/b0f29384b95a2c99a767bdeddcba1caea3a44a5a/lucene-spatial-extras-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial-extras/8.3.0/b98bdb7d213071d819cc0dcac5af575ebe68fce/lucene-spatial-extras-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial3d/8.3.0/7c931499fe222080f313804b4ef9f0af3df5f20b/lucene-spatial3d-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-spatial3d/8.3.0/b1a7ed20069a35e8cc459af465c48506b1825fbc/lucene-spatial3d-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-suggest/8.3.0/5bfbf69aa8f83fd3921012cef45e8be678a9d487/lucene-suggest-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-suggest/8.3.0/928376212df650eb8f17c02136201dbe75da34e/lucene-suggest-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.carrotsearch/hppc/0.8.1/b338e50c3f98c7ec2bf67a5efb7fa8726a4a9b2d/hppc-0.8.1-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.carrotsearch/hppc/0.8.1/ffc7ba8f289428b9508ab484b8001dea944ae603/hppc-0.8.1.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10.3/45d7b1444daabeb746a4d9f5fc741728852047a7/joda-time-2.10.3-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/joda-time/joda-time/2.10.3/2e5366cf1f77ca3bafffecf6e87d30e1d504e959/joda-time-2.10.3.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.tdunning/t-digest/3.2/b1858d66a80a93f61f048cf542fc2751ec7971bf/t-digest-3.2-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.tdunning/t-digest/3.2/2ab94758b0276a8a26102adf8d528cf6d0567b9a/t-digest-3.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.9/966a6429061192e62cc346462587253a726db6b7/HdrHistogram-2.1.9-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.9/e4631ce165eb400edecfa32e03d3f1be53dee754/HdrHistogram-2.1.9.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.2/8c1ab37cb37a04678788316d6c560078bc56d885/jopt-simple-5.0.2-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/5.0.2/98cafc6081d5632b61be2c9e60650b64ddbc637c/jopt-simple-5.0.2.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.43.Final/4c5cb0a68413d5602d3dd135a7c1090dc36f8292/netty-buffer-4.1.43.Final-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.43.Final/c0d142260a32709523e3bcf0d015b193f2ff2df4/netty-buffer-4.1.43.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.43.Final/5e4e33d1bb9d87d7a05574cfdf70feaf5c0ff838/netty-codec-4.1.43.Final-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.43.Final/44731a5739c40a8434c43e1303e9196f23da67fa/netty-codec-4.1.43.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.43.Final/9caa0532c8f333f791f2c71e3fec2ecee195739a/netty-codec-http-4.1.43.Final-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.43.Final/7320f9db621dc51b79807a4e5094665f260432c/netty-codec-http-4.1.43.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.43.Final/7b0e8488dd99de7808b3dfac2b8b13567a6db386/netty-common-4.1.43.Final-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.43.Final/ccb6f627ded1bb2671a66a84506174d240c7bec8/netty-common-4.1.43.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.43.Final/ca56d32847fb3618df7c79cbc84d136274ce4a58/netty-handler-4.1.43.Final-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.43.Final/f83ac0492d44057d07ec6d40cf79e8e2de949836/netty-handler-4.1.43.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.43.Final/1d6c79494160a63ef7d7d26d17904b0ae3310ec6/netty-resolver-4.1.43.Final-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.43.Final/94ae5a7e595fdc29dac254014e3159d3572d7e44/netty-resolver-4.1.43.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.43.Final/eaafd4c88502a699d9fadf4ddd11a88e266dcf99/netty-transport-4.1.43.Final-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.43.Final/781cd7cfc1118bdfe1538f39cc1f4d07d6254094/netty-transport-4.1.43.Final.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.github.spullara.mustache.java/compiler/0.9.6/a23ce3f24ae450f13f52aaa336bf836759f22331/compiler-0.9.6-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.github.spullara.mustache.java/compiler/0.9.6/1b8707299c34406ed0ba40bbf8513352ac4765c9/compiler-0.9.6.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/63577e87886c76228db9f8a2c50ea43cde5072eb/snakeyaml-1.17-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.8.11/c95012df5b920dec8aaa1e72da686ec9f604e55c/jackson-dataformat-smile-2.8.11-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-smile/2.8.11/d9d1c49c5d9d5e46e2aee55f3cdd119286fe0fc1/jackson-dataformat-smile-2.8.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.11/1bb966044d716dc7d98e4af8191e0fcee227b116/jackson-dataformat-yaml-2.8.11-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.8.11/2e77c6ff7342cd61ab1ae7cb14ed16aebfc8a72a/jackson-dataformat-yaml-2.8.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.8.11/184006c18ca44a79e9bcde99738b176dfea939f/jackson-dataformat-cbor-2.8.11-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.dataformat/jackson-dataformat-cbor/2.8.11/8b9826e16c3366764bfb7ad7362554f0471046c3/jackson-dataformat-cbor-2.8.11.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="test"/>
+			<attribute name="test" value="true"/>
+		</attributes>
+	</classpathentry>
+</classpath>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:32" hostname="Escoto-PC" time="0.068">
+  <properties/>
+  <testcase name="testAggParamsPassedToReduceScript" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.012"/>
+  <testcase name="testScriptedMetricWithoutReduce" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.005"/>
+  <testcase name="testSelfReferencingAggStateAfterMap" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.006"/>
+  <testcase name="testSelfReferencingAggStateAfterInit" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.004"/>
+  <testcase name="testScriptParamsPassedThrough" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.007"/>
+  <testcase name="testScriptedMetricWithCombine" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.006"/>
+  <testcase name="testScriptedMetricWithCombineAccessesScores" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.007"/>
+  <testcase name="testSelfReferencingAggStateAfterCombine" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.004"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.004"/>
+  <testcase name="testConflictingAggAndScriptParams" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.006"/>
+  <testcase name="testScriptedMetricWithoutCombine" classname="org.elasticsearch.search.aggregations.metrics.ScriptedMetricAggregatorTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T17:25:32,673][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testAggParamsPassedToReduceScript] before test
+[2020-02-16T17:25:32,683][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testAggParamsPassedToReduceScript] after test
+[2020-02-16T17:25:32,685][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptedMetricWithoutReduce] before test
+[2020-02-16T17:25:32,689][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptedMetricWithoutReduce] after test
+[2020-02-16T17:25:32,690][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testSelfReferencingAggStateAfterMap] before test
+[2020-02-16T17:25:32,694][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testSelfReferencingAggStateAfterMap] after test
+[2020-02-16T17:25:32,696][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testSelfReferencingAggStateAfterInit] before test
+[2020-02-16T17:25:32,698][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testSelfReferencingAggStateAfterInit] after test
+[2020-02-16T17:25:32,700][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptParamsPassedThrough] before test
+[2020-02-16T17:25:32,705][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptParamsPassedThrough] after test
+[2020-02-16T17:25:32,707][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptedMetricWithCombine] before test
+[2020-02-16T17:25:32,711][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptedMetricWithCombine] after test
+[2020-02-16T17:25:32,713][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptedMetricWithCombineAccessesScores] before test
+[2020-02-16T17:25:32,719][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptedMetricWithCombineAccessesScores] after test
+[2020-02-16T17:25:32,720][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testSelfReferencingAggStateAfterCombine] before test
+[2020-02-16T17:25:32,723][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testSelfReferencingAggStateAfterCombine] after test
+[2020-02-16T17:25:32,725][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testNoDocs] before test
+[2020-02-16T17:25:32,727][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testNoDocs] after test
+[2020-02-16T17:25:32,729][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testConflictingAggAndScriptParams] before test
+[2020-02-16T17:25:32,734][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testConflictingAggAndScriptParams] after test
+[2020-02-16T17:25:32,735][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptedMetricWithoutCombine] before test
+[2020-02-16T17:25:32,739][INFO ][o.e.s.a.m.ScriptedMetricAggregatorTests] [testScriptedMetricWithoutCombine] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

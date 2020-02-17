@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.DateRangeTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:11" hostname="Escoto-PC" time="0.122">
+  <properties/>
+  <testcase name="testParsingRangeStrict" classname="org.elasticsearch.search.aggregations.bucket.DateRangeTests" time="0.046"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.DateRangeTests" time="0.013"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.DateRangeTests" time="0.012"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.DateRangeTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.DateRangeTests" time="0.005"/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.DateRangeTests" time="0.006"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.DateRangeTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.DateRangeTests" time="0.032"/>
+  <system-out><![CDATA[[2020-02-17T06:24:11,733][INFO ][o.e.s.a.b.DateRangeTests ] [testParsingRangeStrict] before test
+[2020-02-17T06:24:11,736][INFO ][o.e.p.PluginsService     ] [testParsingRangeStrict] no modules loaded
+[2020-02-17T06:24:11,736][INFO ][o.e.p.PluginsService     ] [testParsingRangeStrict] no plugins loaded
+[2020-02-17T06:24:11,765][INFO ][o.e.p.PluginsService     ] [testParsingRangeStrict] no modules loaded
+[2020-02-17T06:24:11,765][INFO ][o.e.p.PluginsService     ] [testParsingRangeStrict] no plugins loaded
+[2020-02-17T06:24:11,774][INFO ][o.e.s.a.b.DateRangeTests ] [testParsingRangeStrict] after test
+[2020-02-17T06:24:11,786][INFO ][o.e.s.a.b.DateRangeTests ] [testEqualsAndHashcode] before test
+[2020-02-17T06:24:11,787][INFO ][o.e.s.a.b.DateRangeTests ] [testEqualsAndHashcode] after test
+[2020-02-17T06:24:11,799][INFO ][o.e.s.a.b.DateRangeTests ] [testToString] before test
+[2020-02-17T06:24:11,799][INFO ][o.e.s.a.b.DateRangeTests ] [testToString] after test
+[2020-02-17T06:24:11,805][INFO ][o.e.s.a.b.DateRangeTests ] [testSerialization] before test
+[2020-02-17T06:24:11,805][INFO ][o.e.s.a.b.DateRangeTests ] [testSerialization] after test
+[2020-02-17T06:24:11,810][INFO ][o.e.s.a.b.DateRangeTests ] [testFromXContent] before test
+[2020-02-17T06:24:11,810][INFO ][o.e.s.a.b.DateRangeTests ] [testFromXContent] after test
+[2020-02-17T06:24:11,815][INFO ][o.e.s.a.b.DateRangeTests ] [testFromXContentMulti] before test
+[2020-02-17T06:24:11,816][INFO ][o.e.s.a.b.DateRangeTests ] [testFromXContentMulti] after test
+[2020-02-17T06:24:11,818][INFO ][o.e.s.a.b.DateRangeTests ] [testSerializationMulti] before test
+[2020-02-17T06:24:11,818][INFO ][o.e.s.a.b.DateRangeTests ] [testSerializationMulti] after test
+[2020-02-17T06:24:11,850][INFO ][o.e.s.a.b.DateRangeTests ] [testShallowCopy] before test
+[2020-02-17T06:24:11,850][INFO ][o.e.s.a.b.DateRangeTests ] [testShallowCopy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

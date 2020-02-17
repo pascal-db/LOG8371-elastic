@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.SameShardRoutingTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testForceAllocatePrimaryOnSameNodeNotAllowed" classname="org.elasticsearch.cluster.routing.allocation.SameShardRoutingTests" time="0.006"/>
+  <testcase name="testSameHost" classname="org.elasticsearch.cluster.routing.allocation.SameShardRoutingTests" time="0.011"/>
+  <system-out><![CDATA[[2020-02-16T22:20:39,445][INFO ][o.e.c.r.a.SameShardRoutingTests] [testForceAllocatePrimaryOnSameNodeNotAllowed] before test
+[2020-02-16T22:20:39,447][INFO ][o.e.c.r.a.SameShardRoutingTests] [testForceAllocatePrimaryOnSameNodeNotAllowed] after test
+[2020-02-16T22:20:39,456][INFO ][o.e.c.r.a.SameShardRoutingTests] [testSameHost] before test
+[2020-02-16T22:20:39,457][INFO ][o.e.c.r.a.SameShardRoutingTests] [testSameHost] --> adding two nodes with the same host
+[2020-02-16T22:20:39,458][INFO ][o.e.c.r.a.SameShardRoutingTests] [testSameHost] --> start all primary shards, no replica will be started since its on the same host
+[2020-02-16T22:20:39,459][INFO ][o.e.c.r.a.SameShardRoutingTests] [testSameHost] --> add another node, with a different host, replicas will be allocating
+[2020-02-16T22:20:39,459][INFO ][o.e.c.r.a.SameShardRoutingTests] [testSameHost] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

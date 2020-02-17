@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.coordination.html">org.elasticsearch.cluster.coordination</a> &gt; DeterministicTaskQueueTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">17</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.966s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDefersTasksWithPositiveDelays</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelayVariabilityAppliesToFutureTasks</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelayVariabilityAppliesToImmediateTasks</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotDeferTasksForImmediateExecution</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotDeferTasksScheduledInThePast</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExecutesTasksInTimeOrder</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExecutorServiceEnqueuesTasks</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExecutorServiceWrapsRunnable</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testKeepsFutureTasksDeferred</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRunInTimeOrder</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRunRandomTask</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRunRandomTaskVariesOrder</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStartsAtTimeZero</td>
+<td class="success">0.814s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadPoolEnqueuesTasks</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadPoolSchedulesFutureTasks</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadPoolSchedulesPeriodicFutureTasks</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadPoolWrapsRunnable</td>
+<td class="success">0.031s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:48:47,574][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testStartsAtTimeZero] before test
+[2020-02-16T22:48:48,268][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testStartsAtTimeZero] after test
+[2020-02-16T22:48:48,285][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDoesNotDeferTasksScheduledInThePast] before test
+[2020-02-16T22:48:48,288][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDoesNotDeferTasksScheduledInThePast] after test
+[2020-02-16T22:48:48,293][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolWrapsRunnable] before test
+[2020-02-16T22:48:48,319][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolWrapsRunnable] runnable executed
+[2020-02-16T22:48:48,320][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolWrapsRunnable] after test
+[2020-02-16T22:48:48,324][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDelayVariabilityAppliesToImmediateTasks] before test
+[2020-02-16T22:48:48,327][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDelayVariabilityAppliesToImmediateTasks] after test
+[2020-02-16T22:48:48,332][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceWrapsRunnable] before test
+[2020-02-16T22:48:48,333][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceWrapsRunnable] runnable executed
+[2020-02-16T22:48:48,333][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceWrapsRunnable] after test
+[2020-02-16T22:48:48,336][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceEnqueuesTasks] before test
+[2020-02-16T22:48:48,338][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceEnqueuesTasks] after test
+[2020-02-16T22:48:48,344][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolSchedulesPeriodicFutureTasks] before test
+[2020-02-16T22:48:48,359][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolSchedulesPeriodicFutureTasks] after test
+[2020-02-16T22:48:48,364][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDoesNotDeferTasksForImmediateExecution] before test
+[2020-02-16T22:48:48,365][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDoesNotDeferTasksForImmediateExecution] after test
+[2020-02-16T22:48:48,368][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunInTimeOrder] before test
+[2020-02-16T22:48:48,369][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunInTimeOrder] after test
+[2020-02-16T22:48:48,378][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunRandomTaskVariesOrder] before test
+[2020-02-16T22:48:48,380][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunRandomTaskVariesOrder] after test
+[2020-02-16T22:48:48,383][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolSchedulesFutureTasks] before test
+[2020-02-16T22:48:48,393][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolSchedulesFutureTasks] after test
+[2020-02-16T22:48:48,398][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunRandomTask] before test
+[2020-02-16T22:48:48,400][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunRandomTask] after test
+[2020-02-16T22:48:48,402][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutesTasksInTimeOrder] before test
+[2020-02-16T22:48:48,403][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutesTasksInTimeOrder] after test
+[2020-02-16T22:48:48,409][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDefersTasksWithPositiveDelays] before test
+[2020-02-16T22:48:48,409][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDefersTasksWithPositiveDelays] after test
+[2020-02-16T22:48:48,413][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolEnqueuesTasks] before test
+[2020-02-16T22:48:48,416][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolEnqueuesTasks] after test
+[2020-02-16T22:48:48,421][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDelayVariabilityAppliesToFutureTasks] before test
+[2020-02-16T22:48:48,425][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDelayVariabilityAppliesToFutureTasks] after test
+[2020-02-16T22:48:48,428][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testKeepsFutureTasksDeferred] before test
+[2020-02-16T22:48:48,429][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testKeepsFutureTasksDeferred] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:50:02 PM</p>
+</div>
+</div>
+</body>
+</html>

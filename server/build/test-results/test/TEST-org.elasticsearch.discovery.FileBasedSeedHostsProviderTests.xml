@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.FileBasedSeedHostsProviderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:05" hostname="Escoto-PC" time="0.17">
+  <properties/>
+  <testcase name="testEmptyUnicastHostsFile" classname="org.elasticsearch.discovery.FileBasedSeedHostsProviderTests" time="0.13"/>
+  <testcase name="testSomeInvalidHostEntries" classname="org.elasticsearch.discovery.FileBasedSeedHostsProviderTests" time="0.013"/>
+  <testcase name="testUnicastHostsDoesNotExist" classname="org.elasticsearch.discovery.FileBasedSeedHostsProviderTests" time="0.009"/>
+  <testcase name="testBuildDynamicNodes" classname="org.elasticsearch.discovery.FileBasedSeedHostsProviderTests" time="0.01"/>
+  <testcase name="testInvalidHostEntries" classname="org.elasticsearch.discovery.FileBasedSeedHostsProviderTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T16:22:05,827][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testEmptyUnicastHostsFile] before test
+[2020-02-16T16:22:05,953][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testEmptyUnicastHostsFile] after test
+[2020-02-16T16:22:05,955][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testSomeInvalidHostEntries] before test
+[2020-02-16T16:22:05,964][WARN ][o.e.d.FileBasedSeedHostsProviderTests] [testSomeInvalidHostEntries] failed to resolve host [192.168.0.1:9300:9300]
+java.lang.IllegalArgumentException: IPv6 addresses must be bracketed: 192.168.0.1:9300:9300
+	at org.elasticsearch.transport.TcpTransport.parse(TcpTransport.java:515) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.addressesFromString(TcpTransport.java:470) ~[main/:?]
+	at org.elasticsearch.test.transport.StubbableTransport.addressesFromString(StubbableTransport.java:121) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TransportService.addressesFromString(TransportService.java:803) ~[main/:?]
+	at org.elasticsearch.discovery.SeedHostsResolver.lambda$resolveHostsLists$0(SeedHostsResolver.java:144) ~[main/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:22:05,966][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testSomeInvalidHostEntries] after test
+[2020-02-16T16:22:05,970][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testUnicastHostsDoesNotExist] before test
+[2020-02-16T16:22:05,972][WARN ][o.e.d.FileBasedSeedHostsProvider] [testUnicastHostsDoesNotExist] expected, but did not find, a dynamic hosts list at [E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.discovery.FileBasedSeedHostsProviderTests_9EA1F2A3814E5F76-001\tempDir-004\unicast_hosts.txt]
+[2020-02-16T16:22:05,976][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testUnicastHostsDoesNotExist] after test
+[2020-02-16T16:22:05,979][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testBuildDynamicNodes] before test
+[2020-02-16T16:22:05,986][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testBuildDynamicNodes] after test
+[2020-02-16T16:22:05,988][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testInvalidHostEntries] before test
+[2020-02-16T16:22:05,992][WARN ][o.e.d.FileBasedSeedHostsProviderTests] [testInvalidHostEntries] failed to resolve host [192.168.0.1:9300:9300]
+java.lang.IllegalArgumentException: IPv6 addresses must be bracketed: 192.168.0.1:9300:9300
+	at org.elasticsearch.transport.TcpTransport.parse(TcpTransport.java:515) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.addressesFromString(TcpTransport.java:470) ~[main/:?]
+	at org.elasticsearch.test.transport.StubbableTransport.addressesFromString(StubbableTransport.java:121) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TransportService.addressesFromString(TransportService.java:803) ~[main/:?]
+	at org.elasticsearch.discovery.SeedHostsResolver.lambda$resolveHostsLists$0(SeedHostsResolver.java:144) ~[main/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:22:05,993][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testInvalidHostEntries] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

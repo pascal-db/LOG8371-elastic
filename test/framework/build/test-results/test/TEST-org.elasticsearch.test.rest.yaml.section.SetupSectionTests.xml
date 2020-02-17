@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.section.SetupSectionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:51" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testParseSetupSection" classname="org.elasticsearch.test.rest.yaml.section.SetupSectionTests" time="0.012"/>
+  <testcase name="testParseSetSectionInSetupSection" classname="org.elasticsearch.test.rest.yaml.section.SetupSectionTests" time="0.005"/>
+  <testcase name="testParseSetupAndSkipSectionNoSkip" classname="org.elasticsearch.test.rest.yaml.section.SetupSectionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T06:48:51,842][INFO ][o.e.t.r.y.s.SetupSectionTests] [testParseSetupSection] before test
+[2020-02-17T06:48:51,844][INFO ][o.e.t.r.y.s.SetupSectionTests] [testParseSetupSection] after test
+[2020-02-17T06:48:51,847][INFO ][o.e.t.r.y.s.SetupSectionTests] [testParseSetSectionInSetupSection] before test
+[2020-02-17T06:48:51,849][INFO ][o.e.t.r.y.s.SetupSectionTests] [testParseSetSectionInSetupSection] after test
+[2020-02-17T06:48:51,851][INFO ][o.e.t.r.y.s.SetupSectionTests] [testParseSetupAndSkipSectionNoSkip] before test
+[2020-02-17T06:48:51,852][INFO ][o.e.t.r.y.s.SetupSectionTests] [testParseSetupAndSkipSectionNoSkip] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

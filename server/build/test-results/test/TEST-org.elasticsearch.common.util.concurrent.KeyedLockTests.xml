@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.KeyedLockTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:59" hostname="Escoto-PC" time="0.063">
+  <properties/>
+  <testcase name="testTryAcquire" classname="org.elasticsearch.common.util.concurrent.KeyedLockTests" time="0.003"/>
+  <testcase name="testHasLockedKeys" classname="org.elasticsearch.common.util.concurrent.KeyedLockTests" time="0.002"/>
+  <testcase name="testIfMapEmptyAfterLotsOfAcquireAndReleases" classname="org.elasticsearch.common.util.concurrent.KeyedLockTests" time="0.053"/>
+  <testcase name="testLockIsReentrant" classname="org.elasticsearch.common.util.concurrent.KeyedLockTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T12:06:59,427][INFO ][o.e.c.u.c.KeyedLockTests ] [testTryAcquire] before test
+[2020-02-17T12:06:59,428][INFO ][o.e.c.u.c.KeyedLockTests ] [testTryAcquire] after test
+[2020-02-17T12:06:59,430][INFO ][o.e.c.u.c.KeyedLockTests ] [testHasLockedKeys] before test
+[2020-02-17T12:06:59,430][INFO ][o.e.c.u.c.KeyedLockTests ] [testHasLockedKeys] after test
+[2020-02-17T12:06:59,432][INFO ][o.e.c.u.c.KeyedLockTests ] [testIfMapEmptyAfterLotsOfAcquireAndReleases] before test
+[2020-02-17T12:06:59,483][INFO ][o.e.c.u.c.KeyedLockTests ] [testIfMapEmptyAfterLotsOfAcquireAndReleases] after test
+[2020-02-17T12:06:59,486][INFO ][o.e.c.u.c.KeyedLockTests ] [testLockIsReentrant] before test
+[2020-02-17T12:06:59,488][INFO ][o.e.c.u.c.KeyedLockTests ] [testLockIsReentrant] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

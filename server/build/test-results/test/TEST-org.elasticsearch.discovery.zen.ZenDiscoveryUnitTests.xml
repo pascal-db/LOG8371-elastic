@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:09" hostname="Escoto-PC" time="2.848">
+  <properties/>
+  <testcase name="testNodesUpdatedAfterClusterStatePublished" classname="org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests" time="2.155"/>
+  <testcase name="testNotEnoughMasterNodesAfterRemove" classname="org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests" time="0.006"/>
+  <testcase name="testFilterNonMasterPingResponse" classname="org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests" time="0.005"/>
+  <testcase name="testPendingCSQueueIsClearedWhenClusterStatePublished" classname="org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests" time="0.666"/>
+  <testcase name="testShouldIgnoreNewClusterState" classname="org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests" time="0.003"/>
+  <testcase name="testValidateOnUnsupportedIndexVersionCreated" classname="org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests" time="0.009"/>
+  <testcase name="testIncomingClusterStateValidation" classname="org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T12:22:09,435][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testNodesUpdatedAfterClusterStatePublished] before test
+[2020-02-16T12:22:11,176][INFO ][o.e.t.TransportService   ] [testNodesUpdatedAfterClusterStatePublished] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T12:22:11,186][WARN ][o.e.d.c.s.Settings       ] [testNodesUpdatedAfterClusterStatePublished] [discovery.zen.minimum_master_nodes] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T12:22:11,517][INFO ][o.e.t.TransportService   ] [testNodesUpdatedAfterClusterStatePublished] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-16T12:22:11,580][WARN ][o.e.d.z.ZenDiscovery     ] [testNodesUpdatedAfterClusterStatePublished] zen-disco-failed-to-publish, current nodes: nodes: 
+   {tESmSKDKQ4u-2vaej8cEgw}{_31ehP2mT_OOtd0TB9UG2A}{127.0.0.1}{127.0.0.1:11500}{dim}, local, master
+
+[2020-02-16T12:22:11,585][WARN ][o.e.d.z.ZenDiscovery     ] [org.elasticsearch.discovery.zen.ZenDiscoveryUnitTests] not enough master nodes discovered during pinging (found [[Candidate{node={tESmSKDKQ4u-2vaej8cEgw}{_31ehP2mT_OOtd0TB9UG2A}{127.0.0.1}{127.0.0.1:11500}{dim}, clusterStateVersion=0}]], but needed [3]), pinging again
+[2020-02-16T12:22:11,587][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testNodesUpdatedAfterClusterStatePublished] after test
+[2020-02-16T12:22:11,589][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testNotEnoughMasterNodesAfterRemove] before test
+[2020-02-16T12:22:11,593][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testNotEnoughMasterNodesAfterRemove] after test
+[2020-02-16T12:22:11,597][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testFilterNonMasterPingResponse] before test
+[2020-02-16T12:22:11,598][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testFilterNonMasterPingResponse] after test
+[2020-02-16T12:22:11,601][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testPendingCSQueueIsClearedWhenClusterStatePublished] before test
+[2020-02-16T12:22:12,230][INFO ][o.e.t.TransportService   ] [testPendingCSQueueIsClearedWhenClusterStatePublished] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T12:22:12,235][WARN ][o.e.d.z.ZenDiscovery     ] [testPendingCSQueueIsClearedWhenClusterStatePublished] zen-disco-failed-to-publish, current nodes: nodes: 
+   {-sJGSTffRhur6OV2BGRTCg}{hEvJQto4Tyi6Cs59jSS5jQ}{127.0.0.1}{127.0.0.1:11500}{dim}, local
+
+[2020-02-16T12:22:12,264][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testPendingCSQueueIsClearedWhenClusterStatePublished] after test
+[2020-02-16T12:22:12,267][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testShouldIgnoreNewClusterState] before test
+[2020-02-16T12:22:12,268][WARN ][o.e.d.z.ZenDiscoveryUnitTests] [testShouldIgnoreNewClusterState] received a cluster state from a different master than the current one, rejecting (received {a}{DJHJTKKwTWKmDwOG0mh2SQ}{0.0.0.0}{0.0.0.0:35}, current {b}{NO9hFEfbTcyWqyOKNkTnYg}{0.0.0.0}{0.0.0.0:36})
+[2020-02-16T12:22:12,268][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testShouldIgnoreNewClusterState] after test
+[2020-02-16T12:22:12,273][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testValidateOnUnsupportedIndexVersionCreated] before test
+[2020-02-16T12:22:12,277][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testValidateOnUnsupportedIndexVersionCreated] after test
+[2020-02-16T12:22:12,279][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] before test
+[2020-02-16T12:22:12,280][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] --> testing acceptances of any master when having no master
+[2020-02-16T12:22:12,280][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] --> testing rejection of another master
+[2020-02-16T12:22:12,280][WARN ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] received a cluster state from a different master than the current one, rejecting (received null, current null)
+[2020-02-16T12:22:12,280][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] --> test state from the current master is accepted
+[2020-02-16T12:22:12,280][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] --> testing rejection of another cluster name
+[2020-02-16T12:22:12,280][WARN ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] received cluster state from [null] which is also master but with a different cluster name [Cluster [iaaMuHGkaF]]
+[2020-02-16T12:22:12,280][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] --> testing rejection of a cluster state with wrong local node
+[2020-02-16T12:22:12,280][WARN ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] received a cluster state from [null] and not part of the cluster, should not happen
+[2020-02-16T12:22:12,280][WARN ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] received a cluster state from [null] and not part of the cluster, should not happen
+[2020-02-16T12:22:12,280][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] --> testing acceptance of an old cluster state
+[2020-02-16T12:22:12,280][WARN ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] rejecting cluster state version [1] uuid [r039REHWSkGbC9DlUZv-9A] received from [master]
+[2020-02-16T12:22:12,280][INFO ][o.e.d.z.ZenDiscoveryUnitTests] [testIncomingClusterStateValidation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

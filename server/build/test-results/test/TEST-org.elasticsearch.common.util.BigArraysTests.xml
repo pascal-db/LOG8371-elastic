@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.BigArraysTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:55" hostname="Escoto-PC" time="1.072">
+  <properties/>
+  <testcase name="testLongArrayFill" classname="org.elasticsearch.common.util.BigArraysTests" time="0.021"/>
+  <testcase name="testFloatArrayGrowth" classname="org.elasticsearch.common.util.BigArraysTests" time="0.142"/>
+  <testcase name="testMaxSizeExceededOnNew" classname="org.elasticsearch.common.util.BigArraysTests" time="0.012"/>
+  <testcase name="testByteArrayBulkGet" classname="org.elasticsearch.common.util.BigArraysTests" time="0.112"/>
+  <testcase name="testObjectArrayGrowth" classname="org.elasticsearch.common.util.BigArraysTests" time="0.105"/>
+  <testcase name="testByteArrayHashCode" classname="org.elasticsearch.common.util.BigArraysTests" time="0.045"/>
+  <testcase name="testLongArrayGrowth" classname="org.elasticsearch.common.util.BigArraysTests" time="0.097"/>
+  <testcase name="testDoubleArrayFill" classname="org.elasticsearch.common.util.BigArraysTests" time="0.018"/>
+  <testcase name="testDoubleArrayGrowth" classname="org.elasticsearch.common.util.BigArraysTests" time="0.104"/>
+  <testcase name="testByteArrayBulkSet" classname="org.elasticsearch.common.util.BigArraysTests" time="0.02"/>
+  <testcase name="testMaxSizeExceededOnResize" classname="org.elasticsearch.common.util.BigArraysTests" time="0.013"/>
+  <testcase name="testByteArrayGrowth" classname="org.elasticsearch.common.util.BigArraysTests" time="0.301"/>
+  <testcase name="testFloatArrayFill" classname="org.elasticsearch.common.util.BigArraysTests" time="0.003"/>
+  <testcase name="testEstimatedBytesSameAsActualBytes" classname="org.elasticsearch.common.util.BigArraysTests" time="0.009"/>
+  <testcase name="testIntArrayGrowth" classname="org.elasticsearch.common.util.BigArraysTests" time="0.053"/>
+  <testcase name="testByteArrayEquals" classname="org.elasticsearch.common.util.BigArraysTests" time="0.006"/>
+  <testcase name="testByteArrayFill" classname="org.elasticsearch.common.util.BigArraysTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T05:21:55,360][INFO ][o.e.c.u.BigArraysTests   ] [testLongArrayFill] before test
+[2020-02-17T05:21:55,379][INFO ][o.e.c.u.BigArraysTests   ] [testLongArrayFill] after test
+[2020-02-17T05:21:55,381][INFO ][o.e.c.u.BigArraysTests   ] [testFloatArrayGrowth] before test
+[2020-02-17T05:21:55,521][INFO ][o.e.c.u.BigArraysTests   ] [testFloatArrayGrowth] after test
+[2020-02-17T05:21:55,523][INFO ][o.e.c.u.BigArraysTests   ] [testMaxSizeExceededOnNew] before test
+[2020-02-17T05:21:55,533][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnNew] [request] New used memory 999424 [976kb] for data of [<reused_arrays>] would be larger than configured breaker: 999180 [975.7kb], breaking
+[2020-02-17T05:21:55,533][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnNew] [request] New used memory 3997696 [3.8mb] for data of [<reused_arrays>] would be larger than configured breaker: 999180 [975.7kb], breaking
+[2020-02-17T05:21:55,533][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnNew] [request] New used memory 7995392 [7.6mb] for data of [<reused_arrays>] would be larger than configured breaker: 999180 [975.7kb], breaking
+[2020-02-17T05:21:55,533][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnNew] [request] New used memory 3997696 [3.8mb] for data of [<reused_arrays>] would be larger than configured breaker: 999180 [975.7kb], breaking
+[2020-02-17T05:21:55,533][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnNew] [request] New used memory 3997696 [3.8mb] for data of [<reused_arrays>] would be larger than configured breaker: 999180 [975.7kb], breaking
+[2020-02-17T05:21:55,533][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnNew] [request] New used memory 3997696 [3.8mb] for data of [<reused_arrays>] would be larger than configured breaker: 999180 [975.7kb], breaking
+[2020-02-17T05:21:55,533][INFO ][o.e.c.u.BigArraysTests   ] [testMaxSizeExceededOnNew] after test
+[2020-02-17T05:21:55,535][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayBulkGet] before test
+[2020-02-17T05:21:55,645][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayBulkGet] after test
+[2020-02-17T05:21:55,647][INFO ][o.e.c.u.BigArraysTests   ] [testObjectArrayGrowth] before test
+[2020-02-17T05:21:55,751][INFO ][o.e.c.u.BigArraysTests   ] [testObjectArrayGrowth] after test
+[2020-02-17T05:21:55,753][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayHashCode] before test
+[2020-02-17T05:21:55,797][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayHashCode] after test
+[2020-02-17T05:21:55,799][INFO ][o.e.c.u.BigArraysTests   ] [testLongArrayGrowth] before test
+[2020-02-17T05:21:55,894][INFO ][o.e.c.u.BigArraysTests   ] [testLongArrayGrowth] after test
+[2020-02-17T05:21:55,896][INFO ][o.e.c.u.BigArraysTests   ] [testDoubleArrayFill] before test
+[2020-02-17T05:21:55,913][INFO ][o.e.c.u.BigArraysTests   ] [testDoubleArrayFill] after test
+[2020-02-17T05:21:55,915][INFO ][o.e.c.u.BigArraysTests   ] [testDoubleArrayGrowth] before test
+[2020-02-17T05:21:56,017][INFO ][o.e.c.u.BigArraysTests   ] [testDoubleArrayGrowth] after test
+[2020-02-17T05:21:56,019][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayBulkSet] before test
+[2020-02-17T05:21:56,038][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayBulkSet] after test
+[2020-02-17T05:21:56,039][INFO ][o.e.c.u.BigArraysTests   ] [testMaxSizeExceededOnResize] before test
+[2020-02-17T05:21:56,042][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnResize] [request] New used memory 4720 [4.6kb] for data of [<reused_arrays>] would be larger than configured breaker: 3549 [3.4kb], breaking
+[2020-02-17T05:21:56,043][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnResize] [request] New used memory 41336 [40.3kb] for data of [<reused_arrays>] would be larger than configured breaker: 12950 [12.6kb], breaking
+[2020-02-17T05:21:56,045][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnResize] [request] New used memory 3568 [3.4kb] for data of [<reused_arrays>] would be larger than configured breaker: 3278 [3.2kb], breaking
+[2020-02-17T05:21:56,046][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnResize] [request] New used memory 3568 [3.4kb] for data of [<reused_arrays>] would be larger than configured breaker: 2220 [2.1kb], breaking
+[2020-02-17T05:21:56,048][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnResize] [request] New used memory 12352 [12kb] for data of [<reused_arrays>] would be larger than configured breaker: 11401 [11.1kb], breaking
+[2020-02-17T05:21:56,050][WARN ][o.e.i.b.request          ] [testMaxSizeExceededOnResize] [request] New used memory 41944 [40.9kb] for data of [<reused_arrays>] would be larger than configured breaker: 15786 [15.4kb], breaking
+[2020-02-17T05:21:56,051][INFO ][o.e.c.u.BigArraysTests   ] [testMaxSizeExceededOnResize] after test
+[2020-02-17T05:21:56,052][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayGrowth] before test
+[2020-02-17T05:21:56,351][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayGrowth] after test
+[2020-02-17T05:21:56,353][INFO ][o.e.c.u.BigArraysTests   ] [testFloatArrayFill] before test
+[2020-02-17T05:21:56,355][INFO ][o.e.c.u.BigArraysTests   ] [testFloatArrayFill] after test
+[2020-02-17T05:21:56,357][INFO ][o.e.c.u.BigArraysTests   ] [testEstimatedBytesSameAsActualBytes] before test
+[2020-02-17T05:21:56,365][INFO ][o.e.c.u.BigArraysTests   ] [testEstimatedBytesSameAsActualBytes] after test
+[2020-02-17T05:21:56,366][INFO ][o.e.c.u.BigArraysTests   ] [testIntArrayGrowth] before test
+[2020-02-17T05:21:56,417][INFO ][o.e.c.u.BigArraysTests   ] [testIntArrayGrowth] after test
+[2020-02-17T05:21:56,422][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayEquals] before test
+[2020-02-17T05:21:56,423][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayEquals] after test
+[2020-02-17T05:21:56,426][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayFill] before test
+[2020-02-17T05:21:56,431][INFO ][o.e.c.u.BigArraysTests   ] [testByteArrayFill] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

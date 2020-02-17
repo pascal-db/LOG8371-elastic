@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.TextFieldTypeTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:33" hostname="Escoto-PC" time="0.03">
+  <properties/>
+  <testcase name="testFuzzyQuery" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.003"/>
+  <testcase name="testTermQuery" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.002"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.002"/>
+  <testcase name="testIndexPrefixes" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.003"/>
+  <testcase name="testTermsQuery" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.006"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.003"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.002"/>
+  <testcase name="testRegexpQuery" classname="org.elasticsearch.index.mapper.TextFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:23:33,600][INFO ][o.e.i.m.TextFieldTypeTests] [testFuzzyQuery] before test
+[2020-02-16T23:23:33,602][INFO ][o.e.i.m.TextFieldTypeTests] [testFuzzyQuery] after test
+[2020-02-16T23:23:33,604][INFO ][o.e.i.m.TextFieldTypeTests] [testTermQuery] before test
+[2020-02-16T23:23:33,604][INFO ][o.e.i.m.TextFieldTypeTests] [testTermQuery] after test
+[2020-02-16T23:23:33,606][INFO ][o.e.i.m.TextFieldTypeTests] [testClone] before test
+[2020-02-16T23:23:33,606][INFO ][o.e.i.m.TextFieldTypeTests] [testClone] after test
+[2020-02-16T23:23:33,609][INFO ][o.e.i.m.TextFieldTypeTests] [testIndexPrefixes] before test
+[2020-02-16T23:23:33,610][INFO ][o.e.i.m.TextFieldTypeTests] [testIndexPrefixes] after test
+[2020-02-16T23:23:33,612][INFO ][o.e.i.m.TextFieldTypeTests] [testTermsQuery] before test
+[2020-02-16T23:23:33,613][INFO ][o.e.i.m.TextFieldTypeTests] [testTermsQuery] after test
+[2020-02-16T23:23:33,615][INFO ][o.e.i.m.TextFieldTypeTests] [testEquals] before test
+[2020-02-16T23:23:33,615][INFO ][o.e.i.m.TextFieldTypeTests] [testEquals] after test
+[2020-02-16T23:23:33,617][INFO ][o.e.i.m.TextFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T23:23:33,621][INFO ][o.e.i.m.TextFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T23:23:33,623][INFO ][o.e.i.m.TextFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T23:23:33,624][INFO ][o.e.i.m.TextFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T23:23:33,626][INFO ][o.e.i.m.TextFieldTypeTests] [testFreeze] before test
+[2020-02-16T23:23:33,626][INFO ][o.e.i.m.TextFieldTypeTests] [testFreeze] after test
+[2020-02-16T23:23:33,628][INFO ][o.e.i.m.TextFieldTypeTests] [testRegexpQuery] before test
+[2020-02-16T23:23:33,628][INFO ][o.e.i.m.TextFieldTypeTests] [testRegexpQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

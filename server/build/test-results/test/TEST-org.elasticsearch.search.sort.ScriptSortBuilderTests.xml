@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.sort.ScriptSortBuilderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:39" hostname="Escoto-PC" time="0.088">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.014"/>
+  <testcase name="testScriptSortTypeIllegalArgument" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testBuildNested" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.004"/>
+  <testcase name="testScriptSortTypeNull" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testNestedRewrites" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.003"/>
+  <testcase name="testParseBadFieldNameExceptions" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.003"/>
+  <testcase name="testMultiValueMode" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testParseBadFieldNameExceptionsOnStartObject" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testParseUnexpectedToken" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testNestedSortBothThrows" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.011"/>
+  <testcase name="testBuildCorrectComparatorType" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testNestedSortRewrites" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.003"/>
+  <testcase name="testBuildSortField" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.008"/>
+  <testcase name="testScriptSortType" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.013"/>
+  <testcase name="testBadSortMode" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testParseJson" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <testcase name="testParseJson_simple" classname="org.elasticsearch.search.sort.ScriptSortBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T05:24:39,676][INFO ][o.e.s.s.ScriptSortBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T05:24:39,681][INFO ][o.e.s.s.ScriptSortBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T05:24:39,682][INFO ][o.e.s.s.ScriptSortBuilderTests] [testScriptSortTypeIllegalArgument] before test
+[2020-02-17T05:24:39,683][INFO ][o.e.s.s.ScriptSortBuilderTests] [testScriptSortTypeIllegalArgument] after test
+[2020-02-17T05:24:39,685][INFO ][o.e.s.s.ScriptSortBuilderTests] [testBuildNested] before test
+[2020-02-17T05:24:39,687][INFO ][o.e.s.s.ScriptSortBuilderTests] [testBuildNested] after test
+[2020-02-17T05:24:39,689][INFO ][o.e.s.s.ScriptSortBuilderTests] [testScriptSortTypeNull] before test
+[2020-02-17T05:24:39,689][INFO ][o.e.s.s.ScriptSortBuilderTests] [testScriptSortTypeNull] after test
+[2020-02-17T05:24:39,691][INFO ][o.e.s.s.ScriptSortBuilderTests] [testNestedRewrites] before test
+[2020-02-17T05:24:39,692][INFO ][o.e.s.s.ScriptSortBuilderTests] [testNestedRewrites] after test
+[2020-02-17T05:24:39,694][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseBadFieldNameExceptions] before test
+[2020-02-17T05:24:39,694][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseBadFieldNameExceptions] after test
+[2020-02-17T05:24:39,696][INFO ][o.e.s.s.ScriptSortBuilderTests] [testMultiValueMode] before test
+[2020-02-17T05:24:39,697][INFO ][o.e.s.s.ScriptSortBuilderTests] [testMultiValueMode] after test
+[2020-02-17T05:24:39,701][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseBadFieldNameExceptionsOnStartObject] before test
+[2020-02-17T05:24:39,701][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseBadFieldNameExceptionsOnStartObject] after test
+[2020-02-17T05:24:39,703][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseUnexpectedToken] before test
+[2020-02-17T05:24:39,703][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseUnexpectedToken] after test
+[2020-02-17T05:24:39,705][INFO ][o.e.s.s.ScriptSortBuilderTests] [testNestedSortBothThrows] before test
+[2020-02-17T05:24:39,706][INFO ][o.e.s.s.ScriptSortBuilderTests] [testNestedSortBothThrows] after test
+[2020-02-17T05:24:39,711][INFO ][o.e.s.s.ScriptSortBuilderTests] [testFromXContent] before test
+[2020-02-17T05:24:39,717][INFO ][o.e.s.s.ScriptSortBuilderTests] [testFromXContent] after test
+[2020-02-17T05:24:39,719][INFO ][o.e.s.s.ScriptSortBuilderTests] [testBuildCorrectComparatorType] before test
+[2020-02-17T05:24:39,720][INFO ][o.e.s.s.ScriptSortBuilderTests] [testBuildCorrectComparatorType] after test
+[2020-02-17T05:24:39,723][INFO ][o.e.s.s.ScriptSortBuilderTests] [testSerialization] before test
+[2020-02-17T05:24:39,723][INFO ][o.e.s.s.ScriptSortBuilderTests] [testSerialization] after test
+[2020-02-17T05:24:39,726][INFO ][o.e.s.s.ScriptSortBuilderTests] [testNestedSortRewrites] before test
+[2020-02-17T05:24:39,727][INFO ][o.e.s.s.ScriptSortBuilderTests] [testNestedSortRewrites] after test
+[2020-02-17T05:24:39,730][INFO ][o.e.s.s.ScriptSortBuilderTests] [testBuildSortField] before test
+[2020-02-17T05:24:39,735][INFO ][o.e.s.s.ScriptSortBuilderTests] [testBuildSortField] after test
+[2020-02-17T05:24:39,749][INFO ][o.e.s.s.ScriptSortBuilderTests] [testScriptSortType] before test
+[2020-02-17T05:24:39,749][INFO ][o.e.s.s.ScriptSortBuilderTests] [testScriptSortType] after test
+[2020-02-17T05:24:39,751][INFO ][o.e.s.s.ScriptSortBuilderTests] [testBadSortMode] before test
+[2020-02-17T05:24:39,751][INFO ][o.e.s.s.ScriptSortBuilderTests] [testBadSortMode] after test
+[2020-02-17T05:24:39,753][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseJson] before test
+[2020-02-17T05:24:39,753][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseJson] after test
+[2020-02-17T05:24:39,755][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseJson_simple] before test
+[2020-02-17T05:24:39,755][INFO ][o.e.s.s.ScriptSortBuilderTests] [testParseJson_simple] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

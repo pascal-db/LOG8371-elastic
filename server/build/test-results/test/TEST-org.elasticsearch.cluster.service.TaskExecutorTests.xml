@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.service.TaskExecutorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testTimedOutTaskCleanedUp" classname="org.elasticsearch.cluster.service.TaskExecutorTests" time="0.015"/>
+  <testcase name="testPrioritizedTasks" classname="org.elasticsearch.cluster.service.TaskExecutorTests" time="0.003"/>
+  <testcase name="testTimeoutTask" classname="org.elasticsearch.cluster.service.TaskExecutorTests" time="0.029"/>
+  <system-out><![CDATA[[2020-02-16T22:21:39,613][INFO ][o.e.c.s.TaskExecutorTests] [testTimedOutTaskCleanedUp] before test
+[2020-02-16T22:21:39,625][INFO ][o.e.c.s.TaskExecutorTests] [testTimedOutTaskCleanedUp] after test
+[2020-02-16T22:21:39,627][INFO ][o.e.c.s.TaskExecutorTests] [testPrioritizedTasks] before test
+[2020-02-16T22:21:39,628][INFO ][o.e.c.s.TaskExecutorTests] [testPrioritizedTasks] after test
+[2020-02-16T22:21:39,649][INFO ][o.e.c.s.TaskExecutorTests] [testTimeoutTask] before test
+[2020-02-16T22:21:39,656][INFO ][o.e.c.s.TaskExecutorTests] [testTimeoutTask] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.lucene.store.ByteArrayIndexInputTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:47" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testRandomReads" classname="org.elasticsearch.common.lucene.store.ByteArrayIndexInputTests" time="0.01"/>
+  <testcase name="testRandomOverflow" classname="org.elasticsearch.common.lucene.store.ByteArrayIndexInputTests" time="0.004"/>
+  <testcase name="testSeekOverflow" classname="org.elasticsearch.common.lucene.store.ByteArrayIndexInputTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-17T08:21:47,607][INFO ][o.e.c.l.s.ByteArrayIndexInputTests] [testRandomReads] before test
+[2020-02-17T08:21:47,614][INFO ][o.e.c.l.s.ByteArrayIndexInputTests] [testRandomReads] after test
+[2020-02-17T08:21:47,616][INFO ][o.e.c.l.s.ByteArrayIndexInputTests] [testRandomOverflow] before test
+[2020-02-17T08:21:47,619][INFO ][o.e.c.l.s.ByteArrayIndexInputTests] [testRandomOverflow] after test
+[2020-02-17T08:21:47,622][INFO ][o.e.c.l.s.ByteArrayIndexInputTests] [testSeekOverflow] before test
+[2020-02-17T08:21:47,627][INFO ][o.e.c.l.s.ByteArrayIndexInputTests] [testSeekOverflow] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

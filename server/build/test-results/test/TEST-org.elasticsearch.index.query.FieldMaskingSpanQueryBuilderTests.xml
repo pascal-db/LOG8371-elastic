@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:05" hostname="Escoto-PC" time="0.065">
+  <properties/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.017"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.017"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.FieldMaskingSpanQueryBuilderTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T19:23:05,766][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T19:23:05,768][INFO ][o.e.p.PluginsService     ] [testIllegalArguments] no modules loaded
+[2020-02-16T19:23:05,768][INFO ][o.e.p.PluginsService     ] [testIllegalArguments] no plugins loaded
+[2020-02-16T19:23:05,774][INFO ][o.e.p.PluginsService     ] [testIllegalArguments] no modules loaded
+[2020-02-16T19:23:05,774][INFO ][o.e.p.PluginsService     ] [testIllegalArguments] no plugins loaded
+[2020-02-16T19:23:05,780][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T19:23:05,797][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T19:23:05,798][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T19:23:05,800][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T19:23:05,801][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T19:23:05,804][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testSerialization] before test
+[2020-02-16T19:23:05,805][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testSerialization] after test
+[2020-02-16T19:23:05,808][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T19:23:05,808][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T19:23:05,811][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T19:23:05,813][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T19:23:05,814][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testFromJson] before test
+[2020-02-16T19:23:05,815][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testFromJson] after test
+[2020-02-16T19:23:05,816][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:23:05,816][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:23:05,818][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testCacheability] before test
+[2020-02-16T19:23:05,818][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testCacheability] after test
+[2020-02-16T19:23:05,820][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T19:23:05,820][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T19:23:05,822][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T19:23:05,823][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T19:23:05,824][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T19:23:05,825][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T19:23:05,826][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testToQuery] before test
+[2020-02-16T19:23:05,829][INFO ][o.e.i.q.FieldMaskingSpanQueryBuilderTests] [testToQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

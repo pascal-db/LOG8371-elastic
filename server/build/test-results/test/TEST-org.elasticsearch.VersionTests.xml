@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.VersionTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:13" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testIndexCreatedVersion" classname="org.elasticsearch.VersionTests" time="0.004"/>
+  <testcase name="testParseVersion" classname="org.elasticsearch.VersionTests" time="0.003"/>
+  <testcase name="testTooLongVersionFromString" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testMax" classname="org.elasticsearch.VersionTests" time="0.001"/>
+  <testcase name="testMinCompatVersionOrderRespectsVersionOrder" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testVersionComparison" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testUnreleasedVersion" classname="org.elasticsearch.VersionTests" time="0.001"/>
+  <testcase name="testMin" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testAllVersionsMatchId" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testParseLenient" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testIsCompatible" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testVersionFromString" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testIsAlpha" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testCURRENTIsLatest" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testIsBeta" classname="org.elasticsearch.VersionTests" time="0.001"/>
+  <testcase name="testLuceneVersionIsSameOnMinorRelease" classname="org.elasticsearch.VersionTests" time="0.003"/>
+  <testcase name="testMinCompatVersion" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testVersionConstantPresent" classname="org.elasticsearch.VersionTests" time="0.001"/>
+  <testcase name="testToString" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testTooShortVersionFromString" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <testcase name="testWrongVersionFromString" classname="org.elasticsearch.VersionTests" time="0.001"/>
+  <testcase name="testMinimumIndexCompatibilityVersion" classname="org.elasticsearch.VersionTests" time="0.001"/>
+  <testcase name="testVersionNoPresentInSettings" classname="org.elasticsearch.VersionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T08:25:13,045][INFO ][o.e.VersionTests         ] [testIndexCreatedVersion] before test
+[2020-02-17T08:25:13,045][INFO ][o.e.VersionTests         ] [testIndexCreatedVersion] after test
+[2020-02-17T08:25:13,046][INFO ][o.e.VersionTests         ] [testParseVersion] before test
+[2020-02-17T08:25:13,048][INFO ][o.e.VersionTests         ] [testParseVersion] after test
+[2020-02-17T08:25:13,050][INFO ][o.e.VersionTests         ] [testTooLongVersionFromString] before test
+[2020-02-17T08:25:13,050][INFO ][o.e.VersionTests         ] [testTooLongVersionFromString] after test
+[2020-02-17T08:25:13,052][INFO ][o.e.VersionTests         ] [testMax] before test
+[2020-02-17T08:25:13,052][INFO ][o.e.VersionTests         ] [testMax] after test
+[2020-02-17T08:25:13,053][INFO ][o.e.VersionTests         ] [testMinCompatVersionOrderRespectsVersionOrder] before test
+[2020-02-17T08:25:13,054][INFO ][o.e.VersionTests         ] [testMinCompatVersionOrderRespectsVersionOrder] after test
+[2020-02-17T08:25:13,055][INFO ][o.e.VersionTests         ] [testVersionComparison] before test
+[2020-02-17T08:25:13,055][INFO ][o.e.VersionTests         ] [testVersionComparison] after test
+[2020-02-17T08:25:13,057][INFO ][o.e.VersionTests         ] [testUnreleasedVersion] before test
+[2020-02-17T08:25:13,057][INFO ][o.e.VersionTests         ] [testUnreleasedVersion] after test
+[2020-02-17T08:25:13,058][INFO ][o.e.VersionTests         ] [testMin] before test
+[2020-02-17T08:25:13,058][INFO ][o.e.VersionTests         ] [testMin] after test
+[2020-02-17T08:25:13,060][INFO ][o.e.VersionTests         ] [testAllVersionsMatchId] before test
+[2020-02-17T08:25:13,060][INFO ][o.e.VersionTests         ] [testAllVersionsMatchId] after test
+[2020-02-17T08:25:13,062][INFO ][o.e.VersionTests         ] [testParseLenient] before test
+[2020-02-17T08:25:13,062][INFO ][o.e.VersionTests         ] [testParseLenient] after test
+[2020-02-17T08:25:13,064][INFO ][o.e.VersionTests         ] [testIsCompatible] before test
+[2020-02-17T08:25:13,064][INFO ][o.e.VersionTests         ] [testIsCompatible] after test
+[2020-02-17T08:25:13,066][INFO ][o.e.VersionTests         ] [testVersionFromString] before test
+[2020-02-17T08:25:13,066][INFO ][o.e.VersionTests         ] [testVersionFromString] after test
+[2020-02-17T08:25:13,068][INFO ][o.e.VersionTests         ] [testIsAlpha] before test
+[2020-02-17T08:25:13,068][INFO ][o.e.VersionTests         ] [testIsAlpha] after test
+[2020-02-17T08:25:13,070][INFO ][o.e.VersionTests         ] [testCURRENTIsLatest] before test
+[2020-02-17T08:25:13,070][INFO ][o.e.VersionTests         ] [testCURRENTIsLatest] after test
+[2020-02-17T08:25:13,071][INFO ][o.e.VersionTests         ] [testIsBeta] before test
+[2020-02-17T08:25:13,072][INFO ][o.e.VersionTests         ] [testIsBeta] after test
+[2020-02-17T08:25:13,074][INFO ][o.e.VersionTests         ] [testLuceneVersionIsSameOnMinorRelease] before test
+[2020-02-17T08:25:13,075][INFO ][o.e.VersionTests         ] [testLuceneVersionIsSameOnMinorRelease] after test
+[2020-02-17T08:25:13,077][INFO ][o.e.VersionTests         ] [testMinCompatVersion] before test
+[2020-02-17T08:25:13,077][INFO ][o.e.VersionTests         ] [testMinCompatVersion] after test
+[2020-02-17T08:25:13,079][INFO ][o.e.VersionTests         ] [testVersionConstantPresent] before test
+[2020-02-17T08:25:13,079][INFO ][o.e.VersionTests         ] [testVersionConstantPresent] after test
+[2020-02-17T08:25:13,080][INFO ][o.e.VersionTests         ] [testToString] before test
+[2020-02-17T08:25:13,081][INFO ][o.e.VersionTests         ] [testToString] after test
+[2020-02-17T08:25:13,082][INFO ][o.e.VersionTests         ] [testTooShortVersionFromString] before test
+[2020-02-17T08:25:13,082][INFO ][o.e.VersionTests         ] [testTooShortVersionFromString] after test
+[2020-02-17T08:25:13,083][INFO ][o.e.VersionTests         ] [testWrongVersionFromString] before test
+[2020-02-17T08:25:13,084][INFO ][o.e.VersionTests         ] [testWrongVersionFromString] after test
+[2020-02-17T08:25:13,085][INFO ][o.e.VersionTests         ] [testMinimumIndexCompatibilityVersion] before test
+[2020-02-17T08:25:13,085][INFO ][o.e.VersionTests         ] [testMinimumIndexCompatibilityVersion] after test
+[2020-02-17T08:25:13,087][INFO ][o.e.VersionTests         ] [testVersionNoPresentInSettings] before test
+[2020-02-17T08:25:13,087][INFO ][o.e.VersionTests         ] [testVersionNoPresentInSettings] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

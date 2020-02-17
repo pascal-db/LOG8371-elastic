@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.template.put.MetaDataIndexTemplateServiceTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:08" hostname="Escoto-PC" time="0.71">
+  <properties/>
+  <testcase name="testFindTemplates" classname="org.elasticsearch.action.admin.indices.template.put.MetaDataIndexTemplateServiceTests" time="0.683"/>
+  <testcase name="testIndexTemplateInvalidNumberOfShards" classname="org.elasticsearch.action.admin.indices.template.put.MetaDataIndexTemplateServiceTests" time="0.006"/>
+  <testcase name="testAliasInvalidFilterInvalidJson" classname="org.elasticsearch.action.admin.indices.template.put.MetaDataIndexTemplateServiceTests" time="0.003"/>
+  <testcase name="testIndexTemplateValidationAccumulatesValidationErrors" classname="org.elasticsearch.action.admin.indices.template.put.MetaDataIndexTemplateServiceTests" time="0.003"/>
+  <testcase name="testIndexTemplateWithAliasNameEqualToTemplatePattern" classname="org.elasticsearch.action.admin.indices.template.put.MetaDataIndexTemplateServiceTests" time="0.002"/>
+  <testcase name="testIndexTemplateWithValidateMapping" classname="org.elasticsearch.action.admin.indices.template.put.MetaDataIndexTemplateServiceTests" time="0.006"/>
+  <testcase name="testBrokenMapping" classname="org.elasticsearch.action.admin.indices.template.put.MetaDataIndexTemplateServiceTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T23:20:08,405][INFO ][o.e.e.NodeEnvironment    ] [testFindTemplates] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:20:08,407][INFO ][o.e.e.NodeEnvironment    ] [testFindTemplates] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:20:08,409][INFO ][o.e.n.Node               ] [testFindTemplates] node name [node_s_0], node ID [CyplInn6RGy-db59t_Dogw], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[-7892684932205742078]-HASH=[11E8221944F]]
+[2020-02-16T23:20:08,410][INFO ][o.e.n.Node               ] [testFindTemplates] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T23:20:08,410][INFO ][o.e.n.Node               ] [testFindTemplates] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T23:20:08,410][INFO ][o.e.n.Node               ] [testFindTemplates] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T23:20:08,410][INFO ][o.e.p.PluginsService     ] [testFindTemplates] no modules loaded
+[2020-02-16T23:20:08,410][INFO ][o.e.p.PluginsService     ] [testFindTemplates] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T23:20:08,410][INFO ][o.e.p.PluginsService     ] [testFindTemplates] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T23:20:08,599][INFO ][o.e.d.DiscoveryModule    ] [testFindTemplates] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T23:20:08,613][INFO ][o.e.n.Node               ] [testFindTemplates] initialized
+[2020-02-16T23:20:08,613][INFO ][o.e.n.Node               ] [testFindTemplates] starting ...
+[2020-02-16T23:20:08,942][INFO ][o.e.t.TransportService   ] [testFindTemplates] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T23:20:08,950][INFO ][o.e.c.c.Coordinator      ] [testFindTemplates] setting initial configuration to VotingConfiguration{CyplInn6RGy-db59t_Dogw}
+[2020-02-16T23:20:08,971][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{CyplInn6RGy-db59t_Dogw}{mThukY_NSze3BsRDvmYY1Q}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{CyplInn6RGy-db59t_Dogw}{mThukY_NSze3BsRDvmYY1Q}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-16T23:20:08,979][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [4xrfVddxQZeyrN28989OZQ]
+[2020-02-16T23:20:08,987][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{CyplInn6RGy-db59t_Dogw}{mThukY_NSze3BsRDvmYY1Q}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T23:20:08,989][INFO ][o.e.n.Node               ] [testFindTemplates] started
+[2020-02-16T23:20:08,996][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T23:20:08,998][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T23:20:09,011][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T23:20:09,021][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testFindTemplates] before test
+[2020-02-16T23:20:09,023][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] removing template [one_shard_index_template]
+[2020-02-16T23:20:09,023][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] removing template [random-soft-deletes-template]
+[2020-02-16T23:20:09,034][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [foo-1] for index patterns [foo-*]
+[2020-02-16T23:20:09,047][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [foo-2] for index patterns [foo-*]
+[2020-02-16T23:20:09,059][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [bar] for index patterns [bar-*]
+[2020-02-16T23:20:09,073][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testFindTemplates] after test
+[2020-02-16T23:20:09,079][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testIndexTemplateInvalidNumberOfShards] before test
+[2020-02-16T23:20:09,080][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testIndexTemplateInvalidNumberOfShards] after test
+[2020-02-16T23:20:09,082][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testAliasInvalidFilterInvalidJson] before test
+[2020-02-16T23:20:09,083][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testAliasInvalidFilterInvalidJson] after test
+[2020-02-16T23:20:09,086][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testIndexTemplateValidationAccumulatesValidationErrors] before test
+[2020-02-16T23:20:09,087][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testIndexTemplateValidationAccumulatesValidationErrors] after test
+[2020-02-16T23:20:09,089][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testIndexTemplateWithAliasNameEqualToTemplatePattern] before test
+[2020-02-16T23:20:09,090][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testIndexTemplateWithAliasNameEqualToTemplatePattern] after test
+[2020-02-16T23:20:09,092][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testIndexTemplateWithValidateMapping] before test
+[2020-02-16T23:20:09,095][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testIndexTemplateWithValidateMapping] after test
+[2020-02-16T23:20:09,098][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testBrokenMapping] before test
+[2020-02-16T23:20:09,100][INFO ][o.e.a.a.i.t.p.MetaDataIndexTemplateServiceTests] [testBrokenMapping] after test
+[2020-02-16T23:20:09,101][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T23:20:09,102][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T23:20:09,102][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T23:20:09,103][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.indices.recovery.RecoverySourceHandlerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.indices.recovery.RecoverySourceHandlerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.indices.recovery.html">org.elasticsearch.indices.recovery</a> &gt; RecoverySourceHandlerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.363s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCancelRecoveryDuringPhase1</td>
+<td class="success">0.035s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCancellationsDoesNotLeakPrimaryPermits</td>
+<td class="success">0.053s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleCorruptedIndexOnSendSendFiles</td>
+<td class="success">0.063s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleExceptionOnSendFiles</td>
+<td class="success">0.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendFileChunksConcurrently</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendFileChunksStopOnError</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendFiles</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendSnapshotSendsOps</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSendSnapshotStopOnError</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThrowExceptionOnPrimaryRelocatedBeforePhase1Started</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVerifySeqNoStatsWhenRecoverWithSyncId</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T18:24:58,328][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testCancelRecoveryDuringPhase1] before test
+[2020-02-16T18:24:58,360][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testCancelRecoveryDuringPhase1] after test
+[2020-02-16T18:24:58,363][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendSnapshotSendsOps] before test
+[2020-02-16T18:24:58,372][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendSnapshotSendsOps] after test
+[2020-02-16T18:24:58,375][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testVerifySeqNoStatsWhenRecoverWithSyncId] before test
+[2020-02-16T18:24:58,377][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testVerifySeqNoStatsWhenRecoverWithSyncId] after test
+[2020-02-16T18:24:58,380][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testThrowExceptionOnPrimaryRelocatedBeforePhase1Started] before test
+[2020-02-16T18:24:58,395][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testThrowExceptionOnPrimaryRelocatedBeforePhase1Started] after test
+[2020-02-16T18:24:58,398][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testHandleExceptionOnSendFiles] before test
+[2020-02-16T18:24:58,425][WARN ][o.e.i.r.RecoverySourceHandlerTests$7] [testHandleExceptionOnSendFiles] [index][1][recover to ] 1 Remote file corruption on node {b}{Tya2LzTQSAa4CkxZCRX1cw}{0.0.0.0}{0.0.0.0:10}, recovering [name [segments_1], length [137], checksum [33m74s], writtenBy [8.3.0]]. local checksum OK
+org.apache.lucene.index.CorruptIndexException: foo (resource=bar)
+	at org.elasticsearch.indices.recovery.RecoverySourceHandlerTests$6.writeFileChunk(RecoverySourceHandlerTests.java:406) ~[test/:?]
+	at org.elasticsearch.indices.recovery.AsyncRecoveryTarget.lambda$writeFileChunk$5(AsyncRecoveryTarget.java:87) ~[framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) ~[main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:24:58,426][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testHandleExceptionOnSendFiles] after test
+[2020-02-16T18:24:58,430][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] before test
+[2020-02-16T18:24:58,436][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-7 seq=0, position=0
+[2020-02-16T18:24:58,437][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-8 seq=1, position=0
+[2020-02-16T18:24:58,437][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-8 seq=2, position=14
+[2020-02-16T18:24:58,438][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-8 seq=3, position=28
+[2020-02-16T18:24:58,438][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-8 seq=4, position=42
+[2020-02-16T18:24:58,438][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-8 seq=5, position=56
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-5 seq=6, position=0
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-5 seq=7, position=14
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-5 seq=8, position=28
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-5 seq=9, position=42
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-5 seq=10, position=56
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=11, position=0
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=12, position=14
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=13, position=28
+[2020-02-16T18:24:58,439][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=14, position=42
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=15, position=56
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=16, position=70
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=17, position=84
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=18, position=98
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-3 seq=19, position=112
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=20, position=0
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=21, position=14
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=22, position=28
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=23, position=42
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=24, position=56
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=25, position=70
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=26, position=84
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=27, position=98
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=28, position=112
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=29, position=126
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=30, position=140
+[2020-02-16T18:24:58,440][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-0 seq=31, position=154
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=32, position=0
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=33, position=14
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=34, position=28
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=35, position=42
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=36, position=56
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=37, position=70
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=38, position=84
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=39, position=98
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=40, position=112
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=41, position=126
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=42, position=140
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=43, position=154
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=44, position=168
+[2020-02-16T18:24:58,441][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-4 seq=45, position=182
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=46, position=0
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=47, position=14
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=48, position=28
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=49, position=42
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=50, position=56
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=51, position=70
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=52, position=84
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=53, position=98
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=54, position=112
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=55, position=126
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=56, position=140
+[2020-02-16T18:24:58,442][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=57, position=154
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=58, position=168
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=59, position=182
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=60, position=196
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=61, position=210
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-6 seq=62, position=224
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=63, position=0
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=64, position=14
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=65, position=28
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=66, position=42
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=67, position=56
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=68, position=70
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=69, position=84
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=70, position=98
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=71, position=112
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=72, position=126
+[2020-02-16T18:24:58,443][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=73, position=140
+[2020-02-16T18:24:58,444][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=74, position=154
+[2020-02-16T18:24:58,444][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=75, position=168
+[2020-02-16T18:24:58,444][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=76, position=182
+[2020-02-16T18:24:58,444][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=77, position=196
+[2020-02-16T18:24:58,444][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=78, position=210
+[2020-02-16T18:24:58,444][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=79, position=224
+[2020-02-16T18:24:58,444][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-1 seq=80, position=238
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=81, position=0
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=82, position=14
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=83, position=28
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=84, position=42
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=85, position=56
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=86, position=70
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=87, position=84
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=88, position=98
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=89, position=112
+[2020-02-16T18:24:58,445][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=90, position=126
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=91, position=140
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=92, position=154
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=93, position=168
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=94, position=182
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=95, position=196
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=96, position=210
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=97, position=224
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=98, position=238
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=99, position=252
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] --&gt; write chunk name=test-2 seq=100, position=266
+[2020-02-16T18:24:58,446][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksConcurrently] after test
+[2020-02-16T18:24:58,449][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksStopOnError] before test
+[2020-02-16T18:24:58,453][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksStopOnError] --&gt; write chunk name=test-1 seq=0, position=0
+[2020-02-16T18:24:58,453][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksStopOnError] --&gt; write chunk name=test-1 seq=1, position=5
+[2020-02-16T18:24:58,453][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksStopOnError] --&gt; write chunk name=test-1 seq=2, position=15
+[2020-02-16T18:24:58,455][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksStopOnError] --&gt; write chunk name=test-1 seq=3, position=10
+[2020-02-16T18:24:58,456][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFileChunksStopOnError] after test
+[2020-02-16T18:24:58,460][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendSnapshotStopOnError] before test
+[2020-02-16T18:24:58,465][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendSnapshotStopOnError] after test
+[2020-02-16T18:24:58,469][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testHandleCorruptedIndexOnSendSendFiles] before test
+[2020-02-16T18:24:58,494][INFO ][o.e.t.CorruptionUtils    ] [testHandleCorruptedIndexOnSendSendFiles] Corrupting file --  flipping at position 68 from 0 to 1 file: _0_Lucene50_0.pos
+[2020-02-16T18:24:58,494][INFO ][o.e.t.CorruptionUtils    ] [testHandleCorruptedIndexOnSendSendFiles] Checksum before: [3041791989] after: [3769266243] checksum value after corruption: 3041791989] file: _0_Lucene50_0.pos length: 107
+[2020-02-16T18:24:58,525][WARN ][o.e.i.r.RecoverySourceHandlerTests$5] [testHandleCorruptedIndexOnSendSendFiles] [index][1][recover to ] 1 Corrupted file detected name [_0_Lucene50_0.pos], length [107], checksum [1eb05px], writtenBy [8.3.0] checksum mismatch
+[2020-02-16T18:24:58,528][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testHandleCorruptedIndexOnSendSendFiles] after test
+[2020-02-16T18:24:58,532][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testCancellationsDoesNotLeakPrimaryPermits] before test
+[2020-02-16T18:24:58,581][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testCancellationsDoesNotLeakPrimaryPermits] after test
+[2020-02-16T18:24:58,585][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFiles] before test
+[2020-02-16T18:24:58,689][INFO ][o.e.i.r.RecoverySourceHandlerTests] [testSendFiles] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

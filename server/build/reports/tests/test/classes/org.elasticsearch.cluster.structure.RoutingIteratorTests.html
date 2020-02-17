@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.structure.RoutingIteratorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.structure.RoutingIteratorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.structure.html">org.elasticsearch.cluster.structure</a> &gt; RoutingIteratorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.050s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAttributePreferenceRouting</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEmptyIterator</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIterator1</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIterator2</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNodeSelectorRouting</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRandomRouting</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReplicaShardPreferenceIters</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShardsAndPreferNodeRouting</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T19:21:39,678][INFO ][o.e.c.s.RoutingIteratorTests] [testShardsAndPreferNodeRouting] before test
+[2020-02-16T19:21:39,682][INFO ][o.e.c.r.a.AllocationService] [testShardsAndPreferNodeRouting] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][4], [test][3], [test][2], [test][0]]]).
+[2020-02-16T19:21:39,685][INFO ][o.e.c.s.RoutingIteratorTests] [testShardsAndPreferNodeRouting] after test
+[2020-02-16T19:21:39,693][INFO ][o.e.c.s.RoutingIteratorTests] [testAttributePreferenceRouting] before test
+[2020-02-16T19:21:39,697][INFO ][o.e.c.r.a.AllocationService] [testAttributePreferenceRouting] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:21:39,698][INFO ][o.e.c.s.RoutingIteratorTests] [testAttributePreferenceRouting] after test
+[2020-02-16T19:21:39,700][INFO ][o.e.c.s.RoutingIteratorTests] [testReplicaShardPreferenceIters] before test
+[2020-02-16T19:21:39,702][INFO ][o.e.c.s.RoutingIteratorTests] [testReplicaShardPreferenceIters] after test
+[2020-02-16T19:21:39,706][INFO ][o.e.c.s.RoutingIteratorTests] [testIterator2] before test
+[2020-02-16T19:21:39,706][INFO ][o.e.c.s.RoutingIteratorTests] [testIterator2] after test
+[2020-02-16T19:21:39,708][INFO ][o.e.c.s.RoutingIteratorTests] [testEmptyIterator] before test
+[2020-02-16T19:21:39,709][INFO ][o.e.c.s.RoutingIteratorTests] [testEmptyIterator] after test
+[2020-02-16T19:21:39,711][INFO ][o.e.c.s.RoutingIteratorTests] [testIterator1] before test
+[2020-02-16T19:21:39,711][INFO ][o.e.c.s.RoutingIteratorTests] [testIterator1] after test
+[2020-02-16T19:21:39,714][INFO ][o.e.c.s.RoutingIteratorTests] [testNodeSelectorRouting] before test
+[2020-02-16T19:21:39,717][INFO ][o.e.c.s.RoutingIteratorTests] [testNodeSelectorRouting] after test
+[2020-02-16T19:21:39,725][INFO ][o.e.c.s.RoutingIteratorTests] [testRandomRouting] before test
+[2020-02-16T19:21:39,727][INFO ][o.e.c.s.RoutingIteratorTests] [testRandomRouting] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

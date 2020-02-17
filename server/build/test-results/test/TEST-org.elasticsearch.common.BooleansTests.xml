@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.BooleansTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:41" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testParseNonBooleanWithFallback" classname="org.elasticsearch.common.BooleansTests" time="0.005"/>
+  <testcase name="testIsBoolean" classname="org.elasticsearch.common.BooleansTests" time="0.002"/>
+  <testcase name="testParseNonBoolean" classname="org.elasticsearch.common.BooleansTests" time="0.002"/>
+  <testcase name="testParseBoolean" classname="org.elasticsearch.common.BooleansTests" time="0.002"/>
+  <testcase name="testIsBooleanLenient" classname="org.elasticsearch.common.BooleansTests" time="0.001"/>
+  <testcase name="testIsNonBoolean" classname="org.elasticsearch.common.BooleansTests" time="0.001"/>
+  <testcase name="testParseBooleanLenient" classname="org.elasticsearch.common.BooleansTests" time="0.001"/>
+  <testcase name="testParseBooleanWithFallback" classname="org.elasticsearch.common.BooleansTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:20:41,262][INFO ][o.e.c.BooleansTests      ] [testParseNonBooleanWithFallback] before test
+[2020-02-16T19:20:41,266][INFO ][o.e.c.BooleansTests      ] [testParseNonBooleanWithFallback] after test
+[2020-02-16T19:20:41,267][INFO ][o.e.c.BooleansTests      ] [testIsBoolean] before test
+[2020-02-16T19:20:41,267][INFO ][o.e.c.BooleansTests      ] [testIsBoolean] after test
+[2020-02-16T19:20:41,269][INFO ][o.e.c.BooleansTests      ] [testParseNonBoolean] before test
+[2020-02-16T19:20:41,270][INFO ][o.e.c.BooleansTests      ] [testParseNonBoolean] after test
+[2020-02-16T19:20:41,272][INFO ][o.e.c.BooleansTests      ] [testParseBoolean] before test
+[2020-02-16T19:20:41,272][INFO ][o.e.c.BooleansTests      ] [testParseBoolean] after test
+[2020-02-16T19:20:41,273][INFO ][o.e.c.BooleansTests      ] [testIsBooleanLenient] before test
+[2020-02-16T19:20:41,273][INFO ][o.e.c.BooleansTests      ] [testIsBooleanLenient] after test
+[2020-02-16T19:20:41,275][INFO ][o.e.c.BooleansTests      ] [testIsNonBoolean] before test
+[2020-02-16T19:20:41,275][INFO ][o.e.c.BooleansTests      ] [testIsNonBoolean] after test
+[2020-02-16T19:20:41,276][INFO ][o.e.c.BooleansTests      ] [testParseBooleanLenient] before test
+[2020-02-16T19:20:41,276][INFO ][o.e.c.BooleansTests      ] [testParseBooleanLenient] after test
+[2020-02-16T19:20:41,277][INFO ][o.e.c.BooleansTests      ] [testParseBooleanWithFallback] before test
+[2020-02-16T19:20:41,277][INFO ][o.e.c.BooleansTests      ] [testParseBooleanWithFallback] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

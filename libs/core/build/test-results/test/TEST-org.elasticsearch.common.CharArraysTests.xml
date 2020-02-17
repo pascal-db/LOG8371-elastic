@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.CharArraysTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:16" hostname="Escoto-PC" time="0.832">
+  <properties/>
+  <testcase name="testCharsToBytes" classname="org.elasticsearch.common.CharArraysTests" time="0.81"/>
+  <testcase name="testCharsBeginsWith" classname="org.elasticsearch.common.CharArraysTests" time="0.005"/>
+  <testcase name="testBytesToUtf8Chars" classname="org.elasticsearch.common.CharArraysTests" time="0.009"/>
+  <testcase name="testConstantTimeEquals" classname="org.elasticsearch.common.CharArraysTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T16:50:16,959][INFO ][o.e.c.CharArraysTests    ] [testCharsToBytes] before test
+[2020-02-16T16:50:17,713][INFO ][o.e.c.CharArraysTests    ] [testCharsToBytes] after test
+[2020-02-16T16:50:17,726][INFO ][o.e.c.CharArraysTests    ] [testCharsBeginsWith] before test
+[2020-02-16T16:50:17,727][INFO ][o.e.c.CharArraysTests    ] [testCharsBeginsWith] after test
+[2020-02-16T16:50:17,733][INFO ][o.e.c.CharArraysTests    ] [testBytesToUtf8Chars] before test
+[2020-02-16T16:50:17,736][INFO ][o.e.c.CharArraysTests    ] [testBytesToUtf8Chars] after test
+[2020-02-16T16:50:17,743][INFO ][o.e.c.CharArraysTests    ] [testConstantTimeEquals] before test
+[2020-02-16T16:50:17,743][INFO ][o.e.c.CharArraysTests    ] [testConstantTimeEquals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

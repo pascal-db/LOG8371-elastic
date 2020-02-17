@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.analysis.IndexAnalyzersTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:26" hostname="Escoto-PC" time="0.006">
+  <properties/>
+  <testcase name="testAnalyzerMapChecks" classname="org.elasticsearch.index.analysis.IndexAnalyzersTests" time="0.003"/>
+  <testcase name="testAnalyzerDefaults" classname="org.elasticsearch.index.analysis.IndexAnalyzersTests" time="0.002"/>
+  <testcase name="testClose" classname="org.elasticsearch.index.analysis.IndexAnalyzersTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T22:22:26,194][INFO ][o.e.i.a.IndexAnalyzersTests] [testAnalyzerMapChecks] before test
+[2020-02-16T22:22:26,195][INFO ][o.e.i.a.IndexAnalyzersTests] [testAnalyzerMapChecks] after test
+[2020-02-16T22:22:26,197][INFO ][o.e.i.a.IndexAnalyzersTests] [testAnalyzerDefaults] before test
+[2020-02-16T22:22:26,197][INFO ][o.e.i.a.IndexAnalyzersTests] [testAnalyzerDefaults] after test
+[2020-02-16T22:22:26,199][INFO ][o.e.i.a.IndexAnalyzersTests] [testClose] before test
+[2020-02-16T22:22:26,199][INFO ][o.e.i.a.IndexAnalyzersTests] [testClose] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

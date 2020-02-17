@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.MultiPolygonTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:24" hostname="Escoto-PC" time="0.169">
+  <properties/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.MultiPolygonTests" time="0.006"/>
+  <testcase name="testValidation" classname="org.elasticsearch.geometry.MultiPolygonTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.MultiPolygonTests" time="0.02"/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.MultiPolygonTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.MultiPolygonTests" time="0.133"/>
+  <system-out><![CDATA[[2020-02-17T11:50:24,817][INFO ][o.e.g.MultiPolygonTests  ] [testBasicSerialization] before test
+[2020-02-17T11:50:24,820][INFO ][o.e.g.MultiPolygonTests  ] [testBasicSerialization] after test
+[2020-02-17T11:50:24,824][INFO ][o.e.g.MultiPolygonTests  ] [testValidation] before test
+[2020-02-17T11:50:24,825][INFO ][o.e.g.MultiPolygonTests  ] [testValidation] after test
+[2020-02-17T11:50:24,833][INFO ][o.e.g.MultiPolygonTests  ] [testSerialization] before test
+[2020-02-17T11:50:24,846][INFO ][o.e.g.MultiPolygonTests  ] [testSerialization] after test
+[2020-02-17T11:50:24,849][INFO ][o.e.g.MultiPolygonTests  ] [testVisitor] before test
+[2020-02-17T11:50:24,850][INFO ][o.e.g.MultiPolygonTests  ] [testVisitor] after test
+[2020-02-17T11:50:24,853][INFO ][o.e.g.MultiPolygonTests  ] [testEqualsAndHashcode] before test
+[2020-02-17T11:50:24,982][INFO ][o.e.g.MultiPolygonTests  ] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

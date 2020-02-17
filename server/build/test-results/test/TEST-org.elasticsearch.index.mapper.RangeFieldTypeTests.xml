@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.RangeFieldTypeTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:30" hostname="Escoto-PC" time="0.032">
+  <properties/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.004"/>
+  <testcase name="testParseIp" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.001"/>
+  <testcase name="testTermQuery" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.006"/>
+  <testcase name="testRangeQueryIntersectsAdjacentValues" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.003"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.002"/>
+  <testcase name="testDateRangeQueryUsingMappingFormat" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.003"/>
+  <testcase name="testRangeQuery" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.002"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.002"/>
+  <testcase name="testFromLargerToErrors" classname="org.elasticsearch.index.mapper.RangeFieldTypeTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T02:23:30,269][INFO ][o.e.i.m.RangeFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-17T02:23:30,271][INFO ][o.e.i.m.RangeFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-17T02:23:30,272][INFO ][o.e.i.m.RangeFieldTypeTests] [testParseIp] before test
+[2020-02-17T02:23:30,272][INFO ][o.e.i.m.RangeFieldTypeTests] [testParseIp] after test
+[2020-02-17T02:23:30,274][INFO ][o.e.i.m.RangeFieldTypeTests] [testTermQuery] before test
+[2020-02-17T02:23:30,278][INFO ][o.e.i.m.RangeFieldTypeTests] [testTermQuery] after test
+[2020-02-17T02:23:30,279][INFO ][o.e.i.m.RangeFieldTypeTests] [testRangeQueryIntersectsAdjacentValues] before test
+[2020-02-17T02:23:30,280][INFO ][o.e.i.m.RangeFieldTypeTests] [testRangeQueryIntersectsAdjacentValues] after test
+[2020-02-17T02:23:30,284][INFO ][o.e.i.m.RangeFieldTypeTests] [testEquals] before test
+[2020-02-17T02:23:30,284][INFO ][o.e.i.m.RangeFieldTypeTests] [testEquals] after test
+[2020-02-17T02:23:30,285][INFO ][o.e.i.m.RangeFieldTypeTests] [testFreeze] before test
+[2020-02-17T02:23:30,286][INFO ][o.e.i.m.RangeFieldTypeTests] [testFreeze] after test
+[2020-02-17T02:23:30,287][INFO ][o.e.i.m.RangeFieldTypeTests] [testDateRangeQueryUsingMappingFormat] before test
+[2020-02-17T02:23:30,289][INFO ][o.e.i.m.RangeFieldTypeTests] [testDateRangeQueryUsingMappingFormat] after test
+[2020-02-17T02:23:30,291][INFO ][o.e.i.m.RangeFieldTypeTests] [testRangeQuery] before test
+[2020-02-17T02:23:30,291][INFO ][o.e.i.m.RangeFieldTypeTests] [testRangeQuery] after test
+[2020-02-17T02:23:30,293][INFO ][o.e.i.m.RangeFieldTypeTests] [testClone] before test
+[2020-02-17T02:23:30,294][INFO ][o.e.i.m.RangeFieldTypeTests] [testClone] after test
+[2020-02-17T02:23:30,295][INFO ][o.e.i.m.RangeFieldTypeTests] [testCheckTypeName] before test
+[2020-02-17T02:23:30,295][INFO ][o.e.i.m.RangeFieldTypeTests] [testCheckTypeName] after test
+[2020-02-17T02:23:30,297][INFO ][o.e.i.m.RangeFieldTypeTests] [testFromLargerToErrors] before test
+[2020-02-17T02:23:30,299][INFO ][o.e.i.m.RangeFieldTypeTests] [testFromLargerToErrors] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

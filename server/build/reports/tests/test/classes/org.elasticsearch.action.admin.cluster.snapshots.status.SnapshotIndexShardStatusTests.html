@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.action.admin.cluster.snapshots.status.html">org.elasticsearch.action.admin.cluster.snapshots.status</a> &gt; SnapshotIndexShardStatusTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">1</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.043s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox failures" id="successRate">
+<div class="percent">50%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Failed tests</a>
+</li>
+<li>
+<a href="#tab1">Tests</a>
+</li>
+<li>
+<a href="#tab2">Standard output</a>
+</li>
+<li>
+<a href="#tab3">Standard error</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Failed tests</h2>
+<div class="test">
+<a name="classMethod"></a>
+<h3 class="failures">classMethod</h3>
+<span class="code">
+<pre>java.io.IOException: Could not remove the following files (in the order of attempts):
+   E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001\tempDir-001: java.nio.file.AccessDeniedException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001\tempDir-001
+   E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001
+
+	at __randomizedtesting.SeedInfo.seed([9EA1F2A3814E5F76]:0)
+	at org.apache.lucene.util.IOUtils.rm(IOUtils.java:319)
+	at org.apache.lucene.util.TestRuleTemporaryFilesCleanup.afterAlways(TestRuleTemporaryFilesCleanup.java:216)
+	at com.carrotsearch.randomizedtesting.rules.TestRuleAdapter$1.afterAlways(TestRuleAdapter.java:31)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:43)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53)
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47)
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64)
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</pre>
+</span>
+</div>
+</div>
+<div id="tab1" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="failures">classMethod</td>
+<td class="failures">0s</td>
+<td class="failures">failed</td>
+</tr>
+<tr>
+<td class="success">testFromXContent</td>
+<td class="success">0.043s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab2" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T23:20:02,811][INFO ][o.e.a.a.c.s.s.SnapshotIndexShardStatusTests] [testFromXContent] before test
+[2020-02-16T23:20:02,845][INFO ][o.e.a.a.c.s.s.SnapshotIndexShardStatusTests] [testFromXContent] after test
+</pre>
+</span>
+</div>
+<div id="tab3" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>REPRODUCE WITH: gradlew ':server:test' --tests &quot;org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests&quot; -Dtests.seed=9EA1F2A3814E5F76 -Dtests.security.manager=true -Dtests.locale=en-US -Dtests.timezone=America/Toronto -Dcompiler.java=12 -Druntime.java=12
+NOTE: test params are: codec=Asserting(Lucene80): {}, docValues:{}, maxPointsInLeafNode=1590, maxMBSortInHeap=7.436616932756433, sim=Asserting(org.apache.lucene.search.similarities.AssertingSimilarity@61befd8a), locale=en-150, timezone=Europe/Paris
+NOTE: Windows 7 6.1 amd64/Oracle Corporation 12.0.2 (64-bit)/cpus=4,threads=1,free=343781144,total=536870912
+NOTE: All tests run in this JVM: [DeDuplicatingTokenFilterTests, CollapsingTopDocsCollectorTests, BlendedTermQueryTests, FloatRandomBinaryDocValuesRangeQueryTests, IntegerRandomBinaryDocValuesRangeQueryTests, MinDocQueryTests, SpanMatchNoDocsQueryTests, CustomPassageFormatterTests, CombinedBitSetTests, ActionModuleTests, ClusterAllocationExplainActionTests, ClusterAllocationExplanationTests, AddVotingConfigExclusionsResponseTests, ClearVotingConfigExclusionsResponseTests, TransportClearVotingConfigExclusionsActionTests, ClusterHealthResponsesTests, NodeStatsTests, TaskTests, PutRepositoryRequestTests, ClusterRerouteRequestTests, ClusterRerouteTests, ClusterUpdateSettingsRequestTests, SettingsUpdaterTests, ClusterSearchShardsResponseTests, CreateSnapshotResponseTests, RestoreSnapshotRequestTests, SnapshotIndexShardStatusTests]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

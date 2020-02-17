@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.document.RestGetSourceActionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.04">
+  <properties/>
+  <testcase name="testRestGetSourceActionWithMissingDocument" classname="org.elasticsearch.rest.action.document.RestGetSourceActionTests" time="0.003"/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.document.RestGetSourceActionTests" time="0.006"/>
+  <testcase name="testTypeParameter" classname="org.elasticsearch.rest.action.document.RestGetSourceActionTests" time="0.017"/>
+  <testcase name="testRestGetSourceAction" classname="org.elasticsearch.rest.action.document.RestGetSourceActionTests" time="0.008"/>
+  <testcase name="testRestGetSourceActionWithMissingDocumentSource" classname="org.elasticsearch.rest.action.document.RestGetSourceActionTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T14:24:04,996][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testRestGetSourceActionWithMissingDocument] before test
+[2020-02-16T14:24:04,997][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testRestGetSourceActionWithMissingDocument] after test
+[2020-02-16T14:24:04,999][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testTypeInPath] before test
+[2020-02-16T14:24:05,000][WARN ][o.e.d.r.a.d.RestGetSourceAction] [testTypeInPath] [types removal] Specifying types in get_source and exist_sourcerequests is deprecated.
+[2020-02-16T14:24:05,003][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testTypeInPath] after test
+[2020-02-16T14:24:05,009][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testTypeParameter] before test
+[2020-02-16T14:24:05,020][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testTypeParameter] after test
+[2020-02-16T14:24:05,027][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testRestGetSourceAction] before test
+[2020-02-16T14:24:05,028][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testRestGetSourceAction] after test
+[2020-02-16T14:24:05,034][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testRestGetSourceActionWithMissingDocumentSource] before test
+[2020-02-16T14:24:05,035][INFO ][o.e.r.a.d.RestGetSourceActionTests] [testRestGetSourceActionWithMissingDocumentSource] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

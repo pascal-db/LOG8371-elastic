@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.MetaStateServiceTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:25" hostname="Escoto-PC" time="0.413">
+  <properties/>
+  <testcase name="testWriteLoadGlobal" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.041"/>
+  <testcase name="testLoadFullStateBWC" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.047"/>
+  <testcase name="testWriteGlobalStateWithIndexAndNoIndexIsLoaded" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.045"/>
+  <testcase name="testWriteLoadIndex" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.045"/>
+  <testcase name="testLoadEmptyStateNoManifest" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.026"/>
+  <testcase name="testLoadFullStateAndUpdate" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.101"/>
+  <testcase name="testLoadFullStateMissingGlobalMetaData" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.043"/>
+  <testcase name="testLoadEmptyStateWithManifest" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.047"/>
+  <testcase name="testLoadMissingIndex" classname="org.elasticsearch.gateway.MetaStateServiceTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-17T00:22:25,419][INFO ][o.e.e.NodeEnvironment    ] [testWriteLoadGlobal] using [3] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,419][INFO ][o.e.e.NodeEnvironment    ] [testWriteLoadGlobal] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,426][INFO ][o.e.g.MetaStateServiceTests] [testWriteLoadGlobal] before test
+[2020-02-17T00:22:25,436][INFO ][o.e.g.MetaStateServiceTests] [testWriteLoadGlobal] after test
+[2020-02-17T00:22:25,457][INFO ][o.e.e.NodeEnvironment    ] [testLoadFullStateBWC] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,458][INFO ][o.e.e.NodeEnvironment    ] [testLoadFullStateBWC] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,463][INFO ][o.e.g.MetaStateServiceTests] [testLoadFullStateBWC] before test
+[2020-02-17T00:22:25,483][INFO ][o.e.g.MetaStateServiceTests] [testLoadFullStateBWC] after test
+[2020-02-17T00:22:25,500][INFO ][o.e.e.NodeEnvironment    ] [testWriteGlobalStateWithIndexAndNoIndexIsLoaded] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,500][INFO ][o.e.e.NodeEnvironment    ] [testWriteGlobalStateWithIndexAndNoIndexIsLoaded] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,518][INFO ][o.e.g.MetaStateServiceTests] [testWriteGlobalStateWithIndexAndNoIndexIsLoaded] before test
+[2020-02-17T00:22:25,528][INFO ][o.e.g.MetaStateServiceTests] [testWriteGlobalStateWithIndexAndNoIndexIsLoaded] after test
+[2020-02-17T00:22:25,553][INFO ][o.e.e.NodeEnvironment    ] [testWriteLoadIndex] using [3] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,553][INFO ][o.e.e.NodeEnvironment    ] [testWriteLoadIndex] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,561][INFO ][o.e.g.MetaStateServiceTests] [testWriteLoadIndex] before test
+[2020-02-17T00:22:25,573][INFO ][o.e.g.MetaStateServiceTests] [testWriteLoadIndex] after test
+[2020-02-17T00:22:25,592][INFO ][o.e.e.NodeEnvironment    ] [testLoadEmptyStateNoManifest] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,592][INFO ][o.e.e.NodeEnvironment    ] [testLoadEmptyStateNoManifest] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,596][INFO ][o.e.g.MetaStateServiceTests] [testLoadEmptyStateNoManifest] before test
+[2020-02-17T00:22:25,600][INFO ][o.e.g.MetaStateServiceTests] [testLoadEmptyStateNoManifest] after test
+[2020-02-17T00:22:25,626][INFO ][o.e.e.NodeEnvironment    ] [testLoadFullStateAndUpdate] using [3] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,626][INFO ][o.e.e.NodeEnvironment    ] [testLoadFullStateAndUpdate] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,633][INFO ][o.e.g.MetaStateServiceTests] [testLoadFullStateAndUpdate] before test
+[2020-02-17T00:22:25,702][INFO ][o.e.g.MetaStateServiceTests] [testLoadFullStateAndUpdate] after test
+[2020-02-17T00:22:25,724][INFO ][o.e.e.NodeEnvironment    ] [testLoadFullStateMissingGlobalMetaData] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,724][INFO ][o.e.e.NodeEnvironment    ] [testLoadFullStateMissingGlobalMetaData] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,728][INFO ][o.e.g.MetaStateServiceTests] [testLoadFullStateMissingGlobalMetaData] before test
+[2020-02-17T00:22:25,746][INFO ][o.e.g.MetaStateServiceTests] [testLoadFullStateMissingGlobalMetaData] after test
+[2020-02-17T00:22:25,779][INFO ][o.e.e.NodeEnvironment    ] [testLoadEmptyStateWithManifest] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,780][INFO ][o.e.e.NodeEnvironment    ] [testLoadEmptyStateWithManifest] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,784][INFO ][o.e.g.MetaStateServiceTests] [testLoadEmptyStateWithManifest] before test
+[2020-02-17T00:22:25,793][INFO ][o.e.g.MetaStateServiceTests] [testLoadEmptyStateWithManifest] after test
+[2020-02-17T00:22:25,805][INFO ][o.e.e.NodeEnvironment    ] [testLoadMissingIndex] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:22:25,805][INFO ][o.e.e.NodeEnvironment    ] [testLoadMissingIndex] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:22:25,807][INFO ][o.e.g.MetaStateServiceTests] [testLoadMissingIndex] before test
+[2020-02-17T00:22:25,808][INFO ][o.e.g.MetaStateServiceTests] [testLoadMissingIndex] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

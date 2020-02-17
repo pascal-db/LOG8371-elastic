@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.StoreRecoveryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:36" hostname="Escoto-PC" time="0.792">
+  <properties/>
+  <testcase name="testSplitShard" classname="org.elasticsearch.index.shard.StoreRecoveryTests" time="0.215"/>
+  <testcase name="testAddIndices" classname="org.elasticsearch.index.shard.StoreRecoveryTests" time="0.568"/>
+  <testcase name="testStatsDirWrapper" classname="org.elasticsearch.index.shard.StoreRecoveryTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T18:23:36,011][INFO ][o.e.i.s.StoreRecoveryTests] [testSplitShard] before test
+[2020-02-16T18:23:36,224][INFO ][o.e.i.s.StoreRecoveryTests] [testSplitShard] after test
+[2020-02-16T18:23:36,226][INFO ][o.e.i.s.StoreRecoveryTests] [testAddIndices] before test
+[2020-02-16T18:23:36,792][INFO ][o.e.i.s.StoreRecoveryTests] [testAddIndices] after test
+[2020-02-16T18:23:36,800][INFO ][o.e.i.s.StoreRecoveryTests] [testStatsDirWrapper] before test
+[2020-02-16T18:23:36,801][INFO ][o.e.i.s.StoreRecoveryTests] [testStatsDirWrapper] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

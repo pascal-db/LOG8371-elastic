@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.bytes.BytesArrayTests" tests="33" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:41" hostname="Escoto-PC" time="0.374">
+  <properties/>
+  <testcase name="testIteratorRandom" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.01"/>
+  <testcase name="testHashCode" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.009"/>
+  <testcase name="testSliceCopyBytesRef" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.008"/>
+  <testcase name="testCompareTo" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.132"/>
+  <testcase name="testArrayOffset" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.006"/>
+  <testcase name="testSliceWriteToOutputStream" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.007"/>
+  <testcase name="testSliceIterator" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.007"/>
+  <testcase name="testIndexOf" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.003"/>
+  <testcase name="testLength" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.011"/>
+  <testcase name="testSliceToBytesRef" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.003"/>
+  <testcase name="testToBytesRefMaterializedPages" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.004"/>
+  <testcase name="testCopyBytesRefSharesBytes" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.002"/>
+  <testcase name="testStreamInputBulkReadWithOffset" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.013"/>
+  <testcase name="testWriteToOutputStream" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.006"/>
+  <testcase name="testInputStreamSkip" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.029"/>
+  <testcase name="testArray" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.008"/>
+  <testcase name="testEquals" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.002"/>
+  <testcase name="testStreamInput" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.023"/>
+  <testcase name="testToUtf8" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.001"/>
+  <testcase name="testRandomReads" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.003"/>
+  <testcase name="testIterator" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.007"/>
+  <testcase name="testSliceStreamInput" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.008"/>
+  <testcase name="testGetInt" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.002"/>
+  <testcase name="testSliceArrayOffset" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.008"/>
+  <testcase name="testSlice" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.009"/>
+  <testcase name="testEmptyToBytesRefIterator" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.001"/>
+  <testcase name="testToBytesRefSharedPage" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.003"/>
+  <testcase name="testStreamInputMarkAndReset" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.013"/>
+  <testcase name="testBasicEquals" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.002"/>
+  <testcase name="testToBytesRef" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.002"/>
+  <testcase name="testToBytes" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.014"/>
+  <testcase name="testGet" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.01"/>
+  <testcase name="testSliceEquals" classname="org.elasticsearch.common.bytes.BytesArrayTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T04:05:41,296][INFO ][o.e.c.b.BytesArrayTests  ] [testIteratorRandom] before test
+[2020-02-17T04:05:41,305][INFO ][o.e.c.b.BytesArrayTests  ] [testIteratorRandom] after test
+[2020-02-17T04:05:41,306][INFO ][o.e.c.b.BytesArrayTests  ] [testHashCode] before test
+[2020-02-17T04:05:41,314][INFO ][o.e.c.b.BytesArrayTests  ] [testHashCode] after test
+[2020-02-17T04:05:41,316][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceCopyBytesRef] before test
+[2020-02-17T04:05:41,323][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceCopyBytesRef] after test
+[2020-02-17T04:05:41,324][INFO ][o.e.c.b.BytesArrayTests  ] [testCompareTo] before test
+[2020-02-17T04:05:41,455][INFO ][o.e.c.b.BytesArrayTests  ] [testCompareTo] after test
+[2020-02-17T04:05:41,456][INFO ][o.e.c.b.BytesArrayTests  ] [testArrayOffset] before test
+[2020-02-17T04:05:41,461][INFO ][o.e.c.b.BytesArrayTests  ] [testArrayOffset] after test
+[2020-02-17T04:05:41,462][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceWriteToOutputStream] before test
+[2020-02-17T04:05:41,468][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceWriteToOutputStream] after test
+[2020-02-17T04:05:41,470][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceIterator] before test
+[2020-02-17T04:05:41,475][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceIterator] after test
+[2020-02-17T04:05:41,477][INFO ][o.e.c.b.BytesArrayTests  ] [testIndexOf] before test
+[2020-02-17T04:05:41,478][INFO ][o.e.c.b.BytesArrayTests  ] [testIndexOf] after test
+[2020-02-17T04:05:41,479][INFO ][o.e.c.b.BytesArrayTests  ] [testLength] before test
+[2020-02-17T04:05:41,488][INFO ][o.e.c.b.BytesArrayTests  ] [testLength] after test
+[2020-02-17T04:05:41,490][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceToBytesRef] before test
+[2020-02-17T04:05:41,492][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceToBytesRef] after test
+[2020-02-17T04:05:41,493][INFO ][o.e.c.b.BytesArrayTests  ] [testToBytesRefMaterializedPages] before test
+[2020-02-17T04:05:41,496][INFO ][o.e.c.b.BytesArrayTests  ] [testToBytesRefMaterializedPages] after test
+[2020-02-17T04:05:41,498][INFO ][o.e.c.b.BytesArrayTests  ] [testCopyBytesRefSharesBytes] before test
+[2020-02-17T04:05:41,499][INFO ][o.e.c.b.BytesArrayTests  ] [testCopyBytesRefSharesBytes] after test
+[2020-02-17T04:05:41,500][INFO ][o.e.c.b.BytesArrayTests  ] [testStreamInputBulkReadWithOffset] before test
+[2020-02-17T04:05:41,511][INFO ][o.e.c.b.BytesArrayTests  ] [testStreamInputBulkReadWithOffset] after test
+[2020-02-17T04:05:41,513][INFO ][o.e.c.b.BytesArrayTests  ] [testWriteToOutputStream] before test
+[2020-02-17T04:05:41,518][INFO ][o.e.c.b.BytesArrayTests  ] [testWriteToOutputStream] after test
+[2020-02-17T04:05:41,520][INFO ][o.e.c.b.BytesArrayTests  ] [testInputStreamSkip] before test
+[2020-02-17T04:05:41,547][INFO ][o.e.c.b.BytesArrayTests  ] [testInputStreamSkip] after test
+[2020-02-17T04:05:41,549][INFO ][o.e.c.b.BytesArrayTests  ] [testArray] before test
+[2020-02-17T04:05:41,556][INFO ][o.e.c.b.BytesArrayTests  ] [testArray] after test
+[2020-02-17T04:05:41,557][INFO ][o.e.c.b.BytesArrayTests  ] [testEquals] before test
+[2020-02-17T04:05:41,558][INFO ][o.e.c.b.BytesArrayTests  ] [testEquals] after test
+[2020-02-17T04:05:41,559][INFO ][o.e.c.b.BytesArrayTests  ] [testStreamInput] before test
+[2020-02-17T04:05:41,580][INFO ][o.e.c.b.BytesArrayTests  ] [testStreamInput] after test
+[2020-02-17T04:05:41,582][INFO ][o.e.c.b.BytesArrayTests  ] [testToUtf8] before test
+[2020-02-17T04:05:41,582][INFO ][o.e.c.b.BytesArrayTests  ] [testToUtf8] after test
+[2020-02-17T04:05:41,584][INFO ][o.e.c.b.BytesArrayTests  ] [testRandomReads] before test
+[2020-02-17T04:05:41,585][INFO ][o.e.c.b.BytesArrayTests  ] [testRandomReads] after test
+[2020-02-17T04:05:41,587][INFO ][o.e.c.b.BytesArrayTests  ] [testIterator] before test
+[2020-02-17T04:05:41,593][INFO ][o.e.c.b.BytesArrayTests  ] [testIterator] after test
+[2020-02-17T04:05:41,595][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceStreamInput] before test
+[2020-02-17T04:05:41,602][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceStreamInput] after test
+[2020-02-17T04:05:41,604][INFO ][o.e.c.b.BytesArrayTests  ] [testGetInt] before test
+[2020-02-17T04:05:41,604][INFO ][o.e.c.b.BytesArrayTests  ] [testGetInt] after test
+[2020-02-17T04:05:41,605][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceArrayOffset] before test
+[2020-02-17T04:05:41,611][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceArrayOffset] after test
+[2020-02-17T04:05:41,613][INFO ][o.e.c.b.BytesArrayTests  ] [testSlice] before test
+[2020-02-17T04:05:41,620][INFO ][o.e.c.b.BytesArrayTests  ] [testSlice] after test
+[2020-02-17T04:05:41,622][INFO ][o.e.c.b.BytesArrayTests  ] [testEmptyToBytesRefIterator] before test
+[2020-02-17T04:05:41,622][INFO ][o.e.c.b.BytesArrayTests  ] [testEmptyToBytesRefIterator] after test
+[2020-02-17T04:05:41,623][INFO ][o.e.c.b.BytesArrayTests  ] [testToBytesRefSharedPage] before test
+[2020-02-17T04:05:41,625][INFO ][o.e.c.b.BytesArrayTests  ] [testToBytesRefSharedPage] after test
+[2020-02-17T04:05:41,626][INFO ][o.e.c.b.BytesArrayTests  ] [testStreamInputMarkAndReset] before test
+[2020-02-17T04:05:41,638][INFO ][o.e.c.b.BytesArrayTests  ] [testStreamInputMarkAndReset] after test
+[2020-02-17T04:05:41,639][INFO ][o.e.c.b.BytesArrayTests  ] [testBasicEquals] before test
+[2020-02-17T04:05:41,640][INFO ][o.e.c.b.BytesArrayTests  ] [testBasicEquals] after test
+[2020-02-17T04:05:41,641][INFO ][o.e.c.b.BytesArrayTests  ] [testToBytesRef] before test
+[2020-02-17T04:05:41,642][INFO ][o.e.c.b.BytesArrayTests  ] [testToBytesRef] after test
+[2020-02-17T04:05:41,644][INFO ][o.e.c.b.BytesArrayTests  ] [testToBytes] before test
+[2020-02-17T04:05:41,657][INFO ][o.e.c.b.BytesArrayTests  ] [testToBytes] after test
+[2020-02-17T04:05:41,659][INFO ][o.e.c.b.BytesArrayTests  ] [testGet] before test
+[2020-02-17T04:05:41,667][INFO ][o.e.c.b.BytesArrayTests  ] [testGet] after test
+[2020-02-17T04:05:41,669][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceEquals] before test
+[2020-02-17T04:05:41,669][INFO ][o.e.c.b.BytesArrayTests  ] [testSliceEquals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

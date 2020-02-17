@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.analysis.CoreAnalysisFactoryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:13" hostname="Escoto-PC" time="0.079">
+  <properties/>
+  <testcase name="testTokenFilters" classname="org.elasticsearch.index.analysis.CoreAnalysisFactoryTests" time="0.052"/>
+  <testcase name="testCharFilters" classname="org.elasticsearch.index.analysis.CoreAnalysisFactoryTests" time="0.015"/>
+  <testcase name="testTokenizers" classname="org.elasticsearch.index.analysis.CoreAnalysisFactoryTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-17T10:21:13,091][INFO ][o.e.i.a.CoreAnalysisFactoryTests] [testTokenFilters] before test
+[2020-02-17T10:21:13,141][INFO ][o.e.i.a.CoreAnalysisFactoryTests] [testTokenFilters] after test
+[2020-02-17T10:21:13,143][INFO ][o.e.i.a.CoreAnalysisFactoryTests] [testCharFilters] before test
+[2020-02-17T10:21:13,156][INFO ][o.e.i.a.CoreAnalysisFactoryTests] [testCharFilters] after test
+[2020-02-17T10:21:13,159][INFO ][o.e.i.a.CoreAnalysisFactoryTests] [testTokenizers] before test
+[2020-02-17T10:21:13,168][INFO ][o.e.i.a.CoreAnalysisFactoryTests] [testTokenizers] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

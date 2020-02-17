@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.unit.TimeValueTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:17" hostname="Escoto-PC" time="0.088">
+  <properties/>
+  <testcase name="testConversionHashCode" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.01"/>
+  <testcase name="testNonFractionalTimeValues" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.008"/>
+  <testcase name="testFailOnMissingUnits" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.008"/>
+  <testcase name="testRoundTrip" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.005"/>
+  <testcase name="testCompareUnits" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.007"/>
+  <testcase name="testCompareEquality" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.006"/>
+  <testcase name="testFailOnUnknownUnits" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.004"/>
+  <testcase name="testCompareValue" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.005"/>
+  <testcase name="testToStringRep" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.004"/>
+  <testcase name="testToString" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.004"/>
+  <testcase name="testMinusOne" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.006"/>
+  <testcase name="testSimple" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.005"/>
+  <testcase name="testFractionalTimeValues" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.004"/>
+  <testcase name="testNoDotsAllowed" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.003"/>
+  <testcase name="testParseTimeValue" classname="org.elasticsearch.common.unit.TimeValueTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T08:50:17,789][INFO ][o.e.c.u.TimeValueTests   ] [testConversionHashCode] before test
+[2020-02-17T08:50:17,793][INFO ][o.e.c.u.TimeValueTests   ] [testConversionHashCode] after test
+[2020-02-17T08:50:17,797][INFO ][o.e.c.u.TimeValueTests   ] [testNonFractionalTimeValues] before test
+[2020-02-17T08:50:17,801][INFO ][o.e.c.u.TimeValueTests   ] [testNonFractionalTimeValues] after test
+[2020-02-17T08:50:17,809][INFO ][o.e.c.u.TimeValueTests   ] [testFailOnMissingUnits] before test
+[2020-02-17T08:50:17,809][INFO ][o.e.c.u.TimeValueTests   ] [testFailOnMissingUnits] after test
+[2020-02-17T08:50:17,814][INFO ][o.e.c.u.TimeValueTests   ] [testRoundTrip] before test
+[2020-02-17T08:50:17,815][INFO ][o.e.c.u.TimeValueTests   ] [testRoundTrip] after test
+[2020-02-17T08:50:17,820][INFO ][o.e.c.u.TimeValueTests   ] [testCompareUnits] before test
+[2020-02-17T08:50:17,822][INFO ][o.e.c.u.TimeValueTests   ] [testCompareUnits] after test
+[2020-02-17T08:50:17,828][INFO ][o.e.c.u.TimeValueTests   ] [testCompareEquality] before test
+[2020-02-17T08:50:17,829][INFO ][o.e.c.u.TimeValueTests   ] [testCompareEquality] after test
+[2020-02-17T08:50:17,833][INFO ][o.e.c.u.TimeValueTests   ] [testFailOnUnknownUnits] before test
+[2020-02-17T08:50:17,833][INFO ][o.e.c.u.TimeValueTests   ] [testFailOnUnknownUnits] after test
+[2020-02-17T08:50:17,837][INFO ][o.e.c.u.TimeValueTests   ] [testCompareValue] before test
+[2020-02-17T08:50:17,838][INFO ][o.e.c.u.TimeValueTests   ] [testCompareValue] after test
+[2020-02-17T08:50:17,842][INFO ][o.e.c.u.TimeValueTests   ] [testToStringRep] before test
+[2020-02-17T08:50:17,842][INFO ][o.e.c.u.TimeValueTests   ] [testToStringRep] after test
+[2020-02-17T08:50:17,846][INFO ][o.e.c.u.TimeValueTests   ] [testToString] before test
+[2020-02-17T08:50:17,846][INFO ][o.e.c.u.TimeValueTests   ] [testToString] after test
+[2020-02-17T08:50:17,851][INFO ][o.e.c.u.TimeValueTests   ] [testMinusOne] before test
+[2020-02-17T08:50:17,852][INFO ][o.e.c.u.TimeValueTests   ] [testMinusOne] after test
+[2020-02-17T08:50:17,857][INFO ][o.e.c.u.TimeValueTests   ] [testSimple] before test
+[2020-02-17T08:50:17,858][INFO ][o.e.c.u.TimeValueTests   ] [testSimple] after test
+[2020-02-17T08:50:17,862][INFO ][o.e.c.u.TimeValueTests   ] [testFractionalTimeValues] before test
+[2020-02-17T08:50:17,863][INFO ][o.e.c.u.TimeValueTests   ] [testFractionalTimeValues] after test
+[2020-02-17T08:50:17,866][INFO ][o.e.c.u.TimeValueTests   ] [testNoDotsAllowed] before test
+[2020-02-17T08:50:17,866][INFO ][o.e.c.u.TimeValueTests   ] [testNoDotsAllowed] after test
+[2020-02-17T08:50:17,870][INFO ][o.e.c.u.TimeValueTests   ] [testParseTimeValue] before test
+[2020-02-17T08:50:17,871][INFO ][o.e.c.u.TimeValueTests   ] [testParseTimeValue] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

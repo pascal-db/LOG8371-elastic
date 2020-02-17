@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.DeprecationRestHandlerTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.088">
+  <properties/>
+  <testcase name="testNullDeprecationLogger" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.009"/>
+  <testcase name="testSupportsContentStreamTrue" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.002"/>
+  <testcase name="testInvalidHeaderValue" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.011"/>
+  <testcase name="testNullHandler" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.006"/>
+  <testcase name="testValidHeaderValue" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.003"/>
+  <testcase name="testInvalidHeaderValueEmpty" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.005"/>
+  <testcase name="testInvalidDeprecationMessageThrowsException" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.003"/>
+  <testcase name="testHandleRequestLogsWarningThenForwards" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.044"/>
+  <testcase name="testInvalidHeaderValueNull" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.002"/>
+  <testcase name="testSupportsContentStreamFalse" classname="org.elasticsearch.rest.DeprecationRestHandlerTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:24:05,299][INFO ][o.e.r.DeprecationRestHandlerTests] [testNullDeprecationLogger] before test
+[2020-02-17T01:24:05,307][INFO ][o.e.r.DeprecationRestHandlerTests] [testNullDeprecationLogger] after test
+[2020-02-17T01:24:05,309][INFO ][o.e.r.DeprecationRestHandlerTests] [testSupportsContentStreamTrue] before test
+[2020-02-17T01:24:05,309][INFO ][o.e.r.DeprecationRestHandlerTests] [testSupportsContentStreamTrue] after test
+[2020-02-17T01:24:05,318][INFO ][o.e.r.DeprecationRestHandlerTests] [testInvalidHeaderValue] before test
+[2020-02-17T01:24:05,320][INFO ][o.e.r.DeprecationRestHandlerTests] [testInvalidHeaderValue] after test
+[2020-02-17T01:24:05,326][INFO ][o.e.r.DeprecationRestHandlerTests] [testNullHandler] before test
+[2020-02-17T01:24:05,326][INFO ][o.e.r.DeprecationRestHandlerTests] [testNullHandler] after test
+[2020-02-17T01:24:05,329][INFO ][o.e.r.DeprecationRestHandlerTests] [testValidHeaderValue] before test
+[2020-02-17T01:24:05,329][INFO ][o.e.r.DeprecationRestHandlerTests] [testValidHeaderValue] after test
+[2020-02-17T01:24:05,334][INFO ][o.e.r.DeprecationRestHandlerTests] [testInvalidHeaderValueEmpty] before test
+[2020-02-17T01:24:05,334][INFO ][o.e.r.DeprecationRestHandlerTests] [testInvalidHeaderValueEmpty] after test
+[2020-02-17T01:24:05,336][INFO ][o.e.r.DeprecationRestHandlerTests] [testInvalidDeprecationMessageThrowsException] before test
+[2020-02-17T01:24:05,337][INFO ][o.e.r.DeprecationRestHandlerTests] [testInvalidDeprecationMessageThrowsException] after test
+[2020-02-17T01:24:05,339][INFO ][o.e.r.DeprecationRestHandlerTests] [testHandleRequestLogsWarningThenForwards] before test
+[2020-02-17T01:24:05,381][INFO ][o.e.r.DeprecationRestHandlerTests] [testHandleRequestLogsWarningThenForwards] after test
+[2020-02-17T01:24:05,383][INFO ][o.e.r.DeprecationRestHandlerTests] [testInvalidHeaderValueNull] before test
+[2020-02-17T01:24:05,383][INFO ][o.e.r.DeprecationRestHandlerTests] [testInvalidHeaderValueNull] after test
+[2020-02-17T01:24:05,385][INFO ][o.e.r.DeprecationRestHandlerTests] [testSupportsContentStreamFalse] before test
+[2020-02-17T01:24:05,385][INFO ][o.e.r.DeprecationRestHandlerTests] [testSupportsContentStreamFalse] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

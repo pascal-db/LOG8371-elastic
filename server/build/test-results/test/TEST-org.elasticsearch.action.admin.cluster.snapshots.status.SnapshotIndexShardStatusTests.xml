@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests" tests="2" skipped="0" failures="1" errors="0" timestamp="2020-02-16T22:20:02" hostname="Escoto-PC" time="0.058">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests" time="0.043"/>
+  <testcase name="classMethod" classname="org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests" time="0.0">
+    <failure message="java.io.IOException: Could not remove the following files (in the order of attempts):&#10;   E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001\tempDir-001: java.nio.file.AccessDeniedException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001\tempDir-001&#10;   E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001&#10;" type="java.io.IOException">java.io.IOException: Could not remove the following files (in the order of attempts):
+   E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001\tempDir-001: java.nio.file.AccessDeniedException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001\tempDir-001
+   E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001: java.nio.file.DirectoryNotEmptyException: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests_9EA1F2A3814E5F76-001
+
+	at __randomizedtesting.SeedInfo.seed([9EA1F2A3814E5F76]:0)
+	at org.apache.lucene.util.IOUtils.rm(IOUtils.java:319)
+	at org.apache.lucene.util.TestRuleTemporaryFilesCleanup.afterAlways(TestRuleTemporaryFilesCleanup.java:216)
+	at com.carrotsearch.randomizedtesting.rules.TestRuleAdapter$1.afterAlways(TestRuleAdapter.java:31)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:43)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53)
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47)
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64)
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</failure>
+  </testcase>
+  <system-out><![CDATA[[2020-02-16T23:20:02,811][INFO ][o.e.a.a.c.s.s.SnapshotIndexShardStatusTests] [testFromXContent] before test
+[2020-02-16T23:20:02,845][INFO ][o.e.a.a.c.s.s.SnapshotIndexShardStatusTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[REPRODUCE WITH: gradlew ':server:test' --tests "org.elasticsearch.action.admin.cluster.snapshots.status.SnapshotIndexShardStatusTests" -Dtests.seed=9EA1F2A3814E5F76 -Dtests.security.manager=true -Dtests.locale=en-US -Dtests.timezone=America/Toronto -Dcompiler.java=12 -Druntime.java=12
+NOTE: test params are: codec=Asserting(Lucene80): {}, docValues:{}, maxPointsInLeafNode=1590, maxMBSortInHeap=7.436616932756433, sim=Asserting(org.apache.lucene.search.similarities.AssertingSimilarity@61befd8a), locale=en-150, timezone=Europe/Paris
+NOTE: Windows 7 6.1 amd64/Oracle Corporation 12.0.2 (64-bit)/cpus=4,threads=1,free=343781144,total=536870912
+NOTE: All tests run in this JVM: [DeDuplicatingTokenFilterTests, CollapsingTopDocsCollectorTests, BlendedTermQueryTests, FloatRandomBinaryDocValuesRangeQueryTests, IntegerRandomBinaryDocValuesRangeQueryTests, MinDocQueryTests, SpanMatchNoDocsQueryTests, CustomPassageFormatterTests, CombinedBitSetTests, ActionModuleTests, ClusterAllocationExplainActionTests, ClusterAllocationExplanationTests, AddVotingConfigExclusionsResponseTests, ClearVotingConfigExclusionsResponseTests, TransportClearVotingConfigExclusionsActionTests, ClusterHealthResponsesTests, NodeStatsTests, TaskTests, PutRepositoryRequestTests, ClusterRerouteRequestTests, ClusterRerouteTests, ClusterUpdateSettingsRequestTests, SettingsUpdaterTests, ClusterSearchShardsResponseTests, CreateSnapshotResponseTests, RestoreSnapshotRequestTests, SnapshotIndexShardStatusTests]
+]]></system-err>
+</testsuite>

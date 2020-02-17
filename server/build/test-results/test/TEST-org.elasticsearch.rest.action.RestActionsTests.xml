@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.RestActionsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testParseTopLevelBuilderIncompleteJson" classname="org.elasticsearch.rest.action.RestActionsTests" time="0.003"/>
+  <testcase name="testParseTopLevelBuilderMalformedJson" classname="org.elasticsearch.rest.action.RestActionsTests" time="0.003"/>
+  <testcase name="testParseTopLevelBuilderEmptyObject" classname="org.elasticsearch.rest.action.RestActionsTests" time="0.005"/>
+  <testcase name="testBuildBroadcastShardsHeader" classname="org.elasticsearch.rest.action.RestActionsTests" time="0.003"/>
+  <testcase name="testParseTopLevelBuilder" classname="org.elasticsearch.rest.action.RestActionsTests" time="0.002"/>
+  <testcase name="testParseTopLevelBuilderUnknownParameter" classname="org.elasticsearch.rest.action.RestActionsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T02:24:05,117][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilderIncompleteJson] before test
+[2020-02-17T02:24:05,119][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilderIncompleteJson] after test
+[2020-02-17T02:24:05,121][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilderMalformedJson] before test
+[2020-02-17T02:24:05,121][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilderMalformedJson] after test
+[2020-02-17T02:24:05,126][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilderEmptyObject] before test
+[2020-02-17T02:24:05,126][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilderEmptyObject] after test
+[2020-02-17T02:24:05,128][INFO ][o.e.r.a.RestActionsTests ] [testBuildBroadcastShardsHeader] before test
+[2020-02-17T02:24:05,129][INFO ][o.e.r.a.RestActionsTests ] [testBuildBroadcastShardsHeader] after test
+[2020-02-17T02:24:05,131][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilder] before test
+[2020-02-17T02:24:05,131][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilder] after test
+[2020-02-17T02:24:05,134][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilderUnknownParameter] before test
+[2020-02-17T02:24:05,134][INFO ][o.e.r.a.RestActionsTests ] [testParseTopLevelBuilderUnknownParameter] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.termvectors.TermVectorsUnitTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:27" hostname="Escoto-PC" time="0.107">
+  <properties/>
+  <testcase name="testTermVectorStringGenerationWithoutPositions" classname="org.elasticsearch.action.termvectors.TermVectorsUnitTests" time="0.004"/>
+  <testcase name="testFieldTypeToTermVectorString" classname="org.elasticsearch.action.termvectors.TermVectorsUnitTests" time="0.003"/>
+  <testcase name="testStreamResponse" classname="org.elasticsearch.action.termvectors.TermVectorsUnitTests" time="0.033"/>
+  <testcase name="testRequestParsingThrowsException" classname="org.elasticsearch.action.termvectors.TermVectorsUnitTests" time="0.042"/>
+  <testcase name="testMultiParser" classname="org.elasticsearch.action.termvectors.TermVectorsUnitTests" time="0.011"/>
+  <testcase name="testMultiParserFilter" classname="org.elasticsearch.action.termvectors.TermVectorsUnitTests" time="0.008"/>
+  <testcase name="testRestRequestParsing" classname="org.elasticsearch.action.termvectors.TermVectorsUnitTests" time="0.003"/>
+  <testcase name="testStreamRequest" classname="org.elasticsearch.action.termvectors.TermVectorsUnitTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T16:20:27,903][INFO ][o.e.a.t.TermVectorsUnitTests] [testTermVectorStringGenerationWithoutPositions] before test
+[2020-02-16T16:20:27,905][INFO ][o.e.a.t.TermVectorsUnitTests] [testTermVectorStringGenerationWithoutPositions] after test
+[2020-02-16T16:20:27,908][INFO ][o.e.a.t.TermVectorsUnitTests] [testFieldTypeToTermVectorString] before test
+[2020-02-16T16:20:27,908][INFO ][o.e.a.t.TermVectorsUnitTests] [testFieldTypeToTermVectorString] after test
+[2020-02-16T16:20:27,910][INFO ][o.e.a.t.TermVectorsUnitTests] [testStreamResponse] before test
+[2020-02-16T16:20:27,941][INFO ][o.e.a.t.TermVectorsUnitTests] [testStreamResponse] after test
+[2020-02-16T16:20:27,982][INFO ][o.e.a.t.TermVectorsUnitTests] [testRequestParsingThrowsException] before test
+[2020-02-16T16:20:27,983][INFO ][o.e.a.t.TermVectorsUnitTests] [testRequestParsingThrowsException] after test
+[2020-02-16T16:20:27,991][INFO ][o.e.a.t.TermVectorsUnitTests] [testMultiParser] before test
+[2020-02-16T16:20:27,992][WARN ][o.e.d.a.t.TermVectorsRequest] [testMultiParser] [types removal] Specifying types in term vector requests is deprecated.
+[2020-02-16T16:20:27,994][INFO ][o.e.a.t.TermVectorsUnitTests] [testMultiParser] after test
+[2020-02-16T16:20:28,000][INFO ][o.e.a.t.TermVectorsUnitTests] [testMultiParserFilter] before test
+[2020-02-16T16:20:28,002][INFO ][o.e.a.t.TermVectorsUnitTests] [testMultiParserFilter] after test
+[2020-02-16T16:20:28,004][INFO ][o.e.a.t.TermVectorsUnitTests] [testRestRequestParsing] before test
+[2020-02-16T16:20:28,005][INFO ][o.e.a.t.TermVectorsUnitTests] [testRestRequestParsing] after test
+[2020-02-16T16:20:28,008][INFO ][o.e.a.t.TermVectorsUnitTests] [testStreamRequest] before test
+[2020-02-16T16:20:28,008][INFO ][o.e.a.t.TermVectorsUnitTests] [testStreamRequest] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.significant.SignificantStringTermsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.055">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantStringTermsTests" time="0.011"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantStringTermsTests" time="0.012"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantStringTermsTests" time="0.006"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantStringTermsTests" time="0.015"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantStringTermsTests" time="0.006"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantStringTermsTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T07:24:21,850][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T07:24:21,855][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T07:24:21,862][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testReduceRandom] before test
+[2020-02-17T07:24:21,867][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testReduceRandom] after test
+[2020-02-17T07:24:21,870][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testFromXContent] before test
+[2020-02-17T07:24:21,873][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testFromXContent] after test
+[2020-02-17T07:24:21,877][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testEqualsAndHashcode] before test
+[2020-02-17T07:24:21,888][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testEqualsAndHashcode] after test
+[2020-02-17T07:24:21,890][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testSerialization] before test
+[2020-02-17T07:24:21,895][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testSerialization] after test
+[2020-02-17T07:24:21,899][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testIterators] before test
+[2020-02-17T07:24:21,900][INFO ][o.e.s.a.b.s.SignificantStringTermsTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

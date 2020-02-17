@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:53" hostname="Escoto-PC" time="0.172">
+  <properties/>
+  <testcase name="testMergeSmall" classname="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" time="0.101"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" time="0.004"/>
+  <testcase name="testMergeIncompatible" classname="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" time="0.002"/>
+  <testcase name="testConvert" classname="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" time="0.007"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" time="0.008"/>
+  <testcase name="testBadParameters" classname="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" time="0.005"/>
+  <testcase name="testConvertTwice" classname="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" time="0.011"/>
+  <testcase name="testExact" classname="org.elasticsearch.common.util.SetBackedScalingCuckooFilterTests" time="0.034"/>
+  <system-out><![CDATA[[2020-02-16T11:20:53,563][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testMergeSmall] before test
+[2020-02-16T11:20:53,661][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testMergeSmall] after test
+[2020-02-16T11:20:53,663][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testEqualsAndHashcode] before test
+[2020-02-16T11:20:53,665][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testEqualsAndHashcode] after test
+[2020-02-16T11:20:53,667][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testMergeIncompatible] before test
+[2020-02-16T11:20:53,667][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testMergeIncompatible] after test
+[2020-02-16T11:20:53,669][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testConvert] before test
+[2020-02-16T11:20:53,674][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testConvert] after test
+[2020-02-16T11:20:53,680][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testSerialization] before test
+[2020-02-16T11:20:53,682][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testSerialization] after test
+[2020-02-16T11:20:53,686][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testBadParameters] before test
+[2020-02-16T11:20:53,687][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testBadParameters] after test
+[2020-02-16T11:20:53,695][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testConvertTwice] before test
+[2020-02-16T11:20:53,698][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testConvertTwice] after test
+[2020-02-16T11:20:53,732][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testExact] before test
+[2020-02-16T11:20:53,732][INFO ][o.e.c.u.SetBackedScalingCuckooFilterTests] [testExact] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

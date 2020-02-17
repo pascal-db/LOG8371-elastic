@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.metadata.MetaDataMappingServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.metadata.MetaDataMappingServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.metadata.html">org.elasticsearch.cluster.metadata</a> &gt; MetaDataMappingServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">7</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.821s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testClusterStateIsNotChangedWithIdenticalMappings</td>
+<td class="success">0.119s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForbidMultipleTypes</td>
+<td class="success">0.174s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForbidMultipleTypesWithConflictingMappings</td>
+<td class="success">0.957s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMappingClusterStateUpdateDoesntChangeExistingIndices</td>
+<td class="success">0.137s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMappingUpdateAccepts_docAsType</td>
+<td class="success">0.174s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMappingVersion</td>
+<td class="success">0.127s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMappingVersionUnchanged</td>
+<td class="success">0.133s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T18:20:34,906][INFO ][o.e.e.NodeEnvironment    ] [testForbidMultipleTypesWithConflictingMappings] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:20:34,907][INFO ][o.e.e.NodeEnvironment    ] [testForbidMultipleTypesWithConflictingMappings] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:20:34,909][INFO ][o.e.n.Node               ] [testForbidMultipleTypesWithConflictingMappings] node name [node_s_0], node ID [iB4wawzNSsaC1snBAkZ3vg], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[2957407382114277754]-HASH=[124AD9C44A2]]
+[2020-02-16T18:20:34,909][INFO ][o.e.n.Node               ] [testForbidMultipleTypesWithConflictingMappings] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:20:34,909][INFO ][o.e.n.Node               ] [testForbidMultipleTypesWithConflictingMappings] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:20:34,909][INFO ][o.e.n.Node               ] [testForbidMultipleTypesWithConflictingMappings] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:20:34,909][INFO ][o.e.p.PluginsService     ] [testForbidMultipleTypesWithConflictingMappings] no modules loaded
+[2020-02-16T18:20:34,910][INFO ][o.e.p.PluginsService     ] [testForbidMultipleTypesWithConflictingMappings] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-16T18:20:34,910][INFO ][o.e.p.PluginsService     ] [testForbidMultipleTypesWithConflictingMappings] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:20:34,910][INFO ][o.e.p.PluginsService     ] [testForbidMultipleTypesWithConflictingMappings] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:20:35,178][INFO ][o.e.d.DiscoveryModule    ] [testForbidMultipleTypesWithConflictingMappings] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:20:35,189][INFO ][o.e.n.Node               ] [testForbidMultipleTypesWithConflictingMappings] initialized
+[2020-02-16T18:20:35,189][INFO ][o.e.n.Node               ] [testForbidMultipleTypesWithConflictingMappings] starting ...
+[2020-02-16T18:20:35,585][INFO ][o.e.t.TransportService   ] [testForbidMultipleTypesWithConflictingMappings] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T18:20:35,595][INFO ][o.e.c.c.Coordinator      ] [testForbidMultipleTypesWithConflictingMappings] setting initial configuration to VotingConfiguration{iB4wawzNSsaC1snBAkZ3vg}
+[2020-02-16T18:20:35,628][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{iB4wawzNSsaC1snBAkZ3vg}{fHVmIKoPQH6Q3Y_t2d3_aA}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{iB4wawzNSsaC1snBAkZ3vg}{fHVmIKoPQH6Q3Y_t2d3_aA}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-16T18:20:35,637][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [qgHc9dFCTC6K9EvZBy4C3Q]
+[2020-02-16T18:20:35,644][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{iB4wawzNSsaC1snBAkZ3vg}{fHVmIKoPQH6Q3Y_t2d3_aA}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:20:35,645][INFO ][o.e.n.Node               ] [testForbidMultipleTypesWithConflictingMappings] started
+[2020-02-16T18:20:35,655][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:20:35,657][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:20:35,667][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:20:35,678][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testForbidMultipleTypesWithConflictingMappings] before test
+[2020-02-16T18:20:35,682][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [_doc]
+[2020-02-16T18:20:35,766][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T18:20:35,801][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testForbidMultipleTypesWithConflictingMappings] after test
+[2020-02-16T18:20:35,801][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/xnEC3Oe9R0qGIvdBdepTyA] deleting index
+[2020-02-16T18:20:35,849][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testMappingClusterStateUpdateDoesntChangeExistingIndices] before test
+[2020-02-16T18:20:35,853][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T18:20:35,918][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T18:20:35,937][INFO ][o.e.c.m.MetaDataMappingService] [testMappingClusterStateUpdateDoesntChangeExistingIndices] [test/h-pOj_tQT2uKw12C8bHRzA] update_mapping [type]
+[2020-02-16T18:20:35,937][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testMappingClusterStateUpdateDoesntChangeExistingIndices] after test
+[2020-02-16T18:20:35,938][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/h-pOj_tQT2uKw12C8bHRzA] deleting index
+[2020-02-16T18:20:35,996][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testClusterStateIsNotChangedWithIdenticalMappings] before test
+[2020-02-16T18:20:36,001][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T18:20:36,067][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T18:20:36,078][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testClusterStateIsNotChangedWithIdenticalMappings] after test
+[2020-02-16T18:20:36,078][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/WGQ7X33fR3iif8WfAw5BFA] deleting index
+[2020-02-16T18:20:36,112][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testMappingUpdateAccepts_docAsType] before test
+[2020-02-16T18:20:36,124][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [my_type]
+[2020-02-16T18:20:36,195][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T18:20:36,216][INFO ][o.e.c.m.MetaDataMappingService] [testMappingUpdateAccepts_docAsType] [test/G4Lh9DpLSOS7-FjrKrb99A] update_mapping [my_type]
+[2020-02-16T18:20:36,217][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testMappingUpdateAccepts_docAsType] after test
+[2020-02-16T18:20:36,222][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/G4Lh9DpLSOS7-FjrKrb99A] deleting index
+[2020-02-16T18:20:36,281][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testMappingVersion] before test
+[2020-02-16T18:20:36,286][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T18:20:36,351][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T18:20:36,366][INFO ][o.e.c.m.MetaDataMappingService] [testMappingVersion] [test/V9GoKLZ7QE2skdqzMpXaTQ] update_mapping [type]
+[2020-02-16T18:20:36,366][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testMappingVersion] after test
+[2020-02-16T18:20:36,367][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/V9GoKLZ7QE2skdqzMpXaTQ] deleting index
+[2020-02-16T18:20:36,416][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testMappingVersionUnchanged] before test
+[2020-02-16T18:20:36,420][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T18:20:36,485][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T18:20:36,505][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testMappingVersionUnchanged] after test
+[2020-02-16T18:20:36,507][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/bSyNir3wTnGFXulgxITREA] deleting index
+[2020-02-16T18:20:36,548][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testForbidMultipleTypes] before test
+[2020-02-16T18:20:36,550][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [_doc]
+[2020-02-16T18:20:36,644][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T18:20:36,674][INFO ][o.e.c.m.MetaDataMappingServiceTests] [testForbidMultipleTypes] after test
+[2020-02-16T18:20:36,675][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/VGG3rYT_SkyQ4lAXByzKyQ] deleting index
+[2020-02-16T18:20:36,712][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T18:20:36,720][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T18:20:36,720][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T18:20:36,721][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

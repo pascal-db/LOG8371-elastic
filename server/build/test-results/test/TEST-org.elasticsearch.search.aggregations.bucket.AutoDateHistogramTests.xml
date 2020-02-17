@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.AutoDateHistogramTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:07" hostname="Escoto-PC" time="0.042">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.AutoDateHistogramTests" time="0.021"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.AutoDateHistogramTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.AutoDateHistogramTests" time="0.003"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.AutoDateHistogramTests" time="0.005"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.AutoDateHistogramTests" time="0.002"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.AutoDateHistogramTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.AutoDateHistogramTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T11:24:07,452][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testFromXContentMulti] before test
+[2020-02-17T11:24:07,454][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T11:24:07,454][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T11:24:07,466][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T11:24:07,466][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T11:24:07,471][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testFromXContentMulti] after test
+[2020-02-17T11:24:07,475][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testSerialization] before test
+[2020-02-17T11:24:07,475][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testSerialization] after test
+[2020-02-17T11:24:07,477][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testEqualsAndHashcode] before test
+[2020-02-17T11:24:07,478][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testEqualsAndHashcode] after test
+[2020-02-17T11:24:07,482][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testSerializationMulti] before test
+[2020-02-17T11:24:07,483][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testSerializationMulti] after test
+[2020-02-17T11:24:07,486][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testShallowCopy] before test
+[2020-02-17T11:24:07,487][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testShallowCopy] after test
+[2020-02-17T11:24:07,488][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testToString] before test
+[2020-02-17T11:24:07,488][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testToString] after test
+[2020-02-17T11:24:07,491][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testFromXContent] before test
+[2020-02-17T11:24:07,492][INFO ][o.e.s.a.b.AutoDateHistogramTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

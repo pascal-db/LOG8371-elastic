@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.BinaryFieldTypeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:55" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.BinaryFieldTypeTests" time="0.008"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.BinaryFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.BinaryFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.BinaryFieldTypeTests" time="0.003"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.BinaryFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:22:55,168][INFO ][o.e.i.m.BinaryFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T19:22:55,169][INFO ][o.e.i.m.BinaryFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T19:22:55,171][INFO ][o.e.i.m.BinaryFieldTypeTests] [testEquals] before test
+[2020-02-16T19:22:55,171][INFO ][o.e.i.m.BinaryFieldTypeTests] [testEquals] after test
+[2020-02-16T19:22:55,173][INFO ][o.e.i.m.BinaryFieldTypeTests] [testFreeze] before test
+[2020-02-16T19:22:55,173][INFO ][o.e.i.m.BinaryFieldTypeTests] [testFreeze] after test
+[2020-02-16T19:22:55,175][INFO ][o.e.i.m.BinaryFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T19:22:55,176][INFO ][o.e.i.m.BinaryFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T19:22:55,178][INFO ][o.e.i.m.BinaryFieldTypeTests] [testClone] before test
+[2020-02-16T19:22:55,178][INFO ][o.e.i.m.BinaryFieldTypeTests] [testClone] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

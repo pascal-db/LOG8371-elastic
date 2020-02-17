@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.TopHitsAggregatorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:26" hostname="Escoto-PC" time="0.31">
+  <properties/>
+  <testcase name="testNoResults" classname="org.elasticsearch.search.aggregations.metrics.TopHitsAggregatorTests" time="0.038"/>
+  <testcase name="testSortByScore" classname="org.elasticsearch.search.aggregations.metrics.TopHitsAggregatorTests" time="0.032"/>
+  <testcase name="testTopLevel" classname="org.elasticsearch.search.aggregations.metrics.TopHitsAggregatorTests" time="0.014"/>
+  <testcase name="testInsideTerms" classname="org.elasticsearch.search.aggregations.metrics.TopHitsAggregatorTests" time="0.068"/>
+  <testcase name="testSetScorer" classname="org.elasticsearch.search.aggregations.metrics.TopHitsAggregatorTests" time="0.158"/>
+  <system-out><![CDATA[[2020-02-16T17:24:26,976][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testNoResults] before test
+[2020-02-16T17:24:27,011][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testNoResults] after test
+[2020-02-16T17:24:27,014][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testSortByScore] before test
+[2020-02-16T17:24:27,043][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testSortByScore] after test
+[2020-02-16T17:24:27,046][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testTopLevel] before test
+[2020-02-16T17:24:27,057][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testTopLevel] after test
+[2020-02-16T17:24:27,059][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testInsideTerms] before test
+[2020-02-16T17:24:27,125][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testInsideTerms] after test
+[2020-02-16T17:24:27,128][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testSetScorer] before test
+[2020-02-16T17:24:27,283][INFO ][o.e.s.a.m.TopHitsAggregatorTests] [testSetScorer] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

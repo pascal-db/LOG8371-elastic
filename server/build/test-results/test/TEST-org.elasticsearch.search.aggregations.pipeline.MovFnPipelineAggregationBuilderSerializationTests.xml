@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.MovFnPipelineAggregationBuilderSerializationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:28" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.MovFnPipelineAggregationBuilderSerializationTests" time="0.008"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.MovFnPipelineAggregationBuilderSerializationTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.MovFnPipelineAggregationBuilderSerializationTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T16:24:28,380][INFO ][o.e.s.a.p.MovFnPipelineAggregationBuilderSerializationTests] [testEqualsAndHashcode] before test
+[2020-02-16T16:24:28,385][INFO ][o.e.s.a.p.MovFnPipelineAggregationBuilderSerializationTests] [testEqualsAndHashcode] after test
+[2020-02-16T16:24:28,388][INFO ][o.e.s.a.p.MovFnPipelineAggregationBuilderSerializationTests] [testFromXContent] before test
+[2020-02-16T16:24:28,394][INFO ][o.e.s.a.p.MovFnPipelineAggregationBuilderSerializationTests] [testFromXContent] after test
+[2020-02-16T16:24:28,397][INFO ][o.e.s.a.p.MovFnPipelineAggregationBuilderSerializationTests] [testSerialization] before test
+[2020-02-16T16:24:28,399][INFO ][o.e.s.a.p.MovFnPipelineAggregationBuilderSerializationTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

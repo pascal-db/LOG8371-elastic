@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.PrecisionAtKTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:50" hostname="Escoto-PC" time="0.45">
+  <properties/>
+  <testcase name="testPrecisionAtFiveCorrectIndex" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.017"/>
+  <testcase name="testPrecisionAtFiveRelevanceThreshold" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.063"/>
+  <testcase name="testIgnoreUnlabeled" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.024"/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.019"/>
+  <testcase name="testPrecisionAtFiveCalculation" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.009"/>
+  <testcase name="testNoResults" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.031"/>
+  <testcase name="testPrecisionAtFiveIgnoreOneResult" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.031"/>
+  <testcase name="testXContentRoundtrip" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.124"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.035"/>
+  <testcase name="testInvalidK" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.027"/>
+  <testcase name="testParseFromXContent" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.012"/>
+  <testcase name="testNoRatedDocs" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.027"/>
+  <testcase name="testInvalidRelevantThreshold" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.003"/>
+  <testcase name="testCombine" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.006"/>
+  <testcase name="testXContentParsingIsNotLenient" classname="org.elasticsearch.index.rankeval.PrecisionAtKTests" time="0.018"/>
+  <system-out><![CDATA[[2020-02-16T16:41:50,937][INFO ][o.e.i.r.PrecisionAtKTests] [testPrecisionAtFiveCorrectIndex] before test
+[2020-02-16T16:41:50,947][INFO ][o.e.i.r.PrecisionAtKTests] [testPrecisionAtFiveCorrectIndex] after test
+[2020-02-16T16:41:51,008][INFO ][o.e.i.r.PrecisionAtKTests] [testPrecisionAtFiveRelevanceThreshold] before test
+[2020-02-16T16:41:51,010][INFO ][o.e.i.r.PrecisionAtKTests] [testPrecisionAtFiveRelevanceThreshold] after test
+[2020-02-16T16:41:51,034][INFO ][o.e.i.r.PrecisionAtKTests] [testIgnoreUnlabeled] before test
+[2020-02-16T16:41:51,035][INFO ][o.e.i.r.PrecisionAtKTests] [testIgnoreUnlabeled] after test
+[2020-02-16T16:41:51,054][INFO ][o.e.i.r.PrecisionAtKTests] [testEqualsAndHash] before test
+[2020-02-16T16:41:51,055][INFO ][o.e.i.r.PrecisionAtKTests] [testEqualsAndHash] after test
+[2020-02-16T16:41:51,063][INFO ][o.e.i.r.PrecisionAtKTests] [testPrecisionAtFiveCalculation] before test
+[2020-02-16T16:41:51,065][INFO ][o.e.i.r.PrecisionAtKTests] [testPrecisionAtFiveCalculation] after test
+[2020-02-16T16:41:51,095][INFO ][o.e.i.r.PrecisionAtKTests] [testNoResults] before test
+[2020-02-16T16:41:51,096][INFO ][o.e.i.r.PrecisionAtKTests] [testNoResults] after test
+[2020-02-16T16:41:51,121][INFO ][o.e.i.r.PrecisionAtKTests] [testPrecisionAtFiveIgnoreOneResult] before test
+[2020-02-16T16:41:51,127][INFO ][o.e.i.r.PrecisionAtKTests] [testPrecisionAtFiveIgnoreOneResult] after test
+[2020-02-16T16:41:51,155][INFO ][o.e.i.r.PrecisionAtKTests] [testXContentRoundtrip] before test
+[2020-02-16T16:41:51,250][INFO ][o.e.i.r.PrecisionAtKTests] [testXContentRoundtrip] after test
+[2020-02-16T16:41:51,285][INFO ][o.e.i.r.PrecisionAtKTests] [testSerialization] before test
+[2020-02-16T16:41:51,286][INFO ][o.e.i.r.PrecisionAtKTests] [testSerialization] after test
+[2020-02-16T16:41:51,312][INFO ][o.e.i.r.PrecisionAtKTests] [testInvalidK] before test
+[2020-02-16T16:41:51,313][INFO ][o.e.i.r.PrecisionAtKTests] [testInvalidK] after test
+[2020-02-16T16:41:51,325][INFO ][o.e.i.r.PrecisionAtKTests] [testParseFromXContent] before test
+[2020-02-16T16:41:51,326][INFO ][o.e.i.r.PrecisionAtKTests] [testParseFromXContent] after test
+[2020-02-16T16:41:51,350][INFO ][o.e.i.r.PrecisionAtKTests] [testNoRatedDocs] before test
+[2020-02-16T16:41:51,350][INFO ][o.e.i.r.PrecisionAtKTests] [testNoRatedDocs] after test
+[2020-02-16T16:41:51,355][INFO ][o.e.i.r.PrecisionAtKTests] [testInvalidRelevantThreshold] before test
+[2020-02-16T16:41:51,356][INFO ][o.e.i.r.PrecisionAtKTests] [testInvalidRelevantThreshold] after test
+[2020-02-16T16:41:51,357][INFO ][o.e.i.r.PrecisionAtKTests] [testCombine] before test
+[2020-02-16T16:41:51,361][INFO ][o.e.i.r.PrecisionAtKTests] [testCombine] after test
+[2020-02-16T16:41:51,371][INFO ][o.e.i.r.PrecisionAtKTests] [testXContentParsingIsNotLenient] before test
+[2020-02-16T16:41:51,379][INFO ][o.e.i.r.PrecisionAtKTests] [testXContentParsingIsNotLenient] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

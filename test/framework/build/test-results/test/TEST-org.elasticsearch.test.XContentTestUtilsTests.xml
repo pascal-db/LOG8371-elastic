@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.XContentTestUtilsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:54" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testInsertRandomXContent" classname="org.elasticsearch.test.XContentTestUtilsTests" time="0.014"/>
+  <testcase name="testGetInsertPaths" classname="org.elasticsearch.test.XContentTestUtilsTests" time="0.006"/>
+  <testcase name="testInsertIntoXContent" classname="org.elasticsearch.test.XContentTestUtilsTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T12:48:54,898][INFO ][o.e.t.XContentTestUtilsTests] [testInsertRandomXContent] before test
+[2020-02-17T12:48:54,907][INFO ][o.e.t.XContentTestUtilsTests] [testInsertRandomXContent] after test
+[2020-02-17T12:48:54,910][INFO ][o.e.t.XContentTestUtilsTests] [testGetInsertPaths] before test
+[2020-02-17T12:48:54,913][INFO ][o.e.t.XContentTestUtilsTests] [testGetInsertPaths] after test
+[2020-02-17T12:48:54,918][INFO ][o.e.t.XContentTestUtilsTests] [testInsertIntoXContent] before test
+[2020-02-17T12:48:54,920][INFO ][o.e.t.XContentTestUtilsTests] [testInsertIntoXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

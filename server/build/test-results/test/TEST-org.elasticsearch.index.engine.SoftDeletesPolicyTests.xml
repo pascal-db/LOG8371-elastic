@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.engine.SoftDeletesPolicyTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:35" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testWhenRetentionLeasesDictateThePolicy" classname="org.elasticsearch.index.engine.SoftDeletesPolicyTests" time="0.005"/>
+  <testcase name="testSoftDeletesRetentionLock" classname="org.elasticsearch.index.engine.SoftDeletesPolicyTests" time="0.005"/>
+  <testcase name="testWhenGlobalCheckpointDictatesThePolicy" classname="org.elasticsearch.index.engine.SoftDeletesPolicyTests" time="0.008"/>
+  <testcase name="testWhenLocalCheckpointOfSafeCommitDictatesThePolicy" classname="org.elasticsearch.index.engine.SoftDeletesPolicyTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T16:22:35,481][INFO ][o.e.i.e.SoftDeletesPolicyTests] [testWhenRetentionLeasesDictateThePolicy] before test
+[2020-02-16T16:22:35,484][INFO ][o.e.i.e.SoftDeletesPolicyTests] [testWhenRetentionLeasesDictateThePolicy] after test
+[2020-02-16T16:22:35,486][INFO ][o.e.i.e.SoftDeletesPolicyTests] [testSoftDeletesRetentionLock] before test
+[2020-02-16T16:22:35,489][INFO ][o.e.i.e.SoftDeletesPolicyTests] [testSoftDeletesRetentionLock] after test
+[2020-02-16T16:22:35,497][INFO ][o.e.i.e.SoftDeletesPolicyTests] [testWhenGlobalCheckpointDictatesThePolicy] before test
+[2020-02-16T16:22:35,498][INFO ][o.e.i.e.SoftDeletesPolicyTests] [testWhenGlobalCheckpointDictatesThePolicy] after test
+[2020-02-16T16:22:35,500][INFO ][o.e.i.e.SoftDeletesPolicyTests] [testWhenLocalCheckpointOfSafeCommitDictatesThePolicy] before test
+[2020-02-16T16:22:35,501][INFO ][o.e.i.e.SoftDeletesPolicyTests] [testWhenLocalCheckpointOfSafeCommitDictatesThePolicy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

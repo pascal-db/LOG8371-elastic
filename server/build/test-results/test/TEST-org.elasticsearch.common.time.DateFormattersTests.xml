@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.time.DateFormattersTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:54" hostname="Escoto-PC" time="0.065">
+  <properties/>
+  <testcase name="testRoundupFormatterLocale" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.004"/>
+  <testcase name="testParsersWithMultipleInternalFormats" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.003"/>
+  <testcase name="testRoundupFormatterZone" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.004"/>
+  <testcase name="test0MillisAreFormatted" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.005"/>
+  <testcase name="testTimeZones" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.002"/>
+  <testcase name="testRoundupFormatterWithEpochDates" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.006"/>
+  <testcase name="testFractionalSeconds" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.013"/>
+  <testcase name="testInvalidEpochMilliParser" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.003"/>
+  <testcase name="testEpochFormatting" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.004"/>
+  <testcase name="testSupportBackwardsJava8Format" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.002"/>
+  <testcase name="testEpochSecondParserWithFraction" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.003"/>
+  <testcase name="testLocales" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.002"/>
+  <testcase name="testIso8601Parsing" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.003"/>
+  <testcase name="testParsingStrictNanoDates" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.002"/>
+  <testcase name="testEpochMilliParsersWithDifferentFormatters" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.002"/>
+  <testcase name="testEpochMillisParser" classname="org.elasticsearch.common.time.DateFormattersTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:21:54,754][INFO ][o.e.c.t.DateFormattersTests] [testRoundupFormatterLocale] before test
+[2020-02-16T22:21:54,756][INFO ][o.e.c.t.DateFormattersTests] [testRoundupFormatterLocale] after test
+[2020-02-16T22:21:54,759][INFO ][o.e.c.t.DateFormattersTests] [testParsersWithMultipleInternalFormats] before test
+[2020-02-16T22:21:54,759][INFO ][o.e.c.t.DateFormattersTests] [testParsersWithMultipleInternalFormats] after test
+[2020-02-16T22:21:54,762][INFO ][o.e.c.t.DateFormattersTests] [testRoundupFormatterZone] before test
+[2020-02-16T22:21:54,763][INFO ][o.e.c.t.DateFormattersTests] [testRoundupFormatterZone] after test
+[2020-02-16T22:21:54,766][INFO ][o.e.c.t.DateFormattersTests] [test0MillisAreFormatted] before test
+[2020-02-16T22:21:54,768][INFO ][o.e.c.t.DateFormattersTests] [test0MillisAreFormatted] after test
+[2020-02-16T22:21:54,771][INFO ][o.e.c.t.DateFormattersTests] [testTimeZones] before test
+[2020-02-16T22:21:54,772][INFO ][o.e.c.t.DateFormattersTests] [testTimeZones] after test
+[2020-02-16T22:21:54,774][INFO ][o.e.c.t.DateFormattersTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:21:54,775][INFO ][o.e.c.t.DateFormattersTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:21:54,778][INFO ][o.e.c.t.DateFormattersTests] [testRoundupFormatterWithEpochDates] before test
+[2020-02-16T22:21:54,781][INFO ][o.e.c.t.DateFormattersTests] [testRoundupFormatterWithEpochDates] after test
+[2020-02-16T22:21:54,793][INFO ][o.e.c.t.DateFormattersTests] [testFractionalSeconds] before test
+[2020-02-16T22:21:54,794][INFO ][o.e.c.t.DateFormattersTests] [testFractionalSeconds] after test
+[2020-02-16T22:21:54,796][INFO ][o.e.c.t.DateFormattersTests] [testInvalidEpochMilliParser] before test
+[2020-02-16T22:21:54,797][INFO ][o.e.c.t.DateFormattersTests] [testInvalidEpochMilliParser] after test
+[2020-02-16T22:21:54,800][INFO ][o.e.c.t.DateFormattersTests] [testEpochFormatting] before test
+[2020-02-16T22:21:54,801][INFO ][o.e.c.t.DateFormattersTests] [testEpochFormatting] after test
+[2020-02-16T22:21:54,803][INFO ][o.e.c.t.DateFormattersTests] [testSupportBackwardsJava8Format] before test
+[2020-02-16T22:21:54,803][INFO ][o.e.c.t.DateFormattersTests] [testSupportBackwardsJava8Format] after test
+[2020-02-16T22:21:54,805][INFO ][o.e.c.t.DateFormattersTests] [testEpochSecondParserWithFraction] before test
+[2020-02-16T22:21:54,806][INFO ][o.e.c.t.DateFormattersTests] [testEpochSecondParserWithFraction] after test
+[2020-02-16T22:21:54,808][INFO ][o.e.c.t.DateFormattersTests] [testLocales] before test
+[2020-02-16T22:21:54,808][INFO ][o.e.c.t.DateFormattersTests] [testLocales] after test
+[2020-02-16T22:21:54,810][INFO ][o.e.c.t.DateFormattersTests] [testIso8601Parsing] before test
+[2020-02-16T22:21:54,811][INFO ][o.e.c.t.DateFormattersTests] [testIso8601Parsing] after test
+[2020-02-16T22:21:54,813][INFO ][o.e.c.t.DateFormattersTests] [testParsingStrictNanoDates] before test
+[2020-02-16T22:21:54,813][INFO ][o.e.c.t.DateFormattersTests] [testParsingStrictNanoDates] after test
+[2020-02-16T22:21:54,815][INFO ][o.e.c.t.DateFormattersTests] [testEpochMilliParsersWithDifferentFormatters] before test
+[2020-02-16T22:21:54,815][INFO ][o.e.c.t.DateFormattersTests] [testEpochMilliParsersWithDifferentFormatters] after test
+[2020-02-16T22:21:54,817][INFO ][o.e.c.t.DateFormattersTests] [testEpochMillisParser] before test
+[2020-02-16T22:21:54,817][INFO ][o.e.c.t.DateFormattersTests] [testEpochMillisParser] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

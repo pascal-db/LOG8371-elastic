@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:53" hostname="Escoto-PC" time="0.298">
+  <properties/>
+  <testcase name="testWriteMapWithNullKeys" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.003"/>
+  <testcase name="testPrettyWithLfAtEnd" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.004"/>
+  <testcase name="testReuseJsonGenerator" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.002"/>
+  <testcase name="testMissingEndObject" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.019"/>
+  <testcase name="testWriteMapValueWithNullKeys" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.002"/>
+  <testcase name="testRaw" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.002"/>
+  <testcase name="testSimpleGenerator" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.001"/>
+  <testcase name="testByteConversion" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.001"/>
+  <testcase name="testCopyCurrentStructure" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.128"/>
+  <testcase name="testHandlingOfPath_StringName" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.083"/>
+  <testcase name="testHandlingOfPath_absolute" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.003"/>
+  <testcase name="testRenderGeoPoint" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.001"/>
+  <testcase name="testWriteFieldMapWithNullKeys" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.002"/>
+  <testcase name="testHandlingOfPath_relative" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.001"/>
+  <testcase name="testHandlingOfCollectionOfPaths" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.003"/>
+  <testcase name="testMissingEndArray" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.023"/>
+  <testcase name="testWritingBinaryToStream" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.002"/>
+  <testcase name="testDateTypesConversion" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.003"/>
+  <testcase name="testHandlingOfPath" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.004"/>
+  <testcase name="testOverloadedList" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.005"/>
+  <testcase name="testIndentIsPlatformIndependent" classname="org.elasticsearch.common.xcontent.builder.XContentBuilderTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T23:20:53,798][INFO ][o.e.c.x.b.XContentBuilderTests] [testWriteMapWithNullKeys] before test
+[2020-02-16T23:20:53,799][INFO ][o.e.c.x.b.XContentBuilderTests] [testWriteMapWithNullKeys] after test
+[2020-02-16T23:20:53,802][INFO ][o.e.c.x.b.XContentBuilderTests] [testPrettyWithLfAtEnd] before test
+[2020-02-16T23:20:53,803][INFO ][o.e.c.x.b.XContentBuilderTests] [testPrettyWithLfAtEnd] after test
+[2020-02-16T23:20:53,804][INFO ][o.e.c.x.b.XContentBuilderTests] [testReuseJsonGenerator] before test
+[2020-02-16T23:20:53,805][INFO ][o.e.c.x.b.XContentBuilderTests] [testReuseJsonGenerator] after test
+[2020-02-16T23:20:53,808][INFO ][o.e.c.x.b.XContentBuilderTests] [testMissingEndObject] before test
+[2020-02-16T23:20:53,824][INFO ][o.e.c.x.b.XContentBuilderTests] [testMissingEndObject] after test
+[2020-02-16T23:20:53,827][INFO ][o.e.c.x.b.XContentBuilderTests] [testWriteMapValueWithNullKeys] before test
+[2020-02-16T23:20:53,827][INFO ][o.e.c.x.b.XContentBuilderTests] [testWriteMapValueWithNullKeys] after test
+[2020-02-16T23:20:53,829][INFO ][o.e.c.x.b.XContentBuilderTests] [testRaw] before test
+[2020-02-16T23:20:53,829][INFO ][o.e.c.x.b.XContentBuilderTests] [testRaw] after test
+[2020-02-16T23:20:53,830][INFO ][o.e.c.x.b.XContentBuilderTests] [testSimpleGenerator] before test
+[2020-02-16T23:20:53,830][INFO ][o.e.c.x.b.XContentBuilderTests] [testSimpleGenerator] after test
+[2020-02-16T23:20:53,832][INFO ][o.e.c.x.b.XContentBuilderTests] [testByteConversion] before test
+[2020-02-16T23:20:53,832][INFO ][o.e.c.x.b.XContentBuilderTests] [testByteConversion] after test
+[2020-02-16T23:20:53,834][INFO ][o.e.c.x.b.XContentBuilderTests] [testCopyCurrentStructure] before test
+[2020-02-16T23:20:53,960][INFO ][o.e.c.x.b.XContentBuilderTests] [testCopyCurrentStructure] after test
+[2020-02-16T23:20:54,043][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfPath_StringName] before test
+[2020-02-16T23:20:54,043][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfPath_StringName] after test
+[2020-02-16T23:20:54,045][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfPath_absolute] before test
+[2020-02-16T23:20:54,046][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfPath_absolute] after test
+[2020-02-16T23:20:54,047][INFO ][o.e.c.x.b.XContentBuilderTests] [testRenderGeoPoint] before test
+[2020-02-16T23:20:54,047][INFO ][o.e.c.x.b.XContentBuilderTests] [testRenderGeoPoint] after test
+[2020-02-16T23:20:54,049][INFO ][o.e.c.x.b.XContentBuilderTests] [testWriteFieldMapWithNullKeys] before test
+[2020-02-16T23:20:54,049][INFO ][o.e.c.x.b.XContentBuilderTests] [testWriteFieldMapWithNullKeys] after test
+[2020-02-16T23:20:54,050][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfPath_relative] before test
+[2020-02-16T23:20:54,050][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfPath_relative] after test
+[2020-02-16T23:20:54,053][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfCollectionOfPaths] before test
+[2020-02-16T23:20:54,053][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfCollectionOfPaths] after test
+[2020-02-16T23:20:54,075][INFO ][o.e.c.x.b.XContentBuilderTests] [testMissingEndArray] before test
+[2020-02-16T23:20:54,076][INFO ][o.e.c.x.b.XContentBuilderTests] [testMissingEndArray] after test
+[2020-02-16T23:20:54,077][INFO ][o.e.c.x.b.XContentBuilderTests] [testWritingBinaryToStream] before test
+[2020-02-16T23:20:54,078][INFO ][o.e.c.x.b.XContentBuilderTests] [testWritingBinaryToStream] after test
+[2020-02-16T23:20:54,081][INFO ][o.e.c.x.b.XContentBuilderTests] [testDateTypesConversion] before test
+[2020-02-16T23:20:54,081][INFO ][o.e.c.x.b.XContentBuilderTests] [testDateTypesConversion] after test
+[2020-02-16T23:20:54,084][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfPath] before test
+[2020-02-16T23:20:54,085][INFO ][o.e.c.x.b.XContentBuilderTests] [testHandlingOfPath] after test
+[2020-02-16T23:20:54,088][INFO ][o.e.c.x.b.XContentBuilderTests] [testOverloadedList] before test
+[2020-02-16T23:20:54,090][INFO ][o.e.c.x.b.XContentBuilderTests] [testOverloadedList] after test
+[2020-02-16T23:20:54,093][INFO ][o.e.c.x.b.XContentBuilderTests] [testIndentIsPlatformIndependent] before test
+[2020-02-16T23:20:54,094][INFO ][o.e.c.x.b.XContentBuilderTests] [testIndentIsPlatformIndependent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

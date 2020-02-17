@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.bootstrap.JarHellTests" tests="17" skipped="2" failures="0" errors="0" timestamp="2020-02-16T22:50:14" hostname="Escoto-PC" time="2.564">
+  <properties/>
+  <testcase name="testRequiredJDKVersionIsOK" classname="org.elasticsearch.bootstrap.JarHellTests" time="1.949"/>
+  <testcase name="testDirsOnClasspath" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.115"/>
+  <testcase name="testXmlBeansLeniency" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.202"/>
+  <testcase name="testDifferentJars" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.028"/>
+  <testcase name="testInvalidVersions" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.018"/>
+  <testcase name="testEmptyClassPathWindows" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.017"/>
+  <testcase name="testWithinSingleJar" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.017"/>
+  <testcase name="testDirAndJar" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.034"/>
+  <testcase name="testModuleInfoPackage" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.037"/>
+  <testcase name="testParseClassPathWindows" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.025"/>
+  <testcase name="testValidVersions" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.017"/>
+  <testcase name="testParseClassPathUnix" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.006">
+    <skipped/>
+  </testcase>
+  <testcase name="testEmptyClassPathUnix" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase name="testBadJDKVersionInJar" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.037"/>
+  <testcase name="testRequiredJDKVersionTooOld" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.008"/>
+  <testcase name="testCrazyEclipseClassPathWindows" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.013"/>
+  <testcase name="testModuleInfo" classname="org.elasticsearch.bootstrap.JarHellTests" time="0.022"/>
+  <system-out><![CDATA[[2020-02-16T17:50:14,641][INFO ][o.e.b.JarHellTests       ] [testRequiredJDKVersionIsOK] before test
+[2020-02-16T17:50:16,538][INFO ][o.e.b.JarHellTests       ] [testRequiredJDKVersionIsOK] after test
+[2020-02-16T17:50:16,649][INFO ][o.e.b.JarHellTests       ] [testDirsOnClasspath] before test
+[2020-02-16T17:50:16,663][INFO ][o.e.b.JarHellTests       ] [testDirsOnClasspath] after test
+[2020-02-16T17:50:16,851][INFO ][o.e.b.JarHellTests       ] [testXmlBeansLeniency] before test
+[2020-02-16T17:50:16,866][INFO ][o.e.b.JarHellTests       ] [testXmlBeansLeniency] after test
+[2020-02-16T17:50:16,888][INFO ][o.e.b.JarHellTests       ] [testDifferentJars] before test
+[2020-02-16T17:50:16,896][INFO ][o.e.b.JarHellTests       ] [testDifferentJars] after test
+[2020-02-16T17:50:16,912][INFO ][o.e.b.JarHellTests       ] [testInvalidVersions] before test
+[2020-02-16T17:50:16,914][INFO ][o.e.b.JarHellTests       ] [testInvalidVersions] after test
+[2020-02-16T17:50:16,931][INFO ][o.e.b.JarHellTests       ] [testEmptyClassPathWindows] before test
+[2020-02-16T17:50:16,932][INFO ][o.e.b.JarHellTests       ] [testEmptyClassPathWindows] after test
+[2020-02-16T17:50:16,937][INFO ][o.e.b.JarHellTests       ] [testWithinSingleJar] before test
+[2020-02-16T17:50:16,948][INFO ][o.e.b.JarHellTests       ] [testWithinSingleJar] after test
+[2020-02-16T17:50:16,976][INFO ][o.e.b.JarHellTests       ] [testDirAndJar] before test
+[2020-02-16T17:50:16,983][INFO ][o.e.b.JarHellTests       ] [testDirAndJar] after test
+[2020-02-16T17:50:17,021][INFO ][o.e.b.JarHellTests       ] [testModuleInfoPackage] before test
+[2020-02-16T17:50:17,026][INFO ][o.e.b.JarHellTests       ] [testModuleInfoPackage] after test
+[2020-02-16T17:50:17,040][INFO ][o.e.b.JarHellTests       ] [testParseClassPathWindows] before test
+[2020-02-16T17:50:17,053][INFO ][o.e.b.JarHellTests       ] [testParseClassPathWindows] after test
+[2020-02-16T17:50:17,069][INFO ][o.e.b.JarHellTests       ] [testValidVersions] before test
+[2020-02-16T17:50:17,070][INFO ][o.e.b.JarHellTests       ] [testValidVersions] after test
+[2020-02-16T17:50:17,074][INFO ][o.e.b.JarHellTests       ] [testParseClassPathUnix] before test
+[2020-02-16T17:50:17,075][INFO ][o.e.b.JarHellTests       ] [testParseClassPathUnix] after test
+[2020-02-16T17:50:17,079][INFO ][o.e.b.JarHellTests       ] [testEmptyClassPathUnix] before test
+[2020-02-16T17:50:17,079][INFO ][o.e.b.JarHellTests       ] [testEmptyClassPathUnix] after test
+[2020-02-16T17:50:17,112][INFO ][o.e.b.JarHellTests       ] [testBadJDKVersionInJar] before test
+[2020-02-16T17:50:17,117][INFO ][o.e.b.JarHellTests       ] [testBadJDKVersionInJar] after test
+[2020-02-16T17:50:17,120][INFO ][o.e.b.JarHellTests       ] [testRequiredJDKVersionTooOld] before test
+[2020-02-16T17:50:17,125][INFO ][o.e.b.JarHellTests       ] [testRequiredJDKVersionTooOld] after test
+[2020-02-16T17:50:17,141][INFO ][o.e.b.JarHellTests       ] [testCrazyEclipseClassPathWindows] before test
+[2020-02-16T17:50:17,142][INFO ][o.e.b.JarHellTests       ] [testCrazyEclipseClassPathWindows] after test
+[2020-02-16T17:50:17,156][INFO ][o.e.b.JarHellTests       ] [testModuleInfo] before test
+[2020-02-16T17:50:17,164][INFO ][o.e.b.JarHellTests       ] [testModuleInfo] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

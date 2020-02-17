@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.CamelCaseFieldNameTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:56" hostname="Escoto-PC" time="0.857">
+  <properties/>
+  <testcase name="testCamelCaseFieldNameStaysAsIs" classname="org.elasticsearch.index.mapper.CamelCaseFieldNameTests" time="0.857"/>
+  <system-out><![CDATA[[2020-02-16T17:22:56,802][INFO ][o.e.e.NodeEnvironment    ] [testCamelCaseFieldNameStaysAsIs] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T17:22:56,803][INFO ][o.e.e.NodeEnvironment    ] [testCamelCaseFieldNameStaysAsIs] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T17:22:56,806][INFO ][o.e.n.Node               ] [testCamelCaseFieldNameStaysAsIs] node name [node_s_0], node ID [LI2rbwTBRxuIOvBnUYQwpA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-3692932358765141685]-HASH=[145B74E49CB]]
+[2020-02-16T17:22:56,806][INFO ][o.e.n.Node               ] [testCamelCaseFieldNameStaysAsIs] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T17:22:56,806][INFO ][o.e.n.Node               ] [testCamelCaseFieldNameStaysAsIs] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T17:22:56,806][INFO ][o.e.n.Node               ] [testCamelCaseFieldNameStaysAsIs] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T17:22:56,807][INFO ][o.e.p.PluginsService     ] [testCamelCaseFieldNameStaysAsIs] no modules loaded
+[2020-02-16T17:22:56,807][INFO ][o.e.p.PluginsService     ] [testCamelCaseFieldNameStaysAsIs] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T17:22:56,807][INFO ][o.e.p.PluginsService     ] [testCamelCaseFieldNameStaysAsIs] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T17:22:57,022][INFO ][o.e.d.DiscoveryModule    ] [testCamelCaseFieldNameStaysAsIs] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T17:22:57,048][INFO ][o.e.n.Node               ] [testCamelCaseFieldNameStaysAsIs] initialized
+[2020-02-16T17:22:57,048][INFO ][o.e.n.Node               ] [testCamelCaseFieldNameStaysAsIs] starting ...
+[2020-02-16T17:22:57,399][INFO ][o.e.t.TransportService   ] [testCamelCaseFieldNameStaysAsIs] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T17:22:57,408][INFO ][o.e.c.c.Coordinator      ] [testCamelCaseFieldNameStaysAsIs] setting initial configuration to VotingConfiguration{LI2rbwTBRxuIOvBnUYQwpA}
+[2020-02-16T17:22:57,492][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{LI2rbwTBRxuIOvBnUYQwpA}{r8U09xvITQ2h7pCHCbDMgg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{LI2rbwTBRxuIOvBnUYQwpA}{r8U09xvITQ2h7pCHCbDMgg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T17:22:57,499][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [P5vZnACDTXO-eAdYSAtqHQ]
+[2020-02-16T17:22:57,507][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{LI2rbwTBRxuIOvBnUYQwpA}{r8U09xvITQ2h7pCHCbDMgg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T17:22:57,509][INFO ][o.e.n.Node               ] [testCamelCaseFieldNameStaysAsIs] started
+[2020-02-16T17:22:57,514][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T17:22:57,515][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T17:22:57,524][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T17:22:57,532][INFO ][o.e.i.m.CamelCaseFieldNameTests] [testCamelCaseFieldNameStaysAsIs] before test
+[2020-02-16T17:22:57,533][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T17:22:57,588][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:22:57,599][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/hIwAO85bRKqecWKcIICw1g] create_mapping [type]
+[2020-02-16T17:22:57,614][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/hIwAO85bRKqecWKcIICw1g] update_mapping [type]
+[2020-02-16T17:22:57,625][INFO ][o.e.i.m.CamelCaseFieldNameTests] [testCamelCaseFieldNameStaysAsIs] after test
+[2020-02-16T17:22:57,625][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/hIwAO85bRKqecWKcIICw1g] deleting index
+[2020-02-16T17:22:57,649][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T17:22:57,650][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T17:22:57,650][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T17:22:57,651][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

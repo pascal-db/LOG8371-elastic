@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.NewPathForShardTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:25" hostname="Escoto-PC" time="0.131">
+  <properties/>
+  <testcase name="testTieBreakWithMostShards" classname="org.elasticsearch.index.shard.NewPathForShardTests" time="0.043"/>
+  <testcase name="testGettingPathWithMostFreeSpace" classname="org.elasticsearch.index.shard.NewPathForShardTests" time="0.021"/>
+  <testcase name="testSelectNewPathForShard" classname="org.elasticsearch.index.shard.NewPathForShardTests" time="0.029"/>
+  <testcase name="testSelectNewPathForShardEvenly" classname="org.elasticsearch.index.shard.NewPathForShardTests" time="0.037"/>
+  <system-out><![CDATA[[2020-02-17T07:23:25,214][INFO ][o.e.i.s.NewPathForShardTests] [testTieBreakWithMostShards] before test
+[2020-02-17T07:23:25,227][INFO ][o.e.e.NodeEnvironment    ] [testTieBreakWithMostShards] using [2] data paths, mounts [[mocka, mockb]], net usable_space [0b], net total_space [0b], types [mock]
+[2020-02-17T07:23:25,227][INFO ][o.e.e.NodeEnvironment    ] [testTieBreakWithMostShards] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T07:23:25,256][INFO ][o.e.i.s.NewPathForShardTests] [testTieBreakWithMostShards] after test
+[2020-02-17T07:23:25,258][INFO ][o.e.i.s.NewPathForShardTests] [testGettingPathWithMostFreeSpace] before test
+[2020-02-17T07:23:25,271][INFO ][o.e.e.NodeEnvironment    ] [testGettingPathWithMostFreeSpace] using [2] data paths, mounts [[mocka, mockb]], net usable_space [107.4kb], net total_space [322.2kb], types [mock]
+[2020-02-17T07:23:25,271][INFO ][o.e.e.NodeEnvironment    ] [testGettingPathWithMostFreeSpace] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T07:23:25,277][INFO ][o.e.i.s.NewPathForShardTests] [testGettingPathWithMostFreeSpace] after test
+[2020-02-17T07:23:25,279][INFO ][o.e.i.s.NewPathForShardTests] [testSelectNewPathForShard] before test
+[2020-02-17T07:23:25,291][INFO ][o.e.e.NodeEnvironment    ] [testSelectNewPathForShard] using [2] data paths, mounts [[mocka, mockb]], net usable_space [29.2kb], net total_space [87.8kb], types [mock]
+[2020-02-17T07:23:25,291][INFO ][o.e.e.NodeEnvironment    ] [testSelectNewPathForShard] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T07:23:25,306][INFO ][o.e.i.s.NewPathForShardTests] [testSelectNewPathForShard] after test
+[2020-02-17T07:23:25,308][INFO ][o.e.i.s.NewPathForShardTests] [testSelectNewPathForShardEvenly] before test
+[2020-02-17T07:23:25,320][INFO ][o.e.e.NodeEnvironment    ] [testSelectNewPathForShardEvenly] using [2] data paths, mounts [[mocka, mockb]], net usable_space [195.3kb], net total_space [585.9kb], types [mock]
+[2020-02-17T07:23:25,320][INFO ][o.e.e.NodeEnvironment    ] [testSelectNewPathForShardEvenly] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T07:23:25,344][INFO ][o.e.i.s.NewPathForShardTests] [testSelectNewPathForShardEvenly] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

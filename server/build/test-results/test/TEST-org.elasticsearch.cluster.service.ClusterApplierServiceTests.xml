@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.service.ClusterApplierServiceTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:40" hostname="Escoto-PC" time="0.069">
+  <properties/>
+  <testcase name="testLongClusterStateUpdateLogging" classname="org.elasticsearch.cluster.service.ClusterApplierServiceTests" time="0.02"/>
+  <testcase name="testClusterStateApplierBubblesUpExceptionsInApplier" classname="org.elasticsearch.cluster.service.ClusterApplierServiceTests" time="0.005"/>
+  <testcase name="testLocalNodeMasterListenerCallbacks" classname="org.elasticsearch.cluster.service.ClusterApplierServiceTests" time="0.006"/>
+  <testcase name="testClusterStateApplierCantSampleClusterState" classname="org.elasticsearch.cluster.service.ClusterApplierServiceTests" time="0.005"/>
+  <testcase name="testClusterStateApplierBubblesUpExceptionsInSettingsApplier" classname="org.elasticsearch.cluster.service.ClusterApplierServiceTests" time="0.007"/>
+  <testcase name="testClusterStateApplierCanCreateAnObserver" classname="org.elasticsearch.cluster.service.ClusterApplierServiceTests" time="0.004"/>
+  <testcase name="testClusterStateApplierSwallowsExceptionInListener" classname="org.elasticsearch.cluster.service.ClusterApplierServiceTests" time="0.005"/>
+  <testcase name="testClusterStateUpdateLogging" classname="org.elasticsearch.cluster.service.ClusterApplierServiceTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-16T19:20:40,953][WARN ][o.e.c.s.ClusterApplierService] [test_node] cluster state applier task [test2] took [32s] which is above the warn threshold of [30s]: [running task [test2]] took [0ms]
+[2020-02-16T19:20:40,953][WARN ][o.e.c.s.ClusterApplierService] [test_node] cluster state applier task [test3] took [34s] which is above the warn threshold of [30s]: [running task [test3]] took [0ms]
+[2020-02-16T19:20:40,959][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierBubblesUpExceptionsInApplier] before test
+[2020-02-16T19:20:40,961][WARN ][o.e.c.s.ClusterApplierService] [test_node] failed to apply updated cluster state in [0s]:
+version [0], uuid [tJ9hUjpwSfid0ELy0yrzPA], source [test]
+java.lang.RuntimeException: dummy exception
+	at org.elasticsearch.cluster.service.ClusterApplierServiceTests.lambda$testClusterStateApplierBubblesUpExceptionsInApplier$9(ClusterApplierServiceTests.java:359) ~[test/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$callClusterStateAppliers$5(ClusterApplierService.java:517) ~[main/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.callClusterStateAppliers(ClusterApplierService.java:514) ~[main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:485) ~[main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:20:40,962][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierBubblesUpExceptionsInApplier] after test
+[2020-02-16T19:20:40,964][INFO ][o.e.c.s.ClusterApplierServiceTests] [testLocalNodeMasterListenerCallbacks] before test
+[2020-02-16T19:20:40,966][INFO ][o.e.c.s.ClusterApplierService] [test_node] master node changed {previous [], current [{node1}{k1qkYHVjSEK_zXjwq11TCw}{0.0.0.0}{0.0.0.0:4}]}, term: 0, version: 1, reason: test setting state
+[2020-02-16T19:20:40,967][INFO ][o.e.c.s.ClusterApplierService] [test_node] master node changed {previous [{node1}{k1qkYHVjSEK_zXjwq11TCw}{0.0.0.0}{0.0.0.0:4}], current []}, term: 0, version: 1, reason: test setting state
+[2020-02-16T19:20:40,967][INFO ][o.e.c.s.ClusterApplierService] [test_node] master node changed {previous [], current [{node1}{k1qkYHVjSEK_zXjwq11TCw}{0.0.0.0}{0.0.0.0:4}]}, term: 0, version: 1, reason: test setting state
+[2020-02-16T19:20:40,967][INFO ][o.e.c.s.ClusterApplierServiceTests] [testLocalNodeMasterListenerCallbacks] after test
+[2020-02-16T19:20:40,970][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierCantSampleClusterState] before test
+[2020-02-16T19:20:40,973][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierCantSampleClusterState] after test
+[2020-02-16T19:20:40,975][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierBubblesUpExceptionsInSettingsApplier] before test
+[2020-02-16T19:20:40,978][WARN ][o.e.c.s.ClusterSettings  ] [test_node] failed to prepareCommit settings for [Updater for: {
+  "key" : "cluster.routing.allocation.enable",
+  "properties" : [
+    "Dynamic",
+    "NodeScope"
+  ],
+  "is_group_setting" : false,
+  "default" : "all"
+}]
+java.lang.IllegalArgumentException: illegal value can't update [cluster.routing.allocation.enable] from [all] to [false]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1021) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:480) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.IllegalArgumentException: Illegal allocation.enable value [FALSE]
+	at org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationDecider$Allocation.parse(EnableAllocationDecider.java:250) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.get(Setting.java:432) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.get(Setting.java:426) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1014) ~[main/:?]
+	... 12 more
+[2020-02-16T19:20:40,979][WARN ][o.e.c.s.ClusterSettings  ] [test_node] failed to apply settings
+java.lang.IllegalArgumentException: illegal value can't update [cluster.routing.allocation.enable] from [all] to [false]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1021) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:480) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.IllegalArgumentException: Illegal allocation.enable value [FALSE]
+	at org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationDecider$Allocation.parse(EnableAllocationDecider.java:250) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.get(Setting.java:432) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.get(Setting.java:426) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1014) ~[main/:?]
+	... 12 more
+[2020-02-16T19:20:40,979][WARN ][o.e.c.s.ClusterApplierService] [test_node] failed to apply updated cluster state in [0s]:
+version [0], uuid [vJV5XqNHRxmqPwdl0HT7OQ], source [test]
+java.lang.IllegalArgumentException: illegal value can't update [cluster.routing.allocation.enable] from [all] to [false]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1021) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) ~[main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:480) ~[main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.IllegalArgumentException: Illegal allocation.enable value [FALSE]
+	at org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationDecider$Allocation.parse(EnableAllocationDecider.java:250) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.get(Setting.java:432) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.get(Setting.java:426) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1014) ~[main/:?]
+	... 12 more
+[2020-02-16T19:20:40,979][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierBubblesUpExceptionsInSettingsApplier] after test
+[2020-02-16T19:20:40,981][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierCanCreateAnObserver] before test
+[2020-02-16T19:20:40,984][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierCanCreateAnObserver] after test
+[2020-02-16T19:20:40,986][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierSwallowsExceptionInListener] before test
+[2020-02-16T19:20:40,989][WARN ][o.e.c.s.ClusterApplierService] [test_node] failed to notify ClusterStateListener
+java.lang.RuntimeException: dummy exception
+	at org.elasticsearch.cluster.service.ClusterApplierServiceTests.lambda$testClusterStateApplierSwallowsExceptionInListener$13(ClusterApplierServiceTests.java:425) ~[test/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$callClusterStateListeners$6(ClusterApplierService.java:527) [main/:?]
+	at java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:948) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.callClusterStateListeners(ClusterApplierService.java:523) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:498) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:20:40,990][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateApplierSwallowsExceptionInListener] after test
+[2020-02-16T19:20:40,994][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateUpdateLogging] before test
+[2020-02-16T19:20:40,998][DEBUG][o.e.c.s.ClusterApplierService] [test_node] processing [test1]: execute
+[2020-02-16T19:20:41,000][DEBUG][o.e.c.s.ClusterApplierService] [test_node] processing [test1]: took [1s] no change in cluster state
+[2020-02-16T19:20:41,000][DEBUG][o.e.c.s.ClusterApplierService] [test_node] processing [test2]: execute
+[2020-02-16T19:20:41,000][TRACE][o.e.c.s.ClusterApplierService] [test_node] failed to execute cluster state applier in [2s], state:
+version [0], source [test2]
+cluster uuid: _na_ [committed: false]
+version: 0
+state uuid: NJhsiYk2QV-JedYAn1f-Cw
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node1}{nRCREkWXQn-tc542zWUTow}{0.0.0.0}{0.0.0.0:9}, local, master
+routing_table (version 0):
+routing_nodes:
+---- unassigned
+
+java.lang.IllegalArgumentException: Testing handling of exceptions in the cluster state task
+	at org.elasticsearch.cluster.service.ClusterApplierServiceTests.lambda$testClusterStateUpdateLogging$1(ClusterApplierServiceTests.java:150) ~[test/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$runOnApplierThread$0(ClusterApplierService.java:315) ~[main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.apply(ClusterApplierService.java:171) ~[main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:407) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:20:41,000][DEBUG][o.e.c.s.ClusterApplierService] [test_node] processing [test3]: execute
+[2020-02-16T19:20:41,000][DEBUG][o.e.c.s.ClusterApplierService] [test_node] processing [test3]: took [0s] no change in cluster state
+[2020-02-16T19:20:41,004][INFO ][o.e.c.s.ClusterApplierServiceTests] [testClusterStateUpdateLogging] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

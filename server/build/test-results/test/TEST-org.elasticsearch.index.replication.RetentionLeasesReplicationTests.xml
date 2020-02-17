@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.replication.RetentionLeasesReplicationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:17" hostname="Escoto-PC" time="1.289">
+  <properties/>
+  <testcase name="testTurnOffTranslogRetentionAfterAllShardStarted" classname="org.elasticsearch.index.replication.RetentionLeasesReplicationTests" time="0.264"/>
+  <testcase name="testOutOfOrderRetentionLeasesRequests" classname="org.elasticsearch.index.replication.RetentionLeasesReplicationTests" time="0.171"/>
+  <testcase name="testSimpleSyncRetentionLeases" classname="org.elasticsearch.index.replication.RetentionLeasesReplicationTests" time="0.103"/>
+  <testcase name="testSyncRetentionLeasesWithPrimaryPromotion" classname="org.elasticsearch.index.replication.RetentionLeasesReplicationTests" time="0.751"/>
+  <system-out><![CDATA[[2020-02-17T05:23:17,069][INFO ][o.e.i.r.RetentionLeasesReplicationTests] [testTurnOffTranslogRetentionAfterAllShardStarted] before test
+[2020-02-17T05:23:17,321][INFO ][o.e.i.r.RetentionLeasesReplicationTests] [testTurnOffTranslogRetentionAfterAllShardStarted] after test
+[2020-02-17T05:23:17,331][INFO ][o.e.i.r.RetentionLeasesReplicationTests] [testOutOfOrderRetentionLeasesRequests] before test
+[2020-02-17T05:23:17,498][INFO ][o.e.i.r.RetentionLeasesReplicationTests] [testOutOfOrderRetentionLeasesRequests] after test
+[2020-02-17T05:23:17,502][INFO ][o.e.i.r.RetentionLeasesReplicationTests] [testSimpleSyncRetentionLeases] before test
+[2020-02-17T05:23:17,600][INFO ][o.e.i.r.RetentionLeasesReplicationTests] [testSimpleSyncRetentionLeases] after test
+[2020-02-17T05:23:17,606][INFO ][o.e.i.r.RetentionLeasesReplicationTests] [testSyncRetentionLeasesWithPrimaryPromotion] before test
+[2020-02-17T05:23:18,334][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RetentionLeasesReplicationTests] [test][0] detected new primary with primary term [101], global checkpoint [-1], max_seq_no [-1]
+[2020-02-17T05:23:18,334][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RetentionLeasesReplicationTests] [test][0] detected new primary with primary term [101], global checkpoint [-1], max_seq_no [-1]
+[2020-02-17T05:23:18,337][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RetentionLeasesReplicationTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-17T05:23:18,353][INFO ][o.e.i.r.RetentionLeasesReplicationTests] [testSyncRetentionLeasesWithPrimaryPromotion] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

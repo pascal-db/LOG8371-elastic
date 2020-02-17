@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.seqno.PeerRecoveryRetentionLeaseExpiryTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:23" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testPeerRecoveryRetentionLeasesForUnassignedCopiesDoNotExpireImmediatelyIfShardsNotAllStarted" classname="org.elasticsearch.index.seqno.PeerRecoveryRetentionLeaseExpiryTests" time="0.005"/>
+  <testcase name="testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireIfRetainingTooMuchHistory" classname="org.elasticsearch.index.seqno.PeerRecoveryRetentionLeaseExpiryTests" time="0.003"/>
+  <testcase name="testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireImmediatelyIfShardsAllStarted" classname="org.elasticsearch.index.seqno.PeerRecoveryRetentionLeaseExpiryTests" time="0.002"/>
+  <testcase name="testPeerRecoveryRetentionLeasesForAssignedCopiesDoNotEverExpire" classname="org.elasticsearch.index.seqno.PeerRecoveryRetentionLeaseExpiryTests" time="0.003"/>
+  <testcase name="testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireEventually" classname="org.elasticsearch.index.seqno.PeerRecoveryRetentionLeaseExpiryTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T02:23:23,902][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForUnassignedCopiesDoNotExpireImmediatelyIfShardsNotAllStarted] before test
+[2020-02-17T02:23:23,906][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForUnassignedCopiesDoNotExpireImmediatelyIfShardsNotAllStarted] after test
+[2020-02-17T02:23:23,907][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireIfRetainingTooMuchHistory] before test
+[2020-02-17T02:23:23,909][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireIfRetainingTooMuchHistory] after test
+[2020-02-17T02:23:23,910][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireImmediatelyIfShardsAllStarted] before test
+[2020-02-17T02:23:23,911][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireImmediatelyIfShardsAllStarted] after test
+[2020-02-17T02:23:23,913][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForAssignedCopiesDoNotEverExpire] before test
+[2020-02-17T02:23:23,914][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForAssignedCopiesDoNotEverExpire] after test
+[2020-02-17T02:23:23,916][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireEventually] before test
+[2020-02-17T02:23:23,916][INFO ][o.e.i.s.PeerRecoveryRetentionLeaseExpiryTests] [testPeerRecoveryRetentionLeasesForUnassignedCopiesExpireEventually] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

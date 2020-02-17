@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.WildcardQueryBuilderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:09" hostname="Escoto-PC" time="0.077">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.016"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.005"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.007"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.009"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.004"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.002"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.002"/>
+  <testcase name="testTypeField" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.002"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.007"/>
+  <testcase name="testEmptyValue" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.007"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.WildcardQueryBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T15:23:09,854][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testSerialization] before test
+[2020-02-16T15:23:09,858][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T15:23:09,858][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T15:23:09,864][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T15:23:09,864][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T15:23:09,868][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testSerialization] after test
+[2020-02-16T15:23:09,873][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testCacheability] before test
+[2020-02-16T15:23:09,873][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testCacheability] after test
+[2020-02-16T15:23:09,878][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T15:23:09,880][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T15:23:09,886][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T15:23:09,889][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T15:23:09,892][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T15:23:09,892][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T15:23:09,894][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T15:23:09,894][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T15:23:09,897][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T15:23:09,897][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T15:23:09,899][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testToQuery] before test
+[2020-02-16T15:23:09,901][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testToQuery] after test
+[2020-02-16T15:23:09,903][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testFromJson] before test
+[2020-02-16T15:23:09,903][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testFromJson] after test
+[2020-02-16T15:23:09,905][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T15:23:09,905][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T15:23:09,908][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testTypeField] before test
+[2020-02-16T15:23:09,908][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testTypeField] after test
+[2020-02-16T15:23:09,910][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T15:23:09,910][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T15:23:09,912][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T15:23:09,912][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T15:23:09,914][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-16T15:23:09,919][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-16T15:23:09,926][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testEmptyValue] before test
+[2020-02-16T15:23:09,926][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testEmptyValue] after test
+[2020-02-16T15:23:09,929][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T15:23:09,929][INFO ][o.e.i.q.WildcardQueryBuilderTests] [testNegativeBoosts] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.health.ClusterHealthAllocationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:33" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testClusterHealth" classname="org.elasticsearch.cluster.health.ClusterHealthAllocationTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-16T18:20:33,152][INFO ][o.e.c.h.ClusterHealthAllocationTests] [testClusterHealth] before test
+[2020-02-16T18:20:33,156][INFO ][o.e.c.r.a.AllocationService] [testClusterHealth] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute after starting]).
+[2020-02-16T18:20:33,157][INFO ][o.e.c.r.a.AllocationService] [testClusterHealth] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:20:33,158][INFO ][o.e.c.r.a.AllocationService] [testClusterHealth] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:20:33,162][INFO ][o.e.c.h.ClusterHealthAllocationTests] [testClusterHealth] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

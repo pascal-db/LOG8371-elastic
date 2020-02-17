@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.repositories.blobstore.BlobStoreRepositoryTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.repositories.blobstore.BlobStoreRepositoryTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.repositories.blobstore.html">org.elasticsearch.repositories.blobstore</a> &gt; BlobStoreRepositoryTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.902s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBadChunksize</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFsRepositoryCompressDeprecated</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexGenerationalFiles</td>
+<td class="success">0.037s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReadAndWriteSnapshotsThroughIndexFile</td>
+<td class="success">0.597s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRepositoryDataConcurrentModificationNotAllowed</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetrieveSnapshots</td>
+<td class="success">0.239s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T18:25:16,563][INFO ][o.e.e.NodeEnvironment    ] [testReadAndWriteSnapshotsThroughIndexFile] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:16,563][INFO ][o.e.e.NodeEnvironment    ] [testReadAndWriteSnapshotsThroughIndexFile] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:16,565][INFO ][o.e.n.Node               ] [testReadAndWriteSnapshotsThroughIndexFile] node name [node_s_0], node ID [XO361KhGR4WUeX4WkIVfmQ], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-8726025048346807380]-HASH=[166419D6A59]]
+[2020-02-16T18:25:16,565][INFO ][o.e.n.Node               ] [testReadAndWriteSnapshotsThroughIndexFile] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:16,565][INFO ][o.e.n.Node               ] [testReadAndWriteSnapshotsThroughIndexFile] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:16,565][INFO ][o.e.n.Node               ] [testReadAndWriteSnapshotsThroughIndexFile] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:16,566][INFO ][o.e.p.PluginsService     ] [testReadAndWriteSnapshotsThroughIndexFile] no modules loaded
+[2020-02-16T18:25:16,566][INFO ][o.e.p.PluginsService     ] [testReadAndWriteSnapshotsThroughIndexFile] loaded plugin [org.elasticsearch.repositories.blobstore.BlobStoreRepositoryTests$FsLikeRepoPlugin]
+[2020-02-16T18:25:16,566][INFO ][o.e.p.PluginsService     ] [testReadAndWriteSnapshotsThroughIndexFile] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:16,566][INFO ][o.e.p.PluginsService     ] [testReadAndWriteSnapshotsThroughIndexFile] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:16,753][INFO ][o.e.d.DiscoveryModule    ] [testReadAndWriteSnapshotsThroughIndexFile] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:16,760][INFO ][o.e.n.Node               ] [testReadAndWriteSnapshotsThroughIndexFile] initialized
+[2020-02-16T18:25:16,760][INFO ][o.e.n.Node               ] [testReadAndWriteSnapshotsThroughIndexFile] starting ...
+[2020-02-16T18:25:17,015][INFO ][o.e.t.TransportService   ] [testReadAndWriteSnapshotsThroughIndexFile] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:17,021][INFO ][o.e.c.c.Coordinator      ] [testReadAndWriteSnapshotsThroughIndexFile] setting initial configuration to VotingConfiguration{XO361KhGR4WUeX4WkIVfmQ}
+[2020-02-16T18:25:17,082][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{XO361KhGR4WUeX4WkIVfmQ}{FdqEMI4PTGa5Muak55KyhQ}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{XO361KhGR4WUeX4WkIVfmQ}{FdqEMI4PTGa5Muak55KyhQ}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:17,088][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [3iKLhGqJQ-6ye5FWbMVR-w]
+[2020-02-16T18:25:17,094][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{XO361KhGR4WUeX4WkIVfmQ}{FdqEMI4PTGa5Muak55KyhQ}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:17,095][INFO ][o.e.n.Node               ] [testReadAndWriteSnapshotsThroughIndexFile] started
+[2020-02-16T18:25:17,099][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:17,100][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:17,109][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:17,117][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testReadAndWriteSnapshotsThroughIndexFile] before test
+[2020-02-16T18:25:17,122][INFO ][o.e.r.RepositoriesService] [node_s_0] put repository [test-repo]
+[2020-02-16T18:25:17,150][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testReadAndWriteSnapshotsThroughIndexFile] after test
+[2020-02-16T18:25:17,153][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRepositoryDataConcurrentModificationNotAllowed] before test
+[2020-02-16T18:25:17,154][INFO ][o.e.r.RepositoriesService] [node_s_0] update repository [test-repo]
+[2020-02-16T18:25:17,170][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRepositoryDataConcurrentModificationNotAllowed] after test
+[2020-02-16T18:25:17,173][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testIndexGenerationalFiles] before test
+[2020-02-16T18:25:17,173][INFO ][o.e.r.RepositoriesService] [node_s_0] update repository [test-repo]
+[2020-02-16T18:25:17,208][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testIndexGenerationalFiles] after test
+[2020-02-16T18:25:17,210][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testBadChunksize] before test
+[2020-02-16T18:25:17,211][WARN ][o.e.r.RepositoriesService] [testBadChunksize] failed to create repository [fsLike][test-repo]
+java.lang.IllegalArgumentException: Values less than -1 bytes are not supported: -5b
+	at org.elasticsearch.common.unit.ByteSizeValue.&lt;init&gt;(ByteSizeValue.java:72) ~[main/:7.5.1-SNAPSHOT]
+	at org.elasticsearch.common.unit.ByteSizeValue.parseBytesSizeValue(ByteSizeValue.java:216) ~[main/:7.5.1-SNAPSHOT]
+	at org.elasticsearch.common.unit.ByteSizeValue.parseBytesSizeValue(ByteSizeValue.java:185) ~[main/:7.5.1-SNAPSHOT]
+	at org.elasticsearch.common.settings.Setting.parseByteSize(Setting.java:1220) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.lambda$byteSizeSetting$30(Setting.java:1216) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.get(Setting.java:432) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting.get(Setting.java:426) ~[main/:?]
+	at org.elasticsearch.repositories.fs.FsRepository.&lt;init&gt;(FsRepository.java:103) ~[main/:?]
+	at org.elasticsearch.repositories.blobstore.BlobStoreRepositoryTests$FsLikeRepoPlugin$1.&lt;init&gt;(BlobStoreRepositoryTests.java:77) ~[test/:?]
+	at org.elasticsearch.repositories.blobstore.BlobStoreRepositoryTests$FsLikeRepoPlugin.lambda$getRepositories$0(BlobStoreRepositoryTests.java:77) ~[test/:?]
+	at org.elasticsearch.repositories.Repository$Factory.create(Repository.java:71) ~[main/:?]
+	at org.elasticsearch.repositories.RepositoriesService.createRepository(RepositoriesService.java:409) [main/:?]
+	at org.elasticsearch.repositories.RepositoriesService.registerRepository(RepositoriesService.java:118) [main/:?]
+	at org.elasticsearch.action.admin.cluster.repositories.put.TransportPutRepositoryAction.masterOperation(TransportPutRepositoryAction.java:73) [main/:?]
+	at org.elasticsearch.action.admin.cluster.repositories.put.TransportPutRepositoryAction.masterOperation(TransportPutRepositoryAction.java:42) [main/:?]
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction.masterOperation(TransportMasterNodeAction.java:98) [main/:?]
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction$AsyncSingleAction.lambda$doStart$3(TransportMasterNodeAction.java:169) [main/:?]
+	at org.elasticsearch.action.ActionRunnable$2.doRun(ActionRunnable.java:73) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.common.util.concurrent.EsExecutors$DirectExecutorService.execute(EsExecutors.java:225) [main/:?]
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction$AsyncSingleAction.doStart(TransportMasterNodeAction.java:169) [main/:?]
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction$AsyncSingleAction.start(TransportMasterNodeAction.java:132) [main/:?]
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction.doExecute(TransportMasterNodeAction.java:109) [main/:?]
+	at org.elasticsearch.action.support.master.TransportMasterNodeAction.doExecute(TransportMasterNodeAction.java:58) [main/:?]
+	at org.elasticsearch.action.support.TransportAction$RequestFilterChain.proceed(TransportAction.java:153) [main/:?]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:129) [main/:?]
+	at org.elasticsearch.action.support.TransportAction.execute(TransportAction.java:64) [main/:?]
+	at org.elasticsearch.client.node.NodeClient.executeLocally(NodeClient.java:83) [main/:?]
+	at org.elasticsearch.client.node.NodeClient.doExecute(NodeClient.java:72) [main/:?]
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:396) [main/:?]
+	at org.elasticsearch.client.support.AbstractClient.execute(AbstractClient.java:385) [main/:?]
+	at org.elasticsearch.client.support.AbstractClient$ClusterAdmin.execute(AbstractClient.java:679) [main/:?]
+	at org.elasticsearch.action.ActionRequestBuilder.execute(ActionRequestBuilder.java:45) [main/:?]
+	at org.elasticsearch.action.ActionRequestBuilder.get(ActionRequestBuilder.java:52) [main/:?]
+	at org.elasticsearch.repositories.blobstore.BlobStoreRepositoryTests.lambda$testBadChunksize$2(BlobStoreRepositoryTests.java:213) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.repositories.blobstore.BlobStoreRepositoryTests.testBadChunksize(BlobStoreRepositoryTests.java:207) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:25:17,213][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testBadChunksize] after test
+[2020-02-16T18:25:17,215][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testFsRepositoryCompressDeprecated] before test
+[2020-02-16T18:25:17,216][WARN ][o.e.d.c.s.Settings       ] [testFsRepositoryCompressDeprecated] [repositories.fs.compress] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T18:25:17,216][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testFsRepositoryCompressDeprecated] after test
+[2020-02-16T18:25:17,218][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRetrieveSnapshots] before test
+[2020-02-16T18:25:17,219][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRetrieveSnapshots] --&gt;  creating repository
+[2020-02-16T18:25:17,219][INFO ][o.e.r.RepositoriesService] [node_s_0] update repository [test-repo]
+[2020-02-16T18:25:17,234][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRetrieveSnapshots] --&gt; creating an index and indexing documents
+[2020-02-16T18:25:17,236][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test-idx] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:17,283][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test-idx][0]]]).
+[2020-02-16T18:25:17,295][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test-idx/JMkjOWByRiii7t9f47epUA] create_mapping [type1]
+[2020-02-16T18:25:17,347][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRetrieveSnapshots] --&gt; create first snapshot
+[2020-02-16T18:25:17,357][INFO ][o.e.s.SnapshotsService   ] [node_s_0] snapshot [test-repo:test-snap-1/c0NoG7s3Q2W9wl2izZr78w] started
+[2020-02-16T18:25:17,392][INFO ][o.e.s.SnapshotsService   ] [node_s_0] snapshot [test-repo:test-snap-1/c0NoG7s3Q2W9wl2izZr78w] completed with state [SUCCESS]
+[2020-02-16T18:25:17,398][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRetrieveSnapshots] --&gt; create second snapshot
+[2020-02-16T18:25:17,404][INFO ][o.e.s.SnapshotsService   ] [node_s_0] snapshot [test-repo:test-snap-2/h_M3md5zSWuUqBNhDCB2Uw] started
+[2020-02-16T18:25:17,425][INFO ][o.e.s.SnapshotsService   ] [node_s_0] snapshot [test-repo:test-snap-2/h_M3md5zSWuUqBNhDCB2Uw] completed with state [SUCCESS]
+[2020-02-16T18:25:17,430][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRetrieveSnapshots] --&gt; make sure the node's repository can resolve the snapshots
+[2020-02-16T18:25:17,432][INFO ][o.e.r.b.BlobStoreRepositoryTests] [testRetrieveSnapshots] after test
+[2020-02-16T18:25:17,432][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test-idx/JMkjOWByRiii7t9f47epUA] deleting index
+[2020-02-16T18:25:17,456][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T18:25:17,456][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T18:25:17,457][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T18:25:17,457][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

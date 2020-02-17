@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.serialization.DiffableTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testImmutableOpenMapDiff" classname="org.elasticsearch.cluster.serialization.DiffableTests" time="0.005"/>
+  <testcase name="testImmutableOpenIntMapDiff" classname="org.elasticsearch.cluster.serialization.DiffableTests" time="0.007"/>
+  <testcase name="testJKDMapDiff" classname="org.elasticsearch.cluster.serialization.DiffableTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T12:21:39,439][INFO ][o.e.c.s.DiffableTests    ] [testImmutableOpenMapDiff] before test
+[2020-02-16T12:21:39,442][INFO ][o.e.c.s.DiffableTests    ] [testImmutableOpenMapDiff] after test
+[2020-02-16T12:21:39,448][INFO ][o.e.c.s.DiffableTests    ] [testImmutableOpenIntMapDiff] before test
+[2020-02-16T12:21:39,450][INFO ][o.e.c.s.DiffableTests    ] [testImmutableOpenIntMapDiff] after test
+[2020-02-16T12:21:39,451][INFO ][o.e.c.s.DiffableTests    ] [testJKDMapDiff] before test
+[2020-02-16T12:21:39,453][INFO ][o.e.c.s.DiffableTests    ] [testJKDMapDiff] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

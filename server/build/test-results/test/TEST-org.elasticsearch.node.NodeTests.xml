@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.node.NodeTests" tests="9" skipped="2" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="15.646">
+  <properties/>
+  <testcase name="testNodeAttributes" classname="org.elasticsearch.node.NodeTests" time="0.242"/>
+  <testcase name="testCloseOnLeakedStoreReference" classname="org.elasticsearch.node.NodeTests" time="3.702"/>
+  <testcase name="testLoadPluginBootstrapChecks" classname="org.elasticsearch.node.NodeTests" time="0.536"/>
+  <testcase name="testServerNameNodeAttribute" classname="org.elasticsearch.node.NodeTests" time="0.227"/>
+  <testcase name="testAwaitCloseTimeoutsOnNonInterruptibleTask" classname="org.elasticsearch.node.NodeTests" time="3.632"/>
+  <testcase name="testCloseOnLeakedIndexReaderReference" classname="org.elasticsearch.node.NodeTests" time="3.679"/>
+  <testcase name="testCloseOnOutstandingTask" classname="org.elasticsearch.node.NodeTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testCloseOnInterruptibleTask" classname="org.elasticsearch.node.NodeTests" time="3.625"/>
+  <testcase name="testCloseRaceWithTaskExecution" classname="org.elasticsearch.node.NodeTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[[2020-02-17T01:24:59,744][INFO ][o.e.n.NodeTests          ] [testNodeAttributes] before test
+[2020-02-17T01:24:59,752][INFO ][o.e.e.NodeEnvironment    ] [testNodeAttributes] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:24:59,752][INFO ][o.e.e.NodeEnvironment    ] [testNodeAttributes] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:24:59,754][INFO ][o.e.n.Node               ] [testNodeAttributes] node name [mock_ node], node ID [iMJNLwAAQACL8uQLAAAAAA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[1917654088210768584]-HASH=[162579D7A0F]]
+[2020-02-17T01:24:59,754][INFO ][o.e.n.Node               ] [testNodeAttributes] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:24:59,754][INFO ][o.e.n.Node               ] [testNodeAttributes] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:24:59,754][INFO ][o.e.n.Node               ] [testNodeAttributes] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:24:59,754][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] no modules loaded
+[2020-02-17T01:24:59,754][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:24:59,754][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:24:59,949][INFO ][o.e.d.DiscoveryModule    ] [testNodeAttributes] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:24:59,955][INFO ][o.e.n.Node               ] [testNodeAttributes] initialized
+[2020-02-17T01:24:59,955][INFO ][o.e.n.Node               ] [testNodeAttributes] closing ...
+[2020-02-17T01:24:59,955][INFO ][o.e.n.Node               ] [testNodeAttributes] closed
+[2020-02-17T01:24:59,963][INFO ][o.e.e.NodeEnvironment    ] [testNodeAttributes] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:24:59,964][INFO ][o.e.e.NodeEnvironment    ] [testNodeAttributes] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:24:59,966][INFO ][o.e.n.Node               ] [testNodeAttributes] node name [mock_ node], node ID [Y964wv__T_-2LAX3_____w], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-4629503696860623953]-HASH=[162643B5E96]]
+[2020-02-17T01:24:59,966][INFO ][o.e.n.Node               ] [testNodeAttributes] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:24:59,966][INFO ][o.e.n.Node               ] [testNodeAttributes] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:24:59,966][INFO ][o.e.n.Node               ] [testNodeAttributes] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:24:59,966][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] no modules loaded
+[2020-02-17T01:24:59,966][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:24:59,966][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:24:59,978][INFO ][o.e.e.NodeEnvironment    ] [testNodeAttributes] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:24:59,978][INFO ][o.e.e.NodeEnvironment    ] [testNodeAttributes] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:24:59,980][INFO ][o.e.n.Node               ] [testNodeAttributes] node name [mock_ node], node ID [jvcVZAAAQACHtl1-AAAAAA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-6787776129136739708]-HASH=[16265139A10]]
+[2020-02-17T01:24:59,980][INFO ][o.e.n.Node               ] [testNodeAttributes] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:24:59,980][INFO ][o.e.n.Node               ] [testNodeAttributes] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:24:59,980][INFO ][o.e.n.Node               ] [testNodeAttributes] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:24:59,981][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] no modules loaded
+[2020-02-17T01:24:59,981][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:24:59,981][INFO ][o.e.p.PluginsService     ] [testNodeAttributes] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:24:59,983][INFO ][o.e.n.NodeTests          ] [testNodeAttributes] after test
+[2020-02-17T01:24:59,985][INFO ][o.e.n.NodeTests          ] [testCloseOnLeakedStoreReference] before test
+[2020-02-17T01:24:59,994][INFO ][o.e.e.NodeEnvironment    ] [testCloseOnLeakedStoreReference] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:24:59,994][INFO ][o.e.e.NodeEnvironment    ] [testCloseOnLeakedStoreReference] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:24:59,996][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] node name [mock_ node], node ID [YwcHdAAAQAC0h85rAAAAAA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[8608061019658966792]-HASH=[1626602D0EE]]
+[2020-02-17T01:24:59,996][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:24:59,996][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:24:59,996][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:24:59,997][INFO ][o.e.p.PluginsService     ] [testCloseOnLeakedStoreReference] no modules loaded
+[2020-02-17T01:24:59,997][INFO ][o.e.p.PluginsService     ] [testCloseOnLeakedStoreReference] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:24:59,997][INFO ][o.e.p.PluginsService     ] [testCloseOnLeakedStoreReference] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:25:00,185][INFO ][o.e.d.DiscoveryModule    ] [testCloseOnLeakedStoreReference] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:25:00,192][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] initialized
+[2020-02-17T01:25:00,192][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] starting ...
+[2020-02-17T01:25:00,486][INFO ][o.e.t.TransportService   ] [testCloseOnLeakedStoreReference] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T01:25:00,493][INFO ][o.e.c.c.ClusterBootstrapService] [testCloseOnLeakedStoreReference] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-02-17T01:25:03,493][INFO ][o.e.c.c.Coordinator      ] [mock_ node] setting initial configuration to VotingConfiguration{YwcHdAAAQAC0h85rAAAAAA}
+[2020-02-17T01:25:03,577][INFO ][o.e.c.s.MasterService    ] [mock_ node] elected-as-master ([1] nodes joined)[{mock_ node}{YwcHdAAAQAC0h85rAAAAAA}{0KsCku-wTRiZfu6IFg0rpQ}{127.0.0.1}{127.0.0.1:9300}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{mock_ node}{YwcHdAAAQAC0h85rAAAAAA}{0KsCku-wTRiZfu6IFg0rpQ}{127.0.0.1}{127.0.0.1:9300}{dim}]}
+[2020-02-17T01:25:03,584][INFO ][o.e.c.c.CoordinationState] [mock_ node] cluster UUID set to [ydeJP0FTTaC1awI2RWcnNA]
+[2020-02-17T01:25:03,590][INFO ][o.e.c.s.ClusterApplierService] [mock_ node] master node changed {previous [], current [{mock_ node}{YwcHdAAAQAC0h85rAAAAAA}{0KsCku-wTRiZfu6IFg0rpQ}{127.0.0.1}{127.0.0.1:9300}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T01:25:03,590][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] started
+[2020-02-17T01:25:03,596][INFO ][o.e.g.GatewayService     ] [mock_ node] recovered [0] indices into cluster_state
+[2020-02-17T01:25:03,598][INFO ][o.e.c.m.MetaDataCreateIndexService] [mock_ node] [test] creating index, cause [api], templates [], shards [1]/[0], mappings []
+[2020-02-17T01:25:03,653][INFO ][o.e.c.r.a.AllocationService] [mock_ node] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:25:03,672][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] stopping ...
+[2020-02-17T01:25:03,681][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] stopped
+[2020-02-17T01:25:03,681][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] closing ...
+[2020-02-17T01:25:03,682][INFO ][o.e.n.Node               ] [testCloseOnLeakedStoreReference] closed
+[2020-02-17T01:25:03,685][INFO ][o.e.n.NodeTests          ] [testCloseOnLeakedStoreReference] after test
+[2020-02-17T01:25:03,688][INFO ][o.e.n.NodeTests          ] [testLoadPluginBootstrapChecks] before test
+[2020-02-17T01:25:03,697][INFO ][o.e.e.NodeEnvironment    ] [testLoadPluginBootstrapChecks] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:25:03,697][INFO ][o.e.e.NodeEnvironment    ] [testLoadPluginBootstrapChecks] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:25:03,699][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] node name [mock_ node], node ID [VEMHDAAAQACYj5Lv_____w], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[6537945374685093449]-HASH=[16342C0292D]]
+[2020-02-17T01:25:03,700][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:25:03,700][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:25:03,700][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:25:03,700][INFO ][o.e.p.PluginsService     ] [testLoadPluginBootstrapChecks] no modules loaded
+[2020-02-17T01:25:03,700][INFO ][o.e.p.PluginsService     ] [testLoadPluginBootstrapChecks] loaded plugin [org.elasticsearch.node.NodeTests$CheckPlugin]
+[2020-02-17T01:25:03,700][INFO ][o.e.p.PluginsService     ] [testLoadPluginBootstrapChecks] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:25:03,700][INFO ][o.e.p.PluginsService     ] [testLoadPluginBootstrapChecks] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:25:03,894][INFO ][o.e.d.DiscoveryModule    ] [testLoadPluginBootstrapChecks] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:25:03,901][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] initialized
+[2020-02-17T01:25:03,901][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] starting ...
+[2020-02-17T01:25:04,213][INFO ][o.e.t.TransportService   ] [testLoadPluginBootstrapChecks] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T01:25:04,220][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] stopping ...
+[2020-02-17T01:25:04,221][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] stopped
+[2020-02-17T01:25:04,221][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] closing ...
+[2020-02-17T01:25:04,221][INFO ][o.e.n.Node               ] [testLoadPluginBootstrapChecks] closed
+[2020-02-17T01:25:04,221][INFO ][o.e.n.NodeTests          ] [testLoadPluginBootstrapChecks] after test
+[2020-02-17T01:25:04,223][INFO ][o.e.n.NodeTests          ] [testServerNameNodeAttribute] before test
+[2020-02-17T01:25:04,232][INFO ][o.e.e.NodeEnvironment    ] [testServerNameNodeAttribute] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:25:04,232][INFO ][o.e.e.NodeEnvironment    ] [testServerNameNodeAttribute] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:25:04,234][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] node name [mock_ node], node ID [6fZUkv__T_-Ns7m______w], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-8767890814461936902]-HASH=[16362A73030]]
+[2020-02-17T01:25:04,234][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:25:04,234][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:25:04,234][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:25:04,235][INFO ][o.e.p.PluginsService     ] [testServerNameNodeAttribute] no modules loaded
+[2020-02-17T01:25:04,235][INFO ][o.e.p.PluginsService     ] [testServerNameNodeAttribute] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:25:04,235][INFO ][o.e.p.PluginsService     ] [testServerNameNodeAttribute] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:25:04,428][INFO ][o.e.d.DiscoveryModule    ] [testServerNameNodeAttribute] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:25:04,434][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] initialized
+[2020-02-17T01:25:04,435][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] closing ...
+[2020-02-17T01:25:04,435][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] closed
+[2020-02-17T01:25:04,443][INFO ][o.e.e.NodeEnvironment    ] [testServerNameNodeAttribute] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:25:04,443][INFO ][o.e.e.NodeEnvironment    ] [testServerNameNodeAttribute] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:25:04,445][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] node name [mock_ node], node ID [-LxQ5___T_-YAS3R_____w], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[1243960551267702522]-HASH=[1636F41B9A6]]
+[2020-02-17T01:25:04,446][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:25:04,446][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:25:04,446][INFO ][o.e.n.Node               ] [testServerNameNodeAttribute] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:25:04,446][INFO ][o.e.p.PluginsService     ] [testServerNameNodeAttribute] no modules loaded
+[2020-02-17T01:25:04,446][INFO ][o.e.p.PluginsService     ] [testServerNameNodeAttribute] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:25:04,446][INFO ][o.e.p.PluginsService     ] [testServerNameNodeAttribute] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:25:04,449][INFO ][o.e.n.NodeTests          ] [testServerNameNodeAttribute] after test
+[2020-02-17T01:25:04,451][INFO ][o.e.n.NodeTests          ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] before test
+[2020-02-17T01:25:04,459][INFO ][o.e.e.NodeEnvironment    ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:25:04,459][INFO ][o.e.e.NodeEnvironment    ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:25:04,461][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] node name [mock_ node], node ID [z-kbmP__T_-7QWL-_____w], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[1366848750362429010]-HASH=[16370322A41]]
+[2020-02-17T01:25:04,461][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:25:04,461][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:25:04,461][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:25:04,462][INFO ][o.e.p.PluginsService     ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] no modules loaded
+[2020-02-17T01:25:04,462][INFO ][o.e.p.PluginsService     ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:25:04,462][INFO ][o.e.p.PluginsService     ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:25:04,652][INFO ][o.e.d.DiscoveryModule    ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:25:04,659][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] initialized
+[2020-02-17T01:25:04,659][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] starting ...
+[2020-02-17T01:25:04,960][INFO ][o.e.t.TransportService   ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T01:25:04,968][INFO ][o.e.c.c.ClusterBootstrapService] [testAwaitCloseTimeoutsOnNonInterruptibleTask] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-02-17T01:25:07,968][INFO ][o.e.c.c.Coordinator      ] [mock_ node] setting initial configuration to VotingConfiguration{z-kbmP__T_-7QWL-_____w}
+[2020-02-17T01:25:08,057][INFO ][o.e.c.s.MasterService    ] [mock_ node] elected-as-master ([1] nodes joined)[{mock_ node}{z-kbmP__T_-7QWL-_____w}{3ItDuSgZRouH1BdbYcIq_g}{127.0.0.1}{127.0.0.1:9300}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{mock_ node}{z-kbmP__T_-7QWL-_____w}{3ItDuSgZRouH1BdbYcIq_g}{127.0.0.1}{127.0.0.1:9300}{dim}]}
+[2020-02-17T01:25:08,064][INFO ][o.e.c.c.CoordinationState] [mock_ node] cluster UUID set to [3cVI4VrsRj-RHZzvLQxXjQ]
+[2020-02-17T01:25:08,070][INFO ][o.e.c.s.ClusterApplierService] [mock_ node] master node changed {previous [], current [{mock_ node}{z-kbmP__T_-7QWL-_____w}{3ItDuSgZRouH1BdbYcIq_g}{127.0.0.1}{127.0.0.1:9300}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T01:25:08,070][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] started
+[2020-02-17T01:25:08,075][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] stopping ...
+[2020-02-17T01:25:08,077][INFO ][o.e.g.GatewayService     ] [mock_ node] recovered [0] indices into cluster_state
+[2020-02-17T01:25:08,079][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] stopped
+[2020-02-17T01:25:08,079][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] closing ...
+[2020-02-17T01:25:08,080][INFO ][o.e.n.Node               ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] closed
+[2020-02-17T01:25:08,081][INFO ][o.e.n.NodeTests          ] [testAwaitCloseTimeoutsOnNonInterruptibleTask] after test
+[2020-02-17T01:25:08,082][INFO ][o.e.n.NodeTests          ] [testCloseOnLeakedIndexReaderReference] before test
+[2020-02-17T01:25:08,090][INFO ][o.e.e.NodeEnvironment    ] [testCloseOnLeakedIndexReaderReference] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:25:08,090][INFO ][o.e.e.NodeEnvironment    ] [testCloseOnLeakedIndexReaderReference] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:25:08,093][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] node name [mock_ node], node ID [Y2tx-___T_-zps44AAAAAA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-8691530862362711581]-HASH=[16448AE7DCA]]
+[2020-02-17T01:25:08,093][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:25:08,093][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:25:08,093][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:25:08,094][INFO ][o.e.p.PluginsService     ] [testCloseOnLeakedIndexReaderReference] no modules loaded
+[2020-02-17T01:25:08,094][INFO ][o.e.p.PluginsService     ] [testCloseOnLeakedIndexReaderReference] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:25:08,094][INFO ][o.e.p.PluginsService     ] [testCloseOnLeakedIndexReaderReference] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:25:08,272][INFO ][o.e.d.DiscoveryModule    ] [testCloseOnLeakedIndexReaderReference] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:25:08,278][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] initialized
+[2020-02-17T01:25:08,278][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] starting ...
+[2020-02-17T01:25:08,565][INFO ][o.e.t.TransportService   ] [testCloseOnLeakedIndexReaderReference] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T01:25:08,576][INFO ][o.e.c.c.ClusterBootstrapService] [testCloseOnLeakedIndexReaderReference] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-02-17T01:25:10,579][WARN ][o.e.t.TransportService   ] [mock_ node] Transport response handler not found of id [1]
+[2020-02-17T01:25:10,580][WARN ][o.e.t.TransportService   ] [mock_ node] Transport response handler not found of id [2]
+[2020-02-17T01:25:11,577][INFO ][o.e.c.c.Coordinator      ] [mock_ node] setting initial configuration to VotingConfiguration{Y2tx-___T_-zps44AAAAAA}
+[2020-02-17T01:25:11,587][WARN ][o.e.t.TransportService   ] [mock_ node] Transport response handler not found of id [3]
+[2020-02-17T01:25:11,587][WARN ][o.e.t.TransportService   ] [mock_ node] Transport response handler not found of id [4]
+[2020-02-17T01:25:11,681][INFO ][o.e.c.s.MasterService    ] [mock_ node] elected-as-master ([1] nodes joined)[{mock_ node}{Y2tx-___T_-zps44AAAAAA}{oPO5JgX2Rj2dhXf2WZa4UQ}{127.0.0.1}{127.0.0.1:9300}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{mock_ node}{Y2tx-___T_-zps44AAAAAA}{oPO5JgX2Rj2dhXf2WZa4UQ}{127.0.0.1}{127.0.0.1:9300}{dim}]}
+[2020-02-17T01:25:11,688][INFO ][o.e.c.c.CoordinationState] [mock_ node] cluster UUID set to [hI6E_5R9TS6thGN5uPgQNg]
+[2020-02-17T01:25:11,694][INFO ][o.e.c.s.ClusterApplierService] [mock_ node] master node changed {previous [], current [{mock_ node}{Y2tx-___T_-zps44AAAAAA}{oPO5JgX2Rj2dhXf2WZa4UQ}{127.0.0.1}{127.0.0.1:9300}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T01:25:11,694][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] started
+[2020-02-17T01:25:11,698][INFO ][o.e.g.GatewayService     ] [mock_ node] recovered [0] indices into cluster_state
+[2020-02-17T01:25:11,699][INFO ][o.e.c.m.MetaDataCreateIndexService] [mock_ node] [test] creating index, cause [api], templates [], shards [1]/[0], mappings []
+[2020-02-17T01:25:11,746][INFO ][o.e.c.r.a.AllocationService] [mock_ node] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:25:11,755][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] stopping ...
+[2020-02-17T01:25:11,758][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] stopped
+[2020-02-17T01:25:11,758][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] closing ...
+[2020-02-17T01:25:11,759][INFO ][o.e.n.Node               ] [testCloseOnLeakedIndexReaderReference] closed
+[2020-02-17T01:25:11,760][INFO ][o.e.n.NodeTests          ] [testCloseOnLeakedIndexReaderReference] after test
+[2020-02-17T01:25:11,762][INFO ][o.e.n.NodeTests          ] [testCloseOnOutstandingTask] before test
+[2020-02-17T01:25:11,762][INFO ][o.e.n.NodeTests          ] [testCloseOnOutstandingTask] after test
+[2020-02-17T01:25:11,764][INFO ][o.e.n.NodeTests          ] [testCloseOnInterruptibleTask] before test
+[2020-02-17T01:25:11,773][INFO ][o.e.e.NodeEnvironment    ] [testCloseOnInterruptibleTask] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:25:11,773][INFO ][o.e.e.NodeEnvironment    ] [testCloseOnInterruptibleTask] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:25:11,775][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] node name [mock_ node], node ID [UDIQpv__T_-xF4BHAAAAAA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-8938781317868756765]-HASH=[1652425453E]]
+[2020-02-17T01:25:11,776][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:25:11,776][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:25:11,776][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:25:11,776][INFO ][o.e.p.PluginsService     ] [testCloseOnInterruptibleTask] no modules loaded
+[2020-02-17T01:25:11,776][INFO ][o.e.p.PluginsService     ] [testCloseOnInterruptibleTask] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:25:11,776][INFO ][o.e.p.PluginsService     ] [testCloseOnInterruptibleTask] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:25:11,966][INFO ][o.e.d.DiscoveryModule    ] [testCloseOnInterruptibleTask] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:25:11,972][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] initialized
+[2020-02-17T01:25:11,972][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] starting ...
+[2020-02-17T01:25:12,258][INFO ][o.e.t.TransportService   ] [testCloseOnInterruptibleTask] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T01:25:12,264][INFO ][o.e.c.c.ClusterBootstrapService] [testCloseOnInterruptibleTask] no discovery configuration found, will perform best-effort cluster bootstrapping after [3s] unless existing master is discovered
+[2020-02-17T01:25:12,267][WARN ][o.e.t.TransportService   ] [mock_ node] Transport response handler not found of id [1]
+[2020-02-17T01:25:12,267][WARN ][o.e.t.TransportService   ] [mock_ node] Transport response handler not found of id [2]
+[2020-02-17T01:25:15,266][INFO ][o.e.c.c.Coordinator      ] [mock_ node] setting initial configuration to VotingConfiguration{UDIQpv__T_-xF4BHAAAAAA}
+[2020-02-17T01:25:15,368][INFO ][o.e.c.s.MasterService    ] [mock_ node] elected-as-master ([1] nodes joined)[{mock_ node}{UDIQpv__T_-xF4BHAAAAAA}{pNwkEAsGSoiZi24ZM7skNQ}{127.0.0.1}{127.0.0.1:9300}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{mock_ node}{UDIQpv__T_-xF4BHAAAAAA}{pNwkEAsGSoiZi24ZM7skNQ}{127.0.0.1}{127.0.0.1:9300}{dim}]}
+[2020-02-17T01:25:15,374][INFO ][o.e.c.c.CoordinationState] [mock_ node] cluster UUID set to [HbX4Xut_QlOB9bxfHOfN5w]
+[2020-02-17T01:25:15,380][INFO ][o.e.c.s.ClusterApplierService] [mock_ node] master node changed {previous [], current [{mock_ node}{UDIQpv__T_-xF4BHAAAAAA}{pNwkEAsGSoiZi24ZM7skNQ}{127.0.0.1}{127.0.0.1:9300}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T01:25:15,380][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] started
+[2020-02-17T01:25:15,381][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] stopping ...
+[2020-02-17T01:25:15,385][INFO ][o.e.g.GatewayService     ] [mock_ node] recovered [0] indices into cluster_state
+[2020-02-17T01:25:15,386][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] stopped
+[2020-02-17T01:25:15,386][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] closing ...
+[2020-02-17T01:25:15,387][INFO ][o.e.n.Node               ] [testCloseOnInterruptibleTask] closed
+[2020-02-17T01:25:15,387][INFO ][o.e.n.NodeTests          ] [testCloseOnInterruptibleTask] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

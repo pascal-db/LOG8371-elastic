@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.monitor.process.ProcessProbeTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="0.094">
+  <properties/>
+  <testcase name="testProcessInfo" classname="org.elasticsearch.monitor.process.ProcessProbeTests" time="0.002"/>
+  <testcase name="testProcessStats" classname="org.elasticsearch.monitor.process.ProcessProbeTests" time="0.091"/>
+  <system-out><![CDATA[[2020-02-17T00:24:59,633][INFO ][o.e.m.p.ProcessProbeTests] [testProcessInfo] before test
+[2020-02-17T00:24:59,635][INFO ][o.e.m.p.ProcessProbeTests] [testProcessInfo] after test
+[2020-02-17T00:24:59,636][INFO ][o.e.m.p.ProcessProbeTests] [testProcessStats] before test
+[2020-02-17T00:24:59,727][INFO ][o.e.m.p.ProcessProbeTests] [testProcessStats] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.JoinTaskExecutorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:32" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testSuccess" classname="org.elasticsearch.cluster.coordination.JoinTaskExecutorTests" time="0.006"/>
+  <testcase name="testPreventJoinClusterWithNewerIndices" classname="org.elasticsearch.cluster.coordination.JoinTaskExecutorTests" time="0.003"/>
+  <testcase name="testPreventJoinClusterWithUnsupportedIndices" classname="org.elasticsearch.cluster.coordination.JoinTaskExecutorTests" time="0.002"/>
+  <testcase name="testPreventJoinClusterWithUnsupportedNodeVersions" classname="org.elasticsearch.cluster.coordination.JoinTaskExecutorTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T01:20:32,526][INFO ][o.e.c.c.JoinTaskExecutorTests] [testSuccess] before test
+[2020-02-17T01:20:32,527][INFO ][o.e.c.c.JoinTaskExecutorTests] [testSuccess] after test
+[2020-02-17T01:20:32,530][INFO ][o.e.c.c.JoinTaskExecutorTests] [testPreventJoinClusterWithNewerIndices] before test
+[2020-02-17T01:20:32,530][INFO ][o.e.c.c.JoinTaskExecutorTests] [testPreventJoinClusterWithNewerIndices] after test
+[2020-02-17T01:20:32,532][INFO ][o.e.c.c.JoinTaskExecutorTests] [testPreventJoinClusterWithUnsupportedIndices] before test
+[2020-02-17T01:20:32,532][INFO ][o.e.c.c.JoinTaskExecutorTests] [testPreventJoinClusterWithUnsupportedIndices] after test
+[2020-02-17T01:20:32,534][INFO ][o.e.c.c.JoinTaskExecutorTests] [testPreventJoinClusterWithUnsupportedNodeVersions] before test
+[2020-02-17T01:20:32,535][INFO ][o.e.c.c.JoinTaskExecutorTests] [testPreventJoinClusterWithUnsupportedNodeVersions] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

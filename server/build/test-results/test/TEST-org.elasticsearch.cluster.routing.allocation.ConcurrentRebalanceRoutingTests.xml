@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ConcurrentRebalanceRoutingTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:37" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testClusterConcurrentRebalance" classname="org.elasticsearch.cluster.routing.allocation.ConcurrentRebalanceRoutingTests" time="0.023"/>
+  <system-out><![CDATA[[2020-02-16T15:21:37,342][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] before test
+[2020-02-16T15:21:37,346][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] Building initial routing table
+[2020-02-16T15:21:37,346][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] start two nodes and fully start the shards
+[2020-02-16T15:21:37,347][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] start all the primary shards, replicas will start initializing
+[2020-02-16T15:21:37,347][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] now, start 8 more nodes, and check that no rebalancing/relocation have happened
+[2020-02-16T15:21:37,347][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] start the replica shards, rebalancing should start, but, only 3 should be rebalancing
+[2020-02-16T15:21:37,360][INFO ][o.e.c.r.a.AllocationService] [testClusterConcurrentRebalance] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][4], [test][3], [test][2], [test][0]]]).
+[2020-02-16T15:21:37,362][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] finalize this session relocation, 3 more should relocate now
+[2020-02-16T15:21:37,363][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] finalize this session relocation, 2 more should relocate now
+[2020-02-16T15:21:37,363][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] finalize this session relocation, no more relocation
+[2020-02-16T15:21:37,363][INFO ][o.e.c.r.a.ConcurrentRebalanceRoutingTests] [testClusterConcurrentRebalance] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

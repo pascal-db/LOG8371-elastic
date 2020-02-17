@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.script.StoredScriptSourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:06" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.script.StoredScriptSourceTests" time="0.009"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.script.StoredScriptSourceTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.script.StoredScriptSourceTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T15:24:06,056][INFO ][o.e.s.StoredScriptSourceTests] [testEqualsAndHashcode] before test
+[2020-02-16T15:24:06,059][INFO ][o.e.s.StoredScriptSourceTests] [testEqualsAndHashcode] after test
+[2020-02-16T15:24:06,061][INFO ][o.e.s.StoredScriptSourceTests] [testFromXContent] before test
+[2020-02-16T15:24:06,065][INFO ][o.e.s.StoredScriptSourceTests] [testFromXContent] after test
+[2020-02-16T15:24:06,067][INFO ][o.e.s.StoredScriptSourceTests] [testSerialization] before test
+[2020-02-16T15:24:06,068][INFO ][o.e.s.StoredScriptSourceTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

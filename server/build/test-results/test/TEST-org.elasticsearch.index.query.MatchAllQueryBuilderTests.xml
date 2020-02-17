@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.MatchAllQueryBuilderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:07" hostname="Escoto-PC" time="0.044">
+  <properties/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.019"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.005"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.001"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.MatchAllQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T09:23:07,346][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testToQuery] before test
+[2020-02-17T09:23:07,348][INFO ][o.e.p.PluginsService     ] [testToQuery] no modules loaded
+[2020-02-17T09:23:07,348][INFO ][o.e.p.PluginsService     ] [testToQuery] no plugins loaded
+[2020-02-17T09:23:07,358][INFO ][o.e.p.PluginsService     ] [testToQuery] no modules loaded
+[2020-02-17T09:23:07,358][INFO ][o.e.p.PluginsService     ] [testToQuery] no plugins loaded
+[2020-02-17T09:23:07,362][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testToQuery] after test
+[2020-02-17T09:23:07,366][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T09:23:07,367][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T09:23:07,369][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T09:23:07,369][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T09:23:07,371][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T09:23:07,371][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T09:23:07,373][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testFromJson] before test
+[2020-02-17T09:23:07,373][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testFromJson] after test
+[2020-02-17T09:23:07,376][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testSerialization] before test
+[2020-02-17T09:23:07,376][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testSerialization] after test
+[2020-02-17T09:23:07,378][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T09:23:07,378][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T09:23:07,380][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T09:23:07,380][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T09:23:07,382][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testCacheability] before test
+[2020-02-17T09:23:07,382][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testCacheability] after test
+[2020-02-17T09:23:07,383][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T09:23:07,383][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T09:23:07,385][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T09:23:07,385][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T09:23:07,387][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T09:23:07,388][INFO ][o.e.i.q.MatchAllQueryBuilderTests] [testMustRewrite] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

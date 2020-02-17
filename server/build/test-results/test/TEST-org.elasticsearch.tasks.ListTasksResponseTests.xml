@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.tasks.ListTasksResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:00" hostname="Escoto-PC" time="0.06">
+  <properties/>
+  <testcase name="testNonEmptyToString" classname="org.elasticsearch.tasks.ListTasksResponseTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.tasks.ListTasksResponseTests" time="0.017"/>
+  <testcase name="testEmptyToString" classname="org.elasticsearch.tasks.ListTasksResponseTests" time="0.002"/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.tasks.ListTasksResponseTests" time="0.039"/>
+  <system-out><![CDATA[[2020-02-16T18:26:00,036][INFO ][o.e.t.ListTasksResponseTests] [testNonEmptyToString] before test
+[2020-02-16T18:26:00,036][INFO ][o.e.t.ListTasksResponseTests] [testNonEmptyToString] after test
+[2020-02-16T18:26:00,038][INFO ][o.e.t.ListTasksResponseTests] [testFromXContent] before test
+[2020-02-16T18:26:00,053][INFO ][o.e.t.ListTasksResponseTests] [testFromXContent] after test
+[2020-02-16T18:26:00,055][INFO ][o.e.t.ListTasksResponseTests] [testEmptyToString] before test
+[2020-02-16T18:26:00,055][INFO ][o.e.t.ListTasksResponseTests] [testEmptyToString] after test
+[2020-02-16T18:26:00,057][INFO ][o.e.t.ListTasksResponseTests] [testFromXContentWithFailures] before test
+[2020-02-16T18:26:00,094][INFO ][o.e.t.ListTasksResponseTests] [testFromXContentWithFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

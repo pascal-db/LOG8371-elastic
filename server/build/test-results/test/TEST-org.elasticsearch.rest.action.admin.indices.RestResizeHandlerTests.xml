@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.indices.RestResizeHandlerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testShrinkCopySettingsDeprecated" classname="org.elasticsearch.rest.action.admin.indices.RestResizeHandlerTests" time="0.004"/>
+  <testcase name="testSplitCopySettingsDeprecated" classname="org.elasticsearch.rest.action.admin.indices.RestResizeHandlerTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:25:17,724][INFO ][o.e.r.a.a.i.RestResizeHandlerTests] [testShrinkCopySettingsDeprecated] before test
+[2020-02-16T19:25:17,726][WARN ][o.e.d.r.a.a.i.RestResizeHandler] [testShrinkCopySettingsDeprecated] parameter [copy_settings] is deprecated and will be removed in 8.0.0
+[2020-02-16T19:25:17,726][WARN ][o.e.d.r.a.a.i.RestResizeHandler] [testShrinkCopySettingsDeprecated] parameter [copy_settings] is deprecated and will be removed in 8.0.0
+[2020-02-16T19:25:17,727][INFO ][o.e.r.a.a.i.RestResizeHandlerTests] [testShrinkCopySettingsDeprecated] after test
+[2020-02-16T19:25:17,728][INFO ][o.e.r.a.a.i.RestResizeHandlerTests] [testSplitCopySettingsDeprecated] before test
+[2020-02-16T19:25:17,729][WARN ][o.e.d.r.a.a.i.RestResizeHandler] [testSplitCopySettingsDeprecated] parameter [copy_settings] is deprecated and will be removed in 8.0.0
+[2020-02-16T19:25:17,729][WARN ][o.e.d.r.a.a.i.RestResizeHandler] [testSplitCopySettingsDeprecated] parameter [copy_settings] is deprecated and will be removed in 8.0.0
+[2020-02-16T19:25:17,730][INFO ][o.e.r.a.a.i.RestResizeHandlerTests] [testSplitCopySettingsDeprecated] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.shrink.TransportResizeActionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:06" hostname="Escoto-PC" time="0.034">
+  <properties/>
+  <testcase name="testShrinkIndexSettings" classname="org.elasticsearch.action.admin.indices.shrink.TransportResizeActionTests" time="0.009"/>
+  <testcase name="testErrorCondition" classname="org.elasticsearch.action.admin.indices.shrink.TransportResizeActionTests" time="0.007"/>
+  <testcase name="testPassNumRoutingShards" classname="org.elasticsearch.action.admin.indices.shrink.TransportResizeActionTests" time="0.004"/>
+  <testcase name="testPassNumRoutingShardsAndFail" classname="org.elasticsearch.action.admin.indices.shrink.TransportResizeActionTests" time="0.013"/>
+  <system-out><![CDATA[[2020-02-16T22:20:06,629][INFO ][o.e.a.a.i.s.TransportResizeActionTests] [testShrinkIndexSettings] before test
+[2020-02-16T22:20:06,636][INFO ][o.e.c.r.a.AllocationService] [testShrinkIndexSettings] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[IwTGouYyKR][2], [IwTGouYyKR][5], [IwTGouYyKR][4], [IwTGouYyKR][3], [IwTGouYyKR][7], [IwTGouYyKR][1], [IwTGouYyKR][8], [IwTGouYyKR][6], [IwTGouYyKR][0]]]).
+[2020-02-16T22:20:06,637][INFO ][o.e.a.a.i.s.TransportResizeActionTests] [testShrinkIndexSettings] after test
+[2020-02-16T22:20:06,639][INFO ][o.e.a.a.i.s.TransportResizeActionTests] [testErrorCondition] before test
+[2020-02-16T22:20:06,643][INFO ][o.e.c.r.a.AllocationService] [testErrorCondition] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[source][1], [source][2], [source][0]]]).
+[2020-02-16T22:20:06,644][INFO ][o.e.a.a.i.s.TransportResizeActionTests] [testErrorCondition] after test
+[2020-02-16T22:20:06,646][INFO ][o.e.a.a.i.s.TransportResizeActionTests] [testPassNumRoutingShards] before test
+[2020-02-16T22:20:06,648][INFO ][o.e.c.r.a.AllocationService] [testPassNumRoutingShards] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[source][0]]]).
+[2020-02-16T22:20:06,648][INFO ][o.e.a.a.i.s.TransportResizeActionTests] [testPassNumRoutingShards] after test
+[2020-02-16T22:20:06,650][INFO ][o.e.a.a.i.s.TransportResizeActionTests] [testPassNumRoutingShardsAndFail] before test
+[2020-02-16T22:20:06,661][INFO ][o.e.c.r.a.AllocationService] [testPassNumRoutingShardsAndFail] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[source][47], [source][62], [source][18], [source][2], [source][61], [source][43], [source][48], [source][3], [source][1], [source][17], ... [78 items in total]]]).
+[2020-02-16T22:20:06,662][INFO ][o.e.a.a.i.s.TransportResizeActionTests] [testPassNumRoutingShardsAndFail] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

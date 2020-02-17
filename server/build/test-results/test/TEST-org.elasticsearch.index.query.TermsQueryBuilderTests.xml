@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.TermsQueryBuilderTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:41" hostname="Escoto-PC" time="0.115">
+  <properties/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.024"/>
+  <testcase name="testNumeric" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.01"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.003"/>
+  <testcase name="testBothValuesAndLookupSet" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.008"/>
+  <testcase name="testGeo" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.012"/>
+  <testcase name="testTypeField" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.004"/>
+  <testcase name="testNullValues" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.005"/>
+  <testcase name="testSerializationFailsUnlessFetched" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.004"/>
+  <testcase name="testConversion" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.006"/>
+  <testcase name="testTermsQueryWithMultipleFields" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.013"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testEmtpyFieldName" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testEmtpyTermsLookup" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.TermsQueryBuilderTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T22:23:41,437][INFO ][o.e.i.q.TermsQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T22:23:41,439][INFO ][o.e.p.PluginsService     ] [testQueryWrappedInArray] no modules loaded
+[2020-02-16T22:23:41,439][INFO ][o.e.p.PluginsService     ] [testQueryWrappedInArray] no plugins loaded
+[2020-02-16T22:23:41,454][INFO ][o.e.p.PluginsService     ] [testQueryWrappedInArray] no modules loaded
+[2020-02-16T22:23:41,455][INFO ][o.e.p.PluginsService     ] [testQueryWrappedInArray] no plugins loaded
+[2020-02-16T22:23:41,458][INFO ][o.e.i.q.TermsQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T22:23:41,462][INFO ][o.e.i.q.TermsQueryBuilderTests] [testNumeric] before test
+[2020-02-16T22:23:41,468][INFO ][o.e.i.q.TermsQueryBuilderTests] [testNumeric] after test
+[2020-02-16T22:23:41,470][INFO ][o.e.i.q.TermsQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T22:23:41,471][INFO ][o.e.i.q.TermsQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T22:23:41,472][INFO ][o.e.i.q.TermsQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T22:23:41,473][INFO ][o.e.i.q.TermsQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T22:23:41,475][INFO ][o.e.i.q.TermsQueryBuilderTests] [testBothValuesAndLookupSet] before test
+[2020-02-16T22:23:41,476][INFO ][o.e.i.q.TermsQueryBuilderTests] [testBothValuesAndLookupSet] after test
+[2020-02-16T22:23:41,483][INFO ][o.e.i.q.TermsQueryBuilderTests] [testCacheability] before test
+[2020-02-16T22:23:41,484][INFO ][o.e.i.q.TermsQueryBuilderTests] [testCacheability] after test
+[2020-02-16T22:23:41,486][INFO ][o.e.i.q.TermsQueryBuilderTests] [testGeo] before test
+[2020-02-16T22:23:41,486][INFO ][o.e.i.q.TermsQueryBuilderTests] [testGeo] after test
+[2020-02-16T22:23:41,491][INFO ][o.e.i.q.TermsQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T22:23:41,492][WARN ][o.e.d.i.q.TermsQueryBuilder] [testFromXContent] [types removal] Types are deprecated in [terms] lookup queries.
+[2020-02-16T22:23:41,498][INFO ][o.e.i.q.TermsQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T22:23:41,500][INFO ][o.e.i.q.TermsQueryBuilderTests] [testTypeField] before test
+[2020-02-16T22:23:41,501][WARN ][o.e.d.i.q.QueryShardContext] [testTypeField] [types removal] Using the _type field in queries and aggregations is deprecated, prefer to use a field instead.
+[2020-02-16T22:23:41,501][INFO ][o.e.i.q.TermsQueryBuilderTests] [testTypeField] after test
+[2020-02-16T22:23:41,503][INFO ][o.e.i.q.TermsQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:23:41,505][INFO ][o.e.i.q.TermsQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:23:41,510][INFO ][o.e.i.q.TermsQueryBuilderTests] [testNullValues] before test
+[2020-02-16T22:23:41,511][INFO ][o.e.i.q.TermsQueryBuilderTests] [testNullValues] after test
+[2020-02-16T22:23:41,513][INFO ][o.e.i.q.TermsQueryBuilderTests] [testSerializationFailsUnlessFetched] before test
+[2020-02-16T22:23:41,514][INFO ][o.e.i.q.TermsQueryBuilderTests] [testSerializationFailsUnlessFetched] after test
+[2020-02-16T22:23:41,516][INFO ][o.e.i.q.TermsQueryBuilderTests] [testConversion] before test
+[2020-02-16T22:23:41,517][INFO ][o.e.i.q.TermsQueryBuilderTests] [testConversion] after test
+[2020-02-16T22:23:41,518][INFO ][o.e.i.q.TermsQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T22:23:41,523][INFO ][o.e.i.q.TermsQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T22:23:41,525][INFO ][o.e.i.q.TermsQueryBuilderTests] [testTermsQueryWithMultipleFields] before test
+[2020-02-16T22:23:41,526][INFO ][o.e.i.q.TermsQueryBuilderTests] [testTermsQueryWithMultipleFields] after test
+[2020-02-16T22:23:41,528][INFO ][o.e.i.q.TermsQueryBuilderTests] [testToQuery] before test
+[2020-02-16T22:23:41,538][INFO ][o.e.i.q.TermsQueryBuilderTests] [testToQuery] after test
+[2020-02-16T22:23:41,540][INFO ][o.e.i.q.TermsQueryBuilderTests] [testFromJson] before test
+[2020-02-16T22:23:41,541][INFO ][o.e.i.q.TermsQueryBuilderTests] [testFromJson] after test
+[2020-02-16T22:23:41,542][INFO ][o.e.i.q.TermsQueryBuilderTests] [testEmtpyFieldName] before test
+[2020-02-16T22:23:41,543][INFO ][o.e.i.q.TermsQueryBuilderTests] [testEmtpyFieldName] after test
+[2020-02-16T22:23:41,544][INFO ][o.e.i.q.TermsQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T22:23:41,545][INFO ][o.e.i.q.TermsQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T22:23:41,546][INFO ][o.e.i.q.TermsQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T22:23:41,546][INFO ][o.e.i.q.TermsQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T22:23:41,548][INFO ][o.e.i.q.TermsQueryBuilderTests] [testEmtpyTermsLookup] before test
+[2020-02-16T22:23:41,548][INFO ][o.e.i.q.TermsQueryBuilderTests] [testEmtpyTermsLookup] after test
+[2020-02-16T22:23:41,549][INFO ][o.e.i.q.TermsQueryBuilderTests] [testSerialization] before test
+[2020-02-16T22:23:41,550][INFO ][o.e.i.q.TermsQueryBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

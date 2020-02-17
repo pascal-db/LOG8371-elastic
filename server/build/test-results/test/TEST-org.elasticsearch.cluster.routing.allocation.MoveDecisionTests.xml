@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.MoveDecisionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testStayDecision" classname="org.elasticsearch.cluster.routing.allocation.MoveDecisionTests" time="0.01"/>
+  <testcase name="testCachedDecisions" classname="org.elasticsearch.cluster.routing.allocation.MoveDecisionTests" time="0.004"/>
+  <testcase name="testDecisionWithNodeExplanations" classname="org.elasticsearch.cluster.routing.allocation.MoveDecisionTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.routing.allocation.MoveDecisionTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-17T11:21:38,111][INFO ][o.e.c.r.a.MoveDecisionTests] [testStayDecision] before test
+[2020-02-17T11:21:38,111][INFO ][o.e.c.r.a.MoveDecisionTests] [testStayDecision] after test
+[2020-02-17T11:21:38,115][INFO ][o.e.c.r.a.MoveDecisionTests] [testCachedDecisions] before test
+[2020-02-17T11:21:38,116][INFO ][o.e.c.r.a.MoveDecisionTests] [testCachedDecisions] after test
+[2020-02-17T11:21:38,118][INFO ][o.e.c.r.a.MoveDecisionTests] [testDecisionWithNodeExplanations] before test
+[2020-02-17T11:21:38,118][INFO ][o.e.c.r.a.MoveDecisionTests] [testDecisionWithNodeExplanations] after test
+[2020-02-17T11:21:38,120][INFO ][o.e.c.r.a.MoveDecisionTests] [testSerialization] before test
+[2020-02-17T11:21:38,127][INFO ][o.e.c.r.a.MoveDecisionTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

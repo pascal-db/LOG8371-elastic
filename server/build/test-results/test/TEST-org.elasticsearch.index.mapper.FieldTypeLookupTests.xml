@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.FieldTypeLookupTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:06" hostname="Escoto-PC" time="0.055">
+  <properties/>
+  <testcase name="testUpdateConcreteFieldWithAlias" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.004"/>
+  <testcase name="testDefaultMapping" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.01"/>
+  <testcase name="testSimpleMatchToFullName" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.003"/>
+  <testcase name="testUpdateFieldAlias" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.012"/>
+  <testcase name="testAddExistingField" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.005"/>
+  <testcase name="testAddNewField" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.011"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.005"/>
+  <testcase name="testAddFieldAlias" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.003"/>
+  <testcase name="testIteratorImmutable" classname="org.elasticsearch.index.mapper.FieldTypeLookupTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T12:53:06,866][INFO ][o.e.i.m.FieldTypeLookupTests] [testUpdateConcreteFieldWithAlias] before test
+[2020-02-16T12:53:06,869][INFO ][o.e.i.m.FieldTypeLookupTests] [testUpdateConcreteFieldWithAlias] after test
+[2020-02-16T12:53:06,878][INFO ][o.e.i.m.FieldTypeLookupTests] [testDefaultMapping] before test
+[2020-02-16T12:53:06,879][INFO ][o.e.i.m.FieldTypeLookupTests] [testDefaultMapping] after test
+[2020-02-16T12:53:06,880][INFO ][o.e.i.m.FieldTypeLookupTests] [testSimpleMatchToFullName] before test
+[2020-02-16T12:53:06,881][INFO ][o.e.i.m.FieldTypeLookupTests] [testSimpleMatchToFullName] after test
+[2020-02-16T12:53:06,894][INFO ][o.e.i.m.FieldTypeLookupTests] [testUpdateFieldAlias] before test
+[2020-02-16T12:53:06,894][INFO ][o.e.i.m.FieldTypeLookupTests] [testUpdateFieldAlias] after test
+[2020-02-16T12:53:06,899][INFO ][o.e.i.m.FieldTypeLookupTests] [testAddExistingField] before test
+[2020-02-16T12:53:06,899][INFO ][o.e.i.m.FieldTypeLookupTests] [testAddExistingField] after test
+[2020-02-16T12:53:06,910][INFO ][o.e.i.m.FieldTypeLookupTests] [testAddNewField] before test
+[2020-02-16T12:53:06,911][INFO ][o.e.i.m.FieldTypeLookupTests] [testAddNewField] after test
+[2020-02-16T12:53:06,915][INFO ][o.e.i.m.FieldTypeLookupTests] [testEmpty] before test
+[2020-02-16T12:53:06,916][INFO ][o.e.i.m.FieldTypeLookupTests] [testEmpty] after test
+[2020-02-16T12:53:06,918][INFO ][o.e.i.m.FieldTypeLookupTests] [testAddFieldAlias] before test
+[2020-02-16T12:53:06,918][INFO ][o.e.i.m.FieldTypeLookupTests] [testAddFieldAlias] after test
+[2020-02-16T12:53:06,920][INFO ][o.e.i.m.FieldTypeLookupTests] [testIteratorImmutable] before test
+[2020-02-16T12:53:06,920][INFO ][o.e.i.m.FieldTypeLookupTests] [testIteratorImmutable] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

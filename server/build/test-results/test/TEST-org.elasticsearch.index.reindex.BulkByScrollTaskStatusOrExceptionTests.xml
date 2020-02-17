@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.reindex.BulkByScrollTaskStatusOrExceptionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:09" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.reindex.BulkByScrollTaskStatusOrExceptionTests" time="0.028"/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.index.reindex.BulkByScrollTaskStatusOrExceptionTests" time="0.019"/>
+  <system-out><![CDATA[[2020-02-17T05:23:09,997][INFO ][o.e.i.r.BulkByScrollTaskStatusOrExceptionTests] [testFromXContent] before test
+[2020-02-17T05:23:10,021][INFO ][o.e.i.r.BulkByScrollTaskStatusOrExceptionTests] [testFromXContent] after test
+[2020-02-17T05:23:10,031][INFO ][o.e.i.r.BulkByScrollTaskStatusOrExceptionTests] [testFromXContentWithFailures] before test
+[2020-02-17T05:23:10,040][INFO ][o.e.i.r.BulkByScrollTaskStatusOrExceptionTests] [testFromXContentWithFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

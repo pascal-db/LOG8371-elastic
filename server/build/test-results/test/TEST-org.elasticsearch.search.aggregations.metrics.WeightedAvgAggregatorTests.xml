@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:27" hostname="Escoto-PC" time="0.171">
+  <properties/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.051"/>
+  <testcase name="testQueryFiltersAll" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.007"/>
+  <testcase name="testSomeMatchesNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.007"/>
+  <testcase name="testWeightSetTimezone" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.008"/>
+  <testcase name="testMultiValues" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.008"/>
+  <testcase name="testValueSetTimezone" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.012"/>
+  <testcase name="testQueryFiltersAllWeights" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.006"/>
+  <testcase name="testValueSetMissing" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.007"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.005"/>
+  <testcase name="testNoMatchingField" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.007"/>
+  <testcase name="testQueryFilteringWeights" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.008"/>
+  <testcase name="testSomeMatchesSortedNumericDocValuesNoWeight" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.007"/>
+  <testcase name="testWeightSetMissing" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.008"/>
+  <testcase name="testQueryFiltering" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.008"/>
+  <testcase name="testMultiWeight" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.009"/>
+  <testcase name="testSomeMatchesSortedNumericDocValuesWeights" classname="org.elasticsearch.search.aggregations.metrics.WeightedAvgAggregatorTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T22:24:27,443][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testSummationAccuracy] before test
+[2020-02-16T22:24:27,491][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testSummationAccuracy] after test
+[2020-02-16T22:24:27,493][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testQueryFiltersAll] before test
+[2020-02-16T22:24:27,498][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testQueryFiltersAll] after test
+[2020-02-16T22:24:27,500][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testSomeMatchesNumericDocValues] before test
+[2020-02-16T22:24:27,505][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testSomeMatchesNumericDocValues] after test
+[2020-02-16T22:24:27,507][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testWeightSetTimezone] before test
+[2020-02-16T22:24:27,513][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testWeightSetTimezone] after test
+[2020-02-16T22:24:27,517][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testMultiValues] before test
+[2020-02-16T22:24:27,521][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testMultiValues] after test
+[2020-02-16T22:24:27,523][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testValueSetTimezone] before test
+[2020-02-16T22:24:27,533][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testValueSetTimezone] after test
+[2020-02-16T22:24:27,535][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testQueryFiltersAllWeights] before test
+[2020-02-16T22:24:27,539][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testQueryFiltersAllWeights] after test
+[2020-02-16T22:24:27,542][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testValueSetMissing] before test
+[2020-02-16T22:24:27,546][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testValueSetMissing] after test
+[2020-02-16T22:24:27,548][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testNoDocs] before test
+[2020-02-16T22:24:27,552][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testNoDocs] after test
+[2020-02-16T22:24:27,554][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testNoMatchingField] before test
+[2020-02-16T22:24:27,559][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testNoMatchingField] after test
+[2020-02-16T22:24:27,561][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testQueryFilteringWeights] before test
+[2020-02-16T22:24:27,567][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testQueryFilteringWeights] after test
+[2020-02-16T22:24:27,570][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testSomeMatchesSortedNumericDocValuesNoWeight] before test
+[2020-02-16T22:24:27,575][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testSomeMatchesSortedNumericDocValuesNoWeight] after test
+[2020-02-16T22:24:27,580][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testWeightSetMissing] before test
+[2020-02-16T22:24:27,584][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testWeightSetMissing] after test
+[2020-02-16T22:24:27,586][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testQueryFiltering] before test
+[2020-02-16T22:24:27,592][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testQueryFiltering] after test
+[2020-02-16T22:24:27,595][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testMultiWeight] before test
+[2020-02-16T22:24:27,601][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testMultiWeight] after test
+[2020-02-16T22:24:27,606][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testSomeMatchesSortedNumericDocValuesWeights] before test
+[2020-02-16T22:24:27,612][INFO ][o.e.s.a.m.WeightedAvgAggregatorTests] [testSomeMatchesSortedNumericDocValuesWeights] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

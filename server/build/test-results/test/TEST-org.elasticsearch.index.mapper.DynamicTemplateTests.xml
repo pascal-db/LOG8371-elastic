@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.DynamicTemplateTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:03" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testParseUnknownMatchType" classname="org.elasticsearch.index.mapper.DynamicTemplateTests" time="0.003"/>
+  <testcase name="testParseUnknownParam" classname="org.elasticsearch.index.mapper.DynamicTemplateTests" time="0.002"/>
+  <testcase name="testParseInvalidRegex" classname="org.elasticsearch.index.mapper.DynamicTemplateTests" time="0.002"/>
+  <testcase name="testMatchAllTemplate" classname="org.elasticsearch.index.mapper.DynamicTemplateTests" time="0.002"/>
+  <testcase name="testMatchTypeTemplate" classname="org.elasticsearch.index.mapper.DynamicTemplateTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.mapper.DynamicTemplateTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:23:03,907][INFO ][o.e.i.m.DynamicTemplateTests] [testParseUnknownMatchType] before test
+[2020-02-17T06:23:03,908][INFO ][o.e.i.m.DynamicTemplateTests] [testParseUnknownMatchType] after test
+[2020-02-17T06:23:03,910][INFO ][o.e.i.m.DynamicTemplateTests] [testParseUnknownParam] before test
+[2020-02-17T06:23:03,910][INFO ][o.e.i.m.DynamicTemplateTests] [testParseUnknownParam] after test
+[2020-02-17T06:23:03,912][INFO ][o.e.i.m.DynamicTemplateTests] [testParseInvalidRegex] before test
+[2020-02-17T06:23:03,912][INFO ][o.e.i.m.DynamicTemplateTests] [testParseInvalidRegex] after test
+[2020-02-17T06:23:03,914][INFO ][o.e.i.m.DynamicTemplateTests] [testMatchAllTemplate] before test
+[2020-02-17T06:23:03,914][INFO ][o.e.i.m.DynamicTemplateTests] [testMatchAllTemplate] after test
+[2020-02-17T06:23:03,916][INFO ][o.e.i.m.DynamicTemplateTests] [testMatchTypeTemplate] before test
+[2020-02-17T06:23:03,916][INFO ][o.e.i.m.DynamicTemplateTests] [testMatchTypeTemplate] after test
+[2020-02-17T06:23:03,918][INFO ][o.e.i.m.DynamicTemplateTests] [testSerialization] before test
+[2020-02-17T06:23:03,919][INFO ][o.e.i.m.DynamicTemplateTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

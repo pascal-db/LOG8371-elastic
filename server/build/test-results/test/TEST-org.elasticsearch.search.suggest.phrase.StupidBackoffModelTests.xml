@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.phrase.StupidBackoffModelTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.phrase.StupidBackoffModelTests" time="0.003"/>
+  <testcase name="testBuildWordScorer" classname="org.elasticsearch.search.suggest.phrase.StupidBackoffModelTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.suggest.phrase.StupidBackoffModelTests" time="0.001"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.phrase.StupidBackoffModelTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:24:43,647][INFO ][o.e.s.s.p.StupidBackoffModelTests] [testSerialization] before test
+[2020-02-16T23:24:43,647][INFO ][o.e.s.s.p.StupidBackoffModelTests] [testSerialization] after test
+[2020-02-16T23:24:43,649][INFO ][o.e.s.s.p.StupidBackoffModelTests] [testBuildWordScorer] before test
+[2020-02-16T23:24:43,650][INFO ][o.e.s.s.p.StupidBackoffModelTests] [testBuildWordScorer] after test
+[2020-02-16T23:24:43,652][INFO ][o.e.s.s.p.StupidBackoffModelTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:24:43,652][INFO ][o.e.s.s.p.StupidBackoffModelTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:24:43,654][INFO ][o.e.s.s.p.StupidBackoffModelTests] [testFromXContent] before test
+[2020-02-16T23:24:43,654][INFO ][o.e.s.s.p.StupidBackoffModelTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

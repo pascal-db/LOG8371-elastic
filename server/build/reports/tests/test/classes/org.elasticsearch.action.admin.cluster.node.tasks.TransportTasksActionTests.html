@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.action.admin.cluster.node.tasks.TransportTasksActionTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.action.admin.cluster.node.tasks.TransportTasksActionTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.action.admin.cluster.node.tasks.html">org.elasticsearch.action.admin.cluster.node.tasks</a> &gt; TransportTasksActionTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">16.208s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCancellingTasksThatDontSupportCancellation</td>
+<td class="success">1.065s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailedTasksCount</td>
+<td class="success">2.162s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFindChildTasks</td>
+<td class="success">4.164s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRunningTasksCount</td>
+<td class="success">1.334s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTaskLevelActionFailures</td>
+<td class="success">0.804s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTaskNodeFiltering</td>
+<td class="success">1.664s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTasksDescriptions</td>
+<td class="success">1.137s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTasksToXContentGrouping</td>
+<td class="success">3.878s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T04:20:07,305][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTasksToXContentGrouping] before test
+[2020-02-17T04:20:07,812][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T04:20:08,328][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T04:20:08,718][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-17T04:20:09,076][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2020-02-17T04:20:09,655][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9304}, bound_addresses {127.0.0.1:9304}, {[::1]:9304}
+[2020-02-17T04:20:09,953][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9305}, bound_addresses {127.0.0.1:9305}, {[::1]:9305}
+[2020-02-17T04:20:10,213][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9306}, bound_addresses {127.0.0.1:9306}, {[::1]:9306}
+[2020-02-17T04:20:10,468][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9307}, bound_addresses {127.0.0.1:9307}, {[::1]:9307}
+[2020-02-17T04:20:10,719][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9308}, bound_addresses {127.0.0.1:9308}, {[::1]:9308}
+[2020-02-17T04:20:11,021][INFO ][o.e.t.TransportService   ] [testTasksToXContentGrouping] publish_address {127.0.0.1:9309}, bound_addresses {127.0.0.1:9309}, {[::1]:9309}
+[2020-02-17T04:20:11,023][INFO ][o.e.c.s.ClusterApplierService] [test] added {{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308},{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304},{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307},{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306},{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,024][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304},{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309},{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307},{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,025][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308},{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301},{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304},{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307},{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309},{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,027][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304},{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309},{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308},{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306},{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,028][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300},{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301},{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309},{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307},{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,029][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301},{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308},{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300},{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306},{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,030][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304},{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307},{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301},{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300},{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,031][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309},{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304},{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300},{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308},{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,032][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307},{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304},{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300},{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306},{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,035][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node9}{FpPmN8ggROu9tVvwIT8Jow}{127.0.0.1}{127.0.0.1:9309}], current [{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node0}{FRb4tw0yQKaQoOtyC1_FFg}{127.0.0.1}{127.0.0.1:9300},{node8}{PBkumwoIR7SEfCtdsZfNMw}{127.0.0.1}{127.0.0.1:9308},{node4}{bE7AIIIlQJqccEiOEIgUHA}{127.0.0.1}{127.0.0.1:9304},{node5}{5tq9dtgDS-Grh8Eth-KBQw}{127.0.0.1}{127.0.0.1:9305},{node3}{oty-TWleQ02dA9tg8Uzubg}{127.0.0.1}{127.0.0.1:9303},{node6}{ox6jAwoaQgWIaaL8YYpAgw}{127.0.0.1}{127.0.0.1:9306},{node1}{_eT33d9cRjWxXgpbTSYvSQ}{127.0.0.1}{127.0.0.1:9301},{node2}{En2yTCJiQHmJ3MuyOhFMXQ}{127.0.0.1}{127.0.0.1:9302},{node7}{GMEbfvrgTSaMDndgSLLbeA}{127.0.0.1}{127.0.0.1:9307}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:11,150][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTasksToXContentGrouping] {&quot;nodes&quot;:{&quot;node4&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9304&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9304&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node4:10&quot;:{&quot;node&quot;:&quot;node4&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611148,&quot;running_time_in_nanos&quot;:17524,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node5&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9305&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9305&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node5:10&quot;:{&quot;node&quot;:&quot;node5&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611148,&quot;running_time_in_nanos&quot;:18107,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node2&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9302&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9302&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node2:10&quot;:{&quot;node&quot;:&quot;node2&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:18984,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node3&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9303&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9303&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node3:10&quot;:{&quot;node&quot;:&quot;node3&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:14603,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node8&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9308&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9308&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node8:10&quot;:{&quot;node&quot;:&quot;node8&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:17231,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node9&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9309&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9309&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node9:10&quot;:{&quot;node&quot;:&quot;node9&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:16647,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node6&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9306&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9306&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node6:10&quot;:{&quot;node&quot;:&quot;node6&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:13142,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node7&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9307&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9307&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node7:10&quot;:{&quot;node&quot;:&quot;node7&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:19568,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node0&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9300&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9300&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node0:10&quot;:{&quot;node&quot;:&quot;node0&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists&quot;,&quot;start_time_in_millis&quot;:1581891611146,&quot;running_time_in_nanos&quot;:726351,&quot;cancellable&quot;:false,&quot;headers&quot;:{}},&quot;node0:11&quot;:{&quot;node&quot;:&quot;node0&quot;,&quot;id&quot;:11,&quot;type&quot;:&quot;direct&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611146,&quot;running_time_in_nanos&quot;:245037,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}},&quot;node1&quot;:{&quot;name&quot;:&quot;&quot;,&quot;transport_address&quot;:&quot;127.0.0.1:9301&quot;,&quot;host&quot;:&quot;127.0.0.1&quot;,&quot;ip&quot;:&quot;127.0.0.1:9301&quot;,&quot;roles&quot;:[],&quot;tasks&quot;:{&quot;node1:10&quot;:{&quot;node&quot;:&quot;node1&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:17232,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}}}}}
+[2020-02-17T04:20:11,160][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTasksToXContentGrouping] {&quot;tasks&quot;:{&quot;node0:10&quot;:{&quot;node&quot;:&quot;node0&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists&quot;,&quot;start_time_in_millis&quot;:1581891611146,&quot;running_time_in_nanos&quot;:726351,&quot;cancellable&quot;:false,&quot;headers&quot;:{},&quot;children&quot;:[{&quot;node&quot;:&quot;node9&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:16647,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node8&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:17231,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node7&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:19568,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node6&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:13142,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node5&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611148,&quot;running_time_in_nanos&quot;:18107,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node4&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611148,&quot;running_time_in_nanos&quot;:17524,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node3&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:14603,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node2&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:18984,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node1&quot;,&quot;id&quot;:10,&quot;type&quot;:&quot;transport&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611147,&quot;running_time_in_nanos&quot;:17232,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}},{&quot;node&quot;:&quot;node0&quot;,&quot;id&quot;:11,&quot;type&quot;:&quot;direct&quot;,&quot;action&quot;:&quot;cluster:monitor/tasks/lists[n]&quot;,&quot;start_time_in_millis&quot;:1581891611146,&quot;running_time_in_nanos&quot;:245037,&quot;cancellable&quot;:false,&quot;parent_task_id&quot;:&quot;node0:10&quot;,&quot;headers&quot;:{}}]}}}
+[2020-02-17T04:20:11,177][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTasksToXContentGrouping] after test
+[2020-02-17T04:20:11,179][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testCancellingTasksThatDontSupportCancellation] before test
+[2020-02-17T04:20:11,439][INFO ][o.e.t.TransportService   ] [testCancellingTasksThatDontSupportCancellation] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T04:20:11,699][INFO ][o.e.t.TransportService   ] [testCancellingTasksThatDontSupportCancellation] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T04:20:11,962][INFO ][o.e.t.TransportService   ] [testCancellingTasksThatDontSupportCancellation] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-17T04:20:12,217][INFO ][o.e.t.TransportService   ] [testCancellingTasksThatDontSupportCancellation] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2020-02-17T04:20:12,219][INFO ][o.e.c.s.ClusterApplierService] [test] added {{node2}{BJ8x7LzvS3irD3DisYATFA}{127.0.0.1}{127.0.0.1:9302},{node3}{T2NUbKUnRFGktDlWzdLygQ}{127.0.0.1}{127.0.0.1:9303},{node1}{_PWx3yn_Quy8dOYa2TEoSA}{127.0.0.1}{127.0.0.1:9301}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:12,220][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node1}{_PWx3yn_Quy8dOYa2TEoSA}{127.0.0.1}{127.0.0.1:9301}], current [{node0}{M3C7Y7-AQ4yyQQYuupGx7w}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{BJ8x7LzvS3irD3DisYATFA}{127.0.0.1}{127.0.0.1:9302},{node3}{T2NUbKUnRFGktDlWzdLygQ}{127.0.0.1}{127.0.0.1:9303},{node0}{M3C7Y7-AQ4yyQQYuupGx7w}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:12,221][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node2}{BJ8x7LzvS3irD3DisYATFA}{127.0.0.1}{127.0.0.1:9302}], current [{node0}{M3C7Y7-AQ4yyQQYuupGx7w}{127.0.0.1}{127.0.0.1:9300}]}, added {{node3}{T2NUbKUnRFGktDlWzdLygQ}{127.0.0.1}{127.0.0.1:9303},{node1}{_PWx3yn_Quy8dOYa2TEoSA}{127.0.0.1}{127.0.0.1:9301},{node0}{M3C7Y7-AQ4yyQQYuupGx7w}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:12,222][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node3}{T2NUbKUnRFGktDlWzdLygQ}{127.0.0.1}{127.0.0.1:9303}], current [{node0}{M3C7Y7-AQ4yyQQYuupGx7w}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{BJ8x7LzvS3irD3DisYATFA}{127.0.0.1}{127.0.0.1:9302},{node1}{_PWx3yn_Quy8dOYa2TEoSA}{127.0.0.1}{127.0.0.1:9301},{node0}{M3C7Y7-AQ4yyQQYuupGx7w}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:12,236][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testCancellingTasksThatDontSupportCancellation] Awaiting for all actions to start
+[2020-02-17T04:20:12,236][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2
+[2020-02-17T04:20:12,236][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0
+[2020-02-17T04:20:12,236][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1
+[2020-02-17T04:20:12,236][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3
+[2020-02-17T04:20:12,236][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testCancellingTasksThatDontSupportCancellation] Done waiting for all actions to start
+[2020-02-17T04:20:12,239][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0 finished
+[2020-02-17T04:20:12,239][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2 finished
+[2020-02-17T04:20:12,239][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1 finished
+[2020-02-17T04:20:12,239][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3 finished
+[2020-02-17T04:20:12,242][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testCancellingTasksThatDontSupportCancellation] after test
+[2020-02-17T04:20:12,244][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTasksDescriptions] before test
+[2020-02-17T04:20:12,501][INFO ][o.e.t.TransportService   ] [testTasksDescriptions] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T04:20:12,838][INFO ][o.e.t.TransportService   ] [testTasksDescriptions] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T04:20:13,097][INFO ][o.e.t.TransportService   ] [testTasksDescriptions] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-17T04:20:13,355][INFO ][o.e.t.TransportService   ] [testTasksDescriptions] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2020-02-17T04:20:13,357][INFO ][o.e.c.s.ClusterApplierService] [test] added {{node2}{jkILGBFdRv2SVxyP6NXy0g}{127.0.0.1}{127.0.0.1:9302},{node3}{vdI-E2YaRJeIEDqUuNSpqg}{127.0.0.1}{127.0.0.1:9303},{node1}{n0hC3LtJSy-Mp83cGAJ_dw}{127.0.0.1}{127.0.0.1:9301}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:13,358][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node1}{n0hC3LtJSy-Mp83cGAJ_dw}{127.0.0.1}{127.0.0.1:9301}], current [{node0}{9gZ-rhQHSkyO2s5fviO14g}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{jkILGBFdRv2SVxyP6NXy0g}{127.0.0.1}{127.0.0.1:9302},{node3}{vdI-E2YaRJeIEDqUuNSpqg}{127.0.0.1}{127.0.0.1:9303},{node0}{9gZ-rhQHSkyO2s5fviO14g}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:13,358][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node2}{jkILGBFdRv2SVxyP6NXy0g}{127.0.0.1}{127.0.0.1:9302}], current [{node0}{9gZ-rhQHSkyO2s5fviO14g}{127.0.0.1}{127.0.0.1:9300}]}, added {{node3}{vdI-E2YaRJeIEDqUuNSpqg}{127.0.0.1}{127.0.0.1:9303},{node1}{n0hC3LtJSy-Mp83cGAJ_dw}{127.0.0.1}{127.0.0.1:9301},{node0}{9gZ-rhQHSkyO2s5fviO14g}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:13,359][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node3}{vdI-E2YaRJeIEDqUuNSpqg}{127.0.0.1}{127.0.0.1:9303}], current [{node0}{9gZ-rhQHSkyO2s5fviO14g}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{jkILGBFdRv2SVxyP6NXy0g}{127.0.0.1}{127.0.0.1:9302},{node1}{n0hC3LtJSy-Mp83cGAJ_dw}{127.0.0.1}{127.0.0.1:9301},{node0}{9gZ-rhQHSkyO2s5fviO14g}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:13,373][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTasksDescriptions] Awaiting for all actions to start
+[2020-02-17T04:20:13,373][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2
+[2020-02-17T04:20:13,373][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0
+[2020-02-17T04:20:13,373][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3
+[2020-02-17T04:20:13,373][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1
+[2020-02-17T04:20:13,373][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTasksDescriptions] Done waiting for all actions to start
+[2020-02-17T04:20:13,375][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2 finished
+[2020-02-17T04:20:13,375][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3 finished
+[2020-02-17T04:20:13,375][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1 finished
+[2020-02-17T04:20:13,375][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0 finished
+[2020-02-17T04:20:13,380][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTasksDescriptions] after test
+[2020-02-17T04:20:13,382][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testRunningTasksCount] before test
+[2020-02-17T04:20:13,639][INFO ][o.e.t.TransportService   ] [testRunningTasksCount] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T04:20:13,898][INFO ][o.e.t.TransportService   ] [testRunningTasksCount] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T04:20:14,159][INFO ][o.e.t.TransportService   ] [testRunningTasksCount] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-17T04:20:14,417][INFO ][o.e.t.TransportService   ] [testRunningTasksCount] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2020-02-17T04:20:14,676][INFO ][o.e.t.TransportService   ] [testRunningTasksCount] publish_address {127.0.0.1:9304}, bound_addresses {127.0.0.1:9304}, {[::1]:9304}
+[2020-02-17T04:20:14,678][INFO ][o.e.c.s.ClusterApplierService] [test] added {{node2}{ngBGO7VSRaiU9FkJZC_8tQ}{127.0.0.1}{127.0.0.1:9302},{node3}{6K6wAZbSSt-JRNnYTisbbw}{127.0.0.1}{127.0.0.1:9303},{node1}{Mh8GcEXeRXG9fyVrXqQ47Q}{127.0.0.1}{127.0.0.1:9301},{node4}{_GVWYPl1TCGxaJ4rv3RF4Q}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:14,679][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node1}{Mh8GcEXeRXG9fyVrXqQ47Q}{127.0.0.1}{127.0.0.1:9301}], current [{node0}{mP1YPQDzRMGPRplAv6aYbw}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{ngBGO7VSRaiU9FkJZC_8tQ}{127.0.0.1}{127.0.0.1:9302},{node3}{6K6wAZbSSt-JRNnYTisbbw}{127.0.0.1}{127.0.0.1:9303},{node0}{mP1YPQDzRMGPRplAv6aYbw}{127.0.0.1}{127.0.0.1:9300},{node4}{_GVWYPl1TCGxaJ4rv3RF4Q}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:14,680][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node2}{ngBGO7VSRaiU9FkJZC_8tQ}{127.0.0.1}{127.0.0.1:9302}], current [{node0}{mP1YPQDzRMGPRplAv6aYbw}{127.0.0.1}{127.0.0.1:9300}]}, added {{node3}{6K6wAZbSSt-JRNnYTisbbw}{127.0.0.1}{127.0.0.1:9303},{node1}{Mh8GcEXeRXG9fyVrXqQ47Q}{127.0.0.1}{127.0.0.1:9301},{node0}{mP1YPQDzRMGPRplAv6aYbw}{127.0.0.1}{127.0.0.1:9300},{node4}{_GVWYPl1TCGxaJ4rv3RF4Q}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:14,681][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node3}{6K6wAZbSSt-JRNnYTisbbw}{127.0.0.1}{127.0.0.1:9303}], current [{node0}{mP1YPQDzRMGPRplAv6aYbw}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{ngBGO7VSRaiU9FkJZC_8tQ}{127.0.0.1}{127.0.0.1:9302},{node1}{Mh8GcEXeRXG9fyVrXqQ47Q}{127.0.0.1}{127.0.0.1:9301},{node0}{mP1YPQDzRMGPRplAv6aYbw}{127.0.0.1}{127.0.0.1:9300},{node4}{_GVWYPl1TCGxaJ4rv3RF4Q}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:14,681][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node4}{_GVWYPl1TCGxaJ4rv3RF4Q}{127.0.0.1}{127.0.0.1:9304}], current [{node0}{mP1YPQDzRMGPRplAv6aYbw}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{ngBGO7VSRaiU9FkJZC_8tQ}{127.0.0.1}{127.0.0.1:9302},{node3}{6K6wAZbSSt-JRNnYTisbbw}{127.0.0.1}{127.0.0.1:9303},{node1}{Mh8GcEXeRXG9fyVrXqQ47Q}{127.0.0.1}{127.0.0.1:9301},{node0}{mP1YPQDzRMGPRplAv6aYbw}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:14,703][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testRunningTasksCount] Awaiting for all actions to start
+[2020-02-17T04:20:14,703][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0
+[2020-02-17T04:20:14,703][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3
+[2020-02-17T04:20:14,703][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1
+[2020-02-17T04:20:14,704][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2
+[2020-02-17T04:20:14,704][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 4
+[2020-02-17T04:20:14,704][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testRunningTasksCount] Done waiting for all actions to start
+[2020-02-17T04:20:14,705][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testRunningTasksCount] Listing currently running tasks using node [2]
+[2020-02-17T04:20:14,706][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testRunningTasksCount] Checking currently running tasks
+[2020-02-17T04:20:14,707][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3 finished
+[2020-02-17T04:20:14,707][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0 finished
+[2020-02-17T04:20:14,707][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1 finished
+[2020-02-17T04:20:14,708][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2 finished
+[2020-02-17T04:20:14,708][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 4 finished
+[2020-02-17T04:20:14,713][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testRunningTasksCount] after test
+[2020-02-17T04:20:14,714][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testFailedTasksCount] before test
+[2020-02-17T04:20:14,974][INFO ][o.e.t.TransportService   ] [testFailedTasksCount] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T04:20:15,229][INFO ][o.e.t.TransportService   ] [testFailedTasksCount] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T04:20:15,493][INFO ][o.e.t.TransportService   ] [testFailedTasksCount] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-17T04:20:15,752][INFO ][o.e.t.TransportService   ] [testFailedTasksCount] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2020-02-17T04:20:16,016][INFO ][o.e.t.TransportService   ] [testFailedTasksCount] publish_address {127.0.0.1:9304}, bound_addresses {127.0.0.1:9304}, {[::1]:9304}
+[2020-02-17T04:20:16,273][INFO ][o.e.t.TransportService   ] [testFailedTasksCount] publish_address {127.0.0.1:9305}, bound_addresses {127.0.0.1:9305}, {[::1]:9305}
+[2020-02-17T04:20:16,534][INFO ][o.e.t.TransportService   ] [testFailedTasksCount] publish_address {127.0.0.1:9306}, bound_addresses {127.0.0.1:9306}, {[::1]:9306}
+[2020-02-17T04:20:16,797][INFO ][o.e.t.TransportService   ] [testFailedTasksCount] publish_address {127.0.0.1:9307}, bound_addresses {127.0.0.1:9307}, {[::1]:9307}
+[2020-02-17T04:20:16,799][INFO ][o.e.c.s.ClusterApplierService] [test] added {{node3}{DIyjciYRS4CGQrGGpMj0cg}{127.0.0.1}{127.0.0.1:9303},{node6}{jZd5NMk7R4CnPxWzJ7Bx4g}{127.0.0.1}{127.0.0.1:9306},{node4}{ZwfAgwArTc--koZNyNd4WQ}{127.0.0.1}{127.0.0.1:9304},{node1}{Fvz9vKRpSpm53wGQkh2P9A}{127.0.0.1}{127.0.0.1:9301},{node5}{XCQHtrJdTNiFTM4alg4KHA}{127.0.0.1}{127.0.0.1:9305},{node7}{KNT0RC7HT--xZu8Bf0CGgA}{127.0.0.1}{127.0.0.1:9307},{node2}{h1AMj3IjR42IYhWxGdfiqw}{127.0.0.1}{127.0.0.1:9302}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:16,800][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node1}{Fvz9vKRpSpm53wGQkh2P9A}{127.0.0.1}{127.0.0.1:9301}], current [{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node3}{DIyjciYRS4CGQrGGpMj0cg}{127.0.0.1}{127.0.0.1:9303},{node6}{jZd5NMk7R4CnPxWzJ7Bx4g}{127.0.0.1}{127.0.0.1:9306},{node7}{KNT0RC7HT--xZu8Bf0CGgA}{127.0.0.1}{127.0.0.1:9307},{node4}{ZwfAgwArTc--koZNyNd4WQ}{127.0.0.1}{127.0.0.1:9304},{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300},{node2}{h1AMj3IjR42IYhWxGdfiqw}{127.0.0.1}{127.0.0.1:9302},{node5}{XCQHtrJdTNiFTM4alg4KHA}{127.0.0.1}{127.0.0.1:9305}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:16,801][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node2}{h1AMj3IjR42IYhWxGdfiqw}{127.0.0.1}{127.0.0.1:9302}], current [{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node5}{XCQHtrJdTNiFTM4alg4KHA}{127.0.0.1}{127.0.0.1:9305},{node7}{KNT0RC7HT--xZu8Bf0CGgA}{127.0.0.1}{127.0.0.1:9307},{node3}{DIyjciYRS4CGQrGGpMj0cg}{127.0.0.1}{127.0.0.1:9303},{node4}{ZwfAgwArTc--koZNyNd4WQ}{127.0.0.1}{127.0.0.1:9304},{node1}{Fvz9vKRpSpm53wGQkh2P9A}{127.0.0.1}{127.0.0.1:9301},{node6}{jZd5NMk7R4CnPxWzJ7Bx4g}{127.0.0.1}{127.0.0.1:9306},{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:16,802][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node3}{DIyjciYRS4CGQrGGpMj0cg}{127.0.0.1}{127.0.0.1:9303}], current [{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{h1AMj3IjR42IYhWxGdfiqw}{127.0.0.1}{127.0.0.1:9302},{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300},{node6}{jZd5NMk7R4CnPxWzJ7Bx4g}{127.0.0.1}{127.0.0.1:9306},{node7}{KNT0RC7HT--xZu8Bf0CGgA}{127.0.0.1}{127.0.0.1:9307},{node1}{Fvz9vKRpSpm53wGQkh2P9A}{127.0.0.1}{127.0.0.1:9301},{node5}{XCQHtrJdTNiFTM4alg4KHA}{127.0.0.1}{127.0.0.1:9305},{node4}{ZwfAgwArTc--koZNyNd4WQ}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:16,804][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node4}{ZwfAgwArTc--koZNyNd4WQ}{127.0.0.1}{127.0.0.1:9304}], current [{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{h1AMj3IjR42IYhWxGdfiqw}{127.0.0.1}{127.0.0.1:9302},{node6}{jZd5NMk7R4CnPxWzJ7Bx4g}{127.0.0.1}{127.0.0.1:9306},{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300},{node5}{XCQHtrJdTNiFTM4alg4KHA}{127.0.0.1}{127.0.0.1:9305},{node7}{KNT0RC7HT--xZu8Bf0CGgA}{127.0.0.1}{127.0.0.1:9307},{node1}{Fvz9vKRpSpm53wGQkh2P9A}{127.0.0.1}{127.0.0.1:9301},{node3}{DIyjciYRS4CGQrGGpMj0cg}{127.0.0.1}{127.0.0.1:9303}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:16,804][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node5}{XCQHtrJdTNiFTM4alg4KHA}{127.0.0.1}{127.0.0.1:9305}], current [{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node4}{ZwfAgwArTc--koZNyNd4WQ}{127.0.0.1}{127.0.0.1:9304},{node7}{KNT0RC7HT--xZu8Bf0CGgA}{127.0.0.1}{127.0.0.1:9307},{node3}{DIyjciYRS4CGQrGGpMj0cg}{127.0.0.1}{127.0.0.1:9303},{node1}{Fvz9vKRpSpm53wGQkh2P9A}{127.0.0.1}{127.0.0.1:9301},{node6}{jZd5NMk7R4CnPxWzJ7Bx4g}{127.0.0.1}{127.0.0.1:9306},{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300},{node2}{h1AMj3IjR42IYhWxGdfiqw}{127.0.0.1}{127.0.0.1:9302}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:16,805][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node6}{jZd5NMk7R4CnPxWzJ7Bx4g}{127.0.0.1}{127.0.0.1:9306}], current [{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node1}{Fvz9vKRpSpm53wGQkh2P9A}{127.0.0.1}{127.0.0.1:9301},{node4}{ZwfAgwArTc--koZNyNd4WQ}{127.0.0.1}{127.0.0.1:9304},{node2}{h1AMj3IjR42IYhWxGdfiqw}{127.0.0.1}{127.0.0.1:9302},{node5}{XCQHtrJdTNiFTM4alg4KHA}{127.0.0.1}{127.0.0.1:9305},{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300},{node3}{DIyjciYRS4CGQrGGpMj0cg}{127.0.0.1}{127.0.0.1:9303},{node7}{KNT0RC7HT--xZu8Bf0CGgA}{127.0.0.1}{127.0.0.1:9307}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:16,806][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node7}{KNT0RC7HT--xZu8Bf0CGgA}{127.0.0.1}{127.0.0.1:9307}], current [{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node1}{Fvz9vKRpSpm53wGQkh2P9A}{127.0.0.1}{127.0.0.1:9301},{node4}{ZwfAgwArTc--koZNyNd4WQ}{127.0.0.1}{127.0.0.1:9304},{node0}{R_M7v7K3S6On_zGG0lvcfQ}{127.0.0.1}{127.0.0.1:9300},{node6}{jZd5NMk7R4CnPxWzJ7Bx4g}{127.0.0.1}{127.0.0.1:9306},{node2}{h1AMj3IjR42IYhWxGdfiqw}{127.0.0.1}{127.0.0.1:9302},{node5}{XCQHtrJdTNiFTM4alg4KHA}{127.0.0.1}{127.0.0.1:9305},{node3}{DIyjciYRS4CGQrGGpMj0cg}{127.0.0.1}{127.0.0.1:9303}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:16,860][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$3] [TransportTasksActionTests] Action on node 7
+[2020-02-17T04:20:16,861][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$3] [TransportTasksActionTests] Action on node 5
+[2020-02-17T04:20:16,861][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$3] [TransportTasksActionTests] Action on node 1
+[2020-02-17T04:20:16,860][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$3] [TransportTasksActionTests] Action on node 3
+[2020-02-17T04:20:16,862][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$3] [TransportTasksActionTests] Action on node 4
+[2020-02-17T04:20:16,862][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$3] [TransportTasksActionTests] Action on node 0
+[2020-02-17T04:20:16,863][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$3] [TransportTasksActionTests] Action on node 6
+[2020-02-17T04:20:16,863][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$3] [TransportTasksActionTests] Action on node 2
+[2020-02-17T04:20:16,876][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testFailedTasksCount] after test
+[2020-02-17T04:20:16,878][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testFindChildTasks] before test
+[2020-02-17T04:20:17,133][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T04:20:17,390][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T04:20:17,764][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-17T04:20:18,569][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2020-02-17T04:20:18,966][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9304}, bound_addresses {127.0.0.1:9304}, {[::1]:9304}
+[2020-02-17T04:20:19,429][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9305}, bound_addresses {127.0.0.1:9305}, {[::1]:9305}
+[2020-02-17T04:20:19,897][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9306}, bound_addresses {127.0.0.1:9306}, {[::1]:9306}
+[2020-02-17T04:20:20,198][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9307}, bound_addresses {127.0.0.1:9307}, {[::1]:9307}
+[2020-02-17T04:20:20,557][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9308}, bound_addresses {127.0.0.1:9308}, {[::1]:9308}
+[2020-02-17T04:20:20,927][INFO ][o.e.t.TransportService   ] [testFindChildTasks] publish_address {127.0.0.1:9309}, bound_addresses {127.0.0.1:9309}, {[::1]:9309}
+[2020-02-17T04:20:20,930][INFO ][o.e.c.s.ClusterApplierService] [test] added {{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301},{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302},{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309},{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,931][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300},{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309},{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,931][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300},{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304},{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,932][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302},{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301},{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,933][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300},{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302},{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,934][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301},{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309},{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300},{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,936][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309},{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301},{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,937][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304},{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302},{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309},{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301},{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,938][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309},{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302},{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301},{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:20,938][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node9}{T24vOOKQTyKj9eCPDoRF-A}{127.0.0.1}{127.0.0.1:9309}], current [{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node6}{fNvDfy-YRuKTVf6IrDJS_w}{127.0.0.1}{127.0.0.1:9306},{node0}{dBO2upGARtyvEpnLXwDvdQ}{127.0.0.1}{127.0.0.1:9300},{node3}{8oZ_DBApRXWunX0DazEhJQ}{127.0.0.1}{127.0.0.1:9303},{node5}{w_IhqEW3SHKP0TrUjEG1uA}{127.0.0.1}{127.0.0.1:9305},{node8}{6DvDy9JMS8qtswvGdYBxjA}{127.0.0.1}{127.0.0.1:9308},{node2}{pdRqvft5QCG5fVBGk0Z7jw}{127.0.0.1}{127.0.0.1:9302},{node4}{jw3U9dqwR6WhCB2BH_EaPg}{127.0.0.1}{127.0.0.1:9304},{node7}{NI8iPFvOR7mfKnF2gaGXEA}{127.0.0.1}{127.0.0.1:9307},{node1}{VQegYSgUSLCXjKIbdrBQOw}{127.0.0.1}{127.0.0.1:9301}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:21,020][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0
+[2020-02-17T04:20:21,021][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3
+[2020-02-17T04:20:21,021][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testFindChildTasks] Awaiting for all actions to start
+[2020-02-17T04:20:21,021][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 9
+[2020-02-17T04:20:21,021][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1
+[2020-02-17T04:20:21,021][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 6
+[2020-02-17T04:20:21,022][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 4
+[2020-02-17T04:20:21,022][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 8
+[2020-02-17T04:20:21,022][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 7
+[2020-02-17T04:20:21,022][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2
+[2020-02-17T04:20:21,022][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 5
+[2020-02-17T04:20:21,022][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testFindChildTasks] Done waiting for all actions to start
+[2020-02-17T04:20:21,025][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3 finished
+[2020-02-17T04:20:21,025][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0 finished
+[2020-02-17T04:20:21,025][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 9 finished
+[2020-02-17T04:20:21,025][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1 finished
+[2020-02-17T04:20:21,025][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 6 finished
+[2020-02-17T04:20:21,025][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 4 finished
+[2020-02-17T04:20:21,026][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 8 finished
+[2020-02-17T04:20:21,026][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 7 finished
+[2020-02-17T04:20:21,026][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2 finished
+[2020-02-17T04:20:21,026][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 5 finished
+[2020-02-17T04:20:21,039][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testFindChildTasks] after test
+[2020-02-17T04:20:21,041][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskLevelActionFailures] before test
+[2020-02-17T04:20:21,294][INFO ][o.e.t.TransportService   ] [testTaskLevelActionFailures] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T04:20:21,545][INFO ][o.e.t.TransportService   ] [testTaskLevelActionFailures] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T04:20:21,817][INFO ][o.e.t.TransportService   ] [testTaskLevelActionFailures] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-17T04:20:21,819][INFO ][o.e.c.s.ClusterApplierService] [test] added {{node2}{vwkVtKIjQTuZ4gFsm0umvQ}{127.0.0.1}{127.0.0.1:9302},{node1}{FfK6Kwr-R_yZ_blURJbMPQ}{127.0.0.1}{127.0.0.1:9301}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:21,820][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node1}{FfK6Kwr-R_yZ_blURJbMPQ}{127.0.0.1}{127.0.0.1:9301}], current [{node0}{KCjIPxfqSzK-VgOGfq74SQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{vwkVtKIjQTuZ4gFsm0umvQ}{127.0.0.1}{127.0.0.1:9302},{node0}{KCjIPxfqSzK-VgOGfq74SQ}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:21,821][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node2}{vwkVtKIjQTuZ4gFsm0umvQ}{127.0.0.1}{127.0.0.1:9302}], current [{node0}{KCjIPxfqSzK-VgOGfq74SQ}{127.0.0.1}{127.0.0.1:9300}]}, added {{node1}{FfK6Kwr-R_yZ_blURJbMPQ}{127.0.0.1}{127.0.0.1:9301},{node0}{KCjIPxfqSzK-VgOGfq74SQ}{127.0.0.1}{127.0.0.1:9300}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:21,831][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskLevelActionFailures] Awaiting for all actions to start
+[2020-02-17T04:20:21,831][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1
+[2020-02-17T04:20:21,831][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0
+[2020-02-17T04:20:21,831][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2
+[2020-02-17T04:20:21,832][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskLevelActionFailures] Done waiting for all actions to start
+[2020-02-17T04:20:21,834][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$4] [TransportTasksActionTests] Task action on node 0
+[2020-02-17T04:20:21,834][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$4] [TransportTasksActionTests] Task action on node 1
+[2020-02-17T04:20:21,835][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$4] [TransportTasksActionTests] Task action on node 2
+[2020-02-17T04:20:21,835][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$4] [TransportTasksActionTests] Failing on node 2
+[2020-02-17T04:20:21,837][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$4] [TransportTasksActionTests] Calling listener asynchronously with exception from taskOperation
+[2020-02-17T04:20:21,840][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0 finished
+[2020-02-17T04:20:21,840][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2 finished
+[2020-02-17T04:20:21,840][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1 finished
+[2020-02-17T04:20:21,844][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskLevelActionFailures] after test
+[2020-02-17T04:20:21,846][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskNodeFiltering] before test
+[2020-02-17T04:20:22,100][INFO ][o.e.t.TransportService   ] [testTaskNodeFiltering] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T04:20:22,347][INFO ][o.e.t.TransportService   ] [testTaskNodeFiltering] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T04:20:22,595][INFO ][o.e.t.TransportService   ] [testTaskNodeFiltering] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-17T04:20:22,910][INFO ][o.e.t.TransportService   ] [testTaskNodeFiltering] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2020-02-17T04:20:23,224][INFO ][o.e.t.TransportService   ] [testTaskNodeFiltering] publish_address {127.0.0.1:9304}, bound_addresses {127.0.0.1:9304}, {[::1]:9304}
+[2020-02-17T04:20:23,473][INFO ][o.e.t.TransportService   ] [testTaskNodeFiltering] publish_address {127.0.0.1:9305}, bound_addresses {127.0.0.1:9305}, {[::1]:9305}
+[2020-02-17T04:20:23,475][INFO ][o.e.c.s.ClusterApplierService] [test] added {{node2}{7GKga1sUSwCytQcdSfdc1w}{127.0.0.1}{127.0.0.1:9302},{node3}{FdWB69kDRWWNvEzpyzTjdQ}{127.0.0.1}{127.0.0.1:9303},{node1}{eDb9mwrOQv23P2GX90Pexg}{127.0.0.1}{127.0.0.1:9301},{node4}{qLgLoDDYR2W_r4qCAQT4yw}{127.0.0.1}{127.0.0.1:9304},{node5}{_bMbJptAR1-p0-cMBtlW2w}{127.0.0.1}{127.0.0.1:9305}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:23,476][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node1}{eDb9mwrOQv23P2GX90Pexg}{127.0.0.1}{127.0.0.1:9301}], current [{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{7GKga1sUSwCytQcdSfdc1w}{127.0.0.1}{127.0.0.1:9302},{node3}{FdWB69kDRWWNvEzpyzTjdQ}{127.0.0.1}{127.0.0.1:9303},{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300},{node4}{qLgLoDDYR2W_r4qCAQT4yw}{127.0.0.1}{127.0.0.1:9304},{node5}{_bMbJptAR1-p0-cMBtlW2w}{127.0.0.1}{127.0.0.1:9305}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:23,476][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node2}{7GKga1sUSwCytQcdSfdc1w}{127.0.0.1}{127.0.0.1:9302}], current [{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node3}{FdWB69kDRWWNvEzpyzTjdQ}{127.0.0.1}{127.0.0.1:9303},{node1}{eDb9mwrOQv23P2GX90Pexg}{127.0.0.1}{127.0.0.1:9301},{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300},{node4}{qLgLoDDYR2W_r4qCAQT4yw}{127.0.0.1}{127.0.0.1:9304},{node5}{_bMbJptAR1-p0-cMBtlW2w}{127.0.0.1}{127.0.0.1:9305}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:23,477][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node3}{FdWB69kDRWWNvEzpyzTjdQ}{127.0.0.1}{127.0.0.1:9303}], current [{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{7GKga1sUSwCytQcdSfdc1w}{127.0.0.1}{127.0.0.1:9302},{node1}{eDb9mwrOQv23P2GX90Pexg}{127.0.0.1}{127.0.0.1:9301},{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300},{node4}{qLgLoDDYR2W_r4qCAQT4yw}{127.0.0.1}{127.0.0.1:9304},{node5}{_bMbJptAR1-p0-cMBtlW2w}{127.0.0.1}{127.0.0.1:9305}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:23,477][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node4}{qLgLoDDYR2W_r4qCAQT4yw}{127.0.0.1}{127.0.0.1:9304}], current [{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{7GKga1sUSwCytQcdSfdc1w}{127.0.0.1}{127.0.0.1:9302},{node3}{FdWB69kDRWWNvEzpyzTjdQ}{127.0.0.1}{127.0.0.1:9303},{node1}{eDb9mwrOQv23P2GX90Pexg}{127.0.0.1}{127.0.0.1:9301},{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300},{node5}{_bMbJptAR1-p0-cMBtlW2w}{127.0.0.1}{127.0.0.1:9305}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:23,478][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node5}{_bMbJptAR1-p0-cMBtlW2w}{127.0.0.1}{127.0.0.1:9305}], current [{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300}]}, added {{node2}{7GKga1sUSwCytQcdSfdc1w}{127.0.0.1}{127.0.0.1:9302},{node3}{FdWB69kDRWWNvEzpyzTjdQ}{127.0.0.1}{127.0.0.1:9303},{node1}{eDb9mwrOQv23P2GX90Pexg}{127.0.0.1}{127.0.0.1:9301},{node0}{BibWiGXVS3CKES8Kg6seNg}{127.0.0.1}{127.0.0.1:9300},{node4}{qLgLoDDYR2W_r4qCAQT4yw}{127.0.0.1}{127.0.0.1:9304}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T04:20:23,499][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskNodeFiltering] Awaiting for all actions to start
+[2020-02-17T04:20:23,499][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2
+[2020-02-17T04:20:23,499][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 4
+[2020-02-17T04:20:23,499][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3
+[2020-02-17T04:20:23,500][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0
+[2020-02-17T04:20:23,500][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 5
+[2020-02-17T04:20:23,500][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1
+[2020-02-17T04:20:23,500][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskNodeFiltering] Done waiting for all actions to start
+[2020-02-17T04:20:23,500][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskNodeFiltering] Filtering out nodes [node4, node5, node2, node3] size: 4
+[2020-02-17T04:20:23,502][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 2 finished
+[2020-02-17T04:20:23,502][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 4 finished
+[2020-02-17T04:20:23,502][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 3 finished
+[2020-02-17T04:20:23,502][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 0 finished
+[2020-02-17T04:20:23,502][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 5 finished
+[2020-02-17T04:20:23,502][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests$1] [TransportTasksActionTests] Action on node 1 finished
+[2020-02-17T04:20:23,508][INFO ][o.e.a.a.c.n.t.TransportTasksActionTests] [testTaskNodeFiltering] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

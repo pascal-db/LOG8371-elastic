@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.lucene.LuceneTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:46" hostname="Escoto-PC" time="1.143">
+  <properties/>
+  <testcase name="testCleanIndex" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.011"/>
+  <testcase name="testAsSequentialAccessBits" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.006"/>
+  <testcase name="testWrapLiveDocsNotExposeAbortedDocuments" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.014"/>
+  <testcase name="testSortFieldSerialization" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.004"/>
+  <testcase name="testWaitForIndex" classname="org.elasticsearch.common.lucene.LuceneTests" time="1.007"/>
+  <testcase name="testMMapHackSupported" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.001"/>
+  <testcase name="testAsSequentialBitsUsesRandomAccess" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.008"/>
+  <testcase name="testFiles" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.014"/>
+  <testcase name="testCount" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.007"/>
+  <testcase name="testNumDocs" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.019"/>
+  <testcase name="testWrapAllDocsLive" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.025"/>
+  <testcase name="testPruneUnreferencedFiles" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.021"/>
+  <testcase name="testSortValueSerialization" classname="org.elasticsearch.common.lucene.LuceneTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T18:20:46,297][INFO ][o.e.c.l.LuceneTests      ] [testCleanIndex] before test
+[2020-02-16T18:20:46,307][INFO ][o.e.c.l.LuceneTests      ] [testCleanIndex] after test
+[2020-02-16T18:20:46,308][INFO ][o.e.c.l.LuceneTests      ] [testAsSequentialAccessBits] before test
+[2020-02-16T18:20:46,313][INFO ][o.e.c.l.LuceneTests      ] [testAsSequentialAccessBits] after test
+[2020-02-16T18:20:46,315][INFO ][o.e.c.l.LuceneTests      ] [testWrapLiveDocsNotExposeAbortedDocuments] before test
+[2020-02-16T18:20:46,326][INFO ][o.e.c.l.LuceneTests      ] [testWrapLiveDocsNotExposeAbortedDocuments] after test
+[2020-02-16T18:20:46,331][INFO ][o.e.c.l.LuceneTests      ] [testSortFieldSerialization] before test
+[2020-02-16T18:20:46,331][INFO ][o.e.c.l.LuceneTests      ] [testSortFieldSerialization] after test
+[2020-02-16T18:20:46,335][INFO ][o.e.c.l.LuceneTests      ] [testWaitForIndex] before test
+[2020-02-16T18:20:47,339][INFO ][o.e.c.l.LuceneTests      ] [testWaitForIndex] after test
+[2020-02-16T18:20:47,340][INFO ][o.e.c.l.LuceneTests      ] [testMMapHackSupported] before test
+[2020-02-16T18:20:47,341][INFO ][o.e.c.l.LuceneTests      ] [testMMapHackSupported] after test
+[2020-02-16T18:20:47,343][INFO ][o.e.c.l.LuceneTests      ] [testAsSequentialBitsUsesRandomAccess] before test
+[2020-02-16T18:20:47,349][INFO ][o.e.c.l.LuceneTests      ] [testAsSequentialBitsUsesRandomAccess] after test
+[2020-02-16T18:20:47,353][INFO ][o.e.c.l.LuceneTests      ] [testFiles] before test
+[2020-02-16T18:20:47,363][INFO ][o.e.c.l.LuceneTests      ] [testFiles] after test
+[2020-02-16T18:20:47,365][INFO ][o.e.c.l.LuceneTests      ] [testCount] before test
+[2020-02-16T18:20:47,370][INFO ][o.e.c.l.LuceneTests      ] [testCount] after test
+[2020-02-16T18:20:47,373][INFO ][o.e.c.l.LuceneTests      ] [testNumDocs] before test
+[2020-02-16T18:20:47,389][INFO ][o.e.c.l.LuceneTests      ] [testNumDocs] after test
+[2020-02-16T18:20:47,393][INFO ][o.e.c.l.LuceneTests      ] [testWrapAllDocsLive] before test
+[2020-02-16T18:20:47,414][INFO ][o.e.c.l.LuceneTests      ] [testWrapAllDocsLive] after test
+[2020-02-16T18:20:47,419][INFO ][o.e.c.l.LuceneTests      ] [testPruneUnreferencedFiles] before test
+[2020-02-16T18:20:47,435][INFO ][o.e.c.l.LuceneTests      ] [testPruneUnreferencedFiles] after test
+[2020-02-16T18:20:47,438][INFO ][o.e.c.l.LuceneTests      ] [testSortValueSerialization] before test
+[2020-02-16T18:20:47,439][INFO ][o.e.c.l.LuceneTests      ] [testSortValueSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.RestRequestTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.075">
+  <properties/>
+  <testcase name="testNoContentTypeHeader" classname="org.elasticsearch.rest.RestRequestTests" time="0.002"/>
+  <testcase name="testContentParserConsumesContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.011"/>
+  <testcase name="testContentOrSourceParamConsumesContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.004"/>
+  <testcase name="testContentTypeParsing" classname="org.elasticsearch.rest.RestRequestTests" time="0.006"/>
+  <testcase name="testWithContentOrSourceParamParserOrNull" classname="org.elasticsearch.rest.RestRequestTests" time="0.004"/>
+  <testcase name="testPlainTextSupport" classname="org.elasticsearch.rest.RestRequestTests" time="0.006"/>
+  <testcase name="testHasContentOrSourceParam" classname="org.elasticsearch.rest.RestRequestTests" time="0.002"/>
+  <testcase name="testMultipleContentTypeHeaders" classname="org.elasticsearch.rest.RestRequestTests" time="0.003"/>
+  <testcase name="testWithContentOrSourceParamParserOrNullConsumesContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.004"/>
+  <testcase name="testApplyContentParser" classname="org.elasticsearch.rest.RestRequestTests" time="0.002"/>
+  <testcase name="testContentOrSourceParamParser" classname="org.elasticsearch.rest.RestRequestTests" time="0.002"/>
+  <testcase name="testRequiredContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.003"/>
+  <testcase name="testContentOrSourceParam" classname="org.elasticsearch.rest.RestRequestTests" time="0.002"/>
+  <testcase name="testApplyContentParserConsumesContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.006"/>
+  <testcase name="testHasContentDoesNotConsumesContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.003"/>
+  <testcase name="testMalformedContentTypeHeader" classname="org.elasticsearch.rest.RestRequestTests" time="0.003"/>
+  <testcase name="testContentParser" classname="org.elasticsearch.rest.RestRequestTests" time="0.002"/>
+  <testcase name="testContentConsumesContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.003"/>
+  <testcase name="testContentOrSourceParamsParserConsumesContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.003"/>
+  <testcase name="testRequiredContentConsumesContent" classname="org.elasticsearch.rest.RestRequestTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T05:25:18,340][INFO ][o.e.r.RestRequestTests   ] [testNoContentTypeHeader] before test
+[2020-02-17T05:25:18,340][INFO ][o.e.r.RestRequestTests   ] [testNoContentTypeHeader] after test
+[2020-02-17T05:25:18,343][INFO ][o.e.r.RestRequestTests   ] [testContentParserConsumesContent] before test
+[2020-02-17T05:25:18,351][INFO ][o.e.r.RestRequestTests   ] [testContentParserConsumesContent] after test
+[2020-02-17T05:25:18,354][INFO ][o.e.r.RestRequestTests   ] [testContentOrSourceParamConsumesContent] before test
+[2020-02-17T05:25:18,355][INFO ][o.e.r.RestRequestTests   ] [testContentOrSourceParamConsumesContent] after test
+[2020-02-17T05:25:18,361][INFO ][o.e.r.RestRequestTests   ] [testContentTypeParsing] before test
+[2020-02-17T05:25:18,361][INFO ][o.e.r.RestRequestTests   ] [testContentTypeParsing] after test
+[2020-02-17T05:25:18,364][INFO ][o.e.r.RestRequestTests   ] [testWithContentOrSourceParamParserOrNull] before test
+[2020-02-17T05:25:18,366][INFO ][o.e.r.RestRequestTests   ] [testWithContentOrSourceParamParserOrNull] after test
+[2020-02-17T05:25:18,371][INFO ][o.e.r.RestRequestTests   ] [testPlainTextSupport] before test
+[2020-02-17T05:25:18,372][INFO ][o.e.r.RestRequestTests   ] [testPlainTextSupport] after test
+[2020-02-17T05:25:18,375][INFO ][o.e.r.RestRequestTests   ] [testHasContentOrSourceParam] before test
+[2020-02-17T05:25:18,375][INFO ][o.e.r.RestRequestTests   ] [testHasContentOrSourceParam] after test
+[2020-02-17T05:25:18,378][INFO ][o.e.r.RestRequestTests   ] [testMultipleContentTypeHeaders] before test
+[2020-02-17T05:25:18,378][INFO ][o.e.r.RestRequestTests   ] [testMultipleContentTypeHeaders] after test
+[2020-02-17T05:25:18,380][INFO ][o.e.r.RestRequestTests   ] [testWithContentOrSourceParamParserOrNullConsumesContent] before test
+[2020-02-17T05:25:18,382][INFO ][o.e.r.RestRequestTests   ] [testWithContentOrSourceParamParserOrNullConsumesContent] after test
+[2020-02-17T05:25:18,384][INFO ][o.e.r.RestRequestTests   ] [testApplyContentParser] before test
+[2020-02-17T05:25:18,384][INFO ][o.e.r.RestRequestTests   ] [testApplyContentParser] after test
+[2020-02-17T05:25:18,386][INFO ][o.e.r.RestRequestTests   ] [testContentOrSourceParamParser] before test
+[2020-02-17T05:25:18,386][INFO ][o.e.r.RestRequestTests   ] [testContentOrSourceParamParser] after test
+[2020-02-17T05:25:18,388][INFO ][o.e.r.RestRequestTests   ] [testRequiredContent] before test
+[2020-02-17T05:25:18,389][INFO ][o.e.r.RestRequestTests   ] [testRequiredContent] after test
+[2020-02-17T05:25:18,391][INFO ][o.e.r.RestRequestTests   ] [testContentOrSourceParam] before test
+[2020-02-17T05:25:18,392][INFO ][o.e.r.RestRequestTests   ] [testContentOrSourceParam] after test
+[2020-02-17T05:25:18,396][INFO ][o.e.r.RestRequestTests   ] [testApplyContentParserConsumesContent] before test
+[2020-02-17T05:25:18,398][INFO ][o.e.r.RestRequestTests   ] [testApplyContentParserConsumesContent] after test
+[2020-02-17T05:25:18,400][INFO ][o.e.r.RestRequestTests   ] [testHasContentDoesNotConsumesContent] before test
+[2020-02-17T05:25:18,400][INFO ][o.e.r.RestRequestTests   ] [testHasContentDoesNotConsumesContent] after test
+[2020-02-17T05:25:18,403][INFO ][o.e.r.RestRequestTests   ] [testMalformedContentTypeHeader] before test
+[2020-02-17T05:25:18,403][INFO ][o.e.r.RestRequestTests   ] [testMalformedContentTypeHeader] after test
+[2020-02-17T05:25:18,405][INFO ][o.e.r.RestRequestTests   ] [testContentParser] before test
+[2020-02-17T05:25:18,406][INFO ][o.e.r.RestRequestTests   ] [testContentParser] after test
+[2020-02-17T05:25:18,407][INFO ][o.e.r.RestRequestTests   ] [testContentConsumesContent] before test
+[2020-02-17T05:25:18,408][INFO ][o.e.r.RestRequestTests   ] [testContentConsumesContent] after test
+[2020-02-17T05:25:18,410][INFO ][o.e.r.RestRequestTests   ] [testContentOrSourceParamsParserConsumesContent] before test
+[2020-02-17T05:25:18,411][INFO ][o.e.r.RestRequestTests   ] [testContentOrSourceParamsParserConsumesContent] after test
+[2020-02-17T05:25:18,413][INFO ][o.e.r.RestRequestTests   ] [testRequiredContentConsumesContent] before test
+[2020-02-17T05:25:18,413][INFO ][o.e.r.RestRequestTests   ] [testRequiredContentConsumesContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

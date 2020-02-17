@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.cache.CacheTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:41" hostname="Escoto-PC" time="1.638">
+  <properties/>
+  <testcase name="testExpirationAfterAccess" classname="org.elasticsearch.common.cache.CacheTests" time="0.036"/>
+  <testcase name="testExceptionThrownDuringConcurrentComputeIfAbsent" classname="org.elasticsearch.common.cache.CacheTests" time="0.078"/>
+  <testcase name="testReplaceRecomputesSize" classname="org.elasticsearch.common.cache.CacheTests" time="0.017"/>
+  <testcase name="testComputeIfAbsentThrowsExceptionIfLoaderReturnsANullValue" classname="org.elasticsearch.common.cache.CacheTests" time="0.004"/>
+  <testcase name="testCount" classname="org.elasticsearch.common.cache.CacheTests" time="0.012"/>
+  <testcase name="testCacheStats" classname="org.elasticsearch.common.cache.CacheTests" time="0.018"/>
+  <testcase name="testComputeIfAbsentCallsOnce" classname="org.elasticsearch.common.cache.CacheTests" time="0.088"/>
+  <testcase name="testNotificationOnInvalidateWithValue" classname="org.elasticsearch.common.cache.CacheTests" time="0.01"/>
+  <testcase name="testExpirationAfterWrite" classname="org.elasticsearch.common.cache.CacheTests" time="0.015"/>
+  <testcase name="testSimpleExpireAfterAccess" classname="org.elasticsearch.common.cache.CacheTests" time="0.016"/>
+  <testcase name="testDependentKeyDeadlock" classname="org.elasticsearch.common.cache.CacheTests" time="1.038"/>
+  <testcase name="testCacheEvictions" classname="org.elasticsearch.common.cache.CacheTests" time="0.012"/>
+  <testcase name="testNotificationOnInvalidateAll" classname="org.elasticsearch.common.cache.CacheTests" time="0.013"/>
+  <testcase name="testTorture" classname="org.elasticsearch.common.cache.CacheTests" time="0.063"/>
+  <testcase name="testInvalidate" classname="org.elasticsearch.common.cache.CacheTests" time="0.008"/>
+  <testcase name="testComputeIfAbsentLoadsSuccessfully" classname="org.elasticsearch.common.cache.CacheTests" time="0.01"/>
+  <testcase name="testNotificationOnReplace" classname="org.elasticsearch.common.cache.CacheTests" time="0.009"/>
+  <testcase name="testComputeIfAbsentAfterExpiration" classname="org.elasticsearch.common.cache.CacheTests" time="0.007"/>
+  <testcase name="testWeight" classname="org.elasticsearch.common.cache.CacheTests" time="0.01"/>
+  <testcase name="testCachePollution" classname="org.elasticsearch.common.cache.CacheTests" time="0.081"/>
+  <testcase name="testInvalidateWithValue" classname="org.elasticsearch.common.cache.CacheTests" time="0.016"/>
+  <testcase name="testNotificationOnInvalidate" classname="org.elasticsearch.common.cache.CacheTests" time="0.009"/>
+  <testcase name="testComputeIfAbsentDeadlock" classname="org.elasticsearch.common.cache.CacheTests" time="0.04"/>
+  <testcase name="testPromotion" classname="org.elasticsearch.common.cache.CacheTests" time="0.007"/>
+  <testcase name="testWeigher" classname="org.elasticsearch.common.cache.CacheTests" time="0.005"/>
+  <testcase name="testRemoveUsingValuesIterator" classname="org.elasticsearch.common.cache.CacheTests" time="0.012"/>
+  <testcase name="testInvalidateAll" classname="org.elasticsearch.common.cache.CacheTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T16:20:41,996][INFO ][o.e.c.c.CacheTests       ] [testExpirationAfterAccess] before test
+[2020-02-16T16:20:42,030][INFO ][o.e.c.c.CacheTests       ] [testExpirationAfterAccess] after test
+[2020-02-16T16:20:42,032][INFO ][o.e.c.c.CacheTests       ] [testExceptionThrownDuringConcurrentComputeIfAbsent] before test
+[2020-02-16T16:20:42,108][INFO ][o.e.c.c.CacheTests       ] [testExceptionThrownDuringConcurrentComputeIfAbsent] after test
+[2020-02-16T16:20:42,122][INFO ][o.e.c.c.CacheTests       ] [testReplaceRecomputesSize] before test
+[2020-02-16T16:20:42,126][INFO ][o.e.c.c.CacheTests       ] [testReplaceRecomputesSize] after test
+[2020-02-16T16:20:42,129][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentThrowsExceptionIfLoaderReturnsANullValue] before test
+[2020-02-16T16:20:42,130][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentThrowsExceptionIfLoaderReturnsANullValue] after test
+[2020-02-16T16:20:42,132][INFO ][o.e.c.c.CacheTests       ] [testCount] before test
+[2020-02-16T16:20:42,141][INFO ][o.e.c.c.CacheTests       ] [testCount] after test
+[2020-02-16T16:20:42,144][INFO ][o.e.c.c.CacheTests       ] [testCacheStats] before test
+[2020-02-16T16:20:42,160][INFO ][o.e.c.c.CacheTests       ] [testCacheStats] after test
+[2020-02-16T16:20:42,161][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentCallsOnce] before test
+[2020-02-16T16:20:42,248][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentCallsOnce] after test
+[2020-02-16T16:20:42,250][INFO ][o.e.c.c.CacheTests       ] [testNotificationOnInvalidateWithValue] before test
+[2020-02-16T16:20:42,257][INFO ][o.e.c.c.CacheTests       ] [testNotificationOnInvalidateWithValue] after test
+[2020-02-16T16:20:42,259][INFO ][o.e.c.c.CacheTests       ] [testExpirationAfterWrite] before test
+[2020-02-16T16:20:42,273][INFO ][o.e.c.c.CacheTests       ] [testExpirationAfterWrite] after test
+[2020-02-16T16:20:42,274][INFO ][o.e.c.c.CacheTests       ] [testSimpleExpireAfterAccess] before test
+[2020-02-16T16:20:42,289][INFO ][o.e.c.c.CacheTests       ] [testSimpleExpireAfterAccess] after test
+[2020-02-16T16:20:42,291][INFO ][o.e.c.c.CacheTests       ] [testDependentKeyDeadlock] before test
+[2020-02-16T16:20:43,326][INFO ][o.e.c.c.CacheTests       ] [testDependentKeyDeadlock] after test
+[2020-02-16T16:20:43,328][INFO ][o.e.c.c.CacheTests       ] [testCacheEvictions] before test
+[2020-02-16T16:20:43,339][INFO ][o.e.c.c.CacheTests       ] [testCacheEvictions] after test
+[2020-02-16T16:20:43,340][INFO ][o.e.c.c.CacheTests       ] [testNotificationOnInvalidateAll] before test
+[2020-02-16T16:20:43,351][INFO ][o.e.c.c.CacheTests       ] [testNotificationOnInvalidateAll] after test
+[2020-02-16T16:20:43,354][INFO ][o.e.c.c.CacheTests       ] [testTorture] before test
+[2020-02-16T16:20:43,414][INFO ][o.e.c.c.CacheTests       ] [testTorture] after test
+[2020-02-16T16:20:43,416][INFO ][o.e.c.c.CacheTests       ] [testInvalidate] before test
+[2020-02-16T16:20:43,422][INFO ][o.e.c.c.CacheTests       ] [testInvalidate] after test
+[2020-02-16T16:20:43,425][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentLoadsSuccessfully] before test
+[2020-02-16T16:20:43,433][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentLoadsSuccessfully] after test
+[2020-02-16T16:20:43,434][INFO ][o.e.c.c.CacheTests       ] [testNotificationOnReplace] before test
+[2020-02-16T16:20:43,442][INFO ][o.e.c.c.CacheTests       ] [testNotificationOnReplace] after test
+[2020-02-16T16:20:43,444][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentAfterExpiration] before test
+[2020-02-16T16:20:43,448][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentAfterExpiration] after test
+[2020-02-16T16:20:43,450][INFO ][o.e.c.c.CacheTests       ] [testWeight] before test
+[2020-02-16T16:20:43,459][INFO ][o.e.c.c.CacheTests       ] [testWeight] after test
+[2020-02-16T16:20:43,461][INFO ][o.e.c.c.CacheTests       ] [testCachePollution] before test
+[2020-02-16T16:20:43,538][INFO ][o.e.c.c.CacheTests       ] [testCachePollution] after test
+[2020-02-16T16:20:43,540][INFO ][o.e.c.c.CacheTests       ] [testInvalidateWithValue] before test
+[2020-02-16T16:20:43,555][INFO ][o.e.c.c.CacheTests       ] [testInvalidateWithValue] after test
+[2020-02-16T16:20:43,556][INFO ][o.e.c.c.CacheTests       ] [testNotificationOnInvalidate] before test
+[2020-02-16T16:20:43,564][INFO ][o.e.c.c.CacheTests       ] [testNotificationOnInvalidate] after test
+[2020-02-16T16:20:43,566][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentDeadlock] before test
+[2020-02-16T16:20:43,604][INFO ][o.e.c.c.CacheTests       ] [testComputeIfAbsentDeadlock] after test
+[2020-02-16T16:20:43,606][INFO ][o.e.c.c.CacheTests       ] [testPromotion] before test
+[2020-02-16T16:20:43,611][INFO ][o.e.c.c.CacheTests       ] [testPromotion] after test
+[2020-02-16T16:20:43,612][INFO ][o.e.c.c.CacheTests       ] [testWeigher] before test
+[2020-02-16T16:20:43,616][INFO ][o.e.c.c.CacheTests       ] [testWeigher] after test
+[2020-02-16T16:20:43,618][INFO ][o.e.c.c.CacheTests       ] [testRemoveUsingValuesIterator] before test
+[2020-02-16T16:20:43,628][INFO ][o.e.c.c.CacheTests       ] [testRemoveUsingValuesIterator] after test
+[2020-02-16T16:20:43,629][INFO ][o.e.c.c.CacheTests       ] [testInvalidateAll] before test
+[2020-02-16T16:20:43,632][INFO ][o.e.c.c.CacheTests       ] [testInvalidateAll] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

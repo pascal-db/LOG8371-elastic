@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.engine.InternalEngineSettingsTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.engine.InternalEngineSettingsTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.engine.html">org.elasticsearch.index.engine</a> &gt; InternalEngineSettingsTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.033s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testSettingsUpdate</td>
+<td class="success">1.033s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T01:22:27,496][INFO ][o.e.e.NodeEnvironment    ] [testSettingsUpdate] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:22:27,497][INFO ][o.e.e.NodeEnvironment    ] [testSettingsUpdate] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:22:27,499][INFO ][o.e.n.Node               ] [testSettingsUpdate] node name [node_s_0], node ID [YhWKvjH3QNCyCWEojcX_sg], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-3476619884699687152]-HASH=[13EE47091E4]]
+[2020-02-17T01:22:27,500][INFO ][o.e.n.Node               ] [testSettingsUpdate] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:22:27,500][INFO ][o.e.n.Node               ] [testSettingsUpdate] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:22:27,500][INFO ][o.e.n.Node               ] [testSettingsUpdate] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:22:27,501][INFO ][o.e.p.PluginsService     ] [testSettingsUpdate] no modules loaded
+[2020-02-17T01:22:27,501][INFO ][o.e.p.PluginsService     ] [testSettingsUpdate] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:22:27,501][INFO ][o.e.p.PluginsService     ] [testSettingsUpdate] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:22:27,698][INFO ][o.e.d.DiscoveryModule    ] [testSettingsUpdate] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:22:27,707][INFO ][o.e.n.Node               ] [testSettingsUpdate] initialized
+[2020-02-17T01:22:27,707][INFO ][o.e.n.Node               ] [testSettingsUpdate] starting ...
+[2020-02-17T01:22:28,217][INFO ][o.e.t.TransportService   ] [testSettingsUpdate] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T01:22:28,224][INFO ][o.e.c.c.Coordinator      ] [testSettingsUpdate] setting initial configuration to VotingConfiguration{YhWKvjH3QNCyCWEojcX_sg}
+[2020-02-17T01:22:28,274][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{YhWKvjH3QNCyCWEojcX_sg}{8IB_u2O2T_ixjnp7t1xb2g}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{YhWKvjH3QNCyCWEojcX_sg}{8IB_u2O2T_ixjnp7t1xb2g}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T01:22:28,281][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [sV_ewa4jRO-5pC2X4GnZQw]
+[2020-02-17T01:22:28,287][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{YhWKvjH3QNCyCWEojcX_sg}{8IB_u2O2T_ixjnp7t1xb2g}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T01:22:28,288][INFO ][o.e.n.Node               ] [testSettingsUpdate] started
+[2020-02-17T01:22:28,294][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T01:22:28,295][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T01:22:28,306][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T01:22:28,314][INFO ][o.e.i.e.InternalEngineSettingsTests] [testSettingsUpdate] before test
+[2020-02-17T01:22:28,315][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T01:22:28,375][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-17T01:22:28,388][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [60s] to [2836860913741876ms]
+[2020-02-17T01:22:28,397][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [60s] to [2836860913741876ms]
+[2020-02-17T01:22:28,401][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [2836860913741876ms] to [1308709745458153ms]
+[2020-02-17T01:22:28,410][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [2836860913741876ms] to [1308709745458153ms]
+[2020-02-17T01:22:28,414][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [1308709745458153ms] to [3466352980565050ms]
+[2020-02-17T01:22:28,422][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [1308709745458153ms] to [3466352980565050ms]
+[2020-02-17T01:22:28,426][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [3466352980565050ms] to [3928625634049120ms]
+[2020-02-17T01:22:28,433][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [3466352980565050ms] to [3928625634049120ms]
+[2020-02-17T01:22:28,437][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [3928625634049120ms] to [2890928608830167ms]
+[2020-02-17T01:22:28,445][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [3928625634049120ms] to [2890928608830167ms]
+[2020-02-17T01:22:28,449][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [2890928608830167ms] to [1000ms]
+[2020-02-17T01:22:28,457][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [2890928608830167ms] to [1000ms]
+[2020-02-17T01:22:28,462][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [1000ms] to [0ms]
+[2020-02-17T01:22:28,471][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [1000ms] to [0ms]
+[2020-02-17T01:22:28,475][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [0ms] to [1000ms]
+[2020-02-17T01:22:28,485][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.gc_deletes] from [0ms] to [1000ms]
+[2020-02-17T01:22:28,486][INFO ][o.e.i.e.InternalEngineSettingsTests] [testSettingsUpdate] after test
+[2020-02-17T01:22:28,486][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/KNdo4gC7QvWyvbAz51C-CQ] deleting index
+[2020-02-17T01:22:28,515][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T01:22:28,518][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T01:22:28,518][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T01:22:28,520][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

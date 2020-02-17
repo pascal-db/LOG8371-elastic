@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.get.DocumentFieldTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:49" hostname="Escoto-PC" time="0.034">
+  <properties/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.index.get.DocumentFieldTests" time="0.019"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.get.DocumentFieldTests" time="0.008"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.index.get.DocumentFieldTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T01:22:49,418][INFO ][o.e.i.g.DocumentFieldTests] [testToAndFromXContent] before test
+[2020-02-17T01:22:49,422][INFO ][o.e.i.g.DocumentFieldTests] [testToAndFromXContent] after test
+[2020-02-17T01:22:49,429][INFO ][o.e.i.g.DocumentFieldTests] [testEqualsAndHashcode] before test
+[2020-02-17T01:22:49,430][INFO ][o.e.i.g.DocumentFieldTests] [testEqualsAndHashcode] after test
+[2020-02-17T01:22:49,437][INFO ][o.e.i.g.DocumentFieldTests] [testToXContent] before test
+[2020-02-17T01:22:49,437][INFO ][o.e.i.g.DocumentFieldTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

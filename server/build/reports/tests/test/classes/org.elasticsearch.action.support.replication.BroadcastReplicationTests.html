@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.action.support.replication.BroadcastReplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.action.support.replication.BroadcastReplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.action.support.replication.html">org.elasticsearch.action.support.replication</a> &gt; BroadcastReplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.019s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testNoShards</td>
+<td class="success">0.423s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNotStartedPrimary</td>
+<td class="success">0.609s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testResultCombine</td>
+<td class="success">0.336s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShardsList</td>
+<td class="success">0.290s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStartedPrimary</td>
+<td class="success">0.361s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:20:24,979][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNotStartedPrimary] before test
+[2020-02-16T22:20:25,532][INFO ][o.e.t.TransportService   ] [testNotStartedPrimary] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:25,534][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{Xo7YVycNRjCIrpiTDpyEzw}{0.0.0.0}{0.0.0.0:1}{dim}], current [{node_1}{VUugK8ChQfOPiM7j4nA6aw}{0.0.0.0}{0.0.0.0:3}{dim}]}, removed {{node}{Xo7YVycNRjCIrpiTDpyEzw}{0.0.0.0}{0.0.0.0:1}{dim}}, added {{node_1}{VUugK8ChQfOPiM7j4nA6aw}{0.0.0.0}{0.0.0.0:3}{dim},{node_2}{9KvmWYwfRtaUduzG8Bjlaw}{0.0.0.0}{0.0.0.0:4}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T22:20:25,535][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNotStartedPrimary] total shards: 2, 
+[2020-02-16T22:20:25,537][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNotStartedPrimary] after test
+[2020-02-16T22:20:25,539][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testShardsList] before test
+[2020-02-16T22:20:25,822][INFO ][o.e.t.TransportService   ] [testShardsList] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:25,827][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testShardsList] after test
+[2020-02-16T22:20:25,830][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testStartedPrimary] before test
+[2020-02-16T22:20:26,171][INFO ][o.e.t.TransportService   ] [testStartedPrimary] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:26,173][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{twE2_e9zRm2PRDq3_EfaYg}{0.0.0.0}{0.0.0.0:14}{dim}], current [{node_1}{DQ1c7DhVSoidTpbeD5HCPg}{0.0.0.0}{0.0.0.0:16}{dim}]}, removed {{node}{twE2_e9zRm2PRDq3_EfaYg}{0.0.0.0}{0.0.0.0:14}{dim}}, added {{node_1}{DQ1c7DhVSoidTpbeD5HCPg}{0.0.0.0}{0.0.0.0:16}{dim},{node_2}{I1qGArBVTlWK3-MnQoWnbg}{0.0.0.0}{0.0.0.0:17}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T22:20:26,182][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testStartedPrimary] total shards: 1, 
+[2020-02-16T22:20:26,188][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testStartedPrimary] after test
+[2020-02-16T22:20:26,191][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNoShards] before test
+[2020-02-16T22:20:26,609][INFO ][o.e.t.TransportService   ] [testNoShards] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:26,609][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{EO1pwJAbS-OogAl7Sgb0qw}{0.0.0.0}{0.0.0.0:21}{dim}], current []}, removed {{node}{EO1pwJAbS-OogAl7Sgb0qw}{0.0.0.0}{0.0.0.0:21}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T22:20:26,611][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNoShards] after test
+[2020-02-16T22:20:26,612][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testResultCombine] before test
+[2020-02-16T22:20:26,944][INFO ][o.e.t.TransportService   ] [testResultCombine] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:26,945][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{UlykV1RsTR-N020EhKpTmA}{0.0.0.0}{0.0.0.0:24}{dim}], current [{node_1}{TGlvBcT5TOaEQhNNfftHKQ}{0.0.0.0}{0.0.0.0:26}{dim}]}, removed {{node}{UlykV1RsTR-N020EhKpTmA}{0.0.0.0}{0.0.0.0:24}{dim}}, added {{node_1}{TGlvBcT5TOaEQhNNfftHKQ}{0.0.0.0}{0.0.0.0:26}{dim},{node_2}{_7NXcnCbQTikVz1Kvy-Tbw}{0.0.0.0}{0.0.0.0:27}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T22:20:26,947][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testResultCombine] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

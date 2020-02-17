@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.MergeSchedulerSettingsTests" tests="3" skipped="0" failures="1" errors="0" timestamp="2020-02-16T22:23:33" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testUpdateAutoThrottleSettings" classname="org.elasticsearch.index.MergeSchedulerSettingsTests" time="0.006"/>
+  <testcase name="testMaxThreadAndMergeCount" classname="org.elasticsearch.index.MergeSchedulerSettingsTests" time="0.011">
+    <failure message="java.lang.AssertionError: &#10;Expected: an empty collection&#10;     but: &lt;[299 Elasticsearch-7.5.1-SNAPSHOT-unknown &quot;setting [node.processors] to value [8] which is more than available processors [4] is deprecated&quot;]&gt;" type="java.lang.AssertionError">java.lang.AssertionError: 
+Expected: an empty collection
+     but: &lt;[299 Elasticsearch-7.5.1-SNAPSHOT-unknown &quot;setting [node.processors] to value [8] which is more than available processors [4] is deprecated&quot;]&gt;
+	at __randomizedtesting.SeedInfo.seed([9EA1F2A3814E5F76:AD772D14D339D920]:0)
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)
+	at org.junit.Assert.assertThat(Assert.java:956)
+	at org.junit.Assert.assertThat(Assert.java:923)
+	at org.elasticsearch.test.ESTestCase.ensureNoWarnings(ESTestCase.java:400)
+	at org.elasticsearch.test.ESTestCase.after(ESTestCase.java:376)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750)
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:996)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49)
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45)
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48)
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64)
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368)
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817)
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468)
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947)
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832)
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883)
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894)
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41)
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40)
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53)
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47)
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64)
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54)
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36)
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+</failure>
+  </testcase>
+  <testcase name="testUpdateMergeMaxThreadCount" classname="org.elasticsearch.index.MergeSchedulerSettingsTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T04:53:33,819][INFO ][o.e.i.MergeSchedulerSettingsTests] [testUpdateAutoThrottleSettings] before test
+[2020-02-17T04:53:33,822][INFO ][o.e.c.s.IndexScopedSettings] [testUpdateAutoThrottleSettings] updating [index.merge.scheduler.auto_throttle] from [true] to [false]
+[2020-02-17T04:53:33,824][INFO ][o.e.i.MergeSchedulerSettingsTests] [testUpdateAutoThrottleSettings] after test
+[2020-02-17T04:53:33,826][INFO ][o.e.i.MergeSchedulerSettingsTests] [testMaxThreadAndMergeCount] before test
+[2020-02-17T04:53:33,827][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_thread_count] from [4] to [15]
+[2020-02-17T04:53:33,827][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [10] to [20]
+[2020-02-17T04:53:33,828][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_thread_count] from [15] to [40]
+[2020-02-17T04:53:33,828][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [20] to [50]
+[2020-02-17T04:53:33,828][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [50] to [45]
+[2020-02-17T04:53:33,828][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [45] to [30]
+[2020-02-17T04:53:33,828][WARN ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] failed to apply settings
+java.lang.IllegalArgumentException: maxThreadCount (= 40) should be <= maxMergeCount (= 30)
+	at org.elasticsearch.index.MergeSchedulerConfig.setMaxThreadAndMergeCount(MergeSchedulerConfig.java:113) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting$1.apply(Setting.java:621) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting$1.apply(Setting.java:599) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.lambda$updater$0(AbstractScopedSettings.java:609) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:191) [main/:?]
+	at org.elasticsearch.index.IndexSettings.updateIndexMetaData(IndexSettings.java:716) [main/:?]
+	at org.elasticsearch.index.MergeSchedulerSettingsTests.lambda$testMaxThreadAndMergeCount$1(MergeSchedulerSettingsTests.java:176) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.MergeSchedulerSettingsTests.testMaxThreadAndMergeCount(MergeSchedulerSettingsTests.java:175) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T04:53:33,830][WARN ][o.e.d.c.u.c.EsExecutors  ] [testMaxThreadAndMergeCount] setting [node.processors] to value [8] which is more than available processors [4] is deprecated
+[2020-02-17T04:53:33,831][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_thread_count] from [40] to [4]
+[2020-02-17T04:53:33,832][INFO ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] updating [index.merge.scheduler.max_merge_count] from [45] to [3]
+[2020-02-17T04:53:33,832][WARN ][o.e.c.s.IndexScopedSettings] [testMaxThreadAndMergeCount] failed to apply settings
+java.lang.IllegalArgumentException: maxThreadCount (= 4) should be <= maxMergeCount (= 3)
+	at org.elasticsearch.index.MergeSchedulerConfig.setMaxThreadAndMergeCount(MergeSchedulerConfig.java:113) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting$1.apply(Setting.java:621) ~[main/:?]
+	at org.elasticsearch.common.settings.Setting$1.apply(Setting.java:599) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.lambda$updater$0(AbstractScopedSettings.java:609) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:191) [main/:?]
+	at org.elasticsearch.index.IndexSettings.updateIndexMetaData(IndexSettings.java:716) [main/:?]
+	at org.elasticsearch.index.MergeSchedulerSettingsTests.lambda$testMaxThreadAndMergeCount$2(MergeSchedulerSettingsTests.java:180) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.MergeSchedulerSettingsTests.testMaxThreadAndMergeCount(MergeSchedulerSettingsTests.java:179) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T04:53:33,837][INFO ][o.e.i.MergeSchedulerSettingsTests] [testUpdateMergeMaxThreadCount] before test
+[2020-02-17T04:53:33,839][INFO ][o.e.c.s.IndexScopedSettings] [testUpdateMergeMaxThreadCount] updating [index.merge.scheduler.max_thread_count] from [10000] to [1]
+[2020-02-17T04:53:33,841][INFO ][o.e.i.MergeSchedulerSettingsTests] [testUpdateMergeMaxThreadCount] after test
+]]></system-out>
+  <system-err><![CDATA[REPRODUCE WITH: gradlew ':server:test' --tests "org.elasticsearch.index.MergeSchedulerSettingsTests.testMaxThreadAndMergeCount" -Dtests.seed=9EA1F2A3814E5F76 -Dtests.security.manager=true -Dtests.locale=en-FJ -Dtests.timezone=Indian/Cocos -Dcompiler.java=12 -Druntime.java=12
+NOTE: leaving temporary files on disk at: E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.MergeSchedulerSettingsTests_9EA1F2A3814E5F76-001
+NOTE: test params are: codec=Lucene80, sim=Asserting(org.apache.lucene.search.similarities.AssertingSimilarity@705b34a6), locale=en-FJ, timezone=Indian/Cocos
+NOTE: Windows 7 6.1 amd64/Oracle Corporation 12.0.2 (64-bit)/cpus=4,threads=1,free=175762696,total=536870912
+NOTE: All tests run in this JVM: [TruncateTokenFilterTests, BinaryDocValuesRangeQueryTests, DoubleRandomBinaryDocValuesRangeQueryTests, InetAddressRandomBinaryDocValuesRangeQueryTests, LongRandomBinaryDocValuesRangeQueryTests, SearchAfterSortedDocQueryTests, BoundedBreakIteratorScannerTests, CustomUnifiedHighlighterTests, ActionListenerTests, ActionTests, ClusterAllocationExplainRequestTests, AddVotingConfigExclusionsRequestTests, ClearVotingConfigExclusionsRequestTests, TransportAddVotingConfigExclusionsActionTests, ClusterHealthRequestTests, TransportClusterHealthActionTests, CancellableTasksTests, TransportTasksActionTests, VerifyRepositoryResponseTests, ClusterRerouteResponseTests, ClusterGetSettingsResponseTests, ClusterUpdateSettingsResponseTests, ClusterSearchShardsRequestTests, CreateSnapshotRequestTests, GetSnapshotsResponseTests, RestoreSnapshotResponseTests, SnapshotIndexStatusTests, SnapshotsStatusResponseTests, SnapshotStatusTests, ClusterStateRequestTests, ClusterStatsNodesTests, GetStoredScriptResponseTests, AliasActionsTests, TransportGetAliasesActionTests, AnalyzeRequestTests, ClearIndicesCacheResponseTests, CloseIndexResponseTests, CreateIndexRequestBuilderTests, CreateIndexResponseTests, SyncedFlushUnitTests, ForceMergeResponseTests, GetIndexActionTests, GetFieldMappingsResponseTests, PutMappingRequestTests, RefreshResponseTests, RolloverRequestTests, TransportRolloverActionTests, IndicesSegmentsRequestTests, GetSettingsRequestTests, UpdateSettingsRequestSerializationTests, IndicesShardStoreResponseTests, ResizeResponseTests, IndicesStatsResponseTests, GetIndexTemplatesResponseTests, PutIndexTemplateRequestTests, QueryExplanationTests, BackoffPolicyTests, BulkPrimaryExecutionContextTests, BulkRequestModifierTests, BulkRequestTests, BulkShardRequestTests, TransportBulkActionIndicesThatCannotBeCreatedTests, TransportBulkActionTests, TransportShardBulkActionTests, DeleteResponseTests, ExplainRequestTests, FieldCapabilitiesRequestTests, FieldCapabilitiesTests, GetRequestTests, MultiGetRequestTests, MultiGetShardRequestTests, IndexRequestBuilderTests, IndexResponseTests, PutPipelineRequestTests, SimulateDocumentVerboseResultTests, SimulatePipelineRequestParsingTests, SimulatePipelineResponseTests, WriteableIngestDocumentTests, MainResponseTests, OriginalIndicesTests, ResyncReplicationRequestTests, AbstractSearchAsyncActionTests, ClearScrollControllerTests, CountedCollectorTests, ExpandSearchPhaseTests, MultiSearchActionTookTests, MultiSearchResponseTests, SearchPhaseControllerTests, SearchRequestBuilderTests, SearchResponseMergerTests, SearchScrollAsyncActionTests, SearchShardIteratorTests, TransportMultiSearchActionTests, TransportSearchActionTests, ShardOperationFailedExceptionTests, StepListenerTests, AdapterActionFutureTests, TransportBroadcastByNodeActionTests, DefaultShardOperationFailedExceptionTests, IndicesOptionsTests, ListenerTimeoutsTests, TransportMasterNodeActionTests, RefreshPolicyTests, ReplicationOperationTests, TransportReplicationActionTests, TransportWriteActionTests, TransportActionFilterChainTests, GetTermVectorsTests, TransportMultiTermVectorsActionTests, UpdateResponseTests, BootstrapSettingsTests, ElasticsearchCliTests, ESPolicyTests, JNANativesTests, SecurityTests, CommandTests, TerminalTests, OriginSettingClientTests, TransportClientHeadersTests, TransportClientTests, ShardStartedClusterStateTaskExecutorTests, ClusterBlockTests, ClusterInfoTests, ClusterStateTaskExecutorTests, ClusterBootstrapServiceTests, CoordinationMetaDataTests, CoordinatorTests, ElectionSchedulerFactoryTests, JoinHelperTests, LagDetectorTests, LinearizabilityCheckerTests, NodeJoinTests, NoMasterBlockServiceTests, PublicationTests, ReconfiguratorTests, FeatureAwareTests, ClusterIndexHealthTests, ClusterStateHealthTests, AliasValidatorTests, ClusterNameExpressionResolverTests, DiffableStringMapTests, IndexCreationTaskTests, IndexMetaDataTests, IndexNameExpressionResolverExpressionsIterationTests, IndexTemplateMetaDataTests, MetaDataCreateIndexServiceTests, MetaDataIndexAliasesServiceTests, MetaDataIndexUpgradeServiceTests, MetaDataTests, ToAndFromJsonMetaDataTests, DiscoveryNodeFiltersTests, DiscoveryNodesTests, NodeConnectionsServiceTests, AllocateUnassignedDecisionTests, AllocationDecisionTests, AllocationServiceTests, BalanceConfigurationTests, BalanceUnbalancedClusterTests, ConcurrentRebalanceRoutingTests, DecisionTests, DiskThresholdDeciderUnitTests, EnableAllocationTests, RestoreInProgressAllocationDeciderTests, DiskThresholdMonitorTests, ElectReplicaAsPrimaryDuringRelocationTests, FailedNodeRoutingTests, FilterRoutingTests, InSyncAllocationIdTests, MoveDecisionTests, NodeVersionAllocationDeciderTests, PreferPrimaryAllocationTests, PrimaryNotRelocatedWhileBeingRecoveredTests, RebalanceAfterActiveTests, ResizeAllocationDeciderTests, RoutingNodesIntegrityTests, ShardsLimitAllocationTests, SingleShardNoReplicasRoutingTests, StartedShardsRoutingTests, ThrottlingAllocationTests, UpdateNumberOfReplicasTests, BatchedRerouteServiceTests, GroupShardsIteratorTests, Murmur3HashFunctionTests, PlainShardIteratorTests, RecoverySourceTests, ShardRoutingTests, ClusterSerializationTests, DiffableTests, MasterServiceTests, TaskExecutorTests, RoutingIteratorTests, FsBlobContainerTests, FsBlobStoreTests, ByteBufferReferenceTests, CompositeBytesReferenceTests, CacheBuilderTests, ChannelsTests, EvictingQueueTests, DeflateCompressedXContentTests, ExponentiallyWeightedMovingAverageTests, CircleBuilderTests, GeometryCollectionBuilderTests, MultiLineStringBuilderTests, MultiPolygonBuilderTests, PolygonBuilderTests, GeoJsonParserTests, GeoJsonShapeParserTests, GeometryIOTests, GeoUtilTests, ShapeBuilderTests, SpatialStrategyTests, MurmurHash3Tests, FileSystemUtilsTests, NamedWriteableRegistryTests, StreamTests, JavaJodaTimeDuellingTests, JodaTests, JsonThrowablePatternConverterTests, PrefixLoggerTests, FreqTermsEnumTests, MinScoreScorerTests, XMoreLikeThisTests, QueriesTests, ByteArrayIndexInputTests, VersionLookupTests, CidrsTests, NetworkAddressTests, NetworkServiceTests, NumbersTests, PidFileTests, ConcurrentRecyclerTests, NoneRecyclerTests, RegexTests, DateTimeUnitTests, TimeZoneRoundingTests, AddFileKeyStoreCommandTests, ConsistentSettingsServiceTests, KeyStoreWrapperTests, MemorySizeSettingsTests, RemoveSettingKeyStoreCommandTests, SecureStringTests, SettingsModuleTests, SettingTests, StringsTests, DateFormattersTests, DateUtilsTests, BoundTransportAddressTests, ByteSizeValueTests, FuzzinessTests, SizeValueTests, BigArraysTests, BytesRefHashTests, CancellableThreadsTests, AbstractAsyncTaskTests, AbstractRunnableTests, CountDownTests, EsThreadPoolExecutorTests, KeyedLockTests, PrioritizedExecutorsTests, QueueResizingEsThreadPoolExecutorTests, ResizableBlockingQueueTests, SizeBlockingQueueTests, TimedRunnableTests, IterablesTests, LongHashTests, SetsTests, SingleObjectCacheTests, UUIDTests, CborXContentParserTests, JsonVsCborTests, JsonVsSmileTests, CborXContentFilteringTests, FilterPathTests, SmileFilteringGeneratorTests, XContentHelperTests, UnknownNamedObjectExceptionTests, XContentParserUtilsTests, YamlXContentTests, SimpleLuceneTests, BlockingClusterStatePublishResponseHandlerTests, FileBasedSeedHostsProviderTests, PeerFinderMessagesTests, SeedHostsResolverTests, ElectMasterServiceTests, PendingClusterStatesQueueTests, ZenDiscoveryUnitTests, ZenFaultDetectionTests, EnvironmentTests, NodeEnvironmentTests, NodeRepurposeCommandTests, ExceptionSerializationTests, AsyncShardFetchTests, DanglingIndicesStateTests, GatewayMetaStateTests, IncrementalClusterStateWriterTests, MetaStateServiceTests, PriorityComparatorTests, WriteStateExceptionTests, CorsHandlerTests, HttpInfoTests, AnalysisTests, CustomNormalizerTests, IndexAnalyzersTests, PreBuiltAnalyzerTests, ShingleTokenFilterFactoryTests, StopTokenFilterTests, CodecTests, InternalEngineSettingsTests, LiveVersionMapTests, NoOpEngineRecoveryTests, PrunePostingsMergePolicyTests, RecoverySourcePruneMergePolicyTests, SoftDeletesPolicyTests, EsTieredMergePolicyTests, ReplaceMissingTests, FieldDataStatsTests, FilterFieldDataTests, IndexFieldDataServiceTests, MultiOrdinalsTests, PagedBytesStringFieldDataTests, ScriptDocValuesGeoPointsTests, SortedSetDVStringFieldDataTests, DocumentFieldTests, IndexingSlowLogTests, IndexServiceTests, IndexSortSettingsTests, AllFieldMapperTests, BinaryFieldTypeTests, BooleanFieldMapperTests, CamelCaseFieldNameTests, CompletionFieldTypeTests, DateFieldMapperTests, DocumentFieldMapperTests, DocumentMapperTests, DoubleIndexingDocTests, DynamicMappingVersionTests, DynamicTemplateTests, FieldAliasMapperTests, FieldNamesFieldMapperTests, FieldTypeLookupTests, GeoPointFieldMapperTests, GeoShapeFieldMapperTests, IdFieldMapperTests, IgnoredFieldTypeTests, IndexFieldTypeTests, IpFieldTypeTests, JavaMultiFieldMergeTests, KeywordFieldTypeTests, LegacyGeoShapeFieldMapperTests, LegacyMapperServiceTests, MapperMergeValidatorTests, MapperTests, MultiFieldTests, NullValueObjectMappingTests, NumberFieldMapperTests, ObjectMapperMergeTests, PathMapperTests, RangeFieldMapperTests, RangeFieldTypeTests, RoutingFieldMapperTests, SourceFieldMapperTests, StoredNumericValuesTests, TextFieldTypeTests, TypeFieldTypeTests, UidTests, VersionFieldTypeTests, MergeSchedulerSettingsTests]
+]]></system-err>
+</testsuite>

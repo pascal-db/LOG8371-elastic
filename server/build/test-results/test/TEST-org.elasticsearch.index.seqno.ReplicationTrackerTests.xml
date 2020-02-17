@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.seqno.ReplicationTrackerTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:23" hostname="Escoto-PC" time="0.088">
+  <properties/>
+  <testcase name="testWaitForAllocationIdToBeInSyncCanBeInterrupted" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.007"/>
+  <testcase name="testInSyncIdsAreRemovedIfNotValidatedByMaster" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.005"/>
+  <testcase name="testUpdateGlobalCheckpointOnReplica" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.003"/>
+  <testcase name="testRaceUpdatingGlobalCheckpoint" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.019"/>
+  <testcase name="testWaitForAllocationIdToBeInSync" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.006"/>
+  <testcase name="testMissingActiveIdsPreventAdvance" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.004"/>
+  <testcase name="testMissingInSyncIdsPreventAdvance" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.002"/>
+  <testcase name="testInSyncIdsAreIgnoredIfNotValidatedByMaster" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.004"/>
+  <testcase name="testPrimaryContextHandoff" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.007"/>
+  <testcase name="testEmptyShards" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.002"/>
+  <testcase name="testGlobalCheckpointUpdate" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.005"/>
+  <testcase name="testPeerRecoveryRetentionLeaseCreationAndRenewal" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.008"/>
+  <testcase name="testMarkAllocationIdAsInSync" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.006"/>
+  <testcase name="testUpdateAllocationIdsFromMaster" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.006"/>
+  <testcase name="testIllegalStateExceptionIfUnknownAllocationId" classname="org.elasticsearch.index.seqno.ReplicationTrackerTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:23:23,941][INFO ][o.e.i.s.ReplicationTrackerTests] [testWaitForAllocationIdToBeInSyncCanBeInterrupted] before test
+[2020-02-17T00:23:23,945][INFO ][o.e.i.s.ReplicationTrackerTests] [testWaitForAllocationIdToBeInSyncCanBeInterrupted] after test
+[2020-02-17T00:23:23,947][INFO ][o.e.i.s.ReplicationTrackerTests] [testInSyncIdsAreRemovedIfNotValidatedByMaster] before test
+[2020-02-17T00:23:23,950][INFO ][o.e.i.s.ReplicationTrackerTests] [testInSyncIdsAreRemovedIfNotValidatedByMaster] after test
+[2020-02-17T00:23:23,952][INFO ][o.e.i.s.ReplicationTrackerTests] [testUpdateGlobalCheckpointOnReplica] before test
+[2020-02-17T00:23:23,953][INFO ][o.e.i.s.ReplicationTrackerTests] [testUpdateGlobalCheckpointOnReplica] after test
+[2020-02-17T00:23:23,956][INFO ][o.e.i.s.ReplicationTrackerTests] [testRaceUpdatingGlobalCheckpoint] before test
+[2020-02-17T00:23:23,972][INFO ][o.e.i.s.ReplicationTrackerTests] [testRaceUpdatingGlobalCheckpoint] after test
+[2020-02-17T00:23:23,975][INFO ][o.e.i.s.ReplicationTrackerTests] [testWaitForAllocationIdToBeInSync] before test
+[2020-02-17T00:23:23,978][INFO ][o.e.i.s.ReplicationTrackerTests] [testWaitForAllocationIdToBeInSync] after test
+[2020-02-17T00:23:23,979][INFO ][o.e.i.s.ReplicationTrackerTests] [testMissingActiveIdsPreventAdvance] before test
+[2020-02-17T00:23:23,982][INFO ][o.e.i.s.ReplicationTrackerTests] [testMissingActiveIdsPreventAdvance] after test
+[2020-02-17T00:23:23,983][INFO ][o.e.i.s.ReplicationTrackerTests] [testMissingInSyncIdsPreventAdvance] before test
+[2020-02-17T00:23:23,983][INFO ][o.e.i.s.ReplicationTrackerTests] [testMissingInSyncIdsPreventAdvance] active: {[id=tqfzoSg8SNu88l1Szft_aw]=746, [id=cJdMwoIsS8uI5NDu59t7hQ]=636}, initializing: {[id=9CeO62TcSAm3I2jqbked9A]=340, [id=57sc7x5fQ4WIwcevJv_lPg]=198, [id=J_wdcuBdTPCzoO1A7ZLKuQ]=999}
+[2020-02-17T00:23:23,984][INFO ][o.e.i.s.ReplicationTrackerTests] [testMissingInSyncIdsPreventAdvance] after test
+[2020-02-17T00:23:23,986][INFO ][o.e.i.s.ReplicationTrackerTests] [testInSyncIdsAreIgnoredIfNotValidatedByMaster] before test
+[2020-02-17T00:23:23,988][INFO ][o.e.i.s.ReplicationTrackerTests] [testInSyncIdsAreIgnoredIfNotValidatedByMaster] after test
+[2020-02-17T00:23:23,990][INFO ][o.e.i.s.ReplicationTrackerTests] [testPrimaryContextHandoff] before test
+[2020-02-17T00:23:23,994][INFO ][o.e.i.s.ReplicationTrackerTests] [testPrimaryContextHandoff] after test
+[2020-02-17T00:23:23,997][INFO ][o.e.i.s.ReplicationTrackerTests] [testEmptyShards] before test
+[2020-02-17T00:23:23,997][INFO ][o.e.i.s.ReplicationTrackerTests] [testEmptyShards] after test
+[2020-02-17T00:23:23,999][INFO ][o.e.i.s.ReplicationTrackerTests] [testGlobalCheckpointUpdate] before test
+[2020-02-17T00:23:24,000][INFO ][o.e.i.s.ReplicationTrackerTests] [testGlobalCheckpointUpdate] --> using allocations
+[2020-02-17T00:23:24,000][INFO ][o.e.i.s.ReplicationTrackerTests] [testGlobalCheckpointUpdate]   - [[id=QU8oqlsrTXqgo5yH77aIRw]], local checkpoint [989], [active]
+[2020-02-17T00:23:24,000][INFO ][o.e.i.s.ReplicationTrackerTests] [testGlobalCheckpointUpdate]   - [[id=YlRQW-kQTy2Z4MvRXItTXA]], local checkpoint [786], [active]
+[2020-02-17T00:23:24,000][INFO ][o.e.i.s.ReplicationTrackerTests] [testGlobalCheckpointUpdate]   - [[id=ojIiGE90TSCFnQY9Bkb8pQ]], local checkpoint [685], [active]
+[2020-02-17T00:23:24,002][INFO ][o.e.i.s.ReplicationTrackerTests] [testGlobalCheckpointUpdate] after test
+[2020-02-17T00:23:24,004][INFO ][o.e.i.s.ReplicationTrackerTests] [testPeerRecoveryRetentionLeaseCreationAndRenewal] before test
+[2020-02-17T00:23:24,010][INFO ][o.e.i.s.ReplicationTrackerTests] [testPeerRecoveryRetentionLeaseCreationAndRenewal] after test
+[2020-02-17T00:23:24,013][INFO ][o.e.i.s.ReplicationTrackerTests] [testMarkAllocationIdAsInSync] before test
+[2020-02-17T00:23:24,016][INFO ][o.e.i.s.ReplicationTrackerTests] [testMarkAllocationIdAsInSync] after test
+[2020-02-17T00:23:24,018][INFO ][o.e.i.s.ReplicationTrackerTests] [testUpdateAllocationIdsFromMaster] before test
+[2020-02-17T00:23:24,023][INFO ][o.e.i.s.ReplicationTrackerTests] [testUpdateAllocationIdsFromMaster] after test
+[2020-02-17T00:23:24,025][INFO ][o.e.i.s.ReplicationTrackerTests] [testIllegalStateExceptionIfUnknownAllocationId] before test
+[2020-02-17T00:23:24,026][INFO ][o.e.i.s.ReplicationTrackerTests] [testIllegalStateExceptionIfUnknownAllocationId] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.BucketScriptTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:27" hostname="Escoto-PC" time="0.03">
+  <properties/>
+  <testcase name="testParseBucketPath" classname="org.elasticsearch.search.aggregations.pipeline.BucketScriptTests" time="0.008"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.BucketScriptTests" time="0.013"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.BucketScriptTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.BucketScriptTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T12:09:27,846][INFO ][o.e.s.a.p.BucketScriptTests] [testParseBucketPath] before test
+[2020-02-17T12:09:27,848][INFO ][o.e.s.a.p.BucketScriptTests] [testParseBucketPath] after test
+[2020-02-17T12:09:27,859][INFO ][o.e.s.a.p.BucketScriptTests] [testEqualsAndHashcode] before test
+[2020-02-17T12:09:27,861][INFO ][o.e.s.a.p.BucketScriptTests] [testEqualsAndHashcode] after test
+[2020-02-17T12:09:27,866][INFO ][o.e.s.a.p.BucketScriptTests] [testFromXContent] before test
+[2020-02-17T12:09:27,867][INFO ][o.e.s.a.p.BucketScriptTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "bucket_script" : {
+      "buckets_path" : {
+        "kyMRBS" : "TcmRy"
+      },
+      "script" : {
+        "source" : "script",
+        "lang" : "mockscript"
+      },
+      "format" : "LR",
+      "gap_policy" : "skip"
+    }
+  }
+}
+[2020-02-17T12:09:27,867][INFO ][o.e.s.a.p.BucketScriptTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "bucket_script" : {
+      "buckets_path" : {
+        "kyMRBS" : "TcmRy"
+      },
+      "script" : {
+        "source" : "script",
+        "lang" : "mockscript"
+      },
+      "format" : "LR",
+      "gap_policy" : "skip"
+    }
+  }
+}
+[2020-02-17T12:09:27,867][INFO ][o.e.s.a.p.BucketScriptTests] [testFromXContent] after test
+[2020-02-17T12:09:27,870][INFO ][o.e.s.a.p.BucketScriptTests] [testSerialization] before test
+[2020-02-17T12:09:27,870][INFO ][o.e.s.a.p.BucketScriptTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

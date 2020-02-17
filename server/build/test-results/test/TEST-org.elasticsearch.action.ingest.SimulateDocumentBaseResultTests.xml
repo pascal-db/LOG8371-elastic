@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ingest.SimulateDocumentBaseResultTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.05">
+  <properties/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.action.ingest.SimulateDocumentBaseResultTests" time="0.022"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.ingest.SimulateDocumentBaseResultTests" time="0.024"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.ingest.SimulateDocumentBaseResultTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T03:50:18,406][INFO ][o.e.a.i.SimulateDocumentBaseResultTests] [testFromXContentWithFailures] before test
+[2020-02-17T03:50:18,425][INFO ][o.e.a.i.SimulateDocumentBaseResultTests] [testFromXContentWithFailures] after test
+[2020-02-17T03:50:18,432][INFO ][o.e.a.i.SimulateDocumentBaseResultTests] [testFromXContent] before test
+[2020-02-17T03:50:18,450][INFO ][o.e.a.i.SimulateDocumentBaseResultTests] [testFromXContent] after test
+[2020-02-17T03:50:18,452][INFO ][o.e.a.i.SimulateDocumentBaseResultTests] [testSerialization] before test
+[2020-02-17T03:50:18,454][INFO ][o.e.a.i.SimulateDocumentBaseResultTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:17" hostname="Escoto-PC" time="0.201">
+  <properties/>
+  <testcase name="testOffset" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.015"/>
+  <testcase name="testLongsIrrationalInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.021"/>
+  <testcase name="testMultipleRangesLotsOfOverlap" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.011"/>
+  <testcase name="testOffsetGtInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.045"/>
+  <testcase name="testDoubles" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.022"/>
+  <testcase name="testLongs" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.029"/>
+  <testcase name="testMinDocCount" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.031"/>
+  <testcase name="testIpRangesUnsupported" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.011"/>
+  <testcase name="testMultipleRanges" classname="org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-16T16:24:17,978][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testOffset] before test
+[2020-02-16T16:24:17,989][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testOffset] after test
+[2020-02-16T16:24:17,992][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testLongsIrrationalInterval] before test
+[2020-02-16T16:24:18,010][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testLongsIrrationalInterval] after test
+[2020-02-16T16:24:18,017][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMultipleRangesLotsOfOverlap] before test
+[2020-02-16T16:24:18,021][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMultipleRangesLotsOfOverlap] after test
+[2020-02-16T16:24:18,034][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testOffsetGtInterval] before test
+[2020-02-16T16:24:18,067][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testOffsetGtInterval] after test
+[2020-02-16T16:24:18,069][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testDoubles] before test
+[2020-02-16T16:24:18,090][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testDoubles] after test
+[2020-02-16T16:24:18,105][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testLongs] before test
+[2020-02-16T16:24:18,119][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testLongs] after test
+[2020-02-16T16:24:18,122][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMinDocCount] before test
+[2020-02-16T16:24:18,151][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMinDocCount] after test
+[2020-02-16T16:24:18,152][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testIpRangesUnsupported] before test
+[2020-02-16T16:24:18,161][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testIpRangesUnsupported] after test
+[2020-02-16T16:24:18,171][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMultipleRanges] before test
+[2020-02-16T16:24:18,175][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMultipleRanges] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

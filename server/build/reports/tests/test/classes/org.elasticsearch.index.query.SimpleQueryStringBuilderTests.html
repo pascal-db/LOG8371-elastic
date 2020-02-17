@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.query.SimpleQueryStringBuilderTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.query.SimpleQueryStringBuilderTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.query.html">org.elasticsearch.index.query</a> &gt; SimpleQueryStringBuilderTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">41</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.179s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAllFieldsWildcard</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAnalyzeWildcard</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAnalyzerWildcardWithSynonyms</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAnalyzerWithGraph</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCacheability</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCachingStrategiesWithNow</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDefaultEmptyComplainFlags</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDefaultField</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDefaultFieldParsing</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDefaultNullComplainFlags</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDefaultNullComplainOp</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDefaultOperatorHandling</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDefaults</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEqualsAndHashcode</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExpandedTerms</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFieldCannotBeEmpty</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFieldCannotBeEmptyAndWeighted</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFieldCannotBeNull</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFieldCannotBeNullAndWeighted</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFieldsCannotBeSetToNull</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromJson</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromXContent</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIllegalConstructorArg</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLenientToPrefixQuery</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMinimumShouldMatch</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMustRewrite</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNegativeBoosts</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNegativeFieldBoost</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNegativeFlags</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testQueryWrappedInArray</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testQuoteFieldSuffix</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerialization</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToFuzzyQuery</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToQuery</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToQueryBoost</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownField</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownObjectException</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnmappedFieldNoTokenWithAndOperator</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidOutput</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWithPrefixStopWords</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWithStopWords</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T17:23:08,636][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaults] before test
+[2020-02-16T17:23:08,640][INFO ][o.e.p.PluginsService     ] [testDefaults] no modules loaded
+[2020-02-16T17:23:08,640][INFO ][o.e.p.PluginsService     ] [testDefaults] no plugins loaded
+[2020-02-16T17:23:08,645][INFO ][o.e.p.PluginsService     ] [testDefaults] no modules loaded
+[2020-02-16T17:23:08,645][INFO ][o.e.p.PluginsService     ] [testDefaults] no plugins loaded
+[2020-02-16T17:23:08,649][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaults] after test
+[2020-02-16T17:23:08,650][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:08,652][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testSerialization] after test
+[2020-02-16T17:23:08,655][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFromJson] before test
+[2020-02-16T17:23:08,655][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFromJson] after test
+[2020-02-16T17:23:08,658][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:08,659][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:08,661][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultEmptyComplainFlags] before test
+[2020-02-16T17:23:08,661][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultEmptyComplainFlags] after test
+[2020-02-16T17:23:08,663][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeEmpty] before test
+[2020-02-16T17:23:08,663][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeEmpty] after test
+[2020-02-16T17:23:08,665][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:08,667][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:08,669][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzeWildcard] before test
+[2020-02-16T17:23:08,670][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzeWildcard] after test
+[2020-02-16T17:23:08,672][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeFlags] before test
+[2020-02-16T17:23:08,672][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeFlags] after test
+[2020-02-16T17:23:08,673][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:08,674][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:08,682][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testIllegalConstructorArg] before test
+[2020-02-16T17:23:08,682][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testIllegalConstructorArg] after test
+[2020-02-16T17:23:08,685][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzerWildcardWithSynonyms] before test
+[2020-02-16T17:23:08,687][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzerWildcardWithSynonyms] after test
+[2020-02-16T17:23:08,689][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzerWithGraph] before test
+[2020-02-16T17:23:08,690][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzerWithGraph] after test
+[2020-02-16T17:23:08,692][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToQueryBoost] before test
+[2020-02-16T17:23:08,692][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToQueryBoost] after test
+[2020-02-16T17:23:08,693][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testMinimumShouldMatch] before test
+[2020-02-16T17:23:08,694][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testMinimumShouldMatch] after test
+[2020-02-16T17:23:08,696][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:08,696][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:08,697][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeEmptyAndWeighted] before test
+[2020-02-16T17:23:08,698][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeEmptyAndWeighted] after test
+[2020-02-16T17:23:08,699][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testWithPrefixStopWords] before test
+[2020-02-16T17:23:08,700][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testWithPrefixStopWords] after test
+[2020-02-16T17:23:08,701][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:08,702][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:23:08,703][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeFieldBoost] before test
+[2020-02-16T17:23:08,703][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeFieldBoost] after test
+[2020-02-16T17:23:08,705][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testQuoteFieldSuffix] before test
+[2020-02-16T17:23:08,706][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testQuoteFieldSuffix] after test
+[2020-02-16T17:23:08,707][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeNullAndWeighted] before test
+[2020-02-16T17:23:08,708][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeNullAndWeighted] after test
+[2020-02-16T17:23:08,710][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:08,712][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:08,714][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultNullComplainOp] before test
+[2020-02-16T17:23:08,714][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultNullComplainOp] after test
+[2020-02-16T17:23:08,715][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultNullComplainFlags] before test
+[2020-02-16T17:23:08,716][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultNullComplainFlags] after test
+[2020-02-16T17:23:08,717][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldsCannotBeSetToNull] before test
+[2020-02-16T17:23:08,717][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldsCannotBeSetToNull] after test
+[2020-02-16T17:23:08,719][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:08,719][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:08,734][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:08,736][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFromXContent] after test
+[2020-02-16T17:23:08,737][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testWithStopWords] before test
+[2020-02-16T17:23:08,738][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testWithStopWords] after test
+[2020-02-16T17:23:08,740][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:08,740][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnknownField] after test
+[2020-02-16T17:23:08,742][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testLenientToPrefixQuery] before test
+[2020-02-16T17:23:08,743][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testLenientToPrefixQuery] after test
+[2020-02-16T17:23:08,746][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:08,764][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:08,767][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testExpandedTerms] before test
+[2020-02-16T17:23:08,768][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testExpandedTerms] after test
+[2020-02-16T17:23:08,790][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAllFieldsWildcard] before test
+[2020-02-16T17:23:08,791][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAllFieldsWildcard] after test
+[2020-02-16T17:23:08,793][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultFieldParsing] before test
+[2020-02-16T17:23:08,794][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultFieldParsing] after test
+[2020-02-16T17:23:08,796][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeNull] before test
+[2020-02-16T17:23:08,797][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeNull] after test
+[2020-02-16T17:23:08,801][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultField] before test
+[2020-02-16T17:23:08,802][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [[&quot;*&quot;]] to [[&quot;mapped_string&quot;,&quot;*&quot;,&quot;mapped_string_2&quot;]]
+[2020-02-16T17:23:08,802][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [[&quot;mapped_string&quot;,&quot;*&quot;,&quot;mapped_string_2&quot;]] to [[&quot;mapped_string&quot;,&quot;mapped_string_2^5&quot;]]
+[2020-02-16T17:23:08,802][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [[&quot;mapped_string&quot;,&quot;mapped_string_2^5&quot;]] to [[&quot;*&quot;]]
+[2020-02-16T17:23:08,802][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultField] after test
+[2020-02-16T17:23:08,806][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToFuzzyQuery] before test
+[2020-02-16T17:23:08,806][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToFuzzyQuery] after test
+[2020-02-16T17:23:08,808][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testCachingStrategiesWithNow] before test
+[2020-02-16T17:23:08,810][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testCachingStrategiesWithNow] after test
+[2020-02-16T17:23:08,815][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultOperatorHandling] before test
+[2020-02-16T17:23:08,815][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultOperatorHandling] after test
+[2020-02-16T17:23:08,817][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnmappedFieldNoTokenWithAndOperator] before test
+[2020-02-16T17:23:08,817][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnmappedFieldNoTokenWithAndOperator] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

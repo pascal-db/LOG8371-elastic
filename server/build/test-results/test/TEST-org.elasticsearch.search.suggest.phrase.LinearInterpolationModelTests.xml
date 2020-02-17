@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.phrase.LinearInterpolationModelTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:52" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.phrase.LinearInterpolationModelTests" time="0.001"/>
+  <testcase name="testBuildWordScorer" classname="org.elasticsearch.search.suggest.phrase.LinearInterpolationModelTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.suggest.phrase.LinearInterpolationModelTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.phrase.LinearInterpolationModelTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:25:52,816][INFO ][o.e.s.s.p.LinearInterpolationModelTests] [testSerialization] before test
+[2020-02-16T19:25:52,816][INFO ][o.e.s.s.p.LinearInterpolationModelTests] [testSerialization] after test
+[2020-02-16T19:25:52,818][INFO ][o.e.s.s.p.LinearInterpolationModelTests] [testBuildWordScorer] before test
+[2020-02-16T19:25:52,820][INFO ][o.e.s.s.p.LinearInterpolationModelTests] [testBuildWordScorer] after test
+[2020-02-16T19:25:52,821][INFO ][o.e.s.s.p.LinearInterpolationModelTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:25:52,822][INFO ][o.e.s.s.p.LinearInterpolationModelTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:25:52,823][INFO ][o.e.s.s.p.LinearInterpolationModelTests] [testFromXContent] before test
+[2020-02-16T19:25:52,824][INFO ][o.e.s.s.p.LinearInterpolationModelTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

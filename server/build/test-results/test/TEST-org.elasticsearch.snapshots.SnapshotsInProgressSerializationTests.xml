@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.snapshots.SnapshotsInProgressSerializationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.247">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.snapshots.SnapshotsInProgressSerializationTests" time="0.123"/>
+  <testcase name="testDiffableSerialization" classname="org.elasticsearch.snapshots.SnapshotsInProgressSerializationTests" time="0.108"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.snapshots.SnapshotsInProgressSerializationTests" time="0.016"/>
+  <system-out><![CDATA[[2020-02-17T03:24:43,993][INFO ][o.e.s.SnapshotsInProgressSerializationTests] [testEqualsAndHashcode] before test
+[2020-02-17T03:24:44,114][INFO ][o.e.s.SnapshotsInProgressSerializationTests] [testEqualsAndHashcode] after test
+[2020-02-17T03:24:44,155][INFO ][o.e.s.SnapshotsInProgressSerializationTests] [testDiffableSerialization] before test
+[2020-02-17T03:24:44,222][INFO ][o.e.s.SnapshotsInProgressSerializationTests] [testDiffableSerialization] after test
+[2020-02-17T03:24:44,224][INFO ][o.e.s.SnapshotsInProgressSerializationTests] [testSerialization] before test
+[2020-02-17T03:24:44,238][INFO ][o.e.s.SnapshotsInProgressSerializationTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

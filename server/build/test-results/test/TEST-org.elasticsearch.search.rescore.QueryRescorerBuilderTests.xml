@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.rescore.QueryRescorerBuilderTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:36" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.rescore.QueryRescorerBuilderTests" time="0.006"/>
+  <testcase name="testRescoreQueryNull" classname="org.elasticsearch.search.rescore.QueryRescorerBuilderTests" time="0.002"/>
+  <testcase name="testBuildRescoreSearchContext" classname="org.elasticsearch.search.rescore.QueryRescorerBuilderTests" time="0.003"/>
+  <testcase name="testRewritingKeepsSettings" classname="org.elasticsearch.search.rescore.QueryRescorerBuilderTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.rescore.QueryRescorerBuilderTests" time="0.002"/>
+  <testcase name="testUnknownFieldsExpection" classname="org.elasticsearch.search.rescore.QueryRescorerBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.rescore.QueryRescorerBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:36,431][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testFromXContent] before test
+[2020-02-16T18:25:36,434][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testFromXContent] after test
+[2020-02-16T18:25:36,436][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testRescoreQueryNull] before test
+[2020-02-16T18:25:36,436][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testRescoreQueryNull] after test
+[2020-02-16T18:25:36,438][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testBuildRescoreSearchContext] before test
+[2020-02-16T18:25:36,439][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testBuildRescoreSearchContext] after test
+[2020-02-16T18:25:36,441][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testRewritingKeepsSettings] before test
+[2020-02-16T18:25:36,442][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testRewritingKeepsSettings] after test
+[2020-02-16T18:25:36,444][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testSerialization] before test
+[2020-02-16T18:25:36,445][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testSerialization] after test
+[2020-02-16T18:25:36,446][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testUnknownFieldsExpection] before test
+[2020-02-16T18:25:36,447][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testUnknownFieldsExpection] after test
+[2020-02-16T18:25:36,449][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:36,450][INFO ][o.e.s.r.QueryRescorerBuilderTests] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.node.ResponseCollectorServiceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:01" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testNodeRemoval" classname="org.elasticsearch.node.ResponseCollectorServiceTests" time="0.006"/>
+  <testcase name="testConcurrentAddingAndRemoving" classname="org.elasticsearch.node.ResponseCollectorServiceTests" time="0.008"/>
+  <testcase name="testNodeStats" classname="org.elasticsearch.node.ResponseCollectorServiceTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T04:24:01,461][INFO ][o.e.n.ResponseCollectorServiceTests] [testNodeRemoval] before test
+[2020-02-17T04:24:01,466][INFO ][o.e.n.ResponseCollectorServiceTests] [testNodeRemoval] after test
+[2020-02-17T04:24:01,468][INFO ][o.e.n.ResponseCollectorServiceTests] [testConcurrentAddingAndRemoving] before test
+[2020-02-17T04:24:01,473][INFO ][o.e.n.ResponseCollectorServiceTests] [testConcurrentAddingAndRemoving] --> got stats: {d=ComputedNodeStats[d](nodes: 3, queue: 25, response time: 56.5, service time: 87.0, rank: 280321839.1), b=ComputedNodeStats[b](nodes: 3, queue: 87, response time: 10.3, service time: 28.0, rank: 26913214285.7), c=ComputedNodeStats[c](nodes: 3, queue: 96, response time: 27.0, service time: 21.0, rank: 47619000000.0)}
+[2020-02-17T04:24:01,474][INFO ][o.e.n.ResponseCollectorServiceTests] [testConcurrentAddingAndRemoving] after test
+[2020-02-17T04:24:01,476][INFO ][o.e.n.ResponseCollectorServiceTests] [testNodeStats] before test
+[2020-02-17T04:24:01,478][INFO ][o.e.n.ResponseCollectorServiceTests] [testNodeStats] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.significant.SignificantTermsAggregatorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:24" hostname="Escoto-PC" time="0.074">
+  <properties/>
+  <testcase name="testNumericSignificance" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantTermsAggregatorTests" time="0.018"/>
+  <testcase name="testSignificance" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantTermsAggregatorTests" time="0.023"/>
+  <testcase name="testUnmapped" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantTermsAggregatorTests" time="0.007"/>
+  <testcase name="testFieldAlias" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantTermsAggregatorTests" time="0.02"/>
+  <testcase name="testRangeField" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificantTermsAggregatorTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T15:25:24,233][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testNumericSignificance] before test
+[2020-02-16T15:25:24,247][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testNumericSignificance] after test
+[2020-02-16T15:25:24,249][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testSignificance] before test
+[2020-02-16T15:25:24,271][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testSignificance] after test
+[2020-02-16T15:25:24,272][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testUnmapped] before test
+[2020-02-16T15:25:24,278][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testUnmapped] after test
+[2020-02-16T15:25:24,280][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testFieldAlias] before test
+[2020-02-16T15:25:24,298][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testFieldAlias] after test
+[2020-02-16T15:25:24,300][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testRangeField] before test
+[2020-02-16T15:25:24,303][INFO ][o.e.s.a.b.s.SignificantTermsAggregatorTests] [testRangeField] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

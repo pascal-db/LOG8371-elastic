@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.CoordinationMetaDataTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:52" hostname="Escoto-PC" time="0.06">
+  <properties/>
+  <testcase name="testVotingTombstoneSerializationEqualsHashCode" classname="org.elasticsearch.cluster.coordination.CoordinationMetaDataTests" time="0.016"/>
+  <testcase name="testVotingTombstoneXContent" classname="org.elasticsearch.cluster.coordination.CoordinationMetaDataTests" time="0.004"/>
+  <testcase name="testVotingConfigurationSerializationEqualsHashCode" classname="org.elasticsearch.cluster.coordination.CoordinationMetaDataTests" time="0.003"/>
+  <testcase name="testCoordinationMetaDataSerializationEqualsHashCode" classname="org.elasticsearch.cluster.coordination.CoordinationMetaDataTests" time="0.008"/>
+  <testcase name="testVotingConfiguration" classname="org.elasticsearch.cluster.coordination.CoordinationMetaDataTests" time="0.005"/>
+  <testcase name="testXContent" classname="org.elasticsearch.cluster.coordination.CoordinationMetaDataTests" time="0.022"/>
+  <system-out><![CDATA[[2020-02-16T18:20:52,451][INFO ][o.e.c.c.CoordinationMetaDataTests] [testVotingTombstoneSerializationEqualsHashCode] before test
+[2020-02-16T18:20:52,456][INFO ][o.e.c.c.CoordinationMetaDataTests] [testVotingTombstoneSerializationEqualsHashCode] after test
+[2020-02-16T18:20:52,460][INFO ][o.e.c.c.CoordinationMetaDataTests] [testVotingTombstoneXContent] before test
+[2020-02-16T18:20:52,460][INFO ][o.e.c.c.CoordinationMetaDataTests] [testVotingTombstoneXContent] after test
+[2020-02-16T18:20:52,463][INFO ][o.e.c.c.CoordinationMetaDataTests] [testVotingConfigurationSerializationEqualsHashCode] before test
+[2020-02-16T18:20:52,463][INFO ][o.e.c.c.CoordinationMetaDataTests] [testVotingConfigurationSerializationEqualsHashCode] after test
+[2020-02-16T18:20:52,471][INFO ][o.e.c.c.CoordinationMetaDataTests] [testCoordinationMetaDataSerializationEqualsHashCode] before test
+[2020-02-16T18:20:52,472][INFO ][o.e.c.c.CoordinationMetaDataTests] [testCoordinationMetaDataSerializationEqualsHashCode] after test
+[2020-02-16T18:20:52,477][INFO ][o.e.c.c.CoordinationMetaDataTests] [testVotingConfiguration] before test
+[2020-02-16T18:20:52,478][INFO ][o.e.c.c.CoordinationMetaDataTests] [testVotingConfiguration] after test
+[2020-02-16T18:20:52,500][INFO ][o.e.c.c.CoordinationMetaDataTests] [testXContent] before test
+[2020-02-16T18:20:52,500][INFO ][o.e.c.c.CoordinationMetaDataTests] [testXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

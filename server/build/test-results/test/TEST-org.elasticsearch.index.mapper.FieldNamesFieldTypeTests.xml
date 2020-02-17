@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.FieldNamesFieldTypeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:33" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.FieldNamesFieldTypeTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.FieldNamesFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.FieldNamesFieldTypeTests" time="0.001"/>
+  <testcase name="testTermQuery" classname="org.elasticsearch.index.mapper.FieldNamesFieldTypeTests" time="0.003"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.FieldNamesFieldTypeTests" time="0.001"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.FieldNamesFieldTypeTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T17:22:33,842][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testClone] before test
+[2020-02-16T17:22:33,843][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testClone] after test
+[2020-02-16T17:22:33,844][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testEquals] before test
+[2020-02-16T17:22:33,845][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testEquals] after test
+[2020-02-16T17:22:33,846][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T17:22:33,846][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T17:22:33,847][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testTermQuery] before test
+[2020-02-16T17:22:33,849][WARN ][o.e.d.i.m.FieldNamesFieldMapper] [testTermQuery] terms query on the _field_names field is deprecated and will be removed, use exists query instead
+[2020-02-16T17:22:33,849][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testTermQuery] after test
+[2020-02-16T17:22:33,850][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T17:22:33,850][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T17:22:33,852][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testFreeze] before test
+[2020-02-16T17:22:33,852][INFO ][o.e.i.m.FieldNamesFieldTypeTests] [testFreeze] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

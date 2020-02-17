@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.completion.CategoryQueryContextTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:51" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testNullCategoryIsIllegal" classname="org.elasticsearch.search.suggest.completion.CategoryQueryContextTests" time="0.006"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.search.suggest.completion.CategoryQueryContextTests" time="0.001"/>
+  <testcase name="testToXContext" classname="org.elasticsearch.search.suggest.completion.CategoryQueryContextTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:25:51,688][INFO ][o.e.s.s.c.CategoryQueryContextTests] [testNullCategoryIsIllegal] before test
+[2020-02-16T22:25:51,689][INFO ][o.e.s.s.c.CategoryQueryContextTests] [testNullCategoryIsIllegal] after test
+[2020-02-16T22:25:51,691][INFO ][o.e.s.s.c.CategoryQueryContextTests] [testIllegalArguments] before test
+[2020-02-16T22:25:51,691][INFO ][o.e.s.s.c.CategoryQueryContextTests] [testIllegalArguments] after test
+[2020-02-16T22:25:51,693][INFO ][o.e.s.s.c.CategoryQueryContextTests] [testToXContext] before test
+[2020-02-16T22:25:51,694][INFO ][o.e.s.s.c.CategoryQueryContextTests] [testToXContext] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

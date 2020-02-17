@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.serialization.ClusterSerializationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.064">
+  <properties/>
+  <testcase name="testCustomSerialization" classname="org.elasticsearch.cluster.serialization.ClusterSerializationTests" time="0.004"/>
+  <testcase name="testRoutingTableSerialization" classname="org.elasticsearch.cluster.serialization.ClusterSerializationTests" time="0.011"/>
+  <testcase name="testSnapshotDeletionsInProgressSerialization" classname="org.elasticsearch.cluster.serialization.ClusterSerializationTests" time="0.004"/>
+  <testcase name="testClusterStateSerialization" classname="org.elasticsearch.cluster.serialization.ClusterSerializationTests" time="0.039"/>
+  <testcase name="testObjectReuseWhenApplyingClusterStateDiff" classname="org.elasticsearch.cluster.serialization.ClusterSerializationTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T17:21:39,345][INFO ][o.e.c.s.ClusterSerializationTests] [testCustomSerialization] before test
+[2020-02-16T17:21:39,348][INFO ][o.e.c.s.ClusterSerializationTests] [testCustomSerialization] after test
+[2020-02-16T17:21:39,354][INFO ][o.e.c.s.ClusterSerializationTests] [testRoutingTableSerialization] before test
+[2020-02-16T17:21:39,359][INFO ][o.e.c.s.ClusterSerializationTests] [testRoutingTableSerialization] after test
+[2020-02-16T17:21:39,361][INFO ][o.e.c.s.ClusterSerializationTests] [testSnapshotDeletionsInProgressSerialization] before test
+[2020-02-16T17:21:39,363][INFO ][o.e.c.s.ClusterSerializationTests] [testSnapshotDeletionsInProgressSerialization] after test
+[2020-02-16T17:21:39,388][INFO ][o.e.c.s.ClusterSerializationTests] [testClusterStateSerialization] before test
+[2020-02-16T17:21:39,402][INFO ][o.e.c.s.ClusterSerializationTests] [testClusterStateSerialization] after test
+[2020-02-16T17:21:39,404][INFO ][o.e.c.s.ClusterSerializationTests] [testObjectReuseWhenApplyingClusterStateDiff] before test
+[2020-02-16T17:21:39,408][INFO ][o.e.c.s.ClusterSerializationTests] [testObjectReuseWhenApplyingClusterStateDiff] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

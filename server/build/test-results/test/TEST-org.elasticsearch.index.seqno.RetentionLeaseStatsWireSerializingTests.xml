@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.seqno.RetentionLeaseStatsWireSerializingTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:24" hostname="Escoto-PC" time="0.006">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.seqno.RetentionLeaseStatsWireSerializingTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.seqno.RetentionLeaseStatsWireSerializingTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:23:24,099][INFO ][o.e.i.s.RetentionLeaseStatsWireSerializingTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:23:24,101][INFO ][o.e.i.s.RetentionLeaseStatsWireSerializingTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:23:24,103][INFO ][o.e.i.s.RetentionLeaseStatsWireSerializingTests] [testSerialization] before test
+[2020-02-16T23:23:24,103][INFO ][o.e.i.s.RetentionLeaseStatsWireSerializingTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

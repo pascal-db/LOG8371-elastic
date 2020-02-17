@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.analyze.AnalyzeResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:05" hostname="Escoto-PC" time="0.036">
+  <properties/>
+  <testcase name="testNullResponseToXContent" classname="org.elasticsearch.action.admin.indices.analyze.AnalyzeResponseTests" time="0.011"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.indices.analyze.AnalyzeResponseTests" time="0.016"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.analyze.AnalyzeResponseTests" time="0.006"/>
+  <testcase name="testConstructorArgs" classname="org.elasticsearch.action.admin.indices.analyze.AnalyzeResponseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T00:20:05,164][INFO ][o.e.a.a.i.a.AnalyzeResponseTests] [testNullResponseToXContent] before test
+[2020-02-17T00:20:05,168][INFO ][o.e.a.a.i.a.AnalyzeResponseTests] [testNullResponseToXContent] after test
+[2020-02-17T00:20:05,170][INFO ][o.e.a.a.i.a.AnalyzeResponseTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:20:05,184][INFO ][o.e.a.a.i.a.AnalyzeResponseTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:20:05,186][INFO ][o.e.a.a.i.a.AnalyzeResponseTests] [testSerialization] before test
+[2020-02-17T00:20:05,191][INFO ][o.e.a.a.i.a.AnalyzeResponseTests] [testSerialization] after test
+[2020-02-17T00:20:05,193][INFO ][o.e.a.a.i.a.AnalyzeResponseTests] [testConstructorArgs] before test
+[2020-02-17T00:20:05,193][INFO ][o.e.a.a.i.a.AnalyzeResponseTests] [testConstructorArgs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

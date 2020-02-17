@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.CompletionFieldTypeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:57" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.CompletionFieldTypeTests" time="0.006"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.CompletionFieldTypeTests" time="0.004"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.CompletionFieldTypeTests" time="0.003"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.CompletionFieldTypeTests" time="0.003"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.CompletionFieldTypeTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:22:57,674][INFO ][o.e.i.m.CompletionFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T23:22:57,679][INFO ][o.e.i.m.CompletionFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T23:22:57,682][INFO ][o.e.i.m.CompletionFieldTypeTests] [testEquals] before test
+[2020-02-16T23:22:57,683][INFO ][o.e.i.m.CompletionFieldTypeTests] [testEquals] after test
+[2020-02-16T23:22:57,686][INFO ][o.e.i.m.CompletionFieldTypeTests] [testFreeze] before test
+[2020-02-16T23:22:57,686][INFO ][o.e.i.m.CompletionFieldTypeTests] [testFreeze] after test
+[2020-02-16T23:22:57,688][INFO ][o.e.i.m.CompletionFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T23:22:57,690][INFO ][o.e.i.m.CompletionFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T23:22:57,692][INFO ][o.e.i.m.CompletionFieldTypeTests] [testClone] before test
+[2020-02-16T23:22:57,693][INFO ][o.e.i.m.CompletionFieldTypeTests] [testClone] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

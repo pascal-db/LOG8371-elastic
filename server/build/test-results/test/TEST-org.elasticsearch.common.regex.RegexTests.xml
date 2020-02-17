@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.regex.RegexTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:49" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testFlags" classname="org.elasticsearch.common.regex.RegexTests" time="0.005"/>
+  <testcase name="testDoubleWildcardMatch" classname="org.elasticsearch.common.regex.RegexTests" time="0.013"/>
+  <testcase name="testSimpleMatch" classname="org.elasticsearch.common.regex.RegexTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T05:21:49,563][INFO ][o.e.c.r.RegexTests       ] [testFlags] before test
+[2020-02-17T05:21:49,565][INFO ][o.e.c.r.RegexTests       ] [testFlags] after test
+[2020-02-17T05:21:49,578][INFO ][o.e.c.r.RegexTests       ] [testDoubleWildcardMatch] before test
+[2020-02-17T05:21:49,578][INFO ][o.e.c.r.RegexTests       ] [testDoubleWildcardMatch] after test
+[2020-02-17T05:21:49,580][INFO ][o.e.c.r.RegexTests       ] [testSimpleMatch] before test
+[2020-02-17T05:21:49,584][INFO ][o.e.c.r.RegexTests       ] [testSimpleMatch] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

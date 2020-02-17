@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.gateway.DanglingIndicesStateTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.gateway.DanglingIndicesStateTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.gateway.html">org.elasticsearch.gateway</a> &gt; DanglingIndicesStateTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.198s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCleanupWhenEmpty</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDanglingIndicesDiscovery</td>
+<td class="success">0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDanglingIndicesNotImportedWhenTombstonePresent</td>
+<td class="success">0.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDanglingIndicesStripAliases</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDanglingProcessing</td>
+<td class="success">0.037s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidIndexFolder</td>
+<td class="success">0.049s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T15:22:24,751][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesStripAliases] before test
+[2020-02-16T15:22:24,761][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesStripAliases] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,761][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesStripAliases] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,770][INFO ][o.e.g.DanglingIndicesState] [testDanglingIndicesStripAliases] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,770][INFO ][o.e.g.DanglingIndicesState] [testDanglingIndicesStripAliases] [[test1/test1UUID]] stripping aliases: [test_aliasd] from index before importing
+[2020-02-16T15:22:24,771][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesStripAliases] after test
+[2020-02-16T15:22:24,773][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingProcessing] before test
+[2020-02-16T15:22:24,782][INFO ][o.e.e.NodeEnvironment    ] [testDanglingProcessing] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,782][INFO ][o.e.e.NodeEnvironment    ] [testDanglingProcessing] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,790][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,794][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,797][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,800][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,802][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,808][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingProcessing] after test
+[2020-02-16T15:22:24,822][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesNotImportedWhenTombstonePresent] before test
+[2020-02-16T15:22:24,830][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesNotImportedWhenTombstonePresent] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,830][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesNotImportedWhenTombstonePresent] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,838][WARN ][o.e.g.DanglingIndicesState] [testDanglingIndicesNotImportedWhenTombstonePresent] [[test1/test1UUID]] can not be imported as a dangling index, as an index with the same name and UUID exist in the index tombstones.  This situation is likely caused by copying over the data directory for an index that was previously deleted.
+[2020-02-16T15:22:24,839][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesNotImportedWhenTombstonePresent] after test
+[2020-02-16T15:22:24,840][INFO ][o.e.g.DanglingIndicesStateTests] [testCleanupWhenEmpty] before test
+[2020-02-16T15:22:24,856][INFO ][o.e.e.NodeEnvironment    ] [testCleanupWhenEmpty] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,856][INFO ][o.e.e.NodeEnvironment    ] [testCleanupWhenEmpty] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,861][INFO ][o.e.g.DanglingIndicesStateTests] [testCleanupWhenEmpty] after test
+[2020-02-16T15:22:24,863][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesDiscovery] before test
+[2020-02-16T15:22:24,879][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesDiscovery] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,879][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesDiscovery] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,896][INFO ][o.e.g.DanglingIndicesState] [testDanglingIndicesDiscovery] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,898][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesDiscovery] after test
+[2020-02-16T15:22:24,903][INFO ][o.e.g.DanglingIndicesStateTests] [testInvalidIndexFolder] before test
+[2020-02-16T15:22:24,927][INFO ][o.e.e.NodeEnvironment    ] [testInvalidIndexFolder] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,927][INFO ][o.e.e.NodeEnvironment    ] [testInvalidIndexFolder] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,948][INFO ][o.e.g.DanglingIndicesStateTests] [testInvalidIndexFolder] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

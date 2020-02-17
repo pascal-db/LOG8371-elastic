@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.lucene.uid.VersionsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.122">
+  <properties/>
+  <testcase name="testCacheFilterReader" classname="org.elasticsearch.common.lucene.uid.VersionsTests" time="0.007"/>
+  <testcase name="testNestedDocuments" classname="org.elasticsearch.common.lucene.uid.VersionsTests" time="0.023"/>
+  <testcase name="testVersions" classname="org.elasticsearch.common.lucene.uid.VersionsTests" time="0.083"/>
+  <testcase name="testCache" classname="org.elasticsearch.common.lucene.uid.VersionsTests" time="0.007"/>
+  <testcase name="testLuceneVersionOnUnknownVersions" classname="org.elasticsearch.common.lucene.uid.VersionsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T07:20:47,628][INFO ][o.e.c.l.u.VersionsTests  ] [testCacheFilterReader] before test
+[2020-02-17T07:20:47,633][INFO ][o.e.c.l.u.VersionsTests  ] [testCacheFilterReader] after test
+[2020-02-17T07:20:47,639][INFO ][o.e.c.l.u.VersionsTests  ] [testNestedDocuments] before test
+[2020-02-17T07:20:47,656][INFO ][o.e.c.l.u.VersionsTests  ] [testNestedDocuments] after test
+[2020-02-17T07:20:47,659][INFO ][o.e.c.l.u.VersionsTests  ] [testVersions] before test
+[2020-02-17T07:20:47,739][INFO ][o.e.c.l.u.VersionsTests  ] [testVersions] after test
+[2020-02-17T07:20:47,742][INFO ][o.e.c.l.u.VersionsTests  ] [testCache] before test
+[2020-02-17T07:20:47,746][INFO ][o.e.c.l.u.VersionsTests  ] [testCache] after test
+[2020-02-17T07:20:47,748][INFO ][o.e.c.l.u.VersionsTests  ] [testLuceneVersionOnUnknownVersions] before test
+[2020-02-17T07:20:47,748][INFO ][o.e.c.l.u.VersionsTests  ] [testLuceneVersionOnUnknownVersions] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

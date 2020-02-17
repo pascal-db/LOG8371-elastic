@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.FetchSearchPhaseTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.034">
+  <properties/>
+  <testcase name="testFetchDocsConcurrently" classname="org.elasticsearch.action.search.FetchSearchPhaseTests" time="0.021"/>
+  <testcase name="testFetchTwoDocument" classname="org.elasticsearch.action.search.FetchSearchPhaseTests" time="0.002"/>
+  <testcase name="testFailFetchOneDoc" classname="org.elasticsearch.action.search.FetchSearchPhaseTests" time="0.002"/>
+  <testcase name="testCleanupIrrelevantContexts" classname="org.elasticsearch.action.search.FetchSearchPhaseTests" time="0.003"/>
+  <testcase name="testExceptionFailsPhase" classname="org.elasticsearch.action.search.FetchSearchPhaseTests" time="0.003"/>
+  <testcase name="testShortcutQueryAndFetchOptimization" classname="org.elasticsearch.action.search.FetchSearchPhaseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T16:20:19,177][INFO ][o.e.a.s.FetchSearchPhaseTests] [testFetchDocsConcurrently] before test
+[2020-02-16T16:20:19,196][INFO ][o.e.a.s.FetchSearchPhaseTests] [testFetchDocsConcurrently] after test
+[2020-02-16T16:20:19,198][INFO ][o.e.a.s.FetchSearchPhaseTests] [testFetchTwoDocument] before test
+[2020-02-16T16:20:19,198][INFO ][o.e.a.s.FetchSearchPhaseTests] [testFetchTwoDocument] after test
+[2020-02-16T16:20:19,200][INFO ][o.e.a.s.FetchSearchPhaseTests] [testFailFetchOneDoc] before test
+[2020-02-16T16:20:19,201][INFO ][o.e.a.s.FetchSearchPhaseTests] [testFailFetchOneDoc] after test
+[2020-02-16T16:20:19,203][INFO ][o.e.a.s.FetchSearchPhaseTests] [testCleanupIrrelevantContexts] before test
+[2020-02-16T16:20:19,204][INFO ][o.e.a.s.FetchSearchPhaseTests] [testCleanupIrrelevantContexts] after test
+[2020-02-16T16:20:19,205][INFO ][o.e.a.s.FetchSearchPhaseTests] [testExceptionFailsPhase] before test
+[2020-02-16T16:20:19,207][INFO ][o.e.a.s.FetchSearchPhaseTests] [testExceptionFailsPhase] after test
+[2020-02-16T16:20:19,208][INFO ][o.e.a.s.FetchSearchPhaseTests] [testShortcutQueryAndFetchOptimization] before test
+[2020-02-16T16:20:19,209][INFO ][o.e.a.s.FetchSearchPhaseTests] [testShortcutQueryAndFetchOptimization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

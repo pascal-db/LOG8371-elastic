@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.PrimaryShardAllocatorTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:12" hostname="Escoto-PC" time="0.073">
+  <properties/>
+  <testcase name="testShardLockObtainFailedException" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.007"/>
+  <testcase name="testForceAllocatePrimary" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.005"/>
+  <testcase name="testNoAllocationFound" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.006"/>
+  <testcase name="testNoAsyncFetchData" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.004"/>
+  <testcase name="testNoMatchingAllocationIdFound" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.005"/>
+  <testcase name="testFoundAllocationButNoDecider" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.003"/>
+  <testcase name="testDontAllocateOnNoOrThrottleForceAllocationDecision" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.004"/>
+  <testcase name="testRestoreForcesAllocateIfShardAvailable" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.002"/>
+  <testcase name="testRestoreThrottle" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.004"/>
+  <testcase name="testNoProcessPrimaryNotAllocatedBefore" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.004"/>
+  <testcase name="testRestoreDoesNotAssignIfNoShardAvailable" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.004"/>
+  <testcase name="testFoundAllocationAndAllocating" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.003"/>
+  <testcase name="testPreferAllocatingPreviousPrimary" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.005"/>
+  <testcase name="testShardLockObtainFailedExceptionPreferOtherValidCopies" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.004"/>
+  <testcase name="testRestore" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.003"/>
+  <testcase name="testDontForceAllocateOnThrottleDecision" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.003"/>
+  <testcase name="testStoreException" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.003"/>
+  <testcase name="testFoundAllocationButThrottlingDecider" classname="org.elasticsearch.gateway.PrimaryShardAllocatorTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:21:12,696][INFO ][o.e.g.PrimaryShardAllocatorTests] [testShardLockObtainFailedException] before test
+[2020-02-16T22:21:12,701][INFO ][o.e.g.PrimaryShardAllocatorTests] [testShardLockObtainFailedException] after test
+[2020-02-16T22:21:12,706][INFO ][o.e.g.PrimaryShardAllocatorTests] [testForceAllocatePrimary] before test
+[2020-02-16T22:21:12,706][INFO ][o.e.g.PrimaryShardAllocatorTests] [testForceAllocatePrimary] after test
+[2020-02-16T22:21:12,710][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoAllocationFound] before test
+[2020-02-16T22:21:12,712][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoAllocationFound] after test
+[2020-02-16T22:21:12,715][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoAsyncFetchData] before test
+[2020-02-16T22:21:12,716][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoAsyncFetchData] after test
+[2020-02-16T22:21:12,720][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoMatchingAllocationIdFound] before test
+[2020-02-16T22:21:12,722][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoMatchingAllocationIdFound] after test
+[2020-02-16T22:21:12,724][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationButNoDecider] before test
+[2020-02-16T22:21:12,724][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationButNoDecider] after test
+[2020-02-16T22:21:12,727][INFO ][o.e.g.PrimaryShardAllocatorTests] [testDontAllocateOnNoOrThrottleForceAllocationDecision] before test
+[2020-02-16T22:21:12,728][INFO ][o.e.g.PrimaryShardAllocatorTests] [testDontAllocateOnNoOrThrottleForceAllocationDecision] after test
+[2020-02-16T22:21:12,730][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreForcesAllocateIfShardAvailable] before test
+[2020-02-16T22:21:12,730][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreForcesAllocateIfShardAvailable] after test
+[2020-02-16T22:21:12,732][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreThrottle] before test
+[2020-02-16T22:21:12,734][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreThrottle] after test
+[2020-02-16T22:21:12,736][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoProcessPrimaryNotAllocatedBefore] before test
+[2020-02-16T22:21:12,738][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoProcessPrimaryNotAllocatedBefore] after test
+[2020-02-16T22:21:12,741][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreDoesNotAssignIfNoShardAvailable] before test
+[2020-02-16T22:21:12,742][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreDoesNotAssignIfNoShardAvailable] after test
+[2020-02-16T22:21:12,744][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationAndAllocating] before test
+[2020-02-16T22:21:12,745][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationAndAllocating] after test
+[2020-02-16T22:21:12,748][INFO ][o.e.g.PrimaryShardAllocatorTests] [testPreferAllocatingPreviousPrimary] before test
+[2020-02-16T22:21:12,750][INFO ][o.e.g.PrimaryShardAllocatorTests] [testPreferAllocatingPreviousPrimary] after test
+[2020-02-16T22:21:12,752][INFO ][o.e.g.PrimaryShardAllocatorTests] [testShardLockObtainFailedExceptionPreferOtherValidCopies] before test
+[2020-02-16T22:21:12,754][INFO ][o.e.g.PrimaryShardAllocatorTests] [testShardLockObtainFailedExceptionPreferOtherValidCopies] after test
+[2020-02-16T22:21:12,756][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestore] before test
+[2020-02-16T22:21:12,757][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestore] after test
+[2020-02-16T22:21:12,760][INFO ][o.e.g.PrimaryShardAllocatorTests] [testDontForceAllocateOnThrottleDecision] before test
+[2020-02-16T22:21:12,760][INFO ][o.e.g.PrimaryShardAllocatorTests] [testDontForceAllocateOnThrottleDecision] after test
+[2020-02-16T22:21:12,762][INFO ][o.e.g.PrimaryShardAllocatorTests] [testStoreException] before test
+[2020-02-16T22:21:12,764][INFO ][o.e.g.PrimaryShardAllocatorTests] [testStoreException] after test
+[2020-02-16T22:21:12,766][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationButThrottlingDecider] before test
+[2020-02-16T22:21:12,767][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationButThrottlingDecider] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

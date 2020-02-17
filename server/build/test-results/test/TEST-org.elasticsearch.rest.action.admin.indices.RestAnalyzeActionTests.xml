@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.indices.RestAnalyzeActionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testParseXContentForAnalyzeRequestWithCustomFilters" classname="org.elasticsearch.rest.action.admin.indices.RestAnalyzeActionTests" time="0.003"/>
+  <testcase name="testParseXContentForAnalyzeRequestWithInvalidJsonThrowsException" classname="org.elasticsearch.rest.action.admin.indices.RestAnalyzeActionTests" time="0.004"/>
+  <testcase name="testDeprecatedParamIn2xException" classname="org.elasticsearch.rest.action.admin.indices.RestAnalyzeActionTests" time="0.002"/>
+  <testcase name="testParseXContentForAnalyzeRequestWithInvalidNormalizerThrowsException" classname="org.elasticsearch.rest.action.admin.indices.RestAnalyzeActionTests" time="0.003"/>
+  <testcase name="testParseXContentForAnalyzeRequestWithInvalidStringExplainParamThrowsException" classname="org.elasticsearch.rest.action.admin.indices.RestAnalyzeActionTests" time="0.002"/>
+  <testcase name="testParseXContentForAnalyzeRequestWithUnknownParamThrowsException" classname="org.elasticsearch.rest.action.admin.indices.RestAnalyzeActionTests" time="0.001"/>
+  <testcase name="testParseXContentForAnalyzeRequest" classname="org.elasticsearch.rest.action.admin.indices.RestAnalyzeActionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:25:17,601][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithCustomFilters] before test
+[2020-02-17T06:25:17,602][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithCustomFilters] after test
+[2020-02-17T06:25:17,604][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithInvalidJsonThrowsException] before test
+[2020-02-17T06:25:17,607][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithInvalidJsonThrowsException] after test
+[2020-02-17T06:25:17,608][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testDeprecatedParamIn2xException] before test
+[2020-02-17T06:25:17,610][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testDeprecatedParamIn2xException] after test
+[2020-02-17T06:25:17,612][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithInvalidNormalizerThrowsException] before test
+[2020-02-17T06:25:17,612][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithInvalidNormalizerThrowsException] after test
+[2020-02-17T06:25:17,613][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithInvalidStringExplainParamThrowsException] before test
+[2020-02-17T06:25:17,614][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithInvalidStringExplainParamThrowsException] after test
+[2020-02-17T06:25:17,615][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithUnknownParamThrowsException] before test
+[2020-02-17T06:25:17,616][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequestWithUnknownParamThrowsException] after test
+[2020-02-17T06:25:17,617][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequest] before test
+[2020-02-17T06:25:17,617][INFO ][o.e.r.a.a.i.RestAnalyzeActionTests] [testParseXContentForAnalyzeRequest] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

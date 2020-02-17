@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.TimedRunnableTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:00" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testTimedRunnableRethrowsRejectionWhenNotAbstractRunnable" classname="org.elasticsearch.common.util.concurrent.TimedRunnableTests" time="0.003"/>
+  <testcase name="testTimedRunnableDelegatesRunInFailureCase" classname="org.elasticsearch.common.util.concurrent.TimedRunnableTests" time="0.003"/>
+  <testcase name="testTimedRunnableDelegatesToAbstractRunnable" classname="org.elasticsearch.common.util.concurrent.TimedRunnableTests" time="0.002"/>
+  <testcase name="testTimedRunnableRethrowsExceptionWhenNotAbstractRunnable" classname="org.elasticsearch.common.util.concurrent.TimedRunnableTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T11:22:00,190][INFO ][o.e.c.u.c.TimedRunnableTests] [testTimedRunnableRethrowsRejectionWhenNotAbstractRunnable] before test
+[2020-02-16T11:22:00,192][INFO ][o.e.c.u.c.TimedRunnableTests] [testTimedRunnableRethrowsRejectionWhenNotAbstractRunnable] after test
+[2020-02-16T11:22:00,194][INFO ][o.e.c.u.c.TimedRunnableTests] [testTimedRunnableDelegatesRunInFailureCase] before test
+[2020-02-16T11:22:00,194][INFO ][o.e.c.u.c.TimedRunnableTests] [testTimedRunnableDelegatesRunInFailureCase] after test
+[2020-02-16T11:22:00,196][INFO ][o.e.c.u.c.TimedRunnableTests] [testTimedRunnableDelegatesToAbstractRunnable] before test
+[2020-02-16T11:22:00,197][INFO ][o.e.c.u.c.TimedRunnableTests] [testTimedRunnableDelegatesToAbstractRunnable] after test
+[2020-02-16T11:22:00,198][INFO ][o.e.c.u.c.TimedRunnableTests] [testTimedRunnableRethrowsExceptionWhenNotAbstractRunnable] before test
+[2020-02-16T11:22:00,199][INFO ][o.e.c.u.c.TimedRunnableTests] [testTimedRunnableRethrowsExceptionWhenNotAbstractRunnable] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

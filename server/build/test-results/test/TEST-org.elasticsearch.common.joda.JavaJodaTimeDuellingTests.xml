@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:44" hostname="Escoto-PC" time="0.264">
+  <properties/>
+  <testcase name="testSamePrinterOutputWithTimeZone" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.067"/>
+  <testcase name="testCustomTimeFormats" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.014"/>
+  <testcase name="testDuellingFormatsValidParsing" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.085"/>
+  <testcase name="testExceptionWhenCompositeParsingFails" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.003"/>
+  <testcase name="testExceptionWhenCompositeParsingFailsDateMath" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.005"/>
+  <testcase name="testDecimalPointParsing" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.004"/>
+  <testcase name="testCompositeDateMathParsing" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.003"/>
+  <testcase name="testPartialParsing" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.003"/>
+  <testcase name="testSamePrinterOutput" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.008"/>
+  <testcase name="testIncompatiblePatterns" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.023"/>
+  <testcase name="testParsingMissingTimezone" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.009"/>
+  <testcase name="testDateFormatterWithLocale" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.001"/>
+  <testcase name="testIso8601Parsers" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.004"/>
+  <testcase name="testSeveralTimeFormats" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.002"/>
+  <testcase name="testParsingLocalDateFromYearOfEra" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.004"/>
+  <testcase name="testCompositeParsing" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.004"/>
+  <testcase name="testTimeZoneFormatting" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.004"/>
+  <testcase name="testDuelingStrictParsing" classname="org.elasticsearch.common.joda.JavaJodaTimeDuellingTests" time="0.021"/>
+  <system-out><![CDATA[[2020-02-17T05:21:44,637][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testSamePrinterOutputWithTimeZone] before test
+[2020-02-17T05:21:44,702][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testSamePrinterOutputWithTimeZone] after test
+[2020-02-17T05:21:44,704][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testCustomTimeFormats] before test
+[2020-02-17T05:21:44,706][WARN ][o.e.d.c.j.Joda           ] [testCustomTimeFormats] 'y' year should be replaced with 'u'. Use 'y' for year-of-era. Use new java.time date format specifiiers.
+[2020-02-17T05:21:44,715][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testCustomTimeFormats] after test
+[2020-02-17T05:21:44,760][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testDuellingFormatsValidParsing] before test
+[2020-02-17T05:21:44,800][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testDuellingFormatsValidParsing] after test
+[2020-02-17T05:21:44,802][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testExceptionWhenCompositeParsingFails] before test
+[2020-02-17T05:21:44,803][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testExceptionWhenCompositeParsingFails] after test
+[2020-02-17T05:21:44,806][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testExceptionWhenCompositeParsingFailsDateMath] before test
+[2020-02-17T05:21:44,809][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testExceptionWhenCompositeParsingFailsDateMath] after test
+[2020-02-17T05:21:44,811][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testDecimalPointParsing] before test
+[2020-02-17T05:21:44,813][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testDecimalPointParsing] after test
+[2020-02-17T05:21:44,814][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testCompositeDateMathParsing] before test
+[2020-02-17T05:21:44,816][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testCompositeDateMathParsing] after test
+[2020-02-17T05:21:44,817][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testPartialParsing] before test
+[2020-02-17T05:21:44,819][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testPartialParsing] after test
+[2020-02-17T05:21:44,822][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testSamePrinterOutput] before test
+[2020-02-17T05:21:44,826][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testSamePrinterOutput] after test
+[2020-02-17T05:21:44,829][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testIncompatiblePatterns] before test
+[2020-02-17T05:21:44,849][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testIncompatiblePatterns] after test
+[2020-02-17T05:21:44,858][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testParsingMissingTimezone] before test
+[2020-02-17T05:21:44,858][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testParsingMissingTimezone] after test
+[2020-02-17T05:21:44,860][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testDateFormatterWithLocale] before test
+[2020-02-17T05:21:44,860][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testDateFormatterWithLocale] after test
+[2020-02-17T05:21:44,862][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testIso8601Parsers] before test
+[2020-02-17T05:21:44,863][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testIso8601Parsers] after test
+[2020-02-17T05:21:44,865][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testSeveralTimeFormats] before test
+[2020-02-17T05:21:44,866][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testSeveralTimeFormats] after test
+[2020-02-17T05:21:44,868][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testParsingLocalDateFromYearOfEra] before test
+[2020-02-17T05:21:44,870][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testParsingLocalDateFromYearOfEra] after test
+[2020-02-17T05:21:44,872][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testCompositeParsing] before test
+[2020-02-17T05:21:44,873][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testCompositeParsing] after test
+[2020-02-17T05:21:44,875][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testTimeZoneFormatting] before test
+[2020-02-17T05:21:44,877][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testTimeZoneFormatting] after test
+[2020-02-17T05:21:44,879][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testDuelingStrictParsing] before test
+[2020-02-17T05:21:44,899][INFO ][o.e.c.j.JavaJodaTimeDuellingTests] [testDuelingStrictParsing] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

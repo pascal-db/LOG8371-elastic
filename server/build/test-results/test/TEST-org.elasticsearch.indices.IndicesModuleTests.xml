@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.IndicesModuleTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:45" hostname="Escoto-PC" time="0.031">
+  <properties/>
+  <testcase name="testDefaultFieldFilterIsNoOp" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.002"/>
+  <testcase name="testBuiltinMappers" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.002"/>
+  <testcase name="testNoOpFieldPredicate" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.003"/>
+  <testcase name="testFieldNamesIsLast" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.002"/>
+  <testcase name="testGetBuiltInMetaDataFields" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.003"/>
+  <testcase name="testDuplicateFieldNamesMapper" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.003"/>
+  <testcase name="testBuiltinWithPlugins" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.002"/>
+  <testcase name="testDuplicateBuiltinMetadataMapper" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.003"/>
+  <testcase name="testDuplicateBuiltinMapper" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.002"/>
+  <testcase name="testDuplicateOtherPluginMapper" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.002"/>
+  <testcase name="testGetFieldFilter" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.002"/>
+  <testcase name="testDuplicateOtherPluginMetadataMapper" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.003"/>
+  <testcase name="testFieldNamesIsLastWithPlugins" classname="org.elasticsearch.indices.IndicesModuleTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T00:24:45,766][INFO ][o.e.i.IndicesModuleTests ] [testDefaultFieldFilterIsNoOp] before test
+[2020-02-17T00:24:45,766][INFO ][o.e.i.IndicesModuleTests ] [testDefaultFieldFilterIsNoOp] after test
+[2020-02-17T00:24:45,768][INFO ][o.e.i.IndicesModuleTests ] [testBuiltinMappers] before test
+[2020-02-17T00:24:45,768][INFO ][o.e.i.IndicesModuleTests ] [testBuiltinMappers] after test
+[2020-02-17T00:24:45,770][INFO ][o.e.i.IndicesModuleTests ] [testNoOpFieldPredicate] before test
+[2020-02-17T00:24:45,771][INFO ][o.e.i.IndicesModuleTests ] [testNoOpFieldPredicate] after test
+[2020-02-17T00:24:45,773][INFO ][o.e.i.IndicesModuleTests ] [testFieldNamesIsLast] before test
+[2020-02-17T00:24:45,773][INFO ][o.e.i.IndicesModuleTests ] [testFieldNamesIsLast] after test
+[2020-02-17T00:24:45,776][INFO ][o.e.i.IndicesModuleTests ] [testGetBuiltInMetaDataFields] before test
+[2020-02-17T00:24:45,776][INFO ][o.e.i.IndicesModuleTests ] [testGetBuiltInMetaDataFields] after test
+[2020-02-17T00:24:45,778][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateFieldNamesMapper] before test
+[2020-02-17T00:24:45,779][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateFieldNamesMapper] after test
+[2020-02-17T00:24:45,781][INFO ][o.e.i.IndicesModuleTests ] [testBuiltinWithPlugins] before test
+[2020-02-17T00:24:45,781][INFO ][o.e.i.IndicesModuleTests ] [testBuiltinWithPlugins] after test
+[2020-02-17T00:24:45,783][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateBuiltinMetadataMapper] before test
+[2020-02-17T00:24:45,784][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateBuiltinMetadataMapper] after test
+[2020-02-17T00:24:45,786][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateBuiltinMapper] before test
+[2020-02-17T00:24:45,786][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateBuiltinMapper] after test
+[2020-02-17T00:24:45,788][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateOtherPluginMapper] before test
+[2020-02-17T00:24:45,788][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateOtherPluginMapper] after test
+[2020-02-17T00:24:45,790][INFO ][o.e.i.IndicesModuleTests ] [testGetFieldFilter] before test
+[2020-02-17T00:24:45,791][INFO ][o.e.i.IndicesModuleTests ] [testGetFieldFilter] after test
+[2020-02-17T00:24:45,793][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateOtherPluginMetadataMapper] before test
+[2020-02-17T00:24:45,794][INFO ][o.e.i.IndicesModuleTests ] [testDuplicateOtherPluginMetadataMapper] after test
+[2020-02-17T00:24:45,795][INFO ][o.e.i.IndicesModuleTests ] [testFieldNamesIsLastWithPlugins] before test
+[2020-02-17T00:24:45,795][INFO ][o.e.i.IndicesModuleTests ] [testFieldNamesIsLastWithPlugins] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

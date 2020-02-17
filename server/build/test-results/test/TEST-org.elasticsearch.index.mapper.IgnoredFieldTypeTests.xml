@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:15" hostname="Escoto-PC" time="0.111">
+  <properties/>
+  <testcase name="testWildcardQuery" classname="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" time="0.088"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" time="0.002"/>
+  <testcase name="testRegexpQuery" classname="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" time="0.004"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" time="0.005"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" time="0.002"/>
+  <testcase name="testPrefixQuery" classname="org.elasticsearch.index.mapper.IgnoredFieldTypeTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T00:23:15,777][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testWildcardQuery] before test
+[2020-02-17T00:23:15,864][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testWildcardQuery] after test
+[2020-02-17T00:23:15,865][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-17T00:23:15,866][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-17T00:23:15,868][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testRegexpQuery] before test
+[2020-02-17T00:23:15,870][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testRegexpQuery] after test
+[2020-02-17T00:23:15,871][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testEquals] before test
+[2020-02-17T00:23:15,871][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testEquals] after test
+[2020-02-17T00:23:15,876][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testCheckTypeName] before test
+[2020-02-17T00:23:15,876][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testCheckTypeName] after test
+[2020-02-17T00:23:15,879][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testClone] before test
+[2020-02-17T00:23:15,879][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testClone] after test
+[2020-02-17T00:23:15,881][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testFreeze] before test
+[2020-02-17T00:23:15,881][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testFreeze] after test
+[2020-02-17T00:23:15,887][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testPrefixQuery] before test
+[2020-02-17T00:23:15,887][INFO ][o.e.i.m.IgnoredFieldTypeTests] [testPrefixQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

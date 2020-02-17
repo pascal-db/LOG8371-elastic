@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.collapse.CollapseBuilderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.138">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.collapse.CollapseBuilderTests" time="0.03"/>
+  <testcase name="testBuild" classname="org.elasticsearch.search.collapse.CollapseBuilderTests" time="0.005"/>
+  <testcase name="testBuildWithExceptions" classname="org.elasticsearch.search.collapse.CollapseBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.collapse.CollapseBuilderTests" time="0.087"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.collapse.CollapseBuilderTests" time="0.013"/>
+  <system-out><![CDATA[[2020-02-16T18:25:35,438][INFO ][o.e.s.c.CollapseBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:35,465][INFO ][o.e.s.c.CollapseBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:25:35,468][INFO ][o.e.s.c.CollapseBuilderTests] [testBuild] before test
+[2020-02-16T18:25:35,470][INFO ][o.e.s.c.CollapseBuilderTests] [testBuild] after test
+[2020-02-16T18:25:35,472][INFO ][o.e.s.c.CollapseBuilderTests] [testBuildWithExceptions] before test
+[2020-02-16T18:25:35,473][INFO ][o.e.s.c.CollapseBuilderTests] [testBuildWithExceptions] after test
+[2020-02-16T18:25:35,475][INFO ][o.e.s.c.CollapseBuilderTests] [testFromXContent] before test
+[2020-02-16T18:25:35,561][INFO ][o.e.s.c.CollapseBuilderTests] [testFromXContent] after test
+[2020-02-16T18:25:35,563][INFO ][o.e.s.c.CollapseBuilderTests] [testSerialization] before test
+[2020-02-16T18:25:35,574][INFO ][o.e.s.c.CollapseBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

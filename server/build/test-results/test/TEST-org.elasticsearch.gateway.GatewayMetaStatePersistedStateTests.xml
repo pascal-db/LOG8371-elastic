@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:11" hostname="Escoto-PC" time="0.437">
+  <properties/>
+  <testcase name="testSetCurrentTerm" classname="org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests" time="0.038"/>
+  <testcase name="testSetLastAcceptedState" classname="org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests" time="0.185"/>
+  <testcase name="testMarkAcceptedConfigAsCommitted" classname="org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests" time="0.042"/>
+  <testcase name="testCurrentTermAndTermAreDifferent" classname="org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests" time="0.055"/>
+  <testcase name="testInitialState" classname="org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests" time="0.033"/>
+  <testcase name="testSetLastAcceptedStateTermChanged" classname="org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests" time="0.084"/>
+  <system-out><![CDATA[[2020-02-16T13:21:11,332][INFO ][o.e.e.NodeEnvironment    ] [testSetCurrentTerm] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,333][INFO ][o.e.e.NodeEnvironment    ] [testSetCurrentTerm] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,339][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetCurrentTerm] before test
+[2020-02-16T13:21:11,352][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetCurrentTerm] after test
+[2020-02-16T13:21:11,378][INFO ][o.e.e.NodeEnvironment    ] [testSetLastAcceptedState] using [3] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,378][INFO ][o.e.e.NodeEnvironment    ] [testSetLastAcceptedState] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,393][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetLastAcceptedState] before test
+[2020-02-16T13:21:11,538][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetLastAcceptedState] after test
+[2020-02-16T13:21:11,548][INFO ][o.e.e.NodeEnvironment    ] [testMarkAcceptedConfigAsCommitted] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,549][INFO ][o.e.e.NodeEnvironment    ] [testMarkAcceptedConfigAsCommitted] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,551][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testMarkAcceptedConfigAsCommitted] before test
+[2020-02-16T13:21:11,572][INFO ][o.e.c.c.CoordinationState] [testMarkAcceptedConfigAsCommitted] cluster UUID set to [PnJwIqkZKW]
+[2020-02-16T13:21:11,579][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testMarkAcceptedConfigAsCommitted] after test
+[2020-02-16T13:21:11,597][INFO ][o.e.e.NodeEnvironment    ] [testCurrentTermAndTermAreDifferent] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,598][INFO ][o.e.e.NodeEnvironment    ] [testCurrentTermAndTermAreDifferent] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,602][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testCurrentTermAndTermAreDifferent] before test
+[2020-02-16T13:21:11,634][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testCurrentTermAndTermAreDifferent] after test
+[2020-02-16T13:21:11,654][INFO ][o.e.e.NodeEnvironment    ] [testInitialState] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,654][INFO ][o.e.e.NodeEnvironment    ] [testInitialState] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,659][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testInitialState] before test
+[2020-02-16T13:21:11,668][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testInitialState] after test
+[2020-02-16T13:21:11,690][INFO ][o.e.e.NodeEnvironment    ] [testSetLastAcceptedStateTermChanged] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,690][INFO ][o.e.e.NodeEnvironment    ] [testSetLastAcceptedStateTermChanged] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,695][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetLastAcceptedStateTermChanged] before test
+[2020-02-16T13:21:11,751][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetLastAcceptedStateTermChanged] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

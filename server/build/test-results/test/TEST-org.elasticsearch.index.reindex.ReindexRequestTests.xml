@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.reindex.ReindexRequestTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:42" hostname="Escoto-PC" time="0.05">
+  <properties/>
+  <testcase name="testBuildRemoteInfoWithoutAllParts" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.007"/>
+  <testcase name="testReindexFromRemoteDoesNotSupportSlices" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.003"/>
+  <testcase name="testBuildRemoteInfoFullyLoaded" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.002"/>
+  <testcase name="testNoSliceBuilderSetWithSlicedRequest" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.006"/>
+  <testcase name="testReindexFromRemoteRequestParsing" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.002"/>
+  <testcase name="testBuildRemoteInfoNoRemote" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.002"/>
+  <testcase name="testForSlice" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.019"/>
+  <testcase name="testBuildRemoteInfoWithAllHostParts" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.002"/>
+  <testcase name="testReindexFromRemoteDoesNotSupportSearchQuery" classname="org.elasticsearch.index.reindex.ReindexRequestTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T17:23:42,294][INFO ][o.e.i.r.ReindexRequestTests] [testBuildRemoteInfoWithoutAllParts] before test
+[2020-02-16T17:23:42,299][INFO ][o.e.i.r.ReindexRequestTests] [testBuildRemoteInfoWithoutAllParts] after test
+[2020-02-16T17:23:42,302][INFO ][o.e.i.r.ReindexRequestTests] [testReindexFromRemoteDoesNotSupportSlices] before test
+[2020-02-16T17:23:42,302][INFO ][o.e.i.r.ReindexRequestTests] [testReindexFromRemoteDoesNotSupportSlices] after test
+[2020-02-16T17:23:42,304][INFO ][o.e.i.r.ReindexRequestTests] [testBuildRemoteInfoFullyLoaded] before test
+[2020-02-16T17:23:42,305][INFO ][o.e.i.r.ReindexRequestTests] [testBuildRemoteInfoFullyLoaded] after test
+[2020-02-16T17:23:42,309][INFO ][o.e.i.r.ReindexRequestTests] [testNoSliceBuilderSetWithSlicedRequest] before test
+[2020-02-16T17:23:42,310][INFO ][o.e.i.r.ReindexRequestTests] [testNoSliceBuilderSetWithSlicedRequest] after test
+[2020-02-16T17:23:42,312][INFO ][o.e.i.r.ReindexRequestTests] [testReindexFromRemoteRequestParsing] before test
+[2020-02-16T17:23:42,313][INFO ][o.e.i.r.ReindexRequestTests] [testReindexFromRemoteRequestParsing] after test
+[2020-02-16T17:23:42,314][INFO ][o.e.i.r.ReindexRequestTests] [testBuildRemoteInfoNoRemote] before test
+[2020-02-16T17:23:42,314][INFO ][o.e.i.r.ReindexRequestTests] [testBuildRemoteInfoNoRemote] after test
+[2020-02-16T17:23:42,316][INFO ][o.e.i.r.ReindexRequestTests] [testForSlice] before test
+[2020-02-16T17:23:42,316][INFO ][o.e.i.r.ReindexRequestTests] [testForSlice] after test
+[2020-02-16T17:23:42,318][INFO ][o.e.i.r.ReindexRequestTests] [testFromXContent] before test
+[2020-02-16T17:23:42,321][WARN ][o.e.d.i.r.ReindexRequest ] [testFromXContent] [types removal] Specifying types in reindex requests is deprecated.
+[2020-02-16T17:23:42,336][INFO ][o.e.i.r.ReindexRequestTests] [testFromXContent] after test
+[2020-02-16T17:23:42,338][INFO ][o.e.i.r.ReindexRequestTests] [testBuildRemoteInfoWithAllHostParts] before test
+[2020-02-16T17:23:42,339][INFO ][o.e.i.r.ReindexRequestTests] [testBuildRemoteInfoWithAllHostParts] after test
+[2020-02-16T17:23:42,342][INFO ][o.e.i.r.ReindexRequestTests] [testReindexFromRemoteDoesNotSupportSearchQuery] before test
+[2020-02-16T17:23:42,342][INFO ][o.e.i.r.ReindexRequestTests] [testReindexFromRemoteDoesNotSupportSearchQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

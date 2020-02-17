@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.mapping.get.GetMappingsResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:06" hostname="Escoto-PC" time="0.032">
+  <properties/>
+  <testcase name="testCheckEqualsAndHashCode" classname="org.elasticsearch.action.admin.indices.mapping.get.GetMappingsResponseTests" time="0.005"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.mapping.get.GetMappingsResponseTests" time="0.011"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.indices.mapping.get.GetMappingsResponseTests" time="0.012"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.mapping.get.GetMappingsResponseTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T19:20:06,013][INFO ][o.e.a.a.i.m.g.GetMappingsResponseTests] [testCheckEqualsAndHashCode] before test
+[2020-02-16T19:20:06,015][INFO ][o.e.a.a.i.m.g.GetMappingsResponseTests] [testCheckEqualsAndHashCode] after test
+[2020-02-16T19:20:06,018][INFO ][o.e.a.a.i.m.g.GetMappingsResponseTests] [testFromXContent] before test
+[2020-02-16T19:20:06,026][INFO ][o.e.a.a.i.m.g.GetMappingsResponseTests] [testFromXContent] after test
+[2020-02-16T19:20:06,035][INFO ][o.e.a.a.i.m.g.GetMappingsResponseTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:20:06,039][INFO ][o.e.a.a.i.m.g.GetMappingsResponseTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:20:06,040][INFO ][o.e.a.a.i.m.g.GetMappingsResponseTests] [testSerialization] before test
+[2020-02-16T19:20:06,042][INFO ][o.e.a.a.i.m.g.GetMappingsResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

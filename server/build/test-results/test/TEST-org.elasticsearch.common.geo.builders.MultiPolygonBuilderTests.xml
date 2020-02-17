@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.builders.MultiPolygonBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:42" hostname="Escoto-PC" time="0.164">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.common.geo.builders.MultiPolygonBuilderTests" time="0.051"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.geo.builders.MultiPolygonBuilderTests" time="0.019"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.geo.builders.MultiPolygonBuilderTests" time="0.094"/>
+  <system-out><![CDATA[[2020-02-16T18:21:42,455][INFO ][o.e.c.g.b.MultiPolygonBuilderTests] [testFromXContent] before test
+[2020-02-16T18:21:42,503][INFO ][o.e.c.g.b.MultiPolygonBuilderTests] [testFromXContent] after test
+[2020-02-16T18:21:42,508][INFO ][o.e.c.g.b.MultiPolygonBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:21:42,522][INFO ][o.e.c.g.b.MultiPolygonBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:21:42,564][INFO ][o.e.c.g.b.MultiPolygonBuilderTests] [testSerialization] before test
+[2020-02-16T18:21:42,617][INFO ][o.e.c.g.b.MultiPolygonBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

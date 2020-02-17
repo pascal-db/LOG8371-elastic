@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.set.SetsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:01" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testIntersection" classname="org.elasticsearch.common.util.set.SetsTests" time="0.004"/>
+  <testcase name="testDifference" classname="org.elasticsearch.common.util.set.SetsTests" time="0.002"/>
+  <testcase name="testSortedDifference" classname="org.elasticsearch.common.util.set.SetsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:22:01,294][INFO ][o.e.c.u.s.SetsTests      ] [testIntersection] before test
+[2020-02-16T23:22:01,296][INFO ][o.e.c.u.s.SetsTests      ] [testIntersection] after test
+[2020-02-16T23:22:01,297][INFO ][o.e.c.u.s.SetsTests      ] [testDifference] before test
+[2020-02-16T23:22:01,297][INFO ][o.e.c.u.s.SetsTests      ] [testDifference] after test
+[2020-02-16T23:22:01,299][INFO ][o.e.c.u.s.SetsTests      ] [testSortedDifference] before test
+[2020-02-16T23:22:01,300][INFO ][o.e.c.u.s.SetsTests      ] [testSortedDifference] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

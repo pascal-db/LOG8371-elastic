@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:27" hostname="Escoto-PC" time="0.092">
+  <properties/>
+  <testcase name="testValidation" classname="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" time="0.012"/>
+  <testcase name="testConditionsParsing" classname="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" time="0.002"/>
+  <testcase name="testUnknownFields" classname="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" time="0.008"/>
+  <testcase name="testSerialize" classname="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" time="0.003"/>
+  <testcase name="testParsingWithIndexSettings" classname="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" time="0.004"/>
+  <testcase name="testSameConditionCanOnlyBeAddedOnce" classname="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" time="0.008"/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" time="0.015"/>
+  <testcase name="testTypelessMappingParsing" classname="org.elasticsearch.action.admin.indices.rollover.RolloverRequestTests" time="0.039"/>
+  <system-out><![CDATA[[2020-02-17T07:20:27,841][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testValidation] before test
+[2020-02-17T07:20:27,844][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testValidation] after test
+[2020-02-17T07:20:27,847][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testConditionsParsing] before test
+[2020-02-17T07:20:27,847][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testConditionsParsing] after test
+[2020-02-17T07:20:27,855][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testUnknownFields] before test
+[2020-02-17T07:20:27,856][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testUnknownFields] after test
+[2020-02-17T07:20:27,858][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testSerialize] before test
+[2020-02-17T07:20:27,859][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testSerialize] after test
+[2020-02-17T07:20:27,862][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testParsingWithIndexSettings] before test
+[2020-02-17T07:20:27,863][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testParsingWithIndexSettings] after test
+[2020-02-17T07:20:27,870][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testSameConditionCanOnlyBeAddedOnce] before test
+[2020-02-17T07:20:27,871][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testSameConditionCanOnlyBeAddedOnce] after test
+[2020-02-17T07:20:27,884][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testToAndFromXContent] before test
+[2020-02-17T07:20:27,885][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testToAndFromXContent] after test
+[2020-02-17T07:20:27,924][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testTypelessMappingParsing] before test
+[2020-02-17T07:20:27,925][INFO ][o.e.a.a.i.r.RolloverRequestTests] [testTypelessMappingParsing] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

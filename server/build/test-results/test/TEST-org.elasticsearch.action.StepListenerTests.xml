@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.StepListenerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testAbortOnFailure" classname="org.elasticsearch.action.StepListenerTests" time="0.007"/>
+  <testcase name="testSimpleSteps" classname="org.elasticsearch.action.StepListenerTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T03:20:47,339][INFO ][o.e.a.StepListenerTests  ] [testAbortOnFailure] before test
+[2020-02-17T03:20:47,344][INFO ][o.e.a.StepListenerTests  ] [testAbortOnFailure] after test
+[2020-02-17T03:20:47,346][INFO ][o.e.a.StepListenerTests  ] [testSimpleSteps] before test
+[2020-02-17T03:20:47,348][INFO ][o.e.a.StepListenerTests  ] [testSimpleSteps] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

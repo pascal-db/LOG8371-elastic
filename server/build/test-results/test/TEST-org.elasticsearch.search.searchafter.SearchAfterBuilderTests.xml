@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.06">
+  <properties/>
+  <testcase name="testWithNullArray" classname="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" time="0.003"/>
+  <testcase name="testBadTypes" classname="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" time="0.003"/>
+  <testcase name="testWithEmptyArray" classname="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" time="0.011"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" time="0.006"/>
+  <testcase name="testExtractSortType" classname="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" time="0.029"/>
+  <testcase name="testFromXContentIllegalType" classname="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.searchafter.SearchAfterBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:24:38,481][INFO ][o.e.s.s.SearchAfterBuilderTests] [testWithNullArray] before test
+[2020-02-16T19:24:38,482][INFO ][o.e.s.s.SearchAfterBuilderTests] [testWithNullArray] after test
+[2020-02-16T19:24:38,484][INFO ][o.e.s.s.SearchAfterBuilderTests] [testBadTypes] before test
+[2020-02-16T19:24:38,485][INFO ][o.e.s.s.SearchAfterBuilderTests] [testBadTypes] after test
+[2020-02-16T19:24:38,487][INFO ][o.e.s.s.SearchAfterBuilderTests] [testWithEmptyArray] before test
+[2020-02-16T19:24:38,487][INFO ][o.e.s.s.SearchAfterBuilderTests] [testWithEmptyArray] after test
+[2020-02-16T19:24:38,488][INFO ][o.e.s.s.SearchAfterBuilderTests] [testFromXContent] before test
+[2020-02-16T19:24:38,498][INFO ][o.e.s.s.SearchAfterBuilderTests] [testFromXContent] after test
+[2020-02-16T19:24:38,500][INFO ][o.e.s.s.SearchAfterBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:24:38,503][INFO ][o.e.s.s.SearchAfterBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:24:38,533][INFO ][o.e.s.s.SearchAfterBuilderTests] [testExtractSortType] before test
+[2020-02-16T19:24:38,533][INFO ][o.e.s.s.SearchAfterBuilderTests] [testExtractSortType] after test
+[2020-02-16T19:24:38,536][INFO ][o.e.s.s.SearchAfterBuilderTests] [testFromXContentIllegalType] before test
+[2020-02-16T19:24:38,537][INFO ][o.e.s.s.SearchAfterBuilderTests] [testFromXContentIllegalType] after test
+[2020-02-16T19:24:38,539][INFO ][o.e.s.s.SearchAfterBuilderTests] [testSerialization] before test
+[2020-02-16T19:24:38,539][INFO ][o.e.s.s.SearchAfterBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

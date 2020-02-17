@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.test.ESTestCaseTests" tests="10" skipped="1" failures="0" errors="0" timestamp="2020-02-16T22:48:54" hostname="Escoto-PC" time="0.044">
+  <properties/>
+  <testcase name="testBasePortIDE" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase name="testRandomUniqueNotUnique" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.003"/>
+  <testcase name="testExpectThrows" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.005"/>
+  <testcase name="testRandomValueOtherThan" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.003"/>
+  <testcase name="testRandomUniqueNormalUsageAlwayMoreThanOne" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.002"/>
+  <testcase name="testShuffleMap" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.003"/>
+  <testcase name="testShuffleXContentExcludeFields" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.011"/>
+  <testcase name="testWorkerSystemProperty" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.004"/>
+  <testcase name="testBasePortGradle" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.003"/>
+  <testcase name="testRandomUniqueTotallyUnique" classname="org.elasticsearch.test.test.ESTestCaseTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:48:54,673][INFO ][o.e.t.t.ESTestCaseTests  ] [testBasePortIDE] before test
+[2020-02-16T17:48:54,676][INFO ][o.e.t.t.ESTestCaseTests  ] [testBasePortIDE] after test
+[2020-02-16T17:48:54,679][INFO ][o.e.t.t.ESTestCaseTests  ] [testRandomUniqueNotUnique] before test
+[2020-02-16T17:48:54,681][INFO ][o.e.t.t.ESTestCaseTests  ] [testRandomUniqueNotUnique] after test
+[2020-02-16T17:48:54,686][INFO ][o.e.t.t.ESTestCaseTests  ] [testExpectThrows] before test
+[2020-02-16T17:48:54,687][INFO ][o.e.t.t.ESTestCaseTests  ] [testExpectThrows] after test
+[2020-02-16T17:48:54,688][INFO ][o.e.t.t.ESTestCaseTests  ] [testRandomValueOtherThan] before test
+[2020-02-16T17:48:54,689][INFO ][o.e.t.t.ESTestCaseTests  ] [testRandomValueOtherThan] after test
+[2020-02-16T17:48:54,691][INFO ][o.e.t.t.ESTestCaseTests  ] [testRandomUniqueNormalUsageAlwayMoreThanOne] before test
+[2020-02-16T17:48:54,692][INFO ][o.e.t.t.ESTestCaseTests  ] [testRandomUniqueNormalUsageAlwayMoreThanOne] after test
+[2020-02-16T17:48:54,694][INFO ][o.e.t.t.ESTestCaseTests  ] [testShuffleMap] before test
+[2020-02-16T17:48:54,695][INFO ][o.e.t.t.ESTestCaseTests  ] [testShuffleMap] after test
+[2020-02-16T17:48:54,698][INFO ][o.e.t.t.ESTestCaseTests  ] [testShuffleXContentExcludeFields] before test
+[2020-02-16T17:48:54,707][INFO ][o.e.t.t.ESTestCaseTests  ] [testShuffleXContentExcludeFields] after test
+[2020-02-16T17:48:54,710][INFO ][o.e.t.t.ESTestCaseTests  ] [testWorkerSystemProperty] before test
+[2020-02-16T17:48:54,711][INFO ][o.e.t.t.ESTestCaseTests  ] [testWorkerSystemProperty] after test
+[2020-02-16T17:48:54,713][INFO ][o.e.t.t.ESTestCaseTests  ] [testBasePortGradle] before test
+[2020-02-16T17:48:54,713][INFO ][o.e.t.t.ESTestCaseTests  ] [testBasePortGradle] after test
+[2020-02-16T17:48:54,715][INFO ][o.e.t.t.ESTestCaseTests  ] [testRandomUniqueTotallyUnique] before test
+[2020-02-16T17:48:54,716][INFO ][o.e.t.t.ESTestCaseTests  ] [testRandomUniqueTotallyUnique] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

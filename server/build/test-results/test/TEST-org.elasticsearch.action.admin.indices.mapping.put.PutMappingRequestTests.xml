@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequestTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:27" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequestTests" time="0.009"/>
+  <testcase name="testToXContentWithEmptySource" classname="org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequestTests" time="0.004"/>
+  <testcase name="testValidation" classname="org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequestTests" time="0.005"/>
+  <testcase name="testBuildFromSimplifiedDef" classname="org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequestTests" time="0.004"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequestTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T07:20:27,731][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testToAndFromXContent] before test
+[2020-02-17T07:20:27,736][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testToAndFromXContent] after test
+[2020-02-17T07:20:27,740][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testToXContentWithEmptySource] before test
+[2020-02-17T07:20:27,740][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testToXContentWithEmptySource] after test
+[2020-02-17T07:20:27,745][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testValidation] before test
+[2020-02-17T07:20:27,745][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testValidation] after test
+[2020-02-17T07:20:27,749][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testBuildFromSimplifiedDef] before test
+[2020-02-17T07:20:27,749][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testBuildFromSimplifiedDef] after test
+[2020-02-17T07:20:27,753][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testToXContent] before test
+[2020-02-17T07:20:27,753][INFO ][o.e.a.a.i.m.p.PutMappingRequestTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

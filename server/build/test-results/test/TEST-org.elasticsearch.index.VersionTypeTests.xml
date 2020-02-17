@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.VersionTypeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:40" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testExternalVersionConflict" classname="org.elasticsearch.index.VersionTypeTests" time="0.002"/>
+  <testcase name="testUpdateVersion" classname="org.elasticsearch.index.VersionTypeTests" time="0.002"/>
+  <testcase name="testVersionValidation" classname="org.elasticsearch.index.VersionTypeTests" time="0.002"/>
+  <testcase name="testExternalGTEVersionConflict" classname="org.elasticsearch.index.VersionTypeTests" time="0.002"/>
+  <testcase name="testInternalVersionConflict" classname="org.elasticsearch.index.VersionTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T20:24:40,752][INFO ][o.e.i.VersionTypeTests   ] [testExternalVersionConflict] before test
+[2020-02-16T20:24:40,753][INFO ][o.e.i.VersionTypeTests   ] [testExternalVersionConflict] after test
+[2020-02-16T20:24:40,755][INFO ][o.e.i.VersionTypeTests   ] [testUpdateVersion] before test
+[2020-02-16T20:24:40,755][INFO ][o.e.i.VersionTypeTests   ] [testUpdateVersion] after test
+[2020-02-16T20:24:40,757][INFO ][o.e.i.VersionTypeTests   ] [testVersionValidation] before test
+[2020-02-16T20:24:40,757][INFO ][o.e.i.VersionTypeTests   ] [testVersionValidation] after test
+[2020-02-16T20:24:40,759][INFO ][o.e.i.VersionTypeTests   ] [testExternalGTEVersionConflict] before test
+[2020-02-16T20:24:40,759][INFO ][o.e.i.VersionTypeTests   ] [testExternalGTEVersionConflict] after test
+[2020-02-16T20:24:40,761][INFO ][o.e.i.VersionTypeTests   ] [testInternalVersionConflict] before test
+[2020-02-16T20:24:40,761][INFO ][o.e.i.VersionTypeTests   ] [testInternalVersionConflict] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.resync.TransportResyncReplicationActionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.304">
+  <properties/>
+  <testcase name="testResyncDoesNotBlockOnPrimaryAction" classname="org.elasticsearch.action.resync.TransportResyncReplicationActionTests" time="0.304"/>
+  <system-out><![CDATA[[2020-02-16T19:20:18,731][INFO ][o.e.a.r.TransportResyncReplicationActionTests] [testResyncDoesNotBlockOnPrimaryAction] before test
+[2020-02-16T19:20:18,736][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{HKS0jQHWTxKaNpmPzsfURA}{0.0.0.0}{0.0.0.0:1}{dim}], current [{node_1}{dizUn96oSwWBDrB6Trp5GA}{0.0.0.0}{0.0.0.0:3}{dim}]}, removed {{node}{HKS0jQHWTxKaNpmPzsfURA}{0.0.0.0}{0.0.0.0:1}{dim}}, added {{node_1}{dizUn96oSwWBDrB6Trp5GA}{0.0.0.0}{0.0.0.0:3}{dim},{node_2}{Nh3SQQcWRSmajlCRZQaOwQ}{0.0.0.0}{0.0.0.0:4}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T19:20:19,027][INFO ][o.e.t.TransportService   ] [testResyncDoesNotBlockOnPrimaryAction] publish_address {127.0.0.1:9305}, bound_addresses {127.0.0.1:9305}, {[::1]:9305}
+[2020-02-16T19:20:19,032][INFO ][o.e.a.r.TransportResyncReplicationActionTests] [testResyncDoesNotBlockOnPrimaryAction] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

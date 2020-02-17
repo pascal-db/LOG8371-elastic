@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.explain.ExplainResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:17" hostname="Escoto-PC" time="0.045">
+  <properties/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.explain.ExplainResponseTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.explain.ExplainResponseTests" time="0.026"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.explain.ExplainResponseTests" time="0.008"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.explain.ExplainResponseTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T00:20:17,974][INFO ][o.e.a.e.ExplainResponseTests] [testToXContent] before test
+[2020-02-17T00:20:17,978][INFO ][o.e.a.e.ExplainResponseTests] [testToXContent] after test
+[2020-02-17T00:20:17,981][INFO ][o.e.a.e.ExplainResponseTests] [testFromXContent] before test
+[2020-02-17T00:20:18,004][INFO ][o.e.a.e.ExplainResponseTests] [testFromXContent] after test
+[2020-02-17T00:20:18,006][INFO ][o.e.a.e.ExplainResponseTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:20:18,012][INFO ][o.e.a.e.ExplainResponseTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:20:18,014][INFO ][o.e.a.e.ExplainResponseTests] [testSerialization] before test
+[2020-02-17T00:20:18,017][INFO ][o.e.a.e.ExplainResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

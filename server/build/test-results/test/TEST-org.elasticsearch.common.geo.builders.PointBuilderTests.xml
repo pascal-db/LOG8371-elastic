@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.builders.PointBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:44" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.common.geo.builders.PointBuilderTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.geo.builders.PointBuilderTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.geo.builders.PointBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:20:44,413][INFO ][o.e.c.g.b.PointBuilderTests] [testFromXContent] before test
+[2020-02-17T05:20:44,416][INFO ][o.e.c.g.b.PointBuilderTests] [testFromXContent] after test
+[2020-02-17T05:20:44,419][INFO ][o.e.c.g.b.PointBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T05:20:44,420][INFO ][o.e.c.g.b.PointBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T05:20:44,423][INFO ][o.e.c.g.b.PointBuilderTests] [testSerialization] before test
+[2020-02-17T05:20:44,423][INFO ][o.e.c.g.b.PointBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

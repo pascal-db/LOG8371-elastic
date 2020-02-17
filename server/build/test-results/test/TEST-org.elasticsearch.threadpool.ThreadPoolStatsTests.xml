@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.threadpool.ThreadPoolStatsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:45" hostname="Escoto-PC" time="0.006">
+  <properties/>
+  <testcase name="testThreadPoolStatsSort" classname="org.elasticsearch.threadpool.ThreadPoolStatsTests" time="0.003"/>
+  <testcase name="testThreadPoolStatsToXContent" classname="org.elasticsearch.threadpool.ThreadPoolStatsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:24:45,488][INFO ][o.e.t.ThreadPoolStatsTests] [testThreadPoolStatsSort] before test
+[2020-02-16T22:24:45,489][INFO ][o.e.t.ThreadPoolStatsTests] [testThreadPoolStatsSort] after test
+[2020-02-16T22:24:45,492][INFO ][o.e.t.ThreadPoolStatsTests] [testThreadPoolStatsToXContent] before test
+[2020-02-16T22:24:45,492][INFO ][o.e.t.ThreadPoolStatsTests] [testThreadPoolStatsToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

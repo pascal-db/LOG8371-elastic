@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.OperatorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:38" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testToQueryParserOperator" classname="org.elasticsearch.index.query.OperatorTests" time="0.003"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.index.query.OperatorTests" time="0.002"/>
+  <testcase name="testToBooleanClauseOccur" classname="org.elasticsearch.index.query.OperatorTests" time="0.001"/>
+  <testcase name="testFromString" classname="org.elasticsearch.index.query.OperatorTests" time="0.002"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.index.query.OperatorTests" time="0.002"/>
+  <testcase name="testWriteTo" classname="org.elasticsearch.index.query.OperatorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:23:38,684][INFO ][o.e.i.q.OperatorTests    ] [testToQueryParserOperator] before test
+[2020-02-16T23:23:38,685][INFO ][o.e.i.q.OperatorTests    ] [testToQueryParserOperator] after test
+[2020-02-16T23:23:38,687][INFO ][o.e.i.q.OperatorTests    ] [testValidOrdinals] before test
+[2020-02-16T23:23:38,687][INFO ][o.e.i.q.OperatorTests    ] [testValidOrdinals] after test
+[2020-02-16T23:23:38,689][INFO ][o.e.i.q.OperatorTests    ] [testToBooleanClauseOccur] before test
+[2020-02-16T23:23:38,689][INFO ][o.e.i.q.OperatorTests    ] [testToBooleanClauseOccur] after test
+[2020-02-16T23:23:38,691][INFO ][o.e.i.q.OperatorTests    ] [testFromString] before test
+[2020-02-16T23:23:38,691][INFO ][o.e.i.q.OperatorTests    ] [testFromString] after test
+[2020-02-16T23:23:38,693][INFO ][o.e.i.q.OperatorTests    ] [testReadFrom] before test
+[2020-02-16T23:23:38,693][INFO ][o.e.i.q.OperatorTests    ] [testReadFrom] after test
+[2020-02-16T23:23:38,695][INFO ][o.e.i.q.OperatorTests    ] [testWriteTo] before test
+[2020-02-16T23:23:38,695][INFO ][o.e.i.q.OperatorTests    ] [testWriteTo] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

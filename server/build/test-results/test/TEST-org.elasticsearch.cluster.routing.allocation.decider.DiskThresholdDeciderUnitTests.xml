@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderUnitTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:37" hostname="Escoto-PC" time="0.041">
+  <properties/>
+  <testcase name="testDiskUsageWithRelocations" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderUnitTests" time="0.02"/>
+  <testcase name="testShardSizeAndRelocatingSize" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderUnitTests" time="0.004"/>
+  <testcase name="testCannotAllocateDueToLackOfDiskResources" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderUnitTests" time="0.004"/>
+  <testcase name="testCanAllocateUsesMaxAvailableSpace" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderUnitTests" time="0.004"/>
+  <testcase name="testCanRemainUsesLeastAvailableSpace" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderUnitTests" time="0.004"/>
+  <testcase name="testSizeShrinkIndex" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderUnitTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T06:21:37,439][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testDiskUsageWithRelocations] before test
+[2020-02-17T06:21:37,441][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testDiskUsageWithRelocations] after test
+[2020-02-17T06:21:37,444][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testShardSizeAndRelocatingSize] before test
+[2020-02-17T06:21:37,445][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testShardSizeAndRelocatingSize] after test
+[2020-02-17T06:21:37,447][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testCannotAllocateDueToLackOfDiskResources] before test
+[2020-02-17T06:21:37,448][WARN ][o.e.c.r.a.d.DiskThresholdDecider] [testCannotAllocateDueToLackOfDiskResources] after allocating, node [node_0] would have less than the required threshold of 0b free (currently 44b free, estimated shard size is 679b), preventing allocation
+[2020-02-17T06:21:37,449][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testCannotAllocateDueToLackOfDiskResources] after test
+[2020-02-17T06:21:37,451][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testCanAllocateUsesMaxAvailableSpace] before test
+[2020-02-17T06:21:37,453][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testCanAllocateUsesMaxAvailableSpace] after test
+[2020-02-17T06:21:37,455][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testCanRemainUsesLeastAvailableSpace] before test
+[2020-02-17T06:21:37,457][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testCanRemainUsesLeastAvailableSpace] --> adding two nodes
+[2020-02-17T06:21:37,457][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testCanRemainUsesLeastAvailableSpace] after test
+[2020-02-17T06:21:37,459][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testSizeShrinkIndex] before test
+[2020-02-17T06:21:37,462][INFO ][o.e.c.r.a.d.DiskThresholdDeciderUnitTests] [testSizeShrinkIndex] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

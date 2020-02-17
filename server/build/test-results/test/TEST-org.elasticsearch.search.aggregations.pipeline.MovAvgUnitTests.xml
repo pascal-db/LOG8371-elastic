@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:34" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testHoltLinearMovAvgModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.004"/>
+  <testcase name="testEWMAMovAvgModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.003"/>
+  <testcase name="testSimplePredictionModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.001"/>
+  <testcase name="testLinearMovAvgModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.003"/>
+  <testcase name="testNumericValidation" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.002"/>
+  <testcase name="testHoltWintersAdditivePredictionModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.001"/>
+  <testcase name="testEWMAPredictionModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.001"/>
+  <testcase name="testHoltWintersAdditiveModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.002"/>
+  <testcase name="testHoltLinearPredictionModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.002"/>
+  <testcase name="testHoltWintersMultiplicativePadModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.002"/>
+  <testcase name="testSimpleMovAvgModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.002"/>
+  <testcase name="testHoltWintersMultiplicativePadPredictionModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.001"/>
+  <testcase name="testLinearPredictionModel" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgUnitTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T16:25:34,739][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltLinearMovAvgModel] before test
+[2020-02-16T16:25:34,741][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltLinearMovAvgModel] after test
+[2020-02-16T16:25:34,744][INFO ][o.e.s.a.p.MovAvgUnitTests] [testEWMAMovAvgModel] before test
+[2020-02-16T16:25:34,745][INFO ][o.e.s.a.p.MovAvgUnitTests] [testEWMAMovAvgModel] after test
+[2020-02-16T16:25:34,746][INFO ][o.e.s.a.p.MovAvgUnitTests] [testSimplePredictionModel] before test
+[2020-02-16T16:25:34,747][INFO ][o.e.s.a.p.MovAvgUnitTests] [testSimplePredictionModel] after test
+[2020-02-16T16:25:34,748][INFO ][o.e.s.a.p.MovAvgUnitTests] [testLinearMovAvgModel] before test
+[2020-02-16T16:25:34,750][INFO ][o.e.s.a.p.MovAvgUnitTests] [testLinearMovAvgModel] after test
+[2020-02-16T16:25:34,751][INFO ][o.e.s.a.p.MovAvgUnitTests] [testNumericValidation] before test
+[2020-02-16T16:25:34,752][INFO ][o.e.s.a.p.MovAvgUnitTests] [testNumericValidation] after test
+[2020-02-16T16:25:34,753][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltWintersAdditivePredictionModel] before test
+[2020-02-16T16:25:34,754][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltWintersAdditivePredictionModel] after test
+[2020-02-16T16:25:34,755][INFO ][o.e.s.a.p.MovAvgUnitTests] [testEWMAPredictionModel] before test
+[2020-02-16T16:25:34,756][INFO ][o.e.s.a.p.MovAvgUnitTests] [testEWMAPredictionModel] after test
+[2020-02-16T16:25:34,757][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltWintersAdditiveModel] before test
+[2020-02-16T16:25:34,757][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltWintersAdditiveModel] after test
+[2020-02-16T16:25:34,759][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltLinearPredictionModel] before test
+[2020-02-16T16:25:34,759][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltLinearPredictionModel] after test
+[2020-02-16T16:25:34,761][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltWintersMultiplicativePadModel] before test
+[2020-02-16T16:25:34,761][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltWintersMultiplicativePadModel] after test
+[2020-02-16T16:25:34,763][INFO ][o.e.s.a.p.MovAvgUnitTests] [testSimpleMovAvgModel] before test
+[2020-02-16T16:25:34,763][INFO ][o.e.s.a.p.MovAvgUnitTests] [testSimpleMovAvgModel] after test
+[2020-02-16T16:25:34,764][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltWintersMultiplicativePadPredictionModel] before test
+[2020-02-16T16:25:34,764][INFO ][o.e.s.a.p.MovAvgUnitTests] [testHoltWintersMultiplicativePadPredictionModel] after test
+[2020-02-16T16:25:34,766][INFO ][o.e.s.a.p.MovAvgUnitTests] [testLinearPredictionModel] before test
+[2020-02-16T16:25:34,766][INFO ][o.e.s.a.p.MovAvgUnitTests] [testLinearPredictionModel] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.range.BinaryRangeAggregatorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testSortedSetRangeLeafCollectorSingleValued" classname="org.elasticsearch.search.aggregations.bucket.range.BinaryRangeAggregatorTests" time="0.007"/>
+  <testcase name="testSortedBinaryRangeLeafCollectorMultiValued" classname="org.elasticsearch.search.aggregations.bucket.range.BinaryRangeAggregatorTests" time="0.005"/>
+  <testcase name="testSortedBinaryRangeLeafCollectorSingleValued" classname="org.elasticsearch.search.aggregations.bucket.range.BinaryRangeAggregatorTests" time="0.003"/>
+  <testcase name="testSortedSetRangeLeafCollectorMultiValued" classname="org.elasticsearch.search.aggregations.bucket.range.BinaryRangeAggregatorTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T02:24:21,309][INFO ][o.e.s.a.b.r.BinaryRangeAggregatorTests] [testSortedSetRangeLeafCollectorSingleValued] before test
+[2020-02-17T02:24:21,312][INFO ][o.e.s.a.b.r.BinaryRangeAggregatorTests] [testSortedSetRangeLeafCollectorSingleValued] after test
+[2020-02-17T02:24:21,314][INFO ][o.e.s.a.b.r.BinaryRangeAggregatorTests] [testSortedBinaryRangeLeafCollectorMultiValued] before test
+[2020-02-17T02:24:21,317][INFO ][o.e.s.a.b.r.BinaryRangeAggregatorTests] [testSortedBinaryRangeLeafCollectorMultiValued] after test
+[2020-02-17T02:24:21,319][INFO ][o.e.s.a.b.r.BinaryRangeAggregatorTests] [testSortedBinaryRangeLeafCollectorSingleValued] before test
+[2020-02-17T02:24:21,320][INFO ][o.e.s.a.b.r.BinaryRangeAggregatorTests] [testSortedBinaryRangeLeafCollectorSingleValued] after test
+[2020-02-17T02:24:21,322][INFO ][o.e.s.a.b.r.BinaryRangeAggregatorTests] [testSortedSetRangeLeafCollectorMultiValued] before test
+[2020-02-17T02:24:21,323][INFO ][o.e.s.a.b.r.BinaryRangeAggregatorTests] [testSortedSetRangeLeafCollectorMultiValued] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

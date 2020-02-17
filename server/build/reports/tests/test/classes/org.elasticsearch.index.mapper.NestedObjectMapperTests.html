@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.mapper.NestedObjectMapperTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.mapper.NestedObjectMapperTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.mapper.html">org.elasticsearch.index.mapper</a> &gt; NestedObjectMapperTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">15</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.079s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testEmptyNested</td>
+<td class="success">0.096s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLimitNestedDocs</td>
+<td class="success">0.104s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLimitNestedDocsDefaultSettings</td>
+<td class="success">0.170s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLimitNestedDocsMultipleNestedFields</td>
+<td class="success">0.113s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLimitOfNestedFieldsPerIndex</td>
+<td class="success">0.680s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiNested</td>
+<td class="success">0.097s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiObjectAndNested1</td>
+<td class="success">0.106s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiObjectAndNested2</td>
+<td class="success">0.118s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiRootAndNested1</td>
+<td class="success">0.121s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultipleLevelsIncludeRoot1</td>
+<td class="success">0.098s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultipleLevelsIncludeRoot2</td>
+<td class="success">0.090s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedArrayStrict</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParentObjectMapperAreNested</td>
+<td class="success">0.233s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReorderParentBWC</td>
+<td class="success">0.183s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleNested</td>
+<td class="success">0.783s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T01:22:50,074][INFO ][o.e.e.NodeEnvironment    ] [testSingleNested] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:22:50,075][INFO ][o.e.e.NodeEnvironment    ] [testSingleNested] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:22:50,077][INFO ][o.e.n.Node               ] [testSingleNested] node name [node_s_0], node ID [ZZACayraQmeDSWVobusjMg], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[-747394635480802748]-HASH=[144263D0AB5]]
+[2020-02-17T01:22:50,077][INFO ][o.e.n.Node               ] [testSingleNested] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:22:50,077][INFO ][o.e.n.Node               ] [testSingleNested] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:22:50,077][INFO ][o.e.n.Node               ] [testSingleNested] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:22:50,078][INFO ][o.e.p.PluginsService     ] [testSingleNested] no modules loaded
+[2020-02-17T01:22:50,078][INFO ][o.e.p.PluginsService     ] [testSingleNested] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-17T01:22:50,078][INFO ][o.e.p.PluginsService     ] [testSingleNested] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:22:50,078][INFO ][o.e.p.PluginsService     ] [testSingleNested] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:22:50,283][INFO ][o.e.d.DiscoveryModule    ] [testSingleNested] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:22:50,293][INFO ][o.e.n.Node               ] [testSingleNested] initialized
+[2020-02-17T01:22:50,293][INFO ][o.e.n.Node               ] [testSingleNested] starting ...
+[2020-02-17T01:22:50,649][INFO ][o.e.t.TransportService   ] [testSingleNested] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-17T01:22:50,657][INFO ][o.e.c.c.Coordinator      ] [testSingleNested] setting initial configuration to VotingConfiguration{ZZACayraQmeDSWVobusjMg}
+[2020-02-17T01:22:50,682][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{ZZACayraQmeDSWVobusjMg}{DDuZGsWOS1WQhH_SuzNIkg}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{ZZACayraQmeDSWVobusjMg}{DDuZGsWOS1WQhH_SuzNIkg}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-17T01:22:50,690][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [NLT4XTkmQKCa3w2tug1blg]
+[2020-02-17T01:22:50,697][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{ZZACayraQmeDSWVobusjMg}{DDuZGsWOS1WQhH_SuzNIkg}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T01:22:50,697][INFO ][o.e.n.Node               ] [testSingleNested] started
+[2020-02-17T01:22:50,702][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T01:22:50,703][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T01:22:50,713][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T01:22:50,725][INFO ][o.e.i.m.NestedObjectMapperTests] [testSingleNested] before test
+[2020-02-17T01:22:50,727][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:50,783][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:50,812][INFO ][o.e.i.m.NestedObjectMapperTests] [testSingleNested] after test
+[2020-02-17T01:22:50,813][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/gcDWtBpvT3WYYQqGxutgGg] deleting index
+[2020-02-17T01:22:50,860][INFO ][o.e.i.m.NestedObjectMapperTests] [testLimitOfNestedFieldsPerIndex] before test
+[2020-02-17T01:22:50,862][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test1] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:50,940][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0]]]).
+[2020-02-17T01:22:50,969][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test2] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:51,053][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test2][0]]]).
+[2020-02-17T01:22:51,113][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test3] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:51,241][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test3][0]]]).
+[2020-02-17T01:22:51,274][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test4] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:51,341][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test4][0]]]).
+[2020-02-17T01:22:51,430][INFO ][o.e.i.m.NestedObjectMapperTests] [testLimitOfNestedFieldsPerIndex] after test
+[2020-02-17T01:22:51,432][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test1/GKcfLBRVTsOVE4xY3CsHNg] deleting index
+[2020-02-17T01:22:51,432][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test3/KN8AjHptRFKIbWii4gmDsw] deleting index
+[2020-02-17T01:22:51,432][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test2/inrxLEmZQV2VVdfZxMtdEw] deleting index
+[2020-02-17T01:22:51,432][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test4/dgEcPdXxQ8GENxmHr7jqdw] deleting index
+[2020-02-17T01:22:51,527][INFO ][o.e.i.m.NestedObjectMapperTests] [testParentObjectMapperAreNested] before test
+[2020-02-17T01:22:51,533][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index1] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [_doc]
+[2020-02-17T01:22:51,628][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index1][0]]]).
+[2020-02-17T01:22:51,644][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index2] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [_doc]
+[2020-02-17T01:22:51,702][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index2][0]]]).
+[2020-02-17T01:22:51,715][INFO ][o.e.i.m.NestedObjectMapperTests] [testParentObjectMapperAreNested] after test
+[2020-02-17T01:22:51,715][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index1/ruS7cPe5QuafQBvp3X3Drg] deleting index
+[2020-02-17T01:22:51,715][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index2/KAiypp5vTZWdb_BsGd878A] deleting index
+[2020-02-17T01:22:51,760][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultipleLevelsIncludeRoot2] before test
+[2020-02-17T01:22:51,761][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:51,811][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:51,821][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultipleLevelsIncludeRoot2] after test
+[2020-02-17T01:22:51,822][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/lF0o-pefQmC1kEDuJmxZWg] deleting index
+[2020-02-17T01:22:51,858][INFO ][o.e.i.m.NestedObjectMapperTests] [testReorderParentBWC] before test
+[2020-02-17T01:22:51,859][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test-6.5.0] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:51,908][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test-6.5.0][0]]]).
+[2020-02-17T01:22:51,919][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test-6.3.1] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:51,977][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test-6.3.1][0]]]).
+[2020-02-17T01:22:51,988][INFO ][o.e.i.m.NestedObjectMapperTests] [testReorderParentBWC] after test
+[2020-02-17T01:22:51,989][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test-6.5.0/VeT0lC7QT9malLfmArvceg] deleting index
+[2020-02-17T01:22:51,989][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test-6.3.1/rEV_pFiZRFKMRwQ-j952ag] deleting index
+[2020-02-17T01:22:52,036][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultiObjectAndNested1] before test
+[2020-02-17T01:22:52,037][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,090][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:52,102][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultiObjectAndNested1] after test
+[2020-02-17T01:22:52,102][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/mXF0Gb5JTzKURfzWEaffng] deleting index
+[2020-02-17T01:22:52,145][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultiObjectAndNested2] before test
+[2020-02-17T01:22:52,147][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,209][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:52,228][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultiObjectAndNested2] after test
+[2020-02-17T01:22:52,228][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/dTONbOEfT6GBKTyOYRY3cg] deleting index
+[2020-02-17T01:22:52,258][INFO ][o.e.i.m.NestedObjectMapperTests] [testLimitNestedDocsMultipleNestedFields] before test
+[2020-02-17T01:22:52,259][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test1] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,312][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0]]]).
+[2020-02-17T01:22:52,331][INFO ][o.e.i.m.NestedObjectMapperTests] [testLimitNestedDocsMultipleNestedFields] after test
+[2020-02-17T01:22:52,331][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test1/UIDTBYOFRlGU7IwpiB_shg] deleting index
+[2020-02-17T01:22:52,370][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultipleLevelsIncludeRoot1] before test
+[2020-02-17T01:22:52,371][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,426][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:52,442][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultipleLevelsIncludeRoot1] after test
+[2020-02-17T01:22:52,442][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/-1qhEHa0TNCMgbTryl4gbw] deleting index
+[2020-02-17T01:22:52,469][INFO ][o.e.i.m.NestedObjectMapperTests] [testEmptyNested] before test
+[2020-02-17T01:22:52,470][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,526][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:52,536][INFO ][o.e.i.m.NestedObjectMapperTests] [testEmptyNested] after test
+[2020-02-17T01:22:52,536][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/3DYemU0iTEWUFXwv1OH8Fg] deleting index
+[2020-02-17T01:22:52,565][INFO ][o.e.i.m.NestedObjectMapperTests] [testLimitNestedDocs] before test
+[2020-02-17T01:22:52,566][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test1] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,619][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0]]]).
+[2020-02-17T01:22:52,633][INFO ][o.e.i.m.NestedObjectMapperTests] [testLimitNestedDocs] after test
+[2020-02-17T01:22:52,635][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test1/81K12nWlTvW9HCPIHKR7Ug] deleting index
+[2020-02-17T01:22:52,668][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultiRootAndNested1] before test
+[2020-02-17T01:22:52,670][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,724][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:52,761][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultiRootAndNested1] after test
+[2020-02-17T01:22:52,762][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/u2OQtuVLSBicKG6AxrAcIg] deleting index
+[2020-02-17T01:22:52,791][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultiNested] before test
+[2020-02-17T01:22:52,792][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,848][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:52,860][INFO ][o.e.i.m.NestedObjectMapperTests] [testMultiNested] after test
+[2020-02-17T01:22:52,860][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/jtN2LsxLQs6HM0JIzd6NuQ] deleting index
+[2020-02-17T01:22:52,887][INFO ][o.e.i.m.NestedObjectMapperTests] [testNestedArrayStrict] before test
+[2020-02-17T01:22:52,889][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:52,939][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:52,948][INFO ][o.e.i.m.NestedObjectMapperTests] [testNestedArrayStrict] after test
+[2020-02-17T01:22:52,948][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/3pEnso9FTwejI6Q0hbslVg] deleting index
+[2020-02-17T01:22:52,976][INFO ][o.e.i.m.NestedObjectMapperTests] [testLimitNestedDocsDefaultSettings] before test
+[2020-02-17T01:22:52,978][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test1] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T01:22:53,034][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0]]]).
+[2020-02-17T01:22:53,117][INFO ][o.e.i.m.NestedObjectMapperTests] [testLimitNestedDocsDefaultSettings] after test
+[2020-02-17T01:22:53,117][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test1/ajqD3GKOQrKkJZ5PumC3Pg] deleting index
+[2020-02-17T01:22:53,140][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T01:22:53,143][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T01:22:53,143][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T01:22:53,144][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

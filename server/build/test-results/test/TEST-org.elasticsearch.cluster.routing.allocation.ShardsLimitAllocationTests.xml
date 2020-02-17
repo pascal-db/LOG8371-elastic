@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ShardsLimitAllocationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testIndexLevelShardsLimitAllocate" classname="org.elasticsearch.cluster.routing.allocation.ShardsLimitAllocationTests" time="0.006"/>
+  <testcase name="testClusterLevelShardsLimitAllocate" classname="org.elasticsearch.cluster.routing.allocation.ShardsLimitAllocationTests" time="0.007"/>
+  <testcase name="testIndexLevelShardsLimitRemain" classname="org.elasticsearch.cluster.routing.allocation.ShardsLimitAllocationTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T23:21:38,776][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitAllocate] before test
+[2020-02-16T23:21:38,779][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitAllocate] Building initial routing table
+[2020-02-16T23:21:38,779][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitAllocate] Adding two nodes and performing rerouting
+[2020-02-16T23:21:38,779][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitAllocate] Start the primary shards
+[2020-02-16T23:21:38,780][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitAllocate] Do another reroute, make sure its still not allocated
+[2020-02-16T23:21:38,780][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitAllocate] after test
+[2020-02-16T23:21:38,783][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testClusterLevelShardsLimitAllocate] before test
+[2020-02-16T23:21:38,784][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testClusterLevelShardsLimitAllocate] Building initial routing table
+[2020-02-16T23:21:38,784][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testClusterLevelShardsLimitAllocate] Adding two nodes and performing rerouting
+[2020-02-16T23:21:38,785][INFO ][o.e.c.r.a.AllocationService] [testClusterLevelShardsLimitAllocate] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute]).
+[2020-02-16T23:21:38,785][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testClusterLevelShardsLimitAllocate] Start the primary shards
+[2020-02-16T23:21:38,787][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testClusterLevelShardsLimitAllocate] Do another reroute, make sure shards are now allocated
+[2020-02-16T23:21:38,787][INFO ][o.e.c.r.a.AllocationService] [testClusterLevelShardsLimitAllocate] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][3], [test][2]]]).
+[2020-02-16T23:21:38,787][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testClusterLevelShardsLimitAllocate] after test
+[2020-02-16T23:21:38,789][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] before test
+[2020-02-16T23:21:38,791][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] Building initial routing table
+[2020-02-16T23:21:38,791][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] Adding one node and reroute
+[2020-02-16T23:21:38,792][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] Start the primary shards
+[2020-02-16T23:21:38,792][INFO ][o.e.c.r.a.AllocationService] [testIndexLevelShardsLimitRemain] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][3], [test][4], [test][2], [test][0]]]).
+[2020-02-16T23:21:38,792][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] add another index with 5 shards
+[2020-02-16T23:21:38,793][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] Add another one node and reroute
+[2020-02-16T23:21:38,793][INFO ][o.e.c.r.a.AllocationService] [testIndexLevelShardsLimitRemain] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][3], [test1][4], [test1][2], [test1][0]]]).
+[2020-02-16T23:21:38,793][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] update index.routing.allocation.total_shards_per_node for test, see that things move
+[2020-02-16T23:21:38,793][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] reroute after setting
+[2020-02-16T23:21:38,794][INFO ][o.e.c.r.a.ShardsLimitAllocationTests] [testIndexLevelShardsLimitRemain] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

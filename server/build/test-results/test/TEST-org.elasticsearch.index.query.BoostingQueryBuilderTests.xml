@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.BoostingQueryBuilderTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:05" hostname="Escoto-PC" time="0.153">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.017"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.009"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.004"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.021"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.055"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.023"/>
+  <testcase name="testRewrite" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.003"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.003"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.BoostingQueryBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T10:23:05,229][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testSerialization] before test
+[2020-02-17T10:23:05,230][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-17T10:23:05,230][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-17T10:23:05,236][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-17T10:23:05,236][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-17T10:23:05,244][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testSerialization] after test
+[2020-02-17T10:23:05,249][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T10:23:05,254][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T10:23:05,257][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T10:23:05,258][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T10:23:05,260][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-17T10:23:05,260][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-17T10:23:05,264][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testToQuery] before test
+[2020-02-17T10:23:05,281][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testToQuery] after test
+[2020-02-17T10:23:05,334][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T10:23:05,337][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T10:23:05,360][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T10:23:05,360][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T10:23:05,362][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testRewrite] before test
+[2020-02-17T10:23:05,362][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testRewrite] after test
+[2020-02-17T10:23:05,364][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T10:23:05,364][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T10:23:05,366][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T10:23:05,367][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T10:23:05,369][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testCacheability] before test
+[2020-02-17T10:23:05,369][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testCacheability] after test
+[2020-02-17T10:23:05,371][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T10:23:05,373][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T10:23:05,376][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T10:23:05,376][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T10:23:05,379][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testFromJson] before test
+[2020-02-17T10:23:05,379][INFO ][o.e.i.q.BoostingQueryBuilderTests] [testFromJson] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

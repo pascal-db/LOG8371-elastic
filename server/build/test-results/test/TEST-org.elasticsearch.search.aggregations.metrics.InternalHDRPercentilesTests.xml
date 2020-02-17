@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:31" hostname="Escoto-PC" time="0.116">
+  <properties/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" time="0.03"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" time="0.032"/>
+  <testcase name="testIterator" classname="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" time="0.002"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" time="0.014"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" time="0.005"/>
+  <testcase name="testEmptyRanksXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" time="0.026"/>
+  <testcase name="testPercentilesIterators" classname="org.elasticsearch.search.aggregations.metrics.InternalHDRPercentilesTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:25:31,944][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testReduceRandom] before test
+[2020-02-16T19:25:31,967][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testReduceRandom] after test
+[2020-02-16T19:25:31,969][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:25:32,000][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:25:32,002][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testIterator] before test
+[2020-02-16T19:25:32,003][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testIterator] after test
+[2020-02-16T19:25:32,004][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T19:25:32,006][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T19:25:32,008][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testSerialization] before test
+[2020-02-16T19:25:32,020][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testSerialization] after test
+[2020-02-16T19:25:32,022][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testFromXContent] before test
+[2020-02-16T19:25:32,025][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testFromXContent] after test
+[2020-02-16T19:25:32,050][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testEmptyRanksXContent] before test
+[2020-02-16T19:25:32,051][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testEmptyRanksXContent] after test
+[2020-02-16T19:25:32,053][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testPercentilesIterators] before test
+[2020-02-16T19:25:32,054][INFO ][o.e.s.a.m.InternalHDRPercentilesTests] [testPercentilesIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

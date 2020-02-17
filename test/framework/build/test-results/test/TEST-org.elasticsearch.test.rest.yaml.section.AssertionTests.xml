@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.section.AssertionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:51" hostname="Escoto-PC" time="0.115">
+  <properties/>
+  <testcase name="testParseGreaterThan" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.009"/>
+  <testcase name="testParseLength" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.022"/>
+  <testcase name="testParseIsFalse" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.033"/>
+  <testcase name="testParseMatchArray" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.003"/>
+  <testcase name="testParseIsTrue" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.024"/>
+  <testcase name="testParseMatchSimpleIntegerValue" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.011"/>
+  <testcase name="testParseMatchSimpleStringValue" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.005"/>
+  <testcase name="testParseMatchSourceValues" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.002"/>
+  <testcase name="testParseContains" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.003"/>
+  <testcase name="testParseLessThan" classname="org.elasticsearch.test.rest.yaml.section.AssertionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:48:51,204][INFO ][o.e.t.r.y.s.AssertionTests] [testParseGreaterThan] before test
+[2020-02-16T23:48:51,207][INFO ][o.e.t.r.y.s.AssertionTests] [testParseGreaterThan] after test
+[2020-02-16T23:48:51,228][INFO ][o.e.t.r.y.s.AssertionTests] [testParseLength] before test
+[2020-02-16T23:48:51,229][INFO ][o.e.t.r.y.s.AssertionTests] [testParseLength] after test
+[2020-02-16T23:48:51,262][INFO ][o.e.t.r.y.s.AssertionTests] [testParseIsFalse] before test
+[2020-02-16T23:48:51,263][INFO ][o.e.t.r.y.s.AssertionTests] [testParseIsFalse] after test
+[2020-02-16T23:48:51,265][INFO ][o.e.t.r.y.s.AssertionTests] [testParseMatchArray] before test
+[2020-02-16T23:48:51,266][INFO ][o.e.t.r.y.s.AssertionTests] [testParseMatchArray] after test
+[2020-02-16T23:48:51,288][INFO ][o.e.t.r.y.s.AssertionTests] [testParseIsTrue] before test
+[2020-02-16T23:48:51,288][INFO ][o.e.t.r.y.s.AssertionTests] [testParseIsTrue] after test
+[2020-02-16T23:48:51,299][INFO ][o.e.t.r.y.s.AssertionTests] [testParseMatchSimpleIntegerValue] before test
+[2020-02-16T23:48:51,300][INFO ][o.e.t.r.y.s.AssertionTests] [testParseMatchSimpleIntegerValue] after test
+[2020-02-16T23:48:51,303][INFO ][o.e.t.r.y.s.AssertionTests] [testParseMatchSimpleStringValue] before test
+[2020-02-16T23:48:51,304][INFO ][o.e.t.r.y.s.AssertionTests] [testParseMatchSimpleStringValue] after test
+[2020-02-16T23:48:51,307][INFO ][o.e.t.r.y.s.AssertionTests] [testParseMatchSourceValues] before test
+[2020-02-16T23:48:51,307][INFO ][o.e.t.r.y.s.AssertionTests] [testParseMatchSourceValues] after test
+[2020-02-16T23:48:51,309][INFO ][o.e.t.r.y.s.AssertionTests] [testParseContains] before test
+[2020-02-16T23:48:51,310][INFO ][o.e.t.r.y.s.AssertionTests] [testParseContains] after test
+[2020-02-16T23:48:51,311][INFO ][o.e.t.r.y.s.AssertionTests] [testParseLessThan] before test
+[2020-02-16T23:48:51,312][INFO ][o.e.t.r.y.s.AssertionTests] [testParseLessThan] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

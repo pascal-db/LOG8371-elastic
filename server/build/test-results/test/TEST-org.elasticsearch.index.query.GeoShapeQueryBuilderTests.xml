@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:06" hostname="Escoto-PC" time="0.428">
+  <properties/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.04"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.086"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.002"/>
+  <testcase name="testThatXContentSerializationInsideOfArrayWorks" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.001"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.007"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.031"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.002"/>
+  <testcase name="testNoFieldName" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.002"/>
+  <testcase name="testNoIndexedShape" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.043"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.139"/>
+  <testcase name="testNoRelation" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.004"/>
+  <testcase name="testMultipleRewrite" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.005"/>
+  <testcase name="testSerializationFailsUnlessFetched" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.013"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.011"/>
+  <testcase name="testIgnoreUnmapped" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.005"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.011"/>
+  <testcase name="testWrongFieldType" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.005"/>
+  <testcase name="testNoShape" classname="org.elasticsearch.index.query.GeoShapeQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:23:06,490][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T06:23:06,493][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no modules loaded
+[2020-02-17T06:23:06,493][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no plugins loaded
+[2020-02-17T06:23:06,521][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no modules loaded
+[2020-02-17T06:23:06,521][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no plugins loaded
+[2020-02-17T06:23:06,528][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T06:23:06,587][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testCacheability] before test
+[2020-02-17T06:23:06,613][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testCacheability] after test
+[2020-02-17T06:23:06,618][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T06:23:06,618][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T06:23:06,620][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testThatXContentSerializationInsideOfArrayWorks] before test
+[2020-02-17T06:23:06,620][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testThatXContentSerializationInsideOfArrayWorks] after test
+[2020-02-17T06:23:06,627][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T06:23:06,627][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T06:23:06,629][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:23:06,633][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:23:06,661][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testSerialization] before test
+[2020-02-17T06:23:06,664][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testSerialization] after test
+[2020-02-17T06:23:06,666][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T06:23:06,666][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T06:23:06,668][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testFromJson] before test
+[2020-02-17T06:23:06,669][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testFromJson] after test
+[2020-02-17T06:23:06,670][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNoFieldName] before test
+[2020-02-17T06:23:06,671][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNoFieldName] after test
+[2020-02-17T06:23:06,674][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNoIndexedShape] before test
+[2020-02-17T06:23:06,675][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNoIndexedShape] after test
+[2020-02-17T06:23:06,678][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T06:23:06,714][WARN ][o.e.d.i.q.GeoShapeQueryBuilder] [testFromXContent] [types removal] Types are deprecated in [geo_shape] queries. The type should no longer be specified in the [indexed_shape] section.
+[2020-02-17T06:23:06,718][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T06:23:06,721][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testToQuery] before test
+[2020-02-17T06:23:06,858][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testToQuery] after test
+[2020-02-17T06:23:06,862][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNoRelation] before test
+[2020-02-17T06:23:06,863][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNoRelation] after test
+[2020-02-17T06:23:06,864][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testMultipleRewrite] before test
+[2020-02-17T06:23:06,867][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testMultipleRewrite] after test
+[2020-02-17T06:23:06,878][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testSerializationFailsUnlessFetched] before test
+[2020-02-17T06:23:06,881][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testSerializationFailsUnlessFetched] after test
+[2020-02-17T06:23:06,884][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T06:23:06,892][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T06:23:06,897][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testIgnoreUnmapped] before test
+[2020-02-17T06:23:06,897][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testIgnoreUnmapped] after test
+[2020-02-17T06:23:06,908][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T06:23:06,908][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T06:23:06,913][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testWrongFieldType] before test
+[2020-02-17T06:23:06,914][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testWrongFieldType] after test
+[2020-02-17T06:23:06,916][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNoShape] before test
+[2020-02-17T06:23:06,916][INFO ][o.e.i.q.GeoShapeQueryBuilderTests] [testNoShape] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

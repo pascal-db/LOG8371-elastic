@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.snapshots.RepositoriesMetaDataSerializationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.snapshots.RepositoriesMetaDataSerializationTests" time="0.005"/>
+  <testcase name="testDiffableSerialization" classname="org.elasticsearch.snapshots.RepositoriesMetaDataSerializationTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.snapshots.RepositoriesMetaDataSerializationTests" time="0.013"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.snapshots.RepositoriesMetaDataSerializationTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T07:24:43,931][INFO ][o.e.s.RepositoriesMetaDataSerializationTests] [testSerialization] before test
+[2020-02-17T07:24:43,933][INFO ][o.e.s.RepositoriesMetaDataSerializationTests] [testSerialization] after test
+[2020-02-17T07:24:43,935][INFO ][o.e.s.RepositoriesMetaDataSerializationTests] [testDiffableSerialization] before test
+[2020-02-17T07:24:43,937][INFO ][o.e.s.RepositoriesMetaDataSerializationTests] [testDiffableSerialization] after test
+[2020-02-17T07:24:43,938][INFO ][o.e.s.RepositoriesMetaDataSerializationTests] [testFromXContent] before test
+[2020-02-17T07:24:43,951][INFO ][o.e.s.RepositoriesMetaDataSerializationTests] [testFromXContent] after test
+[2020-02-17T07:24:43,952][INFO ][o.e.s.RepositoriesMetaDataSerializationTests] [testEqualsAndHashcode] before test
+[2020-02-17T07:24:43,955][INFO ][o.e.s.RepositoriesMetaDataSerializationTests] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

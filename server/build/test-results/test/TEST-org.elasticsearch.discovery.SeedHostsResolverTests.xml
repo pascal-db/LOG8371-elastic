@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.SeedHostsResolverTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:06" hostname="Escoto-PC" time="3.208">
+  <properties/>
+  <testcase name="testResolveTimeout" classname="org.elasticsearch.discovery.SeedHostsResolverTests" time="3.056"/>
+  <testcase name="testResolvesAddressesInBackgroundAndIgnoresConcurrentCalls" classname="org.elasticsearch.discovery.SeedHostsResolverTests" time="0.101"/>
+  <testcase name="testRemovingLocalAddresses" classname="org.elasticsearch.discovery.SeedHostsResolverTests" time="0.024"/>
+  <testcase name="testCancellationOnClose" classname="org.elasticsearch.discovery.SeedHostsResolverTests" time="0.011"/>
+  <testcase name="testInvalidHosts" classname="org.elasticsearch.discovery.SeedHostsResolverTests" time="0.01"/>
+  <testcase name="testUnknownHost" classname="org.elasticsearch.discovery.SeedHostsResolverTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T22:22:06,080][INFO ][o.e.d.SeedHostsResolverTests] [testResolveTimeout] before test
+[2020-02-16T22:22:09,121][INFO ][o.e.d.SeedHostsResolverTests] [testResolveTimeout] shutting down...
+[2020-02-16T22:22:09,133][INFO ][o.e.d.SeedHostsResolverTests] [testResolveTimeout] after test
+[2020-02-16T22:22:09,142][INFO ][o.e.d.SeedHostsResolverTests] [testResolvesAddressesInBackgroundAndIgnoresConcurrentCalls] before test
+[2020-02-16T22:22:09,234][INFO ][o.e.d.SeedHostsResolverTests] [testResolvesAddressesInBackgroundAndIgnoresConcurrentCalls] shutting down...
+[2020-02-16T22:22:09,234][INFO ][o.e.d.SeedHostsResolverTests] [testResolvesAddressesInBackgroundAndIgnoresConcurrentCalls] after test
+[2020-02-16T22:22:09,236][INFO ][o.e.d.SeedHostsResolverTests] [testRemovingLocalAddresses] before test
+[2020-02-16T22:22:09,254][INFO ][o.e.d.SeedHostsResolverTests] [testRemovingLocalAddresses] shutting down...
+[2020-02-16T22:22:09,258][INFO ][o.e.d.SeedHostsResolverTests] [testRemovingLocalAddresses] after test
+[2020-02-16T22:22:09,261][INFO ][o.e.d.SeedHostsResolverTests] [testCancellationOnClose] before test
+[2020-02-16T22:22:09,269][INFO ][o.e.d.SeedHostsResolverTests] [testCancellationOnClose] shutting down...
+[2020-02-16T22:22:09,270][INFO ][o.e.d.SeedHostsResolverTests] [testCancellationOnClose] after test
+[2020-02-16T22:22:09,272][INFO ][o.e.d.SeedHostsResolverTests] [testInvalidHosts] before test
+[2020-02-16T22:22:09,279][INFO ][o.e.d.SeedHostsResolverTests] [testInvalidHosts] shutting down...
+[2020-02-16T22:22:09,279][INFO ][o.e.d.SeedHostsResolverTests] [testInvalidHosts] after test
+[2020-02-16T22:22:09,281][INFO ][o.e.d.SeedHostsResolverTests] [testUnknownHost] before test
+[2020-02-16T22:22:09,285][INFO ][o.e.d.SeedHostsResolverTests] [testUnknownHost] shutting down...
+[2020-02-16T22:22:09,286][INFO ][o.e.d.SeedHostsResolverTests] [testUnknownHost] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

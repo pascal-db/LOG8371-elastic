@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" tests="42" skipped="1" failures="0" errors="0" timestamp="2020-02-16T22:49:31" hostname="Escoto-PC" time="30.866">
+  <properties/>
+  <testcase name="testProfilesIncludesDefault" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.528"/>
+  <testcase name="testConnectException" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="1.534"/>
+  <testcase name="testTransportProfilesWithPortAndHost" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="1.252"/>
+  <testcase name="testHelloWorld" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.511"/>
+  <testcase name="testVersionFrom0to0" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.624"/>
+  <testcase name="testTcpHandshakeConnectionReset" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.549"/>
+  <testcase name="testKeepAlivePings" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="1.8"/>
+  <testcase name="testMockFailToSendNoConnectRule" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.517"/>
+  <testcase name="testTimeoutSendExceptionWithNeverSendingBackResponse" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.611"/>
+  <testcase name="testVersionFrom1to0" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.508"/>
+  <testcase name="testMessageListeners" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.511"/>
+  <testcase name="testAcceptedChannelCount" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.502"/>
+  <testcase name="testNotifyOnShutdown" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.506"/>
+  <testcase name="testResponseHeadersArePreserved" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.523"/>
+  <testcase name="testVersionFrom0to1" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.509"/>
+  <testcase name="testBindUnavailableAddress" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.633"/>
+  <testcase name="testConcurrentSendRespondAndDisconnect" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="1.779"/>
+  <testcase name="testTcpHandshakeTimeout" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.569"/>
+  <testcase name="testMockUnresponsiveRule" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.627"/>
+  <testcase name="testTracerLog" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.606"/>
+  <testcase name="testHandshakeUpdatesVersion" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.754"/>
+  <testcase name="testLocalNodeConnection" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.523"/>
+  <testcase name="testTimeoutSendExceptionWithDelayedResponse" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.62"/>
+  <testcase name="testConcurrentDisconnectOnNonPublishedConnection" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.835"/>
+  <testcase name="testRegisterHandlerTwice" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.536"/>
+  <testcase name="testSendRandomRequests" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="1.107"/>
+  <testcase name="testErrorMessage" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.525"/>
+  <testcase name="testVoidMessageCompressed" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.896"/>
+  <testcase name="testVersionFrom1to1" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.51"/>
+  <testcase name="testHostOnMessages" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.65"/>
+  <testcase name="testHandshakeWithIncompatVersion" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.851"/>
+  <testcase name="testHandlerIsInvokedOnConnectionClose" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.762"/>
+  <testcase name="testHelloWorldCompressed" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.764"/>
+  <testcase name="testThreadContext" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.523"/>
+  <testcase name="testProfileSettings" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.513"/>
+  <testcase name="testTransportStats" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.755"/>
+  <testcase name="testTimeoutPerConnection" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.514">
+    <skipped/>
+  </testcase>
+  <testcase name="testTransportStatsWithException" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.747"/>
+  <testcase name="testDisconnectListener" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.5"/>
+  <testcase name="testChannelCloseWhileConnecting" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.772"/>
+  <testcase name="testBlockingIncomingRequests" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="0.998"/>
+  <testcase name="testTcpHandshake" classname="org.elasticsearch.transport.nio.SimpleMockNioTransportTests" time="1.008"/>
+  <system-out><![CDATA[[2020-02-16T18:49:31,603][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testProfilesIncludesDefault] before test
+[2020-02-16T18:49:31,873][INFO ][o.e.t.TransportService   ] [testProfilesIncludesDefault] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:32,120][INFO ][o.e.t.TransportService   ] [testProfilesIncludesDefault] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:32,129][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testProfilesIncludesDefault] after test
+[2020-02-16T18:49:32,131][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testConnectException] before test
+[2020-02-16T18:49:32,393][INFO ][o.e.t.TransportService   ] [testConnectException] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:32,652][INFO ][o.e.t.TransportService   ] [testConnectException] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:33,663][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testConnectException] after test
+[2020-02-16T18:49:33,665][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTransportProfilesWithPortAndHost] before test
+[2020-02-16T18:49:33,913][INFO ][o.e.t.TransportService   ] [testTransportProfilesWithPortAndHost] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:34,162][INFO ][o.e.t.TransportService   ] [testTransportProfilesWithPortAndHost] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:34,913][INFO ][o.e.t.TransportService   ] [testTransportProfilesWithPortAndHost] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}
+[2020-02-16T18:49:34,913][INFO ][o.e.t.TransportService   ] [testTransportProfilesWithPortAndHost] profile [some_other_profile]: publish_address {127.0.0.1:8700}, bound_addresses {[::1]:8700}, {127.0.0.1:8700}
+[2020-02-16T18:49:34,913][INFO ][o.e.t.TransportService   ] [testTransportProfilesWithPortAndHost] profile [some_profile]: publish_address {127.0.0.1:8900}, bound_addresses {127.0.0.1:8900}
+[2020-02-16T18:49:34,915][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTransportProfilesWithPortAndHost] after test
+[2020-02-16T18:49:34,917][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHelloWorld] before test
+[2020-02-16T18:49:35,169][INFO ][o.e.t.TransportService   ] [testHelloWorld] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:35,420][INFO ][o.e.t.TransportService   ] [testHelloWorld] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:35,427][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHelloWorld] after test
+[2020-02-16T18:49:35,428][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVersionFrom0to0] before test
+[2020-02-16T18:49:35,682][INFO ][o.e.t.TransportService   ] [testVersionFrom0to0] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:36,045][INFO ][o.e.t.TransportService   ] [testVersionFrom0to0] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:36,050][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVersionFrom0to0] after test
+[2020-02-16T18:49:36,052][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTcpHandshakeConnectionReset] before test
+[2020-02-16T18:49:36,341][INFO ][o.e.t.TransportService   ] [testTcpHandshakeConnectionReset] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:36,588][INFO ][o.e.t.TransportService   ] [testTcpHandshakeConnectionReset] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:36,599][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTcpHandshakeConnectionReset] after test
+[2020-02-16T18:49:36,601][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testKeepAlivePings] before test
+[2020-02-16T18:49:36,860][INFO ][o.e.t.TransportService   ] [testKeepAlivePings] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:37,109][INFO ][o.e.t.TransportService   ] [testKeepAlivePings] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:37,374][INFO ][o.e.t.TransportService   ] [testKeepAlivePings] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:38,399][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testKeepAlivePings] after test
+[2020-02-16T18:49:38,401][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testMockFailToSendNoConnectRule] before test
+[2020-02-16T18:49:38,649][INFO ][o.e.t.TransportService   ] [testMockFailToSendNoConnectRule] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:38,910][INFO ][o.e.t.TransportService   ] [testMockFailToSendNoConnectRule] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:38,916][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testMockFailToSendNoConnectRule] after test
+[2020-02-16T18:49:38,918][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTimeoutSendExceptionWithNeverSendingBackResponse] before test
+[2020-02-16T18:49:39,168][INFO ][o.e.t.TransportService   ] [testTimeoutSendExceptionWithNeverSendingBackResponse] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:39,420][INFO ][o.e.t.TransportService   ] [testTimeoutSendExceptionWithNeverSendingBackResponse] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:39,527][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTimeoutSendExceptionWithNeverSendingBackResponse] after test
+[2020-02-16T18:49:39,529][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVersionFrom1to0] before test
+[2020-02-16T18:49:39,782][INFO ][o.e.t.TransportService   ] [testVersionFrom1to0] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:40,029][INFO ][o.e.t.TransportService   ] [testVersionFrom1to0] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:40,035][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVersionFrom1to0] after test
+[2020-02-16T18:49:40,036][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testMessageListeners] before test
+[2020-02-16T18:49:40,288][INFO ][o.e.t.TransportService   ] [testMessageListeners] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:40,540][INFO ][o.e.t.TransportService   ] [testMessageListeners] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:40,546][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testMessageListeners] after test
+[2020-02-16T18:49:40,547][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testAcceptedChannelCount] before test
+[2020-02-16T18:49:40,796][INFO ][o.e.t.TransportService   ] [testAcceptedChannelCount] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:41,043][INFO ][o.e.t.TransportService   ] [testAcceptedChannelCount] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:41,048][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testAcceptedChannelCount] after test
+[2020-02-16T18:49:41,049][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testNotifyOnShutdown] before test
+[2020-02-16T18:49:41,298][INFO ][o.e.t.TransportService   ] [testNotifyOnShutdown] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:41,548][INFO ][o.e.t.TransportService   ] [testNotifyOnShutdown] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:41,553][INFO ][o.e.t.n.SimpleMockNioTransportTests] [org.elasticsearch.transport.nio.SimpleMockNioTransportTests] Stop ServiceB now
+[2020-02-16T18:49:41,554][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testNotifyOnShutdown] after test
+[2020-02-16T18:49:41,556][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testResponseHeadersArePreserved] before test
+[2020-02-16T18:49:41,812][INFO ][o.e.t.TransportService   ] [testResponseHeadersArePreserved] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:42,072][INFO ][o.e.t.TransportService   ] [testResponseHeadersArePreserved] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:42,079][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testResponseHeadersArePreserved] after test
+[2020-02-16T18:49:42,081][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVersionFrom0to1] before test
+[2020-02-16T18:49:42,336][INFO ][o.e.t.TransportService   ] [testVersionFrom0to1] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:42,582][INFO ][o.e.t.TransportService   ] [testVersionFrom0to1] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:42,588][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVersionFrom0to1] after test
+[2020-02-16T18:49:42,590][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testBindUnavailableAddress] before test
+[2020-02-16T18:49:42,840][INFO ][o.e.t.TransportService   ] [testBindUnavailableAddress] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:43,090][INFO ][o.e.t.TransportService   ] [testBindUnavailableAddress] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:43,222][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testBindUnavailableAddress] after test
+[2020-02-16T18:49:43,223][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testConcurrentSendRespondAndDisconnect] before test
+[2020-02-16T18:49:43,478][INFO ][o.e.t.TransportService   ] [testConcurrentSendRespondAndDisconnect] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:43,738][INFO ][o.e.t.TransportService   ] [testConcurrentSendRespondAndDisconnect] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:43,998][INFO ][o.e.t.TransportService   ] [testConcurrentSendRespondAndDisconnect] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:44,321][INFO ][o.e.t.TransportService   ] [testConcurrentSendRespondAndDisconnect] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:44,655][INFO ][o.e.t.TransportService   ] [testConcurrentSendRespondAndDisconnect] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:44,995][INFO ][o.e.t.TransportService   ] [testConcurrentSendRespondAndDisconnect] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:44,999][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testConcurrentSendRespondAndDisconnect] after test
+[2020-02-16T18:49:45,001][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTcpHandshakeTimeout] before test
+[2020-02-16T18:49:45,297][INFO ][o.e.t.TransportService   ] [testTcpHandshakeTimeout] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:45,561][INFO ][o.e.t.TransportService   ] [testTcpHandshakeTimeout] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:45,569][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTcpHandshakeTimeout] after test
+[2020-02-16T18:49:45,570][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testMockUnresponsiveRule] before test
+[2020-02-16T18:49:45,830][INFO ][o.e.t.TransportService   ] [testMockUnresponsiveRule] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:46,089][INFO ][o.e.t.TransportService   ] [testMockUnresponsiveRule] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:46,195][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testMockUnresponsiveRule] after test
+[2020-02-16T18:49:46,199][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTracerLog] before test
+[2020-02-16T18:49:46,511][INFO ][o.e.t.TransportService   ] [testTracerLog] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:46,788][INFO ][o.e.t.TransportService   ] [testTracerLog] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:46,789][TRACE][o.e.t.T.tracer           ] [TS_B] [1][internal:tcp/handshake] received request
+[2020-02-16T18:49:46,789][TRACE][o.e.t.T.tracer           ] [TS_A] [1][internal:tcp/handshake] sent to [{TS_B}{cMc_1CeaQiGVBLhIm5bBRw}{ZFS2V0fGR0mxhaAh-MDFIw}{127.0.0.1}{127.0.0.1:10401}{dim}] (timeout: [null])
+[2020-02-16T18:49:46,789][TRACE][o.e.t.T.tracer           ] [TS_B] [1][internal:tcp/handshake] sent response
+[2020-02-16T18:49:46,790][TRACE][o.e.t.T.tracer           ] [TS_A] [2][internal:transport/handshake] sent to [{TS_B}{cMc_1CeaQiGVBLhIm5bBRw}{ZFS2V0fGR0mxhaAh-MDFIw}{127.0.0.1}{127.0.0.1:10401}{dim}] (timeout: [30s])
+[2020-02-16T18:49:46,790][TRACE][o.e.t.T.tracer           ] [TS_B] [2][internal:transport/handshake] received request
+[2020-02-16T18:49:46,790][TRACE][o.e.t.T.tracer           ] [TS_B] [2][internal:transport/handshake] sent response
+[2020-02-16T18:49:46,790][TRACE][o.e.t.T.tracer           ] [TS_A] [2][internal:transport/handshake] received response from [{TS_B}{cMc_1CeaQiGVBLhIm5bBRw}{ZFS2V0fGR0mxhaAh-MDFIw}{127.0.0.1}{127.0.0.1:10401}{dim}]
+[2020-02-16T18:49:46,791][TRACE][o.e.t.T.tracer           ] [TS_A] [1][internal:tcp/handshake] received request
+[2020-02-16T18:49:46,791][TRACE][o.e.t.T.tracer           ] [TS_B] [1][internal:tcp/handshake] sent to [{TS_A}{CGGscOb2RvSLHFoVAs0iKw}{EtBO1QgmQnSNuG3ICEu6ag}{127.0.0.1}{127.0.0.1:10400}{dim}] (timeout: [null])
+[2020-02-16T18:49:46,791][TRACE][o.e.t.T.tracer           ] [TS_A] [1][internal:tcp/handshake] sent response
+[2020-02-16T18:49:46,791][TRACE][o.e.t.T.tracer           ] [TS_B] [2][internal:transport/handshake] sent to [{TS_A}{CGGscOb2RvSLHFoVAs0iKw}{EtBO1QgmQnSNuG3ICEu6ag}{127.0.0.1}{127.0.0.1:10400}{dim}] (timeout: [30s])
+[2020-02-16T18:49:46,791][TRACE][o.e.t.T.tracer           ] [TS_A] [2][internal:transport/handshake] received request
+[2020-02-16T18:49:46,792][TRACE][o.e.t.T.tracer           ] [TS_A] [2][internal:transport/handshake] sent response
+[2020-02-16T18:49:46,792][TRACE][o.e.t.T.tracer           ] [TS_B] [2][internal:transport/handshake] received response from [{TS_A}{CGGscOb2RvSLHFoVAs0iKw}{EtBO1QgmQnSNuG3ICEu6ag}{127.0.0.1}{127.0.0.1:10400}{dim}]
+[2020-02-16T18:49:46,794][INFO ][o.e.c.s.ClusterSettings  ] [testTracerLog] updating [transport.tracer.exclude] from [["internal:discovery/zen/fd*","internal:coordination/fault_detection/*","cluster:monitor/nodes/liveness"]] to [["internal:testNotSeen"]]
+[2020-02-16T18:49:46,796][TRACE][o.e.t.T.tracer           ] [TS_B] [3][internal:test] received request
+[2020-02-16T18:49:46,796][TRACE][o.e.t.T.tracer           ] [TS_A] [3][internal:test] sent to [{TS_B}{cMc_1CeaQiGVBLhIm5bBRw}{ZFS2V0fGR0mxhaAh-MDFIw}{127.0.0.1}{127.0.0.1:10401}{dim}] (timeout: [null])
+[2020-02-16T18:49:46,796][TRACE][o.e.t.T.tracer           ] [TS_B] [3][internal:test] sent response
+[2020-02-16T18:49:46,796][TRACE][o.e.t.T.tracer           ] [TS_A] [3][internal:test] received response from [{TS_B}{cMc_1CeaQiGVBLhIm5bBRw}{ZFS2V0fGR0mxhaAh-MDFIw}{127.0.0.1}{127.0.0.1:10401}{dim}]
+[2020-02-16T18:49:46,797][TRACE][o.e.t.T.tracer           ] [TS_B] [4][internal:testError] received request
+[2020-02-16T18:49:46,797][TRACE][o.e.t.T.tracer           ] [TS_A] [4][internal:testError] sent to [{TS_B}{cMc_1CeaQiGVBLhIm5bBRw}{ZFS2V0fGR0mxhaAh-MDFIw}{127.0.0.1}{127.0.0.1:10401}{dim}] (timeout: [null])
+[2020-02-16T18:49:46,797][TRACE][o.e.t.T.tracer           ] [TS_A] [4][internal:testError] received response from [{TS_B}{cMc_1CeaQiGVBLhIm5bBRw}{ZFS2V0fGR0mxhaAh-MDFIw}{127.0.0.1}{127.0.0.1:10401}{dim}]
+[2020-02-16T18:49:46,798][TRACE][o.e.t.T.tracer           ] [TS_B] [4][internal:testError] sent error response
+java.lang.RuntimeException: 
+	at org.elasticsearch.transport.AbstractSimpleTransportTestCase.lambda$testTracerLog$16(AbstractSimpleTransportTestCase.java:1021) [main/:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:63) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.InboundHandler$RequestHandler.doRun(InboundHandler.java:264) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.common.util.concurrent.EsExecutors$DirectExecutorService.execute(EsExecutors.java:225) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.InboundHandler.handleRequest(InboundHandler.java:185) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.InboundHandler.messageReceived(InboundHandler.java:118) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.InboundHandler.inboundMessage(InboundHandler.java:102) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TcpTransport.inboundMessage(TcpTransport.java:667) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TcpTransport.consumeNetworkReads(TcpTransport.java:691) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockTcpReadWriteHandler.consumeReads(MockNioTransport.java:276) [main/:?]
+	at org.elasticsearch.nio.SocketChannelContext.handleReadBytes(SocketChannelContext.java:228) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.BytesChannelContext.read(BytesChannelContext.java:40) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleRead(EventHandler.java:139) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleRead(TestEventHandler.java:151) [main/:?]
+	at org.elasticsearch.nio.NioSelector.handleRead(NioSelector.java:420) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.processKey(NioSelector.java:246) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.singleLoop(NioSelector.java:174) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.runLoop(NioSelector.java:131) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:49:46,800][TRACE][o.e.t.T.tracer           ] [TS_B] [5][internal:testNotSeen] received request
+[2020-02-16T18:49:46,800][TRACE][o.e.t.T.tracer           ] [TS_B] [5][internal:testNotSeen] sent response
+[2020-02-16T18:49:46,802][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTracerLog] after test
+[2020-02-16T18:49:46,804][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHandshakeUpdatesVersion] before test
+[2020-02-16T18:49:47,055][INFO ][o.e.t.TransportService   ] [testHandshakeUpdatesVersion] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:47,303][INFO ][o.e.t.TransportService   ] [testHandshakeUpdatesVersion] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:47,554][INFO ][o.e.t.TransportService   ] [testHandshakeUpdatesVersion] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:47,557][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHandshakeUpdatesVersion] after test
+[2020-02-16T18:49:47,558][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testLocalNodeConnection] before test
+[2020-02-16T18:49:47,824][INFO ][o.e.t.TransportService   ] [testLocalNodeConnection] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:48,074][INFO ][o.e.t.TransportService   ] [testLocalNodeConnection] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:48,079][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testLocalNodeConnection] after test
+[2020-02-16T18:49:48,080][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTimeoutSendExceptionWithDelayedResponse] before test
+[2020-02-16T18:49:48,331][INFO ][o.e.t.TransportService   ] [testTimeoutSendExceptionWithDelayedResponse] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:48,580][INFO ][o.e.t.TransportService   ] [testTimeoutSendExceptionWithDelayedResponse] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:48,697][WARN ][o.e.t.TransportService   ] [TS_B] Received response for a request that has timed out, sent [200ms] ago, timed out [0ms] ago, action [internal:sayHelloTimeoutDelayedResponse], node [{TS_A}{Jpv7_MmeSsOG2Qy5whS5kA}{8_XupKIYQzSV2y0x2mNypw}{127.0.0.1}{127.0.0.1:10400}{dim}], id [3]
+[2020-02-16T18:49:48,699][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTimeoutSendExceptionWithDelayedResponse] after test
+[2020-02-16T18:49:48,701][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testConcurrentDisconnectOnNonPublishedConnection] before test
+[2020-02-16T18:49:49,007][INFO ][o.e.t.TransportService   ] [testConcurrentDisconnectOnNonPublishedConnection] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:49,269][INFO ][o.e.t.TransportService   ] [testConcurrentDisconnectOnNonPublishedConnection] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:49,530][INFO ][o.e.t.TransportService   ] [testConcurrentDisconnectOnNonPublishedConnection] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:49,534][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testConcurrentDisconnectOnNonPublishedConnection] after test
+[2020-02-16T18:49:49,536][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testRegisterHandlerTwice] before test
+[2020-02-16T18:49:49,792][INFO ][o.e.t.TransportService   ] [testRegisterHandlerTwice] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:50,065][INFO ][o.e.t.TransportService   ] [testRegisterHandlerTwice] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:50,070][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testRegisterHandlerTwice] after test
+[2020-02-16T18:49:50,071][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testSendRandomRequests] before test
+[2020-02-16T18:49:50,383][INFO ][o.e.t.TransportService   ] [testSendRandomRequests] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:50,641][INFO ][o.e.t.TransportService   ] [testSendRandomRequests] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:50,900][INFO ][o.e.t.TransportService   ] [testSendRandomRequests] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:51,177][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testSendRandomRequests] after test
+[2020-02-16T18:49:51,179][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testErrorMessage] before test
+[2020-02-16T18:49:51,446][INFO ][o.e.t.TransportService   ] [testErrorMessage] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:51,697][INFO ][o.e.t.TransportService   ] [testErrorMessage] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:51,702][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testErrorMessage] after test
+[2020-02-16T18:49:51,705][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVoidMessageCompressed] before test
+[2020-02-16T18:49:51,955][INFO ][o.e.t.TransportService   ] [testVoidMessageCompressed] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:52,204][INFO ][o.e.t.TransportService   ] [testVoidMessageCompressed] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:52,590][INFO ][o.e.t.TransportService   ] [testVoidMessageCompressed] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:52,598][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVoidMessageCompressed] after test
+[2020-02-16T18:49:52,600][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVersionFrom1to1] before test
+[2020-02-16T18:49:52,853][INFO ][o.e.t.TransportService   ] [testVersionFrom1to1] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:53,103][INFO ][o.e.t.TransportService   ] [testVersionFrom1to1] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:53,109][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testVersionFrom1to1] after test
+[2020-02-16T18:49:53,110][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHostOnMessages] before test
+[2020-02-16T18:49:53,411][INFO ][o.e.t.TransportService   ] [testHostOnMessages] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:53,752][INFO ][o.e.t.TransportService   ] [testHostOnMessages] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:53,759][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHostOnMessages] after test
+[2020-02-16T18:49:53,761][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHandshakeWithIncompatVersion] before test
+[2020-02-16T18:49:54,078][INFO ][o.e.t.TransportService   ] [testHandshakeWithIncompatVersion] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:54,337][INFO ][o.e.t.TransportService   ] [testHandshakeWithIncompatVersion] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:54,606][INFO ][o.e.t.TransportService   ] [testHandshakeWithIncompatVersion] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:54,607][WARN ][o.e.t.TcpTransport       ] [TS_C] exception caught on transport layer [NioSocketChannel{localAddress=/127.0.0.1:10402, remoteAddress=/127.0.0.1:62868}], closing connection
+java.lang.IllegalStateException: Received handshake message from unsupported version: [5.6.0] minimal compatible version is: [2.0.0]
+	at org.elasticsearch.transport.InboundMessage.ensureVersionCompatibility(InboundMessage.java:146) ~[elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.InboundMessage.access$000(InboundMessage.java:39) ~[elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.InboundMessage$Reader.deserialize(InboundMessage.java:76) ~[elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.InboundHandler.messageReceived(InboundHandler.java:113) ~[elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.InboundHandler.inboundMessage(InboundHandler.java:102) ~[elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TcpTransport.inboundMessage(TcpTransport.java:667) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TcpTransport.consumeNetworkReads(TcpTransport.java:691) [elasticsearch-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockTcpReadWriteHandler.consumeReads(MockNioTransport.java:276) [main/:?]
+	at org.elasticsearch.nio.SocketChannelContext.handleReadBytes(SocketChannelContext.java:228) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.BytesChannelContext.read(BytesChannelContext.java:40) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleRead(EventHandler.java:139) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleRead(TestEventHandler.java:151) [main/:?]
+	at org.elasticsearch.nio.NioSelector.handleRead(NioSelector.java:420) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.processKey(NioSelector.java:246) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.singleLoop(NioSelector.java:174) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.runLoop(NioSelector.java:131) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:49:54,610][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHandshakeWithIncompatVersion] after test
+[2020-02-16T18:49:54,611][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHandlerIsInvokedOnConnectionClose] before test
+[2020-02-16T18:49:54,860][INFO ][o.e.t.TransportService   ] [testHandlerIsInvokedOnConnectionClose] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:55,119][INFO ][o.e.t.TransportService   ] [testHandlerIsInvokedOnConnectionClose] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:55,369][INFO ][o.e.t.TransportService   ] [testHandlerIsInvokedOnConnectionClose] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:55,372][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHandlerIsInvokedOnConnectionClose] after test
+[2020-02-16T18:49:55,374][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHelloWorldCompressed] before test
+[2020-02-16T18:49:55,622][INFO ][o.e.t.TransportService   ] [testHelloWorldCompressed] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:55,877][INFO ][o.e.t.TransportService   ] [testHelloWorldCompressed] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:56,131][INFO ][o.e.t.TransportService   ] [testHelloWorldCompressed] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:56,136][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testHelloWorldCompressed] after test
+[2020-02-16T18:49:56,138][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testThreadContext] before test
+[2020-02-16T18:49:56,394][INFO ][o.e.t.TransportService   ] [testThreadContext] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:56,651][INFO ][o.e.t.TransportService   ] [testThreadContext] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:56,659][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testThreadContext] after test
+[2020-02-16T18:49:56,661][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testProfileSettings] before test
+[2020-02-16T18:49:56,921][INFO ][o.e.t.TransportService   ] [testProfileSettings] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:57,167][INFO ][o.e.t.TransportService   ] [testProfileSettings] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:57,172][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testProfileSettings] after test
+[2020-02-16T18:49:57,174][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTransportStats] before test
+[2020-02-16T18:49:57,422][INFO ][o.e.t.TransportService   ] [testTransportStats] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:57,671][INFO ][o.e.t.TransportService   ] [testTransportStats] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:57,923][INFO ][o.e.t.TransportService   ] [testTransportStats] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:57,927][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTransportStats] after test
+[2020-02-16T18:49:57,929][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTimeoutPerConnection] before test
+[2020-02-16T18:49:58,180][INFO ][o.e.t.TransportService   ] [testTimeoutPerConnection] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:58,434][INFO ][o.e.t.TransportService   ] [testTimeoutPerConnection] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:58,440][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTimeoutPerConnection] after test
+[2020-02-16T18:49:58,443][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTransportStatsWithException] before test
+[2020-02-16T18:49:58,690][INFO ][o.e.t.TransportService   ] [testTransportStatsWithException] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:58,935][INFO ][o.e.t.TransportService   ] [testTransportStatsWithException] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:59,184][INFO ][o.e.t.TransportService   ] [testTransportStatsWithException] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:49:59,189][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTransportStatsWithException] after test
+[2020-02-16T18:49:59,190][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testDisconnectListener] before test
+[2020-02-16T18:49:59,440][INFO ][o.e.t.TransportService   ] [testDisconnectListener] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:49:59,686][INFO ][o.e.t.TransportService   ] [testDisconnectListener] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:49:59,690][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testDisconnectListener] after test
+[2020-02-16T18:49:59,691][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testChannelCloseWhileConnecting] before test
+[2020-02-16T18:49:59,944][INFO ][o.e.t.TransportService   ] [testChannelCloseWhileConnecting] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:50:00,203][INFO ][o.e.t.TransportService   ] [testChannelCloseWhileConnecting] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:50:00,458][INFO ][o.e.t.TransportService   ] [testChannelCloseWhileConnecting] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:50:00,462][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testChannelCloseWhileConnecting] after test
+[2020-02-16T18:50:00,463][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testBlockingIncomingRequests] before test
+[2020-02-16T18:50:00,710][INFO ][o.e.t.TransportService   ] [testBlockingIncomingRequests] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:50:00,956][INFO ][o.e.t.TransportService   ] [testBlockingIncomingRequests] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:50:01,206][INFO ][o.e.t.TransportService   ] [testBlockingIncomingRequests] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:50:01,454][INFO ][o.e.t.TransportService   ] [testBlockingIncomingRequests] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:50:01,458][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testBlockingIncomingRequests] after test
+[2020-02-16T18:50:01,460][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTcpHandshake] before test
+[2020-02-16T18:50:01,712][INFO ][o.e.t.TransportService   ] [testTcpHandshake] publish_address {127.0.0.1:10400}, bound_addresses {127.0.0.1:10400}, {[::1]:10400}
+[2020-02-16T18:50:01,960][INFO ][o.e.t.TransportService   ] [testTcpHandshake] publish_address {127.0.0.1:10401}, bound_addresses {127.0.0.1:10401}, {[::1]:10401}
+[2020-02-16T18:50:02,212][INFO ][o.e.t.TransportService   ] [testTcpHandshake] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:50:02,213][WARN ][o.e.t.TransportService   ] [TS_A] Transport response handler not found of id [3]
+[2020-02-16T18:50:02,463][INFO ][o.e.t.TransportService   ] [testTcpHandshake] publish_address {127.0.0.1:10402}, bound_addresses {127.0.0.1:10402}, {[::1]:10402}
+[2020-02-16T18:50:02,466][INFO ][o.e.t.n.SimpleMockNioTransportTests] [testTcpHandshake] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

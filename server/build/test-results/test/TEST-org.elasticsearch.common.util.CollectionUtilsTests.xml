@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.CollectionUtilsTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:51" hostname="Escoto-PC" time="0.046">
+  <properties/>
+  <testcase name="testRotateEmpty" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.003"/>
+  <testcase name="testSortAndDedupByteRefArray" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.011"/>
+  <testcase name="testOversizedPartition" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.002"/>
+  <testcase name="testSimplePartition" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.001"/>
+  <testcase name="testSortByteRefArray" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.009"/>
+  <testcase name="testPerfectPartition" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.005"/>
+  <testcase name="testEnsureNoSelfReferences" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.006"/>
+  <testcase name="testEmptyPartition" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.003"/>
+  <testcase name="testRotate" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.003"/>
+  <testcase name="testSingletonPartition" classname="org.elasticsearch.common.util.CollectionUtilsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T13:20:51,237][INFO ][o.e.c.u.CollectionUtilsTests] [testRotateEmpty] before test
+[2020-02-16T13:20:51,238][INFO ][o.e.c.u.CollectionUtilsTests] [testRotateEmpty] after test
+[2020-02-16T13:20:51,240][INFO ][o.e.c.u.CollectionUtilsTests] [testSortAndDedupByteRefArray] before test
+[2020-02-16T13:20:51,249][INFO ][o.e.c.u.CollectionUtilsTests] [testSortAndDedupByteRefArray] after test
+[2020-02-16T13:20:51,250][INFO ][o.e.c.u.CollectionUtilsTests] [testOversizedPartition] before test
+[2020-02-16T13:20:51,251][INFO ][o.e.c.u.CollectionUtilsTests] [testOversizedPartition] after test
+[2020-02-16T13:20:51,252][INFO ][o.e.c.u.CollectionUtilsTests] [testSimplePartition] before test
+[2020-02-16T13:20:51,252][INFO ][o.e.c.u.CollectionUtilsTests] [testSimplePartition] after test
+[2020-02-16T13:20:51,254][INFO ][o.e.c.u.CollectionUtilsTests] [testSortByteRefArray] before test
+[2020-02-16T13:20:51,262][INFO ][o.e.c.u.CollectionUtilsTests] [testSortByteRefArray] after test
+[2020-02-16T13:20:51,267][INFO ][o.e.c.u.CollectionUtilsTests] [testPerfectPartition] before test
+[2020-02-16T13:20:51,267][INFO ][o.e.c.u.CollectionUtilsTests] [testPerfectPartition] after test
+[2020-02-16T13:20:51,272][INFO ][o.e.c.u.CollectionUtilsTests] [testEnsureNoSelfReferences] before test
+[2020-02-16T13:20:51,273][INFO ][o.e.c.u.CollectionUtilsTests] [testEnsureNoSelfReferences] after test
+[2020-02-16T13:20:51,276][INFO ][o.e.c.u.CollectionUtilsTests] [testEmptyPartition] before test
+[2020-02-16T13:20:51,276][INFO ][o.e.c.u.CollectionUtilsTests] [testEmptyPartition] after test
+[2020-02-16T13:20:51,278][INFO ][o.e.c.u.CollectionUtilsTests] [testRotate] before test
+[2020-02-16T13:20:51,279][INFO ][o.e.c.u.CollectionUtilsTests] [testRotate] after test
+[2020-02-16T13:20:51,281][INFO ][o.e.c.u.CollectionUtilsTests] [testSingletonPartition] before test
+[2020-02-16T13:20:51,281][INFO ][o.e.c.u.CollectionUtilsTests] [testSingletonPartition] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.lucene.uid.VersionLookupTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:47" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testSimple" classname="org.elasticsearch.common.lucene.uid.VersionLookupTests" time="0.009"/>
+  <testcase name="testTwoDocuments" classname="org.elasticsearch.common.lucene.uid.VersionLookupTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T16:21:47,649][INFO ][o.e.c.l.u.VersionLookupTests] [testSimple] before test
+[2020-02-16T16:21:47,655][INFO ][o.e.c.l.u.VersionLookupTests] [testSimple] after test
+[2020-02-16T16:21:47,657][INFO ][o.e.c.l.u.VersionLookupTests] [testTwoDocuments] before test
+[2020-02-16T16:21:47,663][INFO ][o.e.c.l.u.VersionLookupTests] [testTwoDocuments] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

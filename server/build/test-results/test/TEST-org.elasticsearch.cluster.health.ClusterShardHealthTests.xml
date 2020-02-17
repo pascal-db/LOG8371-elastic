@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.health.ClusterShardHealthTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:33" hostname="Escoto-PC" time="0.037">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.cluster.health.ClusterShardHealthTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.cluster.health.ClusterShardHealthTests" time="0.025"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.health.ClusterShardHealthTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T19:20:33,193][INFO ][o.e.c.h.ClusterShardHealthTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:20:33,195][INFO ][o.e.c.h.ClusterShardHealthTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:20:33,199][INFO ][o.e.c.h.ClusterShardHealthTests] [testFromXContent] before test
+[2020-02-16T19:20:33,220][INFO ][o.e.c.h.ClusterShardHealthTests] [testFromXContent] after test
+[2020-02-16T19:20:33,228][INFO ][o.e.c.h.ClusterShardHealthTests] [testSerialization] before test
+[2020-02-16T19:20:33,228][INFO ][o.e.c.h.ClusterShardHealthTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

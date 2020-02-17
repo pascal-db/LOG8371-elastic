@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.RoutingFieldTypeTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:58" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testWildcardQuery" classname="org.elasticsearch.index.mapper.RoutingFieldTypeTests" time="0.005"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.RoutingFieldTypeTests" time="0.003"/>
+  <testcase name="testRegexpQuery" classname="org.elasticsearch.index.mapper.RoutingFieldTypeTests" time="0.003"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.RoutingFieldTypeTests" time="0.003"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.RoutingFieldTypeTests" time="0.002"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.RoutingFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.RoutingFieldTypeTests" time="0.002"/>
+  <testcase name="testPrefixQuery" classname="org.elasticsearch.index.mapper.RoutingFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:22:58,586][INFO ][o.e.i.m.RoutingFieldTypeTests] [testWildcardQuery] before test
+[2020-02-17T06:22:58,589][INFO ][o.e.i.m.RoutingFieldTypeTests] [testWildcardQuery] after test
+[2020-02-17T06:22:58,592][INFO ][o.e.i.m.RoutingFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-17T06:22:58,593][INFO ][o.e.i.m.RoutingFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-17T06:22:58,594][INFO ][o.e.i.m.RoutingFieldTypeTests] [testRegexpQuery] before test
+[2020-02-17T06:22:58,596][INFO ][o.e.i.m.RoutingFieldTypeTests] [testRegexpQuery] after test
+[2020-02-17T06:22:58,599][INFO ][o.e.i.m.RoutingFieldTypeTests] [testEquals] before test
+[2020-02-17T06:22:58,599][INFO ][o.e.i.m.RoutingFieldTypeTests] [testEquals] after test
+[2020-02-17T06:22:58,600][INFO ][o.e.i.m.RoutingFieldTypeTests] [testCheckTypeName] before test
+[2020-02-17T06:22:58,601][INFO ][o.e.i.m.RoutingFieldTypeTests] [testCheckTypeName] after test
+[2020-02-17T06:22:58,602][INFO ][o.e.i.m.RoutingFieldTypeTests] [testClone] before test
+[2020-02-17T06:22:58,603][INFO ][o.e.i.m.RoutingFieldTypeTests] [testClone] after test
+[2020-02-17T06:22:58,605][INFO ][o.e.i.m.RoutingFieldTypeTests] [testFreeze] before test
+[2020-02-17T06:22:58,605][INFO ][o.e.i.m.RoutingFieldTypeTests] [testFreeze] after test
+[2020-02-17T06:22:58,607][INFO ][o.e.i.m.RoutingFieldTypeTests] [testPrefixQuery] before test
+[2020-02-17T06:22:58,607][INFO ][o.e.i.m.RoutingFieldTypeTests] [testPrefixQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

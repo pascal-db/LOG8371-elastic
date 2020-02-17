@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:43" hostname="Escoto-PC" time="3.959">
+  <properties/>
+  <testcase name="testMissingFirstConstructorArg" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="3.61"/>
+  <testcase name="testMissingSecondConstructorArg" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.009"/>
+  <testcase name="testParseNamedObjectJunkInArrayConstructorArg" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.137"/>
+  <testcase name="testMissingFirstConstructorArgButNotRequired" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.004"/>
+  <testcase name="testParseNamedObjectTwoFieldsInArrayConstructorArg" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.005"/>
+  <testcase name="testParseNamedObjectInOrderNotSupported" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.005"/>
+  <testcase name="testParseNamedObjectTwoFieldsInArray" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.004"/>
+  <testcase name="testParseNamedObject" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.005"/>
+  <testcase name="testParseNamedObjectInOrder" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.057"/>
+  <testcase name="testParseNamedObjectNoFieldsInArrayConstructorArg" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.013"/>
+  <testcase name="testCalledOneTime" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.024"/>
+  <testcase name="testMissingAllConstructorArgsButNotRequired" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.003"/>
+  <testcase name="testRandomOrder" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.026"/>
+  <testcase name="testBadParamBeforeObjectBuilt" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.005"/>
+  <testcase name="testNullDeclares" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.006"/>
+  <testcase name="testConstructorArgsMustBeConfigured" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.006"/>
+  <testcase name="testIgnoreUnknownFields" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.004"/>
+  <testcase name="testParseNamedObjectInOrderNotSupportedConstructorArg" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.004"/>
+  <testcase name="testParseNamedObjectJunkInArray" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.006"/>
+  <testcase name="testMissingSecondConstructorArgButNotRequired" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.005"/>
+  <testcase name="testBadParam" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.004"/>
+  <testcase name="testConstructObjectUsingContext" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.003"/>
+  <testcase name="testMissingAllConstructorArgs" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.006"/>
+  <testcase name="testParseNamedObjectNoFieldsInArray" classname="org.elasticsearch.common.xcontent.ConstructingObjectParserTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T19:20:43,814][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingFirstConstructorArg] before test
+[2020-02-16T19:20:47,369][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingFirstConstructorArg] after test
+[2020-02-16T19:20:47,388][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingSecondConstructorArg] before test
+[2020-02-16T19:20:47,389][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingSecondConstructorArg] after test
+[2020-02-16T19:20:47,503][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectJunkInArrayConstructorArg] before test
+[2020-02-16T19:20:47,526][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectJunkInArrayConstructorArg] after test
+[2020-02-16T19:20:47,530][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingFirstConstructorArgButNotRequired] before test
+[2020-02-16T19:20:47,531][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingFirstConstructorArgButNotRequired] after test
+[2020-02-16T19:20:47,534][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectTwoFieldsInArrayConstructorArg] before test
+[2020-02-16T19:20:47,535][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectTwoFieldsInArrayConstructorArg] after test
+[2020-02-16T19:20:47,538][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectInOrderNotSupported] before test
+[2020-02-16T19:20:47,540][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectInOrderNotSupported] after test
+[2020-02-16T19:20:47,543][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectTwoFieldsInArray] before test
+[2020-02-16T19:20:47,544][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectTwoFieldsInArray] after test
+[2020-02-16T19:20:47,547][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObject] before test
+[2020-02-16T19:20:47,549][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObject] after test
+[2020-02-16T19:20:47,606][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectInOrder] before test
+[2020-02-16T19:20:47,607][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectInOrder] after test
+[2020-02-16T19:20:47,614][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectNoFieldsInArrayConstructorArg] before test
+[2020-02-16T19:20:47,620][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectNoFieldsInArrayConstructorArg] after test
+[2020-02-16T19:20:47,642][INFO ][o.e.c.x.ConstructingObjectParserTests] [testCalledOneTime] before test
+[2020-02-16T19:20:47,644][INFO ][o.e.c.x.ConstructingObjectParserTests] [testCalledOneTime] after test
+[2020-02-16T19:20:47,647][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingAllConstructorArgsButNotRequired] before test
+[2020-02-16T19:20:47,648][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingAllConstructorArgsButNotRequired] after test
+[2020-02-16T19:20:47,656][INFO ][o.e.c.x.ConstructingObjectParserTests] [testRandomOrder] before test
+[2020-02-16T19:20:47,674][INFO ][o.e.c.x.ConstructingObjectParserTests] [testRandomOrder] after test
+[2020-02-16T19:20:47,677][INFO ][o.e.c.x.ConstructingObjectParserTests] [testBadParamBeforeObjectBuilt] before test
+[2020-02-16T19:20:47,679][INFO ][o.e.c.x.ConstructingObjectParserTests] [testBadParamBeforeObjectBuilt] after test
+[2020-02-16T19:20:47,682][INFO ][o.e.c.x.ConstructingObjectParserTests] [testNullDeclares] before test
+[2020-02-16T19:20:47,685][INFO ][o.e.c.x.ConstructingObjectParserTests] [testNullDeclares] after test
+[2020-02-16T19:20:47,690][INFO ][o.e.c.x.ConstructingObjectParserTests] [testConstructorArgsMustBeConfigured] before test
+[2020-02-16T19:20:47,691][INFO ][o.e.c.x.ConstructingObjectParserTests] [testConstructorArgsMustBeConfigured] after test
+[2020-02-16T19:20:47,694][INFO ][o.e.c.x.ConstructingObjectParserTests] [testIgnoreUnknownFields] before test
+[2020-02-16T19:20:47,695][INFO ][o.e.c.x.ConstructingObjectParserTests] [testIgnoreUnknownFields] after test
+[2020-02-16T19:20:47,699][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectInOrderNotSupportedConstructorArg] before test
+[2020-02-16T19:20:47,700][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectInOrderNotSupportedConstructorArg] after test
+[2020-02-16T19:20:47,706][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectJunkInArray] before test
+[2020-02-16T19:20:47,707][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectJunkInArray] after test
+[2020-02-16T19:20:47,711][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingSecondConstructorArgButNotRequired] before test
+[2020-02-16T19:20:47,711][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingSecondConstructorArgButNotRequired] after test
+[2020-02-16T19:20:47,714][INFO ][o.e.c.x.ConstructingObjectParserTests] [testBadParam] before test
+[2020-02-16T19:20:47,715][INFO ][o.e.c.x.ConstructingObjectParserTests] [testBadParam] after test
+[2020-02-16T19:20:47,718][INFO ][o.e.c.x.ConstructingObjectParserTests] [testConstructObjectUsingContext] before test
+[2020-02-16T19:20:47,719][INFO ][o.e.c.x.ConstructingObjectParserTests] [testConstructObjectUsingContext] after test
+[2020-02-16T19:20:47,723][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingAllConstructorArgs] before test
+[2020-02-16T19:20:47,724][INFO ][o.e.c.x.ConstructingObjectParserTests] [testMissingAllConstructorArgs] after test
+[2020-02-16T19:20:47,728][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectNoFieldsInArray] before test
+[2020-02-16T19:20:47,729][INFO ][o.e.c.x.ConstructingObjectParserTests] [testParseNamedObjectNoFieldsInArray] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

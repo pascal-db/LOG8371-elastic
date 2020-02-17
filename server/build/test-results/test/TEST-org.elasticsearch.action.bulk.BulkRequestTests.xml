@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.BulkRequestTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:34" hostname="Escoto-PC" time="0.238">
+  <properties/>
+  <testcase name="testSimpleBulk7" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.014"/>
+  <testcase name="testSimpleBulk1" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.004"/>
+  <testcase name="testBulkNoSource" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.005"/>
+  <testcase name="testSimpleBulk10" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.02"/>
+  <testcase name="testSmileIsSupported" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.002"/>
+  <testcase name="testSimpleBulk8" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.007"/>
+  <testcase name="testSimpleBulk3" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.002"/>
+  <testcase name="testSimpleBulk6" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.004"/>
+  <testcase name="testToValidateUpsertRequestAndCASInBulkRequest" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.056"/>
+  <testcase name="testBulkActionShouldNotContainArray" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.015"/>
+  <testcase name="testBulkRequestWithRefresh" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.006"/>
+  <testcase name="testSimpleBulk9" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.005"/>
+  <testcase name="testBulkEmptyObject" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.008"/>
+  <testcase name="testBulkAddIterable" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.006"/>
+  <testcase name="testSimpleBulk2" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.013"/>
+  <testcase name="testSimpleBulk4" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.006"/>
+  <testcase name="testCannotAddNullRequests" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.003"/>
+  <testcase name="testBulkAllowExplicitIndex" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.005"/>
+  <testcase name="testBulkTerminatedByNewline" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.049"/>
+  <testcase name="testSimpleBulkWithCarriageReturn" classname="org.elasticsearch.action.bulk.BulkRequestTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T16:20:34,692][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk7] before test
+[2020-02-16T16:20:34,699][WARN ][o.e.d.a.b.BulkRequestParser] [testSimpleBulk7] [types removal] Specifying types in bulk requests is deprecated.
+[2020-02-16T16:20:34,700][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk7] after test
+[2020-02-16T16:20:34,703][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk1] before test
+[2020-02-16T16:20:34,704][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk1] after test
+[2020-02-16T16:20:34,706][INFO ][o.e.a.b.BulkRequestTests ] [testBulkNoSource] before test
+[2020-02-16T16:20:34,709][INFO ][o.e.a.b.BulkRequestTests ] [testBulkNoSource] after test
+[2020-02-16T16:20:34,728][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk10] before test
+[2020-02-16T16:20:34,729][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk10] after test
+[2020-02-16T16:20:34,731][INFO ][o.e.a.b.BulkRequestTests ] [testSmileIsSupported] before test
+[2020-02-16T16:20:34,732][INFO ][o.e.a.b.BulkRequestTests ] [testSmileIsSupported] after test
+[2020-02-16T16:20:34,737][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk8] before test
+[2020-02-16T16:20:34,739][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk8] after test
+[2020-02-16T16:20:34,740][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk3] before test
+[2020-02-16T16:20:34,741][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk3] after test
+[2020-02-16T16:20:34,743][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk6] before test
+[2020-02-16T16:20:34,745][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk6] after test
+[2020-02-16T16:20:34,800][INFO ][o.e.a.b.BulkRequestTests ] [testToValidateUpsertRequestAndCASInBulkRequest] before test
+[2020-02-16T16:20:34,801][INFO ][o.e.a.b.BulkRequestTests ] [testToValidateUpsertRequestAndCASInBulkRequest] after test
+[2020-02-16T16:20:34,816][INFO ][o.e.a.b.BulkRequestTests ] [testBulkActionShouldNotContainArray] before test
+[2020-02-16T16:20:34,816][INFO ][o.e.a.b.BulkRequestTests ] [testBulkActionShouldNotContainArray] after test
+[2020-02-16T16:20:34,823][INFO ][o.e.a.b.BulkRequestTests ] [testBulkRequestWithRefresh] before test
+[2020-02-16T16:20:34,823][INFO ][o.e.a.b.BulkRequestTests ] [testBulkRequestWithRefresh] after test
+[2020-02-16T16:20:34,827][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk9] before test
+[2020-02-16T16:20:34,828][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk9] after test
+[2020-02-16T16:20:34,837][INFO ][o.e.a.b.BulkRequestTests ] [testBulkEmptyObject] before test
+[2020-02-16T16:20:34,837][INFO ][o.e.a.b.BulkRequestTests ] [testBulkEmptyObject] after test
+[2020-02-16T16:20:34,843][INFO ][o.e.a.b.BulkRequestTests ] [testBulkAddIterable] before test
+[2020-02-16T16:20:34,843][INFO ][o.e.a.b.BulkRequestTests ] [testBulkAddIterable] after test
+[2020-02-16T16:20:34,855][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk2] before test
+[2020-02-16T16:20:34,856][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk2] after test
+[2020-02-16T16:20:34,860][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk4] before test
+[2020-02-16T16:20:34,862][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulk4] after test
+[2020-02-16T16:20:34,864][INFO ][o.e.a.b.BulkRequestTests ] [testCannotAddNullRequests] before test
+[2020-02-16T16:20:34,865][INFO ][o.e.a.b.BulkRequestTests ] [testCannotAddNullRequests] after test
+[2020-02-16T16:20:34,868][INFO ][o.e.a.b.BulkRequestTests ] [testBulkAllowExplicitIndex] before test
+[2020-02-16T16:20:34,870][INFO ][o.e.a.b.BulkRequestTests ] [testBulkAllowExplicitIndex] after test
+[2020-02-16T16:20:34,917][INFO ][o.e.a.b.BulkRequestTests ] [testBulkTerminatedByNewline] before test
+[2020-02-16T16:20:34,920][INFO ][o.e.a.b.BulkRequestTests ] [testBulkTerminatedByNewline] after test
+[2020-02-16T16:20:34,923][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulkWithCarriageReturn] before test
+[2020-02-16T16:20:34,924][INFO ][o.e.a.b.BulkRequestTests ] [testSimpleBulkWithCarriageReturn] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.TypeFieldTypeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:33" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.TypeFieldTypeTests" time="0.001"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.TypeFieldTypeTests" time="0.001"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.TypeFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.TypeFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.TypeFieldTypeTests" time="0.002"/>
+  <testcase name="testTermsQuery" classname="org.elasticsearch.index.mapper.TypeFieldTypeTests" time="0.017"/>
+  <system-out><![CDATA[[2020-02-16T22:23:33,644][INFO ][o.e.i.m.TypeFieldTypeTests] [testEquals] before test
+[2020-02-16T22:23:33,644][INFO ][o.e.i.m.TypeFieldTypeTests] [testEquals] after test
+[2020-02-16T22:23:33,646][INFO ][o.e.i.m.TypeFieldTypeTests] [testFreeze] before test
+[2020-02-16T22:23:33,646][INFO ][o.e.i.m.TypeFieldTypeTests] [testFreeze] after test
+[2020-02-16T22:23:33,647][INFO ][o.e.i.m.TypeFieldTypeTests] [testClone] before test
+[2020-02-16T22:23:33,647][INFO ][o.e.i.m.TypeFieldTypeTests] [testClone] after test
+[2020-02-16T22:23:33,649][INFO ][o.e.i.m.TypeFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T22:23:33,649][INFO ][o.e.i.m.TypeFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T22:23:33,651][INFO ][o.e.i.m.TypeFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T22:23:33,651][INFO ][o.e.i.m.TypeFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T22:23:33,655][INFO ][o.e.i.m.TypeFieldTypeTests] [testTermsQuery] before test
+[2020-02-16T22:23:33,669][INFO ][o.e.i.m.TypeFieldTypeTests] [testTermsQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

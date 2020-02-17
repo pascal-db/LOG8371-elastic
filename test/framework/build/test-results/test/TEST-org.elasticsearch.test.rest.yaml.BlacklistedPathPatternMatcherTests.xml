@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.BlacklistedPathPatternMatcherTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:53" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testMatchesMultiWildcardPatterns" classname="org.elasticsearch.test.rest.yaml.BlacklistedPathPatternMatcherTests" time="0.006"/>
+  <testcase name="testMatchesPatternsWithEscapedCommas" classname="org.elasticsearch.test.rest.yaml.BlacklistedPathPatternMatcherTests" time="0.017"/>
+  <testcase name="testMatchesMixedPatterns" classname="org.elasticsearch.test.rest.yaml.BlacklistedPathPatternMatcherTests" time="0.002"/>
+  <testcase name="testMatchesSimpleWildcardPatterns" classname="org.elasticsearch.test.rest.yaml.BlacklistedPathPatternMatcherTests" time="0.003"/>
+  <testcase name="testMatchesExact" classname="org.elasticsearch.test.rest.yaml.BlacklistedPathPatternMatcherTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-16T18:48:53,600][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesMultiWildcardPatterns] before test
+[2020-02-16T18:48:53,602][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesMultiWildcardPatterns] after test
+[2020-02-16T18:48:53,622][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesPatternsWithEscapedCommas] before test
+[2020-02-16T18:48:53,622][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesPatternsWithEscapedCommas] after test
+[2020-02-16T18:48:53,624][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesMixedPatterns] before test
+[2020-02-16T18:48:53,625][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesMixedPatterns] after test
+[2020-02-16T18:48:53,627][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesSimpleWildcardPatterns] before test
+[2020-02-16T18:48:53,627][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesSimpleWildcardPatterns] after test
+[2020-02-16T18:48:53,642][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesExact] before test
+[2020-02-16T18:48:53,642][INFO ][o.e.t.r.y.BlacklistedPathPatternMatcherTests] [testMatchesExact] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

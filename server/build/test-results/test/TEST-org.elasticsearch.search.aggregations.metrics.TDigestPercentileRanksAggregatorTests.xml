@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.TDigestPercentileRanksAggregatorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:32" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testSimple" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentileRanksAggregatorTests" time="0.008"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentileRanksAggregatorTests" time="0.003"/>
+  <testcase name="testEmptyValues" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentileRanksAggregatorTests" time="0.002"/>
+  <testcase name="testNullValues" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentileRanksAggregatorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:25:32,971][INFO ][o.e.s.a.m.TDigestPercentileRanksAggregatorTests] [testSimple] before test
+[2020-02-16T23:25:32,977][INFO ][o.e.s.a.m.TDigestPercentileRanksAggregatorTests] [testSimple] after test
+[2020-02-16T23:25:32,979][INFO ][o.e.s.a.m.TDigestPercentileRanksAggregatorTests] [testEmpty] before test
+[2020-02-16T23:25:32,981][INFO ][o.e.s.a.m.TDigestPercentileRanksAggregatorTests] [testEmpty] after test
+[2020-02-16T23:25:32,982][INFO ][o.e.s.a.m.TDigestPercentileRanksAggregatorTests] [testEmptyValues] before test
+[2020-02-16T23:25:32,983][INFO ][o.e.s.a.m.TDigestPercentileRanksAggregatorTests] [testEmptyValues] after test
+[2020-02-16T23:25:32,984][INFO ][o.e.s.a.m.TDigestPercentileRanksAggregatorTests] [testNullValues] before test
+[2020-02-16T23:25:32,984][INFO ][o.e.s.a.m.TDigestPercentileRanksAggregatorTests] [testNullValues] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

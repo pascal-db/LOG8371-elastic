@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.RatedDocumentTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:51" hostname="Escoto-PC" time="0.034">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.RatedDocumentTests" time="0.013"/>
+  <testcase name="testXContentParsingIsNotLenient" classname="org.elasticsearch.index.rankeval.RatedDocumentTests" time="0.005"/>
+  <testcase name="testXContentParsing" classname="org.elasticsearch.index.rankeval.RatedDocumentTests" time="0.006"/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.RatedDocumentTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-17T01:41:51,794][INFO ][o.e.i.r.RatedDocumentTests] [testSerialization] before test
+[2020-02-17T01:41:51,798][INFO ][o.e.i.r.RatedDocumentTests] [testSerialization] after test
+[2020-02-17T01:41:51,802][INFO ][o.e.i.r.RatedDocumentTests] [testXContentParsingIsNotLenient] before test
+[2020-02-17T01:41:51,804][INFO ][o.e.i.r.RatedDocumentTests] [testXContentParsingIsNotLenient] after test
+[2020-02-17T01:41:51,808][INFO ][o.e.i.r.RatedDocumentTests] [testXContentParsing] before test
+[2020-02-17T01:41:51,809][INFO ][o.e.i.r.RatedDocumentTests] [testXContentParsing] after test
+[2020-02-17T01:41:51,818][INFO ][o.e.i.r.RatedDocumentTests] [testEqualsAndHash] before test
+[2020-02-17T01:41:51,819][INFO ][o.e.i.r.RatedDocumentTests] [testEqualsAndHash] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

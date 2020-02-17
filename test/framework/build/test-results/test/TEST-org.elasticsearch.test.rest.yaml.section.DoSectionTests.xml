@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.section.DoSectionTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:54" hostname="Escoto-PC" time="0.247">
+  <properties/>
+  <testcase name="testParseDoSectionWithYamlMultipleBodies" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.034"/>
+  <testcase name="testParseDoSectionWithYamlBody" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.026"/>
+  <testcase name="testParseDoSectionNoBody" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.004"/>
+  <testcase name="testParseDoSectionMultivaluedField" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.003"/>
+  <testcase name="testUnsupportedTopLevelField" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.005"/>
+  <testcase name="testParseDoSectionWithBodiesStringifiedAndNot" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.004"/>
+  <testcase name="testParseDoSectionExpectedWarnings" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.005"/>
+  <testcase name="testParseDoSectionWithHeaders" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.013"/>
+  <testcase name="testParseDoSectionNoParamsNoBody" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.005"/>
+  <testcase name="testParseDoSectionWithCatch" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.004"/>
+  <testcase name="testParseDoSectionWithoutClientCallSection" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.003"/>
+  <testcase name="testIgnoreTypesWarnings" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.004"/>
+  <testcase name="testWarningHeaders" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.003"/>
+  <testcase name="testParseDoSectionWithJsonBody" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.003"/>
+  <testcase name="testParseDoSectionWithJsonMultipleBodiesAsLongString" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.003"/>
+  <testcase name="testParseDoSectionWithBodyStringified" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.003"/>
+  <testcase name="testNodeSelectorByVersion" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.108"/>
+  <testcase name="testNodeSelectorByAttribute" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.008"/>
+  <testcase name="testNodeSelectorByTwoThings" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.002"/>
+  <testcase name="testParseDoSectionWithYamlBodyMultiGet" classname="org.elasticsearch.test.rest.yaml.section.DoSectionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:48:54,309][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithYamlMultipleBodies] before test
+[2020-02-16T23:48:54,312][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithYamlMultipleBodies] after test
+[2020-02-16T23:48:54,336][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithYamlBody] before test
+[2020-02-16T23:48:54,337][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithYamlBody] after test
+[2020-02-16T23:48:54,340][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionNoBody] before test
+[2020-02-16T23:48:54,341][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionNoBody] after test
+[2020-02-16T23:48:54,344][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionMultivaluedField] before test
+[2020-02-16T23:48:54,345][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionMultivaluedField] after test
+[2020-02-16T23:48:54,348][INFO ][o.e.t.r.y.s.DoSectionTests] [testUnsupportedTopLevelField] before test
+[2020-02-16T23:48:54,349][INFO ][o.e.t.r.y.s.DoSectionTests] [testUnsupportedTopLevelField] after test
+[2020-02-16T23:48:54,352][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithBodiesStringifiedAndNot] before test
+[2020-02-16T23:48:54,354][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithBodiesStringifiedAndNot] after test
+[2020-02-16T23:48:54,358][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionExpectedWarnings] before test
+[2020-02-16T23:48:54,359][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionExpectedWarnings] after test
+[2020-02-16T23:48:54,372][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithHeaders] before test
+[2020-02-16T23:48:54,372][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithHeaders] after test
+[2020-02-16T23:48:54,377][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionNoParamsNoBody] before test
+[2020-02-16T23:48:54,378][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionNoParamsNoBody] after test
+[2020-02-16T23:48:54,380][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithCatch] before test
+[2020-02-16T23:48:54,382][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithCatch] after test
+[2020-02-16T23:48:54,385][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithoutClientCallSection] before test
+[2020-02-16T23:48:54,385][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithoutClientCallSection] after test
+[2020-02-16T23:48:54,389][INFO ][o.e.t.r.y.s.DoSectionTests] [testIgnoreTypesWarnings] before test
+[2020-02-16T23:48:54,390][INFO ][o.e.t.r.y.s.DoSectionTests] [testIgnoreTypesWarnings] after test
+[2020-02-16T23:48:54,392][INFO ][o.e.t.r.y.s.DoSectionTests] [testWarningHeaders] before test
+[2020-02-16T23:48:54,394][INFO ][o.e.t.r.y.s.DoSectionTests] [testWarningHeaders] after test
+[2020-02-16T23:48:54,396][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithJsonBody] before test
+[2020-02-16T23:48:54,396][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithJsonBody] after test
+[2020-02-16T23:48:54,398][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithJsonMultipleBodiesAsLongString] before test
+[2020-02-16T23:48:54,399][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithJsonMultipleBodiesAsLongString] after test
+[2020-02-16T23:48:54,402][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithBodyStringified] before test
+[2020-02-16T23:48:54,402][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithBodyStringified] after test
+[2020-02-16T23:48:54,405][INFO ][o.e.t.r.y.s.DoSectionTests] [testNodeSelectorByVersion] before test
+[2020-02-16T23:48:54,511][INFO ][o.e.t.r.y.s.DoSectionTests] [testNodeSelectorByVersion] after test
+[2020-02-16T23:48:54,515][INFO ][o.e.t.r.y.s.DoSectionTests] [testNodeSelectorByAttribute] before test
+[2020-02-16T23:48:54,519][INFO ][o.e.t.r.y.s.DoSectionTests] [testNodeSelectorByAttribute] after test
+[2020-02-16T23:48:54,521][INFO ][o.e.t.r.y.s.DoSectionTests] [testNodeSelectorByTwoThings] before test
+[2020-02-16T23:48:54,522][INFO ][o.e.t.r.y.s.DoSectionTests] [testNodeSelectorByTwoThings] after test
+[2020-02-16T23:48:54,524][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithYamlBodyMultiGet] before test
+[2020-02-16T23:48:54,525][INFO ][o.e.t.r.y.s.DoSectionTests] [testParseDoSectionWithYamlBodyMultiGet] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

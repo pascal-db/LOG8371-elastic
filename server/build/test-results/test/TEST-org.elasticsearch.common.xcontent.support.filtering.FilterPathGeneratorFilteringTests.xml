@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.support.filtering.FilterPathGeneratorFilteringTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:55" hostname="Escoto-PC" time="0.097">
+  <properties/>
+  <testcase name="testInclusiveFiltersWithDots" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathGeneratorFilteringTests" time="0.05"/>
+  <testcase name="testExclusiveFilters" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathGeneratorFilteringTests" time="0.017"/>
+  <testcase name="testExclusiveFiltersWithDots" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathGeneratorFilteringTests" time="0.023"/>
+  <testcase name="testInclusiveFilters" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathGeneratorFilteringTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T13:20:55,890][INFO ][o.e.c.x.s.f.FilterPathGeneratorFilteringTests] [testInclusiveFiltersWithDots] before test
+[2020-02-16T13:20:55,895][INFO ][o.e.c.x.s.f.FilterPathGeneratorFilteringTests] [testInclusiveFiltersWithDots] after test
+[2020-02-16T13:20:55,910][INFO ][o.e.c.x.s.f.FilterPathGeneratorFilteringTests] [testExclusiveFilters] before test
+[2020-02-16T13:20:55,912][INFO ][o.e.c.x.s.f.FilterPathGeneratorFilteringTests] [testExclusiveFilters] after test
+[2020-02-16T13:20:55,934][INFO ][o.e.c.x.s.f.FilterPathGeneratorFilteringTests] [testExclusiveFiltersWithDots] before test
+[2020-02-16T13:20:55,934][INFO ][o.e.c.x.s.f.FilterPathGeneratorFilteringTests] [testExclusiveFiltersWithDots] after test
+[2020-02-16T13:20:55,940][INFO ][o.e.c.x.s.f.FilterPathGeneratorFilteringTests] [testInclusiveFilters] before test
+[2020-02-16T13:20:55,942][INFO ][o.e.c.x.s.f.FilterPathGeneratorFilteringTests] [testInclusiveFilters] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

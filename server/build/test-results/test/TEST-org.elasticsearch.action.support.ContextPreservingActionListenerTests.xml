@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.ContextPreservingActionListenerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:24" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testOriginalContextIsPreservedAfterOnResponse" classname="org.elasticsearch.action.support.ContextPreservingActionListenerTests" time="0.009"/>
+  <testcase name="testOriginalContextIsPreservedAfterOnFailure" classname="org.elasticsearch.action.support.ContextPreservingActionListenerTests" time="0.007"/>
+  <testcase name="testOriginalContextIsWhenListenerThrows" classname="org.elasticsearch.action.support.ContextPreservingActionListenerTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T18:20:24,589][INFO ][o.e.a.s.ContextPreservingActionListenerTests] [testOriginalContextIsPreservedAfterOnResponse] before test
+[2020-02-16T18:20:24,592][INFO ][o.e.a.s.ContextPreservingActionListenerTests] [testOriginalContextIsPreservedAfterOnResponse] after test
+[2020-02-16T18:20:24,599][INFO ][o.e.a.s.ContextPreservingActionListenerTests] [testOriginalContextIsPreservedAfterOnFailure] before test
+[2020-02-16T18:20:24,599][INFO ][o.e.a.s.ContextPreservingActionListenerTests] [testOriginalContextIsPreservedAfterOnFailure] after test
+[2020-02-16T18:20:24,602][INFO ][o.e.a.s.ContextPreservingActionListenerTests] [testOriginalContextIsWhenListenerThrows] before test
+[2020-02-16T18:20:24,604][INFO ][o.e.a.s.ContextPreservingActionListenerTests] [testOriginalContextIsWhenListenerThrows] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

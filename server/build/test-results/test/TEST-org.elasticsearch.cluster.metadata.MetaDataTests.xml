@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.MetaDataTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.079">
+  <properties/>
+  <testcase name="testSerializationWithIndexGraveyard" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.004"/>
+  <testcase name="testMetaDataGlobalStateChangesOnClusterUUIDChanges" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testBuilderRejectsNullInCustoms" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testIndexAndAliasWithSameName" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testFindMappingsNoOpFilters" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.004"/>
+  <testcase name="testXContentWithCoordinationMetaData" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.003"/>
+  <testcase name="testValidateAliasWriteOnly" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.003"/>
+  <testcase name="testAliasCollidingWithAnExistingIndex" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.003"/>
+  <testcase name="testMetaDataGlobalStateChangesOnIndexDeletions" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testResolveWriteIndexRouting" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.003"/>
+  <testcase name="testUnknownFieldIndexMetaData" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.003"/>
+  <testcase name="testXContentClusterUUID" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testResolveIndexRouting" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.003"/>
+  <testcase name="testFindMappings" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.003"/>
+  <testcase name="testTransientSettingsOverridePersistentSettings" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.004"/>
+  <testcase name="testFindAliasWithExclusion" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.006"/>
+  <testcase name="testBuilderRejectsNullCustom" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.008"/>
+  <testcase name="testGlobalStateEqualsCoordinationMetaData" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testFindAliasWithExclusionAndOverride" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.004"/>
+  <testcase name="testXContentWithIndexGraveyard" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testFindMappingsWithFilters" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.006"/>
+  <testcase name="testUnknownFieldClusterMetaData" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testSerializationClusterUUID" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <testcase name="testFindAliases" classname="org.elasticsearch.cluster.metadata.MetaDataTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T09:21:33,792][INFO ][o.e.c.m.MetaDataTests    ] [testSerializationWithIndexGraveyard] before test
+[2020-02-17T09:21:33,794][INFO ][o.e.c.m.MetaDataTests    ] [testSerializationWithIndexGraveyard] after test
+[2020-02-17T09:21:33,795][INFO ][o.e.c.m.MetaDataTests    ] [testMetaDataGlobalStateChangesOnClusterUUIDChanges] before test
+[2020-02-17T09:21:33,796][INFO ][o.e.c.m.MetaDataTests    ] [testMetaDataGlobalStateChangesOnClusterUUIDChanges] after test
+[2020-02-17T09:21:33,797][INFO ][o.e.c.m.MetaDataTests    ] [testBuilderRejectsNullInCustoms] before test
+[2020-02-17T09:21:33,798][INFO ][o.e.c.m.MetaDataTests    ] [testBuilderRejectsNullInCustoms] after test
+[2020-02-17T09:21:33,799][INFO ][o.e.c.m.MetaDataTests    ] [testIndexAndAliasWithSameName] before test
+[2020-02-17T09:21:33,799][INFO ][o.e.c.m.MetaDataTests    ] [testIndexAndAliasWithSameName] after test
+[2020-02-17T09:21:33,801][INFO ][o.e.c.m.MetaDataTests    ] [testFindMappingsNoOpFilters] before test
+[2020-02-17T09:21:33,803][INFO ][o.e.c.m.MetaDataTests    ] [testFindMappingsNoOpFilters] after test
+[2020-02-17T09:21:33,806][INFO ][o.e.c.m.MetaDataTests    ] [testXContentWithCoordinationMetaData] before test
+[2020-02-17T09:21:33,806][INFO ][o.e.c.m.MetaDataTests    ] [testXContentWithCoordinationMetaData] after test
+[2020-02-17T09:21:33,808][INFO ][o.e.c.m.MetaDataTests    ] [testValidateAliasWriteOnly] before test
+[2020-02-17T09:21:33,809][INFO ][o.e.c.m.MetaDataTests    ] [testValidateAliasWriteOnly] after test
+[2020-02-17T09:21:33,811][INFO ][o.e.c.m.MetaDataTests    ] [testAliasCollidingWithAnExistingIndex] before test
+[2020-02-17T09:21:33,812][INFO ][o.e.c.m.MetaDataTests    ] [testAliasCollidingWithAnExistingIndex] after test
+[2020-02-17T09:21:33,815][INFO ][o.e.c.m.MetaDataTests    ] [testMetaDataGlobalStateChangesOnIndexDeletions] before test
+[2020-02-17T09:21:33,815][INFO ][o.e.c.m.MetaDataTests    ] [testMetaDataGlobalStateChangesOnIndexDeletions] after test
+[2020-02-17T09:21:33,817][INFO ][o.e.c.m.MetaDataTests    ] [testResolveWriteIndexRouting] before test
+[2020-02-17T09:21:33,818][INFO ][o.e.c.m.MetaDataTests    ] [testResolveWriteIndexRouting] after test
+[2020-02-17T09:21:33,822][INFO ][o.e.c.m.MetaDataTests    ] [testUnknownFieldIndexMetaData] before test
+[2020-02-17T09:21:33,822][INFO ][o.e.c.m.MetaDataTests    ] [testUnknownFieldIndexMetaData] after test
+[2020-02-17T09:21:33,824][INFO ][o.e.c.m.MetaDataTests    ] [testXContentClusterUUID] before test
+[2020-02-17T09:21:33,824][INFO ][o.e.c.m.MetaDataTests    ] [testXContentClusterUUID] after test
+[2020-02-17T09:21:33,827][INFO ][o.e.c.m.MetaDataTests    ] [testResolveIndexRouting] before test
+[2020-02-17T09:21:33,828][INFO ][o.e.c.m.MetaDataTests    ] [testResolveIndexRouting] after test
+[2020-02-17T09:21:33,829][INFO ][o.e.c.m.MetaDataTests    ] [testFindMappings] before test
+[2020-02-17T09:21:33,830][INFO ][o.e.c.m.MetaDataTests    ] [testFindMappings] after test
+[2020-02-17T09:21:33,834][INFO ][o.e.c.m.MetaDataTests    ] [testTransientSettingsOverridePersistentSettings] before test
+[2020-02-17T09:21:33,834][INFO ][o.e.c.m.MetaDataTests    ] [testTransientSettingsOverridePersistentSettings] after test
+[2020-02-17T09:21:33,840][INFO ][o.e.c.m.MetaDataTests    ] [testFindAliasWithExclusion] before test
+[2020-02-17T09:21:33,840][INFO ][o.e.c.m.MetaDataTests    ] [testFindAliasWithExclusion] after test
+[2020-02-17T09:21:33,848][INFO ][o.e.c.m.MetaDataTests    ] [testBuilderRejectsNullCustom] before test
+[2020-02-17T09:21:33,849][INFO ][o.e.c.m.MetaDataTests    ] [testBuilderRejectsNullCustom] after test
+[2020-02-17T09:21:33,851][INFO ][o.e.c.m.MetaDataTests    ] [testGlobalStateEqualsCoordinationMetaData] before test
+[2020-02-17T09:21:33,851][INFO ][o.e.c.m.MetaDataTests    ] [testGlobalStateEqualsCoordinationMetaData] after test
+[2020-02-17T09:21:33,854][INFO ][o.e.c.m.MetaDataTests    ] [testFindAliasWithExclusionAndOverride] before test
+[2020-02-17T09:21:33,854][INFO ][o.e.c.m.MetaDataTests    ] [testFindAliasWithExclusionAndOverride] after test
+[2020-02-17T09:21:33,856][INFO ][o.e.c.m.MetaDataTests    ] [testXContentWithIndexGraveyard] before test
+[2020-02-17T09:21:33,856][INFO ][o.e.c.m.MetaDataTests    ] [testXContentWithIndexGraveyard] after test
+[2020-02-17T09:21:33,858][INFO ][o.e.c.m.MetaDataTests    ] [testFindMappingsWithFilters] before test
+[2020-02-17T09:21:33,862][INFO ][o.e.c.m.MetaDataTests    ] [testFindMappingsWithFilters] after test
+[2020-02-17T09:21:33,864][INFO ][o.e.c.m.MetaDataTests    ] [testUnknownFieldClusterMetaData] before test
+[2020-02-17T09:21:33,865][INFO ][o.e.c.m.MetaDataTests    ] [testUnknownFieldClusterMetaData] after test
+[2020-02-17T09:21:33,866][INFO ][o.e.c.m.MetaDataTests    ] [testSerializationClusterUUID] before test
+[2020-02-17T09:21:33,866][INFO ][o.e.c.m.MetaDataTests    ] [testSerializationClusterUUID] after test
+[2020-02-17T09:21:33,868][INFO ][o.e.c.m.MetaDataTests    ] [testFindAliases] before test
+[2020-02-17T09:21:33,868][INFO ][o.e.c.m.MetaDataTests    ] [testFindAliases] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

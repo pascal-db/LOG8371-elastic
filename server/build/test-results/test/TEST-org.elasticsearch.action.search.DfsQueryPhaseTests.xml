@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.DfsQueryPhaseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testDfsWith2Shards" classname="org.elasticsearch.action.search.DfsQueryPhaseTests" time="0.007"/>
+  <testcase name="testDfsWith1ShardFailed" classname="org.elasticsearch.action.search.DfsQueryPhaseTests" time="0.004"/>
+  <testcase name="testFailPhaseOnException" classname="org.elasticsearch.action.search.DfsQueryPhaseTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T07:20:19,143][INFO ][o.e.a.s.DfsQueryPhaseTests] [testDfsWith2Shards] before test
+[2020-02-17T07:20:19,148][INFO ][o.e.a.s.DfsQueryPhaseTests] [testDfsWith2Shards] after test
+[2020-02-17T07:20:19,151][INFO ][o.e.a.s.DfsQueryPhaseTests] [testDfsWith1ShardFailed] before test
+[2020-02-17T07:20:19,153][INFO ][o.e.a.s.DfsQueryPhaseTests] [testDfsWith1ShardFailed] after test
+[2020-02-17T07:20:19,154][INFO ][o.e.a.s.DfsQueryPhaseTests] [testFailPhaseOnException] before test
+[2020-02-17T07:20:19,155][INFO ][o.e.a.s.DfsQueryPhaseTests] [testFailPhaseOnException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

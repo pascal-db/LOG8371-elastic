@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.search.slice.SliceBuilderTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.search.slice.SliceBuilderTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.search.slice.html">org.elasticsearch.search.slice</a> &gt; SliceBuilderTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.469s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testEqualsAndHashcode</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromXContent</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidArguments</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidField</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerialization</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerializationBackcompat</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToFilterDeprecationMessage</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToFilterRandom</td>
+<td class="success">0.431s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToFilterSimple</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToFilterWithRouting</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T18:24:39,024][INFO ][o.e.s.s.SliceBuilderTests] [testSerializationBackcompat] before test
+[2020-02-16T18:24:39,026][INFO ][o.e.s.s.SliceBuilderTests] [testSerializationBackcompat] after test
+[2020-02-16T18:24:39,028][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterSimple] before test
+[2020-02-16T18:24:39,032][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterSimple] after test
+[2020-02-16T18:24:39,036][INFO ][o.e.s.s.SliceBuilderTests] [testInvalidArguments] before test
+[2020-02-16T18:24:39,037][INFO ][o.e.s.s.SliceBuilderTests] [testInvalidArguments] after test
+[2020-02-16T18:24:39,038][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterDeprecationMessage] before test
+[2020-02-16T18:24:39,041][WARN ][o.e.d.s.s.SliceBuilder   ] [testToFilterDeprecationMessage] Computing slices on the [_uid] field is deprecated for 6.x indices, use [_id] instead
+[2020-02-16T18:24:39,042][WARN ][o.e.d.s.s.SliceBuilder   ] [testToFilterDeprecationMessage] Computing slices on the [_uid] field is deprecated for 6.x indices, use [_id] instead
+[2020-02-16T18:24:39,042][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterDeprecationMessage] after test
+[2020-02-16T18:24:39,044][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterWithRouting] before test
+[2020-02-16T18:24:39,046][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterWithRouting] after test
+[2020-02-16T18:24:39,049][INFO ][o.e.s.s.SliceBuilderTests] [testInvalidField] before test
+[2020-02-16T18:24:39,050][INFO ][o.e.s.s.SliceBuilderTests] [testInvalidField] after test
+[2020-02-16T18:24:39,051][INFO ][o.e.s.s.SliceBuilderTests] [testFromXContent] before test
+[2020-02-16T18:24:39,052][INFO ][o.e.s.s.SliceBuilderTests] [testFromXContent] after test
+[2020-02-16T18:24:39,054][INFO ][o.e.s.s.SliceBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:24:39,054][INFO ][o.e.s.s.SliceBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:24:39,061][INFO ][o.e.s.s.SliceBuilderTests] [testSerialization] before test
+[2020-02-16T18:24:39,061][INFO ][o.e.s.s.SliceBuilderTests] [testSerialization] after test
+[2020-02-16T18:24:39,065][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterRandom] before test
+[2020-02-16T18:24:39,492][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterRandom] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

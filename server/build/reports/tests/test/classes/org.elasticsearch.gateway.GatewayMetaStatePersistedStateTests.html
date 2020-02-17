@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.gateway.GatewayMetaStatePersistedStateTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.gateway.html">org.elasticsearch.gateway</a> &gt; GatewayMetaStatePersistedStateTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.437s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCurrentTermAndTermAreDifferent</td>
+<td class="success">0.055s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInitialState</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMarkAcceptedConfigAsCommitted</td>
+<td class="success">0.042s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSetCurrentTerm</td>
+<td class="success">0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSetLastAcceptedState</td>
+<td class="success">0.185s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSetLastAcceptedStateTermChanged</td>
+<td class="success">0.084s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T13:21:11,332][INFO ][o.e.e.NodeEnvironment    ] [testSetCurrentTerm] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,333][INFO ][o.e.e.NodeEnvironment    ] [testSetCurrentTerm] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,339][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetCurrentTerm] before test
+[2020-02-16T13:21:11,352][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetCurrentTerm] after test
+[2020-02-16T13:21:11,378][INFO ][o.e.e.NodeEnvironment    ] [testSetLastAcceptedState] using [3] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,378][INFO ][o.e.e.NodeEnvironment    ] [testSetLastAcceptedState] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,393][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetLastAcceptedState] before test
+[2020-02-16T13:21:11,538][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetLastAcceptedState] after test
+[2020-02-16T13:21:11,548][INFO ][o.e.e.NodeEnvironment    ] [testMarkAcceptedConfigAsCommitted] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,549][INFO ][o.e.e.NodeEnvironment    ] [testMarkAcceptedConfigAsCommitted] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,551][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testMarkAcceptedConfigAsCommitted] before test
+[2020-02-16T13:21:11,572][INFO ][o.e.c.c.CoordinationState] [testMarkAcceptedConfigAsCommitted] cluster UUID set to [PnJwIqkZKW]
+[2020-02-16T13:21:11,579][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testMarkAcceptedConfigAsCommitted] after test
+[2020-02-16T13:21:11,597][INFO ][o.e.e.NodeEnvironment    ] [testCurrentTermAndTermAreDifferent] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,598][INFO ][o.e.e.NodeEnvironment    ] [testCurrentTermAndTermAreDifferent] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,602][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testCurrentTermAndTermAreDifferent] before test
+[2020-02-16T13:21:11,634][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testCurrentTermAndTermAreDifferent] after test
+[2020-02-16T13:21:11,654][INFO ][o.e.e.NodeEnvironment    ] [testInitialState] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,654][INFO ][o.e.e.NodeEnvironment    ] [testInitialState] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,659][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testInitialState] before test
+[2020-02-16T13:21:11,668][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testInitialState] after test
+[2020-02-16T13:21:11,690][INFO ][o.e.e.NodeEnvironment    ] [testSetLastAcceptedStateTermChanged] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T13:21:11,690][INFO ][o.e.e.NodeEnvironment    ] [testSetLastAcceptedStateTermChanged] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T13:21:11,695][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetLastAcceptedStateTermChanged] before test
+[2020-02-16T13:21:11,751][INFO ][o.e.g.GatewayMetaStatePersistedStateTests] [testSetLastAcceptedStateTermChanged] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

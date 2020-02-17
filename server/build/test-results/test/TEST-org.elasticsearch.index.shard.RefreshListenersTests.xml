@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.RefreshListenersTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:25" hostname="Escoto-PC" time="9.941">
+  <properties/>
+  <testcase name="testTooMany" classname="org.elasticsearch.index.shard.RefreshListenersTests" time="0.025"/>
+  <testcase name="testAfterRefresh" classname="org.elasticsearch.index.shard.RefreshListenersTests" time="0.021"/>
+  <testcase name="testLotsOfThreads" classname="org.elasticsearch.index.shard.RefreshListenersTests" time="3.518"/>
+  <testcase name="testConcurrentRefresh" classname="org.elasticsearch.index.shard.RefreshListenersTests" time="6.133"/>
+  <testcase name="testBeforeRefresh" classname="org.elasticsearch.index.shard.RefreshListenersTests" time="0.045"/>
+  <testcase name="testClose" classname="org.elasticsearch.index.shard.RefreshListenersTests" time="0.05"/>
+  <testcase name="testContextIsPreserved" classname="org.elasticsearch.index.shard.RefreshListenersTests" time="0.068"/>
+  <testcase name="testDisallowAddListeners" classname="org.elasticsearch.index.shard.RefreshListenersTests" time="0.079"/>
+  <system-out><![CDATA[[2020-02-17T05:23:25,404][INFO ][o.e.i.s.RefreshListenersTests] [testTooMany] before test
+[2020-02-17T05:23:25,427][INFO ][o.e.i.s.RefreshListenersTests] [testTooMany] after test
+[2020-02-17T05:23:25,430][INFO ][o.e.i.s.RefreshListenersTests] [testAfterRefresh] before test
+[2020-02-17T05:23:25,449][INFO ][o.e.i.s.RefreshListenersTests] [testAfterRefresh] after test
+[2020-02-17T05:23:25,452][INFO ][o.e.i.s.RefreshListenersTests] [testLotsOfThreads] before test
+[2020-02-17T05:23:28,967][INFO ][o.e.i.s.RefreshListenersTests] [testLotsOfThreads] after test
+[2020-02-17T05:23:28,969][INFO ][o.e.i.s.RefreshListenersTests] [testConcurrentRefresh] before test
+[2020-02-17T05:23:35,100][INFO ][o.e.i.s.RefreshListenersTests] [testConcurrentRefresh] after test
+[2020-02-17T05:23:35,101][INFO ][o.e.i.s.RefreshListenersTests] [testBeforeRefresh] before test
+[2020-02-17T05:23:35,145][INFO ][o.e.i.s.RefreshListenersTests] [testBeforeRefresh] after test
+[2020-02-17T05:23:35,147][INFO ][o.e.i.s.RefreshListenersTests] [testClose] before test
+[2020-02-17T05:23:35,196][INFO ][o.e.i.s.RefreshListenersTests] [testClose] after test
+[2020-02-17T05:23:35,198][INFO ][o.e.i.s.RefreshListenersTests] [testContextIsPreserved] before test
+[2020-02-17T05:23:35,264][INFO ][o.e.i.s.RefreshListenersTests] [testContextIsPreserved] after test
+[2020-02-17T05:23:35,266][INFO ][o.e.i.s.RefreshListenersTests] [testDisallowAddListeners] before test
+[2020-02-17T05:23:35,344][INFO ][o.e.i.s.RefreshListenersTests] [testDisallowAddListeners] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

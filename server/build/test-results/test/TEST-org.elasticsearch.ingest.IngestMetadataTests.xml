@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.IngestMetadataTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:00" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testDiff" classname="org.elasticsearch.ingest.IngestMetadataTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.ingest.IngestMetadataTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T04:24:00,510][INFO ][o.e.i.IngestMetadataTests] [testDiff] before test
+[2020-02-17T04:24:00,513][INFO ][o.e.i.IngestMetadataTests] [testDiff] after test
+[2020-02-17T04:24:00,515][INFO ][o.e.i.IngestMetadataTests] [testFromXContent] before test
+[2020-02-17T04:24:00,515][INFO ][o.e.i.IngestMetadataTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

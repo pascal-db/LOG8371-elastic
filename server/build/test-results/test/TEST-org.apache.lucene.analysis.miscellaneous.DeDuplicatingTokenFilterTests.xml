@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.lucene.analysis.miscellaneous.DeDuplicatingTokenFilterTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:50" hostname="Escoto-PC" time="0.543">
+  <properties/>
+  <testcase name="testSimple" classname="org.apache.lucene.analysis.miscellaneous.DeDuplicatingTokenFilterTests" time="0.404"/>
+  <testcase name="testHitCountLimits" classname="org.apache.lucene.analysis.miscellaneous.DeDuplicatingTokenFilterTests" time="0.127"/>
+  <testcase name="testTaggedFrequencies" classname="org.apache.lucene.analysis.miscellaneous.DeDuplicatingTokenFilterTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-16T15:19:50,124][INFO ][o.a.l.a.m.DeDuplicatingTokenFilterTests] [testSimple] before test
+[2020-02-16T15:19:50,497][INFO ][o.a.l.a.m.DeDuplicatingTokenFilterTests] [testSimple] after test
+[2020-02-16T15:19:50,550][INFO ][o.a.l.a.m.DeDuplicatingTokenFilterTests] [testHitCountLimits] before test
+[2020-02-16T15:19:50,633][INFO ][o.a.l.a.m.DeDuplicatingTokenFilterTests] [testHitCountLimits] after test
+[2020-02-16T15:19:50,645][INFO ][o.a.l.a.m.DeDuplicatingTokenFilterTests] [testTaggedFrequencies] before test
+[2020-02-16T15:19:50,645][INFO ][o.a.l.a.m.DeDuplicatingTokenFilterTests] [testTaggedFrequencies] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.067">
+  <properties/>
+  <testcase name="testTookWithRealClock" classname="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" time="0.021"/>
+  <testcase name="testBuildSearchResponse" classname="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" time="0.013"/>
+  <testcase name="testTookWithControlledClock" classname="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" time="0.003"/>
+  <testcase name="testOnPhaseFailure" classname="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" time="0.007"/>
+  <testcase name="testBuildSearchResponseAllowPartialFailures" classname="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" time="0.006"/>
+  <testcase name="testBuildShardSearchTransportRequest" classname="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" time="0.007"/>
+  <testcase name="testSendSearchResponseDisallowPartialFailures" classname="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" time="0.005"/>
+  <testcase name="testShardNotAvailableWithDisallowPartialFailures" classname="org.elasticsearch.action.search.AbstractSearchAsyncActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:20:37,917][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testTookWithRealClock] before test
+[2020-02-17T05:20:37,934][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testTookWithRealClock] after test
+[2020-02-17T05:20:37,938][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testBuildSearchResponse] before test
+[2020-02-17T05:20:37,948][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testBuildSearchResponse] after test
+[2020-02-17T05:20:37,950][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testTookWithControlledClock] before test
+[2020-02-17T05:20:37,951][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testTookWithControlledClock] after test
+[2020-02-17T05:20:37,956][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testOnPhaseFailure] before test
+[2020-02-17T05:20:37,958][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testOnPhaseFailure] after test
+[2020-02-17T05:20:37,961][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testBuildSearchResponseAllowPartialFailures] before test
+[2020-02-17T05:20:37,965][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testBuildSearchResponseAllowPartialFailures] after test
+[2020-02-17T05:20:37,972][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testBuildShardSearchTransportRequest] before test
+[2020-02-17T05:20:37,972][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testBuildShardSearchTransportRequest] after test
+[2020-02-17T05:20:37,976][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testSendSearchResponseDisallowPartialFailures] before test
+[2020-02-17T05:20:37,978][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testSendSearchResponseDisallowPartialFailures] after test
+[2020-02-17T05:20:37,980][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testShardNotAvailableWithDisallowPartialFailures] before test
+[2020-02-17T05:20:37,981][INFO ][o.e.a.s.AbstractSearchAsyncActionTests] [testShardNotAvailableWithDisallowPartialFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

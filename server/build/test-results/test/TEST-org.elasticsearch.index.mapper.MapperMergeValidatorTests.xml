@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.MapperMergeValidatorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:21" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testAliasThatRefersToAlias" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.004"/>
+  <testcase name="testFieldAliasWithDifferentObjectScopes" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.002"/>
+  <testcase name="testMismatchedFieldTypes" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.003"/>
+  <testcase name="testFieldAliasWithNestedTarget" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.002"/>
+  <testcase name="testConflictingFieldTypes" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.002"/>
+  <testcase name="testDuplicateFieldAliasAndConcreteField" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.003"/>
+  <testcase name="testDuplicateFieldAliasAndObject" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.003"/>
+  <testcase name="testFieldAliasWithNestedScope" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.002"/>
+  <testcase name="testAliasWithNonExistentPath" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.002"/>
+  <testcase name="testAliasThatRefersToItself" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.001"/>
+  <testcase name="testFieldAliasWithDifferentNestedScopes" classname="org.elasticsearch.index.mapper.MapperMergeValidatorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:23:21,575][INFO ][o.e.i.m.MapperMergeValidatorTests] [testAliasThatRefersToAlias] before test
+[2020-02-17T00:23:21,577][INFO ][o.e.i.m.MapperMergeValidatorTests] [testAliasThatRefersToAlias] after test
+[2020-02-17T00:23:21,579][INFO ][o.e.i.m.MapperMergeValidatorTests] [testFieldAliasWithDifferentObjectScopes] before test
+[2020-02-17T00:23:21,580][INFO ][o.e.i.m.MapperMergeValidatorTests] [testFieldAliasWithDifferentObjectScopes] after test
+[2020-02-17T00:23:21,581][INFO ][o.e.i.m.MapperMergeValidatorTests] [testMismatchedFieldTypes] before test
+[2020-02-17T00:23:21,582][INFO ][o.e.i.m.MapperMergeValidatorTests] [testMismatchedFieldTypes] after test
+[2020-02-17T00:23:21,583][INFO ][o.e.i.m.MapperMergeValidatorTests] [testFieldAliasWithNestedTarget] before test
+[2020-02-17T00:23:21,584][INFO ][o.e.i.m.MapperMergeValidatorTests] [testFieldAliasWithNestedTarget] after test
+[2020-02-17T00:23:21,586][INFO ][o.e.i.m.MapperMergeValidatorTests] [testConflictingFieldTypes] before test
+[2020-02-17T00:23:21,586][INFO ][o.e.i.m.MapperMergeValidatorTests] [testConflictingFieldTypes] after test
+[2020-02-17T00:23:21,588][INFO ][o.e.i.m.MapperMergeValidatorTests] [testDuplicateFieldAliasAndConcreteField] before test
+[2020-02-17T00:23:21,589][INFO ][o.e.i.m.MapperMergeValidatorTests] [testDuplicateFieldAliasAndConcreteField] after test
+[2020-02-17T00:23:21,592][INFO ][o.e.i.m.MapperMergeValidatorTests] [testDuplicateFieldAliasAndObject] before test
+[2020-02-17T00:23:21,592][INFO ][o.e.i.m.MapperMergeValidatorTests] [testDuplicateFieldAliasAndObject] after test
+[2020-02-17T00:23:21,594][INFO ][o.e.i.m.MapperMergeValidatorTests] [testFieldAliasWithNestedScope] before test
+[2020-02-17T00:23:21,594][INFO ][o.e.i.m.MapperMergeValidatorTests] [testFieldAliasWithNestedScope] after test
+[2020-02-17T00:23:21,596][INFO ][o.e.i.m.MapperMergeValidatorTests] [testAliasWithNonExistentPath] before test
+[2020-02-17T00:23:21,597][INFO ][o.e.i.m.MapperMergeValidatorTests] [testAliasWithNonExistentPath] after test
+[2020-02-17T00:23:21,598][INFO ][o.e.i.m.MapperMergeValidatorTests] [testAliasThatRefersToItself] before test
+[2020-02-17T00:23:21,599][INFO ][o.e.i.m.MapperMergeValidatorTests] [testAliasThatRefersToItself] after test
+[2020-02-17T00:23:21,600][INFO ][o.e.i.m.MapperMergeValidatorTests] [testFieldAliasWithDifferentNestedScopes] before test
+[2020-02-17T00:23:21,601][INFO ][o.e.i.m.MapperMergeValidatorTests] [testFieldAliasWithDifferentNestedScopes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

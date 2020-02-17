@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.decider.RestoreInProgressAllocationDeciderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:37" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testCanAllocatePrimaryExistingInRestoreInProgress" classname="org.elasticsearch.cluster.routing.allocation.decider.RestoreInProgressAllocationDeciderTests" time="0.006"/>
+  <testcase name="testCanAllocatePrimary" classname="org.elasticsearch.cluster.routing.allocation.decider.RestoreInProgressAllocationDeciderTests" time="0.002"/>
+  <testcase name="testCannotAllocatePrimaryMissingInRestoreInProgress" classname="org.elasticsearch.cluster.routing.allocation.decider.RestoreInProgressAllocationDeciderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T02:21:37,550][INFO ][o.e.c.r.a.d.RestoreInProgressAllocationDeciderTests] [testCanAllocatePrimaryExistingInRestoreInProgress] before test
+[2020-02-17T02:21:37,554][INFO ][o.e.c.r.a.d.RestoreInProgressAllocationDeciderTests] [testCanAllocatePrimaryExistingInRestoreInProgress] after test
+[2020-02-17T02:21:37,556][INFO ][o.e.c.r.a.d.RestoreInProgressAllocationDeciderTests] [testCanAllocatePrimary] before test
+[2020-02-17T02:21:37,556][INFO ][o.e.c.r.a.d.RestoreInProgressAllocationDeciderTests] [testCanAllocatePrimary] after test
+[2020-02-17T02:21:37,558][INFO ][o.e.c.r.a.d.RestoreInProgressAllocationDeciderTests] [testCannotAllocatePrimaryMissingInRestoreInProgress] before test
+[2020-02-17T02:21:37,558][INFO ][o.e.c.r.a.d.RestoreInProgressAllocationDeciderTests] [testCannotAllocatePrimaryMissingInRestoreInProgress] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

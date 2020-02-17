@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testGcOverheadLogging" classname="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceTests" time="0.002"/>
+  <testcase name="testSlowGcLogging" classname="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceTests" time="0.019"/>
+  <system-out><![CDATA[[2020-02-16T18:24:59,447][INFO ][o.e.m.j.JvmGcMonitorServiceTests] [testGcOverheadLogging] before test
+[2020-02-16T18:24:59,448][INFO ][o.e.m.j.JvmGcMonitorServiceTests] [testGcOverheadLogging] after test
+[2020-02-16T18:24:59,450][INFO ][o.e.m.j.JvmGcMonitorServiceTests] [testSlowGcLogging] before test
+[2020-02-16T18:24:59,467][INFO ][o.e.m.j.JvmGcMonitorServiceTests] [testSlowGcLogging] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

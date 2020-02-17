@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.KeywordFieldTypeTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:17" hostname="Escoto-PC" time="0.041">
+  <properties/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.006"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.001"/>
+  <testcase name="testTermsQuery" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.002"/>
+  <testcase name="testNormalizeQueries" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.003"/>
+  <testcase name="testTermQuery" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.002"/>
+  <testcase name="testExistsQuery" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.003"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.002"/>
+  <testcase name="testFuzzyQuery" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.004"/>
+  <testcase name="testTermQueryWithNormalizer" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.004"/>
+  <testcase name="testIsFieldWithinQuery" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.002"/>
+  <testcase name="testRegexpQuery" classname="org.elasticsearch.index.mapper.KeywordFieldTypeTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T16:23:17,448][INFO ][o.e.i.m.KeywordFieldTypeTests] [testClone] before test
+[2020-02-16T16:23:17,450][INFO ][o.e.i.m.KeywordFieldTypeTests] [testClone] after test
+[2020-02-16T16:23:17,452][INFO ][o.e.i.m.KeywordFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T16:23:17,452][INFO ][o.e.i.m.KeywordFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T16:23:17,454][INFO ][o.e.i.m.KeywordFieldTypeTests] [testTermsQuery] before test
+[2020-02-16T16:23:17,454][INFO ][o.e.i.m.KeywordFieldTypeTests] [testTermsQuery] after test
+[2020-02-16T16:23:17,457][INFO ][o.e.i.m.KeywordFieldTypeTests] [testNormalizeQueries] before test
+[2020-02-16T16:23:17,457][INFO ][o.e.i.m.KeywordFieldTypeTests] [testNormalizeQueries] after test
+[2020-02-16T16:23:17,459][INFO ][o.e.i.m.KeywordFieldTypeTests] [testTermQuery] before test
+[2020-02-16T16:23:17,459][INFO ][o.e.i.m.KeywordFieldTypeTests] [testTermQuery] after test
+[2020-02-16T16:23:17,461][INFO ][o.e.i.m.KeywordFieldTypeTests] [testExistsQuery] before test
+[2020-02-16T16:23:17,462][INFO ][o.e.i.m.KeywordFieldTypeTests] [testExistsQuery] after test
+[2020-02-16T16:23:17,464][INFO ][o.e.i.m.KeywordFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T16:23:17,464][INFO ][o.e.i.m.KeywordFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T16:23:17,466][INFO ][o.e.i.m.KeywordFieldTypeTests] [testFreeze] before test
+[2020-02-16T16:23:17,466][INFO ][o.e.i.m.KeywordFieldTypeTests] [testFreeze] after test
+[2020-02-16T16:23:17,468][INFO ][o.e.i.m.KeywordFieldTypeTests] [testEquals] before test
+[2020-02-16T16:23:17,468][INFO ][o.e.i.m.KeywordFieldTypeTests] [testEquals] after test
+[2020-02-16T16:23:17,472][INFO ][o.e.i.m.KeywordFieldTypeTests] [testFuzzyQuery] before test
+[2020-02-16T16:23:17,473][INFO ][o.e.i.m.KeywordFieldTypeTests] [testFuzzyQuery] after test
+[2020-02-16T16:23:17,477][INFO ][o.e.i.m.KeywordFieldTypeTests] [testTermQueryWithNormalizer] before test
+[2020-02-16T16:23:17,478][INFO ][o.e.i.m.KeywordFieldTypeTests] [testTermQueryWithNormalizer] after test
+[2020-02-16T16:23:17,480][INFO ][o.e.i.m.KeywordFieldTypeTests] [testIsFieldWithinQuery] before test
+[2020-02-16T16:23:17,481][INFO ][o.e.i.m.KeywordFieldTypeTests] [testIsFieldWithinQuery] after test
+[2020-02-16T16:23:17,483][INFO ][o.e.i.m.KeywordFieldTypeTests] [testRegexpQuery] before test
+[2020-02-16T16:23:17,484][INFO ][o.e.i.m.KeywordFieldTypeTests] [testRegexpQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

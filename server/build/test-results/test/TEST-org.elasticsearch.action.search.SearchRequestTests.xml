@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchRequestTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.095">
+  <properties/>
+  <testcase name="testWithLocalReduction" classname="org.elasticsearch.action.search.SearchRequestTests" time="0.005"/>
+  <testcase name="testCopyConstructor" classname="org.elasticsearch.action.search.SearchRequestTests" time="0.048"/>
+  <testcase name="testValidate" classname="org.elasticsearch.action.search.SearchRequestTests" time="0.024"/>
+  <testcase name="testRandomVersionSerialization" classname="org.elasticsearch.action.search.SearchRequestTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.search.SearchRequestTests" time="0.004"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.action.search.SearchRequestTests" time="0.003"/>
+  <testcase name="testReadFromPre6_7_0" classname="org.elasticsearch.action.search.SearchRequestTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.search.SearchRequestTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T18:20:19,423][INFO ][o.e.a.s.SearchRequestTests] [testWithLocalReduction] before test
+[2020-02-16T18:20:19,425][INFO ][o.e.a.s.SearchRequestTests] [testWithLocalReduction] after test
+[2020-02-16T18:20:19,428][INFO ][o.e.a.s.SearchRequestTests] [testCopyConstructor] before test
+[2020-02-16T18:20:19,473][INFO ][o.e.a.s.SearchRequestTests] [testCopyConstructor] after test
+[2020-02-16T18:20:19,475][INFO ][o.e.a.s.SearchRequestTests] [testValidate] before test
+[2020-02-16T18:20:19,497][INFO ][o.e.a.s.SearchRequestTests] [testValidate] after test
+[2020-02-16T18:20:19,499][INFO ][o.e.a.s.SearchRequestTests] [testRandomVersionSerialization] before test
+[2020-02-16T18:20:19,500][INFO ][o.e.a.s.SearchRequestTests] [testRandomVersionSerialization] after test
+[2020-02-16T18:20:19,502][INFO ][o.e.a.s.SearchRequestTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:20:19,504][INFO ][o.e.a.s.SearchRequestTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:20:19,506][INFO ][o.e.a.s.SearchRequestTests] [testIllegalArguments] before test
+[2020-02-16T18:20:19,508][INFO ][o.e.a.s.SearchRequestTests] [testIllegalArguments] after test
+[2020-02-16T18:20:19,509][INFO ][o.e.a.s.SearchRequestTests] [testReadFromPre6_7_0] before test
+[2020-02-16T18:20:19,510][INFO ][o.e.a.s.SearchRequestTests] [testReadFromPre6_7_0] after test
+[2020-02-16T18:20:19,511][INFO ][o.e.a.s.SearchRequestTests] [testSerialization] before test
+[2020-02-16T18:20:19,514][INFO ][o.e.a.s.SearchRequestTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

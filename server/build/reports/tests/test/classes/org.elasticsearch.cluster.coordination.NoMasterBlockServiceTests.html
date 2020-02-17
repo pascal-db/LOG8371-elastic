@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.coordination.NoMasterBlockServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.coordination.NoMasterBlockServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.coordination.html">org.elasticsearch.cluster.coordination</a> &gt; NoMasterBlockServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.121s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBlocksAllIfConfiguredBySetting</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBlocksWritesByDefault</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBlocksWritesIfConfiguredBySetting</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIgnoresLegacySettingBlockingAll</td>
+<td class="success">0.056s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIgnoresLegacySettingBlockingWrites</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIgnoresUpdatesToLegacySetting</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRejectsInvalidLegacySetting</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRejectsInvalidSetting</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSettingCanBeUpdated</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:21:32,379][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testRejectsInvalidSetting] before test
+[2020-02-16T22:21:32,381][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testRejectsInvalidSetting] after test
+[2020-02-16T22:21:32,435][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testIgnoresLegacySettingBlockingAll] before test
+[2020-02-16T22:21:32,437][WARN ][o.e.d.c.s.Settings       ] [testIgnoresLegacySettingBlockingAll] [discovery.zen.no_master_block] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T22:21:32,437][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testIgnoresLegacySettingBlockingAll] after test
+[2020-02-16T22:21:32,443][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testRejectsInvalidLegacySetting] before test
+[2020-02-16T22:21:32,444][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testRejectsInvalidLegacySetting] after test
+[2020-02-16T22:21:32,458][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testSettingCanBeUpdated] before test
+[2020-02-16T22:21:32,459][INFO ][o.e.c.s.ClusterSettings  ] [testSettingCanBeUpdated] updating [cluster.no_master_block] from [all] to [write]
+[2020-02-16T22:21:32,459][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testSettingCanBeUpdated] after test
+[2020-02-16T22:21:32,461][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testBlocksAllIfConfiguredBySetting] before test
+[2020-02-16T22:21:32,462][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testBlocksAllIfConfiguredBySetting] after test
+[2020-02-16T22:21:32,464][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testBlocksWritesIfConfiguredBySetting] before test
+[2020-02-16T22:21:32,465][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testBlocksWritesIfConfiguredBySetting] after test
+[2020-02-16T22:21:32,467][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testIgnoresLegacySettingBlockingWrites] before test
+[2020-02-16T22:21:32,469][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testIgnoresLegacySettingBlockingWrites] after test
+[2020-02-16T22:21:32,475][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testBlocksWritesByDefault] before test
+[2020-02-16T22:21:32,476][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testBlocksWritesByDefault] after test
+[2020-02-16T22:21:32,492][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testIgnoresUpdatesToLegacySetting] before test
+[2020-02-16T22:21:32,493][INFO ][o.e.c.c.NoMasterBlockServiceTests] [testIgnoresUpdatesToLegacySetting] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

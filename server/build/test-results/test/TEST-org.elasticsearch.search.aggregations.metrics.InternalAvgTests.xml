@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalAvgTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:31" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalAvgTests" time="0.004"/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.metrics.InternalAvgTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalAvgTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalAvgTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalAvgTests" time="0.002"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalAvgTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:25:31,845][INFO ][o.e.s.a.m.InternalAvgTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T23:25:31,846][INFO ][o.e.s.a.m.InternalAvgTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T23:25:31,848][INFO ][o.e.s.a.m.InternalAvgTests] [testSummationAccuracy] before test
+[2020-02-16T23:25:31,848][INFO ][o.e.s.a.m.InternalAvgTests] [testSummationAccuracy] after test
+[2020-02-16T23:25:31,850][INFO ][o.e.s.a.m.InternalAvgTests] [testFromXContent] before test
+[2020-02-16T23:25:31,850][INFO ][o.e.s.a.m.InternalAvgTests] [testFromXContent] after test
+[2020-02-16T23:25:31,852][INFO ][o.e.s.a.m.InternalAvgTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:25:31,853][INFO ][o.e.s.a.m.InternalAvgTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:25:31,855][INFO ][o.e.s.a.m.InternalAvgTests] [testSerialization] before test
+[2020-02-16T23:25:31,855][INFO ][o.e.s.a.m.InternalAvgTests] [testSerialization] after test
+[2020-02-16T23:25:31,857][INFO ][o.e.s.a.m.InternalAvgTests] [testReduceRandom] before test
+[2020-02-16T23:25:31,857][INFO ][o.e.s.a.m.InternalAvgTests] [testReduceRandom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

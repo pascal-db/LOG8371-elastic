@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalStatsBucketTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:24" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalStatsBucketTests" time="0.005"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalStatsBucketTests" time="0.006"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalStatsBucketTests" time="0.005"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalStatsBucketTests" time="0.004"/>
+  <testcase name="testDoXContentBody" classname="org.elasticsearch.search.aggregations.metrics.InternalStatsBucketTests" time="0.002"/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.metrics.InternalStatsBucketTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalStatsBucketTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:24:24,978][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testFromXContent] before test
+[2020-02-16T22:24:24,979][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testFromXContent] after test
+[2020-02-16T22:24:24,984][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T22:24:24,985][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T22:24:24,988][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:24:24,990][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:24:24,994][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testReduceRandom] before test
+[2020-02-16T22:24:24,994][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testReduceRandom] after test
+[2020-02-16T22:24:24,996][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testDoXContentBody] before test
+[2020-02-16T22:24:24,996][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testDoXContentBody] after test
+[2020-02-16T22:24:24,998][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testSummationAccuracy] before test
+[2020-02-16T22:24:24,999][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testSummationAccuracy] after test
+[2020-02-16T22:24:25,002][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testSerialization] before test
+[2020-02-16T22:24:25,002][INFO ][o.e.s.a.m.InternalStatsBucketTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

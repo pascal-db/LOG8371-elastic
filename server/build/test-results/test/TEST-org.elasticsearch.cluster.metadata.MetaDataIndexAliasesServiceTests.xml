@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.069">
+  <properties/>
+  <testcase name="testChangingWriteAliasStateIncreasesAliasesVersion" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.024"/>
+  <testcase name="testAddWriteOnlyWithNoExistingAliases" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.003"/>
+  <testcase name="testRemoveIndexTwice" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.003"/>
+  <testcase name="testAddWriteOnlyValidatesAgainstMetaDataBuilder" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.003"/>
+  <testcase name="testMultipleIndices" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.003"/>
+  <testcase name="testSwapWriteOnlyIndex" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.002"/>
+  <testcase name="testAddAliasToRemovedIndex" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.003"/>
+  <testcase name="testAddWriteOnlyWithExistingNonWriteIndices" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.002"/>
+  <testcase name="testAddingAliasMoreThanOnceShouldOnlyIncreaseAliasesVersionByOne" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.002"/>
+  <testcase name="testAddWriteOnlyWithIndexRemoved" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.008"/>
+  <testcase name="testAddWriteOnlyWithExistingWriteIndex" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.003"/>
+  <testcase name="testSwapIndexWithAlias" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.005"/>
+  <testcase name="testAliasesVersionUnchangedWhenActionsAreIdempotent" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.003"/>
+  <testcase name="testAddAndRemove" classname="org.elasticsearch.cluster.metadata.MetaDataIndexAliasesServiceTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T00:21:33,656][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testChangingWriteAliasStateIncreasesAliasesVersion] before test
+[2020-02-17T00:21:33,675][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testChangingWriteAliasStateIncreasesAliasesVersion] after test
+[2020-02-17T00:21:33,678][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyWithNoExistingAliases] before test
+[2020-02-17T00:21:33,678][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyWithNoExistingAliases] after test
+[2020-02-17T00:21:33,681][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testRemoveIndexTwice] before test
+[2020-02-17T00:21:33,681][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testRemoveIndexTwice] after test
+[2020-02-17T00:21:33,683][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyValidatesAgainstMetaDataBuilder] before test
+[2020-02-17T00:21:33,684][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyValidatesAgainstMetaDataBuilder] after test
+[2020-02-17T00:21:33,687][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testMultipleIndices] before test
+[2020-02-17T00:21:33,688][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testMultipleIndices] after test
+[2020-02-17T00:21:33,690][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testSwapWriteOnlyIndex] before test
+[2020-02-17T00:21:33,691][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testSwapWriteOnlyIndex] after test
+[2020-02-17T00:21:33,693][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddAliasToRemovedIndex] before test
+[2020-02-17T00:21:33,693][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddAliasToRemovedIndex] after test
+[2020-02-17T00:21:33,695][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyWithExistingNonWriteIndices] before test
+[2020-02-17T00:21:33,695][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyWithExistingNonWriteIndices] after test
+[2020-02-17T00:21:33,697][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddingAliasMoreThanOnceShouldOnlyIncreaseAliasesVersionByOne] before test
+[2020-02-17T00:21:33,698][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddingAliasMoreThanOnceShouldOnlyIncreaseAliasesVersionByOne] after test
+[2020-02-17T00:21:33,705][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyWithIndexRemoved] before test
+[2020-02-17T00:21:33,706][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyWithIndexRemoved] after test
+[2020-02-17T00:21:33,708][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyWithExistingWriteIndex] before test
+[2020-02-17T00:21:33,709][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddWriteOnlyWithExistingWriteIndex] after test
+[2020-02-17T00:21:33,714][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testSwapIndexWithAlias] before test
+[2020-02-17T00:21:33,714][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testSwapIndexWithAlias] after test
+[2020-02-17T00:21:33,716][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAliasesVersionUnchangedWhenActionsAreIdempotent] before test
+[2020-02-17T00:21:33,717][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAliasesVersionUnchangedWhenActionsAreIdempotent] after test
+[2020-02-17T00:21:33,719][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddAndRemove] before test
+[2020-02-17T00:21:33,720][INFO ][o.e.c.m.MetaDataIndexAliasesServiceTests] [testAddAndRemove] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

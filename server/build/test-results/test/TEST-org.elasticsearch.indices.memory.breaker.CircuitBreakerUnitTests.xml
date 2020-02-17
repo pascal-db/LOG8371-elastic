@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.memory.breaker.CircuitBreakerUnitTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:53" hostname="Escoto-PC" time="0.031">
+  <properties/>
+  <testcase name="testBreakerSettingsValidationWithValidSettings" classname="org.elasticsearch.indices.memory.breaker.CircuitBreakerUnitTests" time="0.004"/>
+  <testcase name="testBreakerSettingsValidationNegativeOverhead" classname="org.elasticsearch.indices.memory.breaker.CircuitBreakerUnitTests" time="0.005"/>
+  <testcase name="testRegisterCustomBreaker" classname="org.elasticsearch.indices.memory.breaker.CircuitBreakerUnitTests" time="0.022"/>
+  <system-out><![CDATA[[2020-02-16T18:23:53,305][INFO ][o.e.i.m.b.CircuitBreakerUnitTests] [testBreakerSettingsValidationWithValidSettings] before test
+[2020-02-16T18:23:53,307][INFO ][o.e.i.m.b.CircuitBreakerUnitTests] [testBreakerSettingsValidationWithValidSettings] after test
+[2020-02-16T18:23:53,311][INFO ][o.e.i.m.b.CircuitBreakerUnitTests] [testBreakerSettingsValidationNegativeOverhead] before test
+[2020-02-16T18:23:53,311][INFO ][o.e.i.m.b.CircuitBreakerUnitTests] [testBreakerSettingsValidationNegativeOverhead] after test
+[2020-02-16T18:23:53,332][INFO ][o.e.i.m.b.CircuitBreakerUnitTests] [testRegisterCustomBreaker] before test
+[2020-02-16T18:23:53,333][INFO ][o.e.i.m.b.CircuitBreakerUnitTests] [testRegisterCustomBreaker] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

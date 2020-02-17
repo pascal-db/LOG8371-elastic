@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.SumAggregatorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:32" hostname="Escoto-PC" time="0.069">
+  <properties/>
+  <testcase name="testNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.SumAggregatorTests" time="0.023"/>
+  <testcase name="testQueryFiltering" classname="org.elasticsearch.search.aggregations.metrics.SumAggregatorTests" time="0.009"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.SumAggregatorTests" time="0.005"/>
+  <testcase name="testSortedNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.SumAggregatorTests" time="0.006"/>
+  <testcase name="testStringField" classname="org.elasticsearch.search.aggregations.metrics.SumAggregatorTests" time="0.007"/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.metrics.SumAggregatorTests" time="0.015"/>
+  <testcase name="testNoMatchingField" classname="org.elasticsearch.search.aggregations.metrics.SumAggregatorTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T17:25:32,888][INFO ][o.e.s.a.m.SumAggregatorTests] [testNumericDocValues] before test
+[2020-02-16T17:25:32,908][INFO ][o.e.s.a.m.SumAggregatorTests] [testNumericDocValues] after test
+[2020-02-16T17:25:32,913][INFO ][o.e.s.a.m.SumAggregatorTests] [testQueryFiltering] before test
+[2020-02-16T17:25:32,917][INFO ][o.e.s.a.m.SumAggregatorTests] [testQueryFiltering] after test
+[2020-02-16T17:25:32,920][INFO ][o.e.s.a.m.SumAggregatorTests] [testNoDocs] before test
+[2020-02-16T17:25:32,923][INFO ][o.e.s.a.m.SumAggregatorTests] [testNoDocs] after test
+[2020-02-16T17:25:32,925][INFO ][o.e.s.a.m.SumAggregatorTests] [testSortedNumericDocValues] before test
+[2020-02-16T17:25:32,928][INFO ][o.e.s.a.m.SumAggregatorTests] [testSortedNumericDocValues] after test
+[2020-02-16T17:25:32,932][INFO ][o.e.s.a.m.SumAggregatorTests] [testStringField] before test
+[2020-02-16T17:25:32,936][INFO ][o.e.s.a.m.SumAggregatorTests] [testStringField] after test
+[2020-02-16T17:25:32,938][INFO ][o.e.s.a.m.SumAggregatorTests] [testSummationAccuracy] before test
+[2020-02-16T17:25:32,950][INFO ][o.e.s.a.m.SumAggregatorTests] [testSummationAccuracy] after test
+[2020-02-16T17:25:32,952][INFO ][o.e.s.a.m.SumAggregatorTests] [testNoMatchingField] before test
+[2020-02-16T17:25:32,955][INFO ][o.e.s.a.m.SumAggregatorTests] [testNoMatchingField] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

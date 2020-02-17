@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.phrase.NoisyChannelSpellCheckerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.096">
+  <properties/>
+  <testcase name="testTrigram" classname="org.elasticsearch.search.suggest.phrase.NoisyChannelSpellCheckerTests" time="0.043"/>
+  <testcase name="testFewDocsEgdeCase" classname="org.elasticsearch.search.suggest.phrase.NoisyChannelSpellCheckerTests" time="0.009"/>
+  <testcase name="testMultiGenerator" classname="org.elasticsearch.search.suggest.phrase.NoisyChannelSpellCheckerTests" time="0.022"/>
+  <testcase name="testNgram" classname="org.elasticsearch.search.suggest.phrase.NoisyChannelSpellCheckerTests" time="0.021"/>
+  <system-out><![CDATA[[2020-02-17T04:24:43,481][INFO ][o.e.s.s.p.NoisyChannelSpellCheckerTests] [testTrigram] before test
+[2020-02-17T04:24:43,522][INFO ][o.e.s.s.p.NoisyChannelSpellCheckerTests] [testTrigram] after test
+[2020-02-17T04:24:43,525][INFO ][o.e.s.s.p.NoisyChannelSpellCheckerTests] [testFewDocsEgdeCase] before test
+[2020-02-17T04:24:43,531][INFO ][o.e.s.s.p.NoisyChannelSpellCheckerTests] [testFewDocsEgdeCase] after test
+[2020-02-17T04:24:43,533][INFO ][o.e.s.s.p.NoisyChannelSpellCheckerTests] [testMultiGenerator] before test
+[2020-02-17T04:24:43,553][INFO ][o.e.s.s.p.NoisyChannelSpellCheckerTests] [testMultiGenerator] after test
+[2020-02-17T04:24:43,557][INFO ][o.e.s.s.p.NoisyChannelSpellCheckerTests] [testNgram] before test
+[2020-02-17T04:24:43,575][INFO ][o.e.s.s.p.NoisyChannelSpellCheckerTests] [testNgram] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

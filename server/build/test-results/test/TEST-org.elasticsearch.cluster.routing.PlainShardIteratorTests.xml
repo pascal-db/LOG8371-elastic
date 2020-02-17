@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.PlainShardIteratorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testCompareToEqualItems" classname="org.elasticsearch.cluster.routing.PlainShardIteratorTests" time="0.004"/>
+  <testcase name="testCompareTo" classname="org.elasticsearch.cluster.routing.PlainShardIteratorTests" time="0.012"/>
+  <testcase name="testEqualsAndHashCode" classname="org.elasticsearch.cluster.routing.PlainShardIteratorTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:21:39,209][INFO ][o.e.c.r.PlainShardIteratorTests] [testCompareToEqualItems] before test
+[2020-02-16T22:21:39,211][INFO ][o.e.c.r.PlainShardIteratorTests] [testCompareToEqualItems] after test
+[2020-02-16T22:21:39,222][INFO ][o.e.c.r.PlainShardIteratorTests] [testCompareTo] before test
+[2020-02-16T22:21:39,222][INFO ][o.e.c.r.PlainShardIteratorTests] [testCompareTo] after test
+[2020-02-16T22:21:39,225][INFO ][o.e.c.r.PlainShardIteratorTests] [testEqualsAndHashCode] before test
+[2020-02-16T22:21:39,226][INFO ][o.e.c.r.PlainShardIteratorTests] [testEqualsAndHashCode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

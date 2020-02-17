@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.BinaryRangeUtilTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:13" hostname="Escoto-PC" time="0.037">
+  <properties/>
+  <testcase name="testDecodeLongRanges" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.005"/>
+  <testcase name="testEncode_long" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.003"/>
+  <testcase name="testDecodeFloatRanges" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.003"/>
+  <testcase name="testEncode_Float" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.004"/>
+  <testcase name="testVariableLengthEncoding" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.003"/>
+  <testcase name="testDecodeIPRanges" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.005"/>
+  <testcase name="testDecodeDoubleRanges" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.003"/>
+  <testcase name="testBasics" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.004"/>
+  <testcase name="testDecodeLong" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.003"/>
+  <testcase name="testEncode_double" classname="org.elasticsearch.index.mapper.BinaryRangeUtilTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T08:52:13,460][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeLongRanges] before test
+[2020-02-17T08:52:13,463][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeLongRanges] after test
+[2020-02-17T08:52:13,466][INFO ][o.e.i.m.BinaryRangeUtilTests] [testEncode_long] before test
+[2020-02-17T08:52:13,466][INFO ][o.e.i.m.BinaryRangeUtilTests] [testEncode_long] after test
+[2020-02-17T08:52:13,468][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeFloatRanges] before test
+[2020-02-17T08:52:13,470][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeFloatRanges] after test
+[2020-02-17T08:52:13,474][INFO ][o.e.i.m.BinaryRangeUtilTests] [testEncode_Float] before test
+[2020-02-17T08:52:13,475][INFO ][o.e.i.m.BinaryRangeUtilTests] [testEncode_Float] after test
+[2020-02-17T08:52:13,477][INFO ][o.e.i.m.BinaryRangeUtilTests] [testVariableLengthEncoding] before test
+[2020-02-17T08:52:13,478][INFO ][o.e.i.m.BinaryRangeUtilTests] [testVariableLengthEncoding] after test
+[2020-02-17T08:52:13,480][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeIPRanges] before test
+[2020-02-17T08:52:13,483][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeIPRanges] after test
+[2020-02-17T08:52:13,485][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeDoubleRanges] before test
+[2020-02-17T08:52:13,486][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeDoubleRanges] after test
+[2020-02-17T08:52:13,490][INFO ][o.e.i.m.BinaryRangeUtilTests] [testBasics] before test
+[2020-02-17T08:52:13,490][INFO ][o.e.i.m.BinaryRangeUtilTests] [testBasics] after test
+[2020-02-17T08:52:13,493][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeLong] before test
+[2020-02-17T08:52:13,493][INFO ][o.e.i.m.BinaryRangeUtilTests] [testDecodeLong] after test
+[2020-02-17T08:52:13,495][INFO ][o.e.i.m.BinaryRangeUtilTests] [testEncode_double] before test
+[2020-02-17T08:52:13,495][INFO ][o.e.i.m.BinaryRangeUtilTests] [testEncode_double] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:07" hostname="Escoto-PC" time="0.119">
+  <properties/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.014"/>
+  <testcase name="testUnsupportedFields" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testItemCopy" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidateEmptyFields" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.007"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.009"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.014"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.02"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testItemFromXContent" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.018"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.003"/>
+  <testcase name="testValidateEmptyLike" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.009"/>
+  <testcase name="testMoreLikeThisBuilder" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testDefaultField" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testItemSerialization" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.MoreLikeThisQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:23:07,635][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:07,637][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no modules loaded
+[2020-02-16T17:23:07,637][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no plugins loaded
+[2020-02-16T17:23:07,643][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no modules loaded
+[2020-02-16T17:23:07,643][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no plugins loaded
+[2020-02-16T17:23:07,647][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:23:07,649][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testUnsupportedFields] before test
+[2020-02-16T17:23:07,650][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testUnsupportedFields] after test
+[2020-02-16T17:23:07,652][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testItemCopy] before test
+[2020-02-16T17:23:07,652][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testItemCopy] after test
+[2020-02-16T17:23:07,653][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testValidateEmptyFields] before test
+[2020-02-16T17:23:07,654][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testValidateEmptyFields] after test
+[2020-02-16T17:23:07,658][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:07,660][WARN ][o.e.d.i.q.MoreLikeThisQueryBuilder] [testUnknownObjectException] [types removal] Types are deprecated in [more_like_this] queries. The type should no longer be specified in the [like] and [unlike] sections.
+[2020-02-16T17:23:07,660][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:07,662][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:07,664][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testSerialization] after test
+[2020-02-16T17:23:07,665][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:07,672][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:07,676][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:07,687][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:07,691][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:07,706][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:07,708][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:07,708][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:07,710][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testItemFromXContent] before test
+[2020-02-16T17:23:07,711][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testItemFromXContent] after test
+[2020-02-16T17:23:07,712][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:07,728][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:07,730][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testFromJson] before test
+[2020-02-16T17:23:07,731][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testFromJson] after test
+[2020-02-16T17:23:07,732][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:07,733][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:07,735][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testValidateEmptyLike] before test
+[2020-02-16T17:23:07,735][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testValidateEmptyLike] after test
+[2020-02-16T17:23:07,737][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:07,744][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T17:23:07,746][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testMoreLikeThisBuilder] before test
+[2020-02-16T17:23:07,746][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testMoreLikeThisBuilder] after test
+[2020-02-16T17:23:07,748][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testDefaultField] before test
+[2020-02-16T17:23:07,749][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["*"]] to [["mapped_string"]]
+[2020-02-16T17:23:07,749][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["mapped_string"]] to [["*"]]
+[2020-02-16T17:23:07,749][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testDefaultField] after test
+[2020-02-16T17:23:07,750][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testItemSerialization] before test
+[2020-02-16T17:23:07,751][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testItemSerialization] after test
+[2020-02-16T17:23:07,752][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:07,753][INFO ][o.e.i.q.MoreLikeThisQueryBuilderTests] [testUnknownField] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

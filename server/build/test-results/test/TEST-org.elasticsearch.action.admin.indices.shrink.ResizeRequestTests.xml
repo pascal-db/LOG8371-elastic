@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.shrink.ResizeRequestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:06" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.admin.indices.shrink.ResizeRequestTests" time="0.006"/>
+  <testcase name="testCopySettingsValidation" classname="org.elasticsearch.action.admin.indices.shrink.ResizeRequestTests" time="0.009"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.admin.indices.shrink.ResizeRequestTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T11:20:06,589][INFO ][o.e.a.a.i.s.ResizeRequestTests] [testToAndFromXContent] before test
+[2020-02-16T11:20:06,592][INFO ][o.e.a.a.i.s.ResizeRequestTests] [testToAndFromXContent] after test
+[2020-02-16T11:20:06,600][INFO ][o.e.a.a.i.s.ResizeRequestTests] [testCopySettingsValidation] before test
+[2020-02-16T11:20:06,601][INFO ][o.e.a.a.i.s.ResizeRequestTests] [testCopySettingsValidation] after test
+[2020-02-16T11:20:06,606][INFO ][o.e.a.a.i.s.ResizeRequestTests] [testToXContent] before test
+[2020-02-16T11:20:06,607][INFO ][o.e.a.a.i.s.ResizeRequestTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

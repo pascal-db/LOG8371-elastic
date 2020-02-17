@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.profile.query.ProfileScorerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testPropagateMaxScore" classname="org.elasticsearch.search.profile.query.ProfileScorerTests" time="0.004"/>
+  <testcase name="testPropagateMinCompetitiveScore" classname="org.elasticsearch.search.profile.query.ProfileScorerTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T10:24:38,304][INFO ][o.e.s.p.q.ProfileScorerTests] [testPropagateMaxScore] before test
+[2020-02-17T10:24:38,307][INFO ][o.e.s.p.q.ProfileScorerTests] [testPropagateMaxScore] after test
+[2020-02-17T10:24:38,312][INFO ][o.e.s.p.q.ProfileScorerTests] [testPropagateMinCompetitiveScore] before test
+[2020-02-17T10:24:38,312][INFO ][o.e.s.p.q.ProfileScorerTests] [testPropagateMinCompetitiveScore] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

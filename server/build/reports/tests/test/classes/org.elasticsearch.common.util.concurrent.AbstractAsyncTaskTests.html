@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.common.util.concurrent.html">org.elasticsearch.common.util.concurrent</a> &gt; AbstractAsyncTaskTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.034s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAutoRepeat</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testChangeInterval</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseWithNoRun</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsScheduledRemainFalseAfterClose</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testManualRepeat</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T19:21:58,435][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testChangeInterval] before test
+[2020-02-16T19:21:58,441][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testChangeInterval] after test
+[2020-02-16T19:21:58,443][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testIsScheduledRemainFalseAfterClose] before test
+[2020-02-16T19:21:58,444][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testIsScheduledRemainFalseAfterClose] after test
+[2020-02-16T19:21:58,446][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testManualRepeat] before test
+[2020-02-16T19:21:58,448][WARN ][o.e.c.u.c.AbstractAsyncTaskTests] [AbstractAsyncTaskTests] failed to run task org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests$2@73ec318a - suppressing re-occurring exceptions unless the exception changes
+java.lang.RuntimeException: foo
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests$2.runInternal(AbstractAsyncTaskTests.java:132) ~[test/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTask.run(AbstractAsyncTask.java:144) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:21:58,461][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testManualRepeat] after test
+[2020-02-16T19:21:58,463][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testAutoRepeat] before test
+[2020-02-16T19:21:58,465][WARN ][o.e.c.u.c.AbstractAsyncTaskTests] [AbstractAsyncTaskTests] failed to run task org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests$1@6dc1e659 - suppressing re-occurring exceptions unless the exception changes
+java.lang.RuntimeException: foo
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests$1.runInternal(AbstractAsyncTaskTests.java:81) ~[test/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTask.run(AbstractAsyncTask.java:144) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:21:58,467][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testAutoRepeat] after test
+[2020-02-16T19:21:58,469][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testCloseWithNoRun] before test
+[2020-02-16T19:21:58,469][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testCloseWithNoRun] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

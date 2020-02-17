@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.PeerFinderTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:58" hostname="Escoto-PC" time="0.12">
+  <properties/>
+  <testcase name="testDoesNotAddReachableNonMasterEligibleNodesFromIncomingRequests" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.007"/>
+  <testcase name="testDoesNotAddNonMasterEligibleNodesFromUnicastHostsList" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.004"/>
+  <testcase name="testReceivesRequestsFromTransportService" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.004"/>
+  <testcase name="testDeactivationClearsPastKnowledge" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.003"/>
+  <testcase name="testDelegatesRequestHandlingWhenInactive" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.006"/>
+  <testcase name="testAddsReachableNodesFromIncomingRequests" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.003"/>
+  <testcase name="testAddsReachableNodesFromUnicastHostsListProvidedLater" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.002"/>
+  <testcase name="testDoesNotRequireAddressResolutionToSucceed" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.002"/>
+  <testcase name="testDoesNotAddUnreachableNodesFromClusterState" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.003"/>
+  <testcase name="testReconnectsToDisconnectedNodes" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.002"/>
+  <testcase name="testDiscardsDisconnectedNodes" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.002"/>
+  <testcase name="testAddsReachableMasterFromResponse" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.004"/>
+  <testcase name="testDoesNotReconnectToNodesOnceConnected" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.002"/>
+  <testcase name="testRequestsPeersIncludingKnownPeersInRequest" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.003"/>
+  <testcase name="testDoesNotAddUnreachableNodesFromIncomingRequests" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.003"/>
+  <testcase name="testChecksUnicastHostsForChanges" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.004"/>
+  <testcase name="testDoesNotReturnDuplicateNodesWithDistinctAddresses" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.006"/>
+  <testcase name="testAddsReachableNodesFromUnicastHostsList" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.003"/>
+  <testcase name="testTimesOutAndRetriesConnectionsToBlackholedNodes" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.005"/>
+  <testcase name="testAddsReachableNodesFromClusterState" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.008"/>
+  <testcase name="testDoesNotAddUnreachableSourceNodeFromIncomingRequests" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.004"/>
+  <testcase name="testDoesNotMakeMultipleConcurrentConnectionAttemptsToOneAddress" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.006"/>
+  <testcase name="testAddsReachablePeersFromResponse" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.009"/>
+  <testcase name="testHandlesDiscoveryOfMasterFromResponseFromMaster" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.004"/>
+  <testcase name="testRespondsToRequestWhenActive" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.006"/>
+  <testcase name="testOnlyRequestsPeersOncePerRoundButDoesRetryNextRound" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.005"/>
+  <testcase name="testDoesNotAddUnreachableNodesFromUnicastHostsList" classname="org.elasticsearch.discovery.PeerFinderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:20:58,695][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddReachableNonMasterEligibleNodesFromIncomingRequests] before test
+[2020-02-16T23:20:58,701][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddReachableNonMasterEligibleNodesFromIncomingRequests] after test
+[2020-02-16T23:20:58,704][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddNonMasterEligibleNodesFromUnicastHostsList] before test
+[2020-02-16T23:20:58,705][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddNonMasterEligibleNodesFromUnicastHostsList] after test
+[2020-02-16T23:20:58,707][INFO ][o.e.d.PeerFinderTests    ] [testReceivesRequestsFromTransportService] before test
+[2020-02-16T23:20:58,709][INFO ][o.e.d.PeerFinderTests    ] [testReceivesRequestsFromTransportService] after test
+[2020-02-16T23:20:58,711][INFO ][o.e.d.PeerFinderTests    ] [testDeactivationClearsPastKnowledge] before test
+[2020-02-16T23:20:58,712][INFO ][o.e.d.PeerFinderTests    ] [testDeactivationClearsPastKnowledge] after test
+[2020-02-16T23:20:58,714][INFO ][o.e.d.PeerFinderTests    ] [testDelegatesRequestHandlingWhenInactive] before test
+[2020-02-16T23:20:58,718][INFO ][o.e.d.PeerFinderTests    ] [testDelegatesRequestHandlingWhenInactive] after test
+[2020-02-16T23:20:58,720][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromIncomingRequests] before test
+[2020-02-16T23:20:58,721][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromIncomingRequests] after test
+[2020-02-16T23:20:58,723][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromUnicastHostsListProvidedLater] before test
+[2020-02-16T23:20:58,724][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromUnicastHostsListProvidedLater] after test
+[2020-02-16T23:20:58,725][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotRequireAddressResolutionToSucceed] before test
+[2020-02-16T23:20:58,726][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotRequireAddressResolutionToSucceed] after test
+[2020-02-16T23:20:58,728][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromClusterState] before test
+[2020-02-16T23:20:58,729][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromClusterState] after test
+[2020-02-16T23:20:58,731][INFO ][o.e.d.PeerFinderTests    ] [testReconnectsToDisconnectedNodes] before test
+[2020-02-16T23:20:58,732][INFO ][o.e.d.PeerFinderTests    ] [testReconnectsToDisconnectedNodes] after test
+[2020-02-16T23:20:58,733][INFO ][o.e.d.PeerFinderTests    ] [testDiscardsDisconnectedNodes] before test
+[2020-02-16T23:20:58,734][INFO ][o.e.d.PeerFinderTests    ] [testDiscardsDisconnectedNodes] after test
+[2020-02-16T23:20:58,736][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableMasterFromResponse] before test
+[2020-02-16T23:20:58,739][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableMasterFromResponse] after test
+[2020-02-16T23:20:58,740][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotReconnectToNodesOnceConnected] before test
+[2020-02-16T23:20:58,741][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotReconnectToNodesOnceConnected] after test
+[2020-02-16T23:20:58,743][INFO ][o.e.d.PeerFinderTests    ] [testRequestsPeersIncludingKnownPeersInRequest] before test
+[2020-02-16T23:20:58,744][INFO ][o.e.d.PeerFinderTests    ] [testRequestsPeersIncludingKnownPeersInRequest] after test
+[2020-02-16T23:20:58,746][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromIncomingRequests] before test
+[2020-02-16T23:20:58,748][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromIncomingRequests] after test
+[2020-02-16T23:20:58,749][INFO ][o.e.d.PeerFinderTests    ] [testChecksUnicastHostsForChanges] before test
+[2020-02-16T23:20:58,751][INFO ][o.e.d.PeerFinderTests    ] [testChecksUnicastHostsForChanges] after test
+[2020-02-16T23:20:58,756][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotReturnDuplicateNodesWithDistinctAddresses] before test
+[2020-02-16T23:20:58,758][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotReturnDuplicateNodesWithDistinctAddresses] after test
+[2020-02-16T23:20:58,760][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromUnicastHostsList] before test
+[2020-02-16T23:20:58,762][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromUnicastHostsList] after test
+[2020-02-16T23:20:58,765][INFO ][o.e.d.PeerFinderTests    ] [testTimesOutAndRetriesConnectionsToBlackholedNodes] before test
+[2020-02-16T23:20:58,767][INFO ][o.e.d.PeerFinderTests    ] [testTimesOutAndRetriesConnectionsToBlackholedNodes] after test
+[2020-02-16T23:20:58,774][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromClusterState] before test
+[2020-02-16T23:20:58,776][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromClusterState] after test
+[2020-02-16T23:20:58,779][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableSourceNodeFromIncomingRequests] before test
+[2020-02-16T23:20:58,780][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableSourceNodeFromIncomingRequests] after test
+[2020-02-16T23:20:58,783][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotMakeMultipleConcurrentConnectionAttemptsToOneAddress] before test
+[2020-02-16T23:20:58,786][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotMakeMultipleConcurrentConnectionAttemptsToOneAddress] after test
+[2020-02-16T23:20:58,794][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachablePeersFromResponse] before test
+[2020-02-16T23:20:58,796][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachablePeersFromResponse] after test
+[2020-02-16T23:20:58,798][INFO ][o.e.d.PeerFinderTests    ] [testHandlesDiscoveryOfMasterFromResponseFromMaster] before test
+[2020-02-16T23:20:58,800][INFO ][o.e.d.PeerFinderTests    ] [testHandlesDiscoveryOfMasterFromResponseFromMaster] after test
+[2020-02-16T23:20:58,804][INFO ][o.e.d.PeerFinderTests    ] [testRespondsToRequestWhenActive] before test
+[2020-02-16T23:20:58,806][INFO ][o.e.d.PeerFinderTests    ] [testRespondsToRequestWhenActive] after test
+[2020-02-16T23:20:58,809][INFO ][o.e.d.PeerFinderTests    ] [testOnlyRequestsPeersOncePerRoundButDoesRetryNextRound] before test
+[2020-02-16T23:20:58,811][INFO ][o.e.d.PeerFinderTests    ] [testOnlyRequestsPeersOncePerRoundButDoesRetryNextRound] after test
+[2020-02-16T23:20:58,813][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromUnicastHostsList] before test
+[2020-02-16T23:20:58,814][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromUnicastHostsList] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

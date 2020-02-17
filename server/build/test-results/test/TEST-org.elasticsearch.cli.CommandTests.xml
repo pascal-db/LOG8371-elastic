@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cli.CommandTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.112">
+  <properties/>
+  <testcase name="testVerbositySilentAndVerbose" classname="org.elasticsearch.cli.CommandTests" time="0.01"/>
+  <testcase name="testHelp" classname="org.elasticsearch.cli.CommandTests" time="0.014"/>
+  <testcase name="testVerboseVerbosity" classname="org.elasticsearch.cli.CommandTests" time="0.006"/>
+  <testcase name="testUnknownOptions" classname="org.elasticsearch.cli.CommandTests" time="0.008"/>
+  <testcase name="testNormalVerbosity" classname="org.elasticsearch.cli.CommandTests" time="0.002"/>
+  <testcase name="testSilentVerbosity" classname="org.elasticsearch.cli.CommandTests" time="0.003"/>
+  <testcase name="testUsageError" classname="org.elasticsearch.cli.CommandTests" time="0.05"/>
+  <testcase name="testUserError" classname="org.elasticsearch.cli.CommandTests" time="0.018"/>
+  <system-out><![CDATA[[2020-02-17T09:20:50,052][INFO ][o.e.c.CommandTests       ] [testVerbositySilentAndVerbose] before test
+[2020-02-17T09:20:50,055][INFO ][o.e.c.CommandTests       ] [testVerbositySilentAndVerbose] after test
+[2020-02-17T09:20:50,062][INFO ][o.e.c.CommandTests       ] [testHelp] before test
+[2020-02-17T09:20:50,069][INFO ][o.e.c.CommandTests       ] [testHelp] after test
+[2020-02-17T09:20:50,075][INFO ][o.e.c.CommandTests       ] [testVerboseVerbosity] before test
+[2020-02-17T09:20:50,076][INFO ][o.e.c.CommandTests       ] [testVerboseVerbosity] after test
+[2020-02-17T09:20:50,083][INFO ][o.e.c.CommandTests       ] [testUnknownOptions] before test
+[2020-02-17T09:20:50,084][INFO ][o.e.c.CommandTests       ] [testUnknownOptions] after test
+[2020-02-17T09:20:50,086][INFO ][o.e.c.CommandTests       ] [testNormalVerbosity] before test
+[2020-02-17T09:20:50,086][INFO ][o.e.c.CommandTests       ] [testNormalVerbosity] after test
+[2020-02-17T09:20:50,089][INFO ][o.e.c.CommandTests       ] [testSilentVerbosity] before test
+[2020-02-17T09:20:50,089][INFO ][o.e.c.CommandTests       ] [testSilentVerbosity] after test
+[2020-02-17T09:20:50,138][INFO ][o.e.c.CommandTests       ] [testUsageError] before test
+[2020-02-17T09:20:50,139][INFO ][o.e.c.CommandTests       ] [testUsageError] after test
+[2020-02-17T09:20:50,156][INFO ][o.e.c.CommandTests       ] [testUserError] before test
+[2020-02-17T09:20:50,157][INFO ][o.e.c.CommandTests       ] [testUserError] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

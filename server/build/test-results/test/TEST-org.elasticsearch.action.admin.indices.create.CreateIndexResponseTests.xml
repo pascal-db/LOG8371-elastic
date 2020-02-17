@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.create.CreateIndexResponseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:25" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.indices.create.CreateIndexResponseTests" time="0.007"/>
+  <testcase name="testToAndFromXContentIndexNull" classname="org.elasticsearch.action.admin.indices.create.CreateIndexResponseTests" time="0.005"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.admin.indices.create.CreateIndexResponseTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.create.CreateIndexResponseTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.create.CreateIndexResponseTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:20:25,304][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:20:25,309][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:20:25,315][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testToAndFromXContentIndexNull] before test
+[2020-02-16T23:20:25,315][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testToAndFromXContentIndexNull] after test
+[2020-02-16T23:20:25,319][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testToXContent] before test
+[2020-02-16T23:20:25,319][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testToXContent] after test
+[2020-02-16T23:20:25,322][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testFromXContent] before test
+[2020-02-16T23:20:25,328][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testFromXContent] after test
+[2020-02-16T23:20:25,331][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testSerialization] before test
+[2020-02-16T23:20:25,331][INFO ][o.e.a.a.i.c.CreateIndexResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

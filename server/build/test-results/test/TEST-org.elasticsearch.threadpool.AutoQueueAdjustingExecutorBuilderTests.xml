@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.threadpool.AutoQueueAdjustingExecutorBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:44" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testSetLowerSettings" classname="org.elasticsearch.threadpool.AutoQueueAdjustingExecutorBuilderTests" time="0.002"/>
+  <testcase name="testSetHigherSettings" classname="org.elasticsearch.threadpool.AutoQueueAdjustingExecutorBuilderTests" time="0.002"/>
+  <testcase name="testValidatingMinMaxSettings" classname="org.elasticsearch.threadpool.AutoQueueAdjustingExecutorBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T16:24:44,550][INFO ][o.e.t.AutoQueueAdjustingExecutorBuilderTests] [testSetLowerSettings] before test
+[2020-02-16T16:24:44,551][INFO ][o.e.t.AutoQueueAdjustingExecutorBuilderTests] [testSetLowerSettings] after test
+[2020-02-16T16:24:44,552][INFO ][o.e.t.AutoQueueAdjustingExecutorBuilderTests] [testSetHigherSettings] before test
+[2020-02-16T16:24:44,552][INFO ][o.e.t.AutoQueueAdjustingExecutorBuilderTests] [testSetHigherSettings] after test
+[2020-02-16T16:24:44,554][INFO ][o.e.t.AutoQueueAdjustingExecutorBuilderTests] [testValidatingMinMaxSettings] before test
+[2020-02-16T16:24:44,556][INFO ][o.e.t.AutoQueueAdjustingExecutorBuilderTests] [testValidatingMinMaxSettings] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

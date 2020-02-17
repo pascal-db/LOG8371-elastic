@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.terms.StringTermsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:22" hostname="Escoto-PC" time="0.076">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.terms.StringTermsTests" time="0.008"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.terms.StringTermsTests" time="0.044"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.terms.StringTermsTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.terms.StringTermsTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.terms.StringTermsTests" time="0.004"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.terms.StringTermsTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T22:24:22,240][INFO ][o.e.s.a.b.t.StringTermsTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T22:24:22,244][INFO ][o.e.s.a.b.t.StringTermsTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T22:24:22,247][INFO ][o.e.s.a.b.t.StringTermsTests] [testReduceRandom] before test
+[2020-02-16T22:24:22,287][INFO ][o.e.s.a.b.t.StringTermsTests] [testReduceRandom] after test
+[2020-02-16T22:24:22,291][INFO ][o.e.s.a.b.t.StringTermsTests] [testFromXContent] before test
+[2020-02-16T22:24:22,292][INFO ][o.e.s.a.b.t.StringTermsTests] [testFromXContent] after test
+[2020-02-16T22:24:22,295][INFO ][o.e.s.a.b.t.StringTermsTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:24:22,301][INFO ][o.e.s.a.b.t.StringTermsTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:24:22,304][INFO ][o.e.s.a.b.t.StringTermsTests] [testSerialization] before test
+[2020-02-16T22:24:22,305][INFO ][o.e.s.a.b.t.StringTermsTests] [testSerialization] after test
+[2020-02-16T22:24:22,311][INFO ][o.e.s.a.b.t.StringTermsTests] [testIterators] before test
+[2020-02-16T22:24:22,311][INFO ][o.e.s.a.b.t.StringTermsTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalSumTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:25" hostname="Escoto-PC" time="0.117">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalSumTests" time="0.046"/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.metrics.InternalSumTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalSumTests" time="0.007"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalSumTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalSumTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalSumTests" time="0.053"/>
+  <system-out><![CDATA[[2563-02-16T13:24:25,064][INFO ][o.e.s.a.m.InternalSumTests] [testFromXContentWithRandomFields] before test
+[2563-02-16T13:24:25,072][INFO ][o.e.s.a.m.InternalSumTests] [testFromXContentWithRandomFields] after test
+[2563-02-16T13:24:25,076][INFO ][o.e.s.a.m.InternalSumTests] [testSummationAccuracy] before test
+[2563-02-16T13:24:25,076][INFO ][o.e.s.a.m.InternalSumTests] [testSummationAccuracy] after test
+[2563-02-16T13:24:25,082][INFO ][o.e.s.a.m.InternalSumTests] [testFromXContent] before test
+[2563-02-16T13:24:25,083][INFO ][o.e.s.a.m.InternalSumTests] [testFromXContent] after test
+[2563-02-16T13:24:25,086][INFO ][o.e.s.a.m.InternalSumTests] [testEqualsAndHashcode] before test
+[2563-02-16T13:24:25,087][INFO ][o.e.s.a.m.InternalSumTests] [testEqualsAndHashcode] after test
+[2563-02-16T13:24:25,090][INFO ][o.e.s.a.m.InternalSumTests] [testSerialization] before test
+[2563-02-16T13:24:25,090][INFO ][o.e.s.a.m.InternalSumTests] [testSerialization] after test
+[2563-02-16T13:24:25,141][INFO ][o.e.s.a.m.InternalSumTests] [testReduceRandom] before test
+[2563-02-16T13:24:25,143][INFO ][o.e.s.a.m.InternalSumTests] [testReduceRandom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

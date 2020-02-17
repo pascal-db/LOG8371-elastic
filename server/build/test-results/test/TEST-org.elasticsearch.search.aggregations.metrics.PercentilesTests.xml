@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.PercentilesTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:26" hostname="Escoto-PC" time="0.051">
+  <properties/>
+  <testcase name="testExceptionMultipleMethods" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.031"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.003"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.003"/>
+  <testcase name="testNullOrEmptyPercentilesThrows" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.002"/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.003"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.metrics.PercentilesTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:24:26,530][INFO ][o.e.s.a.m.PercentilesTests] [testExceptionMultipleMethods] before test
+[2020-02-16T23:24:26,534][INFO ][o.e.p.PluginsService     ] [testExceptionMultipleMethods] no modules loaded
+[2020-02-16T23:24:26,534][INFO ][o.e.p.PluginsService     ] [testExceptionMultipleMethods] no plugins loaded
+[2020-02-16T23:24:26,555][INFO ][o.e.p.PluginsService     ] [testExceptionMultipleMethods] no modules loaded
+[2020-02-16T23:24:26,555][INFO ][o.e.p.PluginsService     ] [testExceptionMultipleMethods] no plugins loaded
+[2020-02-16T23:24:26,559][INFO ][o.e.s.a.m.PercentilesTests] [testExceptionMultipleMethods] after test
+[2020-02-16T23:24:26,561][INFO ][o.e.s.a.m.PercentilesTests] [testSerialization] before test
+[2020-02-16T23:24:26,562][INFO ][o.e.s.a.m.PercentilesTests] [testSerialization] after test
+[2020-02-16T23:24:26,564][INFO ][o.e.s.a.m.PercentilesTests] [testToString] before test
+[2020-02-16T23:24:26,565][INFO ][o.e.s.a.m.PercentilesTests] [testToString] after test
+[2020-02-16T23:24:26,567][INFO ][o.e.s.a.m.PercentilesTests] [testNullOrEmptyPercentilesThrows] before test
+[2020-02-16T23:24:26,567][INFO ][o.e.s.a.m.PercentilesTests] [testNullOrEmptyPercentilesThrows] after test
+[2020-02-16T23:24:26,569][INFO ][o.e.s.a.m.PercentilesTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:24:26,569][INFO ][o.e.s.a.m.PercentilesTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:24:26,571][INFO ][o.e.s.a.m.PercentilesTests] [testFromXContentMulti] before test
+[2020-02-16T23:24:26,572][INFO ][o.e.s.a.m.PercentilesTests] [testFromXContentMulti] after test
+[2020-02-16T23:24:26,574][INFO ][o.e.s.a.m.PercentilesTests] [testSerializationMulti] before test
+[2020-02-16T23:24:26,575][INFO ][o.e.s.a.m.PercentilesTests] [testSerializationMulti] after test
+[2020-02-16T23:24:26,577][INFO ][o.e.s.a.m.PercentilesTests] [testFromXContent] before test
+[2020-02-16T23:24:26,577][INFO ][o.e.s.a.m.PercentilesTests] [testFromXContent] after test
+[2020-02-16T23:24:26,579][INFO ][o.e.s.a.m.PercentilesTests] [testShallowCopy] before test
+[2020-02-16T23:24:26,580][INFO ][o.e.s.a.m.PercentilesTests] [testShallowCopy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

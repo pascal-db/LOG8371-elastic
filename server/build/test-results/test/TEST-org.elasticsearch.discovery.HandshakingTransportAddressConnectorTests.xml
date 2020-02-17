@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:57" hostname="Escoto-PC" time="1.122">
+  <properties/>
+  <testcase name="testDoesNotConnectToDifferentCluster" classname="org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests" time="0.013"/>
+  <testcase name="testDoesNotConnectToNonMasterNode" classname="org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests" time="0.088"/>
+  <testcase name="testHandshakeTimesOut" classname="org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests" time="1.013"/>
+  <testcase name="testConnectsToMasterNode" classname="org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests" time="0.004"/>
+  <testcase name="testDoesNotConnectToLocalNode" classname="org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:20:57,561][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToDifferentCluster] before test
+[2020-02-17T05:20:57,567][WARN ][o.e.d.HandshakingTransportAddressConnector] [node] handshake failed for [connectToRemoteMasterNode[0.0.0.0:2]]
+java.lang.IllegalStateException: handshake with [{0.0.0.0:2}{7p_rRwAAQACe51BhAAAAAA}{0.0.0.0}{0.0.0.0:2}] failed: remote cluster name [another-cluster] does not match local cluster name [local-cluster]
+	at org.elasticsearch.transport.TransportService$5.onResponse(TransportService.java:461) [main/:?]
+	at org.elasticsearch.transport.TransportService$5.onResponse(TransportService.java:456) [main/:?]
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleResponse(ActionListenerResponseHandler.java:54) [main/:?]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleResponse(TransportService.java:1110) [main/:?]
+	at org.elasticsearch.test.transport.MockTransport.handleResponse(MockTransport.java:106) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests$1.onSendRequest(HandshakingTransportAddressConnectorTests.java:79) [test/:?]
+	at org.elasticsearch.test.transport.MockTransport$1.sendRequest(MockTransport.java:181) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TransportService.sendRequestInternal(TransportService.java:692) [main/:?]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:602) [main/:?]
+	at org.elasticsearch.transport.TransportService.handshake(TransportService.java:453) [main/:?]
+	at org.elasticsearch.transport.TransportService.handshake(TransportService.java:431) [main/:?]
+	at org.elasticsearch.discovery.HandshakingTransportAddressConnector$1$1.onResponse(HandshakingTransportAddressConnector.java:94) [main/:?]
+	at org.elasticsearch.discovery.HandshakingTransportAddressConnector$1$1.onResponse(HandshakingTransportAddressConnector.java:87) [main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$map$2(ActionListener.java:146) [main/:?]
+	at org.elasticsearch.action.ActionListener$1.onResponse(ActionListener.java:63) [main/:?]
+	at org.elasticsearch.test.transport.MockTransport.openConnection(MockTransport.java:167) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) [main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) [main/:?]
+	at org.elasticsearch.test.transport.StubbableConnectionManager.openConnection(StubbableConnectionManager.java:74) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TransportService.openConnection(TransportService.java:410) [main/:?]
+	at org.elasticsearch.discovery.HandshakingTransportAddressConnector$1.doRun(HandshakingTransportAddressConnector.java:85) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T05:20:57,568][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToDifferentCluster] after test
+[2020-02-17T05:20:57,571][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToNonMasterNode] before test
+[2020-02-17T05:20:57,656][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToNonMasterNode] after test
+[2020-02-17T05:20:57,658][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testHandshakeTimesOut] before test
+[2020-02-17T05:20:58,668][WARN ][o.e.d.HandshakingTransportAddressConnector] [node] handshake failed for [connectToRemoteMasterNode[0.0.0.0:6]]
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][0.0.0.0:6][internal:transport/handshake] request_id [1] timed out after [811ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1022) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T05:20:58,669][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testHandshakeTimesOut] after test
+[2020-02-17T05:20:58,671][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testConnectsToMasterNode] before test
+[2020-02-17T05:20:58,674][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testConnectsToMasterNode] after test
+[2020-02-17T05:20:58,675][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToLocalNode] before test
+[2020-02-17T05:20:58,677][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToLocalNode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

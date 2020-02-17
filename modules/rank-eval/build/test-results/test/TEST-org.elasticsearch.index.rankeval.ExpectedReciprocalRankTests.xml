@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:50" hostname="Escoto-PC" time="0.17">
+  <properties/>
+  <testcase name="testXContentParsingIsNotLenient" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.067"/>
+  <testcase name="testERRMissingRatings" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.015"/>
+  <testcase name="testERRAt" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.011"/>
+  <testcase name="testParseFromXContent" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.019"/>
+  <testcase name="testProbabilityOfRelevance" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.014"/>
+  <testcase name="testNoResults" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.023"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.005"/>
+  <testcase name="testXContentRoundtrip" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.003"/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.003"/>
+  <testcase name="testMetricDetails" classname="org.elasticsearch.index.rankeval.ExpectedReciprocalRankTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T17:41:50,724][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testXContentParsingIsNotLenient] before test
+[2020-02-16T17:41:50,768][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testXContentParsingIsNotLenient] after test
+[2020-02-16T17:41:50,783][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testERRMissingRatings] before test
+[2020-02-16T17:41:50,785][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testERRMissingRatings] after test
+[2020-02-16T17:41:50,792][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testERRAt] before test
+[2020-02-16T17:41:50,795][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testERRAt] after test
+[2020-02-16T17:41:50,814][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testParseFromXContent] before test
+[2020-02-16T17:41:50,815][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testParseFromXContent] after test
+[2020-02-16T17:41:50,828][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testProbabilityOfRelevance] before test
+[2020-02-16T17:41:50,829][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testProbabilityOfRelevance] after test
+[2020-02-16T17:41:50,847][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testNoResults] before test
+[2020-02-16T17:41:50,852][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testNoResults] after test
+[2020-02-16T17:41:50,856][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testSerialization] before test
+[2020-02-16T17:41:50,857][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testSerialization] after test
+[2020-02-16T17:41:50,860][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testXContentRoundtrip] before test
+[2020-02-16T17:41:50,861][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testXContentRoundtrip] after test
+[2020-02-16T17:41:50,864][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testEqualsAndHash] before test
+[2020-02-16T17:41:50,865][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testEqualsAndHash] after test
+[2020-02-16T17:41:50,871][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testMetricDetails] before test
+[2020-02-16T17:41:50,871][INFO ][o.e.i.r.ExpectedReciprocalRankTests] [testMetricDetails] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

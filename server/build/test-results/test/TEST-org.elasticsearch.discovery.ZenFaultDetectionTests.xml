@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.ZenFaultDetectionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:12" hostname="Escoto-PC" time="6.713">
+  <properties/>
+  <testcase name="testMasterFaultDetectionNotSizeLimited" classname="org.elasticsearch.discovery.ZenFaultDetectionTests" time="2.729"/>
+  <testcase name="testMasterFaultDetectionConnectOnDisconnect" classname="org.elasticsearch.discovery.ZenFaultDetectionTests" time="1.933"/>
+  <testcase name="testNodesFaultDetectionConnectOnDisconnect" classname="org.elasticsearch.discovery.ZenFaultDetectionTests" time="2.05"/>
+  <system-out><![CDATA[[2020-02-17T00:22:12,399][INFO ][o.e.d.ZenFaultDetectionTests] [testMasterFaultDetectionNotSizeLimited] before test
+[2020-02-17T00:22:12,800][INFO ][o.e.t.TransportService   ] [testMasterFaultDetectionNotSizeLimited] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T00:22:13,078][INFO ][o.e.t.TransportService   ] [testMasterFaultDetectionNotSizeLimited] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T00:22:13,083][WARN ][o.e.d.c.s.Settings       ] [testMasterFaultDetectionNotSizeLimited] [discovery.zen.fd.connect_on_network_disconnect] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T00:22:13,083][WARN ][o.e.d.c.s.Settings       ] [testMasterFaultDetectionNotSizeLimited] [discovery.zen.fd.ping_interval] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T00:22:15,098][INFO ][o.e.d.ZenFaultDetectionTests] [testMasterFaultDetectionNotSizeLimited] after test
+[2020-02-17T00:22:15,101][INFO ][o.e.d.ZenFaultDetectionTests] [testMasterFaultDetectionConnectOnDisconnect] before test
+[2020-02-17T00:22:15,525][INFO ][o.e.t.TransportService   ] [testMasterFaultDetectionConnectOnDisconnect] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T00:22:15,984][INFO ][o.e.t.TransportService   ] [testMasterFaultDetectionConnectOnDisconnect] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T00:22:17,031][INFO ][o.e.d.ZenFaultDetectionTests] [testMasterFaultDetectionConnectOnDisconnect] after test
+[2020-02-17T00:22:17,033][INFO ][o.e.d.ZenFaultDetectionTests] [testNodesFaultDetectionConnectOnDisconnect] before test
+[2020-02-17T00:22:17,520][INFO ][o.e.t.TransportService   ] [testNodesFaultDetectionConnectOnDisconnect] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-17T00:22:18,068][INFO ][o.e.t.TransportService   ] [testNodesFaultDetectionConnectOnDisconnect] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-17T00:22:19,082][INFO ][o.e.d.ZenFaultDetectionTests] [testNodesFaultDetectionConnectOnDisconnect] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

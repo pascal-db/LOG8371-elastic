@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.weighted_avg.WeightedAvgAggregationBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:33" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.weighted_avg.WeightedAvgAggregationBuilderTests" time="0.008"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.weighted_avg.WeightedAvgAggregationBuilderTests" time="0.011"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.weighted_avg.WeightedAvgAggregationBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:25:33,113][INFO ][o.e.s.a.m.w.WeightedAvgAggregationBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:25:33,118][INFO ][o.e.s.a.m.w.WeightedAvgAggregationBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:25:33,120][INFO ][o.e.s.a.m.w.WeightedAvgAggregationBuilderTests] [testFromXContent] before test
+[2020-02-16T19:25:33,129][INFO ][o.e.s.a.m.w.WeightedAvgAggregationBuilderTests] [testFromXContent] after test
+[2020-02-16T19:25:33,131][INFO ][o.e.s.a.m.w.WeightedAvgAggregationBuilderTests] [testSerialization] before test
+[2020-02-16T19:25:33,131][INFO ][o.e.s.a.m.w.WeightedAvgAggregationBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

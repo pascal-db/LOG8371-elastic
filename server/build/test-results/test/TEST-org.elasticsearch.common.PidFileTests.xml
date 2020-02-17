@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.PidFileTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:49" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testParentIsFile" classname="org.elasticsearch.common.PidFileTests" time="0.004"/>
+  <testcase name="testPidFile" classname="org.elasticsearch.common.PidFileTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T17:21:49,446][INFO ][o.e.c.PidFileTests       ] [testParentIsFile] before test
+[2020-02-16T17:21:49,449][INFO ][o.e.c.PidFileTests       ] [testParentIsFile] after test
+[2020-02-16T17:21:49,451][INFO ][o.e.c.PidFileTests       ] [testPidFile] before test
+[2020-02-16T17:21:49,453][INFO ][o.e.c.PidFileTests       ] [testPidFile] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

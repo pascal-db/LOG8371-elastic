@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.engine.ReadOnlyEngineTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:58" hostname="Escoto-PC" time="0.64">
+  <properties/>
+  <testcase name="testReadOnly" classname="org.elasticsearch.index.engine.ReadOnlyEngineTests" time="0.036"/>
+  <testcase name="testReadOnlyEngine" classname="org.elasticsearch.index.engine.ReadOnlyEngineTests" time="0.125"/>
+  <testcase name="testEnsureMaxSeqNoIsEqualToGlobalCheckpoint" classname="org.elasticsearch.index.engine.ReadOnlyEngineTests" time="0.055"/>
+  <testcase name="testRecoverFromTranslogAppliesNoOperations" classname="org.elasticsearch.index.engine.ReadOnlyEngineTests" time="0.071"/>
+  <testcase name="testTranslogStats" classname="org.elasticsearch.index.engine.ReadOnlyEngineTests" time="0.165"/>
+  <testcase name="testVerifyShardBeforeIndexClosingIsNoOp" classname="org.elasticsearch.index.engine.ReadOnlyEngineTests" time="0.031"/>
+  <testcase name="testFlushes" classname="org.elasticsearch.index.engine.ReadOnlyEngineTests" time="0.157"/>
+  <system-out><![CDATA[[2020-02-16T16:21:58,152][INFO ][o.e.i.e.ReadOnlyEngineTests] [testReadOnly] before test
+[2020-02-16T16:21:58,186][INFO ][o.e.i.e.ReadOnlyEngineTests] [testReadOnly] after test
+[2020-02-16T16:21:58,189][INFO ][o.e.i.e.ReadOnlyEngineTests] [testReadOnlyEngine] before test
+[2020-02-16T16:21:58,310][INFO ][o.e.i.e.ReadOnlyEngineTests] [testReadOnlyEngine] after test
+[2020-02-16T16:21:58,313][INFO ][o.e.i.e.ReadOnlyEngineTests] [testEnsureMaxSeqNoIsEqualToGlobalCheckpoint] before test
+[2020-02-16T16:21:58,366][INFO ][o.e.i.e.ReadOnlyEngineTests] [testEnsureMaxSeqNoIsEqualToGlobalCheckpoint] after test
+[2020-02-16T16:21:58,369][INFO ][o.e.i.e.ReadOnlyEngineTests] [testRecoverFromTranslogAppliesNoOperations] before test
+[2020-02-16T16:21:58,437][INFO ][o.e.i.e.ReadOnlyEngineTests] [testRecoverFromTranslogAppliesNoOperations] after test
+[2020-02-16T16:21:58,440][INFO ][o.e.i.e.ReadOnlyEngineTests] [testTranslogStats] before test
+[2020-02-16T16:21:58,602][INFO ][o.e.i.e.ReadOnlyEngineTests] [testTranslogStats] after test
+[2020-02-16T16:21:58,604][INFO ][o.e.i.e.ReadOnlyEngineTests] [testVerifyShardBeforeIndexClosingIsNoOp] before test
+[2020-02-16T16:21:58,632][INFO ][o.e.i.e.ReadOnlyEngineTests] [testVerifyShardBeforeIndexClosingIsNoOp] after test
+[2020-02-16T16:21:58,635][INFO ][o.e.i.e.ReadOnlyEngineTests] [testFlushes] before test
+[2020-02-16T16:21:58,790][INFO ][o.e.i.e.ReadOnlyEngineTests] [testFlushes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

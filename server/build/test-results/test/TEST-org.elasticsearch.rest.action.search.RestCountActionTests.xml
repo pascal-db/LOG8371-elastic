@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.search.RestCountActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.search.RestCountActionTests" time="0.006"/>
+  <testcase name="testTypeParameter" classname="org.elasticsearch.rest.action.search.RestCountActionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:24:05,180][INFO ][o.e.r.a.s.RestCountActionTests] [testTypeInPath] before test
+[2020-02-16T23:24:05,181][WARN ][o.e.d.r.a.s.RestCountAction] [testTypeInPath] [types removal] Specifying types in count requests is deprecated.
+[2020-02-16T23:24:05,183][INFO ][o.e.r.a.s.RestCountActionTests] [testTypeInPath] after test
+[2020-02-16T23:24:05,185][INFO ][o.e.r.a.s.RestCountActionTests] [testTypeParameter] before test
+[2020-02-16T23:24:05,186][INFO ][o.e.r.a.s.RestCountActionTests] [testTypeParameter] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

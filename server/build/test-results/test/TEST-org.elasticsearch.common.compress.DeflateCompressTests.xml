@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.compress.DeflateCompressTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:43" hostname="Escoto-PC" time="0.491">
+  <properties/>
+  <testcase name="testLineDocs" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.133"/>
+  <testcase name="testRepetitionsL" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.018"/>
+  <testcase name="testRepetitionsSThreads" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.04"/>
+  <testcase name="testRepetitionsS" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.016"/>
+  <testcase name="testRandom" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.017"/>
+  <testcase name="testRandomThreads" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.038"/>
+  <testcase name="testRepetitionsI" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.015"/>
+  <testcase name="testRepetitionsLThreads" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.02"/>
+  <testcase name="testMixed" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.034"/>
+  <testcase name="testLineDocsThreads" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.133"/>
+  <testcase name="testRepetitionsIThreads" classname="org.elasticsearch.common.compress.DeflateCompressTests" time="0.026"/>
+  <system-out><![CDATA[[2020-02-16T23:20:43,769][INFO ][o.e.c.c.DeflateCompressTests] [testLineDocs] before test
+[2020-02-16T23:20:43,900][INFO ][o.e.c.c.DeflateCompressTests] [testLineDocs] after test
+[2020-02-16T23:20:43,901][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsL] before test
+[2020-02-16T23:20:43,918][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsL] after test
+[2020-02-16T23:20:43,919][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsSThreads] before test
+[2020-02-16T23:20:43,958][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsSThreads] after test
+[2020-02-16T23:20:43,959][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsS] before test
+[2020-02-16T23:20:43,974][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsS] after test
+[2020-02-16T23:20:43,975][INFO ][o.e.c.c.DeflateCompressTests] [testRandom] before test
+[2020-02-16T23:20:43,991][INFO ][o.e.c.c.DeflateCompressTests] [testRandom] after test
+[2020-02-16T23:20:43,992][INFO ][o.e.c.c.DeflateCompressTests] [testRandomThreads] before test
+[2020-02-16T23:20:44,029][INFO ][o.e.c.c.DeflateCompressTests] [testRandomThreads] after test
+[2020-02-16T23:20:44,031][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsI] before test
+[2020-02-16T23:20:44,045][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsI] after test
+[2020-02-16T23:20:44,047][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsLThreads] before test
+[2020-02-16T23:20:44,064][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsLThreads] after test
+[2020-02-16T23:20:44,066][INFO ][o.e.c.c.DeflateCompressTests] [testMixed] before test
+[2020-02-16T23:20:44,099][INFO ][o.e.c.c.DeflateCompressTests] [testMixed] after test
+[2020-02-16T23:20:44,101][INFO ][o.e.c.c.DeflateCompressTests] [testLineDocsThreads] before test
+[2020-02-16T23:20:44,232][INFO ][o.e.c.c.DeflateCompressTests] [testLineDocsThreads] after test
+[2020-02-16T23:20:44,233][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsIThreads] before test
+[2020-02-16T23:20:44,258][INFO ][o.e.c.c.DeflateCompressTests] [testRepetitionsIThreads] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

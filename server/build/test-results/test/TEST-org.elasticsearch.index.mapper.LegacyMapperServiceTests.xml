@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.LegacyMapperServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:20" hostname="Escoto-PC" time="0.934">
+  <properties/>
+  <testcase name="testDefaultMappingIsDeprecatedOn6" classname="org.elasticsearch.index.mapper.LegacyMapperServiceTests" time="0.778"/>
+  <testcase name="testIndexMetaDataUpdateDoesNotLoseDefaultMapper" classname="org.elasticsearch.index.mapper.LegacyMapperServiceTests" time="0.156"/>
+  <system-out><![CDATA[[2020-02-17T02:23:20,628][INFO ][o.e.e.NodeEnvironment    ] [testDefaultMappingIsDeprecatedOn6] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T02:23:20,630][INFO ][o.e.e.NodeEnvironment    ] [testDefaultMappingIsDeprecatedOn6] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T02:23:20,632][INFO ][o.e.n.Node               ] [testDefaultMappingIsDeprecatedOn6] node name [node_s_0], node ID [6w3BsyreSbObKgXf0-OeLA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-2736424416692688620]-HASH=[14B43642297]]
+[2020-02-17T02:23:20,632][INFO ][o.e.n.Node               ] [testDefaultMappingIsDeprecatedOn6] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T02:23:20,632][INFO ][o.e.n.Node               ] [testDefaultMappingIsDeprecatedOn6] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T02:23:20,632][INFO ][o.e.n.Node               ] [testDefaultMappingIsDeprecatedOn6] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T02:23:20,633][INFO ][o.e.p.PluginsService     ] [testDefaultMappingIsDeprecatedOn6] no modules loaded
+[2020-02-17T02:23:20,633][INFO ][o.e.p.PluginsService     ] [testDefaultMappingIsDeprecatedOn6] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T02:23:20,633][INFO ][o.e.p.PluginsService     ] [testDefaultMappingIsDeprecatedOn6] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T02:23:20,845][INFO ][o.e.d.DiscoveryModule    ] [testDefaultMappingIsDeprecatedOn6] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T02:23:20,852][INFO ][o.e.n.Node               ] [testDefaultMappingIsDeprecatedOn6] initialized
+[2020-02-17T02:23:20,852][INFO ][o.e.n.Node               ] [testDefaultMappingIsDeprecatedOn6] starting ...
+[2020-02-17T02:23:21,156][INFO ][o.e.t.TransportService   ] [testDefaultMappingIsDeprecatedOn6] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:23:21,162][INFO ][o.e.c.c.Coordinator      ] [testDefaultMappingIsDeprecatedOn6] setting initial configuration to VotingConfiguration{6w3BsyreSbObKgXf0-OeLA}
+[2020-02-17T02:23:21,263][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{6w3BsyreSbObKgXf0-OeLA}{BBr0NiQgSpKQnW0h_S_b6w}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{6w3BsyreSbObKgXf0-OeLA}{BBr0NiQgSpKQnW0h_S_b6w}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T02:23:21,269][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [yZl6gvtHS4KpvUJizP4-Fg]
+[2020-02-17T02:23:21,276][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{6w3BsyreSbObKgXf0-OeLA}{BBr0NiQgSpKQnW0h_S_b6w}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T02:23:21,277][INFO ][o.e.n.Node               ] [testDefaultMappingIsDeprecatedOn6] started
+[2020-02-17T02:23:21,282][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T02:23:21,284][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T02:23:21,295][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T02:23:21,306][INFO ][o.e.i.m.LegacyMapperServiceTests] [testDefaultMappingIsDeprecatedOn6] before test
+[2020-02-17T02:23:21,308][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T02:23:21,362][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T02:23:21,374][WARN ][o.e.d.i.m.MapperService  ] [testDefaultMappingIsDeprecatedOn6] [_default_] mapping is deprecated since it is not useful anymore now that indexes cannot have more than one type
+[2020-02-17T02:23:21,374][INFO ][o.e.i.m.LegacyMapperServiceTests] [testDefaultMappingIsDeprecatedOn6] after test
+[2020-02-17T02:23:21,375][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/_o9_A3XUStyNgoGCvtXFlA] deleting index
+[2020-02-17T02:23:21,398][INFO ][o.e.i.m.LegacyMapperServiceTests] [testIndexMetaDataUpdateDoesNotLoseDefaultMapper] before test
+[2020-02-17T02:23:21,399][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T02:23:21,494][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T02:23:21,513][WARN ][o.e.d.i.m.MapperService  ] [node_s_0] [_default_] mapping is deprecated since it is not useful anymore now that indexes cannot have more than one type
+[2020-02-17T02:23:21,513][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/LX9z1qPuTcy7v63Kg9Yu3g] create_mapping [_default_]
+[2020-02-17T02:23:21,523][INFO ][o.e.c.m.MetaDataUpdateSettingsService] [node_s_0] updating number_of_replicas to [0] for indices [test]
+[2020-02-17T02:23:21,532][INFO ][o.e.i.m.LegacyMapperServiceTests] [testIndexMetaDataUpdateDoesNotLoseDefaultMapper] after test
+[2020-02-17T02:23:21,532][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/LX9z1qPuTcy7v63Kg9Yu3g] deleting index
+[2020-02-17T02:23:21,551][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T02:23:21,552][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T02:23:21,552][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T02:23:21,552][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.engine.LiveVersionMapTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:28" hostname="Escoto-PC" time="6.308">
+  <properties/>
+  <testcase name="testRefreshTransition" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="0.005"/>
+  <testcase name="testConcurrently" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="0.363"/>
+  <testcase name="testRandomlyIndexDeleteAndRefresh" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="0.007"/>
+  <testcase name="testRefreshingBytes" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="0.004"/>
+  <testcase name="testAddAndDeleteRefreshConcurrently" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="0.018"/>
+  <testcase name="testCarryOnSafeAccess" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="0.002"/>
+  <testcase name="testPruneTombstonesWhileLocked" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="0.004"/>
+  <testcase name="testBasics" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="0.002"/>
+  <testcase name="testRamBytesUsed" classname="org.elasticsearch.index.engine.LiveVersionMapTests" time="5.903"/>
+  <system-out><![CDATA[[2020-02-17T03:22:28,553][INFO ][o.e.i.e.LiveVersionMapTests] [testRefreshTransition] before test
+[2020-02-17T03:22:28,556][INFO ][o.e.i.e.LiveVersionMapTests] [testRefreshTransition] after test
+[2020-02-17T03:22:28,558][INFO ][o.e.i.e.LiveVersionMapTests] [testConcurrently] before test
+[2020-02-17T03:22:28,919][INFO ][o.e.i.e.LiveVersionMapTests] [testConcurrently] after test
+[2020-02-17T03:22:28,922][INFO ][o.e.i.e.LiveVersionMapTests] [testRandomlyIndexDeleteAndRefresh] before test
+[2020-02-17T03:22:28,927][INFO ][o.e.i.e.LiveVersionMapTests] [testRandomlyIndexDeleteAndRefresh] after test
+[2020-02-17T03:22:28,930][INFO ][o.e.i.e.LiveVersionMapTests] [testRefreshingBytes] before test
+[2020-02-17T03:22:28,930][INFO ][o.e.i.e.LiveVersionMapTests] [testRefreshingBytes] after test
+[2020-02-17T03:22:28,932][INFO ][o.e.i.e.LiveVersionMapTests] [testAddAndDeleteRefreshConcurrently] before test
+[2020-02-17T03:22:28,949][INFO ][o.e.i.e.LiveVersionMapTests] [testAddAndDeleteRefreshConcurrently] after test
+[2020-02-17T03:22:28,951][INFO ][o.e.i.e.LiveVersionMapTests] [testCarryOnSafeAccess] before test
+[2020-02-17T03:22:28,951][INFO ][o.e.i.e.LiveVersionMapTests] [testCarryOnSafeAccess] after test
+[2020-02-17T03:22:28,953][INFO ][o.e.i.e.LiveVersionMapTests] [testPruneTombstonesWhileLocked] before test
+[2020-02-17T03:22:28,954][INFO ][o.e.i.e.LiveVersionMapTests] [testPruneTombstonesWhileLocked] after test
+[2020-02-17T03:22:28,957][INFO ][o.e.i.e.LiveVersionMapTests] [testBasics] before test
+[2020-02-17T03:22:28,957][INFO ][o.e.i.e.LiveVersionMapTests] [testBasics] after test
+[2020-02-17T03:22:28,959][INFO ][o.e.i.e.LiveVersionMapTests] [testRamBytesUsed] before test
+[2020-02-17T03:22:34,859][INFO ][o.e.i.e.LiveVersionMapTests] [testRamBytesUsed] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

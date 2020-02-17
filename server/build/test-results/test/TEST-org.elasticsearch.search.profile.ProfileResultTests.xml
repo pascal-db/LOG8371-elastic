@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.profile.ProfileResultTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.profile.ProfileResultTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.profile.ProfileResultTests" time="0.003"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.profile.ProfileResultTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T22:24:38,280][INFO ][o.e.s.p.ProfileResultTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T22:24:38,281][INFO ][o.e.s.p.ProfileResultTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T22:24:38,283][INFO ][o.e.s.p.ProfileResultTests] [testFromXContent] before test
+[2020-02-16T22:24:38,283][INFO ][o.e.s.p.ProfileResultTests] [testFromXContent] after test
+[2020-02-16T22:24:38,285][INFO ][o.e.s.p.ProfileResultTests] [testToXContent] before test
+[2020-02-16T22:24:38,285][INFO ][o.e.s.p.ProfileResultTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

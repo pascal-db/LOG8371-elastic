@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.IndicesRequestCacheTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:45" hostname="Escoto-PC" time="0.049">
+  <properties/>
+  <testcase name="testEqualsKey" classname="org.elasticsearch.indices.IndicesRequestCacheTests" time="0.005"/>
+  <testcase name="testEviction" classname="org.elasticsearch.indices.IndicesRequestCacheTests" time="0.019"/>
+  <testcase name="testClearAllEntityIdentity" classname="org.elasticsearch.indices.IndicesRequestCacheTests" time="0.008"/>
+  <testcase name="testBasicOperationsCache" classname="org.elasticsearch.indices.IndicesRequestCacheTests" time="0.004"/>
+  <testcase name="testCacheDifferentReaders" classname="org.elasticsearch.indices.IndicesRequestCacheTests" time="0.007"/>
+  <testcase name="testInvalidate" classname="org.elasticsearch.indices.IndicesRequestCacheTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T07:24:45,812][INFO ][o.e.i.IndicesRequestCacheTests] [testEqualsKey] before test
+[2020-02-17T07:24:45,815][INFO ][o.e.i.IndicesRequestCacheTests] [testEqualsKey] after test
+[2020-02-17T07:24:45,818][INFO ][o.e.i.IndicesRequestCacheTests] [testEviction] before test
+[2020-02-17T07:24:45,832][INFO ][o.e.i.IndicesRequestCacheTests] [testEviction] Memory size: 342b
+[2020-02-17T07:24:45,834][INFO ][o.e.i.IndicesRequestCacheTests] [testEviction] after test
+[2020-02-17T07:24:45,836][INFO ][o.e.i.IndicesRequestCacheTests] [testClearAllEntityIdentity] before test
+[2020-02-17T07:24:45,840][INFO ][o.e.i.IndicesRequestCacheTests] [testClearAllEntityIdentity] Memory size: 342b
+[2020-02-17T07:24:45,842][INFO ][o.e.i.IndicesRequestCacheTests] [testClearAllEntityIdentity] after test
+[2020-02-17T07:24:45,843][INFO ][o.e.i.IndicesRequestCacheTests] [testBasicOperationsCache] before test
+[2020-02-17T07:24:45,846][INFO ][o.e.i.IndicesRequestCacheTests] [testBasicOperationsCache] after test
+[2020-02-17T07:24:45,848][INFO ][o.e.i.IndicesRequestCacheTests] [testCacheDifferentReaders] before test
+[2020-02-17T07:24:45,852][INFO ][o.e.i.IndicesRequestCacheTests] [testCacheDifferentReaders] after test
+[2020-02-17T07:24:45,854][INFO ][o.e.i.IndicesRequestCacheTests] [testInvalidate] before test
+[2020-02-17T07:24:45,859][INFO ][o.e.i.IndicesRequestCacheTests] [testInvalidate] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

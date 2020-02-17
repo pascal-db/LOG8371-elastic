@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.FiltersTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="0.045">
+  <properties/>
+  <testcase name="testFiltersSortedByKey" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.018"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.003"/>
+  <testcase name="testRewritePreservesOtherBucket" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.002"/>
+  <testcase name="testRewrite" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.002"/>
+  <testcase name="testEmptyFilters" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.002"/>
+  <testcase name="testOtherBucket" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.003"/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.003"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.FiltersTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T00:25:20,361][INFO ][o.e.s.a.b.FiltersTests   ] [testFiltersSortedByKey] before test
+[2020-02-17T00:25:20,364][INFO ][o.e.p.PluginsService     ] [testFiltersSortedByKey] no modules loaded
+[2020-02-17T00:25:20,364][INFO ][o.e.p.PluginsService     ] [testFiltersSortedByKey] no plugins loaded
+[2020-02-17T00:25:20,373][INFO ][o.e.p.PluginsService     ] [testFiltersSortedByKey] no modules loaded
+[2020-02-17T00:25:20,373][INFO ][o.e.p.PluginsService     ] [testFiltersSortedByKey] no plugins loaded
+[2020-02-17T00:25:20,376][INFO ][o.e.s.a.b.FiltersTests   ] [testFiltersSortedByKey] after test
+[2020-02-17T00:25:20,378][INFO ][o.e.s.a.b.FiltersTests   ] [testSerializationMulti] before test
+[2020-02-17T00:25:20,379][INFO ][o.e.s.a.b.FiltersTests   ] [testSerializationMulti] after test
+[2020-02-17T00:25:20,381][INFO ][o.e.s.a.b.FiltersTests   ] [testRewritePreservesOtherBucket] before test
+[2020-02-17T00:25:20,382][INFO ][o.e.s.a.b.FiltersTests   ] [testRewritePreservesOtherBucket] after test
+[2020-02-17T00:25:20,383][INFO ][o.e.s.a.b.FiltersTests   ] [testRewrite] before test
+[2020-02-17T00:25:20,384][INFO ][o.e.s.a.b.FiltersTests   ] [testRewrite] after test
+[2020-02-17T00:25:20,386][INFO ][o.e.s.a.b.FiltersTests   ] [testFromXContent] before test
+[2020-02-17T00:25:20,387][INFO ][o.e.s.a.b.FiltersTests   ] [testFromXContent] after test
+[2020-02-17T00:25:20,389][INFO ][o.e.s.a.b.FiltersTests   ] [testEmptyFilters] before test
+[2020-02-17T00:25:20,390][INFO ][o.e.s.a.b.FiltersTests   ] [testEmptyFilters] after test
+[2020-02-17T00:25:20,391][INFO ][o.e.s.a.b.FiltersTests   ] [testSerialization] before test
+[2020-02-17T00:25:20,392][INFO ][o.e.s.a.b.FiltersTests   ] [testSerialization] after test
+[2020-02-17T00:25:20,394][INFO ][o.e.s.a.b.FiltersTests   ] [testOtherBucket] before test
+[2020-02-17T00:25:20,394][INFO ][o.e.s.a.b.FiltersTests   ] [testOtherBucket] after test
+[2020-02-17T00:25:20,396][INFO ][o.e.s.a.b.FiltersTests   ] [testFromXContentMulti] before test
+[2020-02-17T00:25:20,398][INFO ][o.e.s.a.b.FiltersTests   ] [testFromXContentMulti] after test
+[2020-02-17T00:25:20,399][INFO ][o.e.s.a.b.FiltersTests   ] [testToString] before test
+[2020-02-17T00:25:20,400][INFO ][o.e.s.a.b.FiltersTests   ] [testToString] after test
+[2020-02-17T00:25:20,402][INFO ][o.e.s.a.b.FiltersTests   ] [testEqualsAndHashcode] before test
+[2020-02-17T00:25:20,402][INFO ][o.e.s.a.b.FiltersTests   ] [testEqualsAndHashcode] after test
+[2020-02-17T00:25:20,404][INFO ][o.e.s.a.b.FiltersTests   ] [testShallowCopy] before test
+[2020-02-17T00:25:20,404][INFO ][o.e.s.a.b.FiltersTests   ] [testShallowCopy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

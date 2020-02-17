@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.GeoDistanceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:44" hostname="Escoto-PC" time="0.043">
+  <properties/>
+  <testcase name="testInvalidReadFrom" classname="org.elasticsearch.common.geo.GeoDistanceTests" time="0.004"/>
+  <testcase name="testArcDistanceVsPlane" classname="org.elasticsearch.common.geo.GeoDistanceTests" time="0.035"/>
+  <testcase name="testArcDistanceVsPlaneAccuracy" classname="org.elasticsearch.common.geo.GeoDistanceTests" time="0.002"/>
+  <testcase name="testGeoDistanceSerialization" classname="org.elasticsearch.common.geo.GeoDistanceTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T15:20:44,442][INFO ][o.e.c.g.GeoDistanceTests ] [testInvalidReadFrom] before test
+[2020-02-16T15:20:44,443][INFO ][o.e.c.g.GeoDistanceTests ] [testInvalidReadFrom] after test
+[2020-02-16T15:20:44,445][INFO ][o.e.c.g.GeoDistanceTests ] [testArcDistanceVsPlane] before test
+[2020-02-16T15:20:44,479][INFO ][o.e.c.g.GeoDistanceTests ] [testArcDistanceVsPlane] after test
+[2020-02-16T15:20:44,481][INFO ][o.e.c.g.GeoDistanceTests ] [testArcDistanceVsPlaneAccuracy] before test
+[2020-02-16T15:20:44,481][INFO ][o.e.c.g.GeoDistanceTests ] [testArcDistanceVsPlaneAccuracy] after test
+[2020-02-16T15:20:44,482][INFO ][o.e.c.g.GeoDistanceTests ] [testGeoDistanceSerialization] before test
+[2020-02-16T15:20:44,483][INFO ][o.e.c.g.GeoDistanceTests ] [testGeoDistanceSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

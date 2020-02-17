@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.ValueSourceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testCopyDoesNotChangeProvidedMap" classname="org.elasticsearch.ingest.ValueSourceTests" time="0.003"/>
+  <testcase name="testNoScriptCompilation" classname="org.elasticsearch.ingest.ValueSourceTests" time="0.004"/>
+  <testcase name="testScriptShouldCompile" classname="org.elasticsearch.ingest.ValueSourceTests" time="0.003"/>
+  <testcase name="testCopyDoesNotChangeProvidedList" classname="org.elasticsearch.ingest.ValueSourceTests" time="0.002"/>
+  <testcase name="testDeepCopy" classname="org.elasticsearch.ingest.ValueSourceTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T01:24:59,371][INFO ][o.e.i.ValueSourceTests   ] [testCopyDoesNotChangeProvidedMap] before test
+[2020-02-17T01:24:59,372][INFO ][o.e.i.ValueSourceTests   ] [testCopyDoesNotChangeProvidedMap] after test
+[2020-02-17T01:24:59,374][INFO ][o.e.i.ValueSourceTests   ] [testNoScriptCompilation] before test
+[2020-02-17T01:24:59,377][INFO ][o.e.i.ValueSourceTests   ] [testNoScriptCompilation] after test
+[2020-02-17T01:24:59,378][INFO ][o.e.i.ValueSourceTests   ] [testScriptShouldCompile] before test
+[2020-02-17T01:24:59,379][INFO ][o.e.i.ValueSourceTests   ] [testScriptShouldCompile] after test
+[2020-02-17T01:24:59,381][INFO ][o.e.i.ValueSourceTests   ] [testCopyDoesNotChangeProvidedList] before test
+[2020-02-17T01:24:59,381][INFO ][o.e.i.ValueSourceTests   ] [testCopyDoesNotChangeProvidedList] after test
+[2020-02-17T01:24:59,383][INFO ][o.e.i.ValueSourceTests   ] [testDeepCopy] before test
+[2020-02-17T01:24:59,385][INFO ][o.e.i.ValueSourceTests   ] [testDeepCopy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

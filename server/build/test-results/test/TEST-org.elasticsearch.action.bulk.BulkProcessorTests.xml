@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.BulkProcessorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:09" hostname="Escoto-PC" time="8.136">
+  <properties/>
+  <testcase name="testConcurrentExecutionsWithFlush" classname="org.elasticsearch.action.bulk.BulkProcessorTests" time="0.351"/>
+  <testcase name="testAwaitOnCloseCallsOnClose" classname="org.elasticsearch.action.bulk.BulkProcessorTests" time="0.006"/>
+  <testcase name="testBulkProcessorFlushPreservesContext" classname="org.elasticsearch.action.bulk.BulkProcessorTests" time="1.005"/>
+  <testcase name="testConcurrentExecutions" classname="org.elasticsearch.action.bulk.BulkProcessorTests" time="6.774"/>
+  <system-out><![CDATA[[2020-02-16T16:20:09,386][INFO ][o.e.a.b.BulkProcessorTests] [testConcurrentExecutionsWithFlush] before test
+[2020-02-16T16:20:09,731][INFO ][o.e.a.b.BulkProcessorTests] [testConcurrentExecutionsWithFlush] after test
+[2020-02-16T16:20:09,733][INFO ][o.e.a.b.BulkProcessorTests] [testAwaitOnCloseCallsOnClose] before test
+[2020-02-16T16:20:09,738][INFO ][o.e.a.b.BulkProcessorTests] [testAwaitOnCloseCallsOnClose] after test
+[2020-02-16T16:20:09,739][INFO ][o.e.a.b.BulkProcessorTests] [testBulkProcessorFlushPreservesContext] before test
+[2020-02-16T16:20:10,742][INFO ][o.e.a.b.BulkProcessorTests] [testBulkProcessorFlushPreservesContext] after test
+[2020-02-16T16:20:10,744][INFO ][o.e.a.b.BulkProcessorTests] [testConcurrentExecutions] before test
+[2020-02-16T16:20:17,516][INFO ][o.e.a.b.BulkProcessorTests] [testConcurrentExecutions] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

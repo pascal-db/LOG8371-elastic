@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalTDigestPercentilesRanksTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:32" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalTDigestPercentilesRanksTests" time="0.003"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalTDigestPercentilesRanksTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalTDigestPercentilesRanksTests" time="0.005"/>
+  <testcase name="testEmptyRanksXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalTDigestPercentilesRanksTests" time="0.002"/>
+  <testcase name="testPercentilesIterators" classname="org.elasticsearch.search.aggregations.metrics.InternalTDigestPercentilesRanksTests" time="0.002"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalTDigestPercentilesRanksTests" time="0.005"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalTDigestPercentilesRanksTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T18:25:32,420][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testFromXContent] before test
+[2020-02-16T18:25:32,422][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testFromXContent] after test
+[2020-02-16T18:25:32,424][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T18:25:32,424][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T18:25:32,426][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:32,429][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:25:32,431][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testEmptyRanksXContent] before test
+[2020-02-16T18:25:32,431][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testEmptyRanksXContent] after test
+[2020-02-16T18:25:32,433][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testPercentilesIterators] before test
+[2020-02-16T18:25:32,433][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testPercentilesIterators] after test
+[2020-02-16T18:25:32,434][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testReduceRandom] before test
+[2020-02-16T18:25:32,438][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testReduceRandom] after test
+[2020-02-16T18:25:32,440][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testSerialization] before test
+[2020-02-16T18:25:32,441][INFO ][o.e.s.a.m.InternalTDigestPercentilesRanksTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

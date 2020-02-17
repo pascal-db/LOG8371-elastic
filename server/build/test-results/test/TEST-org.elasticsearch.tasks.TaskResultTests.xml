@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.tasks.TaskResultTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:00" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testTaskInfoIsForwardCompatible" classname="org.elasticsearch.tasks.TaskResultTests" time="0.002"/>
+  <testcase name="testBinaryRoundTrip" classname="org.elasticsearch.tasks.TaskResultTests" time="0.006"/>
+  <testcase name="testXContentRoundTrip" classname="org.elasticsearch.tasks.TaskResultTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T06:26:00,172][INFO ][o.e.t.TaskResultTests    ] [testTaskInfoIsForwardCompatible] before test
+[2020-02-17T06:26:00,173][INFO ][o.e.t.TaskResultTests    ] [testTaskInfoIsForwardCompatible] after test
+[2020-02-17T06:26:00,178][INFO ][o.e.t.TaskResultTests    ] [testBinaryRoundTrip] before test
+[2020-02-17T06:26:00,179][INFO ][o.e.t.TaskResultTests    ] [testBinaryRoundTrip] after test
+[2020-02-17T06:26:00,183][INFO ][o.e.t.TaskResultTests    ] [testXContentRoundTrip] before test
+[2020-02-17T06:26:00,184][INFO ][o.e.t.TaskResultTests    ] [testXContentRoundTrip] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

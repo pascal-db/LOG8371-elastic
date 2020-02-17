@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.test.loggerusage.ESLoggerUsageTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.test.loggerusage.ESLoggerUsageTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.test.loggerusage.html">org.elasticsearch.test.loggerusage</a> &gt; ESLoggerUsageTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.237s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testLoggerUsageCheckerCompatibilityWithLog4j2Logger</td>
+<td class="success">3.128s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLoggerUsageChecks</td>
+<td class="success">0.109s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T00:50:04,729][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageCheckerCompatibilityWithLog4j2Logger] before test
+[2020-02-17T00:50:07,810][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageCheckerCompatibilityWithLog4j2Logger] after test
+[2020-02-17T00:50:07,826][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] before test
+[2020-02-17T00:50:07,828][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArgumentsParameterizedMessage1
+[2020-02-17T00:50:07,884][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArgumentsParameterizedMessage1
+[2020-02-17T00:50:07,886][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArgumentsParameterizedMessage2
+[2020-02-17T00:50:07,888][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArgumentsParameterizedMessage2
+[2020-02-17T00:50:07,890][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArgumentsParameterizedMessage3
+[2020-02-17T00:50:07,892][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArgumentsParameterizedMessage3
+[2020-02-17T00:50:07,894][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNonConstantMessageWithZeroArguments
+[2020-02-17T00:50:07,898][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNonConstantMessageWithArguments
+[2020-02-17T00:50:07,900][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkForSubclasses
+[2020-02-17T00:50:07,901][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailArraySize
+[2020-02-17T00:50:07,901][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkComplexUsage
+[2020-02-17T00:50:07,911][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkArraySizeForSubclasses
+[2020-02-17T00:50:07,912][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailArraySizeForSubclasses
+[2020-02-17T00:50:07,913][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArguments1
+[2020-02-17T00:50:07,914][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArguments1
+[2020-02-17T00:50:07,915][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkIgnoreWhenAnnotationPresent
+[2020-02-17T00:50:07,917][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArguments2
+[2020-02-17T00:50:07,918][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArguments2
+[2020-02-17T00:50:07,919][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArguments3
+[2020-02-17T00:50:07,920][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArguments3
+[2020-02-17T00:50:07,921][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkOrderOfExceptionArgument
+[2020-02-17T00:50:07,923][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkOrderOfExceptionArgument1
+[2020-02-17T00:50:07,924][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailOrderOfExceptionArgument1
+[2020-02-17T00:50:07,925][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkOrderOfExceptionArgument2
+[2020-02-17T00:50:07,926][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailOrderOfExceptionArgument2
+[2020-02-17T00:50:07,927][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailComplexUsage1
+[2020-02-17T00:50:07,929][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailComplexUsage2
+[2020-02-17T00:50:07,930][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:50:08 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.functionscore.FunctionScoreTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:06" hostname="Escoto-PC" time="0.087">
+  <properties/>
+  <testcase name="testPropagatesApproximations" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.007"/>
+  <testcase name="testFilterFunctionScoreHashCodeAndEquals" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.007"/>
+  <testcase name="testWeightFactorNeedsScore" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.004"/>
+  <testcase name="testExceptionOnNegativeScores" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.008"/>
+  <testcase name="testSimpleWeightedFunction" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.01"/>
+  <testcase name="testWithInvalidScores" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.006"/>
+  <testcase name="testExceptionOnLnNegativeScores" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.008"/>
+  <testcase name="testExplainFiltersFunctionScoreQuery" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.011"/>
+  <testcase name="testFunctionScoreHashCodeAndEquals" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.004"/>
+  <testcase name="testExplanationAndScoreEqualsEvenIfNoFunctionMatches" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.005"/>
+  <testcase name="testExplainFunctionScoreQuery" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.005"/>
+  <testcase name="testWeightOnlyCreatesBoostFunction" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.005"/>
+  <testcase name="testMinScoreExplain" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.003"/>
+  <testcase name="testExceptionOnLogNegativeScores" classname="org.elasticsearch.index.query.functionscore.FunctionScoreTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T11:23:06,019][INFO ][o.e.i.q.f.FunctionScoreTests] [testPropagatesApproximations] before test
+[2020-02-17T11:23:06,023][INFO ][o.e.i.q.f.FunctionScoreTests] [testPropagatesApproximations] after test
+[2020-02-17T11:23:06,026][INFO ][o.e.i.q.f.FunctionScoreTests] [testFilterFunctionScoreHashCodeAndEquals] before test
+[2020-02-17T11:23:06,031][INFO ][o.e.i.q.f.FunctionScoreTests] [testFilterFunctionScoreHashCodeAndEquals] after test
+[2020-02-17T11:23:06,032][INFO ][o.e.i.q.f.FunctionScoreTests] [testWeightFactorNeedsScore] before test
+[2020-02-17T11:23:06,035][INFO ][o.e.i.q.f.FunctionScoreTests] [testWeightFactorNeedsScore] after test
+[2020-02-17T11:23:06,037][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnNegativeScores] before test
+[2020-02-17T11:23:06,043][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnNegativeScores] after test
+[2020-02-17T11:23:06,047][INFO ][o.e.i.q.f.FunctionScoreTests] [testSimpleWeightedFunction] before test
+[2020-02-17T11:23:06,053][INFO ][o.e.i.q.f.FunctionScoreTests] [testSimpleWeightedFunction] after test
+[2020-02-17T11:23:06,054][INFO ][o.e.i.q.f.FunctionScoreTests] [testWithInvalidScores] before test
+[2020-02-17T11:23:06,058][INFO ][o.e.i.q.f.FunctionScoreTests] [testWithInvalidScores] after test
+[2020-02-17T11:23:06,064][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnLnNegativeScores] before test
+[2020-02-17T11:23:06,067][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnLnNegativeScores] after test
+[2020-02-17T11:23:06,072][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplainFiltersFunctionScoreQuery] before test
+[2020-02-17T11:23:06,078][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplainFiltersFunctionScoreQuery] after test
+[2020-02-17T11:23:06,080][INFO ][o.e.i.q.f.FunctionScoreTests] [testFunctionScoreHashCodeAndEquals] before test
+[2020-02-17T11:23:06,082][INFO ][o.e.i.q.f.FunctionScoreTests] [testFunctionScoreHashCodeAndEquals] after test
+[2020-02-17T11:23:06,084][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplanationAndScoreEqualsEvenIfNoFunctionMatches] before test
+[2020-02-17T11:23:06,087][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplanationAndScoreEqualsEvenIfNoFunctionMatches] after test
+[2020-02-17T11:23:06,089][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplainFunctionScoreQuery] before test
+[2020-02-17T11:23:06,092][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplainFunctionScoreQuery] after test
+[2020-02-17T11:23:06,093][INFO ][o.e.i.q.f.FunctionScoreTests] [testWeightOnlyCreatesBoostFunction] before test
+[2020-02-17T11:23:06,096][INFO ][o.e.i.q.f.FunctionScoreTests] [testWeightOnlyCreatesBoostFunction] after test
+[2020-02-17T11:23:06,098][INFO ][o.e.i.q.f.FunctionScoreTests] [testMinScoreExplain] before test
+[2020-02-17T11:23:06,100][INFO ][o.e.i.q.f.FunctionScoreTests] [testMinScoreExplain] after test
+[2020-02-17T11:23:06,101][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnLogNegativeScores] before test
+[2020-02-17T11:23:06,104][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnLogNegativeScores] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

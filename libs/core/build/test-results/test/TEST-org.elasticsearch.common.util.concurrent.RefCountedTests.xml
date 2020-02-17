@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.RefCountedTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:17" hostname="Escoto-PC" time="0.054">
+  <properties/>
+  <testcase name="testMultiThreaded" classname="org.elasticsearch.common.util.concurrent.RefCountedTests" time="0.049"/>
+  <testcase name="testRefCount" classname="org.elasticsearch.common.util.concurrent.RefCountedTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T23:50:17,388][INFO ][o.e.c.u.c.RefCountedTests] [testMultiThreaded] before test
+[2020-02-16T23:50:17,432][INFO ][o.e.c.u.c.RefCountedTests] [testMultiThreaded] after test
+[2020-02-16T23:50:17,436][INFO ][o.e.c.u.c.RefCountedTests] [testRefCount] before test
+[2020-02-16T23:50:17,437][INFO ][o.e.c.u.c.RefCountedTests] [testRefCount] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

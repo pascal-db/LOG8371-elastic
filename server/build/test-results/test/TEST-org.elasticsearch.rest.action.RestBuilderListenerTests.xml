@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.RestBuilderListenerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testXContentBuilderNotClosedInBuildResponseAssertionsDisabled" classname="org.elasticsearch.rest.action.RestBuilderListenerTests" time="0.004"/>
+  <testcase name="testXContentBuilderClosedInBuildResponse" classname="org.elasticsearch.rest.action.RestBuilderListenerTests" time="0.002"/>
+  <testcase name="testXContentBuilderNotClosedInBuildResponseAssertionsEnabled" classname="org.elasticsearch.rest.action.RestBuilderListenerTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:25:18,027][INFO ][o.e.r.a.RestBuilderListenerTests] [testXContentBuilderNotClosedInBuildResponseAssertionsDisabled] before test
+[2020-02-16T17:25:18,028][INFO ][o.e.r.a.RestBuilderListenerTests] [testXContentBuilderNotClosedInBuildResponseAssertionsDisabled] after test
+[2020-02-16T17:25:18,030][INFO ][o.e.r.a.RestBuilderListenerTests] [testXContentBuilderClosedInBuildResponse] before test
+[2020-02-16T17:25:18,031][INFO ][o.e.r.a.RestBuilderListenerTests] [testXContentBuilderClosedInBuildResponse] after test
+[2020-02-16T17:25:18,032][INFO ][o.e.r.a.RestBuilderListenerTests] [testXContentBuilderNotClosedInBuildResponseAssertionsEnabled] before test
+[2020-02-16T17:25:18,033][INFO ][o.e.r.a.RestBuilderListenerTests] [testXContentBuilderNotClosedInBuildResponseAssertionsEnabled] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

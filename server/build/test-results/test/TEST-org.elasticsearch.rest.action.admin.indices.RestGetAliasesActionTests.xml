@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.indices.RestGetAliasesActionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testAliasWildcardsIncludeAndExcludeSome" classname="org.elasticsearch.rest.action.admin.indices.RestGetAliasesActionTests" time="0.002"/>
+  <testcase name="testAliasWildcardsIncludeAndExcludeSomeAndExplicitMissing" classname="org.elasticsearch.rest.action.admin.indices.RestGetAliasesActionTests" time="0.002"/>
+  <testcase name="testAliasWildcardsExcludeExplicitMissing" classname="org.elasticsearch.rest.action.admin.indices.RestGetAliasesActionTests" time="0.001"/>
+  <testcase name="testBareRequest" classname="org.elasticsearch.rest.action.admin.indices.RestGetAliasesActionTests" time="0.002"/>
+  <testcase name="testMultipleAliasWildcardsSomeMatching" classname="org.elasticsearch.rest.action.admin.indices.RestGetAliasesActionTests" time="0.011"/>
+  <testcase name="testSimpleAliasWildcardMatchingNothing" classname="org.elasticsearch.rest.action.admin.indices.RestGetAliasesActionTests" time="0.002"/>
+  <testcase name="testAliasWildcardsIncludeAndExcludeAll" classname="org.elasticsearch.rest.action.admin.indices.RestGetAliasesActionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T15:24:04,647][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testAliasWildcardsIncludeAndExcludeSome] before test
+[2020-02-16T15:24:04,648][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testAliasWildcardsIncludeAndExcludeSome] after test
+[2020-02-16T15:24:04,650][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testAliasWildcardsIncludeAndExcludeSomeAndExplicitMissing] before test
+[2020-02-16T15:24:04,651][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testAliasWildcardsIncludeAndExcludeSomeAndExplicitMissing] after test
+[2020-02-16T15:24:04,652][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testAliasWildcardsExcludeExplicitMissing] before test
+[2020-02-16T15:24:04,653][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testAliasWildcardsExcludeExplicitMissing] after test
+[2020-02-16T15:24:04,654][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testBareRequest] before test
+[2020-02-16T15:24:04,654][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testBareRequest] after test
+[2020-02-16T15:24:04,665][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testMultipleAliasWildcardsSomeMatching] before test
+[2020-02-16T15:24:04,665][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testMultipleAliasWildcardsSomeMatching] after test
+[2020-02-16T15:24:04,667][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testSimpleAliasWildcardMatchingNothing] before test
+[2020-02-16T15:24:04,667][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testSimpleAliasWildcardMatchingNothing] after test
+[2020-02-16T15:24:04,669][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testAliasWildcardsIncludeAndExcludeAll] before test
+[2020-02-16T15:24:04,669][INFO ][o.e.r.a.a.i.RestGetAliasesActionTests] [testAliasWildcardsIncludeAndExcludeAll] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.cluster.RestNodesStatsActionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testIndexMetricsRequestWithoutIndicesMetric" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesStatsActionTests" time="0.004"/>
+  <testcase name="testUnrecognizedIndexMetric" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesStatsActionTests" time="0.003"/>
+  <testcase name="testAllRequestWithOtherMetrics" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesStatsActionTests" time="0.007"/>
+  <testcase name="testUnrecognizedIndexMetricDidYouMean" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesStatsActionTests" time="0.003"/>
+  <testcase name="testUnrecognizedMetric" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesStatsActionTests" time="0.003"/>
+  <testcase name="testUnrecognizedMetricDidYouMean" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesStatsActionTests" time="0.003"/>
+  <testcase name="testIndexMetricsRequestOnAllRequest" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesStatsActionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:24:04,565][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testIndexMetricsRequestWithoutIndicesMetric] before test
+[2020-02-17T00:24:04,567][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testIndexMetricsRequestWithoutIndicesMetric] after test
+[2020-02-17T00:24:04,569][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testUnrecognizedIndexMetric] before test
+[2020-02-17T00:24:04,570][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testUnrecognizedIndexMetric] after test
+[2020-02-17T00:24:04,576][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testAllRequestWithOtherMetrics] before test
+[2020-02-17T00:24:04,577][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testAllRequestWithOtherMetrics] after test
+[2020-02-17T00:24:04,579][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testUnrecognizedIndexMetricDidYouMean] before test
+[2020-02-17T00:24:04,580][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testUnrecognizedIndexMetricDidYouMean] after test
+[2020-02-17T00:24:04,583][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testUnrecognizedMetric] before test
+[2020-02-17T00:24:04,583][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testUnrecognizedMetric] after test
+[2020-02-17T00:24:04,586][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testUnrecognizedMetricDidYouMean] before test
+[2020-02-17T00:24:04,586][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testUnrecognizedMetricDidYouMean] after test
+[2020-02-17T00:24:04,588][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testIndexMetricsRequestOnAllRequest] before test
+[2020-02-17T00:24:04,588][INFO ][o.e.r.a.a.c.RestNodesStatsActionTests] [testIndexMetricsRequestOnAllRequest] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

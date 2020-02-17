@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.GeoPointFieldTypeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:34" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.GeoPointFieldTypeTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.GeoPointFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.GeoPointFieldTypeTests" time="0.003"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.GeoPointFieldTypeTests" time="0.001"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.GeoPointFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:22:34,571][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T19:22:34,571][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T19:22:34,573][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testEquals] before test
+[2020-02-16T19:22:34,573][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testEquals] after test
+[2020-02-16T19:22:34,575][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testFreeze] before test
+[2020-02-16T19:22:34,576][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testFreeze] after test
+[2020-02-16T19:22:34,577][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T19:22:34,577][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T19:22:34,578][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testClone] before test
+[2020-02-16T19:22:34,579][INFO ][o.e.i.m.GeoPointFieldTypeTests] [testClone] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

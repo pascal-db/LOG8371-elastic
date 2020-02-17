@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.RangeTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testParsingNull" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.015"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.003"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.003"/>
+  <testcase name="testParsingRangeStrict" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.004"/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.002"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.RangeTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T23:24:21,511][INFO ][o.e.s.a.b.RangeTests     ] [testParsingNull] before test
+[2020-02-16T23:24:21,514][INFO ][o.e.p.PluginsService     ] [testParsingNull] no modules loaded
+[2020-02-16T23:24:21,514][INFO ][o.e.p.PluginsService     ] [testParsingNull] no plugins loaded
+[2020-02-16T23:24:21,521][INFO ][o.e.p.PluginsService     ] [testParsingNull] no modules loaded
+[2020-02-16T23:24:21,521][INFO ][o.e.p.PluginsService     ] [testParsingNull] no plugins loaded
+[2020-02-16T23:24:21,525][INFO ][o.e.s.a.b.RangeTests     ] [testParsingNull] after test
+[2020-02-16T23:24:21,527][INFO ][o.e.s.a.b.RangeTests     ] [testSerialization] before test
+[2020-02-16T23:24:21,528][INFO ][o.e.s.a.b.RangeTests     ] [testSerialization] after test
+[2020-02-16T23:24:21,530][INFO ][o.e.s.a.b.RangeTests     ] [testToString] before test
+[2020-02-16T23:24:21,530][INFO ][o.e.s.a.b.RangeTests     ] [testToString] after test
+[2020-02-16T23:24:21,532][INFO ][o.e.s.a.b.RangeTests     ] [testParsingRangeStrict] before test
+[2020-02-16T23:24:21,532][INFO ][o.e.s.a.b.RangeTests     ] [testParsingRangeStrict] after test
+[2020-02-16T23:24:21,536][INFO ][o.e.s.a.b.RangeTests     ] [testEqualsAndHashcode] before test
+[2020-02-16T23:24:21,537][INFO ][o.e.s.a.b.RangeTests     ] [testEqualsAndHashcode] after test
+[2020-02-16T23:24:21,538][INFO ][o.e.s.a.b.RangeTests     ] [testFromXContentMulti] before test
+[2020-02-16T23:24:21,539][INFO ][o.e.s.a.b.RangeTests     ] [testFromXContentMulti] after test
+[2020-02-16T23:24:21,541][INFO ][o.e.s.a.b.RangeTests     ] [testSerializationMulti] before test
+[2020-02-16T23:24:21,541][INFO ][o.e.s.a.b.RangeTests     ] [testSerializationMulti] after test
+[2020-02-16T23:24:21,543][INFO ][o.e.s.a.b.RangeTests     ] [testFromXContent] before test
+[2020-02-16T23:24:21,543][INFO ][o.e.s.a.b.RangeTests     ] [testFromXContent] after test
+[2020-02-16T23:24:21,547][INFO ][o.e.s.a.b.RangeTests     ] [testShallowCopy] before test
+[2020-02-16T23:24:21,547][INFO ][o.e.s.a.b.RangeTests     ] [testShallowCopy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

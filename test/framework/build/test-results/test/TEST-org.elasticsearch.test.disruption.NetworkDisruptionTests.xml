@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.disruption.NetworkDisruptionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:50" hostname="Escoto-PC" time="0.095">
+  <properties/>
+  <testcase name="testRandomBridge" classname="org.elasticsearch.test.disruption.NetworkDisruptionTests" time="0.01"/>
+  <testcase name="testRandomTwoPartitions" classname="org.elasticsearch.test.disruption.NetworkDisruptionTests" time="0.005"/>
+  <testcase name="testIsolateAll" classname="org.elasticsearch.test.disruption.NetworkDisruptionTests" time="0.003"/>
+  <testcase name="testTwoPartitions" classname="org.elasticsearch.test.disruption.NetworkDisruptionTests" time="0.055"/>
+  <testcase name="testBridge" classname="org.elasticsearch.test.disruption.NetworkDisruptionTests" time="0.021"/>
+  <system-out><![CDATA[[2020-02-16T16:48:50,592][INFO ][o.e.t.d.NetworkDisruptionTests] [testRandomBridge] before test
+[2020-02-16T16:48:50,596][INFO ][o.e.t.d.NetworkDisruptionTests] [testRandomBridge] after test
+[2020-02-16T16:48:50,599][INFO ][o.e.t.d.NetworkDisruptionTests] [testRandomTwoPartitions] before test
+[2020-02-16T16:48:50,601][INFO ][o.e.t.d.NetworkDisruptionTests] [testRandomTwoPartitions] after test
+[2020-02-16T16:48:50,604][INFO ][o.e.t.d.NetworkDisruptionTests] [testIsolateAll] before test
+[2020-02-16T16:48:50,604][INFO ][o.e.t.d.NetworkDisruptionTests] [testIsolateAll] after test
+[2020-02-16T16:48:50,658][INFO ][o.e.t.d.NetworkDisruptionTests] [testTwoPartitions] before test
+[2020-02-16T16:48:50,659][INFO ][o.e.t.d.NetworkDisruptionTests] [testTwoPartitions] after test
+[2020-02-16T16:48:50,680][INFO ][o.e.t.d.NetworkDisruptionTests] [testBridge] before test
+[2020-02-16T16:48:50,681][INFO ][o.e.t.d.NetworkDisruptionTests] [testBridge] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

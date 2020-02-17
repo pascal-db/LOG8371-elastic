@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:38" hostname="Escoto-PC" time="0.109">
+  <properties/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.021"/>
+  <testcase name="testAnalysisSingleTerm" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.007"/>
+  <testcase name="testIllegalValues" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.004"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.021"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.003"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testAnalysisSynonym" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.019"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.005"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.003"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testAnalysis" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromSimpleJson" classname="org.elasticsearch.index.query.MatchBoolPrefixQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T07:23:38,222][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T07:23:38,225][INFO ][o.e.p.PluginsService     ] [testUnknownField] no modules loaded
+[2020-02-17T07:23:38,225][INFO ][o.e.p.PluginsService     ] [testUnknownField] no plugins loaded
+[2020-02-17T07:23:38,236][INFO ][o.e.p.PluginsService     ] [testUnknownField] no modules loaded
+[2020-02-17T07:23:38,236][INFO ][o.e.p.PluginsService     ] [testUnknownField] no plugins loaded
+[2020-02-17T07:23:38,240][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T07:23:38,245][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testAnalysisSingleTerm] before test
+[2020-02-17T07:23:38,247][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testAnalysisSingleTerm] after test
+[2020-02-17T07:23:38,250][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testIllegalValues] before test
+[2020-02-17T07:23:38,251][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testIllegalValues] after test
+[2020-02-17T07:23:38,253][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-17T07:23:38,254][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-17T07:23:38,256][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testCacheability] before test
+[2020-02-17T07:23:38,256][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testCacheability] after test
+[2020-02-17T07:23:38,258][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testFromJson] before test
+[2020-02-17T07:23:38,259][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testFromJson] after test
+[2020-02-17T07:23:38,260][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T07:23:38,261][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T07:23:38,262][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testSerialization] before test
+[2020-02-17T07:23:38,263][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testSerialization] after test
+[2020-02-17T07:23:38,265][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testToQuery] before test
+[2020-02-17T07:23:38,285][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testToQuery] after test
+[2020-02-17T07:23:38,286][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T07:23:38,287][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T07:23:38,289][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T07:23:38,289][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T07:23:38,292][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testAnalysisSynonym] before test
+[2020-02-17T07:23:38,309][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testAnalysisSynonym] after test
+[2020-02-17T07:23:38,311][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T07:23:38,314][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T07:23:38,317][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T07:23:38,317][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T07:23:38,319][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T07:23:38,320][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T07:23:38,321][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testAnalysis] before test
+[2020-02-17T07:23:38,322][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testAnalysis] after test
+[2020-02-17T07:23:38,325][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T07:23:38,326][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T07:23:38,328][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testFromSimpleJson] before test
+[2020-02-17T07:23:38,328][INFO ][o.e.i.q.MatchBoolPrefixQueryBuilderTests] [testFromSimpleJson] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

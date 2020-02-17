@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.phrase.DirectCandidateGeneratorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:52" hostname="Escoto-PC" time="0.03">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.phrase.DirectCandidateGeneratorTests" time="0.005"/>
+  <testcase name="testIllegalXContent" classname="org.elasticsearch.search.suggest.phrase.DirectCandidateGeneratorTests" time="0.003"/>
+  <testcase name="testFromString" classname="org.elasticsearch.search.suggest.phrase.DirectCandidateGeneratorTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.suggest.phrase.DirectCandidateGeneratorTests" time="0.004"/>
+  <testcase name="testFrequencyThreshold" classname="org.elasticsearch.search.suggest.phrase.DirectCandidateGeneratorTests" time="0.012"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.phrase.DirectCandidateGeneratorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:25:52,772][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testFromXContent] before test
+[2020-02-16T23:25:52,775][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testFromXContent] after test
+[2020-02-16T23:25:52,777][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testIllegalXContent] before test
+[2020-02-16T23:25:52,778][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testIllegalXContent] after test
+[2020-02-16T23:25:52,780][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testFromString] before test
+[2020-02-16T23:25:52,781][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testFromString] after test
+[2020-02-16T23:25:52,783][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:25:52,785][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:25:52,788][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testFrequencyThreshold] before test
+[2020-02-16T23:25:52,798][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testFrequencyThreshold] after test
+[2020-02-16T23:25:52,800][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testSerialization] before test
+[2020-02-16T23:25:52,800][INFO ][o.e.s.s.p.DirectCandidateGeneratorTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

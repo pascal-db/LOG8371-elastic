@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.similarity.SimilarityTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:37" hostname="Escoto-PC" time="2.907">
+  <properties/>
+  <testcase name="testResolveDefaultSimilarities" classname="org.elasticsearch.index.similarity.SimilarityTests" time="2.041"/>
+  <testcase name="testResolveSimilaritiesFromMapping_bm25" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.112"/>
+  <testcase name="testUnknownParameters" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.01"/>
+  <testcase name="testResolveSimilaritiesFromMapping_classicIsForbidden" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.022"/>
+  <testcase name="testResolveSimilaritiesFromMapping_IB" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.108"/>
+  <testcase name="testResolveSimilaritiesFromMapping_LMDirichlet" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.11"/>
+  <testcase name="testResolveSimilaritiesFromMapping_LMJelinekMercer" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.105"/>
+  <testcase name="testResolveSimilaritiesFromMapping_boolean" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.104"/>
+  <testcase name="testResolveSimilaritiesFromMapping_DFR" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.093"/>
+  <testcase name="testResolveSimilaritiesFromMapping_DFI" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.115"/>
+  <testcase name="testResolveSimilaritiesFromMapping_Unknown" classname="org.elasticsearch.index.similarity.SimilarityTests" time="0.085"/>
+  <system-out><![CDATA[[2020-02-16T20:24:37,556][INFO ][o.e.e.NodeEnvironment    ] [testResolveDefaultSimilarities] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T20:24:37,557][INFO ][o.e.e.NodeEnvironment    ] [testResolveDefaultSimilarities] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T20:24:37,560][INFO ][o.e.n.Node               ] [testResolveDefaultSimilarities] node name [node_s_0], node ID [LS5pq3rNQ9G7hDKMsk32Yg], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[716340733218200864]-HASH=[15D2CA45166]]
+[2020-02-16T20:24:37,560][INFO ][o.e.n.Node               ] [testResolveDefaultSimilarities] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T20:24:37,560][INFO ][o.e.n.Node               ] [testResolveDefaultSimilarities] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T20:24:37,560][INFO ][o.e.n.Node               ] [testResolveDefaultSimilarities] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T20:24:37,561][INFO ][o.e.p.PluginsService     ] [testResolveDefaultSimilarities] no modules loaded
+[2020-02-16T20:24:37,561][INFO ][o.e.p.PluginsService     ] [testResolveDefaultSimilarities] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-16T20:24:37,561][INFO ][o.e.p.PluginsService     ] [testResolveDefaultSimilarities] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T20:24:37,561][INFO ][o.e.p.PluginsService     ] [testResolveDefaultSimilarities] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T20:24:38,134][INFO ][o.e.d.DiscoveryModule    ] [testResolveDefaultSimilarities] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T20:24:38,143][INFO ][o.e.n.Node               ] [testResolveDefaultSimilarities] initialized
+[2020-02-16T20:24:38,143][INFO ][o.e.n.Node               ] [testResolveDefaultSimilarities] starting ...
+[2020-02-16T20:24:39,339][INFO ][o.e.t.TransportService   ] [testResolveDefaultSimilarities] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T20:24:39,346][INFO ][o.e.c.c.Coordinator      ] [testResolveDefaultSimilarities] setting initial configuration to VotingConfiguration{LS5pq3rNQ9G7hDKMsk32Yg}
+[2020-02-16T20:24:39,404][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{LS5pq3rNQ9G7hDKMsk32Yg}{xxETR9piRNq13dZqw_Sklg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{LS5pq3rNQ9G7hDKMsk32Yg}{xxETR9piRNq13dZqw_Sklg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T20:24:39,414][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [YQ_yq_MmRUu957wz_vZM0A]
+[2020-02-16T20:24:39,421][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{LS5pq3rNQ9G7hDKMsk32Yg}{xxETR9piRNq13dZqw_Sklg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T20:24:39,423][INFO ][o.e.n.Node               ] [testResolveDefaultSimilarities] started
+[2020-02-16T20:24:39,456][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T20:24:39,459][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T20:24:39,470][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T20:24:39,478][INFO ][o.e.i.s.SimilarityTests  ] [testResolveDefaultSimilarities] before test
+[2020-02-16T20:24:39,479][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T20:24:39,535][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:39,559][INFO ][o.e.i.s.SimilarityTests  ] [testResolveDefaultSimilarities] after test
+[2020-02-16T20:24:39,559][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/R9lw23aoQiuStpFWjnjt4Q] deleting index
+[2020-02-16T20:24:39,589][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_bm25] before test
+[2020-02-16T20:24:39,590][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type]
+[2020-02-16T20:24:39,646][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:39,662][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_bm25] after test
+[2020-02-16T20:24:39,662][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/GJlgZvdCQuCmyb89dlB5bA] deleting index
+[2020-02-16T20:24:39,706][INFO ][o.e.i.s.SimilarityTests  ] [testUnknownParameters] before test
+[2020-02-16T20:24:39,709][INFO ][o.e.i.s.SimilarityTests  ] [testUnknownParameters] after test
+[2020-02-16T20:24:39,728][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_classicIsForbidden] before test
+[2020-02-16T20:24:39,732][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_classicIsForbidden] after test
+[2020-02-16T20:24:39,737][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_IB] before test
+[2020-02-16T20:24:39,740][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type]
+[2020-02-16T20:24:39,800][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:39,813][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_IB] after test
+[2020-02-16T20:24:39,813][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/R-m4xwvzQi23l_dxinkZ5A] deleting index
+[2020-02-16T20:24:39,851][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_LMDirichlet] before test
+[2020-02-16T20:24:39,853][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type]
+[2020-02-16T20:24:39,916][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:39,926][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_LMDirichlet] after test
+[2020-02-16T20:24:39,926][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/kHrsvv50SJm1SrJvsJHcmA] deleting index
+[2020-02-16T20:24:39,952][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_LMJelinekMercer] before test
+[2020-02-16T20:24:39,959][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type]
+[2020-02-16T20:24:40,022][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:40,032][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_LMJelinekMercer] after test
+[2020-02-16T20:24:40,033][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/ixLC1U3tSe-OvwGsmVDkDw] deleting index
+[2020-02-16T20:24:40,061][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_boolean] before test
+[2020-02-16T20:24:40,062][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type]
+[2020-02-16T20:24:40,121][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:40,135][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_boolean] after test
+[2020-02-16T20:24:40,135][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/BKoKrOdFROWnzDVqpMuQXg] deleting index
+[2020-02-16T20:24:40,162][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_DFR] before test
+[2020-02-16T20:24:40,165][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type]
+[2020-02-16T20:24:40,218][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:40,228][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_DFR] after test
+[2020-02-16T20:24:40,228][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/rb7NFsubROawpietGLTfrA] deleting index
+[2020-02-16T20:24:40,255][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_DFI] before test
+[2020-02-16T20:24:40,283][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type]
+[2020-02-16T20:24:40,332][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:40,341][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_DFI] after test
+[2020-02-16T20:24:40,342][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/ZcZbgjaSQCO3j0tyYemhMQ] deleting index
+[2020-02-16T20:24:40,368][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_Unknown] before test
+[2020-02-16T20:24:40,369][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [foo] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T20:24:40,417][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[foo][0]]]).
+[2020-02-16T20:24:40,426][INFO ][o.e.i.s.SimilarityTests  ] [testResolveSimilaritiesFromMapping_Unknown] after test
+[2020-02-16T20:24:40,426][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [foo/pzbKGp-FTAaTsV__t6kVog] deleting index
+[2020-02-16T20:24:40,451][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T20:24:40,453][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T20:24:40,453][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T20:24:40,453][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

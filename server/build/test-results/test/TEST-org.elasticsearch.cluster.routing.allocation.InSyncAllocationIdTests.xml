@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.InSyncAllocationIdTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:37" hostname="Escoto-PC" time="0.077">
+  <properties/>
+  <testcase name="testInSyncIdsNotTrimmedWhenNotGrowing" classname="org.elasticsearch.cluster.routing.allocation.InSyncAllocationIdTests" time="0.039"/>
+  <testcase name="testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver" classname="org.elasticsearch.cluster.routing.allocation.InSyncAllocationIdTests" time="0.012"/>
+  <testcase name="testInSyncIdsNotGrowingWithoutBounds" classname="org.elasticsearch.cluster.routing.allocation.InSyncAllocationIdTests" time="0.007"/>
+  <testcase name="testDeadNodesBeforeReplicaFailed" classname="org.elasticsearch.cluster.routing.allocation.InSyncAllocationIdTests" time="0.005"/>
+  <testcase name="testInSyncAllocationIdsUpdated" classname="org.elasticsearch.cluster.routing.allocation.InSyncAllocationIdTests" time="0.006"/>
+  <testcase name="testPrimaryFailureBatchedWithReplicaFailure" classname="org.elasticsearch.cluster.routing.allocation.InSyncAllocationIdTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T00:21:37,985][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] before test
+[2020-02-17T00:21:37,987][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] creating an index with 1 shard, 1 replica
+[2020-02-17T00:21:37,987][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] adding two nodes and performing rerouting
+[2020-02-17T00:21:37,988][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] start primary shard
+[2020-02-17T00:21:38,018][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] start replica shard
+[2020-02-17T00:21:38,018][INFO ][o.e.c.r.a.AllocationService] [testInSyncIdsNotTrimmedWhenNotGrowing] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,018][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] remove replica node
+[2020-02-17T00:21:38,019][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] remove primary node
+[2020-02-17T00:21:38,019][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] decrease number of replicas to 0
+[2020-02-17T00:21:38,019][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] add back node 1
+[2020-02-17T00:21:38,019][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] start primary shard
+[2020-02-17T00:21:38,019][INFO ][o.e.c.r.a.AllocationService] [testInSyncIdsNotTrimmedWhenNotGrowing] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,021][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotTrimmedWhenNotGrowing] after test
+[2020-02-17T00:21:38,031][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] before test
+[2020-02-17T00:21:38,032][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] creating an index with 1 shard, 1 replica
+[2020-02-17T00:21:38,032][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] adding two nodes and performing rerouting
+[2020-02-17T00:21:38,032][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] start primary shard
+[2020-02-17T00:21:38,033][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] start replica shard
+[2020-02-17T00:21:38,033][INFO ][o.e.c.r.a.AllocationService] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,033][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] remove replica node
+[2020-02-17T00:21:38,033][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] fail primary shard
+[2020-02-17T00:21:38,033][WARN ][o.e.c.r.a.AllocationService] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] failing shard [failed shard, shard [test][0], node[node2], [P], s[STARTED], a[id=R-s0VAj-SKWt5Tp6ktx7wg], message [dummy], failure [Unknown], markAsStale [true]]
+[2020-02-17T00:21:38,033][INFO ][o.e.c.r.a.AllocationService] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] Cluster health status changed from [YELLOW] to [RED] (reason: [shards failed [[test][0]]]).
+[2020-02-17T00:21:38,033][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryAllocationIdNotRemovedFromInSyncSetWhenNoFailOver] after test
+[2020-02-17T00:21:38,036][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] before test
+[2020-02-17T00:21:38,037][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] creating an index with 1 shard, 1 replica
+[2020-02-17T00:21:38,037][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] adding two nodes and performing rerouting
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] start primary shard
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] start replica shard
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.AllocationService] [testInSyncIdsNotGrowingWithoutBounds] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] remove a node
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] add back node
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] start replica shards
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.AllocationService] [testInSyncIdsNotGrowingWithoutBounds] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] remove the node
+[2020-02-17T00:21:38,038][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] add back node
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] start replica shards
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.AllocationService] [testInSyncIdsNotGrowingWithoutBounds] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] remove the node
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] add back node
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] start replica shards
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.AllocationService] [testInSyncIdsNotGrowingWithoutBounds] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] remove the node
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] add back node
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] start replica shards
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.AllocationService] [testInSyncIdsNotGrowingWithoutBounds] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] remove the node
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] add back node
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] start replica shards
+[2020-02-17T00:21:38,039][INFO ][o.e.c.r.a.AllocationService] [testInSyncIdsNotGrowingWithoutBounds] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,040][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] remove the node
+[2020-02-17T00:21:38,040][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncIdsNotGrowingWithoutBounds] after test
+[2020-02-17T00:21:38,041][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testDeadNodesBeforeReplicaFailed] before test
+[2020-02-17T00:21:38,043][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testDeadNodesBeforeReplicaFailed] creating an index with 1 shard, 1 replica
+[2020-02-17T00:21:38,043][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testDeadNodesBeforeReplicaFailed] adding two nodes and performing rerouting
+[2020-02-17T00:21:38,043][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testDeadNodesBeforeReplicaFailed] start primary shard
+[2020-02-17T00:21:38,043][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testDeadNodesBeforeReplicaFailed] start replica shard
+[2020-02-17T00:21:38,043][INFO ][o.e.c.r.a.AllocationService] [testDeadNodesBeforeReplicaFailed] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,043][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testDeadNodesBeforeReplicaFailed] remove replica node
+[2020-02-17T00:21:38,044][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testDeadNodesBeforeReplicaFailed] fail replica (for which there is no shard routing in the CS anymore)
+[2020-02-17T00:21:38,045][WARN ][o.e.c.r.a.AllocationService] [testDeadNodesBeforeReplicaFailed] [test][0] marking unavailable shards as stale: [FddtBOFGQ9WNtTnVoEuV4Q]
+[2020-02-17T00:21:38,045][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testDeadNodesBeforeReplicaFailed] after test
+[2020-02-17T00:21:38,047][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] before test
+[2020-02-17T00:21:38,049][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] creating an index with 1 shard, 2 replicas
+[2020-02-17T00:21:38,049][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] adding three nodes and performing rerouting
+[2020-02-17T00:21:38,049][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] start primary shard
+[2020-02-17T00:21:38,049][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] start replica shards
+[2020-02-17T00:21:38,050][INFO ][o.e.c.r.a.AllocationService] [testInSyncAllocationIdsUpdated] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0], [test][0]]]).
+[2020-02-17T00:21:38,050][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] remove a node
+[2020-02-17T00:21:38,050][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] remove all remaining nodes
+[2020-02-17T00:21:38,051][INFO ][o.e.c.r.a.AllocationService] [testInSyncAllocationIdsUpdated] Cluster health status changed from [RED] to [YELLOW] (reason: [reroute commands]).
+[2020-02-17T00:21:38,051][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] start primary shard
+[2020-02-17T00:21:38,051][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] fail primary shard
+[2020-02-17T00:21:38,051][WARN ][o.e.c.r.a.AllocationService] [testInSyncAllocationIdsUpdated] failing shard [failed shard, shard [test][0], node[node1], [P], s[STARTED], a[id=mIbAjSNOSoSz8UvRbDct0Q], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-17T00:21:38,051][INFO ][o.e.c.r.a.AllocationService] [testInSyncAllocationIdsUpdated] Cluster health status changed from [YELLOW] to [RED] (reason: [shards failed [[test][0]]]).
+[2020-02-17T00:21:38,051][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testInSyncAllocationIdsUpdated] after test
+[2020-02-17T00:21:38,053][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryFailureBatchedWithReplicaFailure] before test
+[2020-02-17T00:21:38,054][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryFailureBatchedWithReplicaFailure] creating an index with 1 shard, 1 replica
+[2020-02-17T00:21:38,055][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryFailureBatchedWithReplicaFailure] adding two nodes and performing rerouting
+[2020-02-17T00:21:38,055][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryFailureBatchedWithReplicaFailure] start primary shard
+[2020-02-17T00:21:38,058][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryFailureBatchedWithReplicaFailure] start replica shard
+[2020-02-17T00:21:38,058][INFO ][o.e.c.r.a.AllocationService] [testPrimaryFailureBatchedWithReplicaFailure] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:21:38,058][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryFailureBatchedWithReplicaFailure] Failing [shard id [[test][0]], allocation id [jgGOA4uxQIihfv18vr_7Xw], primary term [0], message [dummy], markAsStale [true], shard id [[test][0]], allocation id [pPnZYpzgQEipDahUAzhinw], primary term [1], message [dummy], markAsStale [true]]
+[2020-02-17T00:21:38,058][WARN ][o.e.c.r.a.AllocationService] [testPrimaryFailureBatchedWithReplicaFailure] failing shard [failed shard, shard [test][0], node[node2], [P], s[STARTED], a[id=jgGOA4uxQIihfv18vr_7Xw], message [dummy], failure [Unknown], markAsStale [true]]
+[2020-02-17T00:21:38,059][WARN ][o.e.c.r.a.AllocationService] [testPrimaryFailureBatchedWithReplicaFailure] failing shard [failed shard, shard [test][0], node[node1], [R], s[STARTED], a[id=pPnZYpzgQEipDahUAzhinw], message [dummy], failure [Unknown], markAsStale [true]]
+[2020-02-17T00:21:38,059][INFO ][o.e.c.r.a.AllocationService] [testPrimaryFailureBatchedWithReplicaFailure] Cluster health status changed from [GREEN] to [RED] (reason: [shards failed [[test][0], [test][0]]]).
+[2020-02-17T00:21:38,059][INFO ][o.e.c.r.a.InSyncAllocationIdTests] [testPrimaryFailureBatchedWithReplicaFailure] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.IndexSortSettingsTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:53" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testSimpleIndexSort" classname="org.elasticsearch.index.IndexSortSettingsTests" time="0.006"/>
+  <testcase name="testIndexSortWithArrays" classname="org.elasticsearch.index.IndexSortSettingsTests" time="0.002"/>
+  <testcase name="testNoIndexSort" classname="org.elasticsearch.index.IndexSortSettingsTests" time="0.002"/>
+  <testcase name="testInvalidMissing" classname="org.elasticsearch.index.IndexSortSettingsTests" time="0.003"/>
+  <testcase name="testInvalidIndexSort" classname="org.elasticsearch.index.IndexSortSettingsTests" time="0.003"/>
+  <testcase name="testInvalidIndexSortWithArray" classname="org.elasticsearch.index.IndexSortSettingsTests" time="0.002"/>
+  <testcase name="testInvalidMode" classname="org.elasticsearch.index.IndexSortSettingsTests" time="0.003"/>
+  <testcase name="testInvalidOrder" classname="org.elasticsearch.index.IndexSortSettingsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T10:22:53,831][INFO ][o.e.i.IndexSortSettingsTests] [testSimpleIndexSort] before test
+[2020-02-17T10:22:53,834][INFO ][o.e.i.IndexSortSettingsTests] [testSimpleIndexSort] after test
+[2020-02-17T10:22:53,836][INFO ][o.e.i.IndexSortSettingsTests] [testIndexSortWithArrays] before test
+[2020-02-17T10:22:53,836][INFO ][o.e.i.IndexSortSettingsTests] [testIndexSortWithArrays] after test
+[2020-02-17T10:22:53,838][INFO ][o.e.i.IndexSortSettingsTests] [testNoIndexSort] before test
+[2020-02-17T10:22:53,838][INFO ][o.e.i.IndexSortSettingsTests] [testNoIndexSort] after test
+[2020-02-17T10:22:53,840][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidMissing] before test
+[2020-02-17T10:22:53,841][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidMissing] after test
+[2020-02-17T10:22:53,843][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidIndexSort] before test
+[2020-02-17T10:22:53,844][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidIndexSort] after test
+[2020-02-17T10:22:53,846][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidIndexSortWithArray] before test
+[2020-02-17T10:22:53,846][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidIndexSortWithArray] after test
+[2020-02-17T10:22:53,848][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidMode] before test
+[2020-02-17T10:22:53,849][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidMode] after test
+[2020-02-17T10:22:53,851][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidOrder] before test
+[2020-02-17T10:22:53,851][INFO ][o.e.i.IndexSortSettingsTests] [testInvalidOrder] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

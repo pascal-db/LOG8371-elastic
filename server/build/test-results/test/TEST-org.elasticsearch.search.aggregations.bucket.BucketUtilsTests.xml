@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.BucketUtilsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:07" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testOverFlow" classname="org.elasticsearch.search.aggregations.bucket.BucketUtilsTests" time="0.003"/>
+  <testcase name="testBadInput" classname="org.elasticsearch.search.aggregations.bucket.BucketUtilsTests" time="0.003"/>
+  <testcase name="testShardSizeIsGreaterThanGlobalSize" classname="org.elasticsearch.search.aggregations.bucket.BucketUtilsTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T17:24:07,513][INFO ][o.e.s.a.b.BucketUtilsTests] [testOverFlow] before test
+[2020-02-16T17:24:07,514][INFO ][o.e.s.a.b.BucketUtilsTests] [testOverFlow] after test
+[2020-02-16T17:24:07,516][INFO ][o.e.s.a.b.BucketUtilsTests] [testBadInput] before test
+[2020-02-16T17:24:07,516][INFO ][o.e.s.a.b.BucketUtilsTests] [testBadInput] after test
+[2020-02-16T17:24:07,518][INFO ][o.e.s.a.b.BucketUtilsTests] [testShardSizeIsGreaterThanGlobalSize] before test
+[2020-02-16T17:24:07,518][INFO ][o.e.s.a.b.BucketUtilsTests] [testShardSizeIsGreaterThanGlobalSize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

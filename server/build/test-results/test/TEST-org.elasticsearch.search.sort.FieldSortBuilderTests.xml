@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.sort.FieldSortBuilderTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:39" hostname="Escoto-PC" time="0.063">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.017"/>
+  <testcase name="testBuildSortField" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.013"/>
+  <testcase name="testUnknownOptionFails" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.003"/>
+  <testcase name="testMultiValueMode" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.003"/>
+  <testcase name="testNestedSortBothThrows" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.002"/>
+  <testcase name="testBuildSortFieldMissingValue" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.005"/>
+  <testcase name="testBuildNested" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.003"/>
+  <testcase name="testBuildSortFieldOrder" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.002"/>
+  <testcase name="testNestedSortRewrites" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.003"/>
+  <testcase name="testModeNonNumericField" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.003"/>
+  <testcase name="testNestedRewrites" classname="org.elasticsearch.search.sort.FieldSortBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:24:39,518][INFO ][o.e.s.s.FieldSortBuilderTests] [testFromXContent] before test
+[2020-02-16T23:24:39,520][WARN ][o.e.d.s.s.FieldSortBuilder] [testFromXContent] [nested_filter] has been deprecated in favour for the [nested] parameter
+[2020-02-16T23:24:39,521][WARN ][o.e.d.s.s.FieldSortBuilder] [testFromXContent] [nested_path] has been deprecated in favor of the [nested] parameter
+[2020-02-16T23:24:39,526][WARN ][o.e.d.s.s.FieldSortBuilder] [testFromXContent] [nested_path] has been deprecated in favor of the [nested] parameter
+[2020-02-16T23:24:39,532][INFO ][o.e.s.s.FieldSortBuilderTests] [testFromXContent] after test
+[2020-02-16T23:24:39,535][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortField] before test
+[2020-02-16T23:24:39,544][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortField] after test
+[2020-02-16T23:24:39,547][INFO ][o.e.s.s.FieldSortBuilderTests] [testUnknownOptionFails] before test
+[2020-02-16T23:24:39,548][INFO ][o.e.s.s.FieldSortBuilderTests] [testUnknownOptionFails] after test
+[2020-02-16T23:24:39,550][INFO ][o.e.s.s.FieldSortBuilderTests] [testMultiValueMode] before test
+[2020-02-16T23:24:39,550][INFO ][o.e.s.s.FieldSortBuilderTests] [testMultiValueMode] after test
+[2020-02-16T23:24:39,552][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedSortBothThrows] before test
+[2020-02-16T23:24:39,553][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedSortBothThrows] after test
+[2020-02-16T23:24:39,555][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortFieldMissingValue] before test
+[2020-02-16T23:24:39,556][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortFieldMissingValue] after test
+[2020-02-16T23:24:39,558][INFO ][o.e.s.s.FieldSortBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:24:39,560][INFO ][o.e.s.s.FieldSortBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:24:39,563][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildNested] before test
+[2020-02-16T23:24:39,564][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildNested] after test
+[2020-02-16T23:24:39,566][INFO ][o.e.s.s.FieldSortBuilderTests] [testSerialization] before test
+[2020-02-16T23:24:39,566][INFO ][o.e.s.s.FieldSortBuilderTests] [testSerialization] after test
+[2020-02-16T23:24:39,568][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortFieldOrder] before test
+[2020-02-16T23:24:39,569][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortFieldOrder] after test
+[2020-02-16T23:24:39,571][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedSortRewrites] before test
+[2020-02-16T23:24:39,572][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedSortRewrites] after test
+[2020-02-16T23:24:39,573][INFO ][o.e.s.s.FieldSortBuilderTests] [testModeNonNumericField] before test
+[2020-02-16T23:24:39,574][INFO ][o.e.s.s.FieldSortBuilderTests] [testModeNonNumericField] after test
+[2020-02-16T23:24:39,577][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedRewrites] before test
+[2020-02-16T23:24:39,578][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedRewrites] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

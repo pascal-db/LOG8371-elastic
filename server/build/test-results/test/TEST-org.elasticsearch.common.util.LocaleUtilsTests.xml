@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.LocaleUtilsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:52" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testIllegalLang" classname="org.elasticsearch.common.util.LocaleUtilsTests" time="0.004"/>
+  <testcase name="testSimple" classname="org.elasticsearch.common.util.LocaleUtilsTests" time="0.002"/>
+  <testcase name="testUnderscores" classname="org.elasticsearch.common.util.LocaleUtilsTests" time="0.003"/>
+  <testcase name="testIllegalCountry" classname="org.elasticsearch.common.util.LocaleUtilsTests" time="0.003"/>
+  <testcase name="testIllegalNumberOfParts" classname="org.elasticsearch.common.util.LocaleUtilsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T08:20:52,181][INFO ][o.e.c.u.LocaleUtilsTests ] [testIllegalLang] before test
+[2020-02-17T08:20:52,184][INFO ][o.e.c.u.LocaleUtilsTests ] [testIllegalLang] after test
+[2020-02-17T08:20:52,186][INFO ][o.e.c.u.LocaleUtilsTests ] [testSimple] before test
+[2020-02-17T08:20:52,186][INFO ][o.e.c.u.LocaleUtilsTests ] [testSimple] after test
+[2020-02-17T08:20:52,189][INFO ][o.e.c.u.LocaleUtilsTests ] [testUnderscores] before test
+[2020-02-17T08:20:52,189][INFO ][o.e.c.u.LocaleUtilsTests ] [testUnderscores] after test
+[2020-02-17T08:20:52,191][INFO ][o.e.c.u.LocaleUtilsTests ] [testIllegalCountry] before test
+[2020-02-17T08:20:52,192][INFO ][o.e.c.u.LocaleUtilsTests ] [testIllegalCountry] after test
+[2020-02-17T08:20:52,194][INFO ][o.e.c.u.LocaleUtilsTests ] [testIllegalNumberOfParts] before test
+[2020-02-17T08:20:52,194][INFO ][o.e.c.u.LocaleUtilsTests ] [testIllegalNumberOfParts] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

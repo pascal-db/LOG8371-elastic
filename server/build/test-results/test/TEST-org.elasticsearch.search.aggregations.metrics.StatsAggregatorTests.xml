@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.StatsAggregatorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:32" hostname="Escoto-PC" time="0.07">
+  <properties/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.metrics.StatsAggregatorTests" time="0.027"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.search.aggregations.metrics.StatsAggregatorTests" time="0.005"/>
+  <testcase name="testRandomDoubles" classname="org.elasticsearch.search.aggregations.metrics.StatsAggregatorTests" time="0.014"/>
+  <testcase name="testRandomLongs" classname="org.elasticsearch.search.aggregations.metrics.StatsAggregatorTests" time="0.024"/>
+  <system-out><![CDATA[[2020-02-17T00:25:32,772][INFO ][o.e.s.a.m.StatsAggregatorTests] [testSummationAccuracy] before test
+[2020-02-17T00:25:32,788][INFO ][o.e.s.a.m.StatsAggregatorTests] [testSummationAccuracy] after test
+[2020-02-17T00:25:32,789][INFO ][o.e.s.a.m.StatsAggregatorTests] [testEmpty] before test
+[2020-02-17T00:25:32,792][INFO ][o.e.s.a.m.StatsAggregatorTests] [testEmpty] after test
+[2020-02-17T00:25:32,794][INFO ][o.e.s.a.m.StatsAggregatorTests] [testRandomDoubles] before test
+[2020-02-17T00:25:32,806][INFO ][o.e.s.a.m.StatsAggregatorTests] [testRandomDoubles] after test
+[2020-02-17T00:25:32,813][INFO ][o.e.s.a.m.StatsAggregatorTests] [testRandomLongs] before test
+[2020-02-17T00:25:32,830][INFO ][o.e.s.a.m.StatsAggregatorTests] [testRandomLongs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

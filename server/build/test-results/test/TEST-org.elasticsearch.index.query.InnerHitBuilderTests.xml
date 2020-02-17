@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.InnerHitBuilderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:06" hostname="Escoto-PC" time="0.147">
+  <properties/>
+  <testcase name="testFromAndToXContent" classname="org.elasticsearch.index.query.InnerHitBuilderTests" time="0.03"/>
+  <testcase name="testSerializationOrder" classname="org.elasticsearch.index.query.InnerHitBuilderTests" time="0.036"/>
+  <testcase name="testSetDocValueFormat" classname="org.elasticsearch.index.query.InnerHitBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.InnerHitBuilderTests" time="0.054"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.InnerHitBuilderTests" time="0.025"/>
+  <system-out><![CDATA[[2020-02-17T00:23:06,941][INFO ][o.e.i.q.InnerHitBuilderTests] [testFromAndToXContent] before test
+[2020-02-17T00:23:06,969][INFO ][o.e.i.q.InnerHitBuilderTests] [testFromAndToXContent] after test
+[2020-02-17T00:23:06,986][INFO ][o.e.i.q.InnerHitBuilderTests] [testSerializationOrder] before test
+[2020-02-17T00:23:07,004][INFO ][o.e.i.q.InnerHitBuilderTests] [testSerializationOrder] after test
+[2020-02-17T00:23:07,006][INFO ][o.e.i.q.InnerHitBuilderTests] [testSetDocValueFormat] before test
+[2020-02-17T00:23:07,006][INFO ][o.e.i.q.InnerHitBuilderTests] [testSetDocValueFormat] after test
+[2020-02-17T00:23:07,008][INFO ][o.e.i.q.InnerHitBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:23:07,060][INFO ][o.e.i.q.InnerHitBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:23:07,062][INFO ][o.e.i.q.InnerHitBuilderTests] [testSerialization] before test
+[2020-02-17T00:23:07,085][INFO ][o.e.i.q.InnerHitBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

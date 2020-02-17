@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.MultiSearchRequestTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.083">
+  <properties/>
+  <testcase name="testSimpleAdd" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.008"/>
+  <testcase name="testMsearchTerminatedByNewline" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.004"/>
+  <testcase name="testSimpleAdd3" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.002"/>
+  <testcase name="testEmptyFirstLine2" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.002"/>
+  <testcase name="testSimpleAdd2" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.002"/>
+  <testcase name="testSimpleAddWithCarriageReturn" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.001"/>
+  <testcase name="testDefaultIndicesOptions" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.005"/>
+  <testcase name="testMultiLineSerialization" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.04"/>
+  <testcase name="testMaxConcurrentSearchRequests" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.002"/>
+  <testcase name="testFailWithUnknownKey" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.002"/>
+  <testcase name="testSimpleAdd4" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.003"/>
+  <testcase name="testResponseErrorToXContent" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.003"/>
+  <testcase name="testEmptyFirstLine1" classname="org.elasticsearch.action.search.MultiSearchRequestTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T02:50:19,230][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAdd] before test
+[2020-02-17T02:50:19,236][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAdd] after test
+[2020-02-17T02:50:19,237][INFO ][o.e.a.s.MultiSearchRequestTests] [testMsearchTerminatedByNewline] before test
+[2020-02-17T02:50:19,239][INFO ][o.e.a.s.MultiSearchRequestTests] [testMsearchTerminatedByNewline] after test
+[2020-02-17T02:50:19,241][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAdd3] before test
+[2020-02-17T02:50:19,242][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAdd3] after test
+[2020-02-17T02:50:19,244][INFO ][o.e.a.s.MultiSearchRequestTests] [testEmptyFirstLine2] before test
+[2020-02-17T02:50:19,244][WARN ][o.e.d.r.a.s.RestMultiSearchAction] [testEmptyFirstLine2] support for empty first line before any action metadata in msearch API is deprecated and will be removed in the next major version
+[2020-02-17T02:50:19,244][INFO ][o.e.a.s.MultiSearchRequestTests] [testEmptyFirstLine2] after test
+[2020-02-17T02:50:19,246][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAdd2] before test
+[2020-02-17T02:50:19,247][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAdd2] after test
+[2020-02-17T02:50:19,248][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAddWithCarriageReturn] before test
+[2020-02-17T02:50:19,249][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAddWithCarriageReturn] after test
+[2020-02-17T02:50:19,250][INFO ][o.e.a.s.MultiSearchRequestTests] [testDefaultIndicesOptions] before test
+[2020-02-17T02:50:19,250][INFO ][o.e.a.s.MultiSearchRequestTests] [testDefaultIndicesOptions] after test
+[2020-02-17T02:50:19,252][INFO ][o.e.a.s.MultiSearchRequestTests] [testEqualsAndHashcode] before test
+[2020-02-17T02:50:19,255][INFO ][o.e.a.s.MultiSearchRequestTests] [testEqualsAndHashcode] after test
+[2020-02-17T02:50:19,257][INFO ][o.e.a.s.MultiSearchRequestTests] [testMultiLineSerialization] before test
+[2020-02-17T02:50:19,295][INFO ][o.e.a.s.MultiSearchRequestTests] [testMultiLineSerialization] after test
+[2020-02-17T02:50:19,297][INFO ][o.e.a.s.MultiSearchRequestTests] [testMaxConcurrentSearchRequests] before test
+[2020-02-17T02:50:19,298][INFO ][o.e.a.s.MultiSearchRequestTests] [testMaxConcurrentSearchRequests] after test
+[2020-02-17T02:50:19,300][INFO ][o.e.a.s.MultiSearchRequestTests] [testFailWithUnknownKey] before test
+[2020-02-17T02:50:19,301][INFO ][o.e.a.s.MultiSearchRequestTests] [testFailWithUnknownKey] after test
+[2020-02-17T02:50:19,303][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAdd4] before test
+[2020-02-17T02:50:19,304][INFO ][o.e.a.s.MultiSearchRequestTests] [testSimpleAdd4] after test
+[2020-02-17T02:50:19,306][INFO ][o.e.a.s.MultiSearchRequestTests] [testResponseErrorToXContent] before test
+[2020-02-17T02:50:19,308][INFO ][o.e.a.s.MultiSearchRequestTests] [testResponseErrorToXContent] after test
+[2020-02-17T02:50:19,310][INFO ][o.e.a.s.MultiSearchRequestTests] [testEmptyFirstLine1] before test
+[2020-02-17T02:50:19,310][WARN ][o.e.d.r.a.s.RestMultiSearchAction] [testEmptyFirstLine1] support for empty first line before any action metadata in msearch API is deprecated and will be removed in the next major version
+[2020-02-17T02:50:19,310][INFO ][o.e.a.s.MultiSearchRequestTests] [testEmptyFirstLine1] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

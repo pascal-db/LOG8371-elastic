@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.fetch.subphase.highlight.HighlightFieldTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:32" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.fetch.subphase.highlight.HighlightFieldTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.fetch.subphase.highlight.HighlightFieldTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.fetch.subphase.highlight.HighlightFieldTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.fetch.subphase.highlight.HighlightFieldTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T03:24:32,933][INFO ][o.e.s.f.s.h.HighlightFieldTests] [testToXContent] before test
+[2020-02-17T03:24:32,934][INFO ][o.e.s.f.s.h.HighlightFieldTests] [testToXContent] after test
+[2020-02-17T03:24:32,936][INFO ][o.e.s.f.s.h.HighlightFieldTests] [testEqualsAndHashcode] before test
+[2020-02-17T03:24:32,936][INFO ][o.e.s.f.s.h.HighlightFieldTests] [testEqualsAndHashcode] after test
+[2020-02-17T03:24:32,938][INFO ][o.e.s.f.s.h.HighlightFieldTests] [testFromXContent] before test
+[2020-02-17T03:24:32,938][INFO ][o.e.s.f.s.h.HighlightFieldTests] [testFromXContent] after test
+[2020-02-17T03:24:32,940][INFO ][o.e.s.f.s.h.HighlightFieldTests] [testSerialization] before test
+[2020-02-17T03:24:32,940][INFO ][o.e.s.f.s.h.HighlightFieldTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

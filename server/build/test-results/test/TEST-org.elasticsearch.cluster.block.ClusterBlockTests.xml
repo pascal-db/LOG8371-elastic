@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.block.ClusterBlockTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:52" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testRemoveIndexBlockWithId" classname="org.elasticsearch.cluster.block.ClusterBlockTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.block.ClusterBlockTests" time="0.002"/>
+  <testcase name="testGlobalBlocksCheckedIfNoIndicesSpecified" classname="org.elasticsearch.cluster.block.ClusterBlockTests" time="0.003"/>
+  <testcase name="testBwcSerialization" classname="org.elasticsearch.cluster.block.ClusterBlockTests" time="0.002"/>
+  <testcase name="testGetIndexBlockWithId" classname="org.elasticsearch.cluster.block.ClusterBlockTests" time="0.004"/>
+  <testcase name="testToStringDanglingComma" classname="org.elasticsearch.cluster.block.ClusterBlockTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:20:52,097][INFO ][o.e.c.b.ClusterBlockTests] [testRemoveIndexBlockWithId] before test
+[2020-02-17T01:20:52,100][INFO ][o.e.c.b.ClusterBlockTests] [testRemoveIndexBlockWithId] after test
+[2020-02-17T01:20:52,101][INFO ][o.e.c.b.ClusterBlockTests] [testSerialization] before test
+[2020-02-17T01:20:52,102][INFO ][o.e.c.b.ClusterBlockTests] [testSerialization] after test
+[2020-02-17T01:20:52,105][INFO ][o.e.c.b.ClusterBlockTests] [testGlobalBlocksCheckedIfNoIndicesSpecified] before test
+[2020-02-17T01:20:52,105][INFO ][o.e.c.b.ClusterBlockTests] [testGlobalBlocksCheckedIfNoIndicesSpecified] after test
+[2020-02-17T01:20:52,107][INFO ][o.e.c.b.ClusterBlockTests] [testBwcSerialization] before test
+[2020-02-17T01:20:52,107][INFO ][o.e.c.b.ClusterBlockTests] [testBwcSerialization] after test
+[2020-02-17T01:20:52,109][INFO ][o.e.c.b.ClusterBlockTests] [testGetIndexBlockWithId] before test
+[2020-02-17T01:20:52,111][INFO ][o.e.c.b.ClusterBlockTests] [testGetIndexBlockWithId] after test
+[2020-02-17T01:20:52,113][INFO ][o.e.c.b.ClusterBlockTests] [testToStringDanglingComma] before test
+[2020-02-17T01:20:52,113][INFO ][o.e.c.b.ClusterBlockTests] [testToStringDanglingComma] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

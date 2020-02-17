@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalMaxTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:24" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalMaxTests" time="0.01"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalMaxTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalMaxTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalMaxTests" time="0.005"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalMaxTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T00:24:24,805][INFO ][o.e.s.a.m.InternalMaxTests] [testSerialization] before test
+[2020-02-17T00:24:24,806][INFO ][o.e.s.a.m.InternalMaxTests] [testSerialization] after test
+[2020-02-17T00:24:24,808][INFO ][o.e.s.a.m.InternalMaxTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T00:24:24,809][INFO ][o.e.s.a.m.InternalMaxTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T00:24:24,811][INFO ][o.e.s.a.m.InternalMaxTests] [testReduceRandom] before test
+[2020-02-17T00:24:24,812][INFO ][o.e.s.a.m.InternalMaxTests] [testReduceRandom] after test
+[2020-02-17T00:24:24,817][INFO ][o.e.s.a.m.InternalMaxTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:24:24,817][INFO ][o.e.s.a.m.InternalMaxTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:24:24,820][INFO ][o.e.s.a.m.InternalMaxTests] [testFromXContent] before test
+[2020-02-17T00:24:24,821][INFO ][o.e.s.a.m.InternalMaxTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

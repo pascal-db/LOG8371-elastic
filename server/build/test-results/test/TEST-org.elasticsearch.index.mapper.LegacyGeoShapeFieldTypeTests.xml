@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.LegacyGeoShapeFieldTypeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:44" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.LegacyGeoShapeFieldTypeTests" time="0.006"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.LegacyGeoShapeFieldTypeTests" time="0.003"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.LegacyGeoShapeFieldTypeTests" time="0.003"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.LegacyGeoShapeFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.LegacyGeoShapeFieldTypeTests" time="0.002"/>
+  <testcase name="testSetStrategyName" classname="org.elasticsearch.index.mapper.LegacyGeoShapeFieldTypeTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T06:22:44,215][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testEquals] before test
+[2020-02-17T06:22:44,217][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testEquals] after test
+[2020-02-17T06:22:44,219][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testFreeze] before test
+[2020-02-17T06:22:44,219][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testFreeze] after test
+[2020-02-17T06:22:44,221][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testClone] before test
+[2020-02-17T06:22:44,222][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testClone] after test
+[2020-02-17T06:22:44,224][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-17T06:22:44,224][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-17T06:22:44,226][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testCheckTypeName] before test
+[2020-02-17T06:22:44,227][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testCheckTypeName] after test
+[2020-02-17T06:22:44,229][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testSetStrategyName] before test
+[2020-02-17T06:22:44,229][INFO ][o.e.i.m.LegacyGeoShapeFieldTypeTests] [testSetStrategyName] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.DateIntervalWrapperTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:23" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testwriteTo" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateIntervalWrapperTests" time="0.003"/>
+  <testcase name="testInvalidReadFrom" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateIntervalWrapperTests" time="0.003"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateIntervalWrapperTests" time="0.002"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateIntervalWrapperTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:25:23,444][INFO ][o.e.s.a.b.h.DateIntervalWrapperTests] [testwriteTo] before test
+[2020-02-16T19:25:23,445][INFO ][o.e.s.a.b.h.DateIntervalWrapperTests] [testwriteTo] after test
+[2020-02-16T19:25:23,447][INFO ][o.e.s.a.b.h.DateIntervalWrapperTests] [testInvalidReadFrom] before test
+[2020-02-16T19:25:23,448][INFO ][o.e.s.a.b.h.DateIntervalWrapperTests] [testInvalidReadFrom] after test
+[2020-02-16T19:25:23,450][INFO ][o.e.s.a.b.h.DateIntervalWrapperTests] [testReadFrom] before test
+[2020-02-16T19:25:23,450][INFO ][o.e.s.a.b.h.DateIntervalWrapperTests] [testReadFrom] after test
+[2020-02-16T19:25:23,453][INFO ][o.e.s.a.b.h.DateIntervalWrapperTests] [testValidOrdinals] before test
+[2020-02-16T19:25:23,453][INFO ][o.e.s.a.b.h.DateIntervalWrapperTests] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

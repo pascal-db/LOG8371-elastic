@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cli.TerminalTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.161">
+  <properties/>
+  <testcase name="testPromptYesNoDefault" classname="org.elasticsearch.cli.TerminalTests" time="0.011"/>
+  <testcase name="testPromptYesNoReprompt" classname="org.elasticsearch.cli.TerminalTests" time="0.106"/>
+  <testcase name="testPromptYesNoCase" classname="org.elasticsearch.cli.TerminalTests" time="0.026"/>
+  <testcase name="testErrorVerbosity" classname="org.elasticsearch.cli.TerminalTests" time="0.01"/>
+  <testcase name="testEscaping" classname="org.elasticsearch.cli.TerminalTests" time="0.005"/>
+  <testcase name="testVerbosity" classname="org.elasticsearch.cli.TerminalTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T11:20:50,202][INFO ][o.e.c.TerminalTests      ] [testPromptYesNoDefault] before test
+[2020-02-17T11:20:50,204][INFO ][o.e.c.TerminalTests      ] [testPromptYesNoDefault] after test
+[2020-02-17T11:20:50,310][INFO ][o.e.c.TerminalTests      ] [testPromptYesNoReprompt] before test
+[2020-02-17T11:20:50,310][INFO ][o.e.c.TerminalTests      ] [testPromptYesNoReprompt] after test
+[2020-02-17T11:20:50,335][INFO ][o.e.c.TerminalTests      ] [testPromptYesNoCase] before test
+[2020-02-17T11:20:50,336][INFO ][o.e.c.TerminalTests      ] [testPromptYesNoCase] after test
+[2020-02-17T11:20:50,346][INFO ][o.e.c.TerminalTests      ] [testErrorVerbosity] before test
+[2020-02-17T11:20:50,347][INFO ][o.e.c.TerminalTests      ] [testErrorVerbosity] after test
+[2020-02-17T11:20:50,352][INFO ][o.e.c.TerminalTests      ] [testEscaping] before test
+[2020-02-17T11:20:50,352][INFO ][o.e.c.TerminalTests      ] [testEscaping] after test
+[2020-02-17T11:20:50,354][INFO ][o.e.c.TerminalTests      ] [testVerbosity] before test
+[2020-02-17T11:20:50,354][INFO ][o.e.c.TerminalTests      ] [testVerbosity] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

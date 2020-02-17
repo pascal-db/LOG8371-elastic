@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.SpanTermQueryBuilderTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:09" hostname="Escoto-PC" time="0.092">
+  <properties/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.012"/>
+  <testcase name="testWithMetaDataField" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.001"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.009"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.016"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.016"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.014"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.SpanTermQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T16:23:09,370][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T16:23:09,373][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-16T16:23:09,373][INFO ][o.e.p.PluginsService     ] [testValidOutput] no plugins loaded
+[2020-02-16T16:23:09,378][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-16T16:23:09,378][INFO ][o.e.p.PluginsService     ] [testValidOutput] no plugins loaded
+[2020-02-16T16:23:09,381][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T16:23:09,383][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testWithMetaDataField] before test
+[2020-02-16T16:23:09,383][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testWithMetaDataField] after test
+[2020-02-16T16:23:09,385][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T16:23:09,385][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T16:23:09,387][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testSerialization] before test
+[2020-02-16T16:23:09,387][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testSerialization] after test
+[2020-02-16T16:23:09,389][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T16:23:09,390][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T16:23:09,392][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T16:23:09,392][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T16:23:09,393][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T16:23:09,395][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T16:23:09,397][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-16T16:23:09,398][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-16T16:23:09,407][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T16:23:09,407][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T16:23:09,423][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T16:23:09,423][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T16:23:09,425][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T16:23:09,426][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T16:23:09,429][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T16:23:09,429][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T16:23:09,445][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testCacheability] before test
+[2020-02-16T16:23:09,445][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testCacheability] after test
+[2020-02-16T16:23:09,458][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testToQuery] before test
+[2020-02-16T16:23:09,459][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testToQuery] after test
+[2020-02-16T16:23:09,461][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testFromJson] before test
+[2020-02-16T16:23:09,461][INFO ][o.e.i.q.SpanTermQueryBuilderTests] [testFromJson] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

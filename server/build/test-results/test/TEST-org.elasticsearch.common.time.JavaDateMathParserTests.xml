@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.time.JavaDateMathParserTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.042">
+  <properties/>
+  <testcase name="testTimezone" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.005"/>
+  <testcase name="testIllegalMathFormat" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.003"/>
+  <testcase name="testRoundingPreservesEpochAsBaseDate" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.002"/>
+  <testcase name="testOverridingLocaleOrZoneAndCompositeRoundUpParser" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.003"/>
+  <testcase name="testTimestamps" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.002"/>
+  <testcase name="testLenientEmptyMath" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.001"/>
+  <testcase name="testMultipleAdjustments" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.002"/>
+  <testcase name="testIllegalDateFormat" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.001"/>
+  <testcase name="testOnlyCallsNowIfNecessary" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.001"/>
+  <testcase name="testBasicDates" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.002"/>
+  <testcase name="testBasicMath" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.002"/>
+  <testcase name="testNow" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.002"/>
+  <testcase name="testImplicitRounding" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.008"/>
+  <testcase name="testRoundingDoesNotAffectExactDate" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.002"/>
+  <testcase name="testExplicitRounding" classname="org.elasticsearch.common.time.JavaDateMathParserTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T13:20:50,809][INFO ][o.e.c.t.JavaDateMathParserTests] [testTimezone] before test
+[2020-02-16T13:20:50,812][INFO ][o.e.c.t.JavaDateMathParserTests] [testTimezone] after test
+[2020-02-16T13:20:50,814][INFO ][o.e.c.t.JavaDateMathParserTests] [testIllegalMathFormat] before test
+[2020-02-16T13:20:50,815][INFO ][o.e.c.t.JavaDateMathParserTests] [testIllegalMathFormat] after test
+[2020-02-16T13:20:50,817][INFO ][o.e.c.t.JavaDateMathParserTests] [testRoundingPreservesEpochAsBaseDate] before test
+[2020-02-16T13:20:50,817][INFO ][o.e.c.t.JavaDateMathParserTests] [testRoundingPreservesEpochAsBaseDate] after test
+[2020-02-16T13:20:50,819][INFO ][o.e.c.t.JavaDateMathParserTests] [testOverridingLocaleOrZoneAndCompositeRoundUpParser] before test
+[2020-02-16T13:20:50,820][INFO ][o.e.c.t.JavaDateMathParserTests] [testOverridingLocaleOrZoneAndCompositeRoundUpParser] after test
+[2020-02-16T13:20:50,822][INFO ][o.e.c.t.JavaDateMathParserTests] [testTimestamps] before test
+[2020-02-16T13:20:50,823][INFO ][o.e.c.t.JavaDateMathParserTests] [testTimestamps] after test
+[2020-02-16T13:20:50,824][INFO ][o.e.c.t.JavaDateMathParserTests] [testLenientEmptyMath] before test
+[2020-02-16T13:20:50,824][INFO ][o.e.c.t.JavaDateMathParserTests] [testLenientEmptyMath] after test
+[2020-02-16T13:20:50,825][INFO ][o.e.c.t.JavaDateMathParserTests] [testMultipleAdjustments] before test
+[2020-02-16T13:20:50,826][INFO ][o.e.c.t.JavaDateMathParserTests] [testMultipleAdjustments] after test
+[2020-02-16T13:20:50,827][INFO ][o.e.c.t.JavaDateMathParserTests] [testIllegalDateFormat] before test
+[2020-02-16T13:20:50,827][INFO ][o.e.c.t.JavaDateMathParserTests] [testIllegalDateFormat] after test
+[2020-02-16T13:20:50,829][INFO ][o.e.c.t.JavaDateMathParserTests] [testOnlyCallsNowIfNecessary] before test
+[2020-02-16T13:20:50,829][INFO ][o.e.c.t.JavaDateMathParserTests] [testOnlyCallsNowIfNecessary] after test
+[2020-02-16T13:20:50,831][INFO ][o.e.c.t.JavaDateMathParserTests] [testBasicDates] before test
+[2020-02-16T13:20:50,831][INFO ][o.e.c.t.JavaDateMathParserTests] [testBasicDates] after test
+[2020-02-16T13:20:50,832][INFO ][o.e.c.t.JavaDateMathParserTests] [testBasicMath] before test
+[2020-02-16T13:20:50,833][INFO ][o.e.c.t.JavaDateMathParserTests] [testBasicMath] after test
+[2020-02-16T13:20:50,834][INFO ][o.e.c.t.JavaDateMathParserTests] [testNow] before test
+[2020-02-16T13:20:50,835][INFO ][o.e.c.t.JavaDateMathParserTests] [testNow] after test
+[2020-02-16T13:20:50,837][INFO ][o.e.c.t.JavaDateMathParserTests] [testImplicitRounding] before test
+[2020-02-16T13:20:50,843][INFO ][o.e.c.t.JavaDateMathParserTests] [testImplicitRounding] after test
+[2020-02-16T13:20:50,845][INFO ][o.e.c.t.JavaDateMathParserTests] [testRoundingDoesNotAffectExactDate] before test
+[2020-02-16T13:20:50,845][INFO ][o.e.c.t.JavaDateMathParserTests] [testRoundingDoesNotAffectExactDate] after test
+[2020-02-16T13:20:50,847][INFO ][o.e.c.t.JavaDateMathParserTests] [testExplicitRounding] before test
+[2020-02-16T13:20:50,850][INFO ][o.e.c.t.JavaDateMathParserTests] [testExplicitRounding] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

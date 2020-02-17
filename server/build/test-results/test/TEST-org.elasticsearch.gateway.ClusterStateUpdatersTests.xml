@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.ClusterStateUpdatersTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:11" hostname="Escoto-PC" time="0.03">
+  <properties/>
+  <testcase name="testRemoveStateNotRecoveredBlock" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.002"/>
+  <testcase name="testUpgradePersistentSettings" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.005"/>
+  <testcase name="testHideStateIfNotRecovered" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.003"/>
+  <testcase name="testSetLocalNode" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.002"/>
+  <testcase name="testUpgradeTransientSettings" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.004"/>
+  <testcase name="testMixCurrentAndRecoveredState" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.002"/>
+  <testcase name="testDoNotHideStateIfRecovered" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.005"/>
+  <testcase name="testAddStateNotRecoveredBlock" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.002"/>
+  <testcase name="testRecoverClusterBlocks" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.002"/>
+  <testcase name="testUpdateRoutingTable" classname="org.elasticsearch.gateway.ClusterStateUpdatersTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T15:21:11,269][INFO ][o.e.g.ClusterStateUpdatersTests] [testRemoveStateNotRecoveredBlock] before test
+[2020-02-16T15:21:11,269][INFO ][o.e.g.ClusterStateUpdatersTests] [testRemoveStateNotRecoveredBlock] after test
+[2020-02-16T15:21:11,271][INFO ][o.e.g.ClusterStateUpdatersTests] [testUpgradePersistentSettings] before test
+[2020-02-16T15:21:11,274][INFO ][o.e.g.ClusterStateUpdatersTests] [testUpgradePersistentSettings] after test
+[2020-02-16T15:21:11,276][INFO ][o.e.g.ClusterStateUpdatersTests] [testHideStateIfNotRecovered] before test
+[2020-02-16T15:21:11,277][INFO ][o.e.g.ClusterStateUpdatersTests] [testHideStateIfNotRecovered] after test
+[2020-02-16T15:21:11,279][INFO ][o.e.g.ClusterStateUpdatersTests] [testSetLocalNode] before test
+[2020-02-16T15:21:11,280][INFO ][o.e.g.ClusterStateUpdatersTests] [testSetLocalNode] after test
+[2020-02-16T15:21:11,282][INFO ][o.e.g.ClusterStateUpdatersTests] [testUpgradeTransientSettings] before test
+[2020-02-16T15:21:11,284][INFO ][o.e.g.ClusterStateUpdatersTests] [testUpgradeTransientSettings] after test
+[2020-02-16T15:21:11,286][INFO ][o.e.g.ClusterStateUpdatersTests] [testMixCurrentAndRecoveredState] before test
+[2020-02-16T15:21:11,286][INFO ][o.e.g.ClusterStateUpdatersTests] [testMixCurrentAndRecoveredState] after test
+[2020-02-16T15:21:11,291][INFO ][o.e.g.ClusterStateUpdatersTests] [testDoNotHideStateIfRecovered] before test
+[2020-02-16T15:21:11,291][INFO ][o.e.g.ClusterStateUpdatersTests] [testDoNotHideStateIfRecovered] after test
+[2020-02-16T15:21:11,293][INFO ][o.e.g.ClusterStateUpdatersTests] [testAddStateNotRecoveredBlock] before test
+[2020-02-16T15:21:11,293][INFO ][o.e.g.ClusterStateUpdatersTests] [testAddStateNotRecoveredBlock] after test
+[2020-02-16T15:21:11,295][INFO ][o.e.g.ClusterStateUpdatersTests] [testRecoverClusterBlocks] before test
+[2020-02-16T15:21:11,295][INFO ][o.e.g.ClusterStateUpdatersTests] [testRecoverClusterBlocks] after test
+[2020-02-16T15:21:11,297][INFO ][o.e.g.ClusterStateUpdatersTests] [testUpdateRoutingTable] before test
+[2020-02-16T15:21:11,297][INFO ][o.e.g.ClusterStateUpdatersTests] [testUpdateRoutingTable] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

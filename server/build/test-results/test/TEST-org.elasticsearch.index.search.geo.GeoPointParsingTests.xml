@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.search.geo.GeoPointParsingTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:18" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testInvalidPointLonHashMix" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.009"/>
+  <testcase name="testInvalidField" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.002"/>
+  <testcase name="testInvalidPointLatHashMix" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.002"/>
+  <testcase name="testParseWktInvalid" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.003"/>
+  <testcase name="testEqualsHashCodeContract" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.003"/>
+  <testcase name="testGeoPointReset" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.003"/>
+  <testcase name="testInvalidGeoHash" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.002"/>
+  <testcase name="testGeoPointParsing" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.003"/>
+  <testcase name="testInvalidPointEmbeddedObject" classname="org.elasticsearch.index.search.geo.GeoPointParsingTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:23:18,443][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidPointLonHashMix] before test
+[2020-02-16T23:23:18,449][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidPointLonHashMix] after test
+[2020-02-16T23:23:18,450][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidField] before test
+[2020-02-16T23:23:18,451][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidField] after test
+[2020-02-16T23:23:18,453][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidPointLatHashMix] before test
+[2020-02-16T23:23:18,453][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidPointLatHashMix] after test
+[2020-02-16T23:23:18,455][INFO ][o.e.i.s.g.GeoPointParsingTests] [testParseWktInvalid] before test
+[2020-02-16T23:23:18,456][INFO ][o.e.i.s.g.GeoPointParsingTests] [testParseWktInvalid] after test
+[2020-02-16T23:23:18,458][INFO ][o.e.i.s.g.GeoPointParsingTests] [testEqualsHashCodeContract] before test
+[2020-02-16T23:23:18,459][INFO ][o.e.i.s.g.GeoPointParsingTests] [testEqualsHashCodeContract] after test
+[2020-02-16T23:23:18,461][INFO ][o.e.i.s.g.GeoPointParsingTests] [testGeoPointReset] before test
+[2020-02-16T23:23:18,462][INFO ][o.e.i.s.g.GeoPointParsingTests] [testGeoPointReset] after test
+[2020-02-16T23:23:18,464][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidGeoHash] before test
+[2020-02-16T23:23:18,464][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidGeoHash] after test
+[2020-02-16T23:23:18,466][INFO ][o.e.i.s.g.GeoPointParsingTests] [testGeoPointParsing] before test
+[2020-02-16T23:23:18,467][INFO ][o.e.i.s.g.GeoPointParsingTests] [testGeoPointParsing] after test
+[2020-02-16T23:23:18,469][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidPointEmbeddedObject] before test
+[2020-02-16T23:23:18,469][INFO ][o.e.i.s.g.GeoPointParsingTests] [testInvalidPointEmbeddedObject] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

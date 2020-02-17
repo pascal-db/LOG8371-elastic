@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:12" hostname="Escoto-PC" time="0.048">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridTests" time="0.005"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridTests" time="0.008"/>
+  <testcase name="testCreateFromBuckets" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridTests" time="0.003"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridTests" time="0.012"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T13:24:12,917][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testFromXContent] before test
+[2020-02-16T13:24:12,919][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testFromXContent] after test
+[2020-02-16T13:24:12,923][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T13:24:12,925][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T13:24:12,929][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testEqualsAndHashcode] before test
+[2020-02-16T13:24:12,933][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testEqualsAndHashcode] after test
+[2020-02-16T13:24:12,936][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testCreateFromBuckets] before test
+[2020-02-16T13:24:12,936][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testCreateFromBuckets] after test
+[2020-02-16T13:24:12,939][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testReduceRandom] before test
+[2020-02-16T13:24:12,940][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testReduceRandom] after test
+[2020-02-16T13:24:12,952][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testIterators] before test
+[2020-02-16T13:24:12,953][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testIterators] after test
+[2020-02-16T13:24:12,955][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testSerialization] before test
+[2020-02-16T13:24:12,962][INFO ][o.e.s.a.b.g.GeoHashGridTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

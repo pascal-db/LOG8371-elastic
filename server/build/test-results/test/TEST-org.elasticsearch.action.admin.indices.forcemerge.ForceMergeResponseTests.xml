@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.forcemerge.ForceMergeResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:25" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testFailuresDeduplication" classname="org.elasticsearch.action.admin.indices.forcemerge.ForceMergeResponseTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.forcemerge.ForceMergeResponseTests" time="0.019"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.admin.indices.forcemerge.ForceMergeResponseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T03:50:25,396][INFO ][o.e.a.a.i.f.ForceMergeResponseTests] [testFailuresDeduplication] before test
+[2020-02-17T03:50:25,398][INFO ][o.e.a.a.i.f.ForceMergeResponseTests] [testFailuresDeduplication] after test
+[2020-02-17T03:50:25,399][INFO ][o.e.a.a.i.f.ForceMergeResponseTests] [testFromXContent] before test
+[2020-02-17T03:50:25,416][INFO ][o.e.a.a.i.f.ForceMergeResponseTests] [testFromXContent] after test
+[2020-02-17T03:50:25,419][INFO ][o.e.a.a.i.f.ForceMergeResponseTests] [testToXContent] before test
+[2020-02-17T03:50:25,419][INFO ][o.e.a.a.i.f.ForceMergeResponseTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

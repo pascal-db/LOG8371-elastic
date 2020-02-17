@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.TermsSetQueryBuilderTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:09" hostname="Escoto-PC" time="0.105">
+  <properties/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.021"/>
+  <testcase name="testDoToQuery_msmScriptField" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.015"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.005"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.008"/>
+  <testcase name="testDoToQuery" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.005"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.002"/>
+  <testcase name="testBothFieldAndScriptSpecified" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.002"/>
+  <testcase name="testFieldAlias" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.016"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.TermsSetQueryBuilderTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T18:23:09,726][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T18:23:09,728][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-16T18:23:09,728][INFO ][o.e.p.PluginsService     ] [testValidOutput] loaded plugin [org.elasticsearch.index.query.TermsSetQueryBuilderTests$CustomScriptPlugin]
+[2020-02-16T18:23:09,735][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-16T18:23:09,735][INFO ][o.e.p.PluginsService     ] [testValidOutput] loaded plugin [org.elasticsearch.index.query.TermsSetQueryBuilderTests$CustomScriptPlugin]
+[2020-02-16T18:23:09,745][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T18:23:09,747][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testDoToQuery_msmScriptField] before test
+[2020-02-16T18:23:09,761][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testDoToQuery_msmScriptField] after test
+[2020-02-16T18:23:09,764][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T18:23:09,765][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T18:23:09,767][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testSerialization] before test
+[2020-02-16T18:23:09,770][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testSerialization] after test
+[2020-02-16T18:23:09,774][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T18:23:09,774][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T18:23:09,779][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:23:09,780][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:23:09,784][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T18:23:09,788][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T18:23:09,790][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testDoToQuery] before test
+[2020-02-16T18:23:09,793][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testDoToQuery] after test
+[2020-02-16T18:23:09,795][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T18:23:09,795][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T18:23:09,797][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T18:23:09,797][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T18:23:09,798][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testBothFieldAndScriptSpecified] before test
+[2020-02-16T18:23:09,799][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testBothFieldAndScriptSpecified] after test
+[2020-02-16T18:23:09,801][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T18:23:09,801][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T18:23:09,802][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testFieldAlias] before test
+[2020-02-16T18:23:09,803][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testFieldAlias] after test
+[2020-02-16T18:23:09,809][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testToQuery] before test
+[2020-02-16T18:23:09,819][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testToQuery] after test
+[2020-02-16T18:23:09,827][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testCacheability] before test
+[2020-02-16T18:23:09,829][INFO ][o.e.i.q.TermsSetQueryBuilderTests] [testCacheability] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.SubAggCollectionModeTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:28" hostname="Escoto-PC" time="0.108">
+  <properties/>
+  <testcase name="testwriteTo" classname="org.elasticsearch.search.aggregations.SubAggCollectionModeTests" time="0.007"/>
+  <testcase name="testInvalidReadFrom" classname="org.elasticsearch.search.aggregations.SubAggCollectionModeTests" time="0.03"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.search.aggregations.SubAggCollectionModeTests" time="0.006"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.search.aggregations.SubAggCollectionModeTests" time="0.065"/>
+  <system-out><![CDATA[[2020-02-16T13:24:28,631][INFO ][o.e.s.a.SubAggCollectionModeTests] [testwriteTo] before test
+[2020-02-16T13:24:28,633][INFO ][o.e.s.a.SubAggCollectionModeTests] [testwriteTo] after test
+[2020-02-16T13:24:28,663][INFO ][o.e.s.a.SubAggCollectionModeTests] [testInvalidReadFrom] before test
+[2020-02-16T13:24:28,663][INFO ][o.e.s.a.SubAggCollectionModeTests] [testInvalidReadFrom] after test
+[2020-02-16T13:24:28,669][INFO ][o.e.s.a.SubAggCollectionModeTests] [testReadFrom] before test
+[2020-02-16T13:24:28,669][INFO ][o.e.s.a.SubAggCollectionModeTests] [testReadFrom] after test
+[2020-02-16T13:24:28,734][INFO ][o.e.s.a.SubAggCollectionModeTests] [testValidOrdinals] before test
+[2020-02-16T13:24:28,734][INFO ][o.e.s.a.SubAggCollectionModeTests] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

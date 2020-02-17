@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.BucketSelectorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:33" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.BucketSelectorTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.BucketSelectorTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.BucketSelectorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:25:33,282][INFO ][o.e.s.a.p.BucketSelectorTests] [testFromXContent] before test
+[2020-02-16T19:25:33,284][INFO ][o.e.s.a.p.BucketSelectorTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "bucket_selector" : {
+      "buckets_path" : {
+        "kyMRBS" : "TcmRy"
+      },
+      "script" : {
+        "source" : "script",
+        "lang" : "mockscript"
+      },
+      "gap_policy" : "skip"
+    }
+  }
+}
+[2020-02-16T19:25:33,284][INFO ][o.e.s.a.p.BucketSelectorTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "bucket_selector" : {
+      "buckets_path" : {
+        "kyMRBS" : "TcmRy"
+      },
+      "script" : {
+        "source" : "script",
+        "lang" : "mockscript"
+      },
+      "gap_policy" : "skip"
+    }
+  }
+}
+[2020-02-16T19:25:33,284][INFO ][o.e.s.a.p.BucketSelectorTests] [testFromXContent] after test
+[2020-02-16T19:25:33,287][INFO ][o.e.s.a.p.BucketSelectorTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:25:33,287][INFO ][o.e.s.a.p.BucketSelectorTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:25:33,290][INFO ][o.e.s.a.p.BucketSelectorTests] [testSerialization] before test
+[2020-02-16T19:25:33,290][INFO ][o.e.s.a.p.BucketSelectorTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

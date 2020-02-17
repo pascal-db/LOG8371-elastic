@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.network.InetAddressesTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="test3ff31" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.003"/>
+  <testcase name="testToAddrStringIPv4" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.003"/>
+  <testcase name="testToUriStringIPv6" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.002"/>
+  <testcase name="testToUriStringIPv4" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.002"/>
+  <testcase name="testForStringIPv4Input" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.002"/>
+  <testcase name="testForStringIPv6EightColons" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.004"/>
+  <testcase name="testForStringIPv6Input" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.003"/>
+  <testcase name="testToAddrStringIPv6" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.007"/>
+  <testcase name="testForStringBogusInput" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.005"/>
+  <testcase name="testConvertDottedQuadToHex" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.004"/>
+  <testcase name="testParseCidr" classname="org.elasticsearch.common.network.InetAddressesTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T04:20:47,775][INFO ][o.e.c.n.InetAddressesTests] [test3ff31] before test
+[2020-02-17T04:20:47,776][INFO ][o.e.c.n.InetAddressesTests] [test3ff31] after test
+[2020-02-17T04:20:47,778][INFO ][o.e.c.n.InetAddressesTests] [testToAddrStringIPv4] before test
+[2020-02-17T04:20:47,779][INFO ][o.e.c.n.InetAddressesTests] [testToAddrStringIPv4] after test
+[2020-02-17T04:20:47,780][INFO ][o.e.c.n.InetAddressesTests] [testToUriStringIPv6] before test
+[2020-02-17T04:20:47,781][INFO ][o.e.c.n.InetAddressesTests] [testToUriStringIPv6] after test
+[2020-02-17T04:20:47,782][INFO ][o.e.c.n.InetAddressesTests] [testToUriStringIPv4] before test
+[2020-02-17T04:20:47,783][INFO ][o.e.c.n.InetAddressesTests] [testToUriStringIPv4] after test
+[2020-02-17T04:20:47,785][INFO ][o.e.c.n.InetAddressesTests] [testForStringIPv4Input] before test
+[2020-02-17T04:20:47,785][INFO ][o.e.c.n.InetAddressesTests] [testForStringIPv4Input] after test
+[2020-02-17T04:20:47,788][INFO ][o.e.c.n.InetAddressesTests] [testForStringIPv6EightColons] before test
+[2020-02-17T04:20:47,789][INFO ][o.e.c.n.InetAddressesTests] [testForStringIPv6EightColons] after test
+[2020-02-17T04:20:47,792][INFO ][o.e.c.n.InetAddressesTests] [testForStringIPv6Input] before test
+[2020-02-17T04:20:47,792][INFO ][o.e.c.n.InetAddressesTests] [testForStringIPv6Input] after test
+[2020-02-17T04:20:47,798][INFO ][o.e.c.n.InetAddressesTests] [testToAddrStringIPv6] before test
+[2020-02-17T04:20:47,799][INFO ][o.e.c.n.InetAddressesTests] [testToAddrStringIPv6] after test
+[2020-02-17T04:20:47,803][INFO ][o.e.c.n.InetAddressesTests] [testForStringBogusInput] before test
+[2020-02-17T04:20:47,804][INFO ][o.e.c.n.InetAddressesTests] [testForStringBogusInput] after test
+[2020-02-17T04:20:47,807][INFO ][o.e.c.n.InetAddressesTests] [testConvertDottedQuadToHex] before test
+[2020-02-17T04:20:47,808][INFO ][o.e.c.n.InetAddressesTests] [testConvertDottedQuadToHex] after test
+[2020-02-17T04:20:47,810][INFO ][o.e.c.n.InetAddressesTests] [testParseCidr] before test
+[2020-02-17T04:20:47,811][INFO ][o.e.c.n.InetAddressesTests] [testParseCidr] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.CumulativeSumTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:27" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T15:24:27,987][INFO ][o.e.s.a.p.CumulativeSumTests] [testFromXContent] before test
+[2020-02-16T15:24:27,987][INFO ][o.e.s.a.p.CumulativeSumTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "cumulative_sum" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn"
+    }
+  }
+}
+[2020-02-16T15:24:27,987][INFO ][o.e.s.a.p.CumulativeSumTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "cumulative_sum" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn"
+    }
+  }
+}
+[2020-02-16T15:24:27,988][INFO ][o.e.s.a.p.CumulativeSumTests] [testFromXContent] after test
+[2020-02-16T15:24:27,990][INFO ][o.e.s.a.p.CumulativeSumTests] [testEqualsAndHashcode] before test
+[2020-02-16T15:24:27,990][INFO ][o.e.s.a.p.CumulativeSumTests] [testEqualsAndHashcode] after test
+[2020-02-16T15:24:27,995][INFO ][o.e.s.a.p.CumulativeSumTests] [testSerialization] before test
+[2020-02-16T15:24:27,995][INFO ][o.e.s.a.p.CumulativeSumTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

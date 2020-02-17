@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.LagDetectorTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:31" hostname="Escoto-PC" time="0.081">
+  <properties/>
+  <testcase name="testDetectorKeepsTrackingExistingNodesEvenIfNewOnesAdded" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.007"/>
+  <testcase name="testDetectorIgnoresApplicationsFromUnknownNodes" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.003"/>
+  <testcase name="testNoLagDetectedOnLocalNode" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.006"/>
+  <testcase name="testNoLagDetectedIfNodeAppliesLaterVersionAfterLagDetectorStarted" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.002"/>
+  <testcase name="testNoLagDetectedIfNodeAppliesVersionJustBeforeTimeout" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.003"/>
+  <testcase name="testLagDetection" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.011"/>
+  <testcase name="testDetectorIgnoresNodesAddedAfterStarted" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.015"/>
+  <testcase name="testLagDetectedIfNodeAppliesVersionJustAfterTimeout" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.005"/>
+  <testcase name="testLagDetectedIfNodeAppliesEarlierVersionAfterLagDetectorStarted" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.005"/>
+  <testcase name="testLagDetectorNotStartedIfNodeHasAlreadyAppliedVersion" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.003"/>
+  <testcase name="testNoLagDetectedIfNodeIsRemovedAfterLagDetectorStarted" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.003"/>
+  <testcase name="testNoLagDetectedIfDetectorIsClearedAfterLagDetectorStarted" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.006"/>
+  <testcase name="testNoLagDetectedIfNodeAppliesVersionAfterLagDetectorStarted" classname="org.elasticsearch.cluster.coordination.LagDetectorTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T15:21:31,633][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorKeepsTrackingExistingNodesEvenIfNewOnesAdded] before test
+[2020-02-16T15:21:31,636][WARN ][o.e.c.c.LagDetector      ] [testDetectorKeepsTrackingExistingNodesEvenIfNewOnesAdded] node [{node1}{g7KgHAAAQACoVVBiAAAAAA}{0.0.0.0}{0.0.0.0:2}{dim}] is lagging at cluster state version [0], although publication of cluster state version [1] completed [1.5m] ago
+[2020-02-16T15:21:31,636][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorKeepsTrackingExistingNodesEvenIfNewOnesAdded] after test
+[2020-02-16T15:21:31,639][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorIgnoresApplicationsFromUnknownNodes] before test
+[2020-02-16T15:21:31,640][WARN ][o.e.c.c.LagDetector      ] [testDetectorIgnoresApplicationsFromUnknownNodes] node [{node1}{LQ4w9f__T_-j4wNRAAAAAA}{0.0.0.0}{0.0.0.0:5}{dim}] is lagging at cluster state version [0], although publication of cluster state version [1] completed [34.1s] ago
+[2020-02-16T15:21:31,640][WARN ][o.e.c.c.LagDetector      ] [testDetectorIgnoresApplicationsFromUnknownNodes] node [{node1}{LQ4w9f__T_-j4wNRAAAAAA}{0.0.0.0}{0.0.0.0:5}{dim}] is lagging at cluster state version [0], although publication of cluster state version [2] completed [34.1s] ago
+[2020-02-16T15:21:31,640][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorIgnoresApplicationsFromUnknownNodes] after test
+[2020-02-16T15:21:31,645][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedOnLocalNode] before test
+[2020-02-16T15:21:31,646][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedOnLocalNode] after test
+[2020-02-16T15:21:31,648][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesLaterVersionAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,649][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesLaterVersionAfterLagDetectorStarted] after test
+[2020-02-16T15:21:31,652][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesVersionJustBeforeTimeout] before test
+[2020-02-16T15:21:31,653][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesVersionJustBeforeTimeout] after test
+[2020-02-16T15:21:31,662][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetection] before test
+[2020-02-16T15:21:31,663][WARN ][o.e.c.c.LagDetector      ] [testLagDetection] node [{node1}{gIQCpf__T_-DrKul_____w}{0.0.0.0}{0.0.0.0:17}{dim}] is lagging at cluster state version [3], although publication of cluster state version [4] completed [1.5m] ago
+[2020-02-16T15:21:31,663][WARN ][o.e.c.c.LagDetector      ] [testLagDetection] node [{node1}{gIQCpf__T_-DrKul_____w}{0.0.0.0}{0.0.0.0:17}{dim}] is lagging at cluster state version [0], although publication of cluster state version [6] completed [1.5m] ago
+[2020-02-16T15:21:31,663][WARN ][o.e.c.c.LagDetector      ] [testLagDetection] node [{node2}{UK0f1f__T_-BxFHQ_____w}{0.0.0.0}{0.0.0.0:18}{dim}] is lagging at cluster state version [7], although publication of cluster state version [8] completed [1.5m] ago
+[2020-02-16T15:21:31,663][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetection] after test
+[2020-02-16T15:21:31,675][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorIgnoresNodesAddedAfterStarted] before test
+[2020-02-16T15:21:31,679][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorIgnoresNodesAddedAfterStarted] after test
+[2020-02-16T15:21:31,681][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectedIfNodeAppliesVersionJustAfterTimeout] before test
+[2020-02-16T15:21:31,684][WARN ][o.e.c.c.LagDetector      ] [testLagDetectedIfNodeAppliesVersionJustAfterTimeout] node [{node1}{cZ-3ZwAAQACXuSOY_____w}{0.0.0.0}{0.0.0.0:23}{dim}] is lagging at cluster state version [0], although publication of cluster state version [1] completed [1.5m] ago
+[2020-02-16T15:21:31,684][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectedIfNodeAppliesVersionJustAfterTimeout] after test
+[2020-02-16T15:21:31,689][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectedIfNodeAppliesEarlierVersionAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,690][WARN ][o.e.c.c.LagDetector      ] [testLagDetectedIfNodeAppliesEarlierVersionAfterLagDetectorStarted] node [{node1}{JxCDhf__T_-gOVcoAAAAAA}{0.0.0.0}{0.0.0.0:26}{dim}] is lagging at cluster state version [1], although publication of cluster state version [2] completed [58.1s] ago
+[2020-02-16T15:21:31,690][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectedIfNodeAppliesEarlierVersionAfterLagDetectorStarted] after test
+[2020-02-16T15:21:31,693][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectorNotStartedIfNodeHasAlreadyAppliedVersion] before test
+[2020-02-16T15:21:31,694][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectorNotStartedIfNodeHasAlreadyAppliedVersion] after test
+[2020-02-16T15:21:31,696][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeIsRemovedAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,697][WARN ][o.e.c.c.LagDetector      ] [testNoLagDetectedIfNodeIsRemovedAfterLagDetectorStarted] node [{node2}{ds-VCgAAQACnbxcOAAAAAA}{0.0.0.0}{0.0.0.0:33}{dim}] is lagging at cluster state version [0], although publication of cluster state version [2] completed [1.5m] ago
+[2020-02-16T15:21:31,697][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeIsRemovedAfterLagDetectorStarted] after test
+[2020-02-16T15:21:31,702][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfDetectorIsClearedAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,703][WARN ][o.e.c.c.LagDetector      ] [testNoLagDetectedIfDetectorIsClearedAfterLagDetectorStarted] node [{node1}{FO2K4v__T_-vxHm0_____w}{0.0.0.0}{0.0.0.0:35}{dim}] is lagging at cluster state version [0], although publication of cluster state version [2] completed [39s] ago
+[2020-02-16T15:21:31,703][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfDetectorIsClearedAfterLagDetectorStarted] after test
+[2020-02-16T15:21:31,710][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesVersionAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,710][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesVersionAfterLagDetectorStarted] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

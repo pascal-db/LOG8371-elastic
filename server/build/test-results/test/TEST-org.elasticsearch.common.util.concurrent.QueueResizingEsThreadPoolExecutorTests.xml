@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:59" hostname="Escoto-PC" time="0.154">
+  <properties/>
+  <testcase name="testAutoQueueSizingWithMax" classname="org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutorTests" time="0.007"/>
+  <testcase name="testAutoQueueSizingWithMin" classname="org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutorTests" time="0.024"/>
+  <testcase name="testAutoQueueSizingDown" classname="org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutorTests" time="0.031"/>
+  <testcase name="testExactWindowSizeAdjustment" classname="org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutorTests" time="0.038"/>
+  <testcase name="testExceptionThrowingTask" classname="org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutorTests" time="0.007"/>
+  <testcase name="testExecutionEWMACalculation" classname="org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutorTests" time="0.04"/>
+  <testcase name="testAutoQueueSizingUp" classname="org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutorTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T01:21:59,755][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMax] before test
+[2020-02-17T01:21:59,756][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMax] --> auto-queue with a measurement window of 53 tasks
+[2020-02-17T01:21:59,757][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMax] --> executor: QueueResizingEsThreadPoolExecutor[name = test-threadpool, queue capacity = 5000, min queue capacity = 10, max queue capacity = 5015, frame size = 53, targeted response rate = 1ms, task execution EWMA = 0s, adjustment amount = 50, org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutor@7535a4a6[Running, pool size = 2, active threads = 1, queued tasks = 0, completed tasks = 0]]
+[2020-02-17T01:21:59,757][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMax] --> executing a task [159] times
+[2020-02-17T01:21:59,760][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMax] after test
+[2020-02-17T01:21:59,762][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMin] before test
+[2020-02-17T01:21:59,763][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMin] --> auto-queue with a measurement window of 83 tasks
+[2020-02-17T01:21:59,763][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMin] --> executor: QueueResizingEsThreadPoolExecutor[name = test-threadpool, queue capacity = 5000, min queue capacity = 4986, max queue capacity = 100000, frame size = 83, targeted response rate = 1ms, task execution EWMA = 0s, adjustment amount = 50, org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutor@2f5f1e94[Running, pool size = 4, active threads = 4, queued tasks = 0, completed tasks = 0]]
+[2020-02-17T01:21:59,763][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMin] --> executing a task [415] times
+[2020-02-17T01:21:59,784][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingWithMin] after test
+[2020-02-17T01:21:59,788][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingDown] before test
+[2020-02-17T01:21:59,788][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingDown] --> auto-queue with a measurement window of 112 tasks
+[2020-02-17T01:21:59,800][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingDown] --> executor: QueueResizingEsThreadPoolExecutor[name = test-threadpool, queue capacity = 2000, min queue capacity = 10, max queue capacity = 3000, frame size = 112, targeted response rate = 1ms, task execution EWMA = 0s, adjustment amount = 50, org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutor@2e4c847a[Running, pool size = 6, active threads = 3, queued tasks = 0, completed tasks = 0]]
+[2020-02-17T01:21:59,800][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingDown] --> executing a task [562] times
+[2020-02-17T01:21:59,814][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingDown] after test
+[2020-02-17T01:21:59,831][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExactWindowSizeAdjustment] before test
+[2020-02-17T01:21:59,831][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExactWindowSizeAdjustment] --> auto-queue with a measurement window of 3 tasks
+[2020-02-17T01:21:59,836][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExactWindowSizeAdjustment] --> executor: QueueResizingEsThreadPoolExecutor[name = test-threadpool, queue capacity = 100, min queue capacity = 10, max queue capacity = 1000, frame size = 3, targeted response rate = 1ms, task execution EWMA = 0s, adjustment amount = 50, org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutor@23da84b1[Running, pool size = 3, active threads = 2, queued tasks = 0, completed tasks = 0]]
+[2020-02-17T01:21:59,852][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExactWindowSizeAdjustment] after test
+[2020-02-17T01:21:59,858][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExceptionThrowingTask] before test
+[2020-02-17T01:21:59,858][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExceptionThrowingTask] --> executor: QueueResizingEsThreadPoolExecutor[name = test-threadpool, queue capacity = 100, min queue capacity = 10, max queue capacity = 200, frame size = 10, targeted response rate = 1ms, task execution EWMA = 0s, adjustment amount = 50, org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutor@5a1be8cf[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]]
+[2020-02-17T01:21:59,859][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExceptionThrowingTask] --> executing a task [1] times
+[2020-02-17T01:21:59,860][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExceptionThrowingTask] after test
+[2020-02-17T01:21:59,865][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExecutionEWMACalculation] before test
+[2020-02-17T01:21:59,865][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExecutionEWMACalculation] --> executor: QueueResizingEsThreadPoolExecutor[name = test-threadpool, queue capacity = 100, min queue capacity = 10, max queue capacity = 200, frame size = 10, targeted response rate = 1ms, task execution EWMA = 0s, adjustment amount = 50, org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutor@5883b143[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]]
+[2020-02-17T01:21:59,865][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExecutionEWMACalculation] --> executing a task [1] times
+[2020-02-17T01:21:59,896][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExecutionEWMACalculation] --> executing a task [1] times
+[2020-02-17T01:21:59,897][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExecutionEWMACalculation] --> executing a task [1] times
+[2020-02-17T01:21:59,898][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExecutionEWMACalculation] --> executing a task [1] times
+[2020-02-17T01:21:59,899][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExecutionEWMACalculation] --> executing a task [1] times
+[2020-02-17T01:21:59,900][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testExecutionEWMACalculation] after test
+[2020-02-17T01:21:59,902][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingUp] before test
+[2020-02-17T01:21:59,902][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingUp] --> auto-queue with a measurement window of 108 tasks
+[2020-02-17T01:21:59,902][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingUp] --> executor: QueueResizingEsThreadPoolExecutor[name = test-threadpool, queue capacity = 2000, min queue capacity = 10, max queue capacity = 3000, frame size = 108, targeted response rate = 1ms, task execution EWMA = 0s, adjustment amount = 50, org.elasticsearch.common.util.concurrent.QueueResizingEsThreadPoolExecutor@28666c1e[Running, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]]
+[2020-02-17T01:21:59,902][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingUp] --> executing a task [542] times
+[2020-02-17T01:21:59,907][INFO ][o.e.c.u.c.QueueResizingEsThreadPoolExecutorTests] [testAutoQueueSizingUp] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

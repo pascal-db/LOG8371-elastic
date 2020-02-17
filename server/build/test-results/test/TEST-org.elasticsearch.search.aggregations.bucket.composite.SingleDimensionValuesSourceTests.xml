@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.composite.SingleDimensionValuesSourceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:19" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testGlobalOrdinalsSorted" classname="org.elasticsearch.search.aggregations.bucket.composite.SingleDimensionValuesSourceTests" time="0.009"/>
+  <testcase name="testBinarySorted" classname="org.elasticsearch.search.aggregations.bucket.composite.SingleDimensionValuesSourceTests" time="0.005"/>
+  <testcase name="testNumericSorted" classname="org.elasticsearch.search.aggregations.bucket.composite.SingleDimensionValuesSourceTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T01:25:19,981][INFO ][o.e.s.a.b.c.SingleDimensionValuesSourceTests] [testGlobalOrdinalsSorted] before test
+[2020-02-17T01:25:19,988][INFO ][o.e.s.a.b.c.SingleDimensionValuesSourceTests] [testGlobalOrdinalsSorted] after test
+[2020-02-17T01:25:19,991][INFO ][o.e.s.a.b.c.SingleDimensionValuesSourceTests] [testBinarySorted] before test
+[2020-02-17T01:25:19,993][INFO ][o.e.s.a.b.c.SingleDimensionValuesSourceTests] [testBinarySorted] after test
+[2020-02-17T01:25:19,995][INFO ][o.e.s.a.b.c.SingleDimensionValuesSourceTests] [testNumericSorted] before test
+[2020-02-17T01:25:19,999][INFO ][o.e.s.a.b.c.SingleDimensionValuesSourceTests] [testNumericSorted] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

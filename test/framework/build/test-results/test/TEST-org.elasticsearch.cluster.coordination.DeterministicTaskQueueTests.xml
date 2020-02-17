@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:47" hostname="Escoto-PC" time="0.966">
+  <properties/>
+  <testcase name="testStartsAtTimeZero" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.814"/>
+  <testcase name="testDoesNotDeferTasksScheduledInThePast" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.011"/>
+  <testcase name="testThreadPoolWrapsRunnable" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.031"/>
+  <testcase name="testDelayVariabilityAppliesToImmediateTasks" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.008"/>
+  <testcase name="testExecutorServiceWrapsRunnable" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.006"/>
+  <testcase name="testExecutorServiceEnqueuesTasks" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.005"/>
+  <testcase name="testThreadPoolSchedulesPeriodicFutureTasks" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.021"/>
+  <testcase name="testDoesNotDeferTasksForImmediateExecution" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.006"/>
+  <testcase name="testRunInTimeOrder" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.004"/>
+  <testcase name="testRunRandomTaskVariesOrder" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.011"/>
+  <testcase name="testThreadPoolSchedulesFutureTasks" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.013"/>
+  <testcase name="testRunRandomTask" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.006"/>
+  <testcase name="testExecutesTasksInTimeOrder" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.004"/>
+  <testcase name="testDefersTasksWithPositiveDelays" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.006"/>
+  <testcase name="testThreadPoolEnqueuesTasks" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.007"/>
+  <testcase name="testDelayVariabilityAppliesToFutureTasks" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.009"/>
+  <testcase name="testKeepsFutureTasksDeferred" classname="org.elasticsearch.cluster.coordination.DeterministicTaskQueueTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T22:48:47,574][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testStartsAtTimeZero] before test
+[2020-02-16T22:48:48,268][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testStartsAtTimeZero] after test
+[2020-02-16T22:48:48,285][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDoesNotDeferTasksScheduledInThePast] before test
+[2020-02-16T22:48:48,288][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDoesNotDeferTasksScheduledInThePast] after test
+[2020-02-16T22:48:48,293][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolWrapsRunnable] before test
+[2020-02-16T22:48:48,319][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolWrapsRunnable] runnable executed
+[2020-02-16T22:48:48,320][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolWrapsRunnable] after test
+[2020-02-16T22:48:48,324][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDelayVariabilityAppliesToImmediateTasks] before test
+[2020-02-16T22:48:48,327][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDelayVariabilityAppliesToImmediateTasks] after test
+[2020-02-16T22:48:48,332][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceWrapsRunnable] before test
+[2020-02-16T22:48:48,333][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceWrapsRunnable] runnable executed
+[2020-02-16T22:48:48,333][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceWrapsRunnable] after test
+[2020-02-16T22:48:48,336][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceEnqueuesTasks] before test
+[2020-02-16T22:48:48,338][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutorServiceEnqueuesTasks] after test
+[2020-02-16T22:48:48,344][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolSchedulesPeriodicFutureTasks] before test
+[2020-02-16T22:48:48,359][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolSchedulesPeriodicFutureTasks] after test
+[2020-02-16T22:48:48,364][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDoesNotDeferTasksForImmediateExecution] before test
+[2020-02-16T22:48:48,365][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDoesNotDeferTasksForImmediateExecution] after test
+[2020-02-16T22:48:48,368][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunInTimeOrder] before test
+[2020-02-16T22:48:48,369][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunInTimeOrder] after test
+[2020-02-16T22:48:48,378][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunRandomTaskVariesOrder] before test
+[2020-02-16T22:48:48,380][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunRandomTaskVariesOrder] after test
+[2020-02-16T22:48:48,383][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolSchedulesFutureTasks] before test
+[2020-02-16T22:48:48,393][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolSchedulesFutureTasks] after test
+[2020-02-16T22:48:48,398][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunRandomTask] before test
+[2020-02-16T22:48:48,400][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testRunRandomTask] after test
+[2020-02-16T22:48:48,402][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutesTasksInTimeOrder] before test
+[2020-02-16T22:48:48,403][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testExecutesTasksInTimeOrder] after test
+[2020-02-16T22:48:48,409][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDefersTasksWithPositiveDelays] before test
+[2020-02-16T22:48:48,409][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDefersTasksWithPositiveDelays] after test
+[2020-02-16T22:48:48,413][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolEnqueuesTasks] before test
+[2020-02-16T22:48:48,416][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testThreadPoolEnqueuesTasks] after test
+[2020-02-16T22:48:48,421][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDelayVariabilityAppliesToFutureTasks] before test
+[2020-02-16T22:48:48,425][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testDelayVariabilityAppliesToFutureTasks] after test
+[2020-02-16T22:48:48,428][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testKeepsFutureTasksDeferred] before test
+[2020-02-16T22:48:48,429][INFO ][o.e.c.c.DeterministicTaskQueueTests] [testKeepsFutureTasksDeferred] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

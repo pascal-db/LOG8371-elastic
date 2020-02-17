@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.CorruptionUtilsTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:51" hostname="Escoto-PC" time="1.136">
+  <properties/>
+  <testcase name="testLuceneCheckIndexIgnoresLast4Bytes" classname="org.elasticsearch.test.CorruptionUtilsTests" time="1.136"/>
+  <system-out><![CDATA[[2020-02-16T15:48:51,351][INFO ][o.e.t.CorruptionUtilsTests] [testLuceneCheckIndexIgnoresLast4Bytes] before test
+[2020-02-16T15:48:52,468][INFO ][o.e.t.CorruptionUtils    ] [testLuceneCheckIndexIgnoresLast4Bytes] Corrupting file --  flipping at position 2636 from 9 to a file: _0.cfs
+[2020-02-16T15:48:52,475][INFO ][o.e.t.CorruptionUtilsTests] [testLuceneCheckIndexIgnoresLast4Bytes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

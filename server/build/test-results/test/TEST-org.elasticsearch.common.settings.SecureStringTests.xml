@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.settings.SecureStringTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:54" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testGetCloseableCharsAfterSecureStringClosed" classname="org.elasticsearch.common.settings.SecureStringTests" time="0.005"/>
+  <testcase name="testCloseableCharsDoesNotModifySecureString" classname="org.elasticsearch.common.settings.SecureStringTests" time="0.002"/>
+  <testcase name="testClosingChars" classname="org.elasticsearch.common.settings.SecureStringTests" time="0.005"/>
+  <testcase name="testClosingSecureStringDoesNotModifyCloseableChars" classname="org.elasticsearch.common.settings.SecureStringTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T12:21:54,330][INFO ][o.e.c.s.SecureStringTests] [testGetCloseableCharsAfterSecureStringClosed] before test
+[2020-02-17T12:21:54,333][INFO ][o.e.c.s.SecureStringTests] [testGetCloseableCharsAfterSecureStringClosed] after test
+[2020-02-17T12:21:54,335][INFO ][o.e.c.s.SecureStringTests] [testCloseableCharsDoesNotModifySecureString] before test
+[2020-02-17T12:21:54,335][INFO ][o.e.c.s.SecureStringTests] [testCloseableCharsDoesNotModifySecureString] after test
+[2020-02-17T12:21:54,339][INFO ][o.e.c.s.SecureStringTests] [testClosingChars] before test
+[2020-02-17T12:21:54,340][INFO ][o.e.c.s.SecureStringTests] [testClosingChars] after test
+[2020-02-17T12:21:54,341][INFO ][o.e.c.s.SecureStringTests] [testClosingSecureStringDoesNotModifyCloseableChars] before test
+[2020-02-17T12:21:54,341][INFO ][o.e.c.s.SecureStringTests] [testClosingSecureStringDoesNotModifyCloseableChars] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

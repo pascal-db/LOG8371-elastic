@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.IngestStatsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:00" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testReadLegacyStream" classname="org.elasticsearch.ingest.IngestStatsTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.ingest.IngestStatsTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T22:24:00,536][INFO ][o.e.i.IngestStatsTests   ] [testReadLegacyStream] before test
+[2020-02-16T22:24:00,537][INFO ][o.e.i.IngestStatsTests   ] [testReadLegacyStream] after test
+[2020-02-16T22:24:00,544][INFO ][o.e.i.IngestStatsTests   ] [testSerialization] before test
+[2020-02-16T22:24:00,544][INFO ][o.e.i.IngestStatsTests   ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

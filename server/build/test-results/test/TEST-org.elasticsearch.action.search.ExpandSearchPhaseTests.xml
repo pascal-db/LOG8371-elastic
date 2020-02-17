@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.ExpandSearchPhaseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.081">
+  <properties/>
+  <testcase name="testExpandRequestOptions" classname="org.elasticsearch.action.search.ExpandSearchPhaseTests" time="0.02"/>
+  <testcase name="testSkipExpandCollapseNoHits" classname="org.elasticsearch.action.search.ExpandSearchPhaseTests" time="0.027"/>
+  <testcase name="testSkipPhase" classname="org.elasticsearch.action.search.ExpandSearchPhaseTests" time="0.011"/>
+  <testcase name="testCollapseSingleHit" classname="org.elasticsearch.action.search.ExpandSearchPhaseTests" time="0.014"/>
+  <testcase name="testFailOneItemFailsEntirePhase" classname="org.elasticsearch.action.search.ExpandSearchPhaseTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T12:20:38,175][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testExpandRequestOptions] before test
+[2020-02-17T12:20:38,187][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testExpandRequestOptions] after test
+[2020-02-17T12:20:38,213][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testSkipExpandCollapseNoHits] before test
+[2020-02-17T12:20:38,214][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testSkipExpandCollapseNoHits] after test
+[2020-02-17T12:20:38,217][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testSkipPhase] before test
+[2020-02-17T12:20:38,225][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testSkipPhase] after test
+[2020-02-17T12:20:38,234][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testCollapseSingleHit] before test
+[2020-02-17T12:20:38,240][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testCollapseSingleHit] after test
+[2020-02-17T12:20:38,247][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testFailOneItemFailsEntirePhase] before test
+[2020-02-17T12:20:38,248][INFO ][o.e.a.s.ExpandSearchPhaseTests] [testFailOneItemFailsEntirePhase] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

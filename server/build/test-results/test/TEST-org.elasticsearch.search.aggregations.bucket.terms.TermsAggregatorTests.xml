@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:22" hostname="Escoto-PC" time="0.492">
+  <properties/>
+  <testcase name="testEmpty" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.012"/>
+  <testcase name="testUnmappedWithMissing" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.035"/>
+  <testcase name="testIpTermsAggregator" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.029"/>
+  <testcase name="testWithNestedAggregations" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.081"/>
+  <testcase name="testMixLongAndDouble" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.044"/>
+  <testcase name="testOrderByPipelineAggregation" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.054"/>
+  <testcase name="testLongTermsAggregator" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.029"/>
+  <testcase name="testRangeField" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.011"/>
+  <testcase name="testStringTermsAggregator" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.027"/>
+  <testcase name="testNestedTermsAgg" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.015"/>
+  <testcase name="testGeoPointField" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.01"/>
+  <testcase name="testIpField" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.007"/>
+  <testcase name="testGlobalAggregationWithScore" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.012"/>
+  <testcase name="testNumericIncludeExclude" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.017"/>
+  <testcase name="testDoubleTermsAggregator" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.054"/>
+  <testcase name="testUnmapped" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.007"/>
+  <testcase name="testGlobalOrdinalsExecutionHint" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.012"/>
+  <testcase name="testSimple" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.016"/>
+  <testcase name="testStringIncludeExclude" classname="org.elasticsearch.search.aggregations.bucket.terms.TermsAggregatorTests" time="0.018"/>
+  <system-out><![CDATA[[2020-02-17T06:24:22,374][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testEmpty] before test
+[2020-02-17T06:24:22,383][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testEmpty] after test
+[2020-02-17T06:24:22,400][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testUnmappedWithMissing] before test
+[2020-02-17T06:24:22,419][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testUnmappedWithMissing] after test
+[2020-02-17T06:24:22,422][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testIpTermsAggregator] before test
+[2020-02-17T06:24:22,439][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testIpTermsAggregator] bucket_order={"_key":"desc"} size=48 execution_hint=map
+[2020-02-17T06:24:22,447][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testIpTermsAggregator] after test
+[2020-02-17T06:24:22,449][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testWithNestedAggregations] before test
+[2020-02-17T06:24:22,528][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testWithNestedAggregations] after test
+[2020-02-17T06:24:22,546][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testMixLongAndDouble] before test
+[2020-02-17T06:24:22,573][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testMixLongAndDouble] after test
+[2020-02-17T06:24:22,622][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testOrderByPipelineAggregation] before test
+[2020-02-17T06:24:22,627][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testOrderByPipelineAggregation] after test
+[2020-02-17T06:24:22,632][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testLongTermsAggregator] before test
+[2020-02-17T06:24:22,642][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testLongTermsAggregator] bucket_order={"_key":"desc"} size=3 execution_hint=global_ordinals
+[2020-02-17T06:24:22,652][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testLongTermsAggregator] bucket_order={"_max":"desc"} size=2 execution_hint=global_ordinals, collect_mode=BREADTH_FIRST
+[2020-02-17T06:24:22,656][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testLongTermsAggregator] after test
+[2020-02-17T06:24:22,662][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testRangeField] before test
+[2020-02-17T06:24:22,667][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testRangeField] after test
+[2020-02-17T06:24:22,670][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testStringTermsAggregator] before test
+[2020-02-17T06:24:22,683][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testStringTermsAggregator] bucket_order={"_key":"desc"} size=9 execution_hint=map
+[2020-02-17T06:24:22,690][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testStringTermsAggregator] bucket_order={"_max":"asc"} size=19 execution_hint=global_ordinals, collect_mode=BREADTH_FIRST
+[2020-02-17T06:24:22,694][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testStringTermsAggregator] after test
+[2020-02-17T06:24:22,701][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testNestedTermsAgg] before test
+[2020-02-17T06:24:22,709][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testNestedTermsAgg] after test
+[2020-02-17T06:24:22,714][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testGeoPointField] before test
+[2020-02-17T06:24:22,720][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testGeoPointField] after test
+[2020-02-17T06:24:22,721][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testIpField] before test
+[2020-02-17T06:24:22,726][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testIpField] after test
+[2020-02-17T06:24:22,728][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testGlobalAggregationWithScore] before test
+[2020-02-17T06:24:22,738][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testGlobalAggregationWithScore] after test
+[2020-02-17T06:24:22,740][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testNumericIncludeExclude] before test
+[2020-02-17T06:24:22,756][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testNumericIncludeExclude] after test
+[2020-02-17T06:24:22,791][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testDoubleTermsAggregator] before test
+[2020-02-17T06:24:22,798][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testDoubleTermsAggregator] bucket_order=[{"_count":"desc"},{"_key":"desc"}] size=13 execution_hint=global_ordinals
+[2020-02-17T06:24:22,807][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testDoubleTermsAggregator] bucket_order={"_max":"desc"} size=1 execution_hint=global_ordinals, collect_mode=DEPTH_FIRST
+[2020-02-17T06:24:22,810][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testDoubleTermsAggregator] after test
+[2020-02-17T06:24:22,812][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testUnmapped] before test
+[2020-02-17T06:24:22,818][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testUnmapped] after test
+[2020-02-17T06:24:22,820][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testGlobalOrdinalsExecutionHint] before test
+[2020-02-17T06:24:22,829][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testGlobalOrdinalsExecutionHint] after test
+[2020-02-17T06:24:22,831][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testSimple] before test
+[2020-02-17T06:24:22,845][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testSimple] after test
+[2020-02-17T06:24:22,847][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testStringIncludeExclude] before test
+[2020-02-17T06:24:22,864][INFO ][o.e.s.a.b.t.TermsAggregatorTests] [testStringIncludeExclude] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

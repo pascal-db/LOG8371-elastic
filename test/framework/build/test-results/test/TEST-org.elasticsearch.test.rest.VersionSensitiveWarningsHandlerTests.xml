@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.VersionSensitiveWarningsHandlerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:50" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testMixedVersionCluster" classname="org.elasticsearch.test.rest.VersionSensitiveWarningsHandlerTests" time="0.009"/>
+  <testcase name="testSameVersionCluster" classname="org.elasticsearch.test.rest.VersionSensitiveWarningsHandlerTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T16:48:50,722][INFO ][o.e.t.r.VersionSensitiveWarningsHandlerTests] [testMixedVersionCluster] before test
+[2020-02-16T16:48:50,726][INFO ][o.e.t.r.VersionSensitiveWarningsHandlerTests] [testMixedVersionCluster] after test
+[2020-02-16T16:48:50,729][INFO ][o.e.t.r.VersionSensitiveWarningsHandlerTests] [testSameVersionCluster] before test
+[2020-02-16T16:48:50,730][INFO ][o.e.t.r.VersionSensitiveWarningsHandlerTests] [testSameVersionCluster] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

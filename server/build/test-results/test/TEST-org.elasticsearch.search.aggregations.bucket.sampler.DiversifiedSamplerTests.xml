@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedSamplerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.104">
+  <properties/>
+  <testcase name="testDiversifiedSampler_noDocs" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedSamplerTests" time="0.013"/>
+  <testcase name="testDiversifiedSampler" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedSamplerTests" time="0.057"/>
+  <testcase name="testRidiculousSize" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedSamplerTests" time="0.033"/>
+  <system-out><![CDATA[[2020-02-17T01:24:21,623][INFO ][o.e.s.a.b.s.DiversifiedSamplerTests] [testDiversifiedSampler_noDocs] before test
+[2020-02-17T01:24:21,634][INFO ][o.e.s.a.b.s.DiversifiedSamplerTests] [testDiversifiedSampler_noDocs] after test
+[2020-02-17T01:24:21,636][INFO ][o.e.s.a.b.s.DiversifiedSamplerTests] [testDiversifiedSampler] before test
+[2020-02-17T01:24:21,691][INFO ][o.e.s.a.b.s.DiversifiedSamplerTests] [testDiversifiedSampler] after test
+[2020-02-17T01:24:21,699][INFO ][o.e.s.a.b.s.DiversifiedSamplerTests] [testRidiculousSize] before test
+[2020-02-17T01:24:21,725][INFO ][o.e.s.a.b.s.DiversifiedSamplerTests] [testRidiculousSize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

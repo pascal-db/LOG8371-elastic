@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.search.SearchServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.search.SearchServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.search.html">org.elasticsearch.search</a> &gt; SearchServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">17</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">14.741s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCanMatch</td>
+<td class="success">0.597s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCanRewriteToMatchNone</td>
+<td class="success">0.605s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClearIndexDelete</td>
+<td class="success">0.716s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClearOnClose</td>
+<td class="success">0.687s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClearOnStop</td>
+<td class="success">0.681s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseSearchContextOnRewriteException</td>
+<td class="success">0.673s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateReduceContext</td>
+<td class="success">0.543s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateSearchContext</td>
+<td class="success">0.593s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCreateSearchContextFailure</td>
+<td class="success">0.655s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExpandSearchThrottled</td>
+<td class="success">0.660s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIgnoreScriptfieldIfSizeZero</td>
+<td class="success">0.647s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaxDocvalueFieldsSearch</td>
+<td class="success">0.659s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaxOpenScrollContexts</td>
+<td class="success">1.444s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaxScriptFieldsSearch</td>
+<td class="success">0.642s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSearchWhileIndexDeleted</td>
+<td class="success">3.644s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSetSearchThrottled</td>
+<td class="success">0.676s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTimeout</td>
+<td class="success">0.619s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T18:25:36,592][INFO ][o.e.e.NodeEnvironment    ] [testMaxOpenScrollContexts] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:36,592][INFO ][o.e.e.NodeEnvironment    ] [testMaxOpenScrollContexts] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:36,594][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] node name [node_s_0], node ID [GXuys1-MQcWMprH1Zxf93A], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[1807862591173945282]-HASH=[16AEB5EFC4C]]
+[2020-02-16T18:25:36,594][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:36,594][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:36,594][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:36,595][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] no modules loaded
+[2020-02-16T18:25:36,595][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:36,595][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:36,595][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:36,595][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:36,595][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:36,595][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:36,791][INFO ][o.e.d.DiscoveryModule    ] [testMaxOpenScrollContexts] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:36,798][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] initialized
+[2020-02-16T18:25:36,798][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] starting ...
+[2020-02-16T18:25:37,051][INFO ][o.e.t.TransportService   ] [testMaxOpenScrollContexts] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:37,057][INFO ][o.e.c.c.Coordinator      ] [testMaxOpenScrollContexts] setting initial configuration to VotingConfiguration{GXuys1-MQcWMprH1Zxf93A}
+[2020-02-16T18:25:37,106][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{GXuys1-MQcWMprH1Zxf93A}{fGE1B9WZSfq-V8KRt7EJew}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{GXuys1-MQcWMprH1Zxf93A}{fGE1B9WZSfq-V8KRt7EJew}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:37,113][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [aQH-3s4BR2SuMT45377g_w]
+[2020-02-16T18:25:37,119][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{GXuys1-MQcWMprH1Zxf93A}{fGE1B9WZSfq-V8KRt7EJew}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:37,120][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] started
+[2020-02-16T18:25:37,125][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:37,127][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:37,135][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:37,143][INFO ][o.e.s.SearchServiceTests ] [testMaxOpenScrollContexts] before test
+[2020-02-16T18:25:37,144][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:37,191][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:37,204][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [index/XWPQXEpBQ1egudc0ysAsmg] create_mapping [type]
+[2020-02-16T18:25:37,484][INFO ][o.e.s.SearchServiceTests ] [testMaxOpenScrollContexts] after test
+[2020-02-16T18:25:37,484][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/XWPQXEpBQ1egudc0ysAsmg] deleting index
+[2020-02-16T18:25:37,509][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] stopping ...
+[2020-02-16T18:25:37,511][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] stopped
+[2020-02-16T18:25:37,511][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] closing ...
+[2020-02-16T18:25:37,512][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] closed
+[2020-02-16T18:25:37,521][INFO ][o.e.e.NodeEnvironment    ] [testMaxOpenScrollContexts] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:37,521][INFO ][o.e.e.NodeEnvironment    ] [testMaxOpenScrollContexts] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:37,523][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] node name [node_s_0], node ID [Y5-yAFDUR7WranxQ_rImvg], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[2544208228890864934]-HASH=[16B22CE45A4]]
+[2020-02-16T18:25:37,524][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:37,524][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:37,524][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:37,524][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] no modules loaded
+[2020-02-16T18:25:37,524][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:37,524][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:37,524][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:37,524][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:37,524][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:37,524][INFO ][o.e.p.PluginsService     ] [testMaxOpenScrollContexts] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:37,705][INFO ][o.e.d.DiscoveryModule    ] [testMaxOpenScrollContexts] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:37,712][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] initialized
+[2020-02-16T18:25:37,712][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] starting ...
+[2020-02-16T18:25:37,963][INFO ][o.e.t.TransportService   ] [testMaxOpenScrollContexts] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:37,969][INFO ][o.e.c.c.Coordinator      ] [testMaxOpenScrollContexts] setting initial configuration to VotingConfiguration{Y5-yAFDUR7WranxQ_rImvg}
+[2020-02-16T18:25:37,992][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{Y5-yAFDUR7WranxQ_rImvg}{bOC5DiqqTwGtkeRgcKQnDg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{Y5-yAFDUR7WranxQ_rImvg}{bOC5DiqqTwGtkeRgcKQnDg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:37,998][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [_p3OTmV7RS28aMfY4EWfVQ]
+[2020-02-16T18:25:38,004][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{Y5-yAFDUR7WranxQ_rImvg}{bOC5DiqqTwGtkeRgcKQnDg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:38,004][INFO ][o.e.n.Node               ] [testMaxOpenScrollContexts] started
+[2020-02-16T18:25:38,009][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:38,010][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:38,018][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:38,028][INFO ][o.e.s.SearchServiceTests ] [testIgnoreScriptfieldIfSizeZero] before test
+[2020-02-16T18:25:38,029][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:38,078][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:38,086][INFO ][o.e.s.SearchServiceTests ] [testIgnoreScriptfieldIfSizeZero] after test
+[2020-02-16T18:25:38,086][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/BDQNTSHHTVim88E0xhTSFw] deleting index
+[2020-02-16T18:25:38,105][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] stopping ...
+[2020-02-16T18:25:38,106][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] stopped
+[2020-02-16T18:25:38,106][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] closing ...
+[2020-02-16T18:25:38,106][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] closed
+[2020-02-16T18:25:38,115][INFO ][o.e.e.NodeEnvironment    ] [testIgnoreScriptfieldIfSizeZero] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:38,115][INFO ][o.e.e.NodeEnvironment    ] [testIgnoreScriptfieldIfSizeZero] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:38,117][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] node name [node_s_0], node ID [pIRcwlXxTHuaM3nWRQwYaw], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[2502230118477392051]-HASH=[16B462F7616]]
+[2020-02-16T18:25:38,117][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:38,117][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:38,117][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:38,117][INFO ][o.e.p.PluginsService     ] [testIgnoreScriptfieldIfSizeZero] no modules loaded
+[2020-02-16T18:25:38,117][INFO ][o.e.p.PluginsService     ] [testIgnoreScriptfieldIfSizeZero] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:38,117][INFO ][o.e.p.PluginsService     ] [testIgnoreScriptfieldIfSizeZero] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:38,117][INFO ][o.e.p.PluginsService     ] [testIgnoreScriptfieldIfSizeZero] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:38,117][INFO ][o.e.p.PluginsService     ] [testIgnoreScriptfieldIfSizeZero] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:38,117][INFO ][o.e.p.PluginsService     ] [testIgnoreScriptfieldIfSizeZero] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:38,117][INFO ][o.e.p.PluginsService     ] [testIgnoreScriptfieldIfSizeZero] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:38,297][INFO ][o.e.d.DiscoveryModule    ] [testIgnoreScriptfieldIfSizeZero] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:38,303][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] initialized
+[2020-02-16T18:25:38,303][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] starting ...
+[2020-02-16T18:25:38,553][INFO ][o.e.t.TransportService   ] [testIgnoreScriptfieldIfSizeZero] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:38,560][INFO ][o.e.c.c.Coordinator      ] [testIgnoreScriptfieldIfSizeZero] setting initial configuration to VotingConfiguration{pIRcwlXxTHuaM3nWRQwYaw}
+[2020-02-16T18:25:38,638][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{pIRcwlXxTHuaM3nWRQwYaw}{uwrpxmiTSPehU00PitwWPg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{pIRcwlXxTHuaM3nWRQwYaw}{uwrpxmiTSPehU00PitwWPg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:38,645][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [IAtELZpHQLGL9KeJ4cEHxQ]
+[2020-02-16T18:25:38,651][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{pIRcwlXxTHuaM3nWRQwYaw}{uwrpxmiTSPehU00PitwWPg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:38,652][INFO ][o.e.n.Node               ] [testIgnoreScriptfieldIfSizeZero] started
+[2020-02-16T18:25:38,656][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:38,657][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:38,665][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:38,674][INFO ][o.e.s.SearchServiceTests ] [testSearchWhileIndexDeleted] before test
+[2020-02-16T18:25:38,675][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:38,725][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:38,735][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [index/3VkOj9xiQaCn8EfZ-pDcfw] create_mapping [type]
+[2020-02-16T18:25:41,713][INFO ][o.e.s.SearchServiceTests ] [testSearchWhileIndexDeleted] after test
+[2020-02-16T18:25:41,713][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/3VkOj9xiQaCn8EfZ-pDcfw] deleting index
+[2020-02-16T18:25:41,797][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] stopping ...
+[2020-02-16T18:25:41,797][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] stopped
+[2020-02-16T18:25:41,797][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] closing ...
+[2020-02-16T18:25:41,798][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] closed
+[2020-02-16T18:25:41,808][INFO ][o.e.e.NodeEnvironment    ] [testSearchWhileIndexDeleted] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:41,808][INFO ][o.e.e.NodeEnvironment    ] [testSearchWhileIndexDeleted] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:41,810][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] node name [node_s_0], node ID [j7_EwmSeR-yKJslxHCqzEA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[6083812508346894380]-HASH=[16C225AF464]]
+[2020-02-16T18:25:41,810][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:41,810][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:41,810][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:41,811][INFO ][o.e.p.PluginsService     ] [testSearchWhileIndexDeleted] no modules loaded
+[2020-02-16T18:25:41,811][INFO ][o.e.p.PluginsService     ] [testSearchWhileIndexDeleted] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:41,811][INFO ][o.e.p.PluginsService     ] [testSearchWhileIndexDeleted] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:41,811][INFO ][o.e.p.PluginsService     ] [testSearchWhileIndexDeleted] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:41,811][INFO ][o.e.p.PluginsService     ] [testSearchWhileIndexDeleted] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:41,811][INFO ][o.e.p.PluginsService     ] [testSearchWhileIndexDeleted] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:41,811][INFO ][o.e.p.PluginsService     ] [testSearchWhileIndexDeleted] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:41,996][INFO ][o.e.d.DiscoveryModule    ] [testSearchWhileIndexDeleted] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:42,003][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] initialized
+[2020-02-16T18:25:42,003][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] starting ...
+[2020-02-16T18:25:42,252][INFO ][o.e.t.TransportService   ] [testSearchWhileIndexDeleted] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:42,258][INFO ][o.e.c.c.Coordinator      ] [testSearchWhileIndexDeleted] setting initial configuration to VotingConfiguration{j7_EwmSeR-yKJslxHCqzEA}
+[2020-02-16T18:25:42,283][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{j7_EwmSeR-yKJslxHCqzEA}{hL8BkfljQDChxTYBk8THDw}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{j7_EwmSeR-yKJslxHCqzEA}{hL8BkfljQDChxTYBk8THDw}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:42,289][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [GBlzVd43QP-JQLtBAu7nvA]
+[2020-02-16T18:25:42,295][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{j7_EwmSeR-yKJslxHCqzEA}{hL8BkfljQDChxTYBk8THDw}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:42,296][INFO ][o.e.n.Node               ] [testSearchWhileIndexDeleted] started
+[2020-02-16T18:25:42,300][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:42,301][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:42,308][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:42,318][INFO ][o.e.s.SearchServiceTests ] [testCanMatch] before test
+[2020-02-16T18:25:42,319][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:42,366][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:42,374][INFO ][o.e.s.SearchServiceTests ] [testCanMatch] after test
+[2020-02-16T18:25:42,374][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/LNqsn8o5QOuPsEWGBYX2bw] deleting index
+[2020-02-16T18:25:42,394][INFO ][o.e.n.Node               ] [testCanMatch] stopping ...
+[2020-02-16T18:25:42,394][INFO ][o.e.n.Node               ] [testCanMatch] stopped
+[2020-02-16T18:25:42,394][INFO ][o.e.n.Node               ] [testCanMatch] closing ...
+[2020-02-16T18:25:42,395][INFO ][o.e.n.Node               ] [testCanMatch] closed
+[2020-02-16T18:25:42,404][INFO ][o.e.e.NodeEnvironment    ] [testCanMatch] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:42,404][INFO ][o.e.e.NodeEnvironment    ] [testCanMatch] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:42,406][INFO ][o.e.n.Node               ] [testCanMatch] node name [node_s_0], node ID [LJzy6bzFREuq_QD0v_M-oA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[1018121264299020075]-HASH=[16C45D961FE]]
+[2020-02-16T18:25:42,406][INFO ][o.e.n.Node               ] [testCanMatch] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:42,406][INFO ][o.e.n.Node               ] [testCanMatch] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:42,406][INFO ][o.e.n.Node               ] [testCanMatch] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:42,406][INFO ][o.e.p.PluginsService     ] [testCanMatch] no modules loaded
+[2020-02-16T18:25:42,406][INFO ][o.e.p.PluginsService     ] [testCanMatch] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:42,406][INFO ][o.e.p.PluginsService     ] [testCanMatch] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:42,406][INFO ][o.e.p.PluginsService     ] [testCanMatch] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:42,406][INFO ][o.e.p.PluginsService     ] [testCanMatch] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:42,406][INFO ][o.e.p.PluginsService     ] [testCanMatch] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:42,406][INFO ][o.e.p.PluginsService     ] [testCanMatch] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:42,584][INFO ][o.e.d.DiscoveryModule    ] [testCanMatch] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:42,591][INFO ][o.e.n.Node               ] [testCanMatch] initialized
+[2020-02-16T18:25:42,591][INFO ][o.e.n.Node               ] [testCanMatch] starting ...
+[2020-02-16T18:25:42,841][INFO ][o.e.t.TransportService   ] [testCanMatch] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:42,849][INFO ][o.e.c.c.Coordinator      ] [testCanMatch] setting initial configuration to VotingConfiguration{LJzy6bzFREuq_QD0v_M-oA}
+[2020-02-16T18:25:42,880][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{LJzy6bzFREuq_QD0v_M-oA}{hQk1RLA6S9yRZPUZJPhVow}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{LJzy6bzFREuq_QD0v_M-oA}{hQk1RLA6S9yRZPUZJPhVow}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:42,886][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [VMwq7zehRAyr1FBGdCdp4g]
+[2020-02-16T18:25:42,892][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{LJzy6bzFREuq_QD0v_M-oA}{hQk1RLA6S9yRZPUZJPhVow}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:42,893][INFO ][o.e.n.Node               ] [testCanMatch] started
+[2020-02-16T18:25:42,897][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:42,898][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:42,906][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:42,916][INFO ][o.e.s.SearchServiceTests ] [testTimeout] before test
+[2020-02-16T18:25:42,917][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:42,964][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:42,972][INFO ][o.e.s.SearchServiceTests ] [testTimeout] after test
+[2020-02-16T18:25:42,972][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/ojLfBAprSYyLxnzMJtfISg] deleting index
+[2020-02-16T18:25:42,991][INFO ][o.e.n.Node               ] [testTimeout] stopping ...
+[2020-02-16T18:25:42,992][INFO ][o.e.n.Node               ] [testTimeout] stopped
+[2020-02-16T18:25:42,992][INFO ][o.e.n.Node               ] [testTimeout] closing ...
+[2020-02-16T18:25:42,992][INFO ][o.e.n.Node               ] [testTimeout] closed
+[2020-02-16T18:25:43,002][INFO ][o.e.e.NodeEnvironment    ] [testTimeout] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:43,002][INFO ][o.e.e.NodeEnvironment    ] [testTimeout] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:43,004][INFO ][o.e.n.Node               ] [testTimeout] node name [node_s_0], node ID [K1LrCOnrQ2eZFFBwyorGqA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[8066601199961090044]-HASH=[16C69750DE4]]
+[2020-02-16T18:25:43,004][INFO ][o.e.n.Node               ] [testTimeout] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:43,004][INFO ][o.e.n.Node               ] [testTimeout] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:43,004][INFO ][o.e.n.Node               ] [testTimeout] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:43,004][INFO ][o.e.p.PluginsService     ] [testTimeout] no modules loaded
+[2020-02-16T18:25:43,004][INFO ][o.e.p.PluginsService     ] [testTimeout] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:43,004][INFO ][o.e.p.PluginsService     ] [testTimeout] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:43,004][INFO ][o.e.p.PluginsService     ] [testTimeout] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:43,004][INFO ][o.e.p.PluginsService     ] [testTimeout] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:43,004][INFO ][o.e.p.PluginsService     ] [testTimeout] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:43,004][INFO ][o.e.p.PluginsService     ] [testTimeout] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:43,184][INFO ][o.e.d.DiscoveryModule    ] [testTimeout] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:43,190][INFO ][o.e.n.Node               ] [testTimeout] initialized
+[2020-02-16T18:25:43,190][INFO ][o.e.n.Node               ] [testTimeout] starting ...
+[2020-02-16T18:25:43,445][INFO ][o.e.t.TransportService   ] [testTimeout] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:43,451][INFO ][o.e.c.c.Coordinator      ] [testTimeout] setting initial configuration to VotingConfiguration{K1LrCOnrQ2eZFFBwyorGqA}
+[2020-02-16T18:25:43,498][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{K1LrCOnrQ2eZFFBwyorGqA}{cmT3OGvDQta8TZTMOt0QTA}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{K1LrCOnrQ2eZFFBwyorGqA}{cmT3OGvDQta8TZTMOt0QTA}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:43,504][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [ex8lYE0-QNqMk188YZy3eA]
+[2020-02-16T18:25:43,511][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{K1LrCOnrQ2eZFFBwyorGqA}{cmT3OGvDQta8TZTMOt0QTA}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:43,511][INFO ][o.e.n.Node               ] [testTimeout] started
+[2020-02-16T18:25:43,515][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:43,516][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:43,524][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:43,535][INFO ][o.e.s.SearchServiceTests ] [testCloseSearchContextOnRewriteException] before test
+[2020-02-16T18:25:43,536][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:43,603][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:43,622][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [index/NzMz-3ALSS-oTEMHgmUXyw] create_mapping [type]
+[2020-02-16T18:25:43,656][INFO ][o.e.s.SearchServiceTests ] [testCloseSearchContextOnRewriteException] after test
+[2020-02-16T18:25:43,656][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/NzMz-3ALSS-oTEMHgmUXyw] deleting index
+[2020-02-16T18:25:43,693][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] stopping ...
+[2020-02-16T18:25:43,694][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] stopped
+[2020-02-16T18:25:43,694][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] closing ...
+[2020-02-16T18:25:43,695][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] closed
+[2020-02-16T18:25:43,705][INFO ][o.e.e.NodeEnvironment    ] [testCloseSearchContextOnRewriteException] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:43,705][INFO ][o.e.e.NodeEnvironment    ] [testCloseSearchContextOnRewriteException] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:43,707][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] node name [node_s_0], node ID [LQuvW_C_SYKYhnk_lYiHqw], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[2981314249660139588]-HASH=[16C9359A50A]]
+[2020-02-16T18:25:43,707][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:43,707][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:43,707][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:43,707][INFO ][o.e.p.PluginsService     ] [testCloseSearchContextOnRewriteException] no modules loaded
+[2020-02-16T18:25:43,707][INFO ][o.e.p.PluginsService     ] [testCloseSearchContextOnRewriteException] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:43,707][INFO ][o.e.p.PluginsService     ] [testCloseSearchContextOnRewriteException] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:43,707][INFO ][o.e.p.PluginsService     ] [testCloseSearchContextOnRewriteException] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:43,707][INFO ][o.e.p.PluginsService     ] [testCloseSearchContextOnRewriteException] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:43,707][INFO ][o.e.p.PluginsService     ] [testCloseSearchContextOnRewriteException] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:43,707][INFO ][o.e.p.PluginsService     ] [testCloseSearchContextOnRewriteException] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:43,890][INFO ][o.e.d.DiscoveryModule    ] [testCloseSearchContextOnRewriteException] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:43,897][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] initialized
+[2020-02-16T18:25:43,897][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] starting ...
+[2020-02-16T18:25:44,146][INFO ][o.e.t.TransportService   ] [testCloseSearchContextOnRewriteException] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:44,152][INFO ][o.e.c.c.Coordinator      ] [testCloseSearchContextOnRewriteException] setting initial configuration to VotingConfiguration{LQuvW_C_SYKYhnk_lYiHqw}
+[2020-02-16T18:25:44,168][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{LQuvW_C_SYKYhnk_lYiHqw}{4SNLkmkBTKmT0muuSPNenA}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{LQuvW_C_SYKYhnk_lYiHqw}{4SNLkmkBTKmT0muuSPNenA}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:44,174][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [pZ2NxZ2oQa2JIzOtq9n3kQ]
+[2020-02-16T18:25:44,180][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{LQuvW_C_SYKYhnk_lYiHqw}{4SNLkmkBTKmT0muuSPNenA}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:44,181][INFO ][o.e.n.Node               ] [testCloseSearchContextOnRewriteException] started
+[2020-02-16T18:25:44,185][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:44,186][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:44,197][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:44,207][INFO ][o.e.s.SearchServiceTests ] [testMaxScriptFieldsSearch] before test
+[2020-02-16T18:25:44,208][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:44,254][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:44,263][INFO ][o.e.s.SearchServiceTests ] [testMaxScriptFieldsSearch] after test
+[2020-02-16T18:25:44,263][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/7534Sp1RRHeGcUxLv9KM2w] deleting index
+[2020-02-16T18:25:44,282][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] stopping ...
+[2020-02-16T18:25:44,283][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] stopped
+[2020-02-16T18:25:44,283][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] closing ...
+[2020-02-16T18:25:44,284][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] closed
+[2020-02-16T18:25:44,293][INFO ][o.e.e.NodeEnvironment    ] [testMaxScriptFieldsSearch] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:44,294][INFO ][o.e.e.NodeEnvironment    ] [testMaxScriptFieldsSearch] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:44,296][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] node name [node_s_0], node ID [VbzwkLX7Rz6x-N19fdIpCA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[8538439203647724884]-HASH=[16CB66ED42F]]
+[2020-02-16T18:25:44,296][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:44,296][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:44,296][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:44,296][INFO ][o.e.p.PluginsService     ] [testMaxScriptFieldsSearch] no modules loaded
+[2020-02-16T18:25:44,296][INFO ][o.e.p.PluginsService     ] [testMaxScriptFieldsSearch] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:44,296][INFO ][o.e.p.PluginsService     ] [testMaxScriptFieldsSearch] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:44,296][INFO ][o.e.p.PluginsService     ] [testMaxScriptFieldsSearch] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:44,296][INFO ][o.e.p.PluginsService     ] [testMaxScriptFieldsSearch] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:44,296][INFO ][o.e.p.PluginsService     ] [testMaxScriptFieldsSearch] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:44,296][INFO ][o.e.p.PluginsService     ] [testMaxScriptFieldsSearch] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:44,481][INFO ][o.e.d.DiscoveryModule    ] [testMaxScriptFieldsSearch] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:44,487][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] initialized
+[2020-02-16T18:25:44,487][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] starting ...
+[2020-02-16T18:25:44,738][INFO ][o.e.t.TransportService   ] [testMaxScriptFieldsSearch] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:44,744][INFO ][o.e.c.c.Coordinator      ] [testMaxScriptFieldsSearch] setting initial configuration to VotingConfiguration{VbzwkLX7Rz6x-N19fdIpCA}
+[2020-02-16T18:25:44,811][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{VbzwkLX7Rz6x-N19fdIpCA}{GpMQKPnKTz-Dpw9oGxg2og}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{VbzwkLX7Rz6x-N19fdIpCA}{GpMQKPnKTz-Dpw9oGxg2og}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:44,818][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [MQczV9u9RXeS1hR5HyZdUg]
+[2020-02-16T18:25:44,824][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{VbzwkLX7Rz6x-N19fdIpCA}{GpMQKPnKTz-Dpw9oGxg2og}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:44,824][INFO ][o.e.n.Node               ] [testMaxScriptFieldsSearch] started
+[2020-02-16T18:25:44,831][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:44,832][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:44,840][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:44,849][INFO ][o.e.s.SearchServiceTests ] [testCreateReduceContext] before test
+[2020-02-16T18:25:44,850][INFO ][o.e.s.SearchServiceTests ] [testCreateReduceContext] after test
+[2020-02-16T18:25:44,850][INFO ][o.e.n.Node               ] [testCreateReduceContext] stopping ...
+[2020-02-16T18:25:44,850][INFO ][o.e.n.Node               ] [testCreateReduceContext] stopped
+[2020-02-16T18:25:44,850][INFO ][o.e.n.Node               ] [testCreateReduceContext] closing ...
+[2020-02-16T18:25:44,851][INFO ][o.e.n.Node               ] [testCreateReduceContext] closed
+[2020-02-16T18:25:44,860][INFO ][o.e.e.NodeEnvironment    ] [testCreateReduceContext] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:44,860][INFO ][o.e.e.NodeEnvironment    ] [testCreateReduceContext] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:44,862][INFO ][o.e.n.Node               ] [testCreateReduceContext] node name [node_s_0], node ID [OmOZ_is8TfOapQ3yLQq0Dw], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[8528049290275728231]-HASH=[16CD83F2410]]
+[2020-02-16T18:25:44,862][INFO ][o.e.n.Node               ] [testCreateReduceContext] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:44,862][INFO ][o.e.n.Node               ] [testCreateReduceContext] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:44,862][INFO ][o.e.n.Node               ] [testCreateReduceContext] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:44,863][INFO ][o.e.p.PluginsService     ] [testCreateReduceContext] no modules loaded
+[2020-02-16T18:25:44,863][INFO ][o.e.p.PluginsService     ] [testCreateReduceContext] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:44,863][INFO ][o.e.p.PluginsService     ] [testCreateReduceContext] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:44,863][INFO ][o.e.p.PluginsService     ] [testCreateReduceContext] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:44,863][INFO ][o.e.p.PluginsService     ] [testCreateReduceContext] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:44,863][INFO ][o.e.p.PluginsService     ] [testCreateReduceContext] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:44,863][INFO ][o.e.p.PluginsService     ] [testCreateReduceContext] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:45,042][INFO ][o.e.d.DiscoveryModule    ] [testCreateReduceContext] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:45,049][INFO ][o.e.n.Node               ] [testCreateReduceContext] initialized
+[2020-02-16T18:25:45,049][INFO ][o.e.n.Node               ] [testCreateReduceContext] starting ...
+[2020-02-16T18:25:45,303][INFO ][o.e.t.TransportService   ] [testCreateReduceContext] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:45,309][INFO ][o.e.c.c.Coordinator      ] [testCreateReduceContext] setting initial configuration to VotingConfiguration{OmOZ_is8TfOapQ3yLQq0Dw}
+[2020-02-16T18:25:45,356][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{OmOZ_is8TfOapQ3yLQq0Dw}{WbEj4ZNDT_W8muf1qyYIWg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{OmOZ_is8TfOapQ3yLQq0Dw}{WbEj4ZNDT_W8muf1qyYIWg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:45,362][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [KCHCTUpdT86GlqVYx5WtTA]
+[2020-02-16T18:25:45,368][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{OmOZ_is8TfOapQ3yLQq0Dw}{WbEj4ZNDT_W8muf1qyYIWg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:45,368][INFO ][o.e.n.Node               ] [testCreateReduceContext] started
+[2020-02-16T18:25:45,373][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:45,373][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:45,382][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:45,392][INFO ][o.e.s.SearchServiceTests ] [testCreateSearchContext] before test
+[2020-02-16T18:25:45,393][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [heyeyh] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:45,440][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[heyeyh][0]]]).
+[2020-02-16T18:25:45,448][INFO ][o.e.s.SearchServiceTests ] [testCreateSearchContext] after test
+[2020-02-16T18:25:45,448][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [heyeyh/M6_seYxIRQiglE8BEiQvQg] deleting index
+[2020-02-16T18:25:45,467][INFO ][o.e.n.Node               ] [testCreateSearchContext] stopping ...
+[2020-02-16T18:25:45,468][INFO ][o.e.n.Node               ] [testCreateSearchContext] stopped
+[2020-02-16T18:25:45,468][INFO ][o.e.n.Node               ] [testCreateSearchContext] closing ...
+[2020-02-16T18:25:45,468][INFO ][o.e.n.Node               ] [testCreateSearchContext] closed
+[2020-02-16T18:25:45,478][INFO ][o.e.e.NodeEnvironment    ] [testCreateSearchContext] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:45,478][INFO ][o.e.e.NodeEnvironment    ] [testCreateSearchContext] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:45,480][INFO ][o.e.n.Node               ] [testCreateSearchContext] node name [node_s_0], node ID [xrUnx_LCR_6wo8nIJW6XtQ], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-6196437024978161275]-HASH=[16CFD13172A]]
+[2020-02-16T18:25:45,480][INFO ][o.e.n.Node               ] [testCreateSearchContext] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:45,480][INFO ][o.e.n.Node               ] [testCreateSearchContext] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:45,480][INFO ][o.e.n.Node               ] [testCreateSearchContext] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:45,480][INFO ][o.e.p.PluginsService     ] [testCreateSearchContext] no modules loaded
+[2020-02-16T18:25:45,480][INFO ][o.e.p.PluginsService     ] [testCreateSearchContext] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:45,480][INFO ][o.e.p.PluginsService     ] [testCreateSearchContext] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:45,480][INFO ][o.e.p.PluginsService     ] [testCreateSearchContext] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:45,480][INFO ][o.e.p.PluginsService     ] [testCreateSearchContext] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:45,480][INFO ][o.e.p.PluginsService     ] [testCreateSearchContext] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:45,480][INFO ][o.e.p.PluginsService     ] [testCreateSearchContext] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:45,662][INFO ][o.e.d.DiscoveryModule    ] [testCreateSearchContext] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:45,668][INFO ][o.e.n.Node               ] [testCreateSearchContext] initialized
+[2020-02-16T18:25:45,668][INFO ][o.e.n.Node               ] [testCreateSearchContext] starting ...
+[2020-02-16T18:25:45,923][INFO ][o.e.t.TransportService   ] [testCreateSearchContext] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:45,929][INFO ][o.e.c.c.Coordinator      ] [testCreateSearchContext] setting initial configuration to VotingConfiguration{xrUnx_LCR_6wo8nIJW6XtQ}
+[2020-02-16T18:25:45,949][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{xrUnx_LCR_6wo8nIJW6XtQ}{A0xwRdWfQ-6oWmYJqgzRQg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{xrUnx_LCR_6wo8nIJW6XtQ}{A0xwRdWfQ-6oWmYJqgzRQg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:45,955][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [cJrT3XZhQvSpZh0ZAuWjTQ]
+[2020-02-16T18:25:45,962][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{xrUnx_LCR_6wo8nIJW6XtQ}{A0xwRdWfQ-6oWmYJqgzRQg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:45,962][INFO ][o.e.n.Node               ] [testCreateSearchContext] started
+[2020-02-16T18:25:45,967][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:45,968][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:45,976][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:45,986][INFO ][o.e.s.SearchServiceTests ] [testCanRewriteToMatchNone] before test
+[2020-02-16T18:25:45,986][INFO ][o.e.s.SearchServiceTests ] [testCanRewriteToMatchNone] after test
+[2020-02-16T18:25:45,986][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] stopping ...
+[2020-02-16T18:25:45,986][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] stopped
+[2020-02-16T18:25:45,986][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] closing ...
+[2020-02-16T18:25:45,987][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] closed
+[2020-02-16T18:25:45,997][INFO ][o.e.e.NodeEnvironment    ] [testCanRewriteToMatchNone] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:45,997][INFO ][o.e.e.NodeEnvironment    ] [testCanRewriteToMatchNone] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:45,999][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] node name [node_s_0], node ID [qAOtTPFWTM29XkHR4cYPXg], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[5494531766843595610]-HASH=[16D1BFBC4F6]]
+[2020-02-16T18:25:45,999][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:45,999][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:45,999][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:46,000][INFO ][o.e.p.PluginsService     ] [testCanRewriteToMatchNone] no modules loaded
+[2020-02-16T18:25:46,000][INFO ][o.e.p.PluginsService     ] [testCanRewriteToMatchNone] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:46,000][INFO ][o.e.p.PluginsService     ] [testCanRewriteToMatchNone] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:46,000][INFO ][o.e.p.PluginsService     ] [testCanRewriteToMatchNone] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:46,000][INFO ][o.e.p.PluginsService     ] [testCanRewriteToMatchNone] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:46,000][INFO ][o.e.p.PluginsService     ] [testCanRewriteToMatchNone] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:46,000][INFO ][o.e.p.PluginsService     ] [testCanRewriteToMatchNone] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:46,183][INFO ][o.e.d.DiscoveryModule    ] [testCanRewriteToMatchNone] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:46,190][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] initialized
+[2020-02-16T18:25:46,190][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] starting ...
+[2020-02-16T18:25:46,452][INFO ][o.e.t.TransportService   ] [testCanRewriteToMatchNone] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:46,458][INFO ][o.e.c.c.Coordinator      ] [testCanRewriteToMatchNone] setting initial configuration to VotingConfiguration{qAOtTPFWTM29XkHR4cYPXg}
+[2020-02-16T18:25:46,550][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{qAOtTPFWTM29XkHR4cYPXg}{b8mEp7VvQ8aJNMkMvFscZw}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{qAOtTPFWTM29XkHR4cYPXg}{b8mEp7VvQ8aJNMkMvFscZw}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:46,557][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [5_GIxIYqSNejCjewJOMoyQ]
+[2020-02-16T18:25:46,564][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{qAOtTPFWTM29XkHR4cYPXg}{b8mEp7VvQ8aJNMkMvFscZw}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:46,565][INFO ][o.e.n.Node               ] [testCanRewriteToMatchNone] started
+[2020-02-16T18:25:46,570][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:46,571][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:46,580][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:46,590][INFO ][o.e.s.SearchServiceTests ] [testSetSearchThrottled] before test
+[2020-02-16T18:25:46,591][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [throttled_threadpool_index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:46,656][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[throttled_threadpool_index][0]]]).
+[2020-02-16T18:25:46,672][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.search.throttled] from [false] to [true]
+[2020-02-16T18:25:46,676][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [throttled_threadpool_index/HVto5xiHQL2KoMq1w8kgwg] create_mapping [_doc]
+[2020-02-16T18:25:46,714][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.search.throttled] from [true] to [false]
+[2020-02-16T18:25:46,715][INFO ][o.e.s.SearchServiceTests ] [testSetSearchThrottled] after test
+[2020-02-16T18:25:46,716][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [throttled_threadpool_index/HVto5xiHQL2KoMq1w8kgwg] deleting index
+[2020-02-16T18:25:46,738][INFO ][o.e.n.Node               ] [testSetSearchThrottled] stopping ...
+[2020-02-16T18:25:46,738][INFO ][o.e.n.Node               ] [testSetSearchThrottled] stopped
+[2020-02-16T18:25:46,738][INFO ][o.e.n.Node               ] [testSetSearchThrottled] closing ...
+[2020-02-16T18:25:46,739][INFO ][o.e.n.Node               ] [testSetSearchThrottled] closed
+[2020-02-16T18:25:46,750][INFO ][o.e.e.NodeEnvironment    ] [testSetSearchThrottled] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:46,750][INFO ][o.e.e.NodeEnvironment    ] [testSetSearchThrottled] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:46,752][INFO ][o.e.n.Node               ] [testSetSearchThrottled] node name [node_s_0], node ID [lYzJWEJAQr6zaYeJWkL88A], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-6941160607143950435]-HASH=[16D48D1BC1C]]
+[2020-02-16T18:25:46,752][INFO ][o.e.n.Node               ] [testSetSearchThrottled] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:46,752][INFO ][o.e.n.Node               ] [testSetSearchThrottled] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:46,752][INFO ][o.e.n.Node               ] [testSetSearchThrottled] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:46,752][INFO ][o.e.p.PluginsService     ] [testSetSearchThrottled] no modules loaded
+[2020-02-16T18:25:46,752][INFO ][o.e.p.PluginsService     ] [testSetSearchThrottled] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:46,752][INFO ][o.e.p.PluginsService     ] [testSetSearchThrottled] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:46,752][INFO ][o.e.p.PluginsService     ] [testSetSearchThrottled] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:46,752][INFO ][o.e.p.PluginsService     ] [testSetSearchThrottled] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:46,752][INFO ][o.e.p.PluginsService     ] [testSetSearchThrottled] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:46,752][INFO ][o.e.p.PluginsService     ] [testSetSearchThrottled] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:46,936][INFO ][o.e.d.DiscoveryModule    ] [testSetSearchThrottled] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:46,942][INFO ][o.e.n.Node               ] [testSetSearchThrottled] initialized
+[2020-02-16T18:25:46,942][INFO ][o.e.n.Node               ] [testSetSearchThrottled] starting ...
+[2020-02-16T18:25:47,201][INFO ][o.e.t.TransportService   ] [testSetSearchThrottled] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:47,208][INFO ][o.e.c.c.Coordinator      ] [testSetSearchThrottled] setting initial configuration to VotingConfiguration{lYzJWEJAQr6zaYeJWkL88A}
+[2020-02-16T18:25:47,230][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{lYzJWEJAQr6zaYeJWkL88A}{KnJiCRz6Rfm0ZZ4KL1hRiA}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{lYzJWEJAQr6zaYeJWkL88A}{KnJiCRz6Rfm0ZZ4KL1hRiA}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:47,236][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [c9N0P8zaRC6K1G6F7P5WHQ]
+[2020-02-16T18:25:47,242][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{lYzJWEJAQr6zaYeJWkL88A}{KnJiCRz6Rfm0ZZ4KL1hRiA}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:47,243][INFO ][o.e.n.Node               ] [testSetSearchThrottled] started
+[2020-02-16T18:25:47,247][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:47,248][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:47,256][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:47,267][INFO ][o.e.s.SearchServiceTests ] [testClearOnStop] before test
+[2020-02-16T18:25:47,268][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:47,313][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:47,326][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [index/wUu-GUsXQnqYkF4ht4UHGQ] create_mapping [type]
+[2020-02-16T18:25:47,356][INFO ][o.e.s.SearchServiceTests ] [testClearOnStop] after test
+[2020-02-16T18:25:47,356][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/wUu-GUsXQnqYkF4ht4UHGQ] deleting index
+[2020-02-16T18:25:47,378][INFO ][o.e.n.Node               ] [testClearOnStop] stopping ...
+[2020-02-16T18:25:47,379][INFO ][o.e.n.Node               ] [testClearOnStop] stopped
+[2020-02-16T18:25:47,379][INFO ][o.e.n.Node               ] [testClearOnStop] closing ...
+[2020-02-16T18:25:47,379][INFO ][o.e.n.Node               ] [testClearOnStop] closed
+[2020-02-16T18:25:47,390][INFO ][o.e.e.NodeEnvironment    ] [testClearOnStop] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:47,390][INFO ][o.e.e.NodeEnvironment    ] [testClearOnStop] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:47,392][INFO ][o.e.n.Node               ] [testClearOnStop] node name [node_s_0], node ID [x6ghfQOuQq6tyDaq-QAs5Q], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[3838872773044657391]-HASH=[16D6EFCD9B0]]
+[2020-02-16T18:25:47,392][INFO ][o.e.n.Node               ] [testClearOnStop] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:47,392][INFO ][o.e.n.Node               ] [testClearOnStop] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:47,392][INFO ][o.e.n.Node               ] [testClearOnStop] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:47,392][INFO ][o.e.p.PluginsService     ] [testClearOnStop] no modules loaded
+[2020-02-16T18:25:47,392][INFO ][o.e.p.PluginsService     ] [testClearOnStop] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:47,392][INFO ][o.e.p.PluginsService     ] [testClearOnStop] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:47,392][INFO ][o.e.p.PluginsService     ] [testClearOnStop] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:47,392][INFO ][o.e.p.PluginsService     ] [testClearOnStop] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:47,392][INFO ][o.e.p.PluginsService     ] [testClearOnStop] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:47,392][INFO ][o.e.p.PluginsService     ] [testClearOnStop] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:47,575][INFO ][o.e.d.DiscoveryModule    ] [testClearOnStop] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:47,581][INFO ][o.e.n.Node               ] [testClearOnStop] initialized
+[2020-02-16T18:25:47,582][INFO ][o.e.n.Node               ] [testClearOnStop] starting ...
+[2020-02-16T18:25:47,840][INFO ][o.e.t.TransportService   ] [testClearOnStop] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:47,847][INFO ][o.e.c.c.Coordinator      ] [testClearOnStop] setting initial configuration to VotingConfiguration{x6ghfQOuQq6tyDaq-QAs5Q}
+[2020-02-16T18:25:47,910][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{x6ghfQOuQq6tyDaq-QAs5Q}{PZwz0pUVQYC3VtUvm14PTQ}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{x6ghfQOuQq6tyDaq-QAs5Q}{PZwz0pUVQYC3VtUvm14PTQ}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:47,917][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [cKra3Oh4T4ayGfWDd5YdpQ]
+[2020-02-16T18:25:47,923][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{x6ghfQOuQq6tyDaq-QAs5Q}{PZwz0pUVQYC3VtUvm14PTQ}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:47,923][INFO ][o.e.n.Node               ] [testClearOnStop] started
+[2020-02-16T18:25:47,928][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:47,929][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:47,937][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:47,947][INFO ][o.e.s.SearchServiceTests ] [testExpandSearchThrottled] before test
+[2020-02-16T18:25:47,948][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [throttled_threadpool_index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:47,993][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[throttled_threadpool_index][0]]]).
+[2020-02-16T18:25:48,009][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.search.throttled] from [false] to [true]
+[2020-02-16T18:25:48,012][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [throttled_threadpool_index/rso-oZp6Q8GMacngFNYKyQ] create_mapping [_doc]
+[2020-02-16T18:25:48,046][INFO ][o.e.s.SearchServiceTests ] [testExpandSearchThrottled] after test
+[2020-02-16T18:25:48,046][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [throttled_threadpool_index/rso-oZp6Q8GMacngFNYKyQ] deleting index
+[2020-02-16T18:25:48,069][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] stopping ...
+[2020-02-16T18:25:48,069][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] stopped
+[2020-02-16T18:25:48,069][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] closing ...
+[2020-02-16T18:25:48,070][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] closed
+[2020-02-16T18:25:48,082][INFO ][o.e.e.NodeEnvironment    ] [testExpandSearchThrottled] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:48,082][INFO ][o.e.e.NodeEnvironment    ] [testExpandSearchThrottled] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:48,084][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] node name [node_s_0], node ID [H3cm1d3oSxqUMlpu5nUMVA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-2087116104191426143]-HASH=[16D982DC062]]
+[2020-02-16T18:25:48,084][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:48,084][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:48,084][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:48,084][INFO ][o.e.p.PluginsService     ] [testExpandSearchThrottled] no modules loaded
+[2020-02-16T18:25:48,084][INFO ][o.e.p.PluginsService     ] [testExpandSearchThrottled] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:48,084][INFO ][o.e.p.PluginsService     ] [testExpandSearchThrottled] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:48,084][INFO ][o.e.p.PluginsService     ] [testExpandSearchThrottled] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:48,084][INFO ][o.e.p.PluginsService     ] [testExpandSearchThrottled] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:48,084][INFO ][o.e.p.PluginsService     ] [testExpandSearchThrottled] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:48,084][INFO ][o.e.p.PluginsService     ] [testExpandSearchThrottled] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:48,267][INFO ][o.e.d.DiscoveryModule    ] [testExpandSearchThrottled] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:48,273][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] initialized
+[2020-02-16T18:25:48,273][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] starting ...
+[2020-02-16T18:25:48,528][INFO ][o.e.t.TransportService   ] [testExpandSearchThrottled] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:48,535][INFO ][o.e.c.c.Coordinator      ] [testExpandSearchThrottled] setting initial configuration to VotingConfiguration{H3cm1d3oSxqUMlpu5nUMVA}
+[2020-02-16T18:25:48,569][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{H3cm1d3oSxqUMlpu5nUMVA}{WT2yu_RSTV2Mk0XqBrvwjA}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{H3cm1d3oSxqUMlpu5nUMVA}{WT2yu_RSTV2Mk0XqBrvwjA}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:48,575][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [vbprSDXRTASgBwexWcxycA]
+[2020-02-16T18:25:48,581][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{H3cm1d3oSxqUMlpu5nUMVA}{WT2yu_RSTV2Mk0XqBrvwjA}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:48,582][INFO ][o.e.n.Node               ] [testExpandSearchThrottled] started
+[2020-02-16T18:25:48,586][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:48,587][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:48,596][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:48,607][INFO ][o.e.s.SearchServiceTests ] [testCreateSearchContextFailure] before test
+[2020-02-16T18:25:48,608][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [wamwm] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:48,654][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[wamwm][0]]]).
+[2020-02-16T18:25:48,664][INFO ][o.e.s.SearchServiceTests ] [testCreateSearchContextFailure] after test
+[2020-02-16T18:25:48,664][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [wamwm/gaF5pILESky-UQCxQcX5og] deleting index
+[2020-02-16T18:25:48,685][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] stopping ...
+[2020-02-16T18:25:48,685][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] stopped
+[2020-02-16T18:25:48,685][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] closing ...
+[2020-02-16T18:25:48,686][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] closed
+[2020-02-16T18:25:48,698][INFO ][o.e.e.NodeEnvironment    ] [testCreateSearchContextFailure] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:48,698][INFO ][o.e.e.NodeEnvironment    ] [testCreateSearchContextFailure] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:48,700][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] node name [node_s_0], node ID [qsmzYPHsSeaPYaHYcdLLTg], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-4587354059698817474]-HASH=[16DBCD6FA19]]
+[2020-02-16T18:25:48,700][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:48,701][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:48,701][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:48,701][INFO ][o.e.p.PluginsService     ] [testCreateSearchContextFailure] no modules loaded
+[2020-02-16T18:25:48,701][INFO ][o.e.p.PluginsService     ] [testCreateSearchContextFailure] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:48,701][INFO ][o.e.p.PluginsService     ] [testCreateSearchContextFailure] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:48,701][INFO ][o.e.p.PluginsService     ] [testCreateSearchContextFailure] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:48,701][INFO ][o.e.p.PluginsService     ] [testCreateSearchContextFailure] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:48,701][INFO ][o.e.p.PluginsService     ] [testCreateSearchContextFailure] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:48,701][INFO ][o.e.p.PluginsService     ] [testCreateSearchContextFailure] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:48,887][INFO ][o.e.d.DiscoveryModule    ] [testCreateSearchContextFailure] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:48,893][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] initialized
+[2020-02-16T18:25:48,893][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] starting ...
+[2020-02-16T18:25:49,145][INFO ][o.e.t.TransportService   ] [testCreateSearchContextFailure] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:49,151][INFO ][o.e.c.c.Coordinator      ] [testCreateSearchContextFailure] setting initial configuration to VotingConfiguration{qsmzYPHsSeaPYaHYcdLLTg}
+[2020-02-16T18:25:49,227][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{qsmzYPHsSeaPYaHYcdLLTg}{yd3wwwrQT8Cgf7FUH1CJ_g}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{qsmzYPHsSeaPYaHYcdLLTg}{yd3wwwrQT8Cgf7FUH1CJ_g}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:49,234][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [OEZmd3akSJy54qrMmPVzSw]
+[2020-02-16T18:25:49,240][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{qsmzYPHsSeaPYaHYcdLLTg}{yd3wwwrQT8Cgf7FUH1CJ_g}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:49,240][INFO ][o.e.n.Node               ] [testCreateSearchContextFailure] started
+[2020-02-16T18:25:49,245][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:49,246][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:49,253][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:49,263][INFO ][o.e.s.SearchServiceTests ] [testMaxDocvalueFieldsSearch] before test
+[2020-02-16T18:25:49,264][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:49,308][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:49,317][INFO ][o.e.s.SearchServiceTests ] [testMaxDocvalueFieldsSearch] after test
+[2020-02-16T18:25:49,317][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/pp2a7UEvSHS9XCIYyxEbHQ] deleting index
+[2020-02-16T18:25:49,337][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] stopping ...
+[2020-02-16T18:25:49,337][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] stopped
+[2020-02-16T18:25:49,337][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] closing ...
+[2020-02-16T18:25:49,338][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] closed
+[2020-02-16T18:25:49,350][INFO ][o.e.e.NodeEnvironment    ] [testMaxDocvalueFieldsSearch] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:49,350][INFO ][o.e.e.NodeEnvironment    ] [testMaxDocvalueFieldsSearch] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:49,352][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] node name [node_s_0], node ID [Pz5vrOGWRL6H8u76t3LHew], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[742868904781591321]-HASH=[16DE3B1BC3D]]
+[2020-02-16T18:25:49,352][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:49,352][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:49,352][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:49,353][INFO ][o.e.p.PluginsService     ] [testMaxDocvalueFieldsSearch] no modules loaded
+[2020-02-16T18:25:49,353][INFO ][o.e.p.PluginsService     ] [testMaxDocvalueFieldsSearch] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:49,353][INFO ][o.e.p.PluginsService     ] [testMaxDocvalueFieldsSearch] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:49,353][INFO ][o.e.p.PluginsService     ] [testMaxDocvalueFieldsSearch] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:49,353][INFO ][o.e.p.PluginsService     ] [testMaxDocvalueFieldsSearch] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:49,353][INFO ][o.e.p.PluginsService     ] [testMaxDocvalueFieldsSearch] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:49,353][INFO ][o.e.p.PluginsService     ] [testMaxDocvalueFieldsSearch] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:49,534][INFO ][o.e.d.DiscoveryModule    ] [testMaxDocvalueFieldsSearch] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:49,541][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] initialized
+[2020-02-16T18:25:49,541][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] starting ...
+[2020-02-16T18:25:49,795][INFO ][o.e.t.TransportService   ] [testMaxDocvalueFieldsSearch] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:49,801][INFO ][o.e.c.c.Coordinator      ] [testMaxDocvalueFieldsSearch] setting initial configuration to VotingConfiguration{Pz5vrOGWRL6H8u76t3LHew}
+[2020-02-16T18:25:49,883][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{Pz5vrOGWRL6H8u76t3LHew}{ab1sZPIdTIuxvl7pKbG2nw}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{Pz5vrOGWRL6H8u76t3LHew}{ab1sZPIdTIuxvl7pKbG2nw}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:49,889][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [6w2ZB4hNQnezS-v4WV-Nag]
+[2020-02-16T18:25:49,896][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{Pz5vrOGWRL6H8u76t3LHew}{ab1sZPIdTIuxvl7pKbG2nw}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:49,896][INFO ][o.e.n.Node               ] [testMaxDocvalueFieldsSearch] started
+[2020-02-16T18:25:49,901][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:49,902][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:49,912][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:49,921][INFO ][o.e.s.SearchServiceTests ] [testClearIndexDelete] before test
+[2020-02-16T18:25:49,922][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:49,968][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:49,980][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [index/are5EPUPSU6dYrAnhOya5Q] create_mapping [type]
+[2020-02-16T18:25:50,013][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/are5EPUPSU6dYrAnhOya5Q] deleting index
+[2020-02-16T18:25:50,035][INFO ][o.e.s.SearchServiceTests ] [testClearIndexDelete] after test
+[2020-02-16T18:25:50,035][INFO ][o.e.n.Node               ] [testClearIndexDelete] stopping ...
+[2020-02-16T18:25:50,036][INFO ][o.e.n.Node               ] [testClearIndexDelete] stopped
+[2020-02-16T18:25:50,036][INFO ][o.e.n.Node               ] [testClearIndexDelete] closing ...
+[2020-02-16T18:25:50,036][INFO ][o.e.n.Node               ] [testClearIndexDelete] closed
+[2020-02-16T18:25:50,049][INFO ][o.e.e.NodeEnvironment    ] [testClearIndexDelete] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:50,049][INFO ][o.e.e.NodeEnvironment    ] [testClearIndexDelete] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:50,051][INFO ][o.e.n.Node               ] [testClearIndexDelete] node name [node_s_0], node ID [1oY4IBklSha4sAM7FGfa_w], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-3228269349294448003]-HASH=[16E0D5B2DF3]]
+[2020-02-16T18:25:50,051][INFO ][o.e.n.Node               ] [testClearIndexDelete] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:50,051][INFO ][o.e.n.Node               ] [testClearIndexDelete] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:50,051][INFO ][o.e.n.Node               ] [testClearIndexDelete] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:50,052][INFO ][o.e.p.PluginsService     ] [testClearIndexDelete] no modules loaded
+[2020-02-16T18:25:50,052][INFO ][o.e.p.PluginsService     ] [testClearIndexDelete] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:50,052][INFO ][o.e.p.PluginsService     ] [testClearIndexDelete] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:50,052][INFO ][o.e.p.PluginsService     ] [testClearIndexDelete] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:50,052][INFO ][o.e.p.PluginsService     ] [testClearIndexDelete] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:50,052][INFO ][o.e.p.PluginsService     ] [testClearIndexDelete] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:50,052][INFO ][o.e.p.PluginsService     ] [testClearIndexDelete] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:50,236][INFO ][o.e.d.DiscoveryModule    ] [testClearIndexDelete] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:50,242][INFO ][o.e.n.Node               ] [testClearIndexDelete] initialized
+[2020-02-16T18:25:50,242][INFO ][o.e.n.Node               ] [testClearIndexDelete] starting ...
+[2020-02-16T18:25:50,493][INFO ][o.e.t.TransportService   ] [testClearIndexDelete] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:50,500][INFO ][o.e.c.c.Coordinator      ] [testClearIndexDelete] setting initial configuration to VotingConfiguration{1oY4IBklSha4sAM7FGfa_w}
+[2020-02-16T18:25:50,601][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{1oY4IBklSha4sAM7FGfa_w}{hfoNFru2QIWV24yCK2Sf7w}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{1oY4IBklSha4sAM7FGfa_w}{hfoNFru2QIWV24yCK2Sf7w}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:50,607][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [BtP0IGn6QmKn0a9TtgfR4A]
+[2020-02-16T18:25:50,614][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{1oY4IBklSha4sAM7FGfa_w}{hfoNFru2QIWV24yCK2Sf7w}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:50,614][INFO ][o.e.n.Node               ] [testClearIndexDelete] started
+[2020-02-16T18:25:50,619][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:50,619][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:50,627][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:50,637][INFO ][o.e.s.SearchServiceTests ] [testClearOnClose] before test
+[2020-02-16T18:25:50,638][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T18:25:50,683][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-16T18:25:50,692][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [index/Q5ZaccwZQIaZ1o9SCuWTCw] create_mapping [type]
+[2020-02-16T18:25:50,729][INFO ][o.e.s.SearchServiceTests ] [testClearOnClose] after test
+[2020-02-16T18:25:50,730][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/Q5ZaccwZQIaZ1o9SCuWTCw] deleting index
+[2020-02-16T18:25:50,753][INFO ][o.e.n.Node               ] [testClearOnClose] stopping ...
+[2020-02-16T18:25:50,757][INFO ][o.e.n.Node               ] [testClearOnClose] stopped
+[2020-02-16T18:25:50,757][INFO ][o.e.n.Node               ] [testClearOnClose] closing ...
+[2020-02-16T18:25:50,757][INFO ][o.e.n.Node               ] [testClearOnClose] closed
+[2020-02-16T18:25:50,771][INFO ][o.e.e.NodeEnvironment    ] [testClearOnClose] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T18:25:50,771][INFO ][o.e.e.NodeEnvironment    ] [testClearOnClose] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T18:25:50,773][INFO ][o.e.n.Node               ] [testClearOnClose] node name [node_s_0], node ID [RWmA0mUJQS6WHGSXE43ZzA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[567690603636532338]-HASH=[16E3865DA31]]
+[2020-02-16T18:25:50,773][INFO ][o.e.n.Node               ] [testClearOnClose] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T18:25:50,773][INFO ][o.e.n.Node               ] [testClearOnClose] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T18:25:50,773][INFO ][o.e.n.Node               ] [testClearOnClose] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T18:25:50,774][INFO ][o.e.p.PluginsService     ] [testClearOnClose] no modules loaded
+[2020-02-16T18:25:50,774][INFO ][o.e.p.PluginsService     ] [testClearOnClose] loaded plugin [org.elasticsearch.indices.settings.InternalOrPrivateSettingsPlugin]
+[2020-02-16T18:25:50,774][INFO ][o.e.p.PluginsService     ] [testClearOnClose] loaded plugin [org.elasticsearch.search.SearchServiceTests$CustomScriptPlugin]
+[2020-02-16T18:25:50,774][INFO ][o.e.p.PluginsService     ] [testClearOnClose] loaded plugin [org.elasticsearch.search.SearchServiceTests$FailOnRewriteQueryPlugin]
+[2020-02-16T18:25:50,774][INFO ][o.e.p.PluginsService     ] [testClearOnClose] loaded plugin [org.elasticsearch.search.SearchServiceTests$ReaderWrapperCountPlugin]
+[2020-02-16T18:25:50,774][INFO ][o.e.p.PluginsService     ] [testClearOnClose] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T18:25:50,774][INFO ][o.e.p.PluginsService     ] [testClearOnClose] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T18:25:50,968][INFO ][o.e.d.DiscoveryModule    ] [testClearOnClose] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T18:25:50,974][INFO ][o.e.n.Node               ] [testClearOnClose] initialized
+[2020-02-16T18:25:50,974][INFO ][o.e.n.Node               ] [testClearOnClose] starting ...
+[2020-02-16T18:25:51,237][INFO ][o.e.t.TransportService   ] [testClearOnClose] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T18:25:51,243][INFO ][o.e.c.c.Coordinator      ] [testClearOnClose] setting initial configuration to VotingConfiguration{RWmA0mUJQS6WHGSXE43ZzA}
+[2020-02-16T18:25:51,288][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{RWmA0mUJQS6WHGSXE43ZzA}{_ALTZTVdSTmtKRlAjR-CYA}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{RWmA0mUJQS6WHGSXE43ZzA}{_ALTZTVdSTmtKRlAjR-CYA}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T18:25:51,295][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [AX6G0A-uSiCum-mZ2FdSOw]
+[2020-02-16T18:25:51,301][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{RWmA0mUJQS6WHGSXE43ZzA}{_ALTZTVdSTmtKRlAjR-CYA}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T18:25:51,301][INFO ][o.e.n.Node               ] [testClearOnClose] started
+[2020-02-16T18:25:51,306][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T18:25:51,307][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T18:25:51,315][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T18:25:51,323][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T18:25:51,323][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T18:25:51,323][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T18:25:51,324][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

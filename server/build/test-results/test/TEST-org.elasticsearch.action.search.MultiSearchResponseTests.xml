@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.MultiSearchResponseTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.465">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.search.MultiSearchResponseTests" time="0.326"/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.action.search.MultiSearchResponseTests" time="0.138"/>
+  <system-out><![CDATA[[2020-02-17T00:20:38,366][INFO ][o.e.a.s.MultiSearchResponseTests] [testFromXContent] before test
+[2020-02-17T00:20:38,687][INFO ][o.e.a.s.MultiSearchResponseTests] [testFromXContent] after test
+[2020-02-17T00:20:38,696][INFO ][o.e.a.s.MultiSearchResponseTests] [testFromXContentWithFailures] before test
+[2020-02-17T00:20:38,826][INFO ][o.e.a.s.MultiSearchResponseTests] [testFromXContentWithFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

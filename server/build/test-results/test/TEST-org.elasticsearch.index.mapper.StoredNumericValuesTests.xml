@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.StoredNumericValuesTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:32" hostname="Escoto-PC" time="0.749">
+  <properties/>
+  <testcase name="testBytesAndNumericRepresentation" classname="org.elasticsearch.index.mapper.StoredNumericValuesTests" time="0.749"/>
+  <system-out><![CDATA[[2020-02-16T19:23:32,828][INFO ][o.e.e.NodeEnvironment    ] [testBytesAndNumericRepresentation] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T19:23:32,829][INFO ][o.e.e.NodeEnvironment    ] [testBytesAndNumericRepresentation] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T19:23:32,831][INFO ][o.e.n.Node               ] [testBytesAndNumericRepresentation] node name [node_s_0], node ID [DLNKiuTDQSy9riQlPX3d0A], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-8294117340145110568]-HASH=[14E1A8B4AF9]]
+[2020-02-16T19:23:32,831][INFO ][o.e.n.Node               ] [testBytesAndNumericRepresentation] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T19:23:32,831][INFO ][o.e.n.Node               ] [testBytesAndNumericRepresentation] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T19:23:32,831][INFO ][o.e.n.Node               ] [testBytesAndNumericRepresentation] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T19:23:32,831][INFO ][o.e.p.PluginsService     ] [testBytesAndNumericRepresentation] no modules loaded
+[2020-02-16T19:23:32,831][INFO ][o.e.p.PluginsService     ] [testBytesAndNumericRepresentation] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T19:23:32,831][INFO ][o.e.p.PluginsService     ] [testBytesAndNumericRepresentation] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T19:23:33,046][INFO ][o.e.d.DiscoveryModule    ] [testBytesAndNumericRepresentation] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T19:23:33,053][INFO ][o.e.n.Node               ] [testBytesAndNumericRepresentation] initialized
+[2020-02-16T19:23:33,053][INFO ][o.e.n.Node               ] [testBytesAndNumericRepresentation] starting ...
+[2020-02-16T19:23:33,371][INFO ][o.e.t.TransportService   ] [testBytesAndNumericRepresentation] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T19:23:33,378][INFO ][o.e.c.c.Coordinator      ] [testBytesAndNumericRepresentation] setting initial configuration to VotingConfiguration{DLNKiuTDQSy9riQlPX3d0A}
+[2020-02-16T19:23:33,405][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{DLNKiuTDQSy9riQlPX3d0A}{an6_XcKzRNWZweSkueKZLA}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{DLNKiuTDQSy9riQlPX3d0A}{an6_XcKzRNWZweSkueKZLA}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T19:23:33,412][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [A7LcyXuvSB6XFC4SIrNhlw]
+[2020-02-16T19:23:33,418][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{DLNKiuTDQSy9riQlPX3d0A}{an6_XcKzRNWZweSkueKZLA}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T19:23:33,419][INFO ][o.e.n.Node               ] [testBytesAndNumericRepresentation] started
+[2020-02-16T19:23:33,423][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T19:23:33,425][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T19:23:33,439][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T19:23:33,451][INFO ][o.e.i.m.StoredNumericValuesTests] [testBytesAndNumericRepresentation] before test
+[2020-02-16T19:23:33,453][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T19:23:33,524][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:23:33,540][INFO ][o.e.i.m.StoredNumericValuesTests] [testBytesAndNumericRepresentation] after test
+[2020-02-16T19:23:33,542][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/e1fG9u4UTEKseImaOktqTg] deleting index
+[2020-02-16T19:23:33,565][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T19:23:33,567][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T19:23:33,567][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T19:23:33,567][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

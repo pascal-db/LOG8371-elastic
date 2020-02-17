@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.get.GetIndexResponseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:05" hostname="Escoto-PC" time="0.226">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.indices.get.GetIndexResponseTests" time="0.048"/>
+  <testcase name="testCanDecode622Response" classname="org.elasticsearch.action.admin.indices.get.GetIndexResponseTests" time="0.005"/>
+  <testcase name="testCanOutput622Response" classname="org.elasticsearch.action.admin.indices.get.GetIndexResponseTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.get.GetIndexResponseTests" time="0.14"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.get.GetIndexResponseTests" time="0.029"/>
+  <system-out><![CDATA[[2020-02-17T07:20:05,766][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testEqualsAndHashcode] before test
+[2020-02-17T07:20:05,812][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testEqualsAndHashcode] after test
+[2020-02-17T07:20:05,815][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testCanDecode622Response] before test
+[2020-02-17T07:20:05,816][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testCanDecode622Response] after test
+[2020-02-17T07:20:05,819][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testCanOutput622Response] before test
+[2020-02-17T07:20:05,820][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testCanOutput622Response] after test
+[2020-02-17T07:20:05,823][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testFromXContent] before test
+[2020-02-17T07:20:05,961][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testFromXContent] after test
+[2020-02-17T07:20:05,963][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testSerialization] before test
+[2020-02-17T07:20:05,990][INFO ][o.e.a.a.i.g.GetIndexResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

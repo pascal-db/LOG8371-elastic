@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.search.sort.FieldSortBuilderTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.search.sort.FieldSortBuilderTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.search.sort.html">org.elasticsearch.search.sort</a> &gt; FieldSortBuilderTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">13</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.063s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBuildNested</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuildSortField</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuildSortFieldMissingValue</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuildSortFieldOrder</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEqualsAndHashcode</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromXContent</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testModeNonNumericField</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiValueMode</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedRewrites</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedSortBothThrows</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedSortRewrites</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerialization</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownOptionFails</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T23:24:39,518][INFO ][o.e.s.s.FieldSortBuilderTests] [testFromXContent] before test
+[2020-02-16T23:24:39,520][WARN ][o.e.d.s.s.FieldSortBuilder] [testFromXContent] [nested_filter] has been deprecated in favour for the [nested] parameter
+[2020-02-16T23:24:39,521][WARN ][o.e.d.s.s.FieldSortBuilder] [testFromXContent] [nested_path] has been deprecated in favor of the [nested] parameter
+[2020-02-16T23:24:39,526][WARN ][o.e.d.s.s.FieldSortBuilder] [testFromXContent] [nested_path] has been deprecated in favor of the [nested] parameter
+[2020-02-16T23:24:39,532][INFO ][o.e.s.s.FieldSortBuilderTests] [testFromXContent] after test
+[2020-02-16T23:24:39,535][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortField] before test
+[2020-02-16T23:24:39,544][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortField] after test
+[2020-02-16T23:24:39,547][INFO ][o.e.s.s.FieldSortBuilderTests] [testUnknownOptionFails] before test
+[2020-02-16T23:24:39,548][INFO ][o.e.s.s.FieldSortBuilderTests] [testUnknownOptionFails] after test
+[2020-02-16T23:24:39,550][INFO ][o.e.s.s.FieldSortBuilderTests] [testMultiValueMode] before test
+[2020-02-16T23:24:39,550][INFO ][o.e.s.s.FieldSortBuilderTests] [testMultiValueMode] after test
+[2020-02-16T23:24:39,552][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedSortBothThrows] before test
+[2020-02-16T23:24:39,553][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedSortBothThrows] after test
+[2020-02-16T23:24:39,555][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortFieldMissingValue] before test
+[2020-02-16T23:24:39,556][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortFieldMissingValue] after test
+[2020-02-16T23:24:39,558][INFO ][o.e.s.s.FieldSortBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:24:39,560][INFO ][o.e.s.s.FieldSortBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:24:39,563][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildNested] before test
+[2020-02-16T23:24:39,564][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildNested] after test
+[2020-02-16T23:24:39,566][INFO ][o.e.s.s.FieldSortBuilderTests] [testSerialization] before test
+[2020-02-16T23:24:39,566][INFO ][o.e.s.s.FieldSortBuilderTests] [testSerialization] after test
+[2020-02-16T23:24:39,568][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortFieldOrder] before test
+[2020-02-16T23:24:39,569][INFO ][o.e.s.s.FieldSortBuilderTests] [testBuildSortFieldOrder] after test
+[2020-02-16T23:24:39,571][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedSortRewrites] before test
+[2020-02-16T23:24:39,572][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedSortRewrites] after test
+[2020-02-16T23:24:39,573][INFO ][o.e.s.s.FieldSortBuilderTests] [testModeNonNumericField] before test
+[2020-02-16T23:24:39,574][INFO ][o.e.s.s.FieldSortBuilderTests] [testModeNonNumericField] after test
+[2020-02-16T23:24:39,577][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedRewrites] before test
+[2020-02-16T23:24:39,578][INFO ][o.e.s.s.FieldSortBuilderTests] [testNestedRewrites] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

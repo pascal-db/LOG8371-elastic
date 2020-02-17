@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:42" hostname="Escoto-PC" time="6.412">
+  <properties/>
+  <testcase name="testAddNewReplicas" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="1.252"/>
+  <testcase name="testReplicaRollbackStaleDocumentsInPeerRecovery" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.949"/>
+  <testcase name="testTransferMaxSeenAutoIdTimestampOnResync" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.526"/>
+  <testcase name="testRollbackOnPromotion" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.647"/>
+  <testcase name="testIndexingDuringFileRecovery" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.302"/>
+  <testcase name="testRecoveryAfterPrimaryPromotion" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.532"/>
+  <testcase name="testRecoveryOfDisconnectedReplica" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.504"/>
+  <testcase name="testResyncAfterPrimaryPromotion" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.381"/>
+  <testcase name="testDoNotWaitForPendingSeqNo" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.556"/>
+  <testcase name="testCheckpointsAndMarkingInSync" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.219"/>
+  <testcase name="testRecoveryToReplicaThatReceivedExtraDocument" classname="org.elasticsearch.index.replication.RecoveryDuringReplicationTests" time="0.543"/>
+  <system-out><![CDATA[[2020-02-16T22:23:42,502][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testAddNewReplicas] before test
+[2020-02-16T22:23:43,701][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testAddNewReplicas] after test
+[2020-02-16T22:23:43,721][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testReplicaRollbackStaleDocumentsInPeerRecovery] before test
+[2020-02-16T22:23:44,185][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testReplicaRollbackStaleDocumentsInPeerRecovery] --> indexing 1 stale docs
+[2020-02-16T22:23:44,271][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] detected new primary with primary term [25], global checkpoint [4], max_seq_no [5]
+[2020-02-16T22:23:44,327][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] primary-replica resync completed with 1 operations
+[2020-02-16T22:23:44,654][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testReplicaRollbackStaleDocumentsInPeerRecovery] after test
+[2020-02-16T22:23:44,662][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testTransferMaxSeenAutoIdTimestampOnResync] before test
+[2020-02-16T22:23:45,027][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] detected new primary with primary term [101], global checkpoint [-1], max_seq_no [3]
+[2020-02-16T22:23:45,098][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] primary-replica resync completed with 7 operations
+[2020-02-16T22:23:45,185][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testTransferMaxSeenAutoIdTimestampOnResync] after test
+[2020-02-16T22:23:45,188][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testRollbackOnPromotion] before test
+[2020-02-16T22:23:45,546][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] detected new primary with primary term [38], global checkpoint [40], max_seq_no [82]
+[2020-02-16T22:23:45,686][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] primary-replica resync completed with 42 operations
+[2020-02-16T22:23:45,832][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testRollbackOnPromotion] after test
+[2020-02-16T22:23:45,835][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testIndexingDuringFileRecovery] before test
+[2020-02-16T22:23:46,032][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] --> blocking recovery on stage [FINALIZE]
+[2020-02-16T22:23:46,049][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] --> recovery continues from stage [FINALIZE]
+[2020-02-16T22:23:46,133][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testIndexingDuringFileRecovery] after test
+[2020-02-16T22:23:46,144][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testRecoveryAfterPrimaryPromotion] before test
+[2020-02-16T22:23:46,434][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] detected new primary with primary term [31], global checkpoint [7], max_seq_no [7]
+[2020-02-16T22:23:46,438][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T22:23:46,667][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testRecoveryAfterPrimaryPromotion] after test
+[2020-02-16T22:23:46,670][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testRecoveryOfDisconnectedReplica] before test
+[2020-02-16T22:23:47,172][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testRecoveryOfDisconnectedReplica] after test
+[2020-02-16T22:23:47,176][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testResyncAfterPrimaryPromotion] before test
+[2020-02-16T22:23:47,381][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testResyncAfterPrimaryPromotion] --> indexing 3 extra docs
+[2020-02-16T22:23:47,383][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testResyncAfterPrimaryPromotion] --> indexing 10 extra docs to be trimmed
+[2020-02-16T22:23:47,388][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testResyncAfterPrimaryPromotion] --> resyncing replicas seqno_stats primary SeqNoStats{maxSeqNo=21, localCheckpoint=21, globalCheckpoint=8} replica SeqNoStats{maxSeqNo=11, localCheckpoint=11, globalCheckpoint=8}
+[2020-02-16T22:23:47,435][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] detected new primary with primary term [62], global checkpoint [8], max_seq_no [21]
+[2020-02-16T22:23:47,523][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] primary-replica resync completed with 3 operations
+[2020-02-16T22:23:47,553][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testResyncAfterPrimaryPromotion] after test
+[2020-02-16T22:23:47,556][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testDoNotWaitForPendingSeqNo] before test
+[2020-02-16T22:23:48,106][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testDoNotWaitForPendingSeqNo] after test
+[2020-02-16T22:23:48,110][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testCheckpointsAndMarkingInSync] before test
+[2020-02-16T22:23:48,176][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testCheckpointsAndMarkingInSync] indexed [10] docs
+[2020-02-16T22:23:48,325][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testCheckpointsAndMarkingInSync] after test
+[2020-02-16T22:23:48,335][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testRecoveryToReplicaThatReceivedExtraDocument] before test
+[2020-02-16T22:23:48,702][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] detected new primary with primary term [2], global checkpoint [12], max_seq_no [13]
+[2020-02-16T22:23:48,785][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.RecoveryDuringReplicationTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T22:23:48,867][INFO ][o.e.i.r.RecoveryDuringReplicationTests] [testRecoveryToReplicaThatReceivedExtraDocument] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

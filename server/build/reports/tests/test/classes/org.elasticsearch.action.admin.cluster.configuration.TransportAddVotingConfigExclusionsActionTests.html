@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.action.admin.cluster.configuration.TransportAddVotingConfigExclusionsActionTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.action.admin.cluster.configuration.html">org.elasticsearch.action.admin.cluster.configuration</a> &gt; TransportAddVotingConfigExclusionsActionTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.237s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testOnlyMatchesMasterEligibleNodes</td>
+<td class="success">0.047s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReturnsErrorIfMaximumExclusionCountExceeded</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReturnsErrorIfNoMatchingNodes</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReturnsImmediatelyIfVoteAlreadyWithdrawn</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSucceedsEvenIfAllExclusionsAlreadyAdded</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTimesOut</td>
+<td class="success">0.109s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWithdrawsVoteFromANode</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWithdrawsVoteFromLocalNode</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWithdrawsVotesFromAllMasterEligibleNodes</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWithdrawsVotesFromMultipleNodes</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWithdrawsVotesFromNodesMatchingWildcard</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T01:20:00,387][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testOnlyMatchesMasterEligibleNodes] before test
+[2020-02-17T01:20:00,417][INFO ][o.e.c.s.ClusterApplierService] [test] added {{data}{data}{dN8Y3LN_RDq32JYgNvBqBg}{0.0.0.0}{0.0.0.0:4},{other2}{other2}{SnT0Z64fS-afAi81GsGj8Q}{0.0.0.0}{0.0.0.0:3}{m},{other1}{other1}{FOzMUY74RNWs2yr7w-SWEA}{0.0.0.0}{0.0.0.0:2}{m}}, term: 0, version: 1, reason: test setting state
+[2020-02-17T01:20:00,429][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testOnlyMatchesMasterEligibleNodes] after test
+[2020-02-17T01:20:00,432][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVoteFromLocalNode] before test
+[2020-02-17T01:20:00,449][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVoteFromLocalNode] after test
+[2020-02-17T01:20:00,453][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromNodesMatchingWildcard] before test
+[2020-02-17T01:20:00,456][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromNodesMatchingWildcard] after test
+[2020-02-17T01:20:00,459][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromMultipleNodes] before test
+[2020-02-17T01:20:00,466][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromMultipleNodes] after test
+[2020-02-17T01:20:00,469][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsImmediatelyIfVoteAlreadyWithdrawn] before test
+[2020-02-17T01:20:00,473][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsImmediatelyIfVoteAlreadyWithdrawn] after test
+[2020-02-17T01:20:00,475][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testSucceedsEvenIfAllExclusionsAlreadyAdded] before test
+[2020-02-17T01:20:00,478][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testSucceedsEvenIfAllExclusionsAlreadyAdded] after test
+[2020-02-17T01:20:00,482][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testTimesOut] before test
+[2020-02-17T01:20:00,588][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testTimesOut] after test
+[2020-02-17T01:20:00,595][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromAllMasterEligibleNodes] before test
+[2020-02-17T01:20:00,599][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVotesFromAllMasterEligibleNodes] after test
+[2020-02-17T01:20:00,604][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsErrorIfNoMatchingNodes] before test
+[2020-02-17T01:20:00,607][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsErrorIfNoMatchingNodes] after test
+[2020-02-17T01:20:00,611][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsErrorIfMaximumExclusionCountExceeded] before test
+[2020-02-17T01:20:00,614][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testReturnsErrorIfMaximumExclusionCountExceeded] after test
+[2020-02-17T01:20:00,617][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVoteFromANode] before test
+[2020-02-17T01:20:00,622][INFO ][o.e.a.a.c.c.TransportAddVotingConfigExclusionsActionTests] [testWithdrawsVoteFromANode] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

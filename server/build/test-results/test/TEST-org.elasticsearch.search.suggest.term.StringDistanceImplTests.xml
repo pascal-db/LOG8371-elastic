@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.term.StringDistanceImplTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:52" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testWriteTo" classname="org.elasticsearch.search.suggest.term.StringDistanceImplTests" time="0.002"/>
+  <testcase name="testFromString" classname="org.elasticsearch.search.suggest.term.StringDistanceImplTests" time="0.003"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.search.suggest.term.StringDistanceImplTests" time="0.002"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.search.suggest.term.StringDistanceImplTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T12:25:52,997][INFO ][o.e.s.s.t.StringDistanceImplTests] [testWriteTo] before test
+[2020-02-16T12:25:52,997][INFO ][o.e.s.s.t.StringDistanceImplTests] [testWriteTo] after test
+[2020-02-16T12:25:53,000][INFO ][o.e.s.s.t.StringDistanceImplTests] [testFromString] before test
+[2020-02-16T12:25:53,000][INFO ][o.e.s.s.t.StringDistanceImplTests] [testFromString] after test
+[2020-02-16T12:25:53,002][INFO ][o.e.s.s.t.StringDistanceImplTests] [testReadFrom] before test
+[2020-02-16T12:25:53,002][INFO ][o.e.s.s.t.StringDistanceImplTests] [testReadFrom] after test
+[2020-02-16T12:25:53,003][INFO ][o.e.s.s.t.StringDistanceImplTests] [testValidOrdinals] before test
+[2020-02-16T12:25:53,003][INFO ][o.e.s.s.t.StringDistanceImplTests] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.ChannelsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:40" hostname="Escoto-PC" time="0.054">
+  <properties/>
+  <testcase name="testPartialReadWriteThroughBuffers" classname="org.elasticsearch.common.ChannelsTests" time="0.006"/>
+  <testcase name="testReadWriteThoughArrays" classname="org.elasticsearch.common.ChannelsTests" time="0.027"/>
+  <testcase name="testPartialReadWriteThroughArrays" classname="org.elasticsearch.common.ChannelsTests" time="0.003"/>
+  <testcase name="testBufferReadPastEOFWithException" classname="org.elasticsearch.common.ChannelsTests" time="0.006"/>
+  <testcase name="testBufferReadPastEOFWithoutException" classname="org.elasticsearch.common.ChannelsTests" time="0.004"/>
+  <testcase name="testReadWriteThroughBuffers" classname="org.elasticsearch.common.ChannelsTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T16:21:40,709][INFO ][o.e.c.ChannelsTests      ] [testPartialReadWriteThroughBuffers] before test
+[2020-02-16T16:21:40,713][INFO ][o.e.c.ChannelsTests      ] [testPartialReadWriteThroughBuffers] after test
+[2020-02-16T16:21:40,714][INFO ][o.e.c.ChannelsTests      ] [testReadWriteThoughArrays] before test
+[2020-02-16T16:21:40,739][INFO ][o.e.c.ChannelsTests      ] [testReadWriteThoughArrays] after test
+[2020-02-16T16:21:40,741][INFO ][o.e.c.ChannelsTests      ] [testPartialReadWriteThroughArrays] before test
+[2020-02-16T16:21:40,743][INFO ][o.e.c.ChannelsTests      ] [testPartialReadWriteThroughArrays] after test
+[2020-02-16T16:21:40,748][INFO ][o.e.c.ChannelsTests      ] [testBufferReadPastEOFWithException] before test
+[2020-02-16T16:21:40,749][INFO ][o.e.c.ChannelsTests      ] [testBufferReadPastEOFWithException] after test
+[2020-02-16T16:21:40,751][INFO ][o.e.c.ChannelsTests      ] [testBufferReadPastEOFWithoutException] before test
+[2020-02-16T16:21:40,752][INFO ][o.e.c.ChannelsTests      ] [testBufferReadPastEOFWithoutException] after test
+[2020-02-16T16:21:40,755][INFO ][o.e.c.ChannelsTests      ] [testReadWriteThroughBuffers] before test
+[2020-02-16T16:21:40,760][INFO ][o.e.c.ChannelsTests      ] [testReadWriteThroughBuffers] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

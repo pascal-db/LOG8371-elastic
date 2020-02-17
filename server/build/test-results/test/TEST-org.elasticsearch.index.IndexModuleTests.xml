@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.IndexModuleTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:11" hostname="Escoto-PC" time="0.465">
+  <properties/>
+  <testcase name="testOtherServiceBound" classname="org.elasticsearch.index.IndexModuleTests" time="0.018"/>
+  <testcase name="testForceCustomQueryCache" classname="org.elasticsearch.index.IndexModuleTests" time="0.019"/>
+  <testcase name="testIndexAnalyzersCleanedUpIfIndexServiceCreationFails" classname="org.elasticsearch.index.IndexModuleTests" time="0.018"/>
+  <testcase name="testWrapperIsBound" classname="org.elasticsearch.index.IndexModuleTests" time="0.018"/>
+  <testcase name="testAddIndexOperationListener" classname="org.elasticsearch.index.IndexModuleTests" time="0.016"/>
+  <testcase name="testSetupUnknownSimilarity" classname="org.elasticsearch.index.IndexModuleTests" time="0.017"/>
+  <testcase name="testFrozen" classname="org.elasticsearch.index.IndexModuleTests" time="0.016"/>
+  <testcase name="testRegisterIndexStore" classname="org.elasticsearch.index.IndexModuleTests" time="0.02"/>
+  <testcase name="testAddSimilarity" classname="org.elasticsearch.index.IndexModuleTests" time="0.031"/>
+  <testcase name="testCustomQueryCacheCleanedUpIfIndexServiceCreationFails" classname="org.elasticsearch.index.IndexModuleTests" time="0.021"/>
+  <testcase name="testDisableQueryCacheHasPrecedenceOverForceQueryCache" classname="org.elasticsearch.index.IndexModuleTests" time="0.02"/>
+  <testcase name="testListener" classname="org.elasticsearch.index.IndexModuleTests" time="0.015"/>
+  <testcase name="testSetupWithoutType" classname="org.elasticsearch.index.IndexModuleTests" time="0.02"/>
+  <testcase name="testDefaultQueryCacheImplIsSelected" classname="org.elasticsearch.index.IndexModuleTests" time="0.155"/>
+  <testcase name="testAddSearchOperationListener" classname="org.elasticsearch.index.IndexModuleTests" time="0.04"/>
+  <testcase name="testMmapNotAllowed" classname="org.elasticsearch.index.IndexModuleTests" time="0.02"/>
+  <system-out><![CDATA[[2020-02-16T23:22:11,886][INFO ][o.e.e.NodeEnvironment    ] [testOtherServiceBound] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:11,888][INFO ][o.e.e.NodeEnvironment    ] [testOtherServiceBound] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:11,890][INFO ][o.e.i.IndexModuleTests   ] [testOtherServiceBound] before test
+[2020-02-16T23:22:11,892][INFO ][o.e.i.IndexModuleTests   ] [testOtherServiceBound] after test
+[2020-02-16T23:22:11,903][INFO ][o.e.e.NodeEnvironment    ] [testForceCustomQueryCache] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:11,903][INFO ][o.e.e.NodeEnvironment    ] [testForceCustomQueryCache] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:11,906][INFO ][o.e.i.IndexModuleTests   ] [testForceCustomQueryCache] before test
+[2020-02-16T23:22:11,908][INFO ][o.e.i.IndexModuleTests   ] [testForceCustomQueryCache] after test
+[2020-02-16T23:22:11,923][INFO ][o.e.e.NodeEnvironment    ] [testIndexAnalyzersCleanedUpIfIndexServiceCreationFails] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:11,923][INFO ][o.e.e.NodeEnvironment    ] [testIndexAnalyzersCleanedUpIfIndexServiceCreationFails] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:11,926][INFO ][o.e.i.IndexModuleTests   ] [testIndexAnalyzersCleanedUpIfIndexServiceCreationFails] before test
+[2020-02-16T23:22:11,929][INFO ][o.e.i.IndexModuleTests   ] [testIndexAnalyzersCleanedUpIfIndexServiceCreationFails] after test
+[2020-02-16T23:22:11,941][INFO ][o.e.e.NodeEnvironment    ] [testWrapperIsBound] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:11,941][INFO ][o.e.e.NodeEnvironment    ] [testWrapperIsBound] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:11,943][INFO ][o.e.i.IndexModuleTests   ] [testWrapperIsBound] before test
+[2020-02-16T23:22:11,947][INFO ][o.e.i.IndexModuleTests   ] [testWrapperIsBound] after test
+[2020-02-16T23:22:11,959][INFO ][o.e.e.NodeEnvironment    ] [testAddIndexOperationListener] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:11,959][INFO ][o.e.e.NodeEnvironment    ] [testAddIndexOperationListener] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:11,961][INFO ][o.e.i.IndexModuleTests   ] [testAddIndexOperationListener] before test
+[2020-02-16T23:22:11,964][INFO ][o.e.i.IndexModuleTests   ] [testAddIndexOperationListener] after test
+[2020-02-16T23:22:11,977][INFO ][o.e.e.NodeEnvironment    ] [testSetupUnknownSimilarity] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:11,977][INFO ][o.e.e.NodeEnvironment    ] [testSetupUnknownSimilarity] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:11,979][INFO ][o.e.i.IndexModuleTests   ] [testSetupUnknownSimilarity] before test
+[2020-02-16T23:22:11,981][INFO ][o.e.i.IndexModuleTests   ] [testSetupUnknownSimilarity] after test
+[2020-02-16T23:22:11,993][INFO ][o.e.e.NodeEnvironment    ] [testFrozen] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:11,993][INFO ][o.e.e.NodeEnvironment    ] [testFrozen] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:11,995][INFO ][o.e.i.IndexModuleTests   ] [testFrozen] before test
+[2020-02-16T23:22:11,997][INFO ][o.e.i.IndexModuleTests   ] [testFrozen] after test
+[2020-02-16T23:22:12,010][INFO ][o.e.e.NodeEnvironment    ] [testRegisterIndexStore] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,010][INFO ][o.e.e.NodeEnvironment    ] [testRegisterIndexStore] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,011][INFO ][o.e.i.IndexModuleTests   ] [testRegisterIndexStore] before test
+[2020-02-16T23:22:12,014][INFO ][o.e.i.IndexModuleTests   ] [testRegisterIndexStore] after test
+[2020-02-16T23:22:12,039][INFO ][o.e.e.NodeEnvironment    ] [testAddSimilarity] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,039][INFO ][o.e.e.NodeEnvironment    ] [testAddSimilarity] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,041][INFO ][o.e.i.IndexModuleTests   ] [testAddSimilarity] before test
+[2020-02-16T23:22:12,045][INFO ][o.e.i.IndexModuleTests   ] [testAddSimilarity] after test
+[2020-02-16T23:22:12,061][INFO ][o.e.e.NodeEnvironment    ] [testCustomQueryCacheCleanedUpIfIndexServiceCreationFails] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,061][INFO ][o.e.e.NodeEnvironment    ] [testCustomQueryCacheCleanedUpIfIndexServiceCreationFails] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,063][INFO ][o.e.i.IndexModuleTests   ] [testCustomQueryCacheCleanedUpIfIndexServiceCreationFails] before test
+[2020-02-16T23:22:12,066][INFO ][o.e.i.IndexModuleTests   ] [testCustomQueryCacheCleanedUpIfIndexServiceCreationFails] after test
+[2020-02-16T23:22:12,082][INFO ][o.e.e.NodeEnvironment    ] [testDisableQueryCacheHasPrecedenceOverForceQueryCache] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,082][INFO ][o.e.e.NodeEnvironment    ] [testDisableQueryCacheHasPrecedenceOverForceQueryCache] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,084][INFO ][o.e.i.IndexModuleTests   ] [testDisableQueryCacheHasPrecedenceOverForceQueryCache] before test
+[2020-02-16T23:22:12,086][INFO ][o.e.i.IndexModuleTests   ] [testDisableQueryCacheHasPrecedenceOverForceQueryCache] after test
+[2020-02-16T23:22:12,100][INFO ][o.e.e.NodeEnvironment    ] [testListener] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,100][INFO ][o.e.e.NodeEnvironment    ] [testListener] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,102][INFO ][o.e.i.IndexModuleTests   ] [testListener] before test
+[2020-02-16T23:22:12,104][INFO ][o.e.i.IndexModuleTests   ] [testListener] after test
+[2020-02-16T23:22:12,117][INFO ][o.e.e.NodeEnvironment    ] [testSetupWithoutType] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,117][INFO ][o.e.e.NodeEnvironment    ] [testSetupWithoutType] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,120][INFO ][o.e.i.IndexModuleTests   ] [testSetupWithoutType] before test
+[2020-02-16T23:22:12,124][INFO ][o.e.i.IndexModuleTests   ] [testSetupWithoutType] after test
+[2020-02-16T23:22:12,136][INFO ][o.e.e.NodeEnvironment    ] [testDefaultQueryCacheImplIsSelected] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,136][INFO ][o.e.e.NodeEnvironment    ] [testDefaultQueryCacheImplIsSelected] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,252][INFO ][o.e.i.IndexModuleTests   ] [testDefaultQueryCacheImplIsSelected] before test
+[2020-02-16T23:22:12,255][INFO ][o.e.i.IndexModuleTests   ] [testDefaultQueryCacheImplIsSelected] after test
+[2020-02-16T23:22:12,301][INFO ][o.e.e.NodeEnvironment    ] [testAddSearchOperationListener] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,301][INFO ][o.e.e.NodeEnvironment    ] [testAddSearchOperationListener] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,303][INFO ][o.e.i.IndexModuleTests   ] [testAddSearchOperationListener] before test
+[2020-02-16T23:22:12,315][INFO ][o.e.i.IndexModuleTests   ] [testAddSearchOperationListener] after test
+[2020-02-16T23:22:12,333][INFO ][o.e.e.NodeEnvironment    ] [testMmapNotAllowed] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T23:22:12,333][INFO ][o.e.e.NodeEnvironment    ] [testMmapNotAllowed] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T23:22:12,335][INFO ][o.e.i.IndexModuleTests   ] [testMmapNotAllowed] before test
+[2020-02-16T23:22:12,337][INFO ][o.e.i.IndexModuleTests   ] [testMmapNotAllowed] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

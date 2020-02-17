@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.sort.SortBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:51" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testRandomSortBuilders" classname="org.elasticsearch.search.sort.SortBuilderTests" time="0.012"/>
+  <testcase name="testMultiFieldSort" classname="org.elasticsearch.search.sort.SortBuilderTests" time="0.002"/>
+  <testcase name="testSingleFieldSort" classname="org.elasticsearch.search.sort.SortBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:51,630][INFO ][o.e.s.s.SortBuilderTests ] [testRandomSortBuilders] before test
+[2020-02-16T18:25:51,638][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testRandomSortBuilders] [nested_path] has been deprecated in favour of the [nested] parameter
+[2020-02-16T18:25:51,639][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testRandomSortBuilders] [nested_filter] has been deprecated in favour of the [nested] parameter
+[2020-02-16T18:25:51,640][INFO ][o.e.s.s.SortBuilderTests ] [testRandomSortBuilders] after test
+[2020-02-16T18:25:51,642][INFO ][o.e.s.s.SortBuilderTests ] [testMultiFieldSort] before test
+[2020-02-16T18:25:51,643][INFO ][o.e.s.s.SortBuilderTests ] [testMultiFieldSort] after test
+[2020-02-16T18:25:51,644][INFO ][o.e.s.s.SortBuilderTests ] [testSingleFieldSort] before test
+[2020-02-16T18:25:51,645][INFO ][o.e.s.s.SortBuilderTests ] [testSingleFieldSort] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

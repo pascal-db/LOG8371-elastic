@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchScrollAsyncActionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testFailNextPhase" classname="org.elasticsearch.action.search.SearchScrollAsyncActionTests" time="0.006"/>
+  <testcase name="testSendRequestsToNodes" classname="org.elasticsearch.action.search.SearchScrollAsyncActionTests" time="0.003"/>
+  <testcase name="testShardFailures" classname="org.elasticsearch.action.search.SearchScrollAsyncActionTests" time="0.004"/>
+  <testcase name="testAllShardsFailed" classname="org.elasticsearch.action.search.SearchScrollAsyncActionTests" time="0.004"/>
+  <testcase name="testNodeNotAvailable" classname="org.elasticsearch.action.search.SearchScrollAsyncActionTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T18:20:39,351][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testFailNextPhase] before test
+[2020-02-16T18:20:39,355][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testFailNextPhase] after test
+[2020-02-16T18:20:39,357][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testSendRequestsToNodes] before test
+[2020-02-16T18:20:39,358][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testSendRequestsToNodes] after test
+[2020-02-16T18:20:39,360][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testShardFailures] before test
+[2020-02-16T18:20:39,362][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testShardFailures] after test
+[2020-02-16T18:20:39,364][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testAllShardsFailed] before test
+[2020-02-16T18:20:39,367][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testAllShardsFailed] after test
+[2020-02-16T18:20:39,370][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testNodeNotAvailable] before test
+[2020-02-16T18:20:39,377][INFO ][o.e.a.s.SearchScrollAsyncActionTests] [testNodeNotAvailable] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

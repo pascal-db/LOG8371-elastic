@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:58" hostname="Escoto-PC" time="0.332">
+  <properties/>
+  <testcase name="testOverlappingTerms" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.108"/>
+  <testcase name="testSimple" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.085"/>
+  <testcase name="testMultiPhrasePrefixQuery" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.044"/>
+  <testcase name="testRepeat" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.02"/>
+  <testcase name="testSmallSentenceBoundedBreakIterator" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.013"/>
+  <testcase name="testMultiPhrasePrefixQuerySingleTerm" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.016"/>
+  <testcase name="testGroupSentences" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.012"/>
+  <testcase name="testCommonTermsQuery" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.013"/>
+  <testcase name="testNoMatchSize" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.01"/>
+  <testcase name="testSentenceBoundedBreakIterator" classname="org.apache.lucene.search.uhighlight.CustomUnifiedHighlighterTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T19:19:58,875][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testOverlappingTerms] before test
+[2020-02-16T19:19:58,981][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testOverlappingTerms] after test
+[2020-02-16T19:19:59,051][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testSimple] before test
+[2020-02-16T19:19:59,066][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testSimple] after test
+[2020-02-16T19:19:59,083][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testMultiPhrasePrefixQuery] before test
+[2020-02-16T19:19:59,111][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testMultiPhrasePrefixQuery] after test
+[2020-02-16T19:19:59,115][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testRepeat] before test
+[2020-02-16T19:19:59,131][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testRepeat] after test
+[2020-02-16T19:19:59,135][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testSmallSentenceBoundedBreakIterator] before test
+[2020-02-16T19:19:59,145][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testSmallSentenceBoundedBreakIterator] after test
+[2020-02-16T19:19:59,148][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testMultiPhrasePrefixQuerySingleTerm] before test
+[2020-02-16T19:19:59,161][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testMultiPhrasePrefixQuerySingleTerm] after test
+[2020-02-16T19:19:59,163][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testGroupSentences] before test
+[2020-02-16T19:19:59,173][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testGroupSentences] after test
+[2020-02-16T19:19:59,176][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testCommonTermsQuery] before test
+[2020-02-16T19:19:59,185][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testCommonTermsQuery] after test
+[2020-02-16T19:19:59,189][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testNoMatchSize] before test
+[2020-02-16T19:19:59,195][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testNoMatchSize] after test
+[2020-02-16T19:19:59,199][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testSentenceBoundedBreakIterator] before test
+[2020-02-16T19:19:59,204][INFO ][o.a.l.s.u.CustomUnifiedHighlighterTests] [testSentenceBoundedBreakIterator] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

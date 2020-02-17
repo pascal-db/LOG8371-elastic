@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.TransportHandshakerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:21" hostname="Escoto-PC" time="0.126">
+  <properties/>
+  <testcase name="testHandshakeRequestAndResponse" classname="org.elasticsearch.transport.TransportHandshakerTests" time="0.016"/>
+  <testcase name="testHandshakeTimeout" classname="org.elasticsearch.transport.TransportHandshakerTests" time="0.103"/>
+  <testcase name="testSendRequestThrowsException" classname="org.elasticsearch.transport.TransportHandshakerTests" time="0.003"/>
+  <testcase name="testHandshakeError" classname="org.elasticsearch.transport.TransportHandshakerTests" time="0.002"/>
+  <testcase name="testHandshakeRequestFutureVersionsCompatibility" classname="org.elasticsearch.transport.TransportHandshakerTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:26:21,473][INFO ][o.e.t.TransportHandshakerTests] [testHandshakeRequestAndResponse] before test
+[2020-02-16T19:26:21,474][INFO ][o.e.t.TransportHandshakerTests] [testHandshakeRequestAndResponse] after test
+[2020-02-16T19:26:21,476][INFO ][o.e.t.TransportHandshakerTests] [testHandshakeTimeout] before test
+[2020-02-16T19:26:21,577][INFO ][o.e.t.TransportHandshakerTests] [testHandshakeTimeout] after test
+[2020-02-16T19:26:21,579][INFO ][o.e.t.TransportHandshakerTests] [testSendRequestThrowsException] before test
+[2020-02-16T19:26:21,580][INFO ][o.e.t.TransportHandshakerTests] [testSendRequestThrowsException] after test
+[2020-02-16T19:26:21,582][INFO ][o.e.t.TransportHandshakerTests] [testHandshakeError] before test
+[2020-02-16T19:26:21,582][INFO ][o.e.t.TransportHandshakerTests] [testHandshakeError] after test
+[2020-02-16T19:26:21,584][INFO ][o.e.t.TransportHandshakerTests] [testHandshakeRequestFutureVersionsCompatibility] before test
+[2020-02-16T19:26:21,584][INFO ][o.e.t.TransportHandshakerTests] [testHandshakeRequestFutureVersionsCompatibility] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

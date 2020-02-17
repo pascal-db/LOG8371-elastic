@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.logging.PrefixLoggerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:45" hostname="Escoto-PC" time="0.032">
+  <properties/>
+  <testcase name="testEmptyPrefix" classname="org.elasticsearch.common.logging.PrefixLoggerTests" time="0.013"/>
+  <testcase name="testNullPrefix" classname="org.elasticsearch.common.logging.PrefixLoggerTests" time="0.019"/>
+  <system-out><![CDATA[[2020-02-17T05:21:45,160][INFO ][o.e.c.l.PrefixLoggerTests] [testEmptyPrefix] before test
+[2020-02-17T05:21:45,162][INFO ][o.e.c.l.PrefixLoggerTests] [testEmptyPrefix] after test
+[2020-02-17T05:21:45,181][INFO ][o.e.c.l.PrefixLoggerTests] [testNullPrefix] before test
+[2020-02-17T05:21:45,182][INFO ][o.e.c.l.PrefixLoggerTests] [testNullPrefix] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

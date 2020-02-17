@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.recovery.RecoveriesCollectionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:16" hostname="Escoto-PC" time="0.346">
+  <properties/>
+  <testcase name="testResetRecovery" classname="org.elasticsearch.recovery.RecoveriesCollectionTests" time="0.162"/>
+  <testcase name="testLastAccessTimeUpdate" classname="org.elasticsearch.recovery.RecoveriesCollectionTests" time="0.022"/>
+  <testcase name="testRecoveryCancellation" classname="org.elasticsearch.recovery.RecoveriesCollectionTests" time="0.035"/>
+  <testcase name="testRecoveryTimeout" classname="org.elasticsearch.recovery.RecoveriesCollectionTests" time="0.126"/>
+  <system-out><![CDATA[[2020-02-17T03:25:16,157][INFO ][o.e.r.RecoveriesCollectionTests] [testResetRecovery] before test
+[2020-02-17T03:25:16,317][INFO ][o.e.r.RecoveriesCollectionTests] [testResetRecovery] after test
+[2020-02-17T03:25:16,319][INFO ][o.e.r.RecoveriesCollectionTests] [testLastAccessTimeUpdate] before test
+[2020-02-17T03:25:16,339][INFO ][o.e.r.RecoveriesCollectionTests] [testLastAccessTimeUpdate] after test
+[2020-02-17T03:25:16,342][INFO ][o.e.r.RecoveriesCollectionTests] [testRecoveryCancellation] before test
+[2020-02-17T03:25:16,374][INFO ][o.e.r.RecoveriesCollectionTests] [testRecoveryCancellation] after test
+[2020-02-17T03:25:16,377][INFO ][o.e.r.RecoveriesCollectionTests] [testRecoveryTimeout] before test
+[2020-02-17T03:25:16,501][INFO ][o.e.r.RecoveriesCollectionTests] [testRecoveryTimeout] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

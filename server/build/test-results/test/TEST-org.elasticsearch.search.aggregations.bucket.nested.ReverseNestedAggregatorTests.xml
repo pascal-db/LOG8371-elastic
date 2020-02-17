@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.nested.ReverseNestedAggregatorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.194">
+  <properties/>
+  <testcase name="testMaxFromParentDocs" classname="org.elasticsearch.search.aggregations.bucket.nested.ReverseNestedAggregatorTests" time="0.012"/>
+  <testcase name="testFieldAlias" classname="org.elasticsearch.search.aggregations.bucket.nested.ReverseNestedAggregatorTests" time="0.172"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.bucket.nested.ReverseNestedAggregatorTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T12:24:21,092][INFO ][o.e.s.a.b.n.ReverseNestedAggregatorTests] [testMaxFromParentDocs] before test
+[2020-02-16T12:24:21,101][INFO ][o.e.s.a.b.n.ReverseNestedAggregatorTests] [testMaxFromParentDocs] after test
+[2020-02-16T12:24:21,105][INFO ][o.e.s.a.b.n.ReverseNestedAggregatorTests] [testFieldAlias] before test
+[2020-02-16T12:24:21,273][INFO ][o.e.s.a.b.n.ReverseNestedAggregatorTests] [testFieldAlias] after test
+[2020-02-16T12:24:21,280][INFO ][o.e.s.a.b.n.ReverseNestedAggregatorTests] [testNoDocs] before test
+[2020-02-16T12:24:21,283][INFO ][o.e.s.a.b.n.ReverseNestedAggregatorTests] [testNoDocs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

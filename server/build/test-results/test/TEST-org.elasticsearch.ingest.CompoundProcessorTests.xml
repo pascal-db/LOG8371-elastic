@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.CompoundProcessorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:00" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testBreakOnFailure" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.005"/>
+  <testcase name="testSingleProcessorWithException" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.004"/>
+  <testcase name="testSingleProcessorWithOnFailureProcessor" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.003"/>
+  <testcase name="testSingleProcessorWithOnFailureDropProcessor" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.003"/>
+  <testcase name="testCompoundProcessorExceptionFailWithoutOnFailure" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.004"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.003"/>
+  <testcase name="testIgnoreFailure" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.003"/>
+  <testcase name="testSingleProcessorWithNestedFailures" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.003"/>
+  <testcase name="testCompoundProcessorExceptionFailInOnFailure" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.003"/>
+  <testcase name="testCompoundProcessorExceptionFail" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.002"/>
+  <testcase name="testSingleProcessor" classname="org.elasticsearch.ingest.CompoundProcessorTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T19:24:00,375][INFO ][o.e.i.CompoundProcessorTests] [testBreakOnFailure] before test
+[2020-02-16T19:24:00,378][INFO ][o.e.i.CompoundProcessorTests] [testBreakOnFailure] after test
+[2020-02-16T19:24:00,381][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithException] before test
+[2020-02-16T19:24:00,381][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithException] after test
+[2020-02-16T19:24:00,383][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithOnFailureProcessor] before test
+[2020-02-16T19:24:00,384][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithOnFailureProcessor] after test
+[2020-02-16T19:24:00,386][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithOnFailureDropProcessor] before test
+[2020-02-16T19:24:00,387][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithOnFailureDropProcessor] after test
+[2020-02-16T19:24:00,389][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFailWithoutOnFailure] before test
+[2020-02-16T19:24:00,391][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFailWithoutOnFailure] after test
+[2020-02-16T19:24:00,394][INFO ][o.e.i.CompoundProcessorTests] [testEmpty] before test
+[2020-02-16T19:24:00,394][INFO ][o.e.i.CompoundProcessorTests] [testEmpty] after test
+[2020-02-16T19:24:00,396][INFO ][o.e.i.CompoundProcessorTests] [testIgnoreFailure] before test
+[2020-02-16T19:24:00,397][INFO ][o.e.i.CompoundProcessorTests] [testIgnoreFailure] after test
+[2020-02-16T19:24:00,399][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithNestedFailures] before test
+[2020-02-16T19:24:00,400][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithNestedFailures] after test
+[2020-02-16T19:24:00,402][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFailInOnFailure] before test
+[2020-02-16T19:24:00,403][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFailInOnFailure] after test
+[2020-02-16T19:24:00,405][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFail] before test
+[2020-02-16T19:24:00,406][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFail] after test
+[2020-02-16T19:24:00,409][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessor] before test
+[2020-02-16T19:24:00,410][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessor] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

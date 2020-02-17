@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.EsExecutorsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:51" hostname="Escoto-PC" time="0.168">
+  <properties/>
+  <testcase name="testScaleDown" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.137"/>
+  <testcase name="testInheritContext" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.003"/>
+  <testcase name="testRejectionMessageAndShuttingDownFlag" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.004"/>
+  <testcase name="testScaleUp" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.003"/>
+  <testcase name="testFixedForcedExecution" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.003"/>
+  <testcase name="testGetTasks" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.004"/>
+  <testcase name="testNodeProcessorsBound" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.007"/>
+  <testcase name="testFixedRejected" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.004"/>
+  <testcase name="testProcessorsBound" classname="org.elasticsearch.common.util.concurrent.EsExecutorsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T10:20:51,449][INFO ][o.e.c.u.c.EsExecutorsTests] [testScaleDown] before test
+[2020-02-17T10:20:51,584][INFO ][o.e.c.u.c.EsExecutorsTests] [testScaleDown] after test
+[2020-02-17T10:20:51,586][INFO ][o.e.c.u.c.EsExecutorsTests] [testInheritContext] before test
+[2020-02-17T10:20:51,587][INFO ][o.e.c.u.c.EsExecutorsTests] [testInheritContext] after test
+[2020-02-17T10:20:51,589][INFO ][o.e.c.u.c.EsExecutorsTests] [testRejectionMessageAndShuttingDownFlag] before test
+[2020-02-17T10:20:51,591][INFO ][o.e.c.u.c.EsExecutorsTests] [testRejectionMessageAndShuttingDownFlag] after test
+[2020-02-17T10:20:51,592][INFO ][o.e.c.u.c.EsExecutorsTests] [testScaleUp] before test
+[2020-02-17T10:20:51,594][INFO ][o.e.c.u.c.EsExecutorsTests] [testScaleUp] after test
+[2020-02-17T10:20:51,595][INFO ][o.e.c.u.c.EsExecutorsTests] [testFixedForcedExecution] before test
+[2020-02-17T10:20:51,597][INFO ][o.e.c.u.c.EsExecutorsTests] [testFixedForcedExecution] after test
+[2020-02-17T10:20:51,599][INFO ][o.e.c.u.c.EsExecutorsTests] [testGetTasks] before test
+[2020-02-17T10:20:51,601][INFO ][o.e.c.u.c.EsExecutorsTests] [testGetTasks] after test
+[2020-02-17T10:20:51,604][INFO ][o.e.c.u.c.EsExecutorsTests] [testNodeProcessorsBound] before test
+[2020-02-17T10:20:51,608][WARN ][o.e.d.c.u.c.EsExecutors  ] [testNodeProcessorsBound] setting [node.processors] to value [1063588959] which is more than available processors [4] is deprecated
+[2020-02-17T10:20:51,608][INFO ][o.e.c.u.c.EsExecutorsTests] [testNodeProcessorsBound] after test
+[2020-02-17T10:20:51,610][INFO ][o.e.c.u.c.EsExecutorsTests] [testFixedRejected] before test
+[2020-02-17T10:20:51,612][INFO ][o.e.c.u.c.EsExecutorsTests] [testFixedRejected] after test
+[2020-02-17T10:20:51,613][INFO ][o.e.c.u.c.EsExecutorsTests] [testProcessorsBound] before test
+[2020-02-17T10:20:51,614][WARN ][o.e.d.c.s.Settings       ] [testProcessorsBound] [processors] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T10:20:51,615][INFO ][o.e.c.u.c.EsExecutorsTests] [testProcessorsBound] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

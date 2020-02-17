@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.recycler.NoneRecyclerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:49" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testDestroyWhenOverCapacity" classname="org.elasticsearch.common.recycler.NoneRecyclerTests" time="0.003"/>
+  <testcase name="testRecycle" classname="org.elasticsearch.common.recycler.NoneRecyclerTests" time="0.001"/>
+  <testcase name="testReuse" classname="org.elasticsearch.common.recycler.NoneRecyclerTests" time="0.009"/>
+  <testcase name="testClose" classname="org.elasticsearch.common.recycler.NoneRecyclerTests" time="0.002"/>
+  <testcase name="testDoubleRelease" classname="org.elasticsearch.common.recycler.NoneRecyclerTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T16:21:49,522][INFO ][o.e.c.r.NoneRecyclerTests] [testDestroyWhenOverCapacity] before test
+[2020-02-16T16:21:49,523][INFO ][o.e.c.r.NoneRecyclerTests] [testDestroyWhenOverCapacity] after test
+[2020-02-16T16:21:49,525][INFO ][o.e.c.r.NoneRecyclerTests] [testRecycle] before test
+[2020-02-16T16:21:49,525][INFO ][o.e.c.r.NoneRecyclerTests] [testRecycle] after test
+[2020-02-16T16:21:49,533][INFO ][o.e.c.r.NoneRecyclerTests] [testReuse] before test
+[2020-02-16T16:21:49,534][INFO ][o.e.c.r.NoneRecyclerTests] [testReuse] after test
+[2020-02-16T16:21:49,536][INFO ][o.e.c.r.NoneRecyclerTests] [testClose] before test
+[2020-02-16T16:21:49,536][INFO ][o.e.c.r.NoneRecyclerTests] [testClose] after test
+[2020-02-16T16:21:49,538][INFO ][o.e.c.r.NoneRecyclerTests] [testDoubleRelease] before test
+[2020-02-16T16:21:49,538][INFO ][o.e.c.r.NoneRecyclerTests] [testDoubleRelease] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

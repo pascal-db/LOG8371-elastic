@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.repositories.RepositoryDataTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.035">
+  <properties/>
+  <testcase name="testIndicesToUpdateAfterRemovingSnapshot" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.006"/>
+  <testcase name="testResolveIndexId" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.004"/>
+  <testcase name="testGetSnapshotState" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.002"/>
+  <testcase name="testInitIndices" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.003"/>
+  <testcase name="testXContent" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.002"/>
+  <testcase name="testIndexThatReferenceANullSnapshot" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.002"/>
+  <testcase name="testEqualsAndHashCode" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.002"/>
+  <testcase name="testAddSnapshots" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.002"/>
+  <testcase name="testIndexThatReferencesAnUnknownSnapshot" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.007"/>
+  <testcase name="testRemoveSnapshot" classname="org.elasticsearch.repositories.RepositoryDataTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T19:24:04,469][INFO ][o.e.r.RepositoryDataTests] [testIndicesToUpdateAfterRemovingSnapshot] before test
+[2020-02-16T19:24:04,472][INFO ][o.e.r.RepositoryDataTests] [testIndicesToUpdateAfterRemovingSnapshot] after test
+[2020-02-16T19:24:04,475][INFO ][o.e.r.RepositoryDataTests] [testResolveIndexId] before test
+[2020-02-16T19:24:04,476][INFO ][o.e.r.RepositoryDataTests] [testResolveIndexId] after test
+[2020-02-16T19:24:04,478][INFO ][o.e.r.RepositoryDataTests] [testGetSnapshotState] before test
+[2020-02-16T19:24:04,478][INFO ][o.e.r.RepositoryDataTests] [testGetSnapshotState] after test
+[2020-02-16T19:24:04,480][INFO ][o.e.r.RepositoryDataTests] [testInitIndices] before test
+[2020-02-16T19:24:04,481][INFO ][o.e.r.RepositoryDataTests] [testInitIndices] after test
+[2020-02-16T19:24:04,483][INFO ][o.e.r.RepositoryDataTests] [testXContent] before test
+[2020-02-16T19:24:04,484][INFO ][o.e.r.RepositoryDataTests] [testXContent] after test
+[2020-02-16T19:24:04,486][INFO ][o.e.r.RepositoryDataTests] [testIndexThatReferenceANullSnapshot] before test
+[2020-02-16T19:24:04,486][INFO ][o.e.r.RepositoryDataTests] [testIndexThatReferenceANullSnapshot] after test
+[2020-02-16T19:24:04,488][INFO ][o.e.r.RepositoryDataTests] [testEqualsAndHashCode] before test
+[2020-02-16T19:24:04,488][INFO ][o.e.r.RepositoryDataTests] [testEqualsAndHashCode] after test
+[2020-02-16T19:24:04,490][INFO ][o.e.r.RepositoryDataTests] [testAddSnapshots] before test
+[2020-02-16T19:24:04,490][INFO ][o.e.r.RepositoryDataTests] [testAddSnapshots] after test
+[2020-02-16T19:24:04,494][INFO ][o.e.r.RepositoryDataTests] [testIndexThatReferencesAnUnknownSnapshot] before test
+[2020-02-16T19:24:04,498][INFO ][o.e.r.RepositoryDataTests] [testIndexThatReferencesAnUnknownSnapshot] after test
+[2020-02-16T19:24:04,500][INFO ][o.e.r.RepositoryDataTests] [testRemoveSnapshot] before test
+[2020-02-16T19:24:04,501][INFO ][o.e.r.RepositoryDataTests] [testRemoveSnapshot] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

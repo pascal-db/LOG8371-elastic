@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchResponseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.183">
+  <properties/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.action.search.SearchResponseTests" time="0.09"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.search.SearchResponseTests" time="0.05"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.search.SearchResponseTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.search.SearchResponseTests" time="0.036"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.action.search.SearchResponseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T03:20:19,572][INFO ][o.e.a.s.SearchResponseTests] [testFromXContentWithFailures] before test
+[2020-02-17T03:20:19,628][INFO ][o.e.a.s.SearchResponseTests] [testFromXContentWithFailures] after test
+[2020-02-17T03:20:19,630][INFO ][o.e.a.s.SearchResponseTests] [testSerialization] before test
+[2020-02-17T03:20:19,678][INFO ][o.e.a.s.SearchResponseTests] [testSerialization] after test
+[2020-02-17T03:20:19,680][INFO ][o.e.a.s.SearchResponseTests] [testToXContent] before test
+[2020-02-17T03:20:19,681][INFO ][o.e.a.s.SearchResponseTests] [testToXContent] after test
+[2020-02-17T03:20:19,684][INFO ][o.e.a.s.SearchResponseTests] [testFromXContent] before test
+[2020-02-17T03:20:19,717][INFO ][o.e.a.s.SearchResponseTests] [testFromXContent] after test
+[2020-02-17T03:20:19,721][INFO ][o.e.a.s.SearchResponseTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T03:20:19,722][INFO ][o.e.a.s.SearchResponseTests] [testFromXContentWithRandomFields] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

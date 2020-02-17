@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:23" hostname="Escoto-PC" time="0.314">
+  <properties/>
+  <testcase name="testSingleValuedFieldWithValueScript" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.015"/>
+  <testcase name="testScriptMultiValuedWithParams" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.015"/>
+  <testcase name="testMultiValuedField" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.024"/>
+  <testcase name="testScriptMultiValued" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.028"/>
+  <testcase name="testOrderByEmptyAggregation" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.009"/>
+  <testcase name="testUnmappedField" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.005"/>
+  <testcase name="testSomeMatchesSortedNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.005"/>
+  <testcase name="testCacheAggregation" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.006"/>
+  <testcase name="testScriptSingleValued" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.006"/>
+  <testcase name="testSingleValuedField" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.006"/>
+  <testcase name="testSomeMatchesNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.009"/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.027"/>
+  <testcase name="testScriptSingleValuedWithParams" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.015"/>
+  <testcase name="testNoMatchingField" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.006"/>
+  <testcase name="testSingleValuedFieldWithValueScriptWithParams" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.007"/>
+  <testcase name="testMultiValuedFieldWithValueScript" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.006"/>
+  <testcase name="testDontCacheScripts" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.026"/>
+  <testcase name="testQueryFiltersAll" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.011"/>
+  <testcase name="testMultiValuedFieldWithValueScriptWithParams" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.007"/>
+  <testcase name="testUnmappedWithMissingField" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.011"/>
+  <testcase name="testQueryFiltering" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.008"/>
+  <testcase name="testSingleValuedField_WithFormatter" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.008"/>
+  <testcase name="testSingleValuedFieldPartiallyUnmapped" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.04"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.AvgAggregatorTests" time="0.011"/>
+  <system-out><![CDATA[[2020-02-16T16:24:23,109][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedFieldWithValueScript] before test
+[2020-02-16T16:24:23,117][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedFieldWithValueScript] after test
+[2020-02-16T16:24:23,127][INFO ][o.e.s.a.m.AvgAggregatorTests] [testScriptMultiValuedWithParams] before test
+[2020-02-16T16:24:23,132][INFO ][o.e.s.a.m.AvgAggregatorTests] [testScriptMultiValuedWithParams] after test
+[2020-02-16T16:24:23,150][INFO ][o.e.s.a.m.AvgAggregatorTests] [testMultiValuedField] before test
+[2020-02-16T16:24:23,155][INFO ][o.e.s.a.m.AvgAggregatorTests] [testMultiValuedField] after test
+[2020-02-16T16:24:23,177][INFO ][o.e.s.a.m.AvgAggregatorTests] [testScriptMultiValued] before test
+[2020-02-16T16:24:23,184][INFO ][o.e.s.a.m.AvgAggregatorTests] [testScriptMultiValued] after test
+[2020-02-16T16:24:23,186][INFO ][o.e.s.a.m.AvgAggregatorTests] [testOrderByEmptyAggregation] before test
+[2020-02-16T16:24:23,192][INFO ][o.e.s.a.m.AvgAggregatorTests] [testOrderByEmptyAggregation] after test
+[2020-02-16T16:24:23,194][INFO ][o.e.s.a.m.AvgAggregatorTests] [testUnmappedField] before test
+[2020-02-16T16:24:23,198][INFO ][o.e.s.a.m.AvgAggregatorTests] [testUnmappedField] after test
+[2020-02-16T16:24:23,199][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSomeMatchesSortedNumericDocValues] before test
+[2020-02-16T16:24:23,203][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSomeMatchesSortedNumericDocValues] after test
+[2020-02-16T16:24:23,205][INFO ][o.e.s.a.m.AvgAggregatorTests] [testCacheAggregation] before test
+[2020-02-16T16:24:23,209][INFO ][o.e.s.a.m.AvgAggregatorTests] [testCacheAggregation] after test
+[2020-02-16T16:24:23,211][INFO ][o.e.s.a.m.AvgAggregatorTests] [testScriptSingleValued] before test
+[2020-02-16T16:24:23,215][INFO ][o.e.s.a.m.AvgAggregatorTests] [testScriptSingleValued] after test
+[2020-02-16T16:24:23,217][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedField] before test
+[2020-02-16T16:24:23,222][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedField] after test
+[2020-02-16T16:24:23,224][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSomeMatchesNumericDocValues] before test
+[2020-02-16T16:24:23,231][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSomeMatchesNumericDocValues] after test
+[2020-02-16T16:24:23,234][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSummationAccuracy] before test
+[2020-02-16T16:24:23,257][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSummationAccuracy] after test
+[2020-02-16T16:24:23,268][INFO ][o.e.s.a.m.AvgAggregatorTests] [testScriptSingleValuedWithParams] before test
+[2020-02-16T16:24:23,272][INFO ][o.e.s.a.m.AvgAggregatorTests] [testScriptSingleValuedWithParams] after test
+[2020-02-16T16:24:23,274][INFO ][o.e.s.a.m.AvgAggregatorTests] [testNoMatchingField] before test
+[2020-02-16T16:24:23,279][INFO ][o.e.s.a.m.AvgAggregatorTests] [testNoMatchingField] after test
+[2020-02-16T16:24:23,281][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedFieldWithValueScriptWithParams] before test
+[2020-02-16T16:24:23,285][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedFieldWithValueScriptWithParams] after test
+[2020-02-16T16:24:23,287][INFO ][o.e.s.a.m.AvgAggregatorTests] [testMultiValuedFieldWithValueScript] before test
+[2020-02-16T16:24:23,291][INFO ][o.e.s.a.m.AvgAggregatorTests] [testMultiValuedFieldWithValueScript] after test
+[2020-02-16T16:24:23,295][INFO ][o.e.s.a.m.AvgAggregatorTests] [testDontCacheScripts] before test
+[2020-02-16T16:24:23,318][INFO ][o.e.s.a.m.AvgAggregatorTests] [testDontCacheScripts] after test
+[2020-02-16T16:24:23,324][INFO ][o.e.s.a.m.AvgAggregatorTests] [testQueryFiltersAll] before test
+[2020-02-16T16:24:23,329][INFO ][o.e.s.a.m.AvgAggregatorTests] [testQueryFiltersAll] after test
+[2020-02-16T16:24:23,332][INFO ][o.e.s.a.m.AvgAggregatorTests] [testMultiValuedFieldWithValueScriptWithParams] before test
+[2020-02-16T16:24:23,336][INFO ][o.e.s.a.m.AvgAggregatorTests] [testMultiValuedFieldWithValueScriptWithParams] after test
+[2020-02-16T16:24:23,341][INFO ][o.e.s.a.m.AvgAggregatorTests] [testUnmappedWithMissingField] before test
+[2020-02-16T16:24:23,347][INFO ][o.e.s.a.m.AvgAggregatorTests] [testUnmappedWithMissingField] after test
+[2020-02-16T16:24:23,351][INFO ][o.e.s.a.m.AvgAggregatorTests] [testQueryFiltering] before test
+[2020-02-16T16:24:23,355][INFO ][o.e.s.a.m.AvgAggregatorTests] [testQueryFiltering] after test
+[2020-02-16T16:24:23,359][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedField_WithFormatter] before test
+[2020-02-16T16:24:23,364][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedField_WithFormatter] after test
+[2020-02-16T16:24:23,368][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedFieldPartiallyUnmapped] before test
+[2020-02-16T16:24:23,404][INFO ][o.e.s.a.m.AvgAggregatorTests] [testSingleValuedFieldPartiallyUnmapped] after test
+[2020-02-16T16:24:23,412][INFO ][o.e.s.a.m.AvgAggregatorTests] [testNoDocs] before test
+[2020-02-16T16:24:23,415][INFO ][o.e.s.a.m.AvgAggregatorTests] [testNoDocs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

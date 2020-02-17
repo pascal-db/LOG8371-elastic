@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.NumbersTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:49" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testToIntExact" classname="org.elasticsearch.common.NumbersTests" time="0.004"/>
+  <testcase name="testToLongExact" classname="org.elasticsearch.common.NumbersTests" time="0.002"/>
+  <testcase name="testToShortExact" classname="org.elasticsearch.common.NumbersTests" time="0.003"/>
+  <testcase name="testToByteExact" classname="org.elasticsearch.common.NumbersTests" time="0.004"/>
+  <testcase name="testToLong" classname="org.elasticsearch.common.NumbersTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:21:49,412][INFO ][o.e.c.NumbersTests       ] [testToIntExact] before test
+[2020-02-16T22:21:49,415][INFO ][o.e.c.NumbersTests       ] [testToIntExact] after test
+[2020-02-16T22:21:49,417][INFO ][o.e.c.NumbersTests       ] [testToLongExact] before test
+[2020-02-16T22:21:49,417][INFO ][o.e.c.NumbersTests       ] [testToLongExact] after test
+[2020-02-16T22:21:49,419][INFO ][o.e.c.NumbersTests       ] [testToShortExact] before test
+[2020-02-16T22:21:49,420][INFO ][o.e.c.NumbersTests       ] [testToShortExact] after test
+[2020-02-16T22:21:49,423][INFO ][o.e.c.NumbersTests       ] [testToByteExact] before test
+[2020-02-16T22:21:49,424][INFO ][o.e.c.NumbersTests       ] [testToByteExact] after test
+[2020-02-16T22:21:49,426][INFO ][o.e.c.NumbersTests       ] [[TEST-NumbersTests.testToLong-seed#[9EA1F2A3814E5F76]-worker]] before test
+[2020-02-16T22:21:49,428][INFO ][o.e.c.NumbersTests       ] [[TEST-NumbersTests.testToLong-seed#[9EA1F2A3814E5F76]-worker]] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

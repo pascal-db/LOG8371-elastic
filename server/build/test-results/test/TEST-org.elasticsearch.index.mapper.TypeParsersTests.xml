@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.TypeParsersTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:03" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testParseTextFieldCheckSearchAnalyzerAnalysisMode" classname="org.elasticsearch.index.mapper.TypeParsersTests" time="0.012"/>
+  <testcase name="testMultiFieldWithinMultiField" classname="org.elasticsearch.index.mapper.TypeParsersTests" time="0.004"/>
+  <testcase name="testParseTextFieldCheckAnalyzerAnalysisMode" classname="org.elasticsearch.index.mapper.TypeParsersTests" time="0.005"/>
+  <testcase name="testParseTextFieldCheckAnalyzerWithSearchAnalyzerAnalysisMode" classname="org.elasticsearch.index.mapper.TypeParsersTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:23:03,735][INFO ][o.e.i.m.TypeParsersTests ] [testParseTextFieldCheckSearchAnalyzerAnalysisMode] before test
+[2020-02-17T05:23:03,745][INFO ][o.e.i.m.TypeParsersTests ] [testParseTextFieldCheckSearchAnalyzerAnalysisMode] after test
+[2020-02-17T05:23:03,748][INFO ][o.e.i.m.TypeParsersTests ] [testMultiFieldWithinMultiField] before test
+[2020-02-17T05:23:03,749][INFO ][o.e.i.m.TypeParsersTests ] [testMultiFieldWithinMultiField] after test
+[2020-02-17T05:23:03,754][INFO ][o.e.i.m.TypeParsersTests ] [testParseTextFieldCheckAnalyzerAnalysisMode] before test
+[2020-02-17T05:23:03,755][INFO ][o.e.i.m.TypeParsersTests ] [testParseTextFieldCheckAnalyzerAnalysisMode] after test
+[2020-02-17T05:23:03,757][INFO ][o.e.i.m.TypeParsersTests ] [testParseTextFieldCheckAnalyzerWithSearchAnalyzerAnalysisMode] before test
+[2020-02-17T05:23:03,759][INFO ][o.e.i.m.TypeParsersTests ] [testParseTextFieldCheckAnalyzerWithSearchAnalyzerAnalysisMode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

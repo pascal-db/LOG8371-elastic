@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.GeoBoundsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:31" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.metrics.GeoBoundsTests" time="0.013"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.GeoBoundsTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.GeoBoundsTests" time="0.001"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.metrics.GeoBoundsTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.metrics.GeoBoundsTests" time="0.001"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.metrics.GeoBoundsTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.GeoBoundsTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T04:25:31,721][INFO ][o.e.s.a.m.GeoBoundsTests ] [testFromXContentMulti] before test
+[2020-02-17T04:25:31,723][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T04:25:31,723][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T04:25:31,729][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T04:25:31,729][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T04:25:31,732][INFO ][o.e.s.a.m.GeoBoundsTests ] [testFromXContentMulti] after test
+[2020-02-17T04:25:31,734][INFO ][o.e.s.a.m.GeoBoundsTests ] [testSerialization] before test
+[2020-02-17T04:25:31,734][INFO ][o.e.s.a.m.GeoBoundsTests ] [testSerialization] after test
+[2020-02-17T04:25:31,736][INFO ][o.e.s.a.m.GeoBoundsTests ] [testEqualsAndHashcode] before test
+[2020-02-17T04:25:31,736][INFO ][o.e.s.a.m.GeoBoundsTests ] [testEqualsAndHashcode] after test
+[2020-02-17T04:25:31,737][INFO ][o.e.s.a.m.GeoBoundsTests ] [testSerializationMulti] before test
+[2020-02-17T04:25:31,737][INFO ][o.e.s.a.m.GeoBoundsTests ] [testSerializationMulti] after test
+[2020-02-17T04:25:31,739][INFO ][o.e.s.a.m.GeoBoundsTests ] [testShallowCopy] before test
+[2020-02-17T04:25:31,739][INFO ][o.e.s.a.m.GeoBoundsTests ] [testShallowCopy] after test
+[2020-02-17T04:25:31,740][INFO ][o.e.s.a.m.GeoBoundsTests ] [testToString] before test
+[2020-02-17T04:25:31,740][INFO ][o.e.s.a.m.GeoBoundsTests ] [testToString] after test
+[2020-02-17T04:25:31,741][INFO ][o.e.s.a.m.GeoBoundsTests ] [testFromXContent] before test
+[2020-02-17T04:25:31,741][INFO ][o.e.s.a.m.GeoBoundsTests ] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.action.support.broadcast.node.html">org.elasticsearch.action.support.broadcast.node</a> &gt; TransportBroadcastByNodeActionTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.071s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGlobalBlock</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOneRequestIsSentToEachNodeHoldingAShard</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOperationExecution</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRequestBlock</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRequestsAreNotSentToFailedMaster</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testResultAggregation</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T23:20:47,413][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testRequestBlock] before test
+[2020-02-16T23:20:47,419][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{Un5Vn9AlSwadm47z8mDvpA}{0.0.0.0}{0.0.0.0:1}{dim}], current [{node_2}{uhqsHfxRT4am9ASN2QTdtw}{0.0.0.0}{0.0.0.0:4}]}, removed {{node}{Un5Vn9AlSwadm47z8mDvpA}{0.0.0.0}{0.0.0.0:1}{dim}}, added {{node_1}{FtTmXcMeRLCPmgszxW9f9g}{0.0.0.0}{0.0.0.0:3},{node_2}{uhqsHfxRT4am9ASN2QTdtw}{0.0.0.0}{0.0.0.0:4}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,422][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testRequestBlock] after test
+[2020-02-16T23:20:47,425][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testRequestsAreNotSentToFailedMaster] before test
+[2020-02-16T23:20:47,428][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{gEJGLqrZQwacyqgUZqfrQA}{0.0.0.0}{0.0.0.0:7}{dim}], current [{node_2}{3srCLBuyRWWVqe4JOe5zjg}{0.0.0.0}{0.0.0.0:10}]}, removed {{node}{gEJGLqrZQwacyqgUZqfrQA}{0.0.0.0}{0.0.0.0:7}{dim}}, added {{node_1}{up-Q4_ZNQl-5yR_03M9Waw}{0.0.0.0}{0.0.0.0:9},{node_2}{3srCLBuyRWWVqe4JOe5zjg}{0.0.0.0}{0.0.0.0:10}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,433][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node_2}{3srCLBuyRWWVqe4JOe5zjg}{0.0.0.0}{0.0.0.0:10}], current []}, removed {{node_2}{3srCLBuyRWWVqe4JOe5zjg}{0.0.0.0}{0.0.0.0:10}}, term: 0, version: 2, reason: test setting state
+[2020-02-16T23:20:47,436][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testRequestsAreNotSentToFailedMaster] after test
+[2020-02-16T23:20:47,439][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testOperationExecution] before test
+[2020-02-16T23:20:47,442][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{SlhkUwtfQEah32K5u7uQNw}{0.0.0.0}{0.0.0.0:13}{dim}], current [{node_3}{ryJnWvwRTZGQ8r-_6QQXtw}{0.0.0.0}{0.0.0.0:17}]}, removed {{node}{SlhkUwtfQEah32K5u7uQNw}{0.0.0.0}{0.0.0.0:13}{dim}}, added {{node_3}{ryJnWvwRTZGQ8r-_6QQXtw}{0.0.0.0}{0.0.0.0:17},{node_1}{Xw4VE1RnRauu6Mh4CAVwJw}{0.0.0.0}{0.0.0.0:15},{node_2}{6ppOXH5VQEWYSRx-nttb2w}{0.0.0.0}{0.0.0.0:16}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,444][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testOperationExecution] after test
+[2020-02-16T23:20:47,447][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testGlobalBlock] before test
+[2020-02-16T23:20:47,449][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{EF1uy7RBShqSJql9VmObdQ}{0.0.0.0}{0.0.0.0:20}{dim}], current [{node_2}{Ic7EFhSLQVmyt-H3ZWy02A}{0.0.0.0}{0.0.0.0:23}]}, removed {{node}{EF1uy7RBShqSJql9VmObdQ}{0.0.0.0}{0.0.0.0:20}{dim}}, added {{node_1}{7-RU0q6BS-u6BacNpk__cQ}{0.0.0.0}{0.0.0.0:22},{node_2}{Ic7EFhSLQVmyt-H3ZWy02A}{0.0.0.0}{0.0.0.0:23}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,450][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testGlobalBlock] after test
+[2020-02-16T23:20:47,453][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testOneRequestIsSentToEachNodeHoldingAShard] before test
+[2020-02-16T23:20:47,455][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{rE9QxSoMSeuiSEZWYkH6zw}{0.0.0.0}{0.0.0.0:26}{dim}], current [{node_4}{yJWb5tCxT6GKcO-c4fw5qw}{0.0.0.0}{0.0.0.0:31}]}, removed {{node}{rE9QxSoMSeuiSEZWYkH6zw}{0.0.0.0}{0.0.0.0:26}{dim}}, added {{node_3}{ZB0i0zBzS36akAJzX4vnSA}{0.0.0.0}{0.0.0.0:30},{node_1}{WdxydPaURdWIJFg-GKsg_g}{0.0.0.0}{0.0.0.0:28},{node_4}{yJWb5tCxT6GKcO-c4fw5qw}{0.0.0.0}{0.0.0.0:31},{node_2}{MxyVmX93SPKy8nRhFL2rVQ}{0.0.0.0}{0.0.0.0:29}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,456][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testOneRequestIsSentToEachNodeHoldingAShard] after test
+[2020-02-16T23:20:47,458][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testResultAggregation] before test
+[2020-02-16T23:20:47,472][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{1NBUVXxvRlyPOyEWhRDmBA}{0.0.0.0}{0.0.0.0:34}{dim}], current [{node_3}{PuVGFG1lRZSjN6KRUrJfDQ}{0.0.0.0}{0.0.0.0:38}]}, removed {{node}{1NBUVXxvRlyPOyEWhRDmBA}{0.0.0.0}{0.0.0.0:34}{dim}}, added {{node_3}{PuVGFG1lRZSjN6KRUrJfDQ}{0.0.0.0}{0.0.0.0:38},{node_1}{o5e1gnQtQTWpoio1zwjKgw}{0.0.0.0}{0.0.0.0:36},{node_2}{ThFY8glXTnWRvMIlRWiEmQ}{0.0.0.0}{0.0.0.0:37}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,475][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testResultAggregation] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

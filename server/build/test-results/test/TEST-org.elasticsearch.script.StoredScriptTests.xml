@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.script.StoredScriptTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.051">
+  <properties/>
+  <testcase name="testSourceParsingErrors" classname="org.elasticsearch.script.StoredScriptTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.script.StoredScriptTests" time="0.026"/>
+  <testcase name="testSourceParsing" classname="org.elasticsearch.script.StoredScriptTests" time="0.003"/>
+  <testcase name="testBasicAddDelete" classname="org.elasticsearch.script.StoredScriptTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.script.StoredScriptTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.script.StoredScriptTests" time="0.004"/>
+  <testcase name="testEmptyTemplateDeprecations" classname="org.elasticsearch.script.StoredScriptTests" time="0.002"/>
+  <testcase name="testInvalidDelete" classname="org.elasticsearch.script.StoredScriptTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T17:25:18,564][INFO ][o.e.s.StoredScriptTests  ] [testSourceParsingErrors] before test
+[2020-02-16T17:25:18,565][INFO ][o.e.s.StoredScriptTests  ] [testSourceParsingErrors] after test
+[2020-02-16T17:25:18,567][INFO ][o.e.s.StoredScriptTests  ] [testFromXContent] before test
+[2020-02-16T17:25:18,592][INFO ][o.e.s.StoredScriptTests  ] [testFromXContent] after test
+[2020-02-16T17:25:18,594][INFO ][o.e.s.StoredScriptTests  ] [testSourceParsing] before test
+[2020-02-16T17:25:18,594][WARN ][o.e.d.c.ParseField       ] [testSourceParsing] Deprecated field [code] used, expected [source] instead
+[2020-02-16T17:25:18,595][INFO ][o.e.s.StoredScriptTests  ] [testSourceParsing] after test
+[2020-02-16T17:25:18,596][INFO ][o.e.s.StoredScriptTests  ] [testBasicAddDelete] before test
+[2020-02-16T17:25:18,596][INFO ][o.e.s.StoredScriptTests  ] [testBasicAddDelete] after test
+[2020-02-16T17:25:18,598][INFO ][o.e.s.StoredScriptTests  ] [testEqualsAndHashcode] before test
+[2020-02-16T17:25:18,603][INFO ][o.e.s.StoredScriptTests  ] [testEqualsAndHashcode] after test
+[2020-02-16T17:25:18,604][INFO ][o.e.s.StoredScriptTests  ] [testSerialization] before test
+[2020-02-16T17:25:18,607][INFO ][o.e.s.StoredScriptTests  ] [testSerialization] after test
+[2020-02-16T17:25:18,608][INFO ][o.e.s.StoredScriptTests  ] [testEmptyTemplateDeprecations] before test
+[2020-02-16T17:25:18,609][WARN ][o.e.d.s.StoredScriptSource] [testEmptyTemplateDeprecations] empty templates should no longer be used
+[2020-02-16T17:25:18,610][WARN ][o.e.d.s.StoredScriptSource] [testEmptyTemplateDeprecations] empty templates should no longer be used
+[2020-02-16T17:25:18,610][INFO ][o.e.s.StoredScriptTests  ] [testEmptyTemplateDeprecations] after test
+[2020-02-16T17:25:18,612][INFO ][o.e.s.StoredScriptTests  ] [testInvalidDelete] before test
+[2020-02-16T17:25:18,613][INFO ][o.e.s.StoredScriptTests  ] [testInvalidDelete] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

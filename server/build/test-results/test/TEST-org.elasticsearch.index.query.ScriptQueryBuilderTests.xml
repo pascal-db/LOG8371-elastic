@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.ScriptQueryBuilderTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:40" hostname="Escoto-PC" time="0.049">
+  <properties/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.015"/>
+  <testcase name="testFromJsonVerbose" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.003"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.001"/>
+  <testcase name="testArrayOfScriptsException" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.003"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.002"/>
+  <testcase name="testIllegalConstructorArg" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.004"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.ScriptQueryBuilderTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T08:23:40,948][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T08:23:40,951][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-17T08:23:40,951][INFO ][o.e.p.PluginsService     ] [testValidOutput] no plugins loaded
+[2020-02-17T08:23:40,957][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-17T08:23:40,957][INFO ][o.e.p.PluginsService     ] [testValidOutput] no plugins loaded
+[2020-02-17T08:23:40,962][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T08:23:40,964][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testFromJsonVerbose] before test
+[2020-02-17T08:23:40,964][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testFromJsonVerbose] after test
+[2020-02-17T08:23:40,966][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T08:23:40,966][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T08:23:40,967][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testSerialization] before test
+[2020-02-17T08:23:40,968][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testSerialization] after test
+[2020-02-17T08:23:40,969][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T08:23:40,970][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T08:23:40,971][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T08:23:40,972][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T08:23:40,974][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T08:23:40,977][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T08:23:40,979][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testFromJson] before test
+[2020-02-17T08:23:40,979][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testFromJson] after test
+[2020-02-17T08:23:40,981][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T08:23:40,981][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T08:23:40,983][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T08:23:40,983][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T08:23:40,985][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testArrayOfScriptsException] before test
+[2020-02-17T08:23:40,985][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testArrayOfScriptsException] after test
+[2020-02-17T08:23:40,987][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T08:23:40,988][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T08:23:40,990][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testIllegalConstructorArg] before test
+[2020-02-17T08:23:40,990][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testIllegalConstructorArg] after test
+[2020-02-17T08:23:40,992][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testToQuery] before test
+[2020-02-17T08:23:40,994][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testToQuery] after test
+[2020-02-17T08:23:40,996][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testCacheability] before test
+[2020-02-17T08:23:40,996][INFO ][o.e.i.q.ScriptQueryBuilderTests] [testCacheability] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

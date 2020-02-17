@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.IdsQueryBuilderTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:37" hostname="Escoto-PC" time="0.092">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.014"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.009"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.006"/>
+  <testcase name="testIdsQueryWithInvalidValues" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.015"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.006"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.013"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.006"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.004"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.003"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.IdsQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:23:37,795][INFO ][o.e.i.q.IdsQueryBuilderTests] [testSerialization] before test
+[2020-02-16T23:23:37,796][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T23:23:37,796][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T23:23:37,802][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T23:23:37,802][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T23:23:37,805][INFO ][o.e.i.q.IdsQueryBuilderTests] [testSerialization] after test
+[2020-02-16T23:23:37,811][INFO ][o.e.i.q.IdsQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T23:23:37,812][WARN ][o.e.d.i.q.IdsQueryBuilder] [testFromXContent] [types removal] Types are deprecated in [ids] queries.
+[2020-02-16T23:23:37,815][INFO ][o.e.i.q.IdsQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T23:23:37,820][INFO ][o.e.i.q.IdsQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T23:23:37,821][INFO ][o.e.i.q.IdsQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T23:23:37,835][INFO ][o.e.i.q.IdsQueryBuilderTests] [testIdsQueryWithInvalidValues] before test
+[2020-02-16T23:23:37,835][INFO ][o.e.i.q.IdsQueryBuilderTests] [testIdsQueryWithInvalidValues] after test
+[2020-02-16T23:23:37,839][INFO ][o.e.i.q.IdsQueryBuilderTests] [testToQuery] before test
+[2020-02-16T23:23:37,841][INFO ][o.e.i.q.IdsQueryBuilderTests] [testToQuery] after test
+[2020-02-16T23:23:37,851][INFO ][o.e.i.q.IdsQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T23:23:37,855][INFO ][o.e.i.q.IdsQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T23:23:37,861][INFO ][o.e.i.q.IdsQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T23:23:37,861][INFO ][o.e.i.q.IdsQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T23:23:37,865][INFO ][o.e.i.q.IdsQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T23:23:37,865][INFO ][o.e.i.q.IdsQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T23:23:37,870][INFO ][o.e.i.q.IdsQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T23:23:37,870][INFO ][o.e.i.q.IdsQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T23:23:37,872][INFO ][o.e.i.q.IdsQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:23:37,873][INFO ][o.e.i.q.IdsQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:23:37,875][INFO ][o.e.i.q.IdsQueryBuilderTests] [testCacheability] before test
+[2020-02-16T23:23:37,876][INFO ][o.e.i.q.IdsQueryBuilderTests] [testCacheability] after test
+[2020-02-16T23:23:37,878][INFO ][o.e.i.q.IdsQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T23:23:37,879][INFO ][o.e.i.q.IdsQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T23:23:37,881][INFO ][o.e.i.q.IdsQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T23:23:37,881][INFO ][o.e.i.q.IdsQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T23:23:37,883][INFO ][o.e.i.q.IdsQueryBuilderTests] [testFromJson] before test
+[2020-02-16T23:23:37,884][INFO ][o.e.i.q.IdsQueryBuilderTests] [testFromJson] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

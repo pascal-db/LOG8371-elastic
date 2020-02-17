@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.settings.get.GetSettingsRequestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:33" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testSerdeRoundTrip" classname="org.elasticsearch.action.admin.indices.settings.get.GetSettingsRequestTests" time="0.007"/>
+  <testcase name="testDeserializeBackwardsCompatibility" classname="org.elasticsearch.action.admin.indices.settings.get.GetSettingsRequestTests" time="0.004"/>
+  <testcase name="testSerializeBackwardsCompatibility" classname="org.elasticsearch.action.admin.indices.settings.get.GetSettingsRequestTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T13:20:33,902][INFO ][o.e.a.a.i.s.g.GetSettingsRequestTests] [testSerdeRoundTrip] before test
+[2020-02-16T13:20:33,904][INFO ][o.e.a.a.i.s.g.GetSettingsRequestTests] [testSerdeRoundTrip] after test
+[2020-02-16T13:20:33,907][INFO ][o.e.a.a.i.s.g.GetSettingsRequestTests] [testDeserializeBackwardsCompatibility] before test
+[2020-02-16T13:20:33,908][INFO ][o.e.a.a.i.s.g.GetSettingsRequestTests] [testDeserializeBackwardsCompatibility] after test
+[2020-02-16T13:20:33,916][INFO ][o.e.a.a.i.s.g.GetSettingsRequestTests] [testSerializeBackwardsCompatibility] before test
+[2020-02-16T13:20:33,917][INFO ][o.e.a.a.i.s.g.GetSettingsRequestTests] [testSerializeBackwardsCompatibility] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.ActiveShardCountTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:24" hostname="Escoto-PC" time="0.115">
+  <properties/>
+  <testcase name="testEnoughShardsActiveLevelAll" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.01"/>
+  <testcase name="testFromIntValue" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.002"/>
+  <testcase name="testValidate" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.014"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.026"/>
+  <testcase name="testEnoughShardsActiveRandom" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.012"/>
+  <testcase name="testEnoughShardsActiveValueBased" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.017"/>
+  <testcase name="testEnoughShardsActiveWithClosedIndex" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.01"/>
+  <testcase name="testParseString" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.002"/>
+  <testcase name="testEnoughShardsActiveLevelOne" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.003"/>
+  <testcase name="testEnoughShardsActiveLevelDefault" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.002"/>
+  <testcase name="testEnoughShardsActiveZero" classname="org.elasticsearch.action.support.ActiveShardCountTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-16T19:20:24,293][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveLevelAll] before test
+[2020-02-16T19:20:24,295][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveLevelAll] after test
+[2020-02-16T19:20:24,297][INFO ][o.e.a.s.ActiveShardCountTests] [testFromIntValue] before test
+[2020-02-16T19:20:24,297][INFO ][o.e.a.s.ActiveShardCountTests] [testFromIntValue] after test
+[2020-02-16T19:20:24,311][INFO ][o.e.a.s.ActiveShardCountTests] [testValidate] before test
+[2020-02-16T19:20:24,311][INFO ][o.e.a.s.ActiveShardCountTests] [testValidate] after test
+[2020-02-16T19:20:24,337][INFO ][o.e.a.s.ActiveShardCountTests] [testSerialization] before test
+[2020-02-16T19:20:24,337][INFO ][o.e.a.s.ActiveShardCountTests] [testSerialization] after test
+[2020-02-16T19:20:24,341][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveRandom] before test
+[2020-02-16T19:20:24,345][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveRandom] after test
+[2020-02-16T19:20:24,365][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveValueBased] before test
+[2020-02-16T19:20:24,366][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveValueBased] after test
+[2020-02-16T19:20:24,375][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveWithClosedIndex] before test
+[2020-02-16T19:20:24,376][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveWithClosedIndex] after test
+[2020-02-16T19:20:24,378][INFO ][o.e.a.s.ActiveShardCountTests] [testParseString] before test
+[2020-02-16T19:20:24,378][INFO ][o.e.a.s.ActiveShardCountTests] [testParseString] after test
+[2020-02-16T19:20:24,380][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveLevelOne] before test
+[2020-02-16T19:20:24,381][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveLevelOne] after test
+[2020-02-16T19:20:24,383][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveLevelDefault] before test
+[2020-02-16T19:20:24,384][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveLevelDefault] after test
+[2020-02-16T19:20:24,398][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveZero] before test
+[2020-02-16T19:20:24,399][INFO ][o.e.a.s.ActiveShardCountTests] [testEnoughShardsActiveZero] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

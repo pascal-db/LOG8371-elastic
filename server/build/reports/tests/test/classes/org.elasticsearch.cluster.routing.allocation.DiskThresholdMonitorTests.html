@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.routing.allocation.DiskThresholdMonitorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.routing.allocation.DiskThresholdMonitorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.routing.allocation.html">org.elasticsearch.cluster.routing.allocation</a> &gt; DiskThresholdMonitorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.028s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAutoReleaseIndices</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotSubmitRerouteTaskTooFrequently</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMarkFloodStageIndicesReadOnly</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T07:21:37,579][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testDoesNotSubmitRerouteTaskTooFrequently] before test
+[2020-02-17T07:21:37,584][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] high disk watermark [90%] exceeded on [node1][node1][/foo/bar] free: 5b[5%], shards will be relocated away from this node
+[2020-02-17T07:21:37,584][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,585][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] high disk watermark [90%] exceeded on [node1][node1][/foo/bar] free: 5b[5%], shards will be relocated away from this node
+[2020-02-17T07:21:37,585][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,585][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] skipping monitor as a check is already in progress
+[2020-02-17T07:21:37,585][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] rerouting shards: [one or more nodes has gone under the high or low watermark]
+[2020-02-17T07:21:37,585][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testDoesNotSubmitRerouteTaskTooFrequently] after test
+[2020-02-17T07:21:37,587][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testAutoReleaseIndices] before test
+[2020-02-17T07:21:37,590][INFO ][o.e.c.r.a.AllocationService] [testAutoReleaseIndices] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test_1][1], [test_1][0], [test_2][1], [test_2][0]]]).
+[2020-02-17T07:21:37,592][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node2][node2][/foo/bar] free: 1b[1%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,592][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,595][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node2][node2][/foo/bar] free: 2b[2%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,595][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] releasing read-only-allow-delete block on indices: [[test_2]]
+[2020-02-17T07:21:37,595][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 1b[1%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,595][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] high disk watermark [90%] exceeded on [node1][node1][/foo/bar] free: 9b[9%], shards will be relocated away from this node
+[2020-02-17T07:21:37,595][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,595][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,595][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testAutoReleaseIndices] after test
+[2020-02-17T07:21:37,597][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testMarkFloodStageIndicesReadOnly] before test
+[2020-02-17T07:21:37,600][INFO ][o.e.c.r.a.AllocationService] [testMarkFloodStageIndicesReadOnly] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test_1][0], [test][0], [test_2][0]]]).
+[2020-02-17T07:21:37,602][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,602][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] high disk watermark [90%] exceeded on [node2][node2][/foo/bar] free: 5b[5%], shards will be relocated away from this node
+[2020-02-17T07:21:37,602][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,602][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,604][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] high disk watermark [90%] exceeded on [node2][node2][/foo/bar] free: 5b[5%], shards will be relocated away from this node
+[2020-02-17T07:21:37,604][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,604][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,605][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testMarkFloodStageIndicesReadOnly] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

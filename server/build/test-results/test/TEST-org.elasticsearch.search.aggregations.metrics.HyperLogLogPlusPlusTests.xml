@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.HyperLogLogPlusPlusTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:23" hostname="Escoto-PC" time="0.362">
+  <properties/>
+  <testcase name="testEncodeDecode" classname="org.elasticsearch.search.aggregations.metrics.HyperLogLogPlusPlusTests" time="0.068"/>
+  <testcase name="testMerge" classname="org.elasticsearch.search.aggregations.metrics.HyperLogLogPlusPlusTests" time="0.271"/>
+  <testcase name="testPrecisionFromThreshold" classname="org.elasticsearch.search.aggregations.metrics.HyperLogLogPlusPlusTests" time="0.003"/>
+  <testcase name="testAccuracy" classname="org.elasticsearch.search.aggregations.metrics.HyperLogLogPlusPlusTests" time="0.016"/>
+  <testcase name="testFakeHashes" classname="org.elasticsearch.search.aggregations.metrics.HyperLogLogPlusPlusTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T11:24:23,993][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testEncodeDecode] before test
+[2020-02-16T11:24:24,058][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testEncodeDecode] after test
+[2020-02-16T11:24:24,061][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testMerge] before test
+[2020-02-16T11:24:24,330][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testMerge] after test
+[2020-02-16T11:24:24,333][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testPrecisionFromThreshold] before test
+[2020-02-16T11:24:24,333][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testPrecisionFromThreshold] after test
+[2020-02-16T11:24:24,334][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testAccuracy] before test
+[2020-02-16T11:24:24,349][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testAccuracy] after test
+[2020-02-16T11:24:24,352][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testFakeHashes] before test
+[2020-02-16T11:24:24,353][INFO ][o.e.s.a.m.HyperLogLogPlusPlusTests] [testFakeHashes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

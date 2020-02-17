@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.indices.RestValidateQueryActionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.065">
+  <properties/>
+  <testcase name="testRestValidateQueryAction_emptyQuery" classname="org.elasticsearch.rest.action.admin.indices.RestValidateQueryActionTests" time="0.029"/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.admin.indices.RestValidateQueryActionTests" time="0.004"/>
+  <testcase name="testTypeParameter" classname="org.elasticsearch.rest.action.admin.indices.RestValidateQueryActionTests" time="0.007"/>
+  <testcase name="testRestValidateQueryAction" classname="org.elasticsearch.rest.action.admin.indices.RestValidateQueryActionTests" time="0.01"/>
+  <testcase name="testRestValidateQueryAction_malformedQuery" classname="org.elasticsearch.rest.action.admin.indices.RestValidateQueryActionTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-17T12:24:04,811][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testRestValidateQueryAction_emptyQuery] before test
+[2020-02-17T12:24:04,812][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testRestValidateQueryAction_emptyQuery] after test
+[2020-02-17T12:24:04,814][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testTypeInPath] before test
+[2020-02-17T12:24:04,815][WARN ][o.e.d.r.a.a.i.RestValidateQueryAction] [testTypeInPath] [types removal] Specifying types in validate query requests is deprecated.
+[2020-02-17T12:24:04,816][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testTypeInPath] after test
+[2020-02-17T12:24:04,820][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testTypeParameter] before test
+[2020-02-17T12:24:04,823][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testTypeParameter] after test
+[2020-02-17T12:24:04,833][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testRestValidateQueryAction] before test
+[2020-02-17T12:24:04,833][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testRestValidateQueryAction] after test
+[2020-02-17T12:24:04,848][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testRestValidateQueryAction_malformedQuery] before test
+[2020-02-17T12:24:04,848][INFO ][o.e.r.a.a.i.RestValidateQueryActionTests] [testRestValidateQueryAction_malformedQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

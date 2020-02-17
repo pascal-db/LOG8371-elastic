@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.engine.NoOpEngineTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:56" hostname="Escoto-PC" time="1.256">
+  <properties/>
+  <testcase name="testNoopAfterRegularEngine" classname="org.elasticsearch.index.engine.NoOpEngineTests" time="0.055"/>
+  <testcase name="testTrimUnreferencedTranslogFiles" classname="org.elasticsearch.index.engine.NoOpEngineTests" time="0.553"/>
+  <testcase name="testTwoNoopEngines" classname="org.elasticsearch.index.engine.NoOpEngineTests" time="0.046"/>
+  <testcase name="testNoOpEngineStats" classname="org.elasticsearch.index.engine.NoOpEngineTests" time="0.471"/>
+  <testcase name="testNoopEngine" classname="org.elasticsearch.index.engine.NoOpEngineTests" time="0.13"/>
+  <system-out><![CDATA[[2020-02-16T14:21:56,808][INFO ][o.e.i.e.NoOpEngineTests  ] [testNoopAfterRegularEngine] before test
+[2020-02-16T14:21:56,860][INFO ][o.e.i.e.NoOpEngineTests  ] [testNoopAfterRegularEngine] after test
+[2020-02-16T14:21:56,863][INFO ][o.e.i.e.NoOpEngineTests  ] [testTrimUnreferencedTranslogFiles] before test
+[2020-02-16T14:21:57,413][INFO ][o.e.i.e.NoOpEngineTests  ] [testTrimUnreferencedTranslogFiles] after test
+[2020-02-16T14:21:57,415][INFO ][o.e.i.e.NoOpEngineTests  ] [testTwoNoopEngines] before test
+[2020-02-16T14:21:57,459][INFO ][o.e.i.e.NoOpEngineTests  ] [testTwoNoopEngines] after test
+[2020-02-16T14:21:57,462][INFO ][o.e.i.e.NoOpEngineTests  ] [testNoOpEngineStats] before test
+[2020-02-16T14:21:57,931][INFO ][o.e.i.e.NoOpEngineTests  ] [testNoOpEngineStats] after test
+[2020-02-16T14:21:58,014][INFO ][o.e.i.e.NoOpEngineTests  ] [testNoopEngine] before test
+[2020-02-16T14:21:58,061][INFO ][o.e.i.e.NoOpEngineTests  ] [testNoopEngine] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

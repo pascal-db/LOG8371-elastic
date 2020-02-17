@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.analysis.AnalysisTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:26" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testParseWordList" classname="org.elasticsearch.index.analysis.AnalysisTests" time="0.004"/>
+  <testcase name="testParseFalseEncodedFile" classname="org.elasticsearch.index.analysis.AnalysisTests" time="0.004"/>
+  <testcase name="testParseNonExistingFile" classname="org.elasticsearch.index.analysis.AnalysisTests" time="0.004"/>
+  <testcase name="testParseStemExclusion" classname="org.elasticsearch.index.analysis.AnalysisTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T04:22:26,068][INFO ][o.e.i.a.AnalysisTests    ] [testParseWordList] before test
+[2020-02-17T04:22:26,069][INFO ][o.e.i.a.AnalysisTests    ] [testParseWordList] after test
+[2020-02-17T04:22:26,071][INFO ][o.e.i.a.AnalysisTests    ] [testParseFalseEncodedFile] before test
+[2020-02-17T04:22:26,074][INFO ][o.e.i.a.AnalysisTests    ] [testParseFalseEncodedFile] after test
+[2020-02-17T04:22:26,076][INFO ][o.e.i.a.AnalysisTests    ] [testParseNonExistingFile] before test
+[2020-02-17T04:22:26,078][INFO ][o.e.i.a.AnalysisTests    ] [testParseNonExistingFile] after test
+[2020-02-17T04:22:26,080][INFO ][o.e.i.a.AnalysisTests    ] [testParseStemExclusion] before test
+[2020-02-17T04:22:26,080][INFO ][o.e.i.a.AnalysisTests    ] [testParseStemExclusion] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

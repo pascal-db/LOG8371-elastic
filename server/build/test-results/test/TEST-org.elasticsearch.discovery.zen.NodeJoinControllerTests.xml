@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.zen.NodeJoinControllerTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:58" hostname="Escoto-PC" time="0.131">
+  <properties/>
+  <testcase name="testRejectingJoinWithSameIdButDifferentNode" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.015"/>
+  <testcase name="testRejectingJoinWithIncompatibleVersion" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.009"/>
+  <testcase name="testSimpleJoinAccumulation" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.012"/>
+  <testcase name="testFailingJoinsWhenNotMaster" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.007"/>
+  <testcase name="testRejectingRestartedNodeJoinsBeforeProcessingNodeLeft" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.006"/>
+  <testcase name="testSimpleMasterElectionWithoutRequiredJoins" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.01"/>
+  <testcase name="testElectionBasedOnConflictingNodes" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.013"/>
+  <testcase name="testMasterElectionTimeout" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.015"/>
+  <testcase name="testRejectingJoinWithIncompatibleVersionWithUnrecoveredState" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.007"/>
+  <testcase name="testNormalConcurrentJoins" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.006"/>
+  <testcase name="testNewClusterStateOnExistingNodeJoin" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.005"/>
+  <testcase name="testSimpleMasterElection" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.009"/>
+  <testcase name="testRejectingJoinWithSameAddressButDifferentId" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.006"/>
+  <testcase name="testElectionWithConcurrentJoins" classname="org.elasticsearch.discovery.zen.NodeJoinControllerTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T18:20:58,871][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingJoinWithSameIdButDifferentNode] before test
+[2020-02-16T18:20:58,881][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {other_name}{node}{BFS0lDapRdeqqSo5NAcBsg}{0.0.0.0}{0.0.0.0:1} (id [1]]
+java.lang.IllegalArgumentException: can't add node {other_name}{node}{BFS0lDapRdeqqSo5NAcBsg}{0.0.0.0}{0.0.0.0:1}, found existing node {node}{TxApcgzgSrO78hkUoc9qbw}{0.0.0.0}{0.0.0.0:1}{dim} with the same id but is a different node instance
+	at org.elasticsearch.cluster.node.DiscoveryNodes$Builder.add(DiscoveryNodes.java:612) ~[main/:?]
+	at org.elasticsearch.cluster.coordination.JoinTaskExecutor.execute(JoinTaskExecutor.java:147) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:20:58,882][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingJoinWithSameIdButDifferentNode] after test
+[2020-02-16T18:20:58,884][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingJoinWithIncompatibleVersion] before test
+[2020-02-16T18:20:58,889][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {badNode}{pVMoeOZDS5OvaBbrGTXX5A}{0.0.0.0}{0.0.0.0:4}{dim} (id [2]]
+java.lang.IllegalStateException: node version [6.7.2] is not supported. All nodes in the cluster are of a higher major [7].
+	at org.elasticsearch.cluster.coordination.JoinTaskExecutor.ensureMajorVersionBarrier(JoinTaskExecutor.java:279) ~[main/:?]
+	at org.elasticsearch.cluster.coordination.JoinTaskExecutor.execute(JoinTaskExecutor.java:141) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:20:58,890][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{badNode}{pVMoeOZDS5OvaBbrGTXX5A}{0.0.0.0}{0.0.0.0:4}{dim} no election context, {goodNode}{EoJckdpDRE-wnyIsdQDOkg}{0.0.0.0}{0.0.0.0:5} no election context], term: 0, version: 1, delta: added {{goodNode}{EoJckdpDRE-wnyIsdQDOkg}{0.0.0.0}{0.0.0.0:5}}
+[2020-02-16T18:20:58,891][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingJoinWithIncompatibleVersion] after test
+[2020-02-16T18:20:58,894][INFO ][o.e.d.z.NodeJoinControllerTests] [testSimpleJoinAccumulation] before test
+[2020-02-16T18:20:58,898][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{master_0}{0}{MzXb4FmWQ5WU7L7CIPnnuw}{0.0.0.0}{0.0.0.0:7}{m} no election context], term: 0, version: 1, delta: added {{master_0}{0}{MzXb4FmWQ5WU7L7CIPnnuw}{0.0.0.0}{0.0.0.0:7}{m}}
+[2020-02-16T18:20:58,898][WARN ][o.e.d.z.ElectMasterService] [test_master_node] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2020-02-16T18:20:58,898][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{master_1}{1}{54zd3I18QtOFZcjJy0Vqqg}{0.0.0.0}{0.0.0.0:8}{m} no election context], term: 0, version: 2, delta: added {{master_1}{1}{54zd3I18QtOFZcjJy0Vqqg}{0.0.0.0}{0.0.0.0:8}{m}}
+[2020-02-16T18:20:58,899][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{master_2}{2}{YALPJrLnSK-Rgy5eIMmVFA}{0.0.0.0}{0.0.0.0:9}{m} no election context], term: 0, version: 3, delta: added {{master_2}{2}{YALPJrLnSK-Rgy5eIMmVFA}{0.0.0.0}{0.0.0.0:9}{m}}
+[2020-02-16T18:20:58,899][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{data_3}{3}{g_37xZjtTHODg7RLAvPtmw}{0.0.0.0}{0.0.0.0:10} no election context], term: 0, version: 4, delta: added {{data_3}{3}{g_37xZjtTHODg7RLAvPtmw}{0.0.0.0}{0.0.0.0:10}}
+[2020-02-16T18:20:58,900][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{data_4}{4}{SKP7_A2RSKOPMkCLfEicjg}{0.0.0.0}{0.0.0.0:11} no election context], term: 0, version: 5, delta: added {{data_4}{4}{SKP7_A2RSKOPMkCLfEicjg}{0.0.0.0}{0.0.0.0:11}}
+[2020-02-16T18:20:58,903][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{master_8}{8}{tc7nltNLTfaHcFMReZzYvg}{0.0.0.0}{0.0.0.0:15}{m} no election context], zen-disco-election-stop [test][{master_5}{5}{3PexVG-5RN2ZpramyBakyg}{0.0.0.0}{0.0.0.0:12}{m} test, _FINISH_ELECTION_, {data_7}{7}{ohFiH7OERIyzSVNBYiqB9g}{0.0.0.0}{0.0.0.0:14} test, {master_6}{6}{7IB6JXRURYKqP6x0Z0eGnw}{0.0.0.0}{0.0.0.0:13}{m} test], term: 0, version: 6, delta: added {{data_7}{7}{ohFiH7OERIyzSVNBYiqB9g}{0.0.0.0}{0.0.0.0:14},{master_6}{6}{7IB6JXRURYKqP6x0Z0eGnw}{0.0.0.0}{0.0.0.0:13}{m},{master_8}{8}{tc7nltNLTfaHcFMReZzYvg}{0.0.0.0}{0.0.0.0:15}{m},{master_5}{5}{3PexVG-5RN2ZpramyBakyg}{0.0.0.0}{0.0.0.0:12}{m}}
+[2020-02-16T18:20:58,903][INFO ][o.e.d.z.NodeJoinControllerTests] [testSimpleJoinAccumulation] after test
+[2020-02-16T18:20:58,905][INFO ][o.e.d.z.NodeJoinControllerTests] [testFailingJoinsWhenNotMaster] before test
+[2020-02-16T18:20:58,908][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {master_0}{0}{0X-4O0oBREOu5B7NE0s3ZQ}{0.0.0.0}{0.0.0.0:17}{m} (id [13]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{gNr54IZxSC64h5yfIsgtTg}{0.0.0.0}{0.0.0.0:16}{dim}] not master for join request
+[2020-02-16T18:20:58,909][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {master_4}{4}{SnsSqVgFQn-RQsfVxj-Epg}{0.0.0.0}{0.0.0.0:21}{m} (id [17]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{gNr54IZxSC64h5yfIsgtTg}{0.0.0.0}{0.0.0.0:16}{dim}] not master for join request
+[2020-02-16T18:20:58,909][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {master_3}{3}{0OorDLP7TCKvyzEPvx9uGg}{0.0.0.0}{0.0.0.0:20}{m} (id [16]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{gNr54IZxSC64h5yfIsgtTg}{0.0.0.0}{0.0.0.0:16}{dim}] not master for join request
+[2020-02-16T18:20:58,909][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {data_1}{1}{DUnKJMMlQVyDrBFl6mL7HA}{0.0.0.0}{0.0.0.0:18} (id [14]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{gNr54IZxSC64h5yfIsgtTg}{0.0.0.0}{0.0.0.0:16}{dim}] not master for join request
+[2020-02-16T18:20:58,910][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {data_2}{2}{_cJE8mioQdeh_E5lTTzX1w}{0.0.0.0}{0.0.0.0:19} (id [15]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{gNr54IZxSC64h5yfIsgtTg}{0.0.0.0}{0.0.0.0:16}{dim}] not master for join request
+[2020-02-16T18:20:58,910][INFO ][o.e.d.z.NodeJoinControllerTests] [testFailingJoinsWhenNotMaster] after test
+[2020-02-16T18:20:58,912][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingRestartedNodeJoinsBeforeProcessingNodeLeft] before test
+[2020-02-16T18:20:58,915][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {node_13}{hL0X6ac7TGKHA6mMO_lZRw}{0.0.0.0}{0.0.0.0:26}{di} (id [19]]
+java.lang.IllegalArgumentException: can't add node {node_13}{hL0X6ac7TGKHA6mMO_lZRw}{0.0.0.0}{0.0.0.0:26}{di}, found existing node {node_13}{Iq23QmNJSWuvtZXHcVSKkw}{0.0.0.0}{0.0.0.0:26}{di} with the same id but is a different node instance
+	at org.elasticsearch.cluster.node.DiscoveryNodes$Builder.add(DiscoveryNodes.java:612) ~[main/:?]
+	at org.elasticsearch.cluster.coordination.JoinTaskExecutor.execute(JoinTaskExecutor.java:147) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:20:58,916][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingRestartedNodeJoinsBeforeProcessingNodeLeft] after test
+[2020-02-16T18:20:58,918][INFO ][o.e.d.z.NodeJoinControllerTests] [testSimpleMasterElectionWithoutRequiredJoins] before test
+[2020-02-16T18:20:58,921][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {data_0}{0}{KlP69G1QQ2m_-B3YfjuV5A}{0.0.0.0}{0.0.0.0:28} (id [20]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{vPXbTPnNTT67xnD57mRr0g}{0.0.0.0}{0.0.0.0:27}{dim}] not master for join request
+[2020-02-16T18:20:58,922][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {master_1}{1}{JfQjSQILTNC7J5hJXUqByw}{0.0.0.0}{0.0.0.0:29}{m} (id [21]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{vPXbTPnNTT67xnD57mRr0g}{0.0.0.0}{0.0.0.0:27}{dim}] not master for join request
+[2020-02-16T18:20:58,926][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-elected-as-master ([0] nodes joined)[_FINISH_ELECTION_, _BECOME_MASTER_TASK_], term: 0, version: 1, delta: master node changed {previous [], current [{node}{vPXbTPnNTT67xnD57mRr0g}{0.0.0.0}{0.0.0.0:27}{dim}]}
+[2020-02-16T18:20:58,927][INFO ][o.e.d.z.NodeJoinControllerTests] [testSimpleMasterElectionWithoutRequiredJoins] after test
+[2020-02-16T18:20:58,929][INFO ][o.e.d.z.NodeJoinControllerTests] [testElectionBasedOnConflictingNodes] before test
+[2020-02-16T18:20:58,933][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-elected-as-master ([1] nodes joined)[_BECOME_MASTER_TASK_, {other_node}{Ba-kkgOQQO-ACze_PBNsRg}{0.0.0.0}{0.0.0.0:31}{dim} become master, _FINISH_ELECTION_], term: 0, version: 1, delta: master node changed {previous [], current [{node}{tecPUYWiSA6O_BM7fVeuVg}{0.0.0.0}{0.0.0.0:30}{dim}]}, removed {{other_node}{5EB2TJ5DTHCUUbcAvsTfaw}{0.0.0.0}{0.0.0.0:31}{dim}}, added {{other_node}{Ba-kkgOQQO-ACze_PBNsRg}{0.0.0.0}{0.0.0.0:31}{dim}}
+[2020-02-16T18:20:58,941][INFO ][o.e.d.z.NodeJoinControllerTests] [testElectionBasedOnConflictingNodes] after test
+[2020-02-16T18:20:58,945][INFO ][o.e.d.z.NodeJoinControllerTests] [testMasterElectionTimeout] before test
+[2020-02-16T18:20:58,950][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {data_0}{0}{xtKa5CYDT_mHtr2iifwhtQ}{0.0.0.0}{0.0.0.0:33} (id [23]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{EhbE6Ei0QKawsx4CKs3XKQ}{0.0.0.0}{0.0.0.0:32}{dim}] not master for join request
+[2020-02-16T18:20:58,951][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {master_1}{1}{GgtIuN7XT0OTEUUvUOcUmg}{0.0.0.0}{0.0.0.0:34}{m} (id [24]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{EhbE6Ei0QKawsx4CKs3XKQ}{0.0.0.0}{0.0.0.0:32}{dim}] not master for join request
+[2020-02-16T18:20:58,953][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {master_2}{2}{h6fSGKp7QVmVYG0Asr2d5A}{0.0.0.0}{0.0.0.0:35}{m} (id [25]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{EhbE6Ei0QKawsx4CKs3XKQ}{0.0.0.0}{0.0.0.0:32}{dim}] not master for join request
+[2020-02-16T18:20:58,956][INFO ][o.e.d.z.NodeJoinControllerTests] [testMasterElectionTimeout] after test
+[2020-02-16T18:20:58,958][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingJoinWithIncompatibleVersionWithUnrecoveredState] before test
+[2020-02-16T18:20:58,962][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {badNode}{zTV3l52BRmm814kvKTit6g}{0.0.0.0}{0.0.0.0:37}{dim} (id [27]]
+java.lang.IllegalStateException: node version [6.7.2] is not supported. The cluster contains nodes with version [7.5.1], which is incompatible.
+	at org.elasticsearch.cluster.coordination.JoinTaskExecutor.ensureNodesCompatibility(JoinTaskExecutor.java:262) ~[main/:?]
+	at org.elasticsearch.cluster.coordination.JoinTaskExecutor.execute(JoinTaskExecutor.java:143) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:20:58,962][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{goodNode}{PwBKTJBHSDSOv6IyuuvHQA}{0.0.0.0}{0.0.0.0:38} no election context, {badNode}{zTV3l52BRmm814kvKTit6g}{0.0.0.0}{0.0.0.0:37}{dim} no election context], term: 0, version: 2, delta: added {{goodNode}{PwBKTJBHSDSOv6IyuuvHQA}{0.0.0.0}{0.0.0.0:38}}
+[2020-02-16T18:20:58,963][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingJoinWithIncompatibleVersionWithUnrecoveredState] after test
+[2020-02-16T18:20:58,964][INFO ][o.e.d.z.NodeJoinControllerTests] [testNormalConcurrentJoins] before test
+[2020-02-16T18:20:58,967][INFO ][o.e.d.z.NodeJoinControllerTests] [testNormalConcurrentJoins] --> waiting for joins to complete
+[2020-02-16T18:20:58,968][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{master_0}{0}{RWozlGE9SGabkqAzR9KnVA}{0.0.0.0}{0.0.0.0:40}{m} no election context, {master_2}{2}{wZgl0UpdS62qqh46CjrZGg}{0.0.0.0}{0.0.0.0:42}{m} no election context], term: 0, version: 1, delta: added {{master_0}{0}{RWozlGE9SGabkqAzR9KnVA}{0.0.0.0}{0.0.0.0:40}{m},{master_2}{2}{wZgl0UpdS62qqh46CjrZGg}{0.0.0.0}{0.0.0.0:42}{m}}
+[2020-02-16T18:20:58,968][WARN ][o.e.d.z.ElectMasterService] [test_master_node] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [3])
+[2020-02-16T18:20:58,968][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-node-join[{master_1}{1}{7SD0lhneT_-6BM0CjIYTmw}{0.0.0.0}{0.0.0.0:41}{m} no election context], term: 0, version: 2, delta: added {{master_1}{1}{7SD0lhneT_-6BM0CjIYTmw}{0.0.0.0}{0.0.0.0:41}{m}}
+[2020-02-16T18:20:58,969][INFO ][o.e.d.z.NodeJoinControllerTests] [testNormalConcurrentJoins] assert for [[{node}{c-cUr_-jR5mrN8FspBIcqw}{0.0.0.0}{0.0.0.0:39}{dim}, {master_0}{0}{RWozlGE9SGabkqAzR9KnVA}{0.0.0.0}{0.0.0.0:40}{m}, {master_1}{1}{7SD0lhneT_-6BM0CjIYTmw}{0.0.0.0}{0.0.0.0:41}{m}, {master_2}{2}{wZgl0UpdS62qqh46CjrZGg}{0.0.0.0}{0.0.0.0:42}{m}]] in:
+cluster uuid: _na_ [committed: false]
+version: 2
+state uuid: 4BR9kyKxT1a4jpT1Np4ovw
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {master_1}{1}{7SD0lhneT_-6BM0CjIYTmw}{0.0.0.0}{0.0.0.0:41}{m}
+   {node}{c-cUr_-jR5mrN8FspBIcqw}{0.0.0.0}{0.0.0.0:39}{dim}, local, master
+   {master_0}{0}{RWozlGE9SGabkqAzR9KnVA}{0.0.0.0}{0.0.0.0:40}{m}
+   {master_2}{2}{wZgl0UpdS62qqh46CjrZGg}{0.0.0.0}{0.0.0.0:42}{m}
+routing_table (version 0):
+routing_nodes:
+-----node_id[node][V]
+---- unassigned
+
+[2020-02-16T18:20:58,969][INFO ][o.e.d.z.NodeJoinControllerTests] [testNormalConcurrentJoins] after test
+[2020-02-16T18:20:58,971][INFO ][o.e.d.z.NodeJoinControllerTests] [testNewClusterStateOnExistingNodeJoin] before test
+[2020-02-16T18:20:58,975][INFO ][o.e.d.z.NodeJoinControllerTests] [testNewClusterStateOnExistingNodeJoin] after test
+[2020-02-16T18:20:58,976][INFO ][o.e.d.z.NodeJoinControllerTests] [testSimpleMasterElection] before test
+[2020-02-16T18:20:58,979][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {master_0}{0}{OLwRQ2kdQXW607YgEbpIDg}{0.0.0.0}{0.0.0.0:46}{m} (id [32]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{1iCcfBCqRpCSKRfw2g9R2A}{0.0.0.0}{0.0.0.0:45}{dim}] not master for join request
+[2020-02-16T18:20:58,980][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {master_1}{1}{R0jmUCMHSim9TXQvg49P3w}{0.0.0.0}{0.0.0.0:47}{m} (id [33]]
+org.elasticsearch.cluster.NotMasterException: Node [{node}{1iCcfBCqRpCSKRfw2g9R2A}{0.0.0.0}{0.0.0.0:45}{dim}] not master for join request
+[2020-02-16T18:20:58,982][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-elected-as-master ([15] nodes joined)[{master_2}{2}{mVE2j0IQTE-F6dDR_Mpe8w}{0.0.0.0}{0.0.0.0:48}{m} become master, {data_5}{5}{eg1FSrVlTPmj2fl8IL0VVw}{0.0.0.0}{0.0.0.0:51} become master, {data_3}{3}{6bWjOsR9RZaCbbxeO6shjw}{0.0.0.0}{0.0.0.0:49} become master, {master_10}{10}{WwFNxOqESbC40S0mD0f-Zg}{0.0.0.0}{0.0.0.0:56}{m} become master, {master_8}{8}{ygXCHgb_R9S9K-jKop40og}{0.0.0.0}{0.0.0.0:54}{m} become master, _BECOME_MASTER_TASK_, {master_12}{12}{YYUlPUsBQq6fDTGMVN4-7A}{0.0.0.0}{0.0.0.0:58}{m} become master, {data_6}{6}{LqZYKhxVQUGYo0FQ3FPRSQ}{0.0.0.0}{0.0.0.0:52} become master, {data_13}{13}{eX1r91p6R-ueuF-wtRgtcQ}{0.0.0.0}{0.0.0.0:59} become master, {master_11}{11}{S1Lxreb0SkSL6-FGIfAT9g}{0.0.0.0}{0.0.0.0:57}{m} become master, {data_14}{14}{SN6ctSF5RMmELvs0JQ8w1g}{0.0.0.0}{0.0.0.0:60} become master, _FINISH_ELECTION_, {data_4}{4}{vyPx1p-qSWK4HTj97TDxmw}{0.0.0.0}{0.0.0.0:50} become master, {master_9}{9}{6FsVLLQ5TQ-OT43NRTb72Q}{0.0.0.0}{0.0.0.0:55}{m} become master, {data_15}{15}{8tCZAyBGRAinAQoL_qsMrQ}{0.0.0.0}{0.0.0.0:61} become master, {data_16}{16}{xB-mjYOdRQysxhR0c5rWvw}{0.0.0.0}{0.0.0.0:62} become master, {master_7}{7}{VIzR7NVRT7qTmy3xL3fMxA}{0.0.0.0}{0.0.0.0:53}{m} become master], term: 0, version: 1, delta: master node changed {previous [], current [{node}{1iCcfBCqRpCSKRfw2g9R2A}{0.0.0.0}{0.0.0.0:45}{dim}]}, added {{master_11}{11}{S1Lxreb0SkSL6-FGIfAT9g}{0.0.0.0}{0.0.0.0:57}{m},{data_3}{3}{6bWjOsR9RZaCbbxeO6shjw}{0.0.0.0}{0.0.0.0:49},{master_10}{10}{WwFNxOqESbC40S0mD0f-Zg}{0.0.0.0}{0.0.0.0:56}{m},{master_9}{9}{6FsVLLQ5TQ-OT43NRTb72Q}{0.0.0.0}{0.0.0.0:55}{m},{master_12}{12}{YYUlPUsBQq6fDTGMVN4-7A}{0.0.0.0}{0.0.0.0:58}{m},{data_13}{13}{eX1r91p6R-ueuF-wtRgtcQ}{0.0.0.0}{0.0.0.0:59},{data_6}{6}{LqZYKhxVQUGYo0FQ3FPRSQ}{0.0.0.0}{0.0.0.0:52},{data_5}{5}{eg1FSrVlTPmj2fl8IL0VVw}{0.0.0.0}{0.0.0.0:51},{data_14}{14}{SN6ctSF5RMmELvs0JQ8w1g}{0.0.0.0}{0.0.0.0:60},{master_2}{2}{mVE2j0IQTE-F6dDR_Mpe8w}{0.0.0.0}{0.0.0.0:48}{m},{data_15}{15}{8tCZAyBGRAinAQoL_qsMrQ}{0.0.0.0}{0.0.0.0:61},{master_8}{8}{ygXCHgb_R9S9K-jKop40og}{0.0.0.0}{0.0.0.0:54}{m},{master_7}{7}{VIzR7NVRT7qTmy3xL3fMxA}{0.0.0.0}{0.0.0.0:53}{m},{data_16}{16}{xB-mjYOdRQysxhR0c5rWvw}{0.0.0.0}{0.0.0.0:62},{data_4}{4}{vyPx1p-qSWK4HTj97TDxmw}{0.0.0.0}{0.0.0.0:50}}
+[2020-02-16T18:20:58,982][WARN ][o.e.d.z.ElectMasterService] [test_master_node] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [8])
+[2020-02-16T18:20:58,983][INFO ][o.e.d.z.NodeJoinControllerTests] [testSimpleMasterElection] after test
+[2020-02-16T18:20:58,985][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingJoinWithSameAddressButDifferentId] before test
+[2020-02-16T18:20:58,989][ERROR][o.e.d.z.NodeJoinControllerTests] [test_master_node] unexpected error for future [join of {other_node}{uhSTpMIxTOebq_WfklVEJg}{0.0.0.0}{0.0.0.0:63} (id [66]]
+java.lang.IllegalArgumentException: can't add node {other_node}{uhSTpMIxTOebq_WfklVEJg}{0.0.0.0}{0.0.0.0:63}, found existing node {node}{49WncmP9TtSIgnSvAydppw}{0.0.0.0}{0.0.0.0:63}{dim} with same address
+	at org.elasticsearch.cluster.node.DiscoveryNodes$Builder.add(DiscoveryNodes.java:612) ~[main/:?]
+	at org.elasticsearch.cluster.coordination.JoinTaskExecutor.execute(JoinTaskExecutor.java:147) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:20:58,989][INFO ][o.e.d.z.NodeJoinControllerTests] [testRejectingJoinWithSameAddressButDifferentId] after test
+[2020-02-16T18:20:58,991][INFO ][o.e.d.z.NodeJoinControllerTests] [testElectionWithConcurrentJoins] before test
+[2020-02-16T18:20:58,995][INFO ][o.e.d.z.NodeJoinControllerTests] [testElectionWithConcurrentJoins] --> waiting to be elected as master (required joins [4])
+[2020-02-16T18:20:58,996][INFO ][o.e.c.s.MasterService    ] [test_master_node] zen-disco-elected-as-master ([6] nodes joined)[_FINISH_ELECTION_, _BECOME_MASTER_TASK_, {master_0}{0}{Kln3wESTR4C7fbyO_ZL0wg}{0.0.0.0}{0.0.0.0:67}{m} become master, {master_3}{3}{xE_Eb1DUQxu4KvDU-wURBw}{0.0.0.0}{0.0.0.0:70}{m} become master, {master_1}{1}{8TXAzLwASYONkVo30zLOLw}{0.0.0.0}{0.0.0.0:68}{m} become master, {master_4}{4}{4t6ffDLGQyKlgxsMBZk2rQ}{0.0.0.0}{0.0.0.0:71}{m} become master, {master_2}{2}{3jCp2jW3RFa-aXKld0C3ng}{0.0.0.0}{0.0.0.0:69}{m} become master, {master_5}{5}{0kBifZokSq2kAVpefcyObQ}{0.0.0.0}{0.0.0.0:72}{m} become master], term: 0, version: 1, delta: master node changed {previous [], current [{node}{ndbJB2cwQiK-6V1L2cD4IA}{0.0.0.0}{0.0.0.0:66}{dim}]}, added {{master_2}{2}{3jCp2jW3RFa-aXKld0C3ng}{0.0.0.0}{0.0.0.0:69}{m},{master_4}{4}{4t6ffDLGQyKlgxsMBZk2rQ}{0.0.0.0}{0.0.0.0:71}{m},{master_3}{3}{xE_Eb1DUQxu4KvDU-wURBw}{0.0.0.0}{0.0.0.0:70}{m},{master_5}{5}{0kBifZokSq2kAVpefcyObQ}{0.0.0.0}{0.0.0.0:72}{m},{master_0}{0}{Kln3wESTR4C7fbyO_ZL0wg}{0.0.0.0}{0.0.0.0:67}{m},{master_1}{1}{8TXAzLwASYONkVo30zLOLw}{0.0.0.0}{0.0.0.0:68}{m}}
+[2020-02-16T18:20:58,996][WARN ][o.e.d.z.ElectMasterService] [test_master_node] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [7])
+[2020-02-16T18:20:58,997][INFO ][o.e.d.z.NodeJoinControllerTests] [testElectionWithConcurrentJoins] --> waiting for joins to complete
+[2020-02-16T18:20:58,997][INFO ][o.e.d.z.NodeJoinControllerTests] [testElectionWithConcurrentJoins] assert for [[{node}{ndbJB2cwQiK-6V1L2cD4IA}{0.0.0.0}{0.0.0.0:66}{dim}, {master_0}{0}{Kln3wESTR4C7fbyO_ZL0wg}{0.0.0.0}{0.0.0.0:67}{m}, {master_1}{1}{8TXAzLwASYONkVo30zLOLw}{0.0.0.0}{0.0.0.0:68}{m}, {master_2}{2}{3jCp2jW3RFa-aXKld0C3ng}{0.0.0.0}{0.0.0.0:69}{m}, {master_3}{3}{xE_Eb1DUQxu4KvDU-wURBw}{0.0.0.0}{0.0.0.0:70}{m}, {master_4}{4}{4t6ffDLGQyKlgxsMBZk2rQ}{0.0.0.0}{0.0.0.0:71}{m}, {master_5}{5}{0kBifZokSq2kAVpefcyObQ}{0.0.0.0}{0.0.0.0:72}{m}]] in:
+cluster uuid: _na_ [committed: false]
+version: 1
+state uuid: keds92-WT1yPX0N8tHb_dQ
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {master_2}{2}{3jCp2jW3RFa-aXKld0C3ng}{0.0.0.0}{0.0.0.0:69}{m}
+   {master_4}{4}{4t6ffDLGQyKlgxsMBZk2rQ}{0.0.0.0}{0.0.0.0:71}{m}
+   {master_3}{3}{xE_Eb1DUQxu4KvDU-wURBw}{0.0.0.0}{0.0.0.0:70}{m}
+   {master_5}{5}{0kBifZokSq2kAVpefcyObQ}{0.0.0.0}{0.0.0.0:72}{m}
+   {node}{ndbJB2cwQiK-6V1L2cD4IA}{0.0.0.0}{0.0.0.0:66}{dim}, local, master
+   {master_0}{0}{Kln3wESTR4C7fbyO_ZL0wg}{0.0.0.0}{0.0.0.0:67}{m}
+   {master_1}{1}{8TXAzLwASYONkVo30zLOLw}{0.0.0.0}{0.0.0.0:68}{m}
+routing_table (version 0):
+routing_nodes:
+-----node_id[node][V]
+---- unassigned
+
+[2020-02-16T18:20:58,998][INFO ][o.e.d.z.NodeJoinControllerTests] [testElectionWithConcurrentJoins] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

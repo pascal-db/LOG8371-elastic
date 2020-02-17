@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.settings.ClusterUpdateSettingsResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:23" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testOldSerialisation" classname="org.elasticsearch.action.admin.cluster.settings.ClusterUpdateSettingsResponseTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.cluster.settings.ClusterUpdateSettingsResponseTests" time="0.024"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.cluster.settings.ClusterUpdateSettingsResponseTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.cluster.settings.ClusterUpdateSettingsResponseTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T12:20:23,744][INFO ][o.e.a.a.c.s.ClusterUpdateSettingsResponseTests] [testOldSerialisation] before test
+[2020-02-16T12:20:23,748][INFO ][o.e.a.a.c.s.ClusterUpdateSettingsResponseTests] [testOldSerialisation] after test
+[2020-02-16T12:20:23,750][INFO ][o.e.a.a.c.s.ClusterUpdateSettingsResponseTests] [testFromXContent] before test
+[2020-02-16T12:20:23,772][INFO ][o.e.a.a.c.s.ClusterUpdateSettingsResponseTests] [testFromXContent] after test
+[2020-02-16T12:20:23,773][INFO ][o.e.a.a.c.s.ClusterUpdateSettingsResponseTests] [testEqualsAndHashcode] before test
+[2020-02-16T12:20:23,777][INFO ][o.e.a.a.c.s.ClusterUpdateSettingsResponseTests] [testEqualsAndHashcode] after test
+[2020-02-16T12:20:23,779][INFO ][o.e.a.a.c.s.ClusterUpdateSettingsResponseTests] [testSerialization] before test
+[2020-02-16T12:20:23,780][INFO ][o.e.a.a.c.s.ClusterUpdateSettingsResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

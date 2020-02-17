@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.compress.DeflateCompressedXContentTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:40" hostname="Escoto-PC" time="0.593">
+  <properties/>
+  <testcase name="testHashCode" classname="org.elasticsearch.common.compress.DeflateCompressedXContentTests" time="0.004"/>
+  <testcase name="testDifferentCompressedRepresentation" classname="org.elasticsearch.common.compress.DeflateCompressedXContentTests" time="0.002"/>
+  <testcase name="testRandom" classname="org.elasticsearch.common.compress.DeflateCompressedXContentTests" time="0.587"/>
+  <system-out><![CDATA[[2020-02-16T11:21:40,828][INFO ][o.e.c.c.DeflateCompressedXContentTests] [testHashCode] before test
+[2020-02-16T11:21:40,831][INFO ][o.e.c.c.DeflateCompressedXContentTests] [testHashCode] after test
+[2020-02-16T11:21:40,832][INFO ][o.e.c.c.DeflateCompressedXContentTests] [testDifferentCompressedRepresentation] before test
+[2020-02-16T11:21:40,833][INFO ][o.e.c.c.DeflateCompressedXContentTests] [testDifferentCompressedRepresentation] after test
+[2020-02-16T11:21:40,834][INFO ][o.e.c.c.DeflateCompressedXContentTests] [testRandom] before test
+[2020-02-16T11:21:41,420][INFO ][o.e.c.c.DeflateCompressedXContentTests] [testRandom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

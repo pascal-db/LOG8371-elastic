@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.term.SortByTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testWriteTo" classname="org.elasticsearch.search.suggest.term.SortByTests" time="0.003"/>
+  <testcase name="testFromString" classname="org.elasticsearch.search.suggest.term.SortByTests" time="0.002"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.search.suggest.term.SortByTests" time="0.001"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.search.suggest.term.SortByTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T01:24:43,817][INFO ][o.e.s.s.t.SortByTests    ] [testWriteTo] before test
+[2020-02-17T01:24:43,817][INFO ][o.e.s.s.t.SortByTests    ] [testWriteTo] after test
+[2020-02-17T01:24:43,819][INFO ][o.e.s.s.t.SortByTests    ] [testFromString] before test
+[2020-02-17T01:24:43,819][INFO ][o.e.s.s.t.SortByTests    ] [testFromString] after test
+[2020-02-17T01:24:43,821][INFO ][o.e.s.s.t.SortByTests    ] [testReadFrom] before test
+[2020-02-17T01:24:43,821][INFO ][o.e.s.s.t.SortByTests    ] [testReadFrom] after test
+[2020-02-17T01:24:43,822][INFO ][o.e.s.s.t.SortByTests    ] [testValidOrdinals] before test
+[2020-02-17T01:24:43,822][INFO ][o.e.s.s.t.SortByTests    ] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

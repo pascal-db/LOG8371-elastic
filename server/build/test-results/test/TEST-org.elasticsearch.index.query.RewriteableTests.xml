@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.RewriteableTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:40" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testRewriteAndFetch" classname="org.elasticsearch.index.query.RewriteableTests" time="0.015"/>
+  <testcase name="testRewrite" classname="org.elasticsearch.index.query.RewriteableTests" time="0.002"/>
+  <testcase name="testRewriteList" classname="org.elasticsearch.index.query.RewriteableTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:23:40,914][INFO ][o.e.i.q.RewriteableTests ] [testRewriteAndFetch] before test
+[2020-02-17T06:23:40,925][INFO ][o.e.i.q.RewriteableTests ] [testRewriteAndFetch] after test
+[2020-02-17T06:23:40,927][INFO ][o.e.i.q.RewriteableTests ] [testRewrite] before test
+[2020-02-17T06:23:40,927][INFO ][o.e.i.q.RewriteableTests ] [testRewrite] after test
+[2020-02-17T06:23:40,929][INFO ][o.e.i.q.RewriteableTests ] [testRewriteList] before test
+[2020-02-17T06:23:40,929][INFO ][o.e.i.q.RewriteableTests ] [testRewriteList] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

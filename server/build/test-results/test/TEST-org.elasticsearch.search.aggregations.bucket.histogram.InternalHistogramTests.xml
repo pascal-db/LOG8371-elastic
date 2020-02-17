@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogramTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:17" hostname="Escoto-PC" time="0.058">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogramTests" time="0.005"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogramTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogramTests" time="0.026"/>
+  <testcase name="testHandlesNaN" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogramTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogramTests" time="0.006"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogramTests" time="0.007"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalHistogramTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T18:24:17,889][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testFromXContent] before test
+[2020-02-16T18:24:17,892][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testFromXContent] after test
+[2020-02-16T18:24:17,894][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T18:24:17,896][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T18:24:17,901][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:24:17,923][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:24:17,925][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testHandlesNaN] before test
+[2020-02-16T18:24:17,926][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testHandlesNaN] after test
+[2020-02-16T18:24:17,930][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testReduceRandom] before test
+[2020-02-16T18:24:17,933][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testReduceRandom] after test
+[2020-02-16T18:24:17,938][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testIterators] before test
+[2020-02-16T18:24:17,939][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testIterators] after test
+[2020-02-16T18:24:17,942][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testSerialization] before test
+[2020-02-16T18:24:17,945][INFO ][o.e.s.a.b.h.InternalHistogramTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

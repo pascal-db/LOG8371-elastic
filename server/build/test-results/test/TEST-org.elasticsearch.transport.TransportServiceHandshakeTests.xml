@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.TransportServiceHandshakeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:09" hostname="Escoto-PC" time="3.182">
+  <properties/>
+  <testcase name="testNodeConnectWithDifferentNodeId" classname="org.elasticsearch.transport.TransportServiceHandshakeTests" time="0.505"/>
+  <testcase name="testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient" classname="org.elasticsearch.transport.TransportServiceHandshakeTests" time="0.514"/>
+  <testcase name="testMismatchedClusterName" classname="org.elasticsearch.transport.TransportServiceHandshakeTests" time="0.518"/>
+  <testcase name="testConnectToNodeLight" classname="org.elasticsearch.transport.TransportServiceHandshakeTests" time="0.604"/>
+  <testcase name="testIncompatibleVersions" classname="org.elasticsearch.transport.TransportServiceHandshakeTests" time="0.54"/>
+  <testcase name="testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler" classname="org.elasticsearch.transport.TransportServiceHandshakeTests" time="0.5"/>
+  <system-out><![CDATA[[2020-02-16T22:25:09,841][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeId] before test
+[2020-02-16T22:25:10,094][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeId] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:10,343][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeId] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:10,346][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeId] after test
+[2020-02-16T22:25:10,347][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient] before test
+[2020-02-16T22:25:10,602][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:10,858][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:10,861][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient] after test
+[2020-02-16T22:25:10,862][INFO ][o.e.t.TransportServiceHandshakeTests] [testMismatchedClusterName] before test
+[2020-02-16T22:25:11,125][INFO ][o.e.t.TransportService   ] [testMismatchedClusterName] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:11,376][INFO ][o.e.t.TransportService   ] [testMismatchedClusterName] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:11,378][INFO ][o.e.t.TransportServiceHandshakeTests] [testMismatchedClusterName] after test
+[2020-02-16T22:25:11,380][INFO ][o.e.t.TransportServiceHandshakeTests] [testConnectToNodeLight] before test
+[2020-02-16T22:25:11,642][INFO ][o.e.t.TransportService   ] [testConnectToNodeLight] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:11,980][INFO ][o.e.t.TransportService   ] [testConnectToNodeLight] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:25:11,982][INFO ][o.e.t.TransportServiceHandshakeTests] [testConnectToNodeLight] after test
+[2020-02-16T22:25:11,984][INFO ][o.e.t.TransportServiceHandshakeTests] [testIncompatibleVersions] before test
+[2020-02-16T22:25:12,272][INFO ][o.e.t.TransportService   ] [testIncompatibleVersions] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:12,520][INFO ][o.e.t.TransportService   ] [testIncompatibleVersions] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:12,522][INFO ][o.e.t.TransportServiceHandshakeTests] [testIncompatibleVersions] after test
+[2020-02-16T22:25:12,524][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler] before test
+[2020-02-16T22:25:12,772][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:13,020][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:13,022][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

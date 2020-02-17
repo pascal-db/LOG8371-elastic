@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.ConnectionManagerTests" tests="4" skipped="1" failures="0" errors="0" timestamp="2020-02-16T22:24:45" hostname="Escoto-PC" time="0.039">
+  <properties/>
+  <testcase name="testConnectFailsDuringValidation" classname="org.elasticsearch.transport.ConnectionManagerTests" time="0.019"/>
+  <testcase name="testConcurrentConnectsAndDisconnects" classname="org.elasticsearch.transport.ConnectionManagerTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testConnectAndDisconnect" classname="org.elasticsearch.transport.ConnectionManagerTests" time="0.015"/>
+  <testcase name="testConnectFailsDuringConnect" classname="org.elasticsearch.transport.ConnectionManagerTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T17:24:45,566][INFO ][o.e.t.ConnectionManagerTests] [testConnectFailsDuringValidation] before test
+[2020-02-16T17:24:45,583][INFO ][o.e.t.ConnectionManagerTests] [testConnectFailsDuringValidation] after test
+[2020-02-16T17:24:45,594][INFO ][o.e.t.ConnectionManagerTests] [testConnectAndDisconnect] before test
+[2020-02-16T17:24:45,598][INFO ][o.e.t.ConnectionManagerTests] [testConnectAndDisconnect] after test
+[2020-02-16T17:24:45,599][INFO ][o.e.t.ConnectionManagerTests] [testConnectFailsDuringConnect] before test
+[2020-02-16T17:24:45,603][INFO ][o.e.t.ConnectionManagerTests] [testConnectFailsDuringConnect] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

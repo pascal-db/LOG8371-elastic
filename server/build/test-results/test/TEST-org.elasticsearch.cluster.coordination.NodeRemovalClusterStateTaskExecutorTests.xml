@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.NodeRemovalClusterStateTaskExecutorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:32" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testRemovingNonExistentNodes" classname="org.elasticsearch.cluster.coordination.NodeRemovalClusterStateTaskExecutorTests" time="0.014"/>
+  <testcase name="testRerouteAfterRemovingNodes" classname="org.elasticsearch.cluster.coordination.NodeRemovalClusterStateTaskExecutorTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T19:20:32,946][INFO ][o.e.c.c.NodeRemovalClusterStateTaskExecutorTests] [testRemovingNonExistentNodes] before test
+[2020-02-16T19:20:32,949][INFO ][o.e.c.c.NodeRemovalClusterStateTaskExecutorTests] [testRemovingNonExistentNodes] after test
+[2020-02-16T19:20:32,954][INFO ][o.e.c.c.NodeRemovalClusterStateTaskExecutorTests] [testRerouteAfterRemovingNodes] before test
+[2020-02-16T19:20:32,959][INFO ][o.e.c.c.NodeRemovalClusterStateTaskExecutorTests] [testRerouteAfterRemovingNodes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

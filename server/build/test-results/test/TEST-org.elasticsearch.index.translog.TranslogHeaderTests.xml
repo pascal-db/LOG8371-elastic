@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.translog.TranslogHeaderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:40" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testHeaderWithoutPrimaryTerm" classname="org.elasticsearch.index.translog.TranslogHeaderTests" time="0.004"/>
+  <testcase name="testCurrentHeaderVersion" classname="org.elasticsearch.index.translog.TranslogHeaderTests" time="0.01"/>
+  <testcase name="testLegacyTranslogVersions" classname="org.elasticsearch.index.translog.TranslogHeaderTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T18:24:40,717][INFO ][o.e.i.t.TranslogHeaderTests] [testHeaderWithoutPrimaryTerm] before test
+[2020-02-16T18:24:40,719][INFO ][o.e.i.t.TranslogHeaderTests] [testHeaderWithoutPrimaryTerm] after test
+[2020-02-16T18:24:40,720][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] before test
+[2020-02-16T18:24:40,723][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: truncating file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog from length 55 to length 33
+[2020-02-16T18:24:40,723][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: corrupting file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog at position 6 turning 0x72 into 0xf9
+[2020-02-16T18:24:40,724][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: corrupting file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog at position 8 turning 0x6e into 0xaa
+[2020-02-16T18:24:40,725][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: corrupting file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog at position 32 turning 0x59 into 0x31
+[2020-02-16T18:24:40,725][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: corrupting file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog at position 2 turning 0x6c into 0xf8
+[2020-02-16T18:24:40,726][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: truncating file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog from length 33 to length 24
+[2020-02-16T18:24:40,727][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: corrupting file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog at position 10 turning 0x6c into 0x5b
+[2020-02-16T18:24:40,728][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: corrupting file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog at position 16 turning 0x3 into 0x84
+[2020-02-16T18:24:40,728][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] corruptFile: truncating file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogHeaderTests_9EA1F2A3814E5F76-001\tempDir-003\translog-7221956609509662822.tlog from length 24 to length 23
+[2020-02-16T18:24:40,729][INFO ][o.e.i.t.TranslogHeaderTests] [testCurrentHeaderVersion] after test
+[2020-02-16T18:24:40,731][INFO ][o.e.i.t.TranslogHeaderTests] [testLegacyTranslogVersions] before test
+[2020-02-16T18:24:40,734][INFO ][o.e.i.t.TranslogHeaderTests] [testLegacyTranslogVersions] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.PreferPrimaryAllocationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testPreferPrimaryAllocationOverReplicas" classname="org.elasticsearch.cluster.routing.allocation.PreferPrimaryAllocationTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T14:21:38,434][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] before test
+[2020-02-16T14:21:38,435][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] create an allocation with 1 initial recoveries
+[2020-02-16T14:21:38,436][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] create several indices with no replicas, and wait till all are allocated
+[2020-02-16T14:21:38,437][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] adding two nodes and performing rerouting till all are allocated
+[2020-02-16T14:21:38,441][INFO ][o.e.c.r.a.AllocationService] [testPreferPrimaryAllocationOverReplicas] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][8], [test1][9]]]).
+[2020-02-16T14:21:38,441][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] increasing the number of replicas to 1, and perform a reroute (to get the replicas allocation going)
+[2020-02-16T14:21:38,441][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] 2 replicas should be initializing now for the existing indices (we throttle to 1)
+[2020-02-16T14:21:38,442][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] create a new index
+[2020-02-16T14:21:38,442][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] reroute, verify that primaries for the new index primary shards are allocated
+[2020-02-16T14:21:38,442][INFO ][o.e.c.r.a.PreferPrimaryAllocationTests] [testPreferPrimaryAllocationOverReplicas] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

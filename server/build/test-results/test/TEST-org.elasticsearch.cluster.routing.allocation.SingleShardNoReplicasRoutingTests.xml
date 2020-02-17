@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.SingleShardNoReplicasRoutingTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testSingleIndexStartedShard" classname="org.elasticsearch.cluster.routing.allocation.SingleShardNoReplicasRoutingTests" time="0.007"/>
+  <testcase name="testMultiIndexEvenDistribution" classname="org.elasticsearch.cluster.routing.allocation.SingleShardNoReplicasRoutingTests" time="0.015"/>
+  <testcase name="testMultiIndexUnevenNodes" classname="org.elasticsearch.cluster.routing.allocation.SingleShardNoReplicasRoutingTests" time="0.009"/>
+  <testcase name="testSingleIndexShardFailed" classname="org.elasticsearch.cluster.routing.allocation.SingleShardNoReplicasRoutingTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T22:21:38,821][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] before test
+[2020-02-16T22:21:38,822][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Building initial routing table
+[2020-02-16T22:21:38,823][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Adding one node and performing rerouting
+[2020-02-16T22:21:38,823][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Rerouting again, nothing should change
+[2020-02-16T22:21:38,823][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Marking the shard as started
+[2020-02-16T22:21:38,823][INFO ][o.e.c.r.a.AllocationService] [testSingleIndexStartedShard] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T22:21:38,824][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Starting another node and making sure nothing changed
+[2020-02-16T22:21:38,824][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Killing node1 where the shard is, checking the shard is unassigned
+[2020-02-16T22:21:38,824][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Bring node1 back, and see it's assinged
+[2020-02-16T22:21:38,824][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Start another node, make sure that things remain the same (shard is in node2 and initializing)
+[2020-02-16T22:21:38,825][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] Start the shard on node 1
+[2020-02-16T22:21:38,825][INFO ][o.e.c.r.a.AllocationService] [testSingleIndexStartedShard] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T22:21:38,825][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexStartedShard] after test
+[2020-02-16T22:21:38,826][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexEvenDistribution] before test
+[2020-02-16T22:21:38,828][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexEvenDistribution] Building initial routing table with 50 indices
+[2020-02-16T22:21:38,829][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexEvenDistribution] Adding 25 nodes
+[2020-02-16T22:21:38,834][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexEvenDistribution] Adding additional 25 nodes, nothing should change
+[2020-02-16T22:21:38,836][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexEvenDistribution] Marking the shard as started
+[2020-02-16T22:21:38,837][INFO ][o.e.c.r.a.AllocationService] [testMultiIndexEvenDistribution] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test30][0], [test9][0], [test3][0], [test8][0], [test7][0], [test29][0], [test28][0], [test6][0], [test5][0], [test27][0], ... [50 items in total]]]).
+[2020-02-16T22:21:38,840][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexEvenDistribution] after test
+[2020-02-16T22:21:38,845][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexUnevenNodes] before test
+[2020-02-16T22:21:38,847][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexUnevenNodes] Building initial routing table with 10 indices
+[2020-02-16T22:21:38,847][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexUnevenNodes] Starting 3 nodes and rerouting
+[2020-02-16T22:21:38,848][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexUnevenNodes] Start two more nodes, things should remain the same
+[2020-02-16T22:21:38,848][INFO ][o.e.c.r.a.AllocationService] [testMultiIndexUnevenNodes] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0], [test7][0], [test5][0], [test3][0], [test4][0], [test6][0], [test2][0], [test0][0], [test8][0], [test9][0]]]).
+[2020-02-16T22:21:38,848][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexUnevenNodes] Now, mark the relocated as started
+[2020-02-16T22:21:38,849][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testMultiIndexUnevenNodes] after test
+[2020-02-16T22:21:38,853][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexShardFailed] before test
+[2020-02-16T22:21:38,855][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexShardFailed] Building initial routing table
+[2020-02-16T22:21:38,855][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexShardFailed] Adding one node and rerouting
+[2020-02-16T22:21:38,855][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexShardFailed] Marking the shard as failed
+[2020-02-16T22:21:38,855][WARN ][o.e.c.r.a.AllocationService] [testSingleIndexShardFailed] failing shard [failed shard, shard [test][0], node[node1], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=tqtMCpFiRd60FDx4PlXWEw], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:21:38.855Z], delayed=false, allocation_status[no_attempt]], message [null], failure [Unknown], markAsStale [false]]
+[2020-02-16T22:21:38,855][INFO ][o.e.c.r.a.AllocationService] [testSingleIndexShardFailed] Cluster health status changed from [YELLOW] to [RED] (reason: [shards failed [[test][0]]]).
+[2020-02-16T22:21:38,856][INFO ][o.e.c.r.a.SingleShardNoReplicasRoutingTests] [testSingleIndexShardFailed] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.hash.MessageDigestsTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:45" hostname="Escoto-PC" time="0.148">
+  <properties/>
+  <testcase name="testToHexString" classname="org.elasticsearch.common.hash.MessageDigestsTests" time="0.043"/>
+  <testcase name="testMd5" classname="org.elasticsearch.common.hash.MessageDigestsTests" time="0.044"/>
+  <testcase name="testSha1" classname="org.elasticsearch.common.hash.MessageDigestsTests" time="0.033"/>
+  <testcase name="testSha256" classname="org.elasticsearch.common.hash.MessageDigestsTests" time="0.027"/>
+  <system-out><![CDATA[[2020-02-17T05:20:45,521][INFO ][o.e.c.h.MessageDigestsTests] [testToHexString] before test
+[2020-02-17T05:20:45,561][INFO ][o.e.c.h.MessageDigestsTests] [testToHexString] after test
+[2020-02-17T05:20:45,564][INFO ][o.e.c.h.MessageDigestsTests] [testMd5] before test
+[2020-02-17T05:20:45,604][INFO ][o.e.c.h.MessageDigestsTests] [testMd5] after test
+[2020-02-17T05:20:45,608][INFO ][o.e.c.h.MessageDigestsTests] [testSha1] before test
+[2020-02-17T05:20:45,638][INFO ][o.e.c.h.MessageDigestsTests] [testSha1] after test
+[2020-02-17T05:20:45,641][INFO ][o.e.c.h.MessageDigestsTests] [testSha256] before test
+[2020-02-17T05:20:45,666][INFO ][o.e.c.h.MessageDigestsTests] [testSha256] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

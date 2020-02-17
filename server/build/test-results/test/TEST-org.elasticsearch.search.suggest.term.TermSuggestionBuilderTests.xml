@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.term.TermSuggestionBuilderTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:53" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.term.TermSuggestionBuilderTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.term.TermSuggestionBuilderTests" time="0.003"/>
+  <testcase name="testBuild" classname="org.elasticsearch.search.suggest.term.TermSuggestionBuilderTests" time="0.015"/>
+  <testcase name="testDefaultValuesSet" classname="org.elasticsearch.search.suggest.term.TermSuggestionBuilderTests" time="0.003"/>
+  <testcase name="testInvalidParameters" classname="org.elasticsearch.search.suggest.term.TermSuggestionBuilderTests" time="0.005"/>
+  <testcase name="testMalformedJson" classname="org.elasticsearch.search.suggest.term.TermSuggestionBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.suggest.term.TermSuggestionBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T18:25:53,020][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testFromXContent] before test
+[2020-02-16T18:25:53,024][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testFromXContent] after test
+[2020-02-16T18:25:53,027][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testSerialization] before test
+[2020-02-16T18:25:53,028][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testSerialization] after test
+[2020-02-16T18:25:53,030][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testBuild] before test
+[2020-02-16T18:25:53,043][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testBuild] after test
+[2020-02-16T18:25:53,046][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testDefaultValuesSet] before test
+[2020-02-16T18:25:53,046][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testDefaultValuesSet] after test
+[2020-02-16T18:25:53,048][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testInvalidParameters] before test
+[2020-02-16T18:25:53,051][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testInvalidParameters] after test
+[2020-02-16T18:25:53,053][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testMalformedJson] before test
+[2020-02-16T18:25:53,053][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testMalformedJson] after test
+[2020-02-16T18:25:53,055][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:53,056][INFO ][o.e.s.s.t.TermSuggestionBuilderTests] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

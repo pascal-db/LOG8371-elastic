@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.GeoShapeFieldTypeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:34" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.GeoShapeFieldTypeTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.GeoShapeFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.GeoShapeFieldTypeTests" time="0.003"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.GeoShapeFieldTypeTests" time="0.001"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.GeoShapeFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:22:34,594][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T18:22:34,595][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T18:22:34,597][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testEquals] before test
+[2020-02-16T18:22:34,598][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testEquals] after test
+[2020-02-16T18:22:34,600][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testFreeze] before test
+[2020-02-16T18:22:34,601][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testFreeze] after test
+[2020-02-16T18:22:34,602][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T18:22:34,602][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T18:22:34,605][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testClone] before test
+[2020-02-16T18:22:34,605][INFO ][o.e.i.m.GeoShapeFieldTypeTests] [testClone] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

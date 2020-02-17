@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.ObjectMapperMergeTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:27" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testMergeWhenDisablingField" classname="org.elasticsearch.index.mapper.ObjectMapperMergeTests" time="0.003"/>
+  <testcase name="testMerge" classname="org.elasticsearch.index.mapper.ObjectMapperMergeTests" time="0.005"/>
+  <testcase name="testMergeWhenEnablingField" classname="org.elasticsearch.index.mapper.ObjectMapperMergeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:23:27,453][INFO ][o.e.i.m.ObjectMapperMergeTests] [testMergeWhenDisablingField] before test
+[2020-02-16T22:23:27,454][INFO ][o.e.i.m.ObjectMapperMergeTests] [testMergeWhenDisablingField] after test
+[2020-02-16T22:23:27,458][INFO ][o.e.i.m.ObjectMapperMergeTests] [testMerge] before test
+[2020-02-16T22:23:27,459][INFO ][o.e.i.m.ObjectMapperMergeTests] [testMerge] after test
+[2020-02-16T22:23:27,460][INFO ][o.e.i.m.ObjectMapperMergeTests] [testMergeWhenEnablingField] before test
+[2020-02-16T22:23:27,461][INFO ][o.e.i.m.ObjectMapperMergeTests] [testMergeWhenEnablingField] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

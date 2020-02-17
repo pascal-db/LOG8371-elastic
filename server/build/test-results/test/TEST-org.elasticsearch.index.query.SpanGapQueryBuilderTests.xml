@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.SpanGapQueryBuilderTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:41" hostname="Escoto-PC" time="0.072">
+  <properties/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.017"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.006"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.003"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.003"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.SpanGapQueryBuilderTests" time="0.018"/>
+  <system-out><![CDATA[[2020-02-16T19:23:41,103][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T19:23:41,105][INFO ][o.e.p.PluginsService     ] [testIllegalArguments] no modules loaded
+[2020-02-16T19:23:41,105][INFO ][o.e.p.PluginsService     ] [testIllegalArguments] no plugins loaded
+[2020-02-16T19:23:41,116][INFO ][o.e.p.PluginsService     ] [testIllegalArguments] no modules loaded
+[2020-02-16T19:23:41,116][INFO ][o.e.p.PluginsService     ] [testIllegalArguments] no plugins loaded
+[2020-02-16T19:23:41,119][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T19:23:41,120][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T19:23:41,121][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T19:23:41,123][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T19:23:41,127][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T19:23:41,129][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testSerialization] before test
+[2020-02-16T19:23:41,129][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testSerialization] after test
+[2020-02-16T19:23:41,131][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T19:23:41,132][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T19:23:41,133][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T19:23:41,136][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T19:23:41,138][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testFromJson] before test
+[2020-02-16T19:23:41,138][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testFromJson] after test
+[2020-02-16T19:23:41,141][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:23:41,144][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:23:41,146][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testCacheability] before test
+[2020-02-16T19:23:41,147][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testCacheability] after test
+[2020-02-16T19:23:41,151][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T19:23:41,151][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T19:23:41,152][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T19:23:41,154][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T19:23:41,155][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T19:23:41,156][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T19:23:41,158][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testToQuery] before test
+[2020-02-16T19:23:41,173][INFO ][o.e.i.q.SpanGapQueryBuilderTests] [testToQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

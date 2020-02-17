@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.DisMaxQueryBuilderTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:36" hostname="Escoto-PC" time="0.179">
+  <properties/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.023"/>
+  <testcase name="testToQueryInnerPrefixQuery" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.004"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.01"/>
+  <testcase name="testRewriteMultipleTimes" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.008"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.003"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.012"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.005"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.003"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.053"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.02"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.DisMaxQueryBuilderTests" time="0.022"/>
+  <system-out><![CDATA[[2020-02-17T03:23:36,473][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T03:23:36,474][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-17T03:23:36,474][INFO ][o.e.p.PluginsService     ] [testValidOutput] no plugins loaded
+[2020-02-17T03:23:36,481][INFO ][o.e.p.PluginsService     ] [testValidOutput] no modules loaded
+[2020-02-17T03:23:36,481][INFO ][o.e.p.PluginsService     ] [testValidOutput] no plugins loaded
+[2020-02-17T03:23:36,494][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T03:23:36,496][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testToQueryInnerPrefixQuery] before test
+[2020-02-17T03:23:36,498][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testToQueryInnerPrefixQuery] after test
+[2020-02-17T03:23:36,500][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T03:23:36,500][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T03:23:36,503][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testSerialization] before test
+[2020-02-17T03:23:36,504][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testSerialization] after test
+[2020-02-17T03:23:36,507][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T03:23:36,509][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T03:23:36,511][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T03:23:36,513][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T03:23:36,515][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T03:23:36,523][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T03:23:36,530][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testRewriteMultipleTimes] before test
+[2020-02-17T03:23:36,530][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testRewriteMultipleTimes] after test
+[2020-02-17T03:23:36,533][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T03:23:36,533][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T03:23:36,546][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T03:23:36,546][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T03:23:36,551][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testFromJson] before test
+[2020-02-17T03:23:36,552][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testFromJson] after test
+[2020-02-17T03:23:36,555][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T03:23:36,555][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T03:23:36,607][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testCacheability] before test
+[2020-02-17T03:23:36,607][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testCacheability] after test
+[2020-02-17T03:23:36,612][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testToQuery] before test
+[2020-02-17T03:23:36,628][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testToQuery] after test
+[2020-02-17T03:23:36,637][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-17T03:23:36,650][INFO ][o.e.i.q.DisMaxQueryBuilderTests] [testIllegalArguments] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.bootstrap.ElasticsearchCliTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:49" hostname="Escoto-PC" time="0.168">
+  <properties/>
+  <testcase name="testUnknownOption" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.04"/>
+  <testcase name="testPositionalArgs" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.009"/>
+  <testcase name="testThatPidFileCanBeConfigured" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.014"/>
+  <testcase name="testVersion" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.033"/>
+  <testcase name="testElasticsearchSettingCanNotBeDuplicated" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.007"/>
+  <testcase name="testElasticsearchSettings" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.016"/>
+  <testcase name="testThatParsingDaemonizeWorks" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.017"/>
+  <testcase name="testElasticsearchSettingCanNotBeEmpty" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.014"/>
+  <testcase name="testThatParsingQuietOptionWorks" classname="org.elasticsearch.bootstrap.ElasticsearchCliTests" time="0.016"/>
+  <system-out><![CDATA[[2020-02-17T06:20:49,645][INFO ][o.e.b.ElasticsearchCliTests] [testUnknownOption] before test
+[2020-02-17T06:20:49,683][INFO ][o.e.b.ElasticsearchCliTests] [testUnknownOption] after test
+[2020-02-17T06:20:49,686][INFO ][o.e.b.ElasticsearchCliTests] [testPositionalArgs] before test
+[2020-02-17T06:20:49,692][INFO ][o.e.b.ElasticsearchCliTests] [testPositionalArgs] after test
+[2020-02-17T06:20:49,700][INFO ][o.e.b.ElasticsearchCliTests] [testThatPidFileCanBeConfigured] before test
+[2020-02-17T06:20:49,706][INFO ][o.e.b.ElasticsearchCliTests] [testThatPidFileCanBeConfigured] after test
+[2020-02-17T06:20:49,708][INFO ][o.e.b.ElasticsearchCliTests] [testVersion] before test
+[2020-02-17T06:20:49,739][INFO ][o.e.b.ElasticsearchCliTests] [testVersion] after test
+[2020-02-17T06:20:49,743][INFO ][o.e.b.ElasticsearchCliTests] [testElasticsearchSettingCanNotBeDuplicated] before test
+[2020-02-17T06:20:49,747][INFO ][o.e.b.ElasticsearchCliTests] [testElasticsearchSettingCanNotBeDuplicated] after test
+[2020-02-17T06:20:49,760][INFO ][o.e.b.ElasticsearchCliTests] [testElasticsearchSettings] before test
+[2020-02-17T06:20:49,763][INFO ][o.e.b.ElasticsearchCliTests] [testElasticsearchSettings] after test
+[2020-02-17T06:20:49,771][INFO ][o.e.b.ElasticsearchCliTests] [testThatParsingDaemonizeWorks] before test
+[2020-02-17T06:20:49,780][INFO ][o.e.b.ElasticsearchCliTests] [testThatParsingDaemonizeWorks] after test
+[2020-02-17T06:20:49,792][INFO ][o.e.b.ElasticsearchCliTests] [testElasticsearchSettingCanNotBeEmpty] before test
+[2020-02-17T06:20:49,794][INFO ][o.e.b.ElasticsearchCliTests] [testElasticsearchSettingCanNotBeEmpty] after test
+[2020-02-17T06:20:49,804][INFO ][o.e.b.ElasticsearchCliTests] [testThatParsingQuietOptionWorks] before test
+[2020-02-17T06:20:49,812][INFO ][o.e.b.ElasticsearchCliTests] [testThatParsingQuietOptionWorks] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.script.ScriptExceptionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testRoundTrip" classname="org.elasticsearch.script.ScriptExceptionTests" time="0.003"/>
+  <testcase name="testImmutableStack" classname="org.elasticsearch.script.ScriptExceptionTests" time="0.002"/>
+  <testcase name="testJsonOutput" classname="org.elasticsearch.script.ScriptExceptionTests" time="0.004"/>
+  <testcase name="testNoLeniency" classname="org.elasticsearch.script.ScriptExceptionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T09:24:05,853][INFO ][o.e.s.ScriptExceptionTests] [testRoundTrip] before test
+[2020-02-17T09:24:05,855][INFO ][o.e.s.ScriptExceptionTests] [testRoundTrip] after test
+[2020-02-17T09:24:05,856][INFO ][o.e.s.ScriptExceptionTests] [testImmutableStack] before test
+[2020-02-17T09:24:05,857][INFO ][o.e.s.ScriptExceptionTests] [testImmutableStack] after test
+[2020-02-17T09:24:05,860][INFO ][o.e.s.ScriptExceptionTests] [testJsonOutput] before test
+[2020-02-17T09:24:05,861][INFO ][o.e.s.ScriptExceptionTests] [testJsonOutput] after test
+[2020-02-17T09:24:05,863][INFO ][o.e.s.ScriptExceptionTests] [testNoLeniency] before test
+[2020-02-17T09:24:05,864][INFO ][o.e.s.ScriptExceptionTests] [testNoLeniency] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

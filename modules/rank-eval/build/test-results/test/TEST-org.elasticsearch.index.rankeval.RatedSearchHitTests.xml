@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.RatedSearchHitTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:51" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testXContentRoundtrip" classname="org.elasticsearch.index.rankeval.RatedSearchHitTests" time="0.016"/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.RatedSearchHitTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.RatedSearchHitTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:11:51,860][INFO ][o.e.i.r.RatedSearchHitTests] [testXContentRoundtrip] before test
+[2020-02-16T19:11:51,872][INFO ][o.e.i.r.RatedSearchHitTests] [testXContentRoundtrip] after test
+[2020-02-16T19:11:51,875][INFO ][o.e.i.r.RatedSearchHitTests] [testEqualsAndHash] before test
+[2020-02-16T19:11:51,876][INFO ][o.e.i.r.RatedSearchHitTests] [testEqualsAndHash] after test
+[2020-02-16T19:11:51,878][INFO ][o.e.i.r.RatedSearchHitTests] [testSerialization] before test
+[2020-02-16T19:11:51,879][INFO ][o.e.i.r.RatedSearchHitTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

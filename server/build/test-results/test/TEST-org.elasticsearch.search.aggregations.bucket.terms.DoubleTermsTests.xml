@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.terms.DoubleTermsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:24" hostname="Escoto-PC" time="0.052">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.terms.DoubleTermsTests" time="0.006"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.terms.DoubleTermsTests" time="0.016"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.terms.DoubleTermsTests" time="0.006"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.terms.DoubleTermsTests" time="0.015"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.terms.DoubleTermsTests" time="0.005"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.terms.DoubleTermsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:24,371][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T18:25:24,374][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T18:25:24,385][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testReduceRandom] before test
+[2020-02-16T18:25:24,391][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testReduceRandom] after test
+[2020-02-16T18:25:24,393][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testFromXContent] before test
+[2020-02-16T18:25:24,397][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testFromXContent] after test
+[2020-02-16T18:25:24,401][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:24,412][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:25:24,416][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testSerialization] before test
+[2020-02-16T18:25:24,418][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testSerialization] after test
+[2020-02-16T18:25:24,420][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testIterators] before test
+[2020-02-16T18:25:24,421][INFO ][o.e.s.a.b.t.DoubleTermsTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" tests="34" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:37" hostname="Escoto-PC" time="0.143">
+  <properties/>
+  <testcase name="testStrictnessDefault" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.022"/>
+  <testcase name="testHonorsCoercion" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testValidation" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromGeohash" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.007"/>
+  <testcase name="testBrokenCoordinateCannotBeSet" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.004"/>
+  <testcase name="testBrokenCoordinateCanBeSetWithIgnoreMalformed" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidationNullTypeString" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testTopBottomCannotBeFlipped" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromWKT" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testParsingAndToQuery6" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.005"/>
+  <testcase name="testMalformedGeohashes" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testParsingAndToQuery3" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testParsingAndToQuery2" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.006"/>
+  <testcase name="testValidationNullType" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testIgnoreUnmapped" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testParsingAndToQuery5" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testLeftRightCanBeFlipped" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testTopBottomCanBeFlippedOnIgnoreMalformed" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.005"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.009"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testParsingAndToQuery4" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testParsingAndToQuery1" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.004"/>
+  <testcase name="testValidationNullFieldname" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.003"/>
+  <testcase name="testExceptionOnMissingTypes" classname="org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-16T17:23:37,244][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testStrictnessDefault] before test
+[2020-02-16T17:23:37,246][INFO ][o.e.p.PluginsService     ] [testStrictnessDefault] no modules loaded
+[2020-02-16T17:23:37,246][INFO ][o.e.p.PluginsService     ] [testStrictnessDefault] no plugins loaded
+[2020-02-16T17:23:37,254][INFO ][o.e.p.PluginsService     ] [testStrictnessDefault] no modules loaded
+[2020-02-16T17:23:37,254][INFO ][o.e.p.PluginsService     ] [testStrictnessDefault] no plugins loaded
+[2020-02-16T17:23:37,264][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testStrictnessDefault] after test
+[2020-02-16T17:23:37,266][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testHonorsCoercion] before test
+[2020-02-16T17:23:37,267][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testHonorsCoercion] after test
+[2020-02-16T17:23:37,269][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidation] before test
+[2020-02-16T17:23:37,271][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidation] after test
+[2020-02-16T17:23:37,277][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromGeohash] before test
+[2020-02-16T17:23:37,278][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromGeohash] after test
+[2020-02-16T17:23:37,280][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testBrokenCoordinateCannotBeSet] before test
+[2020-02-16T17:23:37,281][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testBrokenCoordinateCannotBeSet] after test
+[2020-02-16T17:23:37,284][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:37,285][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T17:23:37,287][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testBrokenCoordinateCanBeSetWithIgnoreMalformed] before test
+[2020-02-16T17:23:37,287][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testBrokenCoordinateCanBeSetWithIgnoreMalformed] after test
+[2020-02-16T17:23:37,289][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromJson] before test
+[2020-02-16T17:23:37,289][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromJson] after test
+[2020-02-16T17:23:37,291][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:37,291][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:37,293][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullTypeString] before test
+[2020-02-16T17:23:37,294][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullTypeString] after test
+[2020-02-16T17:23:37,296][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCannotBeFlipped] before test
+[2020-02-16T17:23:37,296][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCannotBeFlipped] top: -81.37387689864637 bottom: -86.74261239831314
+[2020-02-16T17:23:37,297][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCannotBeFlipped] after test
+[2020-02-16T17:23:37,299][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromWKT] before test
+[2020-02-16T17:23:37,300][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromWKT] after test
+[2020-02-16T17:23:37,302][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery6] before test
+[2020-02-16T17:23:37,302][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery6] after test
+[2020-02-16T17:23:37,305][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:37,307][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:37,311][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testMalformedGeohashes] before test
+[2020-02-16T17:23:37,312][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testMalformedGeohashes] after test
+[2020-02-16T17:23:37,314][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery3] before test
+[2020-02-16T17:23:37,314][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery3] after test
+[2020-02-16T17:23:37,317][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery2] before test
+[2020-02-16T17:23:37,317][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery2] after test
+[2020-02-16T17:23:37,319][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:37,319][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:37,321][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:37,325][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:37,327][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullType] before test
+[2020-02-16T17:23:37,327][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullType] after test
+[2020-02-16T17:23:37,330][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testIgnoreUnmapped] before test
+[2020-02-16T17:23:37,331][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testIgnoreUnmapped] after test
+[2020-02-16T17:23:37,333][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery5] before test
+[2020-02-16T17:23:37,334][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery5] after test
+[2020-02-16T17:23:37,336][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testLeftRightCanBeFlipped] before test
+[2020-02-16T17:23:37,336][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testLeftRightCanBeFlipped] after test
+[2020-02-16T17:23:37,338][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:37,339][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:37,341][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCanBeFlippedOnIgnoreMalformed] before test
+[2020-02-16T17:23:37,341][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCanBeFlippedOnIgnoreMalformed] after test
+[2020-02-16T17:23:37,343][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:37,346][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T17:23:37,347][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:37,348][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:23:37,356][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:37,357][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testSerialization] after test
+[2020-02-16T17:23:37,360][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:37,360][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:37,363][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery4] before test
+[2020-02-16T17:23:37,363][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery4] after test
+[2020-02-16T17:23:37,365][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery1] before test
+[2020-02-16T17:23:37,365][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery1] after test
+[2020-02-16T17:23:37,367][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:37,369][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:37,372][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullFieldname] before test
+[2020-02-16T17:23:37,373][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullFieldname] after test
+[2020-02-16T17:23:37,384][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testExceptionOnMissingTypes] before test
+[2020-02-16T17:23:37,384][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testExceptionOnMissingTypes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

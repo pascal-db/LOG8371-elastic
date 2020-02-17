@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.DecisionsImpactOnClusterHealthTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.032">
+  <properties/>
+  <testcase name="testPrimaryShardThrottleDecisionOnIndexCreation" classname="org.elasticsearch.cluster.routing.allocation.DecisionsImpactOnClusterHealthTests" time="0.009"/>
+  <testcase name="testPrimaryShardNoDecisionOnIndexCreation" classname="org.elasticsearch.cluster.routing.allocation.DecisionsImpactOnClusterHealthTests" time="0.016"/>
+  <testcase name="testPrimaryShardYesDecisionOnIndexCreation" classname="org.elasticsearch.cluster.routing.allocation.DecisionsImpactOnClusterHealthTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T23:20:38,311][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardThrottleDecisionOnIndexCreation] before test
+[2020-02-16T23:20:38,316][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardThrottleDecisionOnIndexCreation] Building initial routing table
+[2020-02-16T23:20:38,316][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardThrottleDecisionOnIndexCreation] --> adding nodes
+[2020-02-16T23:20:38,316][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardThrottleDecisionOnIndexCreation] --> do the reroute
+[2020-02-16T23:20:38,317][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardThrottleDecisionOnIndexCreation] --> assert cluster health
+[2020-02-16T23:20:38,317][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardThrottleDecisionOnIndexCreation] after test
+[2020-02-16T23:20:38,330][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardNoDecisionOnIndexCreation] before test
+[2020-02-16T23:20:38,332][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardNoDecisionOnIndexCreation] Building initial routing table
+[2020-02-16T23:20:38,333][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardNoDecisionOnIndexCreation] --> adding nodes
+[2020-02-16T23:20:38,333][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardNoDecisionOnIndexCreation] --> do the reroute
+[2020-02-16T23:20:38,333][INFO ][o.e.c.r.a.AllocationService] [testPrimaryShardNoDecisionOnIndexCreation] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute]).
+[2020-02-16T23:20:38,333][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardNoDecisionOnIndexCreation] --> assert cluster health
+[2020-02-16T23:20:38,333][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardNoDecisionOnIndexCreation] after test
+[2020-02-16T23:20:38,337][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardYesDecisionOnIndexCreation] before test
+[2020-02-16T23:20:38,339][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardYesDecisionOnIndexCreation] Building initial routing table
+[2020-02-16T23:20:38,339][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardYesDecisionOnIndexCreation] --> adding nodes
+[2020-02-16T23:20:38,339][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardYesDecisionOnIndexCreation] --> do the reroute
+[2020-02-16T23:20:38,339][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardYesDecisionOnIndexCreation] --> assert cluster health
+[2020-02-16T23:20:38,339][INFO ][o.e.c.r.a.DecisionsImpactOnClusterHealthTests] [testPrimaryShardYesDecisionOnIndexCreation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

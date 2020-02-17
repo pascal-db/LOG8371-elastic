@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.StringsTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:54" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testToStringToXContent" classname="org.elasticsearch.common.StringsTests" time="0.004"/>
+  <testcase name="testCleanTruncate" classname="org.elasticsearch.common.StringsTests" time="0.001"/>
+  <testcase name="testSplitStringToSet" classname="org.elasticsearch.common.StringsTests" time="0.004"/>
+  <testcase name="testSubstring" classname="org.elasticsearch.common.StringsTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T16:21:54,710][INFO ][o.e.c.StringsTests       ] [testToStringToXContent] before test
+[2020-02-16T16:21:54,712][INFO ][o.e.c.StringsTests       ] [testToStringToXContent] after test
+[2020-02-16T16:21:54,713][INFO ][o.e.c.StringsTests       ] [testCleanTruncate] before test
+[2020-02-16T16:21:54,714][INFO ][o.e.c.StringsTests       ] [testCleanTruncate] after test
+[2020-02-16T16:21:54,717][INFO ][o.e.c.StringsTests       ] [testSplitStringToSet] before test
+[2020-02-16T16:21:54,718][INFO ][o.e.c.StringsTests       ] [testSplitStringToSet] after test
+[2020-02-16T16:21:54,719][INFO ][o.e.c.StringsTests       ] [testSubstring] before test
+[2020-02-16T16:21:54,719][INFO ][o.e.c.StringsTests       ] [testSubstring] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

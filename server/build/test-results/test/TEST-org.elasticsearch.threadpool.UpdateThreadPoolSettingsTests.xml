@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.threadpool.UpdateThreadPoolSettingsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:45" hostname="Escoto-PC" time="0.031">
+  <properties/>
+  <testcase name="testScalingExecutorType" classname="org.elasticsearch.threadpool.UpdateThreadPoolSettingsTests" time="0.005"/>
+  <testcase name="testShutdownNowInterrupts" classname="org.elasticsearch.threadpool.UpdateThreadPoolSettingsTests" time="0.012"/>
+  <testcase name="testFixedExecutorType" classname="org.elasticsearch.threadpool.UpdateThreadPoolSettingsTests" time="0.002"/>
+  <testcase name="testCorrectThreadPoolTypePermittedInSettings" classname="org.elasticsearch.threadpool.UpdateThreadPoolSettingsTests" time="0.003"/>
+  <testcase name="testCustomThreadPool" classname="org.elasticsearch.threadpool.UpdateThreadPoolSettingsTests" time="0.004"/>
+  <testcase name="testWriteThreadPoolsMaxSize" classname="org.elasticsearch.threadpool.UpdateThreadPoolSettingsTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T09:24:45,516][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testScalingExecutorType] before test
+[2020-02-17T09:24:45,517][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testScalingExecutorType] after test
+[2020-02-17T09:24:45,519][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testShutdownNowInterrupts] before test
+[2020-02-17T09:24:45,529][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testShutdownNowInterrupts] after test
+[2020-02-17T09:24:45,531][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testFixedExecutorType] before test
+[2020-02-17T09:24:45,532][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testFixedExecutorType] after test
+[2020-02-17T09:24:45,533][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testCorrectThreadPoolTypePermittedInSettings] before test
+[2020-02-17T09:24:45,535][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testCorrectThreadPoolTypePermittedInSettings] after test
+[2020-02-17T09:24:45,537][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testCustomThreadPool] before test
+[2020-02-17T09:24:45,539][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testCustomThreadPool] after test
+[2020-02-17T09:24:45,542][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testWriteThreadPoolsMaxSize] before test
+[2020-02-17T09:24:45,543][INFO ][o.e.t.UpdateThreadPoolSettingsTests] [testWriteThreadPoolsMaxSize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

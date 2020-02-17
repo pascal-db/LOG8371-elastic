@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.missing.MissingAggregatorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:18" hostname="Escoto-PC" time="2.414">
+  <properties/>
+  <testcase name="testMatchNoDocs" classname="org.elasticsearch.search.aggregations.bucket.missing.MissingAggregatorTests" time="0.819"/>
+  <testcase name="testMatchSparseRangeField" classname="org.elasticsearch.search.aggregations.bucket.missing.MissingAggregatorTests" time="0.336"/>
+  <testcase name="testMissingField" classname="org.elasticsearch.search.aggregations.bucket.missing.MissingAggregatorTests" time="0.454"/>
+  <testcase name="testMatchAllDocs" classname="org.elasticsearch.search.aggregations.bucket.missing.MissingAggregatorTests" time="0.137"/>
+  <testcase name="testMatchSparse" classname="org.elasticsearch.search.aggregations.bucket.missing.MissingAggregatorTests" time="0.667"/>
+  <system-out><![CDATA[[2020-02-17T09:24:18,310][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMatchNoDocs] before test
+[2020-02-17T09:24:19,127][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMatchNoDocs] after test
+[2020-02-17T09:24:19,132][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMatchSparseRangeField] before test
+[2020-02-17T09:24:19,464][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMatchSparseRangeField] after test
+[2020-02-17T09:24:19,466][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMissingField] before test
+[2020-02-17T09:24:19,918][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMissingField] after test
+[2020-02-17T09:24:19,919][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMatchAllDocs] before test
+[2020-02-17T09:24:20,055][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMatchAllDocs] after test
+[2020-02-17T09:24:20,060][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMatchSparse] before test
+[2020-02-17T09:24:20,722][INFO ][o.e.s.a.b.m.MissingAggregatorTests] [testMatchSparse] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

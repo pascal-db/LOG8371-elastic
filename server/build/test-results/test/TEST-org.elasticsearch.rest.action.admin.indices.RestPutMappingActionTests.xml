@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.indices.RestPutMappingActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.005">
+  <properties/>
+  <testcase name="testIncludeTypeName" classname="org.elasticsearch.rest.action.admin.indices.RestPutMappingActionTests" time="0.003"/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.admin.indices.RestPutMappingActionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:24:04,760][INFO ][o.e.r.a.a.i.RestPutMappingActionTests] [testIncludeTypeName] before test
+[2020-02-17T00:24:04,761][WARN ][o.e.d.r.a.a.i.RestPutMappingAction] [testIncludeTypeName] [types removal] Using include_type_name in put mapping requests is deprecated. The parameter will be removed in the next major version.
+[2020-02-17T00:24:04,762][INFO ][o.e.r.a.a.i.RestPutMappingActionTests] [testIncludeTypeName] after test
+[2020-02-17T00:24:04,763][INFO ][o.e.r.a.a.i.RestPutMappingActionTests] [testTypeInPath] before test
+[2020-02-17T00:24:04,764][INFO ][o.e.r.a.a.i.RestPutMappingActionTests] [testTypeInPath] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

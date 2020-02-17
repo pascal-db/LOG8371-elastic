@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.MatchQueryBuilderTests" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:38" hostname="Escoto-PC" time="0.095">
+  <properties/>
+  <testcase name="testLenientPhraseQuery" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.015"/>
+  <testcase name="testCachingStrategiesWithNow" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.003"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.006"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testAliasWithSynonyms" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.005"/>
+  <testcase name="testAutoGenerateSynonymsPhraseQuery" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.003"/>
+  <testcase name="testMatchPhrasePrefixWithBoost" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testSimpleMatchQuery" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testExceptionUsingAnalyzerOnNumericField" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.003"/>
+  <testcase name="testFuzzinessOnNonStringField" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testIllegalValues" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.003"/>
+  <testcase name="testMaxBooleanClause" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.02"/>
+  <testcase name="testParseFailsWithTermsArray" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.004"/>
+  <testcase name="testMultiWordSynonymsPhrase" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.001"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.001"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.003"/>
+  <testcase name="testExactOnUnsupportedField" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.001"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.MatchQueryBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T17:23:38,431][INFO ][o.e.i.q.MatchQueryBuilderTests] [testLenientPhraseQuery] before test
+[2020-02-16T17:23:38,434][INFO ][o.e.p.PluginsService     ] [testLenientPhraseQuery] no modules loaded
+[2020-02-16T17:23:38,434][INFO ][o.e.p.PluginsService     ] [testLenientPhraseQuery] no plugins loaded
+[2020-02-16T17:23:38,441][INFO ][o.e.p.PluginsService     ] [testLenientPhraseQuery] no modules loaded
+[2020-02-16T17:23:38,441][INFO ][o.e.p.PluginsService     ] [testLenientPhraseQuery] no plugins loaded
+[2020-02-16T17:23:38,444][INFO ][o.e.i.q.MatchQueryBuilderTests] [testLenientPhraseQuery] after test
+[2020-02-16T17:23:38,447][INFO ][o.e.i.q.MatchQueryBuilderTests] [testCachingStrategiesWithNow] before test
+[2020-02-16T17:23:38,447][INFO ][o.e.i.q.MatchQueryBuilderTests] [testCachingStrategiesWithNow] after test
+[2020-02-16T17:23:38,449][INFO ][o.e.i.q.MatchQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:38,449][INFO ][o.e.i.q.MatchQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:38,451][INFO ][o.e.i.q.MatchQueryBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:38,455][INFO ][o.e.i.q.MatchQueryBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:38,457][INFO ][o.e.i.q.MatchQueryBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:38,458][INFO ][o.e.i.q.MatchQueryBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:38,459][INFO ][o.e.i.q.MatchQueryBuilderTests] [testAliasWithSynonyms] before test
+[2020-02-16T17:23:38,459][INFO ][o.e.i.q.MatchQueryBuilderTests] [testAliasWithSynonyms] after test
+[2020-02-16T17:23:38,461][INFO ][o.e.i.q.MatchQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:38,464][INFO ][o.e.i.q.MatchQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T17:23:38,466][INFO ][o.e.i.q.MatchQueryBuilderTests] [testAutoGenerateSynonymsPhraseQuery] before test
+[2020-02-16T17:23:38,467][INFO ][o.e.i.q.MatchQueryBuilderTests] [testAutoGenerateSynonymsPhraseQuery] after test
+[2020-02-16T17:23:38,469][INFO ][o.e.i.q.MatchQueryBuilderTests] [testMatchPhrasePrefixWithBoost] before test
+[2020-02-16T17:23:38,469][INFO ][o.e.i.q.MatchQueryBuilderTests] [testMatchPhrasePrefixWithBoost] after test
+[2020-02-16T17:23:38,471][INFO ][o.e.i.q.MatchQueryBuilderTests] [testSimpleMatchQuery] before test
+[2020-02-16T17:23:38,471][INFO ][o.e.i.q.MatchQueryBuilderTests] [testSimpleMatchQuery] after test
+[2020-02-16T17:23:38,473][INFO ][o.e.i.q.MatchQueryBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:38,473][INFO ][o.e.i.q.MatchQueryBuilderTests] [testSerialization] after test
+[2020-02-16T17:23:38,476][INFO ][o.e.i.q.MatchQueryBuilderTests] [testExceptionUsingAnalyzerOnNumericField] before test
+[2020-02-16T17:23:38,477][INFO ][o.e.i.q.MatchQueryBuilderTests] [testExceptionUsingAnalyzerOnNumericField] after test
+[2020-02-16T17:23:38,479][INFO ][o.e.i.q.MatchQueryBuilderTests] [testFuzzinessOnNonStringField] before test
+[2020-02-16T17:23:38,480][INFO ][o.e.i.q.MatchQueryBuilderTests] [testFuzzinessOnNonStringField] after test
+[2020-02-16T17:23:38,481][INFO ][o.e.i.q.MatchQueryBuilderTests] [testIllegalValues] before test
+[2020-02-16T17:23:38,483][INFO ][o.e.i.q.MatchQueryBuilderTests] [testIllegalValues] after test
+[2020-02-16T17:23:38,484][INFO ][o.e.i.q.MatchQueryBuilderTests] [testMaxBooleanClause] before test
+[2020-02-16T17:23:38,502][INFO ][o.e.i.q.MatchQueryBuilderTests] [testMaxBooleanClause] after test
+[2020-02-16T17:23:38,504][INFO ][o.e.i.q.MatchQueryBuilderTests] [testParseFailsWithTermsArray] before test
+[2020-02-16T17:23:38,504][INFO ][o.e.i.q.MatchQueryBuilderTests] [testParseFailsWithTermsArray] after test
+[2020-02-16T17:23:38,508][INFO ][o.e.i.q.MatchQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:38,508][INFO ][o.e.i.q.MatchQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:38,510][INFO ][o.e.i.q.MatchQueryBuilderTests] [testMultiWordSynonymsPhrase] before test
+[2020-02-16T17:23:38,510][INFO ][o.e.i.q.MatchQueryBuilderTests] [testMultiWordSynonymsPhrase] after test
+[2020-02-16T17:23:38,512][INFO ][o.e.i.q.MatchQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:38,512][INFO ][o.e.i.q.MatchQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T17:23:38,513][INFO ][o.e.i.q.MatchQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:38,514][INFO ][o.e.i.q.MatchQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:38,515][INFO ][o.e.i.q.MatchQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:38,516][INFO ][o.e.i.q.MatchQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:38,518][INFO ][o.e.i.q.MatchQueryBuilderTests] [testExactOnUnsupportedField] before test
+[2020-02-16T17:23:38,518][INFO ][o.e.i.q.MatchQueryBuilderTests] [testExactOnUnsupportedField] after test
+[2020-02-16T17:23:38,519][INFO ][o.e.i.q.MatchQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:38,520][INFO ][o.e.i.q.MatchQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:38,522][INFO ][o.e.i.q.MatchQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:38,522][INFO ][o.e.i.q.MatchQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:23:38,523][INFO ][o.e.i.q.MatchQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-16T17:23:38,524][INFO ][o.e.i.q.MatchQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.time.DateUtilsTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:54" hostname="Escoto-PC" time="0.062">
+  <properties/>
+  <testcase name="testInstantToLong" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.003"/>
+  <testcase name="testRoundMonthOfYear" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.002"/>
+  <testcase name="testTimezoneIds" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.025"/>
+  <testcase name="testRoundYear" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.005"/>
+  <testcase name="testLongToInstant" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.003"/>
+  <testcase name="testMillisToNanos" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.004"/>
+  <testcase name="testNanosToMillis" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.004"/>
+  <testcase name="testRoundQuarterOfYear" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.003"/>
+  <testcase name="testInstantToLongMin" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.006"/>
+  <testcase name="testInstantToLongMax" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.002"/>
+  <testcase name="testRoundFloor" classname="org.elasticsearch.common.time.DateUtilsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:21:54,836][INFO ][o.e.c.t.DateUtilsTests   ] [testInstantToLong] before test
+[2020-02-17T00:21:54,837][INFO ][o.e.c.t.DateUtilsTests   ] [testInstantToLong] after test
+[2020-02-17T00:21:54,839][INFO ][o.e.c.t.DateUtilsTests   ] [testRoundMonthOfYear] before test
+[2020-02-17T00:21:54,840][INFO ][o.e.c.t.DateUtilsTests   ] [testRoundMonthOfYear] after test
+[2020-02-17T00:21:54,841][INFO ][o.e.c.t.DateUtilsTests   ] [testTimezoneIds] before test
+[2020-02-17T00:21:54,858][WARN ][o.e.d.c.t.DateFormatters ] [testTimezoneIds] Use of short timezone id EST is deprecated. Use -05:00 instead
+[2020-02-17T00:21:54,865][INFO ][o.e.c.t.DateUtilsTests   ] [testTimezoneIds] after test
+[2020-02-17T00:21:54,871][INFO ][o.e.c.t.DateUtilsTests   ] [testRoundYear] before test
+[2020-02-17T00:21:54,871][INFO ][o.e.c.t.DateUtilsTests   ] [testRoundYear] after test
+[2020-02-17T00:21:54,874][INFO ][o.e.c.t.DateUtilsTests   ] [testLongToInstant] before test
+[2020-02-17T00:21:54,874][INFO ][o.e.c.t.DateUtilsTests   ] [testLongToInstant] after test
+[2020-02-17T00:21:54,878][INFO ][o.e.c.t.DateUtilsTests   ] [testMillisToNanos] before test
+[2020-02-17T00:21:54,878][INFO ][o.e.c.t.DateUtilsTests   ] [testMillisToNanos] after test
+[2020-02-17T00:21:54,882][INFO ][o.e.c.t.DateUtilsTests   ] [testNanosToMillis] before test
+[2020-02-17T00:21:54,882][INFO ][o.e.c.t.DateUtilsTests   ] [testNanosToMillis] after test
+[2020-02-17T00:21:54,884][INFO ][o.e.c.t.DateUtilsTests   ] [testRoundQuarterOfYear] before test
+[2020-02-17T00:21:54,885][INFO ][o.e.c.t.DateUtilsTests   ] [testRoundQuarterOfYear] after test
+[2020-02-17T00:21:54,890][INFO ][o.e.c.t.DateUtilsTests   ] [testInstantToLongMin] before test
+[2020-02-17T00:21:54,891][INFO ][o.e.c.t.DateUtilsTests   ] [testInstantToLongMin] after test
+[2020-02-17T00:21:54,893][INFO ][o.e.c.t.DateUtilsTests   ] [testInstantToLongMax] before test
+[2020-02-17T00:21:54,894][INFO ][o.e.c.t.DateUtilsTests   ] [testInstantToLongMax] after test
+[2020-02-17T00:21:54,896][INFO ][o.e.c.t.DateUtilsTests   ] [testRoundFloor] before test
+[2020-02-17T00:21:54,896][INFO ][o.e.c.t.DateUtilsTests   ] [testRoundFloor] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

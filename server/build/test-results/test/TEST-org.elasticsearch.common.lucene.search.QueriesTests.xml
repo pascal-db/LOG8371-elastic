@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.lucene.search.QueriesTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:47" hostname="Escoto-PC" time="0.033">
+  <properties/>
+  <testcase name="testIsNegativeQuery" classname="org.elasticsearch.common.lucene.search.QueriesTests" time="0.004"/>
+  <testcase name="testFixNegativeQuery" classname="org.elasticsearch.common.lucene.search.QueriesTests" time="0.002"/>
+  <testcase name="testNonNestedQuery" classname="org.elasticsearch.common.lucene.search.QueriesTests" time="0.026"/>
+  <system-out><![CDATA[[2020-02-17T00:21:47,539][INFO ][o.e.c.l.s.QueriesTests   ] [testIsNegativeQuery] before test
+[2020-02-17T00:21:47,541][INFO ][o.e.c.l.s.QueriesTests   ] [testIsNegativeQuery] after test
+[2020-02-17T00:21:47,543][INFO ][o.e.c.l.s.QueriesTests   ] [testFixNegativeQuery] before test
+[2020-02-17T00:21:47,543][INFO ][o.e.c.l.s.QueriesTests   ] [testFixNegativeQuery] after test
+[2020-02-17T00:21:47,545][INFO ][o.e.c.l.s.QueriesTests   ] [testNonNestedQuery] before test
+[2020-02-17T00:21:47,569][INFO ][o.e.c.l.s.QueriesTests   ] [testNonNestedQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

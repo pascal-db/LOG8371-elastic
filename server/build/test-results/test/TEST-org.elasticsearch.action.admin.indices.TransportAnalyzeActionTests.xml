@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:09" hostname="Escoto-PC" time="0.115">
+  <properties/>
+  <testcase name="testCustomCharFilterWithParameters" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.021"/>
+  <testcase name="testNonPreBuildTokenFilter" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.007"/>
+  <testcase name="testWithIndexAnalyzers" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.008"/>
+  <testcase name="testUnknown" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.006"/>
+  <testcase name="testFillsAttributes" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.005"/>
+  <testcase name="testGetFieldAnalyzerWithoutIndexAnalyzers" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.004"/>
+  <testcase name="testGetIndexAnalyserWithoutIndexAnalyzers" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.004"/>
+  <testcase name="testNormalizerWithIndex" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.007"/>
+  <testcase name="testExceedSetMaxTokenLimit" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.005"/>
+  <testcase name="testExceedDefaultMaxTokenLimit" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.038"/>
+  <testcase name="testNoIndexAnalyzers" classname="org.elasticsearch.action.admin.indices.TransportAnalyzeActionTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T01:20:09,135][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testCustomCharFilterWithParameters] before test
+[2020-02-17T01:20:09,145][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testCustomCharFilterWithParameters] after test
+[2020-02-17T01:20:09,151][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testNonPreBuildTokenFilter] before test
+[2020-02-17T01:20:09,153][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testNonPreBuildTokenFilter] after test
+[2020-02-17T01:20:09,158][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testWithIndexAnalyzers] before test
+[2020-02-17T01:20:09,161][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testWithIndexAnalyzers] after test
+[2020-02-17T01:20:09,165][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testUnknown] before test
+[2020-02-17T01:20:09,167][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testUnknown] after test
+[2020-02-17T01:20:09,172][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testFillsAttributes] before test
+[2020-02-17T01:20:09,173][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testFillsAttributes] after test
+[2020-02-17T01:20:09,177][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testGetFieldAnalyzerWithoutIndexAnalyzers] before test
+[2020-02-17T01:20:09,177][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testGetFieldAnalyzerWithoutIndexAnalyzers] after test
+[2020-02-17T01:20:09,181][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testGetIndexAnalyserWithoutIndexAnalyzers] before test
+[2020-02-17T01:20:09,182][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testGetIndexAnalyserWithoutIndexAnalyzers] after test
+[2020-02-17T01:20:09,188][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testNormalizerWithIndex] before test
+[2020-02-17T01:20:09,189][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testNormalizerWithIndex] after test
+[2020-02-17T01:20:09,193][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testExceedSetMaxTokenLimit] before test
+[2020-02-17T01:20:09,194][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testExceedSetMaxTokenLimit] after test
+[2020-02-17T01:20:09,199][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testExceedDefaultMaxTokenLimit] before test
+[2020-02-17T01:20:09,233][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testExceedDefaultMaxTokenLimit] after test
+[2020-02-17T01:20:09,239][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testNoIndexAnalyzers] before test
+[2020-02-17T01:20:09,240][INFO ][o.e.a.a.i.TransportAnalyzeActionTests] [testNoIndexAnalyzers] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

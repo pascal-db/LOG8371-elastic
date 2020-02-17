@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ingest.WriteableIngestDocumentTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.049">
+  <properties/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.ingest.WriteableIngestDocumentTests" time="0.017"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.ingest.WriteableIngestDocumentTests" time="0.022"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.ingest.WriteableIngestDocumentTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.ingest.WriteableIngestDocumentTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T09:20:37,663][INFO ][o.e.a.i.WriteableIngestDocumentTests] [testToXContent] before test
+[2020-02-17T09:20:37,669][INFO ][o.e.a.i.WriteableIngestDocumentTests] [testToXContent] after test
+[2020-02-17T09:20:37,674][INFO ][o.e.a.i.WriteableIngestDocumentTests] [testFromXContent] before test
+[2020-02-17T09:20:37,690][INFO ][o.e.a.i.WriteableIngestDocumentTests] [testFromXContent] after test
+[2020-02-17T09:20:37,694][INFO ][o.e.a.i.WriteableIngestDocumentTests] [testEqualsAndHashcode] before test
+[2020-02-17T09:20:37,695][INFO ][o.e.a.i.WriteableIngestDocumentTests] [testEqualsAndHashcode] after test
+[2020-02-17T09:20:37,700][INFO ][o.e.a.i.WriteableIngestDocumentTests] [testSerialization] before test
+[2020-02-17T09:20:37,701][INFO ][o.e.a.i.WriteableIngestDocumentTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

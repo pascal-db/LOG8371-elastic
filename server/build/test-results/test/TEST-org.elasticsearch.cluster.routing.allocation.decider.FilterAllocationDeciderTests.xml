@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.decider.FilterAllocationDeciderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testWildcardIPFilter" classname="org.elasticsearch.cluster.routing.allocation.decider.FilterAllocationDeciderTests" time="0.006"/>
+  <testcase name="testFilterInitialRecovery" classname="org.elasticsearch.cluster.routing.allocation.decider.FilterAllocationDeciderTests" time="0.011"/>
+  <testcase name="testInvalidIPFilter" classname="org.elasticsearch.cluster.routing.allocation.decider.FilterAllocationDeciderTests" time="0.002"/>
+  <testcase name="testNull" classname="org.elasticsearch.cluster.routing.allocation.decider.FilterAllocationDeciderTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T17:20:38,258][INFO ][o.e.c.r.a.d.FilterAllocationDeciderTests] [testWildcardIPFilter] before test
+[2020-02-16T17:20:38,261][INFO ][o.e.c.r.a.d.FilterAllocationDeciderTests] [testWildcardIPFilter] after test
+[2020-02-16T17:20:38,265][INFO ][o.e.c.r.a.d.FilterAllocationDeciderTests] [testFilterInitialRecovery] before test
+[2020-02-16T17:20:38,268][WARN ][o.e.c.r.a.AllocationService] [testFilterInitialRecovery] failing shard [failed shard, shard [idx][0], node[node2], [P], recovery_source[local shards recovery], s[INITIALIZING], a[id=2U5AdLoIQcmTvaBBLQkRsQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.267Z], delayed=false, allocation_status[no_attempt]], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-16T17:20:38,270][WARN ][o.e.c.r.a.AllocationService] [testFilterInitialRecovery] failing shard [failed shard, shard [idx][0], node[node2], [P], s[STARTED], a[id=tGIzeOwGSLqdmXyc3AOLRg], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-16T17:20:38,272][INFO ][o.e.c.r.a.d.FilterAllocationDeciderTests] [testFilterInitialRecovery] after test
+[2020-02-16T17:20:38,274][INFO ][o.e.c.r.a.d.FilterAllocationDeciderTests] [testInvalidIPFilter] before test
+[2020-02-16T17:20:38,275][INFO ][o.e.c.r.a.d.FilterAllocationDeciderTests] [testInvalidIPFilter] after test
+[2020-02-16T17:20:38,282][INFO ][o.e.c.r.a.d.FilterAllocationDeciderTests] [testNull] before test
+[2020-02-16T17:20:38,283][INFO ][o.e.c.r.a.d.FilterAllocationDeciderTests] [testNull] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

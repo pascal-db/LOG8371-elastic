@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.stats.IndicesStatsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:06" hostname="Escoto-PC" time="1.675">
+  <properties/>
+  <testcase name="testRefreshListeners" classname="org.elasticsearch.action.admin.indices.stats.IndicesStatsTests" time="1.092"/>
+  <testcase name="testSegmentStatsEmptyIndex" classname="org.elasticsearch.action.admin.indices.stats.IndicesStatsTests" time="0.118"/>
+  <testcase name="testUuidOnRootStatsIndices" classname="org.elasticsearch.action.admin.indices.stats.IndicesStatsTests" time="0.138"/>
+  <testcase name="testCommitStats" classname="org.elasticsearch.action.admin.indices.stats.IndicesStatsTests" time="0.117"/>
+  <testcase name="testSegmentStats" classname="org.elasticsearch.action.admin.indices.stats.IndicesStatsTests" time="0.21"/>
+  <system-out><![CDATA[[2020-02-16T19:20:06,699][INFO ][o.e.e.NodeEnvironment    ] [testRefreshListeners] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T19:20:06,701][INFO ][o.e.e.NodeEnvironment    ] [testRefreshListeners] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T19:20:06,703][INFO ][o.e.n.Node               ] [testRefreshListeners] node name [node_s_0], node ID [eIZyAnl-S2Ky0fFXO6nQGw], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[-2462636273221057479]-HASH=[11E1C694949]]
+[2020-02-16T19:20:06,703][INFO ][o.e.n.Node               ] [testRefreshListeners] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T19:20:06,703][INFO ][o.e.n.Node               ] [testRefreshListeners] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T19:20:06,703][INFO ][o.e.n.Node               ] [testRefreshListeners] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T19:20:06,704][INFO ][o.e.p.PluginsService     ] [testRefreshListeners] no modules loaded
+[2020-02-16T19:20:06,704][INFO ][o.e.p.PluginsService     ] [testRefreshListeners] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T19:20:06,704][INFO ][o.e.p.PluginsService     ] [testRefreshListeners] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T19:20:06,888][INFO ][o.e.d.DiscoveryModule    ] [testRefreshListeners] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T19:20:06,914][INFO ][o.e.n.Node               ] [testRefreshListeners] initialized
+[2020-02-16T19:20:06,915][INFO ][o.e.n.Node               ] [testRefreshListeners] starting ...
+[2020-02-16T19:20:07,199][INFO ][o.e.t.TransportService   ] [testRefreshListeners] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T19:20:07,209][INFO ][o.e.c.c.Coordinator      ] [testRefreshListeners] setting initial configuration to VotingConfiguration{eIZyAnl-S2Ky0fFXO6nQGw}
+[2020-02-16T19:20:07,313][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{eIZyAnl-S2Ky0fFXO6nQGw}{baaqejgwS8GqDLOfcG7nlg}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{eIZyAnl-S2Ky0fFXO6nQGw}{baaqejgwS8GqDLOfcG7nlg}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-16T19:20:07,323][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [PRi5wy7pQmaEjyIGV0pB5w]
+[2020-02-16T19:20:07,333][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{eIZyAnl-S2Ky0fFXO6nQGw}{baaqejgwS8GqDLOfcG7nlg}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T19:20:07,334][INFO ][o.e.n.Node               ] [testRefreshListeners] started
+[2020-02-16T19:20:07,355][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T19:20:07,360][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T19:20:07,375][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T19:20:07,386][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testRefreshListeners] before test
+[2020-02-16T19:20:07,397][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T19:20:07,572][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:20:07,604][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testRefreshListeners] starting to wait
+[2020-02-16T19:20:07,636][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/Bj6g3gW3Q-a46g2KEeW61A] create_mapping [test]
+[2020-02-16T19:20:07,732][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testRefreshListeners] after test
+[2020-02-16T19:20:07,734][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Bj6g3gW3Q-a46g2KEeW61A] deleting index
+[2020-02-16T19:20:07,774][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testSegmentStatsEmptyIndex] before test
+[2020-02-16T19:20:07,777][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T19:20:07,848][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:20:07,863][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testSegmentStatsEmptyIndex] after test
+[2020-02-16T19:20:07,864][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/0oOMs8lTTcSa57bpr_Ff6w] deleting index
+[2020-02-16T19:20:07,892][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testUuidOnRootStatsIndices] before test
+[2020-02-16T19:20:07,895][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T19:20:07,975][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:20:07,996][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testUuidOnRootStatsIndices] after test
+[2020-02-16T19:20:08,000][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/6doNDbkQQtSSFpDUhqhkwQ] deleting index
+[2020-02-16T19:20:08,030][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testCommitStats] before test
+[2020-02-16T19:20:08,034][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T19:20:08,097][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:20:08,112][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testCommitStats] after test
+[2020-02-16T19:20:08,113][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/ZaAhL23EQDqj_HEPI9uNEg] deleting index
+[2020-02-16T19:20:08,147][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testSegmentStats] before test
+[2020-02-16T19:20:08,156][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [doc]
+[2020-02-16T19:20:08,231][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:20:08,318][INFO ][o.e.a.a.i.s.IndicesStatsTests] [testSegmentStats] after test
+[2020-02-16T19:20:08,319][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/8BDaBtARTxKAl0GQmYIKZA] deleting index
+[2020-02-16T19:20:08,355][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T19:20:08,357][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T19:20:08,358][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T19:20:08,359][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.action.admin.indices.segments.IndicesSegmentsRequestTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.action.admin.indices.segments.IndicesSegmentsRequestTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.action.admin.indices.segments.html">org.elasticsearch.action.admin.indices.segments</a> &gt; IndicesSegmentsRequestTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">5.429s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAllowNoIndex</td>
+<td class="success">0.642s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBasic</td>
+<td class="success">2.589s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRequestOnClosedIndex</td>
+<td class="success">0.771s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRequestOnClosedIndexIgnoreUnavailable</td>
+<td class="success">0.954s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVerbose</td>
+<td class="success">0.473s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T04:20:28,449][INFO ][o.e.e.NodeEnvironment    ] [testBasic] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T04:20:28,451][INFO ][o.e.e.NodeEnvironment    ] [testBasic] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T04:20:28,454][INFO ][o.e.n.Node               ] [testBasic] node name [node_s_0], node ID [jnZccJc7TBucGRIXEViz0A], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-8532665817185430139]-HASH=[1232CB8ED1F]]
+[2020-02-17T04:20:28,454][INFO ][o.e.n.Node               ] [testBasic] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T04:20:28,454][INFO ][o.e.n.Node               ] [testBasic] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T04:20:28,454][INFO ][o.e.n.Node               ] [testBasic] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T04:20:28,455][INFO ][o.e.p.PluginsService     ] [testBasic] no modules loaded
+[2020-02-17T04:20:28,455][INFO ][o.e.p.PluginsService     ] [testBasic] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-17T04:20:28,455][INFO ][o.e.p.PluginsService     ] [testBasic] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T04:20:28,455][INFO ][o.e.p.PluginsService     ] [testBasic] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T04:20:28,702][INFO ][o.e.d.DiscoveryModule    ] [testBasic] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T04:20:28,725][INFO ][o.e.n.Node               ] [testBasic] initialized
+[2020-02-17T04:20:28,725][INFO ][o.e.n.Node               ] [testBasic] starting ...
+[2020-02-17T04:20:29,448][INFO ][o.e.t.TransportService   ] [testBasic] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T04:20:29,457][INFO ][o.e.c.c.Coordinator      ] [testBasic] setting initial configuration to VotingConfiguration{jnZccJc7TBucGRIXEViz0A}
+[2020-02-17T04:20:29,543][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{jnZccJc7TBucGRIXEViz0A}{a6oGOedPT8OXgwcZ87R7Kg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{jnZccJc7TBucGRIXEViz0A}{a6oGOedPT8OXgwcZ87R7Kg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T04:20:29,553][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [ujZ55l7gTUGtd6gCQyB3jA]
+[2020-02-17T04:20:29,561][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{jnZccJc7TBucGRIXEViz0A}{a6oGOedPT8OXgwcZ87R7Kg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T04:20:29,562][INFO ][o.e.n.Node               ] [testBasic] started
+[2020-02-17T04:20:29,568][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T04:20:29,570][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T04:20:29,583][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T04:20:29,593][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testBasic] before test
+[2020-02-17T04:20:29,596][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:29,600][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T04:20:29,622][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:29,779][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:20:29,830][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:29,838][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/k29V2GvATZWu48IEOELjXw] create_mapping [type1]
+[2020-02-17T04:20:30,942][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testBasic] after test
+[2020-02-17T04:20:30,943][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/k29V2GvATZWu48IEOELjXw] deleting index
+[2020-02-17T04:20:30,986][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testRequestOnClosedIndexIgnoreUnavailable] before test
+[2020-02-17T04:20:30,987][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:30,988][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T04:20:30,998][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:31,048][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:20:31,064][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:31,069][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/7p_GLHQ6TUWCAoNXLDuyow] create_mapping [type1]
+[2020-02-17T04:20:31,765][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] closing indices [test/7p_GLHQ6TUWCAoNXLDuyow]
+[2020-02-17T04:20:31,824][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] completed closing of indices [test]
+[2020-02-17T04:20:31,861][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testRequestOnClosedIndexIgnoreUnavailable] after test
+[2020-02-17T04:20:31,886][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:31,902][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/7p_GLHQ6TUWCAoNXLDuyow] deleting index
+[2020-02-17T04:20:31,943][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testVerbose] before test
+[2020-02-17T04:20:31,944][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:31,946][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T04:20:31,974][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:32,037][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:20:32,055][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:32,059][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/8NOekjf_TIuWizGPfhfLFA] create_mapping [type1]
+[2020-02-17T04:20:32,374][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testVerbose] after test
+[2020-02-17T04:20:32,374][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/8NOekjf_TIuWizGPfhfLFA] deleting index
+[2020-02-17T04:20:32,416][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testAllowNoIndex] before test
+[2020-02-17T04:20:32,419][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:32,421][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T04:20:32,438][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:32,495][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:20:32,551][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:32,553][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/6jWjokrQSqGxwV4z6Bb58g] create_mapping [type1]
+[2020-02-17T04:20:33,010][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/6jWjokrQSqGxwV4z6Bb58g] deleting index
+[2020-02-17T04:20:33,053][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testAllowNoIndex] after test
+[2020-02-17T04:20:33,057][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testRequestOnClosedIndex] before test
+[2020-02-17T04:20:33,058][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:33,061][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T04:20:33,090][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:33,147][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:20:33,163][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:33,166][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/TFLOyBslTD6zVG-qS44Cbg] create_mapping [type1]
+[2020-02-17T04:20:33,709][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] closing indices [test/TFLOyBslTD6zVG-qS44Cbg]
+[2020-02-17T04:20:33,734][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] completed closing of indices [test]
+[2020-02-17T04:20:33,764][INFO ][o.e.a.a.i.s.IndicesSegmentsRequestTests] [testRequestOnClosedIndex] after test
+[2020-02-17T04:20:33,782][WARN ][o.e.i.IndexSettings      ] [node_s_0] [test] [index.merge.enabled] is set to false, this should only be used in tests and can cause serious problems in production environments
+[2020-02-17T04:20:33,794][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/TFLOyBslTD6zVG-qS44Cbg] deleting index
+[2020-02-17T04:20:33,826][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T04:20:33,832][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T04:20:33,832][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T04:20:33,834][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

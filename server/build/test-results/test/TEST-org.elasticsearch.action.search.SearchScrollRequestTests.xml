@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchScrollRequestTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testFromXContentWithUnknownParamThrowsException" classname="org.elasticsearch.action.search.SearchScrollRequestTests" time="0.002"/>
+  <testcase name="testInternalScrollSearchRequestSerialization" classname="org.elasticsearch.action.search.SearchScrollRequestTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.search.SearchScrollRequestTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.search.SearchScrollRequestTests" time="0.005"/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.search.SearchScrollRequestTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.search.SearchScrollRequestTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.search.SearchScrollRequestTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:20:19,744][INFO ][o.e.a.s.SearchScrollRequestTests] [testFromXContentWithUnknownParamThrowsException] before test
+[2020-02-17T06:20:19,745][INFO ][o.e.a.s.SearchScrollRequestTests] [testFromXContentWithUnknownParamThrowsException] after test
+[2020-02-17T06:20:19,747][INFO ][o.e.a.s.SearchScrollRequestTests] [testInternalScrollSearchRequestSerialization] before test
+[2020-02-17T06:20:19,748][INFO ][o.e.a.s.SearchScrollRequestTests] [testInternalScrollSearchRequestSerialization] after test
+[2020-02-17T06:20:19,750][INFO ][o.e.a.s.SearchScrollRequestTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:20:19,750][INFO ][o.e.a.s.SearchScrollRequestTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:20:19,754][INFO ][o.e.a.s.SearchScrollRequestTests] [testSerialization] before test
+[2020-02-17T06:20:19,755][INFO ][o.e.a.s.SearchScrollRequestTests] [testSerialization] after test
+[2020-02-17T06:20:19,757][INFO ][o.e.a.s.SearchScrollRequestTests] [testToAndFromXContent] before test
+[2020-02-17T06:20:19,758][INFO ][o.e.a.s.SearchScrollRequestTests] [testToAndFromXContent] after test
+[2020-02-17T06:20:19,760][INFO ][o.e.a.s.SearchScrollRequestTests] [testToXContent] before test
+[2020-02-17T06:20:19,760][INFO ][o.e.a.s.SearchScrollRequestTests] [testToXContent] after test
+[2020-02-17T06:20:19,762][INFO ][o.e.a.s.SearchScrollRequestTests] [testFromXContent] before test
+[2020-02-17T06:20:19,762][INFO ][o.e.a.s.SearchScrollRequestTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

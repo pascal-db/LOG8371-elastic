@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.StartedShardsRoutingTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testRelocatingPrimariesWithInitializingReplicas" classname="org.elasticsearch.cluster.routing.allocation.StartedShardsRoutingTests" time="0.019"/>
+  <testcase name="testStartedShardsMatching" classname="org.elasticsearch.cluster.routing.allocation.StartedShardsRoutingTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T06:21:38,919][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testRelocatingPrimariesWithInitializingReplicas] before test
+[2020-02-17T06:21:38,922][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testRelocatingPrimariesWithInitializingReplicas] --> building initial cluster state
+[2020-02-17T06:21:38,922][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testRelocatingPrimariesWithInitializingReplicas] --> test starting of relocating primary shard with initializing / relocating replica
+[2020-02-17T06:21:38,923][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testRelocatingPrimariesWithInitializingReplicas] --> test starting of relocating primary shard together with initializing / relocating replica
+[2020-02-17T06:21:38,923][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testRelocatingPrimariesWithInitializingReplicas] after test
+[2020-02-17T06:21:38,929][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testStartedShardsMatching] before test
+[2020-02-17T06:21:38,930][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testStartedShardsMatching] --> building initial cluster state
+[2020-02-17T06:21:38,930][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testStartedShardsMatching] --> test starting of shard
+[2020-02-17T06:21:38,930][INFO ][o.e.c.r.a.AllocationService] [testStartedShardsMatching] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:21:38,931][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testStartedShardsMatching] --> testing starting of relocating shards
+[2020-02-17T06:21:38,931][INFO ][o.e.c.r.a.StartedShardsRoutingTests] [testStartedShardsMatching] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

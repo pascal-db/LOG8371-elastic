@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.AbstractLifecycleRunnableTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:51" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testOnAfterOnlyWhenNotStoppedOrClosed" classname="org.elasticsearch.common.util.concurrent.AbstractLifecycleRunnableTests" time="0.013"/>
+  <testcase name="testDoRunDoesNotRunWhenStoppedOrClosed" classname="org.elasticsearch.common.util.concurrent.AbstractLifecycleRunnableTests" time="0.003"/>
+  <testcase name="testDoRunOnlyRunsWhenNotStoppedOrClosed" classname="org.elasticsearch.common.util.concurrent.AbstractLifecycleRunnableTests" time="0.002"/>
+  <testcase name="testOnAfterDoesNotHappenWhenStoppedOrClosed" classname="org.elasticsearch.common.util.concurrent.AbstractLifecycleRunnableTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T23:20:51,304][INFO ][o.e.c.u.c.AbstractLifecycleRunnableTests] [testOnAfterOnlyWhenNotStoppedOrClosed] before test
+[2020-02-16T23:20:51,310][INFO ][o.e.c.u.c.AbstractLifecycleRunnableTests] [testOnAfterOnlyWhenNotStoppedOrClosed] after test
+[2020-02-16T23:20:51,313][INFO ][o.e.c.u.c.AbstractLifecycleRunnableTests] [testDoRunDoesNotRunWhenStoppedOrClosed] before test
+[2020-02-16T23:20:51,314][INFO ][o.e.c.u.c.AbstractLifecycleRunnableTests] [testDoRunDoesNotRunWhenStoppedOrClosed] after test
+[2020-02-16T23:20:51,316][INFO ][o.e.c.u.c.AbstractLifecycleRunnableTests] [testDoRunOnlyRunsWhenNotStoppedOrClosed] before test
+[2020-02-16T23:20:51,316][INFO ][o.e.c.u.c.AbstractLifecycleRunnableTests] [testDoRunOnlyRunsWhenNotStoppedOrClosed] after test
+[2020-02-16T23:20:51,319][INFO ][o.e.c.u.c.AbstractLifecycleRunnableTests] [testOnAfterDoesNotHappenWhenStoppedOrClosed] before test
+[2020-02-16T23:20:51,320][INFO ][o.e.c.u.c.AbstractLifecycleRunnableTests] [testOnAfterDoesNotHappenWhenStoppedOrClosed] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

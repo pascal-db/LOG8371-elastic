@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.settings.SettingsFilterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testSettingsFiltering" classname="org.elasticsearch.common.settings.SettingsFilterTests" time="0.007"/>
+  <testcase name="testAddingAndRemovingFilters" classname="org.elasticsearch.common.settings.SettingsFilterTests" time="0.002"/>
+  <testcase name="testFilteredSettingIsNotLogged" classname="org.elasticsearch.common.settings.SettingsFilterTests" time="0.004"/>
+  <testcase name="testRegularSettingUpdateIsFullyLogged" classname="org.elasticsearch.common.settings.SettingsFilterTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T01:20:50,487][INFO ][o.e.c.s.SettingsFilterTests] [testSettingsFiltering] before test
+[2020-02-17T01:20:50,490][INFO ][o.e.c.s.SettingsFilterTests] [testSettingsFiltering] after test
+[2020-02-17T01:20:50,492][INFO ][o.e.c.s.SettingsFilterTests] [testAddingAndRemovingFilters] before test
+[2020-02-17T01:20:50,492][INFO ][o.e.c.s.SettingsFilterTests] [testAddingAndRemovingFilters] after test
+[2020-02-17T01:20:50,494][INFO ][o.e.c.s.SettingsFilterTests] [testFilteredSettingIsNotLogged] before test
+[2020-02-17T01:20:50,495][INFO ][o.e.test                 ] [testFilteredSettingIsNotLogged] updating [key]
+[2020-02-17T01:20:50,496][INFO ][o.e.c.s.SettingsFilterTests] [testFilteredSettingIsNotLogged] after test
+[2020-02-17T01:20:50,498][INFO ][o.e.c.s.SettingsFilterTests] [testRegularSettingUpdateIsFullyLogged] before test
+[2020-02-17T01:20:50,499][INFO ][o.e.test                 ] [testRegularSettingUpdateIsFullyLogged] updating [key] from [old] to [new]
+[2020-02-17T01:20:50,499][INFO ][o.e.c.s.SettingsFilterTests] [testRegularSettingUpdateIsFullyLogged] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

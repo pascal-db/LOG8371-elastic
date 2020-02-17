@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:19" hostname="Escoto-PC" time="0.063">
+  <properties/>
+  <testcase name="testCompareCompositeKeySmallerValue" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.006"/>
+  <testcase name="testCompareCompositeKeyNullValueIsSmaller2" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testReduceSame" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.004"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.004"/>
+  <testcase name="testCompareCompositeKeyBiggerValue" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testCompareCompositeKeyValuesHaveDifferentTypes" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testCompareCompositeKeyEqual" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testCompareCompositeKeyLessFieldsIsLesser" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.006"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.005"/>
+  <testcase name="testCompareCompositeKeyBiggerFieldName" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testCompareCompositeKeyNullValueIsSmaller1" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testCompareCompositeKeyMoreFieldsIsGreater" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testCompareCompositeKeySmallerFieldName" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.007"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.composite.InternalCompositeTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T00:25:19,894][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeySmallerValue] before test
+[2020-02-17T00:25:19,896][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeySmallerValue] after test
+[2020-02-17T00:25:19,899][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyNullValueIsSmaller2] before test
+[2020-02-17T00:25:19,899][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyNullValueIsSmaller2] after test
+[2020-02-17T00:25:19,901][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testReduceSame] before test
+[2020-02-17T00:25:19,901][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testReduceSame] after test
+[2020-02-17T00:25:19,904][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:25:19,906][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:25:19,908][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testIterators] before test
+[2020-02-17T00:25:19,911][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testIterators] after test
+[2020-02-17T00:25:19,913][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyBiggerValue] before test
+[2020-02-17T00:25:19,913][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyBiggerValue] after test
+[2020-02-17T00:25:19,915][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyValuesHaveDifferentTypes] before test
+[2020-02-17T00:25:19,915][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyValuesHaveDifferentTypes] after test
+[2020-02-17T00:25:19,917][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyEqual] before test
+[2020-02-17T00:25:19,917][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyEqual] after test
+[2020-02-17T00:25:19,919][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyLessFieldsIsLesser] before test
+[2020-02-17T00:25:19,919][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyLessFieldsIsLesser] after test
+[2020-02-17T00:25:19,921][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testSerialization] before test
+[2020-02-17T00:25:19,925][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testSerialization] after test
+[2020-02-17T00:25:19,929][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testReduceRandom] before test
+[2020-02-17T00:25:19,930][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testReduceRandom] after test
+[2020-02-17T00:25:19,932][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyBiggerFieldName] before test
+[2020-02-17T00:25:19,932][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyBiggerFieldName] after test
+[2020-02-17T00:25:19,934][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyNullValueIsSmaller1] before test
+[2020-02-17T00:25:19,934][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyNullValueIsSmaller1] after test
+[2020-02-17T00:25:19,936][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyMoreFieldsIsGreater] before test
+[2020-02-17T00:25:19,936][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeyMoreFieldsIsGreater] after test
+[2020-02-17T00:25:19,938][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeySmallerFieldName] before test
+[2020-02-17T00:25:19,939][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testCompareCompositeKeySmallerFieldName] after test
+[2020-02-17T00:25:19,941][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testFromXContent] before test
+[2020-02-17T00:25:19,946][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testFromXContent] after test
+[2020-02-17T00:25:19,950][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T00:25:19,954][INFO ][o.e.s.a.b.c.InternalCompositeTests] [testFromXContentWithRandomFields] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

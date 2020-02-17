@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchResponseMergerTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.143">
+  <properties/>
+  <testcase name="testMergeShardFailures" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.024"/>
+  <testcase name="testMergeNoResponsesAdded" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.007"/>
+  <testcase name="testMergeTookInMillis" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.008"/>
+  <testcase name="testMergeShardFailuresNullShardTarget" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.003"/>
+  <testcase name="testMergeCompletionSuggestions" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.041"/>
+  <testcase name="testMergeSearchHits" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.018"/>
+  <testcase name="testMergeEmptySearchHitsWithNonEmpty" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.003"/>
+  <testcase name="testMergeShardFailuresNullShardId" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.005"/>
+  <testcase name="testMergeCompletionSuggestionsTieBreak" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.003"/>
+  <testcase name="testMergeProfileResults" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.008"/>
+  <testcase name="testMergeAggs" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.018"/>
+  <testcase name="testMergeOnlyEmptyHits" classname="org.elasticsearch.action.search.SearchResponseMergerTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T10:20:39,204][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeShardFailures] before test
+[2020-02-17T10:20:39,212][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeShardFailures] after test
+[2020-02-17T10:20:39,218][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeNoResponsesAdded] before test
+[2020-02-17T10:20:39,220][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeNoResponsesAdded] after test
+[2020-02-17T10:20:39,226][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeTookInMillis] before test
+[2020-02-17T10:20:39,228][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeTookInMillis] after test
+[2020-02-17T10:20:39,230][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeShardFailuresNullShardTarget] before test
+[2020-02-17T10:20:39,231][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeShardFailuresNullShardTarget] after test
+[2020-02-17T10:20:39,234][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeCompletionSuggestions] before test
+[2020-02-17T10:20:39,273][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeCompletionSuggestions] after test
+[2020-02-17T10:20:39,275][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeSearchHits] before test
+[2020-02-17T10:20:39,291][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeSearchHits] after test
+[2020-02-17T10:20:39,293][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeEmptySearchHitsWithNonEmpty] before test
+[2020-02-17T10:20:39,294][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeEmptySearchHitsWithNonEmpty] after test
+[2020-02-17T10:20:39,295][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeShardFailuresNullShardId] before test
+[2020-02-17T10:20:39,298][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeShardFailuresNullShardId] after test
+[2020-02-17T10:20:39,301][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeCompletionSuggestionsTieBreak] before test
+[2020-02-17T10:20:39,301][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeCompletionSuggestionsTieBreak] after test
+[2020-02-17T10:20:39,304][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeProfileResults] before test
+[2020-02-17T10:20:39,310][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeProfileResults] after test
+[2020-02-17T10:20:39,317][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeAggs] before test
+[2020-02-17T10:20:39,327][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeAggs] after test
+[2020-02-17T10:20:39,331][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeOnlyEmptyHits] before test
+[2020-02-17T10:20:39,332][INFO ][o.e.a.s.SearchResponseMergerTests] [testMergeOnlyEmptyHits] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

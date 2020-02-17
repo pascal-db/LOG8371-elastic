@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.cache.CacheBuilderTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:40" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testSettingExpireAfterAccess" classname="org.elasticsearch.common.cache.CacheBuilderTests" time="0.007"/>
+  <testcase name="testSettingExpireAfterWrite" classname="org.elasticsearch.common.cache.CacheBuilderTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T20:21:40,678][INFO ][o.e.c.c.CacheBuilderTests] [testSettingExpireAfterAccess] before test
+[2020-02-16T20:21:40,681][INFO ][o.e.c.c.CacheBuilderTests] [testSettingExpireAfterAccess] after test
+[2020-02-16T20:21:40,687][INFO ][o.e.c.c.CacheBuilderTests] [testSettingExpireAfterWrite] before test
+[2020-02-16T20:21:40,687][INFO ][o.e.c.c.CacheBuilderTests] [testSettingExpireAfterWrite] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

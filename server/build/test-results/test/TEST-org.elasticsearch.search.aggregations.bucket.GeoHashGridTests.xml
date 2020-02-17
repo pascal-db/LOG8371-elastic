@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.GeoHashGridTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.GeoHashGridTests" time="0.013"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.GeoHashGridTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.GeoHashGridTests" time="0.003"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.GeoHashGridTests" time="0.001"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.GeoHashGridTests" time="0.001"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.GeoHashGridTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.GeoHashGridTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T07:25:20,649][INFO ][o.e.s.a.b.GeoHashGridTests] [testFromXContentMulti] before test
+[2020-02-17T07:25:20,650][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T07:25:20,650][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T07:25:20,656][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T07:25:20,656][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T07:25:20,660][INFO ][o.e.s.a.b.GeoHashGridTests] [testFromXContentMulti] after test
+[2020-02-17T07:25:20,662][INFO ][o.e.s.a.b.GeoHashGridTests] [testSerialization] before test
+[2020-02-17T07:25:20,663][INFO ][o.e.s.a.b.GeoHashGridTests] [testSerialization] after test
+[2020-02-17T07:25:20,665][INFO ][o.e.s.a.b.GeoHashGridTests] [testEqualsAndHashcode] before test
+[2020-02-17T07:25:20,665][INFO ][o.e.s.a.b.GeoHashGridTests] [testEqualsAndHashcode] after test
+[2020-02-17T07:25:20,667][INFO ][o.e.s.a.b.GeoHashGridTests] [testSerializationMulti] before test
+[2020-02-17T07:25:20,667][INFO ][o.e.s.a.b.GeoHashGridTests] [testSerializationMulti] after test
+[2020-02-17T07:25:20,668][INFO ][o.e.s.a.b.GeoHashGridTests] [testShallowCopy] before test
+[2020-02-17T07:25:20,669][INFO ][o.e.s.a.b.GeoHashGridTests] [testShallowCopy] after test
+[2020-02-17T07:25:20,670][INFO ][o.e.s.a.b.GeoHashGridTests] [testToString] before test
+[2020-02-17T07:25:20,671][INFO ][o.e.s.a.b.GeoHashGridTests] [testToString] after test
+[2020-02-17T07:25:20,672][INFO ][o.e.s.a.b.GeoHashGridTests] [testFromXContent] before test
+[2020-02-17T07:25:20,672][INFO ][o.e.s.a.b.GeoHashGridTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

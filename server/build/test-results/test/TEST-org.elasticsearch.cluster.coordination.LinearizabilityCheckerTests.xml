@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:31" hostname="Escoto-PC" time="0.069">
+  <properties/>
+  <testcase name="testRegisterObservedSequenceOfUpdatesWitLinearizableHistory" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.01"/>
+  <testcase name="testLockWithNonLinearizableHistory" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.002"/>
+  <testcase name="testRegisterWithNonLinearizableHistory" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.002"/>
+  <testcase name="testRegisterWithLinearizableHistory" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.01"/>
+  <testcase name="testLockWithLinearizableHistory1" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.007"/>
+  <testcase name="testRegisterConsistent" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.001"/>
+  <testcase name="testLockWithLinearizableHistory3" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.002"/>
+  <testcase name="testRegisterObservedSequenceOfUpdatesWithNonLinearizableHistory" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.003"/>
+  <testcase name="testLockWithLinearizableHistory2" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.019"/>
+  <testcase name="testMultiRegisterWithNonLinearizableHistory" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.005"/>
+  <testcase name="testLockConsistent" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.002"/>
+  <testcase name="testMultiRegisterWithLinearizableHistory" classname="org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T22:21:31,775][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterObservedSequenceOfUpdatesWitLinearizableHistory] before test
+[2020-02-16T22:21:31,777][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterObservedSequenceOfUpdatesWitLinearizableHistory] after test
+[2020-02-16T22:21:31,779][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithNonLinearizableHistory] before test
+[2020-02-16T22:21:31,779][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithNonLinearizableHistory] after test
+[2020-02-16T22:21:31,781][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterWithNonLinearizableHistory] before test
+[2020-02-16T22:21:31,782][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterWithNonLinearizableHistory] after test
+[2020-02-16T22:21:31,791][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterWithLinearizableHistory] before test
+[2020-02-16T22:21:31,792][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterWithLinearizableHistory] after test
+[2020-02-16T22:21:31,798][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory1] before test
+[2020-02-16T22:21:31,798][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory1] after test
+[2020-02-16T22:21:31,800][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterConsistent] before test
+[2020-02-16T22:21:31,800][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterConsistent] after test
+[2020-02-16T22:21:31,802][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory3] before test
+[2020-02-16T22:21:31,802][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory3] after test
+[2020-02-16T22:21:31,804][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterObservedSequenceOfUpdatesWithNonLinearizableHistory] before test
+[2020-02-16T22:21:31,804][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterObservedSequenceOfUpdatesWithNonLinearizableHistory] after test
+[2020-02-16T22:21:31,823][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory2] before test
+[2020-02-16T22:21:31,823][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory2] after test
+[2020-02-16T22:21:31,828][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testMultiRegisterWithNonLinearizableHistory] before test
+[2020-02-16T22:21:31,828][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testMultiRegisterWithNonLinearizableHistory] after test
+[2020-02-16T22:21:31,830][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockConsistent] before test
+[2020-02-16T22:21:31,830][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockConsistent] after test
+[2020-02-16T22:21:31,835][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testMultiRegisterWithLinearizableHistory] before test
+[2020-02-16T22:21:31,835][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testMultiRegisterWithLinearizableHistory] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

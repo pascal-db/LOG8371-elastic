@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.AllocateUnassignedDecisionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:34" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.routing.allocation.AllocateUnassignedDecisionTests" time="0.006"/>
+  <testcase name="testThrottleDecision" classname="org.elasticsearch.cluster.routing.allocation.AllocateUnassignedDecisionTests" time="0.003"/>
+  <testcase name="testNoDecision" classname="org.elasticsearch.cluster.routing.allocation.AllocateUnassignedDecisionTests" time="0.003"/>
+  <testcase name="testCachedDecisions" classname="org.elasticsearch.cluster.routing.allocation.AllocateUnassignedDecisionTests" time="0.006"/>
+  <testcase name="testDecisionNotTaken" classname="org.elasticsearch.cluster.routing.allocation.AllocateUnassignedDecisionTests" time="0.006"/>
+  <testcase name="testYesDecision" classname="org.elasticsearch.cluster.routing.allocation.AllocateUnassignedDecisionTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T05:21:34,988][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testSerialization] before test
+[2020-02-17T05:21:34,991][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testSerialization] after test
+[2020-02-17T05:21:34,993][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testThrottleDecision] before test
+[2020-02-17T05:21:34,993][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testThrottleDecision] after test
+[2020-02-17T05:21:34,996][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testNoDecision] before test
+[2020-02-17T05:21:34,997][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testNoDecision] after test
+[2020-02-17T05:21:35,002][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testCachedDecisions] before test
+[2020-02-17T05:21:35,002][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testCachedDecisions] after test
+[2020-02-17T05:21:35,008][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testDecisionNotTaken] before test
+[2020-02-17T05:21:35,010][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testDecisionNotTaken] after test
+[2020-02-17T05:21:35,013][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testYesDecision] before test
+[2020-02-17T05:21:35,014][INFO ][o.e.c.r.a.AllocateUnassignedDecisionTests] [testYesDecision] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

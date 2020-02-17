@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.tasks.TaskInfoTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:00" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.tasks.TaskInfoTests" time="0.011"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.tasks.TaskInfoTests" time="0.014"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.tasks.TaskInfoTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:26:00,124][INFO ][o.e.t.TaskInfoTests      ] [testEqualsAndHashcode] before test
+[2020-02-16T19:26:00,131][INFO ][o.e.t.TaskInfoTests      ] [testEqualsAndHashcode] after test
+[2020-02-16T19:26:00,133][INFO ][o.e.t.TaskInfoTests      ] [testFromXContent] before test
+[2020-02-16T19:26:00,145][INFO ][o.e.t.TaskInfoTests      ] [testFromXContent] after test
+[2020-02-16T19:26:00,147][INFO ][o.e.t.TaskInfoTests      ] [testSerialization] before test
+[2020-02-16T19:26:00,148][INFO ][o.e.t.TaskInfoTests      ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

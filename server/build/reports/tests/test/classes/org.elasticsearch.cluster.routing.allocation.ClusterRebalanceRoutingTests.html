@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.routing.allocation.html">org.elasticsearch.cluster.routing.allocation</a> &gt; ClusterRebalanceRoutingTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.053s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAlways</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterAllActive1</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterAllActive2</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterAllActive3</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterPrimariesActive1</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterPrimariesActive2</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceWhileShardFetching</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebalanceWithIgnoredUnassignedShards</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T19:20:37,917][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWithIgnoredUnassignedShards] before test
+[2020-02-16T19:20:37,919][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWithIgnoredUnassignedShards] start two nodes
+[2020-02-16T19:20:37,921][INFO ][o.e.c.r.a.AllocationService] [testRebalanceWithIgnoredUnassignedShards] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][0]]]).
+[2020-02-16T19:20:37,921][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWithIgnoredUnassignedShards] after test
+[2020-02-16T19:20:37,923][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] before test
+[2020-02-16T19:20:37,925][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] start two nodes
+[2020-02-16T19:20:37,926][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,926][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] start the test1 replica shards
+[2020-02-16T19:20:37,926][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] now, start 1 more node, check that rebalancing will happen (for test1) because we set it to always
+[2020-02-16T19:20:37,927][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] after test
+[2020-02-16T19:20:37,930][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWhileShardFetching] before test
+[2020-02-16T19:20:37,933][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWhileShardFetching] start two nodes
+[2020-02-16T19:20:37,934][INFO ][o.e.c.r.a.AllocationService] [testRebalanceWhileShardFetching] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute]).
+[2020-02-16T19:20:37,935][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWhileShardFetching] after test
+[2020-02-16T19:20:37,937][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] before test
+[2020-02-16T19:20:37,940][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] start two nodes
+[2020-02-16T19:20:37,940][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,941][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] start the test1 replica shards
+[2020-02-16T19:20:37,941][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] start all the primary shards for test2, replicas will start initializing
+[2020-02-16T19:20:37,941][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] now, start 1 more node, check that rebalancing will not happen (for test1) because we set it to all_active
+[2020-02-16T19:20:37,942][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] after test
+[2020-02-16T19:20:37,944][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] before test
+[2020-02-16T19:20:37,946][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start two nodes
+[2020-02-16T19:20:37,946][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start the test1 replica shards
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start all the primary shards for test2, replicas will start initializing
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start the test2 replica shards
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.AllocationService] [testClusterAllActive1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test2][0]]]).
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] now, start 1 more node, check that rebalancing happen (for test1) because we set it to all_active
+[2020-02-16T19:20:37,948][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] after test
+[2020-02-16T19:20:37,950][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] before test
+[2020-02-16T19:20:37,952][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] start two nodes
+[2020-02-16T19:20:37,953][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,954][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] start the test1 replica shards
+[2020-02-16T19:20:37,954][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] now, start 1 more node, check that rebalancing will not happen (for test1) because we set it to all_active
+[2020-02-16T19:20:37,954][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] after test
+[2020-02-16T19:20:37,956][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] before test
+[2020-02-16T19:20:37,958][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] start two nodes
+[2020-02-16T19:20:37,959][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,959][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] start the test1 replica shards
+[2020-02-16T19:20:37,960][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] start all the primary shards for test2, replicas will start initializing
+[2020-02-16T19:20:37,960][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] now, start 1 more node, check that rebalancing happen (for test1) because we set it to primaries_active
+[2020-02-16T19:20:37,961][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] after test
+[2020-02-16T19:20:37,963][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] before test
+[2020-02-16T19:20:37,964][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] start two nodes
+[2020-02-16T19:20:37,965][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,965][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] start the test1 replica shards
+[2020-02-16T19:20:37,967][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] now, start 1 more node, check that rebalancing will not happen (for test1) because we set it to primaries_active
+[2020-02-16T19:20:37,967][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

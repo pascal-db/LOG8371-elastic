@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.SpatialStrategyTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:44" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testwriteTo" classname="org.elasticsearch.common.geo.SpatialStrategyTests" time="0.003"/>
+  <testcase name="testInvalidReadFrom" classname="org.elasticsearch.common.geo.SpatialStrategyTests" time="0.004"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.common.geo.SpatialStrategyTests" time="0.003"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.common.geo.SpatialStrategyTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T05:21:44,231][INFO ][o.e.c.g.SpatialStrategyTests] [testwriteTo] before test
+[2020-02-17T05:21:44,232][INFO ][o.e.c.g.SpatialStrategyTests] [testwriteTo] after test
+[2020-02-17T05:21:44,236][INFO ][o.e.c.g.SpatialStrategyTests] [testInvalidReadFrom] before test
+[2020-02-17T05:21:44,236][INFO ][o.e.c.g.SpatialStrategyTests] [testInvalidReadFrom] after test
+[2020-02-17T05:21:44,240][INFO ][o.e.c.g.SpatialStrategyTests] [testReadFrom] before test
+[2020-02-17T05:21:44,240][INFO ][o.e.c.g.SpatialStrategyTests] [testReadFrom] after test
+[2020-02-17T05:21:44,243][INFO ][o.e.c.g.SpatialStrategyTests] [testValidOrdinals] before test
+[2020-02-17T05:21:44,243][INFO ][o.e.c.g.SpatialStrategyTests] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

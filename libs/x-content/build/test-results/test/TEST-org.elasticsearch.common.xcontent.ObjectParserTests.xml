@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.ObjectParserTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:49" hostname="Escoto-PC" time="0.259">
+  <properties/>
+  <testcase name="testEmptyObjectInArray" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.009"/>
+  <testcase name="testParseNamedObjectTwoFieldsInArray" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.005"/>
+  <testcase name="testEmptyObject" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.025"/>
+  <testcase name="testUseClassicPullParsingSubParser" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.022"/>
+  <testcase name="testBasics" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.006"/>
+  <testcase name="testFailOnValueType" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.008"/>
+  <testcase name="testParseNestedShortcut" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.005"/>
+  <testcase name="testObjectOrDefault" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.011"/>
+  <testcase name="testIgnoreUnknownArrays" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.008"/>
+  <testcase name="testIgnoreUnknownFields" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.013"/>
+  <testcase name="testExceptions" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.005"/>
+  <testcase name="testArraysOfGenericValues" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.008"/>
+  <testcase name="testParseNamedObjectInOrderNotSupported" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.01"/>
+  <testcase name="testIgnoreUnknownObjects" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.007"/>
+  <testcase name="testParseNested" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.005"/>
+  <testcase name="testConsumeUnknownFields" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.008"/>
+  <testcase name="testNullDeclares" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.009"/>
+  <testcase name="testNoopDeclareField" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.008"/>
+  <testcase name="testParseEnumFromString" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.009"/>
+  <testcase name="testAllVariants" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.012"/>
+  <testcase name="testParseNamedObjectInOrder" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.008"/>
+  <testcase name="testNoopDeclareObjectArray" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.006"/>
+  <testcase name="testParseNamedObjectJunkInArray" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.006"/>
+  <testcase name="testParseNamedObject" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.003"/>
+  <testcase name="testNoopDeclareObject" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.009"/>
+  <testcase name="testParseNamedObjectNoFieldsInArray" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.011"/>
+  <testcase name="testDeprecationWarnings" classname="org.elasticsearch.common.xcontent.ObjectParserTests" time="0.018"/>
+  <system-out><![CDATA[[2020-02-16T18:50:49,298][INFO ][o.e.c.x.ObjectParserTests] [testEmptyObjectInArray] before test
+[2020-02-16T18:50:49,304][INFO ][o.e.c.x.ObjectParserTests] [testEmptyObjectInArray] after test
+[2020-02-16T18:50:49,306][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectTwoFieldsInArray] before test
+[2020-02-16T18:50:49,309][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectTwoFieldsInArray] after test
+[2020-02-16T18:50:49,332][INFO ][o.e.c.x.ObjectParserTests] [testEmptyObject] before test
+[2020-02-16T18:50:49,333][INFO ][o.e.c.x.ObjectParserTests] [testEmptyObject] after test
+[2020-02-16T18:50:49,348][INFO ][o.e.c.x.ObjectParserTests] [testUseClassicPullParsingSubParser] before test
+[2020-02-16T18:50:49,355][INFO ][o.e.c.x.ObjectParserTests] [testUseClassicPullParsingSubParser] after test
+[2020-02-16T18:50:49,359][INFO ][o.e.c.x.ObjectParserTests] [testBasics] before test
+[2020-02-16T18:50:49,362][INFO ][o.e.c.x.ObjectParserTests] [testBasics] after test
+[2020-02-16T18:50:49,369][INFO ][o.e.c.x.ObjectParserTests] [testFailOnValueType] before test
+[2020-02-16T18:50:49,371][INFO ][o.e.c.x.ObjectParserTests] [testFailOnValueType] after test
+[2020-02-16T18:50:49,375][INFO ][o.e.c.x.ObjectParserTests] [testParseNestedShortcut] before test
+[2020-02-16T18:50:49,376][INFO ][o.e.c.x.ObjectParserTests] [testParseNestedShortcut] after test
+[2020-02-16T18:50:49,379][INFO ][o.e.c.x.ObjectParserTests] [testObjectOrDefault] before test
+[2020-02-16T18:50:49,387][INFO ][o.e.c.x.ObjectParserTests] [testObjectOrDefault] after test
+[2020-02-16T18:50:49,395][INFO ][o.e.c.x.ObjectParserTests] [testIgnoreUnknownArrays] before test
+[2020-02-16T18:50:49,396][INFO ][o.e.c.x.ObjectParserTests] [testIgnoreUnknownArrays] after test
+[2020-02-16T18:50:49,408][INFO ][o.e.c.x.ObjectParserTests] [testIgnoreUnknownFields] before test
+[2020-02-16T18:50:49,409][INFO ][o.e.c.x.ObjectParserTests] [testIgnoreUnknownFields] after test
+[2020-02-16T18:50:49,412][INFO ][o.e.c.x.ObjectParserTests] [testExceptions] before test
+[2020-02-16T18:50:49,414][INFO ][o.e.c.x.ObjectParserTests] [testExceptions] after test
+[2020-02-16T18:50:49,419][INFO ][o.e.c.x.ObjectParserTests] [testArraysOfGenericValues] before test
+[2020-02-16T18:50:49,423][INFO ][o.e.c.x.ObjectParserTests] [testArraysOfGenericValues] after test
+[2020-02-16T18:50:49,432][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectInOrderNotSupported] before test
+[2020-02-16T18:50:49,433][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectInOrderNotSupported] after test
+[2020-02-16T18:50:49,438][INFO ][o.e.c.x.ObjectParserTests] [testIgnoreUnknownObjects] before test
+[2020-02-16T18:50:49,440][INFO ][o.e.c.x.ObjectParserTests] [testIgnoreUnknownObjects] after test
+[2020-02-16T18:50:49,444][INFO ][o.e.c.x.ObjectParserTests] [testParseNested] before test
+[2020-02-16T18:50:49,445][INFO ][o.e.c.x.ObjectParserTests] [testParseNested] after test
+[2020-02-16T18:50:49,449][INFO ][o.e.c.x.ObjectParserTests] [testConsumeUnknownFields] before test
+[2020-02-16T18:50:49,454][INFO ][o.e.c.x.ObjectParserTests] [testConsumeUnknownFields] after test
+[2020-02-16T18:50:49,460][INFO ][o.e.c.x.ObjectParserTests] [testNullDeclares] before test
+[2020-02-16T18:50:49,462][INFO ][o.e.c.x.ObjectParserTests] [testNullDeclares] after test
+[2020-02-16T18:50:49,466][INFO ][o.e.c.x.ObjectParserTests] [testNoopDeclareField] before test
+[2020-02-16T18:50:49,470][INFO ][o.e.c.x.ObjectParserTests] [testNoopDeclareField] after test
+[2020-02-16T18:50:49,475][INFO ][o.e.c.x.ObjectParserTests] [testParseEnumFromString] before test
+[2020-02-16T18:50:49,479][INFO ][o.e.c.x.ObjectParserTests] [testParseEnumFromString] after test
+[2020-02-16T18:50:49,483][INFO ][o.e.c.x.ObjectParserTests] [testAllVariants] before test
+[2020-02-16T18:50:49,491][INFO ][o.e.c.x.ObjectParserTests] [testAllVariants] after test
+[2020-02-16T18:50:49,499][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectInOrder] before test
+[2020-02-16T18:50:49,499][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectInOrder] after test
+[2020-02-16T18:50:49,504][INFO ][o.e.c.x.ObjectParserTests] [testNoopDeclareObjectArray] before test
+[2020-02-16T18:50:49,506][INFO ][o.e.c.x.ObjectParserTests] [testNoopDeclareObjectArray] after test
+[2020-02-16T18:50:49,510][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectJunkInArray] before test
+[2020-02-16T18:50:49,511][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectJunkInArray] after test
+[2020-02-16T18:50:49,514][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObject] before test
+[2020-02-16T18:50:49,515][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObject] after test
+[2020-02-16T18:50:49,521][INFO ][o.e.c.x.ObjectParserTests] [testNoopDeclareObject] before test
+[2020-02-16T18:50:49,523][INFO ][o.e.c.x.ObjectParserTests] [testNoopDeclareObject] after test
+[2020-02-16T18:50:49,534][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectNoFieldsInArray] before test
+[2020-02-16T18:50:49,535][INFO ][o.e.c.x.ObjectParserTests] [testParseNamedObjectNoFieldsInArray] after test
+[2020-02-16T18:50:49,542][INFO ][o.e.c.x.ObjectParserTests] [testDeprecationWarnings] before test
+[2020-02-16T18:50:49,552][WARN ][o.e.d.c.ParseField       ] [testDeprecationWarnings] Deprecated field [old_test] used, expected [test] instead
+[2020-02-16T18:50:49,554][INFO ][o.e.c.x.ObjectParserTests] [testDeprecationWarnings] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

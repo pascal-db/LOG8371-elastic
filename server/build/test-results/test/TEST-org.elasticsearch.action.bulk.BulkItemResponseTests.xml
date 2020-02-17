@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.BulkItemResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:09" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testFailureToString" classname="org.elasticsearch.action.bulk.BulkItemResponseTests" time="0.007"/>
+  <testcase name="testFailureToAndFromXContent" classname="org.elasticsearch.action.bulk.BulkItemResponseTests" time="0.008"/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.bulk.BulkItemResponseTests" time="0.011"/>
+  <system-out><![CDATA[[2020-02-17T00:20:09,340][INFO ][o.e.a.b.BulkItemResponseTests] [testFailureToString] before test
+[2020-02-17T00:20:09,344][INFO ][o.e.a.b.BulkItemResponseTests] [testFailureToString] after test
+[2020-02-17T00:20:09,346][INFO ][o.e.a.b.BulkItemResponseTests] [testFailureToAndFromXContent] before test
+[2020-02-17T00:20:09,352][INFO ][o.e.a.b.BulkItemResponseTests] [testFailureToAndFromXContent] after test
+[2020-02-17T00:20:09,357][INFO ][o.e.a.b.BulkItemResponseTests] [testToAndFromXContent] before test
+[2020-02-17T00:20:09,363][INFO ][o.e.a.b.BulkItemResponseTests] [testToAndFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

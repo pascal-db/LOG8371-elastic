@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.transport.RemoteClusterSettingsTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.transport.RemoteClusterSettingsTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.transport.html">org.elasticsearch.transport</a> &gt; RemoteClusterSettingsTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">14</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.023s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testConnectionsPerClusterDefault</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConnectionsPerClusterFallback</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEnableRemoteClustersDefault</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEnableRemoteClustersFallback</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInitialConnectTimeoutDefault</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInitialConnectTimeoutFallback</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProxyDefault</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testProxyFallback</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRemoteNodeAttributeDefault</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRemoteNodeAttributeFallback</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSeedsDefault</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSeedsFallback</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSkipUnavailableDefault</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSkipUnavailableFallback</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T08:26:21,366][INFO ][o.e.t.RemoteClusterSettingsTests] [testRemoteNodeAttributeFallback] before test
+[2020-02-17T08:26:21,368][WARN ][o.e.d.c.s.Settings       ] [testRemoteNodeAttributeFallback] [search.remote.node.attr] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T08:26:21,368][INFO ][o.e.t.RemoteClusterSettingsTests] [testRemoteNodeAttributeFallback] after test
+[2020-02-17T08:26:21,369][INFO ][o.e.t.RemoteClusterSettingsTests] [testProxyDefault] before test
+[2020-02-17T08:26:21,370][INFO ][o.e.t.RemoteClusterSettingsTests] [testProxyDefault] after test
+[2020-02-17T08:26:21,371][INFO ][o.e.t.RemoteClusterSettingsTests] [testSeedsFallback] before test
+[2020-02-17T08:26:21,372][WARN ][o.e.d.c.s.Settings       ] [testSeedsFallback] [search.remote.BfKTLIsV.seeds] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T08:26:21,372][INFO ][o.e.t.RemoteClusterSettingsTests] [testSeedsFallback] after test
+[2020-02-17T08:26:21,373][INFO ][o.e.t.RemoteClusterSettingsTests] [testEnableRemoteClustersDefault] before test
+[2020-02-17T08:26:21,373][INFO ][o.e.t.RemoteClusterSettingsTests] [testEnableRemoteClustersDefault] after test
+[2020-02-17T08:26:21,375][INFO ][o.e.t.RemoteClusterSettingsTests] [testSeedsDefault] before test
+[2020-02-17T08:26:21,375][INFO ][o.e.t.RemoteClusterSettingsTests] [testSeedsDefault] after test
+[2020-02-17T08:26:21,376][INFO ][o.e.t.RemoteClusterSettingsTests] [testSkipUnavailableFallback] before test
+[2020-02-17T08:26:21,377][WARN ][o.e.d.c.s.Settings       ] [testSkipUnavailableFallback] [search.remote.UWIeQICS.skip_unavailable] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T08:26:21,377][INFO ][o.e.t.RemoteClusterSettingsTests] [testSkipUnavailableFallback] after test
+[2020-02-17T08:26:21,378][INFO ][o.e.t.RemoteClusterSettingsTests] [testConnectionsPerClusterDefault] before test
+[2020-02-17T08:26:21,378][INFO ][o.e.t.RemoteClusterSettingsTests] [testConnectionsPerClusterDefault] after test
+[2020-02-17T08:26:21,380][INFO ][o.e.t.RemoteClusterSettingsTests] [testEnableRemoteClustersFallback] before test
+[2020-02-17T08:26:21,380][WARN ][o.e.d.c.s.Settings       ] [testEnableRemoteClustersFallback] [search.remote.connect] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T08:26:21,380][INFO ][o.e.t.RemoteClusterSettingsTests] [testEnableRemoteClustersFallback] after test
+[2020-02-17T08:26:21,381][INFO ][o.e.t.RemoteClusterSettingsTests] [testProxyFallback] before test
+[2020-02-17T08:26:21,382][WARN ][o.e.d.c.s.Settings       ] [testProxyFallback] [search.remote.gwgOcMiJ.proxy] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T08:26:21,382][INFO ][o.e.t.RemoteClusterSettingsTests] [testProxyFallback] after test
+[2020-02-17T08:26:21,383][INFO ][o.e.t.RemoteClusterSettingsTests] [testInitialConnectTimeoutFallback] before test
+[2020-02-17T08:26:21,383][WARN ][o.e.d.c.s.Settings       ] [testInitialConnectTimeoutFallback] [search.remote.initial_connect_timeout] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T08:26:21,384][INFO ][o.e.t.RemoteClusterSettingsTests] [testInitialConnectTimeoutFallback] after test
+[2020-02-17T08:26:21,385][INFO ][o.e.t.RemoteClusterSettingsTests] [testInitialConnectTimeoutDefault] before test
+[2020-02-17T08:26:21,385][INFO ][o.e.t.RemoteClusterSettingsTests] [testInitialConnectTimeoutDefault] after test
+[2020-02-17T08:26:21,386][INFO ][o.e.t.RemoteClusterSettingsTests] [testSkipUnavailableDefault] before test
+[2020-02-17T08:26:21,386][INFO ][o.e.t.RemoteClusterSettingsTests] [testSkipUnavailableDefault] after test
+[2020-02-17T08:26:21,387][INFO ][o.e.t.RemoteClusterSettingsTests] [testRemoteNodeAttributeDefault] before test
+[2020-02-17T08:26:21,387][INFO ][o.e.t.RemoteClusterSettingsTests] [testRemoteNodeAttributeDefault] after test
+[2020-02-17T08:26:21,388][INFO ][o.e.t.RemoteClusterSettingsTests] [testConnectionsPerClusterFallback] before test
+[2020-02-17T08:26:21,389][WARN ][o.e.d.c.s.Settings       ] [testConnectionsPerClusterFallback] [search.remote.connections_per_cluster] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T08:26:21,389][INFO ][o.e.t.RemoteClusterSettingsTests] [testConnectionsPerClusterFallback] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

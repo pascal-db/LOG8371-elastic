@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ElasticsearchExceptionTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:10" hostname="Escoto-PC" time="0.065">
+  <properties/>
+  <testcase name="testThrowableToAndFromXContent" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.003"/>
+  <testcase name="testFromXContentWithIgnoredMetadataAndHeaders" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.003"/>
+  <testcase name="testGetRootCause" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.002"/>
+  <testcase name="testUnknownFailureToAndFromXContent" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.002"/>
+  <testcase name="testDeduplicate" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.003"/>
+  <testcase name="testGenerateThrowableToXContent" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.025"/>
+  <testcase name="testToString" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.003"/>
+  <testcase name="testFailureToAndFromXContentWithNoDetails" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.002"/>
+  <testcase name="testFromXContentWithHeadersAndMetadata" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.002"/>
+  <testcase name="testGuessRootCause" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.001"/>
+  <testcase name="testToXContentWithHeadersAndMetadata" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.002"/>
+  <testcase name="testFromXContentWithCause" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.001"/>
+  <testcase name="testFailureToAndFromXContentWithDetails" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.006"/>
+  <testcase name="testStatus" classname="org.elasticsearch.ElasticsearchExceptionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T01:21:10,663][INFO ][o.e.ElasticsearchExceptionTests] [testThrowableToAndFromXContent] before test
+[2020-02-17T01:21:10,664][INFO ][o.e.ElasticsearchExceptionTests] [testThrowableToAndFromXContent] after test
+[2020-02-17T01:21:10,665][INFO ][o.e.ElasticsearchExceptionTests] [testFromXContentWithIgnoredMetadataAndHeaders] before test
+[2020-02-17T01:21:10,666][INFO ][o.e.ElasticsearchExceptionTests] [testFromXContentWithIgnoredMetadataAndHeaders] after test
+[2020-02-17T01:21:10,668][INFO ][o.e.ElasticsearchExceptionTests] [testGetRootCause] before test
+[2020-02-17T01:21:10,668][INFO ][o.e.ElasticsearchExceptionTests] [testGetRootCause] after test
+[2020-02-17T01:21:10,670][INFO ][o.e.ElasticsearchExceptionTests] [testUnknownFailureToAndFromXContent] before test
+[2020-02-17T01:21:10,671][INFO ][o.e.ElasticsearchExceptionTests] [testUnknownFailureToAndFromXContent] after test
+[2020-02-17T01:21:10,672][INFO ][o.e.ElasticsearchExceptionTests] [testDeduplicate] before test
+[2020-02-17T01:21:10,673][INFO ][o.e.ElasticsearchExceptionTests] [testDeduplicate] after test
+[2020-02-17T01:21:10,674][INFO ][o.e.ElasticsearchExceptionTests] [testToXContent] before test
+[2020-02-17T01:21:10,677][INFO ][o.e.ElasticsearchExceptionTests] [testToXContent] after test
+[2020-02-17T01:21:10,701][INFO ][o.e.ElasticsearchExceptionTests] [testGenerateThrowableToXContent] before test
+[2020-02-17T01:21:10,702][INFO ][o.e.ElasticsearchExceptionTests] [testGenerateThrowableToXContent] after test
+[2020-02-17T01:21:10,704][INFO ][o.e.ElasticsearchExceptionTests] [testToString] before test
+[2020-02-17T01:21:10,704][INFO ][o.e.ElasticsearchExceptionTests] [testToString] after test
+[2020-02-17T01:21:10,705][INFO ][o.e.ElasticsearchExceptionTests] [testFailureToAndFromXContentWithNoDetails] before test
+[2020-02-17T01:21:10,706][INFO ][o.e.ElasticsearchExceptionTests] [testFailureToAndFromXContentWithNoDetails] after test
+[2020-02-17T01:21:10,708][INFO ][o.e.ElasticsearchExceptionTests] [testFromXContent] before test
+[2020-02-17T01:21:10,708][INFO ][o.e.ElasticsearchExceptionTests] [testFromXContent] after test
+[2020-02-17T01:21:10,709][INFO ][o.e.ElasticsearchExceptionTests] [testFromXContentWithHeadersAndMetadata] before test
+[2020-02-17T01:21:10,710][INFO ][o.e.ElasticsearchExceptionTests] [testFromXContentWithHeadersAndMetadata] after test
+[2020-02-17T01:21:10,711][INFO ][o.e.ElasticsearchExceptionTests] [testGuessRootCause] before test
+[2020-02-17T01:21:10,712][INFO ][o.e.ElasticsearchExceptionTests] [testGuessRootCause] after test
+[2020-02-17T01:21:10,714][INFO ][o.e.ElasticsearchExceptionTests] [testToXContentWithHeadersAndMetadata] before test
+[2020-02-17T01:21:10,715][INFO ][o.e.ElasticsearchExceptionTests] [testToXContentWithHeadersAndMetadata] after test
+[2020-02-17T01:21:10,716][INFO ][o.e.ElasticsearchExceptionTests] [testFromXContentWithCause] before test
+[2020-02-17T01:21:10,717][INFO ][o.e.ElasticsearchExceptionTests] [testFromXContentWithCause] after test
+[2020-02-17T01:21:10,719][INFO ][o.e.ElasticsearchExceptionTests] [testFailureToAndFromXContentWithDetails] before test
+[2020-02-17T01:21:10,722][INFO ][o.e.ElasticsearchExceptionTests] [testFailureToAndFromXContentWithDetails] after test
+[2020-02-17T01:21:10,725][INFO ][o.e.ElasticsearchExceptionTests] [testStatus] before test
+[2020-02-17T01:21:10,725][INFO ][o.e.ElasticsearchExceptionTests] [testStatus] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

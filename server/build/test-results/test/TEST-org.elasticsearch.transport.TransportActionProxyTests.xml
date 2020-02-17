@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.TransportActionProxyTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:05" hostname="Escoto-PC" time="4.655">
+  <properties/>
+  <testcase name="testIsProxyRequest" classname="org.elasticsearch.transport.TransportActionProxyTests" time="0.792"/>
+  <testcase name="testSendMessage" classname="org.elasticsearch.transport.TransportActionProxyTests" time="0.761"/>
+  <testcase name="testIsProxyAction" classname="org.elasticsearch.transport.TransportActionProxyTests" time="0.758"/>
+  <testcase name="testException" classname="org.elasticsearch.transport.TransportActionProxyTests" time="0.791"/>
+  <testcase name="testGetAction" classname="org.elasticsearch.transport.TransportActionProxyTests" time="0.795"/>
+  <testcase name="testUnwrap" classname="org.elasticsearch.transport.TransportActionProxyTests" time="0.757"/>
+  <system-out><![CDATA[[2020-02-16T18:25:05,130][INFO ][o.e.t.TransportActionProxyTests] [testIsProxyRequest] before test
+[2020-02-16T18:25:05,401][INFO ][o.e.t.TransportService   ] [testIsProxyRequest] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T18:25:05,665][INFO ][o.e.t.TransportService   ] [testIsProxyRequest] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T18:25:05,920][INFO ][o.e.t.TransportService   ] [testIsProxyRequest] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T18:25:05,920][INFO ][o.e.t.TransportActionProxyTests] [testIsProxyRequest] after test
+[2020-02-16T18:25:05,923][INFO ][o.e.t.TransportActionProxyTests] [testSendMessage] before test
+[2020-02-16T18:25:06,174][INFO ][o.e.t.TransportService   ] [testSendMessage] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T18:25:06,424][INFO ][o.e.t.TransportService   ] [testSendMessage] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T18:25:06,676][INFO ][o.e.t.TransportService   ] [testSendMessage] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T18:25:06,681][INFO ][o.e.t.TransportActionProxyTests] [testSendMessage] after test
+[2020-02-16T18:25:06,684][INFO ][o.e.t.TransportActionProxyTests] [testIsProxyAction] before test
+[2020-02-16T18:25:06,933][INFO ][o.e.t.TransportService   ] [testIsProxyAction] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T18:25:07,186][INFO ][o.e.t.TransportService   ] [testIsProxyAction] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T18:25:07,439][INFO ][o.e.t.TransportService   ] [testIsProxyAction] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T18:25:07,439][INFO ][o.e.t.TransportActionProxyTests] [testIsProxyAction] after test
+[2020-02-16T18:25:07,442][INFO ][o.e.t.TransportActionProxyTests] [testException] before test
+[2020-02-16T18:25:07,694][INFO ][o.e.t.TransportService   ] [testException] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T18:25:07,946][INFO ][o.e.t.TransportService   ] [testException] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T18:25:08,226][INFO ][o.e.t.TransportService   ] [testException] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T18:25:08,231][INFO ][o.e.t.TransportActionProxyTests] [testException] after test
+[2020-02-16T18:25:08,234][INFO ][o.e.t.TransportActionProxyTests] [testGetAction] before test
+[2020-02-16T18:25:08,518][INFO ][o.e.t.TransportService   ] [testGetAction] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T18:25:08,776][INFO ][o.e.t.TransportService   ] [testGetAction] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T18:25:09,026][INFO ][o.e.t.TransportService   ] [testGetAction] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T18:25:09,026][INFO ][o.e.t.TransportActionProxyTests] [testGetAction] after test
+[2020-02-16T18:25:09,029][INFO ][o.e.t.TransportActionProxyTests] [testUnwrap] before test
+[2020-02-16T18:25:09,278][INFO ][o.e.t.TransportService   ] [testUnwrap] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T18:25:09,529][INFO ][o.e.t.TransportService   ] [testUnwrap] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T18:25:09,782][INFO ][o.e.t.TransportService   ] [testUnwrap] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T18:25:09,782][INFO ][o.e.t.TransportActionProxyTests] [testUnwrap] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

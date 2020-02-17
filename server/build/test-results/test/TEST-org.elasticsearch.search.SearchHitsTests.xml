@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.SearchHitsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.326">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.SearchHitsTests" time="0.019"/>
+  <testcase name="testFromXContentWithShards" classname="org.elasticsearch.search.SearchHitsTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.SearchHitsTests" time="0.241"/>
+  <testcase name="testReadFromPre6_6_0" classname="org.elasticsearch.search.SearchHitsTests" time="0.008"/>
+  <testcase name="testSerializationPre6_6_0" classname="org.elasticsearch.search.SearchHitsTests" time="0.003"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.SearchHitsTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.SearchHitsTests" time="0.049"/>
+  <system-out><![CDATA[[2020-02-16T23:24:38,560][INFO ][o.e.s.SearchHitsTests    ] [testSerialization] before test
+[2020-02-16T23:24:38,574][INFO ][o.e.s.SearchHitsTests    ] [testSerialization] after test
+[2020-02-16T23:24:38,576][INFO ][o.e.s.SearchHitsTests    ] [testFromXContentWithShards] before test
+[2020-02-16T23:24:38,577][INFO ][o.e.s.SearchHitsTests    ] [testFromXContentWithShards] after test
+[2020-02-16T23:24:38,582][INFO ][o.e.s.SearchHitsTests    ] [testFromXContent] before test
+[2020-02-16T23:24:38,818][INFO ][o.e.s.SearchHitsTests    ] [testFromXContent] after test
+[2020-02-16T23:24:38,827][INFO ][o.e.s.SearchHitsTests    ] [testReadFromPre6_6_0] before test
+[2020-02-16T23:24:38,827][INFO ][o.e.s.SearchHitsTests    ] [testReadFromPre6_6_0] after test
+[2020-02-16T23:24:38,829][INFO ][o.e.s.SearchHitsTests    ] [testSerializationPre6_6_0] before test
+[2020-02-16T23:24:38,830][INFO ][o.e.s.SearchHitsTests    ] [testSerializationPre6_6_0] after test
+[2020-02-16T23:24:38,832][INFO ][o.e.s.SearchHitsTests    ] [testToXContent] before test
+[2020-02-16T23:24:38,833][INFO ][o.e.s.SearchHitsTests    ] [testToXContent] after test
+[2020-02-16T23:24:38,834][INFO ][o.e.s.SearchHitsTests    ] [testEqualsAndHashcode] before test
+[2020-02-16T23:24:38,882][INFO ][o.e.s.SearchHitsTests    ] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

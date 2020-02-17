@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.XContentFactoryTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:57" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testInvalidStream" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.003"/>
+  <testcase name="testGuessCbor" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.002"/>
+  <testcase name="testGuessYaml" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.001"/>
+  <testcase name="testJsonFromBytesOptionallyPrecededByUtf8Bom" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.002"/>
+  <testcase name="testCBORBasedOnMagicHeaderDetection" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.001"/>
+  <testcase name="testEmptyStream" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.004"/>
+  <testcase name="testGuessJson" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.005"/>
+  <testcase name="testCBORBasedOnMajorObjectDetection" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.003"/>
+  <testcase name="testGuessSmile" classname="org.elasticsearch.common.xcontent.XContentFactoryTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T16:20:57,254][INFO ][o.e.c.x.XContentFactoryTests] [testInvalidStream] before test
+[2020-02-16T16:20:57,255][INFO ][o.e.c.x.XContentFactoryTests] [testInvalidStream] after test
+[2020-02-16T16:20:57,257][INFO ][o.e.c.x.XContentFactoryTests] [testGuessCbor] before test
+[2020-02-16T16:20:57,257][INFO ][o.e.c.x.XContentFactoryTests] [testGuessCbor] after test
+[2020-02-16T16:20:57,259][INFO ][o.e.c.x.XContentFactoryTests] [testGuessYaml] before test
+[2020-02-16T16:20:57,259][INFO ][o.e.c.x.XContentFactoryTests] [testGuessYaml] after test
+[2020-02-16T16:20:57,261][INFO ][o.e.c.x.XContentFactoryTests] [testJsonFromBytesOptionallyPrecededByUtf8Bom] before test
+[2020-02-16T16:20:57,261][INFO ][o.e.c.x.XContentFactoryTests] [testJsonFromBytesOptionallyPrecededByUtf8Bom] after test
+[2020-02-16T16:20:57,263][INFO ][o.e.c.x.XContentFactoryTests] [testCBORBasedOnMagicHeaderDetection] before test
+[2020-02-16T16:20:57,263][INFO ][o.e.c.x.XContentFactoryTests] [testCBORBasedOnMagicHeaderDetection] after test
+[2020-02-16T16:20:57,266][INFO ][o.e.c.x.XContentFactoryTests] [testEmptyStream] before test
+[2020-02-16T16:20:57,266][INFO ][o.e.c.x.XContentFactoryTests] [testEmptyStream] after test
+[2020-02-16T16:20:57,271][INFO ][o.e.c.x.XContentFactoryTests] [testGuessJson] before test
+[2020-02-16T16:20:57,271][INFO ][o.e.c.x.XContentFactoryTests] [testGuessJson] after test
+[2020-02-16T16:20:57,274][INFO ][o.e.c.x.XContentFactoryTests] [testCBORBasedOnMajorObjectDetection] before test
+[2020-02-16T16:20:57,275][INFO ][o.e.c.x.XContentFactoryTests] [testCBORBasedOnMajorObjectDetection] after test
+[2020-02-16T16:20:57,277][INFO ][o.e.c.x.XContentFactoryTests] [testGuessSmile] before test
+[2020-02-16T16:20:57,277][INFO ][o.e.c.x.XContentFactoryTests] [testGuessSmile] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ShardVersioningTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.006">
+  <properties/>
+  <testcase name="testSimple" classname="org.elasticsearch.cluster.routing.allocation.ShardVersioningTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T09:20:39,479][INFO ][o.e.c.r.a.ShardVersioningTests] [testSimple] before test
+[2020-02-17T09:20:39,482][INFO ][o.e.c.r.a.ShardVersioningTests] [testSimple] start two nodes
+[2020-02-17T09:20:39,483][INFO ][o.e.c.r.a.ShardVersioningTests] [testSimple] start all the primary shards for test1, replicas will start initializing
+[2020-02-17T09:20:39,483][INFO ][o.e.c.r.a.ShardVersioningTests] [testSimple] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

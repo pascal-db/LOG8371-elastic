@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregationBuilderTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.04">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregationBuilderTests" time="0.024"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregationBuilderTests" time="0.001"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregationBuilderTests" time="0.002"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregationBuilderTests" time="0.003"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregationBuilderTests" time="0.004"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregationBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregationBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T12:25:18,932][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testFromXContentMulti] before test
+[2020-02-16T12:25:18,933][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T12:25:18,933][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T12:25:18,942][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T12:25:18,942][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T12:25:18,953][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testFromXContentMulti] after test
+[2020-02-16T12:25:18,954][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testSerialization] before test
+[2020-02-16T12:25:18,955][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testSerialization] after test
+[2020-02-16T12:25:18,956][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T12:25:18,956][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T12:25:18,958][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testSerializationMulti] before test
+[2020-02-16T12:25:18,960][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testSerializationMulti] after test
+[2020-02-16T12:25:18,963][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testShallowCopy] before test
+[2020-02-16T12:25:18,963][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testShallowCopy] after test
+[2020-02-16T12:25:18,965][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testToString] before test
+[2020-02-16T12:25:18,965][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testToString] after test
+[2020-02-16T12:25:18,967][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testFromXContent] before test
+[2020-02-16T12:25:18,968][INFO ][o.e.s.a.b.c.CompositeAggregationBuilderTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

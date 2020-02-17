@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ResizeAllocationDeciderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testSourcePrimaryActive" classname="org.elasticsearch.cluster.routing.allocation.ResizeAllocationDeciderTests" time="0.006"/>
+  <testcase name="testNonResizeRouting" classname="org.elasticsearch.cluster.routing.allocation.ResizeAllocationDeciderTests" time="0.003"/>
+  <testcase name="testShrink" classname="org.elasticsearch.cluster.routing.allocation.ResizeAllocationDeciderTests" time="0.003"/>
+  <testcase name="testSourceNotActive" classname="org.elasticsearch.cluster.routing.allocation.ResizeAllocationDeciderTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T00:21:38,692][INFO ][o.e.c.r.a.ResizeAllocationDeciderTests] [testSourcePrimaryActive] before test
+[2020-02-17T00:21:38,694][INFO ][o.e.c.r.a.AllocationService] [testSourcePrimaryActive] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[source][0], [source][1]]]).
+[2020-02-17T00:21:38,695][INFO ][o.e.c.r.a.ResizeAllocationDeciderTests] [testSourcePrimaryActive] after test
+[2020-02-17T00:21:38,697][INFO ][o.e.c.r.a.ResizeAllocationDeciderTests] [testNonResizeRouting] before test
+[2020-02-17T00:21:38,698][INFO ][o.e.c.r.a.AllocationService] [testNonResizeRouting] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[source][0], [source][1]]]).
+[2020-02-17T00:21:38,698][INFO ][o.e.c.r.a.ResizeAllocationDeciderTests] [testNonResizeRouting] after test
+[2020-02-17T00:21:38,702][INFO ][o.e.c.r.a.ResizeAllocationDeciderTests] [testShrink] before test
+[2020-02-17T00:21:38,702][INFO ][o.e.c.r.a.AllocationService] [testShrink] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[source][0], [source][1]]]).
+[2020-02-17T00:21:38,702][INFO ][o.e.c.r.a.ResizeAllocationDeciderTests] [testShrink] after test
+[2020-02-17T00:21:38,706][INFO ][o.e.c.r.a.ResizeAllocationDeciderTests] [testSourceNotActive] before test
+[2020-02-17T00:21:38,707][INFO ][o.e.c.r.a.ResizeAllocationDeciderTests] [testSourceNotActive] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

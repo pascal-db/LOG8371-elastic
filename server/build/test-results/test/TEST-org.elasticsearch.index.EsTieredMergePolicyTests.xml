@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.EsTieredMergePolicyTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:35" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testSetSegmentsPerTier" classname="org.elasticsearch.index.EsTieredMergePolicyTests" time="0.004"/>
+  <testcase name="testDefaults" classname="org.elasticsearch.index.EsTieredMergePolicyTests" time="0.002"/>
+  <testcase name="testSetMaxMergedSegmentMB" classname="org.elasticsearch.index.EsTieredMergePolicyTests" time="0.002"/>
+  <testcase name="testSetForceMergeDeletesPctAllowed" classname="org.elasticsearch.index.EsTieredMergePolicyTests" time="0.002"/>
+  <testcase name="testSetDeletesPctAllowed" classname="org.elasticsearch.index.EsTieredMergePolicyTests" time="0.003"/>
+  <testcase name="testSetFloorSegmentMB" classname="org.elasticsearch.index.EsTieredMergePolicyTests" time="0.002"/>
+  <testcase name="testSetMaxMergeAtOnce" classname="org.elasticsearch.index.EsTieredMergePolicyTests" time="0.004"/>
+  <testcase name="testSetMaxMergeAtOnceExplicit" classname="org.elasticsearch.index.EsTieredMergePolicyTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T06:22:35,541][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetSegmentsPerTier] before test
+[2020-02-17T06:22:35,542][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetSegmentsPerTier] after test
+[2020-02-17T06:22:35,544][INFO ][o.e.i.EsTieredMergePolicyTests] [testDefaults] before test
+[2020-02-17T06:22:35,544][INFO ][o.e.i.EsTieredMergePolicyTests] [testDefaults] after test
+[2020-02-17T06:22:35,546][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetMaxMergedSegmentMB] before test
+[2020-02-17T06:22:35,546][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetMaxMergedSegmentMB] after test
+[2020-02-17T06:22:35,548][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetForceMergeDeletesPctAllowed] before test
+[2020-02-17T06:22:35,548][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetForceMergeDeletesPctAllowed] after test
+[2020-02-17T06:22:35,551][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetDeletesPctAllowed] before test
+[2020-02-17T06:22:35,551][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetDeletesPctAllowed] after test
+[2020-02-17T06:22:35,553][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetFloorSegmentMB] before test
+[2020-02-17T06:22:35,553][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetFloorSegmentMB] after test
+[2020-02-17T06:22:35,557][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetMaxMergeAtOnce] before test
+[2020-02-17T06:22:35,558][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetMaxMergeAtOnce] after test
+[2020-02-17T06:22:35,561][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetMaxMergeAtOnceExplicit] before test
+[2020-02-17T06:22:35,561][INFO ][o.e.i.EsTieredMergePolicyTests] [testSetMaxMergeAtOnceExplicit] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

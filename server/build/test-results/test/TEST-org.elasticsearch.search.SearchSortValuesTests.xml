@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.SearchSortValuesTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testReadFromPre6_6_0" classname="org.elasticsearch.search.SearchSortValuesTests" time="0.002"/>
+  <testcase name="testSerializationPre6_6_0" classname="org.elasticsearch.search.SearchSortValuesTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.SearchSortValuesTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.SearchSortValuesTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.SearchSortValuesTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.SearchSortValuesTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T16:24:38,980][INFO ][o.e.s.SearchSortValuesTests] [testReadFromPre6_6_0] before test
+[2020-02-16T16:24:38,981][INFO ][o.e.s.SearchSortValuesTests] [testReadFromPre6_6_0] after test
+[2020-02-16T16:24:38,983][INFO ][o.e.s.SearchSortValuesTests] [testSerializationPre6_6_0] before test
+[2020-02-16T16:24:38,984][INFO ][o.e.s.SearchSortValuesTests] [testSerializationPre6_6_0] after test
+[2020-02-16T16:24:38,985][INFO ][o.e.s.SearchSortValuesTests] [testSerialization] before test
+[2020-02-16T16:24:38,986][INFO ][o.e.s.SearchSortValuesTests] [testSerialization] after test
+[2020-02-16T16:24:38,987][INFO ][o.e.s.SearchSortValuesTests] [testFromXContent] before test
+[2020-02-16T16:24:38,989][INFO ][o.e.s.SearchSortValuesTests] [testFromXContent] after test
+[2020-02-16T16:24:38,991][INFO ][o.e.s.SearchSortValuesTests] [testEqualsAndHashcode] before test
+[2020-02-16T16:24:38,992][INFO ][o.e.s.SearchSortValuesTests] [testEqualsAndHashcode] after test
+[2020-02-16T16:24:38,995][INFO ][o.e.s.SearchSortValuesTests] [testToXContent] before test
+[2020-02-16T16:24:38,995][INFO ][o.e.s.SearchSortValuesTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

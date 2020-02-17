@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.lucene.queries.BlendedTermQueryTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:53" hostname="Escoto-PC" time="0.398">
+  <properties/>
+  <testcase name="testDismaxQuery" classname="org.apache.lucene.queries.BlendedTermQueryTests" time="0.25"/>
+  <testcase name="testExtractTerms" classname="org.apache.lucene.queries.BlendedTermQueryTests" time="0.074"/>
+  <testcase name="testMinTTF" classname="org.apache.lucene.queries.BlendedTermQueryTests" time="0.047"/>
+  <testcase name="testBasics" classname="org.apache.lucene.queries.BlendedTermQueryTests" time="0.012"/>
+  <testcase name="testEqualsAndHash" classname="org.apache.lucene.queries.BlendedTermQueryTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-17T01:19:53,448][INFO ][o.a.l.q.BlendedTermQueryTests] [testDismaxQuery] before test
+[2020-02-17T01:19:53,691][INFO ][o.a.l.q.BlendedTermQueryTests] [testDismaxQuery] after test
+[2020-02-17T01:19:53,760][INFO ][o.a.l.q.BlendedTermQueryTests] [testExtractTerms] before test
+[2020-02-17T01:19:53,766][INFO ][o.a.l.q.BlendedTermQueryTests] [testExtractTerms] after test
+[2020-02-17T01:19:53,803][INFO ][o.a.l.q.BlendedTermQueryTests] [testMinTTF] before test
+[2020-02-17T01:19:53,813][INFO ][o.a.l.q.BlendedTermQueryTests] [testMinTTF] after test
+[2020-02-17T01:19:53,822][INFO ][o.a.l.q.BlendedTermQueryTests] [testBasics] before test
+[2020-02-17T01:19:53,825][INFO ][o.a.l.q.BlendedTermQueryTests] [testBasics] after test
+[2020-02-17T01:19:53,835][INFO ][o.a.l.q.BlendedTermQueryTests] [testEqualsAndHash] before test
+[2020-02-17T01:19:53,839][INFO ][o.a.l.q.BlendedTermQueryTests] [testEqualsAndHash] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

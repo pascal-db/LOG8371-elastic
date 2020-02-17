@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.GroupedActionListenerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:24" hostname="Escoto-PC" time="0.05">
+  <properties/>
+  <testcase name="testFailed" classname="org.elasticsearch.action.support.GroupedActionListenerTests" time="0.012"/>
+  <testcase name="testConcurrentFailures" classname="org.elasticsearch.action.support.GroupedActionListenerTests" time="0.025"/>
+  <testcase name="testNotifications" classname="org.elasticsearch.action.support.GroupedActionListenerTests" time="0.013"/>
+  <system-out><![CDATA[[2020-02-16T12:20:24,653][INFO ][o.e.a.s.GroupedActionListenerTests] [testFailed] before test
+[2020-02-16T12:20:24,654][INFO ][o.e.a.s.GroupedActionListenerTests] [testFailed] after test
+[2020-02-16T12:20:24,661][INFO ][o.e.a.s.GroupedActionListenerTests] [testConcurrentFailures] before test
+[2020-02-16T12:20:24,679][INFO ][o.e.a.s.GroupedActionListenerTests] [testConcurrentFailures] after test
+[2020-02-16T12:20:24,683][INFO ][o.e.a.s.GroupedActionListenerTests] [testNotifications] before test
+[2020-02-16T12:20:24,692][INFO ][o.e.a.s.GroupedActionListenerTests] [testNotifications] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

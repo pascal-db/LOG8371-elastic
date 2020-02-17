@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.scroll.RestClearScrollActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testBodyParamsOverrideQueryStringParams" classname="org.elasticsearch.search.scroll.RestClearScrollActionTests" time="0.005"/>
+  <testcase name="testParseClearScrollRequestWithInvalidJsonThrowsException" classname="org.elasticsearch.search.scroll.RestClearScrollActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:24:38,457][INFO ][o.e.s.s.RestClearScrollActionTests] [testBodyParamsOverrideQueryStringParams] before test
+[2020-02-16T22:24:38,460][INFO ][o.e.s.s.RestClearScrollActionTests] [testBodyParamsOverrideQueryStringParams] after test
+[2020-02-16T22:24:38,462][INFO ][o.e.s.s.RestClearScrollActionTests] [testParseClearScrollRequestWithInvalidJsonThrowsException] before test
+[2020-02-16T22:24:38,462][INFO ][o.e.s.s.RestClearScrollActionTests] [testParseClearScrollRequestWithInvalidJsonThrowsException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

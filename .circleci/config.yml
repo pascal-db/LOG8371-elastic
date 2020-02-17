@@ -38,3 +38,9 @@ jobs:
       - run: ./gradlew --no-daemon :modules:analysis-common:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
       - run: ./gradlew --no-daemon :modules:aggs-matrix-stats:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
       - run: ./gradlew --no-daemon :modules:systemd:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
+      
+      - run: ./gradlew --no-daemon :modules:rank-eval:spotlessJavaCheck
+      - run: ./gradlew --no-daemon :modules:analysis-common:spotlessJavaCheck
+      - run: ./gradlew --no-daemon :modules:aggs-matrix-stats:spotlessJavaCheck
+      - run: ./gradlew --no-daemon :modules:systemd:spotlessJavaCheck
+

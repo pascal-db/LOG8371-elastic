@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.VersionFieldTypeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:33" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.VersionFieldTypeTests" time="0.005"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.VersionFieldTypeTests" time="0.003"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.VersionFieldTypeTests" time="0.003"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.VersionFieldTypeTests" time="0.004"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.VersionFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T11:23:33,776][INFO ][o.e.i.m.VersionFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T11:23:33,776][INFO ][o.e.i.m.VersionFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T11:23:33,779][INFO ][o.e.i.m.VersionFieldTypeTests] [testEquals] before test
+[2020-02-16T11:23:33,779][INFO ][o.e.i.m.VersionFieldTypeTests] [testEquals] after test
+[2020-02-16T11:23:33,782][INFO ][o.e.i.m.VersionFieldTypeTests] [testFreeze] before test
+[2020-02-16T11:23:33,782][INFO ][o.e.i.m.VersionFieldTypeTests] [testFreeze] after test
+[2020-02-16T11:23:33,785][INFO ][o.e.i.m.VersionFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T11:23:33,786][INFO ][o.e.i.m.VersionFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T11:23:33,788][INFO ][o.e.i.m.VersionFieldTypeTests] [testClone] before test
+[2020-02-16T11:23:33,788][INFO ][o.e.i.m.VersionFieldTypeTests] [testClone] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

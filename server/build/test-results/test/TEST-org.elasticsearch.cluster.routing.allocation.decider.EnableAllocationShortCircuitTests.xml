@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationShortCircuitTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.069">
+  <properties/>
+  <testcase name="testRebalancingAttemptedIfDisabledButOverridenOnSpecificIndices" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationShortCircuitTests" time="0.018"/>
+  <testcase name="testRebalancingSkippedIfDisabled" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationShortCircuitTests" time="0.016"/>
+  <testcase name="testRebalancingSkippedIfDisabledIncludingOnSpecificIndices" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationShortCircuitTests" time="0.013"/>
+  <testcase name="testAllocationSkippedIfDisabled" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationShortCircuitTests" time="0.013"/>
+  <testcase name="testRebalancingAttemptedIfPermitted" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationShortCircuitTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T14:20:38,167][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testRebalancingAttemptedIfDisabledButOverridenOnSpecificIndices] before test
+[2020-02-16T14:20:38,176][INFO ][o.e.c.r.a.AllocationService] [testRebalancingAttemptedIfDisabledButOverridenOnSpecificIndices] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test4][0], [test4][0], [test5][0], [test6][0]]]).
+[2020-02-16T14:20:38,179][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testRebalancingAttemptedIfDisabledButOverridenOnSpecificIndices] after test
+[2020-02-16T14:20:38,181][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testRebalancingSkippedIfDisabled] before test
+[2020-02-16T14:20:38,189][INFO ][o.e.c.r.a.AllocationService] [testRebalancingSkippedIfDisabled] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test2][0]]]).
+[2020-02-16T14:20:38,195][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testRebalancingSkippedIfDisabled] after test
+[2020-02-16T14:20:38,203][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testRebalancingSkippedIfDisabledIncludingOnSpecificIndices] before test
+[2020-02-16T14:20:38,206][INFO ][o.e.c.r.a.AllocationService] [testRebalancingSkippedIfDisabledIncludingOnSpecificIndices] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0], [test0][0], [test6][0], [test3][0]]]).
+[2020-02-16T14:20:38,208][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testRebalancingSkippedIfDisabledIncludingOnSpecificIndices] after test
+[2020-02-16T14:20:38,217][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testAllocationSkippedIfDisabled] before test
+[2020-02-16T14:20:38,222][INFO ][o.e.c.r.a.AllocationService] [testAllocationSkippedIfDisabled] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute]).
+[2020-02-16T14:20:38,222][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testAllocationSkippedIfDisabled] after test
+[2020-02-16T14:20:38,224][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testRebalancingAttemptedIfPermitted] before test
+[2020-02-16T14:20:38,228][INFO ][o.e.c.r.a.AllocationService] [testRebalancingAttemptedIfPermitted] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0]]]).
+[2020-02-16T14:20:38,231][INFO ][o.e.c.r.a.d.EnableAllocationShortCircuitTests] [testRebalancingAttemptedIfPermitted] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

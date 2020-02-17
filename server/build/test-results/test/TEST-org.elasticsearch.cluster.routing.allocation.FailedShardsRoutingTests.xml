@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.081">
+  <properties/>
+  <testcase name="testReplicaOnNewestVersionIsPromoted" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.012"/>
+  <testcase name="testFailedShardPrimaryRelocatingToAndFrom" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.01"/>
+  <testcase name="testRebalanceFailure" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.012"/>
+  <testcase name="testSingleShardMultipleAllocationFailures" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.005"/>
+  <testcase name="testFailAllReplicasInitializingOnPrimaryFail" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.01"/>
+  <testcase name="testFailPrimaryStartedCheckReplicaElected" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.009"/>
+  <testcase name="testFirstAllocationFailureSingleNode" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.006"/>
+  <testcase name="testFailAllReplicasInitializingOnPrimaryFailWhileHavingAReplicaToElect" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.008"/>
+  <testcase name="testFirstAllocationFailureTwoNodes" classname="org.elasticsearch.cluster.routing.allocation.FailedShardsRoutingTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-17T01:20:38,915][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testReplicaOnNewestVersionIsPromoted] before test
+[2020-02-17T01:20:38,920][INFO ][o.e.c.r.a.AllocationService] [testReplicaOnNewestVersionIsPromoted] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0], [test][0]]]).
+[2020-02-17T01:20:38,920][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testReplicaOnNewestVersionIsPromoted] --> all shards allocated, replica that should be promoted: [test][0], node[node3-6.x], [R], s[STARTED], a[id=QKnEvrXpRRCg4L3pV8G1pw]
+[2020-02-17T01:20:38,920][WARN ][o.e.c.r.a.AllocationService] [testReplicaOnNewestVersionIsPromoted] failing shard [failed shard, shard [test][0], node[node1-5.x], [P], s[STARTED], a[id=xhvgK6Q7T92nL6mZYmipLg], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-17T01:20:38,921][INFO ][o.e.c.r.a.AllocationService] [testReplicaOnNewestVersionIsPromoted] Cluster health status changed from [GREEN] to [YELLOW] (reason: [shards failed [[test][0]]]).
+[2020-02-17T01:20:38,921][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testReplicaOnNewestVersionIsPromoted] --> shard [test][0], node[node3-6.x], [R], s[STARTED], a[id=QKnEvrXpRRCg4L3pV8G1pw] got assigned to node with version 7.2.1
+[2020-02-17T01:20:38,921][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testReplicaOnNewestVersionIsPromoted] --> failing primary shard a second time, should select: [test][0], node[node4-6.x], [R], s[STARTED], a[id=wUoLUDfiSfGQ5i4AimFk3A]
+[2020-02-17T01:20:38,921][WARN ][o.e.c.r.a.AllocationService] [testReplicaOnNewestVersionIsPromoted] failing shard [failed shard, shard [test][0], node[node3-6.x], [P], s[STARTED], a[id=QKnEvrXpRRCg4L3pV8G1pw], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-17T01:20:38,921][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testReplicaOnNewestVersionIsPromoted] --> shard [test][0], node[node4-6.x], [R], s[STARTED], a[id=wUoLUDfiSfGQ5i4AimFk3A] got assigned to node with version 6.8.0
+[2020-02-17T01:20:38,921][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testReplicaOnNewestVersionIsPromoted] after test
+[2020-02-17T01:20:38,924][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] before test
+[2020-02-17T01:20:38,926][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] --> building initial routing table
+[2020-02-17T01:20:38,926][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] --> adding 2 nodes on same rack and do rerouting
+[2020-02-17T01:20:38,927][INFO ][o.e.c.r.a.AllocationService] [testFailedShardPrimaryRelocatingToAndFrom] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:20:38,927][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] --> verifying all is allocated
+[2020-02-17T01:20:38,927][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] --> adding additional node
+[2020-02-17T01:20:38,927][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] --> moving primary shard to node3
+[2020-02-17T01:20:38,928][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] --> fail primary shard recovering instance on node3 being initialized
+[2020-02-17T01:20:38,928][WARN ][o.e.c.r.a.AllocationService] [testFailedShardPrimaryRelocatingToAndFrom] failing shard [failed shard, shard [test][0], node[node3], relocating [node2], [P], recovery_source[peer recovery], s[INITIALIZING], a[id=78I5Sqp-Qu6AlrrU7KWZZg, rId=GPCyA0McTYmbS001V3ZlIA], message [null], failure [Unknown], markAsStale [false]]
+[2020-02-17T01:20:38,928][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] --> moving primary shard to node3
+[2020-02-17T01:20:38,928][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] --> fail primary shard recovering instance on node1 being relocated
+[2020-02-17T01:20:38,928][WARN ][o.e.c.r.a.AllocationService] [testFailedShardPrimaryRelocatingToAndFrom] failing shard [failed shard, shard [test][0], node[node2], relocating [node3], [P], s[RELOCATING], a[id=GPCyA0McTYmbS001V3ZlIA, rId=_mANM1tZSR651VtU8mD1_w], message [null], failure [Unknown], markAsStale [false]]
+[2020-02-17T01:20:38,931][INFO ][o.e.c.r.a.AllocationService] [testFailedShardPrimaryRelocatingToAndFrom] Cluster health status changed from [GREEN] to [YELLOW] (reason: [shards failed [[test][0]]]).
+[2020-02-17T01:20:38,931][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailedShardPrimaryRelocatingToAndFrom] after test
+[2020-02-17T01:20:38,934][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testRebalanceFailure] before test
+[2020-02-17T01:20:38,936][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testRebalanceFailure] Building initial routing table
+[2020-02-17T01:20:38,936][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testRebalanceFailure] Adding two nodes and performing rerouting
+[2020-02-17T01:20:38,936][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testRebalanceFailure] Start the shards (primaries)
+[2020-02-17T01:20:38,937][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testRebalanceFailure] Start the shards (backups)
+[2020-02-17T01:20:38,937][INFO ][o.e.c.r.a.AllocationService] [testRebalanceFailure] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-17T01:20:38,937][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testRebalanceFailure] Adding third node and reroute
+[2020-02-17T01:20:38,937][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testRebalanceFailure] Fail the shards on node 3
+[2020-02-17T01:20:38,938][WARN ][o.e.c.r.a.AllocationService] [testRebalanceFailure] failing shard [failed shard, shard [test][0], node[node3], relocating [node1], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=tsmQy0kxQ0GXBmMlvuctsQ, rId=IvbpRNNAT6-L6wBhur7Srg], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-17T01:20:38,943][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testRebalanceFailure] after test
+[2020-02-17T01:20:38,945][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testSingleShardMultipleAllocationFailures] before test
+[2020-02-17T01:20:38,946][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testSingleShardMultipleAllocationFailures] Building initial routing table
+[2020-02-17T01:20:38,947][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testSingleShardMultipleAllocationFailures] Adding 4 nodes and performing rerouting
+[2020-02-17T01:20:38,948][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testSingleShardMultipleAllocationFailures] failing shard on node [node1]
+[2020-02-17T01:20:38,948][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testSingleShardMultipleAllocationFailures] failing shard on node [node3]
+[2020-02-17T01:20:38,948][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testSingleShardMultipleAllocationFailures] failing shard on node [node3]
+[2020-02-17T01:20:38,948][WARN ][o.e.c.r.a.AllocationService] [testSingleShardMultipleAllocationFailures] failing shard [failed shard, shard [test][0], node[node1], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=ktZfk-__TBiNttzpx-oyvQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.947Z], delayed=false, allocation_status[no_attempt]], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-17T01:20:38,948][WARN ][o.e.c.r.a.AllocationService] [testSingleShardMultipleAllocationFailures] failing shard [failed shard, shard [test][0], node[node3], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=9Xj5M7XtQt6Y4fHhSsOHfQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.947Z], delayed=false, allocation_status[no_attempt]], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-17T01:20:38,948][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testSingleShardMultipleAllocationFailures] after test
+[2020-02-17T01:20:38,953][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailAllReplicasInitializingOnPrimaryFail] before test
+[2020-02-17T01:20:38,956][WARN ][o.e.c.r.a.AllocationService] [testFailAllReplicasInitializingOnPrimaryFail] failing shard [failed shard, shard [test][0], node[node4], [P], s[STARTED], a[id=Ia9DMwrhSN2ZVrkZWLaUwg], message [null], failure [Unknown], markAsStale [false]]
+[2020-02-17T01:20:38,958][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailAllReplicasInitializingOnPrimaryFail] after test
+[2020-02-17T01:20:38,964][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailPrimaryStartedCheckReplicaElected] before test
+[2020-02-17T01:20:38,965][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailPrimaryStartedCheckReplicaElected] Building initial routing table
+[2020-02-17T01:20:38,966][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailPrimaryStartedCheckReplicaElected] Adding two nodes and performing rerouting
+[2020-02-17T01:20:38,966][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailPrimaryStartedCheckReplicaElected] Start the shards (primaries)
+[2020-02-17T01:20:38,966][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailPrimaryStartedCheckReplicaElected] Start the shards (backups)
+[2020-02-17T01:20:38,966][INFO ][o.e.c.r.a.AllocationService] [testFailPrimaryStartedCheckReplicaElected] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:20:38,967][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailPrimaryStartedCheckReplicaElected] fail the primary shard, will have no place to be rerouted to (single node), so stays unassigned
+[2020-02-17T01:20:38,967][WARN ][o.e.c.r.a.AllocationService] [testFailPrimaryStartedCheckReplicaElected] failing shard [failed shard, shard [test][0], node[node2], [P], s[STARTED], a[id=ycHHbHn9TeadiC9mr8XU-A], message [null], failure [Unknown], markAsStale [false]]
+[2020-02-17T01:20:38,967][INFO ][o.e.c.r.a.AllocationService] [testFailPrimaryStartedCheckReplicaElected] Cluster health status changed from [GREEN] to [YELLOW] (reason: [shards failed [[test][0]]]).
+[2020-02-17T01:20:38,967][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailPrimaryStartedCheckReplicaElected] after test
+[2020-02-17T01:20:38,970][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureSingleNode] before test
+[2020-02-17T01:20:38,971][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureSingleNode] Building initial routing table
+[2020-02-17T01:20:38,972][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureSingleNode] Adding single node and performing rerouting
+[2020-02-17T01:20:38,972][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureSingleNode] fail the first shard, will have no place to be rerouted to (single node), so stays unassigned
+[2020-02-17T01:20:38,972][WARN ][o.e.c.r.a.AllocationService] [testFirstAllocationFailureSingleNode] failing shard [failed shard, shard [test][0], node[node1], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=EbskPgk9SQWKxDfqpub80w], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.972Z], delayed=false, allocation_status[no_attempt]], message [null], failure [Unknown], markAsStale [false]]
+[2020-02-17T01:20:38,973][INFO ][o.e.c.r.a.AllocationService] [testFirstAllocationFailureSingleNode] Cluster health status changed from [YELLOW] to [RED] (reason: [shards failed [[test][0]]]).
+[2020-02-17T01:20:38,973][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureSingleNode] after test
+[2020-02-17T01:20:38,976][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailAllReplicasInitializingOnPrimaryFailWhileHavingAReplicaToElect] before test
+[2020-02-17T01:20:38,981][WARN ][o.e.c.r.a.AllocationService] [testFailAllReplicasInitializingOnPrimaryFailWhileHavingAReplicaToElect] failing shard [failed shard, shard [test][0], node[node4], [P], s[STARTED], a[id=VdmuLWzYRMCa3AV04aY2Sw], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-17T01:20:38,982][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFailAllReplicasInitializingOnPrimaryFailWhileHavingAReplicaToElect] after test
+[2020-02-17T01:20:38,988][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureTwoNodes] before test
+[2020-02-17T01:20:38,990][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureTwoNodes] Building initial routing table
+[2020-02-17T01:20:38,990][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureTwoNodes] Adding two nodes and performing rerouting
+[2020-02-17T01:20:38,990][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureTwoNodes] fail the first shard, will start INITIALIZING on the second node
+[2020-02-17T01:20:38,990][WARN ][o.e.c.r.a.AllocationService] [testFirstAllocationFailureTwoNodes] failing shard [failed shard, shard [test][0], node[node2], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=Jpg-HumbQaKebQUMfAYiBQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.990Z], delayed=false, allocation_status[no_attempt]], message [null], failure [Unknown], markAsStale [true]]
+[2020-02-17T01:20:38,991][INFO ][o.e.c.r.a.AllocationService] [testFirstAllocationFailureTwoNodes] Cluster health status changed from [YELLOW] to [RED] (reason: [shards failed [[test][0]]]).
+[2020-02-17T01:20:38,991][INFO ][o.e.c.r.a.FailedShardsRoutingTests] [testFirstAllocationFailureTwoNodes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

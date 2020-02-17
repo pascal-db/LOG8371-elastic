@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.sampler.SamplerAggregatorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testRidiculousSize" classname="org.elasticsearch.search.aggregations.bucket.sampler.SamplerAggregatorTests" time="0.014"/>
+  <testcase name="testSampler" classname="org.elasticsearch.search.aggregations.bucket.sampler.SamplerAggregatorTests" time="0.013"/>
+  <system-out><![CDATA[[2020-02-16T16:24:21,758][INFO ][o.e.s.a.b.s.SamplerAggregatorTests] [testRidiculousSize] before test
+[2020-02-16T16:24:21,769][INFO ][o.e.s.a.b.s.SamplerAggregatorTests] [testRidiculousSize] after test
+[2020-02-16T16:24:21,775][INFO ][o.e.s.a.b.s.SamplerAggregatorTests] [testSampler] before test
+[2020-02-16T16:24:21,783][INFO ][o.e.s.a.b.s.SamplerAggregatorTests] [testSampler] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

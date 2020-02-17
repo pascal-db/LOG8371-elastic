@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.node.DiscoveryNodesTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testResolveNodeByIdOrName" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.004"/>
+  <testcase name="testDeltas" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.003"/>
+  <testcase name="testResolveNodeByAttribute" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.004"/>
+  <testcase name="testResolveNodesIds" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.002"/>
+  <testcase name="testAll" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.003"/>
+  <testcase name="testDeltaListsMultipleNodes" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.002"/>
+  <testcase name="testMastersFirst" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.002"/>
+  <testcase name="testCoordinatorOnlyNodes" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.002"/>
+  <testcase name="testMaxMinNodeVersion" classname="org.elasticsearch.cluster.node.DiscoveryNodesTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:21:33,973][INFO ][o.e.c.n.DiscoveryNodesTests] [testResolveNodeByIdOrName] before test
+[2020-02-17T01:21:33,976][INFO ][o.e.c.n.DiscoveryNodesTests] [testResolveNodeByIdOrName] after test
+[2020-02-17T01:21:33,977][INFO ][o.e.c.n.DiscoveryNodesTests] [testDeltas] before test
+[2020-02-17T01:21:33,978][INFO ][o.e.c.n.DiscoveryNodesTests] [testDeltas] nodes A: nodes: 
+   {name_13}{node_13}{fS8zkb1fT1CwYhcJiklfjw}{0.0.0.0}{0.0.0.0:14}{crdi}{custom=AZXxU}
+   {name_15}{node_15}{ZnqPg1ncQlK3zSWx1qFFFQ}{0.0.0.0}{0.0.0.0:16}{crdim}{custom=nNDDB}
+   {name_16}{node_16}{FBFgnT0uR1GvKJEvMJoTOA}{0.0.0.0}{0.0.0.0:17}{crim}{custom=match}
+   {name_9}{node_9}{9lTh03v7TfmsGZDFw0Fm2w}{0.0.0.0}{0.0.0.0:10}{cr}{custom=match}
+   {name_7}{node_7}{KvcXcOmiQsKctoOdpRYJpw}{0.0.0.0}{0.0.0.0:8}{crdi}{custom=lJvZi}
+   {name_11}{node_11}{_BSNByj4Sty4SrGYjH9_RQ}{0.0.0.0}{0.0.0.0:12}{cr}{custom=match}
+   {name_14}{node_14}{Gvs2W-AGQfiurZP0806U5g}{0.0.0.0}{0.0.0.0:15}{crdim}{custom=pYfH}, local
+   {name_10}{node_10}{aJsbV_lpQT-lJ_WboMw2AQ}{0.0.0.0}{0.0.0.0:11}{cr}{custom=match}
+   {name_12}{node_12}{EKV5NCfqRHGkNyFvA1RPNQ}{0.0.0.0}{0.0.0.0:13}{d}{custom=pFQ}
+   {name_6}{node_6}{nyJw803kSHCI0i804z7wRg}{0.0.0.0}{0.0.0.0:7}{crdm}{custom=match}
+   {name_8}{node_8}{XhDVRrg0SU699S-7bxoKKA}{0.0.0.0}{0.0.0.0:9}{crim}{custom=KpRa}
+
+[2020-02-17T01:21:33,978][INFO ][o.e.c.n.DiscoveryNodesTests] [testDeltas] nodes B: nodes: 
+   {name_15}{node_15}{ZnqPg1ncQlK3zSWx1qFFFQ}{0.0.0.0}{0.0.0.0:16}{crdim}{custom=nNDDB}, local
+   {name_17}{node_17}{34vLZxLYTECldArFddlwUg}{0.0.0.0}{0.0.0.0:18}{cr}{custom=match}
+   {name_18}{node_18}{GQgYme7FRq6N8LVx8Y89lw}{0.0.0.0}{0.0.0.0:19}{crdim}{custom=fvc}
+
+[2020-02-17T01:21:33,979][INFO ][o.e.c.n.DiscoveryNodesTests] [testDeltas] after test
+[2020-02-17T01:21:33,980][INFO ][o.e.c.n.DiscoveryNodesTests] [testResolveNodeByAttribute] before test
+[2020-02-17T01:21:33,982][INFO ][o.e.c.n.DiscoveryNodesTests] [testResolveNodeByAttribute] after test
+[2020-02-17T01:21:33,984][INFO ][o.e.c.n.DiscoveryNodesTests] [testResolveNodesIds] before test
+[2020-02-17T01:21:33,984][INFO ][o.e.c.n.DiscoveryNodesTests] [testResolveNodesIds] after test
+[2020-02-17T01:21:33,986][INFO ][o.e.c.n.DiscoveryNodesTests] [testAll] before test
+[2020-02-17T01:21:33,987][INFO ][o.e.c.n.DiscoveryNodesTests] [testAll] after test
+[2020-02-17T01:21:33,989][INFO ][o.e.c.n.DiscoveryNodesTests] [testDeltaListsMultipleNodes] before test
+[2020-02-17T01:21:33,989][INFO ][o.e.c.n.DiscoveryNodesTests] [testDeltaListsMultipleNodes] after test
+[2020-02-17T01:21:33,991][INFO ][o.e.c.n.DiscoveryNodesTests] [testMastersFirst] before test
+[2020-02-17T01:21:33,991][INFO ][o.e.c.n.DiscoveryNodesTests] [testMastersFirst] after test
+[2020-02-17T01:21:33,992][INFO ][o.e.c.n.DiscoveryNodesTests] [testCoordinatorOnlyNodes] before test
+[2020-02-17T01:21:33,994][INFO ][o.e.c.n.DiscoveryNodesTests] [testCoordinatorOnlyNodes] after test
+[2020-02-17T01:21:33,995][INFO ][o.e.c.n.DiscoveryNodesTests] [testMaxMinNodeVersion] before test
+[2020-02-17T01:21:33,995][INFO ][o.e.c.n.DiscoveryNodesTests] [testMaxMinNodeVersion] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

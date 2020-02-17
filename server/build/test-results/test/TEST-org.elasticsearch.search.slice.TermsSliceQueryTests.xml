@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.slice.TermsSliceQueryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:51" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testEmpty" classname="org.elasticsearch.search.slice.TermsSliceQueryTests" time="0.004"/>
+  <testcase name="testBasics" classname="org.elasticsearch.search.slice.TermsSliceQueryTests" time="0.001"/>
+  <testcase name="testSearch" classname="org.elasticsearch.search.slice.TermsSliceQueryTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T22:25:51,467][INFO ][o.e.s.s.TermsSliceQueryTests] [testEmpty] before test
+[2020-02-16T22:25:51,469][INFO ][o.e.s.s.TermsSliceQueryTests] [testEmpty] after test
+[2020-02-16T22:25:51,470][INFO ][o.e.s.s.TermsSliceQueryTests] [testBasics] before test
+[2020-02-16T22:25:51,470][INFO ][o.e.s.s.TermsSliceQueryTests] [testBasics] after test
+[2020-02-16T22:25:51,472][INFO ][o.e.s.s.TermsSliceQueryTests] [testSearch] before test
+[2020-02-16T22:25:51,479][INFO ][o.e.s.s.TermsSliceQueryTests] [testSearch] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

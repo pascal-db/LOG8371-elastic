@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.sampler.InternalSamplerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:24" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.sampler.InternalSamplerTests" time="0.003"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.sampler.InternalSamplerTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.sampler.InternalSamplerTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.sampler.InternalSamplerTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.sampler.InternalSamplerTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:25:24,106][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testSerialization] before test
+[2020-02-17T06:25:24,107][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testSerialization] after test
+[2020-02-17T06:25:24,109][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T06:25:24,109][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T06:25:24,112][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testReduceRandom] before test
+[2020-02-17T06:25:24,112][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testReduceRandom] after test
+[2020-02-17T06:25:24,114][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:25:24,115][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:25:24,116][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testFromXContent] before test
+[2020-02-17T06:25:24,117][INFO ][o.e.s.a.b.s.InternalSamplerTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

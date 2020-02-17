@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.IndexReaderWrapperTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:24" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testNoWrap" classname="org.elasticsearch.index.shard.IndexReaderWrapperTests" time="0.006"/>
+  <testcase name="testIsCacheable" classname="org.elasticsearch.index.shard.IndexReaderWrapperTests" time="0.004"/>
+  <testcase name="testReaderCloseListenerIsCalled" classname="org.elasticsearch.index.shard.IndexReaderWrapperTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T08:23:24,287][INFO ][o.e.i.s.IndexReaderWrapperTests] [testNoWrap] before test
+[2020-02-17T08:23:24,292][INFO ][o.e.i.s.IndexReaderWrapperTests] [testNoWrap] after test
+[2020-02-17T08:23:24,293][INFO ][o.e.i.s.IndexReaderWrapperTests] [testIsCacheable] before test
+[2020-02-17T08:23:24,296][INFO ][o.e.i.s.IndexReaderWrapperTests] [testIsCacheable] after test
+[2020-02-17T08:23:24,298][INFO ][o.e.i.s.IndexReaderWrapperTests] [testReaderCloseListenerIsCalled] before test
+[2020-02-17T08:23:24,300][INFO ][o.e.i.s.IndexReaderWrapperTests] [testReaderCloseListenerIsCalled] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

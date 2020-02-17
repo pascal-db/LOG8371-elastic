@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.BuildTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:29" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testEqualsAndHashCode" classname="org.elasticsearch.BuildTests" time="0.005"/>
+  <testcase name="testSerializationBWC" classname="org.elasticsearch.BuildTests" time="0.003"/>
+  <testcase name="testTypeParsing" classname="org.elasticsearch.BuildTests" time="0.003"/>
+  <testcase name="testStrictTypeParsing" classname="org.elasticsearch.BuildTests" time="0.006"/>
+  <testcase name="testJarMetadata" classname="org.elasticsearch.BuildTests" time="0.018"/>
+  <testcase name="testLenientFlavorParsing" classname="org.elasticsearch.BuildTests" time="0.002"/>
+  <testcase name="testLenientTypeParsing" classname="org.elasticsearch.BuildTests" time="0.002"/>
+  <testcase name="testStrictFlavorParsing" classname="org.elasticsearch.BuildTests" time="0.002"/>
+  <testcase name="testIsProduction" classname="org.elasticsearch.BuildTests" time="0.002"/>
+  <testcase name="testFlavorParsing" classname="org.elasticsearch.BuildTests" time="0.001"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.BuildTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T14:20:29,008][INFO ][o.e.BuildTests           ] [testEqualsAndHashCode] before test
+[2020-02-16T14:20:29,011][INFO ][o.e.BuildTests           ] [testEqualsAndHashCode] after test
+[2020-02-16T14:20:29,012][INFO ][o.e.BuildTests           ] [testSerializationBWC] before test
+[2020-02-16T14:20:29,014][INFO ][o.e.BuildTests           ] [testSerializationBWC] after test
+[2020-02-16T14:20:29,017][INFO ][o.e.BuildTests           ] [testTypeParsing] before test
+[2020-02-16T14:20:29,017][INFO ][o.e.BuildTests           ] [testTypeParsing] after test
+[2020-02-16T14:20:29,023][INFO ][o.e.BuildTests           ] [testStrictTypeParsing] before test
+[2020-02-16T14:20:29,023][INFO ][o.e.BuildTests           ] [testStrictTypeParsing] after test
+[2020-02-16T14:20:29,026][INFO ][o.e.BuildTests           ] [testJarMetadata] before test
+[2020-02-16T14:20:29,041][INFO ][o.e.BuildTests           ] [testJarMetadata] after test
+[2020-02-16T14:20:29,043][INFO ][o.e.BuildTests           ] [testLenientFlavorParsing] before test
+[2020-02-16T14:20:29,043][INFO ][o.e.BuildTests           ] [testLenientFlavorParsing] after test
+[2020-02-16T14:20:29,045][INFO ][o.e.BuildTests           ] [testLenientTypeParsing] before test
+[2020-02-16T14:20:29,045][INFO ][o.e.BuildTests           ] [testLenientTypeParsing] after test
+[2020-02-16T14:20:29,046][INFO ][o.e.BuildTests           ] [testStrictFlavorParsing] before test
+[2020-02-16T14:20:29,047][INFO ][o.e.BuildTests           ] [testStrictFlavorParsing] after test
+[2020-02-16T14:20:29,048][INFO ][o.e.BuildTests           ] [testIsProduction] before test
+[2020-02-16T14:20:29,049][INFO ][o.e.BuildTests           ] [testIsProduction] after test
+[2020-02-16T14:20:29,050][INFO ][o.e.BuildTests           ] [testFlavorParsing] before test
+[2020-02-16T14:20:29,050][INFO ][o.e.BuildTests           ] [testFlavorParsing] after test
+[2020-02-16T14:20:29,052][INFO ][o.e.BuildTests           ] [testSerialization] before test
+[2020-02-16T14:20:29,053][INFO ][o.e.BuildTests           ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

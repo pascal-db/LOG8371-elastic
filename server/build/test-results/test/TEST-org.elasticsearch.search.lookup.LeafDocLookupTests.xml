@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.lookup.LeafDocLookupTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testFieldAliases" classname="org.elasticsearch.search.lookup.LeafDocLookupTests" time="0.021"/>
+  <testcase name="testBasicLookup" classname="org.elasticsearch.search.lookup.LeafDocLookupTests" time="0.002"/>
+  <testcase name="testTypesDeprecation" classname="org.elasticsearch.search.lookup.LeafDocLookupTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T09:25:35,744][INFO ][o.e.s.l.LeafDocLookupTests] [testFieldAliases] before test
+[2020-02-17T09:25:35,762][INFO ][o.e.s.l.LeafDocLookupTests] [testFieldAliases] after test
+[2020-02-17T09:25:35,764][INFO ][o.e.s.l.LeafDocLookupTests] [testBasicLookup] before test
+[2020-02-17T09:25:35,764][INFO ][o.e.s.l.LeafDocLookupTests] [testBasicLookup] after test
+[2020-02-17T09:25:35,766][INFO ][o.e.s.l.LeafDocLookupTests] [testTypesDeprecation] before test
+[2020-02-17T09:25:35,767][WARN ][o.e.d.s.l.LeafDocLookup  ] [testTypesDeprecation] [types removal] Looking up doc types [_type] in scripts is deprecated.
+[2020-02-17T09:25:35,767][INFO ][o.e.s.l.LeafDocLookupTests] [testTypesDeprecation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.bootstrap.ElasticsearchUncaughtExceptionHandlerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:28" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testUncaughtError" classname="org.elasticsearch.bootstrap.ElasticsearchUncaughtExceptionHandlerTests" time="0.01"/>
+  <testcase name="testIsFatalCause" classname="org.elasticsearch.bootstrap.ElasticsearchUncaughtExceptionHandlerTests" time="0.003"/>
+  <testcase name="testUncaughtException" classname="org.elasticsearch.bootstrap.ElasticsearchUncaughtExceptionHandlerTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T00:20:28,840][INFO ][o.e.b.ElasticsearchUncaughtExceptionHandlerTests] [testUncaughtError] before test
+[2020-02-17T00:20:28,846][INFO ][o.e.b.ElasticsearchUncaughtExceptionHandlerTests] [testUncaughtError] after test
+[2020-02-17T00:20:28,848][INFO ][o.e.b.ElasticsearchUncaughtExceptionHandlerTests] [testIsFatalCause] before test
+[2020-02-17T00:20:28,849][INFO ][o.e.b.ElasticsearchUncaughtExceptionHandlerTests] [testIsFatalCause] after test
+[2020-02-17T00:20:28,851][INFO ][o.e.b.ElasticsearchUncaughtExceptionHandlerTests] [testUncaughtException] before test
+[2020-02-17T00:20:28,854][INFO ][o.e.b.ElasticsearchUncaughtExceptionHandlerTests] [testUncaughtException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

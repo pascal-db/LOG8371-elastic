@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.fielddata.GeoFieldDataTests" tests="8" skipped="1" failures="0" errors="0" timestamp="2020-02-16T22:22:00" hostname="Escoto-PC" time="2.938">
+  <properties/>
+  <testcase name="testSingleValueWithMissing" classname="org.elasticsearch.index.fielddata.GeoFieldDataTests" time="0.943"/>
+  <testcase name="testDeletedDocs" classname="org.elasticsearch.index.fielddata.GeoFieldDataTests" time="0.139"/>
+  <testcase name="testSingleValueAllSet" classname="org.elasticsearch.index.fielddata.GeoFieldDataTests" time="0.82"/>
+  <testcase name="testSortMultiValuesFields" classname="org.elasticsearch.index.fielddata.GeoFieldDataTests" time="0.288">
+    <skipped/>
+  </testcase>
+  <testcase name="testMissingValueForAll" classname="org.elasticsearch.index.fielddata.GeoFieldDataTests" time="0.168"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.index.fielddata.GeoFieldDataTests" time="0.111"/>
+  <testcase name="testMultiValueAllSet" classname="org.elasticsearch.index.fielddata.GeoFieldDataTests" time="0.13"/>
+  <testcase name="testMultiValueWithMissing" classname="org.elasticsearch.index.fielddata.GeoFieldDataTests" time="0.316"/>
+  <system-out><![CDATA[[2020-02-17T05:22:00,063][INFO ][o.e.e.NodeEnvironment    ] [testSingleValueWithMissing] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T05:22:00,064][INFO ][o.e.e.NodeEnvironment    ] [testSingleValueWithMissing] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T05:22:00,066][INFO ][o.e.n.Node               ] [testSingleValueWithMissing] node name [node_s_0], node ID [GYkwRP8SRTSxD5kTUkjEsQ], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[5941788927573157085]-HASH=[138818A0C63]]
+[2020-02-17T05:22:00,066][INFO ][o.e.n.Node               ] [testSingleValueWithMissing] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T05:22:00,066][INFO ][o.e.n.Node               ] [testSingleValueWithMissing] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T05:22:00,066][INFO ][o.e.n.Node               ] [testSingleValueWithMissing] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T05:22:00,067][INFO ][o.e.p.PluginsService     ] [testSingleValueWithMissing] no modules loaded
+[2020-02-17T05:22:00,067][INFO ][o.e.p.PluginsService     ] [testSingleValueWithMissing] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-17T05:22:00,067][INFO ][o.e.p.PluginsService     ] [testSingleValueWithMissing] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T05:22:00,067][INFO ][o.e.p.PluginsService     ] [testSingleValueWithMissing] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T05:22:00,293][INFO ][o.e.d.DiscoveryModule    ] [testSingleValueWithMissing] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T05:22:00,302][INFO ][o.e.n.Node               ] [testSingleValueWithMissing] initialized
+[2020-02-17T05:22:00,302][INFO ][o.e.n.Node               ] [testSingleValueWithMissing] starting ...
+[2020-02-17T05:22:00,744][INFO ][o.e.t.TransportService   ] [testSingleValueWithMissing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-17T05:22:00,751][INFO ][o.e.c.c.Coordinator      ] [testSingleValueWithMissing] setting initial configuration to VotingConfiguration{GYkwRP8SRTSxD5kTUkjEsQ}
+[2020-02-17T05:22:00,860][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{GYkwRP8SRTSxD5kTUkjEsQ}{soiCWdq3TD2REkdOJFphJQ}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{GYkwRP8SRTSxD5kTUkjEsQ}{soiCWdq3TD2REkdOJFphJQ}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-17T05:22:00,868][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [-cV-CoqxQW6ThEKxNoBsEw]
+[2020-02-17T05:22:00,876][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{GYkwRP8SRTSxD5kTUkjEsQ}{soiCWdq3TD2REkdOJFphJQ}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T05:22:00,877][INFO ][o.e.n.Node               ] [testSingleValueWithMissing] started
+[2020-02-17T05:22:00,882][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T05:22:00,883][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T05:22:00,893][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T05:22:00,901][INFO ][o.e.i.f.GeoFieldDataTests] [testSingleValueWithMissing] before test
+[2020-02-17T05:22:00,902][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T05:22:00,952][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:22:00,970][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/4nyC82esRmWJGpvkApy3UQ] deleting index
+[2020-02-17T05:22:00,998][INFO ][o.e.i.f.GeoFieldDataTests] [testSingleValueWithMissing] after test
+[2020-02-17T05:22:01,007][INFO ][o.e.i.f.GeoFieldDataTests] [testDeletedDocs] before test
+[2020-02-17T05:22:01,008][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T05:22:01,088][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:22:01,100][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/58ISJTN2T4SFODt6XxeHRw] deleting index
+[2020-02-17T05:22:01,137][INFO ][o.e.i.f.GeoFieldDataTests] [testDeletedDocs] after test
+[2020-02-17T05:22:01,185][INFO ][o.e.i.f.GeoFieldDataTests] [testSingleValueAllSet] before test
+[2020-02-17T05:22:01,227][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T05:22:01,607][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:22:01,618][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/392m8sSgRvWC_dFG9u4TPw] deleting index
+[2020-02-17T05:22:01,977][INFO ][o.e.i.f.GeoFieldDataTests] [testSingleValueAllSet] after test
+[2020-02-17T05:22:01,993][INFO ][o.e.i.f.GeoFieldDataTests] [testSortMultiValuesFields] before test
+[2020-02-17T05:22:01,994][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T05:22:02,124][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:22:02,184][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/8R1WIZgcRM6fSCsJNmOZzw] deleting index
+[2020-02-17T05:22:02,265][INFO ][o.e.i.f.GeoFieldDataTests] [testSortMultiValuesFields] after test
+[2020-02-17T05:22:02,273][INFO ][o.e.i.f.GeoFieldDataTests] [testMissingValueForAll] before test
+[2020-02-17T05:22:02,279][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T05:22:02,382][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:22:02,398][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Y86_f1O3QICN9MG3RfdW2w] deleting index
+[2020-02-17T05:22:02,433][INFO ][o.e.i.f.GeoFieldDataTests] [testMissingValueForAll] after test
+[2020-02-17T05:22:02,442][INFO ][o.e.i.f.GeoFieldDataTests] [testEmpty] before test
+[2020-02-17T05:22:02,443][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T05:22:02,499][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:22:02,522][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/vA-hTGIsTUC76UQFQOYlgg] deleting index
+[2020-02-17T05:22:02,545][INFO ][o.e.i.f.GeoFieldDataTests] [testEmpty] after test
+[2020-02-17T05:22:02,556][INFO ][o.e.i.f.GeoFieldDataTests] [testMultiValueAllSet] before test
+[2020-02-17T05:22:02,557][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T05:22:02,622][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:22:02,641][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/nyiDKSIfS1m0Zz0tl85AAg] deleting index
+[2020-02-17T05:22:02,676][INFO ][o.e.i.f.GeoFieldDataTests] [testMultiValueAllSet] after test
+[2020-02-17T05:22:02,685][INFO ][o.e.i.f.GeoFieldDataTests] [testMultiValueWithMissing] before test
+[2020-02-17T05:22:02,749][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T05:22:02,932][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:22:02,955][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/8j8PiDmHTsaYgcc7VubO1w] deleting index
+[2020-02-17T05:22:02,991][INFO ][o.e.i.f.GeoFieldDataTests] [testMultiValueWithMissing] after test
+[2020-02-17T05:22:02,992][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T05:22:02,998][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T05:22:02,998][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T05:22:02,999][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

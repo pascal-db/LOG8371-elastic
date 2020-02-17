@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.HistogramTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:23" hostname="Escoto-PC" time="0.032">
+  <properties/>
+  <testcase name="testInvalidBounds" classname="org.elasticsearch.search.aggregations.bucket.HistogramTests" time="0.017"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.HistogramTests" time="0.002"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.HistogramTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.HistogramTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.HistogramTests" time="0.001"/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.HistogramTests" time="0.003"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.HistogramTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.HistogramTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T16:25:23,650][INFO ][o.e.s.a.b.HistogramTests ] [testInvalidBounds] before test
+[2020-02-16T16:25:23,652][INFO ][o.e.p.PluginsService     ] [testInvalidBounds] no modules loaded
+[2020-02-16T16:25:23,652][INFO ][o.e.p.PluginsService     ] [testInvalidBounds] no plugins loaded
+[2020-02-16T16:25:23,659][INFO ][o.e.p.PluginsService     ] [testInvalidBounds] no modules loaded
+[2020-02-16T16:25:23,659][INFO ][o.e.p.PluginsService     ] [testInvalidBounds] no plugins loaded
+[2020-02-16T16:25:23,663][INFO ][o.e.s.a.b.HistogramTests ] [testInvalidBounds] after test
+[2020-02-16T16:25:23,665][INFO ][o.e.s.a.b.HistogramTests ] [testEqualsAndHashcode] before test
+[2020-02-16T16:25:23,666][INFO ][o.e.s.a.b.HistogramTests ] [testEqualsAndHashcode] after test
+[2020-02-16T16:25:23,667][INFO ][o.e.s.a.b.HistogramTests ] [testToString] before test
+[2020-02-16T16:25:23,668][INFO ][o.e.s.a.b.HistogramTests ] [testToString] after test
+[2020-02-16T16:25:23,669][INFO ][o.e.s.a.b.HistogramTests ] [testSerialization] before test
+[2020-02-16T16:25:23,669][INFO ][o.e.s.a.b.HistogramTests ] [testSerialization] after test
+[2020-02-16T16:25:23,671][INFO ][o.e.s.a.b.HistogramTests ] [testFromXContent] before test
+[2020-02-16T16:25:23,671][INFO ][o.e.s.a.b.HistogramTests ] [testFromXContent] after test
+[2020-02-16T16:25:23,672][INFO ][o.e.s.a.b.HistogramTests ] [testFromXContentMulti] before test
+[2020-02-16T16:25:23,674][INFO ][o.e.s.a.b.HistogramTests ] [testFromXContentMulti] after test
+[2020-02-16T16:25:23,675][INFO ][o.e.s.a.b.HistogramTests ] [testSerializationMulti] before test
+[2020-02-16T16:25:23,676][INFO ][o.e.s.a.b.HistogramTests ] [testSerializationMulti] after test
+[2020-02-16T16:25:23,677][INFO ][o.e.s.a.b.HistogramTests ] [testShallowCopy] before test
+[2020-02-16T16:25:23,678][INFO ][o.e.s.a.b.HistogramTests ] [testShallowCopy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

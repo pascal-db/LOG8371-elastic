@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.HDRPercentilesAggregatorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:31" hostname="Escoto-PC" time="0.032">
+  <properties/>
+  <testcase name="testNoMatchingField" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentilesAggregatorTests" time="0.008"/>
+  <testcase name="testSomeMatchesNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentilesAggregatorTests" time="0.006"/>
+  <testcase name="testSomeMatchesSortedNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentilesAggregatorTests" time="0.005"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentilesAggregatorTests" time="0.004"/>
+  <testcase name="testQueryFiltering" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentilesAggregatorTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T19:25:31,798][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testNoMatchingField] before test
+[2020-02-16T19:25:31,804][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testNoMatchingField] after test
+[2020-02-16T19:25:31,806][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testSomeMatchesNumericDocValues] before test
+[2020-02-16T19:25:31,810][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testSomeMatchesNumericDocValues] after test
+[2020-02-16T19:25:31,812][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testSomeMatchesSortedNumericDocValues] before test
+[2020-02-16T19:25:31,816][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testSomeMatchesSortedNumericDocValues] after test
+[2020-02-16T19:25:31,817][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testNoDocs] before test
+[2020-02-16T19:25:31,820][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testNoDocs] after test
+[2020-02-16T19:25:31,821][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testQueryFiltering] before test
+[2020-02-16T19:25:31,828][INFO ][o.e.s.a.m.HDRPercentilesAggregatorTests] [testQueryFiltering] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

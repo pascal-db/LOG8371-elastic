@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.get.GetResultTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:11" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.index.get.GetResultTests" time="0.003"/>
+  <testcase name="testToAndFromXContentEmbedded" classname="org.elasticsearch.index.get.GetResultTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.get.GetResultTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.index.get.GetResultTests" time="0.002"/>
+  <testcase name="testToXContentEmbedded" classname="org.elasticsearch.index.get.GetResultTests" time="0.002"/>
+  <testcase name="testToXContentEmbeddedNotFound" classname="org.elasticsearch.index.get.GetResultTests" time="0.003"/>
+  <testcase name="testGetSourceAsBytes" classname="org.elasticsearch.index.get.GetResultTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T17:22:11,824][INFO ][o.e.i.g.GetResultTests   ] [testToAndFromXContent] before test
+[2020-02-16T17:22:11,825][INFO ][o.e.i.g.GetResultTests   ] [testToAndFromXContent] after test
+[2020-02-16T17:22:11,828][INFO ][o.e.i.g.GetResultTests   ] [testToAndFromXContentEmbedded] before test
+[2020-02-16T17:22:11,829][INFO ][o.e.i.g.GetResultTests   ] [testToAndFromXContentEmbedded] after test
+[2020-02-16T17:22:11,831][INFO ][o.e.i.g.GetResultTests   ] [testEqualsAndHashcode] before test
+[2020-02-16T17:22:11,831][INFO ][o.e.i.g.GetResultTests   ] [testEqualsAndHashcode] after test
+[2020-02-16T17:22:11,834][INFO ][o.e.i.g.GetResultTests   ] [testToXContent] before test
+[2020-02-16T17:22:11,834][INFO ][o.e.i.g.GetResultTests   ] [testToXContent] after test
+[2020-02-16T17:22:11,836][INFO ][o.e.i.g.GetResultTests   ] [testToXContentEmbedded] before test
+[2020-02-16T17:22:11,836][INFO ][o.e.i.g.GetResultTests   ] [testToXContentEmbedded] after test
+[2020-02-16T17:22:11,839][INFO ][o.e.i.g.GetResultTests   ] [testToXContentEmbeddedNotFound] before test
+[2020-02-16T17:22:11,839][INFO ][o.e.i.g.GetResultTests   ] [testToXContentEmbeddedNotFound] after test
+[2020-02-16T17:22:11,840][INFO ][o.e.i.g.GetResultTests   ] [testGetSourceAsBytes] before test
+[2020-02-16T17:22:11,843][INFO ][o.e.i.g.GetResultTests   ] [testGetSourceAsBytes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

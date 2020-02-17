@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" tests="31" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:36" hostname="Escoto-PC" time="0.247">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.021"/>
+  <testcase name="testProperErrorMessageWhenMissingFunction" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.007"/>
+  <testcase name="testQueryMalformedArrayNotSupported" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.007"/>
+  <testcase name="testRewriteWithFunction" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.005"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.015"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.009"/>
+  <testcase name="testProperErrorMessageWhenTwoFunctionsDefinedInQueryBody" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.004"/>
+  <testcase name="testCustomWeightFactorQueryBuilderWithFunctionScoreWithoutQueryGiven" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.003"/>
+  <testcase name="testSingleScriptFunction" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.006"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.003"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.001"/>
+  <testcase name="testMalformedQueryFunctionFieldNotSupported" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.002"/>
+  <testcase name="testCustomWeightFactorQueryBuilderWithFunctionScore" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.016"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.004"/>
+  <testcase name="testMalformedThrowsException" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.004"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.008"/>
+  <testcase name="testFieldValueFactorFactorArray" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.023"/>
+  <testcase name="testParseSingleFunction" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.015"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.01"/>
+  <testcase name="testProperErrorMessagesForMisplacedWeightsAndFunctions" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.013"/>
+  <testcase name="testProperErrorMessageWhenTwoFunctionsDefinedInFunctionsArray" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.004"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.013"/>
+  <testcase name="testQueryMalformedFieldNotSupported" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.01"/>
+  <testcase name="testRewrite" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.002"/>
+  <testcase name="testParseFunctionsArray" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.008"/>
+  <testcase name="testWeight1fStillProducesWeightFunction" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.002"/>
+  <testcase name="testMalformedQueryMultipleQueryObjects" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.007"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.003"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.01"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T13:23:36,871][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testSerialization] before test
+[2020-02-16T13:23:36,874][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T13:23:36,874][INFO ][o.e.p.PluginsService     ] [testSerialization] loaded plugin [org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests$TestPlugin]
+[2020-02-16T13:23:36,884][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T13:23:36,884][INFO ][o.e.p.PluginsService     ] [testSerialization] loaded plugin [org.elasticsearch.index.query.functionscore.FunctionScoreQueryBuilderTests$TestPlugin]
+[2020-02-16T13:23:36,889][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testSerialization] after test
+[2020-02-16T13:23:36,894][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testProperErrorMessageWhenMissingFunction] before test
+[2020-02-16T13:23:36,896][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testProperErrorMessageWhenMissingFunction] after test
+[2020-02-16T13:23:36,903][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testQueryMalformedArrayNotSupported] before test
+[2020-02-16T13:23:36,903][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testQueryMalformedArrayNotSupported] after test
+[2020-02-16T13:23:36,907][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testRewriteWithFunction] before test
+[2020-02-16T13:23:36,908][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testRewriteWithFunction] after test
+[2020-02-16T13:23:36,910][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testToQuery] before test
+[2020-02-16T13:23:36,923][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testToQuery] after test
+[2020-02-16T13:23:36,932][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T13:23:36,932][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T13:23:36,936][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testProperErrorMessageWhenTwoFunctionsDefinedInQueryBody] before test
+[2020-02-16T13:23:36,937][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testProperErrorMessageWhenTwoFunctionsDefinedInQueryBody] after test
+[2020-02-16T13:23:36,940][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testCustomWeightFactorQueryBuilderWithFunctionScoreWithoutQueryGiven] before test
+[2020-02-16T13:23:36,941][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testCustomWeightFactorQueryBuilderWithFunctionScoreWithoutQueryGiven] after test
+[2020-02-16T13:23:36,946][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testSingleScriptFunction] before test
+[2020-02-16T13:23:36,946][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testSingleScriptFunction] after test
+[2020-02-16T13:23:36,949][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T13:23:36,949][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T13:23:36,951][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T13:23:36,951][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T13:23:36,953][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testMalformedQueryFunctionFieldNotSupported] before test
+[2020-02-16T13:23:36,953][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testMalformedQueryFunctionFieldNotSupported] after test
+[2020-02-16T13:23:36,969][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testCustomWeightFactorQueryBuilderWithFunctionScore] before test
+[2020-02-16T13:23:36,970][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testCustomWeightFactorQueryBuilderWithFunctionScore] after test
+[2020-02-16T13:23:36,972][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T13:23:36,974][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T13:23:36,976][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testMalformedThrowsException] before test
+[2020-02-16T13:23:36,977][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testMalformedThrowsException] after test
+[2020-02-16T13:23:36,980][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T13:23:36,986][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T13:23:37,009][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testFieldValueFactorFactorArray] before test
+[2020-02-16T13:23:37,009][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testFieldValueFactorFactorArray] after test
+[2020-02-16T13:23:37,022][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testParseSingleFunction] before test
+[2020-02-16T13:23:37,023][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testParseSingleFunction] after test
+[2020-02-16T13:23:37,033][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T13:23:37,034][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T13:23:37,046][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testProperErrorMessagesForMisplacedWeightsAndFunctions] before test
+[2020-02-16T13:23:37,046][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testProperErrorMessagesForMisplacedWeightsAndFunctions] after test
+[2020-02-16T13:23:37,048][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testProperErrorMessageWhenTwoFunctionsDefinedInFunctionsArray] before test
+[2020-02-16T13:23:37,049][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testProperErrorMessageWhenTwoFunctionsDefinedInFunctionsArray] after test
+[2020-02-16T13:23:37,052][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testFromJson] before test
+[2020-02-16T13:23:37,053][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testFromJson] after test
+[2020-02-16T13:23:37,062][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T13:23:37,066][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T13:23:37,075][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testQueryMalformedFieldNotSupported] before test
+[2020-02-16T13:23:37,076][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testQueryMalformedFieldNotSupported] after test
+[2020-02-16T13:23:37,078][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testRewrite] before test
+[2020-02-16T13:23:37,078][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testRewrite] after test
+[2020-02-16T13:23:37,085][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testParseFunctionsArray] before test
+[2020-02-16T13:23:37,086][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testParseFunctionsArray] after test
+[2020-02-16T13:23:37,088][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testWeight1fStillProducesWeightFunction] before test
+[2020-02-16T13:23:37,089][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testWeight1fStillProducesWeightFunction] after test
+[2020-02-16T13:23:37,095][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testMalformedQueryMultipleQueryObjects] before test
+[2020-02-16T13:23:37,095][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testMalformedQueryMultipleQueryObjects] after test
+[2020-02-16T13:23:37,097][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T13:23:37,099][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T13:23:37,108][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testCacheability] before test
+[2020-02-16T13:23:37,108][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testCacheability] after test
+[2020-02-16T13:23:37,111][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T13:23:37,115][INFO ][o.e.i.q.f.FunctionScoreQueryBuilderTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

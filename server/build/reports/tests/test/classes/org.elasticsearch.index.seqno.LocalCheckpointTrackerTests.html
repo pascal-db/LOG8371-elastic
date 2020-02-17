@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.seqno.LocalCheckpointTrackerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.seqno.LocalCheckpointTrackerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.seqno.html">org.elasticsearch.index.seqno</a> &gt; LocalCheckpointTrackerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.024s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testConcurrentPrimary</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcurrentReplica</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testContains</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLazyInitialization</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleOverFlow</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimplePrimaryPersisted</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimplePrimaryProcessed</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleReplicaPersisted</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleReplicaProcessed</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWaitForOpsToComplete</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T09:23:52,446][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimplePrimaryPersisted] before test
+[2020-02-17T09:23:52,447][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimplePrimaryPersisted] after test
+[2020-02-17T09:23:52,449][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimpleReplicaProcessed] before test
+[2020-02-17T09:23:52,449][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimpleReplicaProcessed] after test
+[2020-02-17T09:23:52,451][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testContains] before test
+[2020-02-17T09:23:52,451][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testContains] after test
+[2020-02-17T09:23:52,452][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimplePrimaryProcessed] before test
+[2020-02-17T09:23:52,452][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimplePrimaryProcessed] after test
+[2020-02-17T09:23:52,453][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testWaitForOpsToComplete] before test
+[2020-02-17T09:23:52,454][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testWaitForOpsToComplete] after test
+[2020-02-17T09:23:52,456][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testLazyInitialization] before test
+[2020-02-17T09:23:52,456][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testLazyInitialization] after test
+[2020-02-17T09:23:52,458][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testConcurrentReplica] before test
+[2020-02-17T09:23:52,458][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testConcurrentReplica] --&gt; will run [3] threads, maxOps [48], unfinished seq no [21]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [28]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [9]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [1]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [4]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [5]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [22]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [10]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [11]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [25]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [12]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [14]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [42]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [17]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [0]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [27]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [34]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [31]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [2]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [6]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [30]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [40]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [45]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_1]] [t1] completed [44]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [19]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [32]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [33]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [36]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [39]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_2]] [t2] completed [43]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [38]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [18]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [37]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [35]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [26]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [47]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [41]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [20]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [13]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [8]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [23]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [3]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [29]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [46]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [16]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [24]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [7]
+[2020-02-17T09:23:52,459][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentReplica_0]] [t0] completed [15]
+[2020-02-17T09:23:52,461][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testConcurrentReplica] after test
+[2020-02-17T09:23:52,462][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testConcurrentPrimary] before test
+[2020-02-17T09:23:52,462][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testConcurrentPrimary] --&gt; will run [2] threads, maxOps [30], unfinished seq no [19]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [1]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [1]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [2]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [2]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [3]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [3]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [4]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [4]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [5]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [5]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [6]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [6]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [7]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [7]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [8]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [8]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [9]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [9]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [10]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [10]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [11]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [11]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [12]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [12]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [13]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [13]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [14]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [14]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] started   [15]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_0]] [t0] completed [15]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [0]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [0]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [16]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [16]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [17]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [17]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [18]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [18]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [19]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [20]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [20]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [21]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [21]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [22]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [22]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [23]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [23]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [24]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [24]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [25]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [25]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [26]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [26]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [27]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [27]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [28]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [28]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] started   [29]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [[testConcurrentPrimary_1]] [t1] completed [29]
+[2020-02-17T09:23:52,463][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testConcurrentPrimary] after test
+[2020-02-17T09:23:52,465][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimpleOverFlow] before test
+[2020-02-17T09:23:52,466][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimpleOverFlow] after test
+[2020-02-17T09:23:52,468][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimpleReplicaPersisted] before test
+[2020-02-17T09:23:52,468][INFO ][o.e.i.s.LocalCheckpointTrackerTests] [testSimpleReplicaPersisted] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.restspec.ClientYamlSuiteRestApiParserFailingTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:53" hostname="Escoto-PC" time="0.144">
+  <properties/>
+  <testcase name="testDuplicateMethods" classname="org.elasticsearch.test.rest.yaml.restspec.ClientYamlSuiteRestApiParserFailingTests" time="0.042"/>
+  <testcase name="testDuplicatePaths" classname="org.elasticsearch.test.rest.yaml.restspec.ClientYamlSuiteRestApiParserFailingTests" time="0.033"/>
+  <testcase name="testBrokenSpecShouldThrowUsefulExceptionWhenParsingFailsOnParts" classname="org.elasticsearch.test.rest.yaml.restspec.ClientYamlSuiteRestApiParserFailingTests" time="0.022"/>
+  <testcase name="testSpecNameMatchesFilename" classname="org.elasticsearch.test.rest.yaml.restspec.ClientYamlSuiteRestApiParserFailingTests" time="0.011"/>
+  <testcase name="testBrokenSpecShouldThrowUsefulExceptionWhenParsingFailsOnParams" classname="org.elasticsearch.test.rest.yaml.restspec.ClientYamlSuiteRestApiParserFailingTests" time="0.035"/>
+  <system-out><![CDATA[[2020-02-16T23:48:53,746][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testDuplicateMethods] before test
+[2020-02-16T23:48:53,781][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testDuplicateMethods] after test
+[2020-02-16T23:48:53,810][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testDuplicatePaths] before test
+[2020-02-16T23:48:53,814][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testDuplicatePaths] after test
+[2020-02-16T23:48:53,836][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testBrokenSpecShouldThrowUsefulExceptionWhenParsingFailsOnParts] before test
+[2020-02-16T23:48:53,837][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testBrokenSpecShouldThrowUsefulExceptionWhenParsingFailsOnParts] after test
+[2020-02-16T23:48:53,846][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testSpecNameMatchesFilename] before test
+[2020-02-16T23:48:53,847][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testSpecNameMatchesFilename] after test
+[2020-02-16T23:48:53,882][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testBrokenSpecShouldThrowUsefulExceptionWhenParsingFailsOnParams] before test
+[2020-02-16T23:48:53,882][INFO ][o.e.t.r.y.r.ClientYamlSuiteRestApiParserFailingTests] [testBrokenSpecShouldThrowUsefulExceptionWhenParsingFailsOnParams] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.fieldcaps.MergedFieldCapabilitiesResponseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.035">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.fieldcaps.MergedFieldCapabilitiesResponseTests" time="0.008"/>
+  <testcase name="testEmptyResponse" classname="org.elasticsearch.action.fieldcaps.MergedFieldCapabilitiesResponseTests" time="0.003"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.fieldcaps.MergedFieldCapabilitiesResponseTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.fieldcaps.MergedFieldCapabilitiesResponseTests" time="0.017"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.fieldcaps.MergedFieldCapabilitiesResponseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T00:20:18,079][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:20:18,083][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:20:18,086][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testEmptyResponse] before test
+[2020-02-17T00:20:18,086][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testEmptyResponse] after test
+[2020-02-17T00:20:18,089][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testToXContent] before test
+[2020-02-17T00:20:18,090][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testToXContent] after test
+[2020-02-17T00:20:18,093][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testFromXContent] before test
+[2020-02-17T00:20:18,107][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testFromXContent] after test
+[2020-02-17T00:20:18,109][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testSerialization] before test
+[2020-02-17T00:20:18,110][INFO ][o.e.a.f.MergedFieldCapabilitiesResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

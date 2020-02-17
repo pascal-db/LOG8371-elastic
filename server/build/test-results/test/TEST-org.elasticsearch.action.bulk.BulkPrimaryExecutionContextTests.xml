@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.BulkPrimaryExecutionContextTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:34" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testAbortedSkipped" classname="org.elasticsearch.action.bulk.BulkPrimaryExecutionContextTests" time="0.003"/>
+  <testcase name="testTranslogLocation" classname="org.elasticsearch.action.bulk.BulkPrimaryExecutionContextTests" time="0.022"/>
+  <system-out><![CDATA[[2020-02-16T22:20:34,572][INFO ][o.e.a.b.BulkPrimaryExecutionContextTests] [testAbortedSkipped] before test
+[2020-02-16T22:20:34,573][INFO ][o.e.a.b.BulkPrimaryExecutionContextTests] [testAbortedSkipped] after test
+[2020-02-16T22:20:34,574][INFO ][o.e.a.b.BulkPrimaryExecutionContextTests] [testTranslogLocation] before test
+[2020-02-16T22:20:34,595][INFO ][o.e.a.b.BulkPrimaryExecutionContextTests] [testTranslogLocation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

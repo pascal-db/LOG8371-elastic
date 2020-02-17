@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.ClusterNameExpressionResolverTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testNoWildCardNoMatch" classname="org.elasticsearch.cluster.metadata.ClusterNameExpressionResolverTests" time="0.004"/>
+  <testcase name="testPrefixWildCard" classname="org.elasticsearch.cluster.metadata.ClusterNameExpressionResolverTests" time="0.003"/>
+  <testcase name="testExactMatch" classname="org.elasticsearch.cluster.metadata.ClusterNameExpressionResolverTests" time="0.002"/>
+  <testcase name="testSimpleWildCard" classname="org.elasticsearch.cluster.metadata.ClusterNameExpressionResolverTests" time="0.001"/>
+  <testcase name="testSuffixWildCard" classname="org.elasticsearch.cluster.metadata.ClusterNameExpressionResolverTests" time="0.004"/>
+  <testcase name="testWildCardNoMatch" classname="org.elasticsearch.cluster.metadata.ClusterNameExpressionResolverTests" time="0.003"/>
+  <testcase name="testMiddleWildCard" classname="org.elasticsearch.cluster.metadata.ClusterNameExpressionResolverTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:21:33,041][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testNoWildCardNoMatch] before test
+[2020-02-16T17:21:33,042][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testNoWildCardNoMatch] after test
+[2020-02-16T17:21:33,044][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testPrefixWildCard] before test
+[2020-02-16T17:21:33,044][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testPrefixWildCard] after test
+[2020-02-16T17:21:33,046][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testExactMatch] before test
+[2020-02-16T17:21:33,046][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testExactMatch] after test
+[2020-02-16T17:21:33,048][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testSimpleWildCard] before test
+[2020-02-16T17:21:33,048][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testSimpleWildCard] after test
+[2020-02-16T17:21:33,052][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testSuffixWildCard] before test
+[2020-02-16T17:21:33,053][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testSuffixWildCard] after test
+[2020-02-16T17:21:33,055][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testWildCardNoMatch] before test
+[2020-02-16T17:21:33,055][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testWildCardNoMatch] after test
+[2020-02-16T17:21:33,058][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testMiddleWildCard] before test
+[2020-02-16T17:21:33,058][INFO ][o.e.c.m.ClusterNameExpressionResolverTests] [testMiddleWildCard] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.RoutingTableTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:40" hostname="Escoto-PC" time="0.064">
+  <properties/>
+  <testcase name="testAllActiveShardsGrouped" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.008"/>
+  <testcase name="testActivePrimaryShardsGrouped" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.013"/>
+  <testcase name="testValidations" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.005"/>
+  <testcase name="testIndex" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.005"/>
+  <testcase name="testRoutingTableBuiltMoreThanOnce" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.003"/>
+  <testcase name="testAllShardsForMultipleIndices" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.004"/>
+  <testcase name="testAddAsRecovery" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.003"/>
+  <testcase name="testAllShards" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.003"/>
+  <testcase name="testAllAssignedShardsGrouped" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.003"/>
+  <testcase name="testDistinctNodes" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.003"/>
+  <testcase name="testShardsWithState" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.005"/>
+  <testcase name="testHasIndex" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.003"/>
+  <testcase name="testIndicesRouting" classname="org.elasticsearch.cluster.routing.RoutingTableTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:20:40,742][INFO ][o.e.c.r.RoutingTableTests] [testAllActiveShardsGrouped] before test
+[2020-02-17T05:20:40,743][INFO ][o.e.c.r.RoutingTableTests] [testAllActiveShardsGrouped] Setup test with 3 shards and 3 replicas.
+[2020-02-17T05:20:40,744][INFO ][o.e.c.r.RoutingTableTests] [testAllActiveShardsGrouped] adding 4 nodes and performing rerouting
+[2020-02-17T05:20:40,744][INFO ][o.e.c.r.RoutingTableTests] [testAllActiveShardsGrouped] start primary shards for index test1
+[2020-02-17T05:20:40,745][INFO ][o.e.c.r.RoutingTableTests] [testAllActiveShardsGrouped] start primary shards for index test2
+[2020-02-17T05:20:40,746][INFO ][o.e.c.r.RoutingTableTests] [testAllActiveShardsGrouped] after test
+[2020-02-17T05:20:40,756][INFO ][o.e.c.r.RoutingTableTests] [testActivePrimaryShardsGrouped] before test
+[2020-02-17T05:20:40,756][INFO ][o.e.c.r.RoutingTableTests] [testActivePrimaryShardsGrouped] Setup test with 3 shards and 5 replicas.
+[2020-02-17T05:20:40,757][INFO ][o.e.c.r.RoutingTableTests] [testActivePrimaryShardsGrouped] adding 6 nodes and performing rerouting
+[2020-02-17T05:20:40,757][INFO ][o.e.c.r.RoutingTableTests] [testActivePrimaryShardsGrouped] start primary shards for index test1
+[2020-02-17T05:20:40,758][INFO ][o.e.c.r.RoutingTableTests] [testActivePrimaryShardsGrouped] start primary shards for index test2
+[2020-02-17T05:20:40,759][INFO ][o.e.c.r.RoutingTableTests] [testActivePrimaryShardsGrouped] after test
+[2020-02-17T05:20:40,762][INFO ][o.e.c.r.RoutingTableTests] [testValidations] before test
+[2020-02-17T05:20:40,762][INFO ][o.e.c.r.RoutingTableTests] [testValidations] Setup test with 4 shards and 4 replicas.
+[2020-02-17T05:20:40,765][INFO ][o.e.c.r.RoutingTableTests] [testValidations] after test
+[2020-02-17T05:20:40,769][INFO ][o.e.c.r.RoutingTableTests] [testIndex] before test
+[2020-02-17T05:20:40,769][INFO ][o.e.c.r.RoutingTableTests] [testIndex] Setup test with 4 shards and 5 replicas.
+[2020-02-17T05:20:40,769][INFO ][o.e.c.r.RoutingTableTests] [testIndex] after test
+[2020-02-17T05:20:40,772][INFO ][o.e.c.r.RoutingTableTests] [testRoutingTableBuiltMoreThanOnce] before test
+[2020-02-17T05:20:40,772][INFO ][o.e.c.r.RoutingTableTests] [testRoutingTableBuiltMoreThanOnce] Setup test with 4 shards and 2 replicas.
+[2020-02-17T05:20:40,772][INFO ][o.e.c.r.RoutingTableTests] [testRoutingTableBuiltMoreThanOnce] after test
+[2020-02-17T05:20:40,775][INFO ][o.e.c.r.RoutingTableTests] [testAllShardsForMultipleIndices] before test
+[2020-02-17T05:20:40,775][INFO ][o.e.c.r.RoutingTableTests] [testAllShardsForMultipleIndices] Setup test with 5 shards and 1 replicas.
+[2020-02-17T05:20:40,776][INFO ][o.e.c.r.RoutingTableTests] [testAllShardsForMultipleIndices] adding 2 nodes and performing rerouting
+[2020-02-17T05:20:40,776][INFO ][o.e.c.r.RoutingTableTests] [testAllShardsForMultipleIndices] start primary shards for index test1
+[2020-02-17T05:20:40,776][INFO ][o.e.c.r.RoutingTableTests] [testAllShardsForMultipleIndices] start primary shards for index test2
+[2020-02-17T05:20:40,777][INFO ][o.e.c.r.RoutingTableTests] [testAllShardsForMultipleIndices] after test
+[2020-02-17T05:20:40,779][INFO ][o.e.c.r.RoutingTableTests] [testAddAsRecovery] before test
+[2020-02-17T05:20:40,780][INFO ][o.e.c.r.RoutingTableTests] [testAddAsRecovery] Setup test with 3 shards and 5 replicas.
+[2020-02-17T05:20:40,780][INFO ][o.e.c.r.RoutingTableTests] [testAddAsRecovery] after test
+[2020-02-17T05:20:40,783][INFO ][o.e.c.r.RoutingTableTests] [testAllShards] before test
+[2020-02-17T05:20:40,783][INFO ][o.e.c.r.RoutingTableTests] [testAllShards] Setup test with 5 shards and 1 replicas.
+[2020-02-17T05:20:40,783][INFO ][o.e.c.r.RoutingTableTests] [testAllShards] after test
+[2020-02-17T05:20:40,786][INFO ][o.e.c.r.RoutingTableTests] [testAllAssignedShardsGrouped] before test
+[2020-02-17T05:20:40,786][INFO ][o.e.c.r.RoutingTableTests] [testAllAssignedShardsGrouped] Setup test with 4 shards and 5 replicas.
+[2020-02-17T05:20:40,786][INFO ][o.e.c.r.RoutingTableTests] [testAllAssignedShardsGrouped] adding 6 nodes and performing rerouting
+[2020-02-17T05:20:40,787][INFO ][o.e.c.r.RoutingTableTests] [testAllAssignedShardsGrouped] after test
+[2020-02-17T05:20:40,790][INFO ][o.e.c.r.RoutingTableTests] [testDistinctNodes] before test
+[2020-02-17T05:20:40,790][INFO ][o.e.c.r.RoutingTableTests] [testDistinctNodes] Setup test with 5 shards and 4 replicas.
+[2020-02-17T05:20:40,790][INFO ][o.e.c.r.RoutingTableTests] [testDistinctNodes] after test
+[2020-02-17T05:20:40,793][INFO ][o.e.c.r.RoutingTableTests] [testShardsWithState] before test
+[2020-02-17T05:20:40,793][INFO ][o.e.c.r.RoutingTableTests] [testShardsWithState] Setup test with 4 shards and 3 replicas.
+[2020-02-17T05:20:40,793][INFO ][o.e.c.r.RoutingTableTests] [testShardsWithState] adding 4 nodes and performing rerouting
+[2020-02-17T05:20:40,794][INFO ][o.e.c.r.RoutingTableTests] [testShardsWithState] start primary shards for index test1
+[2020-02-17T05:20:40,794][INFO ][o.e.c.r.RoutingTableTests] [testShardsWithState] start primary shards for index test2
+[2020-02-17T05:20:40,795][INFO ][o.e.c.r.RoutingTableTests] [testShardsWithState] start primary shards for index test1
+[2020-02-17T05:20:40,795][INFO ][o.e.c.r.RoutingTableTests] [testShardsWithState] start primary shards for index test2
+[2020-02-17T05:20:40,795][INFO ][o.e.c.r.a.AllocationService] [testShardsWithState] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test2][1], [test2][1], [test2][1], [test2][3], [test2][3], [test2][3], [test2][2], [test2][2], [test2][2], [test2][0], ... [12 items in total]]]).
+[2020-02-17T05:20:40,796][INFO ][o.e.c.r.RoutingTableTests] [testShardsWithState] after test
+[2020-02-17T05:20:40,798][INFO ][o.e.c.r.RoutingTableTests] [testHasIndex] before test
+[2020-02-17T05:20:40,798][INFO ][o.e.c.r.RoutingTableTests] [testHasIndex] Setup test with 5 shards and 3 replicas.
+[2020-02-17T05:20:40,798][INFO ][o.e.c.r.RoutingTableTests] [testHasIndex] after test
+[2020-02-17T05:20:40,801][INFO ][o.e.c.r.RoutingTableTests] [testIndicesRouting] before test
+[2020-02-17T05:20:40,801][INFO ][o.e.c.r.RoutingTableTests] [testIndicesRouting] Setup test with 1 shards and 2 replicas.
+[2020-02-17T05:20:40,801][INFO ][o.e.c.r.RoutingTableTests] [testIndicesRouting] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

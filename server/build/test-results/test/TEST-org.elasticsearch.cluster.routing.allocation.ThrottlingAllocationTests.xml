@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ThrottlingAllocationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.1">
+  <properties/>
+  <testcase name="testThrottleIncomingAndOutgoing" classname="org.elasticsearch.cluster.routing.allocation.ThrottlingAllocationTests" time="0.012"/>
+  <testcase name="testOutgoingThrottlesAllocation" classname="org.elasticsearch.cluster.routing.allocation.ThrottlingAllocationTests" time="0.073"/>
+  <testcase name="testPrimaryRecoveryThrottling" classname="org.elasticsearch.cluster.routing.allocation.ThrottlingAllocationTests" time="0.008"/>
+  <testcase name="testReplicaAndPrimaryRecoveryThrottling" classname="org.elasticsearch.cluster.routing.allocation.ThrottlingAllocationTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T17:21:38,958][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testThrottleIncomingAndOutgoing] before test
+[2020-02-16T17:21:38,961][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testThrottleIncomingAndOutgoing] Building initial routing table
+[2020-02-16T17:21:38,963][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testThrottleIncomingAndOutgoing] with one node, do reroute, only 5 should initialize
+[2020-02-16T17:21:38,964][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testThrottleIncomingAndOutgoing] start initializing, all primaries should be started
+[2020-02-16T17:21:38,966][INFO ][o.e.c.r.a.AllocationService] [testThrottleIncomingAndOutgoing] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][3], [test][4], [test][6], [test][5]]]).
+[2020-02-16T17:21:38,967][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testThrottleIncomingAndOutgoing] start another 2 nodes, 5 shards should be relocating - at most 5 are allowed per node
+[2020-02-16T17:21:38,968][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testThrottleIncomingAndOutgoing] start the relocating shards, one more shard should relocate away from node1
+[2020-02-16T17:21:38,968][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testThrottleIncomingAndOutgoing] after test
+[2020-02-16T17:21:39,037][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] before test
+[2020-02-16T17:21:39,039][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] Building initial routing table
+[2020-02-16T17:21:39,039][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] with one node, do reroute, only 1 should initialize
+[2020-02-16T17:21:39,039][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] start initializing
+[2020-02-16T17:21:39,039][INFO ][o.e.c.r.a.AllocationService] [testOutgoingThrottlesAllocation] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:21:39,040][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] start one more node, first non-primary should start being allocated
+[2020-02-16T17:21:39,040][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] start initializing non-primary
+[2020-02-16T17:21:39,040][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] start one more node, initializing second non-primary
+[2020-02-16T17:21:39,040][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] start one more node
+[2020-02-16T17:21:39,040][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] move started non-primary to new node
+[2020-02-16T17:21:39,041][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testOutgoingThrottlesAllocation] after test
+[2020-02-16T17:21:39,043][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testPrimaryRecoveryThrottling] before test
+[2020-02-16T17:21:39,044][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testPrimaryRecoveryThrottling] Building initial routing table
+[2020-02-16T17:21:39,045][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testPrimaryRecoveryThrottling] start one node, do reroute, only 3 should initialize
+[2020-02-16T17:21:39,046][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testPrimaryRecoveryThrottling] start initializing, another 3 should initialize
+[2020-02-16T17:21:39,046][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testPrimaryRecoveryThrottling] start initializing, another 3 should initialize
+[2020-02-16T17:21:39,047][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testPrimaryRecoveryThrottling] start initializing, another 1 should initialize
+[2020-02-16T17:21:39,047][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testPrimaryRecoveryThrottling] start initializing, all primaries should be started
+[2020-02-16T17:21:39,048][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testPrimaryRecoveryThrottling] after test
+[2020-02-16T17:21:39,051][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] before test
+[2020-02-16T17:21:39,053][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] Building initial routing table
+[2020-02-16T17:21:39,054][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] with one node, do reroute, only 3 should initialize
+[2020-02-16T17:21:39,054][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] start initializing, another 2 should initialize
+[2020-02-16T17:21:39,055][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] start initializing, all primaries should be started
+[2020-02-16T17:21:39,055][INFO ][o.e.c.r.a.AllocationService] [testReplicaAndPrimaryRecoveryThrottling] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][1], [test][3]]]).
+[2020-02-16T17:21:39,055][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] start another node, replicas should start being allocated
+[2020-02-16T17:21:39,055][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] start initializing replicas
+[2020-02-16T17:21:39,055][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] start initializing replicas, all should be started
+[2020-02-16T17:21:39,056][INFO ][o.e.c.r.a.AllocationService] [testReplicaAndPrimaryRecoveryThrottling] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][3], [test][4]]]).
+[2020-02-16T17:21:39,056][INFO ][o.e.c.r.a.ThrottlingAllocationTests] [testReplicaAndPrimaryRecoveryThrottling] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

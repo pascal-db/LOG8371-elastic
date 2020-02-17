@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:33" hostname="Escoto-PC" time="0.045">
+  <properties/>
+  <testcase name="testExpression_EscapeStatic" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.006"/>
+  <testcase name="testExpression_CustomFormat" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.002"/>
+  <testcase name="testExpression_MultiParts" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.002"/>
+  <testcase name="testExpressionInvalidDateMathFormat" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.003"/>
+  <testcase name="testExpression_MixedArray" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.002"/>
+  <testcase name="testNormal" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.002"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.002"/>
+  <testcase name="testExpressionInvalidEmptyDateMathFormat" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.003"/>
+  <testcase name="testExpression_CustomTimeZoneInIndexName" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.003"/>
+  <testcase name="testExpressionInvalidUnescaped" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.005"/>
+  <testcase name="testExpressionInvalidOpenEnded" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.004"/>
+  <testcase name="testExpression_Static" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.005"/>
+  <testcase name="testExpression_EscapeDateFormat" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.002"/>
+  <testcase name="testExpression" classname="org.elasticsearch.cluster.metadata.DateMathExpressionResolverTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T08:20:33,417][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_EscapeStatic] before test
+[2020-02-17T08:20:33,420][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_EscapeStatic] after test
+[2020-02-17T08:20:33,422][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_CustomFormat] before test
+[2020-02-17T08:20:33,423][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_CustomFormat] after test
+[2020-02-17T08:20:33,425][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_MultiParts] before test
+[2020-02-17T08:20:33,425][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_MultiParts] after test
+[2020-02-17T08:20:33,427][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpressionInvalidDateMathFormat] before test
+[2020-02-17T08:20:33,428][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpressionInvalidDateMathFormat] after test
+[2020-02-17T08:20:33,430][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_MixedArray] before test
+[2020-02-17T08:20:33,430][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_MixedArray] after test
+[2020-02-17T08:20:33,433][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testNormal] before test
+[2020-02-17T08:20:33,433][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testNormal] after test
+[2020-02-17T08:20:33,435][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testEmpty] before test
+[2020-02-17T08:20:33,435][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testEmpty] after test
+[2020-02-17T08:20:33,437][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpressionInvalidEmptyDateMathFormat] before test
+[2020-02-17T08:20:33,438][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpressionInvalidEmptyDateMathFormat] after test
+[2020-02-17T08:20:33,441][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_CustomTimeZoneInIndexName] before test
+[2020-02-17T08:20:33,442][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_CustomTimeZoneInIndexName] timezone: [+12:41], now [2020-02-17T00:00:00.441Z], name: [.marvel-2020.02.17]
+[2020-02-17T08:20:33,442][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_CustomTimeZoneInIndexName] after test
+[2020-02-17T08:20:33,445][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpressionInvalidUnescaped] before test
+[2020-02-17T08:20:33,447][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpressionInvalidUnescaped] after test
+[2020-02-17T08:20:33,450][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpressionInvalidOpenEnded] before test
+[2020-02-17T08:20:33,451][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpressionInvalidOpenEnded] after test
+[2020-02-17T08:20:33,455][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_Static] before test
+[2020-02-17T08:20:33,456][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_Static] after test
+[2020-02-17T08:20:33,457][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_EscapeDateFormat] before test
+[2020-02-17T08:20:33,458][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression_EscapeDateFormat] after test
+[2020-02-17T08:20:33,460][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression] before test
+[2020-02-17T08:20:33,460][INFO ][o.e.c.m.DateMathExpressionResolverTests] [testExpression] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

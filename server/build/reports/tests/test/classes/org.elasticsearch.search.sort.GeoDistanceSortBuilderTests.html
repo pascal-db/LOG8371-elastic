@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.search.sort.GeoDistanceSortBuilderTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.search.sort.GeoDistanceSortBuilderTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.search.sort.html">org.elasticsearch.search.sort</a> &gt; GeoDistanceSortBuilderTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">18</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.066s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBuildCoerce</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuildInvalidPoints</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuildNested</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuildSortField</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBuildSortFieldOrder</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommonCaseIsOptimized</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEqualsAndHashcode</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromXContent</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGeoDistanceSortCanBeParsedFromGeoHash</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGeoDistanceSortDeprecatedSortModeException</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGeoDistanceSortParserManyPointsNoException</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiValueMode</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedRewrites</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedSortBothThrows</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedSortRewrites</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerialization</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortModeSumIsRejectedInJSON</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortModeSumIsRejectedInSetter</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:25:51,506][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testNestedSortRewrites] before test
+[2020-02-16T22:25:51,508][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testNestedSortRewrites] after test
+[2020-02-16T22:25:51,512][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testFromXContent] before test
+[2020-02-16T22:25:51,514][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testFromXContent] [nested_filter] has been deprecated in favour of the [nested] parameter
+[2020-02-16T22:25:51,515][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testFromXContent] [nested_path] has been deprecated in favour of the [nested] parameter
+[2020-02-16T22:25:51,515][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testFromXContent] [nested_filter] has been deprecated in favour of the [nested] parameter
+[2020-02-16T22:25:51,518][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testFromXContent] [nested_path] has been deprecated in favour of the [nested] parameter
+[2020-02-16T22:25:51,518][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testFromXContent] [nested_filter] has been deprecated in favour of the [nested] parameter
+[2020-02-16T22:25:51,519][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testFromXContent] [nested_path] has been deprecated in favour of the [nested] parameter
+[2020-02-16T22:25:51,520][WARN ][o.e.d.s.s.GeoDistanceSortBuilder] [testFromXContent] [nested_filter] has been deprecated in favour of the [nested] parameter
+[2020-02-16T22:25:51,521][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testFromXContent] after test
+[2020-02-16T22:25:51,523][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildNested] before test
+[2020-02-16T22:25:51,524][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildNested] after test
+[2020-02-16T22:25:51,525][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildSortFieldOrder] before test
+[2020-02-16T22:25:51,526][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildSortFieldOrder] after test
+[2020-02-16T22:25:51,528][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testCommonCaseIsOptimized] before test
+[2020-02-16T22:25:51,528][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testCommonCaseIsOptimized] after test
+[2020-02-16T22:25:51,530][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildCoerce] before test
+[2020-02-16T22:25:51,531][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildCoerce] after test
+[2020-02-16T22:25:51,533][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildSortField] before test
+[2020-02-16T22:25:51,534][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildSortField] after test
+[2020-02-16T22:25:51,537][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testNestedRewrites] before test
+[2020-02-16T22:25:51,538][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testNestedRewrites] after test
+[2020-02-16T22:25:51,540][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testNestedSortBothThrows] before test
+[2020-02-16T22:25:51,541][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testNestedSortBothThrows] after test
+[2020-02-16T22:25:51,543][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testGeoDistanceSortCanBeParsedFromGeoHash] before test
+[2020-02-16T22:25:51,543][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testGeoDistanceSortCanBeParsedFromGeoHash] after test
+[2020-02-16T22:25:51,545][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testMultiValueMode] before test
+[2020-02-16T22:25:51,546][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testMultiValueMode] after test
+[2020-02-16T22:25:51,548][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testSerialization] before test
+[2020-02-16T22:25:51,549][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testSerialization] after test
+[2020-02-16T22:25:51,551][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testGeoDistanceSortDeprecatedSortModeException] before test
+[2020-02-16T22:25:51,552][WARN ][o.e.d.c.ParseField       ] [testGeoDistanceSortDeprecatedSortModeException] Deprecated field [sort_mode] used, expected [mode] instead
+[2020-02-16T22:25:51,552][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testGeoDistanceSortDeprecatedSortModeException] after test
+[2020-02-16T22:25:51,553][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testSortModeSumIsRejectedInJSON] before test
+[2020-02-16T22:25:51,554][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testSortModeSumIsRejectedInJSON] after test
+[2020-02-16T22:25:51,555][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testGeoDistanceSortParserManyPointsNoException] before test
+[2020-02-16T22:25:51,556][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testGeoDistanceSortParserManyPointsNoException] after test
+[2020-02-16T22:25:51,558][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:25:51,560][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:25:51,567][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testSortModeSumIsRejectedInSetter] before test
+[2020-02-16T22:25:51,567][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testSortModeSumIsRejectedInSetter] after test
+[2020-02-16T22:25:51,570][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildInvalidPoints] before test
+[2020-02-16T22:25:51,571][INFO ][o.e.s.s.GeoDistanceSortBuilderTests] [testBuildInvalidPoints] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

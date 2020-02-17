@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.seqno.RetentionLeasesTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:55" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testRetentionLeasesMetaDataStateFormat" classname="org.elasticsearch.index.seqno.RetentionLeasesTests" time="0.006"/>
+  <testcase name="testRetentionLeasesRejectsDuplicates" classname="org.elasticsearch.index.seqno.RetentionLeasesTests" time="0.003"/>
+  <testcase name="testLeasesPreservesIterationOrder" classname="org.elasticsearch.index.seqno.RetentionLeasesTests" time="0.002"/>
+  <testcase name="testSupersedesByPrimaryTerm" classname="org.elasticsearch.index.seqno.RetentionLeasesTests" time="0.002"/>
+  <testcase name="testSupersedesByVersion" classname="org.elasticsearch.index.seqno.RetentionLeasesTests" time="0.002"/>
+  <testcase name="testVersionOutOfRange" classname="org.elasticsearch.index.seqno.RetentionLeasesTests" time="0.002"/>
+  <testcase name="testPrimaryTermOutOfRange" classname="org.elasticsearch.index.seqno.RetentionLeasesTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T15:23:55,485][INFO ][o.e.i.s.RetentionLeasesTests] [testRetentionLeasesMetaDataStateFormat] before test
+[2020-02-16T15:23:55,490][INFO ][o.e.i.s.RetentionLeasesTests] [testRetentionLeasesMetaDataStateFormat] after test
+[2020-02-16T15:23:55,492][INFO ][o.e.i.s.RetentionLeasesTests] [testRetentionLeasesRejectsDuplicates] before test
+[2020-02-16T15:23:55,493][INFO ][o.e.i.s.RetentionLeasesTests] [testRetentionLeasesRejectsDuplicates] after test
+[2020-02-16T15:23:55,495][INFO ][o.e.i.s.RetentionLeasesTests] [testLeasesPreservesIterationOrder] before test
+[2020-02-16T15:23:55,495][INFO ][o.e.i.s.RetentionLeasesTests] [testLeasesPreservesIterationOrder] after test
+[2020-02-16T15:23:55,496][INFO ][o.e.i.s.RetentionLeasesTests] [testSupersedesByPrimaryTerm] before test
+[2020-02-16T15:23:55,497][INFO ][o.e.i.s.RetentionLeasesTests] [testSupersedesByPrimaryTerm] after test
+[2020-02-16T15:23:55,498][INFO ][o.e.i.s.RetentionLeasesTests] [testSupersedesByVersion] before test
+[2020-02-16T15:23:55,499][INFO ][o.e.i.s.RetentionLeasesTests] [testSupersedesByVersion] after test
+[2020-02-16T15:23:55,500][INFO ][o.e.i.s.RetentionLeasesTests] [testVersionOutOfRange] before test
+[2020-02-16T15:23:55,501][INFO ][o.e.i.s.RetentionLeasesTests] [testVersionOutOfRange] after test
+[2020-02-16T15:23:55,502][INFO ][o.e.i.s.RetentionLeasesTests] [testPrimaryTermOutOfRange] before test
+[2020-02-16T15:23:55,503][INFO ][o.e.i.s.RetentionLeasesTests] [testPrimaryTermOutOfRange] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

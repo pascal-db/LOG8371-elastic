@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.disruption.LongGCDisruptionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:52" hostname="Escoto-PC" time="0.936">
+  <properties/>
+  <testcase name="testNotBlockingUnsafeStackTraces" classname="org.elasticsearch.test.disruption.LongGCDisruptionTests" time="0.259"/>
+  <testcase name="testBlockDetection" classname="org.elasticsearch.test.disruption.LongGCDisruptionTests" time="0.247"/>
+  <testcase name="testBlockingTimeout" classname="org.elasticsearch.test.disruption.LongGCDisruptionTests" time="0.43"/>
+  <system-out><![CDATA[[2020-02-17T03:48:52,536][INFO ][o.e.t.d.LongGCDisruptionTests] [testNotBlockingUnsafeStackTraces] before test
+[2020-02-17T03:48:52,773][INFO ][o.e.t.d.LongGCDisruptionTests] [testNotBlockingUnsafeStackTraces] after test
+[2020-02-17T03:48:52,789][INFO ][o.e.t.d.LongGCDisruptionTests] [testBlockDetection] before test
+[2020-02-17T03:48:53,020][INFO ][o.e.t.d.LongGCDisruptionTests] [testBlockDetection] after test
+[2020-02-17T03:48:53,068][INFO ][o.e.t.d.LongGCDisruptionTests] [testBlockingTimeout] before test
+[2020-02-17T03:48:53,295][WARN ][o.e.t.d.LongGCDisruptionTests$1] [testBlockingTimeout] failed to suspend node [test_node]'s threads within [100] millis. Suspending thread stack trace:
+ java.base@12.0.2/java.lang.Object.hashCode(Native Method)
+java.base@12.0.2/java.util.concurrent.ConcurrentHashMap.putVal(ConcurrentHashMap.java:1012)
+java.base@12.0.2/java.util.concurrent.ConcurrentHashMap$KeySetView.add(ConcurrentHashMap.java:4644)
+app//org.elasticsearch.test.disruption.LongGCDisruption.suspendThreads(LongGCDisruption.java:243)
+app//org.elasticsearch.test.disruption.LongGCDisruption$1.doRun(LongGCDisruption.java:87)
+app//org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37)
+java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+Threads that weren't suspended:
+ [test_node][4]
+----
+java.base@12.0.2/jdk.internal.misc.Unsafe.park(Native Method)
+java.base@12.0.2/java.util.concurrent.locks.LockSupport.park(LockSupport.java:194)
+java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer.parkAndCheckInterrupt(AbstractQueuedSynchronizer.java:885)
+java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquireQueued(AbstractQueuedSynchronizer.java:917)
+java.base@12.0.2/java.util.concurrent.locks.AbstractQueuedSynchronizer.acquire(AbstractQueuedSynchronizer.java:1240)
+java.base@12.0.2/java.util.concurrent.locks.ReentrantLock.lock(ReentrantLock.java:267)
+app//org.elasticsearch.test.disruption.LongGCDisruptionTests$LockedExecutor.executeLocked(LongGCDisruptionTests.java:45)
+app//org.elasticsearch.test.disruption.LongGCDisruptionTests.lambda$testBlockingTimeout$1(LongGCDisruptionTests.java:82)
+app//org.elasticsearch.test.disruption.LongGCDisruptionTests$$Lambda$1919/0x0000000801882c40.run(Unknown Source)
+java.base@12.0.2/java.lang.Thread.run(Thread.java:835)
+[test_node][0]
+----
+
+[2020-02-17T03:48:53,450][INFO ][o.e.t.d.LongGCDisruptionTests] [testBlockingTimeout] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

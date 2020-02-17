@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.analysis.ReloadableCustomAnalyzerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:14" hostname="Escoto-PC" time="0.115">
+  <properties/>
+  <testcase name="testBasicCtor" classname="org.elasticsearch.index.analysis.ReloadableCustomAnalyzerTests" time="0.004"/>
+  <testcase name="testReloading" classname="org.elasticsearch.index.analysis.ReloadableCustomAnalyzerTests" time="0.111"/>
+  <system-out><![CDATA[[2020-02-16T22:21:14,416][INFO ][o.e.i.a.ReloadableCustomAnalyzerTests] [testBasicCtor] before test
+[2020-02-16T22:21:14,418][INFO ][o.e.i.a.ReloadableCustomAnalyzerTests] [testBasicCtor] after test
+[2020-02-16T22:21:14,420][INFO ][o.e.i.a.ReloadableCustomAnalyzerTests] [testReloading] before test
+[2020-02-16T22:21:14,528][INFO ][o.e.i.a.ReloadableCustomAnalyzerTests] [testReloading] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

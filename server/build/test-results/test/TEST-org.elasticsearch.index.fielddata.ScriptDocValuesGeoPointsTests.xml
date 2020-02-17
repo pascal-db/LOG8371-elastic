@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.fielddata.ScriptDocValuesGeoPointsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:44" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testGeoGetLatLon" classname="org.elasticsearch.index.fielddata.ScriptDocValuesGeoPointsTests" time="0.004"/>
+  <testcase name="testGeoDistance" classname="org.elasticsearch.index.fielddata.ScriptDocValuesGeoPointsTests" time="0.002"/>
+  <testcase name="testMissingValues" classname="org.elasticsearch.index.fielddata.ScriptDocValuesGeoPointsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:22:44,321][INFO ][o.e.i.f.ScriptDocValuesGeoPointsTests] [testGeoGetLatLon] before test
+[2020-02-16T22:22:44,322][INFO ][o.e.i.f.ScriptDocValuesGeoPointsTests] [testGeoGetLatLon] after test
+[2020-02-16T22:22:44,324][INFO ][o.e.i.f.ScriptDocValuesGeoPointsTests] [testGeoDistance] before test
+[2020-02-16T22:22:44,324][INFO ][o.e.i.f.ScriptDocValuesGeoPointsTests] [testGeoDistance] after test
+[2020-02-16T22:22:44,326][INFO ][o.e.i.f.ScriptDocValuesGeoPointsTests] [testMissingValues] before test
+[2020-02-16T22:22:44,326][INFO ][o.e.i.f.ScriptDocValuesGeoPointsTests] [testMissingValues] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

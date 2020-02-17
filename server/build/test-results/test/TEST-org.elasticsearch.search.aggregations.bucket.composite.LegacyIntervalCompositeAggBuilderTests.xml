@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.composite.LegacyIntervalCompositeAggBuilderTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:11" hostname="Escoto-PC" time="0.151">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.composite.LegacyIntervalCompositeAggBuilderTests" time="0.112"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.composite.LegacyIntervalCompositeAggBuilderTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.composite.LegacyIntervalCompositeAggBuilderTests" time="0.004"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.composite.LegacyIntervalCompositeAggBuilderTests" time="0.007"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.composite.LegacyIntervalCompositeAggBuilderTests" time="0.005"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.composite.LegacyIntervalCompositeAggBuilderTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.composite.LegacyIntervalCompositeAggBuilderTests" time="0.013"/>
+  <system-out><![CDATA[[2020-02-17T00:24:11,540][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testFromXContentMulti] before test
+[2020-02-17T00:24:11,611][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T00:24:11,611][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T00:24:11,629][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T00:24:11,629][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T00:24:11,633][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,633][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,633][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,633][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,633][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,634][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,634][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,634][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,635][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,635][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,635][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,635][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,635][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,636][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,636][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,640][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,640][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,640][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,641][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,641][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,642][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,642][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,643][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,643][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,643][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,646][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,647][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,647][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,647][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,648][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContentMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,649][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testFromXContentMulti] after test
+[2020-02-17T00:24:11,651][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testSerialization] before test
+[2020-02-17T00:24:11,651][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerialization] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,652][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerialization] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,652][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerialization] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,653][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testSerialization] after test
+[2020-02-17T00:24:11,655][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:24:11,656][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testEqualsAndHashcode] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,656][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testEqualsAndHashcode] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,656][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testEqualsAndHashcode] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,657][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:24:11,659][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testSerializationMulti] before test
+[2020-02-17T00:24:11,659][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,659][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,660][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,660][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,660][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,660][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,660][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,661][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,661][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,661][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,661][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,661][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,662][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,662][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,662][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,662][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,662][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testSerializationMulti] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,664][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testSerializationMulti] after test
+[2020-02-17T00:24:11,667][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testShallowCopy] before test
+[2020-02-17T00:24:11,668][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testShallowCopy] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,668][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testShallowCopy] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,668][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testShallowCopy] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,668][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testShallowCopy] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,668][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testShallowCopy] after test
+[2020-02-17T00:24:11,673][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testToString] before test
+[2020-02-17T00:24:11,674][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testToString] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,674][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testToString] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,675][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testToString] after test
+[2020-02-17T00:24:11,677][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testFromXContent] before test
+[2020-02-17T00:24:11,678][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContent] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,678][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContent] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,687][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContent] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,687][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testFromXContent] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,687][INFO ][o.e.s.a.b.c.LegacyIntervalCompositeAggBuilderTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

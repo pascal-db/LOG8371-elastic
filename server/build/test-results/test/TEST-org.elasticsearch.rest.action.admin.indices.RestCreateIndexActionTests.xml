@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.indices.RestCreateIndexActionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testPrepareTypelessRequest" classname="org.elasticsearch.rest.action.admin.indices.RestCreateIndexActionTests" time="0.002"/>
+  <testcase name="testIncludeTypeName" classname="org.elasticsearch.rest.action.admin.indices.RestCreateIndexActionTests" time="0.003"/>
+  <testcase name="testMalformedMappings" classname="org.elasticsearch.rest.action.admin.indices.RestCreateIndexActionTests" time="0.002"/>
+  <testcase name="testPrepareTypedRequest" classname="org.elasticsearch.rest.action.admin.indices.RestCreateIndexActionTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T11:25:17,633][INFO ][o.e.r.a.a.i.RestCreateIndexActionTests] [testPrepareTypelessRequest] before test
+[2020-02-16T11:25:17,634][INFO ][o.e.r.a.a.i.RestCreateIndexActionTests] [testPrepareTypelessRequest] after test
+[2020-02-16T11:25:17,635][INFO ][o.e.r.a.a.i.RestCreateIndexActionTests] [testIncludeTypeName] before test
+[2020-02-16T11:25:17,636][WARN ][o.e.d.r.a.a.i.RestCreateIndexAction] [testIncludeTypeName] [types removal] Using include_type_name in create index requests is deprecated. The parameter will be removed in the next major version.
+[2020-02-16T11:25:17,636][INFO ][o.e.r.a.a.i.RestCreateIndexActionTests] [testIncludeTypeName] after test
+[2020-02-16T11:25:17,638][INFO ][o.e.r.a.a.i.RestCreateIndexActionTests] [testMalformedMappings] before test
+[2020-02-16T11:25:17,638][INFO ][o.e.r.a.a.i.RestCreateIndexActionTests] [testMalformedMappings] after test
+[2020-02-16T11:25:17,639][INFO ][o.e.r.a.a.i.RestCreateIndexActionTests] [testPrepareTypedRequest] before test
+[2020-02-16T11:25:17,640][INFO ][o.e.r.a.a.i.RestCreateIndexActionTests] [testPrepareTypedRequest] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

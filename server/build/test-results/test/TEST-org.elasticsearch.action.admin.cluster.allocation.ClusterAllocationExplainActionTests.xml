@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplainActionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:01" hostname="Escoto-PC" time="0.095">
+  <properties/>
+  <testcase name="testFindAnyUnassignedShardToExplain" classname="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplainActionTests" time="0.053"/>
+  <testcase name="testFindShardAssignedToNode" classname="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplainActionTests" time="0.014"/>
+  <testcase name="testInitializingOrRelocatingShardExplanation" classname="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplainActionTests" time="0.02"/>
+  <testcase name="testFindAnyReplicaToExplain" classname="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplainActionTests" time="0.005"/>
+  <testcase name="testFindPrimaryShardToExplain" classname="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplainActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:20:01,238][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testFindAnyUnassignedShardToExplain] before test
+[2020-02-17T05:20:01,284][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testFindAnyUnassignedShardToExplain] after test
+[2020-02-17T05:20:01,287][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testFindShardAssignedToNode] before test
+[2020-02-17T05:20:01,298][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testFindShardAssignedToNode] after test
+[2020-02-17T05:20:01,304][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testInitializingOrRelocatingShardExplanation] before test
+[2020-02-17T05:20:01,318][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testInitializingOrRelocatingShardExplanation] after test
+[2020-02-17T05:20:01,321][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testFindAnyReplicaToExplain] before test
+[2020-02-17T05:20:01,323][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testFindAnyReplicaToExplain] after test
+[2020-02-17T05:20:01,325][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testFindPrimaryShardToExplain] before test
+[2020-02-17T05:20:01,326][INFO ][o.e.a.a.c.a.ClusterAllocationExplainActionTests] [testFindPrimaryShardToExplain] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

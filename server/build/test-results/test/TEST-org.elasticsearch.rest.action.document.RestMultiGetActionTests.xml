@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.document.RestMultiGetActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.006">
+  <properties/>
+  <testcase name="testTypeInBody" classname="org.elasticsearch.rest.action.document.RestMultiGetActionTests" time="0.003"/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.document.RestMultiGetActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:24:05,052][INFO ][o.e.r.a.d.RestMultiGetActionTests] [testTypeInBody] before test
+[2020-02-16T19:24:05,053][WARN ][o.e.d.r.a.d.RestMultiGetAction] [testTypeInBody] [types removal] Specifying types in multi get requests is deprecated.
+[2020-02-16T19:24:05,054][INFO ][o.e.r.a.d.RestMultiGetActionTests] [testTypeInBody] after test
+[2020-02-16T19:24:05,056][INFO ][o.e.r.a.d.RestMultiGetActionTests] [testTypeInPath] before test
+[2020-02-16T19:24:05,056][WARN ][o.e.d.r.a.d.RestMultiGetAction] [testTypeInPath] [types removal] Specifying types in multi get requests is deprecated.
+[2020-02-16T19:24:05,057][INFO ][o.e.r.a.d.RestMultiGetActionTests] [testTypeInPath] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

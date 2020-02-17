@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.routing.allocation.AwarenessAllocationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.routing.allocation.AwarenessAllocationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.routing.allocation.html">org.elasticsearch.cluster.routing.allocation</a> &gt; AwarenessAllocationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.187s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testFullAwareness1</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFullAwareness2</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFullAwareness3</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveShardOnceNewNodeWithAttributeAdded1</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveShardOnceNewNodeWithAttributeAdded2</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveShardOnceNewNodeWithAttributeAdded3</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveShardOnceNewNodeWithAttributeAdded4</td>
+<td class="success">0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveShardOnceNewNodeWithAttributeAdded5</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMoveShardOnceNewNodeWithAttributeAdded6</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultipleAwarenessAttributes</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnassignedShardsWithUnbalancedZones</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnbalancedZones</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T23:20:37,587][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] before test
+[2020-02-16T23:20:37,590][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] Building initial routing table for 'moveShardOnceNewNodeWithAttributeAdded6'
+[2020-02-16T23:20:37,592][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,592][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,593][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; start the shards (replicas)
+[2020-02-16T23:20:37,593][INFO ][o.e.c.r.a.AllocationService] [testMoveShardOnceNewNodeWithAttributeAdded6] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0], [test][0], [test][0]]]).
+[2020-02-16T23:20:37,596][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,596][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; complete relocation
+[2020-02-16T23:20:37,597][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,597][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; add another node with a new rack, we will have another relocation
+[2020-02-16T23:20:37,597][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; complete relocation
+[2020-02-16T23:20:37,597][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] --&gt; make sure another reroute does not move things
+[2020-02-16T23:20:37,598][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded6] after test
+[2020-02-16T23:20:37,602][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] before test
+[2020-02-16T23:20:37,603][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] Building initial routing table for 'moveShardOnceNewNodeWithAttributeAdded2'
+[2020-02-16T23:20:37,603][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,604][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,604][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] --&gt; start the shards (replicas)
+[2020-02-16T23:20:37,604][INFO ][o.e.c.r.a.AllocationService] [testMoveShardOnceNewNodeWithAttributeAdded2] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T23:20:37,605][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,605][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] --&gt; complete relocation
+[2020-02-16T23:20:37,605][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,605][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] --&gt; add another node with a new rack, make sure nothing moves
+[2020-02-16T23:20:37,605][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded2] after test
+[2020-02-16T23:20:37,621][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnbalancedZones] before test
+[2020-02-16T23:20:37,622][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnbalancedZones] Building initial routing table for 'testUnbalancedZones'
+[2020-02-16T23:20:37,622][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnbalancedZones] --&gt; adding two nodes in different zones and do rerouting
+[2020-02-16T23:20:37,623][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnbalancedZones] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,625][INFO ][o.e.c.r.a.AllocationService] [testUnbalancedZones] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][4], [test][3], [test][2], [test][0]]]).
+[2020-02-16T23:20:37,625][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnbalancedZones] --&gt; all replicas are allocated and started since we have on node in each zone
+[2020-02-16T23:20:37,625][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnbalancedZones] --&gt; add a new node in zone 'a' and reroute
+[2020-02-16T23:20:37,627][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnbalancedZones] --&gt; starting initializing shards on the new node
+[2020-02-16T23:20:37,627][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnbalancedZones] after test
+[2020-02-16T23:20:37,630][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnassignedShardsWithUnbalancedZones] before test
+[2020-02-16T23:20:37,631][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnassignedShardsWithUnbalancedZones] Building initial routing table for 'testUnassignedShardsWithUnbalancedZones'
+[2020-02-16T23:20:37,632][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnassignedShardsWithUnbalancedZones] --&gt; adding 5 nodes in different zones and do rerouting
+[2020-02-16T23:20:37,632][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnassignedShardsWithUnbalancedZones] --&gt; start the shard (primary)
+[2020-02-16T23:20:37,639][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testUnassignedShardsWithUnbalancedZones] after test
+[2020-02-16T23:20:37,653][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] before test
+[2020-02-16T23:20:37,655][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] Building initial routing table for 'fullAwareness2'
+[2020-02-16T23:20:37,655][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,656][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,658][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] --&gt; replica will not start because we have only one rack value
+[2020-02-16T23:20:37,659][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,659][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] --&gt; complete relocation
+[2020-02-16T23:20:37,659][INFO ][o.e.c.r.a.AllocationService] [testFullAwareness2] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T23:20:37,659][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,659][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] --&gt; add another node with a new rack, make sure nothing moves
+[2020-02-16T23:20:37,660][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness2] after test
+[2020-02-16T23:20:37,662][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] before test
+[2020-02-16T23:20:37,663][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] Building initial routing table for 'moveShardOnceNewNodeWithAttributeAdded5'
+[2020-02-16T23:20:37,663][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,664][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,664][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; start the shards (replicas)
+[2020-02-16T23:20:37,665][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,665][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; complete relocation
+[2020-02-16T23:20:37,665][INFO ][o.e.c.r.a.AllocationService] [testMoveShardOnceNewNodeWithAttributeAdded5] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T23:20:37,665][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,665][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; add another node with a new rack, we will have another relocation
+[2020-02-16T23:20:37,665][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; complete relocation
+[2020-02-16T23:20:37,666][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] --&gt; make sure another reroute does not move things
+[2020-02-16T23:20:37,666][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded5] after test
+[2020-02-16T23:20:37,673][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] before test
+[2020-02-16T23:20:37,674][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] Building initial routing table for 'moveShardOnceNewNodeWithAttributeAdded1'
+[2020-02-16T23:20:37,675][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,675][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,676][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] --&gt; start the shards (replicas)
+[2020-02-16T23:20:37,676][INFO ][o.e.c.r.a.AllocationService] [testMoveShardOnceNewNodeWithAttributeAdded1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T23:20:37,676][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,676][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] --&gt; complete relocation
+[2020-02-16T23:20:37,676][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,677][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] --&gt; add another node with a new rack, make sure nothing moves
+[2020-02-16T23:20:37,677][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded1] after test
+[2020-02-16T23:20:37,706][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMultipleAwarenessAttributes] before test
+[2020-02-16T23:20:37,707][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMultipleAwarenessAttributes] Building initial routing table for 'testUnbalancedZones'
+[2020-02-16T23:20:37,707][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMultipleAwarenessAttributes] --&gt; adding two nodes in different zones and do rerouting
+[2020-02-16T23:20:37,708][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMultipleAwarenessAttributes] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,709][INFO ][o.e.c.r.a.AllocationService] [testMultipleAwarenessAttributes] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T23:20:37,709][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMultipleAwarenessAttributes] --&gt; all replicas are allocated and started since we have one node in each zone and rack
+[2020-02-16T23:20:37,709][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMultipleAwarenessAttributes] after test
+[2020-02-16T23:20:37,717][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] before test
+[2020-02-16T23:20:37,719][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] Building initial routing table for 'fullAwareness3'
+[2020-02-16T23:20:37,719][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,720][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,720][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,721][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; complete initializing
+[2020-02-16T23:20:37,721][INFO ][o.e.c.r.a.AllocationService] [testFullAwareness3] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][3], [test1][4], [test1][2], [test1][0], [test2][1], [test2][4], [test2][3], [test2][2], [test2][0]]]).
+[2020-02-16T23:20:37,722][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; run it again, since we still might have relocation
+[2020-02-16T23:20:37,722][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,722][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; add another node with a new rack, some more relocation should happen
+[2020-02-16T23:20:37,728][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; complete relocation
+[2020-02-16T23:20:37,728][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,729][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness3] after test
+[2020-02-16T23:20:37,733][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] before test
+[2020-02-16T23:20:37,734][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] Building initial routing table for 'moveShardOnceNewNodeWithAttributeAdded4'
+[2020-02-16T23:20:37,734][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,738][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,739][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; start the shards (replicas)
+[2020-02-16T23:20:37,739][INFO ][o.e.c.r.a.AllocationService] [testMoveShardOnceNewNodeWithAttributeAdded4] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][3], [test1][4], [test1][2], [test1][0], [test2][1], [test2][4], [test2][3], [test2][2], [test2][0]]]).
+[2020-02-16T23:20:37,739][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,742][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; complete initializing
+[2020-02-16T23:20:37,742][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; complete initializing round: [0]
+[2020-02-16T23:20:37,752][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; complete initializing round: [1]
+[2020-02-16T23:20:37,755][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,755][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; add another node with a new rack, some more relocation should happen
+[2020-02-16T23:20:37,756][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; complete relocation
+[2020-02-16T23:20:37,756][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; complete initializing round: [0]
+[2020-02-16T23:20:37,757][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; complete initializing round: [1]
+[2020-02-16T23:20:37,757][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,757][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded4] after test
+[2020-02-16T23:20:37,760][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] before test
+[2020-02-16T23:20:37,761][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] Building initial routing table for 'fullAwareness1'
+[2020-02-16T23:20:37,761][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,762][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,762][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] --&gt; replica will not start because we have only one rack value
+[2020-02-16T23:20:37,762][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,762][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] --&gt; complete relocation
+[2020-02-16T23:20:37,762][INFO ][o.e.c.r.a.AllocationService] [testFullAwareness1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T23:20:37,762][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,762][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] --&gt; add another node with a new rack, make sure nothing moves
+[2020-02-16T23:20:37,763][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testFullAwareness1] after test
+[2020-02-16T23:20:37,765][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] before test
+[2020-02-16T23:20:37,767][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] Building initial routing table for 'moveShardOnceNewNodeWithAttributeAdded3'
+[2020-02-16T23:20:37,767][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; adding two nodes on same rack and do rerouting
+[2020-02-16T23:20:37,768][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] Initializing shards: [[test][4], node[node2], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=j8zGwQuyQf2UGmr-qIMylQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]], [test][2], node[node2], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=oErK8_sBT8KW89ZMR2__EA], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]], [test][0], node[node2], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=BlEuzalXRSGXJ_MXHCfOLQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]], [test][1], node[node1], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=GiLwFE6eQXee9St6o9s8TQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]], [test][3], node[node1], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=YkMpxZ76T62LLcvmf-wbMQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]]]
+[2020-02-16T23:20:37,768][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] Started shards: []
+[2020-02-16T23:20:37,768][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] Relocating shards: []
+[2020-02-16T23:20:37,768][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] Unassigned shards: [[test][1], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]], [test][4], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]], [test][3], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]], [test][2], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]], [test][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:37.767Z], delayed=false, allocation_status[no_attempt]]]
+[2020-02-16T23:20:37,768][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; start the shards (primaries)
+[2020-02-16T23:20:37,769][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; start the shards (replicas)
+[2020-02-16T23:20:37,770][INFO ][o.e.c.r.a.AllocationService] [testMoveShardOnceNewNodeWithAttributeAdded3] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][4], [test][3], [test][2], [test][0]]]).
+[2020-02-16T23:20:37,770][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; add a new node with a new rack and reroute
+[2020-02-16T23:20:37,770][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; complete initializing
+[2020-02-16T23:20:37,771][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; run it again, since we still might have relocation
+[2020-02-16T23:20:37,771][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,772][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; add another node with a new rack, some more relocation should happen
+[2020-02-16T23:20:37,772][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; complete relocation
+[2020-02-16T23:20:37,772][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] --&gt; do another reroute, make sure nothing moves
+[2020-02-16T23:20:37,772][INFO ][o.e.c.r.a.AwarenessAllocationTests] [testMoveShardOnceNewNodeWithAttributeAdded3] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

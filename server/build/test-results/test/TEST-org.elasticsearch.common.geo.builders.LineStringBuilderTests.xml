@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.builders.LineStringBuilderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:44" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testInvalidConstructorArgs" classname="org.elasticsearch.common.geo.builders.LineStringBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.geo.builders.LineStringBuilderTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.common.geo.builders.LineStringBuilderTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.geo.builders.LineStringBuilderTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T07:20:44,339][INFO ][o.e.c.g.b.LineStringBuilderTests] [testInvalidConstructorArgs] before test
+[2020-02-17T07:20:44,340][INFO ][o.e.c.g.b.LineStringBuilderTests] [testInvalidConstructorArgs] after test
+[2020-02-17T07:20:44,342][INFO ][o.e.c.g.b.LineStringBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T07:20:44,344][INFO ][o.e.c.g.b.LineStringBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T07:20:44,346][INFO ][o.e.c.g.b.LineStringBuilderTests] [testFromXContent] before test
+[2020-02-17T07:20:44,353][INFO ][o.e.c.g.b.LineStringBuilderTests] [testFromXContent] after test
+[2020-02-17T07:20:44,361][INFO ][o.e.c.g.b.LineStringBuilderTests] [testSerialization] before test
+[2020-02-17T07:20:44,362][INFO ][o.e.c.g.b.LineStringBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.IpFieldTypeTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:15" hostname="Escoto-PC" time="0.056">
+  <properties/>
+  <testcase name="testRangeQuery" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.009"/>
+  <testcase name="testValueForSearch" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.002"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.002"/>
+  <testcase name="testTermQuery" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.002"/>
+  <testcase name="testValueFormat" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.016"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.002"/>
+  <testcase name="testTermsQuery" classname="org.elasticsearch.index.mapper.IpFieldTypeTests" time="0.016"/>
+  <system-out><![CDATA[[2020-02-16T14:23:15,968][INFO ][o.e.i.m.IpFieldTypeTests ] [testRangeQuery] before test
+[2020-02-16T14:23:15,970][INFO ][o.e.i.m.IpFieldTypeTests ] [testRangeQuery] after test
+[2020-02-16T14:23:15,973][INFO ][o.e.i.m.IpFieldTypeTests ] [testValueForSearch] before test
+[2020-02-16T14:23:15,973][INFO ][o.e.i.m.IpFieldTypeTests ] [testValueForSearch] after test
+[2020-02-16T14:23:15,975][INFO ][o.e.i.m.IpFieldTypeTests ] [testClone] before test
+[2020-02-16T14:23:15,975][INFO ][o.e.i.m.IpFieldTypeTests ] [testClone] after test
+[2020-02-16T14:23:15,977][INFO ][o.e.i.m.IpFieldTypeTests ] [testTermQuery] before test
+[2020-02-16T14:23:15,977][INFO ][o.e.i.m.IpFieldTypeTests ] [testTermQuery] after test
+[2020-02-16T14:23:15,979][INFO ][o.e.i.m.IpFieldTypeTests ] [testValueFormat] before test
+[2020-02-16T14:23:15,979][INFO ][o.e.i.m.IpFieldTypeTests ] [testValueFormat] after test
+[2020-02-16T14:23:15,980][INFO ][o.e.i.m.IpFieldTypeTests ] [testEquals] before test
+[2020-02-16T14:23:15,981][INFO ][o.e.i.m.IpFieldTypeTests ] [testEquals] after test
+[2020-02-16T14:23:15,997][INFO ][o.e.i.m.IpFieldTypeTests ] [testCheckTypeName] before test
+[2020-02-16T14:23:15,997][INFO ][o.e.i.m.IpFieldTypeTests ] [testCheckTypeName] after test
+[2020-02-16T14:23:15,999][INFO ][o.e.i.m.IpFieldTypeTests ] [testCheckCompatibility] before test
+[2020-02-16T14:23:15,999][INFO ][o.e.i.m.IpFieldTypeTests ] [testCheckCompatibility] after test
+[2020-02-16T14:23:16,001][INFO ][o.e.i.m.IpFieldTypeTests ] [testFreeze] before test
+[2020-02-16T14:23:16,001][INFO ][o.e.i.m.IpFieldTypeTests ] [testFreeze] after test
+[2020-02-16T14:23:16,015][INFO ][o.e.i.m.IpFieldTypeTests ] [testTermsQuery] before test
+[2020-02-16T14:23:16,017][INFO ][o.e.i.m.IpFieldTypeTests ] [testTermsQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

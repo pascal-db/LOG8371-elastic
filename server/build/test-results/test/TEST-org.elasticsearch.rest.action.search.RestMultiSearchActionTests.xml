@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.search.RestMultiSearchActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testTypeInBody" classname="org.elasticsearch.rest.action.search.RestMultiSearchActionTests" time="0.008"/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.search.RestMultiSearchActionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T04:24:05,211][INFO ][o.e.r.a.s.RestMultiSearchActionTests] [testTypeInBody] before test
+[2020-02-17T04:24:05,212][WARN ][o.e.d.r.a.s.RestMultiSearchAction] [testTypeInBody] [types removal] Specifying types in multi search requests is deprecated.
+[2020-02-17T04:24:05,213][INFO ][o.e.r.a.s.RestMultiSearchActionTests] [testTypeInBody] after test
+[2020-02-17T04:24:05,215][INFO ][o.e.r.a.s.RestMultiSearchActionTests] [testTypeInPath] before test
+[2020-02-17T04:24:05,215][INFO ][o.e.r.a.s.RestMultiSearchActionTests] [testTypeInPath] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

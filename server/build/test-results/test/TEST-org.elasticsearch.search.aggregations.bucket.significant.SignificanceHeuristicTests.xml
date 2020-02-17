@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.significant.SignificanceHeuristicTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testBuilderAndParser" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificanceHeuristicTests" time="0.004"/>
+  <testcase name="testGNDCornerCases" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificanceHeuristicTests" time="0.003"/>
+  <testcase name="testAssertions" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificanceHeuristicTests" time="0.003"/>
+  <testcase name="testReduce" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificanceHeuristicTests" time="0.004"/>
+  <testcase name="testScoreMutual" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificanceHeuristicTests" time="0.002"/>
+  <testcase name="testStreamResponse" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificanceHeuristicTests" time="0.003"/>
+  <testcase name="testBasicScoreProperties" classname="org.elasticsearch.search.aggregations.bucket.significant.SignificanceHeuristicTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T19:24:21,805][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testBuilderAndParser] before test
+[2020-02-16T19:24:21,806][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testBuilderAndParser] after test
+[2020-02-16T19:24:21,810][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testGNDCornerCases] before test
+[2020-02-16T19:24:21,810][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testGNDCornerCases] after test
+[2020-02-16T19:24:21,812][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testAssertions] before test
+[2020-02-16T19:24:21,812][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testAssertions] after test
+[2020-02-16T19:24:21,814][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testReduce] before test
+[2020-02-16T19:24:21,816][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testReduce] after test
+[2020-02-16T19:24:21,818][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testScoreMutual] before test
+[2020-02-16T19:24:21,818][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testScoreMutual] after test
+[2020-02-16T19:24:21,820][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testStreamResponse] before test
+[2020-02-16T19:24:21,821][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testStreamResponse] after test
+[2020-02-16T19:24:21,825][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testBasicScoreProperties] before test
+[2020-02-16T19:24:21,825][INFO ][o.e.s.a.b.s.SignificanceHeuristicTests] [testBasicScoreProperties] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

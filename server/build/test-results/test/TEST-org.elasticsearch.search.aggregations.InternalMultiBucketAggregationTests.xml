@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:31" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testResolveToSpecificBucket" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.002"/>
+  <testcase name="testResolveToCount" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.002"/>
+  <testcase name="testResolveToNothing" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.002"/>
+  <testcase name="testResolveToUnknown" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.002"/>
+  <testcase name="testResolveToAgg" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.002"/>
+  <testcase name="testResolveToBucketCount" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.002"/>
+  <testcase name="testResolveToKey" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.001"/>
+  <testcase name="testResolveToAggValue" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.001"/>
+  <testcase name="testResolveToMissingSpecificBucket" classname="org.elasticsearch.search.aggregations.InternalMultiBucketAggregationTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T22:25:31,520][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToSpecificBucket] before test
+[2020-02-16T22:25:31,520][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToSpecificBucket] after test
+[2020-02-16T22:25:31,522][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToCount] before test
+[2020-02-16T22:25:31,522][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToCount] after test
+[2020-02-16T22:25:31,524][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToNothing] before test
+[2020-02-16T22:25:31,525][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToNothing] after test
+[2020-02-16T22:25:31,526][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToUnknown] before test
+[2020-02-16T22:25:31,527][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToUnknown] after test
+[2020-02-16T22:25:31,529][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToAgg] before test
+[2020-02-16T22:25:31,529][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToAgg] after test
+[2020-02-16T22:25:31,531][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToBucketCount] before test
+[2020-02-16T22:25:31,531][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToBucketCount] after test
+[2020-02-16T22:25:31,532][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToKey] before test
+[2020-02-16T22:25:31,532][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToKey] after test
+[2020-02-16T22:25:31,534][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToAggValue] before test
+[2020-02-16T22:25:31,534][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToAggValue] after test
+[2020-02-16T22:25:31,535][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToMissingSpecificBucket] before test
+[2020-02-16T22:25:31,536][INFO ][o.e.s.a.InternalMultiBucketAggregationTests] [testResolveToMissingSpecificBucket] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

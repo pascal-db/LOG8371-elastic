@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:31" hostname="Escoto-PC" time="0.076">
+  <properties/>
+  <testcase name="testMarkAsStaleWhenFailingShard" classname="org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests" time="0.022"/>
+  <testcase name="testNonExistentShardsAreMarkedAsSuccessful" classname="org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests" time="0.012"/>
+  <testcase name="testIllegalShardFailureRequests" classname="org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests" time="0.009"/>
+  <testcase name="testDuplicateFailuresAreOkay" classname="org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests" time="0.012"/>
+  <testcase name="testEmptyTaskListProducesSameClusterState" classname="org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests" time="0.005"/>
+  <testcase name="testTriviallySuccessfulTasksBatchedWithFailingTasks" classname="org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests" time="0.016"/>
+  <system-out><![CDATA[[2020-02-17T00:20:31,176][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testMarkAsStaleWhenFailingShard] before test
+[2020-02-17T00:20:31,188][WARN ][o.e.c.r.a.AllocationService] [testMarkAsStaleWhenFailingShard] failing shard [failed shard, shard [INDEX][0], node[node5], [R], s[STARTED], a[id=zVHO24k_Tam6r8xup0m0IA], message [dummy], failure [Unknown], markAsStale [false]]
+[2020-02-17T00:20:31,192][WARN ][o.e.c.r.a.AllocationService] [testMarkAsStaleWhenFailingShard] failing shard [failed shard, shard [INDEX][0], node[node11], [R], s[STARTED], a[id=qBv112-NSKqwHL42jrGYIA], message [dummy], failure [Unknown], markAsStale [true]]
+[2020-02-17T00:20:31,193][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testMarkAsStaleWhenFailingShard] after test
+[2020-02-17T00:20:31,199][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testNonExistentShardsAreMarkedAsSuccessful] before test
+[2020-02-17T00:20:31,205][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testNonExistentShardsAreMarkedAsSuccessful] after test
+[2020-02-17T00:20:31,208][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testIllegalShardFailureRequests] before test
+[2020-02-17T00:20:31,214][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testIllegalShardFailureRequests] after test
+[2020-02-17T00:20:31,217][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testDuplicateFailuresAreOkay] before test
+[2020-02-17T00:20:31,221][WARN ][o.e.c.r.a.AllocationService] [testDuplicateFailuresAreOkay] failing shard [failed shard, shard [INDEX][0], node[node8], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=J-23Xg1yRE2Aeh2n9g8NXQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:31.217Z], delayed=false, allocation_status[no_attempt]], message [test duplicate failures are okay], failure [CorruptIndexException[simulated (resource=_na_)]], markAsStale [true]]
+org.apache.lucene.index.CorruptIndexException: simulated (resource=_na_)
+	at org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests.lambda$toTasks$6(ShardFailedClusterStateTaskExecutorTests.java:313) ~[test/:?]
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[?:?]
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1654) ~[?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[?:?]
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[?:?]
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[?:?]
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[?:?]
+	at org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests.toTasks(ShardFailedClusterStateTaskExecutorTests.java:316) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests.createExistingShards(ShardFailedClusterStateTaskExecutorTests.java:214) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests.testDuplicateFailuresAreOkay(ShardFailedClusterStateTaskExecutorTests.java:103) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:20:31,227][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testDuplicateFailuresAreOkay] after test
+[2020-02-17T00:20:31,231][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testEmptyTaskListProducesSameClusterState] before test
+[2020-02-17T00:20:31,231][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testEmptyTaskListProducesSameClusterState] after test
+[2020-02-17T00:20:31,237][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testTriviallySuccessfulTasksBatchedWithFailingTasks] before test
+[2020-02-17T00:20:31,242][WARN ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testTriviallySuccessfulTasksBatchedWithFailingTasks] failed to apply failed shards [failed shard, shard [INDEX][0], node[node5], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=Ainp7Xs_R8GdGPLmVCDANw], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:31.237Z], delayed=false, allocation_status[no_attempt]], message [test trivially successful tasks batched with failing tasks], failure [CorruptIndexException[simulated (resource=_na_)]], markAsStale [false], failed shard, shard [INDEX][0], node[node5], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=Ainp7Xs_R8GdGPLmVCDANw], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:31.237Z], delayed=false, allocation_status[no_attempt]], message [test trivially successful tasks batched with failing tasks], failure [CorruptIndexException[simulated (resource=_na_)]], markAsStale [false]]
+java.lang.RuntimeException: simulated applyFailedShards failure
+	at org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests$1.applyFailedShards(ShardFailedClusterStateTaskExecutorTests.java:125) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateAction$ShardFailedClusterStateTaskExecutor.execute(ShardStateAction.java:400) [main/:?]
+	at org.elasticsearch.cluster.action.shard.ShardFailedClusterStateTaskExecutorTests.testTriviallySuccessfulTasksBatchedWithFailingTasks(ShardFailedClusterStateTaskExecutorTests.java:131) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:20:31,247][INFO ][o.e.c.a.s.ShardFailedClusterStateTaskExecutorTests] [testTriviallySuccessfulTasksBatchedWithFailingTasks] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

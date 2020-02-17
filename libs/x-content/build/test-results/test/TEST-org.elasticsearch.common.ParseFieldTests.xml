@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.ParseFieldTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:41" hostname="Escoto-PC" time="2.904">
+  <properties/>
+  <testcase name="testParse" classname="org.elasticsearch.common.ParseFieldTests" time="2.8"/>
+  <testcase name="testAllDeprecated" classname="org.elasticsearch.common.ParseFieldTests" time="0.017"/>
+  <testcase name="testGetAllNamesIncludedDeprecated" classname="org.elasticsearch.common.ParseFieldTests" time="0.087"/>
+  <system-out><![CDATA[[2020-02-16T11:50:41,407][INFO ][o.e.c.ParseFieldTests    ] [testParse] before test
+[2020-02-16T11:50:44,122][WARN ][o.e.d.c.ParseField       ] [testParse] Deprecated field [barFoo] used, expected [foo_bar] instead
+[2020-02-16T11:50:44,128][WARN ][o.e.d.c.ParseField       ] [testParse] Deprecated field [bar_foo] used, expected [foo_bar] instead
+[2020-02-16T11:50:44,129][WARN ][o.e.d.c.ParseField       ] [testParse] Deprecated field [Foobar] used, expected [foo_bar] instead
+[2020-02-16T11:50:44,144][INFO ][o.e.c.ParseFieldTests    ] [testParse] after test
+[2020-02-16T11:50:44,167][INFO ][o.e.c.ParseFieldTests    ] [testAllDeprecated] before test
+[2020-02-16T11:50:44,168][WARN ][o.e.d.c.ParseField       ] [testAllDeprecated] Deprecated field [text] used, replaced by [like]
+[2020-02-16T11:50:44,169][WARN ][o.e.d.c.ParseField       ] [testAllDeprecated] Deprecated field [same_as_text] used, replaced by [like]
+[2020-02-16T11:50:44,170][WARN ][o.e.d.c.ParseField       ] [testAllDeprecated] Deprecated field [like_text] used, replaced by [like]
+[2020-02-16T11:50:44,170][INFO ][o.e.c.ParseFieldTests    ] [testAllDeprecated] after test
+[2020-02-16T11:50:44,252][INFO ][o.e.c.ParseFieldTests    ] [testGetAllNamesIncludedDeprecated] before test
+[2020-02-16T11:50:44,257][INFO ][o.e.c.ParseFieldTests    ] [testGetAllNamesIncludedDeprecated] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

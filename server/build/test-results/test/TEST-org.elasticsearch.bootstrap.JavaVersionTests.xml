@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.bootstrap.JavaVersionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:28" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testJava8Compat" classname="org.elasticsearch.bootstrap.JavaVersionTests" time="0.003"/>
+  <testcase name="testParse" classname="org.elasticsearch.bootstrap.JavaVersionTests" time="0.002"/>
+  <testcase name="testCompare" classname="org.elasticsearch.bootstrap.JavaVersionTests" time="0.002"/>
+  <testcase name="testParseInvalidVersions" classname="org.elasticsearch.bootstrap.JavaVersionTests" time="0.002"/>
+  <testcase name="testToString" classname="org.elasticsearch.bootstrap.JavaVersionTests" time="0.002"/>
+  <testcase name="testValidVersions" classname="org.elasticsearch.bootstrap.JavaVersionTests" time="0.002"/>
+  <testcase name="testInvalidVersions" classname="org.elasticsearch.bootstrap.JavaVersionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:20:28,889][INFO ][o.e.b.JavaVersionTests   ] [testJava8Compat] before test
+[2020-02-16T19:20:28,890][INFO ][o.e.b.JavaVersionTests   ] [testJava8Compat] after test
+[2020-02-16T19:20:28,892][INFO ][o.e.b.JavaVersionTests   ] [testParse] before test
+[2020-02-16T19:20:28,892][INFO ][o.e.b.JavaVersionTests   ] [testParse] after test
+[2020-02-16T19:20:28,894][INFO ][o.e.b.JavaVersionTests   ] [testCompare] before test
+[2020-02-16T19:20:28,894][INFO ][o.e.b.JavaVersionTests   ] [testCompare] after test
+[2020-02-16T19:20:28,896][INFO ][o.e.b.JavaVersionTests   ] [testParseInvalidVersions] before test
+[2020-02-16T19:20:28,896][INFO ][o.e.b.JavaVersionTests   ] [testParseInvalidVersions] after test
+[2020-02-16T19:20:28,898][INFO ][o.e.b.JavaVersionTests   ] [testToString] before test
+[2020-02-16T19:20:28,898][INFO ][o.e.b.JavaVersionTests   ] [testToString] after test
+[2020-02-16T19:20:28,900][INFO ][o.e.b.JavaVersionTests   ] [testValidVersions] before test
+[2020-02-16T19:20:28,901][INFO ][o.e.b.JavaVersionTests   ] [testValidVersions] after test
+[2020-02-16T19:20:28,904][INFO ][o.e.b.JavaVersionTests   ] [testInvalidVersions] before test
+[2020-02-16T19:20:28,904][INFO ][o.e.b.JavaVersionTests   ] [testInvalidVersions] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

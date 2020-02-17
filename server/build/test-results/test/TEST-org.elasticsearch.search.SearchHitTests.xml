@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.SearchHitTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:36" hostname="Escoto-PC" time="0.048">
+  <properties/>
+  <testcase name="testHasSource" classname="org.elasticsearch.search.SearchHitTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.SearchHitTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.SearchHitTests" time="0.009"/>
+  <testcase name="testNullSource" classname="org.elasticsearch.search.SearchHitTests" time="0.002"/>
+  <testcase name="testWeirdScriptFields" classname="org.elasticsearch.search.SearchHitTests" time="0.002"/>
+  <testcase name="testFromXContentLenientParsing" classname="org.elasticsearch.search.SearchHitTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.SearchHitTests" time="0.015"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.SearchHitTests" time="0.009"/>
+  <testcase name="testFromXContentWithoutTypeAndId" classname="org.elasticsearch.search.SearchHitTests" time="0.002"/>
+  <testcase name="testSerializeShardTarget" classname="org.elasticsearch.search.SearchHitTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:25:36,519][INFO ][o.e.s.SearchHitTests     ] [testHasSource] before test
+[2020-02-16T23:25:36,519][INFO ][o.e.s.SearchHitTests     ] [testHasSource] after test
+[2020-02-16T23:25:36,522][INFO ][o.e.s.SearchHitTests     ] [testToXContent] before test
+[2020-02-16T23:25:36,522][INFO ][o.e.s.SearchHitTests     ] [testToXContent] after test
+[2020-02-16T23:25:36,523][INFO ][o.e.s.SearchHitTests     ] [testFromXContent] before test
+[2020-02-16T23:25:36,530][INFO ][o.e.s.SearchHitTests     ] [testFromXContent] after test
+[2020-02-16T23:25:36,533][INFO ][o.e.s.SearchHitTests     ] [testNullSource] before test
+[2020-02-16T23:25:36,533][INFO ][o.e.s.SearchHitTests     ] [testNullSource] after test
+[2020-02-16T23:25:36,534][INFO ][o.e.s.SearchHitTests     ] [testWeirdScriptFields] before test
+[2020-02-16T23:25:36,535][INFO ][o.e.s.SearchHitTests     ] [testWeirdScriptFields] after test
+[2020-02-16T23:25:36,537][INFO ][o.e.s.SearchHitTests     ] [testFromXContentLenientParsing] before test
+[2020-02-16T23:25:36,537][INFO ][o.e.s.SearchHitTests     ] [testFromXContentLenientParsing] after test
+[2020-02-16T23:25:36,539][INFO ][o.e.s.SearchHitTests     ] [testSerialization] before test
+[2020-02-16T23:25:36,552][INFO ][o.e.s.SearchHitTests     ] [testSerialization] after test
+[2020-02-16T23:25:36,555][INFO ][o.e.s.SearchHitTests     ] [testEqualsAndHashcode] before test
+[2020-02-16T23:25:36,562][INFO ][o.e.s.SearchHitTests     ] [testEqualsAndHashcode] after test
+[2020-02-16T23:25:36,564][INFO ][o.e.s.SearchHitTests     ] [testFromXContentWithoutTypeAndId] before test
+[2020-02-16T23:25:36,564][INFO ][o.e.s.SearchHitTests     ] [testFromXContentWithoutTypeAndId] after test
+[2020-02-16T23:25:36,565][INFO ][o.e.s.SearchHitTests     ] [testSerializeShardTarget] before test
+[2020-02-16T23:25:36,566][INFO ][o.e.s.SearchHitTests     ] [testSerializeShardTarget] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

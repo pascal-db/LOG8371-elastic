@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.DefaultShardOperationFailedExceptionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.support.DefaultShardOperationFailedExceptionTests" time="0.011"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.support.DefaultShardOperationFailedExceptionTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.support.DefaultShardOperationFailedExceptionTests" time="0.004"/>
+  <testcase name="testToString" classname="org.elasticsearch.action.support.DefaultShardOperationFailedExceptionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T14:20:47,502][INFO ][o.e.a.s.DefaultShardOperationFailedExceptionTests] [testToXContent] before test
+[2020-02-16T14:20:47,503][INFO ][o.e.a.s.DefaultShardOperationFailedExceptionTests] [testToXContent] after test
+[2020-02-16T14:20:47,506][INFO ][o.e.a.s.DefaultShardOperationFailedExceptionTests] [testFromXContent] before test
+[2020-02-16T14:20:47,506][INFO ][o.e.a.s.DefaultShardOperationFailedExceptionTests] [testFromXContent] after test
+[2020-02-16T14:20:47,508][INFO ][o.e.a.s.DefaultShardOperationFailedExceptionTests] [testSerialization] before test
+[2020-02-16T14:20:47,511][INFO ][o.e.a.s.DefaultShardOperationFailedExceptionTests] [testSerialization] after test
+[2020-02-16T14:20:47,513][INFO ][o.e.a.s.DefaultShardOperationFailedExceptionTests] [testToString] before test
+[2020-02-16T14:20:47,513][INFO ][o.e.a.s.DefaultShardOperationFailedExceptionTests] [testToString] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

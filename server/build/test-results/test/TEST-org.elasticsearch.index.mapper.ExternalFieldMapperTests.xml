@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.ExternalFieldMapperTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:31" hostname="Escoto-PC" time="0.826">
+  <properties/>
+  <testcase name="testExternalValuesWithMultifield" classname="org.elasticsearch.index.mapper.ExternalFieldMapperTests" time="0.665"/>
+  <testcase name="testExternalValues" classname="org.elasticsearch.index.mapper.ExternalFieldMapperTests" time="0.083"/>
+  <testcase name="testExternalValuesWithMultifieldTwoLevels" classname="org.elasticsearch.index.mapper.ExternalFieldMapperTests" time="0.078"/>
+  <system-out><![CDATA[[2020-02-16T14:22:31,473][INFO ][o.e.e.NodeEnvironment    ] [testExternalValuesWithMultifield] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T14:22:31,474][INFO ][o.e.e.NodeEnvironment    ] [testExternalValuesWithMultifield] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T14:22:31,477][INFO ][o.e.n.Node               ] [testExternalValuesWithMultifield] node name [node_s_0], node ID [e4itwOYnSICHrA5PcEiXLg], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[-6190175737016617523]-HASH=[13FD1AE03A8]]
+[2020-02-16T14:22:31,477][INFO ][o.e.n.Node               ] [testExternalValuesWithMultifield] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T14:22:31,477][INFO ][o.e.n.Node               ] [testExternalValuesWithMultifield] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T14:22:31,477][INFO ][o.e.n.Node               ] [testExternalValuesWithMultifield] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T14:22:31,477][INFO ][o.e.p.PluginsService     ] [testExternalValuesWithMultifield] no modules loaded
+[2020-02-16T14:22:31,477][INFO ][o.e.p.PluginsService     ] [testExternalValuesWithMultifield] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-16T14:22:31,477][INFO ][o.e.p.PluginsService     ] [testExternalValuesWithMultifield] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T14:22:31,477][INFO ][o.e.p.PluginsService     ] [testExternalValuesWithMultifield] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T14:22:31,667][INFO ][o.e.d.DiscoveryModule    ] [testExternalValuesWithMultifield] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T14:22:31,674][INFO ][o.e.n.Node               ] [testExternalValuesWithMultifield] initialized
+[2020-02-16T14:22:31,674][INFO ][o.e.n.Node               ] [testExternalValuesWithMultifield] starting ...
+[2020-02-16T14:22:31,934][INFO ][o.e.t.TransportService   ] [testExternalValuesWithMultifield] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T14:22:31,941][INFO ][o.e.c.c.Coordinator      ] [testExternalValuesWithMultifield] setting initial configuration to VotingConfiguration{e4itwOYnSICHrA5PcEiXLg}
+[2020-02-16T14:22:32,014][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{e4itwOYnSICHrA5PcEiXLg}{vDhRpBhsSH-RnA38n8cuCA}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{e4itwOYnSICHrA5PcEiXLg}{vDhRpBhsSH-RnA38n8cuCA}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-16T14:22:32,022][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [D8UXQUB9QAKMIEkuUujTMg]
+[2020-02-16T14:22:32,027][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{e4itwOYnSICHrA5PcEiXLg}{vDhRpBhsSH-RnA38n8cuCA}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T14:22:32,028][INFO ][o.e.n.Node               ] [testExternalValuesWithMultifield] started
+[2020-02-16T14:22:32,032][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T14:22:32,033][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T14:22:32,041][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T14:22:32,048][INFO ][o.e.i.m.ExternalFieldMapperTests] [testExternalValuesWithMultifield] before test
+[2020-02-16T14:22:32,049][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T14:22:32,094][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T14:22:32,105][WARN ][o.e.d.i.m.TypeParsers    ] [testExternalValuesWithMultifield] At least one multi-field, [field], was encountered that itself contains a multi-field. Defining multi-fields within a multi-field is deprecated and will no longer be supported in 8.0. To resolve the issue, all instances of [fields] that occur within a [fields] block should be removed from the mappings, either by flattening the chained [fields] blocks into a single level, or switching to [copy_to] if appropriate.
+[2020-02-16T14:22:32,109][INFO ][o.e.i.m.ExternalFieldMapperTests] [testExternalValuesWithMultifield] after test
+[2020-02-16T14:22:32,109][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Hl-MHPXwTtu58GSV6aZwlg] deleting index
+[2020-02-16T14:22:32,130][INFO ][o.e.i.m.ExternalFieldMapperTests] [testExternalValues] before test
+[2020-02-16T14:22:32,131][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T14:22:32,183][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T14:22:32,194][INFO ][o.e.i.m.ExternalFieldMapperTests] [testExternalValues] after test
+[2020-02-16T14:22:32,194][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/x_LNJ0YEQUai1zyIeSsLXQ] deleting index
+[2020-02-16T14:22:32,213][INFO ][o.e.i.m.ExternalFieldMapperTests] [testExternalValuesWithMultifieldTwoLevels] before test
+[2020-02-16T14:22:32,214][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T14:22:32,261][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T14:22:32,271][INFO ][o.e.i.m.ExternalFieldMapperTests] [testExternalValuesWithMultifieldTwoLevels] after test
+[2020-02-16T14:22:32,272][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/v9o9lltnQkactYhgX8n3CA] deleting index
+[2020-02-16T14:22:32,290][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T14:22:32,291][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T14:22:32,291][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T14:22:32,291][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

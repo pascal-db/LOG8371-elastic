@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.http.DefaultRestChannelTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:12" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testCookiesSet" classname="org.elasticsearch.http.DefaultRestChannelTests" time="0.007"/>
+  <testcase name="testHeadersSet" classname="org.elasticsearch.http.DefaultRestChannelTests" time="0.003"/>
+  <testcase name="testCloseOnException" classname="org.elasticsearch.http.DefaultRestChannelTests" time="0.005"/>
+  <testcase name="testReleaseInListener" classname="org.elasticsearch.http.DefaultRestChannelTests" time="0.003"/>
+  <testcase name="testResponse" classname="org.elasticsearch.http.DefaultRestChannelTests" time="0.004"/>
+  <testcase name="testUnsupportedHttpMethod" classname="org.elasticsearch.http.DefaultRestChannelTests" time="0.004"/>
+  <testcase name="testConnectionClose" classname="org.elasticsearch.http.DefaultRestChannelTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T11:21:12,956][INFO ][o.e.h.DefaultRestChannelTests] [testCookiesSet] before test
+[2020-02-16T11:21:12,961][INFO ][o.e.h.DefaultRestChannelTests] [testCookiesSet] after test
+[2020-02-16T11:21:12,963][INFO ][o.e.h.DefaultRestChannelTests] [testHeadersSet] before test
+[2020-02-16T11:21:12,964][INFO ][o.e.h.DefaultRestChannelTests] [testHeadersSet] after test
+[2020-02-16T11:21:12,967][INFO ][o.e.h.DefaultRestChannelTests] [testCloseOnException] before test
+[2020-02-16T11:21:12,969][INFO ][o.e.h.DefaultRestChannelTests] [testCloseOnException] after test
+[2020-02-16T11:21:12,971][INFO ][o.e.h.DefaultRestChannelTests] [testReleaseInListener] before test
+[2020-02-16T11:21:12,972][INFO ][o.e.h.DefaultRestChannelTests] [testReleaseInListener] after test
+[2020-02-16T11:21:12,974][INFO ][o.e.h.DefaultRestChannelTests] [testResponse] before test
+[2020-02-16T11:21:12,977][INFO ][o.e.h.DefaultRestChannelTests] [testResponse] after test
+[2020-02-16T11:21:12,978][INFO ][o.e.h.DefaultRestChannelTests] [testUnsupportedHttpMethod] before test
+[2020-02-16T11:21:12,980][INFO ][o.e.h.DefaultRestChannelTests] [testUnsupportedHttpMethod] after test
+[2020-02-16T11:21:12,981][INFO ][o.e.h.DefaultRestChannelTests] [testConnectionClose] before test
+[2020-02-16T11:21:12,983][INFO ][o.e.h.DefaultRestChannelTests] [testConnectionClose] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

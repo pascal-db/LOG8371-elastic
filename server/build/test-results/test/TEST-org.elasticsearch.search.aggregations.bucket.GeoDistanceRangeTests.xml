@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="0.058">
+  <properties/>
+  <testcase name="testParsingNull" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.038"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.002"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.002"/>
+  <testcase name="testParsingRangeStrict" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.002"/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.005"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.GeoDistanceRangeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T16:25:20,432][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testParsingNull] before test
+[2020-02-16T16:25:20,435][INFO ][o.e.p.PluginsService     ] [testParsingNull] no modules loaded
+[2020-02-16T16:25:20,435][INFO ][o.e.p.PluginsService     ] [testParsingNull] no plugins loaded
+[2020-02-16T16:25:20,453][INFO ][o.e.p.PluginsService     ] [testParsingNull] no modules loaded
+[2020-02-16T16:25:20,453][INFO ][o.e.p.PluginsService     ] [testParsingNull] no plugins loaded
+[2020-02-16T16:25:20,467][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testParsingNull] after test
+[2020-02-16T16:25:20,468][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testSerialization] before test
+[2020-02-16T16:25:20,469][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testSerialization] after test
+[2020-02-16T16:25:20,471][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testToString] before test
+[2020-02-16T16:25:20,471][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testToString] after test
+[2020-02-16T16:25:20,473][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testParsingRangeStrict] before test
+[2020-02-16T16:25:20,473][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testParsingRangeStrict] after test
+[2020-02-16T16:25:20,475][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testEqualsAndHashcode] before test
+[2020-02-16T16:25:20,475][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testEqualsAndHashcode] after test
+[2020-02-16T16:25:20,478][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testFromXContentMulti] before test
+[2020-02-16T16:25:20,480][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testFromXContentMulti] after test
+[2020-02-16T16:25:20,482][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testSerializationMulti] before test
+[2020-02-16T16:25:20,482][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testSerializationMulti] after test
+[2020-02-16T16:25:20,484][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testFromXContent] before test
+[2020-02-16T16:25:20,484][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testFromXContent] after test
+[2020-02-16T16:25:20,486][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testShallowCopy] before test
+[2020-02-16T16:25:20,486][INFO ][o.e.s.a.b.GeoDistanceRangeTests] [testShallowCopy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

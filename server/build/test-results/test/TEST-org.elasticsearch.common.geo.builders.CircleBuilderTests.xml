@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.builders.CircleBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:41" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.common.geo.builders.CircleBuilderTests" time="0.016"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.geo.builders.CircleBuilderTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.geo.builders.CircleBuilderTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T22:21:41,514][INFO ][o.e.c.g.b.CircleBuilderTests] [testFromXContent] before test
+[2020-02-16T22:21:41,527][INFO ][o.e.c.g.b.CircleBuilderTests] [testFromXContent] after test
+[2020-02-16T22:21:41,534][INFO ][o.e.c.g.b.CircleBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:21:41,536][INFO ][o.e.c.g.b.CircleBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:21:41,538][INFO ][o.e.c.g.b.CircleBuilderTests] [testSerialization] before test
+[2020-02-16T22:21:41,538][INFO ][o.e.c.g.b.CircleBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

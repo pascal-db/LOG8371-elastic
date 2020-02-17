@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.lucene.grouping.CollapsingTopDocsCollectorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:50" hostname="Escoto-PC" time="2.242">
+  <properties/>
+  <testcase name="testCollapseInt" classname="org.apache.lucene.grouping.CollapsingTopDocsCollectorTests" time="0.554"/>
+  <testcase name="testCollapseLong" classname="org.apache.lucene.grouping.CollapsingTopDocsCollectorTests" time="0.335"/>
+  <testcase name="testCollapseDouble" classname="org.apache.lucene.grouping.CollapsingTopDocsCollectorTests" time="0.647"/>
+  <testcase name="testCollapseString" classname="org.apache.lucene.grouping.CollapsingTopDocsCollectorTests" time="0.442"/>
+  <testcase name="testEmptyNumericSegment" classname="org.apache.lucene.grouping.CollapsingTopDocsCollectorTests" time="0.089"/>
+  <testcase name="testEmptySortedSegment" classname="org.apache.lucene.grouping.CollapsingTopDocsCollectorTests" time="0.017"/>
+  <testcase name="testCollapseFloat" classname="org.apache.lucene.grouping.CollapsingTopDocsCollectorTests" time="0.158"/>
+  <system-out><![CDATA[[2020-02-16T21:19:50,718][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseInt] before test
+[2020-02-16T21:19:51,265][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseInt] after test
+[2020-02-16T21:19:51,279][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseLong] before test
+[2020-02-16T21:19:51,601][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseLong] after test
+[2020-02-16T21:19:51,666][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseDouble] before test
+[2020-02-16T21:19:52,248][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseDouble] after test
+[2020-02-16T21:19:52,327][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseString] before test
+[2020-02-16T21:19:52,689][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseString] after test
+[2020-02-16T21:19:52,763][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testEmptyNumericSegment] before test
+[2020-02-16T21:19:52,779][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testEmptyNumericSegment] after test
+[2020-02-16T21:19:52,785][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testEmptySortedSegment] before test
+[2020-02-16T21:19:52,796][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testEmptySortedSegment] after test
+[2020-02-16T21:19:52,801][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseFloat] before test
+[2020-02-16T21:19:52,954][INFO ][o.a.l.g.CollapsingTopDocsCollectorTests] [testCollapseFloat] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

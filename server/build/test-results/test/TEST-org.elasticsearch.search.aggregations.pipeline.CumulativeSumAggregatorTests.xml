@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:33" hostname="Escoto-PC" time="0.15">
+  <properties/>
+  <testcase name="testValidateException" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" time="0.013"/>
+  <testcase name="testCount" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" time="0.03"/>
+  <testcase name="testValidate" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" time="0.011"/>
+  <testcase name="testMetric" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" time="0.009"/>
+  <testcase name="testDerivative" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" time="0.03"/>
+  <testcase name="testDocCount" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" time="0.008"/>
+  <testcase name="testNoBuckets" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" time="0.008"/>
+  <testcase name="testSimple" classname="org.elasticsearch.search.aggregations.pipeline.CumulativeSumAggregatorTests" time="0.03"/>
+  <system-out><![CDATA[[2020-02-16T23:25:33,312][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testValidateException] before test
+[2020-02-16T23:25:33,323][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testValidateException] after test
+[2020-02-16T23:25:33,335][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testCount] before test
+[2020-02-16T23:25:33,338][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testCount] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-16T23:25:33,363][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testCount] after test
+[2020-02-16T23:25:33,365][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testValidate] before test
+[2020-02-16T23:25:33,374][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testValidate] after test
+[2020-02-16T23:25:33,376][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testMetric] before test
+[2020-02-16T23:25:33,383][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testMetric] after test
+[2020-02-16T23:25:33,385][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testDerivative] before test
+[2020-02-16T23:25:33,413][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testDerivative] after test
+[2020-02-16T23:25:33,415][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testDocCount] before test
+[2020-02-16T23:25:33,421][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testDocCount] after test
+[2020-02-16T23:25:33,423][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testNoBuckets] before test
+[2020-02-16T23:25:33,429][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testNoBuckets] after test
+[2020-02-16T23:25:33,431][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testSimple] before test
+[2020-02-16T23:25:33,460][INFO ][o.e.s.a.p.CumulativeSumAggregatorTests] [testSimple] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

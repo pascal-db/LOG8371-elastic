@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.builders.PolygonBuilderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:42" hostname="Escoto-PC" time="0.083">
+  <properties/>
+  <testcase name="testPolygonWithUndefinedOrientationDueToCollinearPoints" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.007"/>
+  <testcase name="testCoerceHole" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.004"/>
+  <testcase name="testHoleThatIsSouthOfPolygon" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.009"/>
+  <testcase name="testWidePolygonWithConfusingOrientation" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.013"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.017"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.005"/>
+  <testcase name="testCoerceShell" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.021"/>
+  <testcase name="testHoleThatIsNorthOfPolygon" classname="org.elasticsearch.common.geo.builders.PolygonBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T03:21:42,922][INFO ][o.e.c.g.b.PolygonBuilderTests] [testPolygonWithUndefinedOrientationDueToCollinearPoints] before test
+[2020-02-17T03:21:42,923][INFO ][o.e.c.g.b.PolygonBuilderTests] [testPolygonWithUndefinedOrientationDueToCollinearPoints] after test
+[2020-02-17T03:21:42,927][INFO ][o.e.c.g.b.PolygonBuilderTests] [testCoerceHole] before test
+[2020-02-17T03:21:42,927][INFO ][o.e.c.g.b.PolygonBuilderTests] [testCoerceHole] after test
+[2020-02-17T03:21:42,933][INFO ][o.e.c.g.b.PolygonBuilderTests] [testHoleThatIsSouthOfPolygon] before test
+[2020-02-17T03:21:42,936][INFO ][o.e.c.g.b.PolygonBuilderTests] [testHoleThatIsSouthOfPolygon] after test
+[2020-02-17T03:21:42,949][INFO ][o.e.c.g.b.PolygonBuilderTests] [testWidePolygonWithConfusingOrientation] before test
+[2020-02-17T03:21:42,949][INFO ][o.e.c.g.b.PolygonBuilderTests] [testWidePolygonWithConfusingOrientation] after test
+[2020-02-17T03:21:42,954][INFO ][o.e.c.g.b.PolygonBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T03:21:42,967][INFO ][o.e.c.g.b.PolygonBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T03:21:42,968][INFO ][o.e.c.g.b.PolygonBuilderTests] [testSerialization] before test
+[2020-02-17T03:21:42,971][INFO ][o.e.c.g.b.PolygonBuilderTests] [testSerialization] after test
+[2020-02-17T03:21:42,974][INFO ][o.e.c.g.b.PolygonBuilderTests] [testCoerceShell] before test
+[2020-02-17T03:21:42,974][INFO ][o.e.c.g.b.PolygonBuilderTests] [testCoerceShell] after test
+[2020-02-17T03:21:42,988][INFO ][o.e.c.g.b.PolygonBuilderTests] [testFromXContent] before test
+[2020-02-17T03:21:42,996][INFO ][o.e.c.g.b.PolygonBuilderTests] [testFromXContent] after test
+[2020-02-17T03:21:42,998][INFO ][o.e.c.g.b.PolygonBuilderTests] [testHoleThatIsNorthOfPolygon] before test
+[2020-02-17T03:21:42,999][INFO ][o.e.c.g.b.PolygonBuilderTests] [testHoleThatIsNorthOfPolygon] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

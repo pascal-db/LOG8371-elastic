@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.DateFieldMapperTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:57" hostname="Escoto-PC" time="2.06">
+  <properties/>
+  <testcase name="testNotIndexed" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.714"/>
+  <testcase name="testMergeDate" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.11"/>
+  <testcase name="testNullValue" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.108"/>
+  <testcase name="testDefaults" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.139"/>
+  <testcase name="testNullConfigValuesFail" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.108"/>
+  <testcase name="testTimeZoneParsing" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.098"/>
+  <testcase name="testChangeFormat" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.093"/>
+  <testcase name="testEmptyName" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.085"/>
+  <testcase name="testMergeText" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.085"/>
+  <testcase name="testIllegalFormatField" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.086"/>
+  <testcase name="testIgnoreMalformed" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.096"/>
+  <testcase name="testStore" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.105"/>
+  <testcase name="testNoDocValues" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.096"/>
+  <testcase name="testChangeLocale" classname="org.elasticsearch.index.mapper.DateFieldMapperTests" time="0.136"/>
+  <system-out><![CDATA[[2020-02-16T15:22:57,726][INFO ][o.e.e.NodeEnvironment    ] [testNotIndexed] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:57,728][INFO ][o.e.e.NodeEnvironment    ] [testNotIndexed] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:57,729][INFO ][o.e.n.Node               ] [testNotIndexed] node name [node_s_0], node ID [s4UOz7HLRWOhffcpANdMkw], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[8612713252590144143]-HASH=[145EE6873A5]]
+[2020-02-16T15:22:57,730][INFO ][o.e.n.Node               ] [testNotIndexed] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T15:22:57,730][INFO ][o.e.n.Node               ] [testNotIndexed] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T15:22:57,730][INFO ][o.e.n.Node               ] [testNotIndexed] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T15:22:57,730][INFO ][o.e.p.PluginsService     ] [testNotIndexed] no modules loaded
+[2020-02-16T15:22:57,730][INFO ][o.e.p.PluginsService     ] [testNotIndexed] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-16T15:22:57,730][INFO ][o.e.p.PluginsService     ] [testNotIndexed] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T15:22:57,730][INFO ][o.e.p.PluginsService     ] [testNotIndexed] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T15:22:57,910][INFO ][o.e.d.DiscoveryModule    ] [testNotIndexed] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T15:22:57,919][INFO ][o.e.n.Node               ] [testNotIndexed] initialized
+[2020-02-16T15:22:57,919][INFO ][o.e.n.Node               ] [testNotIndexed] starting ...
+[2020-02-16T15:22:58,229][INFO ][o.e.t.TransportService   ] [testNotIndexed] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T15:22:58,236][INFO ][o.e.c.c.Coordinator      ] [testNotIndexed] setting initial configuration to VotingConfiguration{s4UOz7HLRWOhffcpANdMkw}
+[2020-02-16T15:22:58,291][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{s4UOz7HLRWOhffcpANdMkw}{iKLy8IRNSdS3Sb7IyxLc8g}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{s4UOz7HLRWOhffcpANdMkw}{iKLy8IRNSdS3Sb7IyxLc8g}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T15:22:58,305][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [ZB2tflPSQZCZgTc-R2L58w]
+[2020-02-16T15:22:58,314][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{s4UOz7HLRWOhffcpANdMkw}{iKLy8IRNSdS3Sb7IyxLc8g}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T15:22:58,315][INFO ][o.e.n.Node               ] [testNotIndexed] started
+[2020-02-16T15:22:58,320][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T15:22:58,321][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T15:22:58,331][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T15:22:58,340][INFO ][o.e.i.m.DateFieldMapperTests] [testNotIndexed] before test
+[2020-02-16T15:22:58,342][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:58,395][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:58,407][INFO ][o.e.i.m.DateFieldMapperTests] [testNotIndexed] after test
+[2020-02-16T15:22:58,407][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/7OiFtcMhQgSMCaC3ATUNZg] deleting index
+[2020-02-16T15:22:58,434][INFO ][o.e.i.m.DateFieldMapperTests] [testMergeDate] before test
+[2020-02-16T15:22:58,436][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:58,508][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:58,519][INFO ][o.e.i.m.DateFieldMapperTests] [testMergeDate] after test
+[2020-02-16T15:22:58,519][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/u0izCNrZQBKmUR1qUv30sA] deleting index
+[2020-02-16T15:22:58,544][INFO ][o.e.i.m.DateFieldMapperTests] [testNullValue] before test
+[2020-02-16T15:22:58,545][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:58,610][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:58,621][INFO ][o.e.i.m.DateFieldMapperTests] [testNullValue] after test
+[2020-02-16T15:22:58,621][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/sz8fexvqRI6e5lbvH3VcVw] deleting index
+[2020-02-16T15:22:58,652][INFO ][o.e.i.m.DateFieldMapperTests] [testDefaults] before test
+[2020-02-16T15:22:58,653][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:58,732][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:58,749][INFO ][o.e.i.m.DateFieldMapperTests] [testDefaults] after test
+[2020-02-16T15:22:58,750][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/xdDzCSyFQL6i9FYI1ciVsg] deleting index
+[2020-02-16T15:22:58,798][INFO ][o.e.i.m.DateFieldMapperTests] [testNullConfigValuesFail] before test
+[2020-02-16T15:22:58,800][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:58,860][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:58,873][INFO ][o.e.i.m.DateFieldMapperTests] [testNullConfigValuesFail] after test
+[2020-02-16T15:22:58,873][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/lmULJh0eTYKq5qMrCIK8XA] deleting index
+[2020-02-16T15:22:58,898][INFO ][o.e.i.m.DateFieldMapperTests] [testTimeZoneParsing] before test
+[2020-02-16T15:22:58,900][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:58,962][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:58,972][INFO ][o.e.i.m.DateFieldMapperTests] [testTimeZoneParsing] after test
+[2020-02-16T15:22:58,973][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/pnxQp-9pQHevfLYnqeWyEA] deleting index
+[2020-02-16T15:22:58,997][INFO ][o.e.i.m.DateFieldMapperTests] [testChangeFormat] before test
+[2020-02-16T15:22:58,998][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:59,053][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:59,064][INFO ][o.e.i.m.DateFieldMapperTests] [testChangeFormat] after test
+[2020-02-16T15:22:59,064][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/2fRZuWqERr-u75T1UFXsjA] deleting index
+[2020-02-16T15:22:59,091][INFO ][o.e.i.m.DateFieldMapperTests] [testEmptyName] before test
+[2020-02-16T15:22:59,092][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:59,144][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:59,153][INFO ][o.e.i.m.DateFieldMapperTests] [testEmptyName] after test
+[2020-02-16T15:22:59,153][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/OePFEzkbSUe5BjqYAFtdAQ] deleting index
+[2020-02-16T15:22:59,175][INFO ][o.e.i.m.DateFieldMapperTests] [testMergeText] before test
+[2020-02-16T15:22:59,176][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:59,229][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:59,239][INFO ][o.e.i.m.DateFieldMapperTests] [testMergeText] after test
+[2020-02-16T15:22:59,239][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/AcnNpUL0SMizNOVCdk19VQ] deleting index
+[2020-02-16T15:22:59,259][INFO ][o.e.i.m.DateFieldMapperTests] [testIllegalFormatField] before test
+[2020-02-16T15:22:59,262][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:59,315][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:59,324][INFO ][o.e.i.m.DateFieldMapperTests] [testIllegalFormatField] after test
+[2020-02-16T15:22:59,325][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/xdY-_GCkQZmWG9e9-1RTlA] deleting index
+[2020-02-16T15:22:59,345][INFO ][o.e.i.m.DateFieldMapperTests] [testIgnoreMalformed] before test
+[2020-02-16T15:22:59,347][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:59,406][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:59,418][INFO ][o.e.i.m.DateFieldMapperTests] [testIgnoreMalformed] after test
+[2020-02-16T15:22:59,418][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/eMOCgiV9SJ-sQoRoaXEBGg] deleting index
+[2020-02-16T15:22:59,443][INFO ][o.e.i.m.DateFieldMapperTests] [testStore] before test
+[2020-02-16T15:22:59,444][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:59,507][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:59,522][INFO ][o.e.i.m.DateFieldMapperTests] [testStore] after test
+[2020-02-16T15:22:59,522][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/M2DRDST4SE2svsdEK7WtGQ] deleting index
+[2020-02-16T15:22:59,548][INFO ][o.e.i.m.DateFieldMapperTests] [testNoDocValues] before test
+[2020-02-16T15:22:59,549][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:59,608][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:59,618][INFO ][o.e.i.m.DateFieldMapperTests] [testNoDocValues] after test
+[2020-02-16T15:22:59,619][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/puEBV7--Q-qbl6XQdNXb8g] deleting index
+[2020-02-16T15:22:59,645][INFO ][o.e.i.m.DateFieldMapperTests] [testChangeLocale] before test
+[2020-02-16T15:22:59,649][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T15:22:59,734][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T15:22:59,752][INFO ][o.e.i.m.DateFieldMapperTests] [testChangeLocale] after test
+[2020-02-16T15:22:59,752][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/FbrMldZJTcmdoldDf5EKvA] deleting index
+[2020-02-16T15:22:59,776][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T15:22:59,779][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T15:22:59,779][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T15:22:59,779][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

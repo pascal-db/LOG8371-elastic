@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.network.NetworkModuleTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.031">
+  <properties/>
+  <testcase name="testOverrideDefault" classname="org.elasticsearch.common.network.NetworkModuleTests" time="0.006"/>
+  <testcase name="testRegisterInterceptor" classname="org.elasticsearch.common.network.NetworkModuleTests" time="0.006"/>
+  <testcase name="testRegisterTransport" classname="org.elasticsearch.common.network.NetworkModuleTests" time="0.003"/>
+  <testcase name="testDefaultKeys" classname="org.elasticsearch.common.network.NetworkModuleTests" time="0.005"/>
+  <testcase name="testRegisterHttpTransport" classname="org.elasticsearch.common.network.NetworkModuleTests" time="0.011"/>
+  <system-out><![CDATA[[2020-02-16T20:20:47,830][INFO ][o.e.c.n.NetworkModuleTests] [testOverrideDefault] before test
+[2020-02-16T20:20:47,833][INFO ][o.e.c.n.NetworkModuleTests] [testOverrideDefault] after test
+[2020-02-16T20:20:47,838][INFO ][o.e.c.n.NetworkModuleTests] [testRegisterInterceptor] before test
+[2020-02-16T20:20:47,839][INFO ][o.e.c.n.NetworkModuleTests] [testRegisterInterceptor] after test
+[2020-02-16T20:20:47,842][INFO ][o.e.c.n.NetworkModuleTests] [testRegisterTransport] before test
+[2020-02-16T20:20:47,843][INFO ][o.e.c.n.NetworkModuleTests] [testRegisterTransport] after test
+[2020-02-16T20:20:47,845][INFO ][o.e.c.n.NetworkModuleTests] [testDefaultKeys] before test
+[2020-02-16T20:20:47,847][INFO ][o.e.c.n.NetworkModuleTests] [testDefaultKeys] after test
+[2020-02-16T20:20:47,858][INFO ][o.e.c.n.NetworkModuleTests] [testRegisterHttpTransport] before test
+[2020-02-16T20:20:47,859][INFO ][o.e.c.n.NetworkModuleTests] [testRegisterHttpTransport] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

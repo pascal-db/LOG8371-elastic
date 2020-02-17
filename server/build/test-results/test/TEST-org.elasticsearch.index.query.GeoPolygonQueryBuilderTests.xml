@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:37" hostname="Escoto-PC" time="0.332">
+  <properties/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.02"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.014"/>
+  <testcase name="testParsingAndToQuery1" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.004"/>
+  <testcase name="testParsingAndToQuery4" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.006"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.005"/>
+  <testcase name="testParsingAndToQuery2" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.003"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.003"/>
+  <testcase name="testPointValidation" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.004"/>
+  <testcase name="testInvalidOpenPolygon" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.017"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.006"/>
+  <testcase name="testIgnoreUnmapped" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.004"/>
+  <testcase name="testEmptyPolygon" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.003"/>
+  <testcase name="testInvalidClosedPolygon" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.002"/>
+  <testcase name="testNullFieldName" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.016"/>
+  <testcase name="testParsingAndToQuery3" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.033"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.022"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.007"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.009"/>
+  <testcase name="testParsingAndToQueryParsingExceptions" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.121"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.GeoPolygonQueryBuilderTests" time="0.021"/>
+  <system-out><![CDATA[[2020-02-17T06:23:37,444][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testFromJson] before test
+[2020-02-17T06:23:37,447][INFO ][o.e.p.PluginsService     ] [testFromJson] no modules loaded
+[2020-02-17T06:23:37,447][INFO ][o.e.p.PluginsService     ] [testFromJson] no plugins loaded
+[2020-02-17T06:23:37,452][INFO ][o.e.p.PluginsService     ] [testFromJson] no modules loaded
+[2020-02-17T06:23:37,452][INFO ][o.e.p.PluginsService     ] [testFromJson] no plugins loaded
+[2020-02-17T06:23:37,455][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testFromJson] after test
+[2020-02-17T06:23:37,458][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testCacheability] before test
+[2020-02-17T06:23:37,460][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testCacheability] after test
+[2020-02-17T06:23:37,462][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T06:23:37,473][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T06:23:37,477][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQuery1] before test
+[2020-02-17T06:23:37,478][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQuery1] after test
+[2020-02-17T06:23:37,481][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQuery4] before test
+[2020-02-17T06:23:37,481][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQuery4] after test
+[2020-02-17T06:23:37,483][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testSerialization] before test
+[2020-02-17T06:23:37,487][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testSerialization] after test
+[2020-02-17T06:23:37,492][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T06:23:37,493][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T06:23:37,495][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQuery2] before test
+[2020-02-17T06:23:37,496][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQuery2] after test
+[2020-02-17T06:23:37,498][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T06:23:37,498][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T06:23:37,502][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testPointValidation] before test
+[2020-02-17T06:23:37,503][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testPointValidation] after test
+[2020-02-17T06:23:37,511][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testInvalidOpenPolygon] before test
+[2020-02-17T06:23:37,520][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testInvalidOpenPolygon] after test
+[2020-02-17T06:23:37,525][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T06:23:37,526][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T06:23:37,528][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testIgnoreUnmapped] before test
+[2020-02-17T06:23:37,529][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testIgnoreUnmapped] after test
+[2020-02-17T06:23:37,532][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testEmptyPolygon] before test
+[2020-02-17T06:23:37,532][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testEmptyPolygon] after test
+[2020-02-17T06:23:37,534][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testInvalidClosedPolygon] before test
+[2020-02-17T06:23:37,534][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testInvalidClosedPolygon] after test
+[2020-02-17T06:23:37,550][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testNullFieldName] before test
+[2020-02-17T06:23:37,551][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testNullFieldName] after test
+[2020-02-17T06:23:37,553][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQuery3] before test
+[2020-02-17T06:23:37,553][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQuery3] after test
+[2020-02-17T06:23:37,555][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testToQuery] before test
+[2020-02-17T06:23:37,587][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testToQuery] after test
+[2020-02-17T06:23:37,600][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:23:37,609][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:23:37,616][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T06:23:37,617][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T06:23:37,619][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T06:23:37,626][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T06:23:37,711][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQueryParsingExceptions] before test
+[2020-02-17T06:23:37,747][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testParsingAndToQueryParsingExceptions] after test
+[2020-02-17T06:23:37,748][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T06:23:37,767][INFO ][o.e.i.q.GeoPolygonQueryBuilderTests] [testUnknownObjectException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

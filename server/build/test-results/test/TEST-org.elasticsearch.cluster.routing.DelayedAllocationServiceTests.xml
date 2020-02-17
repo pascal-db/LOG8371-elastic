@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.DelayedAllocationServiceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.889">
+  <properties/>
+  <testcase name="testNoDelayedUnassigned" classname="org.elasticsearch.cluster.routing.DelayedAllocationServiceTests" time="0.011"/>
+  <testcase name="testDelayedUnassignedScheduleReroute" classname="org.elasticsearch.cluster.routing.DelayedAllocationServiceTests" time="0.037"/>
+  <testcase name="testDelayedUnassignedScheduleRerouteAfterDelayedReroute" classname="org.elasticsearch.cluster.routing.DelayedAllocationServiceTests" time="0.835"/>
+  <testcase name="testDelayedUnassignedScheduleRerouteRescheduledOnShorterDelay" classname="org.elasticsearch.cluster.routing.DelayedAllocationServiceTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T20:20:39,646][INFO ][o.e.c.r.DelayedAllocationServiceTests] [testNoDelayedUnassigned] before test
+[2020-02-16T20:20:39,652][INFO ][o.e.c.r.a.AllocationService] [testNoDelayedUnassigned] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T20:20:39,653][INFO ][o.e.c.r.DelayedAllocationServiceTests] [testNoDelayedUnassigned] after test
+[2020-02-16T20:20:39,655][INFO ][o.e.c.r.DelayedAllocationServiceTests] [testDelayedUnassignedScheduleReroute] before test
+[2020-02-16T20:20:39,659][INFO ][o.e.c.r.a.AllocationService] [testDelayedUnassignedScheduleReroute] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T20:20:39,660][INFO ][o.e.c.r.DelayedAllocationService] [testDelayedUnassignedScheduleReroute] scheduling reroute for delayed shards in [29.2ms] (1 delayed shards)
+[2020-02-16T20:20:39,691][INFO ][o.e.c.r.DelayedAllocationServiceTests] [testDelayedUnassignedScheduleReroute] after test
+[2020-02-16T20:20:39,692][INFO ][o.e.c.r.DelayedAllocationServiceTests] [testDelayedUnassignedScheduleRerouteAfterDelayedReroute] before test
+[2020-02-16T20:20:39,696][INFO ][o.e.c.r.a.AllocationService] [testDelayedUnassignedScheduleRerouteAfterDelayedReroute] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[long_delay][0], [short_delay][0]]]).
+[2020-02-16T20:20:39,696][INFO ][o.e.c.r.DelayedAllocationService] [testDelayedUnassignedScheduleRerouteAfterDelayedReroute] scheduling reroute for delayed shards in [36.4ms] (2 delayed shards)
+[2020-02-16T20:20:39,734][INFO ][o.e.c.r.DelayedAllocationService] [testDelayedUnassignedScheduleRerouteAfterDelayedReroute] scheduling reroute for delayed shards in [790.4ms] (1 delayed shards)
+[2020-02-16T20:20:40,525][INFO ][o.e.c.r.DelayedAllocationServiceTests] [testDelayedUnassignedScheduleRerouteAfterDelayedReroute] after test
+[2020-02-16T20:20:40,527][INFO ][o.e.c.r.DelayedAllocationServiceTests] [testDelayedUnassignedScheduleRerouteRescheduledOnShorterDelay] before test
+[2020-02-16T20:20:40,531][INFO ][o.e.c.r.a.AllocationService] [testDelayedUnassignedScheduleRerouteRescheduledOnShorterDelay] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[bar][0], [foo][0]]]).
+[2020-02-16T20:20:40,531][INFO ][o.e.c.r.DelayedAllocationService] [testDelayedUnassignedScheduleRerouteRescheduledOnShorterDelay] scheduling reroute for delayed shards in [29.9s] (1 delayed shards)
+[2020-02-16T20:20:40,531][INFO ][o.e.c.r.DelayedAllocationService] [testDelayedUnassignedScheduleRerouteRescheduledOnShorterDelay] scheduling reroute for delayed shards in [27.7ms] (2 delayed shards)
+[2020-02-16T20:20:40,532][INFO ][o.e.c.r.DelayedAllocationServiceTests] [testDelayedUnassignedScheduleRerouteRescheduledOnShorterDelay] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

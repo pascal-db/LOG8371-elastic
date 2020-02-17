@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.RebalanceAfterActiveTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.034">
+  <properties/>
+  <testcase name="testRebalanceOnlyAfterAllShardsAreActive" classname="org.elasticsearch.cluster.routing.allocation.RebalanceAfterActiveTests" time="0.034"/>
+  <system-out><![CDATA[[2020-02-16T22:21:38,624][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] before test
+[2020-02-16T22:21:38,644][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] Building initial routing table
+[2020-02-16T22:21:38,644][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] start two nodes and fully start the shards
+[2020-02-16T22:21:38,644][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] start all the primary shards, replicas will start initializing
+[2020-02-16T22:21:38,645][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] now, start 8 more nodes, and check that no rebalancing/relocation have happened
+[2020-02-16T22:21:38,647][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] start the replica shards, rebalancing should start
+[2020-02-16T22:21:38,647][INFO ][o.e.c.r.a.AllocationService] [testRebalanceOnlyAfterAllShardsAreActive] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][4], [test][3], [test][2], [test][0]]]).
+[2020-02-16T22:21:38,648][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] complete relocation, other half of relocation should happen
+[2020-02-16T22:21:38,648][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] complete relocation, that's it!
+[2020-02-16T22:21:38,649][INFO ][o.e.c.r.a.RebalanceAfterActiveTests] [testRebalanceOnlyAfterAllShardsAreActive] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.snapshots.SnapshotTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:59" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testSnapshotEquals" classname="org.elasticsearch.snapshots.SnapshotTests" time="0.003"/>
+  <testcase name="testCreateSnapshotRequestDescrptions" classname="org.elasticsearch.snapshots.SnapshotTests" time="0.001"/>
+  <testcase name="testRestoreSnapshotRequestDescrptions" classname="org.elasticsearch.snapshots.SnapshotTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.snapshots.SnapshotTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T23:25:59,998][INFO ][o.e.s.SnapshotTests      ] [testSnapshotEquals] before test
+[2020-02-16T23:25:59,999][INFO ][o.e.s.SnapshotTests      ] [testSnapshotEquals] after test
+[2020-02-16T23:26:00,000][INFO ][o.e.s.SnapshotTests      ] [testCreateSnapshotRequestDescrptions] before test
+[2020-02-16T23:26:00,000][INFO ][o.e.s.SnapshotTests      ] [testCreateSnapshotRequestDescrptions] after test
+[2020-02-16T23:26:00,001][INFO ][o.e.s.SnapshotTests      ] [testRestoreSnapshotRequestDescrptions] before test
+[2020-02-16T23:26:00,001][INFO ][o.e.s.SnapshotTests      ] [testRestoreSnapshotRequestDescrptions] after test
+[2020-02-16T23:26:00,003][INFO ][o.e.s.SnapshotTests      ] [testSerialization] before test
+[2020-02-16T23:26:00,003][INFO ][o.e.s.SnapshotTests      ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

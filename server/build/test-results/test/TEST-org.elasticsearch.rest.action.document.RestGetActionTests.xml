@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.document.RestGetActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testTypeInPathWithGet" classname="org.elasticsearch.rest.action.document.RestGetActionTests" time="0.005"/>
+  <testcase name="testTypeInPathWithHead" classname="org.elasticsearch.rest.action.document.RestGetActionTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T23:25:17,866][INFO ][o.e.r.a.d.RestGetActionTests] [testTypeInPathWithGet] before test
+[2020-02-16T23:25:17,868][WARN ][o.e.d.r.a.d.RestGetAction] [testTypeInPathWithGet] [types removal] Specifying types in document get requests is deprecated, use the /{index}/_doc/{id} endpoint instead.
+[2020-02-16T23:25:17,869][INFO ][o.e.r.a.d.RestGetActionTests] [testTypeInPathWithGet] after test
+[2020-02-16T23:25:17,873][INFO ][o.e.r.a.d.RestGetActionTests] [testTypeInPathWithHead] before test
+[2020-02-16T23:25:17,875][INFO ][o.e.r.a.d.RestGetActionTests] [testTypeInPathWithHead] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

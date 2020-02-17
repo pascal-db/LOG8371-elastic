@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.discovery.PeerFinderTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.discovery.PeerFinderTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.discovery.html">org.elasticsearch.discovery</a> &gt; PeerFinderTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">27</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.113s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAddsReachableMasterFromResponse</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddsReachableNodesFromClusterState</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddsReachableNodesFromIncomingRequests</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddsReachableNodesFromUnicastHostsList</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddsReachableNodesFromUnicastHostsListProvidedLater</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddsReachablePeersFromResponse</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testChecksUnicastHostsForChanges</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeactivationClearsPastKnowledge</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDelegatesRequestHandlingWhenInactive</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDiscardsDisconnectedNodes</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotAddNonMasterEligibleNodesFromUnicastHostsList</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotAddReachableNonMasterEligibleNodesFromIncomingRequests</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotAddUnreachableNodesFromClusterState</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotAddUnreachableNodesFromIncomingRequests</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotAddUnreachableNodesFromUnicastHostsList</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotAddUnreachableSourceNodeFromIncomingRequests</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotMakeMultipleConcurrentConnectionAttemptsToOneAddress</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotReconnectToNodesOnceConnected</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotRequireAddressResolutionToSucceed</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotReturnDuplicateNodesWithDistinctAddresses</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlesDiscoveryOfMasterFromResponseFromMaster</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOnlyRequestsPeersOncePerRoundButDoesRetryNextRound</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReceivesRequestsFromTransportService</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReconnectsToDisconnectedNodes</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRequestsPeersIncludingKnownPeersInRequest</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRespondsToRequestWhenActive</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTimesOutAndRetriesConnectionsToBlackholedNodes</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T23:20:58,695][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddReachableNonMasterEligibleNodesFromIncomingRequests] before test
+[2020-02-16T23:20:58,701][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddReachableNonMasterEligibleNodesFromIncomingRequests] after test
+[2020-02-16T23:20:58,704][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddNonMasterEligibleNodesFromUnicastHostsList] before test
+[2020-02-16T23:20:58,705][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddNonMasterEligibleNodesFromUnicastHostsList] after test
+[2020-02-16T23:20:58,707][INFO ][o.e.d.PeerFinderTests    ] [testReceivesRequestsFromTransportService] before test
+[2020-02-16T23:20:58,709][INFO ][o.e.d.PeerFinderTests    ] [testReceivesRequestsFromTransportService] after test
+[2020-02-16T23:20:58,711][INFO ][o.e.d.PeerFinderTests    ] [testDeactivationClearsPastKnowledge] before test
+[2020-02-16T23:20:58,712][INFO ][o.e.d.PeerFinderTests    ] [testDeactivationClearsPastKnowledge] after test
+[2020-02-16T23:20:58,714][INFO ][o.e.d.PeerFinderTests    ] [testDelegatesRequestHandlingWhenInactive] before test
+[2020-02-16T23:20:58,718][INFO ][o.e.d.PeerFinderTests    ] [testDelegatesRequestHandlingWhenInactive] after test
+[2020-02-16T23:20:58,720][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromIncomingRequests] before test
+[2020-02-16T23:20:58,721][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromIncomingRequests] after test
+[2020-02-16T23:20:58,723][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromUnicastHostsListProvidedLater] before test
+[2020-02-16T23:20:58,724][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromUnicastHostsListProvidedLater] after test
+[2020-02-16T23:20:58,725][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotRequireAddressResolutionToSucceed] before test
+[2020-02-16T23:20:58,726][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotRequireAddressResolutionToSucceed] after test
+[2020-02-16T23:20:58,728][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromClusterState] before test
+[2020-02-16T23:20:58,729][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromClusterState] after test
+[2020-02-16T23:20:58,731][INFO ][o.e.d.PeerFinderTests    ] [testReconnectsToDisconnectedNodes] before test
+[2020-02-16T23:20:58,732][INFO ][o.e.d.PeerFinderTests    ] [testReconnectsToDisconnectedNodes] after test
+[2020-02-16T23:20:58,733][INFO ][o.e.d.PeerFinderTests    ] [testDiscardsDisconnectedNodes] before test
+[2020-02-16T23:20:58,734][INFO ][o.e.d.PeerFinderTests    ] [testDiscardsDisconnectedNodes] after test
+[2020-02-16T23:20:58,736][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableMasterFromResponse] before test
+[2020-02-16T23:20:58,739][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableMasterFromResponse] after test
+[2020-02-16T23:20:58,740][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotReconnectToNodesOnceConnected] before test
+[2020-02-16T23:20:58,741][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotReconnectToNodesOnceConnected] after test
+[2020-02-16T23:20:58,743][INFO ][o.e.d.PeerFinderTests    ] [testRequestsPeersIncludingKnownPeersInRequest] before test
+[2020-02-16T23:20:58,744][INFO ][o.e.d.PeerFinderTests    ] [testRequestsPeersIncludingKnownPeersInRequest] after test
+[2020-02-16T23:20:58,746][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromIncomingRequests] before test
+[2020-02-16T23:20:58,748][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromIncomingRequests] after test
+[2020-02-16T23:20:58,749][INFO ][o.e.d.PeerFinderTests    ] [testChecksUnicastHostsForChanges] before test
+[2020-02-16T23:20:58,751][INFO ][o.e.d.PeerFinderTests    ] [testChecksUnicastHostsForChanges] after test
+[2020-02-16T23:20:58,756][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotReturnDuplicateNodesWithDistinctAddresses] before test
+[2020-02-16T23:20:58,758][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotReturnDuplicateNodesWithDistinctAddresses] after test
+[2020-02-16T23:20:58,760][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromUnicastHostsList] before test
+[2020-02-16T23:20:58,762][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromUnicastHostsList] after test
+[2020-02-16T23:20:58,765][INFO ][o.e.d.PeerFinderTests    ] [testTimesOutAndRetriesConnectionsToBlackholedNodes] before test
+[2020-02-16T23:20:58,767][INFO ][o.e.d.PeerFinderTests    ] [testTimesOutAndRetriesConnectionsToBlackholedNodes] after test
+[2020-02-16T23:20:58,774][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromClusterState] before test
+[2020-02-16T23:20:58,776][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachableNodesFromClusterState] after test
+[2020-02-16T23:20:58,779][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableSourceNodeFromIncomingRequests] before test
+[2020-02-16T23:20:58,780][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableSourceNodeFromIncomingRequests] after test
+[2020-02-16T23:20:58,783][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotMakeMultipleConcurrentConnectionAttemptsToOneAddress] before test
+[2020-02-16T23:20:58,786][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotMakeMultipleConcurrentConnectionAttemptsToOneAddress] after test
+[2020-02-16T23:20:58,794][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachablePeersFromResponse] before test
+[2020-02-16T23:20:58,796][INFO ][o.e.d.PeerFinderTests    ] [testAddsReachablePeersFromResponse] after test
+[2020-02-16T23:20:58,798][INFO ][o.e.d.PeerFinderTests    ] [testHandlesDiscoveryOfMasterFromResponseFromMaster] before test
+[2020-02-16T23:20:58,800][INFO ][o.e.d.PeerFinderTests    ] [testHandlesDiscoveryOfMasterFromResponseFromMaster] after test
+[2020-02-16T23:20:58,804][INFO ][o.e.d.PeerFinderTests    ] [testRespondsToRequestWhenActive] before test
+[2020-02-16T23:20:58,806][INFO ][o.e.d.PeerFinderTests    ] [testRespondsToRequestWhenActive] after test
+[2020-02-16T23:20:58,809][INFO ][o.e.d.PeerFinderTests    ] [testOnlyRequestsPeersOncePerRoundButDoesRetryNextRound] before test
+[2020-02-16T23:20:58,811][INFO ][o.e.d.PeerFinderTests    ] [testOnlyRequestsPeersOncePerRoundButDoesRetryNextRound] after test
+[2020-02-16T23:20:58,813][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromUnicastHostsList] before test
+[2020-02-16T23:20:58,814][INFO ][o.e.d.PeerFinderTests    ] [testDoesNotAddUnreachableNodesFromUnicastHostsList] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

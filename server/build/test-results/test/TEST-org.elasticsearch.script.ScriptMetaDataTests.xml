@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.script.ScriptMetaDataTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.035">
+  <properties/>
+  <testcase name="testLoadEmptyScripts" classname="org.elasticsearch.script.ScriptMetaDataTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.script.ScriptMetaDataTests" time="0.01"/>
+  <testcase name="testGetScript" classname="org.elasticsearch.script.ScriptMetaDataTests" time="0.002"/>
+  <testcase name="testBuilder" classname="org.elasticsearch.script.ScriptMetaDataTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.script.ScriptMetaDataTests" time="0.008"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.script.ScriptMetaDataTests" time="0.004"/>
+  <testcase name="testDiff" classname="org.elasticsearch.script.ScriptMetaDataTests" time="0.003"/>
+  <testcase name="testFromXContentLoading" classname="org.elasticsearch.script.ScriptMetaDataTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:25:18,488][INFO ][o.e.s.ScriptMetaDataTests] [testLoadEmptyScripts] before test
+[2020-02-17T00:25:18,489][WARN ][o.e.d.s.ScriptMetaData   ] [testLoadEmptyScripts] empty templates should no longer be used
+[2020-02-17T00:25:18,490][WARN ][o.e.d.s.ScriptMetaData   ] [testLoadEmptyScripts] empty scripts should no longer be used
+[2020-02-17T00:25:18,490][WARN ][o.e.d.s.StoredScriptSource] [testLoadEmptyScripts] empty scripts should no longer be used
+[2020-02-17T00:25:18,490][WARN ][o.e.d.s.StoredScriptSource] [testLoadEmptyScripts] empty templates should no longer be used
+[2020-02-17T00:25:18,490][INFO ][o.e.s.ScriptMetaDataTests] [testLoadEmptyScripts] after test
+[2020-02-17T00:25:18,492][INFO ][o.e.s.ScriptMetaDataTests] [testFromXContent] before test
+[2020-02-17T00:25:18,500][INFO ][o.e.s.ScriptMetaDataTests] [testFromXContent] after test
+[2020-02-17T00:25:18,502][INFO ][o.e.s.ScriptMetaDataTests] [testGetScript] before test
+[2020-02-17T00:25:18,502][INFO ][o.e.s.ScriptMetaDataTests] [testGetScript] after test
+[2020-02-17T00:25:18,504][INFO ][o.e.s.ScriptMetaDataTests] [testBuilder] before test
+[2020-02-17T00:25:18,504][INFO ][o.e.s.ScriptMetaDataTests] [testBuilder] after test
+[2020-02-17T00:25:18,506][INFO ][o.e.s.ScriptMetaDataTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:25:18,512][INFO ][o.e.s.ScriptMetaDataTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:25:18,514][INFO ][o.e.s.ScriptMetaDataTests] [testSerialization] before test
+[2020-02-17T00:25:18,517][INFO ][o.e.s.ScriptMetaDataTests] [testSerialization] after test
+[2020-02-17T00:25:18,519][INFO ][o.e.s.ScriptMetaDataTests] [testDiff] before test
+[2020-02-17T00:25:18,519][INFO ][o.e.s.ScriptMetaDataTests] [testDiff] after test
+[2020-02-17T00:25:18,521][INFO ][o.e.s.ScriptMetaDataTests] [testFromXContentLoading] before test
+[2020-02-17T00:25:18,521][INFO ][o.e.s.ScriptMetaDataTests] [testFromXContentLoading] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

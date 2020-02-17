@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.bootstrap.SecurityTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:49" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testProcessExecution" classname="org.elasticsearch.bootstrap.SecurityTests" time="0.007"/>
+  <testcase name="testEnsureExists" classname="org.elasticsearch.bootstrap.SecurityTests" time="0.005"/>
+  <testcase name="testEnsureNotExists" classname="org.elasticsearch.bootstrap.SecurityTests" time="0.006"/>
+  <testcase name="testEnsureRegularFile" classname="org.elasticsearch.bootstrap.SecurityTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T16:20:49,974][INFO ][o.e.b.SecurityTests      ] [testProcessExecution] before test
+[2020-02-16T16:20:49,977][INFO ][o.e.b.SecurityTests      ] [testProcessExecution] after test
+[2020-02-16T16:20:49,980][INFO ][o.e.b.SecurityTests      ] [testEnsureExists] before test
+[2020-02-16T16:20:49,982][INFO ][o.e.b.SecurityTests      ] [testEnsureExists] after test
+[2020-02-16T16:20:49,986][INFO ][o.e.b.SecurityTests      ] [testEnsureNotExists] before test
+[2020-02-16T16:20:49,988][INFO ][o.e.b.SecurityTests      ] [testEnsureNotExists] after test
+[2020-02-16T16:20:49,990][INFO ][o.e.b.SecurityTests      ] [testEnsureRegularFile] before test
+[2020-02-16T16:20:49,996][INFO ][o.e.b.SecurityTests      ] [testEnsureRegularFile] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

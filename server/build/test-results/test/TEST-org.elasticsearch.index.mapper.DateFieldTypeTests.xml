@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.DateFieldTypeTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:18" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.003"/>
+  <testcase name="testTermQuery" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.001"/>
+  <testcase name="testIsFieldWithinQuery" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.006"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.001"/>
+  <testcase name="testRangeQuery" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.002"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.002"/>
+  <testcase name="testIsFieldWithinQueryEmptyReader" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.001"/>
+  <testcase name="testValueFormat" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.003"/>
+  <testcase name="testDateNanoDocValues" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.004"/>
+  <testcase name="testValueForSearch" classname="org.elasticsearch.index.mapper.DateFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:22:18,213][INFO ][o.e.i.m.DateFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T19:22:18,214][INFO ][o.e.i.m.DateFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T19:22:18,215][INFO ][o.e.i.m.DateFieldTypeTests] [testTermQuery] before test
+[2020-02-16T19:22:18,216][INFO ][o.e.i.m.DateFieldTypeTests] [testTermQuery] after test
+[2020-02-16T19:22:18,218][INFO ][o.e.i.m.DateFieldTypeTests] [testFreeze] before test
+[2020-02-16T19:22:18,218][INFO ][o.e.i.m.DateFieldTypeTests] [testFreeze] after test
+[2020-02-16T19:22:18,219][INFO ][o.e.i.m.DateFieldTypeTests] [testEquals] before test
+[2020-02-16T19:22:18,220][INFO ][o.e.i.m.DateFieldTypeTests] [testEquals] after test
+[2020-02-16T19:22:18,221][INFO ][o.e.i.m.DateFieldTypeTests] [testIsFieldWithinQuery] before test
+[2020-02-16T19:22:18,225][INFO ][o.e.i.m.DateFieldTypeTests] [testIsFieldWithinQuery] after test
+[2020-02-16T19:22:18,226][INFO ][o.e.i.m.DateFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T19:22:18,226][INFO ][o.e.i.m.DateFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T19:22:18,228][INFO ][o.e.i.m.DateFieldTypeTests] [testRangeQuery] before test
+[2020-02-16T19:22:18,228][INFO ][o.e.i.m.DateFieldTypeTests] [testRangeQuery] after test
+[2020-02-16T19:22:18,230][INFO ][o.e.i.m.DateFieldTypeTests] [testClone] before test
+[2020-02-16T19:22:18,230][INFO ][o.e.i.m.DateFieldTypeTests] [testClone] after test
+[2020-02-16T19:22:18,231][INFO ][o.e.i.m.DateFieldTypeTests] [testIsFieldWithinQueryEmptyReader] before test
+[2020-02-16T19:22:18,232][INFO ][o.e.i.m.DateFieldTypeTests] [testIsFieldWithinQueryEmptyReader] after test
+[2020-02-16T19:22:18,233][INFO ][o.e.i.m.DateFieldTypeTests] [testValueFormat] before test
+[2020-02-16T19:22:18,234][INFO ][o.e.i.m.DateFieldTypeTests] [testValueFormat] after test
+[2020-02-16T19:22:18,235][INFO ][o.e.i.m.DateFieldTypeTests] [testDateNanoDocValues] before test
+[2020-02-16T19:22:18,238][INFO ][o.e.i.m.DateFieldTypeTests] [testDateNanoDocValues] after test
+[2020-02-16T19:22:18,240][INFO ][o.e.i.m.DateFieldTypeTests] [testValueForSearch] before test
+[2020-02-16T19:22:18,240][INFO ][o.e.i.m.DateFieldTypeTests] [testValueForSearch] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

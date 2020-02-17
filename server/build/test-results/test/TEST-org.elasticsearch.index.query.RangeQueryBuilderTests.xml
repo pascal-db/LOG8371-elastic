@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.RangeQueryBuilderTests" tests="29" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:08" hostname="Escoto-PC" time="0.121">
+  <properties/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.014"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.003"/>
+  <testcase name="testRewriteDateToMatchAllWithTimezoneAndFormat" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.012"/>
+  <testcase name="testDateRangeBoundaries" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.011"/>
+  <testcase name="testDateRangeQueryFormat" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.004"/>
+  <testcase name="testRewriteDateToSame" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testConvertNowRangeToMatchAll" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQueryNumericField" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQueryUnmappedWithTimezone" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.003"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testRewriteDateToMatchAll" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testTypeField" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testParseFailsWithMultipleFieldsWhenOneIsDate" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.003"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.01"/>
+  <testcase name="testNamedQueryParsing" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testRewriteOpenBoundsToSame" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.008"/>
+  <testcase name="testDateRangeQueryTimezone" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.002"/>
+  <testcase name="testRewriteDateToMatchNone" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.001"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.006"/>
+  <testcase name="testParseRelation" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.RangeQueryBuilderTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T17:23:08,111][INFO ][o.e.i.q.RangeQueryBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:08,113][INFO ][o.e.p.PluginsService     ] [testCacheability] no modules loaded
+[2020-02-16T17:23:08,113][INFO ][o.e.p.PluginsService     ] [testCacheability] no plugins loaded
+[2020-02-16T17:23:08,119][INFO ][o.e.p.PluginsService     ] [testCacheability] no modules loaded
+[2020-02-16T17:23:08,119][INFO ][o.e.p.PluginsService     ] [testCacheability] no plugins loaded
+[2020-02-16T17:23:08,122][INFO ][o.e.i.q.RangeQueryBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:08,125][INFO ][o.e.i.q.RangeQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:08,125][INFO ][o.e.i.q.RangeQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:08,127][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteDateToMatchAllWithTimezoneAndFormat] before test
+[2020-02-16T17:23:08,127][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteDateToMatchAllWithTimezoneAndFormat] after test
+[2020-02-16T17:23:08,129][INFO ][o.e.i.q.RangeQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:08,129][INFO ][o.e.i.q.RangeQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:23:08,131][INFO ][o.e.i.q.RangeQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T17:23:08,132][INFO ][o.e.i.q.RangeQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T17:23:08,134][INFO ][o.e.i.q.RangeQueryBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:08,144][INFO ][o.e.i.q.RangeQueryBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:08,147][INFO ][o.e.i.q.RangeQueryBuilderTests] [testDateRangeBoundaries] before test
+[2020-02-16T17:23:08,155][INFO ][o.e.i.q.RangeQueryBuilderTests] [testDateRangeBoundaries] after test
+[2020-02-16T17:23:08,157][INFO ][o.e.i.q.RangeQueryBuilderTests] [testDateRangeQueryFormat] before test
+[2020-02-16T17:23:08,159][INFO ][o.e.i.q.RangeQueryBuilderTests] [testDateRangeQueryFormat] after test
+[2020-02-16T17:23:08,162][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteDateToSame] before test
+[2020-02-16T17:23:08,162][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteDateToSame] after test
+[2020-02-16T17:23:08,164][INFO ][o.e.i.q.RangeQueryBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:08,164][INFO ][o.e.i.q.RangeQueryBuilderTests] [testSerialization] after test
+[2020-02-16T17:23:08,166][INFO ][o.e.i.q.RangeQueryBuilderTests] [testConvertNowRangeToMatchAll] before test
+[2020-02-16T17:23:08,166][INFO ][o.e.i.q.RangeQueryBuilderTests] [testConvertNowRangeToMatchAll] after test
+[2020-02-16T17:23:08,168][INFO ][o.e.i.q.RangeQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:08,169][INFO ][o.e.i.q.RangeQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:08,171][INFO ][o.e.i.q.RangeQueryBuilderTests] [testToQueryNumericField] before test
+[2020-02-16T17:23:08,171][INFO ][o.e.i.q.RangeQueryBuilderTests] [testToQueryNumericField] after test
+[2020-02-16T17:23:08,173][INFO ][o.e.i.q.RangeQueryBuilderTests] [testToQueryUnmappedWithTimezone] before test
+[2020-02-16T17:23:08,174][INFO ][o.e.i.q.RangeQueryBuilderTests] [testToQueryUnmappedWithTimezone] after test
+[2020-02-16T17:23:08,176][INFO ][o.e.i.q.RangeQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-16T17:23:08,176][INFO ][o.e.i.q.RangeQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-16T17:23:08,178][INFO ][o.e.i.q.RangeQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:08,178][INFO ][o.e.i.q.RangeQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:08,180][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteDateToMatchAll] before test
+[2020-02-16T17:23:08,180][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteDateToMatchAll] after test
+[2020-02-16T17:23:08,182][INFO ][o.e.i.q.RangeQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:08,182][INFO ][o.e.i.q.RangeQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T17:23:08,184][INFO ][o.e.i.q.RangeQueryBuilderTests] [testFromJson] before test
+[2020-02-16T17:23:08,184][INFO ][o.e.i.q.RangeQueryBuilderTests] [testFromJson] after test
+[2020-02-16T17:23:08,186][INFO ][o.e.i.q.RangeQueryBuilderTests] [testTypeField] before test
+[2020-02-16T17:23:08,186][WARN ][o.e.d.i.q.QueryShardContext] [testTypeField] [types removal] Using the _type field in queries and aggregations is deprecated, prefer to use a field instead.
+[2020-02-16T17:23:08,186][INFO ][o.e.i.q.RangeQueryBuilderTests] [testTypeField] after test
+[2020-02-16T17:23:08,189][INFO ][o.e.i.q.RangeQueryBuilderTests] [testParseFailsWithMultipleFieldsWhenOneIsDate] before test
+[2020-02-16T17:23:08,189][INFO ][o.e.i.q.RangeQueryBuilderTests] [testParseFailsWithMultipleFieldsWhenOneIsDate] after test
+[2020-02-16T17:23:08,191][INFO ][o.e.i.q.RangeQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:08,199][INFO ][o.e.i.q.RangeQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:08,201][INFO ][o.e.i.q.RangeQueryBuilderTests] [testNamedQueryParsing] before test
+[2020-02-16T17:23:08,201][INFO ][o.e.i.q.RangeQueryBuilderTests] [testNamedQueryParsing] after test
+[2020-02-16T17:23:08,209][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteOpenBoundsToSame] before test
+[2020-02-16T17:23:08,209][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteOpenBoundsToSame] after test
+[2020-02-16T17:23:08,210][INFO ][o.e.i.q.RangeQueryBuilderTests] [testDateRangeQueryTimezone] before test
+[2020-02-16T17:23:08,211][INFO ][o.e.i.q.RangeQueryBuilderTests] [testDateRangeQueryTimezone] after test
+[2020-02-16T17:23:08,212][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteDateToMatchNone] before test
+[2020-02-16T17:23:08,212][INFO ][o.e.i.q.RangeQueryBuilderTests] [testRewriteDateToMatchNone] after test
+[2020-02-16T17:23:08,219][INFO ][o.e.i.q.RangeQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:08,219][INFO ][o.e.i.q.RangeQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:08,221][INFO ][o.e.i.q.RangeQueryBuilderTests] [testParseRelation] before test
+[2020-02-16T17:23:08,222][INFO ][o.e.i.q.RangeQueryBuilderTests] [testParseRelation] after test
+[2020-02-16T17:23:08,224][INFO ][o.e.i.q.RangeQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:08,229][INFO ][o.e.i.q.RangeQueryBuilderTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

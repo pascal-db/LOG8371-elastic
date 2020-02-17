@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.MetaDataStateFormatTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:11" hostname="Escoto-PC" time="0.745">
+  <properties/>
+  <testcase name="testLoadStateWithoutMissingCustomsButPreserved" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.048"/>
+  <testcase name="testFailWriteAndReadPreviousState" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.049"/>
+  <testcase name="testVersionMismatch" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.012"/>
+  <testcase name="testReadWriteState" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.066"/>
+  <testcase name="testFailCopyTmpFileToExtraLocation" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.126"/>
+  <testcase name="testLoadStateWithoutMissingCustoms" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.1"/>
+  <testcase name="testFailWriteAndReadAnyState" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.036"/>
+  <testcase name="testReadClusterState" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.006"/>
+  <testcase name="testFailRandomlyAndReadAnyState" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.105"/>
+  <testcase name="testLoadStateWithMissingCustomsButPreserved" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.026"/>
+  <testcase name="testCorruption" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.052"/>
+  <testcase name="testLoadStateWithMissingCustomsAndNotPreserved" classname="org.elasticsearch.gateway.MetaDataStateFormatTests" time="0.118"/>
+  <system-out><![CDATA[[2020-02-16T14:21:11,875][INFO ][o.e.g.MetaDataStateFormatTests] [testLoadStateWithoutMissingCustomsButPreserved] before test
+[2020-02-16T14:21:11,920][INFO ][o.e.g.MetaDataStateFormatTests] [testLoadStateWithoutMissingCustomsButPreserved] after test
+[2020-02-16T14:21:11,922][INFO ][o.e.g.MetaDataStateFormatTests] [testFailWriteAndReadPreviousState] before test
+[2020-02-16T14:21:11,970][INFO ][o.e.g.MetaDataStateFormatTests] [testFailWriteAndReadPreviousState] after test
+[2020-02-16T14:21:11,973][INFO ][o.e.g.MetaDataStateFormatTests] [testVersionMismatch] before test
+[2020-02-16T14:21:11,983][INFO ][o.e.g.MetaDataStateFormatTests] [testVersionMismatch] after test
+[2020-02-16T14:21:11,985][INFO ][o.e.g.MetaDataStateFormatTests] [testReadWriteState] before test
+[2020-02-16T14:21:12,048][INFO ][o.e.g.MetaDataStateFormatTests] [testReadWriteState] after test
+[2020-02-16T14:21:12,050][INFO ][o.e.g.MetaDataStateFormatTests] [testFailCopyTmpFileToExtraLocation] before test
+[2020-02-16T14:21:12,174][INFO ][o.e.g.MetaDataStateFormatTests] [testFailCopyTmpFileToExtraLocation] after test
+[2020-02-16T14:21:12,176][INFO ][o.e.g.MetaDataStateFormatTests] [testLoadStateWithoutMissingCustoms] before test
+[2020-02-16T14:21:12,274][INFO ][o.e.g.MetaDataStateFormatTests] [testLoadStateWithoutMissingCustoms] after test
+[2020-02-16T14:21:12,276][INFO ][o.e.g.MetaDataStateFormatTests] [testFailWriteAndReadAnyState] before test
+[2020-02-16T14:21:12,310][INFO ][o.e.g.MetaDataStateFormatTests] [testFailWriteAndReadAnyState] after test
+[2020-02-16T14:21:12,312][INFO ][o.e.g.MetaDataStateFormatTests] [testReadClusterState] before test
+[2020-02-16T14:21:12,316][INFO ][o.e.g.MetaDataStateFormatTests] [testReadClusterState] after test
+[2020-02-16T14:21:12,318][INFO ][o.e.g.MetaDataStateFormatTests] [testFailRandomlyAndReadAnyState] before test
+[2020-02-16T14:21:12,421][INFO ][o.e.g.MetaDataStateFormatTests] [testFailRandomlyAndReadAnyState] after test
+[2020-02-16T14:21:12,423][INFO ][o.e.g.MetaDataStateFormatTests] [testLoadStateWithMissingCustomsButPreserved] before test
+[2020-02-16T14:21:12,437][WARN ][o.e.c.m.MetaData         ] [testLoadStateWithMissingCustomsButPreserved] Adding unknown custom object with type index-graveyard
+[2020-02-16T14:21:12,447][INFO ][o.e.g.MetaDataStateFormatTests] [testLoadStateWithMissingCustomsButPreserved] after test
+[2020-02-16T14:21:12,449][INFO ][o.e.g.MetaDataStateFormatTests] [testCorruption] before test
+[2020-02-16T14:21:12,499][INFO ][o.e.g.MetaDataStateFormatTests] [testCorruption] after test
+[2020-02-16T14:21:12,501][INFO ][o.e.g.MetaDataStateFormatTests] [testLoadStateWithMissingCustomsAndNotPreserved] before test
+[2020-02-16T14:21:12,607][WARN ][o.e.c.m.MetaData         ] [testLoadStateWithMissingCustomsAndNotPreserved] Skipping unknown custom object with type index-graveyard
+[2020-02-16T14:21:12,617][INFO ][o.e.g.MetaDataStateFormatTests] [testLoadStateWithMissingCustomsAndNotPreserved] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

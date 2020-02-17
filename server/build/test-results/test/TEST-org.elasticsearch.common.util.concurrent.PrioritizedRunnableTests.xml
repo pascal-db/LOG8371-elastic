@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.PrioritizedRunnableTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:51" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testGetAgeInMillis" classname="org.elasticsearch.common.util.concurrent.PrioritizedRunnableTests" time="0.004"/>
+  <testcase name="testGetAgeInMillisWithRealClock" classname="org.elasticsearch.common.util.concurrent.PrioritizedRunnableTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T12:20:51,743][INFO ][o.e.c.u.c.PrioritizedRunnableTests] [testGetAgeInMillis] before test
+[2020-02-17T12:20:51,745][INFO ][o.e.c.u.c.PrioritizedRunnableTests] [testGetAgeInMillis] after test
+[2020-02-17T12:20:51,747][INFO ][o.e.c.u.c.PrioritizedRunnableTests] [testGetAgeInMillisWithRealClock] before test
+[2020-02-17T12:20:51,748][INFO ][o.e.c.u.c.PrioritizedRunnableTests] [testGetAgeInMillisWithRealClock] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

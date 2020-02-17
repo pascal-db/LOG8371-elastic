@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.builders.EnvelopeBuilderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:44" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testInvalidConstructorArgs" classname="org.elasticsearch.common.geo.builders.EnvelopeBuilderTests" time="0.009"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.geo.builders.EnvelopeBuilderTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.common.geo.builders.EnvelopeBuilderTests" time="0.01"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.geo.builders.EnvelopeBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T16:20:44,302][INFO ][o.e.c.g.b.EnvelopeBuilderTests] [testInvalidConstructorArgs] before test
+[2020-02-16T16:20:44,305][INFO ][o.e.c.g.b.EnvelopeBuilderTests] [testInvalidConstructorArgs] after test
+[2020-02-16T16:20:44,306][INFO ][o.e.c.g.b.EnvelopeBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T16:20:44,311][INFO ][o.e.c.g.b.EnvelopeBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T16:20:44,313][INFO ][o.e.c.g.b.EnvelopeBuilderTests] [testFromXContent] before test
+[2020-02-16T16:20:44,321][INFO ][o.e.c.g.b.EnvelopeBuilderTests] [testFromXContent] after test
+[2020-02-16T16:20:44,323][INFO ][o.e.c.g.b.EnvelopeBuilderTests] [testSerialization] before test
+[2020-02-16T16:20:44,323][INFO ][o.e.c.g.b.EnvelopeBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

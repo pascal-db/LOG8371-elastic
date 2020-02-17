@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.DerivativeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:28" hostname="Escoto-PC" time="0.052">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeTests" time="0.003"/>
+  <testcase name="testValidate" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeTests" time="0.03"/>
+  <testcase name="testValidateException" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeTests" time="0.006"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-17T02:24:28,016][INFO ][o.e.s.a.p.DerivativeTests] [testFromXContent] before test
+[2020-02-17T02:24:28,017][INFO ][o.e.s.a.p.DerivativeTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "derivative" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn",
+      "gap_policy" : "skip",
+      "unit" : "-1032116870"
+    }
+  }
+}
+[2020-02-17T02:24:28,017][INFO ][o.e.s.a.p.DerivativeTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "derivative" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn",
+      "gap_policy" : "skip",
+      "unit" : "-1032116870"
+    }
+  }
+}
+[2020-02-17T02:24:28,017][INFO ][o.e.s.a.p.DerivativeTests] [testFromXContent] after test
+[2020-02-17T02:24:28,020][INFO ][o.e.s.a.p.DerivativeTests] [testValidate] before test
+[2020-02-17T02:24:28,047][INFO ][o.e.s.a.p.DerivativeTests] [testValidate] after test
+[2020-02-17T02:24:28,050][INFO ][o.e.s.a.p.DerivativeTests] [testValidateException] before test
+[2020-02-17T02:24:28,053][INFO ][o.e.s.a.p.DerivativeTests] [testValidateException] after test
+[2020-02-17T02:24:28,057][INFO ][o.e.s.a.p.DerivativeTests] [testEqualsAndHashcode] before test
+[2020-02-17T02:24:28,057][INFO ][o.e.s.a.p.DerivativeTests] [testEqualsAndHashcode] after test
+[2020-02-17T02:24:28,060][INFO ][o.e.s.a.p.DerivativeTests] [testSerialization] before test
+[2020-02-17T02:24:28,066][INFO ][o.e.s.a.p.DerivativeTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

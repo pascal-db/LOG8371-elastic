@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.HDRPercentileRanksAggregatorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:23" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testSimple" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentileRanksAggregatorTests" time="0.016"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentileRanksAggregatorTests" time="0.004"/>
+  <testcase name="testEmptyValues" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentileRanksAggregatorTests" time="0.002"/>
+  <testcase name="testNullValues" classname="org.elasticsearch.search.aggregations.metrics.HDRPercentileRanksAggregatorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:24:23,950][INFO ][o.e.s.a.m.HDRPercentileRanksAggregatorTests] [testSimple] before test
+[2020-02-16T19:24:23,964][INFO ][o.e.s.a.m.HDRPercentileRanksAggregatorTests] [testSimple] after test
+[2020-02-16T19:24:23,966][INFO ][o.e.s.a.m.HDRPercentileRanksAggregatorTests] [testEmpty] before test
+[2020-02-16T19:24:23,968][INFO ][o.e.s.a.m.HDRPercentileRanksAggregatorTests] [testEmpty] after test
+[2020-02-16T19:24:23,970][INFO ][o.e.s.a.m.HDRPercentileRanksAggregatorTests] [testEmptyValues] before test
+[2020-02-16T19:24:23,970][INFO ][o.e.s.a.m.HDRPercentileRanksAggregatorTests] [testEmptyValues] after test
+[2020-02-16T19:24:23,972][INFO ][o.e.s.a.m.HDRPercentileRanksAggregatorTests] [testNullValues] before test
+[2020-02-16T19:24:23,972][INFO ][o.e.s.a.m.HDRPercentileRanksAggregatorTests] [testNullValues] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

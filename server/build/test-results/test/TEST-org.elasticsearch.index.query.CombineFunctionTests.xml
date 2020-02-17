@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.CombineFunctionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:34" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testWriteTo" classname="org.elasticsearch.index.query.CombineFunctionTests" time="0.003"/>
+  <testcase name="testFromString" classname="org.elasticsearch.index.query.CombineFunctionTests" time="0.002"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.index.query.CombineFunctionTests" time="0.001"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.index.query.CombineFunctionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T14:23:34,093][INFO ][o.e.i.q.CombineFunctionTests] [testWriteTo] before test
+[2020-02-16T14:23:34,094][INFO ][o.e.i.q.CombineFunctionTests] [testWriteTo] after test
+[2020-02-16T14:23:34,095][INFO ][o.e.i.q.CombineFunctionTests] [testFromString] before test
+[2020-02-16T14:23:34,096][INFO ][o.e.i.q.CombineFunctionTests] [testFromString] after test
+[2020-02-16T14:23:34,097][INFO ][o.e.i.q.CombineFunctionTests] [testReadFrom] before test
+[2020-02-16T14:23:34,097][INFO ][o.e.i.q.CombineFunctionTests] [testReadFrom] after test
+[2020-02-16T14:23:34,099][INFO ][o.e.i.q.CombineFunctionTests] [testValidOrdinals] before test
+[2020-02-16T14:23:34,099][INFO ][o.e.i.q.CombineFunctionTests] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

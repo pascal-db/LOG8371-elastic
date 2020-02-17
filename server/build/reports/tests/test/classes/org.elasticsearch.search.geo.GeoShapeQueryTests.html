@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.search.geo.GeoShapeQueryTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.search.geo.GeoShapeQueryTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.search.geo.html">org.elasticsearch.search.geo</a> &gt; GeoShapeQueryTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">18</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">4.589s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testContainsShapeQuery</td>
+<td class="success">0.260s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEdgeCases</td>
+<td class="success">0.130s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEnvelopeSpanningDateline</td>
+<td class="success">0.183s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExistsQuery</td>
+<td class="success">0.119s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFieldAlias</td>
+<td class="success">0.167s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexPointsFilterRectangle</td>
+<td class="success">0.666s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexedShapeReference</td>
+<td class="success">0.299s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexedShapeReferenceSourceDisabled</td>
+<td class="success">0.234s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexedShapeReferenceWithTypes</td>
+<td class="success">0.264s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNullShape</td>
+<td class="success">0.143s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPointQuery</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPointsOnly</td>
+<td class="success">0.094s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPointsOnlyExplicit</td>
+<td class="success">0.139s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testQueryRandomGeoCollection</td>
+<td class="success">0.142s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRandomGeoCollectionQuery</td>
+<td class="success">0.336s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReusableBuilder</td>
+<td class="success">0.770s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShapeFetchingPath</td>
+<td class="success">0.260s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShapeFilterWithDefinedGeoCollection</td>
+<td class="success">0.275s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T16:24:32,970][INFO ][o.e.e.NodeEnvironment    ] [testReusableBuilder] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T16:24:32,971][INFO ][o.e.e.NodeEnvironment    ] [testReusableBuilder] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T16:24:32,973][INFO ][o.e.n.Node               ] [testReusableBuilder] node name [node_s_0], node ID [x-6ZE0ePSIuqb-pHq3UlYw], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[-7488715831019162507]-HASH=[15C1B500E76]]
+[2020-02-16T16:24:32,973][INFO ][o.e.n.Node               ] [testReusableBuilder] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T16:24:32,973][INFO ][o.e.n.Node               ] [testReusableBuilder] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T16:24:32,973][INFO ][o.e.n.Node               ] [testReusableBuilder] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T16:24:32,974][INFO ][o.e.p.PluginsService     ] [testReusableBuilder] no modules loaded
+[2020-02-16T16:24:32,974][INFO ][o.e.p.PluginsService     ] [testReusableBuilder] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T16:24:32,974][INFO ][o.e.p.PluginsService     ] [testReusableBuilder] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T16:24:33,187][INFO ][o.e.d.DiscoveryModule    ] [testReusableBuilder] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T16:24:33,194][INFO ][o.e.n.Node               ] [testReusableBuilder] initialized
+[2020-02-16T16:24:33,194][INFO ][o.e.n.Node               ] [testReusableBuilder] starting ...
+[2020-02-16T16:24:33,591][INFO ][o.e.t.TransportService   ] [testReusableBuilder] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:24:33,598][INFO ][o.e.c.c.Coordinator      ] [testReusableBuilder] setting initial configuration to VotingConfiguration{x-6ZE0ePSIuqb-pHq3UlYw}
+[2020-02-16T16:24:33,680][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{x-6ZE0ePSIuqb-pHq3UlYw}{ub7s3BsWQ-KL2ZD41Gl9Cw}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{x-6ZE0ePSIuqb-pHq3UlYw}{ub7s3BsWQ-KL2ZD41Gl9Cw}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-16T16:24:33,692][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [ynrGYM4ETRSlC7rRiG7fqQ]
+[2020-02-16T16:24:33,699][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{x-6ZE0ePSIuqb-pHq3UlYw}{ub7s3BsWQ-KL2ZD41Gl9Cw}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T16:24:33,699][INFO ][o.e.n.Node               ] [testReusableBuilder] started
+[2020-02-16T16:24:33,705][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T16:24:33,706][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T16:24:33,716][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T16:24:33,727][INFO ][o.e.s.g.GeoShapeQueryTests] [testReusableBuilder] before test
+[2020-02-16T16:24:33,730][INFO ][o.e.s.g.GeoShapeQueryTests] [testReusableBuilder] after test
+[2020-02-16T16:24:33,733][INFO ][o.e.s.g.GeoShapeQueryTests] [testEnvelopeSpanningDateline] before test
+[2020-02-16T16:24:33,735][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [doc]
+[2020-02-16T16:24:33,791][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:33,861][INFO ][o.e.s.g.GeoShapeQueryTests] [testEnvelopeSpanningDateline] after test
+[2020-02-16T16:24:33,862][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/S6bJNmEdQZOeK0QL61V1hw] deleting index
+[2020-02-16T16:24:33,914][INFO ][o.e.s.g.GeoShapeQueryTests] [testIndexedShapeReference] before test
+[2020-02-16T16:24:33,916][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:33,916][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:33,917][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:33,917][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:33,918][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-16T16:24:33,935][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:33,935][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:33,935][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:33,936][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:33,988][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:33,999][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [shapes] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T16:24:34,064][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[shapes][0]]]).
+[2020-02-16T16:24:34,077][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [shapes/bNXP_A0PRNCBXd12Gwq36g] create_mapping [shape_type]
+[2020-02-16T16:24:34,118][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,118][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,119][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,119][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,120][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,120][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,120][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/FtxsyaSDTOKiRayVvpQ8Tg] update_mapping [type1]
+[2020-02-16T16:24:34,129][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,129][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,130][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,130][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,165][INFO ][o.e.s.g.GeoShapeQueryTests] [testIndexedShapeReference] after test
+[2020-02-16T16:24:34,165][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [shapes/bNXP_A0PRNCBXd12Gwq36g] deleting index
+[2020-02-16T16:24:34,165][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/FtxsyaSDTOKiRayVvpQ8Tg] deleting index
+[2020-02-16T16:24:34,214][INFO ][o.e.s.g.GeoShapeQueryTests] [testIndexedShapeReferenceSourceDisabled] before test
+[2020-02-16T16:24:34,216][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,216][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,218][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,218][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,218][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-16T16:24:34,246][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,246][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,247][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,247][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,290][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:34,301][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [shapes] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [shape_type]
+[2020-02-16T16:24:34,356][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[shapes][0]]]).
+[2020-02-16T16:24:34,368][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [shapes/3tD3R5XIR6iFLiVku8mJGg] update_mapping [shape_type]
+[2020-02-16T16:24:34,401][INFO ][o.e.s.g.GeoShapeQueryTests] [testIndexedShapeReferenceSourceDisabled] after test
+[2020-02-16T16:24:34,402][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/kWP69bzKR-OeSC7V8FlTgA] deleting index
+[2020-02-16T16:24:34,402][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [shapes/3tD3R5XIR6iFLiVku8mJGg] deleting index
+[2020-02-16T16:24:34,448][INFO ][o.e.s.g.GeoShapeQueryTests] [testIndexedShapeReferenceWithTypes] before test
+[2020-02-16T16:24:34,450][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,450][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,450][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,451][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-16T16:24:34,468][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,470][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,510][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:34,524][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [shapes] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T16:24:34,577][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[shapes][0]]]).
+[2020-02-16T16:24:34,591][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [shapes/abmh2FlcS-eieWrcnhZ3hA] create_mapping [shape_type]
+[2020-02-16T16:24:34,627][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,628][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,629][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,629][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/k4OAMkvCTOmBt0hU3jqgHA] update_mapping [type1]
+[2020-02-16T16:24:34,638][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,638][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,663][INFO ][o.e.s.g.GeoShapeQueryTests] [testIndexedShapeReferenceWithTypes] after test
+[2020-02-16T16:24:34,663][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/k4OAMkvCTOmBt0hU3jqgHA] deleting index
+[2020-02-16T16:24:34,663][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [shapes/abmh2FlcS-eieWrcnhZ3hA] deleting index
+[2020-02-16T16:24:34,712][INFO ][o.e.s.g.GeoShapeQueryTests] [testFieldAlias] before test
+[2020-02-16T16:24:34,716][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,717][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,717][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,717][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T16:24:34,761][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,761][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,762][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,762][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,810][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:34,841][INFO ][o.e.s.g.GeoShapeQueryTests] [testFieldAlias] after test
+[2020-02-16T16:24:34,841][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/x1ZcTC5bT8y5ltbORkhPdg] deleting index
+[2020-02-16T16:24:34,879][INFO ][o.e.s.g.GeoShapeQueryTests] [testContainsShapeQuery] before test
+[2020-02-16T16:24:34,882][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,883][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,883][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T16:24:34,893][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,893][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:34,917][WARN ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] unexpected error during the primary phase for action [indices:admin/seq_no/global_checkpoint_sync], request [GlobalCheckpointSyncAction.Request{shardId=[test][0], timeout=1m, index='test', waitForActiveShards=1}]
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.routing.RoutingTable.shardRoutingTable(RoutingTable.java:150) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.primary(TransportReplicationAction.java:739) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:677) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver.waitForNextChange(ClusterStateObserver.java:169) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver.waitForNextChange(ClusterStateObserver.java:120) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver.waitForNextChange(ClusterStateObserver.java:112) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.retry(TransportReplicationAction.java:793) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$1.handleException(TransportReplicationAction.java:772) [main/:?]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1120) [main/:?]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1229) [main/:?]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1203) [main/:?]
+	at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:60) [main/:?]
+	at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:56) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onFailure(TransportReplicationAction.java:409) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.handlePrimaryRequest(TransportReplicationAction.java:275) [main/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:63) [main/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:752) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:24:34,917][INFO ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] [test][0] global checkpoint sync failed
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.routing.RoutingTable.shardRoutingTable(RoutingTable.java:150) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.primary(TransportReplicationAction.java:739) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:677) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver.waitForNextChange(ClusterStateObserver.java:169) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver.waitForNextChange(ClusterStateObserver.java:120) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver.waitForNextChange(ClusterStateObserver.java:112) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.retry(TransportReplicationAction.java:793) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$1.handleException(TransportReplicationAction.java:772) [main/:?]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleException(TransportService.java:1120) [main/:?]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.processException(TransportService.java:1229) [main/:?]
+	at org.elasticsearch.transport.TransportService$DirectResponseChannel.sendResponse(TransportService.java:1203) [main/:?]
+	at org.elasticsearch.transport.TaskTransportChannel.sendResponse(TaskTransportChannel.java:60) [main/:?]
+	at org.elasticsearch.action.support.ChannelActionListener.onFailure(ChannelActionListener.java:56) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$AsyncPrimaryAction.onFailure(TransportReplicationAction.java:409) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:39) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.handlePrimaryRequest(TransportReplicationAction.java:275) [main/:?]
+	at org.elasticsearch.transport.RequestHandlerRegistry.processMessageReceived(RequestHandlerRegistry.java:63) [main/:?]
+	at org.elasticsearch.transport.TransportService$7.doRun(TransportService.java:752) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:24:34,940][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:35,086][INFO ][o.e.s.g.GeoShapeQueryTests] [testContainsShapeQuery] after test
+[2020-02-16T16:24:35,087][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/rFBvVXEZS-a1X-qR9hc6Zw] deleting index
+[2020-02-16T16:24:35,134][WARN ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] unexpected error during the primary phase for action [indices:admin/seq_no/global_checkpoint_sync], request [GlobalCheckpointSyncAction.Request{shardId=[test][0], timeout=1m, index='test', waitForActiveShards=1}]
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.postAdded(ClusterStateObserver.java:220) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$1.run(ClusterApplierService.java:299) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:24:35,134][INFO ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] [test][0] global checkpoint sync failed
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.postAdded(ClusterStateObserver.java:220) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$1.run(ClusterApplierService.java:299) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:24:35,149][INFO ][o.e.s.g.GeoShapeQueryTests] [testQueryRandomGeoCollection] before test
+[2020-02-16T16:24:35,150][INFO ][o.e.s.g.GeoShapeQueryTests] [testQueryRandomGeoCollection] Created Random GeometryCollection containing 4 shapes
+[2020-02-16T16:24:35,154][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T16:24:35,210][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:35,248][INFO ][o.e.s.g.GeoShapeQueryTests] [testQueryRandomGeoCollection] after test
+[2020-02-16T16:24:35,249][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/CYBNR_kbRiGT1sKZ2ZSpgA] deleting index
+[2020-02-16T16:24:35,282][INFO ][o.e.s.g.GeoShapeQueryTests] [testRandomGeoCollectionQuery] before test
+[2020-02-16T16:24:35,282][INFO ][o.e.s.g.GeoShapeQueryTests] [testRandomGeoCollectionQuery] Created Random GeometryCollection containing 4 shapes using default tree
+[2020-02-16T16:24:35,284][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,285][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,285][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T16:24:35,310][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,311][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,363][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:35,582][INFO ][o.e.s.g.GeoShapeQueryTests] [testRandomGeoCollectionQuery] after test
+[2020-02-16T16:24:35,583][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/mtRXOugrQu-cnnWeecRpMQ] deleting index
+[2020-02-16T16:24:35,628][INFO ][o.e.s.g.GeoShapeQueryTests] [testNullShape] before test
+[2020-02-16T16:24:35,630][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,630][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,631][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,631][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,631][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-16T16:24:35,642][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,643][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,643][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,643][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,697][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:35,733][INFO ][o.e.s.g.GeoShapeQueryTests] [testNullShape] after test
+[2020-02-16T16:24:35,733][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/T6j4EYPCSZCCo0Onpy-NZw] deleting index
+[2020-02-16T16:24:35,761][INFO ][o.e.s.g.GeoShapeQueryTests] [testPointsOnlyExplicit] before test
+[2020-02-16T16:24:35,763][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [points_only] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,763][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,763][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [distance_error_pct] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,764][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree_levels] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,764][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree_levels] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,764][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,765][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [distance_error_pct] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,765][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [points_only] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,765][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [geo_points_only] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-16T16:24:35,774][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree_levels] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,774][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,775][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [distance_error_pct] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,775][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [points_only] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,775][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree_levels] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,775][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,776][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [distance_error_pct] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,776][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [points_only] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:35,816][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[geo_points_only][0]]]).
+[2020-02-16T16:24:35,866][INFO ][o.e.s.g.GeoShapeQueryTests] [testPointsOnlyExplicit] after test
+[2020-02-16T16:24:35,866][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [geo_points_only/xxxI0vMiSe2IAAQQf0e9Hw] deleting index
+[2020-02-16T16:24:35,910][INFO ][o.e.s.g.GeoShapeQueryTests] [testExistsQuery] before test
+[2020-02-16T16:24:35,910][INFO ][o.e.s.g.GeoShapeQueryTests] [testExistsQuery] Created Random GeometryCollection containing 4 shapes
+[2020-02-16T16:24:35,912][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T16:24:35,966][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:35,991][INFO ][o.e.s.g.GeoShapeQueryTests] [testExistsQuery] after test
+[2020-02-16T16:24:35,991][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/n2Zan_2USSSeAUdqBHrW8w] deleting index
+[2020-02-16T16:24:36,018][INFO ][o.e.s.g.GeoShapeQueryTests] [testPointQuery] before test
+[2020-02-16T16:24:36,020][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,020][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,021][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T16:24:36,030][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,031][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,071][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:36,098][INFO ][o.e.s.g.GeoShapeQueryTests] [testPointQuery] after test
+[2020-02-16T16:24:36,098][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/CrfusTGKSjGFoCrBsYwRlg] deleting index
+[2020-02-16T16:24:36,127][INFO ][o.e.s.g.GeoShapeQueryTests] [testShapeFetchingPath] before test
+[2020-02-16T16:24:36,128][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [shapes] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T16:24:36,180][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[shapes][0]]]).
+[2020-02-16T16:24:36,192][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T16:24:36,245][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:36,265][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [shapes/ys7yWAO4TZyx-n0eUVlNOQ] create_mapping [type]
+[2020-02-16T16:24:36,339][INFO ][o.e.s.g.GeoShapeQueryTests] [testShapeFetchingPath] after test
+[2020-02-16T16:24:36,339][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/XdNZzGlJSJevYS5CXCQJrw] deleting index
+[2020-02-16T16:24:36,339][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [shapes/ys7yWAO4TZyx-n0eUVlNOQ] deleting index
+[2020-02-16T16:24:36,387][INFO ][o.e.s.g.GeoShapeQueryTests] [testPointsOnly] before test
+[2020-02-16T16:24:36,389][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [points_only] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,389][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,390][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [distance_error_pct] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,390][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree_levels] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,391][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,391][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree_levels] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,391][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,391][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [distance_error_pct] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,391][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [points_only] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,392][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [geo_points_only] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-16T16:24:36,402][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,402][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree_levels] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,402][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,402][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [distance_error_pct] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,402][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [points_only] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,403][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,403][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree_levels] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,403][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,403][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [distance_error_pct] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,404][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [points_only] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,446][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[geo_points_only][0]]]).
+[2020-02-16T16:24:36,457][INFO ][o.e.s.g.GeoShapeQueryTests] [testPointsOnly] after test
+[2020-02-16T16:24:36,457][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [geo_points_only/bhLXXmAFTtmO7Xj8d2rbFg] deleting index
+[2020-02-16T16:24:36,482][INFO ][o.e.s.g.GeoShapeQueryTests] [testEdgeCases] before test
+[2020-02-16T16:24:36,483][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-16T16:24:36,535][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:36,547][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/JqlLBucSR_6PNCthYDkmXg] update_mapping [type1]
+[2020-02-16T16:24:36,585][INFO ][o.e.s.g.GeoShapeQueryTests] [testEdgeCases] after test
+[2020-02-16T16:24:36,586][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/JqlLBucSR_6PNCthYDkmXg] deleting index
+[2020-02-16T16:24:36,612][INFO ][o.e.s.g.GeoShapeQueryTests] [testShapeFilterWithDefinedGeoCollection] before test
+[2020-02-16T16:24:36,613][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [shapes] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T16:24:36,673][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[shapes][0]]]).
+[2020-02-16T16:24:36,686][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [tree] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,687][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,688][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type]
+[2020-02-16T16:24:36,719][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,720][WARN ][o.e.d.i.m.LegacyGeoShapeFieldMapper] [node_s_0] Field parameter [strategy] is deprecated and will be removed in a future version.
+[2020-02-16T16:24:36,764][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:36,809][INFO ][o.e.s.g.GeoShapeQueryTests] [testShapeFilterWithDefinedGeoCollection] after test
+[2020-02-16T16:24:36,809][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Xxk477xzQDKKRVhDcpDa0A] deleting index
+[2020-02-16T16:24:36,809][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [shapes/voUXCJ8GSaq03IbO4x3_3g] deleting index
+[2020-02-16T16:24:36,905][INFO ][o.e.s.g.GeoShapeQueryTests] [testIndexPointsFilterRectangle] before test
+[2020-02-16T16:24:36,907][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-16T16:24:37,378][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T16:24:37,393][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/FAFY6lvtQMOk0pnFh-sgqA] update_mapping [type1]
+[2020-02-16T16:24:37,489][INFO ][o.e.s.g.GeoShapeQueryTests] [testIndexPointsFilterRectangle] after test
+[2020-02-16T16:24:37,489][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/FAFY6lvtQMOk0pnFh-sgqA] deleting index
+[2020-02-16T16:24:37,549][WARN ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] unexpected error during the primary phase for action [indices:admin/seq_no/global_checkpoint_sync], request [GlobalCheckpointSyncAction.Request{shardId=[test][0], timeout=1m, index='test', waitForActiveShards=1}]
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.postAdded(ClusterStateObserver.java:220) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$1.run(ClusterApplierService.java:299) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:24:37,550][INFO ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] [test][0] global checkpoint sync failed
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.postAdded(ClusterStateObserver.java:220) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$1.run(ClusterApplierService.java:299) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:24:37,551][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T16:24:37,554][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T16:24:37,554][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T16:24:37,555][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

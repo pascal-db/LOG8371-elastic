@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.discovery.FileBasedSeedHostsProviderTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.discovery.FileBasedSeedHostsProviderTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.discovery.html">org.elasticsearch.discovery</a> &gt; FileBasedSeedHostsProviderTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.170s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBuildDynamicNodes</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEmptyUnicastHostsFile</td>
+<td class="success">0.130s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidHostEntries</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSomeInvalidHostEntries</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnicastHostsDoesNotExist</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T16:22:05,827][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testEmptyUnicastHostsFile] before test
+[2020-02-16T16:22:05,953][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testEmptyUnicastHostsFile] after test
+[2020-02-16T16:22:05,955][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testSomeInvalidHostEntries] before test
+[2020-02-16T16:22:05,964][WARN ][o.e.d.FileBasedSeedHostsProviderTests] [testSomeInvalidHostEntries] failed to resolve host [192.168.0.1:9300:9300]
+java.lang.IllegalArgumentException: IPv6 addresses must be bracketed: 192.168.0.1:9300:9300
+	at org.elasticsearch.transport.TcpTransport.parse(TcpTransport.java:515) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.addressesFromString(TcpTransport.java:470) ~[main/:?]
+	at org.elasticsearch.test.transport.StubbableTransport.addressesFromString(StubbableTransport.java:121) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TransportService.addressesFromString(TransportService.java:803) ~[main/:?]
+	at org.elasticsearch.discovery.SeedHostsResolver.lambda$resolveHostsLists$0(SeedHostsResolver.java:144) ~[main/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:22:05,966][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testSomeInvalidHostEntries] after test
+[2020-02-16T16:22:05,970][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testUnicastHostsDoesNotExist] before test
+[2020-02-16T16:22:05,972][WARN ][o.e.d.FileBasedSeedHostsProvider] [testUnicastHostsDoesNotExist] expected, but did not find, a dynamic hosts list at [E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.discovery.FileBasedSeedHostsProviderTests_9EA1F2A3814E5F76-001\tempDir-004\unicast_hosts.txt]
+[2020-02-16T16:22:05,976][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testUnicastHostsDoesNotExist] after test
+[2020-02-16T16:22:05,979][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testBuildDynamicNodes] before test
+[2020-02-16T16:22:05,986][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testBuildDynamicNodes] after test
+[2020-02-16T16:22:05,988][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testInvalidHostEntries] before test
+[2020-02-16T16:22:05,992][WARN ][o.e.d.FileBasedSeedHostsProviderTests] [testInvalidHostEntries] failed to resolve host [192.168.0.1:9300:9300]
+java.lang.IllegalArgumentException: IPv6 addresses must be bracketed: 192.168.0.1:9300:9300
+	at org.elasticsearch.transport.TcpTransport.parse(TcpTransport.java:515) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.addressesFromString(TcpTransport.java:470) ~[main/:?]
+	at org.elasticsearch.test.transport.StubbableTransport.addressesFromString(StubbableTransport.java:121) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TransportService.addressesFromString(TransportService.java:803) ~[main/:?]
+	at org.elasticsearch.discovery.SeedHostsResolver.lambda$resolveHostsLists$0(SeedHostsResolver.java:144) ~[main/:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:22:05,993][INFO ][o.e.d.FileBasedSeedHostsProviderTests] [testInvalidHostEntries] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

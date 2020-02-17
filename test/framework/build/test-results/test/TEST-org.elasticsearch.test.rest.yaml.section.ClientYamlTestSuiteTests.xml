@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:51" hostname="Escoto-PC" time="0.251">
+  <properties/>
+  <testcase name="testAddingDoWithNodeSelectorWithSkip" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.033"/>
+  <testcase name="testAddingDoWithNodeSelectorWithoutSkipNodeSelector" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.003"/>
+  <testcase name="testParseTestDuplicateTestSections" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.005"/>
+  <testcase name="testAddingDoWithoutSkips" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.004"/>
+  <testcase name="testAddingDoWithHeaderWithoutSkipHeaders" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.007"/>
+  <testcase name="testAddingContainsWithSkip" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.007"/>
+  <testcase name="testAddingDoWithWarningWithSkip" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.007"/>
+  <testcase name="testParseTestSetupTeardownAndSections" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.003"/>
+  <testcase name="testParseTestSingleTestSection" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.01"/>
+  <testcase name="testAddingContainsWithoutSkipContains" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.095"/>
+  <testcase name="testAddingDoWithHeadersWithSkip" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.049"/>
+  <testcase name="testAddingDoWithWarningWithoutSkipWarnings" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.004"/>
+  <testcase name="testMultipleValidationErrors" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.009"/>
+  <testcase name="testParseTestMultipleTestSections" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSuiteTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T16:48:51,446][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithNodeSelectorWithSkip] before test
+[2020-02-16T16:48:51,452][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithNodeSelectorWithSkip] after test
+[2020-02-16T16:48:51,454][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithNodeSelectorWithoutSkipNodeSelector] before test
+[2020-02-16T16:48:51,455][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithNodeSelectorWithoutSkipNodeSelector] after test
+[2020-02-16T16:48:51,457][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testParseTestDuplicateTestSections] before test
+[2020-02-16T16:48:51,460][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testParseTestDuplicateTestSections] after test
+[2020-02-16T16:48:51,462][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithoutSkips] before test
+[2020-02-16T16:48:51,464][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithoutSkips] after test
+[2020-02-16T16:48:51,467][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithHeaderWithoutSkipHeaders] before test
+[2020-02-16T16:48:51,472][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithHeaderWithoutSkipHeaders] after test
+[2020-02-16T16:48:51,478][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingContainsWithSkip] before test
+[2020-02-16T16:48:51,479][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingContainsWithSkip] after test
+[2020-02-16T16:48:51,487][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithWarningWithSkip] before test
+[2020-02-16T16:48:51,487][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithWarningWithSkip] after test
+[2020-02-16T16:48:51,489][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testParseTestSetupTeardownAndSections] before test
+[2020-02-16T16:48:51,491][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testParseTestSetupTeardownAndSections] after test
+[2020-02-16T16:48:51,499][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testParseTestSingleTestSection] before test
+[2020-02-16T16:48:51,501][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testParseTestSingleTestSection] after test
+[2020-02-16T16:48:51,595][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingContainsWithoutSkipContains] before test
+[2020-02-16T16:48:51,596][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingContainsWithoutSkipContains] after test
+[2020-02-16T16:48:51,645][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithHeadersWithSkip] before test
+[2020-02-16T16:48:51,646][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithHeadersWithSkip] after test
+[2020-02-16T16:48:51,650][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithWarningWithoutSkipWarnings] before test
+[2020-02-16T16:48:51,650][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testAddingDoWithWarningWithoutSkipWarnings] after test
+[2020-02-16T16:48:51,657][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testMultipleValidationErrors] before test
+[2020-02-16T16:48:51,660][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testMultipleValidationErrors] after test
+[2020-02-16T16:48:51,666][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testParseTestMultipleTestSections] before test
+[2020-02-16T16:48:51,670][INFO ][o.e.t.r.y.s.ClientYamlTestSuiteTests] [testParseTestMultipleTestSections] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

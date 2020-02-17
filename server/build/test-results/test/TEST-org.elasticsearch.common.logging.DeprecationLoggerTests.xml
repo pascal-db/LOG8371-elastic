@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.logging.DeprecationLoggerTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:46" hostname="Escoto-PC" time="0.074">
+  <properties/>
+  <testcase name="testSafeWithoutThreadContext" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.003"/>
+  <testcase name="testFailsWhenDoubleSettingSameThreadContext" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.002"/>
+  <testcase name="testFailsWithoutThreadContextSet" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.002"/>
+  <testcase name="testWarningValueFromWarningHeader" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.002"/>
+  <testcase name="testAddsCombinedHeaderWithThreadContext" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.002"/>
+  <testcase name="testWarningHeaderCountSetting" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.002"/>
+  <testcase name="testFailsWhenRemovingUnknownThreadContext" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.003"/>
+  <testcase name="testSurrogatePair" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.002"/>
+  <testcase name="testCanRemoveThreadContext" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.003"/>
+  <testcase name="testContainingNewline" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.003"/>
+  <testcase name="testEscapeBackslashesAndQuotes" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.003"/>
+  <testcase name="testIgnoresClosedThreadContext" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.003"/>
+  <testcase name="testWarningHeaderSizeSetting" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.005"/>
+  <testcase name="testEncode" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.002"/>
+  <testcase name="testAddsHeaderWithThreadContext" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.001"/>
+  <testcase name="testLogPermissions" classname="org.elasticsearch.common.logging.DeprecationLoggerTests" time="0.035"/>
+  <system-out><![CDATA[[2020-02-17T05:20:46,155][INFO ][o.e.c.l.DeprecationLoggerTests] [testSafeWithoutThreadContext] before test
+[2020-02-17T05:20:46,157][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testSafeWithoutThreadContext] Ignored
+[2020-02-17T05:20:46,157][INFO ][o.e.c.l.DeprecationLoggerTests] [testSafeWithoutThreadContext] after test
+[2020-02-17T05:20:46,158][INFO ][o.e.c.l.DeprecationLoggerTests] [testFailsWhenDoubleSettingSameThreadContext] before test
+[2020-02-17T05:20:46,159][INFO ][o.e.c.l.DeprecationLoggerTests] [testFailsWhenDoubleSettingSameThreadContext] after test
+[2020-02-17T05:20:46,161][INFO ][o.e.c.l.DeprecationLoggerTests] [testFailsWithoutThreadContextSet] before test
+[2020-02-17T05:20:46,161][INFO ][o.e.c.l.DeprecationLoggerTests] [testFailsWithoutThreadContextSet] after test
+[2020-02-17T05:20:46,163][INFO ][o.e.c.l.DeprecationLoggerTests] [testWarningValueFromWarningHeader] before test
+[2020-02-17T05:20:46,163][INFO ][o.e.c.l.DeprecationLoggerTests] [testWarningValueFromWarningHeader] after test
+[2020-02-17T05:20:46,164][INFO ][o.e.c.l.DeprecationLoggerTests] [testAddsCombinedHeaderWithThreadContext] before test
+[2020-02-17T05:20:46,164][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testAddsCombinedHeaderWithThreadContext] A simple message [s]
+[2020-02-17T05:20:46,165][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testAddsCombinedHeaderWithThreadContext] peBXxr
+[2020-02-17T05:20:46,165][INFO ][o.e.c.l.DeprecationLoggerTests] [testAddsCombinedHeaderWithThreadContext] after test
+[2020-02-17T05:20:46,167][INFO ][o.e.c.l.DeprecationLoggerTests] [testWarningHeaderCountSetting] before test
+[2020-02-17T05:20:46,167][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testWarningHeaderCountSetting] A simple message 1
+[2020-02-17T05:20:46,167][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testWarningHeaderCountSetting] A simple message 2
+[2020-02-17T05:20:46,167][WARN ][o.e.c.u.c.ThreadContext  ] [testWarningHeaderCountSetting] Dropping a warning header, as their total count reached the maximum allowed of [2] set in [http.max_warning_header_count]!
+[2020-02-17T05:20:46,167][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testWarningHeaderCountSetting] A simple message 3
+[2020-02-17T05:20:46,167][INFO ][o.e.c.l.DeprecationLoggerTests] [testWarningHeaderCountSetting] after test
+[2020-02-17T05:20:46,169][INFO ][o.e.c.l.DeprecationLoggerTests] [testFailsWhenRemovingUnknownThreadContext] before test
+[2020-02-17T05:20:46,169][INFO ][o.e.c.l.DeprecationLoggerTests] [testFailsWhenRemovingUnknownThreadContext] after test
+[2020-02-17T05:20:46,171][INFO ][o.e.c.l.DeprecationLoggerTests] [testSurrogatePair] before test
+[2020-02-17T05:20:46,171][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testSurrogatePair] this message contains a surrogate pair ?
+[2020-02-17T05:20:46,172][INFO ][o.e.c.l.DeprecationLoggerTests] [testSurrogatePair] after test
+[2020-02-17T05:20:46,174][INFO ][o.e.c.l.DeprecationLoggerTests] [testCanRemoveThreadContext] before test
+[2020-02-17T05:20:46,174][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testCanRemoveThreadContext] testCanRemoveThreadContext
+[2020-02-17T05:20:46,174][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testCanRemoveThreadContext] testCannotRemoveThreadContext
+[2020-02-17T05:20:46,174][INFO ][o.e.c.l.DeprecationLoggerTests] [testCanRemoveThreadContext] after test
+[2020-02-17T05:20:46,177][INFO ][o.e.c.l.DeprecationLoggerTests] [testContainingNewline] before test
+[2020-02-17T05:20:46,177][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testContainingNewline] this message contains a newline
+
+[2020-02-17T05:20:46,178][INFO ][o.e.c.l.DeprecationLoggerTests] [testContainingNewline] after test
+[2020-02-17T05:20:46,180][INFO ][o.e.c.l.DeprecationLoggerTests] [testEscapeBackslashesAndQuotes] before test
+[2020-02-17T05:20:46,181][INFO ][o.e.c.l.DeprecationLoggerTests] [testEscapeBackslashesAndQuotes] after test
+[2020-02-17T05:20:46,183][INFO ][o.e.c.l.DeprecationLoggerTests] [testIgnoresClosedThreadContext] before test
+[2020-02-17T05:20:46,183][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testIgnoresClosedThreadContext] Ignored logger message
+[2020-02-17T05:20:46,183][INFO ][o.e.c.l.DeprecationLoggerTests] [testIgnoresClosedThreadContext] after test
+[2020-02-17T05:20:46,187][INFO ][o.e.c.l.DeprecationLoggerTests] [testWarningHeaderSizeSetting] before test
+[2020-02-17T05:20:46,188][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testWarningHeaderSizeSetting] ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????1
+[2020-02-17T05:20:46,188][WARN ][o.e.c.u.c.ThreadContext  ] [testWarningHeaderSizeSetting] Dropping a warning header, as their total size reached the maximum allowed of [1024] bytes set in [http.max_warning_header_size]!
+[2020-02-17T05:20:46,188][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testWarningHeaderSizeSetting] ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????2
+[2020-02-17T05:20:46,189][WARN ][o.e.c.u.c.ThreadContext  ] [testWarningHeaderSizeSetting] Dropping a warning header, as their total size reached the maximum allowed of [1024] bytes set in [http.max_warning_header_size]!
+[2020-02-17T05:20:46,189][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testWarningHeaderSizeSetting] ????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????3
+[2020-02-17T05:20:46,189][INFO ][o.e.c.l.DeprecationLoggerTests] [testWarningHeaderSizeSetting] after test
+[2020-02-17T05:20:46,191][INFO ][o.e.c.l.DeprecationLoggerTests] [testEncode] before test
+[2020-02-17T05:20:46,191][INFO ][o.e.c.l.DeprecationLoggerTests] [testEncode] after test
+[2020-02-17T05:20:46,193][INFO ][o.e.c.l.DeprecationLoggerTests] [testAddsHeaderWithThreadContext] before test
+[2020-02-17T05:20:46,193][WARN ][o.e.d.c.l.DeprecationLoggerTests] [testAddsHeaderWithThreadContext] A simple message [OJ]
+[2020-02-17T05:20:46,193][INFO ][o.e.c.l.DeprecationLoggerTests] [testAddsHeaderWithThreadContext] after test
+[2020-02-17T05:20:46,195][INFO ][o.e.c.l.DeprecationLoggerTests] [testLogPermissions] before test
+[2020-02-17T05:20:46,228][INFO ][o.e.c.l.DeprecationLoggerTests] [testLogPermissions] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

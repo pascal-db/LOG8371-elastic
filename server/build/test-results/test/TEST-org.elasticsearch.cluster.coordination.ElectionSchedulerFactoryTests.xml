@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.ElectionSchedulerFactoryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:31" hostname="Escoto-PC" time="0.063">
+  <properties/>
+  <testcase name="testRetriesOnCorrectSchedule" classname="org.elasticsearch.cluster.coordination.ElectionSchedulerFactoryTests" time="0.016"/>
+  <testcase name="testRandomPositiveLongLessThan" classname="org.elasticsearch.cluster.coordination.ElectionSchedulerFactoryTests" time="0.04"/>
+  <testcase name="testSettingsValidation" classname="org.elasticsearch.cluster.coordination.ElectionSchedulerFactoryTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T21:21:31,474][INFO ][o.e.c.c.ElectionSchedulerFactoryTests] [testRetriesOnCorrectSchedule] before test
+[2020-02-16T21:21:31,484][INFO ][o.e.c.c.ElectionSchedulerFactoryTests] [testRetriesOnCorrectSchedule] after test
+[2020-02-16T21:21:31,525][INFO ][o.e.c.c.ElectionSchedulerFactoryTests] [testRandomPositiveLongLessThan] before test
+[2020-02-16T21:21:31,525][INFO ][o.e.c.c.ElectionSchedulerFactoryTests] [testRandomPositiveLongLessThan] after test
+[2020-02-16T21:21:31,530][INFO ][o.e.c.c.ElectionSchedulerFactoryTests] [testSettingsValidation] before test
+[2020-02-16T21:21:31,531][INFO ][o.e.c.c.ElectionSchedulerFactoryTests] [testSettingsValidation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

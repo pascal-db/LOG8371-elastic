@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.ValueCountTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:33" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.metrics.ValueCountTests" time="0.011"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.ValueCountTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.ValueCountTests" time="0.001"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.metrics.ValueCountTests" time="0.001"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.metrics.ValueCountTests" time="0.002"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.metrics.ValueCountTests" time="0.001"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.ValueCountTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:25:33,075][INFO ][o.e.s.a.m.ValueCountTests] [testFromXContentMulti] before test
+[2020-02-17T01:25:33,076][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T01:25:33,076][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T01:25:33,082][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T01:25:33,082][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T01:25:33,084][INFO ][o.e.s.a.m.ValueCountTests] [testFromXContentMulti] after test
+[2020-02-17T01:25:33,086][INFO ][o.e.s.a.m.ValueCountTests] [testSerialization] before test
+[2020-02-17T01:25:33,086][INFO ][o.e.s.a.m.ValueCountTests] [testSerialization] after test
+[2020-02-17T01:25:33,088][INFO ][o.e.s.a.m.ValueCountTests] [testEqualsAndHashcode] before test
+[2020-02-17T01:25:33,088][INFO ][o.e.s.a.m.ValueCountTests] [testEqualsAndHashcode] after test
+[2020-02-17T01:25:33,089][INFO ][o.e.s.a.m.ValueCountTests] [testSerializationMulti] before test
+[2020-02-17T01:25:33,090][INFO ][o.e.s.a.m.ValueCountTests] [testSerializationMulti] after test
+[2020-02-17T01:25:33,091][INFO ][o.e.s.a.m.ValueCountTests] [testShallowCopy] before test
+[2020-02-17T01:25:33,091][INFO ][o.e.s.a.m.ValueCountTests] [testShallowCopy] after test
+[2020-02-17T01:25:33,092][INFO ][o.e.s.a.m.ValueCountTests] [testToString] before test
+[2020-02-17T01:25:33,093][INFO ][o.e.s.a.m.ValueCountTests] [testToString] after test
+[2020-02-17T01:25:33,095][INFO ][o.e.s.a.m.ValueCountTests] [testFromXContent] before test
+[2020-02-17T01:25:33,095][INFO ][o.e.s.a.m.ValueCountTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

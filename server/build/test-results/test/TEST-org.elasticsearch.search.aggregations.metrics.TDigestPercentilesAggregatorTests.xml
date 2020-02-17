@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.TDigestPercentilesAggregatorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:26" hostname="Escoto-PC" time="0.059">
+  <properties/>
+  <testcase name="testNoMatchingField" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentilesAggregatorTests" time="0.016"/>
+  <testcase name="testSomeMatchesNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentilesAggregatorTests" time="0.006"/>
+  <testcase name="testSomeMatchesSortedNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentilesAggregatorTests" time="0.009"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentilesAggregatorTests" time="0.011"/>
+  <testcase name="testQueryFiltering" classname="org.elasticsearch.search.aggregations.metrics.TDigestPercentilesAggregatorTests" time="0.016"/>
+  <system-out><![CDATA[[2020-02-16T17:24:26,867][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testNoMatchingField] before test
+[2020-02-16T17:24:26,874][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testNoMatchingField] after test
+[2020-02-16T17:24:26,876][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testSomeMatchesNumericDocValues] before test
+[2020-02-16T17:24:26,880][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testSomeMatchesNumericDocValues] after test
+[2020-02-16T17:24:26,883][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testSomeMatchesSortedNumericDocValues] before test
+[2020-02-16T17:24:26,889][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testSomeMatchesSortedNumericDocValues] after test
+[2020-02-16T17:24:26,894][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testNoDocs] before test
+[2020-02-16T17:24:26,900][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testNoDocs] after test
+[2020-02-16T17:24:26,907][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testQueryFiltering] before test
+[2020-02-16T17:24:26,917][INFO ][o.e.s.a.m.TDigestPercentilesAggregatorTests] [testQueryFiltering] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

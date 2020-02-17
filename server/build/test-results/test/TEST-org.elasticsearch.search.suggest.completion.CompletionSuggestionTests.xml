@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.completion.CompletionSuggestionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:51" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testReduceTiebreak" classname="org.elasticsearch.search.suggest.completion.CompletionSuggestionTests" time="0.004"/>
+  <testcase name="testReduce" classname="org.elasticsearch.search.suggest.completion.CompletionSuggestionTests" time="0.001"/>
+  <testcase name="testReduceWithDuplicates" classname="org.elasticsearch.search.suggest.completion.CompletionSuggestionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:51,711][INFO ][o.e.s.s.c.CompletionSuggestionTests] [testReduceTiebreak] before test
+[2020-02-16T18:25:51,713][INFO ][o.e.s.s.c.CompletionSuggestionTests] [testReduceTiebreak] after test
+[2020-02-16T18:25:51,714][INFO ][o.e.s.s.c.CompletionSuggestionTests] [testReduce] before test
+[2020-02-16T18:25:51,715][INFO ][o.e.s.s.c.CompletionSuggestionTests] [testReduce] after test
+[2020-02-16T18:25:51,716][INFO ][o.e.s.s.c.CompletionSuggestionTests] [testReduceWithDuplicates] before test
+[2020-02-16T18:25:51,717][INFO ][o.e.s.s.c.CompletionSuggestionTests] [testReduceWithDuplicates] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

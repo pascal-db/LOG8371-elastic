@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.profile.TimerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testExtrapolate" classname="org.elasticsearch.search.profile.TimerTests" time="0.018"/>
+  <testcase name="testTimingInterval" classname="org.elasticsearch.search.profile.TimerTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T08:24:38,356][INFO ][o.e.s.p.TimerTests       ] [testExtrapolate] before test
+[2020-02-17T08:24:38,369][INFO ][o.e.s.p.TimerTests       ] [testExtrapolate] after test
+[2020-02-17T08:24:38,371][INFO ][o.e.s.p.TimerTests       ] [testTimingInterval] before test
+[2020-02-17T08:24:38,377][INFO ][o.e.s.p.TimerTests       ] [testTimingInterval] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

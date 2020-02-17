@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:27" hostname="Escoto-PC" time="0.112">
+  <properties/>
+  <testcase name="testSomeMatchesNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.007"/>
+  <testcase name="testUnmappedMissingNumber" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.006"/>
+  <testcase name="testQueryFiltering" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.025"/>
+  <testcase name="testSomeMatchesSortedNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.013"/>
+  <testcase name="testUnmappedMissingString" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.008"/>
+  <testcase name="testQueryFiltersAll" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.01"/>
+  <testcase name="testNoMatchingField" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.008"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.024"/>
+  <testcase name="testRangeFieldValues" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.006"/>
+  <testcase name="testUnmappedMissingGeoPoint" classname="org.elasticsearch.search.aggregations.metrics.ValueCountAggregatorTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T06:24:27,308][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testSomeMatchesNumericDocValues] before test
+[2020-02-17T06:24:27,313][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testSomeMatchesNumericDocValues] after test
+[2020-02-17T06:24:27,315][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testUnmappedMissingNumber] before test
+[2020-02-17T06:24:27,319][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testUnmappedMissingNumber] after test
+[2020-02-17T06:24:27,336][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testQueryFiltering] before test
+[2020-02-17T06:24:27,344][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testQueryFiltering] after test
+[2020-02-17T06:24:27,352][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testSomeMatchesSortedNumericDocValues] before test
+[2020-02-17T06:24:27,357][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testSomeMatchesSortedNumericDocValues] after test
+[2020-02-17T06:24:27,361][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testUnmappedMissingString] before test
+[2020-02-17T06:24:27,364][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testUnmappedMissingString] after test
+[2020-02-17T06:24:27,369][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testQueryFiltersAll] before test
+[2020-02-17T06:24:27,375][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testQueryFiltersAll] after test
+[2020-02-17T06:24:27,378][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testNoMatchingField] before test
+[2020-02-17T06:24:27,383][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testNoMatchingField] after test
+[2020-02-17T06:24:27,385][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testNoDocs] before test
+[2020-02-17T06:24:27,407][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testNoDocs] after test
+[2020-02-17T06:24:27,409][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testRangeFieldValues] before test
+[2020-02-17T06:24:27,413][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testRangeFieldValues] after test
+[2020-02-17T06:24:27,414][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testUnmappedMissingGeoPoint] before test
+[2020-02-17T06:24:27,418][INFO ][o.e.s.a.m.ValueCountAggregatorTests] [testUnmappedMissingGeoPoint] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

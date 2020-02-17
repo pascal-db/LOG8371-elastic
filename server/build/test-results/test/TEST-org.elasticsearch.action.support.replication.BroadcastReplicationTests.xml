@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.replication.BroadcastReplicationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:24" hostname="Escoto-PC" time="2.019">
+  <properties/>
+  <testcase name="testNotStartedPrimary" classname="org.elasticsearch.action.support.replication.BroadcastReplicationTests" time="0.609"/>
+  <testcase name="testShardsList" classname="org.elasticsearch.action.support.replication.BroadcastReplicationTests" time="0.29"/>
+  <testcase name="testStartedPrimary" classname="org.elasticsearch.action.support.replication.BroadcastReplicationTests" time="0.361"/>
+  <testcase name="testNoShards" classname="org.elasticsearch.action.support.replication.BroadcastReplicationTests" time="0.423"/>
+  <testcase name="testResultCombine" classname="org.elasticsearch.action.support.replication.BroadcastReplicationTests" time="0.336"/>
+  <system-out><![CDATA[[2020-02-16T22:20:24,979][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNotStartedPrimary] before test
+[2020-02-16T22:20:25,532][INFO ][o.e.t.TransportService   ] [testNotStartedPrimary] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:25,534][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{Xo7YVycNRjCIrpiTDpyEzw}{0.0.0.0}{0.0.0.0:1}{dim}], current [{node_1}{VUugK8ChQfOPiM7j4nA6aw}{0.0.0.0}{0.0.0.0:3}{dim}]}, removed {{node}{Xo7YVycNRjCIrpiTDpyEzw}{0.0.0.0}{0.0.0.0:1}{dim}}, added {{node_1}{VUugK8ChQfOPiM7j4nA6aw}{0.0.0.0}{0.0.0.0:3}{dim},{node_2}{9KvmWYwfRtaUduzG8Bjlaw}{0.0.0.0}{0.0.0.0:4}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T22:20:25,535][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNotStartedPrimary] total shards: 2, 
+[2020-02-16T22:20:25,537][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNotStartedPrimary] after test
+[2020-02-16T22:20:25,539][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testShardsList] before test
+[2020-02-16T22:20:25,822][INFO ][o.e.t.TransportService   ] [testShardsList] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:25,827][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testShardsList] after test
+[2020-02-16T22:20:25,830][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testStartedPrimary] before test
+[2020-02-16T22:20:26,171][INFO ][o.e.t.TransportService   ] [testStartedPrimary] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:26,173][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{twE2_e9zRm2PRDq3_EfaYg}{0.0.0.0}{0.0.0.0:14}{dim}], current [{node_1}{DQ1c7DhVSoidTpbeD5HCPg}{0.0.0.0}{0.0.0.0:16}{dim}]}, removed {{node}{twE2_e9zRm2PRDq3_EfaYg}{0.0.0.0}{0.0.0.0:14}{dim}}, added {{node_1}{DQ1c7DhVSoidTpbeD5HCPg}{0.0.0.0}{0.0.0.0:16}{dim},{node_2}{I1qGArBVTlWK3-MnQoWnbg}{0.0.0.0}{0.0.0.0:17}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T22:20:26,182][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testStartedPrimary] total shards: 1, 
+[2020-02-16T22:20:26,188][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testStartedPrimary] after test
+[2020-02-16T22:20:26,191][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNoShards] before test
+[2020-02-16T22:20:26,609][INFO ][o.e.t.TransportService   ] [testNoShards] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:26,609][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{EO1pwJAbS-OogAl7Sgb0qw}{0.0.0.0}{0.0.0.0:21}{dim}], current []}, removed {{node}{EO1pwJAbS-OogAl7Sgb0qw}{0.0.0.0}{0.0.0.0:21}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T22:20:26,611][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testNoShards] after test
+[2020-02-16T22:20:26,612][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testResultCombine] before test
+[2020-02-16T22:20:26,944][INFO ][o.e.t.TransportService   ] [testResultCombine] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:20:26,945][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{UlykV1RsTR-N020EhKpTmA}{0.0.0.0}{0.0.0.0:24}{dim}], current [{node_1}{TGlvBcT5TOaEQhNNfftHKQ}{0.0.0.0}{0.0.0.0:26}{dim}]}, removed {{node}{UlykV1RsTR-N020EhKpTmA}{0.0.0.0}{0.0.0.0:24}{dim}}, added {{node_1}{TGlvBcT5TOaEQhNNfftHKQ}{0.0.0.0}{0.0.0.0:26}{dim},{node_2}{_7NXcnCbQTikVz1Kvy-Tbw}{0.0.0.0}{0.0.0.0:27}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T22:20:26,947][INFO ][o.e.a.s.r.BroadcastReplicationTests] [testResultCombine] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

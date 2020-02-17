@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.settings.ConsistentSettingsServiceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:51" hostname="Escoto-PC" time="0.349">
+  <properties/>
+  <testcase name="testSingleStringSetting" classname="org.elasticsearch.common.settings.ConsistentSettingsServiceTests" time="0.052"/>
+  <testcase name="testSingleAffixSetting" classname="org.elasticsearch.common.settings.ConsistentSettingsServiceTests" time="0.217"/>
+  <testcase name="testStringAndAffixSettings" classname="org.elasticsearch.common.settings.ConsistentSettingsServiceTests" time="0.079"/>
+  <system-out><![CDATA[[2020-02-16T19:21:51,847][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testSingleStringSetting] before test
+[2020-02-16T19:21:51,852][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleStringSetting] no published hash for the consistent secure setting [test.simple.foo] but it exists on the local node
+[2020-02-16T19:21:51,871][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleStringSetting] the published hash [tT3w4XIHqet/3AQwTWYOwhvJmu8hPPmPT1CSn4LCTmJsLfxzCBBkRC/TS8hThOZH3sbq4tw4Pi16QV7IdS+76A==] of the consistent secure setting [test.simple.foo] differs from the locally computed one [Tlnk2IZG8P9K+7XPfiUXl88vihOJM3cLL0MD9V60tjlfuF+DIp2WQ/4rZQhDimM0FoyMkTs7AZXXqBAgkLbP7g==]
+[2020-02-16T19:21:51,878][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleStringSetting] the published hash [tT3w4XIHqet/3AQwTWYOwhvJmu8hPPmPT1CSn4LCTmJsLfxzCBBkRC/TS8hThOZH3sbq4tw4Pi16QV7IdS+76A==] of the consistent secure setting [test.simple.foo] differs from the locally computed one [Tlnk2IZG8P9K+7XPfiUXl88vihOJM3cLL0MD9V60tjlfuF+DIp2WQ/4rZQhDimM0FoyMkTs7AZXXqBAgkLbP7g==]
+[2020-02-16T19:21:51,897][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testSingleStringSetting] after test
+[2020-02-16T19:21:51,899][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testSingleAffixSetting] before test
+[2020-02-16T19:21:51,900][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] no published hash for the consistent secure setting [test.affix.first.bar] but it exists on the local node
+[2020-02-16T19:21:51,900][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] no published hash for the consistent secure setting [test.affix.second.bar] but it exists on the local node
+[2020-02-16T19:21:51,983][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] the published hash [gZOXkFoPP7V5GJev7X4GFw06wwAjcdChLZx5hoZj6Exbj3MV8gUP0rCEuJtwiIPNXSJjlkK/G3eEOD8WwEQHLw==] of the consistent secure setting [test.affix.second.bar] differs from the locally computed one [5yeQkRs1vkYbUDaoe51rL5qGY6pvjZ2futw63KK+kBmHHNjWGtXKyv2fiJ4wPGpAJxV3g5ZknUcjiJ+IdzIhgg==]
+[2020-02-16T19:21:51,999][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] the published hash [gZOXkFoPP7V5GJev7X4GFw06wwAjcdChLZx5hoZj6Exbj3MV8gUP0rCEuJtwiIPNXSJjlkK/G3eEOD8WwEQHLw==] of the consistent secure setting [test.affix.second.bar] differs from the locally computed one [5yeQkRs1vkYbUDaoe51rL5qGY6pvjZ2futw63KK+kBmHHNjWGtXKyv2fiJ4wPGpAJxV3g5ZknUcjiJ+IdzIhgg==]
+[2020-02-16T19:21:52,061][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] no published hash for the consistent secure setting [test.affix.third.bar] but it exists on the local node
+[2020-02-16T19:21:52,108][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] the published hash [76EYQtLAes1FtBv99D5NJePJATB+DCF7CFZbmnlXDk1E5ryQtJgXFWZ2c+I8Igwz8E2dx2VYTYiCpfSChrrKUQ==] of the consistent secure setting [test.affix.second.bar] differs from the locally computed one [SBgRMhCa7a+RclLasRevEUiuQmGvZdxa8877aV7OmvpLc2OojRkhxCPSVt35PBnpVi3JeT76J5V76drXI7n1SQ==]
+[2020-02-16T19:21:52,115][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] the consistent secure setting [test.affix.first.bar] does not exist on the local node but there is a published hash for it
+[2020-02-16T19:21:52,115][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testSingleAffixSetting] after test
+[2020-02-16T19:21:52,117][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testStringAndAffixSettings] before test
+[2020-02-16T19:21:52,117][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.simple.foo] but it exists on the local node
+[2020-02-16T19:21:52,117][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.affix.foo.bar] but it exists on the local node
+[2020-02-16T19:21:52,130][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.affix.foo.bar] but it exists on the local node
+[2020-02-16T19:21:52,137][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.affix.foo.bar] but it exists on the local node
+[2020-02-16T19:21:52,144][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.simple.foo] but it exists on the local node
+[2020-02-16T19:21:52,152][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.simple.foo] but it exists on the local node
+[2020-02-16T19:21:52,194][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testStringAndAffixSettings] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

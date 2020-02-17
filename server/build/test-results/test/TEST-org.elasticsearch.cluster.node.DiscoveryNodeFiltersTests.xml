@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.035">
+  <properties/>
+  <testcase name="testNameMatch" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testHostNameFilteringMatchingAnd" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.003"/>
+  <testcase name="testIpBindFilteringMatchingOr" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testIpBindFilteringNotMatching" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.001"/>
+  <testcase name="testIpBindFilteringNotMatchingAnd" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testIdOrNameMatch" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testCommaSeparatedValuesTrimmed" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testIpPublishFilteringNotMatchingAnd" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.003"/>
+  <testcase name="testIpPublishFilteringNotMatchingOr" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testIpBindFilteringNotMatchingOr" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.001"/>
+  <testcase name="testIpPublishFilteringMatchingWildcard" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.001"/>
+  <testcase name="testIdMatch" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testIpPublishFilteringMatchingAnd" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testStarMatch" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.001"/>
+  <testcase name="testIpPublishFilteringMatchingOr" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <testcase name="testHostAddressFilteringMatchingAnd" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.001"/>
+  <testcase name="testTagAndGroupMatch" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.003"/>
+  <testcase name="testIpBindFilteringMatchingAnd" classname="org.elasticsearch.cluster.node.DiscoveryNodeFiltersTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:21:33,923][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testNameMatch] before test
+[2020-02-16T22:21:33,924][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testNameMatch] after test
+[2020-02-16T22:21:33,926][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testHostNameFilteringMatchingAnd] before test
+[2020-02-16T22:21:33,927][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testHostNameFilteringMatchingAnd] after test
+[2020-02-16T22:21:33,928][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringMatchingOr] before test
+[2020-02-16T22:21:33,928][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringMatchingOr] after test
+[2020-02-16T22:21:33,930][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringNotMatching] before test
+[2020-02-16T22:21:33,930][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringNotMatching] after test
+[2020-02-16T22:21:33,932][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringNotMatchingAnd] before test
+[2020-02-16T22:21:33,932][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringNotMatchingAnd] after test
+[2020-02-16T22:21:33,933][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIdOrNameMatch] before test
+[2020-02-16T22:21:33,934][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIdOrNameMatch] after test
+[2020-02-16T22:21:33,935][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testCommaSeparatedValuesTrimmed] before test
+[2020-02-16T22:21:33,935][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testCommaSeparatedValuesTrimmed] after test
+[2020-02-16T22:21:33,938][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringNotMatchingAnd] before test
+[2020-02-16T22:21:33,938][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringNotMatchingAnd] after test
+[2020-02-16T22:21:33,940][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringNotMatchingOr] before test
+[2020-02-16T22:21:33,940][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringNotMatchingOr] after test
+[2020-02-16T22:21:33,942][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringNotMatchingOr] before test
+[2020-02-16T22:21:33,942][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringNotMatchingOr] after test
+[2020-02-16T22:21:33,944][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringMatchingWildcard] before test
+[2020-02-16T22:21:33,944][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringMatchingWildcard] after test
+[2020-02-16T22:21:33,945][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIdMatch] before test
+[2020-02-16T22:21:33,945][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIdMatch] after test
+[2020-02-16T22:21:33,947][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringMatchingAnd] before test
+[2020-02-16T22:21:33,947][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringMatchingAnd] after test
+[2020-02-16T22:21:33,948][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testStarMatch] before test
+[2020-02-16T22:21:33,949][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testStarMatch] after test
+[2020-02-16T22:21:33,950][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringMatchingOr] before test
+[2020-02-16T22:21:33,950][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpPublishFilteringMatchingOr] after test
+[2020-02-16T22:21:33,952][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testHostAddressFilteringMatchingAnd] before test
+[2020-02-16T22:21:33,952][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testHostAddressFilteringMatchingAnd] after test
+[2020-02-16T22:21:33,954][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testTagAndGroupMatch] before test
+[2020-02-16T22:21:33,954][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testTagAndGroupMatch] after test
+[2020-02-16T22:21:33,956][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringMatchingAnd] before test
+[2020-02-16T22:21:33,956][INFO ][o.e.c.n.DiscoveryNodeFiltersTests] [testIpBindFilteringMatchingAnd] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

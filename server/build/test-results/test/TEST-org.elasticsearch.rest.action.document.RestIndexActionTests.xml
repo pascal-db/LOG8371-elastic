@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.document.RestIndexActionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testAutoIdDefaultsToOptypeIndexForOlderVersions" classname="org.elasticsearch.rest.action.document.RestIndexActionTests" time="0.009"/>
+  <testcase name="testCreateWithTypeInPath" classname="org.elasticsearch.rest.action.document.RestIndexActionTests" time="0.005"/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.document.RestIndexActionTests" time="0.003"/>
+  <testcase name="testAutoIdDefaultsToOptypeCreate" classname="org.elasticsearch.rest.action.document.RestIndexActionTests" time="0.002"/>
+  <testcase name="testCreateOpTypeValidation" classname="org.elasticsearch.rest.action.document.RestIndexActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:25:17,904][INFO ][o.e.r.a.d.RestIndexActionTests] [testAutoIdDefaultsToOptypeIndexForOlderVersions] before test
+[2020-02-16T19:25:17,908][INFO ][o.e.r.a.d.RestIndexActionTests] [testAutoIdDefaultsToOptypeIndexForOlderVersions] after test
+[2020-02-16T19:25:17,911][INFO ][o.e.r.a.d.RestIndexActionTests] [testCreateWithTypeInPath] before test
+[2020-02-16T19:25:17,912][WARN ][o.e.d.r.a.d.RestDeleteAction] [testCreateWithTypeInPath] [types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id}).
+[2020-02-16T19:25:17,913][INFO ][o.e.r.a.d.RestIndexActionTests] [testCreateWithTypeInPath] after test
+[2020-02-16T19:25:17,914][INFO ][o.e.r.a.d.RestIndexActionTests] [testTypeInPath] before test
+[2020-02-16T19:25:17,915][INFO ][o.e.r.a.d.RestIndexActionTests] [testTypeInPath] after test
+[2020-02-16T19:25:17,917][INFO ][o.e.r.a.d.RestIndexActionTests] [testAutoIdDefaultsToOptypeCreate] before test
+[2020-02-16T19:25:17,918][INFO ][o.e.r.a.d.RestIndexActionTests] [testAutoIdDefaultsToOptypeCreate] after test
+[2020-02-16T19:25:17,919][INFO ][o.e.r.a.d.RestIndexActionTests] [testCreateOpTypeValidation] before test
+[2020-02-16T19:25:17,920][INFO ][o.e.r.a.d.RestIndexActionTests] [testCreateOpTypeValidation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.analysis.AnalysisRegistryTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:12" hostname="Escoto-PC" time="0.055">
+  <properties/>
+  <testcase name="testNoTypeOrTokenizerErrorMessage" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.007"/>
+  <testcase name="testOverrideDefaultIndexAnalyzerIsUnsupported" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.004"/>
+  <testcase name="testConfigureCamelCaseTokenFilter" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.006"/>
+  <testcase name="testOverrideDefaultAnalyzer" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.004"/>
+  <testcase name="testOverrideDefaultSearchAnalyzer" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.003"/>
+  <testcase name="testDefaultAnalyzers" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.005"/>
+  <testcase name="testCloseIndexAnalyzersMultipleTimes" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.003"/>
+  <testcase name="testBuiltInAnalyzersAreCached" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.006"/>
+  <testcase name="testEnsureCloseInvocationProperlyDelegated" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.008"/>
+  <testcase name="testOverrideDefaultAnalyzerWithoutAnalysisModeAll" classname="org.elasticsearch.index.analysis.AnalysisRegistryTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T17:21:13,002][INFO ][o.e.i.a.AnalysisRegistryTests] [testNoTypeOrTokenizerErrorMessage] before test
+[2020-02-16T17:21:13,006][INFO ][o.e.i.a.AnalysisRegistryTests] [testNoTypeOrTokenizerErrorMessage] after test
+[2020-02-16T17:21:13,009][INFO ][o.e.i.a.AnalysisRegistryTests] [testOverrideDefaultIndexAnalyzerIsUnsupported] before test
+[2020-02-16T17:21:13,010][INFO ][o.e.i.a.AnalysisRegistryTests] [testOverrideDefaultIndexAnalyzerIsUnsupported] after test
+[2020-02-16T17:21:13,013][INFO ][o.e.i.a.AnalysisRegistryTests] [testConfigureCamelCaseTokenFilter] before test
+[2020-02-16T17:21:13,017][INFO ][o.e.i.a.AnalysisRegistryTests] [testConfigureCamelCaseTokenFilter] after test
+[2020-02-16T17:21:13,019][INFO ][o.e.i.a.AnalysisRegistryTests] [testOverrideDefaultAnalyzer] before test
+[2020-02-16T17:21:13,020][INFO ][o.e.i.a.AnalysisRegistryTests] [testOverrideDefaultAnalyzer] after test
+[2020-02-16T17:21:13,023][INFO ][o.e.i.a.AnalysisRegistryTests] [testOverrideDefaultSearchAnalyzer] before test
+[2020-02-16T17:21:13,024][INFO ][o.e.i.a.AnalysisRegistryTests] [testOverrideDefaultSearchAnalyzer] after test
+[2020-02-16T17:21:13,027][INFO ][o.e.i.a.AnalysisRegistryTests] [testDefaultAnalyzers] before test
+[2020-02-16T17:21:13,029][INFO ][o.e.i.a.AnalysisRegistryTests] [testDefaultAnalyzers] after test
+[2020-02-16T17:21:13,032][INFO ][o.e.i.a.AnalysisRegistryTests] [testCloseIndexAnalyzersMultipleTimes] before test
+[2020-02-16T17:21:13,033][INFO ][o.e.i.a.AnalysisRegistryTests] [testCloseIndexAnalyzersMultipleTimes] after test
+[2020-02-16T17:21:13,036][INFO ][o.e.i.a.AnalysisRegistryTests] [testBuiltInAnalyzersAreCached] before test
+[2020-02-16T17:21:13,038][INFO ][o.e.i.a.AnalysisRegistryTests] [testBuiltInAnalyzersAreCached] after test
+[2020-02-16T17:21:13,041][INFO ][o.e.i.a.AnalysisRegistryTests] [testEnsureCloseInvocationProperlyDelegated] before test
+[2020-02-16T17:21:13,047][INFO ][o.e.i.a.AnalysisRegistryTests] [testEnsureCloseInvocationProperlyDelegated] after test
+[2020-02-16T17:21:13,052][INFO ][o.e.i.a.AnalysisRegistryTests] [testOverrideDefaultAnalyzerWithoutAnalysisModeAll] before test
+[2020-02-16T17:21:13,055][INFO ][o.e.i.a.AnalysisRegistryTests] [testOverrideDefaultAnalyzerWithoutAnalysisModeAll] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

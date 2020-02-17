@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.indices.RestIndicesStatsActionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testUnrecognizedMetric" classname="org.elasticsearch.rest.action.admin.indices.RestIndicesStatsActionTests" time="0.006"/>
+  <testcase name="testAllRequestWithOtherMetrics" classname="org.elasticsearch.rest.action.admin.indices.RestIndicesStatsActionTests" time="0.003"/>
+  <testcase name="testUnrecognizedMetricDidYouMean" classname="org.elasticsearch.rest.action.admin.indices.RestIndicesStatsActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:24:04,733][INFO ][o.e.r.a.a.i.RestIndicesStatsActionTests] [testUnrecognizedMetric] before test
+[2020-02-16T22:24:04,735][INFO ][o.e.r.a.a.i.RestIndicesStatsActionTests] [testUnrecognizedMetric] after test
+[2020-02-16T22:24:04,738][INFO ][o.e.r.a.a.i.RestIndicesStatsActionTests] [testAllRequestWithOtherMetrics] before test
+[2020-02-16T22:24:04,738][INFO ][o.e.r.a.a.i.RestIndicesStatsActionTests] [testAllRequestWithOtherMetrics] after test
+[2020-02-16T22:24:04,740][INFO ][o.e.r.a.a.i.RestIndicesStatsActionTests] [testUnrecognizedMetricDidYouMean] before test
+[2020-02-16T22:24:04,741][INFO ][o.e.r.a.a.i.RestIndicesStatsActionTests] [testUnrecognizedMetricDidYouMean] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

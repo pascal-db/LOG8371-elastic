@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.breaker.HierarchyCircuitBreakerServiceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:44" hostname="Escoto-PC" time="0.051">
+  <properties/>
+  <testcase name="testParentBreaksOnRealMemoryUsage" classname="org.elasticsearch.indices.breaker.HierarchyCircuitBreakerServiceTests" time="0.006"/>
+  <testcase name="testThreadedUpdatesToChildBreakerWithParentLimit" classname="org.elasticsearch.indices.breaker.HierarchyCircuitBreakerServiceTests" time="0.022"/>
+  <testcase name="testTrippedCircuitBreakerDurability" classname="org.elasticsearch.indices.breaker.HierarchyCircuitBreakerServiceTests" time="0.003"/>
+  <testcase name="testBorrowingSiblingBreakerMemory" classname="org.elasticsearch.indices.breaker.HierarchyCircuitBreakerServiceTests" time="0.002"/>
+  <testcase name="testThreadedUpdatesToChildBreaker" classname="org.elasticsearch.indices.breaker.HierarchyCircuitBreakerServiceTests" time="0.017"/>
+  <system-out><![CDATA[[2020-02-16T12:23:44,905][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testParentBreaksOnRealMemoryUsage] before test
+[2020-02-16T12:23:44,909][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testParentBreaksOnRealMemoryUsage] after test
+[2020-02-16T12:23:44,912][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] before test
+[2020-02-16T12:23:44,917][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] --> NUM_THREADS: [4], BYTES_PER_THREAD: [1757], TOTAL_BYTES: [7028], PARENT_LIMIT: [7026], CHILD_LIMIT: [7036]
+[2020-02-16T12:23:44,917][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] --> starting threads...
+[2020-02-16T12:23:44,931][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [[Thread-720]] --> parent tripped
+[2020-02-16T12:23:44,932][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [[Thread-720]] --> parent tripped
+[2020-02-16T12:23:44,932][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] --> child breaker: used: 7026, limit: 7036
+[2020-02-16T12:23:44,932][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] --> parent tripped: 2, total trip count: 2 (expecting 1-2 for each)
+[2020-02-16T12:23:44,932][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] after test
+[2020-02-16T12:23:44,934][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testTrippedCircuitBreakerDurability] before test
+[2020-02-16T12:23:44,935][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testTrippedCircuitBreakerDurability] after test
+[2020-02-16T12:23:44,937][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testBorrowingSiblingBreakerMemory] before test
+[2020-02-16T12:23:44,938][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testBorrowingSiblingBreakerMemory] after test
+[2020-02-16T12:23:44,941][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreaker] before test
+[2020-02-16T12:23:44,953][WARN ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [[Thread-731]] [request] New used memory 20537 [20kb] for data of [test] would be larger than configured breaker: 20536 [20kb], breaking
+[2020-02-16T12:23:44,954][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreaker] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.InternalOrderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:23" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.InternalOrderTests" time="0.003"/>
+  <testcase name="testAggregationOrderEqualsAndHashCode" classname="org.elasticsearch.search.aggregations.InternalOrderTests" time="0.002"/>
+  <testcase name="testHistogramOrderBwc" classname="org.elasticsearch.search.aggregations.InternalOrderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.InternalOrderTests" time="0.005"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.InternalOrderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T00:24:23,059][INFO ][o.e.s.a.InternalOrderTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:24:23,060][INFO ][o.e.s.a.InternalOrderTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:24:23,062][INFO ][o.e.s.a.InternalOrderTests] [testAggregationOrderEqualsAndHashCode] before test
+[2020-02-17T00:24:23,062][INFO ][o.e.s.a.InternalOrderTests] [testAggregationOrderEqualsAndHashCode] after test
+[2020-02-17T00:24:23,064][INFO ][o.e.s.a.InternalOrderTests] [testHistogramOrderBwc] before test
+[2020-02-17T00:24:23,064][INFO ][o.e.s.a.InternalOrderTests] [testHistogramOrderBwc] after test
+[2020-02-17T00:24:23,066][INFO ][o.e.s.a.InternalOrderTests] [testFromXContent] before test
+[2020-02-17T00:24:23,069][INFO ][o.e.s.a.InternalOrderTests] [testFromXContent] after test
+[2020-02-17T00:24:23,072][INFO ][o.e.s.a.InternalOrderTests] [testSerialization] before test
+[2020-02-17T00:24:23,072][INFO ][o.e.s.a.InternalOrderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

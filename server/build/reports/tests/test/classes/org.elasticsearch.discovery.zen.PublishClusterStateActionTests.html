@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.discovery.zen.PublishClusterStateActionTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.discovery.zen.PublishClusterStateActionTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.discovery.zen.html">org.elasticsearch.discovery.zen</a> &gt; PublishClusterStateActionTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">10</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">11.601s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDisablingDiffPublishing</td>
+<td class="success">0.584s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailToPublishWithLessThanMinMasterNodes</td>
+<td class="success">3.146s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutOfOrderCommitMessages</td>
+<td class="success">0.350s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPublishClusterStateStats</td>
+<td class="success">0.612s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPublishingWithSendingErrors</td>
+<td class="success">2.950s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerializationFailureDuringDiffPublishing</td>
+<td class="success">0.849s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleClusterStatePublishing</td>
+<td class="success">1.120s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimultaneousClusterStatePublishing</td>
+<td class="success">0.565s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTimeoutOrCommit</td>
+<td class="success">0.798s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnexpectedDiffPublishing</td>
+<td class="success">0.627s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T16:20:59,026][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSerializationFailureDuringDiffPublishing] before test
+[2020-02-16T16:20:59,364][INFO ][o.e.t.TransportService   ] [testSerializationFailureDuringDiffPublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:20:59,836][INFO ][o.e.t.TransportService   ] [testSerializationFailureDuringDiffPublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:20:59,872][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSerializationFailureDuringDiffPublishing] after test
+[2020-02-16T16:20:59,877][INFO ][o.e.d.z.PublishClusterStateActionTests] [testTimeoutOrCommit] before test
+[2020-02-16T16:21:00,339][INFO ][o.e.t.TransportService   ] [testTimeoutOrCommit] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:00,340][WARN ][o.e.d.c.s.Settings       ] [testTimeoutOrCommit] [discovery.zen.commit_timeout] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T16:21:00,647][INFO ][o.e.t.TransportService   ] [testTimeoutOrCommit] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:00,671][INFO ][o.e.d.z.PublishClusterStateActionTests] [testTimeoutOrCommit] after test
+[2020-02-16T16:21:00,672][INFO ][o.e.d.z.PublishClusterStateActionTests] [testOutOfOrderCommitMessages] before test
+[2020-02-16T16:21:01,014][INFO ][o.e.t.TransportService   ] [testOutOfOrderCommitMessages] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:01,015][INFO ][o.e.d.z.PublishClusterStateActionTests] [testOutOfOrderCommitMessages] --&gt; publishing states
+[2020-02-16T16:21:01,016][INFO ][o.e.d.z.PublishClusterStateActionTests] [testOutOfOrderCommitMessages] --&gt; committing states
+[2020-02-16T16:21:01,020][INFO ][o.e.d.z.PublishClusterStateActionTests] [testOutOfOrderCommitMessages] after test
+[2020-02-16T16:21:01,022][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSimpleClusterStatePublishing] before test
+[2020-02-16T16:21:01,346][INFO ][o.e.t.TransportService   ] [testSimpleClusterStatePublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:01,777][INFO ][o.e.t.TransportService   ] [testSimpleClusterStatePublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:02,114][INFO ][o.e.t.TransportService   ] [testSimpleClusterStatePublishing] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T16:21:02,141][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSimpleClusterStatePublishing] after test
+[2020-02-16T16:21:02,142][INFO ][o.e.d.z.PublishClusterStateActionTests] [testUnexpectedDiffPublishing] before test
+[2020-02-16T16:21:02,467][INFO ][o.e.t.TransportService   ] [testUnexpectedDiffPublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:02,756][INFO ][o.e.t.TransportService   ] [testUnexpectedDiffPublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:02,767][INFO ][o.e.d.z.PublishClusterStateActionTests] [testUnexpectedDiffPublishing] after test
+[2020-02-16T16:21:02,769][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishClusterStateStats] before test
+[2020-02-16T16:21:03,050][INFO ][o.e.t.TransportService   ] [testPublishClusterStateStats] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:03,366][INFO ][o.e.t.TransportService   ] [testPublishClusterStateStats] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:03,379][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishClusterStateStats] after test
+[2020-02-16T16:21:03,381][INFO ][o.e.d.z.PublishClusterStateActionTests] [testFailToPublishWithLessThanMinMasterNodes] before test
+[2020-02-16T16:21:03,667][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:03,953][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:04,249][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T16:21:04,560][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11603}, bound_addresses {127.0.0.1:11603}, {[::1]:11603}
+[2020-02-16T16:21:04,883][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11604}, bound_addresses {127.0.0.1:11604}, {[::1]:11604}
+[2020-02-16T16:21:05,213][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11605}, bound_addresses {127.0.0.1:11605}, {[::1]:11605}
+[2020-02-16T16:21:05,521][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11606}, bound_addresses {127.0.0.1:11606}, {[::1]:11606}
+[2020-02-16T16:21:05,830][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11607}, bound_addresses {127.0.0.1:11607}, {[::1]:11607}
+[2020-02-16T16:21:06,144][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11608}, bound_addresses {127.0.0.1:11608}, {[::1]:11608}
+[2020-02-16T16:21:06,462][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11609}, bound_addresses {127.0.0.1:11609}, {[::1]:11609}
+[2020-02-16T16:21:06,525][INFO ][o.e.d.z.PublishClusterStateActionTests] [testFailToPublishWithLessThanMinMasterNodes] after test
+[2020-02-16T16:21:06,527][INFO ][o.e.d.z.PublishClusterStateActionTests] [testDisablingDiffPublishing] before test
+[2020-02-16T16:21:06,813][INFO ][o.e.t.TransportService   ] [testDisablingDiffPublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:06,815][WARN ][o.e.d.c.s.Settings       ] [testDisablingDiffPublishing] [discovery.zen.publish_diff.enable] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T16:21:07,100][INFO ][o.e.t.TransportService   ] [testDisablingDiffPublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:07,110][INFO ][o.e.d.z.PublishClusterStateActionTests] [testDisablingDiffPublishing] after test
+[2020-02-16T16:21:07,111][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishingWithSendingErrors] before test
+[2020-02-16T16:21:07,395][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:07,397][WARN ][o.e.d.c.s.Settings       ] [testPublishingWithSendingErrors] [discovery.zen.publish_timeout] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T16:21:07,677][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:07,942][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T16:21:08,220][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11603}, bound_addresses {127.0.0.1:11603}, {[::1]:11603}
+[2020-02-16T16:21:08,504][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11604}, bound_addresses {127.0.0.1:11604}, {[::1]:11604}
+[2020-02-16T16:21:08,776][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11605}, bound_addresses {127.0.0.1:11605}, {[::1]:11605}
+[2020-02-16T16:21:09,060][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11606}, bound_addresses {127.0.0.1:11606}, {[::1]:11606}
+[2020-02-16T16:21:09,410][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11607}, bound_addresses {127.0.0.1:11607}, {[::1]:11607}
+[2020-02-16T16:21:09,723][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11608}, bound_addresses {127.0.0.1:11608}, {[::1]:11608}
+[2020-02-16T16:21:10,010][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11609}, bound_addresses {127.0.0.1:11609}, {[::1]:11609}
+[2020-02-16T16:21:10,034][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishingWithSendingErrors] --&gt; expecting commit to fail. good nodes [6], errors [3], timeouts [0]. min_master_nodes [9]
+[2020-02-16T16:21:10,059][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishingWithSendingErrors] after test
+[2020-02-16T16:21:10,060][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSimultaneousClusterStatePublishing] before test
+[2020-02-16T16:21:10,328][INFO ][o.e.t.TransportService   ] [testSimultaneousClusterStatePublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:10,593][INFO ][o.e.t.TransportService   ] [testSimultaneousClusterStatePublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:10,625][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSimultaneousClusterStatePublishing] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

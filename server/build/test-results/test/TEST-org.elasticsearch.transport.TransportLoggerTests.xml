@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.TransportLoggerTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:09" hostname="Escoto-PC" time="0.006">
+  <properties/>
+  <testcase name="testLoggingHandler" classname="org.elasticsearch.transport.TransportLoggerTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T17:25:09,821][INFO ][o.e.t.TransportLoggerTests] [testLoggingHandler] before test
+[2020-02-16T17:25:09,824][TRACE][o.e.t.TransportLogger    ] [testLoggingHandler] Mock for TcpChannel, hashCode: 1361827418 [length: 48, request id: 0, type: request, version: 7.5.1, action: cluster:monitor/stats] READ: 48B
+[2020-02-16T17:25:09,824][TRACE][o.e.t.TransportLogger    ] [testLoggingHandler] Mock for TcpChannel, hashCode: 1946686983 [length: 48, request id: 0, type: request, version: 7.5.1, action: cluster:monitor/stats] WRITE: 48B
+[2020-02-16T17:25:09,824][INFO ][o.e.t.TransportLoggerTests] [testLoggingHandler] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

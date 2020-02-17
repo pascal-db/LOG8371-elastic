@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.snapshots.blobstore.FileInfoTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:37" hostname="Escoto-PC" time="0.215">
+  <properties/>
+  <testcase name="testInvalidFieldsInFromXContent" classname="org.elasticsearch.index.snapshots.blobstore.FileInfoTests" time="0.155"/>
+  <testcase name="testGetPartSize" classname="org.elasticsearch.index.snapshots.blobstore.FileInfoTests" time="0.004"/>
+  <testcase name="testToFromXContent" classname="org.elasticsearch.index.snapshots.blobstore.FileInfoTests" time="0.056"/>
+  <system-out><![CDATA[[2020-02-17T01:23:37,054][INFO ][o.e.i.s.b.FileInfoTests  ] [testInvalidFieldsInFromXContent] before test
+[2020-02-17T01:23:37,198][INFO ][o.e.i.s.b.FileInfoTests  ] [testInvalidFieldsInFromXContent] after test
+[2020-02-17T01:23:37,202][INFO ][o.e.i.s.b.FileInfoTests  ] [testGetPartSize] before test
+[2020-02-17T01:23:37,203][INFO ][o.e.i.s.b.FileInfoTests  ] [testGetPartSize] after test
+[2020-02-17T01:23:37,205][INFO ][o.e.i.s.b.FileInfoTests  ] [testToFromXContent] before test
+[2020-02-17T01:23:37,259][INFO ][o.e.i.s.b.FileInfoTests  ] [testToFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

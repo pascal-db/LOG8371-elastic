@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.fielddata.ordinals.MultiOrdinalsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:38" hostname="Escoto-PC" time="0.148">
+  <properties/>
+  <testcase name="testOrdinals" classname="org.elasticsearch.index.fielddata.ordinals.MultiOrdinalsTests" time="0.004"/>
+  <testcase name="testMultiValuesDocsWithOverlappingStorageArrays" classname="org.elasticsearch.index.fielddata.ordinals.MultiOrdinalsTests" time="0.003"/>
+  <testcase name="testRandomValues" classname="org.elasticsearch.index.fielddata.ordinals.MultiOrdinalsTests" time="0.141"/>
+  <system-out><![CDATA[[2020-02-16T18:22:38,509][INFO ][o.e.i.f.o.MultiOrdinalsTests] [testOrdinals] before test
+[2020-02-16T18:22:38,510][INFO ][o.e.i.f.o.MultiOrdinalsTests] [testOrdinals] after test
+[2020-02-16T18:22:38,513][INFO ][o.e.i.f.o.MultiOrdinalsTests] [testMultiValuesDocsWithOverlappingStorageArrays] before test
+[2020-02-16T18:22:38,513][INFO ][o.e.i.f.o.MultiOrdinalsTests] [testMultiValuesDocsWithOverlappingStorageArrays] after test
+[2020-02-16T18:22:38,517][INFO ][o.e.i.f.o.MultiOrdinalsTests] [testRandomValues] before test
+[2020-02-16T18:22:38,654][INFO ][o.e.i.f.o.MultiOrdinalsTests] [testRandomValues] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

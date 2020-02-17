@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.ExponentiallyWeightedMovingAverageTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:41" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testEWMA" classname="org.elasticsearch.common.ExponentiallyWeightedMovingAverageTests" time="0.004"/>
+  <testcase name="testConvergingToValue" classname="org.elasticsearch.common.ExponentiallyWeightedMovingAverageTests" time="0.006"/>
+  <testcase name="testInvalidAlpha" classname="org.elasticsearch.common.ExponentiallyWeightedMovingAverageTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:21:41,472][INFO ][o.e.c.ExponentiallyWeightedMovingAverageTests] [testEWMA] before test
+[2020-02-16T17:21:41,474][INFO ][o.e.c.ExponentiallyWeightedMovingAverageTests] [testEWMA] after test
+[2020-02-16T17:21:41,476][INFO ][o.e.c.ExponentiallyWeightedMovingAverageTests] [testConvergingToValue] before test
+[2020-02-16T17:21:41,481][INFO ][o.e.c.ExponentiallyWeightedMovingAverageTests] [testConvergingToValue] after test
+[2020-02-16T17:21:41,483][INFO ][o.e.c.ExponentiallyWeightedMovingAverageTests] [testInvalidAlpha] before test
+[2020-02-16T17:21:41,484][INFO ][o.e.c.ExponentiallyWeightedMovingAverageTests] [testInvalidAlpha] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

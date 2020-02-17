@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.UnassignedInfoTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:40" hostname="Escoto-PC" time="0.073">
+  <properties/>
+  <testcase name="testReasonOrdinalOrder" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.004"/>
+  <testcase name="testNodeLeave" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.005"/>
+  <testcase name="testReplicaAdded" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.003"/>
+  <testcase name="testAllocationStatusSerialization" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.013"/>
+  <testcase name="testStateTransitionMetaHandling" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.003"/>
+  <testcase name="testFailedShard" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.006"/>
+  <testcase name="testRemainingDelayCalculation" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.003"/>
+  <testcase name="testFindNextDelayedAllocation" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.005"/>
+  <testcase name="testIndexCreated" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.002"/>
+  <testcase name="testBwcSerialization" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.003"/>
+  <testcase name="testExistingIndexRestored" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.002"/>
+  <testcase name="testNewIndexRestored" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.004"/>
+  <testcase name="testIndexReopened" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.002"/>
+  <testcase name="testNumberOfDelayedUnassigned" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.006"/>
+  <testcase name="testClusterRecovered" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.004"/>
+  <testcase name="testDanglingIndexImported" classname="org.elasticsearch.cluster.routing.UnassignedInfoTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T08:50:40,822][INFO ][o.e.c.r.UnassignedInfoTests] [testReasonOrdinalOrder] before test
+[2020-02-17T08:50:40,822][INFO ][o.e.c.r.UnassignedInfoTests] [testReasonOrdinalOrder] after test
+[2020-02-17T08:50:40,824][INFO ][o.e.c.r.UnassignedInfoTests] [testNodeLeave] before test
+[2020-02-17T08:50:40,826][INFO ][o.e.c.r.a.AllocationService] [testNodeLeave] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:50:40,827][INFO ][o.e.c.r.UnassignedInfoTests] [testNodeLeave] after test
+[2020-02-17T08:50:40,828][INFO ][o.e.c.r.UnassignedInfoTests] [testReplicaAdded] before test
+[2020-02-17T08:50:40,830][INFO ][o.e.c.r.a.AllocationService] [testReplicaAdded] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:50:40,830][INFO ][o.e.c.r.UnassignedInfoTests] [testReplicaAdded] after test
+[2020-02-17T08:50:40,842][INFO ][o.e.c.r.UnassignedInfoTests] [testAllocationStatusSerialization] before test
+[2020-02-17T08:50:40,843][INFO ][o.e.c.r.UnassignedInfoTests] [testAllocationStatusSerialization] after test
+[2020-02-17T08:50:40,845][INFO ][o.e.c.r.UnassignedInfoTests] [testStateTransitionMetaHandling] before test
+[2020-02-17T08:50:40,846][INFO ][o.e.c.r.UnassignedInfoTests] [testStateTransitionMetaHandling] after test
+[2020-02-17T08:50:40,848][INFO ][o.e.c.r.UnassignedInfoTests] [testFailedShard] before test
+[2020-02-17T08:50:40,851][INFO ][o.e.c.r.a.AllocationService] [testFailedShard] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:50:40,851][WARN ][o.e.c.r.a.AllocationService] [testFailedShard] failing shard [failed shard, shard [test][0], node[node2], [P], s[STARTED], a[id=9iPHvecCSEO6MNBkijjzXg], message [test fail], failure [Unknown], markAsStale [true]]
+[2020-02-17T08:50:40,851][INFO ][o.e.c.r.a.AllocationService] [testFailedShard] Cluster health status changed from [GREEN] to [YELLOW] (reason: [shards failed [[test][0]]]).
+[2020-02-17T08:50:40,851][INFO ][o.e.c.r.UnassignedInfoTests] [testFailedShard] after test
+[2020-02-17T08:50:40,854][INFO ][o.e.c.r.UnassignedInfoTests] [testRemainingDelayCalculation] before test
+[2020-02-17T08:50:40,854][INFO ][o.e.c.r.UnassignedInfoTests] [testRemainingDelayCalculation] after test
+[2020-02-17T08:50:40,857][INFO ][o.e.c.r.UnassignedInfoTests] [testFindNextDelayedAllocation] before test
+[2020-02-17T08:50:40,859][INFO ][o.e.c.r.a.AllocationService] [testFindNextDelayedAllocation] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0], [test2][0]]]).
+[2020-02-17T08:50:40,860][INFO ][o.e.c.r.UnassignedInfoTests] [testFindNextDelayedAllocation] after test
+[2020-02-17T08:50:40,862][INFO ][o.e.c.r.UnassignedInfoTests] [testIndexCreated] before test
+[2020-02-17T08:50:40,862][INFO ][o.e.c.r.UnassignedInfoTests] [testIndexCreated] after test
+[2020-02-17T08:50:40,867][INFO ][o.e.c.r.UnassignedInfoTests] [testBwcSerialization] before test
+[2020-02-17T08:50:40,867][INFO ][o.e.c.r.UnassignedInfoTests] [testBwcSerialization] after test
+[2020-02-17T08:50:40,870][INFO ][o.e.c.r.UnassignedInfoTests] [testSerialization] before test
+[2020-02-17T08:50:40,870][INFO ][o.e.c.r.UnassignedInfoTests] [testSerialization] after test
+[2020-02-17T08:50:40,872][INFO ][o.e.c.r.UnassignedInfoTests] [testExistingIndexRestored] before test
+[2020-02-17T08:50:40,873][INFO ][o.e.c.r.UnassignedInfoTests] [testExistingIndexRestored] after test
+[2020-02-17T08:50:40,875][INFO ][o.e.c.r.UnassignedInfoTests] [testNewIndexRestored] before test
+[2020-02-17T08:50:40,877][INFO ][o.e.c.r.UnassignedInfoTests] [testNewIndexRestored] after test
+[2020-02-17T08:50:40,879][INFO ][o.e.c.r.UnassignedInfoTests] [testIndexReopened] before test
+[2020-02-17T08:50:40,879][INFO ][o.e.c.r.UnassignedInfoTests] [testIndexReopened] after test
+[2020-02-17T08:50:40,882][INFO ][o.e.c.r.UnassignedInfoTests] [testNumberOfDelayedUnassigned] before test
+[2020-02-17T08:50:40,884][INFO ][o.e.c.r.a.AllocationService] [testNumberOfDelayedUnassigned] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][0], [test2][0]]]).
+[2020-02-17T08:50:40,884][INFO ][o.e.c.r.UnassignedInfoTests] [testNumberOfDelayedUnassigned] after test
+[2020-02-17T08:50:40,888][INFO ][o.e.c.r.UnassignedInfoTests] [testClusterRecovered] before test
+[2020-02-17T08:50:40,889][INFO ][o.e.c.r.UnassignedInfoTests] [testClusterRecovered] after test
+[2020-02-17T08:50:40,891][INFO ][o.e.c.r.UnassignedInfoTests] [testDanglingIndexImported] before test
+[2020-02-17T08:50:40,891][INFO ][o.e.c.r.UnassignedInfoTests] [testDanglingIndexImported] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

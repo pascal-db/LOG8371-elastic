@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.translog.TranslogTests" tests="65" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:39" hostname="Escoto-PC" time="4.97">
+  <properties/>
+  <testcase name="testSnapshotWithNewTranslog" classname="org.elasticsearch.index.translog.TranslogTests" time="0.021"/>
+  <testcase name="testPendingDelete" classname="org.elasticsearch.index.translog.TranslogTests" time="0.038"/>
+  <testcase name="testSyncConcurrently" classname="org.elasticsearch.index.translog.TranslogTests" time="0.278"/>
+  <testcase name="testAcquiredLockIsPassedToDeletionPolicy" classname="org.elasticsearch.index.translog.TranslogTests" time="0.155"/>
+  <testcase name="testTranslogOpsCountIsCorrect" classname="org.elasticsearch.index.translog.TranslogTests" time="0.245"/>
+  <testcase name="testFindEarliestLastModifiedAge" classname="org.elasticsearch.index.translog.TranslogTests" time="0.021"/>
+  <testcase name="testRecoveryUncommittedCorruptedCheckpoint" classname="org.elasticsearch.index.translog.TranslogTests" time="0.033"/>
+  <testcase name="testTruncatedTranslogs" classname="org.elasticsearch.index.translog.TranslogTests" time="0.017"/>
+  <testcase name="testSnapshot" classname="org.elasticsearch.index.translog.TranslogTests" time="0.013"/>
+  <testcase name="testCloseConcurrently" classname="org.elasticsearch.index.translog.TranslogTests" time="0.017"/>
+  <testcase name="testTragicEventCanBeAnyException" classname="org.elasticsearch.index.translog.TranslogTests" time="0.04"/>
+  <testcase name="testMinSeqNoBasedAPI" classname="org.elasticsearch.index.translog.TranslogTests" time="1.265"/>
+  <testcase name="testOpenForeignTranslog" classname="org.elasticsearch.index.translog.TranslogTests" time="0.037"/>
+  <testcase name="testRecoveryUncommittedFileExists" classname="org.elasticsearch.index.translog.TranslogTests" time="0.033"/>
+  <testcase name="testSeqNoFilterSnapshot" classname="org.elasticsearch.index.translog.TranslogTests" time="0.039"/>
+  <testcase name="testTotalTests" classname="org.elasticsearch.index.translog.TranslogTests" time="0.013"/>
+  <testcase name="testCrashDuringCheckpointCopy" classname="org.elasticsearch.index.translog.TranslogTests" time="0.048"/>
+  <testcase name="testFatalIOExceptionsWhileWritingConcurrently" classname="org.elasticsearch.index.translog.TranslogTests" time="0.142"/>
+  <testcase name="testRecoverWithUnbackedNextGenAndFutureFile" classname="org.elasticsearch.index.translog.TranslogTests" time="0.028"/>
+  <testcase name="testTranslogCloseInvariant" classname="org.elasticsearch.index.translog.TranslogTests" time="0.031"/>
+  <testcase name="testTranslogCorruption" classname="org.elasticsearch.index.translog.TranslogTests" time="0.023"/>
+  <testcase name="testReadLocation" classname="org.elasticsearch.index.translog.TranslogTests" time="0.014"/>
+  <testcase name="testMaxSeqNo" classname="org.elasticsearch.index.translog.TranslogTests" time="0.053"/>
+  <testcase name="testSnapshotReadOperationInReverse" classname="org.elasticsearch.index.translog.TranslogTests" time="0.12"/>
+  <testcase name="testLocationHashCodeEquals" classname="org.elasticsearch.index.translog.TranslogTests" time="0.03"/>
+  <testcase name="testRollGeneration" classname="org.elasticsearch.index.translog.TranslogTests" time="0.092"/>
+  <testcase name="testLegacyCheckpointVersion" classname="org.elasticsearch.index.translog.TranslogTests" time="0.018"/>
+  <testcase name="testConcurrentWriteViewsAndSnapshot" classname="org.elasticsearch.index.translog.TranslogTests" time="0.094"/>
+  <testcase name="testSnapshotTrimmedOperations" classname="org.elasticsearch.index.translog.TranslogTests" time="0.033"/>
+  <testcase name="testCloseIntoReader" classname="org.elasticsearch.index.translog.TranslogTests" time="0.028"/>
+  <testcase name="testRecoveryFromAFutureGenerationCleansUp" classname="org.elasticsearch.index.translog.TranslogTests" time="0.05"/>
+  <testcase name="testVerifyTranslogIsNotDeleted" classname="org.elasticsearch.index.translog.TranslogTests" time="0.017"/>
+  <testcase name="testRandomExceptionsOnTrimOperations" classname="org.elasticsearch.index.translog.TranslogTests" time="0.04"/>
+  <testcase name="testWithRandomException" classname="org.elasticsearch.index.translog.TranslogTests" time="0.119"/>
+  <testcase name="testTranslogOpSerialization" classname="org.elasticsearch.index.translog.TranslogTests" time="0.016"/>
+  <testcase name="testSimpleCommit" classname="org.elasticsearch.index.translog.TranslogTests" time="0.197"/>
+  <testcase name="testSnapshotFromMinGen" classname="org.elasticsearch.index.translog.TranslogTests" time="0.026"/>
+  <testcase name="testLocationComparison" classname="org.elasticsearch.index.translog.TranslogTests" time="0.02"/>
+  <testcase name="testOldestEntryInSeconds" classname="org.elasticsearch.index.translog.TranslogTests" time="0.022"/>
+  <testcase name="testSnapshotFromStreamInput" classname="org.elasticsearch.index.translog.TranslogTests" time="0.013"/>
+  <testcase name="testTranslogWriter" classname="org.elasticsearch.index.translog.TranslogTests" time="0.017"/>
+  <testcase name="testSnapshotOnClosedTranslog" classname="org.elasticsearch.index.translog.TranslogTests" time="0.016"/>
+  <testcase name="testRecoverWithUnbackedNextGen" classname="org.elasticsearch.index.translog.TranslogTests" time="0.031"/>
+  <testcase name="testSnapshotCurrentHasUnexpectedOperationsForTrimmedOperations" classname="org.elasticsearch.index.translog.TranslogTests" time="0.023"/>
+  <testcase name="testReadGlobalCheckpoint" classname="org.elasticsearch.index.translog.TranslogTests" time="0.021"/>
+  <testcase name="testCheckpointOnDiskFull" classname="org.elasticsearch.index.translog.TranslogTests" time="0.022"/>
+  <testcase name="testSnapshotDedupOperations" classname="org.elasticsearch.index.translog.TranslogTests" time="0.101"/>
+  <testcase name="testRecoveryUncommitted" classname="org.elasticsearch.index.translog.TranslogTests" time="0.03"/>
+  <testcase name="testRecoverWithUnbackedNextGenInIllegalState" classname="org.elasticsearch.index.translog.TranslogTests" time="0.034"/>
+  <testcase name="testCloseSnapshotTwice" classname="org.elasticsearch.index.translog.TranslogTests" time="0.024"/>
+  <testcase name="testNegativeNumberOfOperations" classname="org.elasticsearch.index.translog.TranslogTests" time="0.02"/>
+  <testcase name="testRecoveryFromFailureOnTrimming" classname="org.elasticsearch.index.translog.TranslogTests" time="0.038"/>
+  <testcase name="testConcurrentWritesWithVaryingSize" classname="org.elasticsearch.index.translog.TranslogTests" time="0.119"/>
+  <testcase name="testUncommittedOperations" classname="org.elasticsearch.index.translog.TranslogTests" time="0.144"/>
+  <testcase name="testStats" classname="org.elasticsearch.index.translog.TranslogTests" time="0.027"/>
+  <testcase name="testIdParsingFromFile" classname="org.elasticsearch.index.translog.TranslogTests" time="0.017"/>
+  <testcase name="testSyncUpTo" classname="org.elasticsearch.index.translog.TranslogTests" time="0.017"/>
+  <testcase name="testBasicCheckpoint" classname="org.elasticsearch.index.translog.TranslogTests" time="0.027"/>
+  <testcase name="testBasicRecovery" classname="org.elasticsearch.index.translog.TranslogTests" time="0.541"/>
+  <testcase name="testSimpleOperations" classname="org.elasticsearch.index.translog.TranslogTests" time="0.017"/>
+  <testcase name="testSyncUpToStream" classname="org.elasticsearch.index.translog.TranslogTests" time="0.022"/>
+  <testcase name="testFailWhileCreateWriteWithRecoveredTLogs" classname="org.elasticsearch.index.translog.TranslogTests" time="0.033"/>
+  <testcase name="testFailOnClosedWrite" classname="org.elasticsearch.index.translog.TranslogTests" time="0.012"/>
+  <testcase name="testFailFlush" classname="org.elasticsearch.index.translog.TranslogTests" time="0.053"/>
+  <testcase name="testNegativeSizeInBytes" classname="org.elasticsearch.index.translog.TranslogTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-17T00:23:39,488][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotWithNewTranslog] before test
+[2020-02-17T00:23:39,502][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotWithNewTranslog] after test
+[2020-02-17T00:23:39,507][INFO ][o.e.i.t.TranslogTests    ] [testPendingDelete] before test
+[2020-02-17T00:23:39,538][INFO ][o.e.i.t.TranslogTests    ] [testPendingDelete] after test
+[2020-02-17T00:23:39,547][INFO ][o.e.i.t.TranslogTests    ] [testSyncConcurrently] before test
+[2020-02-17T00:23:39,814][INFO ][o.e.i.t.TranslogTests    ] [testSyncConcurrently] after test
+[2020-02-17T00:23:39,825][INFO ][o.e.i.t.TranslogTests    ] [testAcquiredLockIsPassedToDeletionPolicy] before test
+[2020-02-17T00:23:39,968][INFO ][o.e.i.t.TranslogTests    ] [testAcquiredLockIsPassedToDeletionPolicy] after test
+[2020-02-17T00:23:39,979][INFO ][o.e.i.t.TranslogTests    ] [testTranslogOpsCountIsCorrect] before test
+[2020-02-17T00:23:40,219][INFO ][o.e.i.t.TranslogTests    ] [testTranslogOpsCountIsCorrect] after test
+[2020-02-17T00:23:40,226][INFO ][o.e.i.t.TranslogTests    ] [testFindEarliestLastModifiedAge] before test
+[2020-02-17T00:23:40,239][INFO ][o.e.i.t.TranslogTests    ] [testFindEarliestLastModifiedAge] after test
+[2020-02-17T00:23:40,246][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryUncommittedCorruptedCheckpoint] before test
+[2020-02-17T00:23:40,272][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryUncommittedCorruptedCheckpoint] after test
+[2020-02-17T00:23:40,279][INFO ][o.e.i.t.TranslogTests    ] [testTruncatedTranslogs] before test
+[2020-02-17T00:23:40,288][INFO ][o.e.i.t.TranslogTests    ] [testTruncatedTranslogs] --> truncating E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogTests_9EA1F2A3814E5F76-001\tempDir-002\translog-1.ckp, prev: 88, now: 71
+[2020-02-17T00:23:40,288][INFO ][o.e.i.t.TranslogTests    ] [testTruncatedTranslogs] --> truncating E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogTests_9EA1F2A3814E5F76-001\tempDir-002\translog-2.tlog, prev: 4394, now: 3283
+[2020-02-17T00:23:40,288][INFO ][o.e.i.t.TranslogTests    ] [testTruncatedTranslogs] --> truncating E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogTests_9EA1F2A3814E5F76-001\tempDir-002\translog-1.tlog, prev: 55, now: 49
+[2020-02-17T00:23:40,291][INFO ][o.e.i.t.TranslogTests    ] [testTruncatedTranslogs] after test
+[2020-02-17T00:23:40,296][INFO ][o.e.i.t.TranslogTests    ] [testSnapshot] before test
+[2020-02-17T00:23:40,304][INFO ][o.e.i.t.TranslogTests    ] [testSnapshot] after test
+[2020-02-17T00:23:40,309][INFO ][o.e.i.t.TranslogTests    ] [testCloseConcurrently] before test
+[2020-02-17T00:23:40,316][INFO ][o.e.i.t.TranslogTests    ] [testCloseConcurrently] testing with [4] threads, each doing [85] ops
+[2020-02-17T00:23:40,321][INFO ][o.e.i.t.TranslogTests    ] [testCloseConcurrently] after test
+[2020-02-17T00:23:40,326][INFO ][o.e.i.t.TranslogTests    ] [testTragicEventCanBeAnyException] before test
+[2020-02-17T00:23:40,362][INFO ][o.e.i.t.TranslogTests    ] [testTragicEventCanBeAnyException] after test
+[2020-02-17T00:23:40,367][INFO ][o.e.i.t.TranslogTests    ] [testMinSeqNoBasedAPI] before test
+[2020-02-17T00:23:41,618][INFO ][o.e.i.t.TranslogTests    ] [testMinSeqNoBasedAPI] after test
+[2020-02-17T00:23:41,632][INFO ][o.e.i.t.TranslogTests    ] [testOpenForeignTranslog] before test
+[2020-02-17T00:23:41,662][INFO ][o.e.i.t.TranslogTests    ] [testOpenForeignTranslog] after test
+[2020-02-17T00:23:41,669][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryUncommittedFileExists] before test
+[2020-02-17T00:23:41,691][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryUncommittedFileExists] after test
+[2020-02-17T00:23:41,701][INFO ][o.e.i.t.TranslogTests    ] [testSeqNoFilterSnapshot] before test
+[2020-02-17T00:23:41,732][INFO ][o.e.i.t.TranslogTests    ] [testSeqNoFilterSnapshot] after test
+[2020-02-17T00:23:41,741][INFO ][o.e.i.t.TranslogTests    ] [testTotalTests] before test
+[2020-02-17T00:23:41,749][INFO ][o.e.i.t.TranslogTests    ] [testTotalTests] after test
+[2020-02-17T00:23:41,768][INFO ][o.e.i.t.TranslogTests    ] [testCrashDuringCheckpointCopy] before test
+[2020-02-17T00:23:41,797][INFO ][o.e.i.t.TranslogTests    ] [testCrashDuringCheckpointCopy] after test
+[2020-02-17T00:23:41,802][INFO ][o.e.i.t.TranslogTests    ] [testFatalIOExceptionsWhileWritingConcurrently] before test
+[2020-02-17T00:23:41,937][INFO ][o.e.i.t.TranslogTests    ] [testFatalIOExceptionsWhileWritingConcurrently] after test
+[2020-02-17T00:23:41,943][INFO ][o.e.i.t.TranslogTests    ] [testRecoverWithUnbackedNextGenAndFutureFile] before test
+[2020-02-17T00:23:41,955][WARN ][o.e.i.t.Translog         ] [testRecoverWithUnbackedNextGenAndFutureFile] [index][1] deleted previously created, but not yet committed, next generation [translog-3.tlog]. This can happen due to a tragic exception when creating a new generation
+[2020-02-17T00:23:41,967][INFO ][o.e.i.t.TranslogTests    ] [testRecoverWithUnbackedNextGenAndFutureFile] after test
+[2020-02-17T00:23:41,979][INFO ][o.e.i.t.TranslogTests    ] [testTranslogCloseInvariant] before test
+[2020-02-17T00:23:41,997][INFO ][o.e.i.t.TranslogTests    ] [testTranslogCloseInvariant] after test
+[2020-02-17T00:23:42,008][INFO ][o.e.i.t.TranslogTests    ] [testTranslogCorruption] before test
+[2020-02-17T00:23:42,015][INFO ][o.e.i.t.TranslogTests    ] [testTranslogCorruption] --> corruptRandomTranslogFile: translogDir [E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogTests_9EA1F2A3814E5F76-001\tempDir-002], minUsedTranslogGen [0]
+[2020-02-17T00:23:42,018][INFO ][o.e.i.t.TranslogTests    ] [testTranslogCorruption] corruptFile: truncating file E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.translog.TranslogTests_9EA1F2A3814E5F76-001\tempDir-002\translog-1.tlog from length 55 to length 48
+[2020-02-17T00:23:42,023][INFO ][o.e.i.t.TranslogTests    ] [testTranslogCorruption] after test
+[2020-02-17T00:23:42,029][INFO ][o.e.i.t.TranslogTests    ] [testReadLocation] before test
+[2020-02-17T00:23:42,035][INFO ][o.e.i.t.TranslogTests    ] [testReadLocation] after test
+[2020-02-17T00:23:42,043][INFO ][o.e.i.t.TranslogTests    ] [testMaxSeqNo] before test
+[2020-02-17T00:23:42,087][INFO ][o.e.i.t.TranslogTests    ] [testMaxSeqNo] after test
+[2020-02-17T00:23:42,117][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotReadOperationInReverse] before test
+[2020-02-17T00:23:42,196][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotReadOperationInReverse] after test
+[2020-02-17T00:23:42,221][INFO ][o.e.i.t.TranslogTests    ] [testLocationHashCodeEquals] before test
+[2020-02-17T00:23:42,239][INFO ][o.e.i.t.TranslogTests    ] [testLocationHashCodeEquals] after test
+[2020-02-17T00:23:42,245][INFO ][o.e.i.t.TranslogTests    ] [testRollGeneration] before test
+[2020-02-17T00:23:42,320][INFO ][o.e.i.t.TranslogTests    ] [testRollGeneration] after test
+[2020-02-17T00:23:42,338][INFO ][o.e.i.t.TranslogTests    ] [testLegacyCheckpointVersion] before test
+[2020-02-17T00:23:42,349][INFO ][o.e.i.t.TranslogTests    ] [testLegacyCheckpointVersion] after test
+[2020-02-17T00:23:42,355][INFO ][o.e.i.t.TranslogTests    ] [testConcurrentWriteViewsAndSnapshot] before test
+[2020-02-17T00:23:42,370][INFO ][o.e.i.t.TranslogTests    ] [testConcurrentWriteViewsAndSnapshot] using [1] readers. [2] writers. flushing every ~[52] ops.
+[2020-02-17T00:23:42,374][INFO ][o.e.i.t.TranslogTests    ] [[reader_0]] --> [reader_0] min gen after acquiring lock [1]
+[2020-02-17T00:23:42,423][INFO ][o.e.i.t.TranslogTests    ] [[writer_0]] --> [writer_0] done. wrote [138] ops.
+[2020-02-17T00:23:42,424][INFO ][o.e.i.t.TranslogTests    ] [[writer_1]] --> [writer_1] done. wrote [192] ops.
+[2020-02-17T00:23:42,427][INFO ][o.e.i.t.TranslogTests    ] [[reader_0]] --> [reader_0] done. tested [3] snapshots
+[2020-02-17T00:23:42,439][INFO ][o.e.i.t.TranslogTests    ] [testConcurrentWriteViewsAndSnapshot] --> test done. total ops written [330]
+[2020-02-17T00:23:42,439][INFO ][o.e.i.t.TranslogTests    ] [testConcurrentWriteViewsAndSnapshot] after test
+[2020-02-17T00:23:42,450][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotTrimmedOperations] before test
+[2020-02-17T00:23:42,475][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotTrimmedOperations] after test
+[2020-02-17T00:23:42,496][INFO ][o.e.i.t.TranslogTests    ] [testCloseIntoReader] before test
+[2020-02-17T00:23:42,505][INFO ][o.e.i.t.TranslogTests    ] [testCloseIntoReader] after test
+[2020-02-17T00:23:42,510][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryFromAFutureGenerationCleansUp] before test
+[2020-02-17T00:23:42,553][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryFromAFutureGenerationCleansUp] after test
+[2020-02-17T00:23:42,562][INFO ][o.e.i.t.TranslogTests    ] [testVerifyTranslogIsNotDeleted] before test
+[2020-02-17T00:23:42,572][INFO ][o.e.i.t.TranslogTests    ] [testVerifyTranslogIsNotDeleted] after test
+[2020-02-17T00:23:42,578][INFO ][o.e.i.t.TranslogTests    ] [testRandomExceptionsOnTrimOperations] before test
+[2020-02-17T00:23:42,611][INFO ][o.e.i.t.TranslogTests    ] [testRandomExceptionsOnTrimOperations] after test
+[2020-02-17T00:23:42,618][INFO ][o.e.i.t.TranslogTests    ] [testWithRandomException] before test
+[2020-02-17T00:23:42,675][WARN ][o.e.i.t.Translog         ] [testWithRandomException] [index][1] deleted previously created, but not yet committed, next generation [translog-3.tlog]. This can happen due to a tragic exception when creating a new generation
+[2020-02-17T00:23:42,723][INFO ][o.e.i.t.TranslogTests    ] [testWithRandomException] after test
+[2020-02-17T00:23:42,737][INFO ][o.e.i.t.TranslogTests    ] [testTranslogOpSerialization] before test
+[2020-02-17T00:23:42,747][INFO ][o.e.i.t.TranslogTests    ] [testTranslogOpSerialization] after test
+[2020-02-17T00:23:42,752][INFO ][o.e.i.t.TranslogTests    ] [testSimpleCommit] before test
+[2020-02-17T00:23:42,914][INFO ][o.e.i.t.TranslogTests    ] [testSimpleCommit] after test
+[2020-02-17T00:23:42,950][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotFromMinGen] before test
+[2020-02-17T00:23:42,968][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotFromMinGen] after test
+[2020-02-17T00:23:42,978][INFO ][o.e.i.t.TranslogTests    ] [testLocationComparison] before test
+[2020-02-17T00:23:42,987][INFO ][o.e.i.t.TranslogTests    ] [testLocationComparison] after test
+[2020-02-17T00:23:42,997][INFO ][o.e.i.t.TranslogTests    ] [testOldestEntryInSeconds] before test
+[2020-02-17T00:23:43,013][INFO ][o.e.i.t.TranslogTests    ] [testOldestEntryInSeconds] after test
+[2020-02-17T00:23:43,018][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotFromStreamInput] before test
+[2020-02-17T00:23:43,027][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotFromStreamInput] after test
+[2020-02-17T00:23:43,032][INFO ][o.e.i.t.TranslogTests    ] [testTranslogWriter] before test
+[2020-02-17T00:23:43,044][INFO ][o.e.i.t.TranslogTests    ] [testTranslogWriter] after test
+[2020-02-17T00:23:43,049][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotOnClosedTranslog] before test
+[2020-02-17T00:23:43,059][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotOnClosedTranslog] after test
+[2020-02-17T00:23:43,065][INFO ][o.e.i.t.TranslogTests    ] [testRecoverWithUnbackedNextGen] before test
+[2020-02-17T00:23:43,076][WARN ][o.e.i.t.Translog         ] [testRecoverWithUnbackedNextGen] [index][1] deleted previously created, but not yet committed, next generation [translog-3.tlog]. This can happen due to a tragic exception when creating a new generation
+[2020-02-17T00:23:43,089][INFO ][o.e.i.t.TranslogTests    ] [testRecoverWithUnbackedNextGen] after test
+[2020-02-17T00:23:43,095][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotCurrentHasUnexpectedOperationsForTrimmedOperations] before test
+[2020-02-17T00:23:43,111][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotCurrentHasUnexpectedOperationsForTrimmedOperations] after test
+[2020-02-17T00:23:43,119][INFO ][o.e.i.t.TranslogTests    ] [testReadGlobalCheckpoint] before test
+[2020-02-17T00:23:43,136][INFO ][o.e.i.t.TranslogTests    ] [testReadGlobalCheckpoint] after test
+[2020-02-17T00:23:43,142][INFO ][o.e.i.t.TranslogTests    ] [testCheckpointOnDiskFull] before test
+[2020-02-17T00:23:43,155][INFO ][o.e.i.t.TranslogTests    ] [testCheckpointOnDiskFull] after test
+[2020-02-17T00:23:43,166][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotDedupOperations] before test
+[2020-02-17T00:23:43,249][INFO ][o.e.i.t.TranslogTests    ] [testSnapshotDedupOperations] after test
+[2020-02-17T00:23:43,263][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryUncommitted] before test
+[2020-02-17T00:23:43,285][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryUncommitted] after test
+[2020-02-17T00:23:43,294][INFO ][o.e.i.t.TranslogTests    ] [testRecoverWithUnbackedNextGenInIllegalState] before test
+[2020-02-17T00:23:43,310][INFO ][o.e.i.t.TranslogTests    ] [testRecoverWithUnbackedNextGenInIllegalState] after test
+[2020-02-17T00:23:43,337][INFO ][o.e.i.t.TranslogTests    ] [testCloseSnapshotTwice] before test
+[2020-02-17T00:23:43,347][INFO ][o.e.i.t.TranslogTests    ] [testCloseSnapshotTwice] after test
+[2020-02-17T00:23:43,357][INFO ][o.e.i.t.TranslogTests    ] [testNegativeNumberOfOperations] before test
+[2020-02-17T00:23:43,367][INFO ][o.e.i.t.TranslogTests    ] [testNegativeNumberOfOperations] after test
+[2020-02-17T00:23:43,376][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryFromFailureOnTrimming] before test
+[2020-02-17T00:23:43,405][INFO ][o.e.i.t.TranslogTests    ] [testRecoveryFromFailureOnTrimming] after test
+[2020-02-17T00:23:43,411][INFO ][o.e.i.t.TranslogTests    ] [testConcurrentWritesWithVaryingSize] before test
+[2020-02-17T00:23:43,418][INFO ][o.e.i.t.TranslogTests    ] [testConcurrentWritesWithVaryingSize] testing with [3] threads, each doing [41] ops
+[2020-02-17T00:23:43,524][INFO ][o.e.i.t.TranslogTests    ] [testConcurrentWritesWithVaryingSize] after test
+[2020-02-17T00:23:43,530][INFO ][o.e.i.t.TranslogTests    ] [testUncommittedOperations] before test
+[2020-02-17T00:23:43,665][INFO ][o.e.i.t.TranslogTests    ] [testUncommittedOperations] after test
+[2020-02-17T00:23:43,674][INFO ][o.e.i.t.TranslogTests    ] [testStats] before test
+[2020-02-17T00:23:43,691][INFO ][o.e.i.t.TranslogTests    ] [testStats] after test
+[2020-02-17T00:23:43,705][INFO ][o.e.i.t.TranslogTests    ] [testIdParsingFromFile] before test
+[2020-02-17T00:23:43,713][INFO ][o.e.i.t.TranslogTests    ] [testIdParsingFromFile] after test
+[2020-02-17T00:23:43,718][INFO ][o.e.i.t.TranslogTests    ] [testSyncUpTo] before test
+[2020-02-17T00:23:43,731][INFO ][o.e.i.t.TranslogTests    ] [testSyncUpTo] after test
+[2020-02-17T00:23:43,741][INFO ][o.e.i.t.TranslogTests    ] [testBasicCheckpoint] before test
+[2020-02-17T00:23:43,757][INFO ][o.e.i.t.TranslogTests    ] [testBasicCheckpoint] after test
+[2020-02-17T00:23:43,773][INFO ][o.e.i.t.TranslogTests    ] [testBasicRecovery] before test
+[2020-02-17T00:23:44,293][INFO ][o.e.i.t.TranslogTests    ] [testBasicRecovery] after test
+[2020-02-17T00:23:44,304][INFO ][o.e.i.t.TranslogTests    ] [testSimpleOperations] before test
+[2020-02-17T00:23:44,315][INFO ][o.e.i.t.TranslogTests    ] [testSimpleOperations] after test
+[2020-02-17T00:23:44,321][INFO ][o.e.i.t.TranslogTests    ] [testSyncUpToStream] before test
+[2020-02-17T00:23:44,336][INFO ][o.e.i.t.TranslogTests    ] [testSyncUpToStream] after test
+[2020-02-17T00:23:44,344][INFO ][o.e.i.t.TranslogTests    ] [testFailWhileCreateWriteWithRecoveredTLogs] before test
+[2020-02-17T00:23:44,370][INFO ][o.e.i.t.TranslogTests    ] [testFailWhileCreateWriteWithRecoveredTLogs] after test
+[2020-02-17T00:23:44,375][INFO ][o.e.i.t.TranslogTests    ] [testFailOnClosedWrite] before test
+[2020-02-17T00:23:44,383][INFO ][o.e.i.t.TranslogTests    ] [testFailOnClosedWrite] after test
+[2020-02-17T00:23:44,390][INFO ][o.e.i.t.TranslogTests    ] [testFailFlush] before test
+[2020-02-17T00:23:44,423][INFO ][o.e.i.t.TranslogTests    ] [testFailFlush] after test
+[2020-02-17T00:23:44,442][INFO ][o.e.i.t.TranslogTests    ] [testNegativeSizeInBytes] before test
+[2020-02-17T00:23:44,452][INFO ][o.e.i.t.TranslogTests    ] [testNegativeSizeInBytes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

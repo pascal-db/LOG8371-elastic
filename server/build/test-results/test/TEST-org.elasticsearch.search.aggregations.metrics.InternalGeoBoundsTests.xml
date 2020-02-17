@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalGeoBoundsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:24" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalGeoBoundsTests" time="0.003"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalGeoBoundsTests" time="0.005"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalGeoBoundsTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalGeoBoundsTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalGeoBoundsTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T19:24:24,516][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testSerialization] before test
+[2020-02-16T19:24:24,517][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testSerialization] after test
+[2020-02-16T19:24:24,520][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T19:24:24,522][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T19:24:24,525][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testReduceRandom] before test
+[2020-02-16T19:24:24,526][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testReduceRandom] after test
+[2020-02-16T19:24:24,528][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:24:24,528][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:24:24,532][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testFromXContent] before test
+[2020-02-16T19:24:24,533][INFO ][o.e.s.a.m.InternalGeoBoundsTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

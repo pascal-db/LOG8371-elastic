@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.threadpool.SchedulerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:00" hostname="Escoto-PC" time="0.086">
+  <properties/>
+  <testcase name="testScheduleAtFixedRate" classname="org.elasticsearch.threadpool.SchedulerTests" time="0.009"/>
+  <testcase name="testScheduledOnScheduler" classname="org.elasticsearch.threadpool.SchedulerTests" time="0.006"/>
+  <testcase name="testDelay" classname="org.elasticsearch.threadpool.SchedulerTests" time="0.055"/>
+  <testcase name="testCancelOnScheduler" classname="org.elasticsearch.threadpool.SchedulerTests" time="0.002"/>
+  <testcase name="testCancelOnThreadPool" classname="org.elasticsearch.threadpool.SchedulerTests" time="0.004"/>
+  <testcase name="testScheduledOnThreadPool" classname="org.elasticsearch.threadpool.SchedulerTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T23:26:00,238][INFO ][o.e.t.SchedulerTests     ] [testScheduleAtFixedRate] before test
+[2020-02-16T23:26:00,245][INFO ][o.e.t.SchedulerTests     ] [testScheduleAtFixedRate] after test
+[2020-02-16T23:26:00,248][INFO ][o.e.t.SchedulerTests     ] [testScheduledOnScheduler] before test
+[2020-02-16T23:26:00,251][INFO ][o.e.t.SchedulerTests     ] [testScheduledOnScheduler] after test
+[2020-02-16T23:26:00,254][INFO ][o.e.t.SchedulerTests     ] [testDelay] before test
+[2020-02-16T23:26:00,306][INFO ][o.e.t.SchedulerTests     ] [testDelay] after test
+[2020-02-16T23:26:00,307][INFO ][o.e.t.SchedulerTests     ] [testCancelOnScheduler] before test
+[2020-02-16T23:26:00,308][INFO ][o.e.t.SchedulerTests     ] [testCancelOnScheduler] after test
+[2020-02-16T23:26:00,310][INFO ][o.e.t.SchedulerTests     ] [testCancelOnThreadPool] before test
+[2020-02-16T23:26:00,311][INFO ][o.e.t.SchedulerTests     ] [testCancelOnThreadPool] after test
+[2020-02-16T23:26:00,314][INFO ][o.e.t.SchedulerTests     ] [testScheduledOnThreadPool] before test
+[2020-02-16T23:26:00,321][INFO ][o.e.t.SchedulerTests     ] [testScheduledOnThreadPool] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

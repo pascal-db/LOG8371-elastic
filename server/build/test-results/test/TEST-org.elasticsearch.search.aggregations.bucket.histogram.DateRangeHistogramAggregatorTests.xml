@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:17" hostname="Escoto-PC" time="0.169">
+  <properties/>
+  <testcase name="testOffsetCalendarInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.021"/>
+  <testcase name="testLongMonthsFixedInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.012"/>
+  <testcase name="testWithinQuery" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.012"/>
+  <testcase name="testUnsupportedRangeType" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.008"/>
+  <testcase name="testFormat" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.01"/>
+  <testcase name="testNextRoundingValueOffsetHours" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.017"/>
+  <testcase name="testLongMonthsCalendarInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.009"/>
+  <testcase name="testOffsetFixedInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.017"/>
+  <testcase name="testIntersectQuery" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.01"/>
+  <testcase name="testNextRoundingValueOffsetDays" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.021"/>
+  <testcase name="testBasics" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.012"/>
+  <testcase name="testMinDocCount" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateRangeHistogramAggregatorTests" time="0.016"/>
+  <system-out><![CDATA[[2020-02-17T08:54:17,598][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testOffsetCalendarInterval] before test
+[2020-02-17T08:54:17,618][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testOffsetCalendarInterval] after test
+[2020-02-17T08:54:17,620][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testLongMonthsFixedInterval] before test
+[2020-02-17T08:54:17,630][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testLongMonthsFixedInterval] after test
+[2020-02-17T08:54:17,633][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testWithinQuery] before test
+[2020-02-17T08:54:17,642][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testWithinQuery] after test
+[2020-02-17T08:54:17,647][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testUnsupportedRangeType] before test
+[2020-02-17T08:54:17,651][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testUnsupportedRangeType] after test
+[2020-02-17T08:54:17,653][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testFormat] before test
+[2020-02-17T08:54:17,662][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testFormat] after test
+[2020-02-17T08:54:17,664][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testNextRoundingValueOffsetHours] before test
+[2020-02-17T08:54:17,680][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testNextRoundingValueOffsetHours] after test
+[2020-02-17T08:54:17,682][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testLongMonthsCalendarInterval] before test
+[2020-02-17T08:54:17,688][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testLongMonthsCalendarInterval] after test
+[2020-02-17T08:54:17,692][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testOffsetFixedInterval] before test
+[2020-02-17T08:54:17,706][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testOffsetFixedInterval] after test
+[2020-02-17T08:54:17,710][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testIntersectQuery] before test
+[2020-02-17T08:54:17,717][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testIntersectQuery] after test
+[2020-02-17T08:54:17,719][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testNextRoundingValueOffsetDays] before test
+[2020-02-17T08:54:17,738][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testNextRoundingValueOffsetDays] after test
+[2020-02-17T08:54:17,740][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testBasics] before test
+[2020-02-17T08:54:17,749][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testBasics] after test
+[2020-02-17T08:54:17,751][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testMinDocCount] before test
+[2020-02-17T08:54:17,766][INFO ][o.e.s.a.b.h.DateRangeHistogramAggregatorTests] [testMinDocCount] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

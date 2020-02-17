@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.analysis.AnalysisModuleTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:44" hostname="Escoto-PC" time="0.336">
+  <properties/>
+  <testcase name="testSimpleConfigurationYaml" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.008"/>
+  <testcase name="testVersionedAnalyzers" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.005"/>
+  <testcase name="testPluginPreConfiguredTokenizers" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.006"/>
+  <testcase name="testStandardFilterBWC" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.008"/>
+  <testcase name="testWordListPath" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.008"/>
+  <testcase name="testRegisterHunspellDictionary" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.275"/>
+  <testcase name="testPluginPreConfiguredTokenFilters" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.007"/>
+  <testcase name="testPluginPreConfiguredCharFilters" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.007"/>
+  <testcase name="testSimpleConfigurationJson" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.006"/>
+  <testcase name="testUnderscoreInAnalyzerName" classname="org.elasticsearch.indices.analysis.AnalysisModuleTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T01:23:44,533][INFO ][o.e.i.a.AnalysisModuleTests] [testSimpleConfigurationYaml] before test
+[2020-02-17T01:23:44,538][INFO ][o.e.i.a.AnalysisModuleTests] [testSimpleConfigurationYaml] after test
+[2020-02-17T01:23:44,541][INFO ][o.e.i.a.AnalysisModuleTests] [testVersionedAnalyzers] before test
+[2020-02-17T01:23:44,544][INFO ][o.e.i.a.AnalysisModuleTests] [testVersionedAnalyzers] after test
+[2020-02-17T01:23:44,546][INFO ][o.e.i.a.AnalysisModuleTests] [testPluginPreConfiguredTokenizers] before test
+[2020-02-17T01:23:44,550][INFO ][o.e.i.a.AnalysisModuleTests] [testPluginPreConfiguredTokenizers] after test
+[2020-02-17T01:23:44,552][INFO ][o.e.i.a.AnalysisModuleTests] [testStandardFilterBWC] before test
+[2020-02-17T01:23:44,555][WARN ][o.e.d.i.a.AnalysisModule ] [testStandardFilterBWC] The [standard] token filter is deprecated and will be removed in a future version.
+[2020-02-17T01:23:44,558][INFO ][o.e.i.a.AnalysisModuleTests] [testStandardFilterBWC] after test
+[2020-02-17T01:23:44,560][INFO ][o.e.i.a.AnalysisModuleTests] [testWordListPath] before test
+[2020-02-17T01:23:44,565][INFO ][o.e.i.a.AnalysisModuleTests] [testWordListPath] after test
+[2020-02-17T01:23:44,568][INFO ][o.e.i.a.AnalysisModuleTests] [testRegisterHunspellDictionary] before test
+[2020-02-17T01:23:44,841][INFO ][o.e.i.a.AnalysisModuleTests] [testRegisterHunspellDictionary] after test
+[2020-02-17T01:23:44,844][INFO ][o.e.i.a.AnalysisModuleTests] [testPluginPreConfiguredTokenFilters] before test
+[2020-02-17T01:23:44,847][INFO ][o.e.i.a.AnalysisModuleTests] [testPluginPreConfiguredTokenFilters] after test
+[2020-02-17T01:23:44,851][INFO ][o.e.i.a.AnalysisModuleTests] [testPluginPreConfiguredCharFilters] before test
+[2020-02-17T01:23:44,855][INFO ][o.e.i.a.AnalysisModuleTests] [testPluginPreConfiguredCharFilters] after test
+[2020-02-17T01:23:44,858][INFO ][o.e.i.a.AnalysisModuleTests] [testSimpleConfigurationJson] before test
+[2020-02-17T01:23:44,861][INFO ][o.e.i.a.AnalysisModuleTests] [testSimpleConfigurationJson] after test
+[2020-02-17T01:23:44,864][INFO ][o.e.i.a.AnalysisModuleTests] [testUnderscoreInAnalyzerName] before test
+[2020-02-17T01:23:44,867][INFO ][o.e.i.a.AnalysisModuleTests] [testUnderscoreInAnalyzerName] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

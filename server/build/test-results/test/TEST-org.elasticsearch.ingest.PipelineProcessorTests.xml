@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.PipelineProcessorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testExecutesPipeline" classname="org.elasticsearch.ingest.PipelineProcessorTests" time="0.004"/>
+  <testcase name="testThrowsOnMissingPipeline" classname="org.elasticsearch.ingest.PipelineProcessorTests" time="0.002"/>
+  <testcase name="testThrowsOnRecursivePipelineInvocations" classname="org.elasticsearch.ingest.PipelineProcessorTests" time="0.003"/>
+  <testcase name="testAllowsRepeatedPipelineInvocations" classname="org.elasticsearch.ingest.PipelineProcessorTests" time="0.002"/>
+  <testcase name="testPipelineProcessorWithPipelineChain" classname="org.elasticsearch.ingest.PipelineProcessorTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T06:24:59,344][INFO ][o.e.i.PipelineProcessorTests] [testExecutesPipeline] before test
+[2020-02-17T06:24:59,345][INFO ][o.e.i.PipelineProcessorTests] [testExecutesPipeline] after test
+[2020-02-17T06:24:59,347][INFO ][o.e.i.PipelineProcessorTests] [testThrowsOnMissingPipeline] before test
+[2020-02-17T06:24:59,347][INFO ][o.e.i.PipelineProcessorTests] [testThrowsOnMissingPipeline] after test
+[2020-02-17T06:24:59,349][INFO ][o.e.i.PipelineProcessorTests] [testThrowsOnRecursivePipelineInvocations] before test
+[2020-02-17T06:24:59,350][INFO ][o.e.i.PipelineProcessorTests] [testThrowsOnRecursivePipelineInvocations] after test
+[2020-02-17T06:24:59,352][INFO ][o.e.i.PipelineProcessorTests] [testAllowsRepeatedPipelineInvocations] before test
+[2020-02-17T06:24:59,352][INFO ][o.e.i.PipelineProcessorTests] [testAllowsRepeatedPipelineInvocations] after test
+[2020-02-17T06:24:59,354][INFO ][o.e.i.PipelineProcessorTests] [testPipelineProcessorWithPipelineChain] before test
+[2020-02-17T06:24:59,355][INFO ][o.e.i.PipelineProcessorTests] [testPipelineProcessorWithPipelineChain] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

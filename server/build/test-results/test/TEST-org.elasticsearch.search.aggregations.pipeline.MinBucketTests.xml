@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.MinBucketTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:34" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testValidate" classname="org.elasticsearch.search.aggregations.pipeline.MinBucketTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.MinBucketTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.MinBucketTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.MinBucketTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:25:34,710][INFO ][o.e.s.a.p.MinBucketTests ] [testValidate] before test
+[2020-02-16T22:25:34,712][INFO ][o.e.s.a.p.MinBucketTests ] [testValidate] after test
+[2020-02-16T22:25:34,714][INFO ][o.e.s.a.p.MinBucketTests ] [testEqualsAndHashcode] before test
+[2020-02-16T22:25:34,715][INFO ][o.e.s.a.p.MinBucketTests ] [testEqualsAndHashcode] after test
+[2020-02-16T22:25:34,717][INFO ][o.e.s.a.p.MinBucketTests ] [testFromXContent] before test
+[2020-02-16T22:25:34,717][INFO ][o.e.s.a.p.MinBucketTests ] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "min_bucket" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn",
+      "gap_policy" : "skip"
+    }
+  }
+}
+[2020-02-16T22:25:34,717][INFO ][o.e.s.a.p.MinBucketTests ] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "min_bucket" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn",
+      "gap_policy" : "skip"
+    }
+  }
+}
+[2020-02-16T22:25:34,717][INFO ][o.e.s.a.p.MinBucketTests ] [testFromXContent] after test
+[2020-02-16T22:25:34,720][INFO ][o.e.s.a.p.MinBucketTests ] [testSerialization] before test
+[2020-02-16T22:25:34,720][INFO ][o.e.s.a.p.MinBucketTests ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:23" hostname="Escoto-PC" time="0.068">
+  <properties/>
+  <testcase name="testDoubles" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.009"/>
+  <testcase name="testMissingUnmappedField" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.006"/>
+  <testcase name="testRandomOffset" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.005"/>
+  <testcase name="testOffset" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.005"/>
+  <testcase name="testIrrationalInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.005"/>
+  <testcase name="testLongs" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.006"/>
+  <testcase name="testMinDocCount" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.006"/>
+  <testcase name="testMissingUnmappedFieldBadType" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.005"/>
+  <testcase name="testIncorrectFieldType" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.006"/>
+  <testcase name="testExtendedBounds" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.007"/>
+  <testcase name="testMissing" classname="org.elasticsearch.search.aggregations.bucket.histogram.NumericHistogramAggregatorTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T22:25:23,560][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testDoubles] before test
+[2020-02-16T22:25:23,567][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testDoubles] after test
+[2020-02-16T22:25:23,570][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testMissingUnmappedField] before test
+[2020-02-16T22:25:23,574][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testMissingUnmappedField] after test
+[2020-02-16T22:25:23,575][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testRandomOffset] before test
+[2020-02-16T22:25:23,579][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testRandomOffset] after test
+[2020-02-16T22:25:23,581][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testOffset] before test
+[2020-02-16T22:25:23,584][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testOffset] after test
+[2020-02-16T22:25:23,586][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testIrrationalInterval] before test
+[2020-02-16T22:25:23,590][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testIrrationalInterval] after test
+[2020-02-16T22:25:23,592][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testLongs] before test
+[2020-02-16T22:25:23,596][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testLongs] after test
+[2020-02-16T22:25:23,598][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testMinDocCount] before test
+[2020-02-16T22:25:23,603][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testMinDocCount] after test
+[2020-02-16T22:25:23,605][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testMissingUnmappedFieldBadType] before test
+[2020-02-16T22:25:23,608][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testMissingUnmappedFieldBadType] after test
+[2020-02-16T22:25:23,610][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testIncorrectFieldType] before test
+[2020-02-16T22:25:23,614][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testIncorrectFieldType] after test
+[2020-02-16T22:25:23,615][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testExtendedBounds] before test
+[2020-02-16T22:25:23,621][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testExtendedBounds] after test
+[2020-02-16T22:25:23,623][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testMissing] before test
+[2020-02-16T22:25:23,627][INFO ][o.e.s.a.b.h.NumericHistogramAggregatorTests] [testMissing] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

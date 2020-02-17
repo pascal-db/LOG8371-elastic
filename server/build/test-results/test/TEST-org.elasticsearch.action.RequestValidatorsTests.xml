@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.RequestValidatorsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testMultipleFailures" classname="org.elasticsearch.action.RequestValidatorsTests" time="0.006"/>
+  <testcase name="testValidates" classname="org.elasticsearch.action.RequestValidatorsTests" time="0.003"/>
+  <testcase name="testValidatesAfterFailure" classname="org.elasticsearch.action.RequestValidatorsTests" time="0.002"/>
+  <testcase name="testFailure" classname="org.elasticsearch.action.RequestValidatorsTests" time="0.002"/>
+  <testcase name="testRandom" classname="org.elasticsearch.action.RequestValidatorsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:20:18,700][INFO ][o.e.a.RequestValidatorsTests] [testMultipleFailures] before test
+[2020-02-17T06:20:18,703][INFO ][o.e.a.RequestValidatorsTests] [testMultipleFailures] after test
+[2020-02-17T06:20:18,705][INFO ][o.e.a.RequestValidatorsTests] [testValidates] before test
+[2020-02-17T06:20:18,706][INFO ][o.e.a.RequestValidatorsTests] [testValidates] after test
+[2020-02-17T06:20:18,707][INFO ][o.e.a.RequestValidatorsTests] [testValidatesAfterFailure] before test
+[2020-02-17T06:20:18,708][INFO ][o.e.a.RequestValidatorsTests] [testValidatesAfterFailure] after test
+[2020-02-17T06:20:18,709][INFO ][o.e.a.RequestValidatorsTests] [testFailure] before test
+[2020-02-17T06:20:18,710][INFO ][o.e.a.RequestValidatorsTests] [testFailure] after test
+[2020-02-17T06:20:18,711][INFO ][o.e.a.RequestValidatorsTests] [testRandom] before test
+[2020-02-17T06:20:18,711][INFO ][o.e.a.RequestValidatorsTests] [testRandom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

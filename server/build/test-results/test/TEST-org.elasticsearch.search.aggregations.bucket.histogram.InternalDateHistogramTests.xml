@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogramTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:23" hostname="Escoto-PC" time="0.044">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogramTests" time="0.007"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogramTests" time="0.007"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogramTests" time="0.007"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogramTests" time="0.01"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogramTests" time="0.006"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalDateHistogramTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T16:25:23,498][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T16:25:23,503][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T16:25:23,505][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testReduceRandom] before test
+[2020-02-16T16:25:23,508][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testReduceRandom] after test
+[2020-02-16T16:25:23,515][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testFromXContent] before test
+[2020-02-16T16:25:23,519][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testFromXContent] after test
+[2020-02-16T16:25:23,521][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testEqualsAndHashcode] before test
+[2020-02-16T16:25:23,529][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testEqualsAndHashcode] after test
+[2020-02-16T16:25:23,532][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testSerialization] before test
+[2020-02-16T16:25:23,535][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testSerialization] after test
+[2020-02-16T16:25:23,538][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testIterators] before test
+[2020-02-16T16:25:23,540][INFO ][o.e.s.a.b.h.InternalDateHistogramTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

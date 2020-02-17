@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.ObjectPathTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:50" hostname="Escoto-PC" time="0.153">
+  <properties/>
+  <testcase name="testEvaluateArray" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.032"/>
+  <testcase name="testEvaluateDouble" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.051"/>
+  <testcase name="testEvaluateArrayAsRoot" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.003"/>
+  <testcase name="testEvaluateObjectKeys" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.011"/>
+  <testcase name="testEvaluateArrayElementObject" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.009"/>
+  <testcase name="testEvaluateObjectPathEscape" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.018"/>
+  <testcase name="testEvaluateObjectPathWithDots" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.003"/>
+  <testcase name="testEvaluateStashInPropertyName" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.006"/>
+  <testcase name="testEvaluateArbitraryKey" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.011"/>
+  <testcase name="testEvaluateInteger" classname="org.elasticsearch.test.rest.yaml.ObjectPathTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T00:48:50,834][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateArray] before test
+[2020-02-17T00:48:50,845][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateArray] after test
+[2020-02-17T00:48:50,855][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateDouble] before test
+[2020-02-17T00:48:50,898][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateDouble] after test
+[2020-02-17T00:48:50,900][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateArrayAsRoot] before test
+[2020-02-17T00:48:50,902][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateArrayAsRoot] after test
+[2020-02-17T00:48:50,904][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateObjectKeys] before test
+[2020-02-17T00:48:50,912][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateObjectKeys] after test
+[2020-02-17T00:48:50,920][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateArrayElementObject] before test
+[2020-02-17T00:48:50,921][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateArrayElementObject] after test
+[2020-02-17T00:48:50,939][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateObjectPathEscape] before test
+[2020-02-17T00:48:50,939][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateObjectPathEscape] after test
+[2020-02-17T00:48:50,942][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateObjectPathWithDots] before test
+[2020-02-17T00:48:50,942][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateObjectPathWithDots] after test
+[2020-02-17T00:48:50,948][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateStashInPropertyName] before test
+[2020-02-17T00:48:50,949][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateStashInPropertyName] after test
+[2020-02-17T00:48:50,959][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateArbitraryKey] before test
+[2020-02-17T00:48:50,960][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateArbitraryKey] after test
+[2020-02-17T00:48:50,965][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateInteger] before test
+[2020-02-17T00:48:50,966][INFO ][o.e.t.r.y.ObjectPathTests] [testEvaluateInteger] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

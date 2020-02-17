@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.NodeVersionAllocationDeciderTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.137">
+  <properties/>
+  <testcase name="testRebalanceDoesNotAllocatePrimaryAndReplicasOnDifferentVersionNodes" classname="org.elasticsearch.cluster.routing.allocation.NodeVersionAllocationDeciderTests" time="0.004"/>
+  <testcase name="testRestoreDoesNotAllocateSnapshotOnOlderNodes" classname="org.elasticsearch.cluster.routing.allocation.NodeVersionAllocationDeciderTests" time="0.009"/>
+  <testcase name="testRandom" classname="org.elasticsearch.cluster.routing.allocation.NodeVersionAllocationDeciderTests" time="0.105"/>
+  <testcase name="testDoNotAllocateFromPrimary" classname="org.elasticsearch.cluster.routing.allocation.NodeVersionAllocationDeciderTests" time="0.005"/>
+  <testcase name="testMessages" classname="org.elasticsearch.cluster.routing.allocation.NodeVersionAllocationDeciderTests" time="0.006"/>
+  <testcase name="testRollingRestart" classname="org.elasticsearch.cluster.routing.allocation.NodeVersionAllocationDeciderTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T23:21:38,175][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRebalanceDoesNotAllocatePrimaryAndReplicasOnDifferentVersionNodes] before test
+[2020-02-16T23:21:38,177][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRebalanceDoesNotAllocatePrimaryAndReplicasOnDifferentVersionNodes] after test
+[2020-02-16T23:21:38,184][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRestoreDoesNotAllocateSnapshotOnOlderNodes] before test
+[2020-02-16T23:21:38,186][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRestoreDoesNotAllocateSnapshotOnOlderNodes] after test
+[2020-02-16T23:21:38,189][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] before test
+[2020-02-16T23:21:38,190][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] Building initial routing table
+[2020-02-16T23:21:38,206][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,209][INFO ][o.e.c.r.a.AllocationService] [testRandom] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test_0][1], [test_0][3], [test_0][2], [test_0][0], [test_6][1], [test_6][3], [test_6][4], [test_6][2], [test_6][0], [test_8][1], ... [30 items in total]]]).
+[2020-02-16T23:21:38,213][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,217][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,221][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,226][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,228][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,230][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,233][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,236][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,238][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,241][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,243][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,246][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,248][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,253][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,256][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,259][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,261][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,263][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,266][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,268][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,270][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,271][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,272][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,273][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,274][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,276][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,277][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,278][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,279][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,280][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,282][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,283][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,284][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,285][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,287][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,288][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,289][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,290][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,291][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] complete rebalancing
+[2020-02-16T23:21:38,292][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRandom] after test
+[2020-02-16T23:21:38,294][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testDoNotAllocateFromPrimary] before test
+[2020-02-16T23:21:38,295][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testDoNotAllocateFromPrimary] Building initial routing table
+[2020-02-16T23:21:38,295][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testDoNotAllocateFromPrimary] start two nodes and fully start the shards
+[2020-02-16T23:21:38,296][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testDoNotAllocateFromPrimary] start all the primary shards, replicas will start initializing
+[2020-02-16T23:21:38,297][INFO ][o.e.c.r.a.AllocationService] [testDoNotAllocateFromPrimary] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][3], [test][4], [test][2], [test][0]]]).
+[2020-02-16T23:21:38,297][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testDoNotAllocateFromPrimary] after test
+[2020-02-16T23:21:38,302][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testMessages] before test
+[2020-02-16T23:21:38,303][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testMessages] after test
+[2020-02-16T23:21:38,305][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRollingRestart] before test
+[2020-02-16T23:21:38,307][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRollingRestart] Building initial routing table
+[2020-02-16T23:21:38,307][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRollingRestart] complete rebalancing
+[2020-02-16T23:21:38,308][INFO ][o.e.c.r.a.AllocationService] [testRollingRestart] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][1], [test][3], [test][3], [test][4], [test][4], [test][2], [test][2], [test][0], [test][0]]]).
+[2020-02-16T23:21:38,308][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRollingRestart] complete rebalancing
+[2020-02-16T23:21:38,309][INFO ][o.e.c.r.a.AllocationService] [testRollingRestart] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][3], [test][4], [test][2], [test][0]]]).
+[2020-02-16T23:21:38,309][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRollingRestart] complete rebalancing
+[2020-02-16T23:21:38,310][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRollingRestart] complete rebalancing
+[2020-02-16T23:21:38,310][INFO ][o.e.c.r.a.AllocationService] [testRollingRestart] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][3], [test][4], [test][2], [test][0]]]).
+[2020-02-16T23:21:38,310][INFO ][o.e.c.r.a.NodeVersionAllocationDeciderTests] [testRollingRestart] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

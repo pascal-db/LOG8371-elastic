@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.collect.IteratorsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:43" hostname="Escoto-PC" time="0.043">
+  <properties/>
+  <testcase name="testRandomIterators" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.022"/>
+  <testcase name="testMultipleEmptyConcatenation" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.006"/>
+  <testcase name="testTwoEntries" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.002"/>
+  <testcase name="testSingleton" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.002"/>
+  <testcase name="testEmptyAfterSingleton" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.001"/>
+  <testcase name="testNullIterator" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.001"/>
+  <testcase name="testEmptyConcatenation" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.002"/>
+  <testcase name="testRandomSingleton" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.001"/>
+  <testcase name="testEmptyBeforeSingleton" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.002"/>
+  <testcase name="testNull" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.001"/>
+  <testcase name="testConcatentation" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.001"/>
+  <testcase name="testNoConcatenation" classname="org.elasticsearch.common.collect.IteratorsTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T03:20:43,709][INFO ][o.e.c.c.IteratorsTests   ] [testRandomIterators] before test
+[2020-02-17T03:20:43,730][INFO ][o.e.c.c.IteratorsTests   ] [testRandomIterators] after test
+[2020-02-17T03:20:43,735][INFO ][o.e.c.c.IteratorsTests   ] [testMultipleEmptyConcatenation] before test
+[2020-02-17T03:20:43,736][INFO ][o.e.c.c.IteratorsTests   ] [testMultipleEmptyConcatenation] after test
+[2020-02-17T03:20:43,738][INFO ][o.e.c.c.IteratorsTests   ] [testTwoEntries] before test
+[2020-02-17T03:20:43,738][INFO ][o.e.c.c.IteratorsTests   ] [testTwoEntries] after test
+[2020-02-17T03:20:43,739][INFO ][o.e.c.c.IteratorsTests   ] [testSingleton] before test
+[2020-02-17T03:20:43,740][INFO ][o.e.c.c.IteratorsTests   ] [testSingleton] after test
+[2020-02-17T03:20:43,741][INFO ][o.e.c.c.IteratorsTests   ] [testEmptyAfterSingleton] before test
+[2020-02-17T03:20:43,741][INFO ][o.e.c.c.IteratorsTests   ] [testEmptyAfterSingleton] after test
+[2020-02-17T03:20:43,742][INFO ][o.e.c.c.IteratorsTests   ] [testNullIterator] before test
+[2020-02-17T03:20:43,742][INFO ][o.e.c.c.IteratorsTests   ] [testNullIterator] after test
+[2020-02-17T03:20:43,743][INFO ][o.e.c.c.IteratorsTests   ] [testEmptyConcatenation] before test
+[2020-02-17T03:20:43,744][INFO ][o.e.c.c.IteratorsTests   ] [testEmptyConcatenation] after test
+[2020-02-17T03:20:43,745][INFO ][o.e.c.c.IteratorsTests   ] [testRandomSingleton] before test
+[2020-02-17T03:20:43,745][INFO ][o.e.c.c.IteratorsTests   ] [testRandomSingleton] after test
+[2020-02-17T03:20:43,746][INFO ][o.e.c.c.IteratorsTests   ] [testEmptyBeforeSingleton] before test
+[2020-02-17T03:20:43,747][INFO ][o.e.c.c.IteratorsTests   ] [testEmptyBeforeSingleton] after test
+[2020-02-17T03:20:43,748][INFO ][o.e.c.c.IteratorsTests   ] [testNull] before test
+[2020-02-17T03:20:43,748][INFO ][o.e.c.c.IteratorsTests   ] [testNull] after test
+[2020-02-17T03:20:43,749][INFO ][o.e.c.c.IteratorsTests   ] [testConcatentation] before test
+[2020-02-17T03:20:43,749][INFO ][o.e.c.c.IteratorsTests   ] [testConcatentation] after test
+[2020-02-17T03:20:43,751][INFO ][o.e.c.c.IteratorsTests   ] [testNoConcatenation] before test
+[2020-02-17T03:20:43,751][INFO ][o.e.c.c.IteratorsTests   ] [testNoConcatenation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

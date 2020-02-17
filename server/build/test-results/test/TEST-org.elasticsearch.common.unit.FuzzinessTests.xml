@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.unit.FuzzinessTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:55" hostname="Escoto-PC" time="0.075">
+  <properties/>
+  <testcase name="testSerializationDefaultAuto" classname="org.elasticsearch.common.unit.FuzzinessTests" time="0.022"/>
+  <testcase name="testAsDistance" classname="org.elasticsearch.common.unit.FuzzinessTests" time="0.008"/>
+  <testcase name="testSerializationCustomAuto" classname="org.elasticsearch.common.unit.FuzzinessTests" time="0.003"/>
+  <testcase name="testNumerics" classname="org.elasticsearch.common.unit.FuzzinessTests" time="0.002"/>
+  <testcase name="testAsDistanceString" classname="org.elasticsearch.common.unit.FuzzinessTests" time="0.02"/>
+  <testcase name="testAuto" classname="org.elasticsearch.common.unit.FuzzinessTests" time="0.009"/>
+  <testcase name="testParseFromXContent" classname="org.elasticsearch.common.unit.FuzzinessTests" time="0.005"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.unit.FuzzinessTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T17:21:55,232][INFO ][o.e.c.u.FuzzinessTests   ] [testSerializationDefaultAuto] before test
+[2020-02-16T17:21:55,232][INFO ][o.e.c.u.FuzzinessTests   ] [testSerializationDefaultAuto] after test
+[2020-02-16T17:21:55,234][INFO ][o.e.c.u.FuzzinessTests   ] [testAsDistance] before test
+[2020-02-16T17:21:55,240][INFO ][o.e.c.u.FuzzinessTests   ] [testAsDistance] after test
+[2020-02-16T17:21:55,243][INFO ][o.e.c.u.FuzzinessTests   ] [testSerializationCustomAuto] before test
+[2020-02-16T17:21:55,243][INFO ][o.e.c.u.FuzzinessTests   ] [testSerializationCustomAuto] after test
+[2020-02-16T17:21:55,245][INFO ][o.e.c.u.FuzzinessTests   ] [testNumerics] before test
+[2020-02-16T17:21:55,245][INFO ][o.e.c.u.FuzzinessTests   ] [testNumerics] after test
+[2020-02-16T17:21:55,265][INFO ][o.e.c.u.FuzzinessTests   ] [testAsDistanceString] before test
+[2020-02-16T17:21:55,265][INFO ][o.e.c.u.FuzzinessTests   ] [testAsDistanceString] after test
+[2020-02-16T17:21:55,275][INFO ][o.e.c.u.FuzzinessTests   ] [testAuto] before test
+[2020-02-16T17:21:55,275][INFO ][o.e.c.u.FuzzinessTests   ] [testAuto] after test
+[2020-02-16T17:21:55,277][INFO ][o.e.c.u.FuzzinessTests   ] [testParseFromXContent] before test
+[2020-02-16T17:21:55,280][INFO ][o.e.c.u.FuzzinessTests   ] [testParseFromXContent] after test
+[2020-02-16T17:21:55,285][INFO ][o.e.c.u.FuzzinessTests   ] [testSerialization] before test
+[2020-02-16T17:21:55,285][INFO ][o.e.c.u.FuzzinessTests   ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

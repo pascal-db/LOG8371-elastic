@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.RemoteClusterClientTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:47" hostname="Escoto-PC" time="1.301">
+  <properties/>
+  <testcase name="testConnectAndExecuteRequest" classname="org.elasticsearch.transport.RemoteClusterClientTests" time="0.634"/>
+  <testcase name="testEnsureWeReconnect" classname="org.elasticsearch.transport.RemoteClusterClientTests" time="0.667"/>
+  <system-out><![CDATA[[2020-02-16T19:24:47,746][INFO ][o.e.t.RemoteClusterClientTests] [testConnectAndExecuteRequest] before test
+[2020-02-16T19:24:48,075][INFO ][o.e.t.TransportService   ] [testConnectAndExecuteRequest] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T19:24:48,372][INFO ][o.e.t.TransportService   ] [testConnectAndExecuteRequest] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T19:24:48,375][INFO ][o.e.t.RemoteClusterClientTests] [testConnectAndExecuteRequest] Start accepting incoming requests on local transport service
+[2020-02-16T19:24:48,375][INFO ][o.e.t.RemoteClusterClientTests] [testConnectAndExecuteRequest] now accepting incoming requests on local transport
+[2020-02-16T19:24:48,378][INFO ][o.e.t.RemoteClusterClientTests] [testConnectAndExecuteRequest] after test
+[2020-02-16T19:24:48,380][INFO ][o.e.t.RemoteClusterClientTests] [testEnsureWeReconnect] before test
+[2020-02-16T19:24:48,722][INFO ][o.e.t.TransportService   ] [testEnsureWeReconnect] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T19:24:49,003][INFO ][o.e.t.TransportService   ] [testEnsureWeReconnect] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T19:24:49,044][INFO ][o.e.t.RemoteClusterClientTests] [testEnsureWeReconnect] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

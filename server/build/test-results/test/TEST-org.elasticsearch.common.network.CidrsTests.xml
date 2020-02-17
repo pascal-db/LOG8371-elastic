@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.network.CidrsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:47" hostname="Escoto-PC" time="1.038">
+  <properties/>
+  <testcase name="testValidCombinations" classname="org.elasticsearch.common.network.CidrsTests" time="0.998"/>
+  <testcase name="testNullCidr" classname="org.elasticsearch.common.network.CidrsTests" time="0.025"/>
+  <testcase name="testSplittingSlash" classname="org.elasticsearch.common.network.CidrsTests" time="0.001"/>
+  <testcase name="testValidSpecificCases" classname="org.elasticsearch.common.network.CidrsTests" time="0.002"/>
+  <testcase name="testInvalidCombinations" classname="org.elasticsearch.common.network.CidrsTests" time="0.002"/>
+  <testcase name="testInvalidSpecificOctetCases" classname="org.elasticsearch.common.network.CidrsTests" time="0.002"/>
+  <testcase name="testRandomValidCombinations" classname="org.elasticsearch.common.network.CidrsTests" time="0.003"/>
+  <testcase name="testInvalidSpecificNetworkMaskCases" classname="org.elasticsearch.common.network.CidrsTests" time="0.002"/>
+  <testcase name="testSplittingDot" classname="org.elasticsearch.common.network.CidrsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:21:47,700][INFO ][o.e.c.n.CidrsTests       ] [testValidCombinations] before test
+[2020-02-17T01:21:48,691][INFO ][o.e.c.n.CidrsTests       ] [testValidCombinations] after test
+[2020-02-17T01:21:48,716][INFO ][o.e.c.n.CidrsTests       ] [testNullCidr] before test
+[2020-02-17T01:21:48,717][INFO ][o.e.c.n.CidrsTests       ] [testNullCidr] after test
+[2020-02-17T01:21:48,718][INFO ][o.e.c.n.CidrsTests       ] [testSplittingSlash] before test
+[2020-02-17T01:21:48,719][INFO ][o.e.c.n.CidrsTests       ] [testSplittingSlash] after test
+[2020-02-17T01:21:48,720][INFO ][o.e.c.n.CidrsTests       ] [testValidSpecificCases] before test
+[2020-02-17T01:21:48,720][INFO ][o.e.c.n.CidrsTests       ] [testValidSpecificCases] after test
+[2020-02-17T01:21:48,722][INFO ][o.e.c.n.CidrsTests       ] [testInvalidCombinations] before test
+[2020-02-17T01:21:48,722][INFO ][o.e.c.n.CidrsTests       ] [testInvalidCombinations] after test
+[2020-02-17T01:21:48,724][INFO ][o.e.c.n.CidrsTests       ] [testInvalidSpecificOctetCases] before test
+[2020-02-17T01:21:48,724][INFO ][o.e.c.n.CidrsTests       ] [testInvalidSpecificOctetCases] after test
+[2020-02-17T01:21:48,727][INFO ][o.e.c.n.CidrsTests       ] [testRandomValidCombinations] before test
+[2020-02-17T01:21:48,727][INFO ][o.e.c.n.CidrsTests       ] [testRandomValidCombinations] after test
+[2020-02-17T01:21:48,729][INFO ][o.e.c.n.CidrsTests       ] [testInvalidSpecificNetworkMaskCases] before test
+[2020-02-17T01:21:48,729][INFO ][o.e.c.n.CidrsTests       ] [testInvalidSpecificNetworkMaskCases] after test
+[2020-02-17T01:21:48,731][INFO ][o.e.c.n.CidrsTests       ] [testSplittingDot] before test
+[2020-02-17T01:21:48,731][INFO ][o.e.c.n.CidrsTests       ] [testSplittingDot] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

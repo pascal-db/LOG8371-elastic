@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.RefreshPolicyTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.support.RefreshPolicyTests" time="0.005"/>
+  <testcase name="testParse" classname="org.elasticsearch.action.support.RefreshPolicyTests" time="0.003"/>
+  <testcase name="testParseEmpty" classname="org.elasticsearch.action.support.RefreshPolicyTests" time="0.002"/>
+  <testcase name="testParseUnknown" classname="org.elasticsearch.action.support.RefreshPolicyTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:20:47,754][INFO ][o.e.a.s.RefreshPolicyTests] [testSerialization] before test
+[2020-02-16T18:20:47,756][INFO ][o.e.a.s.RefreshPolicyTests] [testSerialization] after test
+[2020-02-16T18:20:47,759][INFO ][o.e.a.s.RefreshPolicyTests] [testParse] before test
+[2020-02-16T18:20:47,759][INFO ][o.e.a.s.RefreshPolicyTests] [testParse] after test
+[2020-02-16T18:20:47,762][INFO ][o.e.a.s.RefreshPolicyTests] [testParseEmpty] before test
+[2020-02-16T18:20:47,762][INFO ][o.e.a.s.RefreshPolicyTests] [testParseEmpty] after test
+[2020-02-16T18:20:47,764][INFO ][o.e.a.s.RefreshPolicyTests] [testParseUnknown] before test
+[2020-02-16T18:20:47,764][INFO ][o.e.a.s.RefreshPolicyTests] [testParseUnknown] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

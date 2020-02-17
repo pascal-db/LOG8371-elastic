@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.cluster.RestClusterGetSettingsActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testFilterPersistentSettings" classname="org.elasticsearch.rest.action.admin.cluster.RestClusterGetSettingsActionTests" time="0.006"/>
+  <testcase name="testFilterTransientSettings" classname="org.elasticsearch.rest.action.admin.cluster.RestClusterGetSettingsActionTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T19:24:04,539][INFO ][o.e.r.a.a.c.RestClusterGetSettingsActionTests] [testFilterPersistentSettings] before test
+[2020-02-16T19:24:04,543][INFO ][o.e.r.a.a.c.RestClusterGetSettingsActionTests] [testFilterPersistentSettings] after test
+[2020-02-16T19:24:04,546][INFO ][o.e.r.a.a.c.RestClusterGetSettingsActionTests] [testFilterTransientSettings] before test
+[2020-02-16T19:24:04,548][INFO ][o.e.r.a.a.c.RestClusterGetSettingsActionTests] [testFilterTransientSettings] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

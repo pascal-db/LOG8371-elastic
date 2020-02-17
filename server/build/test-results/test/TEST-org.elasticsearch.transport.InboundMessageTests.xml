@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.InboundMessageTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:00" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testReadErrorResponse" classname="org.elasticsearch.transport.InboundMessageTests" time="0.003"/>
+  <testcase name="testReadResponse" classname="org.elasticsearch.transport.InboundMessageTests" time="0.003"/>
+  <testcase name="testThrowOnNotCompressed" classname="org.elasticsearch.transport.InboundMessageTests" time="0.003"/>
+  <testcase name="testEnsureVersionCompatibility" classname="org.elasticsearch.transport.InboundMessageTests" time="0.004"/>
+  <testcase name="testReadRequest" classname="org.elasticsearch.transport.InboundMessageTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T23:26:00,447][INFO ][o.e.t.InboundMessageTests] [testReadErrorResponse] before test
+[2020-02-16T23:26:00,448][INFO ][o.e.t.InboundMessageTests] [testReadErrorResponse] after test
+[2020-02-16T23:26:00,450][INFO ][o.e.t.InboundMessageTests] [testReadResponse] before test
+[2020-02-16T23:26:00,450][INFO ][o.e.t.InboundMessageTests] [testReadResponse] after test
+[2020-02-16T23:26:00,453][INFO ][o.e.t.InboundMessageTests] [testThrowOnNotCompressed] before test
+[2020-02-16T23:26:00,454][INFO ][o.e.t.InboundMessageTests] [testThrowOnNotCompressed] after test
+[2020-02-16T23:26:00,455][INFO ][o.e.t.InboundMessageTests] [testEnsureVersionCompatibility] before test
+[2020-02-16T23:26:00,458][INFO ][o.e.t.InboundMessageTests] [testEnsureVersionCompatibility] after test
+[2020-02-16T23:26:00,461][INFO ][o.e.t.InboundMessageTests] [testReadRequest] before test
+[2020-02-16T23:26:00,462][INFO ][o.e.t.InboundMessageTests] [testReadRequest] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

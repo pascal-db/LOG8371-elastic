@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.BalanceUnbalancedClusterTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:35" hostname="Escoto-PC" time="1.861">
+  <properties/>
+  <testcase name="testRun" classname="org.elasticsearch.cluster.routing.allocation.BalanceUnbalancedClusterTests" time="1.861"/>
+  <system-out><![CDATA[[2020-02-17T05:21:35,400][INFO ][o.e.c.r.a.BalanceUnbalancedClusterTests] [testRun] before test
+[2020-02-17T05:21:35,437][INFO ][o.e.c.r.a.BalanceUnbalancedClusterTests] [testRun] Building initial routing table
+[2020-02-17T05:21:37,239][INFO ][o.e.c.r.a.AllocationService] [testRun] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[tweets-2014-12-29:00][1], [tweets-2014-12-29:00][3], [tweets-2014-12-29:00][4], [tweets-2014-12-29:00][2], [tweets-2014-12-29:00][0]]]).
+[2020-02-17T05:21:37,259][INFO ][o.e.c.r.a.BalanceUnbalancedClusterTests] [testRun] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

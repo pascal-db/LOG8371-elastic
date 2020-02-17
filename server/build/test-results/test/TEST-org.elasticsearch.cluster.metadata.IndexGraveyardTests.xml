@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.IndexGraveyardTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:33" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testDiffs" classname="org.elasticsearch.cluster.metadata.IndexGraveyardTests" time="0.007"/>
+  <testcase name="testEquals" classname="org.elasticsearch.cluster.metadata.IndexGraveyardTests" time="0.006"/>
+  <testcase name="testAddTombstones" classname="org.elasticsearch.cluster.metadata.IndexGraveyardTests" time="0.003"/>
+  <testcase name="testPurge" classname="org.elasticsearch.cluster.metadata.IndexGraveyardTests" time="0.005"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.metadata.IndexGraveyardTests" time="0.01"/>
+  <testcase name="testXContent" classname="org.elasticsearch.cluster.metadata.IndexGraveyardTests" time="0.004"/>
+  <testcase name="testContains" classname="org.elasticsearch.cluster.metadata.IndexGraveyardTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T04:50:33,534][INFO ][o.e.c.m.IndexGraveyardTests] [testDiffs] before test
+[2020-02-17T04:50:33,535][INFO ][o.e.c.m.IndexGraveyardTests] [testDiffs] after test
+[2020-02-17T04:50:33,542][INFO ][o.e.c.m.IndexGraveyardTests] [testEquals] before test
+[2020-02-17T04:50:33,542][INFO ][o.e.c.m.IndexGraveyardTests] [testEquals] after test
+[2020-02-17T04:50:33,545][INFO ][o.e.c.m.IndexGraveyardTests] [testAddTombstones] before test
+[2020-02-17T04:50:33,545][INFO ][o.e.c.m.IndexGraveyardTests] [testAddTombstones] after test
+[2020-02-17T04:50:33,548][INFO ][o.e.c.m.IndexGraveyardTests] [testPurge] before test
+[2020-02-17T04:50:33,550][INFO ][o.e.c.m.IndexGraveyardTests] [testPurge] after test
+[2020-02-17T04:50:33,558][INFO ][o.e.c.m.IndexGraveyardTests] [testSerialization] before test
+[2020-02-17T04:50:33,560][INFO ][o.e.c.m.IndexGraveyardTests] [testSerialization] after test
+[2020-02-17T04:50:33,563][INFO ][o.e.c.m.IndexGraveyardTests] [testXContent] before test
+[2020-02-17T04:50:33,564][INFO ][o.e.c.m.IndexGraveyardTests] [testXContent] after test
+[2020-02-17T04:50:33,566][INFO ][o.e.c.m.IndexGraveyardTests] [testContains] before test
+[2020-02-17T04:50:33,567][INFO ][o.e.c.m.IndexGraveyardTests] [testContains] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.monitor.jvm.JvmMonitorTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testSlowGc" classname="org.elasticsearch.monitor.jvm.JvmMonitorTests" time="0.007"/>
+  <testcase name="testCheckGcOverhead" classname="org.elasticsearch.monitor.jvm.JvmMonitorTests" time="0.002"/>
+  <testcase name="testMonitorFailure" classname="org.elasticsearch.monitor.jvm.JvmMonitorTests" time="0.003"/>
+  <testcase name="testMonitorGc" classname="org.elasticsearch.monitor.jvm.JvmMonitorTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T08:24:59,486][INFO ][o.e.m.j.JvmMonitorTests  ] [testSlowGc] before test
+[2020-02-17T08:24:59,491][INFO ][o.e.m.j.JvmMonitorTests  ] [testSlowGc] after test
+[2020-02-17T08:24:59,493][INFO ][o.e.m.j.JvmMonitorTests  ] [testCheckGcOverhead] before test
+[2020-02-17T08:24:59,493][INFO ][o.e.m.j.JvmMonitorTests  ] [testCheckGcOverhead] after test
+[2020-02-17T08:24:59,496][INFO ][o.e.m.j.JvmMonitorTests  ] [testMonitorFailure] before test
+[2020-02-17T08:24:59,496][INFO ][o.e.m.j.JvmMonitorTests  ] [testMonitorFailure] after test
+[2020-02-17T08:24:59,498][INFO ][o.e.m.j.JvmMonitorTests  ] [testMonitorGc] before test
+[2020-02-17T08:24:59,499][INFO ][o.e.m.j.JvmMonitorTests  ] [testMonitorGc] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

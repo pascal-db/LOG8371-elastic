@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.recovery.RecoverySettingsDynamicUpdateTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:53" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testRetryDelayNetwork" classname="org.elasticsearch.indices.recovery.RecoverySettingsDynamicUpdateTests" time="0.004"/>
+  <testcase name="testRetryDelayStateSync" classname="org.elasticsearch.indices.recovery.RecoverySettingsDynamicUpdateTests" time="0.002"/>
+  <testcase name="testInternalLongActionTimeout" classname="org.elasticsearch.indices.recovery.RecoverySettingsDynamicUpdateTests" time="0.003"/>
+  <testcase name="testActivityTimeout" classname="org.elasticsearch.indices.recovery.RecoverySettingsDynamicUpdateTests" time="0.002"/>
+  <testcase name="testInternalActionTimeout" classname="org.elasticsearch.indices.recovery.RecoverySettingsDynamicUpdateTests" time="0.003"/>
+  <testcase name="testZeroBytesPerSecondIsNoRateLimit" classname="org.elasticsearch.indices.recovery.RecoverySettingsDynamicUpdateTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T17:23:53,477][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testRetryDelayNetwork] before test
+[2020-02-16T17:23:53,477][INFO ][o.e.c.s.ClusterSettings  ] [testRetryDelayNetwork] updating [indices.recovery.retry_delay_network] from [5s] to [505m]
+[2020-02-16T17:23:53,477][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testRetryDelayNetwork] after test
+[2020-02-16T17:23:53,480][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testRetryDelayStateSync] before test
+[2020-02-16T17:23:53,480][INFO ][o.e.c.s.ClusterSettings  ] [testRetryDelayStateSync] updating [indices.recovery.retry_delay_state_sync] from [500ms] to [712h]
+[2020-02-16T17:23:53,480][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testRetryDelayStateSync] after test
+[2020-02-16T17:23:53,483][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testInternalLongActionTimeout] before test
+[2020-02-16T17:23:53,483][INFO ][o.e.c.s.ClusterSettings  ] [testInternalLongActionTimeout] updating [indices.recovery.internal_action_long_timeout] from [1800000ms] to [494ms]
+[2020-02-16T17:23:53,483][INFO ][o.e.c.s.ClusterSettings  ] [testInternalLongActionTimeout] updating [indices.recovery.recovery_activity_timeout] from [1800000ms] to [494ms]
+[2020-02-16T17:23:53,483][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testInternalLongActionTimeout] after test
+[2020-02-16T17:23:53,486][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testActivityTimeout] before test
+[2020-02-16T17:23:53,486][INFO ][o.e.c.s.ClusterSettings  ] [testActivityTimeout] updating [indices.recovery.recovery_activity_timeout] from [1800000ms] to [839s]
+[2020-02-16T17:23:53,486][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testActivityTimeout] after test
+[2020-02-16T17:23:53,489][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testInternalActionTimeout] before test
+[2020-02-16T17:23:53,489][INFO ][o.e.c.s.ClusterSettings  ] [testInternalActionTimeout] updating [indices.recovery.internal_action_timeout] from [15m] to [29ms]
+[2020-02-16T17:23:53,489][INFO ][o.e.c.s.ClusterSettings  ] [testInternalActionTimeout] updating [indices.recovery.internal_action_long_timeout] from [1800000ms] to [58ms]
+[2020-02-16T17:23:53,489][INFO ][o.e.c.s.ClusterSettings  ] [testInternalActionTimeout] updating [indices.recovery.recovery_activity_timeout] from [1800000ms] to [58ms]
+[2020-02-16T17:23:53,489][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testInternalActionTimeout] after test
+[2020-02-16T17:23:53,492][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testZeroBytesPerSecondIsNoRateLimit] before test
+[2020-02-16T17:23:53,492][INFO ][o.e.c.s.ClusterSettings  ] [testZeroBytesPerSecondIsNoRateLimit] updating [indices.recovery.max_bytes_per_sec] from [40mb] to [0]
+[2020-02-16T17:23:53,492][INFO ][o.e.i.r.RecoverySettingsDynamicUpdateTests] [testZeroBytesPerSecondIsNoRateLimit] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

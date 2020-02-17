@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.VersionUtilsTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:49:31" hostname="Escoto-PC" time="0.054">
+  <properties/>
+  <testcase name="testGradleVersionsMatchVersionUtils" classname="org.elasticsearch.test.VersionUtilsTests" time="0.007"/>
+  <testcase name="testResolveReleasedVersionsAtNewMinorBranchIn6x" classname="org.elasticsearch.test.VersionUtilsTests" time="0.003"/>
+  <testcase name="testRandomVersionBetween" classname="org.elasticsearch.test.VersionUtilsTests" time="0.002"/>
+  <testcase name="testResolveReleasedVersionsForReleaseBranch" classname="org.elasticsearch.test.VersionUtilsTests" time="0.007"/>
+  <testcase name="testResolveReleasedVersionsAtNewMajorRelease" classname="org.elasticsearch.test.VersionUtilsTests" time="0.003"/>
+  <testcase name="testResolveReleasedVersionsForStableBranchBehindStableBranch" classname="org.elasticsearch.test.VersionUtilsTests" time="0.012"/>
+  <testcase name="testResolveReleasedVersionsForUnreleasedStableBranch" classname="org.elasticsearch.test.VersionUtilsTests" time="0.007"/>
+  <testcase name="testResolveReleasedVersionsForUnstableBranch" classname="org.elasticsearch.test.VersionUtilsTests" time="0.006"/>
+  <testcase name="testAllVersionsSorted" classname="org.elasticsearch.test.VersionUtilsTests" time="0.002"/>
+  <testcase name="testResolveReleasedVersionsAtVersionBumpIn6x" classname="org.elasticsearch.test.VersionUtilsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:49:31,503][INFO ][o.e.t.VersionUtilsTests  ] [testGradleVersionsMatchVersionUtils] before test
+[2020-02-16T23:49:31,505][INFO ][o.e.t.VersionUtilsTests  ] [testGradleVersionsMatchVersionUtils] Looked up versions [tests.gradle_index_compat_versions=6.0.0,6.0.1,6.1.0,6.1.1,6.1.2,6.1.3,6.1.4,6.2.0,6.2.1,6.2.2,6.2.3,6.2.4,6.3.0,6.3.1,6.3.2,6.4.0,6.4.1,6.4.2,6.4.3,6.5.0,6.5.1,6.5.2,6.5.3,6.5.4,6.6.0,6.6.1,6.6.2,6.7.0,6.7.1,6.7.2,6.8.0,6.8.1,6.8.2,6.8.3,6.8.4,6.8.5,6.8.6,7.0.0,7.0.1,7.1.0,7.1.1,7.2.0,7.2.1,7.3.0,7.3.1,7.3.2,7.4.0,7.4.1,7.4.2,7.5.0]
+[2020-02-16T23:49:31,507][INFO ][o.e.t.VersionUtilsTests  ] [testGradleVersionsMatchVersionUtils] Looked up versions [tests.gradle_wire_compat_versions=6.8.0,6.8.1,6.8.2,6.8.3,6.8.4,6.8.5,6.8.6,7.0.0,7.0.1,7.1.0,7.1.1,7.2.0,7.2.1,7.3.0,7.3.1,7.3.2,7.4.0,7.4.1,7.4.2,7.5.0]
+[2020-02-16T23:49:31,508][INFO ][o.e.t.VersionUtilsTests  ] [testGradleVersionsMatchVersionUtils] after test
+[2020-02-16T23:49:31,511][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsAtNewMinorBranchIn6x] before test
+[2020-02-16T23:49:31,512][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsAtNewMinorBranchIn6x] after test
+[2020-02-16T23:49:31,514][INFO ][o.e.t.VersionUtilsTests  ] [testRandomVersionBetween] before test
+[2020-02-16T23:49:31,515][INFO ][o.e.t.VersionUtilsTests  ] [testRandomVersionBetween] after test
+[2020-02-16T23:49:31,520][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsForReleaseBranch] before test
+[2020-02-16T23:49:31,521][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsForReleaseBranch] after test
+[2020-02-16T23:49:31,523][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsAtNewMajorRelease] before test
+[2020-02-16T23:49:31,524][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsAtNewMajorRelease] after test
+[2020-02-16T23:49:31,536][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsForStableBranchBehindStableBranch] before test
+[2020-02-16T23:49:31,536][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsForStableBranchBehindStableBranch] after test
+[2020-02-16T23:49:31,543][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsForUnreleasedStableBranch] before test
+[2020-02-16T23:49:31,544][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsForUnreleasedStableBranch] after test
+[2020-02-16T23:49:31,549][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsForUnstableBranch] before test
+[2020-02-16T23:49:31,550][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsForUnstableBranch] after test
+[2020-02-16T23:49:31,552][INFO ][o.e.t.VersionUtilsTests  ] [testAllVersionsSorted] before test
+[2020-02-16T23:49:31,552][INFO ][o.e.t.VersionUtilsTests  ] [testAllVersionsSorted] after test
+[2020-02-16T23:49:31,554][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsAtVersionBumpIn6x] before test
+[2020-02-16T23:49:31,555][INFO ][o.e.t.VersionUtilsTests  ] [testResolveReleasedVersionsAtVersionBumpIn6x] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

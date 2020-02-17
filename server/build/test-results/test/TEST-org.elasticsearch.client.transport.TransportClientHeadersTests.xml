@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.client.transport.TransportClientHeadersTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="1.426">
+  <properties/>
+  <testcase name="testOverrideHeader" classname="org.elasticsearch.client.transport.TransportClientHeadersTests" time="0.461"/>
+  <testcase name="testActions" classname="org.elasticsearch.client.transport.TransportClientHeadersTests" time="0.453"/>
+  <testcase name="testWithSniffing" classname="org.elasticsearch.client.transport.TransportClientHeadersTests" time="0.512"/>
+  <system-out><![CDATA[[2020-02-16T22:20:50,857][INFO ][o.e.t.TransportService   ] [testOverrideHeader] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T22:20:50,860][INFO ][o.e.p.PluginsService     ] [testOverrideHeader] no modules loaded
+[2020-02-16T22:20:50,860][INFO ][o.e.p.PluginsService     ] [testOverrideHeader] loaded plugin [org.elasticsearch.client.transport.TransportClientHeadersTests$InternalTransportServiceInterceptor$TestPlugin]
+[2020-02-16T22:20:50,860][INFO ][o.e.p.PluginsService     ] [testOverrideHeader] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T22:20:50,886][INFO ][o.e.c.t.TransportClientHeadersTests] [testOverrideHeader] before test
+[2020-02-16T22:20:50,890][INFO ][o.e.c.t.TransportClientHeadersTests] [testOverrideHeader] after test
+[2020-02-16T22:20:51,311][INFO ][o.e.t.TransportService   ] [testActions] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T22:20:51,311][INFO ][o.e.p.PluginsService     ] [testActions] no modules loaded
+[2020-02-16T22:20:51,311][INFO ][o.e.p.PluginsService     ] [testActions] loaded plugin [org.elasticsearch.client.transport.TransportClientHeadersTests$InternalTransportServiceInterceptor$TestPlugin]
+[2020-02-16T22:20:51,311][INFO ][o.e.p.PluginsService     ] [testActions] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T22:20:51,327][INFO ][o.e.c.t.TransportClientHeadersTests] [testActions] before test
+[2020-02-16T22:20:51,330][INFO ][o.e.c.t.TransportClientHeadersTests] [testActions] after test
+[2020-02-16T22:20:51,812][INFO ][o.e.t.TransportService   ] [testWithSniffing] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T22:20:51,813][INFO ][o.e.p.PluginsService     ] [testWithSniffing] no modules loaded
+[2020-02-16T22:20:51,813][INFO ][o.e.p.PluginsService     ] [testWithSniffing] loaded plugin [org.elasticsearch.client.transport.TransportClientHeadersTests$InternalTransportServiceInterceptor$TestPlugin]
+[2020-02-16T22:20:51,813][INFO ][o.e.p.PluginsService     ] [testWithSniffing] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T22:20:51,825][INFO ][o.e.c.t.TransportClientHeadersTests] [testWithSniffing] before test
+[2020-02-16T22:20:51,826][INFO ][o.e.p.PluginsService     ] [testWithSniffing] no modules loaded
+[2020-02-16T22:20:51,826][INFO ][o.e.p.PluginsService     ] [testWithSniffing] loaded plugin [org.elasticsearch.client.transport.TransportClientHeadersTests$InternalTransportServiceInterceptor$TestPlugin]
+[2020-02-16T22:20:51,826][INFO ][o.e.p.PluginsService     ] [testWithSniffing] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T22:20:51,856][INFO ][o.e.c.t.TransportClientHeadersTests] [testWithSniffing] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

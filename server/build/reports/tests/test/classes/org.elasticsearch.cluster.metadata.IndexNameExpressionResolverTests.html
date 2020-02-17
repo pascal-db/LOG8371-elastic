@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.metadata.IndexNameExpressionResolverTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.metadata.IndexNameExpressionResolverTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.metadata.html">org.elasticsearch.cluster.metadata</a> &gt; IndexNameExpressionResolverTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">55</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.618s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAliasResolutionNotAllowingMultipleIndices</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesAllPatternRandom</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesIgnoreIndicesAllMissing</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesIgnoreIndicesEmptyRequest</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesIgnoreIndicesOneMissingIndex</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesIgnoreIndicesOneMissingIndexOtherFound</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesNoIndicesErrorMessage</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesNoIndicesErrorMessageNoExpand</td>
+<td class="success">0.028s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesWildcardAndAliases</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesWildcardExpansion</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesWildcardNoMatch</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteIndicesWildcardWithNegation</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteWriteIndexSuccessful</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteWriteIndexWithInvalidIndicesRequest</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteWriteIndexWithNoWriteIndexWithMultipleIndices</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteWriteIndexWithNoWriteIndexWithSingleIndex</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcreteWriteIndexWithWildcardExpansion</td>
+<td class="success">0.044s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDedupConcreteIndices</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteIndexIgnoresAliases</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFilterClosedIndicesOnAliases</td>
+<td class="success">0.072s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFilteringAliases</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIgnoreThrottled</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexAliases</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexAliasesSkipIdentity</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexOptionsAllowUnavailableDisallowEmpty</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexOptionsEmptyCluster</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexOptionsFailClosedIndicesAndAliases</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexOptionsLenient</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexOptionsNoExpandWildcards</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexOptionsSingleIndexNoExpandWildcards</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexOptionsStrict</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexOptionsWildcardExpansion</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndicesAliasesRequestIgnoresAliases</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidIndex</td>
+<td class="success">0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsAllIndicesEmpty</td>
+<td class="success">0.038s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsAllIndicesExplicitAll</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsAllIndicesExplicitAllPlusOther</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsAllIndicesNormalIndexes</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsAllIndicesNull</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsAllIndicesWildcard</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsExplicitAllIndicesEmpty</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsExplicitAllIndicesExplicitAll</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsExplicitAllIndicesExplicitAllPlusOther</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsExplicitAllIndicesNormalIndexes</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsExplicitAllIndicesNull</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsExplicitAllIndicesWildcard</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsPatternMatchingAllIndicesExplicitList</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsPatternMatchingAllIndicesMatchingSingleExclusion</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsPatternMatchingAllIndicesMatchingTrailingWildcard</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsPatternMatchingAllIndicesMatchingTrailingWildcardAndExclusion</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsPatternMatchingAllIndicesNonMatchingSingleExclusion</td>
+<td class="success">0.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsPatternMatchingAllIndicesNonMatchingTrailingWildcard</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsPatternMatchingAllIndicesNonMatchingTrailingWildcardAndExclusion</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsPatternMatchingAllIndicesOnlyWildcard</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testResolveExpressions</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T03:20:33,904][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesNormalIndexes] before test
+[2020-02-17T03:20:33,906][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesNormalIndexes] after test
+[2020-02-17T03:20:33,913][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsNoExpandWildcards] before test
+[2020-02-17T03:20:33,914][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsNoExpandWildcards] after test
+[2020-02-17T03:20:33,921][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsWildcardExpansion] before test
+[2020-02-17T03:20:33,922][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsWildcardExpansion] after test
+[2020-02-17T03:20:33,925][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesNonMatchingTrailingWildcardAndExclusion] before test
+[2020-02-17T03:20:33,925][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesNonMatchingTrailingWildcardAndExclusion] after test
+[2020-02-17T03:20:33,963][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesEmpty] before test
+[2020-02-17T03:20:33,963][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesEmpty] after test
+[2020-02-17T03:20:33,965][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesMatchingSingleExclusion] before test
+[2020-02-17T03:20:33,965][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesMatchingSingleExclusion] after test
+[2020-02-17T03:20:33,967][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testDeleteIndexIgnoresAliases] before test
+[2020-02-17T03:20:33,968][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testDeleteIndexIgnoresAliases] after test
+[2020-02-17T03:20:33,975][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesNormalIndexes] before test
+[2020-02-17T03:20:33,976][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesNormalIndexes] after test
+[2020-02-17T03:20:33,981][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexAliasesSkipIdentity] before test
+[2020-02-17T03:20:33,982][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexAliasesSkipIdentity] after test
+[2020-02-17T03:20:33,988][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsEmptyCluster] before test
+[2020-02-17T03:20:33,988][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsEmptyCluster] after test
+[2020-02-17T03:20:33,992][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesMatchingTrailingWildcard] before test
+[2020-02-17T03:20:33,993][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesMatchingTrailingWildcard] after test
+[2020-02-17T03:20:33,998][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesWildcardAndAliases] before test
+[2020-02-17T03:20:34,004][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesWildcardAndAliases] after test
+[2020-02-17T03:20:34,009][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsLenient] before test
+[2020-02-17T03:20:34,009][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsLenient] after test
+[2020-02-17T03:20:34,017][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesWildcard] before test
+[2020-02-17T03:20:34,017][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesWildcard] after test
+[2020-02-17T03:20:34,034][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesOnlyWildcard] before test
+[2020-02-17T03:20:34,034][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesOnlyWildcard] after test
+[2020-02-17T03:20:34,046][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesExplicitAllPlusOther] before test
+[2020-02-17T03:20:34,046][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesExplicitAllPlusOther] after test
+[2020-02-17T03:20:34,050][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesIgnoreIndicesOneMissingIndex] before test
+[2020-02-17T03:20:34,050][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesIgnoreIndicesOneMissingIndex] after test
+[2020-02-17T03:20:34,055][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesWildcardWithNegation] before test
+[2020-02-17T03:20:34,055][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesWildcardWithNegation] after test
+[2020-02-17T03:20:34,057][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesNoIndicesErrorMessage] before test
+[2020-02-17T03:20:34,058][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesNoIndicesErrorMessage] after test
+[2020-02-17T03:20:34,061][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesIgnoreIndicesOneMissingIndexOtherFound] before test
+[2020-02-17T03:20:34,061][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesIgnoreIndicesOneMissingIndexOtherFound] after test
+[2020-02-17T03:20:34,071][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsStrict] before test
+[2020-02-17T03:20:34,072][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsStrict] after test
+[2020-02-17T03:20:34,109][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testInvalidIndex] before test
+[2020-02-17T03:20:34,109][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testInvalidIndex] after test
+[2020-02-17T03:20:34,119][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexWithNoWriteIndexWithMultipleIndices] before test
+[2020-02-17T03:20:34,120][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexWithNoWriteIndexWithMultipleIndices] after test
+[2020-02-17T03:20:34,123][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesWildcardNoMatch] before test
+[2020-02-17T03:20:34,124][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesWildcardNoMatch] after test
+[2020-02-17T03:20:34,137][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexAliases] before test
+[2020-02-17T03:20:34,137][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexAliases] after test
+[2020-02-17T03:20:34,169][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testResolveExpressions] before test
+[2020-02-17T03:20:34,170][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testResolveExpressions] after test
+[2020-02-17T03:20:34,187][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesMatchingTrailingWildcardAndExclusion] before test
+[2020-02-17T03:20:34,187][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesMatchingTrailingWildcardAndExclusion] after test
+[2020-02-17T03:20:34,190][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesAllPatternRandom] before test
+[2020-02-17T03:20:34,191][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesAllPatternRandom] after test
+[2020-02-17T03:20:34,193][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesNull] before test
+[2020-02-17T03:20:34,194][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesNull] after test
+[2020-02-17T03:20:34,198][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesIgnoreIndicesEmptyRequest] before test
+[2020-02-17T03:20:34,199][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesIgnoreIndicesEmptyRequest] after test
+[2020-02-17T03:20:34,201][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsFailClosedIndicesAndAliases] before test
+[2020-02-17T03:20:34,201][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsFailClosedIndicesAndAliases] after test
+[2020-02-17T03:20:34,206][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexSuccessful] before test
+[2020-02-17T03:20:34,206][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexSuccessful] after test
+[2020-02-17T03:20:34,232][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesNonMatchingSingleExclusion] before test
+[2020-02-17T03:20:34,233][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesNonMatchingSingleExclusion] after test
+[2020-02-17T03:20:34,261][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesIgnoreIndicesAllMissing] before test
+[2020-02-17T03:20:34,261][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesIgnoreIndicesAllMissing] after test
+[2020-02-17T03:20:34,264][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndicesAliasesRequestIgnoresAliases] before test
+[2020-02-17T03:20:34,265][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndicesAliasesRequestIgnoresAliases] after test
+[2020-02-17T03:20:34,293][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesNoIndicesErrorMessageNoExpand] before test
+[2020-02-17T03:20:34,293][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesNoIndicesErrorMessageNoExpand] after test
+[2020-02-17T03:20:34,296][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesNull] before test
+[2020-02-17T03:20:34,296][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesNull] after test
+[2020-02-17T03:20:34,298][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesWildcard] before test
+[2020-02-17T03:20:34,298][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesWildcard] after test
+[2020-02-17T03:20:34,327][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsAllowUnavailableDisallowEmpty] before test
+[2020-02-17T03:20:34,327][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsAllowUnavailableDisallowEmpty] after test
+[2020-02-17T03:20:34,371][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexWithWildcardExpansion] before test
+[2020-02-17T03:20:34,371][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexWithWildcardExpansion] after test
+[2020-02-17T03:20:34,375][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesExplicitAll] before test
+[2020-02-17T03:20:34,375][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsAllIndicesExplicitAll] after test
+[2020-02-17T03:20:34,377][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsSingleIndexNoExpandWildcards] before test
+[2020-02-17T03:20:34,378][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIndexOptionsSingleIndexNoExpandWildcards] after test
+[2020-02-17T03:20:34,380][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesWildcardExpansion] before test
+[2020-02-17T03:20:34,380][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteIndicesWildcardExpansion] after test
+[2020-02-17T03:20:34,452][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testFilterClosedIndicesOnAliases] before test
+[2020-02-17T03:20:34,452][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testFilterClosedIndicesOnAliases] after test
+[2020-02-17T03:20:34,468][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesExplicitList] before test
+[2020-02-17T03:20:34,468][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesExplicitList] after test
+[2020-02-17T03:20:34,482][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIgnoreThrottled] before test
+[2020-02-17T03:20:34,483][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIgnoreThrottled] after test
+[2020-02-17T03:20:34,486][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesNonMatchingTrailingWildcard] before test
+[2020-02-17T03:20:34,486][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsPatternMatchingAllIndicesNonMatchingTrailingWildcard] after test
+[2020-02-17T03:20:34,489][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesExplicitAll] before test
+[2020-02-17T03:20:34,489][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesExplicitAll] after test
+[2020-02-17T03:20:34,493][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexWithNoWriteIndexWithSingleIndex] before test
+[2020-02-17T03:20:34,494][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexWithNoWriteIndexWithSingleIndex] after test
+[2020-02-17T03:20:34,497][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testAliasResolutionNotAllowingMultipleIndices] before test
+[2020-02-17T03:20:34,497][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testAliasResolutionNotAllowingMultipleIndices] after test
+[2020-02-17T03:20:34,500][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesExplicitAllPlusOther] before test
+[2020-02-17T03:20:34,500][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesExplicitAllPlusOther] after test
+[2020-02-17T03:20:34,504][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesEmpty] before test
+[2020-02-17T03:20:34,504][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testIsExplicitAllIndicesEmpty] after test
+[2020-02-17T03:20:34,506][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testFilteringAliases] before test
+[2020-02-17T03:20:34,507][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testFilteringAliases] after test
+[2020-02-17T03:20:34,508][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexWithInvalidIndicesRequest] before test
+[2020-02-17T03:20:34,522][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testConcreteWriteIndexWithInvalidIndicesRequest] after test
+[2020-02-17T03:20:34,524][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testDedupConcreteIndices] before test
+[2020-02-17T03:20:34,524][INFO ][o.e.c.m.IndexNameExpressionResolverTests] [testDedupConcreteIndices] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

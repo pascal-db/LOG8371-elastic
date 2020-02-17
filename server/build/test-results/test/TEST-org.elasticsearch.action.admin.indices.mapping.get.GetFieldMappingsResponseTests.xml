@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.mapping.get.GetFieldMappingsResponseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:27" hostname="Escoto-PC" time="0.133">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.indices.mapping.get.GetFieldMappingsResponseTests" time="0.024"/>
+  <testcase name="testManualJunkedJson" classname="org.elasticsearch.action.admin.indices.mapping.get.GetFieldMappingsResponseTests" time="0.006"/>
+  <testcase name="testManualSerialization" classname="org.elasticsearch.action.admin.indices.mapping.get.GetFieldMappingsResponseTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.mapping.get.GetFieldMappingsResponseTests" time="0.091"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.mapping.get.GetFieldMappingsResponseTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-17T10:20:27,565][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testEqualsAndHashcode] before test
+[2020-02-17T10:20:27,587][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testEqualsAndHashcode] after test
+[2020-02-17T10:20:27,591][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testManualJunkedJson] before test
+[2020-02-17T10:20:27,592][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testManualJunkedJson] after test
+[2020-02-17T10:20:27,594][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testManualSerialization] before test
+[2020-02-17T10:20:27,594][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testManualSerialization] after test
+[2020-02-17T10:20:27,597][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testFromXContent] before test
+[2020-02-17T10:20:27,686][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testFromXContent] after test
+[2020-02-17T10:20:27,690][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testSerialization] before test
+[2020-02-17T10:20:27,695][INFO ][o.e.a.a.i.m.g.GetFieldMappingsResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

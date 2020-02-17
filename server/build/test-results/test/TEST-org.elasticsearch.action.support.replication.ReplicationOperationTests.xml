@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.replication.ReplicationOperationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testNoLongerPrimary" classname="org.elasticsearch.action.support.replication.ReplicationOperationTests" time="0.012"/>
+  <testcase name="testReplication" classname="org.elasticsearch.action.support.replication.ReplicationOperationTests" time="0.004"/>
+  <testcase name="testWaitForActiveShards" classname="org.elasticsearch.action.support.replication.ReplicationOperationTests" time="0.003"/>
+  <testcase name="testAddedReplicaAfterPrimaryOperation" classname="org.elasticsearch.action.support.replication.ReplicationOperationTests" time="0.004"/>
+  <testcase name="testPrimaryFailureHandlingReplicaResponse" classname="org.elasticsearch.action.support.replication.ReplicationOperationTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T02:20:47,787][INFO ][o.e.a.s.r.ReplicationOperationTests] [testNoLongerPrimary] before test
+[2020-02-17T02:20:47,797][INFO ][o.e.a.s.r.ReplicationOperationTests] [testNoLongerPrimary] after test
+[2020-02-17T02:20:47,799][INFO ][o.e.a.s.r.ReplicationOperationTests] [testReplication] before test
+[2020-02-17T02:20:47,801][INFO ][o.e.a.s.r.ReplicationOperationTests] [testReplication] after test
+[2020-02-17T02:20:47,804][INFO ][o.e.a.s.r.ReplicationOperationTests] [testWaitForActiveShards] before test
+[2020-02-17T02:20:47,805][INFO ][o.e.a.s.r.ReplicationOperationTests] [testWaitForActiveShards] after test
+[2020-02-17T02:20:47,807][INFO ][o.e.a.s.r.ReplicationOperationTests] [testAddedReplicaAfterPrimaryOperation] before test
+[2020-02-17T02:20:47,809][INFO ][o.e.a.s.r.ReplicationOperationTests] [testAddedReplicaAfterPrimaryOperation] after test
+[2020-02-17T02:20:47,812][INFO ][o.e.a.s.r.ReplicationOperationTests] [testPrimaryFailureHandlingReplicaResponse] before test
+[2020-02-17T02:20:47,813][INFO ][o.e.a.s.r.ReplicationOperationTests] [testPrimaryFailureHandlingReplicaResponse] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

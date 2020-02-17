@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ingest.GetPipelineResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.033">
+  <properties/>
+  <testcase name="testXContentDeserialization" classname="org.elasticsearch.action.ingest.GetPipelineResponseTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.ingest.GetPipelineResponseTests" time="0.012"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.ingest.GetPipelineResponseTests" time="0.01"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.ingest.GetPipelineResponseTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T10:20:18,354][INFO ][o.e.a.i.GetPipelineResponseTests] [testXContentDeserialization] before test
+[2020-02-16T10:20:18,359][INFO ][o.e.a.i.GetPipelineResponseTests] [testXContentDeserialization] after test
+[2020-02-16T10:20:18,361][INFO ][o.e.a.i.GetPipelineResponseTests] [testFromXContent] before test
+[2020-02-16T10:20:18,370][INFO ][o.e.a.i.GetPipelineResponseTests] [testFromXContent] after test
+[2020-02-16T10:20:18,373][INFO ][o.e.a.i.GetPipelineResponseTests] [testEqualsAndHashcode] before test
+[2020-02-16T10:20:18,380][INFO ][o.e.a.i.GetPipelineResponseTests] [testEqualsAndHashcode] after test
+[2020-02-16T10:20:18,382][INFO ][o.e.a.i.GetPipelineResponseTests] [testSerialization] before test
+[2020-02-16T10:20:18,385][INFO ][o.e.a.i.GetPipelineResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

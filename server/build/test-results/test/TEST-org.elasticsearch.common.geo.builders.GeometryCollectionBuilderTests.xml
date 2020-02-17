@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.builders.GeometryCollectionBuilderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:41" hostname="Escoto-PC" time="0.56">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.common.geo.builders.GeometryCollectionBuilderTests" time="0.293"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.geo.builders.GeometryCollectionBuilderTests" time="0.231"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.geo.builders.GeometryCollectionBuilderTests" time="0.036"/>
+  <system-out><![CDATA[[2020-02-16T17:21:41,584][INFO ][o.e.c.g.b.GeometryCollectionBuilderTests] [testFromXContent] before test
+[2020-02-16T17:21:41,874][INFO ][o.e.c.g.b.GeometryCollectionBuilderTests] [testFromXContent] after test
+[2020-02-16T17:21:42,064][INFO ][o.e.c.g.b.GeometryCollectionBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:21:42,106][INFO ][o.e.c.g.b.GeometryCollectionBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:21:42,112][INFO ][o.e.c.g.b.GeometryCollectionBuilderTests] [testSerialization] before test
+[2020-02-16T17:21:42,141][INFO ][o.e.c.g.b.GeometryCollectionBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

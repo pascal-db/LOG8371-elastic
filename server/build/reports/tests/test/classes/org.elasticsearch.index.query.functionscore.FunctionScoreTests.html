@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.query.functionscore.FunctionScoreTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.query.functionscore.FunctionScoreTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.query.functionscore.html">org.elasticsearch.index.query.functionscore</a> &gt; FunctionScoreTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">14</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.087s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testExceptionOnLnNegativeScores</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExceptionOnLogNegativeScores</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExceptionOnNegativeScores</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExplainFiltersFunctionScoreQuery</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExplainFunctionScoreQuery</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExplanationAndScoreEqualsEvenIfNoFunctionMatches</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFilterFunctionScoreHashCodeAndEquals</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFunctionScoreHashCodeAndEquals</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMinScoreExplain</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPropagatesApproximations</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleWeightedFunction</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWeightFactorNeedsScore</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWeightOnlyCreatesBoostFunction</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testWithInvalidScores</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T11:23:06,019][INFO ][o.e.i.q.f.FunctionScoreTests] [testPropagatesApproximations] before test
+[2020-02-17T11:23:06,023][INFO ][o.e.i.q.f.FunctionScoreTests] [testPropagatesApproximations] after test
+[2020-02-17T11:23:06,026][INFO ][o.e.i.q.f.FunctionScoreTests] [testFilterFunctionScoreHashCodeAndEquals] before test
+[2020-02-17T11:23:06,031][INFO ][o.e.i.q.f.FunctionScoreTests] [testFilterFunctionScoreHashCodeAndEquals] after test
+[2020-02-17T11:23:06,032][INFO ][o.e.i.q.f.FunctionScoreTests] [testWeightFactorNeedsScore] before test
+[2020-02-17T11:23:06,035][INFO ][o.e.i.q.f.FunctionScoreTests] [testWeightFactorNeedsScore] after test
+[2020-02-17T11:23:06,037][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnNegativeScores] before test
+[2020-02-17T11:23:06,043][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnNegativeScores] after test
+[2020-02-17T11:23:06,047][INFO ][o.e.i.q.f.FunctionScoreTests] [testSimpleWeightedFunction] before test
+[2020-02-17T11:23:06,053][INFO ][o.e.i.q.f.FunctionScoreTests] [testSimpleWeightedFunction] after test
+[2020-02-17T11:23:06,054][INFO ][o.e.i.q.f.FunctionScoreTests] [testWithInvalidScores] before test
+[2020-02-17T11:23:06,058][INFO ][o.e.i.q.f.FunctionScoreTests] [testWithInvalidScores] after test
+[2020-02-17T11:23:06,064][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnLnNegativeScores] before test
+[2020-02-17T11:23:06,067][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnLnNegativeScores] after test
+[2020-02-17T11:23:06,072][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplainFiltersFunctionScoreQuery] before test
+[2020-02-17T11:23:06,078][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplainFiltersFunctionScoreQuery] after test
+[2020-02-17T11:23:06,080][INFO ][o.e.i.q.f.FunctionScoreTests] [testFunctionScoreHashCodeAndEquals] before test
+[2020-02-17T11:23:06,082][INFO ][o.e.i.q.f.FunctionScoreTests] [testFunctionScoreHashCodeAndEquals] after test
+[2020-02-17T11:23:06,084][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplanationAndScoreEqualsEvenIfNoFunctionMatches] before test
+[2020-02-17T11:23:06,087][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplanationAndScoreEqualsEvenIfNoFunctionMatches] after test
+[2020-02-17T11:23:06,089][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplainFunctionScoreQuery] before test
+[2020-02-17T11:23:06,092][INFO ][o.e.i.q.f.FunctionScoreTests] [testExplainFunctionScoreQuery] after test
+[2020-02-17T11:23:06,093][INFO ][o.e.i.q.f.FunctionScoreTests] [testWeightOnlyCreatesBoostFunction] before test
+[2020-02-17T11:23:06,096][INFO ][o.e.i.q.f.FunctionScoreTests] [testWeightOnlyCreatesBoostFunction] after test
+[2020-02-17T11:23:06,098][INFO ][o.e.i.q.f.FunctionScoreTests] [testMinScoreExplain] before test
+[2020-02-17T11:23:06,100][INFO ][o.e.i.q.f.FunctionScoreTests] [testMinScoreExplain] after test
+[2020-02-17T11:23:06,101][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnLogNegativeScores] before test
+[2020-02-17T11:23:06,104][INFO ][o.e.i.q.f.FunctionScoreTests] [testExceptionOnLogNegativeScores] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

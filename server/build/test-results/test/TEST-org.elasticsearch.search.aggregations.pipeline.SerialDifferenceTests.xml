@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.SerialDifferenceTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.SerialDifferenceTests" time="0.005"/>
+  <testcase name="testValidate" classname="org.elasticsearch.search.aggregations.pipeline.SerialDifferenceTests" time="0.004"/>
+  <testcase name="testValidateException" classname="org.elasticsearch.search.aggregations.pipeline.SerialDifferenceTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.SerialDifferenceTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.SerialDifferenceTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T18:25:35,006][INFO ][o.e.s.a.p.SerialDifferenceTests] [testFromXContent] before test
+[2020-02-16T18:25:35,007][INFO ][o.e.s.a.p.SerialDifferenceTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "serial_diff" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn",
+      "gap_policy" : "skip",
+      "lag" : 52
+    }
+  }
+}
+[2020-02-16T18:25:35,007][INFO ][o.e.s.a.p.SerialDifferenceTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "serial_diff" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn",
+      "gap_policy" : "skip",
+      "lag" : 52
+    }
+  }
+}
+[2020-02-16T18:25:35,007][INFO ][o.e.s.a.p.SerialDifferenceTests] [testFromXContent] after test
+[2020-02-16T18:25:35,010][INFO ][o.e.s.a.p.SerialDifferenceTests] [testValidate] before test
+[2020-02-16T18:25:35,011][INFO ][o.e.s.a.p.SerialDifferenceTests] [testValidate] after test
+[2020-02-16T18:25:35,014][INFO ][o.e.s.a.p.SerialDifferenceTests] [testValidateException] before test
+[2020-02-16T18:25:35,015][INFO ][o.e.s.a.p.SerialDifferenceTests] [testValidateException] after test
+[2020-02-16T18:25:35,018][INFO ][o.e.s.a.p.SerialDifferenceTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:35,018][INFO ][o.e.s.a.p.SerialDifferenceTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:25:35,021][INFO ][o.e.s.a.p.SerialDifferenceTests] [testSerialization] before test
+[2020-02-16T18:25:35,021][INFO ][o.e.s.a.p.SerialDifferenceTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

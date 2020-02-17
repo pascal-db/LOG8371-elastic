@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.FollowersCheckerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:32" hostname="Escoto-PC" time="0.096">
+  <properties/>
+  <testcase name="testPreferMasterNodes" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.015"/>
+  <testcase name="testFailsNodeThatIsDisconnected" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.011"/>
+  <testcase name="testFollowerCheckRequestEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.003"/>
+  <testcase name="testResponder" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.009"/>
+  <testcase name="testChecksExpectedNodes" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.007"/>
+  <testcase name="testFailsNodeThatDoesNotRespond" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.009"/>
+  <testcase name="testFailsNodeThatRejectsCheck" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.016"/>
+  <testcase name="testFailsNodeThatDisconnects" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.013"/>
+  <testcase name="testFailureCounterResetsOnSuccess" classname="org.elasticsearch.cluster.coordination.FollowersCheckerTests" time="0.013"/>
+  <system-out><![CDATA[[2020-02-16T22:20:32,386][INFO ][o.e.c.c.FollowersCheckerTests] [testPreferMasterNodes] before test
+[2020-02-16T22:20:32,392][INFO ][o.e.c.c.FollowersCheckerTests] [testPreferMasterNodes] after test
+[2020-02-16T22:20:32,397][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatIsDisconnected] before test
+[2020-02-16T22:20:32,403][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatIsDisconnected] after test
+[2020-02-16T22:20:32,405][INFO ][o.e.c.c.FollowersCheckerTests] [testFollowerCheckRequestEqualsHashCodeSerialization] before test
+[2020-02-16T22:20:32,406][INFO ][o.e.c.c.FollowersCheckerTests] [testFollowerCheckRequestEqualsHashCodeSerialization] after test
+[2020-02-16T22:20:32,411][INFO ][o.e.c.c.FollowersCheckerTests] [testResponder] before test
+[2020-02-16T22:20:32,415][INFO ][o.e.c.c.FollowersCheckerTests] [testResponder] after test
+[2020-02-16T22:20:32,417][INFO ][o.e.c.c.FollowersCheckerTests] [testChecksExpectedNodes] before test
+[2020-02-16T22:20:32,422][INFO ][o.e.c.c.FollowersCheckerTests] [testChecksExpectedNodes] after test
+[2020-02-16T22:20:32,428][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatDoesNotRespond] before test
+[2020-02-16T22:20:32,431][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatDoesNotRespond] after test
+[2020-02-16T22:20:32,443][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatRejectsCheck] before test
+[2020-02-16T22:20:32,447][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatRejectsCheck] after test
+[2020-02-16T22:20:32,456][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatDisconnects] before test
+[2020-02-16T22:20:32,460][INFO ][o.e.c.c.FollowersCheckerTests] [testFailsNodeThatDisconnects] after test
+[2020-02-16T22:20:32,465][INFO ][o.e.c.c.FollowersCheckerTests] [testFailureCounterResetsOnSuccess] before test
+[2020-02-16T22:20:32,473][INFO ][o.e.c.c.FollowersCheckerTests] [testFailureCounterResetsOnSuccess] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

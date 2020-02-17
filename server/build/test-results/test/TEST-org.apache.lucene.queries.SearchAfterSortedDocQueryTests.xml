@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.lucene.queries.SearchAfterSortedDocQueryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:57" hostname="Escoto-PC" time="0.593">
+  <properties/>
+  <testcase name="testInvalidSort" classname="org.apache.lucene.queries.SearchAfterSortedDocQueryTests" time="0.072"/>
+  <testcase name="testBasics" classname="org.apache.lucene.queries.SearchAfterSortedDocQueryTests" time="0.02"/>
+  <testcase name="testRandom" classname="org.apache.lucene.queries.SearchAfterSortedDocQueryTests" time="0.5"/>
+  <system-out><![CDATA[[2020-02-16T17:19:57,956][INFO ][o.a.l.q.SearchAfterSortedDocQueryTests] [testInvalidSort] before test
+[2020-02-16T17:19:57,966][INFO ][o.a.l.q.SearchAfterSortedDocQueryTests] [testInvalidSort] after test
+[2020-02-16T17:19:57,985][INFO ][o.a.l.q.SearchAfterSortedDocQueryTests] [testBasics] before test
+[2020-02-16T17:19:57,987][INFO ][o.a.l.q.SearchAfterSortedDocQueryTests] [testBasics] after test
+[2020-02-16T17:19:58,245][INFO ][o.a.l.q.SearchAfterSortedDocQueryTests] [testRandom] before test
+[2020-02-16T17:19:58,488][INFO ][o.a.l.q.SearchAfterSortedDocQueryTests] [testRandom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

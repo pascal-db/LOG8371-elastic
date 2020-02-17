@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.ShardPathTests" tests="6" skipped="1" failures="0" errors="0" timestamp="2020-02-16T22:24:34" hostname="Escoto-PC" time="0.267">
+  <properties/>
+  <testcase name="testIllegalCustomDataPath" classname="org.elasticsearch.index.shard.ShardPathTests" time="0.136"/>
+  <testcase name="testLoadShardPath" classname="org.elasticsearch.index.shard.ShardPathTests" time="0.033"/>
+  <testcase name="testGetRootPaths" classname="org.elasticsearch.index.shard.ShardPathTests" time="0.052"/>
+  <testcase name="testFailLoadShardPathIndexUUIDMissmatch" classname="org.elasticsearch.index.shard.ShardPathTests" time="0.029"/>
+  <testcase name="testFailLoadShardPathOnMultiState" classname="org.elasticsearch.index.shard.ShardPathTests" time="0.014">
+    <skipped/>
+  </testcase>
+  <testcase name="testValidCtor" classname="org.elasticsearch.index.shard.ShardPathTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T12:09:35,116][INFO ][o.e.i.s.ShardPathTests   ] [testIllegalCustomDataPath] before test
+[2020-02-17T12:09:35,118][INFO ][o.e.i.s.ShardPathTests   ] [testIllegalCustomDataPath] after test
+[2020-02-17T12:09:35,119][INFO ][o.e.i.s.ShardPathTests   ] [testLoadShardPath] before test
+[2020-02-17T12:09:35,136][INFO ][o.e.e.NodeEnvironment    ] [testLoadShardPath] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T12:09:35,136][INFO ][o.e.e.NodeEnvironment    ] [testLoadShardPath] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T12:09:35,151][INFO ][o.e.i.s.ShardPathTests   ] [testLoadShardPath] after test
+[2020-02-17T12:09:35,186][INFO ][o.e.i.s.ShardPathTests   ] [testGetRootPaths] before test
+[2020-02-17T12:09:35,193][INFO ][o.e.e.NodeEnvironment    ] [testGetRootPaths] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T12:09:35,194][INFO ][o.e.e.NodeEnvironment    ] [testGetRootPaths] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T12:09:35,202][INFO ][o.e.i.s.ShardPathTests   ] [testGetRootPaths] after test
+[2020-02-17T12:09:35,204][INFO ][o.e.i.s.ShardPathTests   ] [testFailLoadShardPathIndexUUIDMissmatch] before test
+[2020-02-17T12:09:35,218][INFO ][o.e.e.NodeEnvironment    ] [testFailLoadShardPathIndexUUIDMissmatch] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T12:09:35,218][INFO ][o.e.e.NodeEnvironment    ] [testFailLoadShardPathIndexUUIDMissmatch] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T12:09:35,231][WARN ][o.e.i.s.ShardPathTests   ] [testFailLoadShardPathIndexUUIDMissmatch] [foo][0] found shard on path: [E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.index.shard.ShardPathTests_9EA1F2A3814E5F76-001\tempDir-010\nodes\0\indices\foobar\0] with a different index UUID - this shard seems to be leftover from a different index with the same name. Remove the leftover shard in order to reuse the path with the current index
+[2020-02-17T12:09:35,232][INFO ][o.e.i.s.ShardPathTests   ] [testFailLoadShardPathIndexUUIDMissmatch] after test
+[2020-02-17T12:09:35,234][INFO ][o.e.i.s.ShardPathTests   ] [testFailLoadShardPathOnMultiState] before test
+[2020-02-17T12:09:35,243][INFO ][o.e.e.NodeEnvironment    ] [testFailLoadShardPathOnMultiState] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T12:09:35,243][INFO ][o.e.e.NodeEnvironment    ] [testFailLoadShardPathOnMultiState] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T12:09:35,246][INFO ][o.e.i.s.ShardPathTests   ] [testFailLoadShardPathOnMultiState] after test
+[2020-02-17T12:09:35,248][INFO ][o.e.i.s.ShardPathTests   ] [testValidCtor] before test
+[2020-02-17T12:09:35,249][INFO ][o.e.i.s.ShardPathTests   ] [testValidCtor] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

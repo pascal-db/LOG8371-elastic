@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.network.NetworkAddressTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:48" hostname="Escoto-PC" time="0.049">
+  <properties/>
+  <testcase name="testFormatV4" classname="org.elasticsearch.common.network.NetworkAddressTests" time="0.004"/>
+  <testcase name="testFormatV6" classname="org.elasticsearch.common.network.NetworkAddressTests" time="0.005"/>
+  <testcase name="testFormatPortV4" classname="org.elasticsearch.common.network.NetworkAddressTests" time="0.003"/>
+  <testcase name="testNoScopeID" classname="org.elasticsearch.common.network.NetworkAddressTests" time="0.006"/>
+  <testcase name="testRoundTripV4" classname="org.elasticsearch.common.network.NetworkAddressTests" time="0.009"/>
+  <testcase name="testRoundTripV6" classname="org.elasticsearch.common.network.NetworkAddressTests" time="0.019"/>
+  <testcase name="testFormatPortV6" classname="org.elasticsearch.common.network.NetworkAddressTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:21:48,759][INFO ][o.e.c.n.NetworkAddressTests] [testFormatV4] before test
+[2020-02-17T00:21:48,761][INFO ][o.e.c.n.NetworkAddressTests] [testFormatV4] after test
+[2020-02-17T00:21:48,764][INFO ][o.e.c.n.NetworkAddressTests] [testFormatV6] before test
+[2020-02-17T00:21:48,766][INFO ][o.e.c.n.NetworkAddressTests] [testFormatV6] after test
+[2020-02-17T00:21:48,769][INFO ][o.e.c.n.NetworkAddressTests] [testFormatPortV4] before test
+[2020-02-17T00:21:48,769][INFO ][o.e.c.n.NetworkAddressTests] [testFormatPortV4] after test
+[2020-02-17T00:21:48,772][INFO ][o.e.c.n.NetworkAddressTests] [testNoScopeID] before test
+[2020-02-17T00:21:48,776][INFO ][o.e.c.n.NetworkAddressTests] [testNoScopeID] after test
+[2020-02-17T00:21:48,778][INFO ][o.e.c.n.NetworkAddressTests] [testRoundTripV4] before test
+[2020-02-17T00:21:48,785][INFO ][o.e.c.n.NetworkAddressTests] [testRoundTripV4] after test
+[2020-02-17T00:21:48,788][INFO ][o.e.c.n.NetworkAddressTests] [testRoundTripV6] before test
+[2020-02-17T00:21:48,804][INFO ][o.e.c.n.NetworkAddressTests] [testRoundTripV6] after test
+[2020-02-17T00:21:48,807][INFO ][o.e.c.n.NetworkAddressTests] [testFormatPortV6] before test
+[2020-02-17T00:21:48,807][INFO ][o.e.c.n.NetworkAddressTests] [testFormatPortV6] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

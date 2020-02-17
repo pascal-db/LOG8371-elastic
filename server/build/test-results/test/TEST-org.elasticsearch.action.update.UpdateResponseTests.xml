@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.update.UpdateResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:49" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.update.UpdateResponseTests" time="0.008"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.action.update.UpdateResponseTests" time="0.003"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.update.UpdateResponseTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T07:05:49,590][INFO ][o.e.a.u.UpdateResponseTests] [testToAndFromXContent] before test
+[2020-02-17T07:05:49,597][INFO ][o.e.a.u.UpdateResponseTests] [testToAndFromXContent] after test
+[2020-02-17T07:05:49,598][INFO ][o.e.a.u.UpdateResponseTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T07:05:49,600][INFO ][o.e.a.u.UpdateResponseTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T07:05:49,603][INFO ][o.e.a.u.UpdateResponseTests] [testToXContent] before test
+[2020-02-17T07:05:49,604][INFO ][o.e.a.u.UpdateResponseTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

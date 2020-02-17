@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ReplicaAllocatedAfterPrimaryTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.005">
+  <properties/>
+  <testcase name="testBackupIsAllocatedAfterPrimary" classname="org.elasticsearch.cluster.routing.allocation.ReplicaAllocatedAfterPrimaryTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T11:20:39,347][INFO ][o.e.c.r.a.ReplicaAllocatedAfterPrimaryTests] [testBackupIsAllocatedAfterPrimary] before test
+[2020-02-16T11:20:39,349][INFO ][o.e.c.r.a.ReplicaAllocatedAfterPrimaryTests] [testBackupIsAllocatedAfterPrimary] Building initial routing table
+[2020-02-16T11:20:39,349][INFO ][o.e.c.r.a.ReplicaAllocatedAfterPrimaryTests] [testBackupIsAllocatedAfterPrimary] Adding one node and performing rerouting
+[2020-02-16T11:20:39,350][INFO ][o.e.c.r.a.ReplicaAllocatedAfterPrimaryTests] [testBackupIsAllocatedAfterPrimary] Start all the primary shards
+[2020-02-16T11:20:39,350][INFO ][o.e.c.r.a.ReplicaAllocatedAfterPrimaryTests] [testBackupIsAllocatedAfterPrimary] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

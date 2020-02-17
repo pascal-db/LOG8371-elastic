@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.CompletionSuggestionOptionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.suggest.CompletionSuggestionOptionTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.CompletionSuggestionOptionTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.suggest.CompletionSuggestionOptionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:24:43,415][INFO ][o.e.s.s.CompletionSuggestionOptionTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T01:24:43,418][INFO ][o.e.s.s.CompletionSuggestionOptionTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T01:24:43,420][INFO ][o.e.s.s.CompletionSuggestionOptionTests] [testFromXContent] before test
+[2020-02-17T01:24:43,421][INFO ][o.e.s.s.CompletionSuggestionOptionTests] [testFromXContent] after test
+[2020-02-17T01:24:43,422][INFO ][o.e.s.s.CompletionSuggestionOptionTests] [testToXContent] before test
+[2020-02-17T01:24:43,423][INFO ][o.e.s.s.CompletionSuggestionOptionTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

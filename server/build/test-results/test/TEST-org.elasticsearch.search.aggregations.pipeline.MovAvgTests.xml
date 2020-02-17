@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.MovAvgTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:28" hostname="Escoto-PC" time="0.031">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgTests" time="0.007"/>
+  <testcase name="testValidate" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgTests" time="0.005"/>
+  <testcase name="testDefaultParsing" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgTests" time="0.003"/>
+  <testcase name="testValidateException" classname="org.elasticsearch.search.aggregations.pipeline.MovAvgTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T09:24:28,300][INFO ][o.e.s.a.p.MovAvgTests    ] [testFromXContent] before test
+[2020-02-17T09:24:28,303][INFO ][o.e.s.a.p.MovAvgTests    ] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "moving_avg" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn",
+      "gap_policy" : "skip",
+      "model" : "linear",
+      "window" : 14,
+      "predict" : 41
+    }
+  }
+}
+[2020-02-17T09:24:28,303][INFO ][o.e.s.a.p.MovAvgTests    ] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "moving_avg" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "qTcmRyn",
+      "gap_policy" : "skip",
+      "model" : "linear",
+      "window" : 14,
+      "predict" : 41
+    }
+  }
+}
+[2020-02-17T09:24:28,304][WARN ][o.e.d.s.a.p.MovAvgPipelineAggregationBuilder] [testFromXContent] The moving_avg aggregation has been deprecated in favor of the moving_fn aggregation.
+[2020-02-17T09:24:28,304][INFO ][o.e.s.a.p.MovAvgTests    ] [testFromXContent] after test
+[2020-02-17T09:24:28,309][INFO ][o.e.s.a.p.MovAvgTests    ] [testValidate] before test
+[2020-02-17T09:24:28,309][INFO ][o.e.s.a.p.MovAvgTests    ] [testValidate] after test
+[2020-02-17T09:24:28,313][INFO ][o.e.s.a.p.MovAvgTests    ] [testDefaultParsing] before test
+[2020-02-17T09:24:28,313][WARN ][o.e.d.s.a.p.MovAvgPipelineAggregationBuilder] [testDefaultParsing] The moving_avg aggregation has been deprecated in favor of the moving_fn aggregation.
+[2020-02-17T09:24:28,313][INFO ][o.e.s.a.p.MovAvgTests    ] [testDefaultParsing] after test
+[2020-02-17T09:24:28,317][INFO ][o.e.s.a.p.MovAvgTests    ] [testEqualsAndHashcode] before test
+[2020-02-17T09:24:28,317][INFO ][o.e.s.a.p.MovAvgTests    ] [testEqualsAndHashcode] after test
+[2020-02-17T09:24:28,320][INFO ][o.e.s.a.p.MovAvgTests    ] [testSerialization] before test
+[2020-02-17T09:24:28,320][INFO ][o.e.s.a.p.MovAvgTests    ] [testSerialization] after test
+[2020-02-17T09:24:28,327][INFO ][o.e.s.a.p.MovAvgTests    ] [testValidateException] before test
+[2020-02-17T09:24:28,328][INFO ][o.e.s.a.p.MovAvgTests    ] [testValidateException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

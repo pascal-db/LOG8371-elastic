@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.IndexServiceTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:49" hostname="Escoto-PC" time="4.204">
+  <properties/>
+  <testcase name="testIllegalFsyncInterval" classname="org.elasticsearch.index.IndexServiceTests" time="0.84"/>
+  <testcase name="testRescheduleAsyncFsync" classname="org.elasticsearch.index.IndexServiceTests" time="0.267"/>
+  <testcase name="testAsyncTranslogTrimTaskOnClosedIndex" classname="org.elasticsearch.index.IndexServiceTests" time="1.319"/>
+  <testcase name="testRefreshActuallyWorks" classname="org.elasticsearch.index.IndexServiceTests" time="0.284"/>
+  <testcase name="testUpdateSyncIntervalDynamically" classname="org.elasticsearch.index.IndexServiceTests" time="0.186"/>
+  <testcase name="testBaseAsyncTask" classname="org.elasticsearch.index.IndexServiceTests" time="0.21"/>
+  <testcase name="testAsyncTranslogTrimActuallyWorks" classname="org.elasticsearch.index.IndexServiceTests" time="0.279"/>
+  <testcase name="testAsyncFsyncActuallyWorks" classname="org.elasticsearch.index.IndexServiceTests" time="0.205"/>
+  <testcase name="testFsyncTaskIsRunning" classname="org.elasticsearch.index.IndexServiceTests" time="0.339"/>
+  <testcase name="testRefreshTaskIsUpdated" classname="org.elasticsearch.index.IndexServiceTests" time="0.272"/>
+  <system-out><![CDATA[[2020-02-17T07:22:49,607][INFO ][o.e.e.NodeEnvironment    ] [testIllegalFsyncInterval] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T07:22:49,607][INFO ][o.e.e.NodeEnvironment    ] [testIllegalFsyncInterval] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T07:22:49,609][INFO ][o.e.n.Node               ] [testIllegalFsyncInterval] node name [node_s_0], node ID [XttmhVOcTua07vzslA7FeQ], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[3479628988259823327]-HASH=[1440A48E136]]
+[2020-02-17T07:22:49,609][INFO ][o.e.n.Node               ] [testIllegalFsyncInterval] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T07:22:49,610][INFO ][o.e.n.Node               ] [testIllegalFsyncInterval] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T07:22:49,610][INFO ][o.e.n.Node               ] [testIllegalFsyncInterval] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T07:22:49,610][INFO ][o.e.p.PluginsService     ] [testIllegalFsyncInterval] no modules loaded
+[2020-02-17T07:22:49,610][INFO ][o.e.p.PluginsService     ] [testIllegalFsyncInterval] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-17T07:22:49,610][INFO ][o.e.p.PluginsService     ] [testIllegalFsyncInterval] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T07:22:49,610][INFO ][o.e.p.PluginsService     ] [testIllegalFsyncInterval] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T07:22:49,840][INFO ][o.e.d.DiscoveryModule    ] [testIllegalFsyncInterval] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T07:22:49,851][INFO ][o.e.n.Node               ] [testIllegalFsyncInterval] initialized
+[2020-02-17T07:22:49,851][INFO ][o.e.n.Node               ] [testIllegalFsyncInterval] starting ...
+[2020-02-17T07:22:50,361][INFO ][o.e.t.TransportService   ] [testIllegalFsyncInterval] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T07:22:50,372][INFO ][o.e.c.c.Coordinator      ] [testIllegalFsyncInterval] setting initial configuration to VotingConfiguration{XttmhVOcTua07vzslA7FeQ}
+[2020-02-17T07:22:50,395][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{XttmhVOcTua07vzslA7FeQ}{78MF-1FmQSW6jNlezcEG8w}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{XttmhVOcTua07vzslA7FeQ}{78MF-1FmQSW6jNlezcEG8w}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T07:22:50,402][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [rUxC3MO1TrWKfjwyVrFUBg]
+[2020-02-17T07:22:50,409][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{XttmhVOcTua07vzslA7FeQ}{78MF-1FmQSW6jNlezcEG8w}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T07:22:50,409][INFO ][o.e.n.Node               ] [testIllegalFsyncInterval] started
+[2020-02-17T07:22:50,414][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T07:22:50,415][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T07:22:50,425][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T07:22:50,433][INFO ][o.e.i.IndexServiceTests  ] [testIllegalFsyncInterval] before test
+[2020-02-17T07:22:50,433][INFO ][o.e.i.IndexServiceTests  ] [testIllegalFsyncInterval] after test
+[2020-02-17T07:22:50,436][INFO ][o.e.i.IndexServiceTests  ] [testRescheduleAsyncFsync] before test
+[2020-02-17T07:22:50,437][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:50,489][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:50,499][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.durability] from [REQUEST] to [ASYNC]
+[2020-02-17T07:22:50,507][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.durability] from [REQUEST] to [ASYNC]
+[2020-02-17T07:22:50,512][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/58sSLdWWTsKrTS8s9-l1jg] create_mapping [test]
+[2020-02-17T07:22:50,653][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.durability] from [ASYNC] to [REQUEST]
+[2020-02-17T07:22:50,665][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.durability] from [ASYNC] to [REQUEST]
+[2020-02-17T07:22:50,668][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.durability] from [REQUEST] to [ASYNC]
+[2020-02-17T07:22:50,675][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.durability] from [REQUEST] to [ASYNC]
+[2020-02-17T07:22:50,676][INFO ][o.e.i.IndexServiceTests  ] [testRescheduleAsyncFsync] after test
+[2020-02-17T07:22:50,677][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/58sSLdWWTsKrTS8s9-l1jg] deleting index
+[2020-02-17T07:22:50,702][INFO ][o.e.i.IndexServiceTests  ] [testAsyncTranslogTrimTaskOnClosedIndex] before test
+[2020-02-17T07:22:50,704][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:50,762][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:50,777][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/hbo9zBo2SW-L4uAdwkVgUQ] create_mapping [_doc]
+[2020-02-17T07:22:51,662][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] closing indices [test/hbo9zBo2SW-L4uAdwkVgUQ]
+[2020-02-17T07:22:51,681][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] completed closing of indices [test]
+[2020-02-17T07:22:51,790][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:51,877][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] opening indices [[test/hbo9zBo2SW-L4uAdwkVgUQ]]
+[2020-02-17T07:22:51,976][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:51,987][INFO ][o.e.i.IndexServiceTests  ] [testAsyncTranslogTrimTaskOnClosedIndex] after test
+[2020-02-17T07:22:51,987][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/hbo9zBo2SW-L4uAdwkVgUQ] deleting index
+[2020-02-17T07:22:52,022][INFO ][o.e.i.IndexServiceTests  ] [testRefreshActuallyWorks] before test
+[2020-02-17T07:22:52,025][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:52,089][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:52,106][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/HpQtLRtyT0i3tbtYAgPpbw] create_mapping [test]
+[2020-02-17T07:22:52,142][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [1s] to [-1]
+[2020-02-17T07:22:52,157][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [1s] to [-1]
+[2020-02-17T07:22:52,202][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [-1] to [1ms]
+[2020-02-17T07:22:52,213][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [-1] to [1ms]
+[2020-02-17T07:22:52,271][INFO ][o.e.i.IndexServiceTests  ] [testRefreshActuallyWorks] after test
+[2020-02-17T07:22:52,272][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/HpQtLRtyT0i3tbtYAgPpbw] deleting index
+[2020-02-17T07:22:52,308][INFO ][o.e.i.IndexServiceTests  ] [testUpdateSyncIntervalDynamically] before test
+[2020-02-17T07:22:52,309][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:52,376][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:52,387][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.durability] from [REQUEST] to [ASYNC]
+[2020-02-17T07:22:52,387][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.sync_interval] from [10s] to [5s]
+[2020-02-17T07:22:52,395][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.durability] from [REQUEST] to [ASYNC]
+[2020-02-17T07:22:52,395][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.sync_interval] from [10s] to [5s]
+[2020-02-17T07:22:52,397][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] closing indices [test/klyP0A_8Sa6KnGKujUEuDA]
+[2020-02-17T07:22:52,414][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] completed closing of indices [test]
+[2020-02-17T07:22:52,457][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.sync_interval] from [5s] to [20s]
+[2020-02-17T07:22:52,467][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.sync_interval] from [5s] to [20s]
+[2020-02-17T07:22:52,468][INFO ][o.e.i.IndexServiceTests  ] [testUpdateSyncIntervalDynamically] after test
+[2020-02-17T07:22:52,469][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/klyP0A_8Sa6KnGKujUEuDA] deleting index
+[2020-02-17T07:22:52,493][INFO ][o.e.i.IndexServiceTests  ] [testBaseAsyncTask] before test
+[2020-02-17T07:22:52,495][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:52,547][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:52,561][WARN ][o.e.i.IndexService       ] [node_s_0] [test] failed to run task org.elasticsearch.index.IndexServiceTests$1@1f5dae5 - suppressing re-occurring exceptions unless the exception changes
+java.lang.RuntimeException: foo
+	at org.elasticsearch.index.IndexServiceTests$1.runInternal(IndexServiceTests.java:94) ~[test/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTask.run(AbstractAsyncTask.java:144) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T07:22:52,566][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] closing indices [test/gYlDX49ST72kf8wMu1GUrQ]
+[2020-02-17T07:22:52,584][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] completed closing of indices [test]
+[2020-02-17T07:22:52,614][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] opening indices [[test/gYlDX49ST72kf8wMu1GUrQ]]
+[2020-02-17T07:22:52,666][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:52,679][INFO ][o.e.i.IndexServiceTests  ] [testBaseAsyncTask] after test
+[2020-02-17T07:22:52,679][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/gYlDX49ST72kf8wMu1GUrQ] deleting index
+[2020-02-17T07:22:52,706][INFO ][o.e.i.IndexServiceTests  ] [testAsyncTranslogTrimActuallyWorks] before test
+[2020-02-17T07:22:52,708][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:52,773][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:52,786][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/37ZLgi1UT36wOVsoJp8YSw] create_mapping [test]
+[2020-02-17T07:22:52,873][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.retention.age] from [12h] to [-1]
+[2020-02-17T07:22:52,873][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.retention.size] from [512MB] to [-1]
+[2020-02-17T07:22:52,884][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.retention.age] from [12h] to [-1]
+[2020-02-17T07:22:52,884][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.translog.retention.size] from [512MB] to [-1]
+[2020-02-17T07:22:52,958][INFO ][o.e.i.IndexServiceTests  ] [testAsyncTranslogTrimActuallyWorks] after test
+[2020-02-17T07:22:52,958][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/37ZLgi1UT36wOVsoJp8YSw] deleting index
+[2020-02-17T07:22:52,985][INFO ][o.e.i.IndexServiceTests  ] [testAsyncFsyncActuallyWorks] before test
+[2020-02-17T07:22:52,987][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:53,044][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:53,066][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/pZ3OR_PlTnati8w7PJW1jQ] create_mapping [test]
+[2020-02-17T07:22:53,160][INFO ][o.e.i.IndexServiceTests  ] [testAsyncFsyncActuallyWorks] after test
+[2020-02-17T07:22:53,162][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/pZ3OR_PlTnati8w7PJW1jQ] deleting index
+[2020-02-17T07:22:53,189][INFO ][o.e.i.IndexServiceTests  ] [testFsyncTaskIsRunning] before test
+[2020-02-17T07:22:53,190][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:53,266][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:53,283][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] closing indices [test/fn6stdkeSROmFGQ9GypiVA]
+[2020-02-17T07:22:53,303][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] completed closing of indices [test]
+[2020-02-17T07:22:53,352][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] opening indices [[test/fn6stdkeSROmFGQ9GypiVA]]
+[2020-02-17T07:22:53,399][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:53,412][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test1] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:53,423][WARN ][o.e.i.c.IndicesClusterStateService] [node_s_0] [test][0] marking and sending shard failed due to [master marked shard as active, but shard has not been created, mark shard as failed]
+[2020-02-17T07:22:53,450][WARN ][o.e.c.r.a.AllocationService] [node_s_0] failing shard [failed shard, shard [test][0], node[XttmhVOcTua07vzslA7FeQ], [P], s[STARTED], a[id=WBoGBTb1Ty-Woqr2yFoA0Q], message [master marked shard as active, but shard has not been created, mark shard as failed], failure [Unknown], markAsStale [true]]
+[2020-02-17T07:22:53,451][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [RED] (reason: [shards failed [[test][0]]]).
+[2020-02-17T07:22:53,498][INFO ][o.e.i.IndexServiceTests  ] [testFsyncTaskIsRunning] after test
+[2020-02-17T07:22:53,498][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/fn6stdkeSROmFGQ9GypiVA] deleting index
+[2020-02-17T07:22:53,498][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test1/nlHHwmQeRPGaerwqaFI5bQ] deleting index
+[2020-02-17T07:22:53,532][INFO ][o.e.i.IndexServiceTests  ] [testRefreshTaskIsUpdated] before test
+[2020-02-17T07:22:53,535][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T07:22:53,590][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:53,600][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [1s] to [-1]
+[2020-02-17T07:22:53,608][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [1s] to [-1]
+[2020-02-17T07:22:53,611][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [-1] to [100ms]
+[2020-02-17T07:22:53,618][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [-1] to [100ms]
+[2020-02-17T07:22:53,621][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [100ms] to [200ms]
+[2020-02-17T07:22:53,629][INFO ][o.e.c.s.IndexScopedSettings] [node_s_0] updating [index.refresh_interval] from [100ms] to [200ms]
+[2020-02-17T07:22:53,637][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] closing indices [test/mIUEKkbVS-SDZLZFyvOovQ]
+[2020-02-17T07:22:53,650][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] completed closing of indices [test]
+[2020-02-17T07:22:53,693][INFO ][o.e.c.m.MetaDataIndexStateService] [node_s_0] opening indices [[test/mIUEKkbVS-SDZLZFyvOovQ]]
+[2020-02-17T07:22:53,752][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T07:22:53,776][INFO ][o.e.i.IndexServiceTests  ] [testRefreshTaskIsUpdated] after test
+[2020-02-17T07:22:53,776][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/mIUEKkbVS-SDZLZFyvOovQ] deleting index
+[2020-02-17T07:22:53,797][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T07:22:53,798][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T07:22:53,798][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T07:22:53,799][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

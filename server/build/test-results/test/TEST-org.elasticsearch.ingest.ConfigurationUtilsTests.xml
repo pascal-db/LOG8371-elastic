@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.ConfigurationUtilsTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:00" hostname="Escoto-PC" time="0.041">
+  <properties/>
+  <testcase name="testNoScriptCompilation" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.012"/>
+  <testcase name="testReadStringOrIntPropertyInvalidType" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.002"/>
+  <testcase name="testScriptShouldCompile" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.005"/>
+  <testcase name="testReadStringPropertyInvalidType" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.002"/>
+  <testcase name="testReadNullBooleanProperty" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.002"/>
+  <testcase name="testReadProcessorFromObjectOrMap" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.006"/>
+  <testcase name="testReadProcessors" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.004"/>
+  <testcase name="testReadStringProperty" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.002"/>
+  <testcase name="testReadBooleanPropertyInvalidType" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.002"/>
+  <testcase name="testReadBooleanProperty" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.002"/>
+  <testcase name="testReadStringOrIntProperty" classname="org.elasticsearch.ingest.ConfigurationUtilsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T05:24:00,437][INFO ][o.e.i.ConfigurationUtilsTests] [testNoScriptCompilation] before test
+[2020-02-17T05:24:00,440][INFO ][o.e.i.ConfigurationUtilsTests] [testNoScriptCompilation] after test
+[2020-02-17T05:24:00,442][INFO ][o.e.i.ConfigurationUtilsTests] [testReadStringOrIntPropertyInvalidType] before test
+[2020-02-17T05:24:00,442][INFO ][o.e.i.ConfigurationUtilsTests] [testReadStringOrIntPropertyInvalidType] after test
+[2020-02-17T05:24:00,445][INFO ][o.e.i.ConfigurationUtilsTests] [testScriptShouldCompile] before test
+[2020-02-17T05:24:00,447][INFO ][o.e.i.ConfigurationUtilsTests] [testScriptShouldCompile] after test
+[2020-02-17T05:24:00,449][INFO ][o.e.i.ConfigurationUtilsTests] [testReadStringPropertyInvalidType] before test
+[2020-02-17T05:24:00,449][INFO ][o.e.i.ConfigurationUtilsTests] [testReadStringPropertyInvalidType] after test
+[2020-02-17T05:24:00,451][INFO ][o.e.i.ConfigurationUtilsTests] [testReadNullBooleanProperty] before test
+[2020-02-17T05:24:00,451][INFO ][o.e.i.ConfigurationUtilsTests] [testReadNullBooleanProperty] after test
+[2020-02-17T05:24:00,455][INFO ][o.e.i.ConfigurationUtilsTests] [testReadProcessorFromObjectOrMap] before test
+[2020-02-17T05:24:00,457][INFO ][o.e.i.ConfigurationUtilsTests] [testReadProcessorFromObjectOrMap] after test
+[2020-02-17T05:24:00,459][INFO ][o.e.i.ConfigurationUtilsTests] [testReadProcessors] before test
+[2020-02-17T05:24:00,461][INFO ][o.e.i.ConfigurationUtilsTests] [testReadProcessors] after test
+[2020-02-17T05:24:00,463][INFO ][o.e.i.ConfigurationUtilsTests] [testReadStringProperty] before test
+[2020-02-17T05:24:00,464][INFO ][o.e.i.ConfigurationUtilsTests] [testReadStringProperty] after test
+[2020-02-17T05:24:00,465][INFO ][o.e.i.ConfigurationUtilsTests] [testReadBooleanPropertyInvalidType] before test
+[2020-02-17T05:24:00,465][INFO ][o.e.i.ConfigurationUtilsTests] [testReadBooleanPropertyInvalidType] after test
+[2020-02-17T05:24:00,467][INFO ][o.e.i.ConfigurationUtilsTests] [testReadBooleanProperty] before test
+[2020-02-17T05:24:00,467][INFO ][o.e.i.ConfigurationUtilsTests] [testReadBooleanProperty] after test
+[2020-02-17T05:24:00,469][INFO ][o.e.i.ConfigurationUtilsTests] [testReadStringOrIntProperty] before test
+[2020-02-17T05:24:00,469][INFO ][o.e.i.ConfigurationUtilsTests] [testReadStringOrIntProperty] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

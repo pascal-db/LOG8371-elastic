@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.service.MasterServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.service.MasterServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.service.html">org.elasticsearch.cluster.service</a> &gt; MasterServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.109s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAcking</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBlockingCallInClusterStateTaskListenerFails</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterStateBatchedUpdates</td>
+<td class="success">0.054s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterStateTaskListenerThrowingExceptionIsOkay</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterStateUpdateLogging</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLongClusterStateUpdateLogging</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMasterAwareExecution</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadContext</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T18:21:39,478][INFO ][o.e.c.s.MasterServiceTests] [testThreadContext] before test
+[2020-02-16T18:21:39,483][INFO ][o.e.c.s.MasterServiceTests] [testThreadContext] after test
+[2020-02-16T18:21:39,485][INFO ][o.e.c.s.MasterServiceTests] [testAcking] before test
+[2020-02-16T18:21:39,488][WARN ][o.e.c.s.MasterService    ] [test_node] failing [test2]: failed to commit cluster state version [1]
+org.elasticsearch.cluster.coordination.FailedToCommitClusterStateException: mock exception
+	at org.elasticsearch.cluster.service.MasterServiceTests.lambda$testAcking$9(MasterServiceTests.java:928) ~[test/:?]
+	at org.elasticsearch.cluster.service.MasterServiceTests.lambda$testAcking$7(MasterServiceTests.java:919) ~[test/:?]
+	at org.elasticsearch.cluster.service.MasterService.publish(MasterService.java:268) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:250) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:21:39,490][INFO ][o.e.c.s.MasterServiceTests] [testAcking] after test
+[2020-02-16T18:21:39,492][INFO ][o.e.c.s.MasterServiceTests] [testMasterAwareExecution] before test
+[2020-02-16T18:21:39,495][INFO ][o.e.c.s.MasterServiceTests] [testMasterAwareExecution] after test
+[2020-02-16T18:21:39,497][INFO ][o.e.c.s.MasterServiceTests] [testClusterStateTaskListenerThrowingExceptionIsOkay] before test
+[2020-02-16T18:21:39,500][ERROR][o.e.c.s.MasterService    ] [test_node] exception thrown by listener while notifying of cluster state processed from [testClusterStateTaskListenerThrowingExceptionIsOkay], old cluster state:
+cluster uuid: _na_ [committed: false]
+version: 0
+state uuid: qeUGIwVETYqoOq6OMyqmNg
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node1}{I1Ij8eizS66jc30gEqWkrg}{0.0.0.0}{0.0.0.0:6}, local, master
+routing_table (version 0):
+routing_nodes:
+---- unassigned
+
+new cluster state:
+cluster uuid: _na_ [committed: false]
+version: 1
+state uuid: xZ2BI8S7TDiucg_pl3mjxw
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node1}{I1Ij8eizS66jc30gEqWkrg}{0.0.0.0}{0.0.0.0:6}, local, master
+routing_table (version 0):
+routing_nodes:
+---- unassigned
+
+java.lang.IllegalStateException: testClusterStateTaskListenerThrowingExceptionIsOkay
+	at org.elasticsearch.cluster.service.MasterServiceTests$6.clusterStateProcessed(MasterServiceTests.java:297) ~[test/:?]
+	at org.elasticsearch.cluster.service.MasterService$SafeClusterStateTaskListener.clusterStateProcessed(MasterService.java:534) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$TaskOutputs.lambda$processedDifferentClusterState$1(MasterService.java:421) [main/:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1540) [?:?]
+	at org.elasticsearch.cluster.service.MasterService$TaskOutputs.processedDifferentClusterState(MasterService.java:421) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.onPublicationSuccess(MasterService.java:281) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.publish(MasterService.java:273) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:250) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:21:39,501][INFO ][o.e.c.s.MasterServiceTests] [testClusterStateTaskListenerThrowingExceptionIsOkay] after test
+[2020-02-16T18:21:39,504][INFO ][o.e.c.s.MasterServiceTests] [testBlockingCallInClusterStateTaskListenerFails] before test
+[2020-02-16T18:21:39,507][INFO ][o.e.c.s.MasterServiceTests] [testBlockingCallInClusterStateTaskListenerFails] after test
+[2020-02-16T18:21:39,509][INFO ][o.e.c.s.MasterServiceTests] [testClusterStateBatchedUpdates] before test
+[2020-02-16T18:21:39,561][INFO ][o.e.c.s.MasterServiceTests] [testClusterStateBatchedUpdates] after test
+[2020-02-16T18:21:39,565][INFO ][o.e.c.s.MasterServiceTests] [testClusterStateUpdateLogging] before test
+[2020-02-16T18:21:39,572][TRACE][o.e.c.s.MasterService    ] [test_node] will process [test1]
+[2020-02-16T18:21:39,572][DEBUG][o.e.c.s.MasterService    ] [test_node] executing cluster state update for [test1]
+[2020-02-16T18:21:39,573][DEBUG][o.e.c.s.MasterService    ] [test_node] took [1s] to compute cluster state update for [test1]
+[2020-02-16T18:21:39,573][DEBUG][o.e.c.s.MasterService    ] [test_node] took [0s] to notify listeners on unchanged cluster state for [test1]
+[2020-02-16T18:21:39,573][TRACE][o.e.c.s.MasterService    ] [test_node] will process [test2]
+[2020-02-16T18:21:39,573][DEBUG][o.e.c.s.MasterService    ] [test_node] executing cluster state update for [test2]
+[2020-02-16T18:21:39,573][TRACE][o.e.c.s.MasterService    ] [test_node] failed to execute cluster state update (on version: [0], uuid: [Hab55BZUQ0u9nKxSncauQw]) for [test2]
+nodes: 
+   {node1}{scnmTDJzRymjsNigtm0RGg}{0.0.0.0}{0.0.0.0:9}, local, master
+routing_table (version 0):
+routing_nodes:
+---- unassigned
+
+java.lang.IllegalArgumentException: Testing handling of exceptions in the cluster state task
+	at org.elasticsearch.cluster.service.MasterServiceTests$8.execute(MasterServiceTests.java:407) ~[test/:?]
+	at org.elasticsearch.cluster.ClusterStateUpdateTask.execute(ClusterStateUpdateTask.java:47) ~[main/:?]
+	at org.elasticsearch.cluster.service.MasterService.executeTasks(MasterService.java:702) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.calculateTaskOutputs(MasterService.java:324) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:219) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T18:21:39,573][DEBUG][o.e.c.s.MasterService    ] [test_node] took [2s] to compute cluster state update for [test2]
+[2020-02-16T18:21:39,573][DEBUG][o.e.c.s.MasterService    ] [test_node] took [0s] to notify listeners on unchanged cluster state for [test2]
+[2020-02-16T18:21:39,573][TRACE][o.e.c.s.MasterService    ] [test_node] will process [test3]
+[2020-02-16T18:21:39,573][DEBUG][o.e.c.s.MasterService    ] [test_node] executing cluster state update for [test3]
+[2020-02-16T18:21:39,574][DEBUG][o.e.c.s.MasterService    ] [test_node] took [3s] to compute cluster state update for [test3]
+[2020-02-16T18:21:39,574][TRACE][o.e.c.s.MasterService    ] [test_node] cluster state updated, source [test3]
+cluster uuid: _na_ [committed: false]
+version: 2
+state uuid: myrEoE8fQGqDnmSfx1pMrg
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node1}{scnmTDJzRymjsNigtm0RGg}{0.0.0.0}{0.0.0.0:9}, local, master
+routing_table (version 0):
+routing_nodes:
+---- unassigned
+
+[2020-02-16T18:21:39,574][DEBUG][o.e.c.s.MasterService    ] [test_node] publishing cluster state version [2]
+[2020-02-16T18:21:39,574][DEBUG][o.e.c.s.MasterService    ] [test_node] took [4s] to notify listeners on successful publication of cluster state (version: 2, uuid: myrEoE8fQGqDnmSfx1pMrg) for [test3]
+[2020-02-16T18:21:39,574][TRACE][o.e.c.s.MasterService    ] [test_node] will process [test4]
+[2020-02-16T18:21:39,574][DEBUG][o.e.c.s.MasterService    ] [test_node] executing cluster state update for [test4]
+[2020-02-16T18:21:39,574][DEBUG][o.e.c.s.MasterService    ] [test_node] took [0s] to compute cluster state update for [test4]
+[2020-02-16T18:21:39,574][DEBUG][o.e.c.s.MasterService    ] [test_node] took [0s] to notify listeners on unchanged cluster state for [test4]
+[2020-02-16T18:21:39,575][INFO ][o.e.c.s.MasterServiceTests] [testClusterStateUpdateLogging] after test
+[2020-02-16T18:21:39,586][WARN ][o.e.c.s.MasterService    ] [test_node] took [5.4m], which is over [10s], to compute cluster state update for [test2]
+[2020-02-16T18:21:39,587][WARN ][o.e.c.s.MasterService    ] [test_node] took [4.8m], which is over [10s], to compute cluster state update for [test3]
+[2020-02-16T18:21:39,587][WARN ][o.e.c.s.MasterService    ] [test_node] took [3m], which is over [10s], to compute cluster state update for [test4]
+[2020-02-16T18:21:39,587][WARN ][o.e.c.s.MasterService    ] [test_node] took [15.7m] and then failed to publish updated cluster state (version: 6, uuid: LSh6KkreRtKQW2clQN6rdA) for [test6]:
+cluster uuid: _na_ [committed: false]
+version: 6
+state uuid: LSh6KkreRtKQW2clQN6rdA
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node1}{QZ06rQnWRjmdUUveWcF4wg}{0.0.0.0}{0.0.0.0:10}, local, master
+routing_table (version 0):
+routing_nodes:
+---- unassigned
+
+org.elasticsearch.ElasticsearchException: simulated error during slow publication which should trigger logging
+	at org.elasticsearch.cluster.service.MasterServiceTests.lambda$testLongClusterStateUpdateLogging$6(MasterServiceTests.java:758) ~[test/:?]
+	at org.elasticsearch.cluster.service.MasterService.publish(MasterService.java:268) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.runTasks(MasterService.java:250) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService.access$000(MasterService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.MasterService$Batcher.run(MasterService.java:151) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher.runIfNotProcessed(TaskBatcher.java:150) [main/:?]
+	at org.elasticsearch.cluster.service.TaskBatcher$BatchedTask.run(TaskBatcher.java:188) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

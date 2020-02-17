@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.recycler.LockedRecyclerTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:48" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testDestroyWhenOverCapacity" classname="org.elasticsearch.common.recycler.LockedRecyclerTests" time="0.003"/>
+  <testcase name="testRecycle" classname="org.elasticsearch.common.recycler.LockedRecyclerTests" time="0.002"/>
+  <testcase name="testReuse" classname="org.elasticsearch.common.recycler.LockedRecyclerTests" time="0.003"/>
+  <testcase name="testClose" classname="org.elasticsearch.common.recycler.LockedRecyclerTests" time="0.002"/>
+  <testcase name="testDoubleRelease" classname="org.elasticsearch.common.recycler.LockedRecyclerTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:20:48,480][INFO ][o.e.c.r.LockedRecyclerTests] [testDestroyWhenOverCapacity] before test
+[2020-02-16T17:20:48,481][INFO ][o.e.c.r.LockedRecyclerTests] [testDestroyWhenOverCapacity] after test
+[2020-02-16T17:20:48,483][INFO ][o.e.c.r.LockedRecyclerTests] [testRecycle] before test
+[2020-02-16T17:20:48,483][INFO ][o.e.c.r.LockedRecyclerTests] [testRecycle] after test
+[2020-02-16T17:20:48,486][INFO ][o.e.c.r.LockedRecyclerTests] [testReuse] before test
+[2020-02-16T17:20:48,486][INFO ][o.e.c.r.LockedRecyclerTests] [testReuse] after test
+[2020-02-16T17:20:48,488][INFO ][o.e.c.r.LockedRecyclerTests] [testClose] before test
+[2020-02-16T17:20:48,488][INFO ][o.e.c.r.LockedRecyclerTests] [testClose] after test
+[2020-02-16T17:20:48,490][INFO ][o.e.c.r.LockedRecyclerTests] [testDoubleRelease] before test
+[2020-02-16T17:20:48,490][INFO ][o.e.c.r.LockedRecyclerTests] [testDoubleRelease] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

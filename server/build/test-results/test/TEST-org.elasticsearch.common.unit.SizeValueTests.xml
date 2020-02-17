@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.unit.SizeValueTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:55" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testCompareValue" classname="org.elasticsearch.common.unit.SizeValueTests" time="0.004"/>
+  <testcase name="testConversionHashCode" classname="org.elasticsearch.common.unit.SizeValueTests" time="0.002"/>
+  <testcase name="testCompareEquality" classname="org.elasticsearch.common.unit.SizeValueTests" time="0.002"/>
+  <testcase name="testThatConversionWorks" classname="org.elasticsearch.common.unit.SizeValueTests" time="0.003"/>
+  <testcase name="testThatNegativeValuesThrowException" classname="org.elasticsearch.common.unit.SizeValueTests" time="0.003"/>
+  <testcase name="testThatParsingWorks" classname="org.elasticsearch.common.unit.SizeValueTests" time="0.003"/>
+  <testcase name="testCompareUnits" classname="org.elasticsearch.common.unit.SizeValueTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T04:21:55,309][INFO ][o.e.c.u.SizeValueTests   ] [testCompareValue] before test
+[2020-02-17T04:21:55,311][INFO ][o.e.c.u.SizeValueTests   ] [testCompareValue] after test
+[2020-02-17T04:21:55,314][INFO ][o.e.c.u.SizeValueTests   ] [testConversionHashCode] before test
+[2020-02-17T04:21:55,315][INFO ][o.e.c.u.SizeValueTests   ] [testConversionHashCode] after test
+[2020-02-17T04:21:55,317][INFO ][o.e.c.u.SizeValueTests   ] [testCompareEquality] before test
+[2020-02-17T04:21:55,317][INFO ][o.e.c.u.SizeValueTests   ] [testCompareEquality] after test
+[2020-02-17T04:21:55,321][INFO ][o.e.c.u.SizeValueTests   ] [testThatConversionWorks] before test
+[2020-02-17T04:21:55,321][INFO ][o.e.c.u.SizeValueTests   ] [testThatConversionWorks] after test
+[2020-02-17T04:21:55,323][INFO ][o.e.c.u.SizeValueTests   ] [testThatNegativeValuesThrowException] before test
+[2020-02-17T04:21:55,324][INFO ][o.e.c.u.SizeValueTests   ] [testThatNegativeValuesThrowException] after test
+[2020-02-17T04:21:55,327][INFO ][o.e.c.u.SizeValueTests   ] [testThatParsingWorks] before test
+[2020-02-17T04:21:55,327][INFO ][o.e.c.u.SizeValueTests   ] [testThatParsingWorks] after test
+[2020-02-17T04:21:55,329][INFO ][o.e.c.u.SizeValueTests   ] [testCompareUnits] before test
+[2020-02-17T04:21:55,329][INFO ][o.e.c.u.SizeValueTests   ] [testCompareUnits] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

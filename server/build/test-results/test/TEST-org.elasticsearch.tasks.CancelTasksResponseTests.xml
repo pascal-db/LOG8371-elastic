@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.tasks.CancelTasksResponseTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:44" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.tasks.CancelTasksResponseTests" time="0.023"/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.tasks.CancelTasksResponseTests" time="0.024"/>
+  <system-out><![CDATA[[2020-02-17T05:24:44,379][INFO ][o.e.t.CancelTasksResponseTests] [testFromXContent] before test
+[2020-02-17T05:24:44,399][INFO ][o.e.t.CancelTasksResponseTests] [testFromXContent] after test
+[2020-02-17T05:24:44,401][INFO ][o.e.t.CancelTasksResponseTests] [testFromXContentWithFailures] before test
+[2020-02-17T05:24:44,423][INFO ][o.e.t.CancelTasksResponseTests] [testFromXContentWithFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

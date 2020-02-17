@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchShardIteratorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.043">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.search.SearchShardIteratorTests" time="0.006"/>
+  <testcase name="testGetClusterAlias" classname="org.elasticsearch.action.search.SearchShardIteratorTests" time="0.003"/>
+  <testcase name="testCompareTo" classname="org.elasticsearch.action.search.SearchShardIteratorTests" time="0.02"/>
+  <testcase name="testGetOriginalIndices" classname="org.elasticsearch.action.search.SearchShardIteratorTests" time="0.002"/>
+  <testcase name="testNewSearchShardTarget" classname="org.elasticsearch.action.search.SearchShardIteratorTests" time="0.002"/>
+  <testcase name="testShardId" classname="org.elasticsearch.action.search.SearchShardIteratorTests" time="0.003"/>
+  <testcase name="testCompareToEqualItems" classname="org.elasticsearch.action.search.SearchShardIteratorTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T22:20:39,405][INFO ][o.e.a.s.SearchShardIteratorTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:20:39,406][INFO ][o.e.a.s.SearchShardIteratorTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:20:39,408][INFO ][o.e.a.s.SearchShardIteratorTests] [testGetClusterAlias] before test
+[2020-02-16T22:20:39,409][INFO ][o.e.a.s.SearchShardIteratorTests] [testGetClusterAlias] after test
+[2020-02-16T22:20:39,412][INFO ][o.e.a.s.SearchShardIteratorTests] [testCompareTo] before test
+[2020-02-16T22:20:39,429][INFO ][o.e.a.s.SearchShardIteratorTests] [testCompareTo] after test
+[2020-02-16T22:20:39,431][INFO ][o.e.a.s.SearchShardIteratorTests] [testGetOriginalIndices] before test
+[2020-02-16T22:20:39,432][INFO ][o.e.a.s.SearchShardIteratorTests] [testGetOriginalIndices] after test
+[2020-02-16T22:20:39,434][INFO ][o.e.a.s.SearchShardIteratorTests] [testNewSearchShardTarget] before test
+[2020-02-16T22:20:39,434][INFO ][o.e.a.s.SearchShardIteratorTests] [testNewSearchShardTarget] after test
+[2020-02-16T22:20:39,437][INFO ][o.e.a.s.SearchShardIteratorTests] [testShardId] before test
+[2020-02-16T22:20:39,437][INFO ][o.e.a.s.SearchShardIteratorTests] [testShardId] after test
+[2020-02-16T22:20:39,442][INFO ][o.e.a.s.SearchShardIteratorTests] [testCompareToEqualItems] before test
+[2020-02-16T22:20:39,442][INFO ][o.e.a.s.SearchShardIteratorTests] [testCompareToEqualItems] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

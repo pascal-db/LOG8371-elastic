@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.sort.NestedSortBuilderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:39" hostname="Escoto-PC" time="0.051">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.sort.NestedSortBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.sort.NestedSortBuilderTests" time="0.019"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.sort.NestedSortBuilderTests" time="0.019"/>
+  <testcase name="testRewrite" classname="org.elasticsearch.search.sort.NestedSortBuilderTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T00:24:39,598][INFO ][o.e.s.s.NestedSortBuilderTests] [testSerialization] before test
+[2020-02-17T00:24:39,599][INFO ][o.e.s.s.NestedSortBuilderTests] [testSerialization] after test
+[2020-02-17T00:24:39,603][INFO ][o.e.s.s.NestedSortBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:24:39,619][INFO ][o.e.s.s.NestedSortBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:24:39,621][INFO ][o.e.s.s.NestedSortBuilderTests] [testFromXContent] before test
+[2020-02-17T00:24:39,638][INFO ][o.e.s.s.NestedSortBuilderTests] [testFromXContent] after test
+[2020-02-17T00:24:39,641][INFO ][o.e.s.s.NestedSortBuilderTests] [testRewrite] before test
+[2020-02-17T00:24:39,647][INFO ][o.e.s.s.NestedSortBuilderTests] [testRewrite] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

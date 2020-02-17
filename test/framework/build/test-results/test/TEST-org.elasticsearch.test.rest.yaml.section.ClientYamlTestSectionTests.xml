@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSectionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:54" hostname="Escoto-PC" time="0.141">
+  <properties/>
+  <testcase name="testSmallSection" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSectionTests" time="0.068"/>
+  <testcase name="testWrongIndentation" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSectionTests" time="0.006"/>
+  <testcase name="testParseTestSectionWithDoSection" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSectionTests" time="0.012"/>
+  <testcase name="testParseTestSectionWithDoSetAndSkipSectionsNoSkip" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSectionTests" time="0.014"/>
+  <testcase name="testParseTestSectionWithMultipleDoSections" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSectionTests" time="0.029"/>
+  <testcase name="testParseTestSectionWithDoSectionsAndAssertions" classname="org.elasticsearch.test.rest.yaml.section.ClientYamlTestSectionTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-17T05:18:54,082][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testSmallSection] before test
+[2020-02-17T05:18:54,146][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testSmallSection] after test
+[2020-02-17T05:18:54,151][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testWrongIndentation] before test
+[2020-02-17T05:18:54,152][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testWrongIndentation] after test
+[2020-02-17T05:18:54,164][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testParseTestSectionWithDoSection] before test
+[2020-02-17T05:18:54,165][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testParseTestSectionWithDoSection] after test
+[2020-02-17T05:18:54,177][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testParseTestSectionWithDoSetAndSkipSectionsNoSkip] before test
+[2020-02-17T05:18:54,178][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testParseTestSectionWithDoSetAndSkipSectionsNoSkip] after test
+[2020-02-17T05:18:54,206][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testParseTestSectionWithMultipleDoSections] before test
+[2020-02-17T05:18:54,207][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testParseTestSectionWithMultipleDoSections] after test
+[2020-02-17T05:18:54,210][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testParseTestSectionWithDoSectionsAndAssertions] before test
+[2020-02-17T05:18:54,219][INFO ][o.e.t.r.y.s.ClientYamlTestSectionTests] [testParseTestSectionWithDoSectionsAndAssertions] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

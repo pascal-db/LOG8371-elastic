@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.IndexTemplateMetaDataTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testValidateInvalidIndexPatterns" classname="org.elasticsearch.cluster.metadata.IndexTemplateMetaDataTests" time="0.005"/>
+  <testcase name="testFromToXContent" classname="org.elasticsearch.cluster.metadata.IndexTemplateMetaDataTests" time="0.005"/>
+  <testcase name="testIndexTemplateMetaDataXContentRoundTrip" classname="org.elasticsearch.cluster.metadata.IndexTemplateMetaDataTests" time="0.003"/>
+  <testcase name="testParseTemplateWithAliases" classname="org.elasticsearch.cluster.metadata.IndexTemplateMetaDataTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T03:21:33,520][INFO ][o.e.c.m.IndexTemplateMetaDataTests] [testValidateInvalidIndexPatterns] before test
+[2020-02-17T03:21:33,523][INFO ][o.e.c.m.IndexTemplateMetaDataTests] [testValidateInvalidIndexPatterns] after test
+[2020-02-17T03:21:33,527][INFO ][o.e.c.m.IndexTemplateMetaDataTests] [testFromToXContent] before test
+[2020-02-17T03:21:33,528][INFO ][o.e.c.m.IndexTemplateMetaDataTests] [testFromToXContent] after test
+[2020-02-17T03:21:33,530][INFO ][o.e.c.m.IndexTemplateMetaDataTests] [testIndexTemplateMetaDataXContentRoundTrip] before test
+[2020-02-17T03:21:33,531][INFO ][o.e.c.m.IndexTemplateMetaDataTests] [testIndexTemplateMetaDataXContentRoundTrip] after test
+[2020-02-17T03:21:33,533][INFO ][o.e.c.m.IndexTemplateMetaDataTests] [testParseTemplateWithAliases] before test
+[2020-02-17T03:21:33,534][INFO ][o.e.c.m.IndexTemplateMetaDataTests] [testParseTemplateWithAliases] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

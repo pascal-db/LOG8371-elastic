@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.IndexFieldTypeTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:15" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testWildcardQuery" classname="org.elasticsearch.index.mapper.IndexFieldTypeTests" time="0.004"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.IndexFieldTypeTests" time="0.002"/>
+  <testcase name="testRegexpQuery" classname="org.elasticsearch.index.mapper.IndexFieldTypeTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.IndexFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.IndexFieldTypeTests" time="0.001"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.IndexFieldTypeTests" time="0.003"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.IndexFieldTypeTests" time="0.002"/>
+  <testcase name="testPrefixQuery" classname="org.elasticsearch.index.mapper.IndexFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T04:53:15,915][INFO ][o.e.i.m.IndexFieldTypeTests] [testWildcardQuery] before test
+[2020-02-17T04:53:15,917][INFO ][o.e.i.m.IndexFieldTypeTests] [testWildcardQuery] after test
+[2020-02-17T04:53:15,919][INFO ][o.e.i.m.IndexFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-17T04:53:15,920][INFO ][o.e.i.m.IndexFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-17T04:53:15,921][INFO ][o.e.i.m.IndexFieldTypeTests] [testRegexpQuery] before test
+[2020-02-17T04:53:15,922][INFO ][o.e.i.m.IndexFieldTypeTests] [testRegexpQuery] after test
+[2020-02-17T04:53:15,924][INFO ][o.e.i.m.IndexFieldTypeTests] [testEquals] before test
+[2020-02-17T04:53:15,924][INFO ][o.e.i.m.IndexFieldTypeTests] [testEquals] after test
+[2020-02-17T04:53:15,926][INFO ][o.e.i.m.IndexFieldTypeTests] [testCheckTypeName] before test
+[2020-02-17T04:53:15,926][INFO ][o.e.i.m.IndexFieldTypeTests] [testCheckTypeName] after test
+[2020-02-17T04:53:15,928][INFO ][o.e.i.m.IndexFieldTypeTests] [testClone] before test
+[2020-02-17T04:53:15,929][INFO ][o.e.i.m.IndexFieldTypeTests] [testClone] after test
+[2020-02-17T04:53:15,930][INFO ][o.e.i.m.IndexFieldTypeTests] [testFreeze] before test
+[2020-02-17T04:53:15,931][INFO ][o.e.i.m.IndexFieldTypeTests] [testFreeze] after test
+[2020-02-17T04:53:15,932][INFO ][o.e.i.m.IndexFieldTypeTests] [testPrefixQuery] before test
+[2020-02-17T04:53:15,933][INFO ][o.e.i.m.IndexFieldTypeTests] [testPrefixQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

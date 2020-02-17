@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.CircleTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:21" hostname="Escoto-PC" time="1.224">
+  <properties/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.CircleTests" time="1.125"/>
+  <testcase name="testInitValidation" classname="org.elasticsearch.geometry.CircleTests" time="0.011"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.CircleTests" time="0.008"/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.CircleTests" time="0.064"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.CircleTests" time="0.014"/>
+  <system-out><![CDATA[[2020-02-16T23:50:21,429][INFO ][o.e.g.CircleTests        ] [testBasicSerialization] before test
+[2020-02-16T23:50:22,511][INFO ][o.e.g.CircleTests        ] [testBasicSerialization] after test
+[2020-02-16T23:50:22,527][INFO ][o.e.g.CircleTests        ] [testInitValidation] before test
+[2020-02-16T23:50:22,530][INFO ][o.e.g.CircleTests        ] [testInitValidation] after test
+[2020-02-16T23:50:22,535][INFO ][o.e.g.CircleTests        ] [testSerialization] before test
+[2020-02-16T23:50:22,539][INFO ][o.e.g.CircleTests        ] [testSerialization] after test
+[2020-02-16T23:50:22,590][INFO ][o.e.g.CircleTests        ] [testVisitor] before test
+[2020-02-16T23:50:22,603][INFO ][o.e.g.CircleTests        ] [testVisitor] after test
+[2020-02-16T23:50:22,611][INFO ][o.e.g.CircleTests        ] [testEqualsAndHashcode] before test
+[2020-02-16T23:50:22,618][INFO ][o.e.g.CircleTests        ] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

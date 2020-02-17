@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.cluster.RestNodesInfoActionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testDuplicatedFiltersAreNotRemoved" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesInfoActionTests" time="0.004"/>
+  <testcase name="testOnlyMetrics" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesInfoActionTests" time="0.006"/>
+  <testcase name="testSeparateNodeIdsAndMetrics" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesInfoActionTests" time="0.002"/>
+  <testcase name="testAllMetricsSelectedWhenNodeAndMetricSpecified" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesInfoActionTests" time="0.002"/>
+  <testcase name="testExplicitAllMetrics" classname="org.elasticsearch.rest.action.admin.cluster.RestNodesInfoActionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T05:25:17,571][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testDuplicatedFiltersAreNotRemoved] before test
+[2020-02-17T05:25:17,573][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testDuplicatedFiltersAreNotRemoved] after test
+[2020-02-17T05:25:17,576][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testOnlyMetrics] before test
+[2020-02-17T05:25:17,579][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testOnlyMetrics] after test
+[2020-02-17T05:25:17,581][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testSeparateNodeIdsAndMetrics] before test
+[2020-02-17T05:25:17,581][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testSeparateNodeIdsAndMetrics] after test
+[2020-02-17T05:25:17,583][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testAllMetricsSelectedWhenNodeAndMetricSpecified] before test
+[2020-02-17T05:25:17,583][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testAllMetricsSelectedWhenNodeAndMetricSpecified] after test
+[2020-02-17T05:25:17,585][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testExplicitAllMetrics] before test
+[2020-02-17T05:25:17,585][INFO ][o.e.r.a.a.c.RestNodesInfoActionTests] [testExplicitAllMetrics] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

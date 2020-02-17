@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.GroupShardsIteratorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testOrderingWithSearchShardIterators" classname="org.elasticsearch.cluster.routing.GroupShardsIteratorTests" time="0.005"/>
+  <testcase name="testIterate" classname="org.elasticsearch.cluster.routing.GroupShardsIteratorTests" time="0.002"/>
+  <testcase name="testSize" classname="org.elasticsearch.cluster.routing.GroupShardsIteratorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T05:21:39,159][INFO ][o.e.c.r.GroupShardsIteratorTests] [testOrderingWithSearchShardIterators] before test
+[2020-02-17T05:21:39,161][INFO ][o.e.c.r.GroupShardsIteratorTests] [testOrderingWithSearchShardIterators] after test
+[2020-02-17T05:21:39,163][INFO ][o.e.c.r.GroupShardsIteratorTests] [testIterate] before test
+[2020-02-17T05:21:39,163][INFO ][o.e.c.r.GroupShardsIteratorTests] [testIterate] after test
+[2020-02-17T05:21:39,165][INFO ][o.e.c.r.GroupShardsIteratorTests] [testSize] before test
+[2020-02-17T05:21:39,165][INFO ][o.e.c.r.GroupShardsIteratorTests] [testSize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

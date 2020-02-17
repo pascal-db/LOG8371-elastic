@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.replication.TransportReplicationAllPermitsAcquisitionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:27" hostname="Escoto-PC" time="0.58">
+  <properties/>
+  <testcase name="testTransportReplicationActionWithAllPermits" classname="org.elasticsearch.action.support.replication.TransportReplicationAllPermitsAcquisitionTests" time="0.58"/>
+  <system-out><![CDATA[[2020-02-16T16:20:27,004][INFO ][o.e.a.s.r.TransportReplicationAllPermitsAcquisitionTests] [testTransportReplicationActionWithAllPermits] before test
+[2020-02-16T16:20:27,433][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{-4Mxmj_OTFmUo_NiJ-Ck0Q}{0.0.0.0}{0.0.0.0:1}{dim}], current [{_name1}{_node1}{lnpxltOZRVahPl24BnC7PA}{0.0.0.0}{0.0.0.0:2}{dim}]}, removed {{node}{-4Mxmj_OTFmUo_NiJ-Ck0Q}{0.0.0.0}{0.0.0.0:1}{dim}}, added {{_name2}{_node2}{4UE_H-1ZSC2ul1J7NGzXhQ}{0.0.0.0}{0.0.0.0:3}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T16:20:27,582][INFO ][o.e.a.s.r.TransportReplicationAllPermitsAcquisitionTests] [testTransportReplicationActionWithAllPermits] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

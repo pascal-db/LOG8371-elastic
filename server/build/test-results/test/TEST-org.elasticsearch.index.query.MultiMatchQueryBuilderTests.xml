@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" tests="31" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:38" hostname="Escoto-PC" time="0.12">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.013"/>
+  <testcase name="testToQueryBooleanPrefixMultipleFields" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.004"/>
+  <testcase name="testToQueryFieldsWildcard" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQueryMultipleTermsBooleanQuery" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.028"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.004"/>
+  <testcase name="testToQueryBoost" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testDefaultField" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.003"/>
+  <testcase name="testWithStopWords" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testFuzzinessOnNonStringField" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testCachingStrategiesWithNow" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testFuzzinessNotAllowedTypes" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeFieldBoost" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.001"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testExceptionUsingAnalyzerOnNumericField" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testToFuzzyQuery" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.001"/>
+  <testcase name="testToQueryFieldMissing" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQueryBooleanPrefixSingleField" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.001"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.004"/>
+  <testcase name="testToQueryMultipleFieldsDisMaxQuery" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.001"/>
+  <testcase name="testToQueryMultipleFieldsDisableDismax" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.001"/>
+  <testcase name="testQueryParameterArrayException" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.003"/>
+  <testcase name="testIllegaArguments" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.005"/>
+  <testcase name="testAllFieldsWildcard" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.MultiMatchQueryBuilderTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-17T06:23:38,544][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testSerialization] before test
+[2020-02-17T06:23:38,546][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-17T06:23:38,546][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-17T06:23:38,551][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-17T06:23:38,551][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-17T06:23:38,555][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testSerialization] after test
+[2020-02-17T06:23:38,557][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryBooleanPrefixMultipleFields] before test
+[2020-02-17T06:23:38,559][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryBooleanPrefixMultipleFields] after test
+[2020-02-17T06:23:38,561][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryFieldsWildcard] before test
+[2020-02-17T06:23:38,561][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryFieldsWildcard] after test
+[2020-02-17T06:23:38,563][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryMultipleTermsBooleanQuery] before test
+[2020-02-17T06:23:38,563][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryMultipleTermsBooleanQuery] after test
+[2020-02-17T06:23:38,564][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQuery] before test
+[2020-02-17T06:23:38,591][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQuery] after test
+[2020-02-17T06:23:38,595][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T06:23:38,596][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T06:23:38,598][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryBoost] before test
+[2020-02-17T06:23:38,598][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryBoost] after test
+[2020-02-17T06:23:38,599][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testDefaultField] before test
+[2020-02-17T06:23:38,600][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["*"]] to [["mapped_string","*","mapped_string_2"]]
+[2020-02-17T06:23:38,601][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["mapped_string","*","mapped_string_2"]] to [["mapped_string","mapped_string_2^5"]]
+[2020-02-17T06:23:38,601][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["mapped_string","mapped_string_2^5"]] to [["mapped_string","mapped_string_2^5","mapped_int"]]
+[2020-02-17T06:23:38,602][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["mapped_string","mapped_string_2^5","mapped_int"]] to [["*"]]
+[2020-02-17T06:23:38,602][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testDefaultField] after test
+[2020-02-17T06:23:38,603][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testWithStopWords] before test
+[2020-02-17T06:23:38,604][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testWithStopWords] after test
+[2020-02-17T06:23:38,605][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T06:23:38,605][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T06:23:38,607][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T06:23:38,607][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T06:23:38,609][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testFuzzinessOnNonStringField] before test
+[2020-02-17T06:23:38,609][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testFuzzinessOnNonStringField] after test
+[2020-02-17T06:23:38,611][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testCachingStrategiesWithNow] before test
+[2020-02-17T06:23:38,611][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testCachingStrategiesWithNow] after test
+[2020-02-17T06:23:38,613][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testFuzzinessNotAllowedTypes] before test
+[2020-02-17T06:23:38,613][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testFuzzinessNotAllowedTypes] after test
+[2020-02-17T06:23:38,614][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testNegativeFieldBoost] before test
+[2020-02-17T06:23:38,615][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testNegativeFieldBoost] after test
+[2020-02-17T06:23:38,616][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T06:23:38,617][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T06:23:38,618][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testExceptionUsingAnalyzerOnNumericField] before test
+[2020-02-17T06:23:38,619][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testExceptionUsingAnalyzerOnNumericField] after test
+[2020-02-17T06:23:38,620][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToFuzzyQuery] before test
+[2020-02-17T06:23:38,620][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToFuzzyQuery] after test
+[2020-02-17T06:23:38,621][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T06:23:38,622][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T06:23:38,623][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryFieldMissing] before test
+[2020-02-17T06:23:38,623][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryFieldMissing] after test
+[2020-02-17T06:23:38,625][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryBooleanPrefixSingleField] before test
+[2020-02-17T06:23:38,625][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryBooleanPrefixSingleField] after test
+[2020-02-17T06:23:38,626][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testFromJson] before test
+[2020-02-17T06:23:38,627][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testFromJson] after test
+[2020-02-17T06:23:38,628][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T06:23:38,630][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T06:23:38,632][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryMultipleFieldsDisMaxQuery] before test
+[2020-02-17T06:23:38,632][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryMultipleFieldsDisMaxQuery] after test
+[2020-02-17T06:23:38,633][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryMultipleFieldsDisableDismax] before test
+[2020-02-17T06:23:38,634][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testToQueryMultipleFieldsDisableDismax] after test
+[2020-02-17T06:23:38,635][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testQueryParameterArrayException] before test
+[2020-02-17T06:23:38,636][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testQueryParameterArrayException] after test
+[2020-02-17T06:23:38,637][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testCacheability] before test
+[2020-02-17T06:23:38,639][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testCacheability] after test
+[2020-02-17T06:23:38,642][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testIllegaArguments] before test
+[2020-02-17T06:23:38,642][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testIllegaArguments] after test
+[2020-02-17T06:23:38,647][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:23:38,648][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:23:38,650][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testAllFieldsWildcard] before test
+[2020-02-17T06:23:38,653][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testAllFieldsWildcard] after test
+[2020-02-17T06:23:38,655][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T06:23:38,662][INFO ][o.e.i.q.MultiMatchQueryBuilderTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

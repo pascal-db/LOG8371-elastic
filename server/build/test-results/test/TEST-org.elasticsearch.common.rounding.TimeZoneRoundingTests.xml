@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.rounding.TimeZoneRoundingTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:49" hostname="Escoto-PC" time="0.367">
+  <properties/>
+  <testcase name="testAmbiguousHoursAfterDSTSwitch" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.011"/>
+  <testcase name="testIntervalRounding_HalfDay_DST" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.004"/>
+  <testcase name="testUTCTimeUnitRounding" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.002"/>
+  <testcase name="testUTCIntervalRounding" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.009"/>
+  <testcase name="testDST_America_St_Johns" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.015"/>
+  <testcase name="testTimeIntervalCET_DST_End" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.004"/>
+  <testcase name="testEdgeCasesTransition" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.006"/>
+  <testcase name="testTimeIntervalRounding" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.003"/>
+  <testcase name="testRoundingRandom" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.209"/>
+  <testcase name="testTimeIntervalCET_DST_Start" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.002"/>
+  <testcase name="testIntervalRoundingRandom" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.047"/>
+  <testcase name="testIntervalRounding_NotDivisibleInteval" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.003"/>
+  <testcase name="testDST_END_Edgecases" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.013"/>
+  <testcase name="testsTimeZoneParsing" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.003"/>
+  <testcase name="testLenientConversionDST" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.002"/>
+  <testcase name="testTimeUnitRoundingDST" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.016"/>
+  <testcase name="testDayRounding" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.004"/>
+  <testcase name="testDST_Europe_Rome" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.002"/>
+  <testcase name="testIntervalRoundingMonotonic_CET" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.002"/>
+  <testcase name="testTimeInterval_Kathmandu_DST_Start" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.002"/>
+  <testcase name="testDayIntervalRounding" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.002"/>
+  <testcase name="testTimeRounding" classname="org.elasticsearch.common.rounding.TimeZoneRoundingTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T00:21:49,658][INFO ][o.e.c.r.TimeZoneRoundingTests] [testAmbiguousHoursAfterDSTSwitch] before test
+[2020-02-17T00:21:49,667][INFO ][o.e.c.r.TimeZoneRoundingTests] [testAmbiguousHoursAfterDSTSwitch] after test
+[2020-02-17T00:21:49,671][INFO ][o.e.c.r.TimeZoneRoundingTests] [testIntervalRounding_HalfDay_DST] before test
+[2020-02-17T00:21:49,673][INFO ][o.e.c.r.TimeZoneRoundingTests] [testIntervalRounding_HalfDay_DST] after test
+[2020-02-17T00:21:49,675][INFO ][o.e.c.r.TimeZoneRoundingTests] [testUTCTimeUnitRounding] before test
+[2020-02-17T00:21:49,675][INFO ][o.e.c.r.TimeZoneRoundingTests] [testUTCTimeUnitRounding] after test
+[2020-02-17T00:21:49,684][INFO ][o.e.c.r.TimeZoneRoundingTests] [testUTCIntervalRounding] before test
+[2020-02-17T00:21:49,685][INFO ][o.e.c.r.TimeZoneRoundingTests] [testUTCIntervalRounding] after test
+[2020-02-17T00:21:49,687][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDST_America_St_Johns] before test
+[2020-02-17T00:21:49,699][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDST_America_St_Johns] after test
+[2020-02-17T00:21:49,703][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeIntervalCET_DST_End] before test
+[2020-02-17T00:21:49,704][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeIntervalCET_DST_End] after test
+[2020-02-17T00:21:49,707][INFO ][o.e.c.r.TimeZoneRoundingTests] [testEdgeCasesTransition] before test
+[2020-02-17T00:21:49,711][INFO ][o.e.c.r.TimeZoneRoundingTests] [testEdgeCasesTransition] after test
+[2020-02-17T00:21:49,713][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeIntervalRounding] before test
+[2020-02-17T00:21:49,714][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeIntervalRounding] after test
+[2020-02-17T00:21:49,715][INFO ][o.e.c.r.TimeZoneRoundingTests] [testRoundingRandom] before test
+[2020-02-17T00:21:49,923][INFO ][o.e.c.r.TimeZoneRoundingTests] [testRoundingRandom] after test
+[2020-02-17T00:21:49,925][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeIntervalCET_DST_Start] before test
+[2020-02-17T00:21:49,925][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeIntervalCET_DST_Start] after test
+[2020-02-17T00:21:49,929][INFO ][o.e.c.r.TimeZoneRoundingTests] [testIntervalRoundingRandom] before test
+[2020-02-17T00:21:49,973][INFO ][o.e.c.r.TimeZoneRoundingTests] [testIntervalRoundingRandom] after test
+[2020-02-17T00:21:49,975][INFO ][o.e.c.r.TimeZoneRoundingTests] [testIntervalRounding_NotDivisibleInteval] before test
+[2020-02-17T00:21:49,975][INFO ][o.e.c.r.TimeZoneRoundingTests] [testIntervalRounding_NotDivisibleInteval] after test
+[2020-02-17T00:21:49,988][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDST_END_Edgecases] before test
+[2020-02-17T00:21:49,988][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDST_END_Edgecases] after test
+[2020-02-17T00:21:49,990][INFO ][o.e.c.r.TimeZoneRoundingTests] [testsTimeZoneParsing] before test
+[2020-02-17T00:21:49,992][INFO ][o.e.c.r.TimeZoneRoundingTests] [testsTimeZoneParsing] after test
+[2020-02-17T00:21:49,993][INFO ][o.e.c.r.TimeZoneRoundingTests] [testLenientConversionDST] before test
+[2020-02-17T00:21:49,994][INFO ][o.e.c.r.TimeZoneRoundingTests] [testLenientConversionDST] after test
+[2020-02-17T00:21:50,009][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeUnitRoundingDST] before test
+[2020-02-17T00:21:50,010][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeUnitRoundingDST] after test
+[2020-02-17T00:21:50,012][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDayRounding] before test
+[2020-02-17T00:21:50,014][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDayRounding] after test
+[2020-02-17T00:21:50,016][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDST_Europe_Rome] before test
+[2020-02-17T00:21:50,016][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDST_Europe_Rome] after test
+[2020-02-17T00:21:50,018][INFO ][o.e.c.r.TimeZoneRoundingTests] [testIntervalRoundingMonotonic_CET] before test
+[2020-02-17T00:21:50,018][INFO ][o.e.c.r.TimeZoneRoundingTests] [testIntervalRoundingMonotonic_CET] after test
+[2020-02-17T00:21:50,020][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeInterval_Kathmandu_DST_Start] before test
+[2020-02-17T00:21:50,020][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeInterval_Kathmandu_DST_Start] after test
+[2020-02-17T00:21:50,022][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDayIntervalRounding] before test
+[2020-02-17T00:21:50,022][INFO ][o.e.c.r.TimeZoneRoundingTests] [testDayIntervalRounding] after test
+[2020-02-17T00:21:50,024][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeRounding] before test
+[2020-02-17T00:21:50,024][INFO ][o.e.c.r.TimeZoneRoundingTests] [testTimeRounding] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

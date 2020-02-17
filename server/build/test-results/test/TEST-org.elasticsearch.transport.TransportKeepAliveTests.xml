@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.TransportKeepAliveTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:21" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testOnlySendPingIfWeHaveNotWrittenAndReadSinceLastPing" classname="org.elasticsearch.transport.TransportKeepAliveTests" time="0.005"/>
+  <testcase name="testRegisterMultipleKeepAliveIntervals" classname="org.elasticsearch.transport.TransportKeepAliveTests" time="0.002"/>
+  <testcase name="testNoKeepAliveResponseIfClient" classname="org.elasticsearch.transport.TransportKeepAliveTests" time="0.002"/>
+  <testcase name="testClosingChannelUnregistersItFromKeepAlive" classname="org.elasticsearch.transport.TransportKeepAliveTests" time="0.002"/>
+  <testcase name="testKeepAliveResponseIfServer" classname="org.elasticsearch.transport.TransportKeepAliveTests" time="0.002"/>
+  <testcase name="testRegisterNodeConnectionSchedulesKeepAlive" classname="org.elasticsearch.transport.TransportKeepAliveTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T10:26:21,601][INFO ][o.e.t.TransportKeepAliveTests] [testOnlySendPingIfWeHaveNotWrittenAndReadSinceLastPing] before test
+[2020-02-17T10:26:21,603][INFO ][o.e.t.TransportKeepAliveTests] [testOnlySendPingIfWeHaveNotWrittenAndReadSinceLastPing] after test
+[2020-02-17T10:26:21,605][INFO ][o.e.t.TransportKeepAliveTests] [testRegisterMultipleKeepAliveIntervals] before test
+[2020-02-17T10:26:21,605][INFO ][o.e.t.TransportKeepAliveTests] [testRegisterMultipleKeepAliveIntervals] after test
+[2020-02-17T10:26:21,607][INFO ][o.e.t.TransportKeepAliveTests] [testNoKeepAliveResponseIfClient] before test
+[2020-02-17T10:26:21,607][INFO ][o.e.t.TransportKeepAliveTests] [testNoKeepAliveResponseIfClient] after test
+[2020-02-17T10:26:21,609][INFO ][o.e.t.TransportKeepAliveTests] [testClosingChannelUnregistersItFromKeepAlive] before test
+[2020-02-17T10:26:21,609][INFO ][o.e.t.TransportKeepAliveTests] [testClosingChannelUnregistersItFromKeepAlive] after test
+[2020-02-17T10:26:21,611][INFO ][o.e.t.TransportKeepAliveTests] [testKeepAliveResponseIfServer] before test
+[2020-02-17T10:26:21,611][INFO ][o.e.t.TransportKeepAliveTests] [testKeepAliveResponseIfServer] after test
+[2020-02-17T10:26:21,613][INFO ][o.e.t.TransportKeepAliveTests] [testRegisterNodeConnectionSchedulesKeepAlive] before test
+[2020-02-17T10:26:21,614][INFO ][o.e.t.TransportKeepAliveTests] [testRegisterNodeConnectionSchedulesKeepAlive] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

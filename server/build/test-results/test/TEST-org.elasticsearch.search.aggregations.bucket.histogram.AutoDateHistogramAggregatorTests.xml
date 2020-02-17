@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:14" hostname="Escoto-PC" time="2.782">
+  <properties/>
+  <testcase name="testRandomMinuteIntervals" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.248"/>
+  <testcase name="testIntervalYear" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.337"/>
+  <testcase name="testIntervalHourWithTZ" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.059"/>
+  <testcase name="testMatchAllDocs" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.052"/>
+  <testcase name="testSubAggregations" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.058"/>
+  <testcase name="testRandomMonthIntervals" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.099"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.021"/>
+  <testcase name="testRandomHourIntervals" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.094"/>
+  <testcase name="testWithLargeNumberOfBuckets" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.015"/>
+  <testcase name="testAggregateWrongField" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.044"/>
+  <testcase name="testIntervalMinute" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.026"/>
+  <testcase name="testRandomSecondIntervals" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.265"/>
+  <testcase name="testIntervalHour" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.094"/>
+  <testcase name="testIntervalDay" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.027"/>
+  <testcase name="testMatchNoDocs" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.053"/>
+  <testcase name="testRandomDayIntervals" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.219"/>
+  <testcase name="testIntervalSecond" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.441"/>
+  <testcase name="testIntervalDayWithTZ" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.167"/>
+  <testcase name="testIntervalMonth" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.033"/>
+  <testcase name="testRandomYearIntervals" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregatorTests" time="0.427"/>
+  <system-out><![CDATA[[2020-02-17T06:24:14,693][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomMinuteIntervals] before test
+[2020-02-17T06:24:14,931][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomMinuteIntervals] after test
+[2020-02-17T06:24:14,933][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalYear] before test
+[2020-02-17T06:24:15,268][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalYear] after test
+[2020-02-17T06:24:15,270][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalHourWithTZ] before test
+[2020-02-17T06:24:15,327][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalHourWithTZ] after test
+[2020-02-17T06:24:15,329][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testMatchAllDocs] before test
+[2020-02-17T06:24:15,379][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testMatchAllDocs] after test
+[2020-02-17T06:24:15,381][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testSubAggregations] before test
+[2020-02-17T06:24:15,437][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testSubAggregations] after test
+[2020-02-17T06:24:15,439][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomMonthIntervals] before test
+[2020-02-17T06:24:15,536][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomMonthIntervals] after test
+[2020-02-17T06:24:15,539][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testNoDocs] before test
+[2020-02-17T06:24:15,557][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testNoDocs] after test
+[2020-02-17T06:24:15,560][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomHourIntervals] before test
+[2020-02-17T06:24:15,652][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomHourIntervals] after test
+[2020-02-17T06:24:15,654][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testWithLargeNumberOfBuckets] before test
+[2020-02-17T06:24:15,667][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testWithLargeNumberOfBuckets] after test
+[2020-02-17T06:24:15,668][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testAggregateWrongField] before test
+[2020-02-17T06:24:15,711][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testAggregateWrongField] after test
+[2020-02-17T06:24:15,713][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalMinute] before test
+[2020-02-17T06:24:15,738][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalMinute] after test
+[2020-02-17T06:24:15,740][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomSecondIntervals] before test
+[2020-02-17T06:24:16,003][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomSecondIntervals] after test
+[2020-02-17T06:24:16,010][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalHour] before test
+[2020-02-17T06:24:16,096][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalHour] after test
+[2020-02-17T06:24:16,099][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalDay] before test
+[2020-02-17T06:24:16,124][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalDay] after test
+[2020-02-17T06:24:16,128][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testMatchNoDocs] before test
+[2020-02-17T06:24:16,178][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testMatchNoDocs] after test
+[2020-02-17T06:24:16,182][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomDayIntervals] before test
+[2020-02-17T06:24:16,397][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomDayIntervals] after test
+[2020-02-17T06:24:16,399][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalSecond] before test
+[2020-02-17T06:24:16,838][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalSecond] after test
+[2020-02-17T06:24:16,853][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalDayWithTZ] before test
+[2020-02-17T06:24:17,005][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalDayWithTZ] after test
+[2020-02-17T06:24:17,007][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalMonth] before test
+[2020-02-17T06:24:17,038][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testIntervalMonth] after test
+[2020-02-17T06:24:17,041][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomYearIntervals] before test
+[2020-02-17T06:24:17,465][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregatorTests] [testRandomYearIntervals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

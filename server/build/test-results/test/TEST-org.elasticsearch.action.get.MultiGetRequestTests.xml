@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.get.MultiGetRequestTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:36" hostname="Escoto-PC" time="0.1">
+  <properties/>
+  <testcase name="testXContentSerialization" classname="org.elasticsearch.action.get.MultiGetRequestTests" time="0.08"/>
+  <testcase name="testAddWithInvalidKey" classname="org.elasticsearch.action.get.MultiGetRequestTests" time="0.002"/>
+  <testcase name="testAddWithValidSourceValueIsAccepted" classname="org.elasticsearch.action.get.MultiGetRequestTests" time="0.013"/>
+  <testcase name="testUnexpectedField" classname="org.elasticsearch.action.get.MultiGetRequestTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T09:20:36,650][INFO ][o.e.a.g.MultiGetRequestTests] [testXContentSerialization] before test
+[2020-02-17T09:20:36,729][INFO ][o.e.a.g.MultiGetRequestTests] [testXContentSerialization] after test
+[2020-02-17T09:20:36,731][INFO ][o.e.a.g.MultiGetRequestTests] [testAddWithInvalidKey] before test
+[2020-02-17T09:20:36,732][INFO ][o.e.a.g.MultiGetRequestTests] [testAddWithInvalidKey] after test
+[2020-02-17T09:20:36,745][INFO ][o.e.a.g.MultiGetRequestTests] [testAddWithValidSourceValueIsAccepted] before test
+[2020-02-17T09:20:36,745][INFO ][o.e.a.g.MultiGetRequestTests] [testAddWithValidSourceValueIsAccepted] after test
+[2020-02-17T09:20:36,748][INFO ][o.e.a.g.MultiGetRequestTests] [testUnexpectedField] before test
+[2020-02-17T09:20:36,749][INFO ][o.e.a.g.MultiGetRequestTests] [testUnexpectedField] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

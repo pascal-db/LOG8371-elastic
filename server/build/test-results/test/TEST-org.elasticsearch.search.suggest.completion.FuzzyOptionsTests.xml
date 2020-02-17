@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.completion.FuzzyOptionsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.search.suggest.completion.FuzzyOptionsTests" time="0.002"/>
+  <testcase name="testEqualsAndHashCode" classname="org.elasticsearch.search.suggest.completion.FuzzyOptionsTests" time="0.015"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.completion.FuzzyOptionsTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T17:24:43,309][INFO ][o.e.s.s.c.FuzzyOptionsTests] [testIllegalArguments] before test
+[2020-02-16T17:24:43,310][INFO ][o.e.s.s.c.FuzzyOptionsTests] [testIllegalArguments] after test
+[2020-02-16T17:24:43,322][INFO ][o.e.s.s.c.FuzzyOptionsTests] [testEqualsAndHashCode] before test
+[2020-02-16T17:24:43,324][INFO ][o.e.s.s.c.FuzzyOptionsTests] [testEqualsAndHashCode] after test
+[2020-02-16T17:24:43,328][INFO ][o.e.s.s.c.FuzzyOptionsTests] [testSerialization] before test
+[2020-02-16T17:24:43,329][INFO ][o.e.s.s.c.FuzzyOptionsTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

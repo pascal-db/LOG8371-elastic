@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridAggregatorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:12" hostname="Escoto-PC" time="0.039">
+  <properties/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridAggregatorTests" time="0.01"/>
+  <testcase name="testFieldMissing" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridAggregatorTests" time="0.017"/>
+  <testcase name="testWithSeveralDocs" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridAggregatorTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-16T16:24:12,847][INFO ][o.e.s.a.b.g.GeoHashGridAggregatorTests] [testNoDocs] before test
+[2020-02-16T16:24:12,855][INFO ][o.e.s.a.b.g.GeoHashGridAggregatorTests] [testNoDocs] after test
+[2020-02-16T16:24:12,858][INFO ][o.e.s.a.b.g.GeoHashGridAggregatorTests] [testFieldMissing] before test
+[2020-02-16T16:24:12,873][INFO ][o.e.s.a.b.g.GeoHashGridAggregatorTests] [testFieldMissing] after test
+[2020-02-16T16:24:12,875][INFO ][o.e.s.a.b.g.GeoHashGridAggregatorTests] [testWithSeveralDocs] before test
+[2020-02-16T16:24:12,885][INFO ][o.e.s.a.b.g.GeoHashGridAggregatorTests] [testWithSeveralDocs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

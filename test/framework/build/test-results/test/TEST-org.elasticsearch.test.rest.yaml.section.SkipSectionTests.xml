@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:54" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testParseSkipSectionBothFeatureAndVersion" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.006"/>
+  <testcase name="testParseSkipSectionNoReason" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.002"/>
+  <testcase name="testSkip" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.003"/>
+  <testcase name="testParseSkipSectionFeatureNoVersion" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.002"/>
+  <testcase name="testParseSkipSectionAllVersions" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.003"/>
+  <testcase name="testParseSkipSectionVersionNoFeature" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.002"/>
+  <testcase name="testParseSkipSectionNoVersionNorFeature" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.002"/>
+  <testcase name="testMessage" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.002"/>
+  <testcase name="testParseSkipSectionFeaturesNoVersion" classname="org.elasticsearch.test.rest.yaml.section.SkipSectionTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T01:48:54,589][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionBothFeatureAndVersion] before test
+[2020-02-17T01:48:54,594][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionBothFeatureAndVersion] after test
+[2020-02-17T01:48:54,596][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionNoReason] before test
+[2020-02-17T01:48:54,596][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionNoReason] after test
+[2020-02-17T01:48:54,598][INFO ][o.e.t.r.y.s.SkipSectionTests] [testSkip] before test
+[2020-02-17T01:48:54,599][INFO ][o.e.t.r.y.s.SkipSectionTests] [testSkip] after test
+[2020-02-17T01:48:54,601][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionFeatureNoVersion] before test
+[2020-02-17T01:48:54,602][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionFeatureNoVersion] after test
+[2020-02-17T01:48:54,604][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionAllVersions] before test
+[2020-02-17T01:48:54,604][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionAllVersions] after test
+[2020-02-17T01:48:54,606][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionVersionNoFeature] before test
+[2020-02-17T01:48:54,607][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionVersionNoFeature] after test
+[2020-02-17T01:48:54,609][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionNoVersionNorFeature] before test
+[2020-02-17T01:48:54,609][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionNoVersionNorFeature] after test
+[2020-02-17T01:48:54,611][INFO ][o.e.t.r.y.s.SkipSectionTests] [testMessage] before test
+[2020-02-17T01:48:54,612][INFO ][o.e.t.r.y.s.SkipSectionTests] [testMessage] after test
+[2020-02-17T01:48:54,615][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionFeaturesNoVersion] before test
+[2020-02-17T01:48:54,616][INFO ][o.e.t.r.y.s.SkipSectionTests] [testParseSkipSectionFeaturesNoVersion] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

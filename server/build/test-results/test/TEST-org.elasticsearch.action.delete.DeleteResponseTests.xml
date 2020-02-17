@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.delete.DeleteResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:36" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.delete.DeleteResponseTests" time="0.012"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.action.delete.DeleteResponseTests" time="0.011"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.delete.DeleteResponseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T11:20:36,391][INFO ][o.e.a.d.DeleteResponseTests] [testToAndFromXContent] before test
+[2020-02-17T11:20:36,399][INFO ][o.e.a.d.DeleteResponseTests] [testToAndFromXContent] after test
+[2020-02-17T11:20:36,404][INFO ][o.e.a.d.DeleteResponseTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T11:20:36,410][INFO ][o.e.a.d.DeleteResponseTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T11:20:36,413][INFO ][o.e.a.d.DeleteResponseTests] [testToXContent] before test
+[2020-02-17T11:20:36,413][INFO ][o.e.a.d.DeleteResponseTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

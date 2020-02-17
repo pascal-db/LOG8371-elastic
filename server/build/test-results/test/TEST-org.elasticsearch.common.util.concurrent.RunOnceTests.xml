@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.RunOnceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:51" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testRunOnceConcurrently" classname="org.elasticsearch.common.util.concurrent.RunOnceTests" time="0.004"/>
+  <testcase name="testRunOnce" classname="org.elasticsearch.common.util.concurrent.RunOnceTests" time="0.002"/>
+  <testcase name="testRunOnceWithAbstractRunnable" classname="org.elasticsearch.common.util.concurrent.RunOnceTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:20:51,787][INFO ][o.e.c.u.c.RunOnceTests   ] [testRunOnceConcurrently] before test
+[2020-02-17T00:20:51,789][INFO ][o.e.c.u.c.RunOnceTests   ] [testRunOnceConcurrently] after test
+[2020-02-17T00:20:51,791][INFO ][o.e.c.u.c.RunOnceTests   ] [testRunOnce] before test
+[2020-02-17T00:20:51,791][INFO ][o.e.c.u.c.RunOnceTests   ] [testRunOnce] after test
+[2020-02-17T00:20:51,793][INFO ][o.e.c.u.c.RunOnceTests   ] [testRunOnceWithAbstractRunnable] before test
+[2020-02-17T00:20:51,793][INFO ][o.e.c.u.c.RunOnceTests   ] [testRunOnceWithAbstractRunnable] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

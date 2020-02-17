@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.replication.ReplicationResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:26" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testShardInfoToString" classname="org.elasticsearch.action.support.replication.ReplicationResponseTests" time="0.004"/>
+  <testcase name="testShardInfoToAndFromXContent" classname="org.elasticsearch.action.support.replication.ReplicationResponseTests" time="0.004"/>
+  <testcase name="testShardInfoToXContent" classname="org.elasticsearch.action.support.replication.ReplicationResponseTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:20:26,967][INFO ][o.e.a.s.r.ReplicationResponseTests] [testShardInfoToString] before test
+[2020-02-16T22:20:26,969][INFO ][o.e.a.s.r.ReplicationResponseTests] [testShardInfoToString] after test
+[2020-02-16T22:20:26,972][INFO ][o.e.a.s.r.ReplicationResponseTests] [testShardInfoToAndFromXContent] before test
+[2020-02-16T22:20:26,973][INFO ][o.e.a.s.r.ReplicationResponseTests] [testShardInfoToAndFromXContent] after test
+[2020-02-16T22:20:26,975][INFO ][o.e.a.s.r.ReplicationResponseTests] [testShardInfoToXContent] before test
+[2020-02-16T22:20:26,975][INFO ][o.e.a.s.r.ReplicationResponseTests] [testShardInfoToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

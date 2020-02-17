@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.053">
+  <properties/>
+  <testcase name="testRebalanceWithIgnoredUnassignedShards" classname="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" time="0.007"/>
+  <testcase name="testAlways" classname="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" time="0.005"/>
+  <testcase name="testRebalanceWhileShardFetching" classname="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" time="0.009"/>
+  <testcase name="testClusterAllActive3" classname="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" time="0.006"/>
+  <testcase name="testClusterAllActive1" classname="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" time="0.007"/>
+  <testcase name="testClusterAllActive2" classname="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" time="0.006"/>
+  <testcase name="testClusterPrimariesActive1" classname="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" time="0.006"/>
+  <testcase name="testClusterPrimariesActive2" classname="org.elasticsearch.cluster.routing.allocation.ClusterRebalanceRoutingTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T19:20:37,917][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWithIgnoredUnassignedShards] before test
+[2020-02-16T19:20:37,919][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWithIgnoredUnassignedShards] start two nodes
+[2020-02-16T19:20:37,921][INFO ][o.e.c.r.a.AllocationService] [testRebalanceWithIgnoredUnassignedShards] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][0]]]).
+[2020-02-16T19:20:37,921][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWithIgnoredUnassignedShards] after test
+[2020-02-16T19:20:37,923][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] before test
+[2020-02-16T19:20:37,925][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] start two nodes
+[2020-02-16T19:20:37,926][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,926][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] start the test1 replica shards
+[2020-02-16T19:20:37,926][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] now, start 1 more node, check that rebalancing will happen (for test1) because we set it to always
+[2020-02-16T19:20:37,927][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testAlways] after test
+[2020-02-16T19:20:37,930][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWhileShardFetching] before test
+[2020-02-16T19:20:37,933][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWhileShardFetching] start two nodes
+[2020-02-16T19:20:37,934][INFO ][o.e.c.r.a.AllocationService] [testRebalanceWhileShardFetching] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute]).
+[2020-02-16T19:20:37,935][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testRebalanceWhileShardFetching] after test
+[2020-02-16T19:20:37,937][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] before test
+[2020-02-16T19:20:37,940][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] start two nodes
+[2020-02-16T19:20:37,940][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,941][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] start the test1 replica shards
+[2020-02-16T19:20:37,941][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] start all the primary shards for test2, replicas will start initializing
+[2020-02-16T19:20:37,941][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] now, start 1 more node, check that rebalancing will not happen (for test1) because we set it to all_active
+[2020-02-16T19:20:37,942][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive3] after test
+[2020-02-16T19:20:37,944][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] before test
+[2020-02-16T19:20:37,946][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start two nodes
+[2020-02-16T19:20:37,946][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start the test1 replica shards
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start all the primary shards for test2, replicas will start initializing
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] start the test2 replica shards
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.AllocationService] [testClusterAllActive1] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test2][0]]]).
+[2020-02-16T19:20:37,947][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] now, start 1 more node, check that rebalancing happen (for test1) because we set it to all_active
+[2020-02-16T19:20:37,948][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive1] after test
+[2020-02-16T19:20:37,950][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] before test
+[2020-02-16T19:20:37,952][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] start two nodes
+[2020-02-16T19:20:37,953][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,954][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] start the test1 replica shards
+[2020-02-16T19:20:37,954][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] now, start 1 more node, check that rebalancing will not happen (for test1) because we set it to all_active
+[2020-02-16T19:20:37,954][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterAllActive2] after test
+[2020-02-16T19:20:37,956][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] before test
+[2020-02-16T19:20:37,958][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] start two nodes
+[2020-02-16T19:20:37,959][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,959][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] start the test1 replica shards
+[2020-02-16T19:20:37,960][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] start all the primary shards for test2, replicas will start initializing
+[2020-02-16T19:20:37,960][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] now, start 1 more node, check that rebalancing happen (for test1) because we set it to primaries_active
+[2020-02-16T19:20:37,961][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive1] after test
+[2020-02-16T19:20:37,963][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] before test
+[2020-02-16T19:20:37,964][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] start two nodes
+[2020-02-16T19:20:37,965][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] start all the primary shards for test1, replicas will start initializing
+[2020-02-16T19:20:37,965][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] start the test1 replica shards
+[2020-02-16T19:20:37,967][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] now, start 1 more node, check that rebalancing will not happen (for test1) because we set it to primaries_active
+[2020-02-16T19:20:37,967][INFO ][o.e.c.r.a.ClusterRebalanceRoutingTests] [testClusterPrimariesActive2] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

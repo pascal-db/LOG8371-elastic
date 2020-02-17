@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.DiskThresholdMonitorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:37" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testDoesNotSubmitRerouteTaskTooFrequently" classname="org.elasticsearch.cluster.routing.allocation.DiskThresholdMonitorTests" time="0.008"/>
+  <testcase name="testAutoReleaseIndices" classname="org.elasticsearch.cluster.routing.allocation.DiskThresholdMonitorTests" time="0.011"/>
+  <testcase name="testMarkFloodStageIndicesReadOnly" classname="org.elasticsearch.cluster.routing.allocation.DiskThresholdMonitorTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-17T07:21:37,579][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testDoesNotSubmitRerouteTaskTooFrequently] before test
+[2020-02-17T07:21:37,584][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] high disk watermark [90%] exceeded on [node1][node1][/foo/bar] free: 5b[5%], shards will be relocated away from this node
+[2020-02-17T07:21:37,584][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,585][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] high disk watermark [90%] exceeded on [node1][node1][/foo/bar] free: 5b[5%], shards will be relocated away from this node
+[2020-02-17T07:21:37,585][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,585][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] skipping monitor as a check is already in progress
+[2020-02-17T07:21:37,585][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testDoesNotSubmitRerouteTaskTooFrequently] rerouting shards: [one or more nodes has gone under the high or low watermark]
+[2020-02-17T07:21:37,585][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testDoesNotSubmitRerouteTaskTooFrequently] after test
+[2020-02-17T07:21:37,587][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testAutoReleaseIndices] before test
+[2020-02-17T07:21:37,590][INFO ][o.e.c.r.a.AllocationService] [testAutoReleaseIndices] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test_1][1], [test_1][0], [test_2][1], [test_2][0]]]).
+[2020-02-17T07:21:37,592][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node2][node2][/foo/bar] free: 1b[1%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,592][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,595][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node2][node2][/foo/bar] free: 2b[2%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,595][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] releasing read-only-allow-delete block on indices: [[test_2]]
+[2020-02-17T07:21:37,595][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 1b[1%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,595][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] high disk watermark [90%] exceeded on [node1][node1][/foo/bar] free: 9b[9%], shards will be relocated away from this node
+[2020-02-17T07:21:37,595][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,595][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testAutoReleaseIndices] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,595][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testAutoReleaseIndices] after test
+[2020-02-17T07:21:37,597][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testMarkFloodStageIndicesReadOnly] before test
+[2020-02-17T07:21:37,600][INFO ][o.e.c.r.a.AllocationService] [testMarkFloodStageIndicesReadOnly] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test_1][0], [test][0], [test_2][0]]]).
+[2020-02-17T07:21:37,602][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,602][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] high disk watermark [90%] exceeded on [node2][node2][/foo/bar] free: 5b[5%], shards will be relocated away from this node
+[2020-02-17T07:21:37,602][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,602][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,604][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] high disk watermark [90%] exceeded on [node2][node2][/foo/bar] free: 5b[5%], shards will be relocated away from this node
+[2020-02-17T07:21:37,604][WARN ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] flood stage disk watermark [95%] exceeded on [node1][node1][/foo/bar] free: 4b[4%], all indices on this node will be marked read-only
+[2020-02-17T07:21:37,604][INFO ][o.e.c.r.a.DiskThresholdMonitor] [testMarkFloodStageIndicesReadOnly] rerouting shards: [high disk watermark exceeded on one or more nodes]
+[2020-02-17T07:21:37,605][INFO ][o.e.c.r.a.DiskThresholdMonitorTests] [testMarkFloodStageIndicesReadOnly] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

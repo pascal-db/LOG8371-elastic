@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.DiscoveryModuleTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:57" hostname="Escoto-PC" time="0.097">
+  <properties/>
+  <testcase name="testDefaults" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.019"/>
+  <testcase name="testSeedProviders" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.006"/>
+  <testcase name="testUnknownSeedsProvider" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.005"/>
+  <testcase name="testUnknownDiscovery" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.008"/>
+  <testcase name="testLazyConstructionSeedsProvider" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.015"/>
+  <testcase name="testLegacyAndNonLegacyProvidersRejected" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.005"/>
+  <testcase name="testLegacyHostsProvider" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.006"/>
+  <testcase name="testSettingsSeedsProvider" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.007"/>
+  <testcase name="testJoinValidator" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.006"/>
+  <testcase name="testDuplicateSeedsProvider" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.007"/>
+  <testcase name="testMultipleSeedsProviders" classname="org.elasticsearch.discovery.DiscoveryModuleTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-17T12:20:57,438][INFO ][o.e.d.DiscoveryModuleTests] [testDefaults] before test
+[2020-02-17T12:20:57,450][INFO ][o.e.d.DiscoveryModule    ] [testDefaults] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T12:20:57,450][INFO ][o.e.d.DiscoveryModuleTests] [testDefaults] after test
+[2020-02-17T12:20:57,452][INFO ][o.e.d.DiscoveryModuleTests] [testSeedProviders] before test
+[2020-02-17T12:20:57,456][INFO ][o.e.d.DiscoveryModule    ] [testSeedProviders] using discovery type [zen] and seed hosts providers [settings, custom]
+[2020-02-17T12:20:57,457][INFO ][o.e.d.DiscoveryModuleTests] [testSeedProviders] after test
+[2020-02-17T12:20:57,458][INFO ][o.e.d.DiscoveryModuleTests] [testUnknownSeedsProvider] before test
+[2020-02-17T12:20:57,462][INFO ][o.e.d.DiscoveryModuleTests] [testUnknownSeedsProvider] after test
+[2020-02-17T12:20:57,466][INFO ][o.e.d.DiscoveryModuleTests] [testUnknownDiscovery] before test
+[2020-02-17T12:20:57,470][INFO ][o.e.d.DiscoveryModuleTests] [testUnknownDiscovery] after test
+[2020-02-17T12:20:57,476][INFO ][o.e.d.DiscoveryModuleTests] [testLazyConstructionSeedsProvider] before test
+[2020-02-17T12:20:57,485][INFO ][o.e.d.DiscoveryModule    ] [testLazyConstructionSeedsProvider] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T12:20:57,486][INFO ][o.e.d.DiscoveryModuleTests] [testLazyConstructionSeedsProvider] after test
+[2020-02-17T12:20:57,488][INFO ][o.e.d.DiscoveryModuleTests] [testLegacyAndNonLegacyProvidersRejected] before test
+[2020-02-17T12:20:57,490][INFO ][o.e.d.DiscoveryModuleTests] [testLegacyAndNonLegacyProvidersRejected] after test
+[2020-02-17T12:20:57,492][INFO ][o.e.d.DiscoveryModuleTests] [testLegacyHostsProvider] before test
+[2020-02-17T12:20:57,496][WARN ][o.e.d.c.s.Settings       ] [testLegacyHostsProvider] [discovery.zen.hosts_provider] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T12:20:57,496][INFO ][o.e.d.DiscoveryModule    ] [testLegacyHostsProvider] using discovery type [zen] and seed hosts providers [settings, custom]
+[2020-02-17T12:20:57,496][INFO ][o.e.d.DiscoveryModuleTests] [testLegacyHostsProvider] after test
+[2020-02-17T12:20:57,499][INFO ][o.e.d.DiscoveryModuleTests] [testSettingsSeedsProvider] before test
+[2020-02-17T12:20:57,503][INFO ][o.e.d.DiscoveryModuleTests] [testSettingsSeedsProvider] after test
+[2020-02-17T12:20:57,505][INFO ][o.e.d.DiscoveryModuleTests] [testJoinValidator] before test
+[2020-02-17T12:20:57,510][INFO ][o.e.d.DiscoveryModule    ] [testJoinValidator] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T12:20:57,510][INFO ][o.e.d.DiscoveryModuleTests] [testJoinValidator] after test
+[2020-02-17T12:20:57,511][INFO ][o.e.d.DiscoveryModuleTests] [testDuplicateSeedsProvider] before test
+[2020-02-17T12:20:57,516][INFO ][o.e.d.DiscoveryModuleTests] [testDuplicateSeedsProvider] after test
+[2020-02-17T12:20:57,519][INFO ][o.e.d.DiscoveryModuleTests] [testMultipleSeedsProviders] before test
+[2020-02-17T12:20:57,528][INFO ][o.e.d.DiscoveryModule    ] [testMultipleSeedsProviders] using discovery type [zen] and seed hosts providers [settings, provider1, provider3]
+[2020-02-17T12:20:57,528][INFO ][o.e.d.DiscoveryModuleTests] [testMultipleSeedsProviders] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

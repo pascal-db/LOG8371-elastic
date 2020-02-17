@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.range.InternalGeoDistanceTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:23" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.range.InternalGeoDistanceTests" time="0.005"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.range.InternalGeoDistanceTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.range.InternalGeoDistanceTests" time="0.02"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.range.InternalGeoDistanceTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.range.InternalGeoDistanceTests" time="0.008"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.range.InternalGeoDistanceTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:23,925][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T18:25:23,929][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T18:25:23,931][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testReduceRandom] before test
+[2020-02-16T18:25:23,932][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testReduceRandom] after test
+[2020-02-16T18:25:23,935][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testFromXContent] before test
+[2020-02-16T18:25:23,952][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testFromXContent] after test
+[2020-02-16T18:25:23,954][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:23,961][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:25:23,966][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testSerialization] before test
+[2020-02-16T18:25:23,969][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testSerialization] after test
+[2020-02-16T18:25:23,971][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testIterators] before test
+[2020-02-16T18:25:23,971][INFO ][o.e.s.a.b.r.InternalGeoDistanceTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

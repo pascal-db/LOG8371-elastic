@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.settings.ScopedSettingsTests" tests="38" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.367">
+  <properties/>
+  <testcase name="testValidate" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.012"/>
+  <testcase name="testAddConsumer" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.009"/>
+  <testcase name="testDependentSettingsWithFallback" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.007"/>
+  <testcase name="testUpgradeListSetting" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testFallbackToLoggerLevel" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.013"/>
+  <testcase name="testInternalIndexSettingsSkipValidation" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testValidateSecureSettings" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.005"/>
+  <testcase name="testIsDynamic" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testGetSetting" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.004"/>
+  <testcase name="testUpdateTracer" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.007"/>
+  <testcase name="testNoopSettingsUpdate" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.001"/>
+  <testcase name="testAffixMapConsumerNotCalledWithNull" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.005"/>
+  <testcase name="testValidateWithSuggestion" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testTupleAffixUpdateConsumer" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.021"/>
+  <testcase name="testUpgradeComplexSetting" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testAffixGroupUpdateConsumer" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.016"/>
+  <testcase name="testAddConsumerAffixMap" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.005"/>
+  <testcase name="testLoggingUpdates" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.021"/>
+  <testcase name="testAffixKeyPattern" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.118"/>
+  <testcase name="testUpdateNumberOfShardsFail" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.008"/>
+  <testcase name="testPrivateIndexSettingsFailsValidation" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.005"/>
+  <testcase name="testOverlappingComplexMatchSettings" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testUpgradeSettingsNoChangesPreservesInstance" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.004"/>
+  <testcase name="testDiff" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.002"/>
+  <testcase name="testFinalSettingUpdateFail" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.002"/>
+  <testcase name="testResetSettingWithIPValidator" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testDiffWithAffixAndComplexMatcher" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.004"/>
+  <testcase name="testApply" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.024"/>
+  <testcase name="testDependentSettings" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.006"/>
+  <testcase name="testIsFinal" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testResetSetting" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.002"/>
+  <testcase name="testGet" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.006"/>
+  <testcase name="testInternalIndexSettingsFailsValidation" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.006"/>
+  <testcase name="testPrivateIndexSettingsSkipValidation" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testAddConsumerAffix" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.012"/>
+  <testcase name="testKeyPattern" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <testcase name="testDiffSecureSettings" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.002"/>
+  <testcase name="testUpgradeSetting" classname="org.elasticsearch.common.settings.ScopedSettingsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:20:50,080][INFO ][o.e.c.s.ScopedSettingsTests] [testValidate] before test
+[2020-02-16T23:20:50,089][INFO ][o.e.c.s.ScopedSettingsTests] [testValidate] after test
+[2020-02-16T23:20:50,091][INFO ][o.e.c.s.ScopedSettingsTests] [testAddConsumer] before test
+[2020-02-16T23:20:50,098][INFO ][o.e.c.s.ClusterSettings  ] [testAddConsumer] updating [foo.bar] from [1] to [2]
+[2020-02-16T23:20:50,098][INFO ][o.e.c.s.ScopedSettingsTests] [testAddConsumer] after test
+[2020-02-16T23:20:50,103][INFO ][o.e.c.s.ScopedSettingsTests] [testDependentSettingsWithFallback] before test
+[2020-02-16T23:20:50,105][INFO ][o.e.c.s.ScopedSettingsTests] [testDependentSettingsWithFallback] after test
+[2020-02-16T23:20:50,107][INFO ][o.e.c.s.ScopedSettingsTests] [testUpgradeListSetting] before test
+[2020-02-16T23:20:50,108][INFO ][o.e.c.s.ScopedSettingsTests] [testUpgradeListSetting] after test
+[2020-02-16T23:20:50,109][INFO ][o.e.c.s.ScopedSettingsTests] [testFallbackToLoggerLevel] before test
+[2020-02-16T23:20:50,121][INFO ][o.e.c.s.ScopedSettingsTests] [testFallbackToLoggerLevel] after test
+[2020-02-16T23:20:50,124][INFO ][o.e.c.s.ScopedSettingsTests] [testInternalIndexSettingsSkipValidation] before test
+[2020-02-16T23:20:50,124][INFO ][o.e.c.s.ScopedSettingsTests] [testInternalIndexSettingsSkipValidation] after test
+[2020-02-16T23:20:50,127][INFO ][o.e.c.s.ScopedSettingsTests] [testValidateSecureSettings] before test
+[2020-02-16T23:20:50,129][INFO ][o.e.c.s.ScopedSettingsTests] [testValidateSecureSettings] after test
+[2020-02-16T23:20:50,131][INFO ][o.e.c.s.ScopedSettingsTests] [testIsDynamic] before test
+[2020-02-16T23:20:50,132][INFO ][o.e.c.s.ScopedSettingsTests] [testIsDynamic] after test
+[2020-02-16T23:20:50,136][INFO ][o.e.c.s.ScopedSettingsTests] [testGetSetting] before test
+[2020-02-16T23:20:50,137][INFO ][o.e.c.s.ScopedSettingsTests] [testGetSetting] after test
+[2020-02-16T23:20:50,143][INFO ][o.e.c.s.ScopedSettingsTests] [testUpdateTracer] before test
+[2020-02-16T23:20:50,144][INFO ][o.e.c.s.ClusterSettings  ] [testUpdateTracer] updating [transport.tracer.include] from [[]] to [["internal:index/shard/recovery/*","internal:gateway/local*"]]
+[2020-02-16T23:20:50,144][INFO ][o.e.c.s.ScopedSettingsTests] [testUpdateTracer] after test
+[2020-02-16T23:20:50,146][INFO ][o.e.c.s.ScopedSettingsTests] [testNoopSettingsUpdate] before test
+[2020-02-16T23:20:50,146][INFO ][o.e.c.s.ScopedSettingsTests] [testNoopSettingsUpdate] after test
+[2020-02-16T23:20:50,150][INFO ][o.e.c.s.ScopedSettingsTests] [testAffixMapConsumerNotCalledWithNull] before test
+[2020-02-16T23:20:50,151][INFO ][o.e.c.s.ScopedSettingsTests] [testAffixMapConsumerNotCalledWithNull] --> consuming settings {_name=2}
+[2020-02-16T23:20:50,152][INFO ][o.e.c.s.ScopedSettingsTests] [testAffixMapConsumerNotCalledWithNull] after test
+[2020-02-16T23:20:50,154][INFO ][o.e.c.s.ScopedSettingsTests] [testValidateWithSuggestion] before test
+[2020-02-16T23:20:50,155][INFO ][o.e.c.s.ScopedSettingsTests] [testValidateWithSuggestion] after test
+[2020-02-16T23:20:50,169][INFO ][o.e.c.s.ScopedSettingsTests] [testTupleAffixUpdateConsumer] before test
+[2020-02-16T23:20:50,172][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.cLRi.UTmt] from [["1"]] to [["18","19","20"]]
+[2020-02-16T23:20:50,173][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.pWZ.UTmt] from [["1"]] to [["16","17"]]
+[2020-02-16T23:20:50,173][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.cLRi.FZr] from [1] to [7]
+[2020-02-16T23:20:50,173][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.pWZ.FZr] from [1] to [2]
+[2020-02-16T23:20:50,173][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.cLRi.UTmt] from [["18","19","20"]] to [["1"]]
+[2020-02-16T23:20:50,173][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.lQGPF.UTmt] from [["1"]] to [["5","6"]]
+[2020-02-16T23:20:50,173][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.pWZ.FZr] from [2] to [4]
+[2020-02-16T23:20:50,174][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.pWZ.UTmt] from [["16","17"]] to [[]]
+[2020-02-16T23:20:50,174][INFO ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] updating [JeMfoo.pWZ.FZr] from [4] to [2]
+[2020-02-16T23:20:50,174][WARN ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] failed to prepareCommit settings for [org.elasticsearch.common.settings.AbstractScopedSettings$1@15d19175]
+java.lang.IllegalArgumentException: boom
+	at org.elasticsearch.common.settings.ScopedSettingsTests.lambda$testTupleAffixUpdateConsumer$13(ScopedSettingsTests.java:245) ~[test/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$1.getValue(AbstractScopedSettings.java:284) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$1.getValue(AbstractScopedSettings.java:254) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) [main/:?]
+	at org.elasticsearch.common.settings.ScopedSettingsTests.lambda$testTupleAffixUpdateConsumer$14(ScopedSettingsTests.java:308) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.common.settings.ScopedSettingsTests.testTupleAffixUpdateConsumer(ScopedSettingsTests.java:307) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T23:20:50,175][WARN ][o.e.c.s.ClusterSettings  ] [testTupleAffixUpdateConsumer] failed to apply settings
+java.lang.IllegalArgumentException: boom
+	at org.elasticsearch.common.settings.ScopedSettingsTests.lambda$testTupleAffixUpdateConsumer$13(ScopedSettingsTests.java:245) ~[test/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$1.getValue(AbstractScopedSettings.java:284) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$1.getValue(AbstractScopedSettings.java:254) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) [main/:?]
+	at org.elasticsearch.common.settings.ScopedSettingsTests.lambda$testTupleAffixUpdateConsumer$14(ScopedSettingsTests.java:308) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.common.settings.ScopedSettingsTests.testTupleAffixUpdateConsumer(ScopedSettingsTests.java:307) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T23:20:50,176][INFO ][o.e.c.s.ScopedSettingsTests] [testTupleAffixUpdateConsumer] after test
+[2020-02-16T23:20:50,178][INFO ][o.e.c.s.ScopedSettingsTests] [testUpgradeComplexSetting] before test
+[2020-02-16T23:20:50,179][INFO ][o.e.c.s.ScopedSettingsTests] [testUpgradeComplexSetting] after test
+[2020-02-16T23:20:50,186][INFO ][o.e.c.s.ScopedSettingsTests] [testAffixGroupUpdateConsumer] before test
+[2020-02-16T23:20:50,188][INFO ][o.e.c.s.ClusterSettings  ] [testAffixGroupUpdateConsumer] updating [WvEfoo.Tgzh.jwb] from [1] to [7]
+[2020-02-16T23:20:50,188][INFO ][o.e.c.s.ClusterSettings  ] [testAffixGroupUpdateConsumer] updating [WvEfoo.BzR.jwb] from [1] to [2]
+[2020-02-16T23:20:50,188][INFO ][o.e.c.s.ClusterSettings  ] [testAffixGroupUpdateConsumer] updating [WvEfoo.Tgzh.ZBvF] from [["1"]] to [["18","19","20"]]
+[2020-02-16T23:20:50,188][INFO ][o.e.c.s.ClusterSettings  ] [testAffixGroupUpdateConsumer] updating [WvEfoo.BzR.ZBvF] from [["1"]] to [["16","17"]]
+[2020-02-16T23:20:50,189][INFO ][o.e.c.s.ClusterSettings  ] [testAffixGroupUpdateConsumer] updating [WvEfoo.Tgzh.ZBvF] from [["18","19","20"]] to [["1"]]
+[2020-02-16T23:20:50,194][INFO ][o.e.c.s.ClusterSettings  ] [testAffixGroupUpdateConsumer] updating [WvEfoo.EfoMn.ZBvF] from [["1"]] to [["5","6"]]
+[2020-02-16T23:20:50,194][INFO ][o.e.c.s.ClusterSettings  ] [testAffixGroupUpdateConsumer] updating [WvEfoo.BzR.jwb] from [2] to [4]
+[2020-02-16T23:20:50,195][INFO ][o.e.c.s.ScopedSettingsTests] [testAffixGroupUpdateConsumer] after test
+[2020-02-16T23:20:50,199][INFO ][o.e.c.s.ScopedSettingsTests] [testAddConsumerAffixMap] before test
+[2020-02-16T23:20:50,200][INFO ][o.e.c.s.ScopedSettingsTests] [testAddConsumerAffixMap] after test
+[2020-02-16T23:20:50,207][INFO ][o.e.c.s.ScopedSettingsTests] [testLoggingUpdates] before test
+[2020-02-16T23:20:50,222][INFO ][o.e.c.s.ScopedSettingsTests] [testLoggingUpdates] after test
+[2020-02-16T23:20:50,340][INFO ][o.e.c.s.ScopedSettingsTests] [testAffixKeyPattern] before test
+[2020-02-16T23:20:50,341][INFO ][o.e.c.s.ScopedSettingsTests] [testAffixKeyPattern] after test
+[2020-02-16T23:20:50,349][INFO ][o.e.c.s.ScopedSettingsTests] [testUpdateNumberOfShardsFail] before test
+[2020-02-16T23:20:50,349][INFO ][o.e.c.s.ScopedSettingsTests] [testUpdateNumberOfShardsFail] after test
+[2020-02-16T23:20:50,353][INFO ][o.e.c.s.ScopedSettingsTests] [testPrivateIndexSettingsFailsValidation] before test
+[2020-02-16T23:20:50,354][INFO ][o.e.c.s.ScopedSettingsTests] [testPrivateIndexSettingsFailsValidation] after test
+[2020-02-16T23:20:50,357][INFO ][o.e.c.s.ScopedSettingsTests] [testOverlappingComplexMatchSettings] before test
+[2020-02-16T23:20:50,357][INFO ][o.e.c.s.ScopedSettingsTests] [testOverlappingComplexMatchSettings] after test
+[2020-02-16T23:20:50,360][INFO ][o.e.c.s.ScopedSettingsTests] [testUpgradeSettingsNoChangesPreservesInstance] before test
+[2020-02-16T23:20:50,361][INFO ][o.e.c.s.ScopedSettingsTests] [testUpgradeSettingsNoChangesPreservesInstance] after test
+[2020-02-16T23:20:50,362][INFO ][o.e.c.s.ScopedSettingsTests] [testDiff] before test
+[2020-02-16T23:20:50,364][INFO ][o.e.c.s.ScopedSettingsTests] [testDiff] after test
+[2020-02-16T23:20:50,365][INFO ][o.e.c.s.ScopedSettingsTests] [testFinalSettingUpdateFail] before test
+[2020-02-16T23:20:50,366][INFO ][o.e.c.s.ScopedSettingsTests] [testFinalSettingUpdateFail] after test
+[2020-02-16T23:20:50,369][INFO ][o.e.c.s.ScopedSettingsTests] [testResetSettingWithIPValidator] before test
+[2020-02-16T23:20:50,369][INFO ][o.e.c.s.ScopedSettingsTests] [testResetSettingWithIPValidator] after test
+[2020-02-16T23:20:50,372][INFO ][o.e.c.s.ScopedSettingsTests] [testDiffWithAffixAndComplexMatcher] before test
+[2020-02-16T23:20:50,374][INFO ][o.e.c.s.ScopedSettingsTests] [testDiffWithAffixAndComplexMatcher] after test
+[2020-02-16T23:20:50,379][INFO ][o.e.c.s.ScopedSettingsTests] [testApply] before test
+[2020-02-16T23:20:50,381][WARN ][o.e.c.s.ClusterSettings  ] [testApply] failed to prepareCommit settings for [Updater for: {
+  "key" : "foo.bar.baz",
+  "properties" : [
+    "Dynamic",
+    "NodeScope"
+  ],
+  "is_group_setting" : false,
+  "default" : "1"
+}]
+java.lang.IllegalArgumentException: illegal value can't update [foo.bar.baz] from [1] to [-15]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1021) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) [main/:?]
+	at org.elasticsearch.common.settings.ScopedSettingsTests.testApply(ScopedSettingsTests.java:566) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:41) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:52) ~[junit-4.12.jar:4.12]
+	at org.elasticsearch.common.settings.ScopedSettingsTests.lambda$testApply$33(ScopedSettingsTests.java:552) ~[test/:?]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1015) ~[main/:?]
+	... 39 more
+[2020-02-16T23:20:50,397][WARN ][o.e.c.s.ClusterSettings  ] [testApply] failed to apply settings
+java.lang.IllegalArgumentException: illegal value can't update [foo.bar.baz] from [1] to [-15]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1021) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) [main/:?]
+	at org.elasticsearch.common.settings.ScopedSettingsTests.testApply(ScopedSettingsTests.java:566) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:41) ~[junit-4.12.jar:4.12]
+	at org.junit.Assert.assertTrue(Assert.java:52) ~[junit-4.12.jar:4.12]
+	at org.elasticsearch.common.settings.ScopedSettingsTests.lambda$testApply$33(ScopedSettingsTests.java:552) ~[test/:?]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1015) ~[main/:?]
+	... 39 more
+[2020-02-16T23:20:50,398][INFO ][o.e.c.s.ClusterSettings  ] [testApply] updating [foo.bar] from [1] to [2]
+[2020-02-16T23:20:50,398][INFO ][o.e.c.s.ClusterSettings  ] [testApply] updating [foo.bar.baz] from [1] to [15]
+[2020-02-16T23:20:50,398][INFO ][o.e.c.s.ClusterSettings  ] [testApply] updating [foo.bar] from [1] to [2]
+[2020-02-16T23:20:50,398][INFO ][o.e.c.s.ClusterSettings  ] [testApply] updating [foo.bar.baz] from [1] to [15]
+[2020-02-16T23:20:50,398][INFO ][o.e.c.s.ScopedSettingsTests] [testApply] after test
+[2020-02-16T23:20:50,403][INFO ][o.e.c.s.ScopedSettingsTests] [testDependentSettings] before test
+[2020-02-16T23:20:50,404][INFO ][o.e.c.s.ScopedSettingsTests] [testDependentSettings] after test
+[2020-02-16T23:20:50,406][INFO ][o.e.c.s.ScopedSettingsTests] [testIsFinal] before test
+[2020-02-16T23:20:50,407][INFO ][o.e.c.s.ScopedSettingsTests] [testIsFinal] after test
+[2020-02-16T23:20:50,409][INFO ][o.e.c.s.ScopedSettingsTests] [testResetSetting] before test
+[2020-02-16T23:20:50,409][INFO ][o.e.c.s.ScopedSettingsTests] [testResetSetting] after test
+[2020-02-16T23:20:50,412][INFO ][o.e.c.s.ScopedSettingsTests] [testGet] before test
+[2020-02-16T23:20:50,415][INFO ][o.e.c.s.ScopedSettingsTests] [testGet] after test
+[2020-02-16T23:20:50,421][INFO ][o.e.c.s.ScopedSettingsTests] [testInternalIndexSettingsFailsValidation] before test
+[2020-02-16T23:20:50,421][INFO ][o.e.c.s.ScopedSettingsTests] [testInternalIndexSettingsFailsValidation] after test
+[2020-02-16T23:20:50,424][INFO ][o.e.c.s.ScopedSettingsTests] [testPrivateIndexSettingsSkipValidation] before test
+[2020-02-16T23:20:50,424][INFO ][o.e.c.s.ScopedSettingsTests] [testPrivateIndexSettingsSkipValidation] after test
+[2020-02-16T23:20:50,425][INFO ][o.e.c.s.ScopedSettingsTests] [testAddConsumerAffix] before test
+[2020-02-16T23:20:50,427][INFO ][o.e.c.s.ClusterSettings  ] [testAddConsumerAffix] updating [foo.test_list_1.list] from [["1"]] to [["18","19","20"]]
+[2020-02-16T23:20:50,427][INFO ][o.e.c.s.ClusterSettings  ] [testAddConsumerAffix] updating [foo.test_list.list] from [["1"]] to [["16","17"]]
+[2020-02-16T23:20:50,427][INFO ][o.e.c.s.ClusterSettings  ] [testAddConsumerAffix] updating [foo.test_1.bar] from [1] to [7]
+[2020-02-16T23:20:50,427][INFO ][o.e.c.s.ClusterSettings  ] [testAddConsumerAffix] updating [foo.test.bar] from [1] to [2]
+[2020-02-16T23:20:50,435][INFO ][o.e.c.s.ClusterSettings  ] [testAddConsumerAffix] updating [foo.test_list_1.list] from [["18","19","20"]] to [["1"]]
+[2020-02-16T23:20:50,436][INFO ][o.e.c.s.ClusterSettings  ] [testAddConsumerAffix] updating [foo.test_1.bar] from [7] to [8]
+[2020-02-16T23:20:50,436][INFO ][o.e.c.s.ScopedSettingsTests] [testAddConsumerAffix] after test
+[2020-02-16T23:20:50,438][INFO ][o.e.c.s.ScopedSettingsTests] [testKeyPattern] before test
+[2020-02-16T23:20:50,439][INFO ][o.e.c.s.ScopedSettingsTests] [testKeyPattern] after test
+[2020-02-16T23:20:50,441][INFO ][o.e.c.s.ScopedSettingsTests] [testDiffSecureSettings] before test
+[2020-02-16T23:20:50,441][INFO ][o.e.c.s.ScopedSettingsTests] [testDiffSecureSettings] after test
+[2020-02-16T23:20:50,443][INFO ][o.e.c.s.ScopedSettingsTests] [testUpgradeSetting] before test
+[2020-02-16T23:20:50,444][INFO ][o.e.c.s.ScopedSettingsTests] [testUpgradeSetting] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

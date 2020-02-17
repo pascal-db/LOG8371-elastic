@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.http.CorsHandlerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:25" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testCorsConfigWithBadRegex" classname="org.elasticsearch.http.CorsHandlerTests" time="0.005"/>
+  <testcase name="testCorsConfig" classname="org.elasticsearch.http.CorsHandlerTests" time="0.005"/>
+  <testcase name="testCorsConfigWithDefaults" classname="org.elasticsearch.http.CorsHandlerTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T17:22:25,991][INFO ][o.e.h.CorsHandlerTests   ] [testCorsConfigWithBadRegex] before test
+[2020-02-16T17:22:25,994][INFO ][o.e.h.CorsHandlerTests   ] [testCorsConfigWithBadRegex] after test
+[2020-02-16T17:22:25,996][INFO ][o.e.h.CorsHandlerTests   ] [testCorsConfig] before test
+[2020-02-16T17:22:25,998][INFO ][o.e.h.CorsHandlerTests   ] [testCorsConfig] after test
+[2020-02-16T17:22:26,002][INFO ][o.e.h.CorsHandlerTests   ] [testCorsConfigWithDefaults] before test
+[2020-02-16T17:22:26,004][INFO ][o.e.h.CorsHandlerTests   ] [testCorsConfigWithDefaults] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

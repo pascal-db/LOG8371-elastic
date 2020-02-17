@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.PrimaryElectionRoutingTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode" classname="org.elasticsearch.cluster.routing.allocation.PrimaryElectionRoutingTests" time="0.007"/>
+  <testcase name="testRemovingInitializingReplicasIfPrimariesFails" classname="org.elasticsearch.cluster.routing.allocation.PrimaryElectionRoutingTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T17:20:39,286][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode] before test
+[2020-02-16T17:20:39,289][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode] Building initial routing table
+[2020-02-16T17:20:39,289][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode] Adding two nodes and performing rerouting
+[2020-02-16T17:20:39,290][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode] Start the primary shard (on node1)
+[2020-02-16T17:20:39,290][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode] Start the backup shard (on node2)
+[2020-02-16T17:20:39,290][INFO ][o.e.c.r.a.AllocationService] [testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:20:39,290][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode] Adding third node and reroute and kill first node
+[2020-02-16T17:20:39,291][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testBackupElectionToPrimaryWhenPrimaryCanBeAllocatedToAnotherNode] after test
+[2020-02-16T17:20:39,292][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testRemovingInitializingReplicasIfPrimariesFails] before test
+[2020-02-16T17:20:39,294][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testRemovingInitializingReplicasIfPrimariesFails] Building initial routing table
+[2020-02-16T17:20:39,294][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testRemovingInitializingReplicasIfPrimariesFails] Adding two nodes and performing rerouting
+[2020-02-16T17:20:39,294][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testRemovingInitializingReplicasIfPrimariesFails] Start the primary shards
+[2020-02-16T17:20:39,295][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testRemovingInitializingReplicasIfPrimariesFails] --> fail node with primary
+[2020-02-16T17:20:39,295][INFO ][o.e.c.r.a.PrimaryElectionRoutingTests] [testRemovingInitializingReplicasIfPrimariesFails] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

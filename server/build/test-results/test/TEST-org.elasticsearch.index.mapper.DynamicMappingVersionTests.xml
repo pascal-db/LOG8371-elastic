@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.DynamicMappingVersionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:03" hostname="Escoto-PC" time="0.816">
+  <properties/>
+  <testcase name="testDynamicMappingDefault" classname="org.elasticsearch.index.mapper.DynamicMappingVersionTests" time="0.811"/>
+  <testcase name="testDynamicMappingSettingRemoval" classname="org.elasticsearch.index.mapper.DynamicMappingVersionTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T00:23:03,076][INFO ][o.e.e.NodeEnvironment    ] [testDynamicMappingDefault] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:23:03,078][INFO ][o.e.e.NodeEnvironment    ] [testDynamicMappingDefault] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:23:03,079][INFO ][o.e.n.Node               ] [testDynamicMappingDefault] node name [node_s_0], node ID [Z6nhNbJlQD-nLYxIS6phSA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-5823015509410108792]-HASH=[1472D49F003]]
+[2020-02-17T00:23:03,080][INFO ][o.e.n.Node               ] [testDynamicMappingDefault] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T00:23:03,080][INFO ][o.e.n.Node               ] [testDynamicMappingDefault] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T00:23:03,080][INFO ][o.e.n.Node               ] [testDynamicMappingDefault] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T00:23:03,080][INFO ][o.e.p.PluginsService     ] [testDynamicMappingDefault] no modules loaded
+[2020-02-17T00:23:03,080][INFO ][o.e.p.PluginsService     ] [testDynamicMappingDefault] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-17T00:23:03,080][INFO ][o.e.p.PluginsService     ] [testDynamicMappingDefault] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T00:23:03,080][INFO ][o.e.p.PluginsService     ] [testDynamicMappingDefault] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T00:23:03,296][INFO ][o.e.d.DiscoveryModule    ] [testDynamicMappingDefault] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T00:23:03,305][INFO ][o.e.n.Node               ] [testDynamicMappingDefault] initialized
+[2020-02-17T00:23:03,305][INFO ][o.e.n.Node               ] [testDynamicMappingDefault] starting ...
+[2020-02-17T00:23:03,655][INFO ][o.e.t.TransportService   ] [testDynamicMappingDefault] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T00:23:03,663][INFO ][o.e.c.c.Coordinator      ] [testDynamicMappingDefault] setting initial configuration to VotingConfiguration{Z6nhNbJlQD-nLYxIS6phSA}
+[2020-02-17T00:23:03,722][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{Z6nhNbJlQD-nLYxIS6phSA}{z56Nlt4QQ42dtLBzddAcvw}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{Z6nhNbJlQD-nLYxIS6phSA}{z56Nlt4QQ42dtLBzddAcvw}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T00:23:03,733][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [d9KX6ZuQSMu95HkqtavQTA]
+[2020-02-17T00:23:03,744][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{Z6nhNbJlQD-nLYxIS6phSA}{z56Nlt4QQ42dtLBzddAcvw}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T00:23:03,745][INFO ][o.e.n.Node               ] [testDynamicMappingDefault] started
+[2020-02-17T00:23:03,758][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T00:23:03,760][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T00:23:03,770][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T00:23:03,785][INFO ][o.e.i.m.DynamicMappingVersionTests] [testDynamicMappingDefault] before test
+[2020-02-17T00:23:03,786][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [my-index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T00:23:03,847][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[my-index][0]]]).
+[2020-02-17T00:23:03,856][INFO ][o.e.i.m.DynamicMappingVersionTests] [testDynamicMappingDefault] after test
+[2020-02-17T00:23:03,856][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [my-index/y1QNBUDBRe2skKV8gViYWg] deleting index
+[2020-02-17T00:23:03,879][INFO ][o.e.i.m.DynamicMappingVersionTests] [testDynamicMappingSettingRemoval] before test
+[2020-02-17T00:23:03,880][WARN ][o.e.d.c.s.Settings       ] [testDynamicMappingSettingRemoval] [index.mapper.dynamic] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T00:23:03,882][INFO ][o.e.i.m.DynamicMappingVersionTests] [testDynamicMappingSettingRemoval] after test
+[2020-02-17T00:23:03,883][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T00:23:03,884][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T00:23:03,884][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T00:23:03,884][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

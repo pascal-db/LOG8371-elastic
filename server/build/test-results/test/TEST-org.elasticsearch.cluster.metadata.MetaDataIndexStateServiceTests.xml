@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:34" hostname="Escoto-PC" time="0.114">
+  <properties/>
+  <testcase name="testIsIndexVerifiedBeforeClosed" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.01"/>
+  <testcase name="testCloseRoutingTable" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.017"/>
+  <testcase name="testCloseRoutingTableWithSnapshottedIndex" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.006"/>
+  <testcase name="testValidateShardLimit" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.04"/>
+  <testcase name="testAddIndexClosedBlocks" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.015"/>
+  <testcase name="testCloseFailedIfBlockDisappeared" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.007"/>
+  <testcase name="testCloseRoutingTableRemovesRoutingTable" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.003"/>
+  <testcase name="testAddIndexClosedBlocksReusesBlocks" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.007"/>
+  <testcase name="testCloseRoutingTableWithRestoredIndex" classname="org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T19:20:34,733][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testIsIndexVerifiedBeforeClosed] before test
+[2020-02-16T19:20:34,735][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testIsIndexVerifiedBeforeClosed] after test
+[2020-02-16T19:20:34,749][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTable] before test
+[2020-02-16T19:20:34,752][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseRoutingTable] completed closing of indices [index-1, index-4]
+[2020-02-16T19:20:34,753][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTable] after test
+[2020-02-16T19:20:34,757][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableWithSnapshottedIndex] before test
+[2020-02-16T19:20:34,759][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseRoutingTableWithSnapshottedIndex] completed closing of indices []
+[2020-02-16T19:20:34,759][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableWithSnapshottedIndex] after test
+[2020-02-16T19:20:34,761][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testValidateShardLimit] before test
+[2020-02-16T19:20:34,798][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testValidateShardLimit] after test
+[2020-02-16T19:20:34,809][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testAddIndexClosedBlocks] before test
+[2020-02-16T19:20:34,811][INFO ][o.e.c.m.MetaDataIndexStateService] [testAddIndexClosedBlocks] closing indices [opened]
+[2020-02-16T19:20:34,814][INFO ][o.e.c.m.MetaDataIndexStateService] [testAddIndexClosedBlocks] closing indices [index-3],[index-2],[index-1]
+[2020-02-16T19:20:34,814][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testAddIndexClosedBlocks] after test
+[2020-02-16T19:20:34,819][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseFailedIfBlockDisappeared] before test
+[2020-02-16T19:20:34,819][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-1],[test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-1],[test-2],[test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-1],[test-2],[test-3],[test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-1],[test-2],[test-3],[test-4],[test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] completed closing of indices [test-2, test-4]
+[2020-02-16T19:20:34,821][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseFailedIfBlockDisappeared] after test
+[2020-02-16T19:20:34,823][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableRemovesRoutingTable] before test
+[2020-02-16T19:20:34,824][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseRoutingTableRemovesRoutingTable] completed closing of indices []
+[2020-02-16T19:20:34,824][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableRemovesRoutingTable] after test
+[2020-02-16T19:20:34,830][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testAddIndexClosedBlocksReusesBlocks] before test
+[2020-02-16T19:20:34,830][INFO ][o.e.c.m.MetaDataIndexStateService] [testAddIndexClosedBlocksReusesBlocks] closing indices [test]
+[2020-02-16T19:20:34,831][INFO ][o.e.c.m.MetaDataIndexStateService] [testAddIndexClosedBlocksReusesBlocks] closing indices [test]
+[2020-02-16T19:20:34,831][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testAddIndexClosedBlocksReusesBlocks] after test
+[2020-02-16T19:20:34,839][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableWithRestoredIndex] before test
+[2020-02-16T19:20:34,840][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseRoutingTableWithRestoredIndex] completed closing of indices []
+[2020-02-16T19:20:34,840][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableWithRestoredIndex] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

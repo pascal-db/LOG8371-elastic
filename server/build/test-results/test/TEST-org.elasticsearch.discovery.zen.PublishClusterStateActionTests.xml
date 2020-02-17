@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:59" hostname="Escoto-PC" time="11.601">
+  <properties/>
+  <testcase name="testSerializationFailureDuringDiffPublishing" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="0.849"/>
+  <testcase name="testTimeoutOrCommit" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="0.798"/>
+  <testcase name="testOutOfOrderCommitMessages" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="0.35"/>
+  <testcase name="testSimpleClusterStatePublishing" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="1.12"/>
+  <testcase name="testUnexpectedDiffPublishing" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="0.627"/>
+  <testcase name="testPublishClusterStateStats" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="0.612"/>
+  <testcase name="testFailToPublishWithLessThanMinMasterNodes" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="3.146"/>
+  <testcase name="testDisablingDiffPublishing" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="0.584"/>
+  <testcase name="testPublishingWithSendingErrors" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="2.95"/>
+  <testcase name="testSimultaneousClusterStatePublishing" classname="org.elasticsearch.discovery.zen.PublishClusterStateActionTests" time="0.565"/>
+  <system-out><![CDATA[[2020-02-16T16:20:59,026][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSerializationFailureDuringDiffPublishing] before test
+[2020-02-16T16:20:59,364][INFO ][o.e.t.TransportService   ] [testSerializationFailureDuringDiffPublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:20:59,836][INFO ][o.e.t.TransportService   ] [testSerializationFailureDuringDiffPublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:20:59,872][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSerializationFailureDuringDiffPublishing] after test
+[2020-02-16T16:20:59,877][INFO ][o.e.d.z.PublishClusterStateActionTests] [testTimeoutOrCommit] before test
+[2020-02-16T16:21:00,339][INFO ][o.e.t.TransportService   ] [testTimeoutOrCommit] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:00,340][WARN ][o.e.d.c.s.Settings       ] [testTimeoutOrCommit] [discovery.zen.commit_timeout] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T16:21:00,647][INFO ][o.e.t.TransportService   ] [testTimeoutOrCommit] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:00,671][INFO ][o.e.d.z.PublishClusterStateActionTests] [testTimeoutOrCommit] after test
+[2020-02-16T16:21:00,672][INFO ][o.e.d.z.PublishClusterStateActionTests] [testOutOfOrderCommitMessages] before test
+[2020-02-16T16:21:01,014][INFO ][o.e.t.TransportService   ] [testOutOfOrderCommitMessages] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:01,015][INFO ][o.e.d.z.PublishClusterStateActionTests] [testOutOfOrderCommitMessages] --> publishing states
+[2020-02-16T16:21:01,016][INFO ][o.e.d.z.PublishClusterStateActionTests] [testOutOfOrderCommitMessages] --> committing states
+[2020-02-16T16:21:01,020][INFO ][o.e.d.z.PublishClusterStateActionTests] [testOutOfOrderCommitMessages] after test
+[2020-02-16T16:21:01,022][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSimpleClusterStatePublishing] before test
+[2020-02-16T16:21:01,346][INFO ][o.e.t.TransportService   ] [testSimpleClusterStatePublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:01,777][INFO ][o.e.t.TransportService   ] [testSimpleClusterStatePublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:02,114][INFO ][o.e.t.TransportService   ] [testSimpleClusterStatePublishing] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T16:21:02,141][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSimpleClusterStatePublishing] after test
+[2020-02-16T16:21:02,142][INFO ][o.e.d.z.PublishClusterStateActionTests] [testUnexpectedDiffPublishing] before test
+[2020-02-16T16:21:02,467][INFO ][o.e.t.TransportService   ] [testUnexpectedDiffPublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:02,756][INFO ][o.e.t.TransportService   ] [testUnexpectedDiffPublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:02,767][INFO ][o.e.d.z.PublishClusterStateActionTests] [testUnexpectedDiffPublishing] after test
+[2020-02-16T16:21:02,769][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishClusterStateStats] before test
+[2020-02-16T16:21:03,050][INFO ][o.e.t.TransportService   ] [testPublishClusterStateStats] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:03,366][INFO ][o.e.t.TransportService   ] [testPublishClusterStateStats] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:03,379][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishClusterStateStats] after test
+[2020-02-16T16:21:03,381][INFO ][o.e.d.z.PublishClusterStateActionTests] [testFailToPublishWithLessThanMinMasterNodes] before test
+[2020-02-16T16:21:03,667][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:03,953][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:04,249][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T16:21:04,560][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11603}, bound_addresses {127.0.0.1:11603}, {[::1]:11603}
+[2020-02-16T16:21:04,883][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11604}, bound_addresses {127.0.0.1:11604}, {[::1]:11604}
+[2020-02-16T16:21:05,213][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11605}, bound_addresses {127.0.0.1:11605}, {[::1]:11605}
+[2020-02-16T16:21:05,521][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11606}, bound_addresses {127.0.0.1:11606}, {[::1]:11606}
+[2020-02-16T16:21:05,830][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11607}, bound_addresses {127.0.0.1:11607}, {[::1]:11607}
+[2020-02-16T16:21:06,144][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11608}, bound_addresses {127.0.0.1:11608}, {[::1]:11608}
+[2020-02-16T16:21:06,462][INFO ][o.e.t.TransportService   ] [testFailToPublishWithLessThanMinMasterNodes] publish_address {127.0.0.1:11609}, bound_addresses {127.0.0.1:11609}, {[::1]:11609}
+[2020-02-16T16:21:06,525][INFO ][o.e.d.z.PublishClusterStateActionTests] [testFailToPublishWithLessThanMinMasterNodes] after test
+[2020-02-16T16:21:06,527][INFO ][o.e.d.z.PublishClusterStateActionTests] [testDisablingDiffPublishing] before test
+[2020-02-16T16:21:06,813][INFO ][o.e.t.TransportService   ] [testDisablingDiffPublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:06,815][WARN ][o.e.d.c.s.Settings       ] [testDisablingDiffPublishing] [discovery.zen.publish_diff.enable] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T16:21:07,100][INFO ][o.e.t.TransportService   ] [testDisablingDiffPublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:07,110][INFO ][o.e.d.z.PublishClusterStateActionTests] [testDisablingDiffPublishing] after test
+[2020-02-16T16:21:07,111][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishingWithSendingErrors] before test
+[2020-02-16T16:21:07,395][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:07,397][WARN ][o.e.d.c.s.Settings       ] [testPublishingWithSendingErrors] [discovery.zen.publish_timeout] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T16:21:07,677][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:07,942][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11602}, bound_addresses {127.0.0.1:11602}, {[::1]:11602}
+[2020-02-16T16:21:08,220][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11603}, bound_addresses {127.0.0.1:11603}, {[::1]:11603}
+[2020-02-16T16:21:08,504][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11604}, bound_addresses {127.0.0.1:11604}, {[::1]:11604}
+[2020-02-16T16:21:08,776][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11605}, bound_addresses {127.0.0.1:11605}, {[::1]:11605}
+[2020-02-16T16:21:09,060][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11606}, bound_addresses {127.0.0.1:11606}, {[::1]:11606}
+[2020-02-16T16:21:09,410][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11607}, bound_addresses {127.0.0.1:11607}, {[::1]:11607}
+[2020-02-16T16:21:09,723][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11608}, bound_addresses {127.0.0.1:11608}, {[::1]:11608}
+[2020-02-16T16:21:10,010][INFO ][o.e.t.TransportService   ] [testPublishingWithSendingErrors] publish_address {127.0.0.1:11609}, bound_addresses {127.0.0.1:11609}, {[::1]:11609}
+[2020-02-16T16:21:10,034][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishingWithSendingErrors] --> expecting commit to fail. good nodes [6], errors [3], timeouts [0]. min_master_nodes [9]
+[2020-02-16T16:21:10,059][INFO ][o.e.d.z.PublishClusterStateActionTests] [testPublishingWithSendingErrors] after test
+[2020-02-16T16:21:10,060][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSimultaneousClusterStatePublishing] before test
+[2020-02-16T16:21:10,328][INFO ][o.e.t.TransportService   ] [testSimultaneousClusterStatePublishing] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T16:21:10,593][INFO ][o.e.t.TransportService   ] [testSimultaneousClusterStatePublishing] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T16:21:10,625][INFO ][o.e.d.z.PublishClusterStateActionTests] [testSimultaneousClusterStatePublishing] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

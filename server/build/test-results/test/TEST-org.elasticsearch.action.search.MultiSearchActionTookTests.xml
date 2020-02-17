@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.MultiSearchActionTookTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.046">
+  <properties/>
+  <testcase name="testTookWithControlledClock" classname="org.elasticsearch.action.search.MultiSearchActionTookTests" time="0.02"/>
+  <testcase name="testTookWithRealClock" classname="org.elasticsearch.action.search.MultiSearchActionTookTests" time="0.026"/>
+  <system-out><![CDATA[[2020-02-17T03:20:38,293][INFO ][o.e.a.s.MultiSearchActionTookTests] [testTookWithControlledClock] before test
+[2020-02-17T03:20:38,309][INFO ][o.e.a.s.MultiSearchActionTookTests] [testTookWithControlledClock] after test
+[2020-02-17T03:20:38,311][INFO ][o.e.a.s.MultiSearchActionTookTests] [testTookWithRealClock] before test
+[2020-02-17T03:20:38,335][INFO ][o.e.a.s.MultiSearchActionTookTests] [testTookWithRealClock] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

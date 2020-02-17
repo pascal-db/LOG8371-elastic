@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.OperationRoutingTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:40" hostname="Escoto-PC" time="0.087">
+  <properties/>
+  <testcase name="testPartitionedIndex" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.032"/>
+  <testcase name="testPreferNodes" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.019"/>
+  <testcase name="testFairSessionIdPreferences" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.003"/>
+  <testcase name="testPartitionedIndexBWC" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.002"/>
+  <testcase name="testThatOnlyNodesSupportNodeIds" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.007"/>
+  <testcase name="testGenerateShardId" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.003"/>
+  <testcase name="testBWC" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.008"/>
+  <testcase name="testAdaptiveReplicaSelection" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.007"/>
+  <testcase name="testGenerateShardIdSplit" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.002"/>
+  <testcase name="testPartitionedIndexShrunk" classname="org.elasticsearch.cluster.routing.OperationRoutingTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:20:40,572][INFO ][o.e.c.r.OperationRoutingTests] [testPartitionedIndex] before test
+[2020-02-16T19:20:40,602][INFO ][o.e.c.r.OperationRoutingTests] [testPartitionedIndex] after test
+[2020-02-16T19:20:40,606][INFO ][o.e.c.r.OperationRoutingTests] [testPreferNodes] before test
+[2020-02-16T19:20:40,610][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{la5_wO-3TcOFWI9Mnmb0yA}{0.0.0.0}{0.0.0.0:1}{dim}], current [{node_1}{od_WWJTaRWWrf36rjKFO4Q}{0.0.0.0}{0.0.0.0:3}{dim}]}, removed {{node}{la5_wO-3TcOFWI9Mnmb0yA}{0.0.0.0}{0.0.0.0:1}{dim}}, added {{node_3}{b0XoOtWwRPuDqnqnf8tGgA}{0.0.0.0}{0.0.0.0:5}{dim},{node_1}{od_WWJTaRWWrf36rjKFO4Q}{0.0.0.0}{0.0.0.0:3}{dim},{node_2}{VeyBHqYlTrq_vemnbqeq3w}{0.0.0.0}{0.0.0.0:4}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T19:20:40,620][INFO ][o.e.c.r.OperationRoutingTests] [testPreferNodes] after test
+[2020-02-16T19:20:40,623][INFO ][o.e.c.r.OperationRoutingTests] [testFairSessionIdPreferences] before test
+[2020-02-16T19:20:40,624][INFO ][o.e.c.r.OperationRoutingTests] [testFairSessionIdPreferences] after test
+[2020-02-16T19:20:40,626][INFO ][o.e.c.r.OperationRoutingTests] [testPartitionedIndexBWC] before test
+[2020-02-16T19:20:40,626][INFO ][o.e.c.r.OperationRoutingTests] [testPartitionedIndexBWC] after test
+[2020-02-16T19:20:40,628][INFO ][o.e.c.r.OperationRoutingTests] [testThatOnlyNodesSupportNodeIds] before test
+[2020-02-16T19:20:40,631][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{bMvyMNHARECTxvAJxotnag}{0.0.0.0}{0.0.0.0:20}{dim}], current [{node_1}{PJ-TbDLZRLey9GOsvhUXgQ}{0.0.0.0}{0.0.0.0:22}{dim}]}, removed {{node}{bMvyMNHARECTxvAJxotnag}{0.0.0.0}{0.0.0.0:20}{dim}}, added {{node_3}{wgWBS6mXTICoL-jLAsvC3g}{0.0.0.0}{0.0.0.0:24}{dim},{node_4}{Lj8p7_aBSfOLITddlwU0Ww}{0.0.0.0}{0.0.0.0:25}{dim},{node_1}{PJ-TbDLZRLey9GOsvhUXgQ}{0.0.0.0}{0.0.0.0:22}{dim},{node_2}{6GUBiNywTkmjSo67AlyuPw}{0.0.0.0}{0.0.0.0:23}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T19:20:40,633][INFO ][o.e.c.r.OperationRoutingTests] [testThatOnlyNodesSupportNodeIds] after test
+[2020-02-16T19:20:40,636][INFO ][o.e.c.r.OperationRoutingTests] [testGenerateShardId] before test
+[2020-02-16T19:20:40,637][INFO ][o.e.c.r.OperationRoutingTests] [testGenerateShardId] after test
+[2020-02-16T19:20:40,644][INFO ][o.e.c.r.OperationRoutingTests] [testBWC] before test
+[2020-02-16T19:20:40,644][INFO ][o.e.c.r.OperationRoutingTests] [testBWC] after test
+[2020-02-16T19:20:40,647][INFO ][o.e.c.r.OperationRoutingTests] [testAdaptiveReplicaSelection] before test
+[2020-02-16T19:20:40,652][INFO ][o.e.c.r.OperationRoutingTests] [testAdaptiveReplicaSelection] after test
+[2020-02-16T19:20:40,654][INFO ][o.e.c.r.OperationRoutingTests] [testGenerateShardIdSplit] before test
+[2020-02-16T19:20:40,655][INFO ][o.e.c.r.OperationRoutingTests] [testGenerateShardIdSplit] after test
+[2020-02-16T19:20:40,656][INFO ][o.e.c.r.OperationRoutingTests] [testPartitionedIndexShrunk] before test
+[2020-02-16T19:20:40,656][INFO ][o.e.c.r.OperationRoutingTests] [testPartitionedIndexShrunk] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

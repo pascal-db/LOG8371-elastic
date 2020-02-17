@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.rollover.ConditionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:06" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testMaxSize" classname="org.elasticsearch.action.admin.indices.rollover.ConditionTests" time="0.008"/>
+  <testcase name="testEqualsAndHashCode" classname="org.elasticsearch.action.admin.indices.rollover.ConditionTests" time="0.003"/>
+  <testcase name="testMaxAge" classname="org.elasticsearch.action.admin.indices.rollover.ConditionTests" time="0.002"/>
+  <testcase name="testMaxDocs" classname="org.elasticsearch.action.admin.indices.rollover.ConditionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:20:06,138][INFO ][o.e.a.a.i.r.ConditionTests] [testMaxSize] before test
+[2020-02-17T00:20:06,140][INFO ][o.e.a.a.i.r.ConditionTests] [testMaxSize] after test
+[2020-02-17T00:20:06,142][INFO ][o.e.a.a.i.r.ConditionTests] [testEqualsAndHashCode] before test
+[2020-02-17T00:20:06,143][INFO ][o.e.a.a.i.r.ConditionTests] [testEqualsAndHashCode] after test
+[2020-02-17T00:20:06,146][INFO ][o.e.a.a.i.r.ConditionTests] [testMaxAge] before test
+[2020-02-17T00:20:06,146][INFO ][o.e.a.a.i.r.ConditionTests] [testMaxAge] after test
+[2020-02-17T00:20:06,148][INFO ][o.e.a.a.i.r.ConditionTests] [testMaxDocs] before test
+[2020-02-17T00:20:06,148][INFO ][o.e.a.a.i.r.ConditionTests] [testMaxDocs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

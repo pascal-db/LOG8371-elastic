@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.mapper.RootObjectMapperTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.mapper.RootObjectMapperTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.mapper.html">org.elasticsearch.index.mapper</a> &gt; RootObjectMapperTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.084s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDateDetection</td>
+<td class="success">0.090s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDateFormatters</td>
+<td class="success">0.725s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDynamicTemplates</td>
+<td class="success">0.103s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIllegalFormatField</td>
+<td class="success">0.078s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNumericDetection</td>
+<td class="success">0.088s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:22:57,476][INFO ][o.e.e.NodeEnvironment    ] [testDateFormatters] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T22:22:57,476][INFO ][o.e.e.NodeEnvironment    ] [testDateFormatters] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T22:22:57,478][INFO ][o.e.n.Node               ] [testDateFormatters] node name [node_s_0], node ID [0lxcAmjqQA6nzVpkqCaYlw], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[1269086148955826107]-HASH=[145DF7F1C9E]]
+[2020-02-16T22:22:57,478][INFO ][o.e.n.Node               ] [testDateFormatters] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T22:22:57,478][INFO ][o.e.n.Node               ] [testDateFormatters] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T22:22:57,478][INFO ][o.e.n.Node               ] [testDateFormatters] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T22:22:57,479][INFO ][o.e.p.PluginsService     ] [testDateFormatters] no modules loaded
+[2020-02-16T22:22:57,479][INFO ][o.e.p.PluginsService     ] [testDateFormatters] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T22:22:57,479][INFO ][o.e.p.PluginsService     ] [testDateFormatters] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T22:22:57,700][INFO ][o.e.d.DiscoveryModule    ] [testDateFormatters] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T22:22:57,707][INFO ][o.e.n.Node               ] [testDateFormatters] initialized
+[2020-02-16T22:22:57,707][INFO ][o.e.n.Node               ] [testDateFormatters] starting ...
+[2020-02-16T22:22:57,998][INFO ][o.e.t.TransportService   ] [testDateFormatters] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T22:22:58,005][INFO ][o.e.c.c.Coordinator      ] [testDateFormatters] setting initial configuration to VotingConfiguration{0lxcAmjqQA6nzVpkqCaYlw}
+[2020-02-16T22:22:58,078][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{0lxcAmjqQA6nzVpkqCaYlw}{wC8l2GTUTS2BJE78fvVjnQ}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{0lxcAmjqQA6nzVpkqCaYlw}{wC8l2GTUTS2BJE78fvVjnQ}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-16T22:22:58,085][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [3rw9aYFYTVuS4sMkhDl8pw]
+[2020-02-16T22:22:58,091][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{0lxcAmjqQA6nzVpkqCaYlw}{wC8l2GTUTS2BJE78fvVjnQ}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T22:22:58,091][INFO ][o.e.n.Node               ] [testDateFormatters] started
+[2020-02-16T22:22:58,096][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T22:22:58,097][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T22:22:58,105][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T22:22:58,113][INFO ][o.e.i.m.RootObjectMapperTests] [testDateFormatters] before test
+[2020-02-16T22:22:58,114][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T22:22:58,161][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T22:22:58,171][INFO ][o.e.i.m.RootObjectMapperTests] [testDateFormatters] after test
+[2020-02-16T22:22:58,171][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/5w3DftsXSGqrw1hmFavraA] deleting index
+[2020-02-16T22:22:58,193][INFO ][o.e.i.m.RootObjectMapperTests] [testIllegalFormatField] before test
+[2020-02-16T22:22:58,194][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T22:22:58,243][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T22:22:58,251][INFO ][o.e.i.m.RootObjectMapperTests] [testIllegalFormatField] after test
+[2020-02-16T22:22:58,251][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/51oom6nuSKCGVE37jp7g4A] deleting index
+[2020-02-16T22:22:58,271][INFO ][o.e.i.m.RootObjectMapperTests] [testNumericDetection] before test
+[2020-02-16T22:22:58,273][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T22:22:58,327][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T22:22:58,336][INFO ][o.e.i.m.RootObjectMapperTests] [testNumericDetection] after test
+[2020-02-16T22:22:58,337][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/OYhUd6VRSCiN2wrDjghZHQ] deleting index
+[2020-02-16T22:22:58,359][INFO ][o.e.i.m.RootObjectMapperTests] [testDateDetection] before test
+[2020-02-16T22:22:58,361][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T22:22:58,410][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T22:22:58,421][INFO ][o.e.i.m.RootObjectMapperTests] [testDateDetection] after test
+[2020-02-16T22:22:58,421][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/qHUIy9OVR1KhL4-nYn9Mtg] deleting index
+[2020-02-16T22:22:58,460][INFO ][o.e.i.m.RootObjectMapperTests] [testDynamicTemplates] before test
+[2020-02-16T22:22:58,473][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-16T22:22:58,520][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T22:22:58,531][INFO ][o.e.i.m.RootObjectMapperTests] [testDynamicTemplates] after test
+[2020-02-16T22:22:58,532][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/dfYNCjW4T6mlrBsys-vbNg] deleting index
+[2020-02-16T22:22:58,552][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T22:22:58,557][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T22:22:58,557][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T22:22:58,558][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

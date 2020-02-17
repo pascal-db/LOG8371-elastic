@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.engine.RecoverySourcePruneMergePolicyTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:35" hostname="Escoto-PC" time="0.1">
+  <properties/>
+  <testcase name="testPruneNone" classname="org.elasticsearch.index.engine.RecoverySourcePruneMergePolicyTests" time="0.039"/>
+  <testcase name="testPruneAll" classname="org.elasticsearch.index.engine.RecoverySourcePruneMergePolicyTests" time="0.029"/>
+  <testcase name="testPruneSome" classname="org.elasticsearch.index.engine.RecoverySourcePruneMergePolicyTests" time="0.032"/>
+  <system-out><![CDATA[[2020-02-16T19:22:35,365][INFO ][o.e.i.e.RecoverySourcePruneMergePolicyTests] [testPruneNone] before test
+[2020-02-16T19:22:35,401][INFO ][o.e.i.e.RecoverySourcePruneMergePolicyTests] [testPruneNone] after test
+[2020-02-16T19:22:35,403][INFO ][o.e.i.e.RecoverySourcePruneMergePolicyTests] [testPruneAll] before test
+[2020-02-16T19:22:35,430][INFO ][o.e.i.e.RecoverySourcePruneMergePolicyTests] [testPruneAll] after test
+[2020-02-16T19:22:35,433][INFO ][o.e.i.e.RecoverySourcePruneMergePolicyTests] [testPruneSome] before test
+[2020-02-16T19:22:35,462][INFO ][o.e.i.e.RecoverySourcePruneMergePolicyTests] [testPruneSome] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

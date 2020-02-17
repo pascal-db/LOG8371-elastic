@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.SourceFieldTypeTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:58" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.SourceFieldTypeTests" time="0.003"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.SourceFieldTypeTests" time="0.006"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.SourceFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.SourceFieldTypeTests" time="0.003"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.SourceFieldTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T13:22:58,626][INFO ][o.e.i.m.SourceFieldTypeTests] [testCheckTypeName] before test
+[2020-02-16T13:22:58,627][INFO ][o.e.i.m.SourceFieldTypeTests] [testCheckTypeName] after test
+[2020-02-16T13:22:58,632][INFO ][o.e.i.m.SourceFieldTypeTests] [testEquals] before test
+[2020-02-16T13:22:58,632][INFO ][o.e.i.m.SourceFieldTypeTests] [testEquals] after test
+[2020-02-16T13:22:58,635][INFO ][o.e.i.m.SourceFieldTypeTests] [testFreeze] before test
+[2020-02-16T13:22:58,635][INFO ][o.e.i.m.SourceFieldTypeTests] [testFreeze] after test
+[2020-02-16T13:22:58,637][INFO ][o.e.i.m.SourceFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-16T13:22:58,638][INFO ][o.e.i.m.SourceFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-16T13:22:58,640][INFO ][o.e.i.m.SourceFieldTypeTests] [testClone] before test
+[2020-02-16T13:22:58,640][INFO ][o.e.i.m.SourceFieldTypeTests] [testClone] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

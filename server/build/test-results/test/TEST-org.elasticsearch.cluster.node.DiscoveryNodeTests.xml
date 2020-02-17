@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.node.DiscoveryNodeTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testDiscoveryNodeIsCreatedWithHostFromInetAddress" classname="org.elasticsearch.cluster.node.DiscoveryNodeTests" time="0.003"/>
+  <testcase name="testDiscoveryNodeSerializationKeepsHost" classname="org.elasticsearch.cluster.node.DiscoveryNodeTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T11:20:37,126][INFO ][o.e.c.n.DiscoveryNodeTests] [testDiscoveryNodeIsCreatedWithHostFromInetAddress] before test
+[2020-02-17T11:20:37,128][INFO ][o.e.c.n.DiscoveryNodeTests] [testDiscoveryNodeIsCreatedWithHostFromInetAddress] after test
+[2020-02-17T11:20:37,133][INFO ][o.e.c.n.DiscoveryNodeTests] [testDiscoveryNodeSerializationKeepsHost] before test
+[2020-02-17T11:20:37,133][INFO ][o.e.c.n.DiscoveryNodeTests] [testDiscoveryNodeSerializationKeepsHost] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

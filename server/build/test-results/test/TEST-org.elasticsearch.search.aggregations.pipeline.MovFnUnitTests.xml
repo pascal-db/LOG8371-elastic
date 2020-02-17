@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.MovFnUnitTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:34" hostname="Escoto-PC" time="0.153">
+  <properties/>
+  <testcase name="testShift" classname="org.elasticsearch.search.aggregations.pipeline.MovFnUnitTests" time="0.084"/>
+  <testcase name="testValidateException" classname="org.elasticsearch.search.aggregations.pipeline.MovFnUnitTests" time="0.004"/>
+  <testcase name="testWideWindow" classname="org.elasticsearch.search.aggregations.pipeline.MovFnUnitTests" time="0.032"/>
+  <testcase name="testMatchAllDocs" classname="org.elasticsearch.search.aggregations.pipeline.MovFnUnitTests" time="0.031"/>
+  <testcase name="testValidate" classname="org.elasticsearch.search.aggregations.pipeline.MovFnUnitTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:25:34,782][INFO ][o.e.s.a.p.MovFnUnitTests ] [testShift] before test
+[2020-02-16T19:25:34,864][INFO ][o.e.s.a.p.MovFnUnitTests ] [testShift] after test
+[2020-02-16T19:25:34,868][INFO ][o.e.s.a.p.MovFnUnitTests ] [testValidateException] before test
+[2020-02-16T19:25:34,868][INFO ][o.e.s.a.p.MovFnUnitTests ] [testValidateException] after test
+[2020-02-16T19:25:34,870][INFO ][o.e.s.a.p.MovFnUnitTests ] [testWideWindow] before test
+[2020-02-16T19:25:34,900][INFO ][o.e.s.a.p.MovFnUnitTests ] [testWideWindow] after test
+[2020-02-16T19:25:34,902][INFO ][o.e.s.a.p.MovFnUnitTests ] [testMatchAllDocs] before test
+[2020-02-16T19:25:34,931][INFO ][o.e.s.a.p.MovFnUnitTests ] [testMatchAllDocs] after test
+[2020-02-16T19:25:34,933][INFO ][o.e.s.a.p.MovFnUnitTests ] [testValidate] before test
+[2020-02-16T19:25:34,933][INFO ][o.e.s.a.p.MovFnUnitTests ] [testValidate] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

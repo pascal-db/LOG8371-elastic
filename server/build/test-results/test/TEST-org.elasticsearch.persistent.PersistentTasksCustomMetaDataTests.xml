@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:01" hostname="Escoto-PC" time="0.075">
+  <properties/>
+  <testcase name="testDiffableSerialization" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.01"/>
+  <testcase name="testDisassociateDeadNodes_givenNoPersistentTasks" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.002"/>
+  <testcase name="testSerializationContext" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.003"/>
+  <testcase name="testMinVersionSerialization" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.008"/>
+  <testcase name="testBuilder" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.004"/>
+  <testcase name="testDisassociateDeadNodes" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.002"/>
+  <testcase name="testFeatureSerialization" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.022"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.013"/>
+  <testcase name="testDisassociateDeadNodes_givenAssignedPersistentTask" classname="org.elasticsearch.persistent.PersistentTasksCustomMetaDataTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:24:01,565][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testDiffableSerialization] before test
+[2020-02-16T23:24:01,573][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testDiffableSerialization] after test
+[2020-02-16T23:24:01,575][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testDisassociateDeadNodes_givenNoPersistentTasks] before test
+[2020-02-16T23:24:01,576][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testDisassociateDeadNodes_givenNoPersistentTasks] after test
+[2020-02-16T23:24:01,577][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testSerializationContext] before test
+[2020-02-16T23:24:01,579][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testSerializationContext] after test
+[2020-02-16T23:24:01,581][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testMinVersionSerialization] before test
+[2020-02-16T23:24:01,582][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testMinVersionSerialization] after test
+[2020-02-16T23:24:01,584][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testSerialization] before test
+[2020-02-16T23:24:01,591][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testSerialization] after test
+[2020-02-16T23:24:01,594][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testBuilder] before test
+[2020-02-16T23:24:01,596][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testBuilder] after test
+[2020-02-16T23:24:01,598][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testDisassociateDeadNodes] before test
+[2020-02-16T23:24:01,598][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testDisassociateDeadNodes] after test
+[2020-02-16T23:24:01,600][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testFeatureSerialization] before test
+[2020-02-16T23:24:01,601][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testFeatureSerialization] after test
+[2020-02-16T23:24:01,602][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:24:01,622][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:24:01,625][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testFromXContent] before test
+[2020-02-16T23:24:01,635][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testFromXContent] after test
+[2020-02-16T23:24:01,638][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testDisassociateDeadNodes_givenAssignedPersistentTask] before test
+[2020-02-16T23:24:01,638][INFO ][o.e.p.PersistentTasksCustomMetaDataTests] [testDisassociateDeadNodes_givenAssignedPersistentTask] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

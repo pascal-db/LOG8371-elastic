@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.scroll.RestSearchScrollActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:36" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testBodyParamsOverrideQueryStringParams" classname="org.elasticsearch.search.scroll.RestSearchScrollActionTests" time="0.005"/>
+  <testcase name="testParseSearchScrollRequestWithInvalidJsonThrowsException" classname="org.elasticsearch.search.scroll.RestSearchScrollActionTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T08:25:36,471][INFO ][o.e.s.s.RestSearchScrollActionTests] [testBodyParamsOverrideQueryStringParams] before test
+[2020-02-17T08:25:36,474][INFO ][o.e.s.s.RestSearchScrollActionTests] [testBodyParamsOverrideQueryStringParams] after test
+[2020-02-17T08:25:36,477][INFO ][o.e.s.s.RestSearchScrollActionTests] [testParseSearchScrollRequestWithInvalidJsonThrowsException] before test
+[2020-02-17T08:25:36,479][INFO ][o.e.s.s.RestSearchScrollActionTests] [testParseSearchScrollRequestWithInvalidJsonThrowsException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

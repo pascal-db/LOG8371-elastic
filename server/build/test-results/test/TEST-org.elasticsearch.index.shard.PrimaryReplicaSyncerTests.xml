@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.PrimaryReplicaSyncerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:25" hostname="Escoto-PC" time="0.4">
+  <properties/>
+  <testcase name="testStatusReportsCorrectNumbers" classname="org.elasticsearch.index.shard.PrimaryReplicaSyncerTests" time="0.011"/>
+  <testcase name="testStatusSerialization" classname="org.elasticsearch.index.shard.PrimaryReplicaSyncerTests" time="0.004"/>
+  <testcase name="testDoNotSendOperationsWithoutSequenceNumber" classname="org.elasticsearch.index.shard.PrimaryReplicaSyncerTests" time="0.093"/>
+  <testcase name="testStatusSerializationAsNamedWriteable" classname="org.elasticsearch.index.shard.PrimaryReplicaSyncerTests" time="0.004"/>
+  <testcase name="testSyncerOnClosingShard" classname="org.elasticsearch.index.shard.PrimaryReplicaSyncerTests" time="0.14"/>
+  <testcase name="testSyncerSendsOffCorrectDocuments" classname="org.elasticsearch.index.shard.PrimaryReplicaSyncerTests" time="0.137"/>
+  <testcase name="testStatusEquals" classname="org.elasticsearch.index.shard.PrimaryReplicaSyncerTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T16:24:25,766][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testStatusReportsCorrectNumbers] before test
+[2020-02-16T16:24:25,767][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testStatusReportsCorrectNumbers] after test
+[2020-02-16T16:24:25,769][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testStatusSerialization] before test
+[2020-02-16T16:24:25,770][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testStatusSerialization] after test
+[2020-02-16T16:24:25,773][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testDoNotSendOperationsWithoutSequenceNumber] before test
+[2020-02-16T16:24:25,862][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testDoNotSendOperationsWithoutSequenceNumber] after test
+[2020-02-16T16:24:25,867][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testStatusSerializationAsNamedWriteable] before test
+[2020-02-16T16:24:25,868][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testStatusSerializationAsNamedWriteable] after test
+[2020-02-16T16:24:25,871][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testSyncerOnClosingShard] before test
+[2020-02-16T16:24:25,953][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,957][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,957][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,958][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,961][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,961][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,961][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,962][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,962][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:25,962][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [org.elasticsearch.index.shard.PrimaryReplicaSyncerTests] Sending off 1 operations
+[2020-02-16T16:24:26,004][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testSyncerOnClosingShard] after test
+[2020-02-16T16:24:26,011][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testSyncerSendsOffCorrectDocuments] before test
+[2020-02-16T16:24:26,090][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testSyncerSendsOffCorrectDocuments] Total ops: 8, global checkpoint: 5
+[2020-02-16T16:24:26,124][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testSyncerSendsOffCorrectDocuments] Sending off 1 operations
+[2020-02-16T16:24:26,124][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testSyncerSendsOffCorrectDocuments] Sending off 1 operations
+[2020-02-16T16:24:26,144][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testSyncerSendsOffCorrectDocuments] after test
+[2020-02-16T16:24:26,154][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testStatusEquals] before test
+[2020-02-16T16:24:26,154][INFO ][o.e.i.s.PrimaryReplicaSyncerTests] [testStatusEquals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

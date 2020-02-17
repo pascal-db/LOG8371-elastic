@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.unit.DistanceUnitTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testDistanceUnitParsing" classname="org.elasticsearch.common.unit.DistanceUnitTests" time="0.013"/>
+  <testcase name="testReadWrite" classname="org.elasticsearch.common.unit.DistanceUnitTests" time="0.003"/>
+  <testcase name="testSimpleDistanceUnit" classname="org.elasticsearch.common.unit.DistanceUnitTests" time="0.003"/>
+  <testcase name="testDistanceUnitNames" classname="org.elasticsearch.common.unit.DistanceUnitTests" time="0.003"/>
+  <testcase name="testFromString" classname="org.elasticsearch.common.unit.DistanceUnitTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:20:50,934][INFO ][o.e.c.u.DistanceUnitTests] [testDistanceUnitParsing] before test
+[2020-02-16T23:20:50,936][INFO ][o.e.c.u.DistanceUnitTests] [testDistanceUnitParsing] after test
+[2020-02-16T23:20:50,939][INFO ][o.e.c.u.DistanceUnitTests] [testReadWrite] before test
+[2020-02-16T23:20:50,939][INFO ][o.e.c.u.DistanceUnitTests] [testReadWrite] after test
+[2020-02-16T23:20:50,942][INFO ][o.e.c.u.DistanceUnitTests] [testSimpleDistanceUnit] before test
+[2020-02-16T23:20:50,942][INFO ][o.e.c.u.DistanceUnitTests] [testSimpleDistanceUnit] after test
+[2020-02-16T23:20:50,945][INFO ][o.e.c.u.DistanceUnitTests] [testDistanceUnitNames] before test
+[2020-02-16T23:20:50,945][INFO ][o.e.c.u.DistanceUnitTests] [testDistanceUnitNames] after test
+[2020-02-16T23:20:50,947][INFO ][o.e.c.u.DistanceUnitTests] [testFromString] before test
+[2020-02-16T23:20:50,947][INFO ][o.e.c.u.DistanceUnitTests] [testFromString] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

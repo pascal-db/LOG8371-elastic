@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridParserTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="0.03">
+  <properties/>
+  <testcase name="testParseErrorOnBooleanPrecision" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridParserTests" time="0.01"/>
+  <testcase name="testParseErrorOnPrecisionOutOfRange" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridParserTests" time="0.007"/>
+  <testcase name="testParseDistanceUnitPrecision" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridParserTests" time="0.005"/>
+  <testcase name="testParseInvalidUnitPrecision" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridParserTests" time="0.002"/>
+  <testcase name="testParseValidFromInts" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridParserTests" time="0.002"/>
+  <testcase name="testParseValidFromStrings" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridParserTests" time="0.001"/>
+  <testcase name="testParseDistanceUnitPrecisionTooSmall" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoHashGridParserTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T03:55:20,516][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseErrorOnBooleanPrecision] before test
+[2020-02-17T03:55:20,517][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseErrorOnBooleanPrecision] after test
+[2020-02-17T03:55:20,524][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseErrorOnPrecisionOutOfRange] before test
+[2020-02-17T03:55:20,524][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseErrorOnPrecisionOutOfRange] after test
+[2020-02-17T03:55:20,528][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseDistanceUnitPrecision] before test
+[2020-02-17T03:55:20,530][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseDistanceUnitPrecision] after test
+[2020-02-17T03:55:20,532][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseInvalidUnitPrecision] before test
+[2020-02-17T03:55:20,533][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseInvalidUnitPrecision] after test
+[2020-02-17T03:55:20,534][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseValidFromInts] before test
+[2020-02-17T03:55:20,534][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseValidFromInts] after test
+[2020-02-17T03:55:20,536][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseValidFromStrings] before test
+[2020-02-17T03:55:20,536][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseValidFromStrings] after test
+[2020-02-17T03:55:20,537][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseDistanceUnitPrecisionTooSmall] before test
+[2020-02-17T03:55:20,537][INFO ][o.e.s.a.b.g.GeoHashGridParserTests] [testParseDistanceUnitPrecisionTooSmall] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

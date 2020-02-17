@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.script.ScriptContextTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testTwoNewFactoryMethods" classname="org.elasticsearch.script.ScriptContextTests" time="0.003"/>
+  <testcase name="testTwoNewInstanceMethods" classname="org.elasticsearch.script.ScriptContextTests" time="0.003"/>
+  <testcase name="testStatefulFactoryReflection" classname="org.elasticsearch.script.ScriptContextTests" time="0.002"/>
+  <testcase name="testInstanceTypeReflection" classname="org.elasticsearch.script.ScriptContextTests" time="0.002"/>
+  <testcase name="testMissingNewInstanceMethod" classname="org.elasticsearch.script.ScriptContextTests" time="0.001"/>
+  <testcase name="testTwoNewInstanceStatefulFactoryMethods" classname="org.elasticsearch.script.ScriptContextTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T18:25:18,460][INFO ][o.e.s.ScriptContextTests ] [testTwoNewFactoryMethods] before test
+[2020-02-16T18:25:18,462][INFO ][o.e.s.ScriptContextTests ] [testTwoNewFactoryMethods] after test
+[2020-02-16T18:25:18,464][INFO ][o.e.s.ScriptContextTests ] [testTwoNewInstanceMethods] before test
+[2020-02-16T18:25:18,465][INFO ][o.e.s.ScriptContextTests ] [testTwoNewInstanceMethods] after test
+[2020-02-16T18:25:18,466][INFO ][o.e.s.ScriptContextTests ] [testStatefulFactoryReflection] before test
+[2020-02-16T18:25:18,466][INFO ][o.e.s.ScriptContextTests ] [testStatefulFactoryReflection] after test
+[2020-02-16T18:25:18,468][INFO ][o.e.s.ScriptContextTests ] [testInstanceTypeReflection] before test
+[2020-02-16T18:25:18,468][INFO ][o.e.s.ScriptContextTests ] [testInstanceTypeReflection] after test
+[2020-02-16T18:25:18,470][INFO ][o.e.s.ScriptContextTests ] [testMissingNewInstanceMethod] before test
+[2020-02-16T18:25:18,470][INFO ][o.e.s.ScriptContextTests ] [testMissingNewInstanceMethod] after test
+[2020-02-16T18:25:18,471][INFO ][o.e.s.ScriptContextTests ] [testTwoNewInstanceStatefulFactoryMethods] before test
+[2020-02-16T18:25:18,471][INFO ][o.e.s.ScriptContextTests ] [testTwoNewInstanceStatefulFactoryMethods] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

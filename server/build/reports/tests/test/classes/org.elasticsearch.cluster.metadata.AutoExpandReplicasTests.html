@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.metadata.AutoExpandReplicasTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.metadata.AutoExpandReplicasTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.metadata.html">org.elasticsearch.cluster.metadata</a> &gt; AutoExpandReplicasTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.069s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAutoExpandWhenNodeLeavesAndPossiblyRejoins</td>
+<td class="success">0.062s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidValues</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParseSettings</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T00:20:33,323][INFO ][o.e.c.m.AutoExpandReplicasTests] [testInvalidValues] before test
+[2020-02-17T00:20:33,326][INFO ][o.e.c.m.AutoExpandReplicasTests] [testInvalidValues] after test
+[2020-02-17T00:20:33,328][INFO ][o.e.c.m.AutoExpandReplicasTests] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] before test
+[2020-02-17T00:20:33,374][INFO ][o.e.c.m.MetaDataCreateIndexService] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] [index] creating index, cause [api], templates [], shards [1]/[1], mappings []
+[2020-02-17T00:20:33,374][INFO ][o.e.c.r.a.AllocationService] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] updating number_of_replicas to [4] for indices [index]
+[2020-02-17T00:20:33,379][INFO ][o.e.c.m.AutoExpandReplicasTests] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] cluster uuid: _lOrCz2ATxiH-6ux9RTv9A [committed: false]
+version: 0
+state uuid: ZW4yDycdTW6Fma4ssqLQlQ
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+   [index/q-_x-WrLSRGa-chhGbaXgg]: v[4], mv[1], sv[2], av[1]
+      0: p_term [1], isa_ids []
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node_003}{node_003}{ZcQFTLNrQQGnFzh6z44SVQ}{0.0.0.0}{0.0.0.0:3}{d}
+   {node_005}{node_005}{uNa85EpXR5mJ3D9sOw1T6A}{0.0.0.0}{0.0.0.0:5}{dim}
+   {node_006}{node_006}{hGMU6sQST7Of5DNEoWMiHw}{0.0.0.0}{0.0.0.0:6}{di}
+   {node_004}{node_004}{91NyrbvjQ82vZskcCTabvA}{0.0.0.0}{0.0.0.0:4}{di}
+   {node_002}{node_002}{SsIvN7akQwSGj49h4IY4pg}{0.0.0.0}{0.0.0.0:2}{dim}
+   {node_001}{node_001}{QqUZ1v81TP6jAe6ObtH26Q}{0.0.0.0}{0.0.0.0:1}{m}, local, master
+routing_table (version 0):
+-- index [[index/q-_x-WrLSRGa-chhGbaXgg]]
+----shard_id [index][0]
+--------[index][0], node[node_004], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=BM9d5H5XRKKN3iLC_b_Muw], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+
+routing_nodes:
+-----node_id[node_002][V]
+-----node_id[node_003][V]
+-----node_id[node_004][V]
+--------[index][0], node[node_004], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=BM9d5H5XRKKN3iLC_b_Muw], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+-----node_id[node_005][V]
+-----node_id[node_006][V]
+---- unassigned
+--------[index][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+
+[2020-02-17T00:20:33,383][INFO ][o.e.c.m.AutoExpandReplicasTests] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] cluster uuid: _lOrCz2ATxiH-6ux9RTv9A [committed: false]
+version: 0
+state uuid: ZW4yDycdTW6Fma4ssqLQlQ
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+   [index/q-_x-WrLSRGa-chhGbaXgg]: v[5], mv[1], sv[2], av[1]
+      0: p_term [1], isa_ids [BM9d5H5XRKKN3iLC_b_Muw]
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node_003}{node_003}{ZcQFTLNrQQGnFzh6z44SVQ}{0.0.0.0}{0.0.0.0:3}{d}
+   {node_005}{node_005}{uNa85EpXR5mJ3D9sOw1T6A}{0.0.0.0}{0.0.0.0:5}{dim}
+   {node_006}{node_006}{hGMU6sQST7Of5DNEoWMiHw}{0.0.0.0}{0.0.0.0:6}{di}
+   {node_004}{node_004}{91NyrbvjQ82vZskcCTabvA}{0.0.0.0}{0.0.0.0:4}{di}
+   {node_002}{node_002}{SsIvN7akQwSGj49h4IY4pg}{0.0.0.0}{0.0.0.0:2}{dim}
+   {node_001}{node_001}{QqUZ1v81TP6jAe6ObtH26Q}{0.0.0.0}{0.0.0.0:1}{m}, local, master
+routing_table (version 0):
+-- index [[index/q-_x-WrLSRGa-chhGbaXgg]]
+----shard_id [index][0]
+--------[index][0], node[node_002], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=yOOmL_0oSR-1wRI6OYI2nA], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[node_003], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=fXludhAUTDGvdjK2zFVWdg], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[node_004], [P], s[STARTED], a[id=BM9d5H5XRKKN3iLC_b_Muw]
+--------[index][0], node[node_005], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=saPSMuFWSJeb07vItvR82w], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+--------[index][0], node[node_006], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=SaWinJXMQ9WdfdVDn5dQgg], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+
+routing_nodes:
+-----node_id[node_002][V]
+--------[index][0], node[node_002], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=yOOmL_0oSR-1wRI6OYI2nA], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+-----node_id[node_003][V]
+--------[index][0], node[node_003], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=fXludhAUTDGvdjK2zFVWdg], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+-----node_id[node_004][V]
+--------[index][0], node[node_004], [P], s[STARTED], a[id=BM9d5H5XRKKN3iLC_b_Muw]
+-----node_id[node_005][V]
+--------[index][0], node[node_005], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=saPSMuFWSJeb07vItvR82w], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+-----node_id[node_006][V]
+--------[index][0], node[node_006], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=SaWinJXMQ9WdfdVDn5dQgg], unassigned_info[[reason=REPLICA_ADDED], at[2020-02-16T22:20:33.374Z], delayed=false, allocation_status[no_attempt]]
+---- unassigned
+
+[2020-02-17T00:20:33,384][INFO ][o.e.c.r.a.AllocationService] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0], [index][0], [index][0], [index][0]]]).
+[2020-02-17T00:20:33,387][INFO ][o.e.c.r.a.AllocationService] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] updating number_of_replicas to [2] for indices [index]
+[2020-02-17T00:20:33,387][INFO ][o.e.c.r.a.AllocationService] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] Cluster health status changed from [YELLOW] to [GREEN] (reason: [{node_006}{node_006}{hGMU6sQST7Of5DNEoWMiHw}{0.0.0.0}{0.0.0.0:6}{di} reason: dummy reason, {node_004}{node_004}{91NyrbvjQ82vZskcCTabvA}{0.0.0.0}{0.0.0.0:4}{di} reason: dummy reason]).
+[2020-02-17T00:20:33,388][INFO ][o.e.c.m.AutoExpandReplicasTests] [testAutoExpandWhenNodeLeavesAndPossiblyRejoins] after test
+[2020-02-17T00:20:33,390][INFO ][o.e.c.m.AutoExpandReplicasTests] [testParseSettings] before test
+[2020-02-17T00:20:33,391][INFO ][o.e.c.m.AutoExpandReplicasTests] [testParseSettings] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

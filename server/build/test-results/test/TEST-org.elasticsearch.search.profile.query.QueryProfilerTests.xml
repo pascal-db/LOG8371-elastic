@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.profile.query.QueryProfilerTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testNoScoring" classname="org.elasticsearch.search.profile.query.QueryProfilerTests" time="0.004"/>
+  <testcase name="testScorerSupplier" classname="org.elasticsearch.search.profile.query.QueryProfilerTests" time="0.003"/>
+  <testcase name="testCollector" classname="org.elasticsearch.search.profile.query.QueryProfilerTests" time="0.002"/>
+  <testcase name="testApproximations" classname="org.elasticsearch.search.profile.query.QueryProfilerTests" time="0.003"/>
+  <testcase name="testBasic" classname="org.elasticsearch.search.profile.query.QueryProfilerTests" time="0.002"/>
+  <testcase name="testUseIndexStats" classname="org.elasticsearch.search.profile.query.QueryProfilerTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T04:25:35,864][INFO ][o.e.s.p.q.QueryProfilerTests] [testNoScoring] before test
+[2020-02-17T04:25:35,865][INFO ][o.e.s.p.q.QueryProfilerTests] [testNoScoring] after test
+[2020-02-17T04:25:35,867][INFO ][o.e.s.p.q.QueryProfilerTests] [testScorerSupplier] before test
+[2020-02-17T04:25:35,868][INFO ][o.e.s.p.q.QueryProfilerTests] [testScorerSupplier] after test
+[2020-02-17T04:25:35,870][INFO ][o.e.s.p.q.QueryProfilerTests] [testCollector] before test
+[2020-02-17T04:25:35,870][INFO ][o.e.s.p.q.QueryProfilerTests] [testCollector] after test
+[2020-02-17T04:25:35,872][INFO ][o.e.s.p.q.QueryProfilerTests] [testApproximations] before test
+[2020-02-17T04:25:35,873][INFO ][o.e.s.p.q.QueryProfilerTests] [testApproximations] after test
+[2020-02-17T04:25:35,875][INFO ][o.e.s.p.q.QueryProfilerTests] [testBasic] before test
+[2020-02-17T04:25:35,875][INFO ][o.e.s.p.q.QueryProfilerTests] [testBasic] after test
+[2020-02-17T04:25:35,877][INFO ][o.e.s.p.q.QueryProfilerTests] [testUseIndexStats] before test
+[2020-02-17T04:25:35,877][INFO ][o.e.s.p.q.QueryProfilerTests] [testUseIndexStats] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

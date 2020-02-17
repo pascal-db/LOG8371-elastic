@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.logging.JsonThrowablePatternConverterTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:44" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testNoStacktrace" classname="org.elasticsearch.common.logging.JsonThrowablePatternConverterTests" time="0.011"/>
+  <testcase name="testStacktraceWithJson" classname="org.elasticsearch.common.logging.JsonThrowablePatternConverterTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T18:51:44,964][INFO ][o.e.c.l.JsonThrowablePatternConverterTests] [testNoStacktrace] before test
+[2020-02-16T18:51:44,969][INFO ][o.e.c.l.JsonThrowablePatternConverterTests] [testNoStacktrace] after test
+[2020-02-16T18:51:44,971][INFO ][o.e.c.l.JsonThrowablePatternConverterTests] [testStacktraceWithJson] before test
+[2020-02-16T18:51:44,972][INFO ][o.e.c.l.JsonThrowablePatternConverterTests] [testStacktraceWithJson] asdf
+[2020-02-16T18:51:44,976][INFO ][o.e.c.l.JsonThrowablePatternConverterTests] [testStacktraceWithJson] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

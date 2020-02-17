@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.AggregatorFactoriesTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.034">
+  <properties/>
+  <testcase name="testInvalidAggregationName" classname="org.elasticsearch.search.aggregations.AggregatorFactoriesTests" time="0.004"/>
+  <testcase name="testMissingName" classname="org.elasticsearch.search.aggregations.AggregatorFactoriesTests" time="0.006"/>
+  <testcase name="testGetAggregatorFactories_returnsUnmodifiableList" classname="org.elasticsearch.search.aggregations.AggregatorFactoriesTests" time="0.003"/>
+  <testcase name="testMissingType" classname="org.elasticsearch.search.aggregations.AggregatorFactoriesTests" time="0.003"/>
+  <testcase name="testRewrite" classname="org.elasticsearch.search.aggregations.AggregatorFactoriesTests" time="0.007"/>
+  <testcase name="testTwoTypes" classname="org.elasticsearch.search.aggregations.AggregatorFactoriesTests" time="0.003"/>
+  <testcase name="testGetPipelineAggregatorFactories_returnsUnmodifiableList" classname="org.elasticsearch.search.aggregations.AggregatorFactoriesTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T18:25:18,759][INFO ][o.e.s.a.AggregatorFactoriesTests] [testInvalidAggregationName] before test
+[2020-02-16T18:25:18,760][INFO ][o.e.s.a.AggregatorFactoriesTests] [testInvalidAggregationName] after test
+[2020-02-16T18:25:18,763][INFO ][o.e.s.a.AggregatorFactoriesTests] [testMissingName] before test
+[2020-02-16T18:25:18,766][INFO ][o.e.s.a.AggregatorFactoriesTests] [testMissingName] after test
+[2020-02-16T18:25:18,769][INFO ][o.e.s.a.AggregatorFactoriesTests] [testGetAggregatorFactories_returnsUnmodifiableList] before test
+[2020-02-16T18:25:18,769][INFO ][o.e.s.a.AggregatorFactoriesTests] [testGetAggregatorFactories_returnsUnmodifiableList] after test
+[2020-02-16T18:25:18,772][INFO ][o.e.s.a.AggregatorFactoriesTests] [testMissingType] before test
+[2020-02-16T18:25:18,773][INFO ][o.e.s.a.AggregatorFactoriesTests] [testMissingType] after test
+[2020-02-16T18:25:18,775][INFO ][o.e.s.a.AggregatorFactoriesTests] [testRewrite] before test
+[2020-02-16T18:25:18,780][INFO ][o.e.s.a.AggregatorFactoriesTests] [testRewrite] after test
+[2020-02-16T18:25:18,783][INFO ][o.e.s.a.AggregatorFactoriesTests] [testTwoTypes] before test
+[2020-02-16T18:25:18,784][INFO ][o.e.s.a.AggregatorFactoriesTests] [testTwoTypes] after test
+[2020-02-16T18:25:18,788][INFO ][o.e.s.a.AggregatorFactoriesTests] [testGetPipelineAggregatorFactories_returnsUnmodifiableList] before test
+[2020-02-16T18:25:18,790][INFO ][o.e.s.a.AggregatorFactoriesTests] [testGetPipelineAggregatorFactories_returnsUnmodifiableList] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

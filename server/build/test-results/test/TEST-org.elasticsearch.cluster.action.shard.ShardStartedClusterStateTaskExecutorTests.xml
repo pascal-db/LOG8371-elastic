@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.action.shard.ShardStartedClusterStateTaskExecutorTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:52" hostname="Escoto-PC" time="0.056">
+  <properties/>
+  <testcase name="testNonExistentIndexMarkedAsSuccessful" classname="org.elasticsearch.cluster.action.shard.ShardStartedClusterStateTaskExecutorTests" time="0.006"/>
+  <testcase name="testNonExistentShardsAreMarkedAsSuccessful" classname="org.elasticsearch.cluster.action.shard.ShardStartedClusterStateTaskExecutorTests" time="0.005"/>
+  <testcase name="testDuplicateStartsAreOkay" classname="org.elasticsearch.cluster.action.shard.ShardStartedClusterStateTaskExecutorTests" time="0.005"/>
+  <testcase name="testNonInitializingShardAreMarkedAsSuccessful" classname="org.elasticsearch.cluster.action.shard.ShardStartedClusterStateTaskExecutorTests" time="0.009"/>
+  <testcase name="testPrimaryTermsMismatch" classname="org.elasticsearch.cluster.action.shard.ShardStartedClusterStateTaskExecutorTests" time="0.019"/>
+  <testcase name="testStartedShards" classname="org.elasticsearch.cluster.action.shard.ShardStartedClusterStateTaskExecutorTests" time="0.005"/>
+  <testcase name="testEmptyTaskListProducesSameClusterState" classname="org.elasticsearch.cluster.action.shard.ShardStartedClusterStateTaskExecutorTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T12:20:52,025][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testNonExistentIndexMarkedAsSuccessful] before test
+[2020-02-16T12:20:52,027][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testNonExistentIndexMarkedAsSuccessful] after test
+[2020-02-16T12:20:52,031][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testNonExistentShardsAreMarkedAsSuccessful] before test
+[2020-02-16T12:20:52,032][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testNonExistentShardsAreMarkedAsSuccessful] after test
+[2020-02-16T12:20:52,035][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testDuplicateStartsAreOkay] before test
+[2020-02-16T12:20:52,036][INFO ][o.e.c.r.a.AllocationService] [testDuplicateStartsAreOkay] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T12:20:52,037][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testDuplicateStartsAreOkay] after test
+[2020-02-16T12:20:52,047][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testNonInitializingShardAreMarkedAsSuccessful] before test
+[2020-02-16T12:20:52,047][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testNonInitializingShardAreMarkedAsSuccessful] after test
+[2020-02-16T12:20:52,066][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testPrimaryTermsMismatch] before test
+[2020-02-16T12:20:52,067][INFO ][o.e.c.r.a.AllocationService] [testPrimaryTermsMismatch] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][0]]]).
+[2020-02-16T12:20:52,067][INFO ][o.e.c.r.a.AllocationService] [testPrimaryTermsMismatch] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T12:20:52,067][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testPrimaryTermsMismatch] after test
+[2020-02-16T12:20:52,071][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testStartedShards] before test
+[2020-02-16T12:20:52,072][INFO ][o.e.c.r.a.AllocationService] [testStartedShards] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[test][0]]]).
+[2020-02-16T12:20:52,072][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testStartedShards] after test
+[2020-02-16T12:20:52,076][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testEmptyTaskListProducesSameClusterState] before test
+[2020-02-16T12:20:52,077][INFO ][o.e.c.a.s.ShardStartedClusterStateTaskExecutorTests] [testEmptyTaskListProducesSameClusterState] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

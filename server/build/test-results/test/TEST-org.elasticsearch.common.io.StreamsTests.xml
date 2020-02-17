@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.io.StreamsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:46" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testCopyFromByteArray" classname="org.elasticsearch.common.io.StreamsTests" time="0.003"/>
+  <testcase name="testCopyFromString" classname="org.elasticsearch.common.io.StreamsTests" time="0.001"/>
+  <testcase name="testCopyToString" classname="org.elasticsearch.common.io.StreamsTests" time="0.002"/>
+  <testcase name="testBytesStreamInput" classname="org.elasticsearch.common.io.StreamsTests" time="0.002"/>
+  <testcase name="testCopyFromReader" classname="org.elasticsearch.common.io.StreamsTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T17:20:46,037][INFO ][o.e.c.i.StreamsTests     ] [testCopyFromByteArray] before test
+[2020-02-16T17:20:46,038][INFO ][o.e.c.i.StreamsTests     ] [testCopyFromByteArray] after test
+[2020-02-16T17:20:46,039][INFO ][o.e.c.i.StreamsTests     ] [testCopyFromString] before test
+[2020-02-16T17:20:46,039][INFO ][o.e.c.i.StreamsTests     ] [testCopyFromString] after test
+[2020-02-16T17:20:46,041][INFO ][o.e.c.i.StreamsTests     ] [testCopyToString] before test
+[2020-02-16T17:20:46,041][INFO ][o.e.c.i.StreamsTests     ] [testCopyToString] after test
+[2020-02-16T17:20:46,042][INFO ][o.e.c.i.StreamsTests     ] [testBytesStreamInput] before test
+[2020-02-16T17:20:46,042][INFO ][o.e.c.i.StreamsTests     ] [testBytesStreamInput] after test
+[2020-02-16T17:20:46,044][INFO ][o.e.c.i.StreamsTests     ] [testCopyFromReader] before test
+[2020-02-16T17:20:46,044][INFO ][o.e.c.i.StreamsTests     ] [testCopyFromReader] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

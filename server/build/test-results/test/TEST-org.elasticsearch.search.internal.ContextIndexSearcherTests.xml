@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.internal.ContextIndexSearcherTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:37" hostname="Escoto-PC" time="0.531">
+  <properties/>
+  <testcase name="testContextIndexSearcherDenseWithDeletions" classname="org.elasticsearch.search.internal.ContextIndexSearcherTests" time="0.007"/>
+  <testcase name="testContextIndexSearcherSparseWithDeletions" classname="org.elasticsearch.search.internal.ContextIndexSearcherTests" time="0.413"/>
+  <testcase name="testIntersectScorerAndRoleBits" classname="org.elasticsearch.search.internal.ContextIndexSearcherTests" time="0.063"/>
+  <testcase name="testContextIndexSearcherDenseNoDeletions" classname="org.elasticsearch.search.internal.ContextIndexSearcherTests" time="0.008"/>
+  <testcase name="testContextIndexSearcherSparseNoDeletions" classname="org.elasticsearch.search.internal.ContextIndexSearcherTests" time="0.04"/>
+  <system-out><![CDATA[[2020-02-16T11:24:37,585][INFO ][o.e.s.i.ContextIndexSearcherTests] [testContextIndexSearcherDenseWithDeletions] before test
+[2020-02-16T11:24:37,590][INFO ][o.e.s.i.ContextIndexSearcherTests] [testContextIndexSearcherDenseWithDeletions] after test
+[2020-02-16T11:24:37,594][INFO ][o.e.s.i.ContextIndexSearcherTests] [testContextIndexSearcherSparseWithDeletions] before test
+[2020-02-16T11:24:38,003][INFO ][o.e.s.i.ContextIndexSearcherTests] [testContextIndexSearcherSparseWithDeletions] after test
+[2020-02-16T11:24:38,062][INFO ][o.e.s.i.ContextIndexSearcherTests] [testIntersectScorerAndRoleBits] before test
+[2020-02-16T11:24:38,066][INFO ][o.e.s.i.ContextIndexSearcherTests] [testIntersectScorerAndRoleBits] after test
+[2020-02-16T11:24:38,071][INFO ][o.e.s.i.ContextIndexSearcherTests] [testContextIndexSearcherDenseNoDeletions] before test
+[2020-02-16T11:24:38,073][INFO ][o.e.s.i.ContextIndexSearcherTests] [testContextIndexSearcherDenseNoDeletions] after test
+[2020-02-16T11:24:38,079][INFO ][o.e.s.i.ContextIndexSearcherTests] [testContextIndexSearcherSparseNoDeletions] before test
+[2020-02-16T11:24:38,113][INFO ][o.e.s.i.ContextIndexSearcherTests] [testContextIndexSearcherSparseNoDeletions] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

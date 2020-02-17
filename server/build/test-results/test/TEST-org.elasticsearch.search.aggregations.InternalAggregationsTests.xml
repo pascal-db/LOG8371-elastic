@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.InternalAggregationsTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:22" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.InternalAggregationsTests" time="0.004"/>
+  <testcase name="testFinalReduceTopLevelPipelineAggs" classname="org.elasticsearch.search.aggregations.InternalAggregationsTests" time="0.003"/>
+  <testcase name="testNonFinalReduceTopLevelPipelineAggs" classname="org.elasticsearch.search.aggregations.InternalAggregationsTests" time="0.002"/>
+  <testcase name="testReduceEmptyAggs" classname="org.elasticsearch.search.aggregations.InternalAggregationsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:24:22,995][INFO ][o.e.s.a.InternalAggregationsTests] [testSerialization] before test
+[2020-02-17T05:24:22,996][INFO ][o.e.s.a.InternalAggregationsTests] [testSerialization] after test
+[2020-02-17T05:24:22,999][INFO ][o.e.s.a.InternalAggregationsTests] [testFinalReduceTopLevelPipelineAggs] before test
+[2020-02-17T05:24:22,999][INFO ][o.e.s.a.InternalAggregationsTests] [testFinalReduceTopLevelPipelineAggs] after test
+[2020-02-17T05:24:23,002][INFO ][o.e.s.a.InternalAggregationsTests] [testNonFinalReduceTopLevelPipelineAggs] before test
+[2020-02-17T05:24:23,002][INFO ][o.e.s.a.InternalAggregationsTests] [testNonFinalReduceTopLevelPipelineAggs] after test
+[2020-02-17T05:24:23,004][INFO ][o.e.s.a.InternalAggregationsTests] [testReduceEmptyAggs] before test
+[2020-02-17T05:24:23,004][INFO ][o.e.s.a.InternalAggregationsTests] [testReduceEmptyAggs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

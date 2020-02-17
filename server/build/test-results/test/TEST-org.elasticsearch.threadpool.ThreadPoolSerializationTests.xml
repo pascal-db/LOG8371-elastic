@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.threadpool.ThreadPoolSerializationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:00" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testThatThreadPoolTypeIsSerializedCorrectly" classname="org.elasticsearch.threadpool.ThreadPoolSerializationTests" time="0.003"/>
+  <testcase name="testThatToXContentWritesInteger" classname="org.elasticsearch.threadpool.ThreadPoolSerializationTests" time="0.002"/>
+  <testcase name="testThatQueueSizeSerializationWorks" classname="org.elasticsearch.threadpool.ThreadPoolSerializationTests" time="0.003"/>
+  <testcase name="testThatNegativeQueueSizesCanBeSerialized" classname="org.elasticsearch.threadpool.ThreadPoolSerializationTests" time="0.001"/>
+  <testcase name="testThatNegativeSettingAllowsToStart" classname="org.elasticsearch.threadpool.ThreadPoolSerializationTests" time="0.002"/>
+  <testcase name="testThatToXContentWritesOutUnboundedCorrectly" classname="org.elasticsearch.threadpool.ThreadPoolSerializationTests" time="0.001"/>
+  <system-out><![CDATA[[2563-02-16T23:26:00,339][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatThreadPoolTypeIsSerializedCorrectly] before test
+[2563-02-16T23:26:00,340][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatThreadPoolTypeIsSerializedCorrectly] after test
+[2563-02-16T23:26:00,342][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatToXContentWritesInteger] before test
+[2563-02-16T23:26:00,342][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatToXContentWritesInteger] after test
+[2563-02-16T23:26:00,344][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatQueueSizeSerializationWorks] before test
+[2563-02-16T23:26:00,344][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatQueueSizeSerializationWorks] after test
+[2563-02-16T23:26:00,346][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatNegativeQueueSizesCanBeSerialized] before test
+[2563-02-16T23:26:00,346][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatNegativeQueueSizesCanBeSerialized] after test
+[2563-02-16T23:26:00,348][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatNegativeSettingAllowsToStart] before test
+[2563-02-16T23:26:00,348][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatNegativeSettingAllowsToStart] after test
+[2563-02-16T23:26:00,350][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatToXContentWritesOutUnboundedCorrectly] before test
+[2563-02-16T23:26:00,350][INFO ][o.e.t.ThreadPoolSerializationTests] [testThatToXContentWritesOutUnboundedCorrectly] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

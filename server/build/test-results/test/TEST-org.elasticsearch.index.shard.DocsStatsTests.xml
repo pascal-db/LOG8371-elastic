@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.DocsStatsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:55" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testSerialize" classname="org.elasticsearch.index.shard.DocsStatsTests" time="0.003"/>
+  <testcase name="testCalculateAverageDocSize" classname="org.elasticsearch.index.shard.DocsStatsTests" time="0.001"/>
+  <testcase name="testUninitialisedShards" classname="org.elasticsearch.index.shard.DocsStatsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:23:55,603][INFO ][o.e.i.s.DocsStatsTests   ] [testSerialize] before test
+[2020-02-17T00:23:55,604][INFO ][o.e.i.s.DocsStatsTests   ] [testSerialize] after test
+[2020-02-17T00:23:55,606][INFO ][o.e.i.s.DocsStatsTests   ] [testCalculateAverageDocSize] before test
+[2020-02-17T00:23:55,606][INFO ][o.e.i.s.DocsStatsTests   ] [testCalculateAverageDocSize] after test
+[2020-02-17T00:23:55,608][INFO ][o.e.i.s.DocsStatsTests   ] [testUninitialisedShards] before test
+[2020-02-17T00:23:55,608][INFO ][o.e.i.s.DocsStatsTests   ] [testUninitialisedShards] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

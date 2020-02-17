@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.unit.ByteSizeUnitTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.036">
+  <properties/>
+  <testcase name="testTB" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.005"/>
+  <testcase name="testKB" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.007"/>
+  <testcase name="testToString" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.007"/>
+  <testcase name="testBytes" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.003"/>
+  <testcase name="testGB" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.002"/>
+  <testcase name="testMB" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.002"/>
+  <testcase name="testFromUnknownId" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.005"/>
+  <testcase name="testPB" classname="org.elasticsearch.common.unit.ByteSizeUnitTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T17:20:50,872][INFO ][o.e.c.u.ByteSizeUnitTests] [testTB] before test
+[2020-02-16T17:20:50,874][INFO ][o.e.c.u.ByteSizeUnitTests] [testTB] after test
+[2020-02-16T17:20:50,876][INFO ][o.e.c.u.ByteSizeUnitTests] [testKB] before test
+[2020-02-16T17:20:50,876][INFO ][o.e.c.u.ByteSizeUnitTests] [testKB] after test
+[2020-02-16T17:20:50,882][INFO ][o.e.c.u.ByteSizeUnitTests] [testSerialization] before test
+[2020-02-16T17:20:50,883][INFO ][o.e.c.u.ByteSizeUnitTests] [testSerialization] after test
+[2020-02-16T17:20:50,890][INFO ][o.e.c.u.ByteSizeUnitTests] [testToString] before test
+[2020-02-16T17:20:50,890][INFO ][o.e.c.u.ByteSizeUnitTests] [testToString] after test
+[2020-02-16T17:20:50,892][INFO ][o.e.c.u.ByteSizeUnitTests] [testBytes] before test
+[2020-02-16T17:20:50,893][INFO ][o.e.c.u.ByteSizeUnitTests] [testBytes] after test
+[2020-02-16T17:20:50,895][INFO ][o.e.c.u.ByteSizeUnitTests] [testGB] before test
+[2020-02-16T17:20:50,895][INFO ][o.e.c.u.ByteSizeUnitTests] [testGB] after test
+[2020-02-16T17:20:50,897][INFO ][o.e.c.u.ByteSizeUnitTests] [testMB] before test
+[2020-02-16T17:20:50,897][INFO ][o.e.c.u.ByteSizeUnitTests] [testMB] after test
+[2020-02-16T17:20:50,902][INFO ][o.e.c.u.ByteSizeUnitTests] [testFromUnknownId] before test
+[2020-02-16T17:20:50,902][INFO ][o.e.c.u.ByteSizeUnitTests] [testFromUnknownId] after test
+[2020-02-16T17:20:50,905][INFO ][o.e.c.u.ByteSizeUnitTests] [testPB] before test
+[2020-02-16T17:20:50,905][INFO ][o.e.c.u.ByteSizeUnitTests] [testPB] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

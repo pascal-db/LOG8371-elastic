@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.GeoJsonSerializationTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:44" hostname="Escoto-PC" time="0.553">
+  <properties/>
+  <testcase name="testPoint" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.019"/>
+  <testcase name="testLineString" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.028"/>
+  <testcase name="testMultiPolygon" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.067"/>
+  <testcase name="testPolygon" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.012"/>
+  <testcase name="testCircle" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.023"/>
+  <testcase name="testGeometryCollection" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.245"/>
+  <testcase name="testMultiLineString" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.129"/>
+  <testcase name="testEnvelope" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.011"/>
+  <testcase name="testMultiPoint" classname="org.elasticsearch.common.geo.GeoJsonSerializationTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-16T18:20:44,500][INFO ][o.e.c.g.GeoJsonSerializationTests] [testPoint] before test
+[2020-02-16T18:20:44,518][INFO ][o.e.c.g.GeoJsonSerializationTests] [testPoint] after test
+[2020-02-16T18:20:44,520][INFO ][o.e.c.g.GeoJsonSerializationTests] [testLineString] before test
+[2020-02-16T18:20:44,546][INFO ][o.e.c.g.GeoJsonSerializationTests] [testLineString] after test
+[2020-02-16T18:20:44,548][INFO ][o.e.c.g.GeoJsonSerializationTests] [testMultiPolygon] before test
+[2020-02-16T18:20:44,613][INFO ][o.e.c.g.GeoJsonSerializationTests] [testMultiPolygon] after test
+[2020-02-16T18:20:44,614][INFO ][o.e.c.g.GeoJsonSerializationTests] [testPolygon] before test
+[2020-02-16T18:20:44,625][INFO ][o.e.c.g.GeoJsonSerializationTests] [testPolygon] after test
+[2020-02-16T18:20:44,640][INFO ][o.e.c.g.GeoJsonSerializationTests] [testCircle] before test
+[2020-02-16T18:20:44,649][INFO ][o.e.c.g.GeoJsonSerializationTests] [testCircle] after test
+[2020-02-16T18:20:44,653][INFO ][o.e.c.g.GeoJsonSerializationTests] [testGeometryCollection] before test
+[2020-02-16T18:20:44,894][INFO ][o.e.c.g.GeoJsonSerializationTests] [testGeometryCollection] after test
+[2020-02-16T18:20:44,898][INFO ][o.e.c.g.GeoJsonSerializationTests] [testMultiLineString] before test
+[2020-02-16T18:20:45,022][INFO ][o.e.c.g.GeoJsonSerializationTests] [testMultiLineString] after test
+[2020-02-16T18:20:45,032][INFO ][o.e.c.g.GeoJsonSerializationTests] [testEnvelope] before test
+[2020-02-16T18:20:45,037][INFO ][o.e.c.g.GeoJsonSerializationTests] [testEnvelope] after test
+[2020-02-16T18:20:45,039][INFO ][o.e.c.g.GeoJsonSerializationTests] [testMultiPoint] before test
+[2020-02-16T18:20:45,052][INFO ][o.e.c.g.GeoJsonSerializationTests] [testMultiPoint] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

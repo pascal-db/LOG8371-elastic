@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.NestedIdentityTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.NestedIdentityTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.NestedIdentityTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.NestedIdentityTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.NestedIdentityTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T13:24:38,254][INFO ][o.e.s.NestedIdentityTests] [testToXContent] before test
+[2020-02-16T13:24:38,255][INFO ][o.e.s.NestedIdentityTests] [testToXContent] after test
+[2020-02-16T13:24:38,257][INFO ][o.e.s.NestedIdentityTests] [testEqualsAndHashcode] before test
+[2020-02-16T13:24:38,258][INFO ][o.e.s.NestedIdentityTests] [testEqualsAndHashcode] after test
+[2020-02-16T13:24:38,261][INFO ][o.e.s.NestedIdentityTests] [testFromXContent] before test
+[2020-02-16T13:24:38,261][INFO ][o.e.s.NestedIdentityTests] [testFromXContent] after test
+[2020-02-16T13:24:38,263][INFO ][o.e.s.NestedIdentityTests] [testSerialization] before test
+[2020-02-16T13:24:38,263][INFO ][o.e.s.NestedIdentityTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

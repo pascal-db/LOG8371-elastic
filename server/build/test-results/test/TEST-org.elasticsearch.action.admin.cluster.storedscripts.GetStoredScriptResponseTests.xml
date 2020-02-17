@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.storedscripts.GetStoredScriptResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:24" hostname="Escoto-PC" time="0.053">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.cluster.storedscripts.GetStoredScriptResponseTests" time="0.015"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.cluster.storedscripts.GetStoredScriptResponseTests" time="0.015"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.cluster.storedscripts.GetStoredScriptResponseTests" time="0.022"/>
+  <system-out><![CDATA[[2020-02-17T00:20:24,780][INFO ][o.e.a.a.c.s.GetStoredScriptResponseTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:20:24,787][INFO ][o.e.a.a.c.s.GetStoredScriptResponseTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:20:24,793][INFO ][o.e.a.a.c.s.GetStoredScriptResponseTests] [testFromXContent] before test
+[2020-02-17T00:20:24,802][INFO ][o.e.a.a.c.s.GetStoredScriptResponseTests] [testFromXContent] after test
+[2020-02-17T00:20:24,824][INFO ][o.e.a.a.c.s.GetStoredScriptResponseTests] [testSerialization] before test
+[2020-02-17T00:20:24,825][INFO ][o.e.a.a.c.s.GetStoredScriptResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

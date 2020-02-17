@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.internal.ShardSearchRequestTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testFilteringAliases" classname="org.elasticsearch.search.internal.ShardSearchRequestTests" time="0.01"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.internal.ShardSearchRequestTests" time="0.004"/>
+  <testcase name="testUnknownAliasFilter" classname="org.elasticsearch.search.internal.ShardSearchRequestTests" time="0.004"/>
+  <testcase name="testAllowPartialResultsSerializationPre7_0_0" classname="org.elasticsearch.search.internal.ShardSearchRequestTests" time="0.002"/>
+  <testcase name="testRemovedAliasFilter" classname="org.elasticsearch.search.internal.ShardSearchRequestTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:24:38,169][INFO ][o.e.s.i.ShardSearchRequestTests] [testFilteringAliases] before test
+[2020-02-17T01:24:38,170][INFO ][o.e.s.i.ShardSearchRequestTests] [testFilteringAliases] after test
+[2020-02-17T01:24:38,173][INFO ][o.e.s.i.ShardSearchRequestTests] [testSerialization] before test
+[2020-02-17T01:24:38,175][INFO ][o.e.s.i.ShardSearchRequestTests] [testSerialization] after test
+[2020-02-17T01:24:38,178][INFO ][o.e.s.i.ShardSearchRequestTests] [testUnknownAliasFilter] before test
+[2020-02-17T01:24:38,178][INFO ][o.e.s.i.ShardSearchRequestTests] [testUnknownAliasFilter] after test
+[2020-02-17T01:24:38,180][INFO ][o.e.s.i.ShardSearchRequestTests] [testAllowPartialResultsSerializationPre7_0_0] before test
+[2020-02-17T01:24:38,181][INFO ][o.e.s.i.ShardSearchRequestTests] [testAllowPartialResultsSerializationPre7_0_0] after test
+[2020-02-17T01:24:38,183][INFO ][o.e.s.i.ShardSearchRequestTests] [testRemovedAliasFilter] before test
+[2020-02-17T01:24:38,183][INFO ][o.e.s.i.ShardSearchRequestTests] [testRemovedAliasFilter] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

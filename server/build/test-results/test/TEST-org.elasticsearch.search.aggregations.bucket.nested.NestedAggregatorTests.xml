@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:20" hostname="Escoto-PC" time="0.207">
+  <properties/>
+  <testcase name="testResetRootDocId" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.032"/>
+  <testcase name="testNestedOrdering_random" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.018"/>
+  <testcase name="testPreGetChildLeafCollectors" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.041"/>
+  <testcase name="testSingleNestingMax" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.036"/>
+  <testcase name="testDoubleNestingMax" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.012"/>
+  <testcase name="testNestedOrdering" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.029"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.007"/>
+  <testcase name="testFieldAlias" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.017"/>
+  <testcase name="testOrphanedDocs" classname="org.elasticsearch.search.aggregations.bucket.nested.NestedAggregatorTests" time="0.014"/>
+  <system-out><![CDATA[[2020-02-16T19:24:20,849][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testResetRootDocId] before test
+[2020-02-16T19:24:20,880][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testResetRootDocId] after test
+[2020-02-16T19:24:20,882][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testNestedOrdering_random] before test
+[2020-02-16T19:24:20,897][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testNestedOrdering_random] after test
+[2020-02-16T19:24:20,902][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testPreGetChildLeafCollectors] before test
+[2020-02-16T19:24:20,938][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testPreGetChildLeafCollectors] after test
+[2020-02-16T19:24:20,968][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testSingleNestingMax] before test
+[2020-02-16T19:24:20,975][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testSingleNestingMax] after test
+[2020-02-16T19:24:20,980][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testDoubleNestingMax] before test
+[2020-02-16T19:24:20,988][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testDoubleNestingMax] after test
+[2020-02-16T19:24:21,007][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testNestedOrdering] before test
+[2020-02-16T19:24:21,016][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testNestedOrdering] after test
+[2020-02-16T19:24:21,021][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testNoDocs] before test
+[2020-02-16T19:24:21,023][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testNoDocs] after test
+[2020-02-16T19:24:21,027][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testFieldAlias] before test
+[2020-02-16T19:24:21,040][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testFieldAlias] after test
+[2020-02-16T19:24:21,043][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testOrphanedDocs] before test
+[2020-02-16T19:24:21,054][INFO ][o.e.s.a.b.n.NestedAggregatorTests] [testOrphanedDocs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

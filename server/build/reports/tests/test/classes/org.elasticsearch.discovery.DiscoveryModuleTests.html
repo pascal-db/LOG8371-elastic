@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.discovery.DiscoveryModuleTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.discovery.DiscoveryModuleTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.discovery.html">org.elasticsearch.discovery</a> &gt; DiscoveryModuleTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.096s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDefaults</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDuplicateSeedsProvider</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinValidator</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLazyConstructionSeedsProvider</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLegacyAndNonLegacyProvidersRejected</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLegacyHostsProvider</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultipleSeedsProviders</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSeedProviders</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSettingsSeedsProvider</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownDiscovery</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownSeedsProvider</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T12:20:57,438][INFO ][o.e.d.DiscoveryModuleTests] [testDefaults] before test
+[2020-02-17T12:20:57,450][INFO ][o.e.d.DiscoveryModule    ] [testDefaults] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T12:20:57,450][INFO ][o.e.d.DiscoveryModuleTests] [testDefaults] after test
+[2020-02-17T12:20:57,452][INFO ][o.e.d.DiscoveryModuleTests] [testSeedProviders] before test
+[2020-02-17T12:20:57,456][INFO ][o.e.d.DiscoveryModule    ] [testSeedProviders] using discovery type [zen] and seed hosts providers [settings, custom]
+[2020-02-17T12:20:57,457][INFO ][o.e.d.DiscoveryModuleTests] [testSeedProviders] after test
+[2020-02-17T12:20:57,458][INFO ][o.e.d.DiscoveryModuleTests] [testUnknownSeedsProvider] before test
+[2020-02-17T12:20:57,462][INFO ][o.e.d.DiscoveryModuleTests] [testUnknownSeedsProvider] after test
+[2020-02-17T12:20:57,466][INFO ][o.e.d.DiscoveryModuleTests] [testUnknownDiscovery] before test
+[2020-02-17T12:20:57,470][INFO ][o.e.d.DiscoveryModuleTests] [testUnknownDiscovery] after test
+[2020-02-17T12:20:57,476][INFO ][o.e.d.DiscoveryModuleTests] [testLazyConstructionSeedsProvider] before test
+[2020-02-17T12:20:57,485][INFO ][o.e.d.DiscoveryModule    ] [testLazyConstructionSeedsProvider] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T12:20:57,486][INFO ][o.e.d.DiscoveryModuleTests] [testLazyConstructionSeedsProvider] after test
+[2020-02-17T12:20:57,488][INFO ][o.e.d.DiscoveryModuleTests] [testLegacyAndNonLegacyProvidersRejected] before test
+[2020-02-17T12:20:57,490][INFO ][o.e.d.DiscoveryModuleTests] [testLegacyAndNonLegacyProvidersRejected] after test
+[2020-02-17T12:20:57,492][INFO ][o.e.d.DiscoveryModuleTests] [testLegacyHostsProvider] before test
+[2020-02-17T12:20:57,496][WARN ][o.e.d.c.s.Settings       ] [testLegacyHostsProvider] [discovery.zen.hosts_provider] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T12:20:57,496][INFO ][o.e.d.DiscoveryModule    ] [testLegacyHostsProvider] using discovery type [zen] and seed hosts providers [settings, custom]
+[2020-02-17T12:20:57,496][INFO ][o.e.d.DiscoveryModuleTests] [testLegacyHostsProvider] after test
+[2020-02-17T12:20:57,499][INFO ][o.e.d.DiscoveryModuleTests] [testSettingsSeedsProvider] before test
+[2020-02-17T12:20:57,503][INFO ][o.e.d.DiscoveryModuleTests] [testSettingsSeedsProvider] after test
+[2020-02-17T12:20:57,505][INFO ][o.e.d.DiscoveryModuleTests] [testJoinValidator] before test
+[2020-02-17T12:20:57,510][INFO ][o.e.d.DiscoveryModule    ] [testJoinValidator] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T12:20:57,510][INFO ][o.e.d.DiscoveryModuleTests] [testJoinValidator] after test
+[2020-02-17T12:20:57,511][INFO ][o.e.d.DiscoveryModuleTests] [testDuplicateSeedsProvider] before test
+[2020-02-17T12:20:57,516][INFO ][o.e.d.DiscoveryModuleTests] [testDuplicateSeedsProvider] after test
+[2020-02-17T12:20:57,519][INFO ][o.e.d.DiscoveryModuleTests] [testMultipleSeedsProviders] before test
+[2020-02-17T12:20:57,528][INFO ][o.e.d.DiscoveryModule    ] [testMultipleSeedsProviders] using discovery type [zen] and seed hosts providers [settings, provider1, provider3]
+[2020-02-17T12:20:57,528][INFO ][o.e.d.DiscoveryModuleTests] [testMultipleSeedsProviders] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

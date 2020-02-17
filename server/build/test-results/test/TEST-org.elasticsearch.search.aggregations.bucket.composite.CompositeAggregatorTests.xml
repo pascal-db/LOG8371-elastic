@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:07" hostname="Escoto-PC" time="3.84">
+  <properties/>
+  <testcase name="testMultiValuedWithKeywordAndLongDesc" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.142"/>
+  <testcase name="testWithKeywordLongAndMissingBucket" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.08"/>
+  <testcase name="testWithKeywordAndHistogram" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.171"/>
+  <testcase name="testMultiValuedWithKeyword" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.251"/>
+  <testcase name="testThatDateHistogramFailsFormatAfter" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.102"/>
+  <testcase name="testUnmappedField" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.193"/>
+  <testcase name="testDuplicateNames" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.002"/>
+  <testcase name="testWithKeywordAndDateHistogram" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.083"/>
+  <testcase name="testWithDateHistogram" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.083"/>
+  <testcase name="testWithHistogramAndKeyword" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.064"/>
+  <testcase name="testWithKeywordMissingAfter" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.078"/>
+  <testcase name="testWithKeywordAndLongDesc" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.055"/>
+  <testcase name="testRandomStrings" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.783"/>
+  <testcase name="testWithKeywordAndTopHits" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.084"/>
+  <testcase name="testWithDateHistogramAndKeyword" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.145"/>
+  <testcase name="testMissingSources" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.003"/>
+  <testcase name="testWithIP" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.172"/>
+  <testcase name="testWithGeoPoint" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.2"/>
+  <testcase name="testRandomLongs" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.184"/>
+  <testcase name="testRandomInts" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.224"/>
+  <testcase name="testWithDateHistogramAndFormat" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.062"/>
+  <testcase name="testMultiValuedWithKeywordLongAndDouble" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.125"/>
+  <testcase name="testWithKeywordAndLong" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.074"/>
+  <testcase name="testNullSourceNonNullCollection" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.003"/>
+  <testcase name="testWithTermsSubAggExecutionMode" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.117"/>
+  <testcase name="testWithKeywordDesc" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.043"/>
+  <testcase name="testWithDateHistogramAndTimeZone" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.046"/>
+  <testcase name="testMultiValuedWithKeywordDesc" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.044"/>
+  <testcase name="testMultiValuedWithKeywordAndLong" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.048"/>
+  <testcase name="testWithKeywordAndMissingBucket" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.079"/>
+  <testcase name="testWithDateTerms" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.039"/>
+  <testcase name="testWithKeyword" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeAggregatorTests" time="0.058"/>
+  <system-out><![CDATA[[2020-02-17T00:24:07,548][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeywordAndLongDesc] before test
+[2020-02-17T00:24:07,686][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeywordAndLongDesc] after test
+[2020-02-17T00:24:07,694][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordLongAndMissingBucket] before test
+[2020-02-17T00:24:07,767][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordLongAndMissingBucket] after test
+[2020-02-17T00:24:07,797][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndHistogram] before test
+[2020-02-17T00:24:07,939][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndHistogram] after test
+[2020-02-17T00:24:07,943][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeyword] before test
+[2020-02-17T00:24:08,189][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeyword] after test
+[2020-02-17T00:24:08,225][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testThatDateHistogramFailsFormatAfter] before test
+[2020-02-17T00:24:08,280][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testThatDateHistogramFailsFormatAfter] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,288][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testThatDateHistogramFailsFormatAfter] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,291][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testThatDateHistogramFailsFormatAfter] after test
+[2020-02-17T00:24:08,294][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testUnmappedField] before test
+[2020-02-17T00:24:08,484][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testUnmappedField] after test
+[2020-02-17T00:24:08,486][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testDuplicateNames] before test
+[2020-02-17T00:24:08,487][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testDuplicateNames] after test
+[2020-02-17T00:24:08,489][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndDateHistogram] before test
+[2020-02-17T00:24:08,493][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithKeywordAndDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,500][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithKeywordAndDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,515][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithKeywordAndDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,522][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithKeywordAndDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,532][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithKeywordAndDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,545][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithKeywordAndDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,553][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithKeywordAndDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,562][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithKeywordAndDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,569][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndDateHistogram] after test
+[2020-02-17T00:24:08,575][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateHistogram] before test
+[2020-02-17T00:24:08,577][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,587][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,595][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,600][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,607][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,612][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,619][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,624][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,630][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,635][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,641][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,646][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogram] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:08,652][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateHistogram] after test
+[2020-02-17T00:24:08,655][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithHistogramAndKeyword] before test
+[2020-02-17T00:24:08,716][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithHistogramAndKeyword] after test
+[2020-02-17T00:24:08,718][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordMissingAfter] before test
+[2020-02-17T00:24:08,795][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordMissingAfter] after test
+[2020-02-17T00:24:08,797][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndLongDesc] before test
+[2020-02-17T00:24:08,849][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndLongDesc] after test
+[2020-02-17T00:24:08,855][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testRandomStrings] before test
+[2020-02-17T00:24:09,632][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testRandomStrings] after test
+[2020-02-17T00:24:09,635][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndTopHits] before test
+[2020-02-17T00:24:09,716][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndTopHits] after test
+[2020-02-17T00:24:09,726][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateHistogramAndKeyword] before test
+[2020-02-17T00:24:09,730][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,737][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,761][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,771][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,780][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,797][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,805][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,811][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,821][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,826][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,834][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,853][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndKeyword] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:09,862][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateHistogramAndKeyword] after test
+[2020-02-17T00:24:09,864][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMissingSources] before test
+[2020-02-17T00:24:09,865][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMissingSources] after test
+[2020-02-17T00:24:09,888][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithIP] before test
+[2020-02-17T00:24:10,038][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithIP] after test
+[2020-02-17T00:24:10,047][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithGeoPoint] before test
+[2020-02-17T00:24:10,237][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithGeoPoint] after test
+[2020-02-17T00:24:10,242][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testRandomLongs] before test
+[2020-02-17T00:24:10,421][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testRandomLongs] after test
+[2020-02-17T00:24:10,423][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testRandomInts] before test
+[2020-02-17T00:24:10,646][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testRandomInts] after test
+[2020-02-17T00:24:10,650][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateHistogramAndFormat] before test
+[2020-02-17T00:24:10,653][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndFormat] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:10,658][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndFormat] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:10,668][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndFormat] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:10,674][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndFormat] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:10,683][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndFormat] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:10,691][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndFormat] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:10,698][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndFormat] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:10,702][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndFormat] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:10,708][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateHistogramAndFormat] after test
+[2020-02-17T00:24:10,729][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeywordLongAndDouble] before test
+[2020-02-17T00:24:10,833][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeywordLongAndDouble] after test
+[2020-02-17T00:24:10,834][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndLong] before test
+[2020-02-17T00:24:10,907][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndLong] after test
+[2020-02-17T00:24:10,909][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testNullSourceNonNullCollection] before test
+[2020-02-17T00:24:10,910][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testNullSourceNonNullCollection] after test
+[2020-02-17T00:24:10,912][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithTermsSubAggExecutionMode] before test
+[2020-02-17T00:24:11,026][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithTermsSubAggExecutionMode] after test
+[2020-02-17T00:24:11,028][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordDesc] before test
+[2020-02-17T00:24:11,070][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordDesc] after test
+[2020-02-17T00:24:11,071][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateHistogramAndTimeZone] before test
+[2020-02-17T00:24:11,074][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndTimeZone] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,078][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndTimeZone] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,084][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndTimeZone] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,088][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndTimeZone] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,095][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndTimeZone] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,099][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndTimeZone] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,107][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndTimeZone] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,112][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testWithDateHistogramAndTimeZone] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:24:11,116][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateHistogramAndTimeZone] after test
+[2020-02-17T00:24:11,118][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeywordDesc] before test
+[2020-02-17T00:24:11,159][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeywordDesc] after test
+[2020-02-17T00:24:11,161][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeywordAndLong] before test
+[2020-02-17T00:24:11,207][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testMultiValuedWithKeywordAndLong] after test
+[2020-02-17T00:24:11,209][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndMissingBucket] before test
+[2020-02-17T00:24:11,287][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeywordAndMissingBucket] after test
+[2020-02-17T00:24:11,291][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateTerms] before test
+[2020-02-17T00:24:11,326][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithDateTerms] after test
+[2020-02-17T00:24:11,328][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeyword] before test
+[2020-02-17T00:24:11,385][INFO ][o.e.s.a.b.c.CompositeAggregatorTests] [testWithKeyword] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

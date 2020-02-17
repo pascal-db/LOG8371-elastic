@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.ListenableFutureTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:51" hostname="Escoto-PC" time="0.061">
+  <properties/>
+  <testcase name="testListenableFutureNotifiesListeners" classname="org.elasticsearch.common.util.concurrent.ListenableFutureTests" time="0.003"/>
+  <testcase name="testConcurrentListenerRegistrationAndCompletion" classname="org.elasticsearch.common.util.concurrent.ListenableFutureTests" time="0.055"/>
+  <testcase name="testListenableFutureNotifiesListenersOnException" classname="org.elasticsearch.common.util.concurrent.ListenableFutureTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:20:51,667][INFO ][o.e.c.u.c.ListenableFutureTests] [testListenableFutureNotifiesListeners] before test
+[2020-02-17T06:20:51,667][INFO ][o.e.c.u.c.ListenableFutureTests] [testListenableFutureNotifiesListeners] after test
+[2020-02-17T06:20:51,670][INFO ][o.e.c.u.c.ListenableFutureTests] [testConcurrentListenerRegistrationAndCompletion] before test
+[2020-02-17T06:20:51,673][INFO ][o.e.c.u.c.ListenableFutureTests] [[Thread-261]] adding listener 3
+[2020-02-17T06:20:51,673][INFO ][o.e.c.u.c.ListenableFutureTests] [[Thread-258]] adding listener 0
+[2020-02-17T06:20:51,674][INFO ][o.e.c.u.c.ListenableFutureTests] [[Thread-258]] listener 0 added
+[2020-02-17T06:20:51,674][INFO ][o.e.c.u.c.ListenableFutureTests] [[Thread-261]] listener 3 added
+[2020-02-17T06:20:51,674][INFO ][o.e.c.u.c.ListenableFutureTests] [[Thread-260]] adding listener 2
+[2020-02-17T06:20:51,674][INFO ][o.e.c.u.c.ListenableFutureTests] [[Thread-260]] listener 2 added
+[2020-02-17T06:20:51,720][INFO ][o.e.c.u.c.ListenableFutureTests] [[Thread-259]] completing the future after sleeping 44ms
+[2020-02-17T06:20:51,721][INFO ][o.e.c.u.c.ListenableFutureTests] [[listener[T#1]]] listener 0 received value 
+[2020-02-17T06:20:51,722][INFO ][o.e.c.u.c.ListenableFutureTests] [[Thread-259]] future received response
+[2020-02-17T06:20:51,722][INFO ][o.e.c.u.c.ListenableFutureTests] [[listener[T#3]]] listener 2 received value 
+[2020-02-17T06:20:51,722][INFO ][o.e.c.u.c.ListenableFutureTests] [[listener[T#2]]] listener 3 received value 
+[2020-02-17T06:20:51,723][INFO ][o.e.c.u.c.ListenableFutureTests] [testConcurrentListenerRegistrationAndCompletion] after test
+[2020-02-17T06:20:51,725][INFO ][o.e.c.u.c.ListenableFutureTests] [testListenableFutureNotifiesListenersOnException] before test
+[2020-02-17T06:20:51,725][INFO ][o.e.c.u.c.ListenableFutureTests] [testListenableFutureNotifiesListenersOnException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.PrimaryNotRelocatedWhileBeingRecoveredTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:38" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testPrimaryNotRelocatedWhileBeingRecoveredFrom" classname="org.elasticsearch.cluster.routing.allocation.PrimaryNotRelocatedWhileBeingRecoveredTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T16:21:38,495][INFO ][o.e.c.r.a.PrimaryNotRelocatedWhileBeingRecoveredTests] [testPrimaryNotRelocatedWhileBeingRecoveredFrom] before test
+[2020-02-16T16:21:38,497][INFO ][o.e.c.r.a.PrimaryNotRelocatedWhileBeingRecoveredTests] [testPrimaryNotRelocatedWhileBeingRecoveredFrom] Building initial routing table
+[2020-02-16T16:21:38,498][INFO ][o.e.c.r.a.PrimaryNotRelocatedWhileBeingRecoveredTests] [testPrimaryNotRelocatedWhileBeingRecoveredFrom] Adding two nodes and performing rerouting
+[2020-02-16T16:21:38,498][INFO ][o.e.c.r.a.PrimaryNotRelocatedWhileBeingRecoveredTests] [testPrimaryNotRelocatedWhileBeingRecoveredFrom] Start the primary shard (on node1)
+[2020-02-16T16:21:38,498][INFO ][o.e.c.r.a.PrimaryNotRelocatedWhileBeingRecoveredTests] [testPrimaryNotRelocatedWhileBeingRecoveredFrom] start another node, replica will start recovering form primary
+[2020-02-16T16:21:38,499][INFO ][o.e.c.r.a.PrimaryNotRelocatedWhileBeingRecoveredTests] [testPrimaryNotRelocatedWhileBeingRecoveredFrom] start another node, make sure the primary is not relocated
+[2020-02-16T16:21:38,499][INFO ][o.e.c.r.a.PrimaryNotRelocatedWhileBeingRecoveredTests] [testPrimaryNotRelocatedWhileBeingRecoveredFrom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

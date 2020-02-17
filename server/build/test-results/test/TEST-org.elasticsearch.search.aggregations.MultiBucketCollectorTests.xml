@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.MultiBucketCollectorTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:33" hostname="Escoto-PC" time="0.031">
+  <properties/>
+  <testcase name="testCollectionTerminatedExceptionHandling" classname="org.elasticsearch.search.aggregations.MultiBucketCollectorTests" time="0.028"/>
+  <testcase name="testSetScorerAfterCollectionTerminated" classname="org.elasticsearch.search.aggregations.MultiBucketCollectorTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:25:33,146][INFO ][o.e.s.a.MultiBucketCollectorTests] [testCollectionTerminatedExceptionHandling] before test
+[2020-02-16T22:25:33,173][INFO ][o.e.s.a.MultiBucketCollectorTests] [testCollectionTerminatedExceptionHandling] after test
+[2020-02-16T22:25:33,175][INFO ][o.e.s.a.MultiBucketCollectorTests] [testSetScorerAfterCollectionTerminated] before test
+[2020-02-16T22:25:33,176][INFO ][o.e.s.a.MultiBucketCollectorTests] [testSetScorerAfterCollectionTerminated] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

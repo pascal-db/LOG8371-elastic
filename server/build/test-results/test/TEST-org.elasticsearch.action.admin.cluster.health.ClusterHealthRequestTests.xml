@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.health.ClusterHealthRequestTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:00" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testBwcSerialization" classname="org.elasticsearch.action.admin.cluster.health.ClusterHealthRequestTests" time="0.011"/>
+  <testcase name="testSerialize" classname="org.elasticsearch.action.admin.cluster.health.ClusterHealthRequestTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T01:20:00,655][INFO ][o.e.a.a.c.h.ClusterHealthRequestTests] [testBwcSerialization] before test
+[2020-02-17T01:20:00,663][INFO ][o.e.a.a.c.h.ClusterHealthRequestTests] [testBwcSerialization] after test
+[2020-02-17T01:20:00,665][INFO ][o.e.a.a.c.h.ClusterHealthRequestTests] [testSerialize] before test
+[2020-02-17T01:20:00,666][INFO ][o.e.a.a.c.h.ClusterHealthRequestTests] [testSerialize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

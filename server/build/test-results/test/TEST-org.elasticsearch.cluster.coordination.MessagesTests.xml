@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.MessagesTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:32" hostname="Escoto-PC" time="0.073">
+  <properties/>
+  <testcase name="testPublishWithJoinResponseEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.006"/>
+  <testcase name="testPreVoteRequestEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.009"/>
+  <testcase name="testPublishResponseEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.029"/>
+  <testcase name="testStartJoinRequestEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.006"/>
+  <testcase name="testApplyCommitEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.004"/>
+  <testcase name="testJoinRequestEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.004"/>
+  <testcase name="testPreVoteResponseEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.005"/>
+  <testcase name="testJoinEqualsHashCodeSerialization" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.005"/>
+  <testcase name="testPublishRequestEqualsHashCode" classname="org.elasticsearch.cluster.coordination.MessagesTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T23:20:32,834][INFO ][o.e.c.c.MessagesTests    ] [testPublishWithJoinResponseEqualsHashCodeSerialization] before test
+[2020-02-16T23:20:32,836][INFO ][o.e.c.c.MessagesTests    ] [testPublishWithJoinResponseEqualsHashCodeSerialization] after test
+[2020-02-16T23:20:32,844][INFO ][o.e.c.c.MessagesTests    ] [testPreVoteRequestEqualsHashCodeSerialization] before test
+[2020-02-16T23:20:32,845][INFO ][o.e.c.c.MessagesTests    ] [testPreVoteRequestEqualsHashCodeSerialization] after test
+[2020-02-16T23:20:32,853][INFO ][o.e.c.c.MessagesTests    ] [testPublishResponseEqualsHashCodeSerialization] before test
+[2020-02-16T23:20:32,874][INFO ][o.e.c.c.MessagesTests    ] [testPublishResponseEqualsHashCodeSerialization] after test
+[2020-02-16T23:20:32,879][INFO ][o.e.c.c.MessagesTests    ] [testStartJoinRequestEqualsHashCodeSerialization] before test
+[2020-02-16T23:20:32,880][INFO ][o.e.c.c.MessagesTests    ] [testStartJoinRequestEqualsHashCodeSerialization] after test
+[2020-02-16T23:20:32,883][INFO ][o.e.c.c.MessagesTests    ] [testApplyCommitEqualsHashCodeSerialization] before test
+[2020-02-16T23:20:32,884][INFO ][o.e.c.c.MessagesTests    ] [testApplyCommitEqualsHashCodeSerialization] after test
+[2020-02-16T23:20:32,887][INFO ][o.e.c.c.MessagesTests    ] [testJoinRequestEqualsHashCodeSerialization] before test
+[2020-02-16T23:20:32,888][INFO ][o.e.c.c.MessagesTests    ] [testJoinRequestEqualsHashCodeSerialization] after test
+[2020-02-16T23:20:32,891][INFO ][o.e.c.c.MessagesTests    ] [testPreVoteResponseEqualsHashCodeSerialization] before test
+[2020-02-16T23:20:32,893][INFO ][o.e.c.c.MessagesTests    ] [testPreVoteResponseEqualsHashCodeSerialization] after test
+[2020-02-16T23:20:32,897][INFO ][o.e.c.c.MessagesTests    ] [testJoinEqualsHashCodeSerialization] before test
+[2020-02-16T23:20:32,898][INFO ][o.e.c.c.MessagesTests    ] [testJoinEqualsHashCodeSerialization] after test
+[2020-02-16T23:20:32,902][INFO ][o.e.c.c.MessagesTests    ] [testPublishRequestEqualsHashCode] before test
+[2020-02-16T23:20:32,903][INFO ][o.e.c.c.MessagesTests    ] [testPublishRequestEqualsHashCode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

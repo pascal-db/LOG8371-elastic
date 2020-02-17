@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.BooleanFieldTypeTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:13" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.BooleanFieldTypeTests" time="0.006"/>
+  <testcase name="testTermQuery" classname="org.elasticsearch.index.mapper.BooleanFieldTypeTests" time="0.003"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.BooleanFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.BooleanFieldTypeTests" time="0.001"/>
+  <testcase name="testValueForSearch" classname="org.elasticsearch.index.mapper.BooleanFieldTypeTests" time="0.001"/>
+  <testcase name="testValueFormat" classname="org.elasticsearch.index.mapper.BooleanFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.BooleanFieldTypeTests" time="0.002"/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.BooleanFieldTypeTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T02:22:13,518][INFO ][o.e.i.m.BooleanFieldTypeTests] [testFreeze] before test
+[2020-02-17T02:22:13,520][INFO ][o.e.i.m.BooleanFieldTypeTests] [testFreeze] after test
+[2020-02-17T02:22:13,522][INFO ][o.e.i.m.BooleanFieldTypeTests] [testTermQuery] before test
+[2020-02-17T02:22:13,523][INFO ][o.e.i.m.BooleanFieldTypeTests] [testTermQuery] after test
+[2020-02-17T02:22:13,524][INFO ][o.e.i.m.BooleanFieldTypeTests] [testEquals] before test
+[2020-02-17T02:22:13,525][INFO ][o.e.i.m.BooleanFieldTypeTests] [testEquals] after test
+[2020-02-17T02:22:13,526][INFO ][o.e.i.m.BooleanFieldTypeTests] [testCheckCompatibility] before test
+[2020-02-17T02:22:13,526][INFO ][o.e.i.m.BooleanFieldTypeTests] [testCheckCompatibility] after test
+[2020-02-17T02:22:13,528][INFO ][o.e.i.m.BooleanFieldTypeTests] [testValueForSearch] before test
+[2020-02-17T02:22:13,528][INFO ][o.e.i.m.BooleanFieldTypeTests] [testValueForSearch] after test
+[2020-02-17T02:22:13,530][INFO ][o.e.i.m.BooleanFieldTypeTests] [testValueFormat] before test
+[2020-02-17T02:22:13,530][INFO ][o.e.i.m.BooleanFieldTypeTests] [testValueFormat] after test
+[2020-02-17T02:22:13,531][INFO ][o.e.i.m.BooleanFieldTypeTests] [testCheckTypeName] before test
+[2020-02-17T02:22:13,532][INFO ][o.e.i.m.BooleanFieldTypeTests] [testCheckTypeName] after test
+[2020-02-17T02:22:13,533][INFO ][o.e.i.m.BooleanFieldTypeTests] [testClone] before test
+[2020-02-17T02:22:13,533][INFO ][o.e.i.m.BooleanFieldTypeTests] [testClone] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

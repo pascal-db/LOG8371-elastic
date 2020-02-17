@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.GatewayMetaStateTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:24" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testIndexMetaDataUpgrade" classname="org.elasticsearch.gateway.GatewayMetaStateTests" time="0.003"/>
+  <testcase name="testIndexTemplateValidation" classname="org.elasticsearch.gateway.GatewayMetaStateTests" time="0.003"/>
+  <testcase name="testCustomMetaDataNoChange" classname="org.elasticsearch.gateway.GatewayMetaStateTests" time="0.002"/>
+  <testcase name="testMultipleIndexTemplateUpgrade" classname="org.elasticsearch.gateway.GatewayMetaStateTests" time="0.003"/>
+  <testcase name="testNoMetaDataUpgrade" classname="org.elasticsearch.gateway.GatewayMetaStateTests" time="0.002"/>
+  <testcase name="testUpdateTemplateMetaDataOnUpgrade" classname="org.elasticsearch.gateway.GatewayMetaStateTests" time="0.002"/>
+  <testcase name="testCustomMetaDataValidation" classname="org.elasticsearch.gateway.GatewayMetaStateTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T19:22:25,002][INFO ][o.e.g.GatewayMetaStateTests] [testIndexMetaDataUpgrade] before test
+[2020-02-16T19:22:25,003][INFO ][o.e.g.GatewayMetaStateTests] [testIndexMetaDataUpgrade] after test
+[2020-02-16T19:22:25,006][INFO ][o.e.g.GatewayMetaStateTests] [testIndexTemplateValidation] before test
+[2020-02-16T19:22:25,007][INFO ][o.e.g.GatewayMetaStateTests] [testIndexTemplateValidation] after test
+[2020-02-16T19:22:25,009][INFO ][o.e.g.GatewayMetaStateTests] [testCustomMetaDataNoChange] before test
+[2020-02-16T19:22:25,010][INFO ][o.e.g.GatewayMetaStateTests] [testCustomMetaDataNoChange] after test
+[2020-02-16T19:22:25,012][INFO ][o.e.g.GatewayMetaStateTests] [testMultipleIndexTemplateUpgrade] before test
+[2020-02-16T19:22:25,013][INFO ][o.e.g.GatewayMetaStateTests] [testMultipleIndexTemplateUpgrade] after test
+[2020-02-16T19:22:25,014][INFO ][o.e.g.GatewayMetaStateTests] [testNoMetaDataUpgrade] before test
+[2020-02-16T19:22:25,015][INFO ][o.e.g.GatewayMetaStateTests] [testNoMetaDataUpgrade] after test
+[2020-02-16T19:22:25,017][INFO ][o.e.g.GatewayMetaStateTests] [testUpdateTemplateMetaDataOnUpgrade] before test
+[2020-02-16T19:22:25,017][INFO ][o.e.g.GatewayMetaStateTests] [testUpdateTemplateMetaDataOnUpgrade] after test
+[2020-02-16T19:22:25,019][INFO ][o.e.g.GatewayMetaStateTests] [testCustomMetaDataValidation] before test
+[2020-02-16T19:22:25,019][INFO ][o.e.g.GatewayMetaStateTests] [testCustomMetaDataValidation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

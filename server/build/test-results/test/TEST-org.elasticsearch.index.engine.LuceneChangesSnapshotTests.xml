@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.engine.LuceneChangesSnapshotTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:56" hostname="Escoto-PC" time="0.382">
+  <properties/>
+  <testcase name="testUpdateAndReadChangesConcurrently" classname="org.elasticsearch.index.engine.LuceneChangesSnapshotTests" time="0.215"/>
+  <testcase name="testBasics" classname="org.elasticsearch.index.engine.LuceneChangesSnapshotTests" time="0.05"/>
+  <testcase name="testOverFlow" classname="org.elasticsearch.index.engine.LuceneChangesSnapshotTests" time="0.05"/>
+  <testcase name="testSkipNonRootOfNestedDocuments" classname="org.elasticsearch.index.engine.LuceneChangesSnapshotTests" time="0.066"/>
+  <system-out><![CDATA[[2020-02-16T18:21:56,349][INFO ][o.e.i.e.LuceneChangesSnapshotTests] [testUpdateAndReadChangesConcurrently] before test
+[2020-02-16T18:21:56,563][INFO ][o.e.i.e.LuceneChangesSnapshotTests] [testUpdateAndReadChangesConcurrently] after test
+[2020-02-16T18:21:56,565][INFO ][o.e.i.e.LuceneChangesSnapshotTests] [testBasics] before test
+[2020-02-16T18:21:56,613][INFO ][o.e.i.e.LuceneChangesSnapshotTests] [testBasics] after test
+[2020-02-16T18:21:56,615][INFO ][o.e.i.e.LuceneChangesSnapshotTests] [testOverFlow] before test
+[2020-02-16T18:21:56,663][INFO ][o.e.i.e.LuceneChangesSnapshotTests] [testOverFlow] after test
+[2020-02-16T18:21:56,671][INFO ][o.e.i.e.LuceneChangesSnapshotTests] [testSkipNonRootOfNestedDocuments] before test
+[2020-02-16T18:21:56,729][INFO ][o.e.i.e.LuceneChangesSnapshotTests] [testSkipNonRootOfNestedDocuments] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

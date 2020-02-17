@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.apache.lucene.queries.MinDocQueryTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:57" hostname="Escoto-PC" time="0.239">
+  <properties/>
+  <testcase name="testRandom" classname="org.apache.lucene.queries.MinDocQueryTests" time="0.132"/>
+  <testcase name="testBasics" classname="org.apache.lucene.queries.MinDocQueryTests" time="0.104"/>
+  <testcase name="testRewrite" classname="org.apache.lucene.queries.MinDocQueryTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:19:58,069][INFO ][o.a.l.q.MinDocQueryTests ] [testRandom] before test
+[2020-02-17T06:19:58,085][INFO ][o.a.l.q.MinDocQueryTests ] [testRandom] after test
+[2020-02-17T06:19:58,189][INFO ][o.a.l.q.MinDocQueryTests ] [testBasics] before test
+[2020-02-17T06:19:58,190][INFO ][o.a.l.q.MinDocQueryTests ] [testBasics] after test
+[2020-02-17T06:19:58,192][INFO ][o.a.l.q.MinDocQueryTests ] [testRewrite] before test
+[2020-02-17T06:19:58,192][INFO ][o.a.l.q.MinDocQueryTests ] [testRewrite] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.ClusterFormationFailureHelperTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:31" hostname="Escoto-PC" time="0.045">
+  <properties/>
+  <testcase name="testDescriptionForBWCState" classname="org.elasticsearch.cluster.coordination.ClusterFormationFailureHelperTests" time="0.007"/>
+  <testcase name="testDescriptionOnMasterIneligibleNodes" classname="org.elasticsearch.cluster.coordination.ClusterFormationFailureHelperTests" time="0.013"/>
+  <testcase name="testDescriptionBeforeBootstrapping" classname="org.elasticsearch.cluster.coordination.ClusterFormationFailureHelperTests" time="0.004"/>
+  <testcase name="testDescriptionAfterBootstrapping" classname="org.elasticsearch.cluster.coordination.ClusterFormationFailureHelperTests" time="0.006"/>
+  <testcase name="testDescriptionAfterDetachCluster" classname="org.elasticsearch.cluster.coordination.ClusterFormationFailureHelperTests" time="0.005"/>
+  <testcase name="testScheduling" classname="org.elasticsearch.cluster.coordination.ClusterFormationFailureHelperTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T03:50:31,953][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionForBWCState] before test
+[2020-02-17T03:50:31,955][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionForBWCState] after test
+[2020-02-17T03:50:31,967][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionOnMasterIneligibleNodes] before test
+[2020-02-17T03:50:31,968][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionOnMasterIneligibleNodes] after test
+[2020-02-17T03:50:31,972][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionBeforeBootstrapping] before test
+[2020-02-17T03:50:31,973][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionBeforeBootstrapping] after test
+[2020-02-17T03:50:31,975][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionAfterBootstrapping] before test
+[2020-02-17T03:50:31,979][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionAfterBootstrapping] after test
+[2020-02-17T03:50:31,983][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionAfterDetachCluster] before test
+[2020-02-17T03:50:31,984][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testDescriptionAfterDetachCluster] after test
+[2020-02-17T03:50:31,987][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testScheduling] before test
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][WARN ][o.e.c.c.ClusterFormationFailureHelper] [testScheduling] master not discovered yet: have discovered []; discovery will continue using [] from hosts providers and [] from last-known cluster state; node term 0, last-accepted version 0 in term 0
+[2020-02-17T03:50:31,992][INFO ][o.e.c.c.ClusterFormationFailureHelperTests] [testScheduling] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

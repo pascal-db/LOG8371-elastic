@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplanationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:01" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testExplanationSerialization" classname="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplanationTests" time="0.015"/>
+  <testcase name="testDecisionEquality" classname="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplanationTests" time="0.002"/>
+  <testcase name="testExplanationToXContent" classname="org.elasticsearch.action.admin.cluster.allocation.ClusterAllocationExplanationTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T19:20:01,364][INFO ][o.e.a.a.c.a.ClusterAllocationExplanationTests] [testExplanationSerialization] before test
+[2020-02-16T19:20:01,377][INFO ][o.e.a.a.c.a.ClusterAllocationExplanationTests] [testExplanationSerialization] after test
+[2020-02-16T19:20:01,378][INFO ][o.e.a.a.c.a.ClusterAllocationExplanationTests] [testDecisionEquality] before test
+[2020-02-16T19:20:01,379][INFO ][o.e.a.a.c.a.ClusterAllocationExplanationTests] [testDecisionEquality] after test
+[2020-02-16T19:20:01,387][INFO ][o.e.a.a.c.a.ClusterAllocationExplanationTests] [testExplanationToXContent] before test
+[2020-02-16T19:20:01,388][INFO ][o.e.a.a.c.a.ClusterAllocationExplanationTests] [testExplanationToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.support.ScriptValuesTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testLongs" classname="org.elasticsearch.search.aggregations.support.ScriptValuesTests" time="0.011"/>
+  <testcase name="testBooleans" classname="org.elasticsearch.search.aggregations.support.ScriptValuesTests" time="0.003"/>
+  <testcase name="testBytes" classname="org.elasticsearch.search.aggregations.support.ScriptValuesTests" time="0.002"/>
+  <testcase name="testDoubles" classname="org.elasticsearch.search.aggregations.support.ScriptValuesTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:25:35,307][INFO ][o.e.s.a.s.ScriptValuesTests] [testLongs] before test
+[2020-02-17T00:25:35,315][INFO ][o.e.s.a.s.ScriptValuesTests] [testLongs] after test
+[2020-02-17T00:25:35,318][INFO ][o.e.s.a.s.ScriptValuesTests] [testBooleans] before test
+[2020-02-17T00:25:35,319][INFO ][o.e.s.a.s.ScriptValuesTests] [testBooleans] after test
+[2020-02-17T00:25:35,320][INFO ][o.e.s.a.s.ScriptValuesTests] [testBytes] before test
+[2020-02-17T00:25:35,321][INFO ][o.e.s.a.s.ScriptValuesTests] [testBytes] after test
+[2020-02-17T00:25:35,322][INFO ][o.e.s.a.s.ScriptValuesTests] [testDoubles] before test
+[2020-02-17T00:25:35,323][INFO ][o.e.s.a.s.ScriptValuesTests] [testDoubles] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

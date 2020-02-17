@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.GeometryIndexerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:45" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testPolygonOrientation" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.01"/>
+  <testcase name="testMultiLine" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.004"/>
+  <testcase name="testPolygon" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.003"/>
+  <testcase name="testRandomLine" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.003"/>
+  <testcase name="testCircle" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.003"/>
+  <testcase name="testLine" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.003"/>
+  <testcase name="testMultiPoint" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.002"/>
+  <testcase name="testCollection" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.005"/>
+  <testcase name="testPoint" classname="org.elasticsearch.common.geo.GeometryIndexerTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T03:20:45,091][INFO ][o.e.c.g.GeometryIndexerTests] [testPolygonOrientation] before test
+[2020-02-17T03:20:45,097][INFO ][o.e.c.g.GeometryIndexerTests] [testPolygonOrientation] after test
+[2020-02-17T03:20:45,101][INFO ][o.e.c.g.GeometryIndexerTests] [testMultiLine] before test
+[2020-02-17T03:20:45,101][INFO ][o.e.c.g.GeometryIndexerTests] [testMultiLine] after test
+[2020-02-17T03:20:45,104][INFO ][o.e.c.g.GeometryIndexerTests] [testPolygon] before test
+[2020-02-17T03:20:45,104][INFO ][o.e.c.g.GeometryIndexerTests] [testPolygon] after test
+[2020-02-17T03:20:45,106][INFO ][o.e.c.g.GeometryIndexerTests] [testRandomLine] before test
+[2020-02-17T03:20:45,107][INFO ][o.e.c.g.GeometryIndexerTests] [testRandomLine] after test
+[2020-02-17T03:20:45,110][INFO ][o.e.c.g.GeometryIndexerTests] [testCircle] before test
+[2020-02-17T03:20:45,110][INFO ][o.e.c.g.GeometryIndexerTests] [testCircle] after test
+[2020-02-17T03:20:45,113][INFO ][o.e.c.g.GeometryIndexerTests] [testLine] before test
+[2020-02-17T03:20:45,113][INFO ][o.e.c.g.GeometryIndexerTests] [testLine] after test
+[2020-02-17T03:20:45,115][INFO ][o.e.c.g.GeometryIndexerTests] [testMultiPoint] before test
+[2020-02-17T03:20:45,115][INFO ][o.e.c.g.GeometryIndexerTests] [testMultiPoint] after test
+[2020-02-17T03:20:45,119][INFO ][o.e.c.g.GeometryIndexerTests] [testCollection] before test
+[2020-02-17T03:20:45,120][INFO ][o.e.c.g.GeometryIndexerTests] [testCollection] after test
+[2020-02-17T03:20:45,125][INFO ][o.e.c.g.GeometryIndexerTests] [testPoint] before test
+[2020-02-17T03:20:45,125][INFO ][o.e.c.g.GeometryIndexerTests] [testPoint] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

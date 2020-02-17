@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.WrapperQueryBuilderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:41" hostname="Escoto-PC" time="0.124">
+  <properties/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.015"/>
+  <testcase name="testRewriteWithInnerName" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.003"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.011"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.005"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.002"/>
+  <testcase name="testIllegalArgument" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.004"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.005"/>
+  <testcase name="testRewriteWithInnerBoost" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.004"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.017"/>
+  <testcase name="testRewriteInnerQueryToo" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.04"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.WrapperQueryBuilderTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T19:23:41,661][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T19:23:41,663][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no modules loaded
+[2020-02-16T19:23:41,663][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no plugins loaded
+[2020-02-16T19:23:41,669][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no modules loaded
+[2020-02-16T19:23:41,669][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no plugins loaded
+[2020-02-16T19:23:41,673][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T19:23:41,675][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testRewriteWithInnerName] before test
+[2020-02-16T19:23:41,676][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testRewriteWithInnerName] after test
+[2020-02-16T19:23:41,678][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testCacheability] before test
+[2020-02-16T19:23:41,678][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testCacheability] after test
+[2020-02-16T19:23:41,680][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T19:23:41,681][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T19:23:41,683][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T19:23:41,684][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T19:23:41,686][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testToQuery] before test
+[2020-02-16T19:23:41,694][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testToQuery] after test
+[2020-02-16T19:23:41,699][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T19:23:41,699][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T19:23:41,701][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testSerialization] before test
+[2020-02-16T19:23:41,702][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testSerialization] after test
+[2020-02-16T19:23:41,704][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testIllegalArgument] before test
+[2020-02-16T19:23:41,705][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testIllegalArgument] after test
+[2020-02-16T19:23:41,710][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T19:23:41,710][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T19:23:41,714][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testRewriteWithInnerBoost] before test
+[2020-02-16T19:23:41,714][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testRewriteWithInnerBoost] after test
+[2020-02-16T19:23:41,717][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:23:41,718][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:23:41,734][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T19:23:41,734][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T19:23:41,767][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testRewriteInnerQueryToo] before test
+[2020-02-16T19:23:41,774][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testRewriteInnerQueryToo] after test
+[2020-02-16T19:23:41,777][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testFromJson] before test
+[2020-02-16T19:23:41,778][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testFromJson] after test
+[2020-02-16T19:23:41,780][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T19:23:41,781][INFO ][o.e.i.q.WrapperQueryBuilderTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

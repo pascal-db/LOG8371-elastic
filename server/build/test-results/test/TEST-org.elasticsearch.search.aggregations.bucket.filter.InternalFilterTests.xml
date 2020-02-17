@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.filter.InternalFilterTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:12" hostname="Escoto-PC" time="0.07">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFilterTests" time="0.004"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFilterTests" time="0.016"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFilterTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFilterTests" time="0.038"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFilterTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T17:24:12,638][INFO ][o.e.s.a.b.f.InternalFilterTests] [testSerialization] before test
+[2020-02-16T17:24:12,640][INFO ][o.e.s.a.b.f.InternalFilterTests] [testSerialization] after test
+[2020-02-16T17:24:12,650][INFO ][o.e.s.a.b.f.InternalFilterTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T17:24:12,655][INFO ][o.e.s.a.b.f.InternalFilterTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T17:24:12,658][INFO ][o.e.s.a.b.f.InternalFilterTests] [testReduceRandom] before test
+[2020-02-16T17:24:12,660][INFO ][o.e.s.a.b.f.InternalFilterTests] [testReduceRandom] after test
+[2020-02-16T17:24:12,684][INFO ][o.e.s.a.b.f.InternalFilterTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:24:12,698][INFO ][o.e.s.a.b.f.InternalFilterTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:24:12,705][INFO ][o.e.s.a.b.f.InternalFilterTests] [testFromXContent] before test
+[2020-02-16T17:24:12,705][INFO ][o.e.s.a.b.f.InternalFilterTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

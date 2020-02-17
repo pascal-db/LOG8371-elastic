@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.ThreadContextTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:51" hostname="Escoto-PC" time="0.061">
+  <properties/>
+  <testcase name="testSerializeInDifferentContextNoDefaults" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.003"/>
+  <testcase name="testPreservesThreadsOriginalContextOnRunException" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.004"/>
+  <testcase name="testPreserveContext" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testPutHeaders" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.004"/>
+  <testcase name="testStashWithOrigin" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testStashAndMerge" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testRestorableContext" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testSerializeInDifferentContext" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.004"/>
+  <testcase name="testStoreContext" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.006"/>
+  <testcase name="testAccessClosed" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testPreserveContextKeepsOriginalContextWhenCalledTwice" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.003"/>
+  <testcase name="testStashAndMergeWithModifiedDefaults" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.003"/>
+  <testcase name="testMarkAsSystemContext" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testCanResetDefault" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.003"/>
+  <testcase name="testResponseHeaders" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.005"/>
+  <testcase name="testSerialize" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testPreservesThreadsOriginalContextOnFailureException" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testCopyHeaders" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <testcase name="testPreservesThreadsOriginalContextOnAfterException" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.004"/>
+  <testcase name="testStashContext" classname="org.elasticsearch.common.util.concurrent.ThreadContextTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T11:20:51,809][INFO ][o.e.c.u.c.ThreadContextTests] [testSerializeInDifferentContextNoDefaults] before test
+[2020-02-17T11:20:51,811][INFO ][o.e.c.u.c.ThreadContextTests] [testSerializeInDifferentContextNoDefaults] after test
+[2020-02-17T11:20:51,814][INFO ][o.e.c.u.c.ThreadContextTests] [testPreservesThreadsOriginalContextOnRunException] before test
+[2020-02-17T11:20:51,815][INFO ][o.e.c.u.c.ThreadContextTests] [testPreservesThreadsOriginalContextOnRunException] after test
+[2020-02-17T11:20:51,816][INFO ][o.e.c.u.c.ThreadContextTests] [testPreserveContext] before test
+[2020-02-17T11:20:51,817][INFO ][o.e.c.u.c.ThreadContextTests] [testPreserveContext] after test
+[2020-02-17T11:20:51,820][INFO ][o.e.c.u.c.ThreadContextTests] [testPutHeaders] before test
+[2020-02-17T11:20:51,821][INFO ][o.e.c.u.c.ThreadContextTests] [testPutHeaders] after test
+[2020-02-17T11:20:51,822][INFO ][o.e.c.u.c.ThreadContextTests] [testStashWithOrigin] before test
+[2020-02-17T11:20:51,823][INFO ][o.e.c.u.c.ThreadContextTests] [testStashWithOrigin] after test
+[2020-02-17T11:20:51,825][INFO ][o.e.c.u.c.ThreadContextTests] [testStashAndMerge] before test
+[2020-02-17T11:20:51,825][INFO ][o.e.c.u.c.ThreadContextTests] [testStashAndMerge] after test
+[2020-02-17T11:20:51,827][INFO ][o.e.c.u.c.ThreadContextTests] [testRestorableContext] before test
+[2020-02-17T11:20:51,827][INFO ][o.e.c.u.c.ThreadContextTests] [testRestorableContext] after test
+[2020-02-17T11:20:51,831][INFO ][o.e.c.u.c.ThreadContextTests] [testSerializeInDifferentContext] before test
+[2020-02-17T11:20:51,832][INFO ][o.e.c.u.c.ThreadContextTests] [testSerializeInDifferentContext] after test
+[2020-02-17T11:20:51,838][INFO ][o.e.c.u.c.ThreadContextTests] [testStoreContext] before test
+[2020-02-17T11:20:51,838][INFO ][o.e.c.u.c.ThreadContextTests] [testStoreContext] after test
+[2020-02-17T11:20:51,840][INFO ][o.e.c.u.c.ThreadContextTests] [testAccessClosed] before test
+[2020-02-17T11:20:51,840][INFO ][o.e.c.u.c.ThreadContextTests] [testAccessClosed] after test
+[2020-02-17T11:20:51,843][INFO ][o.e.c.u.c.ThreadContextTests] [testPreserveContextKeepsOriginalContextWhenCalledTwice] before test
+[2020-02-17T11:20:51,843][INFO ][o.e.c.u.c.ThreadContextTests] [testPreserveContextKeepsOriginalContextWhenCalledTwice] after test
+[2020-02-17T11:20:51,846][INFO ][o.e.c.u.c.ThreadContextTests] [testStashAndMergeWithModifiedDefaults] before test
+[2020-02-17T11:20:51,846][INFO ][o.e.c.u.c.ThreadContextTests] [testStashAndMergeWithModifiedDefaults] after test
+[2020-02-17T11:20:51,848][INFO ][o.e.c.u.c.ThreadContextTests] [testMarkAsSystemContext] before test
+[2020-02-17T11:20:51,848][INFO ][o.e.c.u.c.ThreadContextTests] [testMarkAsSystemContext] after test
+[2020-02-17T11:20:51,851][INFO ][o.e.c.u.c.ThreadContextTests] [testCanResetDefault] before test
+[2020-02-17T11:20:51,851][INFO ][o.e.c.u.c.ThreadContextTests] [testCanResetDefault] after test
+[2020-02-17T11:20:51,855][INFO ][o.e.c.u.c.ThreadContextTests] [testResponseHeaders] before test
+[2020-02-17T11:20:51,856][INFO ][o.e.c.u.c.ThreadContextTests] [testResponseHeaders] after test
+[2020-02-17T11:20:51,858][INFO ][o.e.c.u.c.ThreadContextTests] [testSerialize] before test
+[2020-02-17T11:20:51,858][INFO ][o.e.c.u.c.ThreadContextTests] [testSerialize] after test
+[2020-02-17T11:20:51,860][INFO ][o.e.c.u.c.ThreadContextTests] [testPreservesThreadsOriginalContextOnFailureException] before test
+[2020-02-17T11:20:51,861][INFO ][o.e.c.u.c.ThreadContextTests] [testPreservesThreadsOriginalContextOnFailureException] after test
+[2020-02-17T11:20:51,863][INFO ][o.e.c.u.c.ThreadContextTests] [testCopyHeaders] before test
+[2020-02-17T11:20:51,863][INFO ][o.e.c.u.c.ThreadContextTests] [testCopyHeaders] after test
+[2020-02-17T11:20:51,866][INFO ][o.e.c.u.c.ThreadContextTests] [testPreservesThreadsOriginalContextOnAfterException] before test
+[2020-02-17T11:20:51,867][INFO ][o.e.c.u.c.ThreadContextTests] [testPreservesThreadsOriginalContextOnAfterException] after test
+[2020-02-17T11:20:51,868][INFO ][o.e.c.u.c.ThreadContextTests] [testStashContext] before test
+[2020-02-17T11:20:51,869][INFO ][o.e.c.u.c.ThreadContextTests] [testStashContext] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

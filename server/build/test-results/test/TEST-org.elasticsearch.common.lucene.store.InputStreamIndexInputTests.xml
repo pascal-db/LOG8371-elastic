@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.lucene.store.InputStreamIndexInputTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testReadMultiTwoBytesLimit1" classname="org.elasticsearch.common.lucene.store.InputStreamIndexInputTests" time="0.005"/>
+  <testcase name="testSingleReadSingleByteLimit" classname="org.elasticsearch.common.lucene.store.InputStreamIndexInputTests" time="0.003"/>
+  <testcase name="testReadMultiSingleByteLimit1" classname="org.elasticsearch.common.lucene.store.InputStreamIndexInputTests" time="0.002"/>
+  <testcase name="testMarkRest" classname="org.elasticsearch.common.lucene.store.InputStreamIndexInputTests" time="0.003"/>
+  <testcase name="testReadMultiFourBytesLimit" classname="org.elasticsearch.common.lucene.store.InputStreamIndexInputTests" time="0.002"/>
+  <testcase name="testSingleReadTwoBytesLimit" classname="org.elasticsearch.common.lucene.store.InputStreamIndexInputTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T17:20:47,584][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testReadMultiTwoBytesLimit1] before test
+[2020-02-16T17:20:47,586][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testReadMultiTwoBytesLimit1] after test
+[2020-02-16T17:20:47,589][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testSingleReadSingleByteLimit] before test
+[2020-02-16T17:20:47,589][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testSingleReadSingleByteLimit] after test
+[2020-02-16T17:20:47,591][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testReadMultiSingleByteLimit1] before test
+[2020-02-16T17:20:47,591][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testReadMultiSingleByteLimit1] after test
+[2020-02-16T17:20:47,594][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testMarkRest] before test
+[2020-02-16T17:20:47,594][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testMarkRest] after test
+[2020-02-16T17:20:47,596][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testReadMultiFourBytesLimit] before test
+[2020-02-16T17:20:47,596][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testReadMultiFourBytesLimit] after test
+[2020-02-16T17:20:47,601][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testSingleReadTwoBytesLimit] before test
+[2020-02-16T17:20:47,601][INFO ][o.e.c.l.s.InputStreamIndexInputTests] [testSingleReadTwoBytesLimit] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

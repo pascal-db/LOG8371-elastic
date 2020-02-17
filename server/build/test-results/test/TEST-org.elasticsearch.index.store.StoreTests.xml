@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.store.StoreTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:37" hostname="Escoto-PC" time="0.29">
+  <properties/>
+  <testcase name="testCanOpenIndex" classname="org.elasticsearch.index.store.StoreTests" time="0.045"/>
+  <testcase name="testMarkCorruptedOnTruncatedSegmentsFile" classname="org.elasticsearch.index.store.StoreTests" time="0.012"/>
+  <testcase name="testVerifyingIndexOutputOnEmptyFile" classname="org.elasticsearch.index.store.StoreTests" time="0.004"/>
+  <testcase name="testVerifyingIndexOutput" classname="org.elasticsearch.index.store.StoreTests" time="0.009"/>
+  <testcase name="testCanReadOldCorruptionMarker" classname="org.elasticsearch.index.store.StoreTests" time="0.044"/>
+  <testcase name="testRecoveryDiff" classname="org.elasticsearch.index.store.StoreTests" time="0.042"/>
+  <testcase name="testEnsureIndexHasHistoryUUID" classname="org.elasticsearch.index.store.StoreTests" time="0.004"/>
+  <testcase name="testStoreStats" classname="org.elasticsearch.index.store.StoreTests" time="0.011"/>
+  <testcase name="testOnCloseCallback" classname="org.elasticsearch.index.store.StoreTests" time="0.003"/>
+  <testcase name="testRefCount" classname="org.elasticsearch.index.store.StoreTests" time="0.003"/>
+  <testcase name="testHistoryUUIDCanBeForced" classname="org.elasticsearch.index.store.StoreTests" time="0.003"/>
+  <testcase name="testMetadataSnapshotStreaming" classname="org.elasticsearch.index.store.StoreTests" time="0.004"/>
+  <testcase name="testCheckIntegrity" classname="org.elasticsearch.index.store.StoreTests" time="0.002"/>
+  <testcase name="testVerifyingIndexOutputWithBogusInput" classname="org.elasticsearch.index.store.StoreTests" time="0.002"/>
+  <testcase name="testNewChecksums" classname="org.elasticsearch.index.store.StoreTests" time="0.032"/>
+  <testcase name="testVerifyingIndexInput" classname="org.elasticsearch.index.store.StoreTests" time="0.003"/>
+  <testcase name="testDeserializeCorruptionException" classname="org.elasticsearch.index.store.StoreTests" time="0.002"/>
+  <testcase name="testChecksumCorrupted" classname="org.elasticsearch.index.store.StoreTests" time="0.009"/>
+  <testcase name="testGetPendingFiles" classname="org.elasticsearch.index.store.StoreTests" time="0.003"/>
+  <testcase name="testStreamStoreFilesMetaData" classname="org.elasticsearch.index.store.StoreTests" time="0.001"/>
+  <testcase name="testCleanupFromSnapshot" classname="org.elasticsearch.index.store.StoreTests" time="0.041"/>
+  <testcase name="testUserDataRead" classname="org.elasticsearch.index.store.StoreTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T04:23:37,308][INFO ][o.e.i.s.StoreTests       ] [testCanOpenIndex] before test
+[2020-02-17T04:23:37,349][INFO ][o.e.i.s.StoreTests       ] [testCanOpenIndex] after test
+[2020-02-17T04:23:37,356][INFO ][o.e.i.s.StoreTests       ] [testMarkCorruptedOnTruncatedSegmentsFile] before test
+[2020-02-17T04:23:37,362][INFO ][o.e.i.s.StoreTests       ] [testMarkCorruptedOnTruncatedSegmentsFile] after test
+[2020-02-17T04:23:37,365][INFO ][o.e.i.s.StoreTests       ] [testVerifyingIndexOutputOnEmptyFile] before test
+[2020-02-17T04:23:37,366][INFO ][o.e.i.s.StoreTests       ] [testVerifyingIndexOutputOnEmptyFile] after test
+[2020-02-17T04:23:37,372][INFO ][o.e.i.s.StoreTests       ] [testVerifyingIndexOutput] before test
+[2020-02-17T04:23:37,376][INFO ][o.e.i.s.StoreTests       ] [testVerifyingIndexOutput] after test
+[2020-02-17T04:23:37,418][INFO ][o.e.i.s.StoreTests       ] [testCanReadOldCorruptionMarker] before test
+[2020-02-17T04:23:37,419][INFO ][o.e.i.s.StoreTests       ] [testCanReadOldCorruptionMarker] after test
+[2020-02-17T04:23:37,421][INFO ][o.e.i.s.StoreTests       ] [testRecoveryDiff] before test
+[2020-02-17T04:23:37,462][INFO ][o.e.i.s.StoreTests       ] [testRecoveryDiff] after test
+[2020-02-17T04:23:37,464][INFO ][o.e.i.s.StoreTests       ] [testEnsureIndexHasHistoryUUID] before test
+[2020-02-17T04:23:37,465][INFO ][o.e.i.s.StoreTests       ] [testEnsureIndexHasHistoryUUID] after test
+[2020-02-17T04:23:37,468][INFO ][o.e.i.s.StoreTests       ] [testStoreStats] before test
+[2020-02-17T04:23:37,477][INFO ][o.e.i.s.StoreTests       ] [testStoreStats] after test
+[2020-02-17T04:23:37,479][INFO ][o.e.i.s.StoreTests       ] [testOnCloseCallback] before test
+[2020-02-17T04:23:37,480][INFO ][o.e.i.s.StoreTests       ] [testOnCloseCallback] after test
+[2020-02-17T04:23:37,483][INFO ][o.e.i.s.StoreTests       ] [testRefCount] before test
+[2020-02-17T04:23:37,483][INFO ][o.e.i.s.StoreTests       ] [testRefCount] after test
+[2020-02-17T04:23:37,486][INFO ][o.e.i.s.StoreTests       ] [testHistoryUUIDCanBeForced] before test
+[2020-02-17T04:23:37,487][INFO ][o.e.i.s.StoreTests       ] [testHistoryUUIDCanBeForced] after test
+[2020-02-17T04:23:37,489][INFO ][o.e.i.s.StoreTests       ] [testMetadataSnapshotStreaming] before test
+[2020-02-17T04:23:37,490][INFO ][o.e.i.s.StoreTests       ] [testMetadataSnapshotStreaming] after test
+[2020-02-17T04:23:37,492][INFO ][o.e.i.s.StoreTests       ] [testCheckIntegrity] before test
+[2020-02-17T04:23:37,493][INFO ][o.e.i.s.StoreTests       ] [testCheckIntegrity] after test
+[2020-02-17T04:23:37,495][INFO ][o.e.i.s.StoreTests       ] [testVerifyingIndexOutputWithBogusInput] before test
+[2020-02-17T04:23:37,495][INFO ][o.e.i.s.StoreTests       ] [testVerifyingIndexOutputWithBogusInput] after test
+[2020-02-17T04:23:37,497][INFO ][o.e.i.s.StoreTests       ] [testNewChecksums] before test
+[2020-02-17T04:23:37,528][INFO ][o.e.i.s.StoreTests       ] [testNewChecksums] after test
+[2020-02-17T04:23:37,530][INFO ][o.e.i.s.StoreTests       ] [testVerifyingIndexInput] before test
+[2020-02-17T04:23:37,531][INFO ][o.e.i.s.StoreTests       ] [testVerifyingIndexInput] after test
+[2020-02-17T04:23:37,533][INFO ][o.e.i.s.StoreTests       ] [testDeserializeCorruptionException] before test
+[2020-02-17T04:23:37,533][INFO ][o.e.i.s.StoreTests       ] [testDeserializeCorruptionException] after test
+[2020-02-17T04:23:37,535][INFO ][o.e.i.s.StoreTests       ] [testChecksumCorrupted] before test
+[2020-02-17T04:23:37,542][INFO ][o.e.i.s.StoreTests       ] [testChecksumCorrupted] after test
+[2020-02-17T04:23:37,544][INFO ][o.e.i.s.StoreTests       ] [testGetPendingFiles] before test
+[2020-02-17T04:23:37,546][INFO ][o.e.i.s.StoreTests       ] [testGetPendingFiles] after test
+[2020-02-17T04:23:37,547][INFO ][o.e.i.s.StoreTests       ] [testStreamStoreFilesMetaData] before test
+[2020-02-17T04:23:37,547][INFO ][o.e.i.s.StoreTests       ] [testStreamStoreFilesMetaData] after test
+[2020-02-17T04:23:37,553][INFO ][o.e.i.s.StoreTests       ] [testCleanupFromSnapshot] before test
+[2020-02-17T04:23:37,589][INFO ][o.e.i.s.StoreTests       ] [testCleanupFromSnapshot] after test
+[2020-02-17T04:23:37,591][INFO ][o.e.i.s.StoreTests       ] [testUserDataRead] before test
+[2020-02-17T04:23:37,594][INFO ][o.e.i.s.StoreTests       ] [testUserDataRead] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

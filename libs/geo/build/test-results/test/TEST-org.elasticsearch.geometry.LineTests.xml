@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.LineTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:22" hostname="Escoto-PC" time="0.252">
+  <properties/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.LineTests" time="0.063"/>
+  <testcase name="testWKTValidation" classname="org.elasticsearch.geometry.LineTests" time="0.027"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.LineTests" time="0.086"/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.LineTests" time="0.021"/>
+  <testcase name="testInitValidation" classname="org.elasticsearch.geometry.LineTests" time="0.026"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.LineTests" time="0.027"/>
+  <system-out><![CDATA[[2020-02-17T10:50:23,017][INFO ][o.e.g.LineTests          ] [testVisitor] before test
+[2020-02-17T10:50:23,062][INFO ][o.e.g.LineTests          ] [testVisitor] after test
+[2020-02-17T10:50:23,089][INFO ][o.e.g.LineTests          ] [testWKTValidation] before test
+[2020-02-17T10:50:23,090][INFO ][o.e.g.LineTests          ] [testWKTValidation] after test
+[2020-02-17T10:50:23,103][INFO ][o.e.g.LineTests          ] [testEqualsAndHashcode] before test
+[2020-02-17T10:50:23,177][INFO ][o.e.g.LineTests          ] [testEqualsAndHashcode] after test
+[2020-02-17T10:50:23,197][INFO ][o.e.g.LineTests          ] [testBasicSerialization] before test
+[2020-02-17T10:50:23,198][INFO ][o.e.g.LineTests          ] [testBasicSerialization] after test
+[2020-02-17T10:50:23,222][INFO ][o.e.g.LineTests          ] [testInitValidation] before test
+[2020-02-17T10:50:23,224][INFO ][o.e.g.LineTests          ] [testInitValidation] after test
+[2020-02-17T10:50:23,237][INFO ][o.e.g.LineTests          ] [testSerialization] before test
+[2020-02-17T10:50:23,251][INFO ][o.e.g.LineTests          ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

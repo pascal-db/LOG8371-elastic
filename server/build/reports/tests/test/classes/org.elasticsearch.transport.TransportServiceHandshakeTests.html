@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.transport.TransportServiceHandshakeTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.transport.TransportServiceHandshakeTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.transport.html">org.elasticsearch.transport</a> &gt; TransportServiceHandshakeTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">3.181s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testConnectToNodeLight</td>
+<td class="success">0.604s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIncompatibleVersions</td>
+<td class="success">0.540s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMismatchedClusterName</td>
+<td class="success">0.518s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNodeConnectWithDifferentNodeId</td>
+<td class="success">0.505s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient</td>
+<td class="success">0.514s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler</td>
+<td class="success">0.500s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:25:09,841][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeId] before test
+[2020-02-16T22:25:10,094][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeId] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:10,343][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeId] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:10,346][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeId] after test
+[2020-02-16T22:25:10,347][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient] before test
+[2020-02-16T22:25:10,602][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:10,858][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:10,861][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeIdFailsWhenSnifferTransportClient] after test
+[2020-02-16T22:25:10,862][INFO ][o.e.t.TransportServiceHandshakeTests] [testMismatchedClusterName] before test
+[2020-02-16T22:25:11,125][INFO ][o.e.t.TransportService   ] [testMismatchedClusterName] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:11,376][INFO ][o.e.t.TransportService   ] [testMismatchedClusterName] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:11,378][INFO ][o.e.t.TransportServiceHandshakeTests] [testMismatchedClusterName] after test
+[2020-02-16T22:25:11,380][INFO ][o.e.t.TransportServiceHandshakeTests] [testConnectToNodeLight] before test
+[2020-02-16T22:25:11,642][INFO ][o.e.t.TransportService   ] [testConnectToNodeLight] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:11,980][INFO ][o.e.t.TransportService   ] [testConnectToNodeLight] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2020-02-16T22:25:11,982][INFO ][o.e.t.TransportServiceHandshakeTests] [testConnectToNodeLight] after test
+[2020-02-16T22:25:11,984][INFO ][o.e.t.TransportServiceHandshakeTests] [testIncompatibleVersions] before test
+[2020-02-16T22:25:12,272][INFO ][o.e.t.TransportService   ] [testIncompatibleVersions] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:12,520][INFO ][o.e.t.TransportService   ] [testIncompatibleVersions] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:12,522][INFO ][o.e.t.TransportServiceHandshakeTests] [testIncompatibleVersions] after test
+[2020-02-16T22:25:12,524][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler] before test
+[2020-02-16T22:25:12,772][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2020-02-16T22:25:13,020][INFO ][o.e.t.TransportService   ] [testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2020-02-16T22:25:13,022][INFO ][o.e.t.TransportServiceHandshakeTests] [testNodeConnectWithDifferentNodeIdSucceedsIfThisIsTransportClientOfSimpleNodeSampler] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

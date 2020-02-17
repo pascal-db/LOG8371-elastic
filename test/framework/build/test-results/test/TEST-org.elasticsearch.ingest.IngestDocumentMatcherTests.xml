@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.IngestDocumentMatcherTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:49" hostname="Escoto-PC" time="0.1">
+  <properties/>
+  <testcase name="testDifferentNestedListFieldData" classname="org.elasticsearch.ingest.IngestDocumentMatcherTests" time="0.071"/>
+  <testcase name="testDifferentNestedMapFieldData" classname="org.elasticsearch.ingest.IngestDocumentMatcherTests" time="0.009"/>
+  <testcase name="testDifferentMapData" classname="org.elasticsearch.ingest.IngestDocumentMatcherTests" time="0.009"/>
+  <testcase name="testOnTypeConflict" classname="org.elasticsearch.ingest.IngestDocumentMatcherTests" time="0.008"/>
+  <testcase name="testDifferentLengthListData" classname="org.elasticsearch.ingest.IngestDocumentMatcherTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:48:49,608][INFO ][o.e.i.IngestDocumentMatcherTests] [testDifferentNestedListFieldData] before test
+[2020-02-17T05:48:49,627][INFO ][o.e.i.IngestDocumentMatcherTests] [testDifferentNestedListFieldData] after test
+[2020-02-17T05:48:49,636][INFO ][o.e.i.IngestDocumentMatcherTests] [testDifferentNestedMapFieldData] before test
+[2020-02-17T05:48:49,636][INFO ][o.e.i.IngestDocumentMatcherTests] [testDifferentNestedMapFieldData] after test
+[2020-02-17T05:48:49,645][INFO ][o.e.i.IngestDocumentMatcherTests] [testDifferentMapData] before test
+[2020-02-17T05:48:49,645][INFO ][o.e.i.IngestDocumentMatcherTests] [testDifferentMapData] after test
+[2020-02-17T05:48:49,652][INFO ][o.e.i.IngestDocumentMatcherTests] [testOnTypeConflict] before test
+[2020-02-17T05:48:49,653][INFO ][o.e.i.IngestDocumentMatcherTests] [testOnTypeConflict] after test
+[2020-02-17T05:48:49,656][INFO ][o.e.i.IngestDocumentMatcherTests] [testDifferentLengthListData] before test
+[2020-02-17T05:48:49,657][INFO ][o.e.i.IngestDocumentMatcherTests] [testDifferentLengthListData] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

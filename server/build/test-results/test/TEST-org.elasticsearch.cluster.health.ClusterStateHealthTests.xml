@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.health.ClusterStateHealthTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:32" hostname="Escoto-PC" time="0.07">
+  <properties/>
+  <testcase name="testClusterHealthWaitsForClusterStateApplication" classname="org.elasticsearch.cluster.health.ClusterStateHealthTests" time="0.023"/>
+  <testcase name="testClusterHealth" classname="org.elasticsearch.cluster.health.ClusterStateHealthTests" time="0.008"/>
+  <testcase name="testClusterHealthOnIndexCreationWithFailedAllocations" classname="org.elasticsearch.cluster.health.ClusterStateHealthTests" time="0.008"/>
+  <testcase name="testClusterHealthOnClusterRecoveryWithPreviousAllocationIds" classname="org.elasticsearch.cluster.health.ClusterStateHealthTests" time="0.006"/>
+  <testcase name="testClusterHealthOnClusterRecovery" classname="org.elasticsearch.cluster.health.ClusterStateHealthTests" time="0.005"/>
+  <testcase name="testClusterHealthOnClusterRecoveryWithFailures" classname="org.elasticsearch.cluster.health.ClusterStateHealthTests" time="0.005"/>
+  <testcase name="testClusterHealthOnClusterRecoveryWithPreviousAllocationIdsAndAllocationFailures" classname="org.elasticsearch.cluster.health.ClusterStateHealthTests" time="0.009"/>
+  <testcase name="testClusterHealthOnIndexCreation" classname="org.elasticsearch.cluster.health.ClusterStateHealthTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T06:21:32,917][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] before test
+[2020-02-17T06:21:32,925][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{zRu0C7QCTEScdt2Y8sNkhA}{0.0.0.0}{0.0.0.0:1}{dim}], current []}, term: 0, version: 1, reason: test setting state
+[2020-02-17T06:21:32,926][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] --> submit task to restore master
+[2020-02-17T06:21:32,926][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] --> waiting for listener to be called and cluster state being blocked
+[2020-02-17T06:21:32,927][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [], current [{node}{zRu0C7QCTEScdt2Y8sNkhA}{0.0.0.0}{0.0.0.0:1}{dim}]}, term: 0, version: 1, reason: restore master
+[2020-02-17T06:21:32,927][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] --> realising task to restore master
+[2020-02-17T06:21:32,927][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] after test
+[2020-02-17T06:21:32,933][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealth] before test
+[2020-02-17T06:21:32,936][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealth] cluster status: RED, expected RED
+[2020-02-17T06:21:32,936][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealth] after test
+[2020-02-17T06:21:32,942][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnIndexCreationWithFailedAllocations] before test
+[2020-02-17T06:21:32,944][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnIndexCreationWithFailedAllocations] after test
+[2020-02-17T06:21:32,946][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithPreviousAllocationIds] before test
+[2020-02-17T06:21:32,950][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithPreviousAllocationIds] after test
+[2020-02-17T06:21:32,952][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecovery] before test
+[2020-02-17T06:21:32,955][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecovery] after test
+[2020-02-17T06:21:32,957][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithFailures] before test
+[2020-02-17T06:21:32,961][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithFailures] after test
+[2020-02-17T06:21:32,963][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithPreviousAllocationIdsAndAllocationFailures] before test
+[2020-02-17T06:21:32,969][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithPreviousAllocationIdsAndAllocationFailures] after test
+[2020-02-17T06:21:32,972][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnIndexCreation] before test
+[2020-02-17T06:21:32,975][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnIndexCreation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

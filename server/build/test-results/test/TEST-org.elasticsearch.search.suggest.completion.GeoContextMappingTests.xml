@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:51" hostname="Escoto-PC" time="0.98">
+  <properties/>
+  <testcase name="testIndexingWithContextList" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.686"/>
+  <testcase name="testParsingQueryContextGeoPoint" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.004"/>
+  <testcase name="testParsingQueryContextObjectArray" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.003"/>
+  <testcase name="testParsingQueryContextObject" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.004"/>
+  <testcase name="testIndexingWithSimpleContexts" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.098"/>
+  <testcase name="testMalformedGeoField" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.005"/>
+  <testcase name="testMissingGeoField" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.004"/>
+  <testcase name="testParsingQueryContextMixed" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.003"/>
+  <testcase name="testIndexingWithNoContexts" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.081"/>
+  <testcase name="testIndexingWithMultipleContexts" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.084"/>
+  <testcase name="testParsingQueryContextBasic" classname="org.elasticsearch.search.suggest.completion.GeoContextMappingTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T19:25:51,742][INFO ][o.e.e.NodeEnvironment    ] [testIndexingWithContextList] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T19:25:51,743][INFO ][o.e.e.NodeEnvironment    ] [testIndexingWithContextList] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T19:25:51,745][INFO ][o.e.n.Node               ] [testIndexingWithContextList] node name [node_s_0], node ID [DOEY0q9HSkqHcavP_mAvKA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-5223751119122301594]-HASH=[16E7267D3C3]]
+[2020-02-16T19:25:51,745][INFO ][o.e.n.Node               ] [testIndexingWithContextList] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T19:25:51,745][INFO ][o.e.n.Node               ] [testIndexingWithContextList] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T19:25:51,745][INFO ][o.e.n.Node               ] [testIndexingWithContextList] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T19:25:51,745][INFO ][o.e.p.PluginsService     ] [testIndexingWithContextList] no modules loaded
+[2020-02-16T19:25:51,745][INFO ][o.e.p.PluginsService     ] [testIndexingWithContextList] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T19:25:51,745][INFO ][o.e.p.PluginsService     ] [testIndexingWithContextList] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T19:25:51,934][INFO ][o.e.d.DiscoveryModule    ] [testIndexingWithContextList] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T19:25:51,940][INFO ][o.e.n.Node               ] [testIndexingWithContextList] initialized
+[2020-02-16T19:25:51,940][INFO ][o.e.n.Node               ] [testIndexingWithContextList] starting ...
+[2020-02-16T19:25:52,188][INFO ][o.e.t.TransportService   ] [testIndexingWithContextList] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T19:25:52,195][INFO ][o.e.c.c.Coordinator      ] [testIndexingWithContextList] setting initial configuration to VotingConfiguration{DOEY0q9HSkqHcavP_mAvKA}
+[2020-02-16T19:25:52,293][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{DOEY0q9HSkqHcavP_mAvKA}{0ovx7WnMRMCAV0tXBzCEqg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{DOEY0q9HSkqHcavP_mAvKA}{0ovx7WnMRMCAV0tXBzCEqg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T19:25:52,300][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [CS5Mm9RcSV65QiZ30YB55g]
+[2020-02-16T19:25:52,305][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{DOEY0q9HSkqHcavP_mAvKA}{0ovx7WnMRMCAV0tXBzCEqg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T19:25:52,306][INFO ][o.e.n.Node               ] [testIndexingWithContextList] started
+[2020-02-16T19:25:52,310][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T19:25:52,311][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T19:25:52,320][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T19:25:52,327][INFO ][o.e.s.s.c.GeoContextMappingTests] [testIndexingWithContextList] before test
+[2020-02-16T19:25:52,330][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type1]
+[2020-02-16T19:25:52,383][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:25:52,394][INFO ][o.e.s.s.c.GeoContextMappingTests] [testIndexingWithContextList] after test
+[2020-02-16T19:25:52,394][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/optFkj2TTQyRA0mSFVNIOQ] deleting index
+[2020-02-16T19:25:52,421][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextGeoPoint] before test
+[2020-02-16T19:25:52,422][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextGeoPoint] after test
+[2020-02-16T19:25:52,424][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextObjectArray] before test
+[2020-02-16T19:25:52,425][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextObjectArray] after test
+[2020-02-16T19:25:52,430][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextObject] before test
+[2020-02-16T19:25:52,430][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextObject] after test
+[2020-02-16T19:25:52,434][INFO ][o.e.s.s.c.GeoContextMappingTests] [testIndexingWithSimpleContexts] before test
+[2020-02-16T19:25:52,436][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type1]
+[2020-02-16T19:25:52,499][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:25:52,507][INFO ][o.e.s.s.c.GeoContextMappingTests] [testIndexingWithSimpleContexts] after test
+[2020-02-16T19:25:52,507][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/epOM2LhTQHK5vc3z9JIqtg] deleting index
+[2020-02-16T19:25:52,530][INFO ][o.e.s.s.c.GeoContextMappingTests] [testMalformedGeoField] before test
+[2020-02-16T19:25:52,533][INFO ][o.e.s.s.c.GeoContextMappingTests] [testMalformedGeoField] after test
+[2020-02-16T19:25:52,535][INFO ][o.e.s.s.c.GeoContextMappingTests] [testMissingGeoField] before test
+[2020-02-16T19:25:52,537][INFO ][o.e.s.s.c.GeoContextMappingTests] [testMissingGeoField] after test
+[2020-02-16T19:25:52,539][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextMixed] before test
+[2020-02-16T19:25:52,540][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextMixed] after test
+[2020-02-16T19:25:52,541][INFO ][o.e.s.s.c.GeoContextMappingTests] [testIndexingWithNoContexts] before test
+[2020-02-16T19:25:52,543][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type1]
+[2020-02-16T19:25:52,593][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:25:52,601][INFO ][o.e.s.s.c.GeoContextMappingTests] [testIndexingWithNoContexts] after test
+[2020-02-16T19:25:52,602][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/1burHwhJQxOvxw9cB8-cuQ] deleting index
+[2020-02-16T19:25:52,624][INFO ][o.e.s.s.c.GeoContextMappingTests] [testIndexingWithMultipleContexts] before test
+[2020-02-16T19:25:52,625][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type1]
+[2020-02-16T19:25:52,677][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:25:52,686][INFO ][o.e.s.s.c.GeoContextMappingTests] [testIndexingWithMultipleContexts] after test
+[2020-02-16T19:25:52,686][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/OiQDdqqLREKbSrDZHNmohw] deleting index
+[2020-02-16T19:25:52,712][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextBasic] before test
+[2020-02-16T19:25:52,712][INFO ][o.e.s.s.c.GeoContextMappingTests] [testParsingQueryContextBasic] after test
+[2020-02-16T19:25:52,712][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T19:25:52,714][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T19:25:52,714][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T19:25:52,714][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

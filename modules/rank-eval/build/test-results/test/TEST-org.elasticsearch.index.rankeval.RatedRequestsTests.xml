@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.RatedRequestsTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:51" hostname="Escoto-PC" time="0.342">
+  <properties/>
+  <testcase name="testSuggestionsNotAllowed" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.028"/>
+  <testcase name="testAggsNotAllowed" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.018"/>
+  <testcase name="testHighlighterNotAllowed" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.016"/>
+  <testcase name="testExplainNotAllowed" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.02"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.107"/>
+  <testcase name="testProfileNotAllowed" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.01"/>
+  <testcase name="testSettingParamsWithoutTemplateIdThrows" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.007"/>
+  <testcase name="testSettingTemplateIdNoParamsThrows" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.005"/>
+  <testcase name="testNullSummaryFieldsTreatment" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.005"/>
+  <testcase name="testDuplicateRatedDocThrowsException" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.006"/>
+  <testcase name="testXContentRoundtrip" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.006"/>
+  <testcase name="testSettingNeitherParamsNorRequestThrows" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.01"/>
+  <testcase name="testXContentParsingIsNotLenient" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.082"/>
+  <testcase name="testParseFromXContent" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.006"/>
+  <testcase name="testNullParamsTreatment" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.008"/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.RatedRequestsTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T04:11:51,542][INFO ][o.e.i.r.RatedRequestsTests] [testSuggestionsNotAllowed] before test
+[2020-02-17T04:11:51,554][INFO ][o.e.i.r.RatedRequestsTests] [testSuggestionsNotAllowed] after test
+[2020-02-17T04:11:51,566][INFO ][o.e.i.r.RatedRequestsTests] [testAggsNotAllowed] before test
+[2020-02-17T04:11:51,572][INFO ][o.e.i.r.RatedRequestsTests] [testAggsNotAllowed] after test
+[2020-02-17T04:11:51,576][INFO ][o.e.i.r.RatedRequestsTests] [testHighlighterNotAllowed] before test
+[2020-02-17T04:11:51,587][INFO ][o.e.i.r.RatedRequestsTests] [testHighlighterNotAllowed] after test
+[2020-02-17T04:11:51,607][INFO ][o.e.i.r.RatedRequestsTests] [testExplainNotAllowed] before test
+[2020-02-17T04:11:51,608][INFO ][o.e.i.r.RatedRequestsTests] [testExplainNotAllowed] after test
+[2020-02-17T04:11:51,713][INFO ][o.e.i.r.RatedRequestsTests] [testSerialization] before test
+[2020-02-17T04:11:51,715][INFO ][o.e.i.r.RatedRequestsTests] [testSerialization] after test
+[2020-02-17T04:11:51,724][INFO ][o.e.i.r.RatedRequestsTests] [testProfileNotAllowed] before test
+[2020-02-17T04:11:51,725][INFO ][o.e.i.r.RatedRequestsTests] [testProfileNotAllowed] after test
+[2020-02-17T04:11:51,731][INFO ][o.e.i.r.RatedRequestsTests] [testSettingParamsWithoutTemplateIdThrows] before test
+[2020-02-17T04:11:51,732][INFO ][o.e.i.r.RatedRequestsTests] [testSettingParamsWithoutTemplateIdThrows] after test
+[2020-02-17T04:11:51,736][INFO ][o.e.i.r.RatedRequestsTests] [testSettingTemplateIdNoParamsThrows] before test
+[2020-02-17T04:11:51,737][INFO ][o.e.i.r.RatedRequestsTests] [testSettingTemplateIdNoParamsThrows] after test
+[2020-02-17T04:11:51,742][INFO ][o.e.i.r.RatedRequestsTests] [testNullSummaryFieldsTreatment] before test
+[2020-02-17T04:11:51,742][INFO ][o.e.i.r.RatedRequestsTests] [testNullSummaryFieldsTreatment] after test
+[2020-02-17T04:11:51,747][INFO ][o.e.i.r.RatedRequestsTests] [testDuplicateRatedDocThrowsException] before test
+[2020-02-17T04:11:51,749][INFO ][o.e.i.r.RatedRequestsTests] [testDuplicateRatedDocThrowsException] after test
+[2020-02-17T04:11:51,754][INFO ][o.e.i.r.RatedRequestsTests] [testXContentRoundtrip] before test
+[2020-02-17T04:11:51,755][INFO ][o.e.i.r.RatedRequestsTests] [testXContentRoundtrip] after test
+[2020-02-17T04:11:51,764][INFO ][o.e.i.r.RatedRequestsTests] [testSettingNeitherParamsNorRequestThrows] before test
+[2020-02-17T04:11:51,765][INFO ][o.e.i.r.RatedRequestsTests] [testSettingNeitherParamsNorRequestThrows] after test
+[2020-02-17T04:11:51,772][INFO ][o.e.i.r.RatedRequestsTests] [testXContentParsingIsNotLenient] before test
+[2020-02-17T04:11:51,847][INFO ][o.e.i.r.RatedRequestsTests] [testXContentParsingIsNotLenient] after test
+[2020-02-17T04:11:51,850][INFO ][o.e.i.r.RatedRequestsTests] [testParseFromXContent] before test
+[2020-02-17T04:11:51,853][INFO ][o.e.i.r.RatedRequestsTests] [testParseFromXContent] after test
+[2020-02-17T04:11:51,861][INFO ][o.e.i.r.RatedRequestsTests] [testNullParamsTreatment] before test
+[2020-02-17T04:11:51,861][INFO ][o.e.i.r.RatedRequestsTests] [testNullParamsTreatment] after test
+[2020-02-17T04:11:51,867][INFO ][o.e.i.r.RatedRequestsTests] [testEqualsAndHash] before test
+[2020-02-17T04:11:51,868][INFO ][o.e.i.r.RatedRequestsTests] [testEqualsAndHash] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

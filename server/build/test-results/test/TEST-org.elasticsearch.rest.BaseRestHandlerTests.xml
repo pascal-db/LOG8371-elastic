@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.BaseRestHandlerTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.033">
+  <properties/>
+  <testcase name="testUnconsumedParametersDidYouMean" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.005"/>
+  <testcase name="testMultipleUnconsumedParameters" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.006"/>
+  <testcase name="testUnconsumedNoBody" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.003"/>
+  <testcase name="testUnconsumedResponseParameters" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.002"/>
+  <testcase name="testCatResponseParameters" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.003"/>
+  <testcase name="testDefaultResponseParameters" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.002"/>
+  <testcase name="testOneUnconsumedParameters" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.004"/>
+  <testcase name="testConsumedBody" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.003"/>
+  <testcase name="testUnconsumedBody" classname="org.elasticsearch.rest.BaseRestHandlerTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T17:24:05,237][INFO ][o.e.r.BaseRestHandlerTests] [testUnconsumedParametersDidYouMean] before test
+[2020-02-16T17:24:05,239][INFO ][o.e.r.BaseRestHandlerTests] [testUnconsumedParametersDidYouMean] after test
+[2020-02-16T17:24:05,244][INFO ][o.e.r.BaseRestHandlerTests] [testMultipleUnconsumedParameters] before test
+[2020-02-16T17:24:05,245][INFO ][o.e.r.BaseRestHandlerTests] [testMultipleUnconsumedParameters] after test
+[2020-02-16T17:24:05,247][INFO ][o.e.r.BaseRestHandlerTests] [testUnconsumedNoBody] before test
+[2020-02-16T17:24:05,248][INFO ][o.e.r.BaseRestHandlerTests] [testUnconsumedNoBody] after test
+[2020-02-16T17:24:05,250][INFO ][o.e.r.BaseRestHandlerTests] [testUnconsumedResponseParameters] before test
+[2020-02-16T17:24:05,250][INFO ][o.e.r.BaseRestHandlerTests] [testUnconsumedResponseParameters] after test
+[2020-02-16T17:24:05,253][INFO ][o.e.r.BaseRestHandlerTests] [testCatResponseParameters] before test
+[2020-02-16T17:24:05,253][INFO ][o.e.r.BaseRestHandlerTests] [testCatResponseParameters] after test
+[2020-02-16T17:24:05,255][INFO ][o.e.r.BaseRestHandlerTests] [testDefaultResponseParameters] before test
+[2020-02-16T17:24:05,256][INFO ][o.e.r.BaseRestHandlerTests] [testDefaultResponseParameters] after test
+[2020-02-16T17:24:05,259][INFO ][o.e.r.BaseRestHandlerTests] [testOneUnconsumedParameters] before test
+[2020-02-16T17:24:05,260][INFO ][o.e.r.BaseRestHandlerTests] [testOneUnconsumedParameters] after test
+[2020-02-16T17:24:05,263][INFO ][o.e.r.BaseRestHandlerTests] [testConsumedBody] before test
+[2020-02-16T17:24:05,264][INFO ][o.e.r.BaseRestHandlerTests] [testConsumedBody] after test
+[2020-02-16T17:24:05,266][INFO ][o.e.r.BaseRestHandlerTests] [testUnconsumedBody] before test
+[2020-02-16T17:24:05,267][INFO ][o.e.r.BaseRestHandlerTests] [testUnconsumedBody] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

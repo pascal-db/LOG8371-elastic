@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.BucketSortTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:27" hostname="Escoto-PC" time="0.036">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.BucketSortTests" time="0.005"/>
+  <testcase name="testNegativeFrom" classname="org.elasticsearch.search.aggregations.pipeline.BucketSortTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.BucketSortTests" time="0.004"/>
+  <testcase name="testNegativeSize" classname="org.elasticsearch.search.aggregations.pipeline.BucketSortTests" time="0.011"/>
+  <testcase name="testNullGapPolicy" classname="org.elasticsearch.search.aggregations.pipeline.BucketSortTests" time="0.004"/>
+  <testcase name="testZeroSize" classname="org.elasticsearch.search.aggregations.pipeline.BucketSortTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.BucketSortTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T18:24:27,903][INFO ][o.e.s.a.p.BucketSortTests] [testSerialization] before test
+[2020-02-16T18:24:27,905][INFO ][o.e.s.a.p.BucketSortTests] [testSerialization] after test
+[2020-02-16T18:24:27,907][INFO ][o.e.s.a.p.BucketSortTests] [testNegativeFrom] before test
+[2020-02-16T18:24:27,908][INFO ][o.e.s.a.p.BucketSortTests] [testNegativeFrom] after test
+[2020-02-16T18:24:27,912][INFO ][o.e.s.a.p.BucketSortTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:24:27,912][INFO ][o.e.s.a.p.BucketSortTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:24:27,922][INFO ][o.e.s.a.p.BucketSortTests] [testNegativeSize] before test
+[2020-02-16T18:24:27,923][INFO ][o.e.s.a.p.BucketSortTests] [testNegativeSize] after test
+[2020-02-16T18:24:27,927][INFO ][o.e.s.a.p.BucketSortTests] [testNullGapPolicy] before test
+[2020-02-16T18:24:27,927][INFO ][o.e.s.a.p.BucketSortTests] [testNullGapPolicy] after test
+[2020-02-16T18:24:27,930][INFO ][o.e.s.a.p.BucketSortTests] [testZeroSize] before test
+[2020-02-16T18:24:27,930][INFO ][o.e.s.a.p.BucketSortTests] [testZeroSize] after test
+[2020-02-16T18:24:27,934][INFO ][o.e.s.a.p.BucketSortTests] [testFromXContent] before test
+[2020-02-16T18:24:27,935][INFO ][o.e.s.a.p.BucketSortTests] [testFromXContent] Content string: {
+  "bgkzxjHjUMdOZD" : {
+    "bucket_sort" : {
+      "sort" : [ ],
+      "from" : 17,
+      "gap_policy" : "SKIP"
+    }
+  }
+}
+[2020-02-16T18:24:27,936][INFO ][o.e.s.a.p.BucketSortTests] [testFromXContent] Content string: {
+  "bgkzxjHjUMdOZD" : {
+    "bucket_sort" : {
+      "sort" : [ ],
+      "from" : 17,
+      "gap_policy" : "SKIP"
+    }
+  }
+}
+[2020-02-16T18:24:27,936][INFO ][o.e.s.a.p.BucketSortTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.UpdateNumberOfReplicasTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.005">
+  <properties/>
+  <testcase name="testUpdateNumberOfReplicas" classname="org.elasticsearch.cluster.routing.allocation.UpdateNumberOfReplicasTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T02:21:39,083][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] before test
+[2020-02-17T02:21:39,084][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] Building initial routing table
+[2020-02-17T02:21:39,085][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] Adding two nodes and performing rerouting
+[2020-02-17T02:21:39,085][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] Start all the primary shards
+[2020-02-17T02:21:39,085][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] Start all the replica shards
+[2020-02-17T02:21:39,085][INFO ][o.e.c.r.a.AllocationService] [testUpdateNumberOfReplicas] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T02:21:39,085][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] add another replica
+[2020-02-17T02:21:39,086][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] Add another node and start the added replica
+[2020-02-17T02:21:39,086][INFO ][o.e.c.r.a.AllocationService] [testUpdateNumberOfReplicas] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T02:21:39,086][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] now remove a replica
+[2020-02-17T02:21:39,086][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] do a reroute, should remain the same
+[2020-02-17T02:21:39,086][INFO ][o.e.c.r.a.UpdateNumberOfReplicasTests] [testUpdateNumberOfReplicas] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

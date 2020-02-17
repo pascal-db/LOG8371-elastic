@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:25" hostname="Escoto-PC" time="0.304">
+  <properties/>
+  <testcase name="testResolveStatesToBeWritten" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.01"/>
+  <testcase name="testGetRelevantIndicesForReplicatedClosedButUnassignedIndexOnDataOnlyNode" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.006"/>
+  <testcase name="testGetRelevantIndicesWithUnassignedShardsOnMasterEligibleNode" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.007"/>
+  <testcase name="testSlowLogging" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.022"/>
+  <testcase name="testAtomicityWithFailures" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.235"/>
+  <testcase name="testGetRelevantIndicesForReplicatedClosedAndAssignedIndexOnDataOnlyNode" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.007"/>
+  <testcase name="testGetRelevantIndicesWithAssignedShards" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.005"/>
+  <testcase name="testGetRelevantIndicesForNonReplicatedClosedIndexOnDataOnlyNode" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.004"/>
+  <testcase name="testGetRelevantIndicesWithUnassignedShardsOnDataOnlyNode" classname="org.elasticsearch.gateway.IncrementalClusterStateWriterTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T01:22:25,038][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testResolveStatesToBeWritten] before test
+[2020-02-17T01:22:25,045][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testResolveStatesToBeWritten] after test
+[2020-02-17T01:22:25,049][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesForReplicatedClosedButUnassignedIndexOnDataOnlyNode] before test
+[2020-02-17T01:22:25,052][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesForReplicatedClosedButUnassignedIndexOnDataOnlyNode] after test
+[2020-02-17T01:22:25,059][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesWithUnassignedShardsOnMasterEligibleNode] before test
+[2020-02-17T01:22:25,059][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesWithUnassignedShardsOnMasterEligibleNode] after test
+[2020-02-17T01:22:25,074][WARN ][o.e.g.IncrementalClusterStateWriter] [testSlowLogging] writing cluster state took [10000ms] which is above the warn threshold of [10s]; wrote metadata for [0] indices and skipped [0] unchanged indices
+[2020-02-17T01:22:25,076][WARN ][o.e.g.IncrementalClusterStateWriter] [testSlowLogging] writing cluster state took [10021ms] which is above the warn threshold of [10s]; wrote metadata for [0] indices and skipped [0] unchanged indices
+[2020-02-17T01:22:25,078][INFO ][o.e.c.s.ClusterSettings  ] [testSlowLogging] updating [gateway.slow_write_logging_threshold] from [10s] to [1227ms]
+[2020-02-17T01:22:25,079][WARN ][o.e.g.IncrementalClusterStateWriter] [testSlowLogging] writing cluster state took [1227ms] which is above the warn threshold of [1.2s]; wrote metadata for [0] indices and skipped [0] unchanged indices
+[2020-02-17T01:22:25,084][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testAtomicityWithFailures] before test
+[2020-02-17T01:22:25,108][INFO ][o.e.e.NodeEnvironment    ] [testAtomicityWithFailures] using [3] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:22:25,108][INFO ][o.e.e.NodeEnvironment    ] [testAtomicityWithFailures] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:22:25,317][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testAtomicityWithFailures] after test
+[2020-02-17T01:22:25,319][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesForReplicatedClosedAndAssignedIndexOnDataOnlyNode] before test
+[2020-02-17T01:22:25,325][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesForReplicatedClosedAndAssignedIndexOnDataOnlyNode] after test
+[2020-02-17T01:22:25,328][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesWithAssignedShards] before test
+[2020-02-17T01:22:25,331][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesWithAssignedShards] after test
+[2020-02-17T01:22:25,333][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesForNonReplicatedClosedIndexOnDataOnlyNode] before test
+[2020-02-17T01:22:25,335][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesForNonReplicatedClosedIndexOnDataOnlyNode] after test
+[2020-02-17T01:22:25,339][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesWithUnassignedShardsOnDataOnlyNode] before test
+[2020-02-17T01:22:25,339][INFO ][o.e.g.IncrementalClusterStateWriterTests] [testGetRelevantIndicesWithUnassignedShardsOnDataOnlyNode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.adjacency.InternalAdjacencyMatrixTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.043">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.adjacency.InternalAdjacencyMatrixTests" time="0.004"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.adjacency.InternalAdjacencyMatrixTests" time="0.007"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.adjacency.InternalAdjacencyMatrixTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.adjacency.InternalAdjacencyMatrixTests" time="0.011"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.adjacency.InternalAdjacencyMatrixTests" time="0.007"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.adjacency.InternalAdjacencyMatrixTests" time="0.011"/>
+  <system-out><![CDATA[[2020-02-16T22:25:18,822][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T22:25:18,824][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T22:25:18,829][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testReduceRandom] before test
+[2020-02-16T22:25:18,832][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testReduceRandom] after test
+[2020-02-16T22:25:18,834][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testFromXContent] before test
+[2020-02-16T22:25:18,834][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testFromXContent] after test
+[2020-02-16T22:25:18,836][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:25:18,846][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:25:18,848][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testSerialization] before test
+[2020-02-16T22:25:18,852][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testSerialization] after test
+[2020-02-16T22:25:18,854][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testIterators] before test
+[2020-02-16T22:25:18,863][INFO ][o.e.s.a.b.a.InternalAdjacencyMatrixTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

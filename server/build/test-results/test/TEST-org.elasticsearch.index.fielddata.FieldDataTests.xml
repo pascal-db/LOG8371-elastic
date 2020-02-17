@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.fielddata.FieldDataTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:00" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testSortableLongBitsToDoubles" classname="org.elasticsearch.index.fielddata.FieldDataTests" time="0.008"/>
+  <testcase name="testDoublesToSortableLongBits" classname="org.elasticsearch.index.fielddata.FieldDataTests" time="0.002"/>
+  <testcase name="testReplaceMissingDoubles" classname="org.elasticsearch.index.fielddata.FieldDataTests" time="0.003"/>
+  <testcase name="testReplaceMissingLongs" classname="org.elasticsearch.index.fielddata.FieldDataTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T09:22:00,023][INFO ][o.e.i.f.FieldDataTests   ] [testSortableLongBitsToDoubles] before test
+[2020-02-17T09:22:00,028][INFO ][o.e.i.f.FieldDataTests   ] [testSortableLongBitsToDoubles] after test
+[2020-02-17T09:22:00,030][INFO ][o.e.i.f.FieldDataTests   ] [testDoublesToSortableLongBits] before test
+[2020-02-17T09:22:00,030][INFO ][o.e.i.f.FieldDataTests   ] [testDoublesToSortableLongBits] after test
+[2020-02-17T09:22:00,033][INFO ][o.e.i.f.FieldDataTests   ] [testReplaceMissingDoubles] before test
+[2020-02-17T09:22:00,033][INFO ][o.e.i.f.FieldDataTests   ] [testReplaceMissingDoubles] after test
+[2020-02-17T09:22:00,035][INFO ][o.e.i.f.FieldDataTests   ] [testReplaceMissingLongs] before test
+[2020-02-17T09:22:00,035][INFO ][o.e.i.f.FieldDataTests   ] [testReplaceMissingLongs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

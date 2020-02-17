@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.GeoCentroidTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:31" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.metrics.GeoCentroidTests" time="0.014"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.GeoCentroidTests" time="0.001"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.GeoCentroidTests" time="0.001"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.metrics.GeoCentroidTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.metrics.GeoCentroidTests" time="0.001"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.metrics.GeoCentroidTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.GeoCentroidTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:25:31,758][INFO ][o.e.s.a.m.GeoCentroidTests] [testFromXContentMulti] before test
+[2020-02-16T17:25:31,760][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T17:25:31,760][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T17:25:31,767][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T17:25:31,767][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T17:25:31,770][INFO ][o.e.s.a.m.GeoCentroidTests] [testFromXContentMulti] after test
+[2020-02-16T17:25:31,772][INFO ][o.e.s.a.m.GeoCentroidTests] [testSerialization] before test
+[2020-02-16T17:25:31,772][INFO ][o.e.s.a.m.GeoCentroidTests] [testSerialization] after test
+[2020-02-16T17:25:31,773][INFO ][o.e.s.a.m.GeoCentroidTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:25:31,774][INFO ][o.e.s.a.m.GeoCentroidTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:25:31,775][INFO ][o.e.s.a.m.GeoCentroidTests] [testSerializationMulti] before test
+[2020-02-16T17:25:31,775][INFO ][o.e.s.a.m.GeoCentroidTests] [testSerializationMulti] after test
+[2020-02-16T17:25:31,777][INFO ][o.e.s.a.m.GeoCentroidTests] [testShallowCopy] before test
+[2020-02-16T17:25:31,777][INFO ][o.e.s.a.m.GeoCentroidTests] [testShallowCopy] after test
+[2020-02-16T17:25:31,778][INFO ][o.e.s.a.m.GeoCentroidTests] [testToString] before test
+[2020-02-16T17:25:31,779][INFO ][o.e.s.a.m.GeoCentroidTests] [testToString] after test
+[2020-02-16T17:25:31,780][INFO ][o.e.s.a.m.GeoCentroidTests] [testFromXContent] before test
+[2020-02-16T17:25:31,780][INFO ][o.e.s.a.m.GeoCentroidTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

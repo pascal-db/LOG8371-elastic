@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:49" hostname="Escoto-PC" time="0.704">
+  <properties/>
+  <testcase name="testXContentParsingIsNotLenient" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.387"/>
+  <testcase name="testDCGAtFourMoreRatings" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.083"/>
+  <testcase name="testDCGAt" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.021"/>
+  <testcase name="testNoResults" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.01"/>
+  <testcase name="testParseFromXContent" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.009"/>
+  <testcase name="testMetricDetails" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.043"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.053"/>
+  <testcase name="testXContentRoundtrip" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.031"/>
+  <testcase name="testDCGAtSixMissingRatings" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.009"/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.DiscountedCumulativeGainTests" time="0.052"/>
+  <system-out><![CDATA[[2020-02-17T03:41:49,878][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testXContentParsingIsNotLenient] before test
+[2020-02-17T03:41:50,219][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testXContentParsingIsNotLenient] after test
+[2020-02-17T03:41:50,248][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testDCGAtFourMoreRatings] before test
+[2020-02-17T03:41:50,311][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testDCGAtFourMoreRatings] after test
+[2020-02-17T03:41:50,333][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testDCGAt] before test
+[2020-02-17T03:41:50,334][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testDCGAt] after test
+[2020-02-17T03:41:50,343][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testNoResults] before test
+[2020-02-17T03:41:50,344][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testNoResults] after test
+[2020-02-17T03:41:50,351][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testParseFromXContent] before test
+[2020-02-17T03:41:50,353][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testParseFromXContent] after test
+[2020-02-17T03:41:50,396][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testMetricDetails] before test
+[2020-02-17T03:41:50,397][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testMetricDetails] after test
+[2020-02-17T03:41:50,411][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testSerialization] before test
+[2020-02-17T03:41:50,450][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testSerialization] after test
+[2020-02-17T03:41:50,462][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testXContentRoundtrip] before test
+[2020-02-17T03:41:50,482][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testXContentRoundtrip] after test
+[2020-02-17T03:41:50,492][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testDCGAtSixMissingRatings] before test
+[2020-02-17T03:41:50,492][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testDCGAtSixMissingRatings] after test
+[2020-02-17T03:41:50,519][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testEqualsAndHash] before test
+[2020-02-17T03:41:50,544][INFO ][o.e.i.r.DiscountedCumulativeGainTests] [testEqualsAndHash] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

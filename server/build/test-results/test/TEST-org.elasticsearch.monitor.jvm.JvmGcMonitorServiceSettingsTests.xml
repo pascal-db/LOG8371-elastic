@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceSettingsTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:01" hostname="Escoto-PC" time="0.071">
+  <properties/>
+  <testcase name="testEmptySettingsAreOkay" classname="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceSettingsTests" time="0.018"/>
+  <testcase name="testMissingSetting" classname="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceSettingsTests" time="0.009"/>
+  <testcase name="testNegativeSetting" classname="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceSettingsTests" time="0.008"/>
+  <testcase name="testDisabledSetting" classname="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceSettingsTests" time="0.004"/>
+  <testcase name="testIllegalOverheadSettings" classname="org.elasticsearch.monitor.jvm.JvmGcMonitorServiceSettingsTests" time="0.03"/>
+  <system-out><![CDATA[[2020-02-16T23:24:01,211][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testEmptySettingsAreOkay] before test
+[2020-02-16T23:24:01,225][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testEmptySettingsAreOkay] after test
+[2020-02-16T23:24:01,234][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testMissingSetting] before test
+[2020-02-16T23:24:01,236][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testMissingSetting] after test
+[2020-02-16T23:24:01,239][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testNegativeSetting] before test
+[2020-02-16T23:24:01,244][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testNegativeSetting] after test
+[2020-02-16T23:24:01,247][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testDisabledSetting] before test
+[2020-02-16T23:24:01,248][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testDisabledSetting] after test
+[2020-02-16T23:24:01,253][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testIllegalOverheadSettings] before test
+[2020-02-16T23:24:01,278][INFO ][o.e.m.j.JvmGcMonitorServiceSettingsTests] [testIllegalOverheadSettings] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

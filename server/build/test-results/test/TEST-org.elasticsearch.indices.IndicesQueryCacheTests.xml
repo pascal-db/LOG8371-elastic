@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.IndicesQueryCacheTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:47" hostname="Escoto-PC" time="0.04">
+  <properties/>
+  <testcase name="testTwoShards" classname="org.elasticsearch.indices.IndicesQueryCacheTests" time="0.008"/>
+  <testcase name="testBasics" classname="org.elasticsearch.indices.IndicesQueryCacheTests" time="0.008"/>
+  <testcase name="testDelegatesScorerSupplier" classname="org.elasticsearch.indices.IndicesQueryCacheTests" time="0.008"/>
+  <testcase name="testStatsOnEviction" classname="org.elasticsearch.indices.IndicesQueryCacheTests" time="0.016"/>
+  <system-out><![CDATA[[2020-02-16T19:23:47,727][INFO ][o.e.i.IndicesQueryCacheTests] [testTwoShards] before test
+[2020-02-16T19:23:47,733][INFO ][o.e.i.IndicesQueryCacheTests] [testTwoShards] after test
+[2020-02-16T19:23:47,735][INFO ][o.e.i.IndicesQueryCacheTests] [testBasics] before test
+[2020-02-16T19:23:47,741][INFO ][o.e.i.IndicesQueryCacheTests] [testBasics] after test
+[2020-02-16T19:23:47,744][INFO ][o.e.i.IndicesQueryCacheTests] [testDelegatesScorerSupplier] before test
+[2020-02-16T19:23:47,749][INFO ][o.e.i.IndicesQueryCacheTests] [testDelegatesScorerSupplier] after test
+[2020-02-16T19:23:47,751][INFO ][o.e.i.IndicesQueryCacheTests] [testStatsOnEviction] before test
+[2020-02-16T19:23:47,766][INFO ][o.e.i.IndicesQueryCacheTests] [testStatsOnEviction] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

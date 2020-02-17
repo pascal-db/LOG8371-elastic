@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.AllocationIdTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.routing.AllocationIdTests" time="0.004"/>
+  <testcase name="testShardToStarted" classname="org.elasticsearch.cluster.routing.AllocationIdTests" time="0.013"/>
+  <testcase name="testMoveToUnassigned" classname="org.elasticsearch.cluster.routing.AllocationIdTests" time="0.002"/>
+  <testcase name="testCancelRelocation" classname="org.elasticsearch.cluster.routing.AllocationIdTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.cluster.routing.AllocationIdTests" time="0.002"/>
+  <testcase name="testSuccessfulRelocation" classname="org.elasticsearch.cluster.routing.AllocationIdTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:20:39,589][INFO ][o.e.c.r.AllocationIdTests] [testSerialization] before test
+[2020-02-16T19:20:39,590][INFO ][o.e.c.r.AllocationIdTests] [testSerialization] after test
+[2020-02-16T19:20:39,592][INFO ][o.e.c.r.AllocationIdTests] [testShardToStarted] before test
+[2020-02-16T19:20:39,592][INFO ][o.e.c.r.AllocationIdTests] [testShardToStarted] -- create unassigned shard
+[2020-02-16T19:20:39,593][INFO ][o.e.c.r.AllocationIdTests] [testShardToStarted] -- initialize the shard
+[2020-02-16T19:20:39,593][INFO ][o.e.c.r.AllocationIdTests] [testShardToStarted] -- start the shard
+[2020-02-16T19:20:39,593][INFO ][o.e.c.r.AllocationIdTests] [testShardToStarted] after test
+[2020-02-16T19:20:39,606][INFO ][o.e.c.r.AllocationIdTests] [testMoveToUnassigned] before test
+[2020-02-16T19:20:39,606][INFO ][o.e.c.r.AllocationIdTests] [testMoveToUnassigned] -- build started shard
+[2020-02-16T19:20:39,606][INFO ][o.e.c.r.AllocationIdTests] [testMoveToUnassigned] -- move to unassigned
+[2020-02-16T19:20:39,606][INFO ][o.e.c.r.AllocationIdTests] [testMoveToUnassigned] after test
+[2020-02-16T19:20:39,608][INFO ][o.e.c.r.AllocationIdTests] [testCancelRelocation] before test
+[2020-02-16T19:20:39,608][INFO ][o.e.c.r.AllocationIdTests] [testCancelRelocation] -- build started shard
+[2020-02-16T19:20:39,608][INFO ][o.e.c.r.AllocationIdTests] [testCancelRelocation] -- relocate the shard
+[2020-02-16T19:20:39,608][INFO ][o.e.c.r.AllocationIdTests] [testCancelRelocation] -- cancel relocation
+[2020-02-16T19:20:39,608][INFO ][o.e.c.r.AllocationIdTests] [testCancelRelocation] after test
+[2020-02-16T19:20:39,611][INFO ][o.e.c.r.AllocationIdTests] [testEquals] before test
+[2020-02-16T19:20:39,611][INFO ][o.e.c.r.AllocationIdTests] [testEquals] after test
+[2020-02-16T19:20:39,613][INFO ][o.e.c.r.AllocationIdTests] [testSuccessfulRelocation] before test
+[2020-02-16T19:20:39,613][INFO ][o.e.c.r.AllocationIdTests] [testSuccessfulRelocation] -- build started shard
+[2020-02-16T19:20:39,613][INFO ][o.e.c.r.AllocationIdTests] [testSuccessfulRelocation] -- relocate the shard
+[2020-02-16T19:20:39,613][INFO ][o.e.c.r.AllocationIdTests] [testSuccessfulRelocation] -- finalize the relocation
+[2020-02-16T19:20:39,613][INFO ][o.e.c.r.AllocationIdTests] [testSuccessfulRelocation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

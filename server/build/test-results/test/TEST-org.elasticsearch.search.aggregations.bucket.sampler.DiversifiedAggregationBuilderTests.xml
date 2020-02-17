@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedAggregationBuilderTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:24" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedAggregationBuilderTests" time="0.014"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedAggregationBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedAggregationBuilderTests" time="0.002"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedAggregationBuilderTests" time="0.001"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedAggregationBuilderTests" time="0.004"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedAggregationBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.sampler.DiversifiedAggregationBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:25:24,062][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testFromXContentMulti] before test
+[2020-02-16T22:25:24,064][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T22:25:24,064][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T22:25:24,069][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T22:25:24,069][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T22:25:24,074][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testFromXContentMulti] after test
+[2020-02-16T22:25:24,076][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testSerialization] before test
+[2020-02-16T22:25:24,076][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testSerialization] after test
+[2020-02-16T22:25:24,078][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:25:24,078][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:25:24,080][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testSerializationMulti] before test
+[2020-02-16T22:25:24,080][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testSerializationMulti] after test
+[2020-02-16T22:25:24,084][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testShallowCopy] before test
+[2020-02-16T22:25:24,084][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testShallowCopy] after test
+[2020-02-16T22:25:24,085][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testToString] before test
+[2020-02-16T22:25:24,086][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testToString] after test
+[2020-02-16T22:25:24,087][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testFromXContent] before test
+[2020-02-16T22:25:24,087][INFO ][o.e.s.a.b.s.DiversifiedAggregationBuilderTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

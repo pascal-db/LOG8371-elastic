@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:24" hostname="Escoto-PC" time="6.968">
+  <properties/>
+  <testcase name="testRangeField" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.007"/>
+  <testcase name="testManyDocsOneRare" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="4.734"/>
+  <testcase name="testWithNestedScoringAggregations" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.033"/>
+  <testcase name="testWithNestedAggregations" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.01"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.016"/>
+  <testcase name="testNestedTerms" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.493"/>
+  <testcase name="testIncludeExclude" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.482"/>
+  <testcase name="testUnmapped" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.018"/>
+  <testcase name="testGlobalAggregationWithScore" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.014"/>
+  <testcase name="testMatchNoDocs" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.384"/>
+  <testcase name="testEmbeddedMaxAgg" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.354"/>
+  <testcase name="testMatchAllDocs" classname="org.elasticsearch.search.aggregations.bucket.terms.RareTermsAggregatorTests" time="0.422"/>
+  <system-out><![CDATA[[2020-02-17T03:25:24,440][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testRangeField] before test
+[2020-02-17T03:25:24,446][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testRangeField] after test
+[2020-02-17T03:25:24,449][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testManyDocsOneRare] before test
+[2020-02-17T03:25:29,179][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testManyDocsOneRare] after test
+[2020-02-17T03:25:29,181][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testWithNestedScoringAggregations] before test
+[2020-02-17T03:25:29,213][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testWithNestedScoringAggregations] after test
+[2020-02-17T03:25:29,216][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testWithNestedAggregations] before test
+[2020-02-17T03:25:29,223][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testWithNestedAggregations] after test
+[2020-02-17T03:25:29,225][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testEmpty] before test
+[2020-02-17T03:25:29,238][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testEmpty] after test
+[2020-02-17T03:25:29,240][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testNestedTerms] before test
+[2020-02-17T03:25:29,732][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testNestedTerms] after test
+[2020-02-17T03:25:29,734][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testIncludeExclude] before test
+[2020-02-17T03:25:30,215][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testIncludeExclude] after test
+[2020-02-17T03:25:30,216][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testUnmapped] before test
+[2020-02-17T03:25:30,232][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testUnmapped] after test
+[2020-02-17T03:25:30,236][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testGlobalAggregationWithScore] before test
+[2020-02-17T03:25:30,246][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testGlobalAggregationWithScore] after test
+[2020-02-17T03:25:30,248][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testMatchNoDocs] before test
+[2020-02-17T03:25:30,631][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testMatchNoDocs] after test
+[2020-02-17T03:25:30,633][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testEmbeddedMaxAgg] before test
+[2020-02-17T03:25:30,986][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testEmbeddedMaxAgg] after test
+[2020-02-17T03:25:30,988][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testMatchAllDocs] before test
+[2020-02-17T03:25:31,407][INFO ][o.e.s.a.b.t.RareTermsAggregatorTests] [testMatchAllDocs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

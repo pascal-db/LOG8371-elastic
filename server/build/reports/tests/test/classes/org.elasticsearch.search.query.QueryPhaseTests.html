@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.search.query.QueryPhaseTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.search.query.QueryPhaseTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.search.query.html">org.elasticsearch.search.query</a> &gt; QueryPhaseTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">13</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.375s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCountWithDeletions</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCountWithoutDeletions</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDisableTopScoreCollection</td>
+<td class="success">0.050s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInOrderScrollOptimization</td>
+<td class="success">0.032s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexSortScrollOptimization</td>
+<td class="success">0.058s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexSortingEarlyTermination</td>
+<td class="success">0.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaxScoreQueryVisitor</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMinScore</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMinScoreDisablesCountOptimization</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPostFilterDisablesCountOptimization</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testQueryCapturesThreadPoolStats</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTerminateAfterEarlyTermination</td>
+<td class="success">0.026s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTerminateAfterWithFilter</td>
+<td class="success">0.040s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T12:25:35,954][INFO ][o.e.s.q.QueryPhaseTests  ] [testDisableTopScoreCollection] before test
+[2020-02-16T12:25:35,969][INFO ][o.e.s.q.QueryPhaseTests  ] [testDisableTopScoreCollection] after test
+[2020-02-16T12:25:35,984][INFO ][o.e.s.q.QueryPhaseTests  ] [testCountWithDeletions] before test
+[2020-02-16T12:25:35,991][INFO ][o.e.s.q.QueryPhaseTests  ] [testCountWithDeletions] after test
+[2020-02-16T12:25:36,027][INFO ][o.e.s.q.QueryPhaseTests  ] [testTerminateAfterWithFilter] before test
+[2020-02-16T12:25:36,031][INFO ][o.e.s.q.QueryPhaseTests  ] [testTerminateAfterWithFilter] after test
+[2020-02-16T12:25:36,047][INFO ][o.e.s.q.QueryPhaseTests  ] [testMinScoreDisablesCountOptimization] before test
+[2020-02-16T12:25:36,049][INFO ][o.e.s.q.QueryPhaseTests  ] [testMinScoreDisablesCountOptimization] after test
+[2020-02-16T12:25:36,067][INFO ][o.e.s.q.QueryPhaseTests  ] [testQueryCapturesThreadPoolStats] before test
+[2020-02-16T12:25:36,071][INFO ][o.e.s.q.QueryPhaseTests  ] [testQueryCapturesThreadPoolStats] after test
+[2020-02-16T12:25:36,085][INFO ][o.e.s.q.QueryPhaseTests  ] [testIndexSortingEarlyTermination] before test
+[2020-02-16T12:25:36,101][INFO ][o.e.s.q.QueryPhaseTests  ] [testIndexSortingEarlyTermination] after test
+[2020-02-16T12:25:36,115][INFO ][o.e.s.q.QueryPhaseTests  ] [testCountWithoutDeletions] before test
+[2020-02-16T12:25:36,124][INFO ][o.e.s.q.QueryPhaseTests  ] [testCountWithoutDeletions] after test
+[2020-02-16T12:25:36,141][INFO ][o.e.s.q.QueryPhaseTests  ] [testIndexSortScrollOptimization] before test
+[2020-02-16T12:25:36,182][INFO ][o.e.s.q.QueryPhaseTests  ] [testIndexSortScrollOptimization] after test
+[2020-02-16T12:25:36,202][INFO ][o.e.s.q.QueryPhaseTests  ] [testInOrderScrollOptimization] before test
+[2020-02-16T12:25:36,214][INFO ][o.e.s.q.QueryPhaseTests  ] [testInOrderScrollOptimization] after test
+[2020-02-16T12:25:36,231][INFO ][o.e.s.q.QueryPhaseTests  ] [testMaxScoreQueryVisitor] before test
+[2020-02-16T12:25:36,231][INFO ][o.e.s.q.QueryPhaseTests  ] [testMaxScoreQueryVisitor] after test
+[2020-02-16T12:25:36,246][INFO ][o.e.s.q.QueryPhaseTests  ] [testTerminateAfterEarlyTermination] before test
+[2020-02-16T12:25:36,257][INFO ][o.e.s.q.QueryPhaseTests  ] [testTerminateAfterEarlyTermination] after test
+[2020-02-16T12:25:36,272][INFO ][o.e.s.q.QueryPhaseTests  ] [testMinScore] before test
+[2020-02-16T12:25:36,275][INFO ][o.e.s.q.QueryPhaseTests  ] [testMinScore] after test
+[2020-02-16T12:25:36,291][INFO ][o.e.s.q.QueryPhaseTests  ] [testPostFilterDisablesCountOptimization] before test
+[2020-02-16T12:25:36,294][INFO ][o.e.s.q.QueryPhaseTests  ] [testPostFilterDisablesCountOptimization] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

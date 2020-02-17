@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.lookup.LeafFieldsLookupTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testBasicLookup" classname="org.elasticsearch.search.lookup.LeafFieldsLookupTests" time="0.027"/>
+  <testcase name="testLookupWithFieldAlias" classname="org.elasticsearch.search.lookup.LeafFieldsLookupTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T14:24:38,202][INFO ][o.e.s.l.LeafFieldsLookupTests] [testBasicLookup] before test
+[2020-02-16T14:24:38,228][INFO ][o.e.s.l.LeafFieldsLookupTests] [testBasicLookup] after test
+[2020-02-16T14:24:38,229][INFO ][o.e.s.l.LeafFieldsLookupTests] [testLookupWithFieldAlias] before test
+[2020-02-16T14:24:38,230][INFO ][o.e.s.l.LeafFieldsLookupTests] [testLookupWithFieldAlias] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

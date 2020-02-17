@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" tests="32" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="2.659">
+  <properties/>
+  <testcase name="testFixedAndThenCalendar" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.026"/>
+  <testcase name="testNewThenLegacy" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.038"/>
+  <testcase name="testMatchNoDocsDeprecatedInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.047"/>
+  <testcase name="testCalendarAndThenFixed" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.012"/>
+  <testcase name="testIntervalMinute" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.054"/>
+  <testcase name="testIntervalMinuteDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.027"/>
+  <testcase name="testAggregateWrongField" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.092"/>
+  <testcase name="testMatchNoDocs" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.088"/>
+  <testcase name="testIntervalMonth" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.029"/>
+  <testcase name="testLegacyThenNew" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.039"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.029"/>
+  <testcase name="testMaxBucketDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.048"/>
+  <testcase name="testIntervalHourDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.045"/>
+  <testcase name="testMinDocCountDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.035"/>
+  <testcase name="testIntervalSecond" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.059"/>
+  <testcase name="testAggregateWrongFieldDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.04"/>
+  <testcase name="testMatchAllDocs" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="1.132"/>
+  <testcase name="testIntervalYearDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.05"/>
+  <testcase name="testIntervalHour" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.09"/>
+  <testcase name="testIntervalDayDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.032"/>
+  <testcase name="testIntervalMonthDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.03"/>
+  <testcase name="testIllegalInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.005"/>
+  <testcase name="testMaxBucket" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.039"/>
+  <testcase name="testIntervalDay" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.052"/>
+  <testcase name="testNoDocsDeprecatedInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.007"/>
+  <testcase name="testNanosIntervalSecond" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.056"/>
+  <testcase name="testIntervalSecondDeprecated" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.03"/>
+  <testcase name="testFixedWithCalendar" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.016"/>
+  <testcase name="testCalendarWithFixed" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.012"/>
+  <testcase name="testMinDocCount" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.069"/>
+  <testcase name="testIntervalYear" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.249"/>
+  <testcase name="testMatchAllDocsDeprecatedInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.DateHistogramAggregatorTests" time="0.08"/>
+  <system-out><![CDATA[[2020-02-17T00:25:20,765][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testFixedAndThenCalendar] before test
+[2020-02-17T00:25:20,785][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testFixedAndThenCalendar] after test
+[2020-02-17T00:25:20,788][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testNewThenLegacy] before test
+[2020-02-17T00:25:20,823][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testNewThenLegacy] after test
+[2020-02-17T00:25:20,825][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMatchNoDocsDeprecatedInterval] before test
+[2020-02-17T00:25:20,835][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMatchNoDocsDeprecatedInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:20,850][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMatchNoDocsDeprecatedInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:20,870][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMatchNoDocsDeprecatedInterval] after test
+[2020-02-17T00:25:20,872][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testCalendarAndThenFixed] before test
+[2020-02-17T00:25:20,882][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testCalendarAndThenFixed] after test
+[2020-02-17T00:25:20,884][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalMinute] before test
+[2020-02-17T00:25:20,936][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalMinute] after test
+[2020-02-17T00:25:20,938][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalMinuteDeprecated] before test
+[2020-02-17T00:25:20,944][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalMinuteDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:20,952][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalMinuteDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:20,963][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalMinuteDeprecated] after test
+[2020-02-17T00:25:20,965][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testAggregateWrongField] before test
+[2020-02-17T00:25:21,055][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testAggregateWrongField] after test
+[2020-02-17T00:25:21,056][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMatchNoDocs] before test
+[2020-02-17T00:25:21,143][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMatchNoDocs] after test
+[2020-02-17T00:25:21,145][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalMonth] before test
+[2020-02-17T00:25:21,173][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalMonth] after test
+[2020-02-17T00:25:21,174][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testLegacyThenNew] before test
+[2020-02-17T00:25:21,181][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testLegacyThenNew] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,190][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testLegacyThenNew] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,199][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testLegacyThenNew] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,207][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testLegacyThenNew] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,212][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testLegacyThenNew] after test
+[2020-02-17T00:25:21,214][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testNoDocs] before test
+[2020-02-17T00:25:21,241][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testNoDocs] after test
+[2020-02-17T00:25:21,243][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMaxBucketDeprecated] before test
+[2020-02-17T00:25:21,247][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMaxBucketDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,253][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMaxBucketDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,264][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMaxBucketDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,279][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMaxBucketDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,280][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMaxBucketDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,290][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMaxBucketDeprecated] after test
+[2020-02-17T00:25:21,291][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalHourDeprecated] before test
+[2020-02-17T00:25:21,301][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalHourDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,315][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalHourDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,335][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalHourDeprecated] after test
+[2020-02-17T00:25:21,337][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMinDocCountDeprecated] before test
+[2020-02-17T00:25:21,341][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMinDocCountDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,359][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMinDocCountDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,370][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMinDocCountDeprecated] after test
+[2020-02-17T00:25:21,372][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalSecond] before test
+[2020-02-17T00:25:21,429][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalSecond] after test
+[2020-02-17T00:25:21,431][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testAggregateWrongFieldDeprecated] before test
+[2020-02-17T00:25:21,438][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testAggregateWrongFieldDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,452][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testAggregateWrongFieldDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:21,470][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testAggregateWrongFieldDeprecated] after test
+[2020-02-17T00:25:21,471][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMatchAllDocs] before test
+[2020-02-17T00:25:22,602][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMatchAllDocs] after test
+[2020-02-17T00:25:22,604][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalYearDeprecated] before test
+[2020-02-17T00:25:22,615][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalYearDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,630][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalYearDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,652][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalYearDeprecated] after test
+[2020-02-17T00:25:22,654][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalHour] before test
+[2020-02-17T00:25:22,742][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalHour] after test
+[2020-02-17T00:25:22,745][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalDayDeprecated] before test
+[2020-02-17T00:25:22,750][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalDayDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,761][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalDayDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,774][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalDayDeprecated] after test
+[2020-02-17T00:25:22,775][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalMonthDeprecated] before test
+[2020-02-17T00:25:22,781][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalMonthDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,789][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalMonthDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,804][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalMonthDeprecated] after test
+[2020-02-17T00:25:22,806][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIllegalInterval] before test
+[2020-02-17T00:25:22,807][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIllegalInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,809][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIllegalInterval] after test
+[2020-02-17T00:25:22,811][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMaxBucket] before test
+[2020-02-17T00:25:22,848][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMaxBucket] after test
+[2020-02-17T00:25:22,849][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalDay] before test
+[2020-02-17T00:25:22,899][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalDay] after test
+[2020-02-17T00:25:22,901][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testNoDocsDeprecatedInterval] before test
+[2020-02-17T00:25:22,902][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testNoDocsDeprecatedInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,905][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testNoDocsDeprecatedInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,907][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testNoDocsDeprecatedInterval] after test
+[2020-02-17T00:25:22,909][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testNanosIntervalSecond] before test
+[2020-02-17T00:25:22,963][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testNanosIntervalSecond] after test
+[2020-02-17T00:25:22,965][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalSecondDeprecated] before test
+[2020-02-17T00:25:22,970][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalSecondDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,981][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testIntervalSecondDeprecated] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:22,993][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalSecondDeprecated] after test
+[2020-02-17T00:25:22,995][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testFixedWithCalendar] before test
+[2020-02-17T00:25:23,009][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testFixedWithCalendar] after test
+[2020-02-17T00:25:23,011][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testCalendarWithFixed] before test
+[2020-02-17T00:25:23,021][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testCalendarWithFixed] after test
+[2020-02-17T00:25:23,023][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMinDocCount] before test
+[2020-02-17T00:25:23,090][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMinDocCount] after test
+[2020-02-17T00:25:23,096][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalYear] before test
+[2020-02-17T00:25:23,339][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testIntervalYear] after test
+[2020-02-17T00:25:23,341][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMatchAllDocsDeprecatedInterval] before test
+[2020-02-17T00:25:23,353][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMatchAllDocsDeprecatedInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:23,366][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMatchAllDocsDeprecatedInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:23,393][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMatchAllDocsDeprecatedInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:23,407][WARN ][o.e.d.s.a.b.h.DateHistogramAggregationBuilder] [testMatchAllDocsDeprecatedInterval] [interval] on [date_histogram] is deprecated, use [fixed_interval] or [calendar_interval] in the future.
+[2020-02-17T00:25:23,419][INFO ][o.e.s.a.b.h.DateHistogramAggregatorTests] [testMatchAllDocsDeprecatedInterval] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

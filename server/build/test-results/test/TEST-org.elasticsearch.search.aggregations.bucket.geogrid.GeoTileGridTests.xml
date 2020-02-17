@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="0.032">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridTests" time="0.003"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridTests" time="0.012"/>
+  <testcase name="testCreateFromBuckets" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridTests" time="0.002"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridTests" time="0.004"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.geogrid.GeoTileGridTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T17:25:20,601][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testFromXContent] before test
+[2020-02-16T17:25:20,603][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testFromXContent] after test
+[2020-02-16T17:25:20,605][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T17:25:20,606][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T17:25:20,615][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:25:20,618][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:25:20,620][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testCreateFromBuckets] before test
+[2020-02-16T17:25:20,620][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testCreateFromBuckets] after test
+[2020-02-16T17:25:20,622][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testReduceRandom] before test
+[2020-02-16T17:25:20,624][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testReduceRandom] after test
+[2020-02-16T17:25:20,627][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testIterators] before test
+[2020-02-16T17:25:20,627][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testIterators] after test
+[2020-02-16T17:25:20,630][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testSerialization] before test
+[2020-02-16T17:25:20,631][INFO ][o.e.s.a.b.g.GeoTileGridTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

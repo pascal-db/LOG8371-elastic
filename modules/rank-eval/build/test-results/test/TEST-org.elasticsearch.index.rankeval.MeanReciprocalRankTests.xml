@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:50" hostname="Escoto-PC" time="0.28">
+  <properties/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.04"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.008"/>
+  <testcase name="testParseFromXContent" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.109"/>
+  <testcase name="testXContentRoundtrip" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.032"/>
+  <testcase name="testXContentParsingIsNotLenient" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.011"/>
+  <testcase name="testCombine" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.01"/>
+  <testcase name="testNoResults" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.007"/>
+  <testcase name="testMaxAcceptableRank" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.008"/>
+  <testcase name="testInvalidK" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.005"/>
+  <testcase name="testInvalidRelevantThreshold" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.003"/>
+  <testcase name="testPrecisionAtFiveRelevanceThreshold" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.029"/>
+  <testcase name="testEvaluationNoRelevantInResults" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.003"/>
+  <testcase name="testEvaluationOneRelevantInResults" classname="org.elasticsearch.index.rankeval.MeanReciprocalRankTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T00:41:50,322][INFO ][o.e.i.r.MeanReciprocalRankTests] [testEqualsAndHash] before test
+[2020-02-17T00:41:50,341][INFO ][o.e.i.r.MeanReciprocalRankTests] [testEqualsAndHash] after test
+[2020-02-17T00:41:50,348][INFO ][o.e.i.r.MeanReciprocalRankTests] [testSerialization] before test
+[2020-02-17T00:41:50,349][INFO ][o.e.i.r.MeanReciprocalRankTests] [testSerialization] after test
+[2020-02-17T00:41:50,402][INFO ][o.e.i.r.MeanReciprocalRankTests] [testParseFromXContent] before test
+[2020-02-17T00:41:50,459][INFO ][o.e.i.r.MeanReciprocalRankTests] [testParseFromXContent] after test
+[2020-02-17T00:41:50,483][INFO ][o.e.i.r.MeanReciprocalRankTests] [testXContentRoundtrip] before test
+[2020-02-17T00:41:50,491][INFO ][o.e.i.r.MeanReciprocalRankTests] [testXContentRoundtrip] after test
+[2020-02-17T00:41:50,502][INFO ][o.e.i.r.MeanReciprocalRankTests] [testXContentParsingIsNotLenient] before test
+[2020-02-17T00:41:50,506][INFO ][o.e.i.r.MeanReciprocalRankTests] [testXContentParsingIsNotLenient] after test
+[2020-02-17T00:41:50,511][INFO ][o.e.i.r.MeanReciprocalRankTests] [testCombine] before test
+[2020-02-17T00:41:50,517][INFO ][o.e.i.r.MeanReciprocalRankTests] [testCombine] after test
+[2020-02-17T00:41:50,522][INFO ][o.e.i.r.MeanReciprocalRankTests] [testNoResults] before test
+[2020-02-17T00:41:50,524][INFO ][o.e.i.r.MeanReciprocalRankTests] [testNoResults] after test
+[2020-02-17T00:41:50,531][INFO ][o.e.i.r.MeanReciprocalRankTests] [testMaxAcceptableRank] before test
+[2020-02-17T00:41:50,532][INFO ][o.e.i.r.MeanReciprocalRankTests] [testMaxAcceptableRank] after test
+[2020-02-17T00:41:50,536][INFO ][o.e.i.r.MeanReciprocalRankTests] [testInvalidK] before test
+[2020-02-17T00:41:50,537][INFO ][o.e.i.r.MeanReciprocalRankTests] [testInvalidK] after test
+[2020-02-17T00:41:50,540][INFO ][o.e.i.r.MeanReciprocalRankTests] [testInvalidRelevantThreshold] before test
+[2020-02-17T00:41:50,540][INFO ][o.e.i.r.MeanReciprocalRankTests] [testInvalidRelevantThreshold] after test
+[2020-02-17T00:41:50,568][INFO ][o.e.i.r.MeanReciprocalRankTests] [testPrecisionAtFiveRelevanceThreshold] before test
+[2020-02-17T00:41:50,569][INFO ][o.e.i.r.MeanReciprocalRankTests] [testPrecisionAtFiveRelevanceThreshold] after test
+[2020-02-17T00:41:50,573][INFO ][o.e.i.r.MeanReciprocalRankTests] [testEvaluationNoRelevantInResults] before test
+[2020-02-17T00:41:50,573][INFO ][o.e.i.r.MeanReciprocalRankTests] [testEvaluationNoRelevantInResults] after test
+[2020-02-17T00:41:50,577][INFO ][o.e.i.r.MeanReciprocalRankTests] [testEvaluationOneRelevantInResults] before test
+[2020-02-17T00:41:50,579][INFO ][o.e.i.r.MeanReciprocalRankTests] [testEvaluationOneRelevantInResults] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

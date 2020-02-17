@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:03" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testSimpleFilterPath" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.004"/>
+  <testcase name="testFilterPathWithSubField" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.002"/>
+  <testcase name="testWildcardInNameFilterPath" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.002"/>
+  <testcase name="testStartsWithDoubleWildcardFilterPath" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.002"/>
+  <testcase name="testDoubleWildcardFilterPath" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.001"/>
+  <testcase name="testNullFilterPath" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.002"/>
+  <testcase name="testFilterPathWithEscapedDots" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.001"/>
+  <testcase name="testSimpleWildcardFilterPath" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.001"/>
+  <testcase name="testEmptyFilterPath" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.002"/>
+  <testcase name="testMultipleFilterPaths" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.001"/>
+  <testcase name="testContainsDoubleWildcardFilterPath" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.002"/>
+  <testcase name="testFilterPathWithSubFields" classname="org.elasticsearch.common.xcontent.support.filtering.FilterPathTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:22:03,749][INFO ][o.e.c.x.s.f.FilterPathTests] [testSimpleFilterPath] before test
+[2020-02-16T22:22:03,752][INFO ][o.e.c.x.s.f.FilterPathTests] [testSimpleFilterPath] after test
+[2020-02-16T22:22:03,753][INFO ][o.e.c.x.s.f.FilterPathTests] [testFilterPathWithSubField] before test
+[2020-02-16T22:22:03,754][INFO ][o.e.c.x.s.f.FilterPathTests] [testFilterPathWithSubField] after test
+[2020-02-16T22:22:03,755][INFO ][o.e.c.x.s.f.FilterPathTests] [testWildcardInNameFilterPath] before test
+[2020-02-16T22:22:03,756][INFO ][o.e.c.x.s.f.FilterPathTests] [testWildcardInNameFilterPath] after test
+[2020-02-16T22:22:03,757][INFO ][o.e.c.x.s.f.FilterPathTests] [testStartsWithDoubleWildcardFilterPath] before test
+[2020-02-16T22:22:03,757][INFO ][o.e.c.x.s.f.FilterPathTests] [testStartsWithDoubleWildcardFilterPath] after test
+[2020-02-16T22:22:03,759][INFO ][o.e.c.x.s.f.FilterPathTests] [testDoubleWildcardFilterPath] before test
+[2020-02-16T22:22:03,759][INFO ][o.e.c.x.s.f.FilterPathTests] [testDoubleWildcardFilterPath] after test
+[2020-02-16T22:22:03,761][INFO ][o.e.c.x.s.f.FilterPathTests] [testNullFilterPath] before test
+[2020-02-16T22:22:03,761][INFO ][o.e.c.x.s.f.FilterPathTests] [testNullFilterPath] after test
+[2020-02-16T22:22:03,762][INFO ][o.e.c.x.s.f.FilterPathTests] [testFilterPathWithEscapedDots] before test
+[2020-02-16T22:22:03,762][INFO ][o.e.c.x.s.f.FilterPathTests] [testFilterPathWithEscapedDots] after test
+[2020-02-16T22:22:03,764][INFO ][o.e.c.x.s.f.FilterPathTests] [testSimpleWildcardFilterPath] before test
+[2020-02-16T22:22:03,764][INFO ][o.e.c.x.s.f.FilterPathTests] [testSimpleWildcardFilterPath] after test
+[2020-02-16T22:22:03,765][INFO ][o.e.c.x.s.f.FilterPathTests] [testEmptyFilterPath] before test
+[2020-02-16T22:22:03,765][INFO ][o.e.c.x.s.f.FilterPathTests] [testEmptyFilterPath] after test
+[2020-02-16T22:22:03,767][INFO ][o.e.c.x.s.f.FilterPathTests] [testMultipleFilterPaths] before test
+[2020-02-16T22:22:03,767][INFO ][o.e.c.x.s.f.FilterPathTests] [testMultipleFilterPaths] after test
+[2020-02-16T22:22:03,769][INFO ][o.e.c.x.s.f.FilterPathTests] [testContainsDoubleWildcardFilterPath] before test
+[2020-02-16T22:22:03,769][INFO ][o.e.c.x.s.f.FilterPathTests] [testContainsDoubleWildcardFilterPath] after test
+[2020-02-16T22:22:03,770][INFO ][o.e.c.x.s.f.FilterPathTests] [testFilterPathWithSubFields] before test
+[2020-02-16T22:22:03,770][INFO ][o.e.c.x.s.f.FilterPathTests] [testFilterPathWithSubFields] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

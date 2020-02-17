@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.support.ValuesSourceTypeTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testWriteTo" classname="org.elasticsearch.search.aggregations.support.ValuesSourceTypeTests" time="0.003"/>
+  <testcase name="testFromString" classname="org.elasticsearch.search.aggregations.support.ValuesSourceTypeTests" time="0.002"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.search.aggregations.support.ValuesSourceTypeTests" time="0.002"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.search.aggregations.support.ValuesSourceTypeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:25:35,342][INFO ][o.e.s.a.s.ValuesSourceTypeTests] [testWriteTo] before test
+[2020-02-17T01:25:35,342][INFO ][o.e.s.a.s.ValuesSourceTypeTests] [testWriteTo] after test
+[2020-02-17T01:25:35,344][INFO ][o.e.s.a.s.ValuesSourceTypeTests] [testFromString] before test
+[2020-02-17T01:25:35,345][INFO ][o.e.s.a.s.ValuesSourceTypeTests] [testFromString] after test
+[2020-02-17T01:25:35,347][INFO ][o.e.s.a.s.ValuesSourceTypeTests] [testReadFrom] before test
+[2020-02-17T01:25:35,347][INFO ][o.e.s.a.s.ValuesSourceTypeTests] [testReadFrom] after test
+[2020-02-17T01:25:35,348][INFO ][o.e.s.a.s.ValuesSourceTypeTests] [testValidOrdinals] before test
+[2020-02-17T01:25:35,348][INFO ][o.e.s.a.s.ValuesSourceTypeTests] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

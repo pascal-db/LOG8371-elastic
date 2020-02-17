@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.terms.LongTermsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:22" hostname="Escoto-PC" time="0.059">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.terms.LongTermsTests" time="0.008"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.terms.LongTermsTests" time="0.016"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.terms.LongTermsTests" time="0.008"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.terms.LongTermsTests" time="0.008"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.terms.LongTermsTests" time="0.004"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.terms.LongTermsTests" time="0.014"/>
+  <system-out><![CDATA[[2020-02-16T22:24:22,156][INFO ][o.e.s.a.b.t.LongTermsTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T22:24:22,160][INFO ][o.e.s.a.b.t.LongTermsTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T22:24:22,162][INFO ][o.e.s.a.b.t.LongTermsTests] [testReduceRandom] before test
+[2020-02-16T22:24:22,176][INFO ][o.e.s.a.b.t.LongTermsTests] [testReduceRandom] after test
+[2020-02-16T22:24:22,181][INFO ][o.e.s.a.b.t.LongTermsTests] [testFromXContent] before test
+[2020-02-16T22:24:22,185][INFO ][o.e.s.a.b.t.LongTermsTests] [testFromXContent] after test
+[2020-02-16T22:24:22,187][INFO ][o.e.s.a.b.t.LongTermsTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:24:22,193][INFO ][o.e.s.a.b.t.LongTermsTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:24:22,195][INFO ][o.e.s.a.b.t.LongTermsTests] [testSerialization] before test
+[2020-02-16T22:24:22,197][INFO ][o.e.s.a.b.t.LongTermsTests] [testSerialization] after test
+[2020-02-16T22:24:22,210][INFO ][o.e.s.a.b.t.LongTermsTests] [testIterators] before test
+[2020-02-16T22:24:22,212][INFO ][o.e.s.a.b.t.LongTermsTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

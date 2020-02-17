@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.replication.IndexLevelReplicationTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.replication.IndexLevelReplicationTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.replication.html">org.elasticsearch.index.replication</a> &gt; IndexLevelReplicationTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">16</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">6.466s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAppendOnlyRecoveryThenReplication</td>
+<td class="success">0.922s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendWhileRecovering</td>
+<td class="success">0.417s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCheckpointsAdvance</td>
+<td class="success">0.246s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConflictingOpsOnReplica</td>
+<td class="success">0.441s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDocumentFailureReplication</td>
+<td class="success">0.339s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexingOptimizationUsingSequenceNumbers</td>
+<td class="success">0.449s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInheritMaxValidAutoIDTimestampOnRecovery</td>
+<td class="success">0.220s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLateDeliveryAfterGCTriggeredOnReplica</td>
+<td class="success">0.220s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutOfOrderDeliveryForAppendOnlyOperations</td>
+<td class="success">0.311s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReplicaOperationWithConcurrentPrimaryPromotion</td>
+<td class="success">0.231s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReplicaTermIncrementWithConcurrentPrimaryPromotion</td>
+<td class="success">0.265s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRequestFailureReplication</td>
+<td class="success">0.301s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryAppendOnlyAfterRecovering</td>
+<td class="success">0.309s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSeqNoCollision</td>
+<td class="success">0.814s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleAppendOnlyReplication</td>
+<td class="success">0.847s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleReplication</td>
+<td class="success">0.134s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T20:23:10,309][INFO ][o.e.i.r.IndexLevelReplicationTests] [testRequestFailureReplication] before test
+[2020-02-16T20:23:10,579][INFO ][o.e.i.r.IndexLevelReplicationTests] [testRequestFailureReplication] after test
+[2020-02-16T20:23:10,582][INFO ][o.e.i.r.IndexLevelReplicationTests] [testInheritMaxValidAutoIDTimestampOnRecovery] before test
+[2020-02-16T20:23:10,799][INFO ][o.e.i.r.IndexLevelReplicationTests] [testInheritMaxValidAutoIDTimestampOnRecovery] after test
+[2020-02-16T20:23:10,803][INFO ][o.e.i.r.IndexLevelReplicationTests] [testOutOfOrderDeliveryForAppendOnlyOperations] before test
+[2020-02-16T20:23:11,104][INFO ][o.e.i.r.IndexLevelReplicationTests] [testOutOfOrderDeliveryForAppendOnlyOperations] after test
+[2020-02-16T20:23:11,117][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSimpleReplication] before test
+[2020-02-16T20:23:11,244][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSimpleReplication] after test
+[2020-02-16T20:23:11,247][INFO ][o.e.i.r.IndexLevelReplicationTests] [testAppendOnlyRecoveryThenReplication] before test
+[2020-02-16T20:23:12,128][INFO ][o.e.i.r.IndexLevelReplicationTests] [testAppendOnlyRecoveryThenReplication] after test
+[2020-02-16T20:23:12,225][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSeqNoCollision] before test
+[2020-02-16T20:23:12,574][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSeqNoCollision] --&gt; Isolate replica1
+[2020-02-16T20:23:12,576][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSeqNoCollision] --&gt; Promote replica1 as the primary
+[2020-02-16T20:23:12,663][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.IndexLevelReplicationTests] [test][0] detected new primary with primary term [34], global checkpoint [3], max_seq_no [4]
+[2020-02-16T20:23:12,771][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.IndexLevelReplicationTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T20:23:12,810][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSeqNoCollision] --&gt; Promote replica2 as the primary
+[2020-02-16T20:23:12,841][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.IndexLevelReplicationTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T20:23:12,842][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSeqNoCollision] --&gt; Recover replica3 from replica2
+[2020-02-16T20:23:12,980][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSeqNoCollision] after test
+[2020-02-16T20:23:12,983][INFO ][o.e.i.r.IndexLevelReplicationTests] [testLateDeliveryAfterGCTriggeredOnReplica] before test
+[2020-02-16T20:23:13,115][INFO ][o.e.c.s.IndexScopedSettings] [testLateDeliveryAfterGCTriggeredOnReplica] updating [index.gc_deletes] from [60s] to [6ms]
+[2020-02-16T20:23:13,200][INFO ][o.e.i.r.IndexLevelReplicationTests] [testLateDeliveryAfterGCTriggeredOnReplica] after test
+[2020-02-16T20:23:13,204][INFO ][o.e.i.r.IndexLevelReplicationTests] [testRetryAppendOnlyAfterRecovering] before test
+[2020-02-16T20:23:13,510][INFO ][o.e.i.r.IndexLevelReplicationTests] [testRetryAppendOnlyAfterRecovering] after test
+[2020-02-16T20:23:13,513][INFO ][o.e.i.r.IndexLevelReplicationTests] [testCheckpointsAdvance] before test
+[2020-02-16T20:23:13,748][INFO ][o.e.i.r.IndexLevelReplicationTests] [testCheckpointsAdvance] after test
+[2020-02-16T20:23:13,759][INFO ][o.e.i.r.IndexLevelReplicationTests] [testConflictingOpsOnReplica] before test
+[2020-02-16T20:23:14,003][INFO ][o.e.i.r.IndexLevelReplicationTests] [testConflictingOpsOnReplica] --&gt; isolated replica [test][0], node[s1], [R], s[STARTED], a[id=n8au2pafQDOt-pOxOts1_g]
+[2020-02-16T20:23:14,011][INFO ][o.e.i.r.IndexLevelReplicationTests] [testConflictingOpsOnReplica] --&gt; promoting replica to primary [test][0], node[s1], [R], s[STARTED], a[id=n8au2pafQDOt-pOxOts1_g]
+[2020-02-16T20:23:14,044][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.IndexLevelReplicationTests] [test][0] detected new primary with primary term [10], global checkpoint [-1], max_seq_no [0]
+[2020-02-16T20:23:14,122][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.IndexLevelReplicationTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T20:23:14,196][INFO ][o.e.i.r.IndexLevelReplicationTests] [testConflictingOpsOnReplica] after test
+[2020-02-16T20:23:14,204][INFO ][o.e.i.r.IndexLevelReplicationTests] [testIndexingOptimizationUsingSequenceNumbers] before test
+[2020-02-16T20:23:14,646][INFO ][o.e.i.r.IndexLevelReplicationTests] [testIndexingOptimizationUsingSequenceNumbers] after test
+[2020-02-16T20:23:14,649][INFO ][o.e.i.r.IndexLevelReplicationTests] [testReplicaOperationWithConcurrentPrimaryPromotion] before test
+[2020-02-16T20:23:14,869][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.IndexLevelReplicationTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T20:23:14,878][INFO ][o.e.i.r.IndexLevelReplicationTests] [testReplicaOperationWithConcurrentPrimaryPromotion] after test
+[2020-02-16T20:23:14,883][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSimpleAppendOnlyReplication] before test
+[2020-02-16T20:23:15,713][INFO ][o.e.i.r.IndexLevelReplicationTests] [testSimpleAppendOnlyReplication] after test
+[2020-02-16T20:23:15,734][INFO ][o.e.i.r.IndexLevelReplicationTests] [testDocumentFailureReplication] before test
+[2020-02-16T20:23:16,063][INFO ][o.e.i.r.IndexLevelReplicationTests] [testDocumentFailureReplication] after test
+[2020-02-16T20:23:16,068][INFO ][o.e.i.r.IndexLevelReplicationTests] [testAppendWhileRecovering] before test
+[2020-02-16T20:23:16,480][INFO ][o.e.i.r.IndexLevelReplicationTests] [testAppendWhileRecovering] after test
+[2020-02-16T20:23:16,485][INFO ][o.e.i.r.IndexLevelReplicationTests] [testReplicaTermIncrementWithConcurrentPrimaryPromotion] before test
+[2020-02-16T20:23:16,694][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.IndexLevelReplicationTests] [test][0] detected new primary with primary term [53], global checkpoint [-1], max_seq_no [-1]
+[2020-02-16T20:23:16,723][INFO ][o.e.i.s.IndexShard       ] [org.elasticsearch.index.replication.IndexLevelReplicationTests] [test][0] primary-replica resync completed with 0 operations
+[2020-02-16T20:23:16,746][INFO ][o.e.i.r.IndexLevelReplicationTests] [testReplicaTermIncrementWithConcurrentPrimaryPromotion] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

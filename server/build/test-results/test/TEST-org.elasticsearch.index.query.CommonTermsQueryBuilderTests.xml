@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:05" hostname="Escoto-PC" time="0.149">
+  <properties/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.015"/>
+  <testcase name="testCommonTermsQuery2" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.022"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.019"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.004"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.005"/>
+  <testcase name="testCommonTermsQuery4" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.013"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.006"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.007"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.004"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.004"/>
+  <testcase name="testCommonTermsQuery3" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.014"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.014"/>
+  <testcase name="testCommonTermsQuery1" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.006"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.CommonTermsQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:23:05,401][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T23:23:05,404][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no modules loaded
+[2020-02-16T23:23:05,404][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no plugins loaded
+[2020-02-16T23:23:05,412][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no modules loaded
+[2020-02-16T23:23:05,412][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no plugins loaded
+[2020-02-16T23:23:05,415][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T23:23:05,419][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCommonTermsQuery2] before test
+[2020-02-16T23:23:05,421][WARN ][o.e.d.c.ParseField       ] [testCommonTermsQuery2] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,438][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCommonTermsQuery2] after test
+[2020-02-16T23:23:05,440][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T23:23:05,441][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,441][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,442][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,442][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,443][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,443][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,444][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,444][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,445][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,445][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,445][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,446][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,446][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,447][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,447][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,447][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,448][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,448][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,448][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,449][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,449][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,450][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,450][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,450][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,451][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,451][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,452][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,452][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,452][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,452][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,453][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,453][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,453][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,454][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,454][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,454][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,455][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,455][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,456][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,456][WARN ][o.e.d.c.ParseField       ] [testFromXContent] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,456][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T23:23:05,459][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T23:23:05,460][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T23:23:05,465][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-16T23:23:05,465][WARN ][o.e.d.c.ParseField       ] [testParseFailsWithMultipleFields] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,466][WARN ][o.e.d.c.ParseField       ] [testParseFailsWithMultipleFields] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,466][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-16T23:23:05,478][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCommonTermsQuery4] before test
+[2020-02-16T23:23:05,479][WARN ][o.e.d.c.ParseField       ] [testCommonTermsQuery4] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,479][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCommonTermsQuery4] after test
+[2020-02-16T23:23:05,481][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T23:23:05,481][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T23:23:05,487][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:23:05,488][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:23:05,492][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T23:23:05,495][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T23:23:05,498][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T23:23:05,498][WARN ][o.e.d.c.ParseField       ] [testUnknownField] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,498][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T23:23:05,502][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCacheability] before test
+[2020-02-16T23:23:05,502][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCacheability] after test
+[2020-02-16T23:23:05,512][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCommonTermsQuery3] before test
+[2020-02-16T23:23:05,513][WARN ][o.e.d.c.ParseField       ] [testCommonTermsQuery3] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,516][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCommonTermsQuery3] after test
+[2020-02-16T23:23:05,518][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T23:23:05,519][WARN ][o.e.d.c.ParseField       ] [testUnknownObjectException] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,519][WARN ][o.e.d.c.ParseField       ] [testUnknownObjectException] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,519][WARN ][o.e.d.c.ParseField       ] [testUnknownObjectException] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,519][WARN ][o.e.d.c.ParseField       ] [testUnknownObjectException] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,520][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T23:23:05,521][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testSerialization] before test
+[2020-02-16T23:23:05,522][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testSerialization] after test
+[2020-02-16T23:23:05,524][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T23:23:05,524][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,524][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,525][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,525][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,525][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,525][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,526][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,526][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,526][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,526][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,527][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,527][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,527][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,527][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,528][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,528][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,528][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,528][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,529][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,529][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,529][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,529][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,529][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,530][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,530][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,530][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,530][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,531][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,531][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,532][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,532][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,532][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,533][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,535][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,535][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,535][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,535][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,536][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,536][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,536][WARN ][o.e.d.c.ParseField       ] [testValidOutput] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,536][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T23:23:05,538][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCommonTermsQuery1] before test
+[2020-02-16T23:23:05,539][WARN ][o.e.d.c.ParseField       ] [testCommonTermsQuery1] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,539][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testCommonTermsQuery1] after test
+[2020-02-16T23:23:05,542][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testToQuery] before test
+[2020-02-16T23:23:05,546][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testToQuery] after test
+[2020-02-16T23:23:05,548][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testFromJson] before test
+[2020-02-16T23:23:05,549][WARN ][o.e.d.c.ParseField       ] [testFromJson] Deprecated field [common] used, replaced by [[match] query which can efficiently skip blocks of documents if the total number of hits is not tracked]
+[2020-02-16T23:23:05,549][INFO ][o.e.i.q.CommonTermsQueryBuilderTests] [testFromJson] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

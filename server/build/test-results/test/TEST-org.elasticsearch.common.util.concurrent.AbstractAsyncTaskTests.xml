@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:58" hostname="Escoto-PC" time="0.036">
+  <properties/>
+  <testcase name="testChangeInterval" classname="org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests" time="0.008"/>
+  <testcase name="testIsScheduledRemainFalseAfterClose" classname="org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests" time="0.002"/>
+  <testcase name="testManualRepeat" classname="org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests" time="0.017"/>
+  <testcase name="testAutoRepeat" classname="org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests" time="0.005"/>
+  <testcase name="testCloseWithNoRun" classname="org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:21:58,435][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testChangeInterval] before test
+[2020-02-16T19:21:58,441][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testChangeInterval] after test
+[2020-02-16T19:21:58,443][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testIsScheduledRemainFalseAfterClose] before test
+[2020-02-16T19:21:58,444][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testIsScheduledRemainFalseAfterClose] after test
+[2020-02-16T19:21:58,446][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testManualRepeat] before test
+[2020-02-16T19:21:58,448][WARN ][o.e.c.u.c.AbstractAsyncTaskTests] [AbstractAsyncTaskTests] failed to run task org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests$2@73ec318a - suppressing re-occurring exceptions unless the exception changes
+java.lang.RuntimeException: foo
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests$2.runInternal(AbstractAsyncTaskTests.java:132) ~[test/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTask.run(AbstractAsyncTask.java:144) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:21:58,461][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testManualRepeat] after test
+[2020-02-16T19:21:58,463][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testAutoRepeat] before test
+[2020-02-16T19:21:58,465][WARN ][o.e.c.u.c.AbstractAsyncTaskTests] [AbstractAsyncTaskTests] failed to run task org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests$1@6dc1e659 - suppressing re-occurring exceptions unless the exception changes
+java.lang.RuntimeException: foo
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTaskTests$1.runInternal(AbstractAsyncTaskTests.java:81) ~[test/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractAsyncTask.run(AbstractAsyncTask.java:144) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:21:58,467][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testAutoRepeat] after test
+[2020-02-16T19:21:58,469][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testCloseWithNoRun] before test
+[2020-02-16T19:21:58,469][INFO ][o.e.c.u.c.AbstractAsyncTaskTests] [testCloseWithNoRun] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

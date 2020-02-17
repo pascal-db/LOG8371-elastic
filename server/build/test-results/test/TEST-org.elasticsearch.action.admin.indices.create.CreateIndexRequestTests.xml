@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.create.CreateIndexRequestTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:05" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.admin.indices.create.CreateIndexRequestTests" time="0.006"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.admin.indices.create.CreateIndexRequestTests" time="0.004"/>
+  <testcase name="testSettingsType" classname="org.elasticsearch.action.admin.indices.create.CreateIndexRequestTests" time="0.005"/>
+  <testcase name="testMappingKeyedByType" classname="org.elasticsearch.action.admin.indices.create.CreateIndexRequestTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.create.CreateIndexRequestTests" time="0.003"/>
+  <testcase name="testTopLevelKeys" classname="org.elasticsearch.action.admin.indices.create.CreateIndexRequestTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T01:20:05,575][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testToAndFromXContent] before test
+[2020-02-17T01:20:05,578][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testToAndFromXContent] after test
+[2020-02-17T01:20:05,581][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testToXContent] before test
+[2020-02-17T01:20:05,582][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testToXContent] after test
+[2020-02-17T01:20:05,586][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testSettingsType] before test
+[2020-02-17T01:20:05,587][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testSettingsType] after test
+[2020-02-17T01:20:05,590][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testMappingKeyedByType] before test
+[2020-02-17T01:20:05,591][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testMappingKeyedByType] after test
+[2020-02-17T01:20:05,593][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testSerialization] before test
+[2020-02-17T01:20:05,594][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testSerialization] after test
+[2020-02-17T01:20:05,597][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testTopLevelKeys] before test
+[2020-02-17T01:20:05,598][INFO ][o.e.a.a.i.c.CreateIndexRequestTests] [testTopLevelKeys] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

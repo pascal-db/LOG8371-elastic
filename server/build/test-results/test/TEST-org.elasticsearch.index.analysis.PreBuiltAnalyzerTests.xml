@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.analysis.PreBuiltAnalyzerTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:26" hostname="Escoto-PC" time="1.043">
+  <properties/>
+  <testcase name="testThatInstancesAreTheSameAlwaysForKeywordAnalyzer" classname="org.elasticsearch.index.analysis.PreBuiltAnalyzerTests" time="0.923"/>
+  <testcase name="testThatAnalyzersAreUsedInMapping" classname="org.elasticsearch.index.analysis.PreBuiltAnalyzerTests" time="0.113"/>
+  <testcase name="testThatDefaultAndStandardAnalyzerAreTheSameInstance" classname="org.elasticsearch.index.analysis.PreBuiltAnalyzerTests" time="0.004"/>
+  <testcase name="testThatInstancesAreCachedAndReused" classname="org.elasticsearch.index.analysis.PreBuiltAnalyzerTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T01:22:26,238][INFO ][o.e.e.NodeEnvironment    ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T01:22:26,240][INFO ][o.e.e.NodeEnvironment    ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T01:22:26,242][INFO ][o.e.n.Node               ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] node name [node_s_0], node ID [kjHplX9YRyGILwzrL-_-0g], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-718246137869466948]-HASH=[13E998BD687]]
+[2020-02-17T01:22:26,242][INFO ][o.e.n.Node               ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T01:22:26,242][INFO ][o.e.n.Node               ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T01:22:26,242][INFO ][o.e.n.Node               ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T01:22:26,243][INFO ][o.e.p.PluginsService     ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] no modules loaded
+[2020-02-17T01:22:26,243][INFO ][o.e.p.PluginsService     ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-17T01:22:26,243][INFO ][o.e.p.PluginsService     ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T01:22:26,243][INFO ][o.e.p.PluginsService     ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T01:22:26,474][INFO ][o.e.d.DiscoveryModule    ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T01:22:26,482][INFO ][o.e.n.Node               ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] initialized
+[2020-02-17T01:22:26,482][INFO ][o.e.n.Node               ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] starting ...
+[2020-02-17T01:22:26,991][INFO ][o.e.t.TransportService   ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T01:22:26,999][INFO ][o.e.c.c.Coordinator      ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] setting initial configuration to VotingConfiguration{kjHplX9YRyGILwzrL-_-0g}
+[2020-02-17T01:22:27,104][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{kjHplX9YRyGILwzrL-_-0g}{nIw-2ob3R4-qhBn3zRGXjQ}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{kjHplX9YRyGILwzrL-_-0g}{nIw-2ob3R4-qhBn3zRGXjQ}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T01:22:27,112][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [8rKcavLdSwCPdixucOLIaw]
+[2020-02-17T01:22:27,119][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{kjHplX9YRyGILwzrL-_-0g}{nIw-2ob3R4-qhBn3zRGXjQ}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T01:22:27,120][INFO ][o.e.n.Node               ] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] started
+[2020-02-17T01:22:27,127][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T01:22:27,129][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T01:22:27,140][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T01:22:27,149][INFO ][o.e.i.a.PreBuiltAnalyzerTests] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] before test
+[2020-02-17T01:22:27,149][INFO ][o.e.i.a.PreBuiltAnalyzerTests] [testThatInstancesAreTheSameAlwaysForKeywordAnalyzer] after test
+[2020-02-17T01:22:27,152][INFO ][o.e.i.a.PreBuiltAnalyzerTests] [testThatAnalyzersAreUsedInMapping] before test
+[2020-02-17T01:22:27,156][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [type]
+[2020-02-17T01:22:27,226][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T01:22:27,237][INFO ][o.e.i.a.PreBuiltAnalyzerTests] [testThatAnalyzersAreUsedInMapping] after test
+[2020-02-17T01:22:27,238][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/kM7pQt4ZQy2IMiAl0Qm1_Q] deleting index
+[2020-02-17T01:22:27,266][INFO ][o.e.i.a.PreBuiltAnalyzerTests] [testThatDefaultAndStandardAnalyzerAreTheSameInstance] before test
+[2020-02-17T01:22:27,266][INFO ][o.e.i.a.PreBuiltAnalyzerTests] [testThatDefaultAndStandardAnalyzerAreTheSameInstance] after test
+[2020-02-17T01:22:27,269][INFO ][o.e.i.a.PreBuiltAnalyzerTests] [testThatInstancesAreCachedAndReused] before test
+[2020-02-17T01:22:27,269][INFO ][o.e.i.a.PreBuiltAnalyzerTests] [testThatInstancesAreCachedAndReused] after test
+[2020-02-17T01:22:27,269][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T01:22:27,272][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T01:22:27,272][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T01:22:27,276][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

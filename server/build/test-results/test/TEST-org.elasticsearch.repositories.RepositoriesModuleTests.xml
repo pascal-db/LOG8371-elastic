@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.repositories.RepositoriesModuleTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.041">
+  <properties/>
+  <testcase name="testCannotRegisterTwoRepositoriesWithSameTypes" classname="org.elasticsearch.repositories.RepositoriesModuleTests" time="0.02"/>
+  <testcase name="testCanRegisterTwoRepositoriesWithDifferentTypes" classname="org.elasticsearch.repositories.RepositoriesModuleTests" time="0.009"/>
+  <testcase name="testCannotRegisterNormalAndInternalRepositoriesWithSameTypes" classname="org.elasticsearch.repositories.RepositoriesModuleTests" time="0.009"/>
+  <testcase name="testCannotRegisterTwoInternalRepositoriesWithSameTypes" classname="org.elasticsearch.repositories.RepositoriesModuleTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T10:24:04,411][INFO ][o.e.r.RepositoriesModuleTests] [testCannotRegisterTwoRepositoriesWithSameTypes] before test
+[2020-02-17T10:24:04,412][INFO ][o.e.r.RepositoriesModuleTests] [testCannotRegisterTwoRepositoriesWithSameTypes] after test
+[2020-02-17T10:24:04,420][INFO ][o.e.r.RepositoriesModuleTests] [testCanRegisterTwoRepositoriesWithDifferentTypes] before test
+[2020-02-17T10:24:04,420][INFO ][o.e.r.RepositoriesModuleTests] [testCanRegisterTwoRepositoriesWithDifferentTypes] after test
+[2020-02-17T10:24:04,429][INFO ][o.e.r.RepositoriesModuleTests] [testCannotRegisterNormalAndInternalRepositoriesWithSameTypes] before test
+[2020-02-17T10:24:04,429][INFO ][o.e.r.RepositoriesModuleTests] [testCannotRegisterNormalAndInternalRepositoriesWithSameTypes] after test
+[2020-02-17T10:24:04,432][INFO ][o.e.r.RepositoriesModuleTests] [testCannotRegisterTwoInternalRepositoriesWithSameTypes] before test
+[2020-02-17T10:24:04,432][INFO ][o.e.r.RepositoriesModuleTests] [testCannotRegisterTwoInternalRepositoriesWithSameTypes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

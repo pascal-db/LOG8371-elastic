@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.GeoUtilTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:43" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testIncorrectPrecisionParser" classname="org.elasticsearch.common.geo.GeoUtilTests" time="0.005"/>
+  <testcase name="testPrecisionParser" classname="org.elasticsearch.common.geo.GeoUtilTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T00:21:43,842][INFO ][o.e.c.g.GeoUtilTests     ] [testIncorrectPrecisionParser] before test
+[2020-02-17T00:21:43,844][INFO ][o.e.c.g.GeoUtilTests     ] [testIncorrectPrecisionParser] after test
+[2020-02-17T00:21:43,846][INFO ][o.e.c.g.GeoUtilTests     ] [testPrecisionParser] before test
+[2020-02-17T00:21:43,847][INFO ][o.e.c.g.GeoUtilTests     ] [testPrecisionParser] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

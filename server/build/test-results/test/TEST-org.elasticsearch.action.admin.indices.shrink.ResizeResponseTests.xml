@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.shrink.ResizeResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:34" hostname="Escoto-PC" time="0.048">
+  <properties/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.admin.indices.shrink.ResizeResponseTests" time="0.008"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.shrink.ResizeResponseTests" time="0.022"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.indices.shrink.ResizeResponseTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.shrink.ResizeResponseTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T16:20:34,071][INFO ][o.e.a.a.i.s.ResizeResponseTests] [testToXContent] before test
+[2020-02-16T16:20:34,073][INFO ][o.e.a.a.i.s.ResizeResponseTests] [testToXContent] after test
+[2020-02-16T16:20:34,089][INFO ][o.e.a.a.i.s.ResizeResponseTests] [testFromXContent] before test
+[2020-02-16T16:20:34,095][INFO ][o.e.a.a.i.s.ResizeResponseTests] [testFromXContent] after test
+[2020-02-16T16:20:34,104][INFO ][o.e.a.a.i.s.ResizeResponseTests] [testEqualsAndHashcode] before test
+[2020-02-16T16:20:34,105][INFO ][o.e.a.a.i.s.ResizeResponseTests] [testEqualsAndHashcode] after test
+[2020-02-16T16:20:34,113][INFO ][o.e.a.a.i.s.ResizeResponseTests] [testSerialization] before test
+[2020-02-16T16:20:34,114][INFO ][o.e.a.a.i.s.ResizeResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

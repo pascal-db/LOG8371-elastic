@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.gateway.PrimaryShardAllocatorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.gateway.PrimaryShardAllocatorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.gateway.html">org.elasticsearch.gateway</a> &gt; PrimaryShardAllocatorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">18</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.072s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDontAllocateOnNoOrThrottleForceAllocationDecision</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDontForceAllocateOnThrottleDecision</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForceAllocatePrimary</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFoundAllocationAndAllocating</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFoundAllocationButNoDecider</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFoundAllocationButThrottlingDecider</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoAllocationFound</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoAsyncFetchData</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoMatchingAllocationIdFound</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoProcessPrimaryNotAllocatedBefore</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPreferAllocatingPreviousPrimary</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRestore</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRestoreDoesNotAssignIfNoShardAvailable</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRestoreForcesAllocateIfShardAvailable</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRestoreThrottle</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShardLockObtainFailedException</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShardLockObtainFailedExceptionPreferOtherValidCopies</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStoreException</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:21:12,696][INFO ][o.e.g.PrimaryShardAllocatorTests] [testShardLockObtainFailedException] before test
+[2020-02-16T22:21:12,701][INFO ][o.e.g.PrimaryShardAllocatorTests] [testShardLockObtainFailedException] after test
+[2020-02-16T22:21:12,706][INFO ][o.e.g.PrimaryShardAllocatorTests] [testForceAllocatePrimary] before test
+[2020-02-16T22:21:12,706][INFO ][o.e.g.PrimaryShardAllocatorTests] [testForceAllocatePrimary] after test
+[2020-02-16T22:21:12,710][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoAllocationFound] before test
+[2020-02-16T22:21:12,712][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoAllocationFound] after test
+[2020-02-16T22:21:12,715][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoAsyncFetchData] before test
+[2020-02-16T22:21:12,716][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoAsyncFetchData] after test
+[2020-02-16T22:21:12,720][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoMatchingAllocationIdFound] before test
+[2020-02-16T22:21:12,722][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoMatchingAllocationIdFound] after test
+[2020-02-16T22:21:12,724][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationButNoDecider] before test
+[2020-02-16T22:21:12,724][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationButNoDecider] after test
+[2020-02-16T22:21:12,727][INFO ][o.e.g.PrimaryShardAllocatorTests] [testDontAllocateOnNoOrThrottleForceAllocationDecision] before test
+[2020-02-16T22:21:12,728][INFO ][o.e.g.PrimaryShardAllocatorTests] [testDontAllocateOnNoOrThrottleForceAllocationDecision] after test
+[2020-02-16T22:21:12,730][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreForcesAllocateIfShardAvailable] before test
+[2020-02-16T22:21:12,730][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreForcesAllocateIfShardAvailable] after test
+[2020-02-16T22:21:12,732][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreThrottle] before test
+[2020-02-16T22:21:12,734][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreThrottle] after test
+[2020-02-16T22:21:12,736][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoProcessPrimaryNotAllocatedBefore] before test
+[2020-02-16T22:21:12,738][INFO ][o.e.g.PrimaryShardAllocatorTests] [testNoProcessPrimaryNotAllocatedBefore] after test
+[2020-02-16T22:21:12,741][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreDoesNotAssignIfNoShardAvailable] before test
+[2020-02-16T22:21:12,742][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestoreDoesNotAssignIfNoShardAvailable] after test
+[2020-02-16T22:21:12,744][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationAndAllocating] before test
+[2020-02-16T22:21:12,745][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationAndAllocating] after test
+[2020-02-16T22:21:12,748][INFO ][o.e.g.PrimaryShardAllocatorTests] [testPreferAllocatingPreviousPrimary] before test
+[2020-02-16T22:21:12,750][INFO ][o.e.g.PrimaryShardAllocatorTests] [testPreferAllocatingPreviousPrimary] after test
+[2020-02-16T22:21:12,752][INFO ][o.e.g.PrimaryShardAllocatorTests] [testShardLockObtainFailedExceptionPreferOtherValidCopies] before test
+[2020-02-16T22:21:12,754][INFO ][o.e.g.PrimaryShardAllocatorTests] [testShardLockObtainFailedExceptionPreferOtherValidCopies] after test
+[2020-02-16T22:21:12,756][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestore] before test
+[2020-02-16T22:21:12,757][INFO ][o.e.g.PrimaryShardAllocatorTests] [testRestore] after test
+[2020-02-16T22:21:12,760][INFO ][o.e.g.PrimaryShardAllocatorTests] [testDontForceAllocateOnThrottleDecision] before test
+[2020-02-16T22:21:12,760][INFO ][o.e.g.PrimaryShardAllocatorTests] [testDontForceAllocateOnThrottleDecision] after test
+[2020-02-16T22:21:12,762][INFO ][o.e.g.PrimaryShardAllocatorTests] [testStoreException] before test
+[2020-02-16T22:21:12,764][INFO ][o.e.g.PrimaryShardAllocatorTests] [testStoreException] after test
+[2020-02-16T22:21:12,766][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationButThrottlingDecider] before test
+[2020-02-16T22:21:12,767][INFO ][o.e.g.PrimaryShardAllocatorTests] [testFoundAllocationButThrottlingDecider] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

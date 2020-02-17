@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.monitor.os.OsProbeTests" tests="7" skipped="5" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="0.104">
+  <properties/>
+  <testcase name="testCgroupProbeWithMissingCpuAcct" classname="org.elasticsearch.monitor.os.OsProbeTests" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase name="testCgroupProbeWithMissingMemory" classname="org.elasticsearch.monitor.os.OsProbeTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testCgroupProbe" classname="org.elasticsearch.monitor.os.OsProbeTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testGetSystemLoadAverage" classname="org.elasticsearch.monitor.os.OsProbeTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testOsInfo" classname="org.elasticsearch.monitor.os.OsProbeTests" time="0.001"/>
+  <testcase name="testOsStats" classname="org.elasticsearch.monitor.os.OsProbeTests" time="0.091"/>
+  <testcase name="testCgroupProbeWithMissingCpu" classname="org.elasticsearch.monitor.os.OsProbeTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <system-out><![CDATA[[2020-02-16T22:24:59,515][INFO ][o.e.m.o.OsProbeTests     ] [testCgroupProbeWithMissingCpuAcct] before test
+[2020-02-16T22:24:59,516][INFO ][o.e.m.o.OsProbeTests     ] [testCgroupProbeWithMissingCpuAcct] after test
+[2020-02-16T22:24:59,518][INFO ][o.e.m.o.OsProbeTests     ] [testCgroupProbeWithMissingMemory] before test
+[2020-02-16T22:24:59,518][INFO ][o.e.m.o.OsProbeTests     ] [testCgroupProbeWithMissingMemory] after test
+[2020-02-16T22:24:59,520][INFO ][o.e.m.o.OsProbeTests     ] [testCgroupProbe] before test
+[2020-02-16T22:24:59,520][INFO ][o.e.m.o.OsProbeTests     ] [testCgroupProbe] after test
+[2020-02-16T22:24:59,522][INFO ][o.e.m.o.OsProbeTests     ] [testGetSystemLoadAverage] before test
+[2020-02-16T22:24:59,522][INFO ][o.e.m.o.OsProbeTests     ] [testGetSystemLoadAverage] after test
+[2020-02-16T22:24:59,523][INFO ][o.e.m.o.OsProbeTests     ] [testOsInfo] before test
+[2020-02-16T22:24:59,524][INFO ][o.e.m.o.OsProbeTests     ] [testOsInfo] after test
+[2020-02-16T22:24:59,525][INFO ][o.e.m.o.OsProbeTests     ] [testOsStats] before test
+[2020-02-16T22:24:59,615][INFO ][o.e.m.o.OsProbeTests     ] [testOsStats] after test
+[2020-02-16T22:24:59,617][INFO ][o.e.m.o.OsProbeTests     ] [testCgroupProbeWithMissingCpu] before test
+[2020-02-16T22:24:59,617][INFO ][o.e.m.o.OsProbeTests     ] [testCgroupProbeWithMissingCpu] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

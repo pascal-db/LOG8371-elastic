@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.ingest.CompoundProcessorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.ingest.CompoundProcessorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.ingest.html">org.elasticsearch.ingest</a> &gt; CompoundProcessorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.037s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBreakOnFailure</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompoundProcessorExceptionFail</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompoundProcessorExceptionFailInOnFailure</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCompoundProcessorExceptionFailWithoutOnFailure</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEmpty</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIgnoreFailure</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleProcessor</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleProcessorWithException</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleProcessorWithNestedFailures</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleProcessorWithOnFailureDropProcessor</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleProcessorWithOnFailureProcessor</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T19:24:00,375][INFO ][o.e.i.CompoundProcessorTests] [testBreakOnFailure] before test
+[2020-02-16T19:24:00,378][INFO ][o.e.i.CompoundProcessorTests] [testBreakOnFailure] after test
+[2020-02-16T19:24:00,381][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithException] before test
+[2020-02-16T19:24:00,381][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithException] after test
+[2020-02-16T19:24:00,383][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithOnFailureProcessor] before test
+[2020-02-16T19:24:00,384][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithOnFailureProcessor] after test
+[2020-02-16T19:24:00,386][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithOnFailureDropProcessor] before test
+[2020-02-16T19:24:00,387][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithOnFailureDropProcessor] after test
+[2020-02-16T19:24:00,389][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFailWithoutOnFailure] before test
+[2020-02-16T19:24:00,391][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFailWithoutOnFailure] after test
+[2020-02-16T19:24:00,394][INFO ][o.e.i.CompoundProcessorTests] [testEmpty] before test
+[2020-02-16T19:24:00,394][INFO ][o.e.i.CompoundProcessorTests] [testEmpty] after test
+[2020-02-16T19:24:00,396][INFO ][o.e.i.CompoundProcessorTests] [testIgnoreFailure] before test
+[2020-02-16T19:24:00,397][INFO ][o.e.i.CompoundProcessorTests] [testIgnoreFailure] after test
+[2020-02-16T19:24:00,399][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithNestedFailures] before test
+[2020-02-16T19:24:00,400][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessorWithNestedFailures] after test
+[2020-02-16T19:24:00,402][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFailInOnFailure] before test
+[2020-02-16T19:24:00,403][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFailInOnFailure] after test
+[2020-02-16T19:24:00,405][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFail] before test
+[2020-02-16T19:24:00,406][INFO ][o.e.i.CompoundProcessorTests] [testCompoundProcessorExceptionFail] after test
+[2020-02-16T19:24:00,409][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessor] before test
+[2020-02-16T19:24:00,410][INFO ][o.e.i.CompoundProcessorTests] [testSingleProcessor] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

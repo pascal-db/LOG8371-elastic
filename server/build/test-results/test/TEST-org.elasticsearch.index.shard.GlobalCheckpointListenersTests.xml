@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:24" hostname="Escoto-PC" time="0.076">
+  <properties/>
+  <testcase name="testTimeoutNotificationUsesExecutor" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.016"/>
+  <testcase name="testFailingListenerOnClose" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.003"/>
+  <testcase name="testTimeout" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.01"/>
+  <testcase name="testNotificationOnClosedUsesExecutor" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testTimeoutCancelledAfterListenerNotified" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testFailingListenerReadyToBeNotified" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testGlobalCheckpointUpdated" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testFailingListenerAfterTimeout" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.016"/>
+  <testcase name="testListenersReadyToBeNotifiedUsesExecutor" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testAddAfterClose" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testClose" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testListenersReadyToBeNotified" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testFailingListenerOnUpdate" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.003"/>
+  <testcase name="testNotificationUsesExecutor" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.002"/>
+  <testcase name="testConcurrency" classname="org.elasticsearch.index.shard.GlobalCheckpointListenersTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T23:23:24,199][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testTimeoutNotificationUsesExecutor] before test
+[2020-02-16T23:23:24,210][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testTimeoutNotificationUsesExecutor] after test
+[2020-02-16T23:23:24,211][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testFailingListenerOnClose] before test
+[2020-02-16T23:23:24,213][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testFailingListenerOnClose] after test
+[2020-02-16T23:23:24,215][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testTimeout] before test
+[2020-02-16T23:23:24,223][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testTimeout] after test
+[2020-02-16T23:23:24,225][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testNotificationOnClosedUsesExecutor] before test
+[2020-02-16T23:23:24,225][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testNotificationOnClosedUsesExecutor] after test
+[2020-02-16T23:23:24,227][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testTimeoutCancelledAfterListenerNotified] before test
+[2020-02-16T23:23:24,227][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testTimeoutCancelledAfterListenerNotified] after test
+[2020-02-16T23:23:24,229][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testFailingListenerReadyToBeNotified] before test
+[2020-02-16T23:23:24,230][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testFailingListenerReadyToBeNotified] after test
+[2020-02-16T23:23:24,232][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testGlobalCheckpointUpdated] before test
+[2020-02-16T23:23:24,233][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testGlobalCheckpointUpdated] after test
+[2020-02-16T23:23:24,234][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testFailingListenerAfterTimeout] before test
+[2020-02-16T23:23:24,249][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testFailingListenerAfterTimeout] after test
+[2020-02-16T23:23:24,250][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testListenersReadyToBeNotifiedUsesExecutor] before test
+[2020-02-16T23:23:24,251][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testListenersReadyToBeNotifiedUsesExecutor] after test
+[2020-02-16T23:23:24,253][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testAddAfterClose] before test
+[2020-02-16T23:23:24,253][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testAddAfterClose] after test
+[2020-02-16T23:23:24,255][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testClose] before test
+[2020-02-16T23:23:24,255][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testClose] after test
+[2020-02-16T23:23:24,257][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testListenersReadyToBeNotified] before test
+[2020-02-16T23:23:24,257][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testListenersReadyToBeNotified] after test
+[2020-02-16T23:23:24,259][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testFailingListenerOnUpdate] before test
+[2020-02-16T23:23:24,260][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testFailingListenerOnUpdate] after test
+[2020-02-16T23:23:24,261][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testNotificationUsesExecutor] before test
+[2020-02-16T23:23:24,262][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testNotificationUsesExecutor] after test
+[2020-02-16T23:23:24,265][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testConcurrency] before test
+[2020-02-16T23:23:24,270][INFO ][o.e.i.s.GlobalCheckpointListenersTests] [testConcurrency] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.MetaDataDeleteIndexServiceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:34" hostname="Escoto-PC" time="0.067">
+  <properties/>
+  <testcase name="testDeleteSnapshotting" classname="org.elasticsearch.cluster.metadata.MetaDataDeleteIndexServiceTests" time="0.023"/>
+  <testcase name="testDeleteMissing" classname="org.elasticsearch.cluster.metadata.MetaDataDeleteIndexServiceTests" time="0.036"/>
+  <testcase name="testDeleteUnassigned" classname="org.elasticsearch.cluster.metadata.MetaDataDeleteIndexServiceTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T17:20:34,614][INFO ][o.e.c.m.MetaDataDeleteIndexServiceTests] [testDeleteSnapshotting] before test
+[2020-02-16T17:20:34,630][INFO ][o.e.c.m.MetaDataDeleteIndexServiceTests] [testDeleteSnapshotting] after test
+[2020-02-16T17:20:34,665][INFO ][o.e.c.m.MetaDataDeleteIndexServiceTests] [testDeleteMissing] before test
+[2020-02-16T17:20:34,666][INFO ][o.e.c.m.MetaDataDeleteIndexServiceTests] [testDeleteMissing] after test
+[2020-02-16T17:20:34,672][INFO ][o.e.c.m.MetaDataDeleteIndexServiceTests] [testDeleteUnassigned] before test
+[2020-02-16T17:20:34,673][INFO ][o.e.c.m.MetaDataDeleteIndexService] [testDeleteUnassigned] [IiEYN] deleting index
+[2020-02-16T17:20:34,674][INFO ][o.e.c.m.MetaDataDeleteIndexServiceTests] [testDeleteUnassigned] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

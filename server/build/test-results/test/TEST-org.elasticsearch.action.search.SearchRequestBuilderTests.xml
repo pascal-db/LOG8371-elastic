@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchRequestBuilderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.031">
+  <properties/>
+  <testcase name="testThatToStringDoesntWipeRequestSource" classname="org.elasticsearch.action.search.SearchRequestBuilderTests" time="0.023"/>
+  <testcase name="testEmptySourceToString" classname="org.elasticsearch.action.search.SearchRequestBuilderTests" time="0.003"/>
+  <testcase name="testQueryBuilderQueryToString" classname="org.elasticsearch.action.search.SearchRequestBuilderTests" time="0.003"/>
+  <testcase name="testSearchSourceBuilderToString" classname="org.elasticsearch.action.search.SearchRequestBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T03:50:39,098][INFO ][o.e.p.PluginsService     ] [suite] no modules loaded
+[2020-02-17T03:50:39,099][INFO ][o.e.p.PluginsService     ] [suite] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T03:50:39,152][INFO ][o.e.a.s.SearchRequestBuilderTests] [testThatToStringDoesntWipeRequestSource] before test
+[2020-02-17T03:50:39,153][INFO ][o.e.a.s.SearchRequestBuilderTests] [testThatToStringDoesntWipeRequestSource] after test
+[2020-02-17T03:50:39,156][INFO ][o.e.a.s.SearchRequestBuilderTests] [testEmptySourceToString] before test
+[2020-02-17T03:50:39,156][INFO ][o.e.a.s.SearchRequestBuilderTests] [testEmptySourceToString] after test
+[2020-02-17T03:50:39,158][INFO ][o.e.a.s.SearchRequestBuilderTests] [testQueryBuilderQueryToString] before test
+[2020-02-17T03:50:39,158][INFO ][o.e.a.s.SearchRequestBuilderTests] [testQueryBuilderQueryToString] after test
+[2020-02-17T03:50:39,160][INFO ][o.e.a.s.SearchRequestBuilderTests] [testSearchSourceBuilderToString] before test
+[2020-02-17T03:50:39,160][INFO ][o.e.a.s.SearchRequestBuilderTests] [testSearchSourceBuilderToString] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

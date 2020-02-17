@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.document.RestTermVectorsActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testTypeInBody" classname="org.elasticsearch.rest.action.document.RestTermVectorsActionTests" time="0.005"/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.document.RestTermVectorsActionTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T14:24:05,075][INFO ][o.e.r.a.d.RestTermVectorsActionTests] [testTypeInBody] before test
+[2020-02-16T14:24:05,078][INFO ][o.e.r.a.d.RestTermVectorsActionTests] [testTypeInBody] after test
+[2020-02-16T14:24:05,081][INFO ][o.e.r.a.d.RestTermVectorsActionTests] [testTypeInPath] before test
+[2020-02-16T14:24:05,082][WARN ][o.e.d.r.a.d.RestTermVectorsAction] [testTypeInPath] [types removal] Specifying types in term vector requests is deprecated.
+[2020-02-16T14:24:05,082][INFO ][o.e.r.a.d.RestTermVectorsActionTests] [testTypeInPath] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

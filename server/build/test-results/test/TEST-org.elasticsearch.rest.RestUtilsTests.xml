@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.RestUtilsTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:05" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testDecodeQueryStringEdgeCases" classname="org.elasticsearch.rest.RestUtilsTests" time="0.003"/>
+  <testcase name="testCorsSettingIsARegex" classname="org.elasticsearch.rest.RestUtilsTests" time="0.003"/>
+  <testcase name="testCrazyURL" classname="org.elasticsearch.rest.RestUtilsTests" time="0.002"/>
+  <testcase name="testDecodeQueryString" classname="org.elasticsearch.rest.RestUtilsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T11:24:05,449][INFO ][o.e.r.RestUtilsTests     ] [testDecodeQueryStringEdgeCases] before test
+[2020-02-16T11:24:05,450][INFO ][o.e.r.RestUtilsTests     ] [testDecodeQueryStringEdgeCases] after test
+[2020-02-16T11:24:05,453][INFO ][o.e.r.RestUtilsTests     ] [testCorsSettingIsARegex] before test
+[2020-02-16T11:24:05,453][INFO ][o.e.r.RestUtilsTests     ] [testCorsSettingIsARegex] after test
+[2020-02-16T11:24:05,455][INFO ][o.e.r.RestUtilsTests     ] [testCrazyURL] before test
+[2020-02-16T11:24:05,455][INFO ][o.e.r.RestUtilsTests     ] [testCrazyURL] after test
+[2020-02-16T11:24:05,458][INFO ][o.e.r.RestUtilsTests     ] [testDecodeQueryString] before test
+[2020-02-16T11:24:05,458][INFO ][o.e.r.RestUtilsTests     ] [testDecodeQueryString] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.term.SuggestModeTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testWriteTo" classname="org.elasticsearch.search.suggest.term.SuggestModeTests" time="0.015"/>
+  <testcase name="testFromString" classname="org.elasticsearch.search.suggest.term.SuggestModeTests" time="0.002"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.search.suggest.term.SuggestModeTests" time="0.005"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.search.suggest.term.SuggestModeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:24:43,852][INFO ][o.e.s.s.t.SuggestModeTests] [testWriteTo] before test
+[2020-02-16T19:24:43,852][INFO ][o.e.s.s.t.SuggestModeTests] [testWriteTo] after test
+[2020-02-16T19:24:43,854][INFO ][o.e.s.s.t.SuggestModeTests] [testFromString] before test
+[2020-02-16T19:24:43,855][INFO ][o.e.s.s.t.SuggestModeTests] [testFromString] after test
+[2020-02-16T19:24:43,859][INFO ][o.e.s.s.t.SuggestModeTests] [testReadFrom] before test
+[2020-02-16T19:24:43,859][INFO ][o.e.s.s.t.SuggestModeTests] [testReadFrom] after test
+[2020-02-16T19:24:43,861][INFO ][o.e.s.s.t.SuggestModeTests] [testValidOrdinals] before test
+[2020-02-16T19:24:43,861][INFO ][o.e.s.s.t.SuggestModeTests] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

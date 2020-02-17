@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:55" hostname="Escoto-PC" time="0.141">
+  <properties/>
+  <testcase name="testTimeout" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.007"/>
+  <testcase name="testAsyncBlockOperationsOperationWhileBlocked" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.003"/>
+  <testcase name="testPermitTraceCapturing" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.003"/>
+  <testcase name="testOperationsIfClosed" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.003"/>
+  <testcase name="testThreadContextPreservedIfBlock" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.006"/>
+  <testcase name="testBlockIfClosed" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.011"/>
+  <testcase name="testGetBlockWhenBlocked" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.016"/>
+  <testcase name="testAsyncBlockOperationsOperationBeforeBlocked" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.005"/>
+  <testcase name="testOperationsDelayedIfBlock" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.003"/>
+  <testcase name="testActiveOperationsCount" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.002"/>
+  <testcase name="testAllOperationsInvoked" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.035"/>
+  <testcase name="testNoPermitsRemaining" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.004"/>
+  <testcase name="testAsyncBlockOperationsRace" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.01"/>
+  <testcase name="testOperationsInvokedImmediatelyIfNoBlock" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.029"/>
+  <testcase name="testAsyncBlockOperationsOnFailure" classname="org.elasticsearch.index.shard.IndexShardOperationPermitsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:23:55,661][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testTimeout] before test
+[2020-02-16T22:23:55,667][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testTimeout] after test
+[2020-02-16T22:23:55,669][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAsyncBlockOperationsOperationWhileBlocked] before test
+[2020-02-16T22:23:55,670][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAsyncBlockOperationsOperationWhileBlocked] after test
+[2020-02-16T22:23:55,672][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testPermitTraceCapturing] before test
+[2020-02-16T22:23:55,673][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testPermitTraceCapturing] after test
+[2020-02-16T22:23:55,676][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testOperationsIfClosed] before test
+[2020-02-16T22:23:55,676][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testOperationsIfClosed] after test
+[2020-02-16T22:23:55,679][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testThreadContextPreservedIfBlock] before test
+[2020-02-16T22:23:55,683][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testThreadContextPreservedIfBlock] after test
+[2020-02-16T22:23:55,686][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testBlockIfClosed] before test
+[2020-02-16T22:23:55,693][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testBlockIfClosed] after test
+[2020-02-16T22:23:55,708][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testGetBlockWhenBlocked] before test
+[2020-02-16T22:23:55,710][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testGetBlockWhenBlocked] after test
+[2020-02-16T22:23:55,712][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAsyncBlockOperationsOperationBeforeBlocked] before test
+[2020-02-16T22:23:55,714][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAsyncBlockOperationsOperationBeforeBlocked] after test
+[2020-02-16T22:23:55,717][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testOperationsDelayedIfBlock] before test
+[2020-02-16T22:23:55,717][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testOperationsDelayedIfBlock] after test
+[2020-02-16T22:23:55,719][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testActiveOperationsCount] before test
+[2020-02-16T22:23:55,720][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testActiveOperationsCount] after test
+[2020-02-16T22:23:55,737][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAllOperationsInvoked] before test
+[2020-02-16T22:23:55,755][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAllOperationsInvoked] after test
+[2020-02-16T22:23:55,758][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testNoPermitsRemaining] before test
+[2020-02-16T22:23:55,759][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testNoPermitsRemaining] after test
+[2020-02-16T22:23:55,761][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAsyncBlockOperationsRace] before test
+[2020-02-16T22:23:55,769][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAsyncBlockOperationsRace] after test
+[2020-02-16T22:23:55,798][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testOperationsInvokedImmediatelyIfNoBlock] before test
+[2020-02-16T22:23:55,798][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testOperationsInvokedImmediatelyIfNoBlock] after test
+[2020-02-16T22:23:55,800][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAsyncBlockOperationsOnFailure] before test
+[2020-02-16T22:23:55,801][INFO ][o.e.i.s.IndexShardOperationPermitsTests] [testAsyncBlockOperationsOnFailure] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

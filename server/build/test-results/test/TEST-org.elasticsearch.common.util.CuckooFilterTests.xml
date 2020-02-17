@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.CuckooFilterTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:51" hostname="Escoto-PC" time="0.248">
+  <properties/>
+  <testcase name="testExact" classname="org.elasticsearch.common.util.CuckooFilterTests" time="0.008"/>
+  <testcase name="testHash" classname="org.elasticsearch.common.util.CuckooFilterTests" time="0.002"/>
+  <testcase name="testBig" classname="org.elasticsearch.common.util.CuckooFilterTests" time="0.056"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.util.CuckooFilterTests" time="0.136"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.util.CuckooFilterTests" time="0.043"/>
+  <testcase name="testSaturate" classname="org.elasticsearch.common.util.CuckooFilterTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:20:51,886][INFO ][o.e.c.u.CuckooFilterTests] [testExact] before test
+[2020-02-16T23:20:51,888][INFO ][o.e.c.u.CuckooFilterTests] [testExact] after test
+[2020-02-16T23:20:51,894][INFO ][o.e.c.u.CuckooFilterTests] [testHash] before test
+[2020-02-16T23:20:51,894][INFO ][o.e.c.u.CuckooFilterTests] [testHash] after test
+[2020-02-16T23:20:51,896][INFO ][o.e.c.u.CuckooFilterTests] [testBig] before test
+[2020-02-16T23:20:51,950][INFO ][o.e.c.u.CuckooFilterTests] [testBig] after test
+[2020-02-16T23:20:51,953][INFO ][o.e.c.u.CuckooFilterTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:20:52,086][INFO ][o.e.c.u.CuckooFilterTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:20:52,088][INFO ][o.e.c.u.CuckooFilterTests] [testSerialization] before test
+[2020-02-16T23:20:52,129][INFO ][o.e.c.u.CuckooFilterTests] [testSerialization] after test
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] before test
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 0
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 1
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 2
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 3
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 4
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 5
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 6
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 7
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 8
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 9
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 10
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 11
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 12
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Saturated at: 13
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 0
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 1
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 2
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 3
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 4
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 5
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 6
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 7
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 8
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 9
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 10
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 11
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] Value: 12
+[2020-02-16T23:20:52,132][INFO ][o.e.c.u.CuckooFilterTests] [testSaturate] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

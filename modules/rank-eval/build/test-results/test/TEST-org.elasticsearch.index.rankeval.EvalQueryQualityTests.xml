@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.EvalQueryQualityTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:49" hostname="Escoto-PC" time="0.55">
+  <properties/>
+  <testcase name="testXContentParsing" classname="org.elasticsearch.index.rankeval.EvalQueryQualityTests" time="0.502"/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.EvalQueryQualityTests" time="0.034"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.EvalQueryQualityTests" time="0.013"/>
+  <system-out><![CDATA[[2020-02-16T23:41:49,673][INFO ][o.e.i.r.EvalQueryQualityTests] [testXContentParsing] before test
+[2020-02-16T23:41:50,126][INFO ][o.e.i.r.EvalQueryQualityTests] [testXContentParsing] after test
+[2020-02-16T23:41:50,155][INFO ][o.e.i.r.EvalQueryQualityTests] [testEqualsAndHash] before test
+[2020-02-16T23:41:50,173][INFO ][o.e.i.r.EvalQueryQualityTests] [testEqualsAndHash] after test
+[2020-02-16T23:41:50,178][INFO ][o.e.i.r.EvalQueryQualityTests] [testSerialization] before test
+[2020-02-16T23:41:50,186][INFO ][o.e.i.r.EvalQueryQualityTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

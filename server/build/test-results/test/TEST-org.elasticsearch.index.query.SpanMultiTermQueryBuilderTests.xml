@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:09" hostname="Escoto-PC" time="0.119">
+  <properties/>
+  <testcase name="testDefaultMaxRewriteBuilder" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.013"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQueryInnerTermQuery" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnsupportedInnerQueryType" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.008"/>
+  <testcase name="testTopNMultiTermsRewriteInsideSpan" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.01"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.004"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.01"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.009"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQueryInnerSpanMultiTerm" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.002"/>
+  <testcase name="testIllegalArgument" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.011"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.001"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.003"/>
+  <testcase name="testTermExpansionExceptionOnSpanFailure" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.005"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.02"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.SpanMultiTermQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:23:09,039][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testDefaultMaxRewriteBuilder] before test
+[2020-02-16T19:23:09,041][INFO ][o.e.p.PluginsService     ] [testDefaultMaxRewriteBuilder] no modules loaded
+[2020-02-16T19:23:09,041][INFO ][o.e.p.PluginsService     ] [testDefaultMaxRewriteBuilder] no plugins loaded
+[2020-02-16T19:23:09,047][INFO ][o.e.p.PluginsService     ] [testDefaultMaxRewriteBuilder] no modules loaded
+[2020-02-16T19:23:09,047][INFO ][o.e.p.PluginsService     ] [testDefaultMaxRewriteBuilder] no plugins loaded
+[2020-02-16T19:23:09,050][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testDefaultMaxRewriteBuilder] after test
+[2020-02-16T19:23:09,052][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T19:23:09,052][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T19:23:09,054][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testToQueryInnerTermQuery] before test
+[2020-02-16T19:23:09,055][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testToQueryInnerTermQuery] after test
+[2020-02-16T19:23:09,057][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T19:23:09,058][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T19:23:09,061][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testUnsupportedInnerQueryType] before test
+[2020-02-16T19:23:09,062][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testUnsupportedInnerQueryType] after test
+[2020-02-16T19:23:09,063][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T19:23:09,070][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T19:23:09,079][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testTopNMultiTermsRewriteInsideSpan] before test
+[2020-02-16T19:23:09,080][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testTopNMultiTermsRewriteInsideSpan] after test
+[2020-02-16T19:23:09,083][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T19:23:09,084][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T19:23:09,086][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testToQuery] before test
+[2020-02-16T19:23:09,094][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testToQuery] after test
+[2020-02-16T19:23:09,103][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testCacheability] before test
+[2020-02-16T19:23:09,103][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testCacheability] after test
+[2020-02-16T19:23:09,105][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testFromJson] before test
+[2020-02-16T19:23:09,106][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testFromJson] after test
+[2020-02-16T19:23:09,108][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testToQueryInnerSpanMultiTerm] before test
+[2020-02-16T19:23:09,108][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testToQueryInnerSpanMultiTerm] after test
+[2020-02-16T19:23:09,118][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testIllegalArgument] before test
+[2020-02-16T19:23:09,119][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testIllegalArgument] after test
+[2020-02-16T19:23:09,121][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:23:09,122][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:23:09,124][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T19:23:09,124][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T19:23:09,126][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T19:23:09,126][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T19:23:09,128][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testTermExpansionExceptionOnSpanFailure] before test
+[2020-02-16T19:23:09,132][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testTermExpansionExceptionOnSpanFailure] after test
+[2020-02-16T19:23:09,153][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T19:23:09,153][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T19:23:09,155][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testSerialization] before test
+[2020-02-16T19:23:09,156][INFO ][o.e.i.q.SpanMultiTermQueryBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

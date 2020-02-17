@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.PercentilesBucketTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:34" hostname="Escoto-PC" time="0.03">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.PercentilesBucketTests" time="0.006"/>
+  <testcase name="testPercentsFromMixedArray" classname="org.elasticsearch.search.aggregations.pipeline.PercentilesBucketTests" time="0.005"/>
+  <testcase name="testValidate" classname="org.elasticsearch.search.aggregations.pipeline.PercentilesBucketTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.PercentilesBucketTests" time="0.008"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.PercentilesBucketTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T06:25:34,951][INFO ][o.e.s.a.p.PercentilesBucketTests] [testFromXContent] before test
+[2020-02-17T06:25:34,952][INFO ][o.e.s.a.p.PercentilesBucketTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "percentiles_bucket" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "gap_policy" : "insert_zeros",
+      "percents" : [
+        33.50993427412483,
+        8.273398051689751,
+        72.83817769184654,
+        9.566390993987085,
+        8.509430010051144,
+        8.146654054213709,
+        36.16219495867028,
+        11.216814680626575,
+        20.229700618427948,
+        1.7732945351313867,
+        10.688801233956136,
+        79.08547233696308,
+        75.97964550603858,
+        36.898186800026856,
+        61.851604261526006,
+        69.08159154780007,
+        63.44027840648433
+      ],
+      "keyed" : true
+    }
+  }
+}
+[2020-02-17T06:25:34,952][INFO ][o.e.s.a.p.PercentilesBucketTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "percentiles_bucket" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "gap_policy" : "insert_zeros",
+      "percents" : [
+        33.50993427412483,
+        8.273398051689751,
+        72.83817769184654,
+        9.566390993987085,
+        8.509430010051144,
+        8.146654054213709,
+        36.16219495867028,
+        11.216814680626575,
+        20.229700618427948,
+        1.7732945351313867,
+        10.688801233956136,
+        79.08547233696308,
+        75.97964550603858,
+        36.898186800026856,
+        61.851604261526006,
+        69.08159154780007,
+        63.44027840648433
+      ],
+      "keyed" : true
+    }
+  }
+}
+[2020-02-17T06:25:34,955][INFO ][o.e.s.a.p.PercentilesBucketTests] [testFromXContent] after test
+[2020-02-17T06:25:34,959][INFO ][o.e.s.a.p.PercentilesBucketTests] [testPercentsFromMixedArray] before test
+[2020-02-17T06:25:34,960][INFO ][o.e.s.a.p.PercentilesBucketTests] [testPercentsFromMixedArray] after test
+[2020-02-17T06:25:34,964][INFO ][o.e.s.a.p.PercentilesBucketTests] [testValidate] before test
+[2020-02-17T06:25:34,965][INFO ][o.e.s.a.p.PercentilesBucketTests] [testValidate] after test
+[2020-02-17T06:25:34,973][INFO ][o.e.s.a.p.PercentilesBucketTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:25:34,973][INFO ][o.e.s.a.p.PercentilesBucketTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:25:34,979][INFO ][o.e.s.a.p.PercentilesBucketTests] [testSerialization] before test
+[2020-02-17T06:25:34,979][INFO ][o.e.s.a.p.PercentilesBucketTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.rankeval.RankEvalSpecTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:41:50" hostname="Escoto-PC" time="0.078">
+  <properties/>
+  <testcase name="testXContentRoundtrip" classname="org.elasticsearch.index.rankeval.RankEvalSpecTests" time="0.02"/>
+  <testcase name="testXContentParsingIsNotLenient" classname="org.elasticsearch.index.rankeval.RankEvalSpecTests" time="0.009"/>
+  <testcase name="testMissingMetricFails" classname="org.elasticsearch.index.rankeval.RankEvalSpecTests" time="0.013"/>
+  <testcase name="testMissingTemplateAndSearchRequestFails" classname="org.elasticsearch.index.rankeval.RankEvalSpecTests" time="0.012"/>
+  <testcase name="testEqualsAndHash" classname="org.elasticsearch.index.rankeval.RankEvalSpecTests" time="0.009"/>
+  <testcase name="testMissingRatedRequestsFails" classname="org.elasticsearch.index.rankeval.RankEvalSpecTests" time="0.01"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.rankeval.RankEvalSpecTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T08:41:50,955][INFO ][o.e.i.r.RankEvalSpecTests] [testXContentRoundtrip] before test
+[2020-02-17T08:41:50,960][INFO ][o.e.i.r.RankEvalSpecTests] [testXContentRoundtrip] after test
+[2020-02-17T08:41:50,966][INFO ][o.e.i.r.RankEvalSpecTests] [testXContentParsingIsNotLenient] before test
+[2020-02-17T08:41:50,969][INFO ][o.e.i.r.RankEvalSpecTests] [testXContentParsingIsNotLenient] after test
+[2020-02-17T08:41:50,981][INFO ][o.e.i.r.RankEvalSpecTests] [testMissingMetricFails] before test
+[2020-02-17T08:41:50,982][INFO ][o.e.i.r.RankEvalSpecTests] [testMissingMetricFails] after test
+[2020-02-17T08:41:50,994][INFO ][o.e.i.r.RankEvalSpecTests] [testMissingTemplateAndSearchRequestFails] before test
+[2020-02-17T08:41:50,994][INFO ][o.e.i.r.RankEvalSpecTests] [testMissingTemplateAndSearchRequestFails] after test
+[2020-02-17T08:41:51,002][INFO ][o.e.i.r.RankEvalSpecTests] [testEqualsAndHash] before test
+[2020-02-17T08:41:51,004][INFO ][o.e.i.r.RankEvalSpecTests] [testEqualsAndHash] after test
+[2020-02-17T08:41:51,013][INFO ][o.e.i.r.RankEvalSpecTests] [testMissingRatedRequestsFails] before test
+[2020-02-17T08:41:51,014][INFO ][o.e.i.r.RankEvalSpecTests] [testMissingRatedRequestsFails] after test
+[2020-02-17T08:41:51,017][INFO ][o.e.i.r.RankEvalSpecTests] [testSerialization] before test
+[2020-02-17T08:41:51,018][INFO ][o.e.i.r.RankEvalSpecTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

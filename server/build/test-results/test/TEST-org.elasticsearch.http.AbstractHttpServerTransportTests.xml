@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.http.AbstractHttpServerTransportTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:12" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testDispatchDoesNotModifyThreadContext" classname="org.elasticsearch.http.AbstractHttpServerTransportTests" time="0.006"/>
+  <testcase name="testHttpPublishPort" classname="org.elasticsearch.http.AbstractHttpServerTransportTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T23:21:12,918][INFO ][o.e.h.AbstractHttpServerTransportTests] [testDispatchDoesNotModifyThreadContext] before test
+[2020-02-16T23:21:12,923][INFO ][o.e.h.AbstractHttpServerTransportTests] [testDispatchDoesNotModifyThreadContext] after test
+[2020-02-16T23:21:12,930][INFO ][o.e.h.AbstractHttpServerTransportTests] [testHttpPublishPort] before test
+[2020-02-16T23:21:12,934][INFO ][o.e.h.AbstractHttpServerTransportTests] [testHttpPublishPort] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

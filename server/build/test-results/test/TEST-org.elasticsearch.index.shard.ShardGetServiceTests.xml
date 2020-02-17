@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.ShardGetServiceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:34" hostname="Escoto-PC" time="0.299">
+  <properties/>
+  <testcase name="testGetForUpdate" classname="org.elasticsearch.index.shard.ShardGetServiceTests" time="0.16"/>
+  <testcase name="testTypelessGetForUpdate" classname="org.elasticsearch.index.shard.ShardGetServiceTests" time="0.138"/>
+  <system-out><![CDATA[[2020-02-16T18:24:34,627][INFO ][o.e.i.s.ShardGetServiceTests] [testGetForUpdate] before test
+[2020-02-16T18:24:34,782][INFO ][o.e.i.s.ShardGetServiceTests] [testGetForUpdate] after test
+[2020-02-16T18:24:34,785][INFO ][o.e.i.s.ShardGetServiceTests] [testTypelessGetForUpdate] before test
+[2020-02-16T18:24:34,873][INFO ][o.e.i.s.ShardGetServiceTests] [testTypelessGetForUpdate] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

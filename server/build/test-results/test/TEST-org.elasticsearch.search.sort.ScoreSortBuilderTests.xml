@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.sort.ScoreSortBuilderTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:51" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.sort.ScoreSortBuilderTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.sort.ScoreSortBuilderTests" time="0.002"/>
+  <testcase name="testBuildSortField" classname="org.elasticsearch.search.sort.ScoreSortBuilderTests" time="0.003"/>
+  <testcase name="testIllegalOrder" classname="org.elasticsearch.search.sort.ScoreSortBuilderTests" time="0.002"/>
+  <testcase name="testParseOrder" classname="org.elasticsearch.search.sort.ScoreSortBuilderTests" time="0.002"/>
+  <testcase name="testReverseOptionFails" classname="org.elasticsearch.search.sort.ScoreSortBuilderTests" time="0.001"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.sort.ScoreSortBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:25:51,592][INFO ][o.e.s.s.ScoreSortBuilderTests] [testFromXContent] before test
+[2020-02-16T22:25:51,593][INFO ][o.e.s.s.ScoreSortBuilderTests] [testFromXContent] after test
+[2020-02-16T22:25:51,595][INFO ][o.e.s.s.ScoreSortBuilderTests] [testSerialization] before test
+[2020-02-16T22:25:51,595][INFO ][o.e.s.s.ScoreSortBuilderTests] [testSerialization] after test
+[2020-02-16T22:25:51,597][INFO ][o.e.s.s.ScoreSortBuilderTests] [testBuildSortField] before test
+[2020-02-16T22:25:51,598][INFO ][o.e.s.s.ScoreSortBuilderTests] [testBuildSortField] after test
+[2020-02-16T22:25:51,599][INFO ][o.e.s.s.ScoreSortBuilderTests] [testIllegalOrder] before test
+[2020-02-16T22:25:51,600][INFO ][o.e.s.s.ScoreSortBuilderTests] [testIllegalOrder] after test
+[2020-02-16T22:25:51,601][INFO ][o.e.s.s.ScoreSortBuilderTests] [testParseOrder] before test
+[2020-02-16T22:25:51,602][INFO ][o.e.s.s.ScoreSortBuilderTests] [testParseOrder] after test
+[2020-02-16T22:25:51,603][INFO ][o.e.s.s.ScoreSortBuilderTests] [testReverseOptionFails] before test
+[2020-02-16T22:25:51,603][INFO ][o.e.s.s.ScoreSortBuilderTests] [testReverseOptionFails] after test
+[2020-02-16T22:25:51,605][INFO ][o.e.s.s.ScoreSortBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:25:51,606][INFO ][o.e.s.s.ScoreSortBuilderTests] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

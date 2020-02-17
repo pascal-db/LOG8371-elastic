@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.PercentileRanksTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:26" hostname="Escoto-PC" time="0.092">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.metrics.PercentileRanksTests" time="0.075"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.PercentileRanksTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.PercentileRanksTests" time="0.002"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.metrics.PercentileRanksTests" time="0.001"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.metrics.PercentileRanksTests" time="0.003"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.metrics.PercentileRanksTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.PercentileRanksTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T02:24:26,395][INFO ][o.e.s.a.m.PercentileRanksTests] [testFromXContentMulti] before test
+[2020-02-17T02:24:26,398][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T02:24:26,398][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T02:24:26,463][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T02:24:26,463][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T02:24:26,469][INFO ][o.e.s.a.m.PercentileRanksTests] [testFromXContentMulti] after test
+[2020-02-17T02:24:26,474][INFO ][o.e.s.a.m.PercentileRanksTests] [testSerialization] before test
+[2020-02-17T02:24:26,474][INFO ][o.e.s.a.m.PercentileRanksTests] [testSerialization] after test
+[2020-02-17T02:24:26,476][INFO ][o.e.s.a.m.PercentileRanksTests] [testEqualsAndHashcode] before test
+[2020-02-17T02:24:26,476][INFO ][o.e.s.a.m.PercentileRanksTests] [testEqualsAndHashcode] after test
+[2020-02-17T02:24:26,478][INFO ][o.e.s.a.m.PercentileRanksTests] [testSerializationMulti] before test
+[2020-02-17T02:24:26,478][INFO ][o.e.s.a.m.PercentileRanksTests] [testSerializationMulti] after test
+[2020-02-17T02:24:26,481][INFO ][o.e.s.a.m.PercentileRanksTests] [testShallowCopy] before test
+[2020-02-17T02:24:26,481][INFO ][o.e.s.a.m.PercentileRanksTests] [testShallowCopy] after test
+[2020-02-17T02:24:26,483][INFO ][o.e.s.a.m.PercentileRanksTests] [testToString] before test
+[2020-02-17T02:24:26,484][INFO ][o.e.s.a.m.PercentileRanksTests] [testToString] after test
+[2020-02-17T02:24:26,486][INFO ][o.e.s.a.m.PercentileRanksTests] [testFromXContent] before test
+[2020-02-17T02:24:26,487][INFO ][o.e.s.a.m.PercentileRanksTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.core.internal.io.IOUtilsTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:17" hostname="Escoto-PC" time="0.257">
+  <properties/>
+  <testcase name="testFsyncFile" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.01"/>
+  <testcase name="testFsyncAccessDeniedOpeningDirectory" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.011"/>
+  <testcase name="testRm" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.045"/>
+  <testcase name="testCloseArrayWithIOExceptions" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.112"/>
+  <testcase name="testCloseArray" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.01"/>
+  <testcase name="testRmWithIOExceptions" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.028"/>
+  <testcase name="testCloseIterable" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.007"/>
+  <testcase name="testDeleteFilesIgnoringExceptionsArray" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.005"/>
+  <testcase name="testFsyncNonExistentDirectory" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.006"/>
+  <testcase name="testCloseIterableWithIOExceptions" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.006"/>
+  <testcase name="testDeleteFilesIgnoringExceptionsIterable" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.01"/>
+  <testcase name="testFsyncDirectory" classname="org.elasticsearch.core.internal.io.IOUtilsTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T19:50:17,960][INFO ][o.e.c.i.i.IOUtilsTests   ] [testFsyncFile] before test
+[2020-02-16T19:50:17,967][INFO ][o.e.c.i.i.IOUtilsTests   ] [testFsyncFile] after test
+[2020-02-16T19:50:17,975][INFO ][o.e.c.i.i.IOUtilsTests   ] [testFsyncAccessDeniedOpeningDirectory] before test
+[2020-02-16T19:50:17,979][INFO ][o.e.c.i.i.IOUtilsTests   ] [testFsyncAccessDeniedOpeningDirectory] after test
+[2020-02-16T19:50:17,984][INFO ][o.e.c.i.i.IOUtilsTests   ] [testRm] before test
+[2020-02-16T19:50:18,025][INFO ][o.e.c.i.i.IOUtilsTests   ] [testRm] after test
+[2020-02-16T19:50:18,030][INFO ][o.e.c.i.i.IOUtilsTests   ] [testCloseArrayWithIOExceptions] before test
+[2020-02-16T19:50:18,137][INFO ][o.e.c.i.i.IOUtilsTests   ] [testCloseArrayWithIOExceptions] after test
+[2020-02-16T19:50:18,141][INFO ][o.e.c.i.i.IOUtilsTests   ] [testCloseArray] before test
+[2020-02-16T19:50:18,147][INFO ][o.e.c.i.i.IOUtilsTests   ] [testCloseArray] after test
+[2020-02-16T19:50:18,151][INFO ][o.e.c.i.i.IOUtilsTests   ] [testRmWithIOExceptions] before test
+[2020-02-16T19:50:18,175][INFO ][o.e.c.i.i.IOUtilsTests   ] [testRmWithIOExceptions] after test
+[2020-02-16T19:50:18,180][INFO ][o.e.c.i.i.IOUtilsTests   ] [testCloseIterable] before test
+[2020-02-16T19:50:18,182][INFO ][o.e.c.i.i.IOUtilsTests   ] [testCloseIterable] after test
+[2020-02-16T19:50:18,186][INFO ][o.e.c.i.i.IOUtilsTests   ] [testDeleteFilesIgnoringExceptionsArray] before test
+[2020-02-16T19:50:18,187][INFO ][o.e.c.i.i.IOUtilsTests   ] [testDeleteFilesIgnoringExceptionsArray] after test
+[2020-02-16T19:50:18,191][INFO ][o.e.c.i.i.IOUtilsTests   ] [testFsyncNonExistentDirectory] before test
+[2020-02-16T19:50:18,193][INFO ][o.e.c.i.i.IOUtilsTests   ] [testFsyncNonExistentDirectory] after test
+[2020-02-16T19:50:18,196][INFO ][o.e.c.i.i.IOUtilsTests   ] [testCloseIterableWithIOExceptions] before test
+[2020-02-16T19:50:18,199][INFO ][o.e.c.i.i.IOUtilsTests   ] [testCloseIterableWithIOExceptions] after test
+[2020-02-16T19:50:18,204][INFO ][o.e.c.i.i.IOUtilsTests   ] [testDeleteFilesIgnoringExceptionsIterable] before test
+[2020-02-16T19:50:18,209][INFO ][o.e.c.i.i.IOUtilsTests   ] [testDeleteFilesIgnoringExceptionsIterable] after test
+[2020-02-16T19:50:18,212][INFO ][o.e.c.i.i.IOUtilsTests   ] [testFsyncDirectory] before test
+[2020-02-16T19:50:18,214][INFO ][o.e.c.i.i.IOUtilsTests   ] [testFsyncDirectory] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

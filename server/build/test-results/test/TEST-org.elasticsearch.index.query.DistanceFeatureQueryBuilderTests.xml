@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:05" hostname="Escoto-PC" time="0.064">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.019"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.005"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.003"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.001"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.011"/>
+  <testcase name="testFromJsonDateNanosFieldType" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJsonGeoFieldType" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryMatchNoDocsQueryWithUnmappedField" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.001"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.003"/>
+  <testcase name="testQueryFailsWithWrongFieldType" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJsonDateFieldType" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.001"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.DistanceFeatureQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T12:23:05,686][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testSerialization] before test
+[2020-02-17T12:23:05,687][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-17T12:23:05,687][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-17T12:23:05,698][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-17T12:23:05,698][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-17T12:23:05,702][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testSerialization] after test
+[2020-02-17T12:23:05,704][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testCacheability] before test
+[2020-02-17T12:23:05,705][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testCacheability] after test
+[2020-02-17T12:23:05,707][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T12:23:05,710][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T12:23:05,711][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T12:23:05,712][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T12:23:05,714][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T12:23:05,714][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T12:23:05,716][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T12:23:05,716][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T12:23:05,718][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T12:23:05,719][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T12:23:05,720][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testToQuery] before test
+[2020-02-17T12:23:05,729][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testToQuery] after test
+[2020-02-17T12:23:05,731][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testFromJsonDateNanosFieldType] before test
+[2020-02-17T12:23:05,731][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testFromJsonDateNanosFieldType] after test
+[2020-02-17T12:23:05,734][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testFromJsonGeoFieldType] before test
+[2020-02-17T12:23:05,734][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testFromJsonGeoFieldType] after test
+[2020-02-17T12:23:05,736][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testQueryMatchNoDocsQueryWithUnmappedField] before test
+[2020-02-17T12:23:05,736][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testQueryMatchNoDocsQueryWithUnmappedField] after test
+[2020-02-17T12:23:05,737][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T12:23:05,738][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T12:23:05,741][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T12:23:05,741][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T12:23:05,743][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testQueryFailsWithWrongFieldType] before test
+[2020-02-17T12:23:05,743][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testQueryFailsWithWrongFieldType] after test
+[2020-02-17T12:23:05,745][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testFromJsonDateFieldType] before test
+[2020-02-17T12:23:05,745][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testFromJsonDateFieldType] after test
+[2020-02-17T12:23:05,747][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T12:23:05,747][INFO ][o.e.i.q.DistanceFeatureQueryBuilderTests] [testNegativeBoosts] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

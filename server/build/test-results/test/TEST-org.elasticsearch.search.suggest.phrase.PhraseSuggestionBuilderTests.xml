@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.phrase.PhraseSuggestionBuilderTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:52" hostname="Escoto-PC" time="0.041">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.suggest.phrase.PhraseSuggestionBuilderTests" time="0.008"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.phrase.PhraseSuggestionBuilderTests" time="0.003"/>
+  <testcase name="testInvalidParameters" classname="org.elasticsearch.search.suggest.phrase.PhraseSuggestionBuilderTests" time="0.002"/>
+  <testcase name="testBuild" classname="org.elasticsearch.search.suggest.phrase.PhraseSuggestionBuilderTests" time="0.018"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.phrase.PhraseSuggestionBuilderTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T15:25:52,840][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T15:25:52,846][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T15:25:52,847][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testSerialization] before test
+[2020-02-16T15:25:52,849][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testSerialization] after test
+[2020-02-16T15:25:52,850][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testInvalidParameters] before test
+[2020-02-16T15:25:52,851][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testInvalidParameters] after test
+[2020-02-16T15:25:52,853][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testBuild] before test
+[2020-02-16T15:25:52,870][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testBuild] after test
+[2020-02-16T15:25:52,873][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testFromXContent] before test
+[2020-02-16T15:25:52,879][INFO ][o.e.s.s.p.PhraseSuggestionBuilderTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

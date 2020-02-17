@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.ExtendedStatsAggregatorTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:23" hostname="Escoto-PC" time="0.064">
+  <properties/>
+  <testcase name="testRandomDoubles" classname="org.elasticsearch.search.aggregations.metrics.ExtendedStatsAggregatorTests" time="0.022"/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.metrics.ExtendedStatsAggregatorTests" time="0.02"/>
+  <testcase name="testVarianceNonNegative" classname="org.elasticsearch.search.aggregations.metrics.ExtendedStatsAggregatorTests" time="0.008"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.search.aggregations.metrics.ExtendedStatsAggregatorTests" time="0.005"/>
+  <testcase name="testRandomLongs" classname="org.elasticsearch.search.aggregations.metrics.ExtendedStatsAggregatorTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T09:24:23,742][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testRandomDoubles] before test
+[2020-02-17T09:24:23,756][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testRandomDoubles] after test
+[2020-02-17T09:24:23,759][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testSummationAccuracy] before test
+[2020-02-17T09:24:23,776][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testSummationAccuracy] after test
+[2020-02-17T09:24:23,780][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testVarianceNonNegative] before test
+[2020-02-17T09:24:23,785][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testVarianceNonNegative] after test
+[2020-02-17T09:24:23,787][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testEmpty] before test
+[2020-02-17T09:24:23,791][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testEmpty] after test
+[2020-02-17T09:24:23,793][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testRandomLongs] before test
+[2020-02-17T09:24:23,798][INFO ][o.e.s.a.m.ExtendedStatsAggregatorTests] [testRandomLongs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

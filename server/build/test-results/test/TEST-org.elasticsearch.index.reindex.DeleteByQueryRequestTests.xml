@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.reindex.DeleteByQueryRequestTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:42" hostname="Escoto-PC" time="0.031">
+  <properties/>
+  <testcase name="testDeleteteByQueryRequestImplementsIndicesRequestReplaceable" classname="org.elasticsearch.index.reindex.DeleteByQueryRequestTests" time="0.004"/>
+  <testcase name="testTypesGetter" classname="org.elasticsearch.index.reindex.DeleteByQueryRequestTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.reindex.DeleteByQueryRequestTests" time="0.004"/>
+  <testcase name="testTypesSetter" classname="org.elasticsearch.index.reindex.DeleteByQueryRequestTests" time="0.003"/>
+  <testcase name="testValidateGivenNoQuery" classname="org.elasticsearch.index.reindex.DeleteByQueryRequestTests" time="0.003"/>
+  <testcase name="testValidateGivenValid" classname="org.elasticsearch.index.reindex.DeleteByQueryRequestTests" time="0.01"/>
+  <testcase name="testForSlice" classname="org.elasticsearch.index.reindex.DeleteByQueryRequestTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T01:23:42,242][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testDeleteteByQueryRequestImplementsIndicesRequestReplaceable] before test
+[2020-02-17T01:23:42,244][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testDeleteteByQueryRequestImplementsIndicesRequestReplaceable] after test
+[2020-02-17T01:23:42,247][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testTypesGetter] before test
+[2020-02-17T01:23:42,247][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testTypesGetter] after test
+[2020-02-17T01:23:42,249][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testFromXContent] before test
+[2020-02-17T01:23:42,252][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testFromXContent] after test
+[2020-02-17T01:23:42,254][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testTypesSetter] before test
+[2020-02-17T01:23:42,254][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testTypesSetter] after test
+[2020-02-17T01:23:42,257][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testValidateGivenNoQuery] before test
+[2020-02-17T01:23:42,257][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testValidateGivenNoQuery] after test
+[2020-02-17T01:23:42,267][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testValidateGivenValid] before test
+[2020-02-17T01:23:42,267][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testValidateGivenValid] after test
+[2020-02-17T01:23:42,270][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testForSlice] before test
+[2020-02-17T01:23:42,271][INFO ][o.e.i.r.DeleteByQueryRequestTests] [testForSlice] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

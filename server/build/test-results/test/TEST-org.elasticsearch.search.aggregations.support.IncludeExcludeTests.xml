@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.039">
+  <properties/>
+  <testcase name="testSingleTermWithOrds" classname="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" time="0.011"/>
+  <testcase name="testEmptyTermsWithOrds" classname="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" time="0.006"/>
+  <testcase name="testRegexIncludeAndExclude" classname="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" time="0.003"/>
+  <testcase name="testPartitionedEquals" classname="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" time="0.004"/>
+  <testcase name="testExactExcludeValuesEquals" classname="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" time="0.004"/>
+  <testcase name="testExactIncludeValuesEquals" classname="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" time="0.003"/>
+  <testcase name="testRegexExclude" classname="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" time="0.006"/>
+  <testcase name="testRegexInclude" classname="org.elasticsearch.search.aggregations.support.IncludeExcludeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:25:35,153][INFO ][o.e.s.a.s.IncludeExcludeTests] [testSingleTermWithOrds] before test
+[2020-02-16T17:25:35,154][INFO ][o.e.s.a.s.IncludeExcludeTests] [testSingleTermWithOrds] after test
+[2020-02-16T17:25:35,160][INFO ][o.e.s.a.s.IncludeExcludeTests] [testEmptyTermsWithOrds] before test
+[2020-02-16T17:25:35,160][INFO ][o.e.s.a.s.IncludeExcludeTests] [testEmptyTermsWithOrds] after test
+[2020-02-16T17:25:35,162][INFO ][o.e.s.a.s.IncludeExcludeTests] [testRegexIncludeAndExclude] before test
+[2020-02-16T17:25:35,163][INFO ][o.e.s.a.s.IncludeExcludeTests] [testRegexIncludeAndExclude] after test
+[2020-02-16T17:25:35,167][INFO ][o.e.s.a.s.IncludeExcludeTests] [testPartitionedEquals] before test
+[2020-02-16T17:25:35,167][INFO ][o.e.s.a.s.IncludeExcludeTests] [testPartitionedEquals] after test
+[2020-02-16T17:25:35,171][INFO ][o.e.s.a.s.IncludeExcludeTests] [testExactExcludeValuesEquals] before test
+[2020-02-16T17:25:35,171][INFO ][o.e.s.a.s.IncludeExcludeTests] [testExactExcludeValuesEquals] after test
+[2020-02-16T17:25:35,174][INFO ][o.e.s.a.s.IncludeExcludeTests] [testExactIncludeValuesEquals] before test
+[2020-02-16T17:25:35,174][INFO ][o.e.s.a.s.IncludeExcludeTests] [testExactIncludeValuesEquals] after test
+[2020-02-16T17:25:35,180][INFO ][o.e.s.a.s.IncludeExcludeTests] [testRegexExclude] before test
+[2020-02-16T17:25:35,180][INFO ][o.e.s.a.s.IncludeExcludeTests] [testRegexExclude] after test
+[2020-02-16T17:25:35,182][INFO ][o.e.s.a.s.IncludeExcludeTests] [testRegexInclude] before test
+[2020-02-16T17:25:35,183][INFO ][o.e.s.a.s.IncludeExcludeTests] [testRegexInclude] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

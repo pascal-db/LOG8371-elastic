@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ingest.SimulateDocumentVerboseResultTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.176">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.ingest.SimulateDocumentVerboseResultTests" time="0.128"/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.action.ingest.SimulateDocumentVerboseResultTests" time="0.048"/>
+  <system-out><![CDATA[[2020-02-17T00:20:37,056][INFO ][o.e.a.i.SimulateDocumentVerboseResultTests] [testFromXContent] before test
+[2020-02-17T00:20:37,176][INFO ][o.e.a.i.SimulateDocumentVerboseResultTests] [testFromXContent] after test
+[2020-02-17T00:20:37,193][INFO ][o.e.a.i.SimulateDocumentVerboseResultTests] [testFromXContentWithFailures] before test
+[2020-02-17T00:20:37,224][INFO ][o.e.a.i.SimulateDocumentVerboseResultTests] [testFromXContentWithFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

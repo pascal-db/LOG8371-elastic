@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.service.TaskBatcherTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:41" hostname="Escoto-PC" time="0.065">
+  <properties/>
+  <testcase name="testSingleBatchSubmission" classname="org.elasticsearch.cluster.service.TaskBatcherTests" time="0.004"/>
+  <testcase name="testTasksAreExecutedInOrder" classname="org.elasticsearch.cluster.service.TaskBatcherTests" time="0.042"/>
+  <testcase name="testDuplicateSubmission" classname="org.elasticsearch.cluster.service.TaskBatcherTests" time="0.003"/>
+  <testcase name="testTimedOutTaskCleanedUp" classname="org.elasticsearch.cluster.service.TaskBatcherTests" time="0.003"/>
+  <testcase name="testPrioritizedTasks" classname="org.elasticsearch.cluster.service.TaskBatcherTests" time="0.003"/>
+  <testcase name="testTimeoutTask" classname="org.elasticsearch.cluster.service.TaskBatcherTests" time="0.006"/>
+  <testcase name="testOneExecutorDoesntStarveAnother" classname="org.elasticsearch.cluster.service.TaskBatcherTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T18:20:41,027][INFO ][o.e.c.s.TaskBatcherTests ] [testSingleBatchSubmission] before test
+[2020-02-16T18:20:41,029][INFO ][o.e.c.s.TaskBatcherTests ] [testSingleBatchSubmission] after test
+[2020-02-16T18:20:41,031][INFO ][o.e.c.s.TaskBatcherTests ] [testTasksAreExecutedInOrder] before test
+[2020-02-16T18:20:41,071][INFO ][o.e.c.s.TaskBatcherTests ] [testTasksAreExecutedInOrder] after test
+[2020-02-16T18:20:41,074][INFO ][o.e.c.s.TaskBatcherTests ] [testDuplicateSubmission] before test
+[2020-02-16T18:20:41,075][INFO ][o.e.c.s.TaskBatcherTests ] [testDuplicateSubmission] after test
+[2020-02-16T18:20:41,077][INFO ][o.e.c.s.TaskBatcherTests ] [testTimedOutTaskCleanedUp] before test
+[2020-02-16T18:20:41,078][INFO ][o.e.c.s.TaskBatcherTests ] [testTimedOutTaskCleanedUp] after test
+[2020-02-16T18:20:41,080][INFO ][o.e.c.s.TaskBatcherTests ] [testPrioritizedTasks] before test
+[2020-02-16T18:20:41,081][INFO ][o.e.c.s.TaskBatcherTests ] [testPrioritizedTasks] after test
+[2020-02-16T18:20:41,082][INFO ][o.e.c.s.TaskBatcherTests ] [testTimeoutTask] before test
+[2020-02-16T18:20:41,086][INFO ][o.e.c.s.TaskBatcherTests ] [testTimeoutTask] after test
+[2020-02-16T18:20:41,088][INFO ][o.e.c.s.TaskBatcherTests ] [testOneExecutorDoesntStarveAnother] before test
+[2020-02-16T18:20:41,089][INFO ][o.e.c.s.TaskBatcherTests ] [testOneExecutorDoesntStarveAnother] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

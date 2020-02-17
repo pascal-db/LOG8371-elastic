@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.http.HttpInfoTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:26" hostname="Escoto-PC" time="0.016">
+  <properties/>
+  <testcase name="testCorrectDisplayPublishedIpv6" classname="org.elasticsearch.http.HttpInfoTests" time="0.005"/>
+  <testcase name="testCorrectDisplayPublishedIp" classname="org.elasticsearch.http.HttpInfoTests" time="0.002"/>
+  <testcase name="testCorrectlyDisplayPublishedCname" classname="org.elasticsearch.http.HttpInfoTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T17:22:26,034][INFO ][o.e.h.HttpInfoTests      ] [testCorrectDisplayPublishedIpv6] before test
+[2020-02-16T17:22:26,035][INFO ][o.e.h.HttpInfoTests      ] [testCorrectDisplayPublishedIpv6] after test
+[2020-02-16T17:22:26,037][INFO ][o.e.h.HttpInfoTests      ] [testCorrectDisplayPublishedIp] before test
+[2020-02-16T17:22:26,038][INFO ][o.e.h.HttpInfoTests      ] [testCorrectDisplayPublishedIp] after test
+[2020-02-16T17:22:26,040][INFO ][o.e.h.HttpInfoTests      ] [testCorrectlyDisplayPublishedCname] before test
+[2020-02-16T17:22:26,047][INFO ][o.e.h.HttpInfoTests      ] [testCorrectlyDisplayPublishedCname] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

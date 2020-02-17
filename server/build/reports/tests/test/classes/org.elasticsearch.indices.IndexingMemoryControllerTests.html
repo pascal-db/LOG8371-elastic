@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.indices.IndexingMemoryControllerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.indices.IndexingMemoryControllerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.indices.html">org.elasticsearch.indices</a> &gt; IndexingMemoryControllerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">2.716s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testActiveInactive</td>
+<td class="success">1.572s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeletesAloneCanTriggerRefresh</td>
+<td class="success">0.469s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaxBufferSizes</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMinBufferSizes</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNegativeInterval</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNegativeMaxIndexBufferSize</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNegativeMinIndexBufferSize</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNegativeShardInactiveTime</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShardAdditionAndRemoval</td>
+<td class="success">0.134s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThrottling</td>
+<td class="success">0.143s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTranslogRecoveryWorksWithIMC</td>
+<td class="success">0.376s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T00:24:43,025][INFO ][o.e.e.NodeEnvironment    ] [testActiveInactive] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:24:43,025][INFO ][o.e.e.NodeEnvironment    ] [testActiveInactive] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:24:43,027][INFO ][o.e.n.Node               ] [testActiveInactive] node name [node_s_0], node ID [5S6LLgvmRTSNV03PzIaKMA], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-5509179632424786590]-HASH=[15E728C1BFA]]
+[2020-02-17T00:24:43,027][INFO ][o.e.n.Node               ] [testActiveInactive] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T00:24:43,027][INFO ][o.e.n.Node               ] [testActiveInactive] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T00:24:43,027][INFO ][o.e.n.Node               ] [testActiveInactive] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T00:24:43,028][INFO ][o.e.p.PluginsService     ] [testActiveInactive] no modules loaded
+[2020-02-17T00:24:43,028][INFO ][o.e.p.PluginsService     ] [testActiveInactive] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T00:24:43,028][INFO ][o.e.p.PluginsService     ] [testActiveInactive] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T00:24:43,311][INFO ][o.e.d.DiscoveryModule    ] [testActiveInactive] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T00:24:43,320][INFO ][o.e.n.Node               ] [testActiveInactive] initialized
+[2020-02-17T00:24:43,320][INFO ][o.e.n.Node               ] [testActiveInactive] starting ...
+[2020-02-17T00:24:44,130][INFO ][o.e.t.TransportService   ] [testActiveInactive] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T00:24:44,137][INFO ][o.e.c.c.Coordinator      ] [testActiveInactive] setting initial configuration to VotingConfiguration{5S6LLgvmRTSNV03PzIaKMA}
+[2020-02-17T00:24:44,359][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{5S6LLgvmRTSNV03PzIaKMA}{JC6RS_lPQyyx42GBWy2_rg}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{5S6LLgvmRTSNV03PzIaKMA}{JC6RS_lPQyyx42GBWy2_rg}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T00:24:44,370][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [E1kQtlSQQMSZTOtEgfFecg]
+[2020-02-17T00:24:44,386][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{5S6LLgvmRTSNV03PzIaKMA}{JC6RS_lPQyyx42GBWy2_rg}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T00:24:44,396][INFO ][o.e.n.Node               ] [testActiveInactive] started
+[2020-02-17T00:24:44,398][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T00:24:44,400][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T00:24:44,436][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T00:24:44,451][INFO ][o.e.i.IndexingMemoryControllerTests] [testActiveInactive] before test
+[2020-02-17T00:24:44,452][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [2]/[0], mappings []
+[2020-02-17T00:24:44,531][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:24:44,542][INFO ][o.e.i.IndexingMemoryController] [testActiveInactive] now throttling indexing for shard [[test][1]]: segment writing can't keep up
+[2020-02-17T00:24:44,542][INFO ][o.e.i.IndexingMemoryControllerTests] [testActiveInactive] after test
+[2020-02-17T00:24:44,542][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/8LCCRtjRRvi3pQmuwv-lRA] deleting index
+[2020-02-17T00:24:44,587][INFO ][o.e.i.IndexingMemoryControllerTests] [testNegativeShardInactiveTime] before test
+[2020-02-17T00:24:44,588][INFO ][o.e.i.IndexingMemoryControllerTests] [testNegativeShardInactiveTime] after test
+[2020-02-17T00:24:44,590][INFO ][o.e.i.IndexingMemoryControllerTests] [testTranslogRecoveryWorksWithIMC] before test
+[2020-02-17T00:24:44,592][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T00:24:44,656][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:24:44,687][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [test/YtTtRK3rQcWCIquTIsIRqw] create_mapping [test]
+[2020-02-17T00:24:44,867][INFO ][o.e.i.IndexingMemoryController] [testTranslogRecoveryWorksWithIMC] now throttling indexing for shard [[test][0]]: segment writing can't keep up
+[2020-02-17T00:24:44,919][INFO ][o.e.i.IndexingMemoryControllerTests] [testTranslogRecoveryWorksWithIMC] after test
+[2020-02-17T00:24:44,927][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/YtTtRK3rQcWCIquTIsIRqw] deleting index
+[2020-02-17T00:24:44,962][WARN ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] unexpected error during the primary phase for action [indices:admin/seq_no/global_checkpoint_sync], request [GlobalCheckpointSyncAction.Request{shardId=[test][0], timeout=1m, index='test', waitForActiveShards=1}]
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.clusterChanged(ClusterStateObserver.java:196) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$callClusterStateListeners$6(ClusterApplierService.java:527) [main/:?]
+	at java.util.concurrent.ConcurrentHashMap$KeySpliterator.forEachRemaining(ConcurrentHashMap.java:3566) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.callClusterStateListeners(ClusterApplierService.java:523) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:498) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:24:44,963][INFO ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] [test][0] global checkpoint sync failed
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.clusterChanged(ClusterStateObserver.java:196) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$callClusterStateListeners$6(ClusterApplierService.java:527) [main/:?]
+	at java.util.concurrent.ConcurrentHashMap$KeySpliterator.forEachRemaining(ConcurrentHashMap.java:3566) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.callClusterStateListeners(ClusterApplierService.java:523) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:498) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:24:44,963][WARN ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] unexpected error during the primary phase for action [indices:admin/seq_no/global_checkpoint_sync], request [GlobalCheckpointSyncAction.Request{shardId=[test][0], timeout=1m, index='test', waitForActiveShards=1}]
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.clusterChanged(ClusterStateObserver.java:196) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$callClusterStateListeners$6(ClusterApplierService.java:527) [main/:?]
+	at java.util.concurrent.ConcurrentHashMap$KeySpliterator.forEachRemaining(ConcurrentHashMap.java:3566) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.callClusterStateListeners(ClusterApplierService.java:523) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:498) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:24:44,963][INFO ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] [test][0] global checkpoint sync failed
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.clusterChanged(ClusterStateObserver.java:196) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$callClusterStateListeners$6(ClusterApplierService.java:527) [main/:?]
+	at java.util.concurrent.ConcurrentHashMap$KeySpliterator.forEachRemaining(ConcurrentHashMap.java:3566) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.callClusterStateListeners(ClusterApplierService.java:523) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:498) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:24:44,964][WARN ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] unexpected error during the primary phase for action [indices:admin/seq_no/global_checkpoint_sync], request [GlobalCheckpointSyncAction.Request{shardId=[test][0], timeout=1m, index='test', waitForActiveShards=1}]
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.clusterChanged(ClusterStateObserver.java:196) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$callClusterStateListeners$6(ClusterApplierService.java:527) [main/:?]
+	at java.util.concurrent.ConcurrentHashMap$KeySpliterator.forEachRemaining(ConcurrentHashMap.java:3566) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.callClusterStateListeners(ClusterApplierService.java:523) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:498) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:24:44,964][INFO ][o.e.i.s.GlobalCheckpointSyncAction] [node_s_0] [test][0] global checkpoint sync failed
+org.elasticsearch.index.IndexNotFoundException: no such index [test]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:194) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteIndices(IndexNameExpressionResolver.java:120) ~[main/:?]
+	at org.elasticsearch.cluster.metadata.IndexNameExpressionResolver.concreteSingleIndex(IndexNameExpressionResolver.java:282) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.concreteIndex(TransportReplicationAction.java:235) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction.access$1600(TransportReplicationAction.java:97) ~[main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase.doRun(TransportReplicationAction.java:652) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at org.elasticsearch.action.support.replication.TransportReplicationAction$ReroutePhase$2.onNewClusterState(TransportReplicationAction.java:796) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ContextPreservingListener.onNewClusterState(ClusterStateObserver.java:311) [main/:?]
+	at org.elasticsearch.cluster.ClusterStateObserver$ObserverClusterStateListener.clusterChanged(ClusterStateObserver.java:196) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.lambda$callClusterStateListeners$6(ClusterApplierService.java:527) [main/:?]
+	at java.util.concurrent.ConcurrentHashMap$KeySpliterator.forEachRemaining(ConcurrentHashMap.java:3566) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.callClusterStateListeners(ClusterApplierService.java:523) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.applyChanges(ClusterApplierService.java:498) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.runTask(ClusterApplierService.java:432) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService.access$100(ClusterApplierService.java:73) [main/:?]
+	at org.elasticsearch.cluster.service.ClusterApplierService$UpdateTask.run(ClusterApplierService.java:176) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.runAndClean(PrioritizedEsThreadPoolExecutor.java:252) [main/:?]
+	at org.elasticsearch.common.util.concurrent.PrioritizedEsThreadPoolExecutor$TieBreakingPrioritizedRunnable.run(PrioritizedEsThreadPoolExecutor.java:215) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T00:24:44,967][INFO ][o.e.i.IndexingMemoryControllerTests] [testThrottling] before test
+[2020-02-17T00:24:44,968][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [3]/[0], mappings []
+[2020-02-17T00:24:45,049][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:24:45,064][INFO ][o.e.i.IndexingMemoryController] [testThrottling] now throttling indexing for shard [[test][1]]: segment writing can't keep up
+[2020-02-17T00:24:45,064][INFO ][o.e.i.IndexingMemoryControllerTests] [testThrottling] --&gt; Indexing more data
+[2020-02-17T00:24:45,064][INFO ][o.e.i.IndexingMemoryController] [testThrottling] now throttling indexing for shard [[test][0]]: segment writing can't keep up
+[2020-02-17T00:24:45,064][INFO ][o.e.i.IndexingMemoryController] [testThrottling] stop throttling indexing for shard [[test][1]]
+[2020-02-17T00:24:45,064][INFO ][o.e.i.IndexingMemoryController] [testThrottling] stop throttling indexing for shard [[test][0]]
+[2020-02-17T00:24:45,064][INFO ][o.e.i.IndexingMemoryControllerTests] [testThrottling] after test
+[2020-02-17T00:24:45,065][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/dJ7EPHcEQ3iTeAc4U0aPSA] deleting index
+[2020-02-17T00:24:45,111][INFO ][o.e.i.IndexingMemoryControllerTests] [testMinBufferSizes] before test
+[2020-02-17T00:24:45,111][INFO ][o.e.i.IndexingMemoryControllerTests] [testMinBufferSizes] after test
+[2020-02-17T00:24:45,113][INFO ][o.e.i.IndexingMemoryControllerTests] [testNegativeInterval] before test
+[2020-02-17T00:24:45,114][INFO ][o.e.i.IndexingMemoryControllerTests] [testNegativeInterval] after test
+[2020-02-17T00:24:45,116][INFO ][o.e.i.IndexingMemoryControllerTests] [testNegativeMaxIndexBufferSize] before test
+[2020-02-17T00:24:45,117][INFO ][o.e.i.IndexingMemoryControllerTests] [testNegativeMaxIndexBufferSize] after test
+[2020-02-17T00:24:45,119][INFO ][o.e.i.IndexingMemoryControllerTests] [testShardAdditionAndRemoval] before test
+[2020-02-17T00:24:45,120][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [3]/[0], mappings []
+[2020-02-17T00:24:45,191][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][2], [test][0]]]).
+[2020-02-17T00:24:45,202][INFO ][o.e.i.IndexingMemoryControllerTests] [testShardAdditionAndRemoval] after test
+[2020-02-17T00:24:45,202][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/KZKiFsLmQgaESZCVaz9oKQ] deleting index
+[2020-02-17T00:24:45,254][INFO ][o.e.i.IndexingMemoryControllerTests] [testMaxBufferSizes] before test
+[2020-02-17T00:24:45,255][INFO ][o.e.i.IndexingMemoryControllerTests] [testMaxBufferSizes] after test
+[2020-02-17T00:24:45,258][INFO ][o.e.i.IndexingMemoryControllerTests] [testDeletesAloneCanTriggerRefresh] before test
+[2020-02-17T00:24:45,260][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [index] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T00:24:45,312][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[index][0]]]).
+[2020-02-17T00:24:45,322][INFO ][o.e.c.m.MetaDataMappingService] [node_s_0] [index/J5fxntCVTM6Kcu1RQzaWog] create_mapping [type]
+[2020-02-17T00:24:45,693][INFO ][o.e.i.IndexingMemoryController] [testDeletesAloneCanTriggerRefresh] now throttling indexing for shard [[index][0]]: segment writing can't keep up
+[2020-02-17T00:24:45,694][INFO ][o.e.i.IndexingMemoryControllerTests] [testDeletesAloneCanTriggerRefresh] after test
+[2020-02-17T00:24:45,694][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [index/J5fxntCVTM6Kcu1RQzaWog] deleting index
+[2020-02-17T00:24:45,729][INFO ][o.e.i.IndexingMemoryControllerTests] [testNegativeMinIndexBufferSize] before test
+[2020-02-17T00:24:45,730][INFO ][o.e.i.IndexingMemoryControllerTests] [testNegativeMinIndexBufferSize] after test
+[2020-02-17T00:24:45,731][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T00:24:45,734][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T00:24:45,734][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T00:24:45,736][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

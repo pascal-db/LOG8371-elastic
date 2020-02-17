@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.threadpool.ScalingThreadPoolTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:44" hostname="Escoto-PC" time="0.359">
+  <properties/>
+  <testcase name="testScalingThreadPoolIsBounded" classname="org.elasticsearch.threadpool.ScalingThreadPoolTests" time="0.117"/>
+  <testcase name="testScalingThreadPoolConfiguration" classname="org.elasticsearch.threadpool.ScalingThreadPoolTests" time="0.021"/>
+  <testcase name="testScalingThreadPoolThreadsAreTerminatedAfterKeepAlive" classname="org.elasticsearch.threadpool.ScalingThreadPoolTests" time="0.221"/>
+  <system-out><![CDATA[[2020-02-16T22:24:44,596][INFO ][o.e.t.ScalingThreadPoolTests] [testScalingThreadPoolIsBounded] before test
+[2020-02-16T22:24:44,710][INFO ][o.e.t.ScalingThreadPoolTests] [testScalingThreadPoolIsBounded] after test
+[2020-02-16T22:24:44,714][INFO ][o.e.t.ScalingThreadPoolTests] [testScalingThreadPoolConfiguration] before test
+[2020-02-16T22:24:44,731][INFO ][o.e.t.ScalingThreadPoolTests] [testScalingThreadPoolConfiguration] after test
+[2020-02-16T22:24:44,739][INFO ][o.e.t.ScalingThreadPoolTests] [testScalingThreadPoolThreadsAreTerminatedAfterKeepAlive] before test
+[2020-02-16T22:24:44,953][INFO ][o.e.t.ScalingThreadPoolTests] [testScalingThreadPoolThreadsAreTerminatedAfterKeepAlive] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

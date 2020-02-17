@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:52" hostname="Escoto-PC" time="0.11">
+  <properties/>
+  <testcase name="testRemoveRetentionLeaseCausesRetentionLeaseSync" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testRemoveNotFound" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testRenewNotFoundRetentionLease" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testAddDuplicateRetentionLease" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testUnnecessaryPersistenceOfRetentionLeases" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.01"/>
+  <testcase name="testCloneRetentionLease" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.003"/>
+  <testcase name="testRenewLeaseWithLowerRetainingSequenceNumber" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testExpirationOnPrimary" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.007"/>
+  <testcase name="testExpirationOnReplica" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.003"/>
+  <testcase name="testAddOrRenewRetentionLease" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.006"/>
+  <testcase name="testReplicaIgnoresOlderRetentionLeasesVersion" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testCloneNonexistentRetentionLease" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testPersistRetentionLeasesUnderConcurrency" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.032"/>
+  <testcase name="testLoadAndPersistRetentionLeases" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.008"/>
+  <testcase name="testRemoveRetentionLease" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testAddRetentionLeaseCausesRetentionLeaseSync" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.004"/>
+  <testcase name="testCloneDuplicateRetentionLease" classname="org.elasticsearch.index.seqno.ReplicationTrackerRetentionLeaseTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T19:23:52,489][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRemoveRetentionLeaseCausesRetentionLeaseSync] before test
+[2020-02-16T19:23:52,492][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRemoveRetentionLeaseCausesRetentionLeaseSync] after test
+[2020-02-16T19:23:52,494][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRemoveNotFound] before test
+[2020-02-16T19:23:52,496][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRemoveNotFound] after test
+[2020-02-16T19:23:52,498][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRenewNotFoundRetentionLease] before test
+[2020-02-16T19:23:52,500][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRenewNotFoundRetentionLease] after test
+[2020-02-16T19:23:52,502][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testAddDuplicateRetentionLease] before test
+[2020-02-16T19:23:52,504][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testAddDuplicateRetentionLease] after test
+[2020-02-16T19:23:52,506][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testUnnecessaryPersistenceOfRetentionLeases] before test
+[2020-02-16T19:23:52,514][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testUnnecessaryPersistenceOfRetentionLeases] after test
+[2020-02-16T19:23:52,516][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testCloneRetentionLease] before test
+[2020-02-16T19:23:52,517][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testCloneRetentionLease] after test
+[2020-02-16T19:23:52,519][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRenewLeaseWithLowerRetainingSequenceNumber] before test
+[2020-02-16T19:23:52,521][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRenewLeaseWithLowerRetainingSequenceNumber] after test
+[2020-02-16T19:23:52,523][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testExpirationOnPrimary] before test
+[2020-02-16T19:23:52,527][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testExpirationOnPrimary] after test
+[2020-02-16T19:23:52,530][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testExpirationOnReplica] before test
+[2020-02-16T19:23:52,531][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testExpirationOnReplica] after test
+[2020-02-16T19:23:52,535][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testAddOrRenewRetentionLease] before test
+[2020-02-16T19:23:52,537][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testAddOrRenewRetentionLease] after test
+[2020-02-16T19:23:52,539][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testReplicaIgnoresOlderRetentionLeasesVersion] before test
+[2020-02-16T19:23:52,540][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testReplicaIgnoresOlderRetentionLeasesVersion] after test
+[2020-02-16T19:23:52,543][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testCloneNonexistentRetentionLease] before test
+[2020-02-16T19:23:52,544][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testCloneNonexistentRetentionLease] after test
+[2020-02-16T19:23:52,547][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testPersistRetentionLeasesUnderConcurrency] before test
+[2020-02-16T19:23:52,577][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testPersistRetentionLeasesUnderConcurrency] after test
+[2020-02-16T19:23:52,579][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testLoadAndPersistRetentionLeases] before test
+[2020-02-16T19:23:52,585][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testLoadAndPersistRetentionLeases] after test
+[2020-02-16T19:23:52,587][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRemoveRetentionLease] before test
+[2020-02-16T19:23:52,589][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testRemoveRetentionLease] after test
+[2020-02-16T19:23:52,591][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testAddRetentionLeaseCausesRetentionLeaseSync] before test
+[2020-02-16T19:23:52,592][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testAddRetentionLeaseCausesRetentionLeaseSync] after test
+[2020-02-16T19:23:52,596][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testCloneDuplicateRetentionLease] before test
+[2020-02-16T19:23:52,598][INFO ][o.e.i.s.ReplicationTrackerRetentionLeaseTests] [testCloneDuplicateRetentionLease] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

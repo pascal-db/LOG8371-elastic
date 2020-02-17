@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.reindex.UpdateByQueryRequestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:10" hostname="Escoto-PC" time="0.027">
+  <properties/>
+  <testcase name="testForSlice" classname="org.elasticsearch.index.reindex.UpdateByQueryRequestTests" time="0.017"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.reindex.UpdateByQueryRequestTests" time="0.003"/>
+  <testcase name="testUpdateByQueryRequestImplementsIndicesRequestReplaceable" classname="org.elasticsearch.index.reindex.UpdateByQueryRequestTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T13:23:10,219][INFO ][o.e.i.r.UpdateByQueryRequestTests] [testForSlice] before test
+[2020-02-16T13:23:10,220][INFO ][o.e.i.r.UpdateByQueryRequestTests] [testForSlice] after test
+[2020-02-16T13:23:10,222][INFO ][o.e.i.r.UpdateByQueryRequestTests] [testFromXContent] before test
+[2020-02-16T13:23:10,223][INFO ][o.e.i.r.UpdateByQueryRequestTests] [testFromXContent] after test
+[2020-02-16T13:23:10,230][INFO ][o.e.i.r.UpdateByQueryRequestTests] [testUpdateByQueryRequestImplementsIndicesRequestReplaceable] before test
+[2020-02-16T13:23:10,230][INFO ][o.e.i.r.UpdateByQueryRequestTests] [testUpdateByQueryRequestImplementsIndicesRequestReplaceable] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

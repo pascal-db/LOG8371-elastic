@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.FuzzyQueryBuilderTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:06" hostname="Escoto-PC" time="0.139">
+  <properties/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.031"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.006"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnsupportedFuzzinessForStringType" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.008"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.025"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.005"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQueryWithNumericField" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.005"/>
+  <testcase name="testToQueryWithStringField" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.006"/>
+  <testcase name="testToQueryWithStringFieldDefinedFuzziness" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.002"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.004"/>
+  <testcase name="testToQueryWithTranspositions" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.008"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.01"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.002"/>
+  <testcase name="testParseFailsWithValueArray" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.004"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQueryWithStringFieldDefinedWrongFuzziness" classname="org.elasticsearch.index.query.FuzzyQueryBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T18:23:06,130][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T18:23:06,134][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no modules loaded
+[2020-02-16T18:23:06,134][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no plugins loaded
+[2020-02-16T18:23:06,149][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no modules loaded
+[2020-02-16T18:23:06,150][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no plugins loaded
+[2020-02-16T18:23:06,155][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T18:23:06,160][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:23:06,161][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:23:06,165][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T18:23:06,165][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T18:23:06,167][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testUnsupportedFuzzinessForStringType] before test
+[2020-02-16T18:23:06,167][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testUnsupportedFuzzinessForStringType] after test
+[2020-02-16T18:23:06,175][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T18:23:06,175][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T18:23:06,199][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T18:23:06,201][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T18:23:06,205][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testSerialization] before test
+[2020-02-16T18:23:06,206][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testSerialization] after test
+[2020-02-16T18:23:06,208][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T18:23:06,208][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T18:23:06,211][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testFromJson] before test
+[2020-02-16T18:23:06,211][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testFromJson] after test
+[2020-02-16T18:23:06,216][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithNumericField] before test
+[2020-02-16T18:23:06,217][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithNumericField] after test
+[2020-02-16T18:23:06,218][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithStringField] before test
+[2020-02-16T18:23:06,219][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithStringField] after test
+[2020-02-16T18:23:06,220][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T18:23:06,221][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T18:23:06,224][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQuery] before test
+[2020-02-16T18:23:06,226][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQuery] after test
+[2020-02-16T18:23:06,228][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithStringFieldDefinedFuzziness] before test
+[2020-02-16T18:23:06,228][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithStringFieldDefinedFuzziness] after test
+[2020-02-16T18:23:06,232][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-16T18:23:06,233][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-16T18:23:06,240][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithTranspositions] before test
+[2020-02-16T18:23:06,241][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithTranspositions] after test
+[2020-02-16T18:23:06,250][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T18:23:06,251][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T18:23:06,252][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T18:23:06,253][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T18:23:06,256][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testParseFailsWithValueArray] before test
+[2020-02-16T18:23:06,257][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testParseFailsWithValueArray] after test
+[2020-02-16T18:23:06,260][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testCacheability] before test
+[2020-02-16T18:23:06,260][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testCacheability] after test
+[2020-02-16T18:23:06,262][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithStringFieldDefinedWrongFuzziness] before test
+[2020-02-16T18:23:06,263][INFO ][o.e.i.q.FuzzyQueryBuilderTests] [testToQueryWithStringFieldDefinedWrongFuzziness] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

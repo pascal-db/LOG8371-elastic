@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.seqno.CountedBitSetTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:52" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testCompareToFixedBitset" classname="org.elasticsearch.index.seqno.CountedBitSetTests" time="0.004"/>
+  <testcase name="testReleaseInternalBitSet" classname="org.elasticsearch.index.seqno.CountedBitSetTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T17:23:52,420][INFO ][o.e.i.s.CountedBitSetTests] [testCompareToFixedBitset] before test
+[2020-02-16T17:23:52,423][INFO ][o.e.i.s.CountedBitSetTests] [testCompareToFixedBitset] after test
+[2020-02-16T17:23:52,425][INFO ][o.e.i.s.CountedBitSetTests] [testReleaseInternalBitSet] before test
+[2020-02-16T17:23:52,429][INFO ][o.e.i.s.CountedBitSetTests] [testReleaseInternalBitSet] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

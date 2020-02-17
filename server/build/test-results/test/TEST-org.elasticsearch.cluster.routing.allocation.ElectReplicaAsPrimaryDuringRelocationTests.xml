@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.ElectReplicaAsPrimaryDuringRelocationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:37" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testElectReplicaAsPrimaryDuringRelocation" classname="org.elasticsearch.cluster.routing.allocation.ElectReplicaAsPrimaryDuringRelocationTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T19:21:37,626][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] before test
+[2020-02-16T19:21:37,629][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] Building initial routing table
+[2020-02-16T19:21:37,629][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] Adding two nodes and performing rerouting
+[2020-02-16T19:21:37,630][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] Start the primary shards
+[2020-02-16T19:21:37,630][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] Start the replica shards
+[2020-02-16T19:21:37,630][INFO ][o.e.c.r.a.AllocationService] [testElectReplicaAsPrimaryDuringRelocation] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T19:21:37,631][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] Start another node and perform rerouting
+[2020-02-16T19:21:37,631][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] find the replica shard that gets relocated
+[2020-02-16T19:21:37,631][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] kill the node [node2] of the primary shard for the relocating replica
+[2020-02-16T19:21:37,631][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] make sure all the primary shards are active
+[2020-02-16T19:21:37,632][INFO ][o.e.c.r.a.ElectReplicaAsPrimaryDuringRelocationTests] [testElectReplicaAsPrimaryDuringRelocation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

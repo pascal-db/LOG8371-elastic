@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.MinAggregatorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:26" hostname="Escoto-PC" time="0.187">
+  <properties/>
+  <testcase name="testMinAggregator_sortedNumericDv" classname="org.elasticsearch.search.aggregations.metrics.MinAggregatorTests" time="0.016"/>
+  <testcase name="testMinShortcutRandom" classname="org.elasticsearch.search.aggregations.metrics.MinAggregatorTests" time="0.101"/>
+  <testcase name="testMinAggregator_numericDv" classname="org.elasticsearch.search.aggregations.metrics.MinAggregatorTests" time="0.015"/>
+  <testcase name="testMinAggregator_noDocs" classname="org.elasticsearch.search.aggregations.metrics.MinAggregatorTests" time="0.011"/>
+  <testcase name="testMinAggregator_noValue" classname="org.elasticsearch.search.aggregations.metrics.MinAggregatorTests" time="0.006"/>
+  <testcase name="testShortcutIsApplicable" classname="org.elasticsearch.search.aggregations.metrics.MinAggregatorTests" time="0.037"/>
+  <system-out><![CDATA[[2020-02-16T22:24:26,172][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinAggregator_sortedNumericDv] before test
+[2020-02-16T22:24:26,181][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinAggregator_sortedNumericDv] after test
+[2020-02-16T22:24:26,186][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinShortcutRandom] before test
+[2020-02-16T22:24:26,283][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinShortcutRandom] after test
+[2020-02-16T22:24:26,290][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinAggregator_numericDv] before test
+[2020-02-16T22:24:26,298][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinAggregator_numericDv] after test
+[2020-02-16T22:24:26,307][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinAggregator_noDocs] before test
+[2020-02-16T22:24:26,309][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinAggregator_noDocs] after test
+[2020-02-16T22:24:26,312][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinAggregator_noValue] before test
+[2020-02-16T22:24:26,315][INFO ][o.e.s.a.m.MinAggregatorTests] [testMinAggregator_noValue] after test
+[2020-02-16T22:24:26,317][INFO ][o.e.s.a.m.MinAggregatorTests] [testShortcutIsApplicable] before test
+[2020-02-16T22:24:26,352][INFO ][o.e.s.a.m.MinAggregatorTests] [testShortcutIsApplicable] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

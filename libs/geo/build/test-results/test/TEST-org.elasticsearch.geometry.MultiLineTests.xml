@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.MultiLineTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:24" hostname="Escoto-PC" time="0.116">
+  <properties/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.MultiLineTests" time="0.039"/>
+  <testcase name="testValidation" classname="org.elasticsearch.geometry.MultiLineTests" time="0.009"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.MultiLineTests" time="0.016"/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.MultiLineTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.MultiLineTests" time="0.046"/>
+  <system-out><![CDATA[[2020-02-16T19:50:24,647][INFO ][o.e.g.MultiLineTests     ] [testBasicSerialization] before test
+[2020-02-16T19:50:24,660][INFO ][o.e.g.MultiLineTests     ] [testBasicSerialization] after test
+[2020-02-16T19:50:24,669][INFO ][o.e.g.MultiLineTests     ] [testValidation] before test
+[2020-02-16T19:50:24,670][INFO ][o.e.g.MultiLineTests     ] [testValidation] after test
+[2020-02-16T19:50:24,675][INFO ][o.e.g.MultiLineTests     ] [testSerialization] before test
+[2020-02-16T19:50:24,687][INFO ][o.e.g.MultiLineTests     ] [testSerialization] after test
+[2020-02-16T19:50:24,691][INFO ][o.e.g.MultiLineTests     ] [testVisitor] before test
+[2020-02-16T19:50:24,691][INFO ][o.e.g.MultiLineTests     ] [testVisitor] after test
+[2020-02-16T19:50:24,695][INFO ][o.e.g.MultiLineTests     ] [testEqualsAndHashcode] before test
+[2020-02-16T19:50:24,736][INFO ][o.e.g.MultiLineTests     ] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

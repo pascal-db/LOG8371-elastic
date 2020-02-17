@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.metadata.MetaDataCreateIndexServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.metadata.MetaDataCreateIndexServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.metadata.html">org.elasticsearch.cluster.metadata</a> &gt; MetaDataCreateIndexServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">11</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.071s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testCalculateNumRoutingShards</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoNotOverrideSoftDeletesSettingOnResize</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNumberOfShards</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPrepareResizeIndexSettings</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPrepareResizeIndexSettingsAnalysisSettings</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPrepareResizeIndexSettingsCopySettings</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPrepareResizeIndexSettingsSimilaritySettings</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShardLimit</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidateIndexName</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidateShrinkIndex</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidateSplitIndex</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T05:21:33,565][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testCalculateNumRoutingShards] before test
+[2020-02-17T05:21:33,566][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testCalculateNumRoutingShards] after test
+[2020-02-17T05:21:33,569][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testShardLimit] before test
+[2020-02-17T05:21:33,576][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testShardLimit] after test
+[2020-02-17T05:21:33,579][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testValidateSplitIndex] before test
+[2020-02-17T05:21:33,586][INFO ][o.e.c.r.a.AllocationService] [testValidateSplitIndex] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[source][6], [source][21], [source][24], [source][5], [source][17], [source][29], [source][30], [source][7], [source][19], [source][23], ... [31 items in total]]]).
+[2020-02-17T05:21:33,586][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testValidateSplitIndex] after test
+[2020-02-17T05:21:33,590][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testValidateShrinkIndex] before test
+[2020-02-17T05:21:33,595][INFO ][o.e.c.r.a.AllocationService] [testValidateShrinkIndex] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[source][3], [source][6], [source][7], [source][2], [source][5], [source][8], [source][9], [source][10], [source][11], [source][12], ... [13 items in total]]]).
+[2020-02-17T05:21:33,596][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testValidateShrinkIndex] after test
+[2020-02-17T05:21:33,597][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testPrepareResizeIndexSettings] before test
+[2020-02-17T05:21:33,600][INFO ][o.e.c.r.a.AllocationService] [testPrepareResizeIndexSettings] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[agXzdJgeSc][1], [agXzdJgeSc][3], [agXzdJgeSc][4], [agXzdJgeSc][2], [agXzdJgeSc][0]]]).
+[2020-02-17T05:21:33,601][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testPrepareResizeIndexSettings] after test
+[2020-02-17T05:21:33,604][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testPrepareResizeIndexSettingsAnalysisSettings] before test
+[2020-02-17T05:21:33,607][INFO ][o.e.c.r.a.AllocationService] [testPrepareResizeIndexSettingsAnalysisSettings] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[RjbxTuXCYh][1], [RjbxTuXCYh][3], [RjbxTuXCYh][4], [RjbxTuXCYh][2], [RjbxTuXCYh][0]]]).
+[2020-02-17T05:21:33,607][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testPrepareResizeIndexSettingsAnalysisSettings] after test
+[2020-02-17T05:21:33,609][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testPrepareResizeIndexSettingsCopySettings] before test
+[2020-02-17T05:21:33,615][INFO ][o.e.c.r.a.AllocationService] [testPrepareResizeIndexSettingsCopySettings] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[qToOYzJtsj][7], [qToOYzJtsj][5], [qToOYzJtsj][3], [qToOYzJtsj][6], [qToOYzJtsj][1], [qToOYzJtsj][2], [qToOYzJtsj][4], [qToOYzJtsj][0]]]).
+[2020-02-17T05:21:33,618][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testPrepareResizeIndexSettingsCopySettings] after test
+[2020-02-17T05:21:33,620][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testValidateIndexName] before test
+[2020-02-17T05:21:33,621][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testValidateIndexName] after test
+[2020-02-17T05:21:33,623][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testNumberOfShards] before test
+[2020-02-17T05:21:33,623][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testNumberOfShards] after test
+[2020-02-17T05:21:33,625][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testDoNotOverrideSoftDeletesSettingOnResize] before test
+[2020-02-17T05:21:33,628][INFO ][o.e.c.r.a.AllocationService] [testDoNotOverrideSoftDeletesSettingOnResize] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[uionhsZVSS][6], [uionhsZVSS][2], [uionhsZVSS][8], [uionhsZVSS][9], [uionhsZVSS][7], [uionhsZVSS][5], [uionhsZVSS][4], [uionhsZVSS][1], [uionhsZVSS][3], [uionhsZVSS][0]]]).
+[2020-02-17T05:21:33,628][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testDoNotOverrideSoftDeletesSettingOnResize] after test
+[2020-02-17T05:21:33,630][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testPrepareResizeIndexSettingsSimilaritySettings] before test
+[2020-02-17T05:21:33,633][INFO ][o.e.c.r.a.AllocationService] [testPrepareResizeIndexSettingsSimilaritySettings] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[NJjMkirUWv][1], [NJjMkirUWv][0]]]).
+[2020-02-17T05:21:33,633][INFO ][o.e.c.m.MetaDataCreateIndexServiceTests] [testPrepareResizeIndexSettingsSimilaritySettings] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

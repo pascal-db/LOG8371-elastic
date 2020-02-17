@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.bootstrap.BootstrapChecksTests" tests="24" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:28" hostname="Escoto-PC" time="0.244">
+  <properties/>
+  <testcase name="testMightForkCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.009"/>
+  <testcase name="testHeapSizeCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.004"/>
+  <testcase name="testClientJvmCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.004"/>
+  <testcase name="testG1GCCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.005"/>
+  <testcase name="testExceptionAggregation" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.005"/>
+  <testcase name="testSystemCallFilterCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.045"/>
+  <testcase name="testOnErrorCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.009"/>
+  <testcase name="testAllPermissionCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.009"/>
+  <testcase name="testLogMessageInProductionMode" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.041"/>
+  <testcase name="testMaxNumberOfThreadsCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.005"/>
+  <testcase name="testNonProductionMode" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.009"/>
+  <testcase name="testOnOutOfMemoryErrorCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.004"/>
+  <testcase name="testMaxFileSizeCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.011"/>
+  <testcase name="testEnforceLimitsWhenPublishingToNonLocalAddress" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.004"/>
+  <testcase name="testMlockallCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.013"/>
+  <testcase name="testDiscoveryConfiguredCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.021"/>
+  <testcase name="testAlwaysEnforcedChecks" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.005"/>
+  <testcase name="testFileDescriptorLimitsThrowsOnInvalidLimit" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.005"/>
+  <testcase name="testEarlyAccessCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.007"/>
+  <testcase name="testUseSerialGCCheck" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.005"/>
+  <testcase name="testFileDescriptorLimits" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.006"/>
+  <testcase name="testNoLogMessageInNonProductionMode" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.006"/>
+  <testcase name="testMaxSizeVirtualMemory" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.006"/>
+  <testcase name="testEnforceLimitsWhenBoundToNonLocalAddress" classname="org.elasticsearch.bootstrap.BootstrapChecksTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T23:20:28,293][INFO ][o.e.b.BootstrapChecksTests] [testMightForkCheck] before test
+[2020-02-16T23:20:28,294][INFO ][o.e.b.BootstrapChecks    ] [testMightForkCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,294][INFO ][o.e.b.BootstrapChecks    ] [testMightForkCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,298][INFO ][o.e.b.BootstrapChecksTests] [testMightForkCheck] after test
+[2020-02-16T23:20:28,302][INFO ][o.e.b.BootstrapChecksTests] [testHeapSizeCheck] before test
+[2020-02-16T23:20:28,303][INFO ][o.e.b.BootstrapChecks    ] [testHeapSizeCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,303][INFO ][o.e.b.BootstrapChecks    ] [testHeapSizeCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,303][INFO ][o.e.b.BootstrapChecks    ] [testHeapSizeCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,303][INFO ][o.e.b.BootstrapChecksTests] [testHeapSizeCheck] after test
+[2020-02-16T23:20:28,306][INFO ][o.e.b.BootstrapChecksTests] [testClientJvmCheck] before test
+[2020-02-16T23:20:28,307][INFO ][o.e.b.BootstrapChecks    ] [testClientJvmCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,307][INFO ][o.e.b.BootstrapChecks    ] [testClientJvmCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,307][INFO ][o.e.b.BootstrapChecksTests] [testClientJvmCheck] after test
+[2020-02-16T23:20:28,311][INFO ][o.e.b.BootstrapChecksTests] [testG1GCCheck] before test
+[2020-02-16T23:20:28,311][INFO ][o.e.b.BootstrapChecks    ] [testG1GCCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,311][INFO ][o.e.b.BootstrapChecks    ] [testG1GCCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,312][INFO ][o.e.b.BootstrapChecks    ] [testG1GCCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,312][INFO ][o.e.b.BootstrapChecks    ] [testG1GCCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,312][INFO ][o.e.b.BootstrapChecks    ] [testG1GCCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,312][INFO ][o.e.b.BootstrapChecksTests] [testG1GCCheck] after test
+[2020-02-16T23:20:28,316][INFO ][o.e.b.BootstrapChecksTests] [testExceptionAggregation] before test
+[2020-02-16T23:20:28,317][INFO ][o.e.b.BootstrapChecks    ] [testExceptionAggregation] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,317][INFO ][o.e.b.BootstrapChecksTests] [testExceptionAggregation] after test
+[2020-02-16T23:20:28,344][INFO ][o.e.b.BootstrapChecksTests] [testSystemCallFilterCheck] before test
+[2020-02-16T23:20:28,347][INFO ][o.e.b.BootstrapChecks    ] [testSystemCallFilterCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,347][INFO ][o.e.b.BootstrapChecks    ] [testSystemCallFilterCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,363][INFO ][o.e.b.BootstrapChecks    ] [testSystemCallFilterCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,363][INFO ][o.e.b.BootstrapChecks    ] [testSystemCallFilterCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,363][INFO ][o.e.b.BootstrapChecksTests] [testSystemCallFilterCheck] after test
+[2020-02-16T23:20:28,371][INFO ][o.e.b.BootstrapChecksTests] [testOnErrorCheck] before test
+[2020-02-16T23:20:28,372][INFO ][o.e.b.BootstrapChecks    ] [testOnErrorCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,372][INFO ][o.e.b.BootstrapChecks    ] [testOnErrorCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,372][INFO ][o.e.b.BootstrapChecks    ] [testOnErrorCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,372][INFO ][o.e.b.BootstrapChecksTests] [testOnErrorCheck] after test
+[2020-02-16T23:20:28,379][INFO ][o.e.b.BootstrapChecksTests] [testAllPermissionCheck] before test
+[2020-02-16T23:20:28,380][INFO ][o.e.b.BootstrapChecks    ] [testAllPermissionCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,381][INFO ][o.e.b.BootstrapChecks    ] [testAllPermissionCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,381][INFO ][o.e.b.BootstrapChecksTests] [testAllPermissionCheck] after test
+[2020-02-16T23:20:28,387][INFO ][o.e.b.BootstrapChecksTests] [testLogMessageInProductionMode] before test
+[2020-02-16T23:20:28,422][INFO ][o.e.b.BootstrapChecksTests] [testLogMessageInProductionMode] after test
+[2020-02-16T23:20:28,426][INFO ][o.e.b.BootstrapChecksTests] [testMaxNumberOfThreadsCheck] before test
+[2020-02-16T23:20:28,426][INFO ][o.e.b.BootstrapChecks    ] [testMaxNumberOfThreadsCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,427][INFO ][o.e.b.BootstrapChecks    ] [testMaxNumberOfThreadsCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,427][INFO ][o.e.b.BootstrapChecks    ] [testMaxNumberOfThreadsCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,427][INFO ][o.e.b.BootstrapChecksTests] [testMaxNumberOfThreadsCheck] after test
+[2020-02-16T23:20:28,431][INFO ][o.e.b.BootstrapChecksTests] [testNonProductionMode] before test
+[2020-02-16T23:20:28,436][WARN ][o.e.b.BootstrapChecks    ] [testNonProductionMode] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-02-16T23:20:28,436][INFO ][o.e.b.BootstrapChecksTests] [testNonProductionMode] after test
+[2020-02-16T23:20:28,439][INFO ][o.e.b.BootstrapChecksTests] [testOnOutOfMemoryErrorCheck] before test
+[2020-02-16T23:20:28,440][INFO ][o.e.b.BootstrapChecks    ] [testOnOutOfMemoryErrorCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,440][INFO ][o.e.b.BootstrapChecks    ] [testOnOutOfMemoryErrorCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,440][INFO ][o.e.b.BootstrapChecksTests] [testOnOutOfMemoryErrorCheck] after test
+[2020-02-16T23:20:28,450][INFO ][o.e.b.BootstrapChecksTests] [testMaxFileSizeCheck] before test
+[2020-02-16T23:20:28,450][INFO ][o.e.b.BootstrapChecks    ] [testMaxFileSizeCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,451][INFO ][o.e.b.BootstrapChecks    ] [testMaxFileSizeCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,451][INFO ][o.e.b.BootstrapChecks    ] [testMaxFileSizeCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,451][INFO ][o.e.b.BootstrapChecksTests] [testMaxFileSizeCheck] after test
+[2020-02-16T23:20:28,454][INFO ][o.e.b.BootstrapChecksTests] [testEnforceLimitsWhenPublishingToNonLocalAddress] before test
+[2020-02-16T23:20:28,455][INFO ][o.e.b.BootstrapChecksTests] [testEnforceLimitsWhenPublishingToNonLocalAddress] after test
+[2020-02-16T23:20:28,458][INFO ][o.e.b.BootstrapChecksTests] [testMlockallCheck] before test
+[2020-02-16T23:20:28,462][INFO ][o.e.b.BootstrapChecks    ] [testMlockallCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,464][INFO ][o.e.b.BootstrapChecks    ] [testMlockallCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,466][INFO ][o.e.b.BootstrapChecks    ] [testMlockallCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,468][INFO ][o.e.b.BootstrapChecks    ] [testMlockallCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,468][INFO ][o.e.b.BootstrapChecksTests] [testMlockallCheck] after test
+[2020-02-16T23:20:28,473][INFO ][o.e.b.BootstrapChecksTests] [testDiscoveryConfiguredCheck] before test
+[2020-02-16T23:20:28,475][WARN ][o.e.b.BootstrapChecks    ] [testDiscoveryConfiguredCheck] the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
+[2020-02-16T23:20:28,477][INFO ][o.e.b.BootstrapChecks    ] [testDiscoveryConfiguredCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,477][INFO ][o.e.b.BootstrapChecks    ] [testDiscoveryConfiguredCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,480][INFO ][o.e.b.BootstrapChecks    ] [testDiscoveryConfiguredCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,482][INFO ][o.e.b.BootstrapChecks    ] [testDiscoveryConfiguredCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,484][INFO ][o.e.b.BootstrapChecks    ] [testDiscoveryConfiguredCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,486][INFO ][o.e.b.BootstrapChecks    ] [testDiscoveryConfiguredCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,489][INFO ][o.e.b.BootstrapChecks    ] [testDiscoveryConfiguredCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,489][INFO ][o.e.b.BootstrapChecksTests] [testDiscoveryConfiguredCheck] after test
+[2020-02-16T23:20:28,493][INFO ][o.e.b.BootstrapChecksTests] [testAlwaysEnforcedChecks] before test
+[2020-02-16T23:20:28,494][INFO ][o.e.b.BootstrapChecks    ] [testAlwaysEnforcedChecks] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,494][INFO ][o.e.b.BootstrapChecksTests] [testAlwaysEnforcedChecks] after test
+[2020-02-16T23:20:28,499][INFO ][o.e.b.BootstrapChecksTests] [testFileDescriptorLimitsThrowsOnInvalidLimit] before test
+[2020-02-16T23:20:28,499][INFO ][o.e.b.BootstrapChecksTests] [testFileDescriptorLimitsThrowsOnInvalidLimit] after test
+[2020-02-16T23:20:28,505][INFO ][o.e.b.BootstrapChecksTests] [testEarlyAccessCheck] before test
+[2020-02-16T23:20:28,505][INFO ][o.e.b.BootstrapChecks    ] [testEarlyAccessCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,506][INFO ][o.e.b.BootstrapChecks    ] [testEarlyAccessCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,506][INFO ][o.e.b.BootstrapChecksTests] [testEarlyAccessCheck] after test
+[2020-02-16T23:20:28,510][INFO ][o.e.b.BootstrapChecksTests] [testUseSerialGCCheck] before test
+[2020-02-16T23:20:28,511][INFO ][o.e.b.BootstrapChecks    ] [testUseSerialGCCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,511][INFO ][o.e.b.BootstrapChecks    ] [testUseSerialGCCheck] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,511][INFO ][o.e.b.BootstrapChecksTests] [testUseSerialGCCheck] after test
+[2020-02-16T23:20:28,516][INFO ][o.e.b.BootstrapChecksTests] [testFileDescriptorLimits] before test
+[2020-02-16T23:20:28,517][INFO ][o.e.b.BootstrapChecks    ] [testFileDescriptorLimits] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,517][INFO ][o.e.b.BootstrapChecks    ] [testFileDescriptorLimits] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,517][INFO ][o.e.b.BootstrapChecks    ] [testFileDescriptorLimits] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,517][INFO ][o.e.b.BootstrapChecksTests] [testFileDescriptorLimits] after test
+[2020-02-16T23:20:28,523][INFO ][o.e.b.BootstrapChecksTests] [testNoLogMessageInNonProductionMode] before test
+[2020-02-16T23:20:28,523][INFO ][o.e.b.BootstrapChecksTests] [testNoLogMessageInNonProductionMode] after test
+[2020-02-16T23:20:28,528][INFO ][o.e.b.BootstrapChecksTests] [testMaxSizeVirtualMemory] before test
+[2020-02-16T23:20:28,528][INFO ][o.e.b.BootstrapChecks    ] [testMaxSizeVirtualMemory] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,529][INFO ][o.e.b.BootstrapChecks    ] [testMaxSizeVirtualMemory] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,529][INFO ][o.e.b.BootstrapChecks    ] [testMaxSizeVirtualMemory] bound or publishing to a non-loopback address, enforcing bootstrap checks
+[2020-02-16T23:20:28,529][INFO ][o.e.b.BootstrapChecksTests] [testMaxSizeVirtualMemory] after test
+[2020-02-16T23:20:28,533][INFO ][o.e.b.BootstrapChecksTests] [testEnforceLimitsWhenBoundToNonLocalAddress] before test
+[2020-02-16T23:20:28,534][INFO ][o.e.b.BootstrapChecksTests] [testEnforceLimitsWhenBoundToNonLocalAddress] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

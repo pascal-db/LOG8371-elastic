@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.DanglingIndicesStateTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:24" hostname="Escoto-PC" time="0.198">
+  <properties/>
+  <testcase name="testDanglingIndicesStripAliases" classname="org.elasticsearch.gateway.DanglingIndicesStateTests" time="0.021"/>
+  <testcase name="testDanglingProcessing" classname="org.elasticsearch.gateway.DanglingIndicesStateTests" time="0.037"/>
+  <testcase name="testDanglingIndicesNotImportedWhenTombstonePresent" classname="org.elasticsearch.gateway.DanglingIndicesStateTests" time="0.031"/>
+  <testcase name="testCleanupWhenEmpty" classname="org.elasticsearch.gateway.DanglingIndicesStateTests" time="0.022"/>
+  <testcase name="testDanglingIndicesDiscovery" classname="org.elasticsearch.gateway.DanglingIndicesStateTests" time="0.038"/>
+  <testcase name="testInvalidIndexFolder" classname="org.elasticsearch.gateway.DanglingIndicesStateTests" time="0.049"/>
+  <system-out><![CDATA[[2020-02-16T15:22:24,751][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesStripAliases] before test
+[2020-02-16T15:22:24,761][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesStripAliases] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,761][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesStripAliases] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,770][INFO ][o.e.g.DanglingIndicesState] [testDanglingIndicesStripAliases] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,770][INFO ][o.e.g.DanglingIndicesState] [testDanglingIndicesStripAliases] [[test1/test1UUID]] stripping aliases: [test_aliasd] from index before importing
+[2020-02-16T15:22:24,771][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesStripAliases] after test
+[2020-02-16T15:22:24,773][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingProcessing] before test
+[2020-02-16T15:22:24,782][INFO ][o.e.e.NodeEnvironment    ] [testDanglingProcessing] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,782][INFO ][o.e.e.NodeEnvironment    ] [testDanglingProcessing] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,790][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,794][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,797][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,800][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,802][INFO ][o.e.g.DanglingIndicesState] [testDanglingProcessing] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,808][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingProcessing] after test
+[2020-02-16T15:22:24,822][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesNotImportedWhenTombstonePresent] before test
+[2020-02-16T15:22:24,830][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesNotImportedWhenTombstonePresent] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,830][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesNotImportedWhenTombstonePresent] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,838][WARN ][o.e.g.DanglingIndicesState] [testDanglingIndicesNotImportedWhenTombstonePresent] [[test1/test1UUID]] can not be imported as a dangling index, as an index with the same name and UUID exist in the index tombstones.  This situation is likely caused by copying over the data directory for an index that was previously deleted.
+[2020-02-16T15:22:24,839][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesNotImportedWhenTombstonePresent] after test
+[2020-02-16T15:22:24,840][INFO ][o.e.g.DanglingIndicesStateTests] [testCleanupWhenEmpty] before test
+[2020-02-16T15:22:24,856][INFO ][o.e.e.NodeEnvironment    ] [testCleanupWhenEmpty] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,856][INFO ][o.e.e.NodeEnvironment    ] [testCleanupWhenEmpty] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,861][INFO ][o.e.g.DanglingIndicesStateTests] [testCleanupWhenEmpty] after test
+[2020-02-16T15:22:24,863][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesDiscovery] before test
+[2020-02-16T15:22:24,879][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesDiscovery] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,879][INFO ][o.e.e.NodeEnvironment    ] [testDanglingIndicesDiscovery] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,896][INFO ][o.e.g.DanglingIndicesState] [testDanglingIndicesDiscovery] [[test1/test1UUID]] dangling index exists on local file system, but not in cluster metadata, auto import to cluster state
+[2020-02-16T15:22:24,898][INFO ][o.e.g.DanglingIndicesStateTests] [testDanglingIndicesDiscovery] after test
+[2020-02-16T15:22:24,903][INFO ][o.e.g.DanglingIndicesStateTests] [testInvalidIndexFolder] before test
+[2020-02-16T15:22:24,927][INFO ][o.e.e.NodeEnvironment    ] [testInvalidIndexFolder] using [2] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T15:22:24,927][INFO ][o.e.e.NodeEnvironment    ] [testInvalidIndexFolder] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T15:22:24,948][INFO ][o.e.g.DanglingIndicesStateTests] [testInvalidIndexFolder] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

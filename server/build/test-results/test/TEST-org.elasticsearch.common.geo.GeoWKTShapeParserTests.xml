@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.GeoWKTShapeParserTests" tests="17" skipped="2" failures="0" errors="0" timestamp="2020-02-16T22:20:45" hostname="Escoto-PC" time="0.128">
+  <properties/>
+  <testcase name="testParsePolyWithStoredZ" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.024"/>
+  <testcase name="testParseOpenPolygon" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.004"/>
+  <testcase name="testParsePolygonWithHole" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.041"/>
+  <testcase name="testInvalidGeometryType" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.002"/>
+  <testcase name="testUnexpectedShapeException" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.002"/>
+  <testcase name="testParseMixedDimensionPolyWithHole" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.003"/>
+  <testcase name="testParsePolygon" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.006"/>
+  <testcase name="testParseMixedDimensionPolyWithHoleStoredZ" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.002"/>
+  <testcase name="testParseMultiLineString" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testMalformedWKT" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.001"/>
+  <testcase name="testParseSelfCrossingPolygon" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.005"/>
+  <testcase name="testParseLineString" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.015"/>
+  <testcase name="testParseMultiPolygon" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testParseMultiPoint" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.004"/>
+  <testcase name="testParsePoint" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.002"/>
+  <testcase name="testParseEnvelope" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.005"/>
+  <testcase name="testParseGeometryCollection" classname="org.elasticsearch.common.geo.GeoWKTShapeParserTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T23:20:45,344][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParsePolyWithStoredZ] before test
+[2020-02-16T23:20:45,367][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParsePolyWithStoredZ] after test
+[2020-02-16T23:20:45,370][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseOpenPolygon] before test
+[2020-02-16T23:20:45,371][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseOpenPolygon] after test
+[2020-02-16T23:20:45,375][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParsePolygonWithHole] before test
+[2020-02-16T23:20:45,412][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParsePolygonWithHole] after test
+[2020-02-16T23:20:45,414][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testInvalidGeometryType] before test
+[2020-02-16T23:20:45,414][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testInvalidGeometryType] after test
+[2020-02-16T23:20:45,416][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testUnexpectedShapeException] before test
+[2020-02-16T23:20:45,416][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testUnexpectedShapeException] after test
+[2020-02-16T23:20:45,418][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMixedDimensionPolyWithHole] before test
+[2020-02-16T23:20:45,420][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMixedDimensionPolyWithHole] after test
+[2020-02-16T23:20:45,423][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParsePolygon] before test
+[2020-02-16T23:20:45,426][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParsePolygon] after test
+[2020-02-16T23:20:45,427][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMixedDimensionPolyWithHoleStoredZ] before test
+[2020-02-16T23:20:45,428][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMixedDimensionPolyWithHoleStoredZ] after test
+[2020-02-16T23:20:45,429][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMultiLineString] before test
+[2020-02-16T23:20:45,430][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMultiLineString] after test
+[2020-02-16T23:20:45,432][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testMalformedWKT] before test
+[2020-02-16T23:20:45,432][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testMalformedWKT] after test
+[2020-02-16T23:20:45,435][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseSelfCrossingPolygon] before test
+[2020-02-16T23:20:45,437][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseSelfCrossingPolygon] after test
+[2020-02-16T23:20:45,445][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseLineString] before test
+[2020-02-16T23:20:45,452][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseLineString] after test
+[2020-02-16T23:20:45,453][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMultiPolygon] before test
+[2020-02-16T23:20:45,454][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMultiPolygon] after test
+[2020-02-16T23:20:45,456][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMultiPoint] before test
+[2020-02-16T23:20:45,458][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseMultiPoint] after test
+[2020-02-16T23:20:45,459][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParsePoint] before test
+[2020-02-16T23:20:45,459][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParsePoint] after test
+[2020-02-16T23:20:45,463][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseEnvelope] before test
+[2020-02-16T23:20:45,464][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseEnvelope] after test
+[2020-02-16T23:20:45,467][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseGeometryCollection] before test
+[2020-02-16T23:20:45,471][INFO ][o.e.c.g.GeoWKTShapeParserTests] [testParseGeometryCollection] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

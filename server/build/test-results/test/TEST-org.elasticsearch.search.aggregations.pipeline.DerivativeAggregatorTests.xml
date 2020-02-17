@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" tests="13" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:33" hostname="Escoto-PC" time="1.054">
+  <properties/>
+  <testcase name="testDocCountDerivativeWithGaps" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.031"/>
+  <testcase name="testAvgMovavgDerivNPE" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.033"/>
+  <testcase name="testUnmapped" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.007"/>
+  <testcase name="testSingleValueAggDerivativeWithGaps_insertZeros" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.026"/>
+  <testcase name="testSingleValueAggDerivative_invalidPath" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.027"/>
+  <testcase name="testMultiValueAggDerivative" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.077"/>
+  <testcase name="testDocCountDerivative" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.111"/>
+  <testcase name="testDocCountDerivativeWithGaps_random" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.266"/>
+  <testcase name="testDocCountDerivativeWithGaps_insertZeros" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.023"/>
+  <testcase name="testSingleValueAggDerivative" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.039"/>
+  <testcase name="testSingleValuedField_normalised" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.065"/>
+  <testcase name="testSingleValueAggDerivativeWithGaps" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.035"/>
+  <testcase name="testSingleValueAggDerivativeWithGaps_random" classname="org.elasticsearch.search.aggregations.pipeline.DerivativeAggregatorTests" time="0.312"/>
+  <system-out><![CDATA[[2020-02-16T14:25:33,480][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testDocCountDerivativeWithGaps] before test
+[2020-02-16T14:25:33,508][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testDocCountDerivativeWithGaps] after test
+[2020-02-16T14:25:33,511][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testAvgMovavgDerivNPE] before test
+[2020-02-16T14:25:33,541][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testAvgMovavgDerivNPE] after test
+[2020-02-16T14:25:33,543][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testUnmapped] before test
+[2020-02-16T14:25:33,548][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testUnmapped] after test
+[2020-02-16T14:25:33,550][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivativeWithGaps_insertZeros] before test
+[2020-02-16T14:25:33,574][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivativeWithGaps_insertZeros] after test
+[2020-02-16T14:25:33,575][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivative_invalidPath] before test
+[2020-02-16T14:25:33,601][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivative_invalidPath] after test
+[2020-02-16T14:25:33,603][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testMultiValueAggDerivative] before test
+[2020-02-16T14:25:33,678][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testMultiValueAggDerivative] after test
+[2020-02-16T14:25:33,682][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testDocCountDerivative] before test
+[2020-02-16T14:25:33,790][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testDocCountDerivative] after test
+[2020-02-16T14:25:33,792][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testDocCountDerivativeWithGaps_random] before test
+[2020-02-16T14:25:34,055][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testDocCountDerivativeWithGaps_random] after test
+[2020-02-16T14:25:34,057][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testDocCountDerivativeWithGaps_insertZeros] before test
+[2020-02-16T14:25:34,079][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testDocCountDerivativeWithGaps_insertZeros] after test
+[2020-02-16T14:25:34,080][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivative] before test
+[2020-02-16T14:25:34,118][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivative] after test
+[2020-02-16T14:25:34,119][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValuedField_normalised] before test
+[2020-02-16T14:25:34,183][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValuedField_normalised] after test
+[2020-02-16T14:25:34,188][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivativeWithGaps] before test
+[2020-02-16T14:25:34,219][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivativeWithGaps] after test
+[2020-02-16T14:25:34,221][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivativeWithGaps_random] before test
+[2020-02-16T14:25:34,531][INFO ][o.e.s.a.p.DerivativeAggregatorTests] [testSingleValueAggDerivativeWithGaps_random] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

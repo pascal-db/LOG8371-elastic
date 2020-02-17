@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.XContentParserTests" tests="18" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:49" hostname="Escoto-PC" time="0.274">
+  <properties/>
+  <testcase name="testGenericMap_Failure_MapContainingUnparsableValue" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.037"/>
+  <testcase name="testNestedMapInList" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.004"/>
+  <testcase name="testReadList" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.005"/>
+  <testcase name="testGenericMap" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.004"/>
+  <testcase name="testSubParserArray" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.019"/>
+  <testcase name="testCreateSubParserAtAWrongPlace" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.013"/>
+  <testcase name="testMap" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.01"/>
+  <testcase name="testEmptyList" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.003"/>
+  <testcase name="testFloat" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.038"/>
+  <testcase name="testSimpleList" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.004"/>
+  <testcase name="testNestedList" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.002"/>
+  <testcase name="testReadBooleans" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.003"/>
+  <testcase name="testGenericMapOrdered" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.042"/>
+  <testcase name="testSubParserObject" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.03"/>
+  <testcase name="testCreateRootSubParser" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.009"/>
+  <testcase name="testReadBooleansFailsForLenientBooleans" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.02"/>
+  <testcase name="testReadMapStrings" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.011"/>
+  <testcase name="testReadListThrowsException" classname="org.elasticsearch.common.xcontent.XContentParserTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T07:50:49,787][INFO ][o.e.c.x.XContentParserTests] [testGenericMap_Failure_MapContainingUnparsableValue] before test
+[2020-02-17T07:50:49,799][INFO ][o.e.c.x.XContentParserTests] [testGenericMap_Failure_MapContainingUnparsableValue] after test
+[2020-02-17T07:50:49,802][INFO ][o.e.c.x.XContentParserTests] [testNestedMapInList] before test
+[2020-02-17T07:50:49,803][INFO ][o.e.c.x.XContentParserTests] [testNestedMapInList] after test
+[2020-02-17T07:50:49,806][INFO ][o.e.c.x.XContentParserTests] [testReadList] before test
+[2020-02-17T07:50:49,808][INFO ][o.e.c.x.XContentParserTests] [testReadList] after test
+[2020-02-17T07:50:49,811][INFO ][o.e.c.x.XContentParserTests] [testGenericMap] before test
+[2020-02-17T07:50:49,812][INFO ][o.e.c.x.XContentParserTests] [testGenericMap] after test
+[2020-02-17T07:50:49,827][INFO ][o.e.c.x.XContentParserTests] [testSubParserArray] before test
+[2020-02-17T07:50:49,836][INFO ][o.e.c.x.XContentParserTests] [testSubParserArray] after test
+[2020-02-17T07:50:49,846][INFO ][o.e.c.x.XContentParserTests] [testCreateSubParserAtAWrongPlace] before test
+[2020-02-17T07:50:49,848][INFO ][o.e.c.x.XContentParserTests] [testCreateSubParserAtAWrongPlace] after test
+[2020-02-17T07:50:49,857][INFO ][o.e.c.x.XContentParserTests] [testMap] before test
+[2020-02-17T07:50:49,858][INFO ][o.e.c.x.XContentParserTests] [testMap] after test
+[2020-02-17T07:50:49,861][INFO ][o.e.c.x.XContentParserTests] [testEmptyList] before test
+[2020-02-17T07:50:49,862][INFO ][o.e.c.x.XContentParserTests] [testEmptyList] after test
+[2020-02-17T07:50:49,873][INFO ][o.e.c.x.XContentParserTests] [testFloat] before test
+[2020-02-17T07:50:49,901][INFO ][o.e.c.x.XContentParserTests] [testFloat] after test
+[2020-02-17T07:50:49,906][INFO ][o.e.c.x.XContentParserTests] [testSimpleList] before test
+[2020-02-17T07:50:49,907][INFO ][o.e.c.x.XContentParserTests] [testSimpleList] after test
+[2020-02-17T07:50:49,909][INFO ][o.e.c.x.XContentParserTests] [testNestedList] before test
+[2020-02-17T07:50:49,909][INFO ][o.e.c.x.XContentParserTests] [testNestedList] after test
+[2020-02-17T07:50:49,912][INFO ][o.e.c.x.XContentParserTests] [testReadBooleans] before test
+[2020-02-17T07:50:49,913][INFO ][o.e.c.x.XContentParserTests] [testReadBooleans] after test
+[2020-02-17T07:50:49,923][INFO ][o.e.c.x.XContentParserTests] [testGenericMapOrdered] before test
+[2020-02-17T07:50:49,955][INFO ][o.e.c.x.XContentParserTests] [testGenericMapOrdered] after test
+[2020-02-17T07:50:49,979][INFO ][o.e.c.x.XContentParserTests] [testSubParserObject] before test
+[2020-02-17T07:50:49,986][INFO ][o.e.c.x.XContentParserTests] [testSubParserObject] after test
+[2020-02-17T07:50:49,995][INFO ][o.e.c.x.XContentParserTests] [testCreateRootSubParser] before test
+[2020-02-17T07:50:49,996][INFO ][o.e.c.x.XContentParserTests] [testCreateRootSubParser] after test
+[2020-02-17T07:50:49,998][INFO ][o.e.c.x.XContentParserTests] [testReadBooleansFailsForLenientBooleans] before test
+[2020-02-17T07:50:50,012][INFO ][o.e.c.x.XContentParserTests] [testReadBooleansFailsForLenientBooleans] after test
+[2020-02-17T07:50:50,031][INFO ][o.e.c.x.XContentParserTests] [testReadMapStrings] before test
+[2020-02-17T07:50:50,031][INFO ][o.e.c.x.XContentParserTests] [testReadMapStrings] after test
+[2020-02-17T07:50:50,036][INFO ][o.e.c.x.XContentParserTests] [testReadListThrowsException] before test
+[2020-02-17T07:50:50,037][INFO ][o.e.c.x.XContentParserTests] [testReadListThrowsException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

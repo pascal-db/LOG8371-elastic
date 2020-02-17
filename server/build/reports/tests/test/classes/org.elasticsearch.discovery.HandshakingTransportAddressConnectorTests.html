@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.discovery.html">org.elasticsearch.discovery</a> &gt; HandshakingTransportAddressConnectorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.121s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testConnectsToMasterNode</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotConnectToDifferentCluster</td>
+<td class="success">0.013s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotConnectToLocalNode</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoesNotConnectToNonMasterNode</td>
+<td class="success">0.088s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandshakeTimesOut</td>
+<td class="success">1.013s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T05:20:57,561][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToDifferentCluster] before test
+[2020-02-17T05:20:57,567][WARN ][o.e.d.HandshakingTransportAddressConnector] [node] handshake failed for [connectToRemoteMasterNode[0.0.0.0:2]]
+java.lang.IllegalStateException: handshake with [{0.0.0.0:2}{7p_rRwAAQACe51BhAAAAAA}{0.0.0.0}{0.0.0.0:2}] failed: remote cluster name [another-cluster] does not match local cluster name [local-cluster]
+	at org.elasticsearch.transport.TransportService$5.onResponse(TransportService.java:461) [main/:?]
+	at org.elasticsearch.transport.TransportService$5.onResponse(TransportService.java:456) [main/:?]
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleResponse(ActionListenerResponseHandler.java:54) [main/:?]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleResponse(TransportService.java:1110) [main/:?]
+	at org.elasticsearch.test.transport.MockTransport.handleResponse(MockTransport.java:106) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.discovery.HandshakingTransportAddressConnectorTests$1.onSendRequest(HandshakingTransportAddressConnectorTests.java:79) [test/:?]
+	at org.elasticsearch.test.transport.MockTransport$1.sendRequest(MockTransport.java:181) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TransportService.sendRequestInternal(TransportService.java:692) [main/:?]
+	at org.elasticsearch.transport.TransportService.sendRequest(TransportService.java:602) [main/:?]
+	at org.elasticsearch.transport.TransportService.handshake(TransportService.java:453) [main/:?]
+	at org.elasticsearch.transport.TransportService.handshake(TransportService.java:431) [main/:?]
+	at org.elasticsearch.discovery.HandshakingTransportAddressConnector$1$1.onResponse(HandshakingTransportAddressConnector.java:94) [main/:?]
+	at org.elasticsearch.discovery.HandshakingTransportAddressConnector$1$1.onResponse(HandshakingTransportAddressConnector.java:87) [main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$map$2(ActionListener.java:146) [main/:?]
+	at org.elasticsearch.action.ActionListener$1.onResponse(ActionListener.java:63) [main/:?]
+	at org.elasticsearch.test.transport.MockTransport.openConnection(MockTransport.java:167) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) [main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) [main/:?]
+	at org.elasticsearch.test.transport.StubbableConnectionManager.openConnection(StubbableConnectionManager.java:74) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.TransportService.openConnection(TransportService.java:410) [main/:?]
+	at org.elasticsearch.discovery.HandshakingTransportAddressConnector$1.doRun(HandshakingTransportAddressConnector.java:85) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T05:20:57,568][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToDifferentCluster] after test
+[2020-02-17T05:20:57,571][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToNonMasterNode] before test
+[2020-02-17T05:20:57,656][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToNonMasterNode] after test
+[2020-02-17T05:20:57,658][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testHandshakeTimesOut] before test
+[2020-02-17T05:20:58,668][WARN ][o.e.d.HandshakingTransportAddressConnector] [node] handshake failed for [connectToRemoteMasterNode[0.0.0.0:6]]
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][0.0.0.0:6][internal:transport/handshake] request_id [1] timed out after [811ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1022) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T05:20:58,669][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testHandshakeTimesOut] after test
+[2020-02-17T05:20:58,671][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testConnectsToMasterNode] before test
+[2020-02-17T05:20:58,674][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testConnectsToMasterNode] after test
+[2020-02-17T05:20:58,675][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToLocalNode] before test
+[2020-02-17T05:20:58,677][INFO ][o.e.d.HandshakingTransportAddressConnectorTests] [testDoesNotConnectToLocalNode] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

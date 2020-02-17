@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.FeatureAwareTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:32" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testMissingFeature" classname="org.elasticsearch.cluster.FeatureAwareTests" time="0.004"/>
+  <testcase name="testFeature" classname="org.elasticsearch.cluster.FeatureAwareTests" time="0.003"/>
+  <testcase name="testVersion" classname="org.elasticsearch.cluster.FeatureAwareTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T14:21:32,723][INFO ][o.e.c.FeatureAwareTests  ] [testMissingFeature] before test
+[2020-02-16T14:21:32,725][INFO ][o.e.c.FeatureAwareTests  ] [testMissingFeature] after test
+[2020-02-16T14:21:32,728][INFO ][o.e.c.FeatureAwareTests  ] [testFeature] before test
+[2020-02-16T14:21:32,728][INFO ][o.e.c.FeatureAwareTests  ] [testFeature] after test
+[2020-02-16T14:21:32,730][INFO ][o.e.c.FeatureAwareTests  ] [testVersion] before test
+[2020-02-16T14:21:32,731][INFO ][o.e.c.FeatureAwareTests  ] [testVersion] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

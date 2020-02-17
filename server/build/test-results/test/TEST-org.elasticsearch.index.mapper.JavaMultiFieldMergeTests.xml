@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.JavaMultiFieldMergeTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:16" hostname="Escoto-PC" time="1.362">
+  <properties/>
+  <testcase name="testMergeMultiField" classname="org.elasticsearch.index.mapper.JavaMultiFieldMergeTests" time="1.213"/>
+  <testcase name="testUpgradeFromMultiFieldTypeToMultiFields" classname="org.elasticsearch.index.mapper.JavaMultiFieldMergeTests" time="0.149"/>
+  <system-out><![CDATA[[2020-02-17T00:23:16,051][INFO ][o.e.e.NodeEnvironment    ] [testMergeMultiField] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T00:23:16,054][INFO ][o.e.e.NodeEnvironment    ] [testMergeMultiField] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T00:23:16,056][INFO ][o.e.n.Node               ] [testMergeMultiField] node name [node_s_0], node ID [KBPVYk-WQDSSvVhHPVhnxg], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[-8129043248989322055]-HASH=[14A329C1C1C]]
+[2020-02-17T00:23:16,056][INFO ][o.e.n.Node               ] [testMergeMultiField] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T00:23:16,056][INFO ][o.e.n.Node               ] [testMergeMultiField] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T00:23:16,056][INFO ][o.e.n.Node               ] [testMergeMultiField] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T00:23:16,057][INFO ][o.e.p.PluginsService     ] [testMergeMultiField] no modules loaded
+[2020-02-17T00:23:16,057][INFO ][o.e.p.PluginsService     ] [testMergeMultiField] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T00:23:16,057][INFO ][o.e.p.PluginsService     ] [testMergeMultiField] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T00:23:16,312][INFO ][o.e.d.DiscoveryModule    ] [testMergeMultiField] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T00:23:16,322][INFO ][o.e.n.Node               ] [testMergeMultiField] initialized
+[2020-02-17T00:23:16,322][INFO ][o.e.n.Node               ] [testMergeMultiField] starting ...
+[2020-02-17T00:23:17,025][INFO ][o.e.t.TransportService   ] [testMergeMultiField] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T00:23:17,034][INFO ][o.e.c.c.Coordinator      ] [testMergeMultiField] setting initial configuration to VotingConfiguration{KBPVYk-WQDSSvVhHPVhnxg}
+[2020-02-17T00:23:17,094][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{KBPVYk-WQDSSvVhHPVhnxg}{1hJutPMsTdiXO_qHPytVng}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{KBPVYk-WQDSSvVhHPVhnxg}{1hJutPMsTdiXO_qHPytVng}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T00:23:17,102][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [QyDCpUeFTiy-W3WlP5UDGA]
+[2020-02-17T00:23:17,109][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{KBPVYk-WQDSSvVhHPVhnxg}{1hJutPMsTdiXO_qHPytVng}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T00:23:17,110][INFO ][o.e.n.Node               ] [testMergeMultiField] started
+[2020-02-17T00:23:17,116][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T00:23:17,117][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T00:23:17,128][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T00:23:17,137][INFO ][o.e.i.m.JavaMultiFieldMergeTests] [testMergeMultiField] before test
+[2020-02-17T00:23:17,140][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T00:23:17,196][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:23:17,215][INFO ][o.e.i.m.JavaMultiFieldMergeTests] [testMergeMultiField] after test
+[2020-02-17T00:23:17,218][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/0lWGJZ5BSluL1Jyjd9zxhw] deleting index
+[2020-02-17T00:23:17,255][INFO ][o.e.i.m.JavaMultiFieldMergeTests] [testUpgradeFromMultiFieldTypeToMultiFields] before test
+[2020-02-17T00:23:17,257][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T00:23:17,352][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T00:23:17,370][INFO ][o.e.i.m.JavaMultiFieldMergeTests] [testUpgradeFromMultiFieldTypeToMultiFields] after test
+[2020-02-17T00:23:17,370][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/AHBbKz7lS9mUrQNP5y-6NA] deleting index
+[2020-02-17T00:23:17,397][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T00:23:17,402][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T00:23:17,402][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T00:23:17,402][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

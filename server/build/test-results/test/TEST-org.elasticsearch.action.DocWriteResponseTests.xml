@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.DocWriteResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:17" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testToXContentDoesntIncludeForcedRefreshUnlessForced" classname="org.elasticsearch.action.DocWriteResponseTests" time="0.003"/>
+  <testcase name="testGetLocation" classname="org.elasticsearch.action.DocWriteResponseTests" time="0.003"/>
+  <testcase name="testGetLocationNonAscii" classname="org.elasticsearch.action.DocWriteResponseTests" time="0.004"/>
+  <testcase name="testGetLocationWithSpaces" classname="org.elasticsearch.action.DocWriteResponseTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:20:17,946][INFO ][o.e.a.DocWriteResponseTests] [testToXContentDoesntIncludeForcedRefreshUnlessForced] before test
+[2020-02-16T22:20:17,946][INFO ][o.e.a.DocWriteResponseTests] [testToXContentDoesntIncludeForcedRefreshUnlessForced] after test
+[2020-02-16T22:20:17,949][INFO ][o.e.a.DocWriteResponseTests] [testGetLocation] before test
+[2020-02-16T22:20:17,949][INFO ][o.e.a.DocWriteResponseTests] [testGetLocation] after test
+[2020-02-16T22:20:17,952][INFO ][o.e.a.DocWriteResponseTests] [testGetLocationNonAscii] before test
+[2020-02-16T22:20:17,953][INFO ][o.e.a.DocWriteResponseTests] [testGetLocationNonAscii] after test
+[2020-02-16T22:20:17,955][INFO ][o.e.a.DocWriteResponseTests] [testGetLocationWithSpaces] before test
+[2020-02-16T22:20:17,955][INFO ][o.e.a.DocWriteResponseTests] [testGetLocationWithSpaces] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

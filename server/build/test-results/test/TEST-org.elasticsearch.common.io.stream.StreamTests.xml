@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.io.stream.StreamTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:44" hostname="Escoto-PC" time="0.151">
+  <properties/>
+  <testcase name="testSecureStringSerialization" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.005"/>
+  <testcase name="testLinkedHashMap" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.009"/>
+  <testcase name="testOptionalInstantSerialization" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.011"/>
+  <testcase name="testWritableArrays" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.004"/>
+  <testcase name="testArrays" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.013"/>
+  <testcase name="testSpecificVLongSerialization" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.001"/>
+  <testcase name="testOptionalBooleanSerialization" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.003"/>
+  <testcase name="testSetOfLongs" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.019"/>
+  <testcase name="testCollection" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.003"/>
+  <testcase name="testFilterStreamInputDelegatesAvailable" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.004"/>
+  <testcase name="testInstantSerialization" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.004"/>
+  <testcase name="testRandomVLongSerialization" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.004"/>
+  <testcase name="testStringCollection" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.002"/>
+  <testcase name="testInputStreamStreamInputDelegatesAvailable" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.002"/>
+  <testcase name="testBooleanSerialization" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.007"/>
+  <testcase name="testReadArraySize" classname="org.elasticsearch.common.io.stream.StreamTests" time="0.06"/>
+  <system-out><![CDATA[[2020-02-16T18:21:44,445][INFO ][o.e.c.i.s.StreamTests    ] [testSecureStringSerialization] before test
+[2020-02-16T18:21:44,447][INFO ][o.e.c.i.s.StreamTests    ] [testSecureStringSerialization] after test
+[2020-02-16T18:21:44,456][INFO ][o.e.c.i.s.StreamTests    ] [testLinkedHashMap] before test
+[2020-02-16T18:21:44,457][INFO ][o.e.c.i.s.StreamTests    ] [testLinkedHashMap] after test
+[2020-02-16T18:21:44,467][INFO ][o.e.c.i.s.StreamTests    ] [testOptionalInstantSerialization] before test
+[2020-02-16T18:21:44,467][INFO ][o.e.c.i.s.StreamTests    ] [testOptionalInstantSerialization] after test
+[2020-02-16T18:21:44,471][INFO ][o.e.c.i.s.StreamTests    ] [testWritableArrays] before test
+[2020-02-16T18:21:44,472][INFO ][o.e.c.i.s.StreamTests    ] [testWritableArrays] after test
+[2020-02-16T18:21:44,484][INFO ][o.e.c.i.s.StreamTests    ] [testArrays] before test
+[2020-02-16T18:21:44,484][INFO ][o.e.c.i.s.StreamTests    ] [testArrays] after test
+[2020-02-16T18:21:44,486][INFO ][o.e.c.i.s.StreamTests    ] [testSpecificVLongSerialization] before test
+[2020-02-16T18:21:44,486][INFO ][o.e.c.i.s.StreamTests    ] [testSpecificVLongSerialization] after test
+[2020-02-16T18:21:44,488][INFO ][o.e.c.i.s.StreamTests    ] [testOptionalBooleanSerialization] before test
+[2020-02-16T18:21:44,489][INFO ][o.e.c.i.s.StreamTests    ] [testOptionalBooleanSerialization] after test
+[2020-02-16T18:21:44,506][INFO ][o.e.c.i.s.StreamTests    ] [testSetOfLongs] before test
+[2020-02-16T18:21:44,507][INFO ][o.e.c.i.s.StreamTests    ] [testSetOfLongs] after test
+[2020-02-16T18:21:44,509][INFO ][o.e.c.i.s.StreamTests    ] [testCollection] before test
+[2020-02-16T18:21:44,510][INFO ][o.e.c.i.s.StreamTests    ] [testCollection] after test
+[2020-02-16T18:21:44,514][INFO ][o.e.c.i.s.StreamTests    ] [testFilterStreamInputDelegatesAvailable] before test
+[2020-02-16T18:21:44,514][INFO ][o.e.c.i.s.StreamTests    ] [testFilterStreamInputDelegatesAvailable] after test
+[2020-02-16T18:21:44,519][INFO ][o.e.c.i.s.StreamTests    ] [testInstantSerialization] before test
+[2020-02-16T18:21:44,519][INFO ][o.e.c.i.s.StreamTests    ] [testInstantSerialization] after test
+[2020-02-16T18:21:44,522][INFO ][o.e.c.i.s.StreamTests    ] [testRandomVLongSerialization] before test
+[2020-02-16T18:21:44,522][INFO ][o.e.c.i.s.StreamTests    ] [testRandomVLongSerialization] after test
+[2020-02-16T18:21:44,524][INFO ][o.e.c.i.s.StreamTests    ] [testStringCollection] before test
+[2020-02-16T18:21:44,525][INFO ][o.e.c.i.s.StreamTests    ] [testStringCollection] after test
+[2020-02-16T18:21:44,526][INFO ][o.e.c.i.s.StreamTests    ] [testInputStreamStreamInputDelegatesAvailable] before test
+[2020-02-16T18:21:44,526][INFO ][o.e.c.i.s.StreamTests    ] [testInputStreamStreamInputDelegatesAvailable] after test
+[2020-02-16T18:21:44,533][INFO ][o.e.c.i.s.StreamTests    ] [testBooleanSerialization] before test
+[2020-02-16T18:21:44,533][INFO ][o.e.c.i.s.StreamTests    ] [testBooleanSerialization] after test
+[2020-02-16T18:21:44,593][INFO ][o.e.c.i.s.StreamTests    ] [testReadArraySize] before test
+[2020-02-16T18:21:44,593][INFO ][o.e.c.i.s.StreamTests    ] [testReadArraySize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.rest.yaml.section.SetSectionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:54" hostname="Escoto-PC" time="0.028">
+  <properties/>
+  <testcase name="testParseSetSectionSingleValue" classname="org.elasticsearch.test.rest.yaml.section.SetSectionTests" time="0.011"/>
+  <testcase name="testParseSetSectionMultipleValues" classname="org.elasticsearch.test.rest.yaml.section.SetSectionTests" time="0.014"/>
+  <testcase name="testParseSetSectionNoValues" classname="org.elasticsearch.test.rest.yaml.section.SetSectionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:48:54,552][INFO ][o.e.t.r.y.s.SetSectionTests] [testParseSetSectionSingleValue] before test
+[2020-02-17T05:48:54,554][INFO ][o.e.t.r.y.s.SetSectionTests] [testParseSetSectionSingleValue] after test
+[2020-02-17T05:48:54,567][INFO ][o.e.t.r.y.s.SetSectionTests] [testParseSetSectionMultipleValues] before test
+[2020-02-17T05:48:54,568][INFO ][o.e.t.r.y.s.SetSectionTests] [testParseSetSectionMultipleValues] after test
+[2020-02-17T05:48:54,569][INFO ][o.e.t.r.y.s.SetSectionTests] [testParseSetSectionNoValues] before test
+[2020-02-17T05:48:54,570][INFO ][o.e.t.r.y.s.SetSectionTests] [testParseSetSectionNoValues] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

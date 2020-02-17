@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.monitor.fs.FsProbeTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testIoStats" classname="org.elasticsearch.monitor.fs.FsProbeTests" time="0.004"/>
+  <testcase name="testAdjustForHugeFilesystems" classname="org.elasticsearch.monitor.fs.FsProbeTests" time="0.004"/>
+  <testcase name="testFsInfo" classname="org.elasticsearch.monitor.fs.FsProbeTests" time="0.014"/>
+  <testcase name="testFsInfoOverflow" classname="org.elasticsearch.monitor.fs.FsProbeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:24:59,405][INFO ][o.e.m.f.FsProbeTests     ] [testIoStats] before test
+[2020-02-16T22:24:59,406][INFO ][o.e.m.f.FsProbeTests     ] [testIoStats] after test
+[2020-02-16T22:24:59,409][INFO ][o.e.m.f.FsProbeTests     ] [testAdjustForHugeFilesystems] before test
+[2020-02-16T22:24:59,411][INFO ][o.e.m.f.FsProbeTests     ] [testAdjustForHugeFilesystems] after test
+[2020-02-16T22:24:59,412][INFO ][o.e.m.f.FsProbeTests     ] [testFsInfo] before test
+[2020-02-16T22:24:59,422][INFO ][o.e.e.NodeEnvironment    ] [testFsInfo] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T22:24:59,422][INFO ][o.e.e.NodeEnvironment    ] [testFsInfo] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T22:24:59,425][INFO ][o.e.m.f.FsProbeTests     ] [testFsInfo] after test
+[2020-02-16T22:24:59,426][INFO ][o.e.m.f.FsProbeTests     ] [testFsInfoOverflow] before test
+[2020-02-16T22:24:59,427][INFO ][o.e.m.f.FsProbeTests     ] [testFsInfoOverflow] --> adding 1289109249592991554 bytes to 1360256653827611330, total will be: 2649365903420602884
+[2020-02-16T22:24:59,427][INFO ][o.e.m.f.FsProbeTests     ] [testFsInfoOverflow] --> adding 6741718077496178748 bytes to 2649365903420602884, total will be: -9055660092792769984
+[2020-02-16T22:24:59,427][INFO ][o.e.m.f.FsProbeTests     ] [testFsInfoOverflow] --> adding 7583934171755929676 bytes to 3078891872959811091, free will be: -7783918028993810849
+[2020-02-16T22:24:59,427][INFO ][o.e.m.f.FsProbeTests     ] [testFsInfoOverflow] --> adding 2948661763484671504 bytes to 9025073262999781789, available will be: -6473009047225098323
+[2020-02-16T22:24:59,427][INFO ][o.e.m.f.FsProbeTests     ] [testFsInfoOverflow] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

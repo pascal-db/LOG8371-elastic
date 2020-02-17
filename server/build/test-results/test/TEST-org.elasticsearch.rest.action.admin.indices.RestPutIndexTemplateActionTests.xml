@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.admin.indices.RestPutIndexTemplateActionTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.003">
+  <properties/>
+  <testcase name="testIncludeTypeName" classname="org.elasticsearch.rest.action.admin.indices.RestPutIndexTemplateActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T03:25:17,706][INFO ][o.e.r.a.a.i.RestPutIndexTemplateActionTests] [testIncludeTypeName] before test
+[2020-02-17T03:25:17,708][WARN ][o.e.d.r.a.a.i.RestPutIndexTemplateAction] [testIncludeTypeName] [types removal] Specifying include_type_name in put index template requests is deprecated. The parameter will be removed in the next major version.
+[2020-02-17T03:25:17,709][INFO ][o.e.r.a.a.i.RestPutIndexTemplateActionTests] [testIncludeTypeName] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

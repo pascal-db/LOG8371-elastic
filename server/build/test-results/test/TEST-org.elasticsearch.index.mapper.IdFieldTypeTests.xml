@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.IdFieldTypeTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:34" hostname="Escoto-PC" time="0.02">
+  <properties/>
+  <testcase name="testClone" classname="org.elasticsearch.index.mapper.IdFieldTypeTests" time="0.002"/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.mapper.IdFieldTypeTests" time="0.002"/>
+  <testcase name="testCheckCompatibility" classname="org.elasticsearch.index.mapper.IdFieldTypeTests" time="0.002"/>
+  <testcase name="testFreeze" classname="org.elasticsearch.index.mapper.IdFieldTypeTests" time="0.002"/>
+  <testcase name="testRangeQuery" classname="org.elasticsearch.index.mapper.IdFieldTypeTests" time="0.001"/>
+  <testcase name="testTermsQuery" classname="org.elasticsearch.index.mapper.IdFieldTypeTests" time="0.009"/>
+  <testcase name="testCheckTypeName" classname="org.elasticsearch.index.mapper.IdFieldTypeTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T04:07:34,622][INFO ][o.e.i.m.IdFieldTypeTests ] [testClone] before test
+[2020-02-17T04:07:34,623][INFO ][o.e.i.m.IdFieldTypeTests ] [testClone] after test
+[2020-02-17T04:07:34,625][INFO ][o.e.i.m.IdFieldTypeTests ] [testEquals] before test
+[2020-02-17T04:07:34,625][INFO ][o.e.i.m.IdFieldTypeTests ] [testEquals] after test
+[2020-02-17T04:07:34,626][INFO ][o.e.i.m.IdFieldTypeTests ] [testCheckCompatibility] before test
+[2020-02-17T04:07:34,627][INFO ][o.e.i.m.IdFieldTypeTests ] [testCheckCompatibility] after test
+[2020-02-17T04:07:34,628][INFO ][o.e.i.m.IdFieldTypeTests ] [testFreeze] before test
+[2020-02-17T04:07:34,629][INFO ][o.e.i.m.IdFieldTypeTests ] [testFreeze] after test
+[2020-02-17T04:07:34,630][INFO ][o.e.i.m.IdFieldTypeTests ] [testRangeQuery] before test
+[2020-02-17T04:07:34,630][INFO ][o.e.i.m.IdFieldTypeTests ] [testRangeQuery] after test
+[2020-02-17T04:07:34,632][INFO ][o.e.i.m.IdFieldTypeTests ] [testTermsQuery] before test
+[2020-02-17T04:07:34,639][INFO ][o.e.i.m.IdFieldTypeTests ] [testTermsQuery] after test
+[2020-02-17T04:07:34,641][INFO ][o.e.i.m.IdFieldTypeTests ] [testCheckTypeName] before test
+[2020-02-17T04:07:34,641][INFO ][o.e.i.m.IdFieldTypeTests ] [testCheckTypeName] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

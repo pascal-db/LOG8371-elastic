@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.TransportBulkActionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:35" hostname="Escoto-PC" time="0.096">
+  <properties/>
+  <testcase name="testDeleteNonExistingDocExternalVersionCreatesIndex" classname="org.elasticsearch.action.bulk.TransportBulkActionTests" time="0.024"/>
+  <testcase name="testGetIndexWriteRequest" classname="org.elasticsearch.action.bulk.TransportBulkActionTests" time="0.009"/>
+  <testcase name="testDeleteNonExistingDocDoesNotCreateIndex" classname="org.elasticsearch.action.bulk.TransportBulkActionTests" time="0.006"/>
+  <testcase name="testResolveFinalPipeline" classname="org.elasticsearch.action.bulk.TransportBulkActionTests" time="0.016"/>
+  <testcase name="testResolveRequestOrDefaultPipelineAndFinalPipeline" classname="org.elasticsearch.action.bulk.TransportBulkActionTests" time="0.011"/>
+  <testcase name="testResolveRequiredOrDefaultPipelineDefaultPipeline" classname="org.elasticsearch.action.bulk.TransportBulkActionTests" time="0.005"/>
+  <testcase name="testDeleteNonExistingDocExternalGteVersionCreatesIndex" classname="org.elasticsearch.action.bulk.TransportBulkActionTests" time="0.025"/>
+  <system-out><![CDATA[[2020-02-16T18:20:35,077][INFO ][o.e.a.b.TransportBulkActionTests] [testDeleteNonExistingDocExternalVersionCreatesIndex] before test
+[2020-02-16T18:20:35,098][INFO ][o.e.a.b.TransportBulkActionTests] [testDeleteNonExistingDocExternalVersionCreatesIndex] after test
+[2020-02-16T18:20:35,104][INFO ][o.e.a.b.TransportBulkActionTests] [testGetIndexWriteRequest] before test
+[2020-02-16T18:20:35,107][INFO ][o.e.a.b.TransportBulkActionTests] [testGetIndexWriteRequest] after test
+[2020-02-16T18:20:35,109][INFO ][o.e.a.b.TransportBulkActionTests] [testDeleteNonExistingDocDoesNotCreateIndex] before test
+[2020-02-16T18:20:35,113][INFO ][o.e.a.b.TransportBulkActionTests] [testDeleteNonExistingDocDoesNotCreateIndex] after test
+[2020-02-16T18:20:35,123][INFO ][o.e.a.b.TransportBulkActionTests] [testResolveFinalPipeline] before test
+[2020-02-16T18:20:35,129][INFO ][o.e.a.b.TransportBulkActionTests] [testResolveFinalPipeline] after test
+[2020-02-16T18:20:35,133][INFO ][o.e.a.b.TransportBulkActionTests] [testResolveRequestOrDefaultPipelineAndFinalPipeline] before test
+[2020-02-16T18:20:35,140][INFO ][o.e.a.b.TransportBulkActionTests] [testResolveRequestOrDefaultPipelineAndFinalPipeline] after test
+[2020-02-16T18:20:35,142][INFO ][o.e.a.b.TransportBulkActionTests] [testResolveRequiredOrDefaultPipelineDefaultPipeline] before test
+[2020-02-16T18:20:35,145][INFO ][o.e.a.b.TransportBulkActionTests] [testResolveRequiredOrDefaultPipelineDefaultPipeline] after test
+[2020-02-16T18:20:35,153][INFO ][o.e.a.b.TransportBulkActionTests] [testDeleteNonExistingDocExternalGteVersionCreatesIndex] before test
+[2020-02-16T18:20:35,170][INFO ][o.e.a.b.TransportBulkActionTests] [testDeleteNonExistingDocExternalGteVersionCreatesIndex] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

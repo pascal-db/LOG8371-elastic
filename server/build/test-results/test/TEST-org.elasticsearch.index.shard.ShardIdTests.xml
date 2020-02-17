@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.ShardIdTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:35" hostname="Escoto-PC" time="0.006">
+  <properties/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.shard.ShardIdTests" time="0.002"/>
+  <testcase name="testShardIdFromString" classname="org.elasticsearch.index.shard.ShardIdTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T12:23:35,588][INFO ][o.e.i.s.ShardIdTests     ] [testEquals] before test
+[2020-02-16T12:23:35,589][INFO ][o.e.i.s.ShardIdTests     ] [testEquals] after test
+[2020-02-16T12:23:35,592][INFO ][o.e.i.s.ShardIdTests     ] [testShardIdFromString] before test
+[2020-02-16T12:23:35,593][INFO ][o.e.i.s.ShardIdTests     ] [testShardIdFromString] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.NodeAllocationResultTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.routing.allocation.NodeAllocationResultTests" time="0.007"/>
+  <testcase name="testShardStore" classname="org.elasticsearch.cluster.routing.allocation.NodeAllocationResultTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T14:20:39,171][INFO ][o.e.c.r.a.NodeAllocationResultTests] [testSerialization] before test
+[2020-02-16T14:20:39,172][INFO ][o.e.c.r.a.NodeAllocationResultTests] [testSerialization] after test
+[2020-02-16T14:20:39,176][INFO ][o.e.c.r.a.NodeAllocationResultTests] [testShardStore] before test
+[2020-02-16T14:20:39,177][INFO ][o.e.c.r.a.NodeAllocationResultTests] [testShardStore] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

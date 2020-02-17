@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.settings.PropertyPlaceholderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:49" hostname="Escoto-PC" time="0.055">
+  <properties/>
+  <testcase name="testShouldIgnoreMissing" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.004"/>
+  <testcase name="testNestedSameLengthPrefixSuffix" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.002"/>
+  <testcase name="testVariousPrefixSuffix" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.003"/>
+  <testcase name="testSimple" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.002"/>
+  <testcase name="testDefaultValue" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.016"/>
+  <testcase name="testRecursive" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.001"/>
+  <testcase name="testNestedLongerPrefix" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.002"/>
+  <testcase name="testShouldRemoveMissing" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.002"/>
+  <testcase name="testIgnoredUnresolvedPlaceholder" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.008"/>
+  <testcase name="testNotIgnoredUnresolvedPlaceholder" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.006"/>
+  <testcase name="testCircularReference" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.005"/>
+  <testcase name="testNestedShorterPrefix" classname="org.elasticsearch.common.settings.PropertyPlaceholderTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T06:20:49,995][INFO ][o.e.c.s.PropertyPlaceholderTests] [testShouldIgnoreMissing] before test
+[2020-02-17T06:20:49,997][INFO ][o.e.c.s.PropertyPlaceholderTests] [testShouldIgnoreMissing] after test
+[2020-02-17T06:20:49,999][INFO ][o.e.c.s.PropertyPlaceholderTests] [testNestedSameLengthPrefixSuffix] before test
+[2020-02-17T06:20:49,999][INFO ][o.e.c.s.PropertyPlaceholderTests] [testNestedSameLengthPrefixSuffix] after test
+[2020-02-17T06:20:50,001][INFO ][o.e.c.s.PropertyPlaceholderTests] [testVariousPrefixSuffix] before test
+[2020-02-17T06:20:50,002][INFO ][o.e.c.s.PropertyPlaceholderTests] [testVariousPrefixSuffix] after test
+[2020-02-17T06:20:50,004][INFO ][o.e.c.s.PropertyPlaceholderTests] [testSimple] before test
+[2020-02-17T06:20:50,004][INFO ][o.e.c.s.PropertyPlaceholderTests] [testSimple] after test
+[2020-02-17T06:20:50,012][INFO ][o.e.c.s.PropertyPlaceholderTests] [testDefaultValue] before test
+[2020-02-17T06:20:50,019][INFO ][o.e.c.s.PropertyPlaceholderTests] [testDefaultValue] after test
+[2020-02-17T06:20:50,021][INFO ][o.e.c.s.PropertyPlaceholderTests] [testRecursive] before test
+[2020-02-17T06:20:50,021][INFO ][o.e.c.s.PropertyPlaceholderTests] [testRecursive] after test
+[2020-02-17T06:20:50,023][INFO ][o.e.c.s.PropertyPlaceholderTests] [testNestedLongerPrefix] before test
+[2020-02-17T06:20:50,023][INFO ][o.e.c.s.PropertyPlaceholderTests] [testNestedLongerPrefix] after test
+[2020-02-17T06:20:50,025][INFO ][o.e.c.s.PropertyPlaceholderTests] [testShouldRemoveMissing] before test
+[2020-02-17T06:20:50,025][INFO ][o.e.c.s.PropertyPlaceholderTests] [testShouldRemoveMissing] after test
+[2020-02-17T06:20:50,032][INFO ][o.e.c.s.PropertyPlaceholderTests] [testIgnoredUnresolvedPlaceholder] before test
+[2020-02-17T06:20:50,033][INFO ][o.e.c.s.PropertyPlaceholderTests] [testIgnoredUnresolvedPlaceholder] after test
+[2020-02-17T06:20:50,038][INFO ][o.e.c.s.PropertyPlaceholderTests] [testNotIgnoredUnresolvedPlaceholder] before test
+[2020-02-17T06:20:50,039][INFO ][o.e.c.s.PropertyPlaceholderTests] [testNotIgnoredUnresolvedPlaceholder] after test
+[2020-02-17T06:20:50,044][INFO ][o.e.c.s.PropertyPlaceholderTests] [testCircularReference] before test
+[2020-02-17T06:20:50,044][INFO ][o.e.c.s.PropertyPlaceholderTests] [testCircularReference] after test
+[2020-02-17T06:20:50,048][INFO ][o.e.c.s.PropertyPlaceholderTests] [testNestedShorterPrefix] before test
+[2020-02-17T06:20:50,048][INFO ][o.e.c.s.PropertyPlaceholderTests] [testNestedShorterPrefix] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

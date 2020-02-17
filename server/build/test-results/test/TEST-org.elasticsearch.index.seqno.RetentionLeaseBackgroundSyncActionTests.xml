@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.seqno.RetentionLeaseBackgroundSyncActionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:24" hostname="Escoto-PC" time="0.04">
+  <properties/>
+  <testcase name="testRetentionLeaseSyncExecution" classname="org.elasticsearch.index.seqno.RetentionLeaseBackgroundSyncActionTests" time="0.023"/>
+  <testcase name="testBlocks" classname="org.elasticsearch.index.seqno.RetentionLeaseBackgroundSyncActionTests" time="0.005"/>
+  <testcase name="testRetentionLeaseBackgroundSyncActionOnPrimary" classname="org.elasticsearch.index.seqno.RetentionLeaseBackgroundSyncActionTests" time="0.006"/>
+  <testcase name="testRetentionLeaseBackgroundSyncActionOnReplica" classname="org.elasticsearch.index.seqno.RetentionLeaseBackgroundSyncActionTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T02:23:24,046][INFO ][o.e.i.s.RetentionLeaseBackgroundSyncActionTests] [testRetentionLeaseSyncExecution] before test
+[2020-02-17T02:23:24,064][INFO ][o.e.i.s.RetentionLeaseBackgroundSyncActionTests] [testRetentionLeaseSyncExecution] after test
+[2020-02-17T02:23:24,069][INFO ][o.e.i.s.RetentionLeaseBackgroundSyncActionTests] [testBlocks] before test
+[2020-02-17T02:23:24,069][INFO ][o.e.i.s.RetentionLeaseBackgroundSyncActionTests] [testBlocks] after test
+[2020-02-17T02:23:24,074][INFO ][o.e.i.s.RetentionLeaseBackgroundSyncActionTests] [testRetentionLeaseBackgroundSyncActionOnPrimary] before test
+[2020-02-17T02:23:24,076][INFO ][o.e.i.s.RetentionLeaseBackgroundSyncActionTests] [testRetentionLeaseBackgroundSyncActionOnPrimary] after test
+[2020-02-17T02:23:24,080][INFO ][o.e.i.s.RetentionLeaseBackgroundSyncActionTests] [testRetentionLeaseBackgroundSyncActionOnReplica] before test
+[2020-02-17T02:23:24,081][INFO ][o.e.i.s.RetentionLeaseBackgroundSyncActionTests] [testRetentionLeaseBackgroundSyncActionOnReplica] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

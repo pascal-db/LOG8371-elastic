@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.cat.RestTableTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:04" hostname="Escoto-PC" time="0.055">
+  <properties/>
+  <testcase name="testUnknownHeader" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.004"/>
+  <testcase name="testReversedSort" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.003"/>
+  <testcase name="testThatWeUseTheAcceptHeaderText" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.005"/>
+  <testcase name="testThatWeUseTheAcceptHeaderJson" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.002"/>
+  <testcase name="testThatWeUseTheAcceptHeaderYaml" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.004"/>
+  <testcase name="testThatDisplayHeadersAreNotAddedTwice" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.002"/>
+  <testcase name="testThatDisplayHeadersSupportWildcards" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.003"/>
+  <testcase name="testMultiSort" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.002"/>
+  <testcase name="testThatWeUseTheAcceptHeaderCbor" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.002"/>
+  <testcase name="testAliasSort" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.001"/>
+  <testcase name="testCompareRow" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.003"/>
+  <testcase name="testThatDisplayHeadersWithoutTimestamp" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.002"/>
+  <testcase name="testRowOutOfBounds" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.003"/>
+  <testcase name="testThatWeUseTheAcceptHeaderSmile" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.01"/>
+  <testcase name="testIgnoreContentType" classname="org.elasticsearch.rest.action.cat.RestTableTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T19:24:04,895][INFO ][o.e.r.a.c.RestTableTests ] [testUnknownHeader] before test
+[2020-02-16T19:24:04,897][INFO ][o.e.r.a.c.RestTableTests ] [testUnknownHeader] after test
+[2020-02-16T19:24:04,899][INFO ][o.e.r.a.c.RestTableTests ] [testReversedSort] before test
+[2020-02-16T19:24:04,900][INFO ][o.e.r.a.c.RestTableTests ] [testReversedSort] after test
+[2020-02-16T19:24:04,903][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderText] before test
+[2020-02-16T19:24:04,905][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderText] after test
+[2020-02-16T19:24:04,907][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderJson] before test
+[2020-02-16T19:24:04,907][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderJson] after test
+[2020-02-16T19:24:04,911][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderYaml] before test
+[2020-02-16T19:24:04,911][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderYaml] after test
+[2020-02-16T19:24:04,913][INFO ][o.e.r.a.c.RestTableTests ] [testThatDisplayHeadersAreNotAddedTwice] before test
+[2020-02-16T19:24:04,913][INFO ][o.e.r.a.c.RestTableTests ] [testThatDisplayHeadersAreNotAddedTwice] after test
+[2020-02-16T19:24:04,916][INFO ][o.e.r.a.c.RestTableTests ] [testThatDisplayHeadersSupportWildcards] before test
+[2020-02-16T19:24:04,916][INFO ][o.e.r.a.c.RestTableTests ] [testThatDisplayHeadersSupportWildcards] after test
+[2020-02-16T19:24:04,918][INFO ][o.e.r.a.c.RestTableTests ] [testMultiSort] before test
+[2020-02-16T19:24:04,918][INFO ][o.e.r.a.c.RestTableTests ] [testMultiSort] after test
+[2020-02-16T19:24:04,920][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderCbor] before test
+[2020-02-16T19:24:04,920][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderCbor] after test
+[2020-02-16T19:24:04,921][INFO ][o.e.r.a.c.RestTableTests ] [testAliasSort] before test
+[2020-02-16T19:24:04,922][INFO ][o.e.r.a.c.RestTableTests ] [testAliasSort] after test
+[2020-02-16T19:24:04,923][INFO ][o.e.r.a.c.RestTableTests ] [testCompareRow] before test
+[2020-02-16T19:24:04,924][INFO ][o.e.r.a.c.RestTableTests ] [testCompareRow] after test
+[2020-02-16T19:24:04,926][INFO ][o.e.r.a.c.RestTableTests ] [testThatDisplayHeadersWithoutTimestamp] before test
+[2020-02-16T19:24:04,926][INFO ][o.e.r.a.c.RestTableTests ] [testThatDisplayHeadersWithoutTimestamp] after test
+[2020-02-16T19:24:04,929][INFO ][o.e.r.a.c.RestTableTests ] [testRowOutOfBounds] before test
+[2020-02-16T19:24:04,929][INFO ][o.e.r.a.c.RestTableTests ] [testRowOutOfBounds] after test
+[2020-02-16T19:24:04,939][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderSmile] before test
+[2020-02-16T19:24:04,939][INFO ][o.e.r.a.c.RestTableTests ] [testThatWeUseTheAcceptHeaderSmile] after test
+[2020-02-16T19:24:04,947][INFO ][o.e.r.a.c.RestTableTests ] [testIgnoreContentType] before test
+[2020-02-16T19:24:04,947][INFO ][o.e.r.a.c.RestTableTests ] [testIgnoreContentType] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

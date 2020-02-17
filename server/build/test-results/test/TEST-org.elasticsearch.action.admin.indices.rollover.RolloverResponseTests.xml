@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.rollover.RolloverResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:06" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testOldSerialisation" classname="org.elasticsearch.action.admin.indices.rollover.RolloverResponseTests" time="0.02"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.rollover.RolloverResponseTests" time="0.014"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.indices.rollover.RolloverResponseTests" time="0.01"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.indices.rollover.RolloverResponseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T14:20:06,210][INFO ][o.e.a.a.i.r.RolloverResponseTests] [testOldSerialisation] before test
+[2020-02-16T14:20:06,215][INFO ][o.e.a.a.i.r.RolloverResponseTests] [testOldSerialisation] after test
+[2020-02-16T14:20:06,220][INFO ][o.e.a.a.i.r.RolloverResponseTests] [testFromXContent] before test
+[2020-02-16T14:20:06,228][INFO ][o.e.a.a.i.r.RolloverResponseTests] [testFromXContent] after test
+[2020-02-16T14:20:06,237][INFO ][o.e.a.a.i.r.RolloverResponseTests] [testEqualsAndHashcode] before test
+[2020-02-16T14:20:06,238][INFO ][o.e.a.a.i.r.RolloverResponseTests] [testEqualsAndHashcode] after test
+[2020-02-16T14:20:06,241][INFO ][o.e.a.a.i.r.RolloverResponseTests] [testSerialization] before test
+[2020-02-16T14:20:06,242][INFO ][o.e.a.a.i.r.RolloverResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

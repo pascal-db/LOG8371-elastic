@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.TransportBulkActionIndicesThatCannotBeCreatedTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:35" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testNonExceptional" classname="org.elasticsearch.action.bulk.TransportBulkActionIndicesThatCannotBeCreatedTests" time="0.035"/>
+  <testcase name="testAllFail" classname="org.elasticsearch.action.bulk.TransportBulkActionIndicesThatCannotBeCreatedTests" time="0.004"/>
+  <testcase name="testSomeFail" classname="org.elasticsearch.action.bulk.TransportBulkActionIndicesThatCannotBeCreatedTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T18:20:35,021][INFO ][o.e.a.b.TransportBulkActionIndicesThatCannotBeCreatedTests] [testNonExceptional] before test
+[2020-02-16T18:20:35,041][INFO ][o.e.a.b.TransportBulkActionIndicesThatCannotBeCreatedTests] [testNonExceptional] after test
+[2020-02-16T18:20:35,044][INFO ][o.e.a.b.TransportBulkActionIndicesThatCannotBeCreatedTests] [testAllFail] before test
+[2020-02-16T18:20:35,046][INFO ][o.e.a.b.TransportBulkActionIndicesThatCannotBeCreatedTests] [testAllFail] after test
+[2020-02-16T18:20:35,049][INFO ][o.e.a.b.TransportBulkActionIndicesThatCannotBeCreatedTests] [testSomeFail] before test
+[2020-02-16T18:20:35,053][INFO ][o.e.a.b.TransportBulkActionIndicesThatCannotBeCreatedTests] [testSomeFail] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

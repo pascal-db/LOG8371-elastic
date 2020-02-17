@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.InternalSimpleValueTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:34" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.InternalSimpleValueTests" time="0.004"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.pipeline.InternalSimpleValueTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.pipeline.InternalSimpleValueTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.InternalSimpleValueTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.InternalSimpleValueTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:25:34,681][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testSerialization] before test
+[2020-02-17T00:25:34,682][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testSerialization] after test
+[2020-02-17T00:25:34,685][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T00:25:34,686][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T00:25:34,688][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testReduceRandom] before test
+[2020-02-17T00:25:34,689][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testReduceRandom] after test
+[2020-02-17T00:25:34,691][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:25:34,691][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:25:34,693][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testFromXContent] before test
+[2020-02-17T00:25:34,694][INFO ][o.e.s.a.p.InternalSimpleValueTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

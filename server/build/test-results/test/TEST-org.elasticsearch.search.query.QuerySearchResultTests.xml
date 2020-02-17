@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.query.QuerySearchResultTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testReadFromPre_7_1_0" classname="org.elasticsearch.search.query.QuerySearchResultTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.query.QuerySearchResultTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T09:24:38,396][INFO ][o.e.s.q.QuerySearchResultTests] [testReadFromPre_7_1_0] before test
+[2020-02-17T09:24:38,397][INFO ][o.e.s.q.QuerySearchResultTests] [testReadFromPre_7_1_0] after test
+[2020-02-17T09:24:38,401][INFO ][o.e.s.q.QuerySearchResultTests] [testSerialization] before test
+[2020-02-17T09:24:38,402][INFO ][o.e.s.q.QuerySearchResultTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

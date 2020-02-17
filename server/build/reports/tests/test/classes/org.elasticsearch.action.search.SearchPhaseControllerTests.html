@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.action.search.SearchPhaseControllerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.action.search.SearchPhaseControllerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.action.search.html">org.elasticsearch.action.search</a> &gt; SearchPhaseControllerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.187s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testConsumer</td>
+<td class="success">0.020s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConsumerConcurrently</td>
+<td class="success">0.037s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConsumerFieldCollapsing</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConsumerOnlyAggs</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConsumerOnlyHits</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConsumerSortByField</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConsumerSuggestions</td>
+<td class="success">0.056s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMerge</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNewSearchPhaseResults</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReduceTopNWithFromOffset</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortDocs</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortDocsIsIdempotent</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T10:20:38,881][INFO ][o.e.a.s.SearchPhaseControllerTests] [testNewSearchPhaseResults] before test
+[2020-02-17T10:20:38,888][INFO ][o.e.a.s.SearchPhaseControllerTests] [testNewSearchPhaseResults] after test
+[2020-02-17T10:20:38,891][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerOnlyHits] before test
+[2020-02-17T10:20:38,895][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerOnlyHits] after test
+[2020-02-17T10:20:38,900][INFO ][o.e.a.s.SearchPhaseControllerTests] [testSortDocsIsIdempotent] before test
+[2020-02-17T10:20:38,903][INFO ][o.e.a.s.SearchPhaseControllerTests] [testSortDocsIsIdempotent] after test
+[2020-02-17T10:20:38,909][INFO ][o.e.a.s.SearchPhaseControllerTests] [testSortDocs] before test
+[2020-02-17T10:20:38,915][INFO ][o.e.a.s.SearchPhaseControllerTests] [testSortDocs] after test
+[2020-02-17T10:20:38,917][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerConcurrently] before test
+[2020-02-17T10:20:38,953][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerConcurrently] after test
+[2020-02-17T10:20:38,956][INFO ][o.e.a.s.SearchPhaseControllerTests] [testMerge] before test
+[2020-02-17T10:20:38,961][INFO ][o.e.a.s.SearchPhaseControllerTests] [testMerge] after test
+[2020-02-17T10:20:38,963][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerOnlyAggs] before test
+[2020-02-17T10:20:38,969][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerOnlyAggs] after test
+[2020-02-17T10:20:38,972][INFO ][o.e.a.s.SearchPhaseControllerTests] [testReduceTopNWithFromOffset] before test
+[2020-02-17T10:20:38,972][INFO ][o.e.a.s.SearchPhaseControllerTests] [testReduceTopNWithFromOffset] after test
+[2020-02-17T10:20:38,975][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerFieldCollapsing] before test
+[2020-02-17T10:20:38,977][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerFieldCollapsing] after test
+[2020-02-17T10:20:38,980][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerSuggestions] before test
+[2020-02-17T10:20:39,033][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerSuggestions] after test
+[2020-02-17T10:20:39,053][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumer] before test
+[2020-02-17T10:20:39,053][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumer] after test
+[2020-02-17T10:20:39,065][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerSortByField] before test
+[2020-02-17T10:20:39,066][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerSortByField] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

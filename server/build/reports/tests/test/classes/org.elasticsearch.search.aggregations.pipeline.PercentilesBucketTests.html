@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.search.aggregations.pipeline.PercentilesBucketTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.search.aggregations.pipeline.PercentilesBucketTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.search.aggregations.pipeline.html">org.elasticsearch.search.aggregations.pipeline</a> &gt; PercentilesBucketTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.029s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testEqualsAndHashcode</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromXContent</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPercentsFromMixedArray</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerialization</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidate</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T06:25:34,951][INFO ][o.e.s.a.p.PercentilesBucketTests] [testFromXContent] before test
+[2020-02-17T06:25:34,952][INFO ][o.e.s.a.p.PercentilesBucketTests] [testFromXContent] Content string: {
+  &quot;ZbgkzxjHjUMdOZD&quot; : {
+    &quot;percentiles_bucket&quot; : {
+      &quot;buckets_path&quot; : [
+        &quot;rkyMR&quot;
+      ],
+      &quot;gap_policy&quot; : &quot;insert_zeros&quot;,
+      &quot;percents&quot; : [
+        33.50993427412483,
+        8.273398051689751,
+        72.83817769184654,
+        9.566390993987085,
+        8.509430010051144,
+        8.146654054213709,
+        36.16219495867028,
+        11.216814680626575,
+        20.229700618427948,
+        1.7732945351313867,
+        10.688801233956136,
+        79.08547233696308,
+        75.97964550603858,
+        36.898186800026856,
+        61.851604261526006,
+        69.08159154780007,
+        63.44027840648433
+      ],
+      &quot;keyed&quot; : true
+    }
+  }
+}
+[2020-02-17T06:25:34,952][INFO ][o.e.s.a.p.PercentilesBucketTests] [testFromXContent] Content string: {
+  &quot;ZbgkzxjHjUMdOZD&quot; : {
+    &quot;percentiles_bucket&quot; : {
+      &quot;buckets_path&quot; : [
+        &quot;rkyMR&quot;
+      ],
+      &quot;gap_policy&quot; : &quot;insert_zeros&quot;,
+      &quot;percents&quot; : [
+        33.50993427412483,
+        8.273398051689751,
+        72.83817769184654,
+        9.566390993987085,
+        8.509430010051144,
+        8.146654054213709,
+        36.16219495867028,
+        11.216814680626575,
+        20.229700618427948,
+        1.7732945351313867,
+        10.688801233956136,
+        79.08547233696308,
+        75.97964550603858,
+        36.898186800026856,
+        61.851604261526006,
+        69.08159154780007,
+        63.44027840648433
+      ],
+      &quot;keyed&quot; : true
+    }
+  }
+}
+[2020-02-17T06:25:34,955][INFO ][o.e.s.a.p.PercentilesBucketTests] [testFromXContent] after test
+[2020-02-17T06:25:34,959][INFO ][o.e.s.a.p.PercentilesBucketTests] [testPercentsFromMixedArray] before test
+[2020-02-17T06:25:34,960][INFO ][o.e.s.a.p.PercentilesBucketTests] [testPercentsFromMixedArray] after test
+[2020-02-17T06:25:34,964][INFO ][o.e.s.a.p.PercentilesBucketTests] [testValidate] before test
+[2020-02-17T06:25:34,965][INFO ][o.e.s.a.p.PercentilesBucketTests] [testValidate] after test
+[2020-02-17T06:25:34,973][INFO ][o.e.s.a.p.PercentilesBucketTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:25:34,973][INFO ][o.e.s.a.p.PercentilesBucketTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:25:34,979][INFO ][o.e.s.a.p.PercentilesBucketTests] [testSerialization] before test
+[2020-02-17T06:25:34,979][INFO ][o.e.s.a.p.PercentilesBucketTests] [testSerialization] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

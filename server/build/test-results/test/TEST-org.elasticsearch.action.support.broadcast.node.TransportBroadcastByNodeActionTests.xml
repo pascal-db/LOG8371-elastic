@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.073">
+  <properties/>
+  <testcase name="testRequestBlock" classname="org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests" time="0.021"/>
+  <testcase name="testRequestsAreNotSentToFailedMaster" classname="org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests" time="0.013"/>
+  <testcase name="testOperationExecution" classname="org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests" time="0.008"/>
+  <testcase name="testGlobalBlock" classname="org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests" time="0.006"/>
+  <testcase name="testOneRequestIsSentToEachNodeHoldingAShard" classname="org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests" time="0.005"/>
+  <testcase name="testResultAggregation" classname="org.elasticsearch.action.support.broadcast.node.TransportBroadcastByNodeActionTests" time="0.018"/>
+  <system-out><![CDATA[[2020-02-16T23:20:47,413][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testRequestBlock] before test
+[2020-02-16T23:20:47,419][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{Un5Vn9AlSwadm47z8mDvpA}{0.0.0.0}{0.0.0.0:1}{dim}], current [{node_2}{uhqsHfxRT4am9ASN2QTdtw}{0.0.0.0}{0.0.0.0:4}]}, removed {{node}{Un5Vn9AlSwadm47z8mDvpA}{0.0.0.0}{0.0.0.0:1}{dim}}, added {{node_1}{FtTmXcMeRLCPmgszxW9f9g}{0.0.0.0}{0.0.0.0:3},{node_2}{uhqsHfxRT4am9ASN2QTdtw}{0.0.0.0}{0.0.0.0:4}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,422][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testRequestBlock] after test
+[2020-02-16T23:20:47,425][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testRequestsAreNotSentToFailedMaster] before test
+[2020-02-16T23:20:47,428][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{gEJGLqrZQwacyqgUZqfrQA}{0.0.0.0}{0.0.0.0:7}{dim}], current [{node_2}{3srCLBuyRWWVqe4JOe5zjg}{0.0.0.0}{0.0.0.0:10}]}, removed {{node}{gEJGLqrZQwacyqgUZqfrQA}{0.0.0.0}{0.0.0.0:7}{dim}}, added {{node_1}{up-Q4_ZNQl-5yR_03M9Waw}{0.0.0.0}{0.0.0.0:9},{node_2}{3srCLBuyRWWVqe4JOe5zjg}{0.0.0.0}{0.0.0.0:10}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,433][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node_2}{3srCLBuyRWWVqe4JOe5zjg}{0.0.0.0}{0.0.0.0:10}], current []}, removed {{node_2}{3srCLBuyRWWVqe4JOe5zjg}{0.0.0.0}{0.0.0.0:10}}, term: 0, version: 2, reason: test setting state
+[2020-02-16T23:20:47,436][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testRequestsAreNotSentToFailedMaster] after test
+[2020-02-16T23:20:47,439][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testOperationExecution] before test
+[2020-02-16T23:20:47,442][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{SlhkUwtfQEah32K5u7uQNw}{0.0.0.0}{0.0.0.0:13}{dim}], current [{node_3}{ryJnWvwRTZGQ8r-_6QQXtw}{0.0.0.0}{0.0.0.0:17}]}, removed {{node}{SlhkUwtfQEah32K5u7uQNw}{0.0.0.0}{0.0.0.0:13}{dim}}, added {{node_3}{ryJnWvwRTZGQ8r-_6QQXtw}{0.0.0.0}{0.0.0.0:17},{node_1}{Xw4VE1RnRauu6Mh4CAVwJw}{0.0.0.0}{0.0.0.0:15},{node_2}{6ppOXH5VQEWYSRx-nttb2w}{0.0.0.0}{0.0.0.0:16}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,444][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testOperationExecution] after test
+[2020-02-16T23:20:47,447][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testGlobalBlock] before test
+[2020-02-16T23:20:47,449][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{EF1uy7RBShqSJql9VmObdQ}{0.0.0.0}{0.0.0.0:20}{dim}], current [{node_2}{Ic7EFhSLQVmyt-H3ZWy02A}{0.0.0.0}{0.0.0.0:23}]}, removed {{node}{EF1uy7RBShqSJql9VmObdQ}{0.0.0.0}{0.0.0.0:20}{dim}}, added {{node_1}{7-RU0q6BS-u6BacNpk__cQ}{0.0.0.0}{0.0.0.0:22},{node_2}{Ic7EFhSLQVmyt-H3ZWy02A}{0.0.0.0}{0.0.0.0:23}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,450][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testGlobalBlock] after test
+[2020-02-16T23:20:47,453][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testOneRequestIsSentToEachNodeHoldingAShard] before test
+[2020-02-16T23:20:47,455][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{rE9QxSoMSeuiSEZWYkH6zw}{0.0.0.0}{0.0.0.0:26}{dim}], current [{node_4}{yJWb5tCxT6GKcO-c4fw5qw}{0.0.0.0}{0.0.0.0:31}]}, removed {{node}{rE9QxSoMSeuiSEZWYkH6zw}{0.0.0.0}{0.0.0.0:26}{dim}}, added {{node_3}{ZB0i0zBzS36akAJzX4vnSA}{0.0.0.0}{0.0.0.0:30},{node_1}{WdxydPaURdWIJFg-GKsg_g}{0.0.0.0}{0.0.0.0:28},{node_4}{yJWb5tCxT6GKcO-c4fw5qw}{0.0.0.0}{0.0.0.0:31},{node_2}{MxyVmX93SPKy8nRhFL2rVQ}{0.0.0.0}{0.0.0.0:29}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,456][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testOneRequestIsSentToEachNodeHoldingAShard] after test
+[2020-02-16T23:20:47,458][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testResultAggregation] before test
+[2020-02-16T23:20:47,472][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{1NBUVXxvRlyPOyEWhRDmBA}{0.0.0.0}{0.0.0.0:34}{dim}], current [{node_3}{PuVGFG1lRZSjN6KRUrJfDQ}{0.0.0.0}{0.0.0.0:38}]}, removed {{node}{1NBUVXxvRlyPOyEWhRDmBA}{0.0.0.0}{0.0.0.0:34}{dim}}, added {{node_3}{PuVGFG1lRZSjN6KRUrJfDQ}{0.0.0.0}{0.0.0.0:38},{node_1}{o5e1gnQtQTWpoio1zwjKgw}{0.0.0.0}{0.0.0.0:36},{node_2}{ThFY8glXTnWRvMIlRWiEmQ}{0.0.0.0}{0.0.0.0:37}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T23:20:47,475][INFO ][o.e.a.s.b.n.TransportBroadcastByNodeActionTests] [testResultAggregation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

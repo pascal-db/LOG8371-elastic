@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ingest.SimulatePipelineResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.248">
+  <properties/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.action.ingest.SimulatePipelineResponseTests" time="0.108"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.ingest.SimulatePipelineResponseTests" time="0.135"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.ingest.SimulatePipelineResponseTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T06:20:37,375][INFO ][o.e.a.i.SimulatePipelineResponseTests] [testFromXContentWithFailures] before test
+[2020-02-17T06:20:37,481][INFO ][o.e.a.i.SimulatePipelineResponseTests] [testFromXContentWithFailures] after test
+[2020-02-17T06:20:37,487][INFO ][o.e.a.i.SimulatePipelineResponseTests] [testFromXContent] before test
+[2020-02-17T06:20:37,616][INFO ][o.e.a.i.SimulatePipelineResponseTests] [testFromXContent] after test
+[2020-02-17T06:20:37,620][INFO ][o.e.a.i.SimulatePipelineResponseTests] [testSerialization] before test
+[2020-02-17T06:20:37,621][INFO ][o.e.a.i.SimulatePipelineResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" tests="19" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.191">
+  <properties/>
+  <testcase name="testApplyDataFromTemplate" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.091"/>
+  <testcase name="testWriteIndex" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.008"/>
+  <testcase name="testRequestDataHavePriorityOverTemplateData" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testWriteIndexValidationException" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testSettingsFromClusterState" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testTemplateOrder2" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testRequestStateOpen" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testTypedTemplate" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testTypelessTemplateWithTypedIndexCreation" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testShrinkIndexIgnoresTemplates" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.012"/>
+  <testcase name="testDefaultSettings" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testMatchTemplates" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testIndexRemovalOnFailure" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testTemplateOrder" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.004"/>
+  <testcase name="testApplyDataFromRequest" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testValidateWaitForActiveShardsFailure" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.004"/>
+  <testcase name="testInvalidAliasName" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.004"/>
+  <testcase name="testTypedTemplateWithTypelessIndexCreation" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <testcase name="testTypelessTemplate" classname="org.elasticsearch.cluster.metadata.IndexCreationTaskTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T00:21:33,191][INFO ][o.e.c.m.IndexCreationTaskTests] [testApplyDataFromTemplate] before test
+[2020-02-17T00:21:33,200][INFO ][o.e.c.m.IndexCreationTaskTests] [testApplyDataFromTemplate] after test
+[2020-02-17T00:21:33,205][INFO ][o.e.c.m.IndexCreationTaskTests] [testWriteIndex] before test
+[2020-02-17T00:21:33,208][INFO ][o.e.c.m.IndexCreationTaskTests] [testWriteIndex] after test
+[2020-02-17T00:21:33,210][INFO ][o.e.c.m.IndexCreationTaskTests] [testRequestDataHavePriorityOverTemplateData] before test
+[2020-02-17T00:21:33,213][INFO ][o.e.c.m.IndexCreationTaskTests] [testRequestDataHavePriorityOverTemplateData] after test
+[2020-02-17T00:21:33,216][INFO ][o.e.c.m.IndexCreationTaskTests] [testWriteIndexValidationException] before test
+[2020-02-17T00:21:33,218][INFO ][o.e.c.m.IndexCreationTaskTests] [testWriteIndexValidationException] after test
+[2020-02-17T00:21:33,221][INFO ][o.e.c.m.IndexCreationTaskTests] [testSettingsFromClusterState] before test
+[2020-02-17T00:21:33,222][INFO ][o.e.c.m.IndexCreationTaskTests] [testSettingsFromClusterState] after test
+[2020-02-17T00:21:33,225][INFO ][o.e.c.m.IndexCreationTaskTests] [testTemplateOrder2] before test
+[2020-02-17T00:21:33,227][INFO ][o.e.c.m.IndexCreationTaskTests] [testTemplateOrder2] after test
+[2020-02-17T00:21:33,230][INFO ][o.e.c.m.IndexCreationTaskTests] [testRequestStateOpen] before test
+[2020-02-17T00:21:33,232][INFO ][o.e.c.m.IndexCreationTaskTests] [testRequestStateOpen] after test
+[2020-02-17T00:21:33,235][INFO ][o.e.c.m.IndexCreationTaskTests] [testTypedTemplate] before test
+[2020-02-17T00:21:33,237][INFO ][o.e.c.m.IndexCreationTaskTests] [testTypedTemplate] after test
+[2020-02-17T00:21:33,240][INFO ][o.e.c.m.IndexCreationTaskTests] [testTypelessTemplateWithTypedIndexCreation] before test
+[2020-02-17T00:21:33,243][INFO ][o.e.c.m.IndexCreationTaskTests] [testTypelessTemplateWithTypedIndexCreation] after test
+[2020-02-17T00:21:33,245][INFO ][o.e.c.m.IndexCreationTaskTests] [testShrinkIndexIgnoresTemplates] before test
+[2020-02-17T00:21:33,255][INFO ][o.e.c.m.IndexCreationTaskTests] [testShrinkIndexIgnoresTemplates] after test
+[2020-02-17T00:21:33,258][INFO ][o.e.c.m.IndexCreationTaskTests] [testDefaultSettings] before test
+[2020-02-17T00:21:33,260][INFO ][o.e.c.m.IndexCreationTaskTests] [testDefaultSettings] after test
+[2020-02-17T00:21:33,263][INFO ][o.e.c.m.IndexCreationTaskTests] [testMatchTemplates] before test
+[2020-02-17T00:21:33,265][INFO ][o.e.c.m.IndexCreationTaskTests] [testMatchTemplates] after test
+[2020-02-17T00:21:33,269][INFO ][o.e.c.m.IndexCreationTaskTests] [testIndexRemovalOnFailure] before test
+[2020-02-17T00:21:33,271][INFO ][o.e.c.m.IndexCreationTaskTests] [testIndexRemovalOnFailure] after test
+[2020-02-17T00:21:33,274][INFO ][o.e.c.m.IndexCreationTaskTests] [testTemplateOrder] before test
+[2020-02-17T00:21:33,276][INFO ][o.e.c.m.IndexCreationTaskTests] [testTemplateOrder] after test
+[2020-02-17T00:21:33,278][INFO ][o.e.c.m.IndexCreationTaskTests] [testApplyDataFromRequest] before test
+[2020-02-17T00:21:33,280][INFO ][o.e.c.m.IndexCreationTaskTests] [testApplyDataFromRequest] after test
+[2020-02-17T00:21:33,283][INFO ][o.e.c.m.IndexCreationTaskTests] [testValidateWaitForActiveShardsFailure] before test
+[2020-02-17T00:21:33,284][INFO ][o.e.c.m.IndexCreationTaskTests] [testValidateWaitForActiveShardsFailure] after test
+[2020-02-17T00:21:33,288][INFO ][o.e.c.m.IndexCreationTaskTests] [testInvalidAliasName] before test
+[2020-02-17T00:21:33,289][INFO ][o.e.c.m.IndexCreationTaskTests] [testInvalidAliasName] after test
+[2020-02-17T00:21:33,292][INFO ][o.e.c.m.IndexCreationTaskTests] [testTypedTemplateWithTypelessIndexCreation] before test
+[2020-02-17T00:21:33,294][INFO ][o.e.c.m.IndexCreationTaskTests] [testTypedTemplateWithTypelessIndexCreation] after test
+[2020-02-17T00:21:33,297][INFO ][o.e.c.m.IndexCreationTaskTests] [testTypelessTemplate] before test
+[2020-02-17T00:21:33,299][INFO ][o.e.c.m.IndexCreationTaskTests] [testTypelessTemplate] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

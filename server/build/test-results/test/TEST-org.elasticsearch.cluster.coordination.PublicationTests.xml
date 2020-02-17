@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.PublicationTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:32" hostname="Escoto-PC" time="0.064">
+  <properties/>
+  <testcase name="testClusterStatePublishingWithFaultyNodeBeforeCommit" classname="org.elasticsearch.cluster.coordination.PublicationTests" time="0.012"/>
+  <testcase name="testPublishingToMastersFirst" classname="org.elasticsearch.cluster.coordination.PublicationTests" time="0.003"/>
+  <testcase name="testClusterStatePublishingWithFaultyNodeAfterCommit" classname="org.elasticsearch.cluster.coordination.PublicationTests" time="0.003"/>
+  <testcase name="testClusterStatePublishingFailsOrTimesOutBeforeCommit" classname="org.elasticsearch.cluster.coordination.PublicationTests" time="0.003"/>
+  <testcase name="testClusterStatePublishingTimesOutAfterCommit" classname="org.elasticsearch.cluster.coordination.PublicationTests" time="0.032"/>
+  <testcase name="testSimpleClusterStatePublishing" classname="org.elasticsearch.cluster.coordination.PublicationTests" time="0.011"/>
+  <system-out><![CDATA[[2020-02-16T19:21:32,540][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeBeforeCommit] before test
+[2020-02-16T19:21:32,542][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeBeforeCommit] Injecting fault at: 3
+[2020-02-16T19:21:32,544][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingWithFaultyNodeBeforeCommit] cluster UUID set to [enFrDwAAQACUenBHAAAAAA]
+[2020-02-16T19:21:32,544][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingWithFaultyNodeBeforeCommit] cluster UUID set to [enFrDwAAQACUenBHAAAAAA]
+[2020-02-16T19:21:32,544][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeBeforeCommit] after test
+[2020-02-16T19:21:32,546][INFO ][o.e.c.c.PublicationTests ] [testPublishingToMastersFirst] before test
+[2020-02-16T19:21:32,547][INFO ][o.e.c.c.PublicationTests ] [testPublishingToMastersFirst] after test
+[2020-02-16T19:21:32,548][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeAfterCommit] before test
+[2020-02-16T19:21:32,549][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeAfterCommit] Injecting fault at: 1, publicationDidNotMakeItToNode2: false
+[2020-02-16T19:21:32,549][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingWithFaultyNodeAfterCommit] cluster UUID set to [XJnPIAAAQACZ6L6T_____w]
+[2020-02-16T19:21:32,549][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingWithFaultyNodeAfterCommit] cluster UUID set to [XJnPIAAAQACZ6L6T_____w]
+[2020-02-16T19:21:32,549][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingWithFaultyNodeAfterCommit] after test
+[2020-02-16T19:21:32,551][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingFailsOrTimesOutBeforeCommit] before test
+[2020-02-16T19:21:32,552][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingFailsOrTimesOutBeforeCommit] after test
+[2020-02-16T19:21:32,554][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingTimesOutAfterCommit] before test
+[2020-02-16T19:21:32,554][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingTimesOutAfterCommit] Committing nodes: [{node1}{XP-AagAAQACsA1eQ_____w}{0.0.0.0}{0.0.0.0:23}{dim}, {node2}{Ml5oqf__T_-iLQ8fAAAAAA}{0.0.0.0}{0.0.0.0:24}{dim}]
+[2020-02-16T19:21:32,555][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingTimesOutAfterCommit] cluster UUID set to [YzWMewAAQACoxmg6AAAAAA]
+[2020-02-16T19:21:32,555][INFO ][o.e.c.c.CoordinationState] [testClusterStatePublishingTimesOutAfterCommit] cluster UUID set to [YzWMewAAQACoxmg6AAAAAA]
+[2020-02-16T19:21:32,555][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingTimesOutAfterCommit] Non-committed nodes: [{node3}{P-tiPwAAQACMgFWc_____w}{0.0.0.0}{0.0.0.0:25}{dim}]
+[2020-02-16T19:21:32,584][INFO ][o.e.c.c.PublicationTests ] [testClusterStatePublishingTimesOutAfterCommit] after test
+[2020-02-16T19:21:32,588][INFO ][o.e.c.c.PublicationTests ] [testSimpleClusterStatePublishing] before test
+[2020-02-16T19:21:32,596][INFO ][o.e.c.c.CoordinationState] [testSimpleClusterStatePublishing] cluster UUID set to [2JHXagAAQACr-xhcAAAAAA]
+[2020-02-16T19:21:32,596][INFO ][o.e.c.c.CoordinationState] [testSimpleClusterStatePublishing] cluster UUID set to [2JHXagAAQACr-xhcAAAAAA]
+[2020-02-16T19:21:32,596][INFO ][o.e.c.c.PublicationTests ] [testSimpleClusterStatePublishing] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.ClearScrollRequestTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.search.ClearScrollRequestTests" time="0.004"/>
+  <testcase name="testFromXContentWithoutArray" classname="org.elasticsearch.action.search.ClearScrollRequestTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.search.ClearScrollRequestTests" time="0.002"/>
+  <testcase name="testFromAndToXContent" classname="org.elasticsearch.action.search.ClearScrollRequestTests" time="0.002"/>
+  <testcase name="testFromXContentWithUnknownParamThrowsException" classname="org.elasticsearch.action.search.ClearScrollRequestTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:20:19,114][INFO ][o.e.a.s.ClearScrollRequestTests] [testFromXContent] before test
+[2020-02-16T19:20:19,116][INFO ][o.e.a.s.ClearScrollRequestTests] [testFromXContent] after test
+[2020-02-16T19:20:19,118][INFO ][o.e.a.s.ClearScrollRequestTests] [testFromXContentWithoutArray] before test
+[2020-02-16T19:20:19,118][INFO ][o.e.a.s.ClearScrollRequestTests] [testFromXContentWithoutArray] after test
+[2020-02-16T19:20:19,120][INFO ][o.e.a.s.ClearScrollRequestTests] [testToXContent] before test
+[2020-02-16T19:20:19,120][INFO ][o.e.a.s.ClearScrollRequestTests] [testToXContent] after test
+[2020-02-16T19:20:19,122][INFO ][o.e.a.s.ClearScrollRequestTests] [testFromAndToXContent] before test
+[2020-02-16T19:20:19,122][INFO ][o.e.a.s.ClearScrollRequestTests] [testFromAndToXContent] after test
+[2020-02-16T19:20:19,123][INFO ][o.e.a.s.ClearScrollRequestTests] [testFromXContentWithUnknownParamThrowsException] before test
+[2020-02-16T19:20:19,124][INFO ][o.e.a.s.ClearScrollRequestTests] [testFromXContentWithUnknownParamThrowsException] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

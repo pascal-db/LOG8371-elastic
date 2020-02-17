@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.InboundHandlerTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:45" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testPing" classname="org.elasticsearch.transport.InboundHandlerTests" time="0.005"/>
+  <testcase name="testRequestAndResponse" classname="org.elasticsearch.transport.InboundHandlerTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T10:24:45,660][INFO ][o.e.t.InboundHandlerTests] [testPing] before test
+[2020-02-17T10:24:45,663][INFO ][o.e.t.InboundHandlerTests] [testPing] after test
+[2020-02-17T10:24:45,664][INFO ][o.e.t.InboundHandlerTests] [testRequestAndResponse] before test
+[2020-02-17T10:24:45,666][INFO ][o.e.t.InboundHandlerTests] [testRequestAndResponse] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

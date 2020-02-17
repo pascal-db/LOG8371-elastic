@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.TransportShardBulkActionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:35" hostname="Escoto-PC" time="1.078">
+  <properties/>
+  <testcase name="testTranslogPositionToSync" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.21"/>
+  <testcase name="testNoopUpdateRequest" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.009"/>
+  <testcase name="testUpdateRequestWithFailure" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.02"/>
+  <testcase name="testExecuteBulkIndexRequestWithErrorWhileUpdatingMapping" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.067"/>
+  <testcase name="testUpdateRequestWithConflictFailure" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.004"/>
+  <testcase name="testUpdateWithDelete" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.006"/>
+  <testcase name="testExecuteBulkDeleteRequest" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.159"/>
+  <testcase name="testExecuteBulkIndexRequestWithMappingUpdates" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.015"/>
+  <testcase name="testRetries" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.047"/>
+  <testcase name="testNoOpReplicationOnPrimaryDocumentFailure" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.264"/>
+  <testcase name="testFailureDuringUpdateProcessing" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.005"/>
+  <testcase name="testUpdateRequestWithSuccess" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.006"/>
+  <testcase name="testSkipBulkIndexRequestIfAborted" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.121"/>
+  <testcase name="testExecuteBulkIndexRequest" classname="org.elasticsearch.action.bulk.TransportShardBulkActionTests" time="0.143"/>
+  <system-out><![CDATA[[2020-02-16T22:20:35,231][INFO ][o.e.a.b.TransportShardBulkActionTests] [testTranslogPositionToSync] before test
+[2020-02-16T22:20:35,428][INFO ][o.e.a.b.TransportShardBulkActionTests] [testTranslogPositionToSync] after test
+[2020-02-16T22:20:35,431][INFO ][o.e.a.b.TransportShardBulkActionTests] [testNoopUpdateRequest] before test
+[2020-02-16T22:20:35,436][INFO ][o.e.a.b.TransportShardBulkActionTests] [testNoopUpdateRequest] after test
+[2020-02-16T22:20:35,448][INFO ][o.e.a.b.TransportShardBulkActionTests] [testUpdateRequestWithFailure] before test
+[2020-02-16T22:20:35,450][INFO ][o.e.a.b.TransportShardBulkActionTests] [testUpdateRequestWithFailure] after test
+[2020-02-16T22:20:35,461][INFO ][o.e.a.b.TransportShardBulkActionTests] [testExecuteBulkIndexRequestWithErrorWhileUpdatingMapping] before test
+[2020-02-16T22:20:35,523][INFO ][o.e.a.b.TransportShardBulkActionTests] [testExecuteBulkIndexRequestWithErrorWhileUpdatingMapping] after test
+[2020-02-16T22:20:35,526][INFO ][o.e.a.b.TransportShardBulkActionTests] [testUpdateRequestWithConflictFailure] before test
+[2020-02-16T22:20:35,528][INFO ][o.e.a.b.TransportShardBulkActionTests] [testUpdateRequestWithConflictFailure] after test
+[2020-02-16T22:20:35,531][INFO ][o.e.a.b.TransportShardBulkActionTests] [testUpdateWithDelete] before test
+[2020-02-16T22:20:35,533][INFO ][o.e.a.b.TransportShardBulkActionTests] [testUpdateWithDelete] after test
+[2020-02-16T22:20:35,537][INFO ][o.e.a.b.TransportShardBulkActionTests] [testExecuteBulkDeleteRequest] before test
+[2020-02-16T22:20:35,681][INFO ][o.e.a.b.TransportShardBulkActionTests] [testExecuteBulkDeleteRequest] after test
+[2020-02-16T22:20:35,702][INFO ][o.e.a.b.TransportShardBulkActionTests] [testExecuteBulkIndexRequestWithMappingUpdates] before test
+[2020-02-16T22:20:35,705][INFO ][o.e.a.b.TransportShardBulkActionTests] [testExecuteBulkIndexRequestWithMappingUpdates] after test
+[2020-02-16T22:20:35,713][INFO ][o.e.a.b.TransportShardBulkActionTests] [testRetries] before test
+[2020-02-16T22:20:35,752][INFO ][o.e.a.b.TransportShardBulkActionTests] [testRetries] after test
+[2020-02-16T22:20:35,760][INFO ][o.e.a.b.TransportShardBulkActionTests] [testNoOpReplicationOnPrimaryDocumentFailure] before test
+[2020-02-16T22:20:36,018][INFO ][o.e.a.b.TransportShardBulkActionTests] [testNoOpReplicationOnPrimaryDocumentFailure] after test
+[2020-02-16T22:20:36,023][INFO ][o.e.a.b.TransportShardBulkActionTests] [testFailureDuringUpdateProcessing] before test
+[2020-02-16T22:20:36,025][INFO ][o.e.a.b.TransportShardBulkActionTests] [testFailureDuringUpdateProcessing] after test
+[2020-02-16T22:20:36,028][INFO ][o.e.a.b.TransportShardBulkActionTests] [testUpdateRequestWithSuccess] before test
+[2020-02-16T22:20:36,031][INFO ][o.e.a.b.TransportShardBulkActionTests] [testUpdateRequestWithSuccess] after test
+[2020-02-16T22:20:36,036][INFO ][o.e.a.b.TransportShardBulkActionTests] [testSkipBulkIndexRequestIfAborted] before test
+[2020-02-16T22:20:36,146][INFO ][o.e.a.b.TransportShardBulkActionTests] [testSkipBulkIndexRequestIfAborted] after test
+[2020-02-16T22:20:36,161][INFO ][o.e.a.b.TransportShardBulkActionTests] [testExecuteBulkIndexRequest] before test
+[2020-02-16T22:20:36,295][INFO ][o.e.a.b.TransportShardBulkActionTests] [testExecuteBulkIndexRequest] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

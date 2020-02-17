@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.SingleShardOneReplicaRoutingTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testSingleIndexFirstStartPrimaryThenBackups" classname="org.elasticsearch.cluster.routing.allocation.SingleShardOneReplicaRoutingTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T06:20:39,504][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] before test
+[2020-02-17T06:20:39,507][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Building initial routing table
+[2020-02-17T06:20:39,507][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Adding one node and performing rerouting
+[2020-02-17T06:20:39,507][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Add another node and perform rerouting, nothing will happen since primary shards not started
+[2020-02-17T06:20:39,508][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Start the primary shard (on node1)
+[2020-02-17T06:20:39,508][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Reroute, nothing should change
+[2020-02-17T06:20:39,508][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Start the backup shard
+[2020-02-17T06:20:39,508][INFO ][o.e.c.r.a.AllocationService] [testSingleIndexFirstStartPrimaryThenBackups] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:20:39,508][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Kill node1, backup shard should become primary
+[2020-02-17T06:20:39,508][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Start another node, backup shard should start initializing
+[2020-02-17T06:20:39,509][INFO ][o.e.c.r.a.SingleShardOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

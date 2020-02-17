@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.loggerusage.ESLoggerUsageTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:04" hostname="Escoto-PC" time="3.238">
+  <properties/>
+  <testcase name="testLoggerUsageCheckerCompatibilityWithLog4j2Logger" classname="org.elasticsearch.test.loggerusage.ESLoggerUsageTests" time="3.128"/>
+  <testcase name="testLoggerUsageChecks" classname="org.elasticsearch.test.loggerusage.ESLoggerUsageTests" time="0.109"/>
+  <system-out><![CDATA[[2020-02-17T00:50:04,729][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageCheckerCompatibilityWithLog4j2Logger] before test
+[2020-02-17T00:50:07,810][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageCheckerCompatibilityWithLog4j2Logger] after test
+[2020-02-17T00:50:07,826][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] before test
+[2020-02-17T00:50:07,828][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArgumentsParameterizedMessage1
+[2020-02-17T00:50:07,884][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArgumentsParameterizedMessage1
+[2020-02-17T00:50:07,886][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArgumentsParameterizedMessage2
+[2020-02-17T00:50:07,888][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArgumentsParameterizedMessage2
+[2020-02-17T00:50:07,890][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArgumentsParameterizedMessage3
+[2020-02-17T00:50:07,892][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArgumentsParameterizedMessage3
+[2020-02-17T00:50:07,894][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNonConstantMessageWithZeroArguments
+[2020-02-17T00:50:07,898][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNonConstantMessageWithArguments
+[2020-02-17T00:50:07,900][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkForSubclasses
+[2020-02-17T00:50:07,901][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailArraySize
+[2020-02-17T00:50:07,901][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkComplexUsage
+[2020-02-17T00:50:07,911][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkArraySizeForSubclasses
+[2020-02-17T00:50:07,912][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailArraySizeForSubclasses
+[2020-02-17T00:50:07,913][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArguments1
+[2020-02-17T00:50:07,914][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArguments1
+[2020-02-17T00:50:07,915][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkIgnoreWhenAnnotationPresent
+[2020-02-17T00:50:07,917][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArguments2
+[2020-02-17T00:50:07,918][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArguments2
+[2020-02-17T00:50:07,919][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkNumberOfArguments3
+[2020-02-17T00:50:07,920][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailNumberOfArguments3
+[2020-02-17T00:50:07,921][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkOrderOfExceptionArgument
+[2020-02-17T00:50:07,923][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkOrderOfExceptionArgument1
+[2020-02-17T00:50:07,924][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailOrderOfExceptionArgument1
+[2020-02-17T00:50:07,925][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkOrderOfExceptionArgument2
+[2020-02-17T00:50:07,926][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailOrderOfExceptionArgument2
+[2020-02-17T00:50:07,927][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailComplexUsage1
+[2020-02-17T00:50:07,929][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] Checking logger usage for method checkFailComplexUsage2
+[2020-02-17T00:50:07,930][INFO ][o.e.t.l.ESLoggerUsageTests] [testLoggerUsageChecks] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.ExtendedStatsBucketTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:34" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.ExtendedStatsBucketTests" time="0.005"/>
+  <testcase name="testSigmaFromInt" classname="org.elasticsearch.search.aggregations.pipeline.ExtendedStatsBucketTests" time="0.003"/>
+  <testcase name="testValidate" classname="org.elasticsearch.search.aggregations.pipeline.ExtendedStatsBucketTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.ExtendedStatsBucketTests" time="0.008"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.ExtendedStatsBucketTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T06:25:34,553][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testFromXContent] before test
+[2020-02-17T06:25:34,553][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "extended_stats_bucket" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "cm",
+      "gap_policy" : "insert_zeros",
+      "sigma" : 0.07121729680890976
+    }
+  }
+}
+[2020-02-17T06:25:34,553][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testFromXContent] Content string: {
+  "ZbgkzxjHjUMdOZD" : {
+    "extended_stats_bucket" : {
+      "buckets_path" : [
+        "rkyMR"
+      ],
+      "format" : "cm",
+      "gap_policy" : "insert_zeros",
+      "sigma" : 0.07121729680890976
+    }
+  }
+}
+[2020-02-17T06:25:34,553][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testFromXContent] after test
+[2020-02-17T06:25:34,556][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testSigmaFromInt] before test
+[2020-02-17T06:25:34,556][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testSigmaFromInt] after test
+[2020-02-17T06:25:34,559][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testValidate] before test
+[2020-02-17T06:25:34,560][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testValidate] after test
+[2020-02-17T06:25:34,568][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testEqualsAndHashcode] before test
+[2020-02-17T06:25:34,569][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testEqualsAndHashcode] after test
+[2020-02-17T06:25:34,573][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testSerialization] before test
+[2020-02-17T06:25:34,573][INFO ][o.e.s.a.p.ExtendedStatsBucketTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

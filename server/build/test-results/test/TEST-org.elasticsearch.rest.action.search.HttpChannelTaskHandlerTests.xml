@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.search.HttpChannelTaskHandlerTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.033">
+  <properties/>
+  <testcase name="testChannelAlreadyClosed" classname="org.elasticsearch.rest.action.search.HttpChannelTaskHandlerTests" time="0.006"/>
+  <testcase name="testCancelledTasks" classname="org.elasticsearch.rest.action.search.HttpChannelTaskHandlerTests" time="0.016"/>
+  <testcase name="testCompletedTasks" classname="org.elasticsearch.rest.action.search.HttpChannelTaskHandlerTests" time="0.011"/>
+  <system-out><![CDATA[[2020-02-16T11:25:18,050][INFO ][o.e.r.a.s.HttpChannelTaskHandlerTests] [testChannelAlreadyClosed] before test
+[2020-02-16T11:25:18,054][INFO ][o.e.r.a.s.HttpChannelTaskHandlerTests] [testChannelAlreadyClosed] after test
+[2020-02-16T11:25:18,056][INFO ][o.e.r.a.s.HttpChannelTaskHandlerTests] [testCancelledTasks] before test
+[2020-02-16T11:25:18,070][INFO ][o.e.r.a.s.HttpChannelTaskHandlerTests] [testCancelledTasks] after test
+[2020-02-16T11:25:18,072][INFO ][o.e.r.a.s.HttpChannelTaskHandlerTests] [testCompletedTasks] before test
+[2020-02-16T11:25:18,082][INFO ][o.e.r.a.s.HttpChannelTaskHandlerTests] [testCompletedTasks] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

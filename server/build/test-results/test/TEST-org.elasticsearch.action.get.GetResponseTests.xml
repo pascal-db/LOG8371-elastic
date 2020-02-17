@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.get.GetResponseTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.action.get.GetResponseTests" time="0.005"/>
+  <testcase name="testToString" classname="org.elasticsearch.action.get.GetResponseTests" time="0.003"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.action.get.GetResponseTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.get.GetResponseTests" time="0.006"/>
+  <testcase name="testFromXContentThrowsParsingException" classname="org.elasticsearch.action.get.GetResponseTests" time="0.003"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.get.GetResponseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T11:20:18,137][INFO ][o.e.a.g.GetResponseTests ] [testToAndFromXContent] before test
+[2020-02-16T11:20:18,140][INFO ][o.e.a.g.GetResponseTests ] [testToAndFromXContent] after test
+[2020-02-16T11:20:18,142][INFO ][o.e.a.g.GetResponseTests ] [testToString] before test
+[2020-02-16T11:20:18,142][INFO ][o.e.a.g.GetResponseTests ] [testToString] after test
+[2020-02-16T11:20:18,144][INFO ][o.e.a.g.GetResponseTests ] [testFromXContentWithRandomFields] before test
+[2020-02-16T11:20:18,147][INFO ][o.e.a.g.GetResponseTests ] [testFromXContentWithRandomFields] after test
+[2020-02-16T11:20:18,152][INFO ][o.e.a.g.GetResponseTests ] [testEqualsAndHashcode] before test
+[2020-02-16T11:20:18,153][INFO ][o.e.a.g.GetResponseTests ] [testEqualsAndHashcode] after test
+[2020-02-16T11:20:18,155][INFO ][o.e.a.g.GetResponseTests ] [testFromXContentThrowsParsingException] before test
+[2020-02-16T11:20:18,156][INFO ][o.e.a.g.GetResponseTests ] [testFromXContentThrowsParsingException] after test
+[2020-02-16T11:20:18,159][INFO ][o.e.a.g.GetResponseTests ] [testToXContent] before test
+[2020-02-16T11:20:18,159][INFO ][o.e.a.g.GetResponseTests ] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

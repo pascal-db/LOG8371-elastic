@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.metadata.MetaDataIndexStateServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.metadata.html">org.elasticsearch.cluster.metadata</a> &gt; MetaDataIndexStateServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.114s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAddIndexClosedBlocks</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAddIndexClosedBlocksReusesBlocks</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseFailedIfBlockDisappeared</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseRoutingTable</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseRoutingTableRemovesRoutingTable</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseRoutingTableWithRestoredIndex</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCloseRoutingTableWithSnapshottedIndex</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIsIndexVerifiedBeforeClosed</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidateShardLimit</td>
+<td class="success">0.040s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T19:20:34,733][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testIsIndexVerifiedBeforeClosed] before test
+[2020-02-16T19:20:34,735][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testIsIndexVerifiedBeforeClosed] after test
+[2020-02-16T19:20:34,749][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTable] before test
+[2020-02-16T19:20:34,752][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseRoutingTable] completed closing of indices [index-1, index-4]
+[2020-02-16T19:20:34,753][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTable] after test
+[2020-02-16T19:20:34,757][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableWithSnapshottedIndex] before test
+[2020-02-16T19:20:34,759][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseRoutingTableWithSnapshottedIndex] completed closing of indices []
+[2020-02-16T19:20:34,759][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableWithSnapshottedIndex] after test
+[2020-02-16T19:20:34,761][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testValidateShardLimit] before test
+[2020-02-16T19:20:34,798][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testValidateShardLimit] after test
+[2020-02-16T19:20:34,809][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testAddIndexClosedBlocks] before test
+[2020-02-16T19:20:34,811][INFO ][o.e.c.m.MetaDataIndexStateService] [testAddIndexClosedBlocks] closing indices [opened]
+[2020-02-16T19:20:34,814][INFO ][o.e.c.m.MetaDataIndexStateService] [testAddIndexClosedBlocks] closing indices [index-3],[index-2],[index-1]
+[2020-02-16T19:20:34,814][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testAddIndexClosedBlocks] after test
+[2020-02-16T19:20:34,819][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseFailedIfBlockDisappeared] before test
+[2020-02-16T19:20:34,819][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-1],[test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-1],[test-2],[test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-1],[test-2],[test-3],[test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] closing indices [test-1],[test-2],[test-3],[test-4],[test-0]
+[2020-02-16T19:20:34,820][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseFailedIfBlockDisappeared] completed closing of indices [test-2, test-4]
+[2020-02-16T19:20:34,821][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseFailedIfBlockDisappeared] after test
+[2020-02-16T19:20:34,823][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableRemovesRoutingTable] before test
+[2020-02-16T19:20:34,824][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseRoutingTableRemovesRoutingTable] completed closing of indices []
+[2020-02-16T19:20:34,824][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableRemovesRoutingTable] after test
+[2020-02-16T19:20:34,830][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testAddIndexClosedBlocksReusesBlocks] before test
+[2020-02-16T19:20:34,830][INFO ][o.e.c.m.MetaDataIndexStateService] [testAddIndexClosedBlocksReusesBlocks] closing indices [test]
+[2020-02-16T19:20:34,831][INFO ][o.e.c.m.MetaDataIndexStateService] [testAddIndexClosedBlocksReusesBlocks] closing indices [test]
+[2020-02-16T19:20:34,831][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testAddIndexClosedBlocksReusesBlocks] after test
+[2020-02-16T19:20:34,839][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableWithRestoredIndex] before test
+[2020-02-16T19:20:34,840][INFO ][o.e.c.m.MetaDataIndexStateService] [testCloseRoutingTableWithRestoredIndex] completed closing of indices []
+[2020-02-16T19:20:34,840][INFO ][o.e.c.m.MetaDataIndexStateServiceTests] [testCloseRoutingTableWithRestoredIndex] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

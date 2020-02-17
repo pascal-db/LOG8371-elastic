@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.IntervalQueryBuilderTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:07" hostname="Escoto-PC" time="0.177">
+  <properties/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.019"/>
+  <testcase name="testScriptFilter" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.012"/>
+  <testcase name="testMultipleProviders" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.002"/>
+  <testcase name="testWildcard" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.006"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.008"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.014"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.004"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.04"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.019"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.001"/>
+  <testcase name="testNonIndexedFields" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.015"/>
+  <testcase name="testMatchInterval" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.006"/>
+  <testcase name="testCombineDisjunctionInterval" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.003"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.007"/>
+  <testcase name="testPrefixes" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.005"/>
+  <testcase name="testCombineInterval" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.003"/>
+  <testcase name="testOrInterval" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.IntervalQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:23:07,135][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T23:23:07,136][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no modules loaded
+[2020-02-16T23:23:07,136][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no plugins loaded
+[2020-02-16T23:23:07,143][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no modules loaded
+[2020-02-16T23:23:07,143][INFO ][o.e.p.PluginsService     ] [testNegativeBoosts] no plugins loaded
+[2020-02-16T23:23:07,146][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T23:23:07,148][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testScriptFilter] before test
+[2020-02-16T23:23:07,159][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testScriptFilter] after test
+[2020-02-16T23:23:07,161][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testMultipleProviders] before test
+[2020-02-16T23:23:07,162][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testMultipleProviders] after test
+[2020-02-16T23:23:07,165][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testWildcard] before test
+[2020-02-16T23:23:07,167][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testWildcard] after test
+[2020-02-16T23:23:07,175][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T23:23:07,175][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T23:23:07,186][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testSerialization] before test
+[2020-02-16T23:23:07,189][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testSerialization] after test
+[2020-02-16T23:23:07,192][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:23:07,193][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:23:07,202][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T23:23:07,233][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T23:23:07,250][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T23:23:07,252][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T23:23:07,254][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T23:23:07,254][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T23:23:07,257][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testNonIndexedFields] before test
+[2020-02-16T23:23:07,258][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testNonIndexedFields] after test
+[2020-02-16T23:23:07,259][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testToQuery] before test
+[2020-02-16T23:23:07,272][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testToQuery] after test
+[2020-02-16T23:23:07,275][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testMatchInterval] before test
+[2020-02-16T23:23:07,278][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testMatchInterval] after test
+[2020-02-16T23:23:07,280][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testCombineDisjunctionInterval] before test
+[2020-02-16T23:23:07,282][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testCombineDisjunctionInterval] after test
+[2020-02-16T23:23:07,283][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testCacheability] before test
+[2020-02-16T23:23:07,284][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testCacheability] after test
+[2020-02-16T23:23:07,286][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T23:23:07,290][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T23:23:07,292][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testPrefixes] before test
+[2020-02-16T23:23:07,296][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testPrefixes] after test
+[2020-02-16T23:23:07,298][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testCombineInterval] before test
+[2020-02-16T23:23:07,299][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testCombineInterval] after test
+[2020-02-16T23:23:07,301][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testOrInterval] before test
+[2020-02-16T23:23:07,302][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testOrInterval] after test
+[2020-02-16T23:23:07,304][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T23:23:07,304][INFO ][o.e.i.q.IntervalQueryBuilderTests] [testUnknownField] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

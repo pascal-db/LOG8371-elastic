@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.configuration.AddVotingConfigExclusionsRequestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:59" hostname="Escoto-PC" time="0.548">
+  <properties/>
+  <testcase name="testResolveAndCheckMaximum" classname="org.elasticsearch.action.admin.cluster.configuration.AddVotingConfigExclusionsRequestTests" time="0.471"/>
+  <testcase name="testResolve" classname="org.elasticsearch.action.admin.cluster.configuration.AddVotingConfigExclusionsRequestTests" time="0.056"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.cluster.configuration.AddVotingConfigExclusionsRequestTests" time="0.019"/>
+  <system-out><![CDATA[[2020-02-16T14:19:59,582][INFO ][o.e.a.a.c.c.AddVotingConfigExclusionsRequestTests] [testResolveAndCheckMaximum] before test
+[2020-02-16T14:20:00,050][INFO ][o.e.a.a.c.c.AddVotingConfigExclusionsRequestTests] [testResolveAndCheckMaximum] after test
+[2020-02-16T14:20:00,104][INFO ][o.e.a.a.c.c.AddVotingConfigExclusionsRequestTests] [testResolve] before test
+[2020-02-16T14:20:00,107][INFO ][o.e.a.a.c.c.AddVotingConfigExclusionsRequestTests] [testResolve] after test
+[2020-02-16T14:20:00,111][INFO ][o.e.a.a.c.c.AddVotingConfigExclusionsRequestTests] [testSerialization] before test
+[2020-02-16T14:20:00,127][INFO ][o.e.a.a.c.c.AddVotingConfigExclusionsRequestTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

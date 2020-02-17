@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.082">
+  <properties/>
+  <testcase name="testSingleShardBalanceProducesSameResultsAsBalanceStep" classname="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" time="0.006"/>
+  <testcase name="testDontBalanceShardWhenThresholdNotMet" classname="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" time="0.005"/>
+  <testcase name="testRebalancingNotAllowedDueToCanRebalance" classname="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" time="0.004"/>
+  <testcase name="testRebalanceNotAllowedDuringPendingAsyncFetch" classname="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" time="0.007"/>
+  <testcase name="testNodeDecisionsRanking" classname="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" time="0.015"/>
+  <testcase name="testRebalanceNonStartedShardNotAllowed" classname="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" time="0.031"/>
+  <testcase name="testRebalancePossible" classname="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" time="0.01"/>
+  <testcase name="testRebalancingNotAllowedDueToCanAllocate" classname="org.elasticsearch.cluster.routing.allocation.BalancedSingleShardTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T17:20:37,798][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testSingleShardBalanceProducesSameResultsAsBalanceStep] before test
+[2020-02-16T17:20:37,801][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testSingleShardBalanceProducesSameResultsAsBalanceStep] after test
+[2020-02-16T17:20:37,804][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testDontBalanceShardWhenThresholdNotMet] before test
+[2020-02-16T17:20:37,806][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testDontBalanceShardWhenThresholdNotMet] after test
+[2020-02-16T17:20:37,808][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalancingNotAllowedDueToCanRebalance] before test
+[2020-02-16T17:20:37,809][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalancingNotAllowedDueToCanRebalance] after test
+[2020-02-16T17:20:37,812][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalanceNotAllowedDuringPendingAsyncFetch] before test
+[2020-02-16T17:20:37,816][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalanceNotAllowedDuringPendingAsyncFetch] after test
+[2020-02-16T17:20:37,820][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testNodeDecisionsRanking] before test
+[2020-02-16T17:20:37,832][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testNodeDecisionsRanking] after test
+[2020-02-16T17:20:37,860][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalanceNonStartedShardNotAllowed] before test
+[2020-02-16T17:20:37,862][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalanceNonStartedShardNotAllowed] after test
+[2020-02-16T17:20:37,871][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalancePossible] before test
+[2020-02-16T17:20:37,872][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalancePossible] after test
+[2020-02-16T17:20:37,874][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalancingNotAllowedDueToCanAllocate] before test
+[2020-02-16T17:20:37,876][INFO ][o.e.c.r.a.BalancedSingleShardTests] [testRebalancingNotAllowedDueToCanAllocate] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

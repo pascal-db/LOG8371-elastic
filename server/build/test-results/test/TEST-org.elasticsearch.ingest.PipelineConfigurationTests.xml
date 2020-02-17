@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.PipelineConfigurationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:59" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testParser" classname="org.elasticsearch.ingest.PipelineConfigurationTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.ingest.PipelineConfigurationTests" time="0.007"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.ingest.PipelineConfigurationTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:24:59,316][INFO ][o.e.i.PipelineConfigurationTests] [testParser] before test
+[2020-02-16T23:24:59,317][INFO ][o.e.i.PipelineConfigurationTests] [testParser] after test
+[2020-02-16T23:24:59,319][INFO ][o.e.i.PipelineConfigurationTests] [testFromXContent] before test
+[2020-02-16T23:24:59,325][INFO ][o.e.i.PipelineConfigurationTests] [testFromXContent] after test
+[2020-02-16T23:24:59,328][INFO ][o.e.i.PipelineConfigurationTests] [testSerialization] before test
+[2020-02-16T23:24:59,328][INFO ][o.e.i.PipelineConfigurationTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

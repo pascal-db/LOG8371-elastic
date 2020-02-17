@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.main.MainResponseTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.037">
+  <properties/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.main.MainResponseTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.main.MainResponseTests" time="0.014"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.main.MainResponseTests" time="0.013"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.main.MainResponseTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T04:20:37,777][INFO ][o.e.a.m.MainResponseTests] [testToXContent] before test
+[2020-02-17T04:20:37,780][INFO ][o.e.a.m.MainResponseTests] [testToXContent] after test
+[2020-02-17T04:20:37,783][INFO ][o.e.a.m.MainResponseTests] [testFromXContent] before test
+[2020-02-17T04:20:37,794][INFO ][o.e.a.m.MainResponseTests] [testFromXContent] after test
+[2020-02-17T04:20:37,803][INFO ][o.e.a.m.MainResponseTests] [testEqualsAndHashcode] before test
+[2020-02-17T04:20:37,807][INFO ][o.e.a.m.MainResponseTests] [testEqualsAndHashcode] after test
+[2020-02-17T04:20:37,811][INFO ][o.e.a.m.MainResponseTests] [testSerialization] before test
+[2020-02-17T04:20:37,812][INFO ][o.e.a.m.MainResponseTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

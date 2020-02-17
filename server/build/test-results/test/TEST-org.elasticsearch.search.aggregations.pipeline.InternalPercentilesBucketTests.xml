@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:28" hostname="Escoto-PC" time="0.041">
+  <properties/>
+  <testcase name="testPercentOrder" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.005"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.005"/>
+  <testcase name="testParsedAggregationIteratorOrder" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.009"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.007"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.004"/>
+  <testcase name="testEmptyRanksXContent" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.003"/>
+  <testcase name="testErrorOnDifferentArgumentSize" classname="org.elasticsearch.search.aggregations.pipeline.InternalPercentilesBucketTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T08:24:28,188][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testPercentOrder] before test
+[2020-02-17T08:24:28,190][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testPercentOrder] after test
+[2020-02-17T08:24:28,193][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T08:24:28,195][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T08:24:28,198][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testParsedAggregationIteratorOrder] before test
+[2020-02-17T08:24:28,198][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testParsedAggregationIteratorOrder] after test
+[2020-02-17T08:24:28,206][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testReduceRandom] before test
+[2020-02-17T08:24:28,207][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testReduceRandom] after test
+[2020-02-17T08:24:28,212][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testEqualsAndHashcode] before test
+[2020-02-17T08:24:28,214][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testEqualsAndHashcode] after test
+[2020-02-17T08:24:28,217][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testFromXContent] before test
+[2020-02-17T08:24:28,218][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testFromXContent] after test
+[2020-02-17T08:24:28,220][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testEmptyRanksXContent] before test
+[2020-02-17T08:24:28,220][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testEmptyRanksXContent] after test
+[2020-02-17T08:24:28,222][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testSerialization] before test
+[2020-02-17T08:24:28,223][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testSerialization] after test
+[2020-02-17T08:24:28,226][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testErrorOnDifferentArgumentSize] before test
+[2020-02-17T08:24:28,226][INFO ][o.e.s.a.p.InternalPercentilesBucketTests] [testErrorOnDifferentArgumentSize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

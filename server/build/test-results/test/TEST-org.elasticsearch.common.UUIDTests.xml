@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.UUIDTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:01" hostname="Escoto-PC" time="2.143">
+  <properties/>
+  <testcase name="testRandomUUID" classname="org.elasticsearch.common.UUIDTests" time="0.144"/>
+  <testcase name="testThreadedTimeUUID" classname="org.elasticsearch.common.UUIDTests" time="0.113"/>
+  <testcase name="testTimeUUID" classname="org.elasticsearch.common.UUIDTests" time="0.028"/>
+  <testcase name="testCompression" classname="org.elasticsearch.common.UUIDTests" time="1.532"/>
+  <testcase name="testThreadedRandomUUID" classname="org.elasticsearch.common.UUIDTests" time="0.324"/>
+  <system-out><![CDATA[[2020-02-16T15:22:01,335][INFO ][o.e.c.UUIDTests          ] [testRandomUUID] before test
+[2020-02-16T15:22:01,477][INFO ][o.e.c.UUIDTests          ] [testRandomUUID] after test
+[2020-02-16T15:22:01,479][INFO ][o.e.c.UUIDTests          ] [testThreadedTimeUUID] before test
+[2020-02-16T15:22:01,591][INFO ][o.e.c.UUIDTests          ] [testThreadedTimeUUID] after test
+[2020-02-16T15:22:01,592][INFO ][o.e.c.UUIDTests          ] [testTimeUUID] before test
+[2020-02-16T15:22:01,619][INFO ][o.e.c.UUIDTests          ] [testTimeUUID] after test
+[2020-02-16T15:22:01,624][INFO ][o.e.c.UUIDTests          ] [testCompression] before test
+[2020-02-16T15:22:02,226][INFO ][o.e.c.UUIDTests          ] [testCompression] 100000 docs indexed at 10000 docs/s required 1mb bytes of disk space, or 10.66695 bytes per document. Took: 352ms.
+[2020-02-16T15:22:02,739][INFO ][o.e.c.UUIDTests          ] [testCompression] 100000 docs indexed at 1000 docs/s required 1mb bytes of disk space, or 11.43409 bytes per document. Took: 364ms.
+[2020-02-16T15:22:03,150][INFO ][o.e.c.UUIDTests          ] [testCompression] 100000 docs indexed at 100 docs/s required 1.8mb bytes of disk space, or 19.48879 bytes per document. Took: 236ms.
+[2020-02-16T15:22:03,150][INFO ][o.e.c.UUIDTests          ] [testCompression] after test
+[2020-02-16T15:22:03,157][INFO ][o.e.c.UUIDTests          ] [testThreadedRandomUUID] before test
+[2020-02-16T15:22:03,474][INFO ][o.e.c.UUIDTests          ] [testThreadedRandomUUID] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

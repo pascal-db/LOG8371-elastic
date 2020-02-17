@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.IndexSettingsTests" tests="25" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:12" hostname="Escoto-PC" time="0.082">
+  <properties/>
+  <testcase name="testMaxRegexLengthSetting" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testIgnoreTranslogRetentionSettingsIfSoftDeletesEnabled" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testSettingsUpdateValidator" classname="org.elasticsearch.index.IndexSettingsTests" time="0.006"/>
+  <testcase name="testTranslogGenerationSizeThreshold" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testRefreshInterval" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testArchivedSettingsValidation" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testSettingsConsistency" classname="org.elasticsearch.index.IndexSettingsTests" time="0.005"/>
+  <testcase name="testGCDeletesSetting" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testMaxResultWindow" classname="org.elasticsearch.index.IndexSettingsTests" time="0.005"/>
+  <testcase name="testQueryDefaultField" classname="org.elasticsearch.index.IndexSettingsTests" time="0.004"/>
+  <testcase name="testTranslogFlushSizeThreshold" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testMaxAdjacencyMatrixFiltersSetting" classname="org.elasticsearch.index.IndexSettingsTests" time="0.007"/>
+  <testcase name="testMaxDocvalueFields" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testMaxInnerResultWindow" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testMaxScriptFields" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testPrivateSettingsValidation" classname="org.elasticsearch.index.IndexSettingsTests" time="0.005"/>
+  <testcase name="testUpdateSoftDeletesFails" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testMergedSettingsArePassed" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testUpdateDurability" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testArchiveBrokenIndexSettings" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testUpdateTranslogRetentionSettingsWithSoftDeletesDisabled" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testIsWarmerEnabled" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testRunListener" classname="org.elasticsearch.index.IndexSettingsTests" time="0.003"/>
+  <testcase name="testSoftDeletesDefaultSetting" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <testcase name="testNodeSettingsAreContained" classname="org.elasticsearch.index.IndexSettingsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:22:12,451][INFO ][o.e.i.IndexSettingsTests ] [testMaxRegexLengthSetting] before test
+[2020-02-17T06:22:12,452][INFO ][o.e.c.s.IndexScopedSettings] [testMaxRegexLengthSetting] updating [index.max_regex_length] from [99] to [101]
+[2020-02-17T06:22:12,452][INFO ][o.e.c.s.IndexScopedSettings] [testMaxRegexLengthSetting] updating [index.max_regex_length] from [101] to [1000]
+[2020-02-17T06:22:12,452][INFO ][o.e.i.IndexSettingsTests ] [testMaxRegexLengthSetting] after test
+[2020-02-17T06:22:12,454][INFO ][o.e.i.IndexSettingsTests ] [testIgnoreTranslogRetentionSettingsIfSoftDeletesEnabled] before test
+[2020-02-17T06:22:12,455][INFO ][o.e.c.s.IndexScopedSettings] [testIgnoreTranslogRetentionSettingsIfSoftDeletesEnabled] updating [index.translog.retention.age] from [491h] to [167m]
+[2020-02-17T06:22:12,455][INFO ][o.e.i.IndexSettingsTests ] [testIgnoreTranslogRetentionSettingsIfSoftDeletesEnabled] after test
+[2020-02-17T06:22:12,457][INFO ][o.e.i.IndexSettingsTests ] [testSettingsUpdateValidator] before test
+[2020-02-17T06:22:12,459][WARN ][o.e.c.s.IndexScopedSettings] [testSettingsUpdateValidator] failed to prepareCommit settings for [Updater for: {
+  "key" : "index.test.setting.int",
+  "properties" : [
+    "Dynamic",
+    "IndexScope"
+  ],
+  "is_group_setting" : false,
+  "default" : "-1"
+}]
+java.lang.IllegalArgumentException: illegal value can't update [index.test.setting.int] from [-1] to [42]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1021) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) [main/:?]
+	at org.elasticsearch.index.IndexSettings.updateIndexMetaData(IndexSettings.java:716) [main/:?]
+	at org.elasticsearch.index.IndexSettingsTests.lambda$testSettingsUpdateValidator$1(IndexSettingsTests.java:90) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.IndexSettingsTests.testSettingsUpdateValidator(IndexSettingsTests.java:90) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.AssertionError: boom
+	at org.elasticsearch.index.IndexSettingsTests.lambda$testSettingsUpdateValidator$0(IndexSettingsTests.java:82) ~[test/:?]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1015) ~[main/:?]
+	... 44 more
+[2020-02-17T06:22:12,460][WARN ][o.e.c.s.IndexScopedSettings] [testSettingsUpdateValidator] failed to apply settings
+java.lang.IllegalArgumentException: illegal value can't update [index.test.setting.int] from [-1] to [42]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1021) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings$SettingUpdater.updater(AbstractScopedSettings.java:608) ~[main/:?]
+	at org.elasticsearch.common.settings.AbstractScopedSettings.applySettings(AbstractScopedSettings.java:184) [main/:?]
+	at org.elasticsearch.index.IndexSettings.updateIndexMetaData(IndexSettings.java:716) [main/:?]
+	at org.elasticsearch.index.IndexSettingsTests.lambda$testSettingsUpdateValidator$1(IndexSettingsTests.java:90) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.IndexSettingsTests.testSettingsUpdateValidator(IndexSettingsTests.java:90) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.AssertionError: boom
+	at org.elasticsearch.index.IndexSettingsTests.lambda$testSettingsUpdateValidator$0(IndexSettingsTests.java:82) ~[test/:?]
+	at org.elasticsearch.common.settings.Setting$Updater.getValue(Setting.java:1015) ~[main/:?]
+	... 44 more
+[2020-02-17T06:22:12,461][INFO ][o.e.c.s.IndexScopedSettings] [testSettingsUpdateValidator] updating [index.test.setting.int] from [-1] to [41]
+[2020-02-17T06:22:12,461][INFO ][o.e.i.IndexSettingsTests ] [testSettingsUpdateValidator] after test
+[2020-02-17T06:22:12,463][INFO ][o.e.i.IndexSettingsTests ] [testTranslogGenerationSizeThreshold] before test
+[2020-02-17T06:22:12,463][INFO ][o.e.c.s.IndexScopedSettings] [testTranslogGenerationSizeThreshold] updating [index.translog.generation_threshold_size] from [1122376622B] to [250123638B]
+[2020-02-17T06:22:12,463][INFO ][o.e.i.IndexSettingsTests ] [testTranslogGenerationSizeThreshold] after test
+[2020-02-17T06:22:12,465][INFO ][o.e.i.IndexSettingsTests ] [testRefreshInterval] before test
+[2020-02-17T06:22:12,465][INFO ][o.e.i.IndexSettingsTests ] [testRefreshInterval] after test
+[2020-02-17T06:22:12,467][INFO ][o.e.i.IndexSettingsTests ] [testArchivedSettingsValidation] before test
+[2020-02-17T06:22:12,469][INFO ][o.e.i.IndexSettingsTests ] [testArchivedSettingsValidation] after test
+[2020-02-17T06:22:12,472][INFO ][o.e.i.IndexSettingsTests ] [testSettingsConsistency] before test
+[2020-02-17T06:22:12,474][INFO ][o.e.i.IndexSettingsTests ] [testSettingsConsistency] after test
+[2020-02-17T06:22:12,475][INFO ][o.e.i.IndexSettingsTests ] [testGCDeletesSetting] before test
+[2020-02-17T06:22:12,476][INFO ][o.e.c.s.IndexScopedSettings] [testGCDeletesSetting] updating [index.gc_deletes] from [896449701ms] to [747041873ms]
+[2020-02-17T06:22:12,476][INFO ][o.e.c.s.IndexScopedSettings] [testGCDeletesSetting] updating [index.gc_deletes] from [747041873ms] to [-1]
+[2020-02-17T06:22:12,476][INFO ][o.e.i.IndexSettingsTests ] [testGCDeletesSetting] after test
+[2020-02-17T06:22:12,479][INFO ][o.e.i.IndexSettingsTests ] [testMaxResultWindow] before test
+[2020-02-17T06:22:12,480][INFO ][o.e.c.s.IndexScopedSettings] [testMaxResultWindow] updating [index.max_result_window] from [15] to [42]
+[2020-02-17T06:22:12,480][INFO ][o.e.c.s.IndexScopedSettings] [testMaxResultWindow] updating [index.max_rescore_window] from [15] to [42]
+[2020-02-17T06:22:12,480][INFO ][o.e.c.s.IndexScopedSettings] [testMaxResultWindow] updating [index.max_result_window] from [42] to [10000]
+[2020-02-17T06:22:12,480][INFO ][o.e.c.s.IndexScopedSettings] [testMaxResultWindow] updating [index.max_rescore_window] from [42] to [10000]
+[2020-02-17T06:22:12,481][INFO ][o.e.i.IndexSettingsTests ] [testMaxResultWindow] after test
+[2020-02-17T06:22:12,483][INFO ][o.e.i.IndexSettingsTests ] [testQueryDefaultField] before test
+[2020-02-17T06:22:12,485][INFO ][o.e.c.s.IndexScopedSettings] [testQueryDefaultField] updating [index.query.default_field] from [["body"]] to [["body","title"]]
+[2020-02-17T06:22:12,485][INFO ][o.e.i.IndexSettingsTests ] [testQueryDefaultField] after test
+[2020-02-17T06:22:12,487][INFO ][o.e.i.IndexSettingsTests ] [testTranslogFlushSizeThreshold] before test
+[2020-02-17T06:22:12,488][INFO ][o.e.c.s.IndexScopedSettings] [testTranslogFlushSizeThreshold] updating [index.translog.flush_threshold_size] from [768695799B] to [581228574B]
+[2020-02-17T06:22:12,488][INFO ][o.e.i.IndexSettingsTests ] [testTranslogFlushSizeThreshold] after test
+[2020-02-17T06:22:12,491][INFO ][o.e.i.IndexSettingsTests ] [testMaxAdjacencyMatrixFiltersSetting] before test
+[2020-02-17T06:22:12,492][WARN ][o.e.d.c.s.Settings       ] [testMaxAdjacencyMatrixFiltersSetting] [index.max_adjacency_matrix_filters] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T06:22:12,494][INFO ][o.e.c.s.IndexScopedSettings] [testMaxAdjacencyMatrixFiltersSetting] updating [index.max_adjacency_matrix_filters] from [15] to [42]
+[2020-02-17T06:22:12,494][INFO ][o.e.c.s.IndexScopedSettings] [testMaxAdjacencyMatrixFiltersSetting] updating [index.max_adjacency_matrix_filters] from [42] to [100]
+[2020-02-17T06:22:12,495][INFO ][o.e.i.IndexSettingsTests ] [testMaxAdjacencyMatrixFiltersSetting] after test
+[2020-02-17T06:22:12,497][INFO ][o.e.i.IndexSettingsTests ] [testMaxDocvalueFields] before test
+[2020-02-17T06:22:12,497][INFO ][o.e.c.s.IndexScopedSettings] [testMaxDocvalueFields] updating [index.max_docvalue_fields_search] from [200] to [50]
+[2020-02-17T06:22:12,497][INFO ][o.e.c.s.IndexScopedSettings] [testMaxDocvalueFields] updating [index.max_docvalue_fields_search] from [50] to [100]
+[2020-02-17T06:22:12,498][INFO ][o.e.i.IndexSettingsTests ] [testMaxDocvalueFields] after test
+[2020-02-17T06:22:12,499][INFO ][o.e.i.IndexSettingsTests ] [testMaxInnerResultWindow] before test
+[2020-02-17T06:22:12,500][INFO ][o.e.c.s.IndexScopedSettings] [testMaxInnerResultWindow] updating [index.max_inner_result_window] from [200] to [50]
+[2020-02-17T06:22:12,500][INFO ][o.e.c.s.IndexScopedSettings] [testMaxInnerResultWindow] updating [index.max_inner_result_window] from [50] to [100]
+[2020-02-17T06:22:12,500][INFO ][o.e.i.IndexSettingsTests ] [testMaxInnerResultWindow] after test
+[2020-02-17T06:22:12,502][INFO ][o.e.i.IndexSettingsTests ] [testMaxScriptFields] before test
+[2020-02-17T06:22:12,503][INFO ][o.e.c.s.IndexScopedSettings] [testMaxScriptFields] updating [index.max_script_fields] from [100] to [20]
+[2020-02-17T06:22:12,503][INFO ][o.e.c.s.IndexScopedSettings] [testMaxScriptFields] updating [index.max_script_fields] from [20] to [32]
+[2020-02-17T06:22:12,503][INFO ][o.e.i.IndexSettingsTests ] [testMaxScriptFields] after test
+[2020-02-17T06:22:12,506][INFO ][o.e.i.IndexSettingsTests ] [testPrivateSettingsValidation] before test
+[2020-02-17T06:22:12,509][INFO ][o.e.i.IndexSettingsTests ] [testPrivateSettingsValidation] after test
+[2020-02-17T06:22:12,511][INFO ][o.e.i.IndexSettingsTests ] [testUpdateSoftDeletesFails] before test
+[2020-02-17T06:22:12,511][INFO ][o.e.i.IndexSettingsTests ] [testUpdateSoftDeletesFails] after test
+[2020-02-17T06:22:12,513][INFO ][o.e.i.IndexSettingsTests ] [testMergedSettingsArePassed] before test
+[2020-02-17T06:22:12,514][INFO ][o.e.c.s.IndexScopedSettings] [testMergedSettingsArePassed] updating [index.test.setting.int] from [-1] to [42]
+[2020-02-17T06:22:12,514][INFO ][o.e.c.s.IndexScopedSettings] [testMergedSettingsArePassed] updating [index.not.updated] from [] to [boom]
+[2020-02-17T06:22:12,514][INFO ][o.e.i.IndexSettingsTests ] [testMergedSettingsArePassed] after test
+[2020-02-17T06:22:12,516][INFO ][o.e.i.IndexSettingsTests ] [testUpdateDurability] before test
+[2020-02-17T06:22:12,516][INFO ][o.e.c.s.IndexScopedSettings] [testUpdateDurability] updating [index.translog.durability] from [async] to [request]
+[2020-02-17T06:22:12,516][INFO ][o.e.i.IndexSettingsTests ] [testUpdateDurability] after test
+[2020-02-17T06:22:12,518][INFO ][o.e.i.IndexSettingsTests ] [testArchiveBrokenIndexSettings] before test
+[2020-02-17T06:22:12,519][INFO ][o.e.i.IndexSettingsTests ] [testArchiveBrokenIndexSettings] after test
+[2020-02-17T06:22:12,521][INFO ][o.e.i.IndexSettingsTests ] [testUpdateTranslogRetentionSettingsWithSoftDeletesDisabled] before test
+[2020-02-17T06:22:12,522][INFO ][o.e.i.IndexSettingsTests ] [testUpdateTranslogRetentionSettingsWithSoftDeletesDisabled] after test
+[2020-02-17T06:22:12,524][INFO ][o.e.i.IndexSettingsTests ] [testIsWarmerEnabled] before test
+[2020-02-17T06:22:12,524][INFO ][o.e.c.s.IndexScopedSettings] [testIsWarmerEnabled] updating [index.warmer.enabled] from [false] to [true]
+[2020-02-17T06:22:12,524][INFO ][o.e.i.IndexSettingsTests ] [testIsWarmerEnabled] after test
+[2020-02-17T06:22:12,526][INFO ][o.e.i.IndexSettingsTests ] [testRunListener] before test
+[2020-02-17T06:22:12,527][INFO ][o.e.c.s.IndexScopedSettings] [testRunListener] updating [index.test.setting.int] from [-1] to [42]
+[2020-02-17T06:22:12,527][INFO ][o.e.i.IndexSettingsTests ] [testRunListener] after test
+[2020-02-17T06:22:12,528][INFO ][o.e.i.IndexSettingsTests ] [testSoftDeletesDefaultSetting] before test
+[2020-02-17T06:22:12,528][INFO ][o.e.i.IndexSettingsTests ] [testSoftDeletesDefaultSetting] after test
+[2020-02-17T06:22:12,530][INFO ][o.e.i.IndexSettingsTests ] [testNodeSettingsAreContained] before test
+[2020-02-17T06:22:12,531][INFO ][o.e.c.s.IndexScopedSettings] [testNodeSettingsAreContained] updating [index.foo.bar] from [0] to [42]
+[2020-02-17T06:22:12,531][INFO ][o.e.c.s.IndexScopedSettings] [testNodeSettingsAreContained] updating [index.foo.bar] from [42] to [43]
+[2020-02-17T06:22:12,531][INFO ][o.e.i.IndexSettingsTests ] [testNodeSettingsAreContained] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

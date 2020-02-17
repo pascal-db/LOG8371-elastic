@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.completion.RegexOptionsTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:52" hostname="Escoto-PC" time="0.01">
+  <properties/>
+  <testcase name="testIllegalArgument" classname="org.elasticsearch.search.suggest.completion.RegexOptionsTests" time="0.006"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.completion.RegexOptionsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T04:55:52,746][INFO ][o.e.s.s.c.RegexOptionsTests] [testIllegalArgument] before test
+[2020-02-17T04:55:52,751][INFO ][o.e.s.s.c.RegexOptionsTests] [testIllegalArgument] after test
+[2020-02-17T04:55:52,753][INFO ][o.e.s.s.c.RegexOptionsTests] [testSerialization] before test
+[2020-02-17T04:55:52,754][INFO ][o.e.s.s.c.RegexOptionsTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

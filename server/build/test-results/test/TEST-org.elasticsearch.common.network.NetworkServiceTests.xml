@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.network.NetworkServiceTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:48" hostname="Escoto-PC" time="0.55">
+  <properties/>
+  <testcase name="testBindMultipleAddressesWithWildcard" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.005"/>
+  <testcase name="testPublishMulticastV4" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.003"/>
+  <testcase name="testBindMulticastV4" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.002"/>
+  <testcase name="testPublishAnyLocalV4" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.277"/>
+  <testcase name="testPublishMulticastV6" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.003"/>
+  <testcase name="testBindMulticastV6" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.002"/>
+  <testcase name="testBindAnyLocalV6" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.001"/>
+  <testcase name="testBindAnyLocalV4" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.001"/>
+  <testcase name="testBindMultipleAddresses" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.002"/>
+  <testcase name="testPublishAnyLocalV6" classname="org.elasticsearch.common.network.NetworkServiceTests" time="0.252"/>
+  <system-out><![CDATA[[2020-02-16T14:21:48,835][INFO ][o.e.c.n.NetworkServiceTests] [testBindMultipleAddressesWithWildcard] before test
+[2020-02-16T14:21:48,837][INFO ][o.e.c.n.NetworkServiceTests] [testBindMultipleAddressesWithWildcard] after test
+[2020-02-16T14:21:48,840][INFO ][o.e.c.n.NetworkServiceTests] [testPublishMulticastV4] before test
+[2020-02-16T14:21:48,840][INFO ][o.e.c.n.NetworkServiceTests] [testPublishMulticastV4] after test
+[2020-02-16T14:21:48,842][INFO ][o.e.c.n.NetworkServiceTests] [testBindMulticastV4] before test
+[2020-02-16T14:21:48,843][INFO ][o.e.c.n.NetworkServiceTests] [testBindMulticastV4] after test
+[2020-02-16T14:21:48,868][INFO ][o.e.c.n.NetworkServiceTests] [testPublishAnyLocalV4] before test
+[2020-02-16T14:21:49,120][INFO ][o.e.c.n.NetworkServiceTests] [testPublishAnyLocalV4] after test
+[2020-02-16T14:21:49,123][INFO ][o.e.c.n.NetworkServiceTests] [testPublishMulticastV6] before test
+[2020-02-16T14:21:49,123][INFO ][o.e.c.n.NetworkServiceTests] [testPublishMulticastV6] after test
+[2020-02-16T14:21:49,125][INFO ][o.e.c.n.NetworkServiceTests] [testBindMulticastV6] before test
+[2020-02-16T14:21:49,125][INFO ][o.e.c.n.NetworkServiceTests] [testBindMulticastV6] after test
+[2020-02-16T14:21:49,126][INFO ][o.e.c.n.NetworkServiceTests] [testBindAnyLocalV6] before test
+[2020-02-16T14:21:49,127][INFO ][o.e.c.n.NetworkServiceTests] [testBindAnyLocalV6] after test
+[2020-02-16T14:21:49,128][INFO ][o.e.c.n.NetworkServiceTests] [testBindAnyLocalV4] before test
+[2020-02-16T14:21:49,128][INFO ][o.e.c.n.NetworkServiceTests] [testBindAnyLocalV4] after test
+[2020-02-16T14:21:49,130][INFO ][o.e.c.n.NetworkServiceTests] [testBindMultipleAddresses] before test
+[2020-02-16T14:21:49,130][INFO ][o.e.c.n.NetworkServiceTests] [testBindMultipleAddresses] after test
+[2020-02-16T14:21:49,132][INFO ][o.e.c.n.NetworkServiceTests] [testPublishAnyLocalV6] before test
+[2020-02-16T14:21:49,382][INFO ][o.e.c.n.NetworkServiceTests] [testPublishAnyLocalV6] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

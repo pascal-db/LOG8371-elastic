@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.IntervalBuilderTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:37" hostname="Escoto-PC" time="0.054">
+  <properties/>
+  <testcase name="testEmptyTokenStream" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.018"/>
+  <testcase name="testSimpleSynonyms" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.01"/>
+  <testcase name="testUnordered" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.003"/>
+  <testcase name="testSimpleTerm" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.002"/>
+  <testcase name="testGraphTerminatesOnGap" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.007"/>
+  <testcase name="testOrdered" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.002"/>
+  <testcase name="testPhrase" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.003"/>
+  <testcase name="testSimpleSynonymsWithGap" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.002"/>
+  <testcase name="testGraphSynonymsWithGaps" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.002"/>
+  <testcase name="testGraphSynonyms" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.002"/>
+  <testcase name="testPhraseWithStopword" classname="org.elasticsearch.index.query.IntervalBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:23:37,906][INFO ][o.e.i.q.IntervalBuilderTests] [testEmptyTokenStream] before test
+[2020-02-16T18:23:37,921][INFO ][o.e.i.q.IntervalBuilderTests] [testEmptyTokenStream] after test
+[2020-02-16T18:23:37,924][INFO ][o.e.i.q.IntervalBuilderTests] [testSimpleSynonyms] before test
+[2020-02-16T18:23:37,931][INFO ][o.e.i.q.IntervalBuilderTests] [testSimpleSynonyms] after test
+[2020-02-16T18:23:37,934][INFO ][o.e.i.q.IntervalBuilderTests] [testUnordered] before test
+[2020-02-16T18:23:37,935][INFO ][o.e.i.q.IntervalBuilderTests] [testUnordered] after test
+[2020-02-16T18:23:37,936][INFO ][o.e.i.q.IntervalBuilderTests] [testSimpleTerm] before test
+[2020-02-16T18:23:37,936][INFO ][o.e.i.q.IntervalBuilderTests] [testSimpleTerm] after test
+[2020-02-16T18:23:37,938][INFO ][o.e.i.q.IntervalBuilderTests] [testGraphTerminatesOnGap] before test
+[2020-02-16T18:23:37,944][INFO ][o.e.i.q.IntervalBuilderTests] [testGraphTerminatesOnGap] after test
+[2020-02-16T18:23:37,946][INFO ][o.e.i.q.IntervalBuilderTests] [testOrdered] before test
+[2020-02-16T18:23:37,946][INFO ][o.e.i.q.IntervalBuilderTests] [testOrdered] after test
+[2020-02-16T18:23:37,948][INFO ][o.e.i.q.IntervalBuilderTests] [testPhrase] before test
+[2020-02-16T18:23:37,948][INFO ][o.e.i.q.IntervalBuilderTests] [testPhrase] after test
+[2020-02-16T18:23:37,950][INFO ][o.e.i.q.IntervalBuilderTests] [testSimpleSynonymsWithGap] before test
+[2020-02-16T18:23:37,950][INFO ][o.e.i.q.IntervalBuilderTests] [testSimpleSynonymsWithGap] after test
+[2020-02-16T18:23:37,952][INFO ][o.e.i.q.IntervalBuilderTests] [testGraphSynonymsWithGaps] before test
+[2020-02-16T18:23:37,953][INFO ][o.e.i.q.IntervalBuilderTests] [testGraphSynonymsWithGaps] after test
+[2020-02-16T18:23:37,955][INFO ][o.e.i.q.IntervalBuilderTests] [testGraphSynonyms] before test
+[2020-02-16T18:23:37,955][INFO ][o.e.i.q.IntervalBuilderTests] [testGraphSynonyms] after test
+[2020-02-16T18:23:37,957][INFO ][o.e.i.q.IntervalBuilderTests] [testPhraseWithStopword] before test
+[2020-02-16T18:23:37,958][INFO ][o.e.i.q.IntervalBuilderTests] [testPhraseWithStopword] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

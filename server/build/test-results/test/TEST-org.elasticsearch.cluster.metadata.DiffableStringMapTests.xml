@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.DiffableStringMapTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testRandomDiffing" classname="org.elasticsearch.cluster.metadata.DiffableStringMapTests" time="0.003"/>
+  <testcase name="testDiffableStringMapDiff" classname="org.elasticsearch.cluster.metadata.DiffableStringMapTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.metadata.DiffableStringMapTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T08:21:33,081][INFO ][o.e.c.m.DiffableStringMapTests] [testRandomDiffing] before test
+[2020-02-17T08:21:33,083][INFO ][o.e.c.m.DiffableStringMapTests] [testRandomDiffing] after test
+[2020-02-17T08:21:33,084][INFO ][o.e.c.m.DiffableStringMapTests] [testDiffableStringMapDiff] before test
+[2020-02-17T08:21:33,084][INFO ][o.e.c.m.DiffableStringMapTests] [testDiffableStringMapDiff] after test
+[2020-02-17T08:21:33,087][INFO ][o.e.c.m.DiffableStringMapTests] [testSerialization] before test
+[2020-02-17T08:21:33,087][INFO ][o.e.c.m.DiffableStringMapTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

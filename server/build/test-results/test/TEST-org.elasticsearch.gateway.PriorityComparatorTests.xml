@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.PriorityComparatorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:25" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testPreferPriorityIndices" classname="org.elasticsearch.gateway.PriorityComparatorTests" time="0.013"/>
+  <testcase name="testPreferNewIndices" classname="org.elasticsearch.gateway.PriorityComparatorTests" time="0.013"/>
+  <testcase name="testPriorityComparatorSort" classname="org.elasticsearch.gateway.PriorityComparatorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T02:22:25,917][INFO ][o.e.g.PriorityComparatorTests] [testPreferPriorityIndices] before test
+[2020-02-17T02:22:25,927][INFO ][o.e.g.PriorityComparatorTests] [testPreferPriorityIndices] after test
+[2020-02-17T02:22:25,941][INFO ][o.e.g.PriorityComparatorTests] [testPreferNewIndices] before test
+[2020-02-17T02:22:25,941][INFO ][o.e.g.PriorityComparatorTests] [testPreferNewIndices] after test
+[2020-02-17T02:22:25,943][INFO ][o.e.g.PriorityComparatorTests] [testPriorityComparatorSort] before test
+[2020-02-17T02:22:25,944][INFO ][o.e.g.PriorityComparatorTests] [testPriorityComparatorSort] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

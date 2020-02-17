@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.InternalAutoDateHistogramTests" tests="7" skipped="1" failures="0" errors="0" timestamp="2020-02-16T22:24:17" hostname="Escoto-PC" time="0.081">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalAutoDateHistogramTests" time="0.015"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalAutoDateHistogramTests" time="0.022"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalAutoDateHistogramTests" time="0.018"/>
+  <testcase name="testGetAppropriateRoundingUsesCorrectIntervals" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalAutoDateHistogramTests" time="0.013"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalAutoDateHistogramTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalAutoDateHistogramTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.histogram.InternalAutoDateHistogramTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-17T00:24:17,787][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testFromXContent] before test
+[2020-02-17T00:24:17,799][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testFromXContent] after test
+[2020-02-17T00:24:17,821][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T00:24:17,822][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T00:24:17,824][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:24:17,839][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:24:17,852][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testGetAppropriateRoundingUsesCorrectIntervals] before test
+[2020-02-17T00:24:17,852][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testGetAppropriateRoundingUsesCorrectIntervals] after test
+[2020-02-17T00:24:17,854][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testIterators] before test
+[2020-02-17T00:24:17,855][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testIterators] after test
+[2020-02-17T00:24:17,858][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testSerialization] before test
+[2020-02-17T00:24:17,865][INFO ][o.e.s.a.b.h.InternalAutoDateHistogramTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

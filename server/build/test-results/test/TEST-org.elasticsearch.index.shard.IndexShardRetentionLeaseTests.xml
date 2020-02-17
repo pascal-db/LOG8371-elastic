@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.IndexShardRetentionLeaseTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:24" hostname="Escoto-PC" time="0.785">
+  <properties/>
+  <testcase name="testExpirationOnReplica" classname="org.elasticsearch.index.shard.IndexShardRetentionLeaseTests" time="0.111"/>
+  <testcase name="testPersistence" classname="org.elasticsearch.index.shard.IndexShardRetentionLeaseTests" time="0.143"/>
+  <testcase name="testAddOrRenewRetentionLease" classname="org.elasticsearch.index.shard.IndexShardRetentionLeaseTests" time="0.069"/>
+  <testcase name="testRemoveRetentionLease" classname="org.elasticsearch.index.shard.IndexShardRetentionLeaseTests" time="0.06"/>
+  <testcase name="testRetentionLeaseStats" classname="org.elasticsearch.index.shard.IndexShardRetentionLeaseTests" time="0.176"/>
+  <testcase name="testRetentionLeasesActionsFailWithSoftDeletesDisabled" classname="org.elasticsearch.index.shard.IndexShardRetentionLeaseTests" time="0.144"/>
+  <testcase name="testExpirationOnPrimary" classname="org.elasticsearch.index.shard.IndexShardRetentionLeaseTests" time="0.081"/>
+  <system-out><![CDATA[[2020-02-17T00:23:24,320][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testExpirationOnReplica] before test
+[2020-02-17T00:23:24,428][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testExpirationOnReplica] after test
+[2020-02-17T00:23:24,431][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testPersistence] before test
+[2020-02-17T00:23:24,571][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testPersistence] after test
+[2020-02-17T00:23:24,575][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testAddOrRenewRetentionLease] before test
+[2020-02-17T00:23:24,640][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testAddOrRenewRetentionLease] after test
+[2020-02-17T00:23:24,646][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testRemoveRetentionLease] before test
+[2020-02-17T00:23:24,702][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testRemoveRetentionLease] after test
+[2020-02-17T00:23:24,709][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testRetentionLeaseStats] before test
+[2020-02-17T00:23:24,807][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testRetentionLeaseStats] after test
+[2020-02-17T00:23:24,954][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testRetentionLeasesActionsFailWithSoftDeletesDisabled] before test
+[2020-02-17T00:23:25,021][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testRetentionLeasesActionsFailWithSoftDeletesDisabled] after test
+[2020-02-17T00:23:25,024][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testExpirationOnPrimary] before test
+[2020-02-17T00:23:25,103][INFO ][o.e.i.s.IndexShardRetentionLeaseTests] [testExpirationOnPrimary] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

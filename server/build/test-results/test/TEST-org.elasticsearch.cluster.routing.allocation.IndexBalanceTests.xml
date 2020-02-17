@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.IndexBalanceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.029">
+  <properties/>
+  <testcase name="testBalanceAllNodesStartedAddIndex" classname="org.elasticsearch.cluster.routing.allocation.IndexBalanceTests" time="0.019"/>
+  <testcase name="testBalanceAllNodesStarted" classname="org.elasticsearch.cluster.routing.allocation.IndexBalanceTests" time="0.004"/>
+  <testcase name="testBalanceIncrementallyStartNodes" classname="org.elasticsearch.cluster.routing.allocation.IndexBalanceTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T14:20:39,063][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] before test
+[2020-02-16T14:20:39,067][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Building initial routing table
+[2020-02-16T14:20:39,067][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Adding three node and performing rerouting
+[2020-02-16T14:20:39,067][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Another round of rebalancing
+[2020-02-16T14:20:39,068][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Reroute, nothing should change
+[2020-02-16T14:20:39,068][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Start the more shards
+[2020-02-16T14:20:39,068][INFO ][o.e.c.r.a.AllocationService] [testBalanceAllNodesStartedAddIndex] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][2], [test][0]]]).
+[2020-02-16T14:20:39,068][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Add new index 3 shards 1 replica
+[2020-02-16T14:20:39,069][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Another round of rebalancing
+[2020-02-16T14:20:39,070][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Reroute, nothing should change
+[2020-02-16T14:20:39,070][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Start the more shards
+[2020-02-16T14:20:39,070][INFO ][o.e.c.r.a.AllocationService] [testBalanceAllNodesStartedAddIndex] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][2], [test1][0]]]).
+[2020-02-16T14:20:39,070][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] after test
+[2020-02-16T14:20:39,072][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] before test
+[2020-02-16T14:20:39,073][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Building initial routing table
+[2020-02-16T14:20:39,073][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Adding three node and performing rerouting
+[2020-02-16T14:20:39,074][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Another round of rebalancing
+[2020-02-16T14:20:39,074][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Reroute, nothing should change
+[2020-02-16T14:20:39,074][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Start the more shards
+[2020-02-16T14:20:39,074][INFO ][o.e.c.r.a.AllocationService] [testBalanceAllNodesStarted] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][2], [test1][0], [test][1], [test][2], [test][0]]]).
+[2020-02-16T14:20:39,075][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] after test
+[2020-02-16T14:20:39,076][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] before test
+[2020-02-16T14:20:39,078][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Building initial routing table
+[2020-02-16T14:20:39,078][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Adding one node and performing rerouting
+[2020-02-16T14:20:39,078][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Add another node and perform rerouting, nothing will happen since primary not started
+[2020-02-16T14:20:39,078][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Start the primary shard
+[2020-02-16T14:20:39,079][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Reroute, nothing should change
+[2020-02-16T14:20:39,079][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Start the backup shard
+[2020-02-16T14:20:39,079][INFO ][o.e.c.r.a.AllocationService] [testBalanceIncrementallyStartNodes] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][2], [test1][0], [test][1], [test][2], [test][0]]]).
+[2020-02-16T14:20:39,079][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Add another node and perform rerouting, nothing will happen since primary not started
+[2020-02-16T14:20:39,080][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Reroute, nothing should change
+[2020-02-16T14:20:39,080][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Start the backup shard
+[2020-02-16T14:20:39,080][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.SpanNearQueryBuilderTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:41" hostname="Escoto-PC" time="0.054">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.012"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.001"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.003"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.003"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.005"/>
+  <testcase name="testParsingSlopDefault" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.001"/>
+  <testcase name="testClausesUnmodifiable" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromJsonWithNonDefaultBoostInInnerQuery" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.006"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.003"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.002"/>
+  <testcase name="testCollectPayloadsNoLongerSupported" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.SpanNearQueryBuilderTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T13:23:41,192][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testSerialization] before test
+[2020-02-16T13:23:41,194][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T13:23:41,194][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T13:23:41,199][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T13:23:41,199][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T13:23:41,202][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testSerialization] after test
+[2020-02-16T13:23:41,204][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T13:23:41,204][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T13:23:41,205][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T13:23:41,205][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T13:23:41,207][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T13:23:41,207][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T13:23:41,209][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T13:23:41,210][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T13:23:41,213][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T13:23:41,213][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T13:23:41,215][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testToQuery] before test
+[2020-02-16T13:23:41,218][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testToQuery] after test
+[2020-02-16T13:23:41,220][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testParsingSlopDefault] before test
+[2020-02-16T13:23:41,220][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testParsingSlopDefault] after test
+[2020-02-16T13:23:41,222][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testCacheability] before test
+[2020-02-16T13:23:41,222][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testCacheability] after test
+[2020-02-16T13:23:41,224][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testClausesUnmodifiable] before test
+[2020-02-16T13:23:41,224][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testClausesUnmodifiable] after test
+[2020-02-16T13:23:41,227][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T13:23:41,227][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T13:23:41,229][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testFromJsonWithNonDefaultBoostInInnerQuery] before test
+[2020-02-16T13:23:41,229][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testFromJsonWithNonDefaultBoostInInnerQuery] after test
+[2020-02-16T13:23:41,231][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T13:23:41,236][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T13:23:41,237][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T13:23:41,238][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T13:23:41,241][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T13:23:41,241][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T13:23:41,243][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testCollectPayloadsNoLongerSupported] before test
+[2020-02-16T13:23:41,243][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testCollectPayloadsNoLongerSupported] after test
+[2020-02-16T13:23:41,245][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testFromJson] before test
+[2020-02-16T13:23:41,245][INFO ][o.e.i.q.SpanNearQueryBuilderTests] [testFromJson] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

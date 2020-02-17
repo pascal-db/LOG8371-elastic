@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.similarity.ScriptedSimilarityTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:37" hostname="Escoto-PC" time="0.054">
+  <properties/>
+  <testcase name="testSameNormsAsBM25DiscountOverlaps" classname="org.elasticsearch.index.similarity.ScriptedSimilarityTests" time="0.003"/>
+  <testcase name="testBasics" classname="org.elasticsearch.index.similarity.ScriptedSimilarityTests" time="0.039"/>
+  <testcase name="testInitScript" classname="org.elasticsearch.index.similarity.ScriptedSimilarityTests" time="0.007"/>
+  <testcase name="testSameNormsAsBM25CountOverlaps" classname="org.elasticsearch.index.similarity.ScriptedSimilarityTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T02:24:37,472][INFO ][o.e.i.s.ScriptedSimilarityTests] [testSameNormsAsBM25DiscountOverlaps] before test
+[2020-02-17T02:24:37,473][INFO ][o.e.i.s.ScriptedSimilarityTests] [testSameNormsAsBM25DiscountOverlaps] after test
+[2020-02-17T02:24:37,475][INFO ][o.e.i.s.ScriptedSimilarityTests] [testBasics] before test
+[2020-02-17T02:24:37,512][INFO ][o.e.i.s.ScriptedSimilarityTests] [testBasics] after test
+[2020-02-17T02:24:37,515][INFO ][o.e.i.s.ScriptedSimilarityTests] [testInitScript] before test
+[2020-02-17T02:24:37,518][INFO ][o.e.i.s.ScriptedSimilarityTests] [testInitScript] after test
+[2020-02-17T02:24:37,523][INFO ][o.e.i.s.ScriptedSimilarityTests] [testSameNormsAsBM25CountOverlaps] before test
+[2020-02-17T02:24:37,523][INFO ][o.e.i.s.ScriptedSimilarityTests] [testSameNormsAsBM25CountOverlaps] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

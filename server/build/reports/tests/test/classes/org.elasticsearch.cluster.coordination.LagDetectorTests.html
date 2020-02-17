@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.coordination.LagDetectorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.coordination.LagDetectorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.coordination.html">org.elasticsearch.cluster.coordination</a> &gt; LagDetectorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">13</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.077s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDetectorIgnoresApplicationsFromUnknownNodes</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDetectorIgnoresNodesAddedAfterStarted</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDetectorKeepsTrackingExistingNodesEvenIfNewOnesAdded</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLagDetectedIfNodeAppliesEarlierVersionAfterLagDetectorStarted</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLagDetectedIfNodeAppliesVersionJustAfterTimeout</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLagDetection</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLagDetectorNotStartedIfNodeHasAlreadyAppliedVersion</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoLagDetectedIfDetectorIsClearedAfterLagDetectorStarted</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoLagDetectedIfNodeAppliesLaterVersionAfterLagDetectorStarted</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoLagDetectedIfNodeAppliesVersionAfterLagDetectorStarted</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoLagDetectedIfNodeAppliesVersionJustBeforeTimeout</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoLagDetectedIfNodeIsRemovedAfterLagDetectorStarted</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoLagDetectedOnLocalNode</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T15:21:31,633][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorKeepsTrackingExistingNodesEvenIfNewOnesAdded] before test
+[2020-02-16T15:21:31,636][WARN ][o.e.c.c.LagDetector      ] [testDetectorKeepsTrackingExistingNodesEvenIfNewOnesAdded] node [{node1}{g7KgHAAAQACoVVBiAAAAAA}{0.0.0.0}{0.0.0.0:2}{dim}] is lagging at cluster state version [0], although publication of cluster state version [1] completed [1.5m] ago
+[2020-02-16T15:21:31,636][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorKeepsTrackingExistingNodesEvenIfNewOnesAdded] after test
+[2020-02-16T15:21:31,639][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorIgnoresApplicationsFromUnknownNodes] before test
+[2020-02-16T15:21:31,640][WARN ][o.e.c.c.LagDetector      ] [testDetectorIgnoresApplicationsFromUnknownNodes] node [{node1}{LQ4w9f__T_-j4wNRAAAAAA}{0.0.0.0}{0.0.0.0:5}{dim}] is lagging at cluster state version [0], although publication of cluster state version [1] completed [34.1s] ago
+[2020-02-16T15:21:31,640][WARN ][o.e.c.c.LagDetector      ] [testDetectorIgnoresApplicationsFromUnknownNodes] node [{node1}{LQ4w9f__T_-j4wNRAAAAAA}{0.0.0.0}{0.0.0.0:5}{dim}] is lagging at cluster state version [0], although publication of cluster state version [2] completed [34.1s] ago
+[2020-02-16T15:21:31,640][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorIgnoresApplicationsFromUnknownNodes] after test
+[2020-02-16T15:21:31,645][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedOnLocalNode] before test
+[2020-02-16T15:21:31,646][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedOnLocalNode] after test
+[2020-02-16T15:21:31,648][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesLaterVersionAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,649][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesLaterVersionAfterLagDetectorStarted] after test
+[2020-02-16T15:21:31,652][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesVersionJustBeforeTimeout] before test
+[2020-02-16T15:21:31,653][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesVersionJustBeforeTimeout] after test
+[2020-02-16T15:21:31,662][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetection] before test
+[2020-02-16T15:21:31,663][WARN ][o.e.c.c.LagDetector      ] [testLagDetection] node [{node1}{gIQCpf__T_-DrKul_____w}{0.0.0.0}{0.0.0.0:17}{dim}] is lagging at cluster state version [3], although publication of cluster state version [4] completed [1.5m] ago
+[2020-02-16T15:21:31,663][WARN ][o.e.c.c.LagDetector      ] [testLagDetection] node [{node1}{gIQCpf__T_-DrKul_____w}{0.0.0.0}{0.0.0.0:17}{dim}] is lagging at cluster state version [0], although publication of cluster state version [6] completed [1.5m] ago
+[2020-02-16T15:21:31,663][WARN ][o.e.c.c.LagDetector      ] [testLagDetection] node [{node2}{UK0f1f__T_-BxFHQ_____w}{0.0.0.0}{0.0.0.0:18}{dim}] is lagging at cluster state version [7], although publication of cluster state version [8] completed [1.5m] ago
+[2020-02-16T15:21:31,663][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetection] after test
+[2020-02-16T15:21:31,675][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorIgnoresNodesAddedAfterStarted] before test
+[2020-02-16T15:21:31,679][INFO ][o.e.c.c.LagDetectorTests ] [testDetectorIgnoresNodesAddedAfterStarted] after test
+[2020-02-16T15:21:31,681][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectedIfNodeAppliesVersionJustAfterTimeout] before test
+[2020-02-16T15:21:31,684][WARN ][o.e.c.c.LagDetector      ] [testLagDetectedIfNodeAppliesVersionJustAfterTimeout] node [{node1}{cZ-3ZwAAQACXuSOY_____w}{0.0.0.0}{0.0.0.0:23}{dim}] is lagging at cluster state version [0], although publication of cluster state version [1] completed [1.5m] ago
+[2020-02-16T15:21:31,684][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectedIfNodeAppliesVersionJustAfterTimeout] after test
+[2020-02-16T15:21:31,689][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectedIfNodeAppliesEarlierVersionAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,690][WARN ][o.e.c.c.LagDetector      ] [testLagDetectedIfNodeAppliesEarlierVersionAfterLagDetectorStarted] node [{node1}{JxCDhf__T_-gOVcoAAAAAA}{0.0.0.0}{0.0.0.0:26}{dim}] is lagging at cluster state version [1], although publication of cluster state version [2] completed [58.1s] ago
+[2020-02-16T15:21:31,690][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectedIfNodeAppliesEarlierVersionAfterLagDetectorStarted] after test
+[2020-02-16T15:21:31,693][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectorNotStartedIfNodeHasAlreadyAppliedVersion] before test
+[2020-02-16T15:21:31,694][INFO ][o.e.c.c.LagDetectorTests ] [testLagDetectorNotStartedIfNodeHasAlreadyAppliedVersion] after test
+[2020-02-16T15:21:31,696][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeIsRemovedAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,697][WARN ][o.e.c.c.LagDetector      ] [testNoLagDetectedIfNodeIsRemovedAfterLagDetectorStarted] node [{node2}{ds-VCgAAQACnbxcOAAAAAA}{0.0.0.0}{0.0.0.0:33}{dim}] is lagging at cluster state version [0], although publication of cluster state version [2] completed [1.5m] ago
+[2020-02-16T15:21:31,697][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeIsRemovedAfterLagDetectorStarted] after test
+[2020-02-16T15:21:31,702][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfDetectorIsClearedAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,703][WARN ][o.e.c.c.LagDetector      ] [testNoLagDetectedIfDetectorIsClearedAfterLagDetectorStarted] node [{node1}{FO2K4v__T_-vxHm0_____w}{0.0.0.0}{0.0.0.0:35}{dim}] is lagging at cluster state version [0], although publication of cluster state version [2] completed [39s] ago
+[2020-02-16T15:21:31,703][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfDetectorIsClearedAfterLagDetectorStarted] after test
+[2020-02-16T15:21:31,710][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesVersionAfterLagDetectorStarted] before test
+[2020-02-16T15:21:31,710][INFO ][o.e.c.c.LagDetectorTests ] [testNoLagDetectedIfNodeAppliesVersionAfterLagDetectorStarted] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

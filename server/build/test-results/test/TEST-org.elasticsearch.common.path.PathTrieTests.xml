@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.path.PathTrieTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:48" hostname="Escoto-PC" time="0.034">
+  <properties/>
+  <testcase name="testPath" classname="org.elasticsearch.common.path.PathTrieTests" time="0.006"/>
+  <testcase name="testSamePathConcreteResolution" classname="org.elasticsearch.common.path.PathTrieTests" time="0.002"/>
+  <testcase name="testEscapedSlashWithinUrl" classname="org.elasticsearch.common.path.PathTrieTests" time="0.002"/>
+  <testcase name="testPreferNonWildcardExecution" classname="org.elasticsearch.common.path.PathTrieTests" time="0.004"/>
+  <testcase name="testWildcardMatchingModes" classname="org.elasticsearch.common.path.PathTrieTests" time="0.005"/>
+  <testcase name="testExplicitMatchingMode" classname="org.elasticsearch.common.path.PathTrieTests" time="0.004"/>
+  <testcase name="testEmptyPath" classname="org.elasticsearch.common.path.PathTrieTests" time="0.004"/>
+  <testcase name="testDifferentNamesOnDifferentPath" classname="org.elasticsearch.common.path.PathTrieTests" time="0.002"/>
+  <testcase name="testNamedWildcardAndLookupWithWildcard" classname="org.elasticsearch.common.path.PathTrieTests" time="0.002"/>
+  <testcase name="testSameNameOnDifferentPath" classname="org.elasticsearch.common.path.PathTrieTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:20:48,393][INFO ][o.e.c.p.PathTrieTests    ] [testPath] before test
+[2020-02-16T22:20:48,396][INFO ][o.e.c.p.PathTrieTests    ] [testPath] after test
+[2020-02-16T22:20:48,398][INFO ][o.e.c.p.PathTrieTests    ] [testSamePathConcreteResolution] before test
+[2020-02-16T22:20:48,398][INFO ][o.e.c.p.PathTrieTests    ] [testSamePathConcreteResolution] after test
+[2020-02-16T22:20:48,400][INFO ][o.e.c.p.PathTrieTests    ] [testEscapedSlashWithinUrl] before test
+[2020-02-16T22:20:48,400][INFO ][o.e.c.p.PathTrieTests    ] [testEscapedSlashWithinUrl] after test
+[2020-02-16T22:20:48,403][INFO ][o.e.c.p.PathTrieTests    ] [testPreferNonWildcardExecution] before test
+[2020-02-16T22:20:48,404][INFO ][o.e.c.p.PathTrieTests    ] [testPreferNonWildcardExecution] after test
+[2020-02-16T22:20:48,408][INFO ][o.e.c.p.PathTrieTests    ] [testWildcardMatchingModes] before test
+[2020-02-16T22:20:48,409][INFO ][o.e.c.p.PathTrieTests    ] [testWildcardMatchingModes] after test
+[2020-02-16T22:20:48,413][INFO ][o.e.c.p.PathTrieTests    ] [testExplicitMatchingMode] before test
+[2020-02-16T22:20:48,413][INFO ][o.e.c.p.PathTrieTests    ] [testExplicitMatchingMode] after test
+[2020-02-16T22:20:48,417][INFO ][o.e.c.p.PathTrieTests    ] [testEmptyPath] before test
+[2020-02-16T22:20:48,417][INFO ][o.e.c.p.PathTrieTests    ] [testEmptyPath] after test
+[2020-02-16T22:20:48,419][INFO ][o.e.c.p.PathTrieTests    ] [testDifferentNamesOnDifferentPath] before test
+[2020-02-16T22:20:48,419][INFO ][o.e.c.p.PathTrieTests    ] [testDifferentNamesOnDifferentPath] after test
+[2020-02-16T22:20:48,421][INFO ][o.e.c.p.PathTrieTests    ] [testNamedWildcardAndLookupWithWildcard] before test
+[2020-02-16T22:20:48,421][INFO ][o.e.c.p.PathTrieTests    ] [testNamedWildcardAndLookupWithWildcard] after test
+[2020-02-16T22:20:48,424][INFO ][o.e.c.p.PathTrieTests    ] [testSameNameOnDifferentPath] before test
+[2020-02-16T22:20:48,424][INFO ][o.e.c.p.PathTrieTests    ] [testSameNameOnDifferentPath] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

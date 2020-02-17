@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.common.settings.ConsistentSettingsServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.common.settings.ConsistentSettingsServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.common.settings.html">org.elasticsearch.common.settings</a> &gt; ConsistentSettingsServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.348s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testSingleAffixSetting</td>
+<td class="success">0.217s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleStringSetting</td>
+<td class="success">0.052s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStringAndAffixSettings</td>
+<td class="success">0.079s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T19:21:51,847][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testSingleStringSetting] before test
+[2020-02-16T19:21:51,852][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleStringSetting] no published hash for the consistent secure setting [test.simple.foo] but it exists on the local node
+[2020-02-16T19:21:51,871][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleStringSetting] the published hash [tT3w4XIHqet/3AQwTWYOwhvJmu8hPPmPT1CSn4LCTmJsLfxzCBBkRC/TS8hThOZH3sbq4tw4Pi16QV7IdS+76A==] of the consistent secure setting [test.simple.foo] differs from the locally computed one [Tlnk2IZG8P9K+7XPfiUXl88vihOJM3cLL0MD9V60tjlfuF+DIp2WQ/4rZQhDimM0FoyMkTs7AZXXqBAgkLbP7g==]
+[2020-02-16T19:21:51,878][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleStringSetting] the published hash [tT3w4XIHqet/3AQwTWYOwhvJmu8hPPmPT1CSn4LCTmJsLfxzCBBkRC/TS8hThOZH3sbq4tw4Pi16QV7IdS+76A==] of the consistent secure setting [test.simple.foo] differs from the locally computed one [Tlnk2IZG8P9K+7XPfiUXl88vihOJM3cLL0MD9V60tjlfuF+DIp2WQ/4rZQhDimM0FoyMkTs7AZXXqBAgkLbP7g==]
+[2020-02-16T19:21:51,897][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testSingleStringSetting] after test
+[2020-02-16T19:21:51,899][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testSingleAffixSetting] before test
+[2020-02-16T19:21:51,900][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] no published hash for the consistent secure setting [test.affix.first.bar] but it exists on the local node
+[2020-02-16T19:21:51,900][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] no published hash for the consistent secure setting [test.affix.second.bar] but it exists on the local node
+[2020-02-16T19:21:51,983][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] the published hash [gZOXkFoPP7V5GJev7X4GFw06wwAjcdChLZx5hoZj6Exbj3MV8gUP0rCEuJtwiIPNXSJjlkK/G3eEOD8WwEQHLw==] of the consistent secure setting [test.affix.second.bar] differs from the locally computed one [5yeQkRs1vkYbUDaoe51rL5qGY6pvjZ2futw63KK+kBmHHNjWGtXKyv2fiJ4wPGpAJxV3g5ZknUcjiJ+IdzIhgg==]
+[2020-02-16T19:21:51,999][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] the published hash [gZOXkFoPP7V5GJev7X4GFw06wwAjcdChLZx5hoZj6Exbj3MV8gUP0rCEuJtwiIPNXSJjlkK/G3eEOD8WwEQHLw==] of the consistent secure setting [test.affix.second.bar] differs from the locally computed one [5yeQkRs1vkYbUDaoe51rL5qGY6pvjZ2futw63KK+kBmHHNjWGtXKyv2fiJ4wPGpAJxV3g5ZknUcjiJ+IdzIhgg==]
+[2020-02-16T19:21:52,061][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] no published hash for the consistent secure setting [test.affix.third.bar] but it exists on the local node
+[2020-02-16T19:21:52,108][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] the published hash [76EYQtLAes1FtBv99D5NJePJATB+DCF7CFZbmnlXDk1E5ryQtJgXFWZ2c+I8Igwz8E2dx2VYTYiCpfSChrrKUQ==] of the consistent secure setting [test.affix.second.bar] differs from the locally computed one [SBgRMhCa7a+RclLasRevEUiuQmGvZdxa8877aV7OmvpLc2OojRkhxCPSVt35PBnpVi3JeT76J5V76drXI7n1SQ==]
+[2020-02-16T19:21:52,115][WARN ][o.e.c.s.ConsistentSettingsService] [testSingleAffixSetting] the consistent secure setting [test.affix.first.bar] does not exist on the local node but there is a published hash for it
+[2020-02-16T19:21:52,115][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testSingleAffixSetting] after test
+[2020-02-16T19:21:52,117][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testStringAndAffixSettings] before test
+[2020-02-16T19:21:52,117][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.simple.foo] but it exists on the local node
+[2020-02-16T19:21:52,117][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.affix.foo.bar] but it exists on the local node
+[2020-02-16T19:21:52,130][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.affix.foo.bar] but it exists on the local node
+[2020-02-16T19:21:52,137][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.affix.foo.bar] but it exists on the local node
+[2020-02-16T19:21:52,144][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.simple.foo] but it exists on the local node
+[2020-02-16T19:21:52,152][WARN ][o.e.c.s.ConsistentSettingsService] [testStringAndAffixSettings] no published hash for the consistent secure setting [mock.simple.foo] but it exists on the local node
+[2020-02-16T19:21:52,194][INFO ][o.e.c.s.ConsistentSettingsServiceTests] [testStringAndAffixSettings] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

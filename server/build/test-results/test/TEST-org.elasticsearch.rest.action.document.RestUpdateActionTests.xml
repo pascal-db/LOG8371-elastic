@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.document.RestUpdateActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.document.RestUpdateActionTests" time="0.007"/>
+  <testcase name="testUpdateDocVersion" classname="org.elasticsearch.rest.action.document.RestUpdateActionTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-17T11:25:17,997][INFO ][o.e.r.a.d.RestUpdateActionTests] [testTypeInPath] before test
+[2020-02-17T11:25:18,000][WARN ][o.e.d.r.a.d.RestUpdateAction] [testTypeInPath] [types removal] Specifying types in document update requests is deprecated, use the endpoint /{index}/_update/{id} instead.
+[2020-02-17T11:25:18,002][INFO ][o.e.r.a.d.RestUpdateActionTests] [testTypeInPath] after test
+[2020-02-17T11:25:18,005][INFO ][o.e.r.a.d.RestUpdateActionTests] [testUpdateDocVersion] before test
+[2020-02-17T11:25:18,006][INFO ][o.e.r.a.d.RestUpdateActionTests] [testUpdateDocVersion] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

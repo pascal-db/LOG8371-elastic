@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.settings.SettingsTests" tests="36" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.121">
+  <properties/>
+  <testcase name="testEmptyFilterMap" classname="org.elasticsearch.common.settings.SettingsTests" time="0.004"/>
+  <testcase name="testSimpleJsonSettings" classname="org.elasticsearch.common.settings.SettingsTests" time="0.009"/>
+  <testcase name="testMultLevelGetPrefix" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testWriteLegacyOutput" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testPrefixMap" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testGroupPrefix" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testReadLegacyFromStream" classname="org.elasticsearch.common.settings.SettingsTests" time="0.001"/>
+  <testcase name="testCopy" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testNames" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testGetAsSettings" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testWriteSettingsToStream" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testThatArraysAreOverriddenCorrectly" classname="org.elasticsearch.common.settings.SettingsTests" time="0.013"/>
+  <testcase name="testIndentationWithExplicitDocumentStart" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testToAndFromXContent" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testMissingValue" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testIndentation" classname="org.elasticsearch.common.settings.SettingsTests" time="0.004"/>
+  <testcase name="testSetByTimeUnit" classname="org.elasticsearch.common.settings.SettingsTests" time="0.005"/>
+  <testcase name="testReplacePropertiesPlaceholderSystemVariablesHaveNoEffect" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testReadWriteArray" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testGetAsArrayFailsOnDuplicates" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testProcessSetting" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testReplacePropertiesPlaceholderByEnvironmentVariables" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testSecureSettingIllegalName" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testYamlLegacyList" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testPrefixNormalization" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testReplacePropertiesPlaceholderSystemProperty" classname="org.elasticsearch.common.settings.SettingsTests" time="0.012"/>
+  <testcase name="testSimpleYamlSettings" classname="org.elasticsearch.common.settings.SettingsTests" time="0.005"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testFilteredMap" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testReplacePropertiesPlaceholderSystemPropertyList" classname="org.elasticsearch.common.settings.SettingsTests" time="0.003"/>
+  <testcase name="testSecureSettingConflict" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testSecureSettingsPrefix" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testFractionalByteSizeValue" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testLoadEmptyStream" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <testcase name="testFractionalTimeValue" classname="org.elasticsearch.common.settings.SettingsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:20:50,524][INFO ][o.e.c.s.SettingsTests    ] [testEmptyFilterMap] before test
+[2020-02-17T06:20:50,527][INFO ][o.e.c.s.SettingsTests    ] [testEmptyFilterMap] after test
+[2020-02-17T06:20:50,535][INFO ][o.e.c.s.SettingsTests    ] [testSimpleJsonSettings] before test
+[2020-02-17T06:20:50,536][INFO ][o.e.c.s.SettingsTests    ] [testSimpleJsonSettings] after test
+[2020-02-17T06:20:50,538][INFO ][o.e.c.s.SettingsTests    ] [testMultLevelGetPrefix] before test
+[2020-02-17T06:20:50,538][INFO ][o.e.c.s.SettingsTests    ] [testMultLevelGetPrefix] after test
+[2020-02-17T06:20:50,540][INFO ][o.e.c.s.SettingsTests    ] [testWriteLegacyOutput] before test
+[2020-02-17T06:20:50,541][INFO ][o.e.c.s.SettingsTests    ] [testWriteLegacyOutput] after test
+[2020-02-17T06:20:50,543][INFO ][o.e.c.s.SettingsTests    ] [testPrefixMap] before test
+[2020-02-17T06:20:50,543][INFO ][o.e.c.s.SettingsTests    ] [testPrefixMap] after test
+[2020-02-17T06:20:50,545][INFO ][o.e.c.s.SettingsTests    ] [testGroupPrefix] before test
+[2020-02-17T06:20:50,546][INFO ][o.e.c.s.SettingsTests    ] [testGroupPrefix] after test
+[2020-02-17T06:20:50,547][INFO ][o.e.c.s.SettingsTests    ] [testToXContent] before test
+[2020-02-17T06:20:50,548][INFO ][o.e.c.s.SettingsTests    ] [testToXContent] after test
+[2020-02-17T06:20:50,549][INFO ][o.e.c.s.SettingsTests    ] [testReadLegacyFromStream] before test
+[2020-02-17T06:20:50,549][INFO ][o.e.c.s.SettingsTests    ] [testReadLegacyFromStream] after test
+[2020-02-17T06:20:50,551][INFO ][o.e.c.s.SettingsTests    ] [testCopy] before test
+[2020-02-17T06:20:50,551][INFO ][o.e.c.s.SettingsTests    ] [testCopy] after test
+[2020-02-17T06:20:50,553][INFO ][o.e.c.s.SettingsTests    ] [testNames] before test
+[2020-02-17T06:20:50,553][INFO ][o.e.c.s.SettingsTests    ] [testNames] after test
+[2020-02-17T06:20:50,555][INFO ][o.e.c.s.SettingsTests    ] [testGetAsSettings] before test
+[2020-02-17T06:20:50,555][INFO ][o.e.c.s.SettingsTests    ] [testGetAsSettings] after test
+[2020-02-17T06:20:50,556][INFO ][o.e.c.s.SettingsTests    ] [testWriteSettingsToStream] before test
+[2020-02-17T06:20:50,557][INFO ][o.e.c.s.SettingsTests    ] [testWriteSettingsToStream] after test
+[2020-02-17T06:20:50,559][INFO ][o.e.c.s.SettingsTests    ] [testThatArraysAreOverriddenCorrectly] before test
+[2020-02-17T06:20:50,570][INFO ][o.e.c.s.SettingsTests    ] [testThatArraysAreOverriddenCorrectly] after test
+[2020-02-17T06:20:50,572][INFO ][o.e.c.s.SettingsTests    ] [testIndentationWithExplicitDocumentStart] before test
+[2020-02-17T06:20:50,574][INFO ][o.e.c.s.SettingsTests    ] [testIndentationWithExplicitDocumentStart] after test
+[2020-02-17T06:20:50,575][INFO ][o.e.c.s.SettingsTests    ] [testToAndFromXContent] before test
+[2020-02-17T06:20:50,576][INFO ][o.e.c.s.SettingsTests    ] [testToAndFromXContent] after test
+[2020-02-17T06:20:50,577][INFO ][o.e.c.s.SettingsTests    ] [testMissingValue] before test
+[2020-02-17T06:20:50,579][INFO ][o.e.c.s.SettingsTests    ] [testMissingValue] after test
+[2020-02-17T06:20:50,581][INFO ][o.e.c.s.SettingsTests    ] [testIndentation] before test
+[2020-02-17T06:20:50,583][INFO ][o.e.c.s.SettingsTests    ] [testIndentation] after test
+[2020-02-17T06:20:50,588][INFO ][o.e.c.s.SettingsTests    ] [testSetByTimeUnit] before test
+[2020-02-17T06:20:50,589][INFO ][o.e.c.s.SettingsTests    ] [testSetByTimeUnit] after test
+[2020-02-17T06:20:50,590][INFO ][o.e.c.s.SettingsTests    ] [testReplacePropertiesPlaceholderSystemVariablesHaveNoEffect] before test
+[2020-02-17T06:20:50,591][INFO ][o.e.c.s.SettingsTests    ] [testReplacePropertiesPlaceholderSystemVariablesHaveNoEffect] after test
+[2020-02-17T06:20:50,593][INFO ][o.e.c.s.SettingsTests    ] [testReadWriteArray] before test
+[2020-02-17T06:20:50,594][INFO ][o.e.c.s.SettingsTests    ] [testReadWriteArray] after test
+[2020-02-17T06:20:50,596][INFO ][o.e.c.s.SettingsTests    ] [testGetAsArrayFailsOnDuplicates] before test
+[2020-02-17T06:20:50,596][INFO ][o.e.c.s.SettingsTests    ] [testGetAsArrayFailsOnDuplicates] after test
+[2020-02-17T06:20:50,598][INFO ][o.e.c.s.SettingsTests    ] [testProcessSetting] before test
+[2020-02-17T06:20:50,598][INFO ][o.e.c.s.SettingsTests    ] [testProcessSetting] after test
+[2020-02-17T06:20:50,600][INFO ][o.e.c.s.SettingsTests    ] [testReplacePropertiesPlaceholderByEnvironmentVariables] before test
+[2020-02-17T06:20:50,601][INFO ][o.e.c.s.SettingsTests    ] [testReplacePropertiesPlaceholderByEnvironmentVariables] after test
+[2020-02-17T06:20:50,604][INFO ][o.e.c.s.SettingsTests    ] [testSecureSettingIllegalName] before test
+[2020-02-17T06:20:50,604][INFO ][o.e.c.s.SettingsTests    ] [testSecureSettingIllegalName] after test
+[2020-02-17T06:20:50,607][INFO ][o.e.c.s.SettingsTests    ] [testYamlLegacyList] before test
+[2020-02-17T06:20:50,607][INFO ][o.e.c.s.SettingsTests    ] [testYamlLegacyList] after test
+[2020-02-17T06:20:50,610][INFO ][o.e.c.s.SettingsTests    ] [testPrefixNormalization] before test
+[2020-02-17T06:20:50,610][INFO ][o.e.c.s.SettingsTests    ] [testPrefixNormalization] after test
+[2020-02-17T06:20:50,620][INFO ][o.e.c.s.SettingsTests    ] [testReplacePropertiesPlaceholderSystemProperty] before test
+[2020-02-17T06:20:50,622][INFO ][o.e.c.s.SettingsTests    ] [testReplacePropertiesPlaceholderSystemProperty] after test
+[2020-02-17T06:20:50,624][INFO ][o.e.c.s.SettingsTests    ] [testSimpleYamlSettings] before test
+[2020-02-17T06:20:50,627][INFO ][o.e.c.s.SettingsTests    ] [testSimpleYamlSettings] after test
+[2020-02-17T06:20:50,629][INFO ][o.e.c.s.SettingsTests    ] [testEmpty] before test
+[2020-02-17T06:20:50,629][INFO ][o.e.c.s.SettingsTests    ] [testEmpty] after test
+[2020-02-17T06:20:50,631][INFO ][o.e.c.s.SettingsTests    ] [testFilteredMap] before test
+[2020-02-17T06:20:50,631][INFO ][o.e.c.s.SettingsTests    ] [testFilteredMap] after test
+[2020-02-17T06:20:50,633][INFO ][o.e.c.s.SettingsTests    ] [testReplacePropertiesPlaceholderSystemPropertyList] before test
+[2020-02-17T06:20:50,634][INFO ][o.e.c.s.SettingsTests    ] [testReplacePropertiesPlaceholderSystemPropertyList] after test
+[2020-02-17T06:20:50,635][INFO ][o.e.c.s.SettingsTests    ] [testSecureSettingConflict] before test
+[2020-02-17T06:20:50,636][INFO ][o.e.c.s.SettingsTests    ] [testSecureSettingConflict] after test
+[2020-02-17T06:20:50,638][INFO ][o.e.c.s.SettingsTests    ] [testSecureSettingsPrefix] before test
+[2020-02-17T06:20:50,638][INFO ][o.e.c.s.SettingsTests    ] [testSecureSettingsPrefix] after test
+[2020-02-17T06:20:50,640][INFO ][o.e.c.s.SettingsTests    ] [testFractionalByteSizeValue] before test
+[2020-02-17T06:20:50,640][INFO ][o.e.c.s.SettingsTests    ] [testFractionalByteSizeValue] after test
+[2020-02-17T06:20:50,642][INFO ][o.e.c.s.SettingsTests    ] [testLoadEmptyStream] before test
+[2020-02-17T06:20:50,642][INFO ][o.e.c.s.SettingsTests    ] [testLoadEmptyStream] after test
+[2020-02-17T06:20:50,644][INFO ][o.e.c.s.SettingsTests    ] [testFractionalTimeValue] before test
+[2020-02-17T06:20:50,644][INFO ][o.e.c.s.SettingsTests    ] [testFractionalTimeValue] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

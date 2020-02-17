@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationAggregatorTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:25" hostname="Escoto-PC" time="0.148">
+  <properties/>
+  <testcase name="testQueryFiltersAll" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationAggregatorTests" time="0.012"/>
+  <testcase name="testSomeMatchesNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationAggregatorTests" time="0.017"/>
+  <testcase name="testQueryFiltering" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationAggregatorTests" time="0.044"/>
+  <testcase name="testNoDocs" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationAggregatorTests" time="0.021"/>
+  <testcase name="testNoMatchingField" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationAggregatorTests" time="0.013"/>
+  <testcase name="testSomeMatchesSortedNumericDocValues" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationAggregatorTests" time="0.04"/>
+  <system-out><![CDATA[[2020-02-16T19:24:25,994][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testQueryFiltersAll] before test
+[2020-02-16T19:24:26,004][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testQueryFiltersAll] after test
+[2020-02-16T19:24:26,006][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testSomeMatchesNumericDocValues] before test
+[2020-02-16T19:24:26,021][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testSomeMatchesNumericDocValues] after test
+[2020-02-16T19:24:26,029][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testQueryFiltering] before test
+[2020-02-16T19:24:26,065][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testQueryFiltering] after test
+[2020-02-16T19:24:26,079][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testNoDocs] before test
+[2020-02-16T19:24:26,087][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testNoDocs] after test
+[2020-02-16T19:24:26,096][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testNoMatchingField] before test
+[2020-02-16T19:24:26,100][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testNoMatchingField] after test
+[2020-02-16T19:24:26,107][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testSomeMatchesSortedNumericDocValues] before test
+[2020-02-16T19:24:26,140][INFO ][o.e.s.a.m.MedianAbsoluteDeviationAggregatorTests] [testSomeMatchesSortedNumericDocValues] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

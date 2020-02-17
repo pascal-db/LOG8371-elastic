@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.BulkRequestModifierTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:34" hostname="Escoto-PC" time="0.035">
+  <properties/>
+  <testcase name="testNoFailures" classname="org.elasticsearch.action.bulk.BulkRequestModifierTests" time="0.026"/>
+  <testcase name="testBulkRequestModifier" classname="org.elasticsearch.action.bulk.BulkRequestModifierTests" time="0.005"/>
+  <testcase name="testPipelineFailures" classname="org.elasticsearch.action.bulk.BulkRequestModifierTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:20:34,616][INFO ][o.e.a.b.BulkRequestModifierTests] [testNoFailures] before test
+[2020-02-16T23:20:34,638][INFO ][o.e.a.b.BulkRequestModifierTests] [testNoFailures] after test
+[2020-02-16T23:20:34,642][INFO ][o.e.a.b.BulkRequestModifierTests] [testBulkRequestModifier] before test
+[2020-02-16T23:20:34,644][INFO ][o.e.a.b.BulkRequestModifierTests] [testBulkRequestModifier] after test
+[2020-02-16T23:20:34,646][INFO ][o.e.a.b.BulkRequestModifierTests] [testPipelineFailures] before test
+[2020-02-16T23:20:34,647][INFO ][o.e.a.b.BulkRequestModifierTests] [testPipelineFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

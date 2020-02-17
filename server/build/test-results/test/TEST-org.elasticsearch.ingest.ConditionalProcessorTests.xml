@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.ConditionalProcessorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:58" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testChecksCondition" classname="org.elasticsearch.ingest.ConditionalProcessorTests" time="0.01"/>
+  <testcase name="testActsOnImmutableData" classname="org.elasticsearch.ingest.ConditionalProcessorTests" time="0.005"/>
+  <testcase name="testTypeDeprecation" classname="org.elasticsearch.ingest.ConditionalProcessorTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T09:24:58,886][INFO ][o.e.i.ConditionalProcessorTests] [testChecksCondition] before test
+[2020-02-17T09:24:58,894][INFO ][o.e.i.ConditionalProcessorTests] [testChecksCondition] after test
+[2020-02-17T09:24:58,897][INFO ][o.e.i.ConditionalProcessorTests] [testActsOnImmutableData] before test
+[2020-02-17T09:24:58,899][INFO ][o.e.i.ConditionalProcessorTests] [testActsOnImmutableData] after test
+[2020-02-17T09:24:58,902][INFO ][o.e.i.ConditionalProcessorTests] [testTypeDeprecation] before test
+[2020-02-17T09:24:58,903][WARN ][o.e.d.s.DeprecationMap   ] [testTypeDeprecation] [types removal] Looking up doc types [_type] in scripts is deprecated.
+[2020-02-17T09:24:58,904][INFO ][o.e.i.ConditionalProcessorTests] [testTypeDeprecation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

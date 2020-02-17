@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.AggregationsTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.094">
+  <properties/>
+  <testcase name="testParsingExceptionOnUnknownAggregation" classname="org.elasticsearch.search.aggregations.AggregationsTests" time="0.006"/>
+  <testcase name="testAllAggsAreBeingTested" classname="org.elasticsearch.search.aggregations.AggregationsTests" time="0.036"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.AggregationsTests" time="0.05"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.AggregationsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:18,649][INFO ][o.e.s.a.AggregationsTests] [testParsingExceptionOnUnknownAggregation] before test
+[2020-02-16T18:25:18,653][INFO ][o.e.s.a.AggregationsTests] [testParsingExceptionOnUnknownAggregation] after test
+[2020-02-16T18:25:18,655][INFO ][o.e.s.a.AggregationsTests] [testAllAggsAreBeingTested] before test
+[2020-02-16T18:25:18,690][INFO ][o.e.s.a.AggregationsTests] [testAllAggsAreBeingTested] after test
+[2020-02-16T18:25:18,691][INFO ][o.e.s.a.AggregationsTests] [testFromXContent] before test
+[2020-02-16T18:25:18,739][INFO ][o.e.s.a.AggregationsTests] [testFromXContent] after test
+[2020-02-16T18:25:18,741][INFO ][o.e.s.a.AggregationsTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T18:25:18,742][INFO ][o.e.s.a.AggregationsTests] [testFromXContentWithRandomFields] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

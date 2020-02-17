@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.DiskUsageTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:33" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testFillDiskUsage" classname="org.elasticsearch.cluster.DiskUsageTests" time="0.005"/>
+  <testcase name="testFillShardLevelInfo" classname="org.elasticsearch.cluster.DiskUsageTests" time="0.003"/>
+  <testcase name="testRandomDiskUsage" classname="org.elasticsearch.cluster.DiskUsageTests" time="0.006"/>
+  <testcase name="testDiskUsageCalc" classname="org.elasticsearch.cluster.DiskUsageTests" time="0.001"/>
+  <testcase name="testFillDiskUsageSomeInvalidValues" classname="org.elasticsearch.cluster.DiskUsageTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T22:20:33,110][INFO ][o.e.c.DiskUsageTests     ] [testFillDiskUsage] before test
+[2020-02-16T22:20:33,111][INFO ][o.e.c.DiskUsageTests     ] [testFillDiskUsage] after test
+[2020-02-16T22:20:33,113][INFO ][o.e.c.DiskUsageTests     ] [testFillShardLevelInfo] before test
+[2020-02-16T22:20:33,114][INFO ][o.e.c.DiskUsageTests     ] [testFillShardLevelInfo] after test
+[2020-02-16T22:20:33,116][INFO ][o.e.c.DiskUsageTests     ] [testRandomDiskUsage] before test
+[2020-02-16T22:20:33,121][INFO ][o.e.c.DiskUsageTests     ] [testRandomDiskUsage] after test
+[2020-02-16T22:20:33,122][INFO ][o.e.c.DiskUsageTests     ] [testDiskUsageCalc] before test
+[2020-02-16T22:20:33,122][INFO ][o.e.c.DiskUsageTests     ] [testDiskUsageCalc] after test
+[2020-02-16T22:20:33,129][INFO ][o.e.c.DiskUsageTests     ] [testFillDiskUsageSomeInvalidValues] before test
+[2020-02-16T22:20:33,129][INFO ][o.e.c.DiskUsageTests     ] [testFillDiskUsageSomeInvalidValues] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

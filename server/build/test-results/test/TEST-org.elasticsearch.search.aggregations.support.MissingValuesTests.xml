@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.support.MissingValuesTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:29" hostname="Escoto-PC" time="0.116">
+  <properties/>
+  <testcase name="testMissingBytes" classname="org.elasticsearch.search.aggregations.support.MissingValuesTests" time="0.026"/>
+  <testcase name="testMissingDoubles" classname="org.elasticsearch.search.aggregations.support.MissingValuesTests" time="0.02"/>
+  <testcase name="testFloatingPointDetection" classname="org.elasticsearch.search.aggregations.support.MissingValuesTests" time="0.004"/>
+  <testcase name="testMissingGeoPoints" classname="org.elasticsearch.search.aggregations.support.MissingValuesTests" time="0.051"/>
+  <testcase name="testMissingLongs" classname="org.elasticsearch.search.aggregations.support.MissingValuesTests" time="0.003"/>
+  <testcase name="testMissingOrds" classname="org.elasticsearch.search.aggregations.support.MissingValuesTests" time="0.004"/>
+  <testcase name="testGlobalMapping" classname="org.elasticsearch.search.aggregations.support.MissingValuesTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T17:24:29,077][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingBytes] before test
+[2020-02-16T17:24:29,094][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingBytes] after test
+[2020-02-16T17:24:29,114][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingDoubles] before test
+[2020-02-16T17:24:29,114][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingDoubles] after test
+[2020-02-16T17:24:29,118][INFO ][o.e.s.a.s.MissingValuesTests] [testFloatingPointDetection] before test
+[2020-02-16T17:24:29,118][INFO ][o.e.s.a.s.MissingValuesTests] [testFloatingPointDetection] after test
+[2020-02-16T17:24:29,168][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingGeoPoints] before test
+[2020-02-16T17:24:29,169][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingGeoPoints] after test
+[2020-02-16T17:24:29,175][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingLongs] before test
+[2020-02-16T17:24:29,175][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingLongs] after test
+[2020-02-16T17:24:29,178][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingOrds] before test
+[2020-02-16T17:24:29,179][INFO ][o.e.s.a.s.MissingValuesTests] [testMissingOrds] after test
+[2020-02-16T17:24:29,182][INFO ][o.e.s.a.s.MissingValuesTests] [testGlobalMapping] before test
+[2020-02-16T17:24:29,184][INFO ][o.e.s.a.s.MissingValuesTests] [testGlobalMapping] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

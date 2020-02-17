@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:06" hostname="Escoto-PC" time="0.151">
+  <properties/>
+  <testcase name="testParsingAndToQuery4" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.016"/>
+  <testcase name="testParsingAndToQuery3" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.004"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.003"/>
+  <testcase name="testParsingAndToQuery11" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.003"/>
+  <testcase name="testParsingAndToQuery12" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <testcase name="testIgnoreUnmapped" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.003"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.003"/>
+  <testcase name="testParsingAndToQuery5" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.005"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <testcase name="testParsingAndToQuery2" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.006"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.003"/>
+  <testcase name="testParsingAndToQuery6" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.005"/>
+  <testcase name="testParsingAndToQuery10" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.004"/>
+  <testcase name="testIllegalValues" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.004"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.005"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.004"/>
+  <testcase name="testParsingAndToQuery8" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <testcase name="testParsingAndToQuery9" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <testcase name="testParsingAndToQuery1" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.025"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.018"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.015"/>
+  <testcase name="testParsingAndToQuery7" classname="org.elasticsearch.index.query.GeoDistanceQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T02:23:06,285][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery4] before test
+[2020-02-17T02:23:06,287][INFO ][o.e.p.PluginsService     ] [testParsingAndToQuery4] no modules loaded
+[2020-02-17T02:23:06,287][INFO ][o.e.p.PluginsService     ] [testParsingAndToQuery4] no plugins loaded
+[2020-02-17T02:23:06,293][INFO ][o.e.p.PluginsService     ] [testParsingAndToQuery4] no modules loaded
+[2020-02-17T02:23:06,293][INFO ][o.e.p.PluginsService     ] [testParsingAndToQuery4] no plugins loaded
+[2020-02-17T02:23:06,299][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery4] after test
+[2020-02-17T02:23:06,303][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery3] before test
+[2020-02-17T02:23:06,303][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery3] after test
+[2020-02-17T02:23:06,307][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T02:23:06,307][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T02:23:06,309][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery11] before test
+[2020-02-17T02:23:06,309][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery11] after test
+[2020-02-17T02:23:06,311][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery12] before test
+[2020-02-17T02:23:06,311][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery12] after test
+[2020-02-17T02:23:06,313][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testIgnoreUnmapped] before test
+[2020-02-17T02:23:06,314][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testIgnoreUnmapped] after test
+[2020-02-17T02:23:06,316][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-17T02:23:06,316][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-17T02:23:06,320][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testCacheability] before test
+[2020-02-17T02:23:06,320][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testCacheability] after test
+[2020-02-17T02:23:06,325][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery5] before test
+[2020-02-17T02:23:06,325][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery5] after test
+[2020-02-17T02:23:06,327][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testSerialization] before test
+[2020-02-17T02:23:06,328][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testSerialization] after test
+[2020-02-17T02:23:06,329][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery2] before test
+[2020-02-17T02:23:06,329][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery2] after test
+[2020-02-17T02:23:06,332][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T02:23:06,332][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T02:23:06,334][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testToQuery] before test
+[2020-02-17T02:23:06,338][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testToQuery] after test
+[2020-02-17T02:23:06,340][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T02:23:06,341][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T02:23:06,346][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery6] before test
+[2020-02-17T02:23:06,346][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery6] after test
+[2020-02-17T02:23:06,349][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery10] before test
+[2020-02-17T02:23:06,350][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery10] after test
+[2020-02-17T02:23:06,352][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T02:23:06,354][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T02:23:06,356][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testIllegalValues] before test
+[2020-02-17T02:23:06,358][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testIllegalValues] after test
+[2020-02-17T02:23:06,361][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T02:23:06,363][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T02:23:06,367][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testFromJson] before test
+[2020-02-17T02:23:06,367][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testFromJson] after test
+[2020-02-17T02:23:06,369][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery8] before test
+[2020-02-17T02:23:06,369][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery8] after test
+[2020-02-17T02:23:06,371][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery9] before test
+[2020-02-17T02:23:06,371][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery9] after test
+[2020-02-17T02:23:06,373][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery1] before test
+[2020-02-17T02:23:06,373][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery1] after test
+[2020-02-17T02:23:06,376][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T02:23:06,398][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T02:23:06,402][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T02:23:06,416][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T02:23:06,432][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T02:23:06,432][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testMustRewrite] after test
+[2020-02-17T02:23:06,434][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery7] before test
+[2020-02-17T02:23:06,434][INFO ][o.e.i.q.GeoDistanceQueryBuilderTests] [testParsingAndToQuery7] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

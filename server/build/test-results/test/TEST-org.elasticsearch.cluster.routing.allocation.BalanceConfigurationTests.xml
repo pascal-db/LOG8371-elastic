@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.BalanceConfigurationTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:35" hostname="Escoto-PC" time="0.151">
+  <properties/>
+  <testcase name="testReplicaBalance" classname="org.elasticsearch.cluster.routing.allocation.BalanceConfigurationTests" time="0.071"/>
+  <testcase name="testIndexBalance" classname="org.elasticsearch.cluster.routing.allocation.BalanceConfigurationTests" time="0.065"/>
+  <testcase name="testNoRebalanceOnPrimaryOverload" classname="org.elasticsearch.cluster.routing.allocation.BalanceConfigurationTests" time="0.009"/>
+  <testcase name="testPersistedSettings" classname="org.elasticsearch.cluster.routing.allocation.BalanceConfigurationTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T11:21:35,168][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] before test
+[2020-02-16T11:21:35,172][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] start 25 nodes
+[2020-02-16T11:21:35,191][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] restart all the primary shards, replicas will start initializing
+[2020-02-16T11:21:35,211][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] start the replica shards
+[2020-02-16T11:21:35,212][INFO ][o.e.c.r.a.AllocationService] [testReplicaBalance] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test9][1], [test9][1], [test9][0], [test9][0], [test3][1], [test3][1], [test3][0], [test3][0], [test0][1], [test0][1], ... [48 items in total]]]).
+[2020-02-16T11:21:35,214][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] complete rebalancing
+[2020-02-16T11:21:35,215][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] now, start 1 more node, check that rebalancing will happen because we set it to always
+[2020-02-16T11:21:35,220][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] Removing half the nodes (13)
+[2020-02-16T11:21:35,227][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] start all the primary shards, replicas will start initializing
+[2020-02-16T11:21:35,231][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] start the replica shards
+[2020-02-16T11:21:35,233][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] rebalancing
+[2020-02-16T11:21:35,234][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] complete rebalancing
+[2020-02-16T11:21:35,237][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testReplicaBalance] after test
+[2020-02-16T11:21:35,246][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] before test
+[2020-02-16T11:21:35,247][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] start 25 nodes
+[2020-02-16T11:21:35,252][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] restart all the primary shards, replicas will start initializing
+[2020-02-16T11:21:35,260][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] start the replica shards
+[2020-02-16T11:21:35,265][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] complete rebalancing
+[2020-02-16T11:21:35,275][INFO ][o.e.c.r.a.AllocationService] [testIndexBalance] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test0][1], [test0][0], [test2][1], [test2][0], [test1][1], [test1][0], [test7][1], [test7][0], [test3][1], [test3][0], ... [12 items in total]]]).
+[2020-02-16T11:21:35,276][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] now, start 1 more node, check that rebalancing will happen because we set it to always
+[2020-02-16T11:21:35,278][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] Removing half the nodes (13)
+[2020-02-16T11:21:35,279][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] start all the primary shards, replicas will start initializing
+[2020-02-16T11:21:35,282][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] start the replica shards
+[2020-02-16T11:21:35,285][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] rebalancing
+[2020-02-16T11:21:35,287][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] complete rebalancing
+[2020-02-16T11:21:35,302][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testIndexBalance] after test
+[2020-02-16T11:21:35,307][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testNoRebalanceOnPrimaryOverload] before test
+[2020-02-16T11:21:35,311][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testNoRebalanceOnPrimaryOverload] use the new allocator and check if it moves shards
+[2020-02-16T11:21:35,311][INFO ][o.e.c.r.a.AllocationService] [testNoRebalanceOnPrimaryOverload] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][4], [test][3], [test][2], [test][0], [test][1], [test][4], [test][3], [test][2], [test][0]]]).
+[2020-02-16T11:21:35,311][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testNoRebalanceOnPrimaryOverload] start the replica shards
+[2020-02-16T11:21:35,311][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testNoRebalanceOnPrimaryOverload] rebalancing
+[2020-02-16T11:21:35,311][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testNoRebalanceOnPrimaryOverload] after test
+[2020-02-16T11:21:35,316][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testPersistedSettings] before test
+[2020-02-16T11:21:35,317][INFO ][o.e.c.s.ClusterSettings  ] [testPersistedSettings] updating [cluster.routing.allocation.balance.index] from [0.55] to [0.2]
+[2020-02-16T11:21:35,317][INFO ][o.e.c.s.ClusterSettings  ] [testPersistedSettings] updating [cluster.routing.allocation.balance.shard] from [0.45] to [0.3]
+[2020-02-16T11:21:35,317][INFO ][o.e.c.s.ClusterSettings  ] [testPersistedSettings] updating [cluster.routing.allocation.balance.threshold] from [1.0] to [2.0]
+[2020-02-16T11:21:35,317][INFO ][o.e.c.s.ClusterSettings  ] [testPersistedSettings] updating [cluster.routing.allocation.balance.index] from [0.2] to [0.5]
+[2020-02-16T11:21:35,317][INFO ][o.e.c.s.ClusterSettings  ] [testPersistedSettings] updating [cluster.routing.allocation.balance.shard] from [0.3] to [0.1]
+[2020-02-16T11:21:35,317][INFO ][o.e.c.s.ClusterSettings  ] [testPersistedSettings] updating [cluster.routing.allocation.balance.threshold] from [2.0] to [3.0]
+[2020-02-16T11:21:35,317][INFO ][o.e.c.r.a.BalanceConfigurationTests] [testPersistedSettings] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

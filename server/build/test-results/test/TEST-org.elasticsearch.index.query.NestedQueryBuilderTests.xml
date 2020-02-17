@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.NestedQueryBuilderTests" tests="30" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:07" hostname="Escoto-PC" time="0.143">
+  <properties/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.015"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.006"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testBuildIgnoreUnmappedNestQuery" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.021"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.01"/>
+  <testcase name="testIgnoreUnmapped" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testThatNullFromStringThrowsException" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.001"/>
+  <testcase name="testMaxFromString" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.001"/>
+  <testcase name="testInlineLeafInnerHitsNestedQueryViaBoolQuery" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testInlineLeafInnerHitsNestedQuery" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.004"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testAvgFromString" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerializationBWC" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.003"/>
+  <testcase name="testIgnoreUnmappedWithRewrite" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testValidate" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.005"/>
+  <testcase name="testExtractInnerHitBuildersWithDuplicate" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.007"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.003"/>
+  <testcase name="testInlineLeafInnerHitsNestedQueryViaConstantScoreQuery" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.008"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.009"/>
+  <testcase name="testMinFromString" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.001"/>
+  <testcase name="testThatUnrecognizedFromStringThrowsException" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testNoneFromString" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testInlineLeafInnerHitsNestedQueryViaBoostingQuery" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.002"/>
+  <testcase name="testInlineLeafInnerHitsNestedQueryViaFunctionScoreQuery" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.005"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.005"/>
+  <testcase name="testSumFromString" classname="org.elasticsearch.index.query.NestedQueryBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T18:23:07,810][INFO ][o.e.i.q.NestedQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T18:23:07,813][INFO ][o.e.p.PluginsService     ] [testUnknownField] no modules loaded
+[2020-02-16T18:23:07,813][INFO ][o.e.p.PluginsService     ] [testUnknownField] no plugins loaded
+[2020-02-16T18:23:07,819][INFO ][o.e.p.PluginsService     ] [testUnknownField] no modules loaded
+[2020-02-16T18:23:07,819][INFO ][o.e.p.PluginsService     ] [testUnknownField] no plugins loaded
+[2020-02-16T18:23:07,823][INFO ][o.e.i.q.NestedQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T18:23:07,826][INFO ][o.e.i.q.NestedQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T18:23:07,830][INFO ][o.e.i.q.NestedQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T18:23:07,832][INFO ][o.e.i.q.NestedQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T18:23:07,832][INFO ][o.e.i.q.NestedQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T18:23:07,834][INFO ][o.e.i.q.NestedQueryBuilderTests] [testBuildIgnoreUnmappedNestQuery] before test
+[2020-02-16T18:23:07,852][INFO ][o.e.i.q.NestedQueryBuilderTests] [testBuildIgnoreUnmappedNestQuery] after test
+[2020-02-16T18:23:07,854][INFO ][o.e.i.q.NestedQueryBuilderTests] [testToQuery] before test
+[2020-02-16T18:23:07,863][INFO ][o.e.i.q.NestedQueryBuilderTests] [testToQuery] after test
+[2020-02-16T18:23:07,865][INFO ][o.e.i.q.NestedQueryBuilderTests] [testIgnoreUnmapped] before test
+[2020-02-16T18:23:07,865][INFO ][o.e.i.q.NestedQueryBuilderTests] [testIgnoreUnmapped] after test
+[2020-02-16T18:23:07,867][INFO ][o.e.i.q.NestedQueryBuilderTests] [testThatNullFromStringThrowsException] before test
+[2020-02-16T18:23:07,867][INFO ][o.e.i.q.NestedQueryBuilderTests] [testThatNullFromStringThrowsException] after test
+[2020-02-16T18:23:07,869][INFO ][o.e.i.q.NestedQueryBuilderTests] [testMaxFromString] before test
+[2020-02-16T18:23:07,869][INFO ][o.e.i.q.NestedQueryBuilderTests] [testMaxFromString] after test
+[2020-02-16T18:23:07,870][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQueryViaBoolQuery] before test
+[2020-02-16T18:23:07,871][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQueryViaBoolQuery] after test
+[2020-02-16T18:23:07,874][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQuery] before test
+[2020-02-16T18:23:07,874][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQuery] after test
+[2020-02-16T18:23:07,876][INFO ][o.e.i.q.NestedQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T18:23:07,876][INFO ][o.e.i.q.NestedQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T18:23:07,878][INFO ][o.e.i.q.NestedQueryBuilderTests] [testCacheability] before test
+[2020-02-16T18:23:07,878][INFO ][o.e.i.q.NestedQueryBuilderTests] [testCacheability] after test
+[2020-02-16T18:23:07,880][INFO ][o.e.i.q.NestedQueryBuilderTests] [testAvgFromString] before test
+[2020-02-16T18:23:07,880][INFO ][o.e.i.q.NestedQueryBuilderTests] [testAvgFromString] after test
+[2020-02-16T18:23:07,882][INFO ][o.e.i.q.NestedQueryBuilderTests] [testSerializationBWC] before test
+[2020-02-16T18:23:07,884][INFO ][o.e.i.q.NestedQueryBuilderTests] [testSerializationBWC] after test
+[2020-02-16T18:23:07,886][INFO ][o.e.i.q.NestedQueryBuilderTests] [testIgnoreUnmappedWithRewrite] before test
+[2020-02-16T18:23:07,886][INFO ][o.e.i.q.NestedQueryBuilderTests] [testIgnoreUnmappedWithRewrite] after test
+[2020-02-16T18:23:07,891][INFO ][o.e.i.q.NestedQueryBuilderTests] [testValidate] before test
+[2020-02-16T18:23:07,891][INFO ][o.e.i.q.NestedQueryBuilderTests] [testValidate] after test
+[2020-02-16T18:23:07,894][INFO ][o.e.i.q.NestedQueryBuilderTests] [testExtractInnerHitBuildersWithDuplicate] before test
+[2020-02-16T18:23:07,894][INFO ][o.e.i.q.NestedQueryBuilderTests] [testExtractInnerHitBuildersWithDuplicate] after test
+[2020-02-16T18:23:07,897][INFO ][o.e.i.q.NestedQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:23:07,901][INFO ][o.e.i.q.NestedQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:23:07,903][INFO ][o.e.i.q.NestedQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T18:23:07,905][INFO ][o.e.i.q.NestedQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T18:23:07,914][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQueryViaConstantScoreQuery] before test
+[2020-02-16T18:23:07,914][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQueryViaConstantScoreQuery] after test
+[2020-02-16T18:23:07,916][INFO ][o.e.i.q.NestedQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T18:23:07,923][INFO ][o.e.i.q.NestedQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T18:23:07,925][INFO ][o.e.i.q.NestedQueryBuilderTests] [testMinFromString] before test
+[2020-02-16T18:23:07,925][INFO ][o.e.i.q.NestedQueryBuilderTests] [testMinFromString] after test
+[2020-02-16T18:23:07,926][INFO ][o.e.i.q.NestedQueryBuilderTests] [testThatUnrecognizedFromStringThrowsException] before test
+[2020-02-16T18:23:07,927][INFO ][o.e.i.q.NestedQueryBuilderTests] [testThatUnrecognizedFromStringThrowsException] after test
+[2020-02-16T18:23:07,928][INFO ][o.e.i.q.NestedQueryBuilderTests] [testNoneFromString] before test
+[2020-02-16T18:23:07,929][INFO ][o.e.i.q.NestedQueryBuilderTests] [testNoneFromString] after test
+[2020-02-16T18:23:07,930][INFO ][o.e.i.q.NestedQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T18:23:07,931][INFO ][o.e.i.q.NestedQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T18:23:07,932][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQueryViaBoostingQuery] before test
+[2020-02-16T18:23:07,933][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQueryViaBoostingQuery] after test
+[2020-02-16T18:23:07,937][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQueryViaFunctionScoreQuery] before test
+[2020-02-16T18:23:07,938][INFO ][o.e.i.q.NestedQueryBuilderTests] [testInlineLeafInnerHitsNestedQueryViaFunctionScoreQuery] after test
+[2020-02-16T18:23:07,940][INFO ][o.e.i.q.NestedQueryBuilderTests] [testFromJson] before test
+[2020-02-16T18:23:07,941][INFO ][o.e.i.q.NestedQueryBuilderTests] [testFromJson] after test
+[2020-02-16T18:23:07,945][INFO ][o.e.i.q.NestedQueryBuilderTests] [testSerialization] before test
+[2020-02-16T18:23:07,947][INFO ][o.e.i.q.NestedQueryBuilderTests] [testSerialization] after test
+[2020-02-16T18:23:07,949][INFO ][o.e.i.q.NestedQueryBuilderTests] [testSumFromString] before test
+[2020-02-16T18:23:07,950][INFO ][o.e.i.q.NestedQueryBuilderTests] [testSumFromString] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.routing.allocation.IndexBalanceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.routing.allocation.IndexBalanceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.routing.allocation.html">org.elasticsearch.cluster.routing.allocation</a> &gt; IndexBalanceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">3</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.029s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBalanceAllNodesStarted</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBalanceAllNodesStartedAddIndex</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBalanceIncrementallyStartNodes</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T14:20:39,063][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] before test
+[2020-02-16T14:20:39,067][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Building initial routing table
+[2020-02-16T14:20:39,067][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Adding three node and performing rerouting
+[2020-02-16T14:20:39,067][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Another round of rebalancing
+[2020-02-16T14:20:39,068][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Reroute, nothing should change
+[2020-02-16T14:20:39,068][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Start the more shards
+[2020-02-16T14:20:39,068][INFO ][o.e.c.r.a.AllocationService] [testBalanceAllNodesStartedAddIndex] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][2], [test][0]]]).
+[2020-02-16T14:20:39,068][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Add new index 3 shards 1 replica
+[2020-02-16T14:20:39,069][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Another round of rebalancing
+[2020-02-16T14:20:39,070][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Reroute, nothing should change
+[2020-02-16T14:20:39,070][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] Start the more shards
+[2020-02-16T14:20:39,070][INFO ][o.e.c.r.a.AllocationService] [testBalanceAllNodesStartedAddIndex] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][2], [test1][0]]]).
+[2020-02-16T14:20:39,070][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStartedAddIndex] after test
+[2020-02-16T14:20:39,072][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] before test
+[2020-02-16T14:20:39,073][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Building initial routing table
+[2020-02-16T14:20:39,073][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Adding three node and performing rerouting
+[2020-02-16T14:20:39,074][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Another round of rebalancing
+[2020-02-16T14:20:39,074][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Reroute, nothing should change
+[2020-02-16T14:20:39,074][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] Start the more shards
+[2020-02-16T14:20:39,074][INFO ][o.e.c.r.a.AllocationService] [testBalanceAllNodesStarted] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][2], [test1][0], [test][1], [test][2], [test][0]]]).
+[2020-02-16T14:20:39,075][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceAllNodesStarted] after test
+[2020-02-16T14:20:39,076][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] before test
+[2020-02-16T14:20:39,078][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Building initial routing table
+[2020-02-16T14:20:39,078][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Adding one node and performing rerouting
+[2020-02-16T14:20:39,078][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Add another node and perform rerouting, nothing will happen since primary not started
+[2020-02-16T14:20:39,078][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Start the primary shard
+[2020-02-16T14:20:39,079][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Reroute, nothing should change
+[2020-02-16T14:20:39,079][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Start the backup shard
+[2020-02-16T14:20:39,079][INFO ][o.e.c.r.a.AllocationService] [testBalanceIncrementallyStartNodes] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][2], [test1][0], [test][1], [test][2], [test][0]]]).
+[2020-02-16T14:20:39,079][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Add another node and perform rerouting, nothing will happen since primary not started
+[2020-02-16T14:20:39,080][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Reroute, nothing should change
+[2020-02-16T14:20:39,080][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] Start the backup shard
+[2020-02-16T14:20:39,080][INFO ][o.e.c.r.a.IndexBalanceTests] [testBalanceIncrementallyStartNodes] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

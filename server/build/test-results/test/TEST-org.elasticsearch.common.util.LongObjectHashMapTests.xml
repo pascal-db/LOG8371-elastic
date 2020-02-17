@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.LongObjectHashMapTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:52" hostname="Escoto-PC" time="1.29">
+  <properties/>
+  <testcase name="testDuel" classname="org.elasticsearch.common.util.LongObjectHashMapTests" time="1.29"/>
+  <system-out><![CDATA[[2020-02-16T17:20:52,230][INFO ][o.e.e.NodeEnvironment    ] [testDuel] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T17:20:52,235][INFO ][o.e.e.NodeEnvironment    ] [testDuel] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T17:20:52,240][INFO ][o.e.n.Node               ] [testDuel] node name [node_s_0], node ID [W_v_Nw3NReqVpKxcWmlX2Q], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[5123161346147624146]-HASH=[128B6266ADA]]
+[2020-02-16T17:20:52,240][INFO ][o.e.n.Node               ] [testDuel] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T17:20:52,240][INFO ][o.e.n.Node               ] [testDuel] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T17:20:52,240][INFO ][o.e.n.Node               ] [testDuel] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T17:20:52,241][INFO ][o.e.p.PluginsService     ] [testDuel] no modules loaded
+[2020-02-16T17:20:52,241][INFO ][o.e.p.PluginsService     ] [testDuel] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T17:20:52,241][INFO ][o.e.p.PluginsService     ] [testDuel] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T17:20:52,488][INFO ][o.e.d.DiscoveryModule    ] [testDuel] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T17:20:52,498][INFO ][o.e.n.Node               ] [testDuel] initialized
+[2020-02-16T17:20:52,498][INFO ][o.e.n.Node               ] [testDuel] starting ...
+[2020-02-16T17:20:53,022][INFO ][o.e.t.TransportService   ] [testDuel] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T17:20:53,036][INFO ][o.e.c.c.Coordinator      ] [testDuel] setting initial configuration to VotingConfiguration{W_v_Nw3NReqVpKxcWmlX2Q}
+[2020-02-16T17:20:53,143][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{W_v_Nw3NReqVpKxcWmlX2Q}{GDEGB-38SWaM8-EPRKmy4g}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{W_v_Nw3NReqVpKxcWmlX2Q}{GDEGB-38SWaM8-EPRKmy4g}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-16T17:20:53,171][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [gJdx7e6QQkm-6rmET4ACxw]
+[2020-02-16T17:20:53,183][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{W_v_Nw3NReqVpKxcWmlX2Q}{GDEGB-38SWaM8-EPRKmy4g}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T17:20:53,184][INFO ][o.e.n.Node               ] [testDuel] started
+[2020-02-16T17:20:53,195][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T17:20:53,198][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T17:20:53,225][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T17:20:53,241][INFO ][o.e.c.u.LongObjectHashMapTests] [testDuel] before test
+[2020-02-16T17:20:53,504][INFO ][o.e.c.u.LongObjectHashMapTests] [testDuel] after test
+[2020-02-16T17:20:53,505][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T17:20:53,517][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T17:20:53,517][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T17:20:53,518][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

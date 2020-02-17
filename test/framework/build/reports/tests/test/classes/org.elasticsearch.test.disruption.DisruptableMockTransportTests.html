@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.test.disruption.DisruptableMockTransportTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.test.disruption.DisruptableMockTransportTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.test.disruption.html">org.elasticsearch.test.disruption</a> &gt; DisruptableMockTransportTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.465s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBrokenLinkFailsToConnect</td>
+<td class="success">0.080s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDisconnectedOnExceptionalResponse</td>
+<td class="success">0.086s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDisconnectedOnRequest</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDisconnectedOnSuccessfulResponse</td>
+<td class="success">0.027s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExceptionalResponse</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSuccessfulResponse</td>
+<td class="success">0.018s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnavailableOnExceptionalResponse</td>
+<td class="success">0.042s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnavailableOnRequest</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnavailableOnRequestOnly</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnavailableOnRequestOnlyReceivesExceptionalResponse</td>
+<td class="success">0.033s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnavailableOnRequestOnlyReceivesSuccessfulResponse</td>
+<td class="success">0.045s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnavailableOnSuccessfulResponse</td>
+<td class="success">0.014s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T08:48:50,047][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnRequestOnly] before test
+[2020-02-17T08:48:50,130][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnRequestOnly] after test
+[2020-02-17T08:48:50,161][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnExceptionalResponse] before test
+[2020-02-17T08:48:50,173][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnExceptionalResponse] after test
+[2020-02-17T08:48:50,208][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnRequestOnlyReceivesSuccessfulResponse] before test
+[2020-02-17T08:48:50,218][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnRequestOnlyReceivesSuccessfulResponse] after test
+[2020-02-17T08:48:50,292][INFO ][o.e.t.d.DisruptableMockTransportTests] [testDisconnectedOnExceptionalResponse] before test
+[2020-02-17T08:48:50,304][INFO ][o.e.t.d.DisruptableMockTransportTests] [testDisconnectedOnExceptionalResponse] after test
+[2020-02-17T08:48:50,308][INFO ][o.e.t.d.DisruptableMockTransportTests] [testBrokenLinkFailsToConnect] before test
+[2020-02-17T08:48:50,383][INFO ][o.e.t.d.DisruptableMockTransportTests] [testBrokenLinkFailsToConnect] after test
+[2020-02-17T08:48:50,389][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnSuccessfulResponse] before test
+[2020-02-17T08:48:50,401][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnSuccessfulResponse] after test
+[2020-02-17T08:48:50,403][INFO ][o.e.t.d.DisruptableMockTransportTests] [testDisconnectedOnRequest] before test
+[2020-02-17T08:48:50,408][INFO ][o.e.t.d.DisruptableMockTransportTests] [testDisconnectedOnRequest] after test
+[2020-02-17T08:48:50,412][INFO ][o.e.t.d.DisruptableMockTransportTests] [testExceptionalResponse] before test
+[2020-02-17T08:48:50,424][INFO ][o.e.t.d.DisruptableMockTransportTests] [testExceptionalResponse] after test
+[2020-02-17T08:48:50,445][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnRequestOnlyReceivesExceptionalResponse] before test
+[2020-02-17T08:48:50,457][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnRequestOnlyReceivesExceptionalResponse] after test
+[2020-02-17T08:48:50,479][INFO ][o.e.t.d.DisruptableMockTransportTests] [testDisconnectedOnSuccessfulResponse] before test
+[2020-02-17T08:48:50,484][INFO ][o.e.t.d.DisruptableMockTransportTests] [testDisconnectedOnSuccessfulResponse] after test
+[2020-02-17T08:48:50,490][INFO ][o.e.t.d.DisruptableMockTransportTests] [testSuccessfulResponse] before test
+[2020-02-17T08:48:50,504][INFO ][o.e.t.d.DisruptableMockTransportTests] [testSuccessfulResponse] after test
+[2020-02-17T08:48:50,510][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnRequest] before test
+[2020-02-17T08:48:50,514][INFO ][o.e.t.d.DisruptableMockTransportTests] [testUnavailableOnRequest] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:50:02 PM</p>
+</div>
+</div>
+</body>
+</html>

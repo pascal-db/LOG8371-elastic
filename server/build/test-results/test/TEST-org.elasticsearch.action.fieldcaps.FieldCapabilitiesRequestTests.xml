@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.fieldcaps.FieldCapabilitiesRequestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:36" hostname="Escoto-PC" time="0.019">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.fieldcaps.FieldCapabilitiesRequestTests" time="0.007"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.fieldcaps.FieldCapabilitiesRequestTests" time="0.005"/>
+  <testcase name="testValidation" classname="org.elasticsearch.action.fieldcaps.FieldCapabilitiesRequestTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T18:20:36,502][INFO ][o.e.a.f.FieldCapabilitiesRequestTests] [testSerialization] before test
+[2020-02-16T18:20:36,506][INFO ][o.e.a.f.FieldCapabilitiesRequestTests] [testSerialization] after test
+[2020-02-16T18:20:36,510][INFO ][o.e.a.f.FieldCapabilitiesRequestTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:20:36,512][INFO ][o.e.a.f.FieldCapabilitiesRequestTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:20:36,518][INFO ][o.e.a.f.FieldCapabilitiesRequestTests] [testValidation] before test
+[2020-02-16T18:20:36,519][INFO ][o.e.a.f.FieldCapabilitiesRequestTests] [testValidation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

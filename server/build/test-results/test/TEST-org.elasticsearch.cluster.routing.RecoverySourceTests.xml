@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.RecoverySourceTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testRecoverySourceTypeOrder" classname="org.elasticsearch.cluster.routing.RecoverySourceTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.routing.RecoverySourceTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T17:21:39,246][INFO ][o.e.c.r.RecoverySourceTests] [testRecoverySourceTypeOrder] before test
+[2020-02-16T17:21:39,248][INFO ][o.e.c.r.RecoverySourceTests] [testRecoverySourceTypeOrder] after test
+[2020-02-16T17:21:39,257][INFO ][o.e.c.r.RecoverySourceTests] [testSerialization] before test
+[2020-02-16T17:21:39,258][INFO ][o.e.c.r.RecoverySourceTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.action.shard.ShardStateActionTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:31" hostname="Escoto-PC" time="0.316">
+  <properties/>
+  <testcase name="testShardStarted" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.01"/>
+  <testcase name="testNoMaster" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.009"/>
+  <testcase name="testUnhandledFailure" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.008"/>
+  <testcase name="testSuccess" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.005"/>
+  <testcase name="testFailedShardEntrySerialization" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.009"/>
+  <testcase name="testShardNotFound" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.014"/>
+  <testcase name="testNoLongerPrimaryShardException" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.009"/>
+  <testcase name="testStartedShardEntrySerialization" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.006"/>
+  <testcase name="testMasterChannelException" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.029"/>
+  <testcase name="testShardEntryBWCSerialize" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.005"/>
+  <testcase name="testCacheRemoteShardFailed" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.012"/>
+  <testcase name="testRemoteShardFailedConcurrently" classname="org.elasticsearch.cluster.action.shard.ShardStateActionTests" time="0.199"/>
+  <system-out><![CDATA[[2020-02-16T11:20:31,270][INFO ][o.e.c.a.s.ShardStateActionTests] [testShardStarted] before test
+[2020-02-16T11:20:31,274][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{3CJZzsGnSmuvWnt7RrIxoA}{0.0.0.0}{0.0.0.0:1}{dim}], current [{node_1}{-ecHcLL7TqSQSxG2tT1DUg}{0.0.0.0}{0.0.0.0:3}{dim}]}, removed {{node}{3CJZzsGnSmuvWnt7RrIxoA}{0.0.0.0}{0.0.0.0:1}{dim}}, added {{node_3}{YqQVeYxHTSOpGkMLpu4FuQ}{0.0.0.0}{0.0.0.0:5}{dim},{node_4}{bZaRjxVuSpCobfJBU4gakg}{0.0.0.0}{0.0.0.0:6}{dim},{node_1}{-ecHcLL7TqSQSxG2tT1DUg}{0.0.0.0}{0.0.0.0:3}{dim},{node_2}{2cFhQ0JGRGOpRc2or1iGAQ}{0.0.0.0}{0.0.0.0:4}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,277][INFO ][o.e.c.a.s.ShardStateActionTests] [testShardStarted] after test
+[2020-02-16T11:20:31,279][INFO ][o.e.c.a.s.ShardStateActionTests] [testNoMaster] before test
+[2020-02-16T11:20:31,281][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{8rr4IxzeTZKT5ghtVlxpfQ}{0.0.0.0}{0.0.0.0:10}{dim}], current [{node_1}{EtWcT-CVQZOWVghNn03xlA}{0.0.0.0}{0.0.0.0:12}{dim}]}, removed {{node}{8rr4IxzeTZKT5ghtVlxpfQ}{0.0.0.0}{0.0.0.0:10}{dim}}, added {{node_2}{qKZM2Sa6Sc68iUpNnSuTLg}{0.0.0.0}{0.0.0.0:13}{dim},{node_3}{3ecn_ICuQsObh6eSZljkww}{0.0.0.0}{0.0.0.0:14}{dim},{node_5}{V-4HXhW2Rd6_KPK4Mv7acw}{0.0.0.0}{0.0.0.0:16}{dim},{node_4}{B378vQcnRFK-0ynXMCjHWg}{0.0.0.0}{0.0.0.0:15}{dim},{node_6}{_zykoSomRxSqWK6Irnmovw}{0.0.0.0}{0.0.0.0:17}{dim},{node_1}{EtWcT-CVQZOWVghNn03xlA}{0.0.0.0}{0.0.0.0:12}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,282][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node_1}{EtWcT-CVQZOWVghNn03xlA}{0.0.0.0}{0.0.0.0:12}{dim}], current []}, term: 0, version: 2, reason: test setting state
+[2020-02-16T11:20:31,285][WARN ][o.e.c.a.s.ShardStateAction] [testNoMaster] no master known for action [internal:cluster/shard/failure] for shard entry [shard id [[test][0]], allocation id [1szbEpf1QjS-CPbkcUPshw], primary term [0], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+[2020-02-16T11:20:31,285][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [], current [{node_4}{B378vQcnRFK-0ynXMCjHWg}{0.0.0.0}{0.0.0.0:15}{dim}]}, term: 0, version: 3, reason: test setting state
+[2020-02-16T11:20:31,286][INFO ][o.e.c.a.s.ShardStateActionTests] [testNoMaster] after test
+[2020-02-16T11:20:31,288][INFO ][o.e.c.a.s.ShardStateActionTests] [testUnhandledFailure] before test
+[2020-02-16T11:20:31,291][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{gRmmnPuYSC-zF_UjBpkJjQ}{0.0.0.0}{0.0.0.0:21}{dim}], current [{node_1}{Gsleec-tSuSrFAgczpp2JQ}{0.0.0.0}{0.0.0.0:23}{dim}]}, removed {{node}{gRmmnPuYSC-zF_UjBpkJjQ}{0.0.0.0}{0.0.0.0:21}{dim}}, added {{node_6}{bUiNeZaGSN2zhqxjzH25MA}{0.0.0.0}{0.0.0.0:28}{dim},{node_5}{fSES3W_FRMiXrpEXDDBL7w}{0.0.0.0}{0.0.0.0:27}{dim},{node_3}{cWhzjn2dRiSrGHL5iZXFdQ}{0.0.0.0}{0.0.0.0:25}{dim},{node_7}{cCjvl11gSpu6qSwtKNuiQg}{0.0.0.0}{0.0.0.0:29}{dim},{node_2}{xzAYcN9ZSvyr9QIJRTMvrw}{0.0.0.0}{0.0.0.0:24}{dim},{node_4}{pOnkLKuvQkq3X-orQZyI2A}{0.0.0.0}{0.0.0.0:26}{dim},{node_1}{Gsleec-tSuSrFAgczpp2JQ}{0.0.0.0}{0.0.0.0:23}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,292][WARN ][o.e.c.a.s.ShardStateAction] [testUnhandledFailure] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{Gsleec-tSuSrFAgczpp2JQ}{0.0.0.0}{0.0.0.0:23}{dim}] for shard entry [shard id [[test][0]], allocation id [6qJpzNRxQGaEMLvAT_Gi-w], primary term [0], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.elasticsearch.transport.TransportException: simulated
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.testUnhandledFailure(ShardStateActionTests.java:288) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,294][INFO ][o.e.c.a.s.ShardStateActionTests] [testUnhandledFailure] after test
+[2020-02-16T11:20:31,296][INFO ][o.e.c.a.s.ShardStateActionTests] [testSuccess] before test
+[2020-02-16T11:20:31,299][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{XeqsrjpcTLWym32HVCpF1Q}{0.0.0.0}{0.0.0.0:33}{dim}], current [{node_1}{X5ze1_ENQWidkrR4g93KYg}{0.0.0.0}{0.0.0.0:35}{dim}]}, removed {{node}{XeqsrjpcTLWym32HVCpF1Q}{0.0.0.0}{0.0.0.0:33}{dim}}, added {{node_1}{X5ze1_ENQWidkrR4g93KYg}{0.0.0.0}{0.0.0.0:35}{dim},{node_2}{bG8vp3jHSCedZrpZS8aKAw}{0.0.0.0}{0.0.0.0:36}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,300][INFO ][o.e.c.a.s.ShardStateActionTests] [testSuccess] after test
+[2020-02-16T11:20:31,302][INFO ][o.e.c.a.s.ShardStateActionTests] [testFailedShardEntrySerialization] before test
+[2020-02-16T11:20:31,309][INFO ][o.e.c.a.s.ShardStateActionTests] [testFailedShardEntrySerialization] after test
+[2020-02-16T11:20:31,312][INFO ][o.e.c.a.s.ShardStateActionTests] [testShardNotFound] before test
+[2020-02-16T11:20:31,316][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{usPLiCFnQYGdfJyyajP74g}{0.0.0.0}{0.0.0.0:41}{dim}], current [{node_1}{BZhlamnAQ7G_TIgBWKrzeQ}{0.0.0.0}{0.0.0.0:43}{dim}]}, removed {{node}{usPLiCFnQYGdfJyyajP74g}{0.0.0.0}{0.0.0.0:41}{dim}}, added {{node_3}{I_d102Z6SWiSiZdaXN9Qog}{0.0.0.0}{0.0.0.0:45}{dim},{node_1}{BZhlamnAQ7G_TIgBWKrzeQ}{0.0.0.0}{0.0.0.0:43}{dim},{node_2}{pmZiVkDWQ8yG-rEnMuQO7Q}{0.0.0.0}{0.0.0.0:44}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,323][INFO ][o.e.c.a.s.ShardStateActionTests] [testShardNotFound] after test
+[2020-02-16T11:20:31,326][INFO ][o.e.c.a.s.ShardStateActionTests] [testNoLongerPrimaryShardException] before test
+[2020-02-16T11:20:31,329][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{lZLiBXKvRrO0uKfUhzT3Sw}{0.0.0.0}{0.0.0.0:49}{dim}], current [{node_1}{QfZYXCyFQ46t73NJdn7W_Q}{0.0.0.0}{0.0.0.0:51}{dim}]}, removed {{node}{lZLiBXKvRrO0uKfUhzT3Sw}{0.0.0.0}{0.0.0.0:49}{dim}}, added {{node_3}{exDBfd2zTGOf_PXUGoxEDA}{0.0.0.0}{0.0.0.0:53}{dim},{node_4}{xObkUydoQ0qFS5zzN8Acpw}{0.0.0.0}{0.0.0.0:54}{dim},{node_1}{QfZYXCyFQ46t73NJdn7W_Q}{0.0.0.0}{0.0.0.0:51}{dim},{node_2}{0cuaWEsOSnyBhStxGjvE6Q}{0.0.0.0}{0.0.0.0:52}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,330][WARN ][o.e.c.a.s.ShardStateAction] [testNoLongerPrimaryShardException] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{QfZYXCyFQ46t73NJdn7W_Q}{0.0.0.0}{0.0.0.0:51}{dim}] for shard entry [shard id [[test][0]], allocation id [4RduQNLTSc2pf_ebdh9Srg], primary term [33], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.elasticsearch.cluster.action.shard.ShardStateAction$NoLongerPrimaryShardException: dummy failure
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.testNoLongerPrimaryShardException(ShardStateActionTests.java:324) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,332][INFO ][o.e.c.a.s.ShardStateActionTests] [testNoLongerPrimaryShardException] after test
+[2020-02-16T11:20:31,336][INFO ][o.e.c.a.s.ShardStateActionTests] [testStartedShardEntrySerialization] before test
+[2020-02-16T11:20:31,338][INFO ][o.e.c.a.s.ShardStateActionTests] [testStartedShardEntrySerialization] after test
+[2020-02-16T11:20:31,340][INFO ][o.e.c.a.s.ShardStateActionTests] [testMasterChannelException] before test
+[2020-02-16T11:20:31,344][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{aFA4hmN3RIiJuEudu8ws_g}{0.0.0.0}{0.0.0.0:59}{dim}], current [{node_1}{G9_KphyNQeqP1YvWT8YoAQ}{0.0.0.0}{0.0.0.0:61}{dim}]}, removed {{node}{aFA4hmN3RIiJuEudu8ws_g}{0.0.0.0}{0.0.0.0:59}{dim}}, added {{node_3}{6dykw-3ASaaCV7_iUcGsdA}{0.0.0.0}{0.0.0.0:63}{dim},{node_4}{k50llq9URf6Tj7iemc9B1g}{0.0.0.0}{0.0.0.0:64}{dim},{node_1}{G9_KphyNQeqP1YvWT8YoAQ}{0.0.0.0}{0.0.0.0:61}{dim},{node_2}{hvFJR7bLTK20Q4bbU2gggw}{0.0.0.0}{0.0.0.0:62}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,347][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node_1}{G9_KphyNQeqP1YvWT8YoAQ}{0.0.0.0}{0.0.0.0:61}{dim}], current [{node_0}{s1TvRVlySyW5YKPUfw5ZUw}{0.0.0.0}{0.0.0.0:60}{dim}]}, term: 0, version: 2, reason: test setting state
+[2020-02-16T11:20:31,367][INFO ][o.e.c.a.s.ShardStateActionTests] [testMasterChannelException] after test
+[2020-02-16T11:20:31,370][INFO ][o.e.c.a.s.ShardStateActionTests] [testShardEntryBWCSerialize] before test
+[2020-02-16T11:20:31,372][INFO ][o.e.c.a.s.ShardStateActionTests] [testShardEntryBWCSerialize] after test
+[2020-02-16T11:20:31,375][INFO ][o.e.c.a.s.ShardStateActionTests] [testCacheRemoteShardFailed] before test
+[2020-02-16T11:20:31,379][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{AaKHoS6uTOO9n5AXKFd3eA}{0.0.0.0}{0.0.0.0:69}{dim}], current [{node_1}{mONlkhO5QCqVRINLBkOl1g}{0.0.0.0}{0.0.0.0:71}{dim}]}, removed {{node}{AaKHoS6uTOO9n5AXKFd3eA}{0.0.0.0}{0.0.0.0:69}{dim}}, added {{node_3}{0sdr3FixTwi3sb8Ex03LzA}{0.0.0.0}{0.0.0.0:73}{dim},{node_4}{MfP9i0XaSfi0TWzxC_L-ew}{0.0.0.0}{0.0.0.0:74}{dim},{node_1}{mONlkhO5QCqVRINLBkOl1g}{0.0.0.0}{0.0.0.0:71}{dim},{node_2}{m7iK3HoOQlWovXaKsccOqw}{0.0.0.0}{0.0.0.0:72}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,384][INFO ][o.e.c.a.s.ShardStateActionTests] [testCacheRemoteShardFailed] after test
+[2020-02-16T11:20:31,387][INFO ][o.e.c.a.s.ShardStateActionTests] [testRemoteShardFailedConcurrently] before test
+[2020-02-16T11:20:31,390][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{MA_XunQbSDyVUpoao7RTHg}{0.0.0.0}{0.0.0.0:78}{dim}], current [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}]}, removed {{node}{MA_XunQbSDyVUpoao7RTHg}{0.0.0.0}{0.0.0.0:78}{dim}}, added {{node_3}{jqMwCugOTv2z5KlPRD-cWg}{0.0.0.0}{0.0.0.0:82}{dim},{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim},{node_2}{K4a8KgzgQaKWZFaddwNprg}{0.0.0.0}{0.0.0.0:81}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T11:20:31,402][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2233115716084741755], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,407][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8129033830624454783], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,408][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2550428666650729678], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,415][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4825389115404256175], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,445][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2513361879937925481], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,515][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1885236000660771500], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,520][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [6278121425765890950], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,520][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1115256573829079230], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,521][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4086220380526412641], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,522][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2038688524617819104], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,522][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5095052994628256389], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,522][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [9097643081109595194], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,523][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8994689435088787721], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,523][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2366052276801797711], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,523][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3077996564466068060], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,523][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [7614206135008247891], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,523][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3598824949949866925], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,524][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3389395564684748004], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,524][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5177553483359143064], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,524][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5740256763026560922], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,524][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5425033095756808634], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,524][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2593502454718116293], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,524][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2197259357272810764], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,525][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [903116451117753759], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,525][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2532903200155299895], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,525][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [7218778877263555165], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,525][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4903156237740307245], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,525][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1080320804943063416], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,525][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8361592486669052153], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,526][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8001106371933699484], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,527][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [6791422093750948890], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,527][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [9059958699795848253], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,527][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4020159932900545250], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,527][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1054823788026028598], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,527][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [9148981371014651431], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,527][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [7660115517156645602], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,528][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5596690046858462236], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,528][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3609514021892502888], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,528][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4052582849418557367], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,528][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1944842766904414278], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,528][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8900138557199638283], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,528][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [7217391881052340593], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,528][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [297675637216823960], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,531][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [773484155241976031], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,531][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4235154670549003434], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,531][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8346875189596558346], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,531][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5352868809399500010], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,531][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4050074647351423858], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,532][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8531421390561182867], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,532][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5522203242288590749], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,532][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8985285759310965741], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,532][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2255183819745145155], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,532][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1996768774609153786], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,532][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [2065474395258710841], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,533][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4301950798879001298], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,533][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [6011491174653297803], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,533][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3388894362858748418], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,533][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [6792461644763818136], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,533][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8169979870867115722], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,533][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1885660909118889155], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,534][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1294685049516926517], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,534][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8452677730528711475], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,534][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1548713465903374366], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,534][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1215668779288939028], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,534][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3386751630030648886], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,534][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8557821796583739792], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,535][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [7896911377838500675], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,535][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [6117102792374208833], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,535][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [7425515794106517257], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure, coming from local node]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,536][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8061443701347429264], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,536][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [63159246652329708], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,536][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8820654600878846153], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,536][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5478039669902167349], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,536][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3074851850060907727], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,536][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [6710457182553713710], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,537][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1167567270621904591], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,537][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1545175246001567215], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,537][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3769840402754964370], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,537][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [7313733632868323352], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,537][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5498725436692823826], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,537][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5799588424439837987], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,537][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [8222383878537981666], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,538][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1313942434034495723], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,538][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [1564237679252137802], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,538][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [4303911741817452887], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [true]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,538][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [5990853513601397811], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,538][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [9057204309146503141], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,538][WARN ][o.e.c.a.s.ShardStateAction] [[Thread-150]] unexpected failure while sending request [internal:cluster/shard/failure] to [{node_1}{UJWNUT8lToSVgyp59ASpoQ}{0.0.0.0}{0.0.0.0:80}{dim}] for shard entry [shard id [[test][0]], allocation id [5XXIOrTlTK2KLWvygpMF4w], primary term [3429519404138825513], message [test], failure [CorruptIndexException[simulated (resource=null)]], markAsStale [false]]
+org.elasticsearch.transport.RemoteTransportException: [remote failure]
+Caused by: org.apache.lucene.index.CorruptIndexException: simulated (resource=null)
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.getSimulatedFailure(ShardStateActionTests.java:479) ~[test/:?]
+	at org.elasticsearch.cluster.action.shard.ShardStateActionTests.lambda$testRemoteShardFailedConcurrently$5(ShardStateActionTests.java:382) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T11:20:31,583][INFO ][o.e.c.a.s.ShardStateActionTests] [testRemoteShardFailedConcurrently] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

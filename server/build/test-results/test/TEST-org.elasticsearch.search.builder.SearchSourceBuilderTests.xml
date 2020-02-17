@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.builder.SearchSourceBuilderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.056">
+  <properties/>
+  <testcase name="testParseSort" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.004"/>
+  <testcase name="testNegativeSizeErrors" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.003"/>
+  <testcase name="testParseIncludeExclude" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.002"/>
+  <testcase name="testAggsParsing" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.002"/>
+  <testcase name="testTimeoutWithUnits" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.002"/>
+  <testcase name="testParseAndRewrite" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.011"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.009"/>
+  <testcase name="testFromXContentInvalid" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.002"/>
+  <testcase name="testNegativeFromErrors" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.002"/>
+  <testcase name="testParseIndicesBoost" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.003"/>
+  <testcase name="testTimeoutWithoutUnits" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.002"/>
+  <testcase name="testMultipleQueryObjectsAreRejected" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.004"/>
+  <testcase name="testParseRescore" classname="org.elasticsearch.search.builder.SearchSourceBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:35,366][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseSort] before test
+[2020-02-16T18:25:35,368][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseSort] after test
+[2020-02-16T18:25:35,370][INFO ][o.e.s.b.SearchSourceBuilderTests] [testNegativeSizeErrors] before test
+[2020-02-16T18:25:35,370][INFO ][o.e.s.b.SearchSourceBuilderTests] [testNegativeSizeErrors] after test
+[2020-02-16T18:25:35,372][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseIncludeExclude] before test
+[2020-02-16T18:25:35,373][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseIncludeExclude] after test
+[2020-02-16T18:25:35,374][INFO ][o.e.s.b.SearchSourceBuilderTests] [testToXContent] before test
+[2020-02-16T18:25:35,375][INFO ][o.e.s.b.SearchSourceBuilderTests] [testToXContent] after test
+[2020-02-16T18:25:35,376][INFO ][o.e.s.b.SearchSourceBuilderTests] [testAggsParsing] before test
+[2020-02-16T18:25:35,377][INFO ][o.e.s.b.SearchSourceBuilderTests] [testAggsParsing] after test
+[2020-02-16T18:25:35,379][INFO ][o.e.s.b.SearchSourceBuilderTests] [testTimeoutWithUnits] before test
+[2020-02-16T18:25:35,379][INFO ][o.e.s.b.SearchSourceBuilderTests] [testTimeoutWithUnits] after test
+[2020-02-16T18:25:35,380][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseAndRewrite] before test
+[2020-02-16T18:25:35,382][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseAndRewrite] after test
+[2020-02-16T18:25:35,384][INFO ][o.e.s.b.SearchSourceBuilderTests] [testSerialization] before test
+[2020-02-16T18:25:35,393][INFO ][o.e.s.b.SearchSourceBuilderTests] [testSerialization] after test
+[2020-02-16T18:25:35,395][INFO ][o.e.s.b.SearchSourceBuilderTests] [testFromXContent] before test
+[2020-02-16T18:25:35,401][INFO ][o.e.s.b.SearchSourceBuilderTests] [testFromXContent] after test
+[2020-02-16T18:25:35,403][INFO ][o.e.s.b.SearchSourceBuilderTests] [testFromXContentInvalid] before test
+[2020-02-16T18:25:35,404][INFO ][o.e.s.b.SearchSourceBuilderTests] [testFromXContentInvalid] after test
+[2020-02-16T18:25:35,406][INFO ][o.e.s.b.SearchSourceBuilderTests] [testNegativeFromErrors] before test
+[2020-02-16T18:25:35,406][INFO ][o.e.s.b.SearchSourceBuilderTests] [testNegativeFromErrors] after test
+[2020-02-16T18:25:35,407][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseIndicesBoost] before test
+[2020-02-16T18:25:35,408][WARN ][o.e.d.s.b.SearchSourceBuilder] [testParseIndicesBoost] Object format in indices_boost is deprecated, please use array format instead
+[2020-02-16T18:25:35,408][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseIndicesBoost] after test
+[2020-02-16T18:25:35,410][INFO ][o.e.s.b.SearchSourceBuilderTests] [testTimeoutWithoutUnits] before test
+[2020-02-16T18:25:35,410][INFO ][o.e.s.b.SearchSourceBuilderTests] [testTimeoutWithoutUnits] after test
+[2020-02-16T18:25:35,412][INFO ][o.e.s.b.SearchSourceBuilderTests] [testMultipleQueryObjectsAreRejected] before test
+[2020-02-16T18:25:35,414][INFO ][o.e.s.b.SearchSourceBuilderTests] [testMultipleQueryObjectsAreRejected] after test
+[2020-02-16T18:25:35,416][INFO ][o.e.s.b.SearchSourceBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:35,418][INFO ][o.e.s.b.SearchSourceBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:25:35,420][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseRescore] before test
+[2020-02-16T18:25:35,420][INFO ][o.e.s.b.SearchSourceBuilderTests] [testParseRescore] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

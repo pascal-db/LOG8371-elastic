@@ -1,0 +1,1826 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.engine.InternalEngineTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.engine.InternalEngineTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.engine.html">org.elasticsearch.index.engine</a> &gt; InternalEngineTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">121</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">38.648s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testAcquireIndexCommit</td>
+<td class="success">0.098s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAcquireSearcherOnClosingEngine</td>
+<td class="success">0.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAlwaysRecordReplicaOrPeerRecoveryOperationsToTranslog</td>
+<td class="success">0.081s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testAppendConcurrently</td>
+<td class="success">0.171s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBasicCreatedFlag</td>
+<td class="success">0.121s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCleanUpCommitsWhenGlobalCheckpointAdvanced</td>
+<td class="success">0.085s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCleanupCommitsWhenReleaseSnapshot</td>
+<td class="success">0.535s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitAdvancesMinTranslogForRecovery</td>
+<td class="success">0.098s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCommitStats</td>
+<td class="success">0.166s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcurrentAppendUpdateAndRefresh</td>
+<td class="success">0.300s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcurrentEngineClosed</td>
+<td class="success">0.084s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcurrentExternalVersioningOnPrimary</td>
+<td class="success">0.101s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcurrentGetAndFlush</td>
+<td class="success">0.182s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcurrentGetAndSetOnPrimary</td>
+<td class="success">0.440s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcurrentOutOfOrderDocsOnReplica</td>
+<td class="success">0.513s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testConcurrentWritesAndCommits</td>
+<td class="success">0.826s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCurrentTranslogIDisCommitted</td>
+<td class="success">0.165s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteFailureSoftDeletesDisabled</td>
+<td class="success">0.150s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteFailureSoftDeletesEnabled</td>
+<td class="success">0.082s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteFailureSoftDeletesEnabledDocAlreadyDeleted</td>
+<td class="success">0.082s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeleteWithFatalError</td>
+<td class="success">0.081s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoubleDeliveryPrimary</td>
+<td class="success">0.076s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoubleDeliveryReplica</td>
+<td class="success">0.077s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoubleDeliveryReplicaAppendingAndDeleteOnly</td>
+<td class="success">0.091s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDoubleDeliveryReplicaAppendingOnly</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEnableGcDeletes</td>
+<td class="success">1.088s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEngineMaxTimestampIsInitialized</td>
+<td class="success">0.329s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExtractShardId</td>
+<td class="success">0.077s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailEngineOnRandomIO</td>
+<td class="success">0.086s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFailStart</td>
+<td class="success">0.189s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFillUpSequenceIdGapsOnRecovery</td>
+<td class="success">0.107s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFlushIsDisabledDuringTranslogRecovery</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForceMergeAndClose</td>
+<td class="success">0.301s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForceMergeWithSoftDeletesRetention</td>
+<td class="success">0.185s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForceMergeWithSoftDeletesRetentionAndRecoverySource</td>
+<td class="success">0.259s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testForceMergeWithoutSoftDeletes</td>
+<td class="success">0.337s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetIfSeqNoIfPrimaryTerm</td>
+<td class="success">0.060s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGetReaderAttributes</td>
+<td class="success">0.118s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleDocumentFailure</td>
+<td class="success">0.104s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexWriterIFDInfoStream</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIndexWriterInfoStream</td>
+<td class="success">0.153s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInternalVersioningOnPrimary</td>
+<td class="success">0.074s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testKeepMinRetainedSeqNoByMergePolicy</td>
+<td class="success">8.046s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testKeepTranslogAfterGlobalCheckpoint</td>
+<td class="success">0.286s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLastRefreshCheckpoint</td>
+<td class="success">1.597s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLookupSeqNoByIdInLucene</td>
+<td class="success">0.156s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLookupVersionWithPrunedAwayIds</td>
+<td class="success">0.339s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLuceneHistoryOnPrimary</td>
+<td class="success">0.130s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLuceneHistoryOnReplica</td>
+<td class="success">0.184s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLuceneSnapshotRefreshesOnlyOnce</td>
+<td class="success">0.089s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMaxSeqNoInCommitUserData</td>
+<td class="success">0.147s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMinGenerationForSeqNo</td>
+<td class="success">0.788s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMissingTranslog</td>
+<td class="success">0.128s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoOpFailure</td>
+<td class="success">0.065s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoOpOnClosingEngine</td>
+<td class="success">0.068s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNoOps</td>
+<td class="success">0.210s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNonInternalVersioningOnPrimary</td>
+<td class="success">0.117s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNotWarmUpSearcherInEngineCtor</td>
+<td class="success">0.117s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOpenSoftDeletesIndexWithSoftDeletesDisabled</td>
+<td class="success">0.314s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutOfOrderDocsOnReplica</td>
+<td class="success">0.150s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOutOfOrderSequenceNumbersWithVersionConflict</td>
+<td class="success">0.049s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPruneAwayDeletedButRetainedIds</td>
+<td class="success">0.100s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testPruneOnlyDeletesAtMostLocalCheckpoint</td>
+<td class="success">0.147s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRandomOperations</td>
+<td class="success">1.402s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRealtimeGetOnlyRefreshIfNeeded</td>
+<td class="success">0.212s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRebuildLocalCheckpointTrackerAndVersionMap</td>
+<td class="success">0.543s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRecoverFromForeignTranslog</td>
+<td class="success">0.174s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRecoverFromLocalTranslog</td>
+<td class="success">0.972s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRecoveryFromTranslogUpToSeqNo</td>
+<td class="success">0.126s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshAndCloseEngineConcurrently</td>
+<td class="success">0.093s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshDoesNotBlockClosing</td>
+<td class="success">0.205s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRefreshScopedSearcher</td>
+<td class="success">0.112s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRenewSyncFlush</td>
+<td class="success">0.460s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testReplicatedVersioningWithFlush</td>
+<td class="success">0.126s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRequireSoftDeletesWhenAccessingChangesSnapshot</td>
+<td class="success">0.093s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRestoreLocalHistoryFromTranslog</td>
+<td class="success">0.279s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryConcurrently</td>
+<td class="success">0.439s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryWithAutogeneratedIdWorksAndNoDuplicateDocs</td>
+<td class="success">0.077s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRetryWithAutogeneratedIdsAndWrongOrderWorksAndNoDuplicateDocs</td>
+<td class="success">0.061s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSearchResultRelease</td>
+<td class="success">0.062s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSegmentContainsOnlyNoOps</td>
+<td class="success">0.045s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSegmentsStatsIncludingFileSizes</td>
+<td class="success">0.204s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSegmentsWithIndexSort</td>
+<td class="success">0.097s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSegmentsWithMergeFlag</td>
+<td class="success">0.120s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSegmentsWithSoftDeletes</td>
+<td class="success">0.089s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSegmentsWithoutSoftDeletes</td>
+<td class="success">0.176s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSeqNoAndCheckpoints</td>
+<td class="success">0.195s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSeqNoGenerator</td>
+<td class="success">0.063s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSequenceIDs</td>
+<td class="success">0.087s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSequenceNumberAdvancesToMaxSeqOnEngineOpenOnPrimary</td>
+<td class="success">0.149s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSettings</td>
+<td class="success">0.059s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShardNotAvailableExceptionWhenEngineClosedConcurrently</td>
+<td class="success">0.094s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShouldPeriodicallyFlush</td>
+<td class="success">0.245s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testShouldPeriodicallyFlushAfterMerge</td>
+<td class="success">0.135s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSimpleOperations</td>
+<td class="success">0.085s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSkipTranslogReplay</td>
+<td class="success">0.081s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSoftDeleteOnClosingEngine</td>
+<td class="success">1.398s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStoreHonorsLuceneVersion</td>
+<td class="success">0.179s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStressShouldPeriodicallyFlush</td>
+<td class="success">1.991s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStressUpdateSameDocWhileGettingIt</td>
+<td class="success">0.212s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSyncedFlush</td>
+<td class="success">0.176s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSyncedFlushSurvivesEngineRestart</td>
+<td class="success">0.300s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSyncedFlushVanishesOnReplay</td>
+<td class="success">0.108s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTrackMaxSeqNoOfUpdatesOrDeletesOnPrimary</td>
+<td class="success">0.136s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTranslogCleanUpPostCommitCrash</td>
+<td class="success">0.145s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTranslogMultipleOperationsSameDocument</td>
+<td class="success">0.069s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTranslogRecoveryDoesNotReplayIntoTranslog</td>
+<td class="success">0.094s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTranslogRecoveryWithMultipleGenerations</td>
+<td class="success">0.944s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTranslogReplay</td>
+<td class="success">0.134s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTranslogReplayWithFailure</td>
+<td class="success">0.117s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTreatDocumentFailureAsFatalError</td>
+<td class="success">0.069s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTrimUnsafeCommits</td>
+<td class="success">0.247s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUpdateWithFullyDeletedSegments</td>
+<td class="success">0.194s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVerboseSegments</td>
+<td class="success">0.120s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVersionMapAfterAutoIDDocument</td>
+<td class="success">0.070s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVersionOnPrimaryWithConcurrentRefresh</td>
+<td class="success">2.570s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVersionedUpdate</td>
+<td class="success">0.104s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVersioningCreateExistsException</td>
+<td class="success">0.059s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVersioningNewCreate</td>
+<td class="success">0.060s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVersioningNewIndex</td>
+<td class="success">0.052s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVersioningPromotedReplica</td>
+<td class="success">0.092s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T01:21:16,071][INFO ][o.e.i.e.InternalEngineTests] [testRetryWithAutogeneratedIdsAndWrongOrderWorksAndNoDuplicateDocs] before test
+[2020-02-17T01:21:16,128][INFO ][o.e.i.e.InternalEngineTests] [testRetryWithAutogeneratedIdsAndWrongOrderWorksAndNoDuplicateDocs] after test
+[2020-02-17T01:21:16,132][INFO ][o.e.i.e.InternalEngineTests] [testRebuildLocalCheckpointTrackerAndVersionMap] before test
+[2020-02-17T01:21:16,672][INFO ][o.e.i.e.InternalEngineTests] [testRebuildLocalCheckpointTrackerAndVersionMap] after test
+[2020-02-17T01:21:16,679][INFO ][o.e.i.e.InternalEngineTests] [testSearchResultRelease] before test
+[2020-02-17T01:21:16,734][INFO ][o.e.i.e.InternalEngineTests] [testSearchResultRelease] after test
+[2020-02-17T01:21:16,743][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentGetAndSetOnPrimary] before test
+[2020-02-17T01:21:17,174][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentGetAndSetOnPrimary] after test
+[2020-02-17T01:21:17,181][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] before test
+[2020-02-17T01:21:17,226][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,289][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,346][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 2, seqNo 1, term 3634127188491078316 )
+[2020-02-17T01:21:17,346][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,361][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 4, seqNo 3, term 3634127188491078316 )
+[2020-02-17T01:21:17,374][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 5, seqNo 4, term 3634127188491078316 )
+[2020-02-17T01:21:17,388][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (conflict 5) (versioned 6, seqNo 5, term 3634127188491078316 )
+[2020-02-17T01:21:17,388][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned -4, seqNo 5, term 3634127188491078316 )
+[2020-02-17T01:21:17,406][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,424][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,438][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,527][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,527][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,561][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned -4, seqNo 11, term 3634127188491078316 )
+[2020-02-17T01:21:17,573][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 13, seqNo 12, term 3634127188491078316 )
+[2020-02-17T01:21:17,596][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,628][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,629][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,656][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,676][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,677][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned -4, seqNo 18, term 3634127188491078316 )
+[2020-02-17T01:21:17,695][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,722][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 21, seqNo 20, term 3634127188491078316 )
+[2020-02-17T01:21:17,749][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,778][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 23, seqNo 22, term 3634127188491078316 )
+[2020-02-17T01:21:17,778][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,779][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,779][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,813][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 27, seqNo 26, term 3634127188491078316 )
+[2020-02-17T01:21:17,872][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,916][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 29, seqNo 28, term 3634127188491078316 )
+[2020-02-17T01:21:17,929][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:17,947][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:17,948][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 32, seqNo 31, term 3634127188491078316 )
+[2020-02-17T01:21:17,970][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned -4, seqNo 32, term 3634127188491078316 )
+[2020-02-17T01:21:17,971][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,015][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (conflict 34) (versioned -4, seqNo 34, term 3634127188491078316 )
+[2020-02-17T01:21:18,015][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,015][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned -4, seqNo 35, term 3634127188491078316 )
+[2020-02-17T01:21:18,015][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:18,032][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 38, seqNo 37, term 3634127188491078316 )
+[2020-02-17T01:21:18,075][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 39, seqNo 38, term 3634127188491078316 )
+[2020-02-17T01:21:18,091][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 40, seqNo 39, term 3634127188491078316 )
+[2020-02-17T01:21:18,092][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 41, seqNo 40, term 3634127188491078316 )
+[2020-02-17T01:21:18,122][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:18,145][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:18,160][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 44, seqNo 43, term 3634127188491078316 )
+[2020-02-17T01:21:18,161][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned -4, seqNo 44, term 3634127188491078316 )
+[2020-02-17T01:21:18,161][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned -4, seqNo 45, term 3634127188491078316 )
+[2020-02-17T01:21:18,161][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,161][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,181][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned -4, seqNo 48, term 3634127188491078316 )
+[2020-02-17T01:21:18,190][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (conflict 49) (versioned -4, seqNo 49, term 3634127188491078316 )
+[2020-02-17T01:21:18,191][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned -4, seqNo 49, term 3634127188491078316 )
+[2020-02-17T01:21:18,212][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned -4, seqNo 50, term 3634127188491078316 )
+[2020-02-17T01:21:18,320][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:18,326][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,339][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,351][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 55, seqNo 54, term 3634127188491078316 )
+[2020-02-17T01:21:18,355][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned -4, seqNo 55, term 3634127188491078316 )
+[2020-02-17T01:21:18,365][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 57, seqNo 56, term 3634127188491078316 )
+[2020-02-17T01:21:18,371][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 58, seqNo 57, term 3634127188491078316 )
+[2020-02-17T01:21:18,372][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 59, seqNo 58, term 3634127188491078316 )
+[2020-02-17T01:21:18,378][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 60, seqNo 59, term 3634127188491078316 )
+[2020-02-17T01:21:18,389][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 61, seqNo 60, term 3634127188491078316 )
+[2020-02-17T01:21:18,450][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 62, seqNo 61, term 3634127188491078316 )
+[2020-02-17T01:21:18,505][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 63, seqNo 62, term 3634127188491078316 )
+[2020-02-17T01:21:18,510][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 64, seqNo 63, term 3634127188491078316 )
+[2020-02-17T01:21:18,511][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 65, seqNo 64, term 3634127188491078316 )
+[2020-02-17T01:21:18,674][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 66, seqNo 65, term 3634127188491078316 )
+[2020-02-17T01:21:18,679][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:18,695][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:18,700][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 69, seqNo 68, term 3634127188491078316 )
+[2020-02-17T01:21:18,701][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:18,721][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 71, seqNo 70, term 3634127188491078316 )
+[2020-02-17T01:21:18,725][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,943][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,954][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D] (versioned 74, seqNo 73, term 3634127188491078316 )
+[2020-02-17T01:21:18,983][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:18,988][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned -4, seqNo 75, term 3634127188491078316 )
+[2020-02-17T01:21:18,999][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I] (versioned 77, seqNo 76, term 3634127188491078316 )
+[2020-02-17T01:21:19,012][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [D]
+[2020-02-17T01:21:19,012][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:19,154][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:19,179][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] performing [I]
+[2020-02-17T01:21:19,743][INFO ][o.e.i.e.InternalEngineTests] [testVersionOnPrimaryWithConcurrentRefresh] after test
+[2020-02-17T01:21:19,749][INFO ][o.e.i.e.InternalEngineTests] [testVersioningNewIndex] before test
+[2020-02-17T01:21:19,796][INFO ][o.e.i.e.InternalEngineTests] [testVersioningNewIndex] after test
+[2020-02-17T01:21:19,798][INFO ][o.e.i.e.InternalEngineTests] [testLuceneHistoryOnPrimary] before test
+[2020-02-17T01:21:19,926][INFO ][o.e.i.e.InternalEngineTests] [testLuceneHistoryOnPrimary] after test
+[2020-02-17T01:21:19,932][INFO ][o.e.i.e.InternalEngineTests] [testTranslogMultipleOperationsSameDocument] before test
+[2020-02-17T01:21:19,995][INFO ][o.e.i.e.InternalEngineTests] [testTranslogMultipleOperationsSameDocument] after test
+[2020-02-17T01:21:19,997][INFO ][o.e.i.e.InternalEngineTests] [testCommitAdvancesMinTranslogForRecovery] before test
+[2020-02-17T01:21:20,092][INFO ][o.e.i.e.InternalEngineTests] [testCommitAdvancesMinTranslogForRecovery] after test
+[2020-02-17T01:21:20,095][INFO ][o.e.i.e.InternalEngineTests] [testStressUpdateSameDocWhileGettingIt] before test
+[2020-02-17T01:21:20,152][INFO ][o.e.c.s.IndexScopedSettings] [testStressUpdateSameDocWhileGettingIt] updating [index.gc_deletes] from [1h] to [1ms]
+[2020-02-17T01:21:20,304][INFO ][o.e.i.e.InternalEngineTests] [testStressUpdateSameDocWhileGettingIt] after test
+[2020-02-17T01:21:20,307][INFO ][o.e.i.e.InternalEngineTests] [testAlwaysRecordReplicaOrPeerRecoveryOperationsToTranslog] before test
+[2020-02-17T01:21:20,386][INFO ][o.e.i.e.InternalEngineTests] [testAlwaysRecordReplicaOrPeerRecoveryOperationsToTranslog] after test
+[2020-02-17T01:21:20,389][INFO ][o.e.i.e.InternalEngineTests] [testFailStart] before test
+[2020-02-17T01:21:20,576][INFO ][o.e.i.e.InternalEngineTests] [testFailStart] after test
+[2020-02-17T01:21:20,578][INFO ][o.e.i.e.InternalEngineTests] [testRecoveryFromTranslogUpToSeqNo] before test
+[2020-02-17T01:21:20,701][INFO ][o.e.i.e.InternalEngineTests] [testRecoveryFromTranslogUpToSeqNo] after test
+[2020-02-17T01:21:20,706][INFO ][o.e.i.e.InternalEngineTests] [testNoOpFailure] before test
+[2020-02-17T01:21:20,758][WARN ][o.e.i.e.Engine           ] [testNoOpFailure] [index][0] failed engine [no-op origin[PRIMARY] seq#[0] failed at document level]
+java.lang.IllegalArgumentException: fatal
+	at org.elasticsearch.index.engine.InternalEngineTests$17.addDocument(InternalEngineTests.java:6070) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngine.innerNoOp(InternalEngine.java:1539) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.noOp(InternalEngine.java:1502) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$testNoOpFailure$95(InternalEngineTests.java:6078) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.engine.InternalEngineTests.testNoOpFailure(InternalEngineTests.java:6078) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T01:21:20,767][INFO ][o.e.i.e.InternalEngineTests] [testNoOpFailure] after test
+[2020-02-17T01:21:20,769][INFO ][o.e.i.e.InternalEngineTests] [testEngineMaxTimestampIsInitialized] before test
+[2020-02-17T01:21:21,096][INFO ][o.e.i.e.InternalEngineTests] [testEngineMaxTimestampIsInitialized] after test
+[2020-02-17T01:21:21,100][INFO ][o.e.i.e.InternalEngineTests] [testCurrentTranslogIDisCommitted] before test
+[2020-02-17T01:21:21,261][INFO ][o.e.i.e.InternalEngineTests] [testCurrentTranslogIDisCommitted] after test
+[2020-02-17T01:21:21,264][INFO ][o.e.i.e.InternalEngineTests] [testCleanupCommitsWhenReleaseSnapshot] before test
+[2020-02-17T01:21:21,795][INFO ][o.e.i.e.InternalEngineTests] [testCleanupCommitsWhenReleaseSnapshot] after test
+[2020-02-17T01:21:21,797][INFO ][o.e.i.e.InternalEngineTests] [testSegmentContainsOnlyNoOps] before test
+[2020-02-17T01:21:21,841][INFO ][o.e.i.e.InternalEngineTests] [testSegmentContainsOnlyNoOps] after test
+[2020-02-17T01:21:21,844][INFO ][o.e.i.e.InternalEngineTests] [testDeleteFailureSoftDeletesEnabledDocAlreadyDeleted] before test
+[2020-02-17T01:21:21,907][WARN ][o.e.i.e.Engine           ] [testDeleteFailureSoftDeletesEnabledDocAlreadyDeleted] [index][0] failed engine [delete id[0] origin [PRIMARY] seq#[2] failed at the document level]
+java.lang.IllegalArgumentException: fatal
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$runTestDeleteFailure$99(InternalEngineTests.java:6121) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.maybeThrowFailure(InternalEngineTests.java:3307) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.addDocument(InternalEngineTests.java:3301) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngine.deleteInLucene(InternalEngine.java:1409) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.delete(InternalEngine.java:1295) [main/:?]
+	at org.elasticsearch.index.engine.InternalTestEngine.delete(InternalTestEngine.java:72) [framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$runTestDeleteFailure$100(InternalEngineTests.java:6122) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.engine.InternalEngineTests.runTestDeleteFailure(InternalEngineTests.java:6122) [test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.testDeleteFailureSoftDeletesEnabledDocAlreadyDeleted(InternalEngineTests.java:6088) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T01:21:21,923][INFO ][o.e.i.e.InternalEngineTests] [testDeleteFailureSoftDeletesEnabledDocAlreadyDeleted] after test
+[2020-02-17T01:21:21,926][INFO ][o.e.i.e.InternalEngineTests] [testReplicatedVersioningWithFlush] before test
+[2020-02-17T01:21:22,049][INFO ][o.e.i.e.InternalEngineTests] [testReplicatedVersioningWithFlush] after test
+[2020-02-17T01:21:22,052][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderSequenceNumbersWithVersionConflict] before test
+[2020-02-17T01:21:22,098][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderSequenceNumbersWithVersionConflict] after test
+[2020-02-17T01:21:22,102][INFO ][o.e.i.e.InternalEngineTests] [testPruneAwayDeletedButRetainedIds] before test
+[2020-02-17T01:21:22,198][INFO ][o.e.i.e.InternalEngineTests] [testPruneAwayDeletedButRetainedIds] after test
+[2020-02-17T01:21:22,200][INFO ][o.e.i.e.InternalEngineTests] [testForceMergeWithSoftDeletesRetention] before test
+[2020-02-17T01:21:22,340][INFO ][o.e.c.s.IndexScopedSettings] [testForceMergeWithSoftDeletesRetention] updating [index.soft_deletes.retention.operations] from [5] to [0]
+[2020-02-17T01:21:22,382][INFO ][o.e.i.e.InternalEngineTests] [testForceMergeWithSoftDeletesRetention] after test
+[2020-02-17T01:21:22,388][INFO ][o.e.i.e.InternalEngineTests] [testSettings] before test
+[2020-02-17T01:21:22,442][INFO ][o.e.i.e.InternalEngineTests] [testSettings] after test
+[2020-02-17T01:21:22,449][INFO ][o.e.i.e.InternalEngineTests] [testCleanUpCommitsWhenGlobalCheckpointAdvanced] before test
+[2020-02-17T01:21:22,527][INFO ][o.e.i.e.InternalEngineTests] [testCleanUpCommitsWhenGlobalCheckpointAdvanced] after test
+[2020-02-17T01:21:22,532][INFO ][o.e.i.e.InternalEngineTests] [testDeleteFailureSoftDeletesEnabled] before test
+[2020-02-17T01:21:22,595][WARN ][o.e.i.e.Engine           ] [testDeleteFailureSoftDeletesEnabled] [index][0] failed engine [delete id[0] origin [PRIMARY] seq#[1] failed at the document level]
+java.lang.IllegalArgumentException: fatal
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$runTestDeleteFailure$99(InternalEngineTests.java:6121) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.maybeThrowFailure(InternalEngineTests.java:3307) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.softUpdateDocument(InternalEngineTests.java:3321) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngine.deleteInLucene(InternalEngine.java:1411) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.delete(InternalEngine.java:1295) [main/:?]
+	at org.elasticsearch.index.engine.InternalTestEngine.delete(InternalTestEngine.java:72) [framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$runTestDeleteFailure$100(InternalEngineTests.java:6122) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.engine.InternalEngineTests.runTestDeleteFailure(InternalEngineTests.java:6122) [test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.testDeleteFailureSoftDeletesEnabled(InternalEngineTests.java:6092) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T01:21:22,607][INFO ][o.e.i.e.InternalEngineTests] [testDeleteFailureSoftDeletesEnabled] after test
+[2020-02-17T01:21:22,611][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentAppendUpdateAndRefresh] before test
+[2020-02-17T01:21:22,908][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentAppendUpdateAndRefresh] after test
+[2020-02-17T01:21:22,913][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentExternalVersioningOnPrimary] before test
+[2020-02-17T01:21:23,010][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentExternalVersioningOnPrimary] after test
+[2020-02-17T01:21:23,014][INFO ][o.e.i.e.InternalEngineTests] [testTreatDocumentFailureAsFatalError] before test
+[2020-02-17T01:21:23,062][WARN ][o.e.i.e.Engine           ] [testTreatDocumentFailureAsFatalError] [index][0] failed engine [index id[1] origin[PEER_RECOVERY] seq#[4574794772105829339]]
+java.io.IOException: simulated
+	at org.elasticsearch.index.engine.InternalEngineTests.testTreatDocumentFailureAsFatalError(InternalEngineTests.java:6021) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T01:21:23,080][INFO ][o.e.i.e.InternalEngineTests] [testTreatDocumentFailureAsFatalError] after test
+[2020-02-17T01:21:23,082][INFO ][o.e.i.e.InternalEngineTests] [testStressShouldPeriodicallyFlush] before test
+[2020-02-17T01:21:23,116][INFO ][o.e.c.s.IndexScopedSettings] [testStressShouldPeriodicallyFlush] updating [index.translog.flush_threshold_size] from [512mb] to [2094b]
+[2020-02-17T01:21:23,116][INFO ][o.e.c.s.IndexScopedSettings] [testStressShouldPeriodicallyFlush] updating [index.translog.generation_threshold_size] from [64mb] to [4099b]
+[2020-02-17T01:21:25,070][INFO ][o.e.i.e.InternalEngineTests] [testStressShouldPeriodicallyFlush] after test
+[2020-02-17T01:21:25,073][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] before test
+[2020-02-17T01:21:25,102][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] performing [I] (versioned -1, seqNo -2, term 0 )
+[2020-02-17T01:21:25,108][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] performing [D] (versioned 1, seqNo 0, term 4789200021708163645 )
+[2020-02-17T01:21:25,109][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] performing [I]
+[2020-02-17T01:21:25,114][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] performing [D]
+[2020-02-17T01:21:25,118][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] performing [D] (versioned -4, seqNo 3, term 4789200021708163645 )
+[2020-02-17T01:21:25,119][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] performing [D] (versioned 5, seqNo 4, term 4789200021708163645 )
+[2020-02-17T01:21:25,119][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] performing [I] (versioned -4, seqNo 5, term 4789200021708163645 )
+[2020-02-17T01:21:25,145][INFO ][o.e.i.e.InternalEngineTests] [testInternalVersioningOnPrimary] after test
+[2020-02-17T01:21:25,150][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] before test
+[2020-02-17T01:21:25,203][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [D], v [8], seq# [16], term [3]
+[2020-02-17T01:21:25,213][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [I], v [3], seq# [8], term [3]
+[2020-02-17T01:21:25,222][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [D], v [5], seq# [12], term [3]
+[2020-02-17T01:21:25,231][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [D], v [9], seq# [18], term [3]
+[2020-02-17T01:21:25,233][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [I], v [1], seq# [2], term [3]
+[2020-02-17T01:21:25,236][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [D], v [6], seq# [14], term [3]
+[2020-02-17T01:21:25,237][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [D], v [3], seq# [6], term [3]
+[2020-02-17T01:21:25,238][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [I], v [0], seq# [0], term [3]
+[2020-02-17T01:21:25,238][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [I], v [4], seq# [10], term [3]
+[2020-02-17T01:21:25,244][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] performing [I], v [1], seq# [4], term [3]
+[2020-02-17T01:21:25,294][INFO ][o.e.i.e.InternalEngineTests] [testOutOfOrderDocsOnReplica] after test
+[2020-02-17T01:21:25,302][INFO ][o.e.i.e.InternalEngineTests] [testDoubleDeliveryReplica] before test
+[2020-02-17T01:21:25,371][INFO ][o.e.i.e.InternalEngineTests] [testDoubleDeliveryReplica] after test
+[2020-02-17T01:21:25,374][INFO ][o.e.i.e.InternalEngineTests] [testRetryWithAutogeneratedIdWorksAndNoDuplicateDocs] before test
+[2020-02-17T01:21:25,448][INFO ][o.e.i.e.InternalEngineTests] [testRetryWithAutogeneratedIdWorksAndNoDuplicateDocs] after test
+[2020-02-17T01:21:25,458][INFO ][o.e.i.e.InternalEngineTests] [testTranslogReplayWithFailure] before test
+[2020-02-17T01:21:25,566][INFO ][o.e.i.e.InternalEngineTests] [testTranslogReplayWithFailure] after test
+[2020-02-17T01:21:25,570][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsWithMergeFlag] before test
+[2020-02-17T01:21:25,687][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsWithMergeFlag] after test
+[2020-02-17T01:21:25,692][INFO ][o.e.i.e.InternalEngineTests] [testTranslogRecoveryWithMultipleGenerations] before test
+[2020-02-17T01:21:26,630][INFO ][o.e.i.e.InternalEngineTests] [testTranslogRecoveryWithMultipleGenerations] after test
+[2020-02-17T01:21:26,632][INFO ][o.e.i.e.InternalEngineTests] [testFailEngineOnRandomIO] before test
+[2020-02-17T01:21:26,691][WARN ][o.e.i.e.Engine           ] [[Thread-308]] [index][0] failed engine [refresh failed source[test]]
+org.apache.lucene.store.MockDirectoryWrapper$FakeIOException: null
+	at org.elasticsearch.index.engine.InternalEngineTests$11.afterRefresh(InternalEngineTests.java:3958) ~[test/:?]
+	at org.apache.lucene.search.ReferenceManager.notifyRefreshListenersRefreshed(ReferenceManager.java:285) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.search.ReferenceManager.doMaybeRefresh(ReferenceManager.java:190) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.search.ReferenceManager.maybeRefreshBlocking(ReferenceManager.java:253) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.elasticsearch.index.engine.InternalEngine.refresh(InternalEngine.java:1603) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.refresh(InternalEngine.java:1580) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$testFailEngineOnRandomIO$46(InternalEngineTests.java:3983) [test/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T01:21:26,716][INFO ][o.e.i.e.InternalEngineTests] [testFailEngineOnRandomIO] after test
+[2020-02-17T01:21:26,719][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentOutOfOrderDocsOnReplica] before test
+[2020-02-17T01:21:27,230][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentOutOfOrderDocsOnReplica] after test
+[2020-02-17T01:21:27,232][INFO ][o.e.i.e.InternalEngineTests] [testTrimUnsafeCommits] before test
+[2020-02-17T01:21:27,477][INFO ][o.e.i.e.InternalEngineTests] [testTrimUnsafeCommits] after test
+[2020-02-17T01:21:27,479][INFO ][o.e.i.e.InternalEngineTests] [testNoOpOnClosingEngine] before test
+[2020-02-17T01:21:27,544][INFO ][o.e.i.e.InternalEngineTests] [testNoOpOnClosingEngine] after test
+[2020-02-17T01:21:27,548][INFO ][o.e.i.e.InternalEngineTests] [testGetIfSeqNoIfPrimaryTerm] before test
+[2020-02-17T01:21:27,604][INFO ][o.e.i.e.InternalEngineTests] [testGetIfSeqNoIfPrimaryTerm] after test
+[2020-02-17T01:21:27,608][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsWithIndexSort] before test
+[2020-02-17T01:21:27,702][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsWithIndexSort] after test
+[2020-02-17T01:21:27,704][INFO ][o.e.i.e.InternalEngineTests] [testSequenceNumberAdvancesToMaxSeqOnEngineOpenOnPrimary] before test
+[2020-02-17T01:21:27,850][INFO ][o.e.i.e.InternalEngineTests] [testSequenceNumberAdvancesToMaxSeqOnEngineOpenOnPrimary] after test
+[2020-02-17T01:21:27,852][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] before test
+[2020-02-17T01:21:27,879][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [D], v [0], seq# [-2], term [2]
+[2020-02-17T01:21:27,884][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [D], v [0], seq# [-2], term [2]
+[2020-02-17T01:21:27,889][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [D], v [2], seq# [-2], term [2]
+[2020-02-17T01:21:27,890][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [I], v [3], seq# [-2], term [2]
+[2020-02-17T01:21:27,890][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [I], v [3], seq# [-2], term [2]
+[2020-02-17T01:21:27,892][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [I], v [5], seq# [-2], term [2]
+[2020-02-17T01:21:27,901][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [D], v [6], seq# [-2], term [2]
+[2020-02-17T01:21:27,902][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [D], v [7], seq# [-2], term [2]
+[2020-02-17T01:21:27,905][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [D], v [7], seq# [-2], term [2]
+[2020-02-17T01:21:27,907][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [I], v [8], seq# [-2], term [2]
+[2020-02-17T01:21:27,913][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] performing [D], v [10], seq# [-2], term [2]
+[2020-02-17T01:21:27,967][INFO ][o.e.i.e.InternalEngineTests] [testNonInternalVersioningOnPrimary] after test
+[2020-02-17T01:21:27,969][INFO ][o.e.i.e.InternalEngineTests] [testIndexWriterIFDInfoStream] before test
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: now checkpoint &quot;_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891688014}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}] _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891688021}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]&quot; [2 segments ; isCommit = false]
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: 0 msec to checkpoint
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.nvd&quot;
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.dim&quot;
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.nvm&quot;
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.fnm&quot;
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.dii&quot;
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.dvm&quot;
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.tip&quot;
+[2020-02-17T01:21:28,022][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.doc&quot;
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.tim&quot;
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.dvd&quot;
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.pos&quot;
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.fdx&quot;
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.fdt&quot;
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: delete [_1.nvd, _1.dim, _1.nvm, _1.fnm, _1.dii, _1_Asserting_0.dvm, _1_Asserting_0.tip, _1_Asserting_0.doc, _1_Asserting_0.tim, _1_Asserting_0.dvd, _1_Asserting_0.pos, _1.fdx, _1.fdt]
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: now checkpoint &quot;_0(8.3.0):c1/1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891688014}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}] _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891688021}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]&quot; [2 segments ; isCommit = false]
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: 0 msec to checkpoint
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: now checkpoint &quot;_1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891688021}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]&quot; [1 segments ; isCommit = false]
+[2020-02-17T01:21:28,023][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: 0 msec to checkpoint
+[2020-02-17T01:21:28,024][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: now checkpoint &quot;_1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891688021}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]&quot; [1 segments ; isCommit = true]
+[2020-02-17T01:21:28,024][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterIFDInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterIFDInfoStream-seed#[9EA1F2A3814E5F76] IFD: 0 msec to checkpoint
+[2020-02-17T01:21:28,054][INFO ][o.e.i.e.InternalEngineTests] [testIndexWriterIFDInfoStream] after test
+[2020-02-17T01:21:28,084][INFO ][o.e.i.e.InternalEngineTests] [testMaxSeqNoInCommitUserData] before test
+[2020-02-17T01:21:28,201][INFO ][o.e.i.e.InternalEngineTests] [testMaxSeqNoInCommitUserData] after test
+[2020-02-17T01:21:28,204][INFO ][o.e.i.e.InternalEngineTests] [testDeleteWithFatalError] before test
+[2020-02-17T01:21:28,263][WARN ][o.e.i.e.Engine           ] [testDeleteWithFatalError] [index][0] failed engine [delete]
+java.lang.IllegalStateException: fail to store tombstone
+	at org.elasticsearch.index.engine.InternalEngineTests.testDeleteWithFatalError(InternalEngineTests.java:3408) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T01:21:28,282][INFO ][o.e.i.e.InternalEngineTests] [testDeleteWithFatalError] after test
+[2020-02-17T01:21:28,285][INFO ][o.e.i.e.InternalEngineTests] [testDoubleDeliveryReplicaAppendingAndDeleteOnly] before test
+[2020-02-17T01:21:28,374][INFO ][o.e.i.e.InternalEngineTests] [testDoubleDeliveryReplicaAppendingAndDeleteOnly] after test
+[2020-02-17T01:21:28,379][INFO ][o.e.i.e.InternalEngineTests] [testTranslogRecoveryDoesNotReplayIntoTranslog] before test
+[2020-02-17T01:21:28,468][INFO ][o.e.i.e.InternalEngineTests] [testTranslogRecoveryDoesNotReplayIntoTranslog] after test
+[2020-02-17T01:21:28,470][INFO ][o.e.i.e.InternalEngineTests] [testVersioningNewCreate] before test
+[2020-02-17T01:21:28,528][INFO ][o.e.i.e.InternalEngineTests] [testVersioningNewCreate] after test
+[2020-02-17T01:21:28,538][INFO ][o.e.i.e.InternalEngineTests] [testSequenceIDs] before test
+[2020-02-17T01:21:28,577][INFO ][o.e.i.e.InternalEngineTests] [testSequenceIDs] --&gt; got seqID: Tuple [v1=0, v2=2854758666409568245]
+[2020-02-17T01:21:28,582][INFO ][o.e.i.e.InternalEngineTests] [testSequenceIDs] --&gt; got seqID: Tuple [v1=1, v2=2854758666409568245]
+[2020-02-17T01:21:28,585][INFO ][o.e.i.e.InternalEngineTests] [testSequenceIDs] --&gt; got seqID: Tuple [v1=2, v2=3]
+[2020-02-17T01:21:28,615][INFO ][o.e.i.e.InternalEngineTests] [testSequenceIDs] after test
+[2020-02-17T01:21:28,617][INFO ][o.e.i.e.InternalEngineTests] [testAcquireIndexCommit] before test
+[2020-02-17T01:21:28,713][INFO ][o.e.i.e.InternalEngineTests] [testAcquireIndexCommit] after test
+[2020-02-17T01:21:28,718][INFO ][o.e.i.e.InternalEngineTests] [testLookupSeqNoByIdInLucene] before test
+[2020-02-17T01:21:28,869][INFO ][o.e.i.e.InternalEngineTests] [testLookupSeqNoByIdInLucene] after test
+[2020-02-17T01:21:28,874][INFO ][o.e.i.e.InternalEngineTests] [testGetReaderAttributes] before test
+[2020-02-17T01:21:28,987][INFO ][o.e.i.e.InternalEngineTests] [testGetReaderAttributes] after test
+[2020-02-17T01:21:28,990][INFO ][o.e.i.e.InternalEngineTests] [testSeqNoGenerator] before test
+[2020-02-17T01:21:29,051][INFO ][o.e.i.e.InternalEngineTests] [testSeqNoGenerator] after test
+[2020-02-17T01:21:29,053][INFO ][o.e.i.e.InternalEngineTests] [testSeqNoAndCheckpoints] before test
+[2020-02-17T01:21:29,202][INFO ][o.e.i.e.InternalEngineTests] [testSeqNoAndCheckpoints] localcheckpoint 173, global 179
+[2020-02-17T01:21:29,245][INFO ][o.e.i.e.InternalEngineTests] [testSeqNoAndCheckpoints] after test
+[2020-02-17T01:21:29,270][INFO ][o.e.i.e.InternalEngineTests] [testForceMergeWithSoftDeletesRetentionAndRecoverySource] before test
+[2020-02-17T01:21:29,447][INFO ][o.e.c.s.IndexScopedSettings] [testForceMergeWithSoftDeletesRetentionAndRecoverySource] updating [index.soft_deletes.retention.operations] from [6] to [0]
+[2020-02-17T01:21:29,505][INFO ][o.e.i.e.InternalEngineTests] [testForceMergeWithSoftDeletesRetentionAndRecoverySource] after test
+[2020-02-17T01:21:29,508][INFO ][o.e.i.e.InternalEngineTests] [testDoubleDeliveryPrimary] before test
+[2020-02-17T01:21:29,581][INFO ][o.e.i.e.InternalEngineTests] [testDoubleDeliveryPrimary] after test
+[2020-02-17T01:21:29,584][INFO ][o.e.i.e.InternalEngineTests] [testSoftDeleteOnClosingEngine] before test
+[2020-02-17T01:21:30,979][INFO ][o.e.i.e.InternalEngineTests] [testSoftDeleteOnClosingEngine] after test
+[2020-02-17T01:21:30,981][INFO ][o.e.i.e.InternalEngineTests] [testRequireSoftDeletesWhenAccessingChangesSnapshot] before test
+[2020-02-17T01:21:31,073][INFO ][o.e.i.e.InternalEngineTests] [testRequireSoftDeletesWhenAccessingChangesSnapshot] after test
+[2020-02-17T01:21:31,076][INFO ][o.e.i.e.InternalEngineTests] [testVersionMapAfterAutoIDDocument] before test
+[2020-02-17T01:21:31,143][INFO ][o.e.i.e.InternalEngineTests] [testVersionMapAfterAutoIDDocument] after test
+[2020-02-17T01:21:31,145][INFO ][o.e.i.e.InternalEngineTests] [testSimpleOperations] before test
+[2020-02-17T01:21:31,229][INFO ][o.e.i.e.InternalEngineTests] [testSimpleOperations] after test
+[2020-02-17T01:21:31,236][INFO ][o.e.i.e.InternalEngineTests] [testHandleDocumentFailure] before test
+[2020-02-17T01:21:31,302][WARN ][o.e.i.e.Engine           ] [testHandleDocumentFailure] [index][0] failed engine [index id[3] origin[PRIMARY] seq#[3]]
+java.io.UncheckedIOException: org.apache.lucene.store.MockDirectoryWrapper$FakeIOException
+	at org.elasticsearch.index.engine.InternalEngineTests$8.binaryValue(InternalEngineTests.java:3385) ~[test/:?]
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter.writeField(CompressingStoredFieldsWriter.java:277) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.codecs.asserting.AssertingStoredFieldsFormat$AssertingStoredFieldsWriter.writeField(AssertingStoredFieldsFormat.java:149) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.index.StoredFieldsConsumer.writeField(StoredFieldsConsumer.java:55) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:463) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:406) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:250) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:495) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1594) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.IndexWriter.addDocument(IndexWriter.java:1213) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.addDocument(InternalEngineTests.java:3302) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngine.addDocs(InternalEngine.java:1152) ~[main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.indexIntoLucene(InternalEngine.java:1089) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.index(InternalEngine.java:929) [main/:?]
+	at org.elasticsearch.index.engine.InternalTestEngine.index(InternalTestEngine.java:57) [framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$testHandleDocumentFailure$37(InternalEngineTests.java:3388) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.engine.InternalEngineTests.testHandleDocumentFailure(InternalEngineTests.java:3378) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: org.apache.lucene.store.MockDirectoryWrapper$FakeIOException
+	... 56 more
+[2020-02-17T01:21:31,304][WARN ][o.e.i.e.Engine           ] [testHandleDocumentFailure] [index][0] tried to fail engine but engine is already failed. ignoring. [already closed by tragic event on the index writer]
+java.io.UncheckedIOException: org.apache.lucene.store.MockDirectoryWrapper$FakeIOException
+	at org.elasticsearch.index.engine.InternalEngineTests$8.binaryValue(InternalEngineTests.java:3385) ~[test/:?]
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter.writeField(CompressingStoredFieldsWriter.java:277) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.codecs.asserting.AssertingStoredFieldsFormat$AssertingStoredFieldsWriter.writeField(AssertingStoredFieldsFormat.java:149) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.index.StoredFieldsConsumer.writeField(StoredFieldsConsumer.java:55) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:463) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:406) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:250) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:495) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1594) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.IndexWriter.addDocument(IndexWriter.java:1213) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.addDocument(InternalEngineTests.java:3302) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngine.addDocs(InternalEngine.java:1152) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.indexIntoLucene(InternalEngine.java:1089) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.index(InternalEngine.java:929) [main/:?]
+	at org.elasticsearch.index.engine.InternalTestEngine.index(InternalTestEngine.java:57) [framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$testHandleDocumentFailure$37(InternalEngineTests.java:3388) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.engine.InternalEngineTests.testHandleDocumentFailure(InternalEngineTests.java:3378) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: org.apache.lucene.store.MockDirectoryWrapper$FakeIOException
+	... 56 more
+[2020-02-17T01:21:31,306][WARN ][o.e.i.e.Engine           ] [testHandleDocumentFailure] [index][0] tried to fail engine but engine is already failed. ignoring. [already closed by tragic event on the index writer]
+java.io.UncheckedIOException: org.apache.lucene.store.MockDirectoryWrapper$FakeIOException
+	at org.elasticsearch.index.engine.InternalEngineTests$8.binaryValue(InternalEngineTests.java:3385) ~[test/:?]
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter.writeField(CompressingStoredFieldsWriter.java:277) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.codecs.asserting.AssertingStoredFieldsFormat$AssertingStoredFieldsWriter.writeField(AssertingStoredFieldsFormat.java:149) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.index.StoredFieldsConsumer.writeField(StoredFieldsConsumer.java:55) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:463) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:406) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:250) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:495) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1594) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.IndexWriter.addDocument(IndexWriter.java:1213) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.addDocument(InternalEngineTests.java:3302) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngine.addDocs(InternalEngine.java:1152) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.indexIntoLucene(InternalEngine.java:1089) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.index(InternalEngine.java:929) [main/:?]
+	at org.elasticsearch.index.engine.InternalTestEngine.index(InternalTestEngine.java:57) [framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$testHandleDocumentFailure$37(InternalEngineTests.java:3388) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.engine.InternalEngineTests.testHandleDocumentFailure(InternalEngineTests.java:3378) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: org.apache.lucene.store.MockDirectoryWrapper$FakeIOException
+	... 56 more
+[2020-02-17T01:21:31,307][WARN ][o.e.i.e.Engine           ] [testHandleDocumentFailure] [index][0] tried to fail engine but engine is already failed. ignoring. [already closed by tragic event on the index writer]
+java.io.UncheckedIOException: org.apache.lucene.store.MockDirectoryWrapper$FakeIOException
+	at org.elasticsearch.index.engine.InternalEngineTests$8.binaryValue(InternalEngineTests.java:3385) ~[test/:?]
+	at org.apache.lucene.codecs.compressing.CompressingStoredFieldsWriter.writeField(CompressingStoredFieldsWriter.java:277) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.codecs.asserting.AssertingStoredFieldsFormat$AssertingStoredFieldsWriter.writeField(AssertingStoredFieldsFormat.java:149) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.index.StoredFieldsConsumer.writeField(StoredFieldsConsumer.java:55) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:463) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:406) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:250) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:495) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1594) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.IndexWriter.addDocument(IndexWriter.java:1213) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.addDocument(InternalEngineTests.java:3302) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngine.addDocs(InternalEngine.java:1152) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.indexIntoLucene(InternalEngine.java:1089) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.index(InternalEngine.java:929) [main/:?]
+	at org.elasticsearch.index.engine.InternalTestEngine.index(InternalTestEngine.java:57) ~[framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$testHandleDocumentFailure$37(InternalEngineTests.java:3388) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.engine.InternalEngineTests.testHandleDocumentFailure(InternalEngineTests.java:3378) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: org.apache.lucene.store.MockDirectoryWrapper$FakeIOException
+	... 56 more
+[2020-02-17T01:21:31,333][INFO ][o.e.i.e.InternalEngineTests] [testHandleDocumentFailure] after test
+[2020-02-17T01:21:31,335][INFO ][o.e.i.e.InternalEngineTests] [testLastRefreshCheckpoint] before test
+[2020-02-17T01:21:32,930][INFO ][o.e.i.e.InternalEngineTests] [testLastRefreshCheckpoint] after test
+[2020-02-17T01:21:32,933][INFO ][o.e.i.e.InternalEngineTests] [testForceMergeAndClose] before test
+[2020-02-17T01:21:32,996][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=true
+[2020-02-17T01:21:32,996][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,054][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=false
+[2020-02-17T01:21:33,054][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=true
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=true
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=true
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=false
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=false
+[2020-02-17T01:21:33,098][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=false
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=false
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=true
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=false
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] starting segment upgrade upgradeOnlyAncientSegments=true
+[2020-02-17T01:21:33,127][INFO ][o.e.i.e.Engine           ] [testForceMergeAndClose] [index][0] finished segment upgrade
+[2020-02-17T01:21:33,231][INFO ][o.e.i.e.InternalEngineTests] [testForceMergeAndClose] after test
+[2020-02-17T01:21:33,233][INFO ][o.e.i.e.InternalEngineTests] [testEnableGcDeletes] before test
+[2020-02-17T01:21:34,318][INFO ][o.e.i.e.InternalEngineTests] [testEnableGcDeletes] after test
+[2020-02-17T01:21:34,320][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] before test
+[2020-02-17T01:21:34,348][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [11], seq# [22], term [2]
+[2020-02-17T01:21:34,350][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [5], seq# [10], term [2]
+[2020-02-17T01:21:34,350][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [18], seq# [36], term [2]
+[2020-02-17T01:21:34,350][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [14], seq# [28], term [2]
+[2020-02-17T01:21:34,352][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [9], seq# [18], term [2]
+[2020-02-17T01:21:34,356][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [7], seq# [14], term [2]
+[2020-02-17T01:21:34,356][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [2], seq# [4], term [2]
+[2020-02-17T01:21:34,356][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [1], seq# [2], term [2]
+[2020-02-17T01:21:34,356][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [12], seq# [24], term [2]
+[2020-02-17T01:21:34,356][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [3], seq# [6], term [2]
+[2020-02-17T01:21:34,356][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [6], seq# [12], term [2]
+[2020-02-17T01:21:34,356][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [15], seq# [30], term [2]
+[2020-02-17T01:21:34,356][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [19], seq# [38], term [2]
+[2020-02-17T01:21:34,357][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [4], seq# [8], term [2]
+[2020-02-17T01:21:34,357][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [16], seq# [32], term [2]
+[2020-02-17T01:21:34,357][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I], v [0], seq# [0], term [2]
+[2020-02-17T01:21:34,357][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [13], seq# [26], term [2]
+[2020-02-17T01:21:34,360][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [10], seq# [20], term [2]
+[2020-02-17T01:21:34,360][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [8], seq# [16], term [2]
+[2020-02-17T01:21:34,360][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D], v [17], seq# [34], term [2]
+[2020-02-17T01:21:34,360][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D] (versioned 19, seqNo -2, term 0 )
+[2020-02-17T01:21:34,360][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I]
+[2020-02-17T01:21:34,361][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I]
+[2020-02-17T01:21:34,366][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D] (versioned 22, seqNo 41, term 2441691056462836809 )
+[2020-02-17T01:21:34,370][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [D] (versioned 23, seqNo 42, term 2441691056462836809 )
+[2020-02-17T01:21:34,371][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I]
+[2020-02-17T01:21:34,377][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I] (versioned 25, seqNo 44, term 2441691056462836809 )
+[2020-02-17T01:21:34,382][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] performing [I]
+[2020-02-17T01:21:34,410][INFO ][o.e.i.e.InternalEngineTests] [testVersioningPromotedReplica] after test
+[2020-02-17T01:21:34,412][INFO ][o.e.i.e.InternalEngineTests] [testAcquireSearcherOnClosingEngine] before test
+[2020-02-17T01:21:34,456][INFO ][o.e.i.e.InternalEngineTests] [testAcquireSearcherOnClosingEngine] after test
+[2020-02-17T01:21:34,458][INFO ][o.e.i.e.InternalEngineTests] [testLuceneSnapshotRefreshesOnlyOnce] before test
+[2020-02-17T01:21:34,546][INFO ][o.e.i.e.InternalEngineTests] [testLuceneSnapshotRefreshesOnlyOnce] after test
+[2020-02-17T01:21:34,548][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsWithSoftDeletes] before test
+[2020-02-17T01:21:34,635][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsWithSoftDeletes] after test
+[2020-02-17T01:21:34,637][INFO ][o.e.i.e.InternalEngineTests] [testAppendConcurrently] before test
+[2020-02-17T01:21:34,806][INFO ][o.e.i.e.InternalEngineTests] [testAppendConcurrently] after test
+[2020-02-17T01:21:34,811][INFO ][o.e.i.e.InternalEngineTests] [testVersioningCreateExistsException] before test
+[2020-02-17T01:21:34,865][INFO ][o.e.i.e.InternalEngineTests] [testVersioningCreateExistsException] after test
+[2020-02-17T01:21:34,868][INFO ][o.e.i.e.InternalEngineTests] [testRefreshAndCloseEngineConcurrently] before test
+[2020-02-17T01:21:34,958][INFO ][o.e.i.e.InternalEngineTests] [testRefreshAndCloseEngineConcurrently] after test
+[2020-02-17T01:21:34,968][INFO ][o.e.i.e.InternalEngineTests] [testRefreshScopedSearcher] before test
+[2020-02-17T01:21:35,070][INFO ][o.e.i.e.InternalEngineTests] [testRefreshScopedSearcher] after test
+[2020-02-17T01:21:35,073][INFO ][o.e.i.e.InternalEngineTests] [testSyncedFlushVanishesOnReplay] before test
+[2020-02-17T01:21:35,178][INFO ][o.e.i.e.InternalEngineTests] [testSyncedFlushVanishesOnReplay] after test
+[2020-02-17T01:21:35,182][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsStatsIncludingFileSizes] before test
+[2020-02-17T01:21:35,382][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsStatsIncludingFileSizes] after test
+[2020-02-17T01:21:35,386][INFO ][o.e.i.e.InternalEngineTests] [testPruneOnlyDeletesAtMostLocalCheckpoint] before test
+[2020-02-17T01:21:35,450][INFO ][o.e.c.s.IndexScopedSettings] [testPruneOnlyDeletesAtMostLocalCheckpoint] updating [index.gc_deletes] from [1h] to [6ms]
+[2020-02-17T01:21:35,529][INFO ][o.e.i.e.InternalEngineTests] [testPruneOnlyDeletesAtMostLocalCheckpoint] after test
+[2020-02-17T01:21:35,538][INFO ][o.e.i.e.InternalEngineTests] [testSkipTranslogReplay] before test
+[2020-02-17T01:21:35,610][INFO ][o.e.i.e.InternalEngineTests] [testSkipTranslogReplay] after test
+[2020-02-17T01:21:35,613][INFO ][o.e.i.e.InternalEngineTests] [testTrackMaxSeqNoOfUpdatesOrDeletesOnPrimary] before test
+[2020-02-17T01:21:35,747][INFO ][o.e.i.e.InternalEngineTests] [testTrackMaxSeqNoOfUpdatesOrDeletesOnPrimary] after test
+[2020-02-17T01:21:35,750][INFO ][o.e.i.e.InternalEngineTests] [testMissingTranslog] before test
+[2020-02-17T01:21:35,875][INFO ][o.e.i.e.InternalEngineTests] [testMissingTranslog] after test
+[2020-02-17T01:21:35,888][INFO ][o.e.i.e.InternalEngineTests] [testShouldPeriodicallyFlushAfterMerge] before test
+[2020-02-17T01:21:35,935][INFO ][o.e.c.s.IndexScopedSettings] [testShouldPeriodicallyFlushAfterMerge] updating [index.flush_after_merge] from [512mb] to [0b]
+[2020-02-17T01:21:36,010][INFO ][o.e.i.e.InternalEngineTests] [testShouldPeriodicallyFlushAfterMerge] after test
+[2020-02-17T01:21:36,017][INFO ][o.e.i.e.InternalEngineTests] [testRandomOperations] before test
+[2020-02-17T01:21:37,412][INFO ][o.e.i.e.InternalEngineTests] [testRandomOperations] after test
+[2020-02-17T01:21:37,415][INFO ][o.e.i.e.InternalEngineTests] [testVerboseSegments] before test
+[2020-02-17T01:21:37,532][INFO ][o.e.i.e.InternalEngineTests] [testVerboseSegments] after test
+[2020-02-17T01:21:37,536][INFO ][o.e.i.e.InternalEngineTests] [testFillUpSequenceIdGapsOnRecovery] before test
+[2020-02-17T01:21:37,640][INFO ][o.e.i.e.InternalEngineTests] [testFillUpSequenceIdGapsOnRecovery] after test
+[2020-02-17T01:21:37,644][INFO ][o.e.i.e.InternalEngineTests] [testFlushIsDisabledDuringTranslogRecovery] before test
+[2020-02-17T01:21:37,747][INFO ][o.e.i.e.InternalEngineTests] [testFlushIsDisabledDuringTranslogRecovery] after test
+[2020-02-17T01:21:37,751][INFO ][o.e.i.e.InternalEngineTests] [testRestoreLocalHistoryFromTranslog] before test
+[2020-02-17T01:21:38,027][INFO ][o.e.i.e.InternalEngineTests] [testRestoreLocalHistoryFromTranslog] after test
+[2020-02-17T01:21:38,044][INFO ][o.e.i.e.InternalEngineTests] [testTranslogCleanUpPostCommitCrash] before test
+[2020-02-17T01:21:38,081][INFO ][o.e.c.s.IndexScopedSettings] [testTranslogCleanUpPostCommitCrash] updating [index.translog.retention.age] from [12h] to [-1]
+[2020-02-17T01:21:38,081][INFO ][o.e.c.s.IndexScopedSettings] [testTranslogCleanUpPostCommitCrash] updating [index.translog.retention.size] from [512MB] to [-1]
+[2020-02-17T01:21:38,081][INFO ][o.e.c.s.IndexScopedSettings] [testTranslogCleanUpPostCommitCrash] updating [index.translog.retention.age] from [12h] to [-1]
+[2020-02-17T01:21:38,081][INFO ][o.e.c.s.IndexScopedSettings] [testTranslogCleanUpPostCommitCrash] updating [index.translog.retention.size] from [512MB] to [-1]
+[2020-02-17T01:21:38,172][INFO ][o.e.i.e.InternalEngineTests] [testTranslogCleanUpPostCommitCrash] after test
+[2020-02-17T01:21:38,175][INFO ][o.e.i.e.InternalEngineTests] [testMinGenerationForSeqNo] before test
+[2020-02-17T01:21:38,960][INFO ][o.e.i.e.InternalEngineTests] [testMinGenerationForSeqNo] after test
+[2020-02-17T01:21:38,965][INFO ][o.e.i.e.InternalEngineTests] [testTranslogReplay] before test
+[2020-02-17T01:21:39,094][INFO ][o.e.i.e.InternalEngineTests] [testTranslogReplay] after test
+[2020-02-17T01:21:39,098][INFO ][o.e.i.e.InternalEngineTests] [testRenewSyncFlush] before test
+[2020-02-17T01:21:39,555][INFO ][o.e.i.e.InternalEngineTests] [testRenewSyncFlush] after test
+[2020-02-17T01:21:39,558][INFO ][o.e.i.e.InternalEngineTests] [testRecoverFromLocalTranslog] before test
+[2020-02-17T01:21:40,526][INFO ][o.e.i.e.InternalEngineTests] [testRecoverFromLocalTranslog] after test
+[2020-02-17T01:21:40,528][INFO ][o.e.i.e.InternalEngineTests] [testVersionedUpdate] before test
+[2020-02-17T01:21:40,630][INFO ][o.e.i.e.InternalEngineTests] [testVersionedUpdate] after test
+[2020-02-17T01:21:40,638][INFO ][o.e.i.e.InternalEngineTests] [testStoreHonorsLuceneVersion] before test
+[2020-02-17T01:21:40,809][INFO ][o.e.i.e.InternalEngineTests] [testStoreHonorsLuceneVersion] after test
+[2020-02-17T01:21:40,811][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentEngineClosed] before test
+[2020-02-17T01:21:40,868][WARN ][o.e.i.e.Engine           ] [[Thread-518]] [index][0] failed engine [test]
+java.lang.RuntimeException: test
+	at org.elasticsearch.index.engine.InternalEngineTests$6.doRun(InternalEngineTests.java:3253) [test/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T01:21:40,893][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentEngineClosed] after test
+[2020-02-17T01:21:40,900][INFO ][o.e.i.e.InternalEngineTests] [testExtractShardId] before test
+[2020-02-17T01:21:40,971][INFO ][o.e.i.e.InternalEngineTests] [testExtractShardId] after test
+[2020-02-17T01:21:40,975][INFO ][o.e.i.e.InternalEngineTests] [testRetryConcurrently] before test
+[2020-02-17T01:21:41,409][INFO ][o.e.i.e.InternalEngineTests] [testRetryConcurrently] after test
+[2020-02-17T01:21:41,411][INFO ][o.e.i.e.InternalEngineTests] [testNotWarmUpSearcherInEngineCtor] before test
+[2020-02-17T01:21:41,526][INFO ][o.e.i.e.InternalEngineTests] [testNotWarmUpSearcherInEngineCtor] after test
+[2020-02-17T01:21:41,532][INFO ][o.e.i.e.InternalEngineTests] [testKeepMinRetainedSeqNoByMergePolicy] before test
+[2020-02-17T01:21:41,950][INFO ][o.e.c.s.IndexScopedSettings] [testKeepMinRetainedSeqNoByMergePolicy] updating [index.soft_deletes.retention.operations] from [4] to [1]
+[2020-02-17T01:21:48,215][INFO ][o.e.c.s.IndexScopedSettings] [testKeepMinRetainedSeqNoByMergePolicy] updating [index.soft_deletes.retention.operations] from [1] to [0]
+[2020-02-17T01:21:49,572][INFO ][o.e.i.e.InternalEngineTests] [testKeepMinRetainedSeqNoByMergePolicy] after test
+[2020-02-17T01:21:49,575][INFO ][o.e.i.e.InternalEngineTests] [testRefreshDoesNotBlockClosing] before test
+[2020-02-17T01:21:49,777][INFO ][o.e.i.e.InternalEngineTests] [testRefreshDoesNotBlockClosing] after test
+[2020-02-17T01:21:49,780][INFO ][o.e.i.e.InternalEngineTests] [testLookupVersionWithPrunedAwayIds] before test
+[2020-02-17T01:21:50,117][INFO ][o.e.i.e.InternalEngineTests] [testLookupVersionWithPrunedAwayIds] after test
+[2020-02-17T01:21:50,134][INFO ][o.e.i.e.InternalEngineTests] [testKeepTranslogAfterGlobalCheckpoint] before test
+[2020-02-17T01:21:50,176][INFO ][o.e.c.s.IndexScopedSettings] [testKeepTranslogAfterGlobalCheckpoint] updating [index.translog.retention.age] from [-1] to [100micros]
+[2020-02-17T01:21:50,176][INFO ][o.e.c.s.IndexScopedSettings] [testKeepTranslogAfterGlobalCheckpoint] updating [index.translog.retention.age] from [-1] to [100micros]
+[2020-02-17T01:21:50,403][INFO ][o.e.i.e.InternalEngineTests] [testKeepTranslogAfterGlobalCheckpoint] after test
+[2020-02-17T01:21:50,411][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentGetAndFlush] before test
+[2020-02-17T01:21:50,585][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentGetAndFlush] after test
+[2020-02-17T01:21:50,587][INFO ][o.e.i.e.InternalEngineTests] [testUpdateWithFullyDeletedSegments] before test
+[2020-02-17T01:21:50,779][INFO ][o.e.i.e.InternalEngineTests] [testUpdateWithFullyDeletedSegments] after test
+[2020-02-17T01:21:50,785][INFO ][o.e.i.e.InternalEngineTests] [testDoubleDeliveryReplicaAppendingOnly] before test
+[2020-02-17T01:21:50,887][INFO ][o.e.i.e.InternalEngineTests] [testDoubleDeliveryReplicaAppendingOnly] after test
+[2020-02-17T01:21:50,893][INFO ][o.e.i.e.InternalEngineTests] [testSyncedFlush] before test
+[2020-02-17T01:21:51,062][INFO ][o.e.i.e.InternalEngineTests] [testSyncedFlush] after test
+[2020-02-17T01:21:51,065][INFO ][o.e.i.e.InternalEngineTests] [testRealtimeGetOnlyRefreshIfNeeded] before test
+[2020-02-17T01:21:51,275][INFO ][o.e.i.e.InternalEngineTests] [testRealtimeGetOnlyRefreshIfNeeded] after test
+[2020-02-17T01:21:51,278][INFO ][o.e.i.e.InternalEngineTests] [testSyncedFlushSurvivesEngineRestart] before test
+[2020-02-17T01:21:51,575][INFO ][o.e.i.e.InternalEngineTests] [testSyncedFlushSurvivesEngineRestart] after test
+[2020-02-17T01:21:51,578][INFO ][o.e.i.e.InternalEngineTests] [testOpenSoftDeletesIndexWithSoftDeletesDisabled] before test
+[2020-02-17T01:21:51,889][INFO ][o.e.i.e.InternalEngineTests] [testOpenSoftDeletesIndexWithSoftDeletesDisabled] after test
+[2020-02-17T01:21:51,897][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsWithoutSoftDeletes] before test
+[2020-02-17T01:21:52,065][INFO ][o.e.i.e.InternalEngineTests] [testSegmentsWithoutSoftDeletes] after test
+[2020-02-17T01:21:52,069][INFO ][o.e.i.e.InternalEngineTests] [testNoOps] before test
+[2020-02-17T01:21:52,275][INFO ][o.e.i.e.InternalEngineTests] [testNoOps] after test
+[2020-02-17T01:21:52,277][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentWritesAndCommits] before test
+[2020-02-17T01:21:53,101][INFO ][o.e.i.e.InternalEngineTests] [testConcurrentWritesAndCommits] after test
+[2020-02-17T01:21:53,104][INFO ][o.e.i.e.InternalEngineTests] [testRecoverFromForeignTranslog] before test
+[2020-02-17T01:21:53,275][INFO ][o.e.i.e.InternalEngineTests] [testRecoverFromForeignTranslog] after test
+[2020-02-17T01:21:53,278][INFO ][o.e.i.e.InternalEngineTests] [testForceMergeWithoutSoftDeletes] before test
+[2020-02-17T01:21:53,613][INFO ][o.e.i.e.InternalEngineTests] [testForceMergeWithoutSoftDeletes] after test
+[2020-02-17T01:21:53,617][INFO ][o.e.i.e.InternalEngineTests] [testCommitStats] before test
+[2020-02-17T01:21:53,778][INFO ][o.e.i.e.InternalEngineTests] [testCommitStats] after test
+[2020-02-17T01:21:53,781][INFO ][o.e.i.e.InternalEngineTests] [testIndexWriterInfoStream] before test
+[2020-02-17T01:21:53,838][DEBUG][o.e.i.e.Engine           ] [testIndexWriterInfoStream] [index][0] Safe commit [CommitPoint{segment[segments_2], userData[{history_uuid=y_5I2V4lTWysxqknfVcNsw, local_checkpoint=-1, max_seq_no=-1, max_unsafe_auto_id_timestamp=-1, translog_generation=1, translog_uuid=98ld6o8CTZ6o9VrflNztIA}]}], last commit [CommitPoint{segment[segments_3], userData[{local_checkpoint=0, max_unsafe_auto_id_timestamp=-1, translog_uuid=98ld6o8CTZ6o9VrflNztIA, min_retained_seq_no=0, history_uuid=y_5I2V4lTWysxqknfVcNsw, translog_generation=3, max_seq_no=0}]}]
+[2020-02-17T01:21:53,838][DEBUG][o.e.i.e.Engine           ] [testIndexWriterInfoStream] [index][0] new commit on flush, hasUncommittedChanges:true, force:false, shouldPeriodicallyFlush:false
+[2020-02-17T01:21:53,844][TRACE][o.e.i.e.Engine           ] [testIndexWriterInfoStream] [index][0] acquired flush lock immediately
+[2020-02-17T01:21:53,847][TRACE][o.e.i.t.Translog         ] [testIndexWriterInfoStream] [index][0] current translog set to [4]
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.Engine           ] [testIndexWriterInfoStream] [index][0] starting commit for flush; commitTranslog=true
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: commit: start
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: commit: enter lock
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: commit: now prepare
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: prepareCommit: flush
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW:   index before flush _0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.DW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DW: startFullFlush
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.DW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DW: anyChanges? numDocsInRam=1 deletes=true hasTickets:false pendingChangesInFullFlush: false
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.DWFC           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWFC: addFlushableState DocumentsWriterPerThread [pendingDeletes=gen=0, segment=_1, aborted=false, numDocsInRAM=1, deleteQueue=DWDQ: [ generation: 3 ]]
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: compressed 32954 to 32970 bytes (100.05%) for deletes/updates; private segment null
+[2020-02-17T01:21:53,847][TRACE][o.e.i.e.E.DWPT           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWPT: flush postings as segment _1 numDocs=1
+[2020-02-17T01:21:53,848][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: 0 msec to write norms
+[2020-02-17T01:21:53,848][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: 0 msec to write docValues
+[2020-02-17T01:21:53,848][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: 0 msec to write points
+[2020-02-17T01:21:53,848][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: 0 msec to finish stored fields
+[2020-02-17T01:21:53,849][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: 1 msec to write postings and finish vectors
+[2020-02-17T01:21:53,850][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: 0 msec to write fieldInfos
+[2020-02-17T01:21:53,850][TRACE][o.e.i.e.E.DWPT           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWPT: new segment has 0 deleted docs
+[2020-02-17T01:21:53,850][TRACE][o.e.i.e.E.DWPT           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWPT: new segment has 0 soft-deleted docs
+[2020-02-17T01:21:53,850][TRACE][o.e.i.e.E.DWPT           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWPT: new segment has no vectors; norms; docValues; prox; freqs
+[2020-02-17T01:21:53,850][TRACE][o.e.i.e.E.DWPT           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWPT: flushedFiles=[_1.nvd, _1.dim, _1.nvm, _1.fnm, _1.dii, _1_Asserting_0.dvm, _1_Asserting_0.tip, _1_Asserting_0.doc, _1_Asserting_0.tim, _1_Asserting_0.dvd, _1_Asserting_0.pos, _1.fdx, _1.fdt]
+[2020-02-17T01:21:53,850][TRACE][o.e.i.e.E.DWPT           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWPT: flushed codec=Asserting(Lucene80)
+[2020-02-17T01:21:53,850][TRACE][o.e.i.e.E.DWPT           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWPT: flushed: segment=_1 ramUsed=0.135 MB newFlushedSize=0.002 MB docs/MB=526.658
+[2020-02-17T01:21:53,851][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: create compound file
+[2020-02-17T01:21:53,851][TRACE][o.e.i.e.E.DWPT           ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DWPT: flush time 3.365981 msec
+[2020-02-17T01:21:53,851][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: publishFlushedSegment seg-private updates=null
+[2020-02-17T01:21:53,851][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: publishFlushedSegment _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]
+[2020-02-17T01:21:53,851][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: push new packet (delGen=2 fieldUpdates=1 bytesUsed=32970), packetCount=1, bytesUsed=0.031 MB
+[2020-02-17T01:21:53,851][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: finished packet delGen=3 now completedDelGen=1
+[2020-02-17T01:21:53,851][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: publish sets newSegment delGen=3 seg=_1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]
+[2020-02-17T01:21:53,851][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: now checkpoint &quot;_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}] _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]&quot; [2 segments ; isCommit = false]
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: 0 msec to checkpoint
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.nvd&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.dim&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.nvm&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.fnm&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.dii&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.dvm&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.tip&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.doc&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.tim&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.dvd&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1_Asserting_0.pos&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.fdx&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: will delete new file &quot;_1.fdt&quot;
+[2020-02-17T01:21:53,852][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: delete [_1.nvd, _1.dim, _1.nvm, _1.fnm, _1.dii, _1_Asserting_0.dvm, _1_Asserting_0.tip, _1_Asserting_0.doc, _1_Asserting_0.tim, _1_Asserting_0.dvd, _1_Asserting_0.pos, _1.fdx, _1.fdt]
+[2020-02-17T01:21:53,852][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1.nvd
+[2020-02-17T01:21:53,852][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1.dim
+[2020-02-17T01:21:53,852][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1.nvm
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1.fnm
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1.dii
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1_Asserting_0.dvm
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1_Asserting_0.tip
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1_Asserting_0.doc
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1_Asserting_0.tim
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1_Asserting_0.dvd
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1_Asserting_0.pos
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1.fdx
+[2020-02-17T01:21:53,853][TRACE][i.s.deletes              ] [testIndexWriterInfoStream][index][0] StoreDirectory.deleteFile: delete file _1.fdt
+[2020-02-17T01:21:53,853][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: now apply del packet (delGen=2 fieldUpdates=1 bytesUsed=32970) to 1 segments, mergeGen 0
+[2020-02-17T01:21:53,853][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: applyDocValuesUpdates 0.1 msec for 1 segments, 1 field updates; 2 new updates
+[2020-02-17T01:21:53,853][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: closeSegmentStates: 0 new deleted documents; pool 1 packets; bytesUsed=202
+[2020-02-17T01:21:53,853][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: done inner apply del packet (delGen=2 fieldUpdates=1 bytesUsed=32970) to 1 segments; 2 new deletes/updates; took 0.000 sec
+[2020-02-17T01:21:53,853][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: finished packet delGen=2 now completedDelGen=3
+[2020-02-17T01:21:53,854][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: done apply del packet (delGen=2 fieldUpdates=1 bytesUsed=32970) to 1 segments; 2 new deletes/updates; took 0.001 sec; 0 packets remain
+[2020-02-17T01:21:53,854][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: now apply all deletes for all segments buffered updates bytesUsed=0 reader pool bytesUsed=202
+[2020-02-17T01:21:53,854][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: waitApply: no deletes to apply
+[2020-02-17T01:21:53,854][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: now write 1 pending numeric DV updates for field=__soft_deletes, seg=_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}], bytes=0.000 MB
+[2020-02-17T01:21:53,854][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: done write field updates for seg=_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1; took 0.001s; new files: {6=[_0_1_Asserting_0.dvm, _0_1_Asserting_0.dvd]}
+[2020-02-17T01:21:53,854][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: now checkpoint &quot;_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1 _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]&quot; [2 segments ; isCommit = false]
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: 0 msec to checkpoint
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.Engine           ] [testIndexWriterInfoStream] [index][0] committing writer with commit data [{local_checkpoint=1, max_unsafe_auto_id_timestamp=-1, translog_uuid=98ld6o8CTZ6o9VrflNztIA, min_retained_seq_no=0, history_uuid=y_5I2V4lTWysxqknfVcNsw, translog_generation=4, max_seq_no=1}]
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.DW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DW: TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] finishFullFlush success=true
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: startCommit(): start
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: startCommit index=_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1 _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}] changeCount=9
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: startCommit: wrote pending segments file &quot;pending_segments_4&quot;
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: done all syncs: [_1.cfs, _0.cfe, _0.si, _0_1_Asserting_0.dvm, _1.cfe, _1.si, _0.cfs, _0_1_Asserting_0.dvd, _0_1.fnm]
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: commit: pendingCommit != null
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: commit: done writing segments file &quot;segments_4&quot;
+[2020-02-17T01:21:53,855][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: now checkpoint &quot;_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1 _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]&quot; [2 segments ; isCommit = true]
+[2020-02-17T01:21:53,855][DEBUG][o.e.i.e.Engine           ] [testIndexWriterInfoStream] [index][0] Safe commit [CommitPoint{segment[segments_2], userData[{history_uuid=y_5I2V4lTWysxqknfVcNsw, local_checkpoint=-1, max_seq_no=-1, max_unsafe_auto_id_timestamp=-1, translog_generation=1, translog_uuid=98ld6o8CTZ6o9VrflNztIA}]}], last commit [CommitPoint{segment[segments_4], userData[{local_checkpoint=1, max_unsafe_auto_id_timestamp=-1, translog_uuid=98ld6o8CTZ6o9VrflNztIA, min_retained_seq_no=0, history_uuid=y_5I2V4lTWysxqknfVcNsw, translog_generation=4, max_seq_no=1}]}]
+[2020-02-17T01:21:53,856][TRACE][o.e.i.e.E.IFD            ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IFD: 0 msec to checkpoint
+[2020-02-17T01:21:53,856][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: commit: took 8.5 msec
+[2020-02-17T01:21:53,856][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: commit: done
+[2020-02-17T01:21:53,856][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: 
+dir=store(ByteSizeCachingDirectory(MockDirectoryWrapper(NRTCachingDirectory(RAMDirectory@7db77391 lockFactory=org.apache.lucene.store.SingleInstanceLockFactory@38d457e4; maxCacheMB=0.984375 maxMergeSizeMB=0.2353515625))))
+index=_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1 _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]
+version=8.3.0
+analyzer=org.apache.lucene.analysis.MockAnalyzer
+ramBufferSizeMB=51.19999980926514
+maxBufferedDocs=-1
+mergedSegmentWarmer=null
+delPolicy=org.elasticsearch.index.engine.CombinedDeletionPolicy
+commit=null
+openMode=APPEND
+similarity=org.apache.lucene.search.similarities.AssertingSimilarity
+mergeScheduler=EngineMergeScheduler: maxThreadCount=2, maxMergeCount=7, ioThrottle=true
+codec=Asserting(Lucene80)
+infoStream=org.elasticsearch.common.lucene.LoggerInfoStream
+mergePolicy=ElasticsearchMergePolicy(RecoverySourcePruneMergePolicy(SoftDeletesRetentionMergePolicy(PrunePostingsMergePolicy([TieredMergePolicy: maxMergeAtOnce=10, maxMergeAtOnceExplicit=12, maxMergedSegmentMB=93.01953125, floorSegmentMB=1.4013671875, forceMergeDeletesPctAllowed=29.862279117314916, segmentsPerTier=21.0, maxCFSSegmentSizeMB=8.796093022207999E12, noCFSRatio=1.0, deletesPctAllowed=34.57212186186412))))
+indexerThreadPool=org.apache.lucene.index.DocumentsWriterPerThreadPool@5bbc87af
+readerPooling=true
+perThreadHardLimitMB=1945
+useCompoundFile=true
+commitOnClose=false
+indexSort=null
+checkPendingFlushOnUpdate=true
+softDeletesField=__soft_deletes
+readerAttributes={blocktree.terms.fst._id=ON_HEAP, blocktree.terms.fst=ON_HEAP}
+writer=org.elasticsearch.index.engine.InternalEngine$AssertingIndexWriter@444574a6
+
+[2020-02-17T01:21:53,857][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: MMapDirectory.UNMAP_SUPPORTED=true
+[2020-02-17T01:21:53,857][TRACE][o.e.i.e.E.MP             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] MP:   seg=_0(8.3.0):c1/1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1 size=0.003 MB [floored]
+[2020-02-17T01:21:53,857][TRACE][o.e.i.e.E.MP             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] MP:   seg=_1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}] size=0.002 MB [floored]
+[2020-02-17T01:21:53,857][TRACE][o.e.i.e.E.MP             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] MP: findMerges: 2 segments
+[2020-02-17T01:21:53,857][TRACE][o.e.i.e.E.MP             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] MP:   allowedSegmentCount=21 vs count=2 (eligible count=2)
+[2020-02-17T01:21:53,857][TRACE][o.e.i.e.E.MS             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] MS: now merge
+[2020-02-17T01:21:53,858][TRACE][o.e.i.e.E.MS             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] MS:   index: _0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1 _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]
+[2020-02-17T01:21:53,858][TRACE][o.e.i.e.E.MS             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] MS:   no more merges pending; now return
+[2020-02-17T01:21:53,858][TRACE][o.e.i.e.Engine           ] [testIndexWriterInfoStream] [index][0] finished commit for flush
+[2020-02-17T01:21:53,858][DEBUG][o.e.i.e.Engine           ] [testIndexWriterInfoStream] [index][0] new commit on flush, hasUncommittedChanges:true, force:false, shouldPeriodicallyFlush:false
+[2020-02-17T01:21:53,858][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: nrtIsCurrent: infoVersion matches: false; DW changes: false; BD changes: false
+[2020-02-17T01:21:53,858][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: flush at getReader
+[2020-02-17T01:21:53,858][TRACE][o.e.i.e.E.DW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DW: startFullFlush
+[2020-02-17T01:21:53,858][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: now apply all deletes for all segments buffered updates bytesUsed=0 reader pool bytesUsed=0
+[2020-02-17T01:21:53,858][TRACE][o.e.i.e.E.BD             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] BD: waitApply: no deletes to apply
+[2020-02-17T01:21:53,859][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: incRefDeleter for NRT reader version=13 segments=_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1 _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]
+[2020-02-17T01:21:53,859][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: return reader version=13 reader=StandardDirectoryReader(segments_4:13:nrt _0(8.3.0):c1/1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]:fieldInfosGen=1:dvGen=1 :softDel=1 _1(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713850}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}])
+[2020-02-17T01:21:53,859][TRACE][o.e.i.e.E.DW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] DW: TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] finishFullFlush success=true
+[2020-02-17T01:21:53,859][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: getReader took 1 msec
+[2020-02-17T01:21:53,859][TRACE][o.e.i.e.E.IW             ] [testIndexWriterInfoStream] [index][0] TEST-InternalEngineTests.testIndexWriterInfoStream-seed#[9EA1F2A3814E5F76] IW: decRefDeleter for NRT reader version=9 segments=_0(8.3.0):c1:[diagnostics={os=Windows 7, java.vendor=Oracle Corporation, java.version=12.0.2, java.vm.version=12.0.2+10, lucene.version=8.3.0, os.arch=amd64, java.runtime.version=12.0.2+10, source=flush, os.version=6.1, timestamp=1581891713837}]:[attributes={Lucene50StoredFieldsFormat.mode=BEST_SPEED}]
+[2020-02-17T01:21:53,932][INFO ][o.e.i.e.InternalEngineTests] [testIndexWriterInfoStream] after test
+[2020-02-17T01:21:53,933][INFO ][o.e.i.e.InternalEngineTests] [testLuceneHistoryOnReplica] before test
+[2020-02-17T01:21:54,116][INFO ][o.e.i.e.InternalEngineTests] [testLuceneHistoryOnReplica] after test
+[2020-02-17T01:21:54,124][INFO ][o.e.i.e.InternalEngineTests] [testShouldPeriodicallyFlush] before test
+[2020-02-17T01:21:54,162][INFO ][o.e.c.s.IndexScopedSettings] [testShouldPeriodicallyFlush] updating [index.translog.flush_threshold_size] from [512mb] to [2106b]
+[2020-02-17T01:21:54,361][INFO ][o.e.i.e.InternalEngineTests] [testShouldPeriodicallyFlush] after test
+[2020-02-17T01:21:54,364][INFO ][o.e.i.e.InternalEngineTests] [testBasicCreatedFlag] before test
+[2020-02-17T01:21:54,482][INFO ][o.e.i.e.InternalEngineTests] [testBasicCreatedFlag] after test
+[2020-02-17T01:21:54,488][INFO ][o.e.i.e.InternalEngineTests] [testShardNotAvailableExceptionWhenEngineClosedConcurrently] before test
+[2020-02-17T01:21:54,533][INFO ][o.e.i.e.InternalEngineTests] [[Thread-555]] try with refresh
+[2020-02-17T01:21:54,534][INFO ][o.e.i.e.InternalEngineTests] [testShardNotAvailableExceptionWhenEngineClosedConcurrently] exception caught: 
+org.apache.lucene.store.AlreadyClosedException: this ReferenceManager is closed
+	at org.apache.lucene.search.ReferenceManager.ensureOpen(ReferenceManager.java:54) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.search.ReferenceManager.maybeRefreshBlocking(ReferenceManager.java:248) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.elasticsearch.index.engine.InternalEngine.refresh(InternalEngine.java:1603) ~[main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.refresh(InternalEngine.java:1580) ~[main/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests$5.run(InternalEngineTests.java:3215) ~[test/:?]
+[2020-02-17T01:21:54,576][INFO ][o.e.i.e.InternalEngineTests] [testShardNotAvailableExceptionWhenEngineClosedConcurrently] after test
+[2020-02-17T01:21:54,579][INFO ][o.e.i.e.InternalEngineTests] [testDeleteFailureSoftDeletesDisabled] before test
+[2020-02-17T01:21:54,688][WARN ][o.e.i.e.Engine           ] [testDeleteFailureSoftDeletesDisabled] [index][0] failed engine [delete id[0] origin [PRIMARY] seq#[1] failed at the document level]
+java.lang.IllegalArgumentException: fatal
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$runTestDeleteFailure$99(InternalEngineTests.java:6121) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.maybeThrowFailure(InternalEngineTests.java:3307) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests$ThrowingIndexWriter.deleteDocuments(InternalEngineTests.java:3327) ~[test/:?]
+	at org.elasticsearch.index.engine.InternalEngine.deleteInLucene(InternalEngine.java:1416) [main/:?]
+	at org.elasticsearch.index.engine.InternalEngine.delete(InternalEngine.java:1295) [main/:?]
+	at org.elasticsearch.index.engine.InternalTestEngine.delete(InternalTestEngine.java:72) [framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.lambda$runTestDeleteFailure$100(InternalEngineTests.java:6122) [test/:?]
+	at org.apache.lucene.util.LuceneTestCase._expectThrows(LuceneTestCase.java:2842) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2717) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.LuceneTestCase.expectThrows(LuceneTestCase.java:2712) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.elasticsearch.index.engine.InternalEngineTests.runTestDeleteFailure(InternalEngineTests.java:6122) [test/:?]
+	at org.elasticsearch.index.engine.InternalEngineTests.testDeleteFailureSoftDeletesDisabled(InternalEngineTests.java:6096) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T01:21:54,725][INFO ][o.e.i.e.InternalEngineTests] [testDeleteFailureSoftDeletesDisabled] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

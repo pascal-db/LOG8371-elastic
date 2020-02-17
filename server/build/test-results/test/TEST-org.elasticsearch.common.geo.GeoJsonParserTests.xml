@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.GeoJsonParserTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:43" hostname="Escoto-PC" time="0.064">
+  <properties/>
+  <testcase name="testParsePolygonWithHole" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.01"/>
+  <testcase name="testParseMultiDimensionShapes" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.003"/>
+  <testcase name="testParseMultiPolygon" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseInvalidShapes" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParsePolygon" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseMultiLineString" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseOrientationOption" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testInvalidDimensionalPolygon" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParse3DPolygon" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseInvalidDimensionalMultiPolygon" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseInvalidGeometryCollectionShapes" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseMultiPoint" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParsePoint" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseInvalidMultipoint" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseEnvelope" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.003"/>
+  <testcase name="testParseInvalidPolygon" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.003"/>
+  <testcase name="testThatParserExtractsCorrectTypeAndCoordinatesFromArbitraryJson" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.013"/>
+  <testcase name="testParseCircle" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseGeometryCollection" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.001"/>
+  <testcase name="testParseLineString" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <testcase name="testParseInvalidPoint" classname="org.elasticsearch.common.geo.GeoJsonParserTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:21:43,075][INFO ][o.e.c.g.GeoJsonParserTests] [testParsePolygonWithHole] before test
+[2020-02-16T18:21:43,082][INFO ][o.e.c.g.GeoJsonParserTests] [testParsePolygonWithHole] after test
+[2020-02-16T18:21:43,083][INFO ][o.e.c.g.GeoJsonParserTests] [testParseMultiDimensionShapes] before test
+[2020-02-16T18:21:43,084][INFO ][o.e.c.g.GeoJsonParserTests] [testParseMultiDimensionShapes] after test
+[2020-02-16T18:21:43,086][INFO ][o.e.c.g.GeoJsonParserTests] [testParseMultiPolygon] before test
+[2020-02-16T18:21:43,086][INFO ][o.e.c.g.GeoJsonParserTests] [testParseMultiPolygon] after test
+[2020-02-16T18:21:43,088][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidShapes] before test
+[2020-02-16T18:21:43,089][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidShapes] after test
+[2020-02-16T18:21:43,090][INFO ][o.e.c.g.GeoJsonParserTests] [testParsePolygon] before test
+[2020-02-16T18:21:43,090][INFO ][o.e.c.g.GeoJsonParserTests] [testParsePolygon] after test
+[2020-02-16T18:21:43,092][INFO ][o.e.c.g.GeoJsonParserTests] [testParseMultiLineString] before test
+[2020-02-16T18:21:43,092][INFO ][o.e.c.g.GeoJsonParserTests] [testParseMultiLineString] after test
+[2020-02-16T18:21:43,094][INFO ][o.e.c.g.GeoJsonParserTests] [testParseOrientationOption] before test
+[2020-02-16T18:21:43,094][INFO ][o.e.c.g.GeoJsonParserTests] [testParseOrientationOption] after test
+[2020-02-16T18:21:43,096][INFO ][o.e.c.g.GeoJsonParserTests] [testInvalidDimensionalPolygon] before test
+[2020-02-16T18:21:43,096][INFO ][o.e.c.g.GeoJsonParserTests] [testInvalidDimensionalPolygon] after test
+[2020-02-16T18:21:43,098][INFO ][o.e.c.g.GeoJsonParserTests] [testParse3DPolygon] before test
+[2020-02-16T18:21:43,098][INFO ][o.e.c.g.GeoJsonParserTests] [testParse3DPolygon] after test
+[2020-02-16T18:21:43,100][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidDimensionalMultiPolygon] before test
+[2020-02-16T18:21:43,100][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidDimensionalMultiPolygon] after test
+[2020-02-16T18:21:43,102][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidGeometryCollectionShapes] before test
+[2020-02-16T18:21:43,102][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidGeometryCollectionShapes] after test
+[2020-02-16T18:21:43,104][INFO ][o.e.c.g.GeoJsonParserTests] [testParseMultiPoint] before test
+[2020-02-16T18:21:43,105][INFO ][o.e.c.g.GeoJsonParserTests] [testParseMultiPoint] after test
+[2020-02-16T18:21:43,106][INFO ][o.e.c.g.GeoJsonParserTests] [testParsePoint] before test
+[2020-02-16T18:21:43,106][INFO ][o.e.c.g.GeoJsonParserTests] [testParsePoint] after test
+[2020-02-16T18:21:43,108][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidMultipoint] before test
+[2020-02-16T18:21:43,109][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidMultipoint] after test
+[2020-02-16T18:21:43,110][INFO ][o.e.c.g.GeoJsonParserTests] [testParseEnvelope] before test
+[2020-02-16T18:21:43,111][INFO ][o.e.c.g.GeoJsonParserTests] [testParseEnvelope] after test
+[2020-02-16T18:21:43,113][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidPolygon] before test
+[2020-02-16T18:21:43,115][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidPolygon] after test
+[2020-02-16T18:21:43,116][INFO ][o.e.c.g.GeoJsonParserTests] [testThatParserExtractsCorrectTypeAndCoordinatesFromArbitraryJson] before test
+[2020-02-16T18:21:43,128][INFO ][o.e.c.g.GeoJsonParserTests] [testThatParserExtractsCorrectTypeAndCoordinatesFromArbitraryJson] after test
+[2020-02-16T18:21:43,129][INFO ][o.e.c.g.GeoJsonParserTests] [testParseCircle] before test
+[2020-02-16T18:21:43,130][INFO ][o.e.c.g.GeoJsonParserTests] [testParseCircle] after test
+[2020-02-16T18:21:43,132][INFO ][o.e.c.g.GeoJsonParserTests] [testParseGeometryCollection] before test
+[2020-02-16T18:21:43,132][INFO ][o.e.c.g.GeoJsonParserTests] [testParseGeometryCollection] after test
+[2020-02-16T18:21:43,133][INFO ][o.e.c.g.GeoJsonParserTests] [testParseLineString] before test
+[2020-02-16T18:21:43,133][INFO ][o.e.c.g.GeoJsonParserTests] [testParseLineString] after test
+[2020-02-16T18:21:43,135][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidPoint] before test
+[2020-02-16T18:21:43,136][INFO ][o.e.c.g.GeoJsonParserTests] [testParseInvalidPoint] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

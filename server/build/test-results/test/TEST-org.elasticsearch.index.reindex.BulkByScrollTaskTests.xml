@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.reindex.BulkByScrollTaskTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:10" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testStatusHatesNegatives" classname="org.elasticsearch.index.reindex.BulkByScrollTaskTests" time="0.004"/>
+  <testcase name="testXContentRepresentationOfUnfinishedSlices" classname="org.elasticsearch.index.reindex.BulkByScrollTaskTests" time="0.002"/>
+  <testcase name="testXContentRepresentationOfUnlimitedRequestsPerSecond" classname="org.elasticsearch.index.reindex.BulkByScrollTaskTests" time="0.001"/>
+  <testcase name="testMergeStatuses" classname="org.elasticsearch.index.reindex.BulkByScrollTaskTests" time="0.003"/>
+  <testcase name="testXContentRepresentationOfSliceFailures" classname="org.elasticsearch.index.reindex.BulkByScrollTaskTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T06:23:10,074][INFO ][o.e.i.r.BulkByScrollTaskTests] [testStatusHatesNegatives] before test
+[2020-02-17T06:23:10,076][INFO ][o.e.i.r.BulkByScrollTaskTests] [testStatusHatesNegatives] after test
+[2020-02-17T06:23:10,077][INFO ][o.e.i.r.BulkByScrollTaskTests] [testXContentRepresentationOfUnfinishedSlices] before test
+[2020-02-17T06:23:10,078][INFO ][o.e.i.r.BulkByScrollTaskTests] [testXContentRepresentationOfUnfinishedSlices] after test
+[2020-02-17T06:23:10,079][INFO ][o.e.i.r.BulkByScrollTaskTests] [testXContentRepresentationOfUnlimitedRequestsPerSecond] before test
+[2020-02-17T06:23:10,079][INFO ][o.e.i.r.BulkByScrollTaskTests] [testXContentRepresentationOfUnlimitedRequestsPerSecond] after test
+[2020-02-17T06:23:10,081][INFO ][o.e.i.r.BulkByScrollTaskTests] [testMergeStatuses] before test
+[2020-02-17T06:23:10,082][INFO ][o.e.i.r.BulkByScrollTaskTests] [testMergeStatuses] after test
+[2020-02-17T06:23:10,083][INFO ][o.e.i.r.BulkByScrollTaskTests] [testXContentRepresentationOfSliceFailures] before test
+[2020-02-17T06:23:10,083][INFO ][o.e.i.r.BulkByScrollTaskTests] [testXContentRepresentationOfSliceFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

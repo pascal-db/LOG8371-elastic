@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.close.TransportVerifyShardBeforeCloseActionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:05" hostname="Escoto-PC" time="0.296">
+  <properties/>
+  <testcase name="testShardIsFlushed" classname="org.elasticsearch.action.admin.indices.close.TransportVerifyShardBeforeCloseActionTests" time="0.195"/>
+  <testcase name="testShardIsSynced" classname="org.elasticsearch.action.admin.indices.close.TransportVerifyShardBeforeCloseActionTests" time="0.007"/>
+  <testcase name="testOperationFailsWhenNotBlocked" classname="org.elasticsearch.action.admin.indices.close.TransportVerifyShardBeforeCloseActionTests" time="0.014"/>
+  <testcase name="testUnavailableShardsMarkedAsStale" classname="org.elasticsearch.action.admin.indices.close.TransportVerifyShardBeforeCloseActionTests" time="0.02"/>
+  <testcase name="testVerifyShardBeforeIndexClosing" classname="org.elasticsearch.action.admin.indices.close.TransportVerifyShardBeforeCloseActionTests" time="0.009"/>
+  <testcase name="testVerifyShardBeforeIndexClosingFailed" classname="org.elasticsearch.action.admin.indices.close.TransportVerifyShardBeforeCloseActionTests" time="0.014"/>
+  <testcase name="testOperationFailsWithNoBlock" classname="org.elasticsearch.action.admin.indices.close.TransportVerifyShardBeforeCloseActionTests" time="0.037"/>
+  <system-out><![CDATA[[2020-02-16T16:20:05,260][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testShardIsFlushed] before test
+[2020-02-16T16:20:05,453][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testShardIsFlushed] after test
+[2020-02-16T16:20:05,455][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testShardIsSynced] before test
+[2020-02-16T16:20:05,459][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testShardIsSynced] after test
+[2020-02-16T16:20:05,465][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testOperationFailsWhenNotBlocked] before test
+[2020-02-16T16:20:05,474][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testOperationFailsWhenNotBlocked] after test
+[2020-02-16T16:20:05,476][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testUnavailableShardsMarkedAsStale] before test
+[2020-02-16T16:20:05,482][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{NlHOFZn1S76WyySB9xmUAA}{0.0.0.0}{0.0.0.0:4}{dim}], current [{node_1}{_hFfdvJJRA6Lgp55G9bVhg}{0.0.0.0}{0.0.0.0:6}{dim}]}, removed {{node}{NlHOFZn1S76WyySB9xmUAA}{0.0.0.0}{0.0.0.0:4}{dim}}, added {{node_3}{IU9rG4VRTCqGu71kMtSO8g}{0.0.0.0}{0.0.0.0:8}{dim},{node_4}{WMFjwXWhTlW8_ayXEm5ONw}{0.0.0.0}{0.0.0.0:9}{dim},{node_1}{_hFfdvJJRA6Lgp55G9bVhg}{0.0.0.0}{0.0.0.0:6}{dim},{node_2}{BbJmfDNUSiuQUywoE1gNMw}{0.0.0.0}{0.0.0.0:7}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T16:20:05,494][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testUnavailableShardsMarkedAsStale] after test
+[2020-02-16T16:20:05,495][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testVerifyShardBeforeIndexClosing] before test
+[2020-02-16T16:20:05,503][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testVerifyShardBeforeIndexClosing] after test
+[2020-02-16T16:20:05,505][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testVerifyShardBeforeIndexClosingFailed] before test
+[2020-02-16T16:20:05,516][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testVerifyShardBeforeIndexClosingFailed] after test
+[2020-02-16T16:20:05,525][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testOperationFailsWithNoBlock] before test
+[2020-02-16T16:20:05,552][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{3tO0OivEQtqHMRKzhKwdCw}{0.0.0.0}{0.0.0.0:15}{dim}], current []}, removed {{node}{3tO0OivEQtqHMRKzhKwdCw}{0.0.0.0}{0.0.0.0:15}{dim}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T16:20:05,554][INFO ][o.e.a.a.i.c.TransportVerifyShardBeforeCloseActionTests] [testOperationFailsWithNoBlock] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

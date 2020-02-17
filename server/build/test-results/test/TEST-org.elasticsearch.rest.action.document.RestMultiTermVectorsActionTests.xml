@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.rest.action.document.RestMultiTermVectorsActionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testTypeInPath" classname="org.elasticsearch.rest.action.document.RestMultiTermVectorsActionTests" time="0.011"/>
+  <testcase name="testTypeInBody" classname="org.elasticsearch.rest.action.document.RestMultiTermVectorsActionTests" time="0.004"/>
+  <testcase name="testTypeParameter" classname="org.elasticsearch.rest.action.document.RestMultiTermVectorsActionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:25:17,938][INFO ][o.e.r.a.d.RestMultiTermVectorsActionTests] [testTypeInPath] before test
+[2020-02-16T17:25:17,946][WARN ][o.e.d.r.a.d.RestTermVectorsAction] [testTypeInPath] [types removal] Specifying types in multi term vector requests is deprecated.
+[2020-02-16T17:25:17,947][INFO ][o.e.r.a.d.RestMultiTermVectorsActionTests] [testTypeInPath] after test
+[2020-02-16T17:25:17,949][INFO ][o.e.r.a.d.RestMultiTermVectorsActionTests] [testTypeInBody] before test
+[2020-02-16T17:25:17,950][WARN ][o.e.d.a.t.TermVectorsRequest] [testTypeInBody] [types removal] Specifying types in term vector requests is deprecated.
+[2020-02-16T17:25:17,951][INFO ][o.e.r.a.d.RestMultiTermVectorsActionTests] [testTypeInBody] after test
+[2020-02-16T17:25:17,953][INFO ][o.e.r.a.d.RestMultiTermVectorsActionTests] [testTypeParameter] before test
+[2020-02-16T17:25:17,953][INFO ][o.e.r.a.d.RestMultiTermVectorsActionTests] [testTypeParameter] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

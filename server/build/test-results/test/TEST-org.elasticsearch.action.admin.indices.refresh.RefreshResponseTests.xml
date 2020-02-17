@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.refresh.RefreshResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:27" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testFailuresDeduplication" classname="org.elasticsearch.action.admin.indices.refresh.RefreshResponseTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.refresh.RefreshResponseTests" time="0.015"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.admin.indices.refresh.RefreshResponseTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T14:20:27,776][INFO ][o.e.a.a.i.r.RefreshResponseTests] [testFailuresDeduplication] before test
+[2020-02-16T14:20:27,779][INFO ][o.e.a.a.i.r.RefreshResponseTests] [testFailuresDeduplication] after test
+[2020-02-16T14:20:27,781][INFO ][o.e.a.a.i.r.RefreshResponseTests] [testFromXContent] before test
+[2020-02-16T14:20:27,795][INFO ][o.e.a.a.i.r.RefreshResponseTests] [testFromXContent] after test
+[2020-02-16T14:20:27,798][INFO ][o.e.a.a.i.r.RefreshResponseTests] [testToXContent] before test
+[2020-02-16T14:20:27,798][INFO ][o.e.a.a.i.r.RefreshResponseTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

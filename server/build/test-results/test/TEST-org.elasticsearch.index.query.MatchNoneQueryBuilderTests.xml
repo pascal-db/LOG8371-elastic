@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:07" hostname="Escoto-PC" time="0.053">
+  <properties/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.022"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.003"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.001"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.006"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.006"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.MatchNoneQueryBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:23:07,440][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testToQuery] before test
+[2020-02-17T00:23:07,443][INFO ][o.e.p.PluginsService     ] [testToQuery] no modules loaded
+[2020-02-17T00:23:07,443][INFO ][o.e.p.PluginsService     ] [testToQuery] no plugins loaded
+[2020-02-17T00:23:07,448][INFO ][o.e.p.PluginsService     ] [testToQuery] no modules loaded
+[2020-02-17T00:23:07,448][INFO ][o.e.p.PluginsService     ] [testToQuery] no plugins loaded
+[2020-02-17T00:23:07,452][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testToQuery] after test
+[2020-02-17T00:23:07,454][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testFromXContent] before test
+[2020-02-17T00:23:07,455][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testFromXContent] after test
+[2020-02-17T00:23:07,458][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testValidOutput] before test
+[2020-02-17T00:23:07,458][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testValidOutput] after test
+[2020-02-17T00:23:07,460][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-17T00:23:07,460][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-17T00:23:07,462][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testFromJson] before test
+[2020-02-17T00:23:07,462][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testFromJson] after test
+[2020-02-17T00:23:07,464][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testSerialization] before test
+[2020-02-17T00:23:07,464][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testSerialization] after test
+[2020-02-17T00:23:07,466][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T00:23:07,466][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T00:23:07,471][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testUnknownField] before test
+[2020-02-17T00:23:07,471][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testUnknownField] after test
+[2020-02-17T00:23:07,473][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testCacheability] before test
+[2020-02-17T00:23:07,474][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testCacheability] after test
+[2020-02-17T00:23:07,480][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-17T00:23:07,480][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-17T00:23:07,481][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-17T00:23:07,481][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-17T00:23:07,483][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testMustRewrite] before test
+[2020-02-17T00:23:07,483][INFO ][o.e.i.q.MatchNoneQueryBuilderTests] [testMustRewrite] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

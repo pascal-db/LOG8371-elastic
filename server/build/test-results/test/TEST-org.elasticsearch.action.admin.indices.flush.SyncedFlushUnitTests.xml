@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.flush.SyncedFlushUnitTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:25" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testIndicesSyncedFlushResult" classname="org.elasticsearch.action.admin.indices.flush.SyncedFlushUnitTests" time="0.014"/>
+  <testcase name="testResponseStreaming" classname="org.elasticsearch.action.admin.indices.flush.SyncedFlushUnitTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T01:20:25,362][INFO ][o.e.a.a.i.f.SyncedFlushUnitTests] [testIndicesSyncedFlushResult] before test
+[2020-02-17T01:20:25,369][INFO ][o.e.a.a.i.f.SyncedFlushUnitTests] [testIndicesSyncedFlushResult] after test
+[2020-02-17T01:20:25,371][INFO ][o.e.a.a.i.f.SyncedFlushUnitTests] [testResponseStreaming] before test
+[2020-02-17T01:20:25,373][INFO ][o.e.a.a.i.f.SyncedFlushUnitTests] [testResponseStreaming] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

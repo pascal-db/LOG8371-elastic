@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.network.NetworkUtilsTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.489">
+  <properties/>
+  <testcase name="testSortKey" classname="org.elasticsearch.common.network.NetworkUtilsTests" time="0.005"/>
+  <testcase name="testSortKeyLinkLocal" classname="org.elasticsearch.common.network.NetworkUtilsTests" time="0.003"/>
+  <testcase name="testNonExistingInterface" classname="org.elasticsearch.common.network.NetworkUtilsTests" time="0.336"/>
+  <testcase name="testFilter" classname="org.elasticsearch.common.network.NetworkUtilsTests" time="0.002"/>
+  <testcase name="testMaybeGetInterfaceByName" classname="org.elasticsearch.common.network.NetworkUtilsTests" time="0.14"/>
+  <testcase name="testSortKeySiteLocal" classname="org.elasticsearch.common.network.NetworkUtilsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T19:20:47,888][INFO ][o.e.c.n.NetworkUtilsTests] [testSortKey] before test
+[2020-02-16T19:20:47,889][INFO ][o.e.c.n.NetworkUtilsTests] [testSortKey] after test
+[2020-02-16T19:20:47,892][INFO ][o.e.c.n.NetworkUtilsTests] [testSortKeyLinkLocal] before test
+[2020-02-16T19:20:47,893][INFO ][o.e.c.n.NetworkUtilsTests] [testSortKeyLinkLocal] after test
+[2020-02-16T19:20:47,895][INFO ][o.e.c.n.NetworkUtilsTests] [testNonExistingInterface] before test
+[2020-02-16T19:20:48,229][INFO ][o.e.c.n.NetworkUtilsTests] [testNonExistingInterface] after test
+[2020-02-16T19:20:48,231][INFO ][o.e.c.n.NetworkUtilsTests] [testFilter] before test
+[2020-02-16T19:20:48,231][INFO ][o.e.c.n.NetworkUtilsTests] [testFilter] after test
+[2020-02-16T19:20:48,235][INFO ][o.e.c.n.NetworkUtilsTests] [testMaybeGetInterfaceByName] before test
+[2020-02-16T19:20:48,371][INFO ][o.e.c.n.NetworkUtilsTests] [testMaybeGetInterfaceByName] after test
+[2020-02-16T19:20:48,373][INFO ][o.e.c.n.NetworkUtilsTests] [testSortKeySiteLocal] before test
+[2020-02-16T19:20:48,373][INFO ][o.e.c.n.NetworkUtilsTests] [testSortKeySiteLocal] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

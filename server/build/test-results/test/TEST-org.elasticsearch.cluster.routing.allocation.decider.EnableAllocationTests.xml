@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:37" hostname="Escoto-PC" time="0.046">
+  <properties/>
+  <testcase name="testClusterEnableOnlyPrimaries" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationTests" time="0.004"/>
+  <testcase name="testEnableClusterBalanceNoReplicas" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationTests" time="0.019"/>
+  <testcase name="testIndexEnableNone" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationTests" time="0.006"/>
+  <testcase name="testClusterEnableNone" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationTests" time="0.008"/>
+  <testcase name="testEnableClusterBalance" classname="org.elasticsearch.cluster.routing.allocation.decider.EnableAllocationTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T07:21:37,484][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableOnlyPrimaries] before test
+[2020-02-17T07:21:37,485][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableOnlyPrimaries] Building initial routing table
+[2020-02-17T07:21:37,486][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableOnlyPrimaries] --> adding two nodes do rerouting
+[2020-02-17T07:21:37,486][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableOnlyPrimaries] --> start the shards (primaries)
+[2020-02-17T07:21:37,486][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableOnlyPrimaries] after test
+[2020-02-17T07:21:37,488][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalanceNoReplicas] before test
+[2020-02-17T07:21:37,491][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalanceNoReplicas] Building initial routing table
+[2020-02-17T07:21:37,491][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalanceNoReplicas] --> adding one nodes and do rerouting
+[2020-02-17T07:21:37,492][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalanceNoReplicas] --> start the shards (primaries)
+[2020-02-17T07:21:37,492][INFO ][o.e.c.r.a.AllocationService] [testEnableClusterBalanceNoReplicas] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][4], [test][3], [test][5], [test][2], [test][0]]]).
+[2020-02-17T07:21:37,492][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalanceNoReplicas] --> adding one nodes and do rerouting
+[2020-02-17T07:21:37,493][INFO ][o.e.c.s.ClusterSettings  ] [testEnableClusterBalanceNoReplicas] updating [cluster.routing.rebalance.enable] from [none] to [all]
+[2020-02-17T07:21:37,505][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalanceNoReplicas] after test
+[2020-02-17T07:21:37,510][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testIndexEnableNone] before test
+[2020-02-17T07:21:37,511][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testIndexEnableNone] --> adding two nodes and do rerouting
+[2020-02-17T07:21:37,512][INFO ][o.e.c.r.a.AllocationService] [testIndexEnableNone] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute]).
+[2020-02-17T07:21:37,512][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testIndexEnableNone] --> start the shards (primaries)
+[2020-02-17T07:21:37,512][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testIndexEnableNone] --> start the shards (replicas)
+[2020-02-17T07:21:37,512][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testIndexEnableNone] --> verify only enabled index has been routed
+[2020-02-17T07:21:37,512][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testIndexEnableNone] after test
+[2020-02-17T07:21:37,519][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableNone] before test
+[2020-02-17T07:21:37,521][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableNone] Building initial routing table
+[2020-02-17T07:21:37,521][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableNone] --> adding two nodes and do rerouting
+[2020-02-17T07:21:37,521][INFO ][o.e.c.r.a.AllocationService] [testClusterEnableNone] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute]).
+[2020-02-17T07:21:37,521][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testClusterEnableNone] after test
+[2020-02-17T07:21:37,523][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalance] before test
+[2020-02-17T07:21:37,526][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalance] Building initial routing table
+[2020-02-17T07:21:37,526][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalance] --> adding one nodes and do rerouting
+[2020-02-17T07:21:37,526][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalance] --> start the shards (primaries)
+[2020-02-17T07:21:37,527][INFO ][o.e.c.r.a.AllocationService] [testEnableClusterBalance] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[always_disabled][0], [test][1], [test][2], [test][0]]]).
+[2020-02-17T07:21:37,527][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalance] --> adding one nodes and do rerouting
+[2020-02-17T07:21:37,528][INFO ][o.e.c.r.a.d.EnableAllocationTests] [testEnableClusterBalance] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.snapshots.restore.RestoreSnapshotRequestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:02" hostname="Escoto-PC" time="0.039">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.cluster.snapshots.restore.RestoreSnapshotRequestTests" time="0.019"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.admin.cluster.snapshots.restore.RestoreSnapshotRequestTests" time="0.012"/>
+  <testcase name="testSource" classname="org.elasticsearch.action.admin.cluster.snapshots.restore.RestoreSnapshotRequestTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T15:20:02,741][INFO ][o.e.a.a.c.s.r.RestoreSnapshotRequestTests] [testSerialization] before test
+[2020-02-16T15:20:02,753][INFO ][o.e.a.a.c.s.r.RestoreSnapshotRequestTests] [testSerialization] after test
+[2020-02-16T15:20:02,757][INFO ][o.e.a.a.c.s.r.RestoreSnapshotRequestTests] [testEqualsAndHashcode] before test
+[2020-02-16T15:20:02,766][INFO ][o.e.a.a.c.s.r.RestoreSnapshotRequestTests] [testEqualsAndHashcode] after test
+[2020-02-16T15:20:02,772][INFO ][o.e.a.a.c.s.r.RestoreSnapshotRequestTests] [testSource] before test
+[2020-02-16T15:20:02,774][INFO ][o.e.a.a.c.s.r.RestoreSnapshotRequestTests] [testSource] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

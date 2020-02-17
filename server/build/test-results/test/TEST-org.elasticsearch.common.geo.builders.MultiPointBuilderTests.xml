@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.builders.MultiPointBuilderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:44" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testInvalidBuilderException" classname="org.elasticsearch.common.geo.builders.MultiPointBuilderTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.common.geo.builders.MultiPointBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.common.geo.builders.MultiPointBuilderTests" time="0.007"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.geo.builders.MultiPointBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T03:20:44,381][INFO ][o.e.c.g.b.MultiPointBuilderTests] [testInvalidBuilderException] before test
+[2020-02-17T03:20:44,383][INFO ][o.e.c.g.b.MultiPointBuilderTests] [testInvalidBuilderException] after test
+[2020-02-17T03:20:44,385][INFO ][o.e.c.g.b.MultiPointBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-17T03:20:44,386][INFO ][o.e.c.g.b.MultiPointBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-17T03:20:44,388][INFO ][o.e.c.g.b.MultiPointBuilderTests] [testFromXContent] before test
+[2020-02-17T03:20:44,393][INFO ][o.e.c.g.b.MultiPointBuilderTests] [testFromXContent] after test
+[2020-02-17T03:20:44,396][INFO ][o.e.c.g.b.MultiPointBuilderTests] [testSerialization] before test
+[2020-02-17T03:20:44,396][INFO ][o.e.c.g.b.MultiPointBuilderTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

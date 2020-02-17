@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.ShardSearchFailureTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.action.search.ShardSearchFailureTests" time="0.004"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.search.ShardSearchFailureTests" time="0.002"/>
+  <testcase name="testToXContentWithClusterAlias" classname="org.elasticsearch.action.search.ShardSearchFailureTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.search.ShardSearchFailureTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.search.ShardSearchFailureTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T16:20:19,789][INFO ][o.e.a.s.ShardSearchFailureTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T16:20:19,791][INFO ][o.e.a.s.ShardSearchFailureTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T16:20:19,793][INFO ][o.e.a.s.ShardSearchFailureTests] [testToXContent] before test
+[2020-02-16T16:20:19,793][INFO ][o.e.a.s.ShardSearchFailureTests] [testToXContent] after test
+[2020-02-16T16:20:19,795][INFO ][o.e.a.s.ShardSearchFailureTests] [testToXContentWithClusterAlias] before test
+[2020-02-16T16:20:19,795][INFO ][o.e.a.s.ShardSearchFailureTests] [testToXContentWithClusterAlias] after test
+[2020-02-16T16:20:19,798][INFO ][o.e.a.s.ShardSearchFailureTests] [testFromXContent] before test
+[2020-02-16T16:20:19,799][INFO ][o.e.a.s.ShardSearchFailureTests] [testFromXContent] after test
+[2020-02-16T16:20:19,805][INFO ][o.e.a.s.ShardSearchFailureTests] [testSerialization] before test
+[2020-02-16T16:20:19,808][INFO ][o.e.a.s.ShardSearchFailureTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.support.MultiValuesSourceFieldConfigTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.support.MultiValuesSourceFieldConfigTests" time="0.003"/>
+  <testcase name="testBothFieldScript" classname="org.elasticsearch.search.aggregations.support.MultiValuesSourceFieldConfigTests" time="0.004"/>
+  <testcase name="testMissingFieldScript" classname="org.elasticsearch.search.aggregations.support.MultiValuesSourceFieldConfigTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.support.MultiValuesSourceFieldConfigTests" time="0.007"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.support.MultiValuesSourceFieldConfigTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:25:35,267][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:25:35,267][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:25:35,271][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testBothFieldScript] before test
+[2020-02-16T22:25:35,271][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testBothFieldScript] after test
+[2020-02-16T22:25:35,277][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testMissingFieldScript] before test
+[2020-02-16T22:25:35,277][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testMissingFieldScript] after test
+[2020-02-16T22:25:35,281][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testFromXContent] before test
+[2020-02-16T22:25:35,284][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testFromXContent] after test
+[2020-02-16T22:25:35,286][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testSerialization] before test
+[2020-02-16T22:25:35,286][INFO ][o.e.s.a.s.MultiValuesSourceFieldConfigTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

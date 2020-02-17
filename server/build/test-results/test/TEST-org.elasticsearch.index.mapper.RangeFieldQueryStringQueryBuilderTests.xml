@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:57" hostname="Escoto-PC" time="0.114">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.027"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.017"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.002"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.003"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.004"/>
+  <testcase name="testIntegerRangeQuery" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.023"/>
+  <testcase name="testLongRangeQuery" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.003"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.003"/>
+  <testcase name="testDateRangeQuery" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.004"/>
+  <testcase name="testIPRangeQuery" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.005"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.004"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.002"/>
+  <testcase name="testDoubleRangeQuery" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.003"/>
+  <testcase name="testFloatRangeQuery" classname="org.elasticsearch.index.mapper.RangeFieldQueryStringQueryBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T17:22:57,339][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testSerialization] before test
+[2020-02-16T17:22:57,344][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T17:22:57,344][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T17:22:57,358][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T17:22:57,358][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T17:22:57,363][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testSerialization] after test
+[2020-02-16T17:22:57,365][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:22:57,381][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:22:57,383][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T17:22:57,384][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T17:22:57,386][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:22:57,386][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:22:57,388][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T17:22:57,391][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T17:22:57,393][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testIntegerRangeQuery] before test
+[2020-02-16T17:22:57,393][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testIntegerRangeQuery] after test
+[2020-02-16T17:22:57,395][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testToQuery] before test
+[2020-02-16T17:22:57,416][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testToQuery] after test
+[2020-02-16T17:22:57,418][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testLongRangeQuery] before test
+[2020-02-16T17:22:57,420][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testLongRangeQuery] after test
+[2020-02-16T17:22:57,421][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testCacheability] before test
+[2020-02-16T17:22:57,422][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testCacheability] after test
+[2020-02-16T17:22:57,424][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testDateRangeQuery] before test
+[2020-02-16T17:22:57,425][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testDateRangeQuery] after test
+[2020-02-16T17:22:57,428][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:22:57,430][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:22:57,431][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testIPRangeQuery] before test
+[2020-02-16T17:22:57,432][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testIPRangeQuery] after test
+[2020-02-16T17:22:57,434][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T17:22:57,437][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T17:22:57,440][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:22:57,441][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:22:57,443][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:22:57,443][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:22:57,445][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testDoubleRangeQuery] before test
+[2020-02-16T17:22:57,447][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testDoubleRangeQuery] after test
+[2020-02-16T17:22:57,449][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testFloatRangeQuery] before test
+[2020-02-16T17:22:57,450][INFO ][o.e.i.m.RangeFieldQueryStringQueryBuilderTests] [testFloatRangeQuery] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

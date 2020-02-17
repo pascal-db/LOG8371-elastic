@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.sort.SortOrderTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:51" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testFromString" classname="org.elasticsearch.search.sort.SortOrderTests" time="0.003"/>
+  <testcase name="testDistanceUnitNames" classname="org.elasticsearch.search.sort.SortOrderTests" time="0.003"/>
+  <testcase name="testReadWrite" classname="org.elasticsearch.search.sort.SortOrderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:51,661][INFO ][o.e.s.s.SortOrderTests   ] [testFromString] before test
+[2020-02-16T18:25:51,662][INFO ][o.e.s.s.SortOrderTests   ] [testFromString] after test
+[2020-02-16T18:25:51,665][INFO ][o.e.s.s.SortOrderTests   ] [testDistanceUnitNames] before test
+[2020-02-16T18:25:51,665][INFO ][o.e.s.s.SortOrderTests   ] [testDistanceUnitNames] after test
+[2020-02-16T18:25:51,667][INFO ][o.e.s.s.SortOrderTests   ] [testReadWrite] before test
+[2020-02-16T18:25:51,667][INFO ][o.e.s.s.SortOrderTests   ] [testReadWrite] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

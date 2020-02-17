@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.WildcardExpressionResolverTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:36" hostname="Escoto-PC" time="0.035">
+  <properties/>
+  <testcase name="testConvertWildcardsOpenClosedIndicesTests" classname="org.elasticsearch.cluster.metadata.WildcardExpressionResolverTests" time="0.004"/>
+  <testcase name="testConvertWildcardsTests" classname="org.elasticsearch.cluster.metadata.WildcardExpressionResolverTests" time="0.005"/>
+  <testcase name="testAll" classname="org.elasticsearch.cluster.metadata.WildcardExpressionResolverTests" time="0.003"/>
+  <testcase name="testMatchesConcreteIndicesWildcardAndAliases" classname="org.elasticsearch.cluster.metadata.WildcardExpressionResolverTests" time="0.003"/>
+  <testcase name="testMultipleWildcards" classname="org.elasticsearch.cluster.metadata.WildcardExpressionResolverTests" time="0.008"/>
+  <testcase name="testResolveAliases" classname="org.elasticsearch.cluster.metadata.WildcardExpressionResolverTests" time="0.003"/>
+  <testcase name="testConvertWildcardsJustIndicesTests" classname="org.elasticsearch.cluster.metadata.WildcardExpressionResolverTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T17:20:36,907][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testConvertWildcardsOpenClosedIndicesTests] before test
+[2020-02-16T17:20:36,909][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testConvertWildcardsOpenClosedIndicesTests] after test
+[2020-02-16T17:20:36,914][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testConvertWildcardsTests] before test
+[2020-02-16T17:20:36,914][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testConvertWildcardsTests] after test
+[2020-02-16T17:20:36,917][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testAll] before test
+[2020-02-16T17:20:36,917][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testAll] after test
+[2020-02-16T17:20:36,919][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testMatchesConcreteIndicesWildcardAndAliases] before test
+[2020-02-16T17:20:36,921][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testMatchesConcreteIndicesWildcardAndAliases] after test
+[2020-02-16T17:20:36,928][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testMultipleWildcards] before test
+[2020-02-16T17:20:36,928][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testMultipleWildcards] after test
+[2020-02-16T17:20:36,931][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testResolveAliases] before test
+[2020-02-16T17:20:36,932][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testResolveAliases] after test
+[2020-02-16T17:20:36,939][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testConvertWildcardsJustIndicesTests] before test
+[2020-02-16T17:20:36,939][INFO ][o.e.c.m.WildcardExpressionResolverTests] [testConvertWildcardsJustIndicesTests] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

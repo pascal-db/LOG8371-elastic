@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.plugins.PluginInfoTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:16" hostname="Escoto-PC" time="0.054">
+  <properties/>
+  <testcase name="testUnknownProperties" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.006"/>
+  <testcase name="testReadFromProperties" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.003"/>
+  <testcase name="testReadFromPropertiesVersionMissing" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.003"/>
+  <testcase name="testReadFromPropertiesJvmMissingClassname" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.004"/>
+  <testcase name="testSerialize" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.002"/>
+  <testcase name="testReadFromPropertiesBogusElasticsearchVersion" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.004"/>
+  <testcase name="testReadFromPropertiesDescriptionMissing" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.003"/>
+  <testcase name="testPluginListSorted" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.002"/>
+  <testcase name="testReadFromPropertiesJavaVersionMissing" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.004"/>
+  <testcase name="testExtendedPluginsEmpty" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.004"/>
+  <testcase name="testExtendedPluginsMultipleExtensions" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.003"/>
+  <testcase name="testReadFromPropertiesElasticsearchVersionMissing" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.004"/>
+  <testcase name="testReadFromPropertiesBadJavaVersionFormat" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.004"/>
+  <testcase name="testReadFromPropertiesNameMissing" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.005"/>
+  <testcase name="testExtendedPluginsSingleExtension" classname="org.elasticsearch.plugins.PluginInfoTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T03:25:16,049][INFO ][o.e.p.PluginInfoTests    ] [testUnknownProperties] before test
+[2020-02-17T03:25:16,053][INFO ][o.e.p.PluginInfoTests    ] [testUnknownProperties] after test
+[2020-02-17T03:25:16,055][INFO ][o.e.p.PluginInfoTests    ] [testReadFromProperties] before test
+[2020-02-17T03:25:16,056][INFO ][o.e.p.PluginInfoTests    ] [testReadFromProperties] after test
+[2020-02-17T03:25:16,058][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesVersionMissing] before test
+[2020-02-17T03:25:16,060][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesVersionMissing] after test
+[2020-02-17T03:25:16,061][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesJvmMissingClassname] before test
+[2020-02-17T03:25:16,063][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesJvmMissingClassname] after test
+[2020-02-17T03:25:16,065][INFO ][o.e.p.PluginInfoTests    ] [testSerialize] before test
+[2020-02-17T03:25:16,065][INFO ][o.e.p.PluginInfoTests    ] [testSerialize] after test
+[2020-02-17T03:25:16,067][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesBogusElasticsearchVersion] before test
+[2020-02-17T03:25:16,069][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesBogusElasticsearchVersion] after test
+[2020-02-17T03:25:16,071][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesDescriptionMissing] before test
+[2020-02-17T03:25:16,073][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesDescriptionMissing] after test
+[2020-02-17T03:25:16,074][INFO ][o.e.p.PluginInfoTests    ] [testPluginListSorted] before test
+[2020-02-17T03:25:16,075][INFO ][o.e.p.PluginInfoTests    ] [testPluginListSorted] after test
+[2020-02-17T03:25:16,076][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesJavaVersionMissing] before test
+[2020-02-17T03:25:16,078][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesJavaVersionMissing] after test
+[2020-02-17T03:25:16,080][INFO ][o.e.p.PluginInfoTests    ] [testExtendedPluginsEmpty] before test
+[2020-02-17T03:25:16,082][INFO ][o.e.p.PluginInfoTests    ] [testExtendedPluginsEmpty] after test
+[2020-02-17T03:25:16,084][INFO ][o.e.p.PluginInfoTests    ] [testExtendedPluginsMultipleExtensions] before test
+[2020-02-17T03:25:16,086][INFO ][o.e.p.PluginInfoTests    ] [testExtendedPluginsMultipleExtensions] after test
+[2020-02-17T03:25:16,087][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesElasticsearchVersionMissing] before test
+[2020-02-17T03:25:16,089][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesElasticsearchVersionMissing] after test
+[2020-02-17T03:25:16,091][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesBadJavaVersionFormat] before test
+[2020-02-17T03:25:16,093][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesBadJavaVersionFormat] after test
+[2020-02-17T03:25:16,095][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesNameMissing] before test
+[2020-02-17T03:25:16,098][INFO ][o.e.p.PluginInfoTests    ] [testReadFromPropertiesNameMissing] after test
+[2020-02-17T03:25:16,100][INFO ][o.e.p.PluginInfoTests    ] [testExtendedPluginsSingleExtension] before test
+[2020-02-17T03:25:16,101][INFO ][o.e.p.PluginInfoTests    ] [testExtendedPluginsSingleExtension] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

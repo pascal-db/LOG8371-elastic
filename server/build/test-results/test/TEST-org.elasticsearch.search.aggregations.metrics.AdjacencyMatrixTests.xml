@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:31" hostname="Escoto-PC" time="0.032">
+  <properties/>
+  <testcase name="testFiltersSameMap" classname="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" time="0.016"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" time="0.002"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" time="0.001"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" time="0.001"/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" time="0.004"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.metrics.AdjacencyMatrixTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:25:31,555][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testFiltersSameMap] before test
+[2020-02-16T23:25:31,556][INFO ][o.e.p.PluginsService     ] [testFiltersSameMap] no modules loaded
+[2020-02-16T23:25:31,556][INFO ][o.e.p.PluginsService     ] [testFiltersSameMap] no plugins loaded
+[2020-02-16T23:25:31,565][INFO ][o.e.p.PluginsService     ] [testFiltersSameMap] no modules loaded
+[2020-02-16T23:25:31,565][INFO ][o.e.p.PluginsService     ] [testFiltersSameMap] no plugins loaded
+[2020-02-16T23:25:31,568][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testFiltersSameMap] after test
+[2020-02-16T23:25:31,570][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testEqualsAndHashcode] before test
+[2020-02-16T23:25:31,570][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testEqualsAndHashcode] after test
+[2020-02-16T23:25:31,572][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testToString] before test
+[2020-02-16T23:25:31,572][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testToString] after test
+[2020-02-16T23:25:31,574][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testSerialization] before test
+[2020-02-16T23:25:31,574][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testSerialization] after test
+[2020-02-16T23:25:31,575][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testFromXContent] before test
+[2020-02-16T23:25:31,576][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testFromXContent] after test
+[2020-02-16T23:25:31,578][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testFromXContentMulti] before test
+[2020-02-16T23:25:31,580][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testFromXContentMulti] after test
+[2020-02-16T23:25:31,582][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testSerializationMulti] before test
+[2020-02-16T23:25:31,583][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testSerializationMulti] after test
+[2020-02-16T23:25:31,584][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testShallowCopy] before test
+[2020-02-16T23:25:31,584][INFO ][o.e.s.a.m.AdjacencyMatrixTests] [testShallowCopy] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.collect.CopyOnWriteHashMapTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:43" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testUnsupportedValues" classname="org.elasticsearch.common.collect.CopyOnWriteHashMapTests" time="0.003"/>
+  <testcase name="testCollision" classname="org.elasticsearch.common.collect.CopyOnWriteHashMapTests" time="0.002"/>
+  <testcase name="testDuel" classname="org.elasticsearch.common.collect.CopyOnWriteHashMapTests" time="0.031"/>
+  <testcase name="testUnsupportedAPIs" classname="org.elasticsearch.common.collect.CopyOnWriteHashMapTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T02:20:43,655][INFO ][o.e.c.c.CopyOnWriteHashMapTests] [testUnsupportedValues] before test
+[2020-02-17T02:20:43,657][INFO ][o.e.c.c.CopyOnWriteHashMapTests] [testUnsupportedValues] after test
+[2020-02-17T02:20:43,659][INFO ][o.e.c.c.CopyOnWriteHashMapTests] [testCollision] before test
+[2020-02-17T02:20:43,659][INFO ][o.e.c.c.CopyOnWriteHashMapTests] [testCollision] after test
+[2020-02-17T02:20:43,661][INFO ][o.e.c.c.CopyOnWriteHashMapTests] [testDuel] before test
+[2020-02-17T02:20:43,690][INFO ][o.e.c.c.CopyOnWriteHashMapTests] [testDuel] after test
+[2020-02-17T02:20:43,692][INFO ][o.e.c.c.CopyOnWriteHashMapTests] [testUnsupportedAPIs] before test
+[2020-02-17T02:20:43,692][INFO ][o.e.c.c.CopyOnWriteHashMapTests] [testUnsupportedAPIs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

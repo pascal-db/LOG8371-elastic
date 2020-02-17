@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.ShardRoutingTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testIsSourceTargetRelocation" classname="org.elasticsearch.cluster.routing.ShardRoutingTests" time="0.006"/>
+  <testcase name="testEqualsIgnoringVersion" classname="org.elasticsearch.cluster.routing.ShardRoutingTests" time="0.003"/>
+  <testcase name="testExpectedSize" classname="org.elasticsearch.cluster.routing.ShardRoutingTests" time="0.006"/>
+  <testcase name="testIsSameAllocation" classname="org.elasticsearch.cluster.routing.ShardRoutingTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:21:39,306][INFO ][o.e.c.r.ShardRoutingTests] [testIsSourceTargetRelocation] before test
+[2020-02-16T17:21:39,308][INFO ][o.e.c.r.ShardRoutingTests] [testIsSourceTargetRelocation] after test
+[2020-02-16T17:21:39,311][INFO ][o.e.c.r.ShardRoutingTests] [testEqualsIgnoringVersion] before test
+[2020-02-16T17:21:39,311][INFO ][o.e.c.r.ShardRoutingTests] [testEqualsIgnoringVersion] after test
+[2020-02-16T17:21:39,315][INFO ][o.e.c.r.ShardRoutingTests] [testExpectedSize] before test
+[2020-02-16T17:21:39,317][INFO ][o.e.c.r.ShardRoutingTests] [testExpectedSize] after test
+[2020-02-16T17:21:39,319][INFO ][o.e.c.r.ShardRoutingTests] [testIsSameAllocation] before test
+[2020-02-16T17:21:39,319][INFO ][o.e.c.r.ShardRoutingTests] [testIsSameAllocation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

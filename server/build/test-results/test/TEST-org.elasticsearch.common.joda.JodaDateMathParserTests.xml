@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.joda.JodaDateMathParserTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:46" hostname="Escoto-PC" time="0.077">
+  <properties/>
+  <testcase name="testRoundingDoesNotAffectExactDate" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.014"/>
+  <testcase name="testLenientEmptyMath" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.001"/>
+  <testcase name="testNow" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.004"/>
+  <testcase name="testTimezone" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.003"/>
+  <testcase name="testBasicDates" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.002"/>
+  <testcase name="testThatUnixTimestampMayNotHaveTimeZone" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.003"/>
+  <testcase name="testMultipleAdjustments" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.002"/>
+  <testcase name="testRoundingPreservesEpochAsBaseDate" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.005"/>
+  <testcase name="testExplicitRounding" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.011"/>
+  <testcase name="testIllegalDateFormat" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.003"/>
+  <testcase name="testImplicitRounding" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.003"/>
+  <testcase name="testOnlyCallsNowIfNecessary" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.004"/>
+  <testcase name="testTimestamps" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.004"/>
+  <testcase name="testIllegalMathFormat" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.006"/>
+  <testcase name="testBasicMath" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.003"/>
+  <testcase name="testOverridingLocaleOrZoneAndCompositeRoundUpParser" classname="org.elasticsearch.common.joda.JodaDateMathParserTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T19:20:46,067][INFO ][o.e.c.j.JodaDateMathParserTests] [testRoundingDoesNotAffectExactDate] before test
+[2020-02-16T19:20:46,074][INFO ][o.e.c.j.JodaDateMathParserTests] [testRoundingDoesNotAffectExactDate] after test
+[2020-02-16T19:20:46,076][INFO ][o.e.c.j.JodaDateMathParserTests] [testLenientEmptyMath] before test
+[2020-02-16T19:20:46,076][INFO ][o.e.c.j.JodaDateMathParserTests] [testLenientEmptyMath] after test
+[2020-02-16T19:20:46,078][INFO ][o.e.c.j.JodaDateMathParserTests] [testNow] before test
+[2020-02-16T19:20:46,080][INFO ][o.e.c.j.JodaDateMathParserTests] [testNow] after test
+[2020-02-16T19:20:46,081][INFO ][o.e.c.j.JodaDateMathParserTests] [testTimezone] before test
+[2020-02-16T19:20:46,083][INFO ][o.e.c.j.JodaDateMathParserTests] [testTimezone] after test
+[2020-02-16T19:20:46,085][INFO ][o.e.c.j.JodaDateMathParserTests] [testBasicDates] before test
+[2020-02-16T19:20:46,086][INFO ][o.e.c.j.JodaDateMathParserTests] [testBasicDates] after test
+[2020-02-16T19:20:46,088][INFO ][o.e.c.j.JodaDateMathParserTests] [testThatUnixTimestampMayNotHaveTimeZone] before test
+[2020-02-16T19:20:46,089][INFO ][o.e.c.j.JodaDateMathParserTests] [testThatUnixTimestampMayNotHaveTimeZone] after test
+[2020-02-16T19:20:46,090][INFO ][o.e.c.j.JodaDateMathParserTests] [testMultipleAdjustments] before test
+[2020-02-16T19:20:46,091][INFO ][o.e.c.j.JodaDateMathParserTests] [testMultipleAdjustments] after test
+[2020-02-16T19:20:46,093][INFO ][o.e.c.j.JodaDateMathParserTests] [testRoundingPreservesEpochAsBaseDate] before test
+[2020-02-16T19:20:46,095][INFO ][o.e.c.j.JodaDateMathParserTests] [testRoundingPreservesEpochAsBaseDate] after test
+[2020-02-16T19:20:46,104][INFO ][o.e.c.j.JodaDateMathParserTests] [testExplicitRounding] before test
+[2020-02-16T19:20:46,107][INFO ][o.e.c.j.JodaDateMathParserTests] [testExplicitRounding] after test
+[2020-02-16T19:20:46,110][INFO ][o.e.c.j.JodaDateMathParserTests] [testIllegalDateFormat] before test
+[2020-02-16T19:20:46,111][INFO ][o.e.c.j.JodaDateMathParserTests] [testIllegalDateFormat] after test
+[2020-02-16T19:20:46,113][INFO ][o.e.c.j.JodaDateMathParserTests] [testImplicitRounding] before test
+[2020-02-16T19:20:46,115][WARN ][o.e.d.c.j.Joda           ] [testImplicitRounding] 'y' year should be replaced with 'u'. Use 'y' for year-of-era.; 'Z' time zone offset/id fails when parsing 'Z' for Zulu timezone. Consider using 'X'. Use new java.time date format specifiiers.
+[2020-02-16T19:20:46,115][INFO ][o.e.c.j.JodaDateMathParserTests] [testImplicitRounding] after test
+[2020-02-16T19:20:46,119][INFO ][o.e.c.j.JodaDateMathParserTests] [testOnlyCallsNowIfNecessary] before test
+[2020-02-16T19:20:46,120][INFO ][o.e.c.j.JodaDateMathParserTests] [testOnlyCallsNowIfNecessary] after test
+[2020-02-16T19:20:46,123][INFO ][o.e.c.j.JodaDateMathParserTests] [testTimestamps] before test
+[2020-02-16T19:20:46,124][INFO ][o.e.c.j.JodaDateMathParserTests] [testTimestamps] after test
+[2020-02-16T19:20:46,130][INFO ][o.e.c.j.JodaDateMathParserTests] [testIllegalMathFormat] before test
+[2020-02-16T19:20:46,130][INFO ][o.e.c.j.JodaDateMathParserTests] [testIllegalMathFormat] after test
+[2020-02-16T19:20:46,132][INFO ][o.e.c.j.JodaDateMathParserTests] [testBasicMath] before test
+[2020-02-16T19:20:46,133][INFO ][o.e.c.j.JodaDateMathParserTests] [testBasicMath] after test
+[2020-02-16T19:20:46,136][INFO ][o.e.c.j.JodaDateMathParserTests] [testOverridingLocaleOrZoneAndCompositeRoundUpParser] before test
+[2020-02-16T19:20:46,137][INFO ][o.e.c.j.JodaDateMathParserTests] [testOverridingLocaleOrZoneAndCompositeRoundUpParser] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

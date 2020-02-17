@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.CanMatchPreFilterSearchPhaseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testFilterWithFailure" classname="org.elasticsearch.action.search.CanMatchPreFilterSearchPhaseTests" time="0.012"/>
+  <testcase name="testFilterShards" classname="org.elasticsearch.action.search.CanMatchPreFilterSearchPhaseTests" time="0.003"/>
+  <testcase name="testLotsOfShards" classname="org.elasticsearch.action.search.CanMatchPreFilterSearchPhaseTests" time="0.031"/>
+  <system-out><![CDATA[[2020-02-17T04:05:19,051][INFO ][o.e.a.s.CanMatchPreFilterSearchPhaseTests] [testFilterWithFailure] before test
+[2020-02-17T04:05:19,061][INFO ][o.e.a.s.CanMatchPreFilterSearchPhaseTests] [testFilterWithFailure] after test
+[2020-02-17T04:05:19,063][INFO ][o.e.a.s.CanMatchPreFilterSearchPhaseTests] [testFilterShards] before test
+[2020-02-17T04:05:19,065][INFO ][o.e.a.s.CanMatchPreFilterSearchPhaseTests] [testFilterShards] after test
+[2020-02-17T04:05:19,066][INFO ][o.e.a.s.CanMatchPreFilterSearchPhaseTests] [testLotsOfShards] before test
+[2020-02-17T04:05:19,097][INFO ][o.e.a.s.CanMatchPreFilterSearchPhaseTests] [testLotsOfShards] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

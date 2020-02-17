@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.io.stream.NamedWriteableRegistryTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:44" hostname="Escoto-PC" time="0.036">
+  <properties/>
+  <testcase name="testDuplicates" classname="org.elasticsearch.common.io.stream.NamedWriteableRegistryTests" time="0.005"/>
+  <testcase name="testUnknownCategory" classname="org.elasticsearch.common.io.stream.NamedWriteableRegistryTests" time="0.006"/>
+  <testcase name="testUnknownName" classname="org.elasticsearch.common.io.stream.NamedWriteableRegistryTests" time="0.006"/>
+  <testcase name="testBasic" classname="org.elasticsearch.common.io.stream.NamedWriteableRegistryTests" time="0.01"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.common.io.stream.NamedWriteableRegistryTests" time="0.009"/>
+  <system-out><![CDATA[[2020-02-16T23:21:44,360][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testDuplicates] before test
+[2020-02-16T23:21:44,362][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testDuplicates] after test
+[2020-02-16T23:21:44,364][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testUnknownCategory] before test
+[2020-02-16T23:21:44,368][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testUnknownCategory] after test
+[2020-02-16T23:21:44,374][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testUnknownName] before test
+[2020-02-16T23:21:44,374][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testUnknownName] after test
+[2020-02-16T23:21:44,384][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testBasic] before test
+[2020-02-16T23:21:44,384][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testBasic] after test
+[2020-02-16T23:21:44,393][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testEmpty] before test
+[2020-02-16T23:21:44,393][INFO ][o.e.c.i.s.NamedWriteableRegistryTests] [testEmpty] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

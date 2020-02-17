@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.filter.FiltersAggregatorTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:11" hostname="Escoto-PC" time="0.717">
+  <properties/>
+  <testcase name="testKeyedFilter" classname="org.elasticsearch.search.aggregations.bucket.filter.FiltersAggregatorTests" time="0.035"/>
+  <testcase name="testEmpty" classname="org.elasticsearch.search.aggregations.bucket.filter.FiltersAggregatorTests" time="0.01"/>
+  <testcase name="testRandom" classname="org.elasticsearch.search.aggregations.bucket.filter.FiltersAggregatorTests" time="0.672"/>
+  <system-out><![CDATA[[2020-02-16T14:24:11,878][INFO ][o.e.s.a.b.f.FiltersAggregatorTests] [testKeyedFilter] before test
+[2020-02-16T14:24:11,911][INFO ][o.e.s.a.b.f.FiltersAggregatorTests] [testKeyedFilter] after test
+[2020-02-16T14:24:11,917][INFO ][o.e.s.a.b.f.FiltersAggregatorTests] [testEmpty] before test
+[2020-02-16T14:24:11,922][INFO ][o.e.s.a.b.f.FiltersAggregatorTests] [testEmpty] after test
+[2020-02-16T14:24:11,925][INFO ][o.e.s.a.b.f.FiltersAggregatorTests] [testRandom] before test
+[2020-02-16T14:24:12,594][INFO ][o.e.s.a.b.f.FiltersAggregatorTests] [testRandom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

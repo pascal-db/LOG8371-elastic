@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:32" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationTests" time="0.012"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationTests" time="0.002"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationTests" time="0.001"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationTests" time="0.001"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.MedianAbsoluteDeviationTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:25:32,570][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testFromXContentMulti] before test
+[2020-02-16T22:25:32,571][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T22:25:32,571][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T22:25:32,577][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T22:25:32,577][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T22:25:32,580][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testFromXContentMulti] after test
+[2020-02-16T22:25:32,582][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testSerialization] before test
+[2020-02-16T22:25:32,582][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testSerialization] after test
+[2020-02-16T22:25:32,584][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:25:32,584][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:25:32,586][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testSerializationMulti] before test
+[2020-02-16T22:25:32,586][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testSerializationMulti] after test
+[2020-02-16T22:25:32,588][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testShallowCopy] before test
+[2020-02-16T22:25:32,588][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testShallowCopy] after test
+[2020-02-16T22:25:32,589][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testToString] before test
+[2020-02-16T22:25:32,589][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testToString] after test
+[2020-02-16T22:25:32,591][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testFromXContent] before test
+[2020-02-16T22:25:32,591][INFO ][o.e.s.a.m.MedianAbsoluteDeviationTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

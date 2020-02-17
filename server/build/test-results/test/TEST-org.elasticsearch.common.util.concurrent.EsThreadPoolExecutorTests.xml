@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.EsThreadPoolExecutorTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:58" hostname="Escoto-PC" time="0.834">
+  <properties/>
+  <testcase name="testRejectedExecutionExceptionContainsNodeName" classname="org.elasticsearch.common.util.concurrent.EsThreadPoolExecutorTests" time="0.834"/>
+  <system-out><![CDATA[[2020-02-16T22:21:58,579][INFO ][o.e.e.NodeEnvironment    ] [testRejectedExecutionExceptionContainsNodeName] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T22:21:58,580][INFO ][o.e.e.NodeEnvironment    ] [testRejectedExecutionExceptionContainsNodeName] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T22:21:58,582][INFO ][o.e.n.Node               ] [testRejectedExecutionExceptionContainsNodeName] node name [es-thread-pool-executor-tests], node ID [xJmeDGBWSlmWQn-eFk94lw], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[3889693339475256978]-HASH=[13828EACD71]]
+[2020-02-16T22:21:58,582][INFO ][o.e.n.Node               ] [testRejectedExecutionExceptionContainsNodeName] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T22:21:58,582][INFO ][o.e.n.Node               ] [testRejectedExecutionExceptionContainsNodeName] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T22:21:58,582][INFO ][o.e.n.Node               ] [testRejectedExecutionExceptionContainsNodeName] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T22:21:58,583][INFO ][o.e.p.PluginsService     ] [testRejectedExecutionExceptionContainsNodeName] no modules loaded
+[2020-02-16T22:21:58,583][INFO ][o.e.p.PluginsService     ] [testRejectedExecutionExceptionContainsNodeName] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T22:21:58,583][INFO ][o.e.p.PluginsService     ] [testRejectedExecutionExceptionContainsNodeName] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T22:21:58,798][INFO ][o.e.d.DiscoveryModule    ] [testRejectedExecutionExceptionContainsNodeName] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T22:21:58,833][INFO ][o.e.n.Node               ] [testRejectedExecutionExceptionContainsNodeName] initialized
+[2020-02-16T22:21:58,833][INFO ][o.e.n.Node               ] [testRejectedExecutionExceptionContainsNodeName] starting ...
+[2020-02-16T22:21:59,325][INFO ][o.e.t.TransportService   ] [testRejectedExecutionExceptionContainsNodeName] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T22:21:59,332][INFO ][o.e.c.c.Coordinator      ] [testRejectedExecutionExceptionContainsNodeName] setting initial configuration to VotingConfiguration{xJmeDGBWSlmWQn-eFk94lw}
+[2020-02-16T22:21:59,357][INFO ][o.e.c.s.MasterService    ] [es-thread-pool-executor-tests] elected-as-master ([1] nodes joined)[{es-thread-pool-executor-tests}{xJmeDGBWSlmWQn-eFk94lw}{YiKE-cUUR0SzIWr6g_MX2A}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{es-thread-pool-executor-tests}{xJmeDGBWSlmWQn-eFk94lw}{YiKE-cUUR0SzIWr6g_MX2A}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T22:21:59,365][INFO ][o.e.c.c.CoordinationState] [es-thread-pool-executor-tests] cluster UUID set to [sr1WEIp7SDKq0-ZYkt-OCg]
+[2020-02-16T22:21:59,372][INFO ][o.e.c.s.ClusterApplierService] [es-thread-pool-executor-tests] master node changed {previous [], current [{es-thread-pool-executor-tests}{xJmeDGBWSlmWQn-eFk94lw}{YiKE-cUUR0SzIWr6g_MX2A}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T22:21:59,373][INFO ][o.e.n.Node               ] [testRejectedExecutionExceptionContainsNodeName] started
+[2020-02-16T22:21:59,378][INFO ][o.e.g.GatewayService     ] [es-thread-pool-executor-tests] recovered [0] indices into cluster_state
+[2020-02-16T22:21:59,380][INFO ][o.e.c.m.MetaDataIndexTemplateService] [es-thread-pool-executor-tests] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T22:21:59,390][INFO ][o.e.c.m.MetaDataIndexTemplateService] [es-thread-pool-executor-tests] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T22:21:59,399][INFO ][o.e.c.u.c.EsThreadPoolExecutorTests] [testRejectedExecutionExceptionContainsNodeName] before test
+[2020-02-16T22:21:59,400][INFO ][o.e.c.u.c.EsThreadPoolExecutorTests] [testRejectedExecutionExceptionContainsNodeName] after test
+[2020-02-16T22:21:59,401][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T22:21:59,401][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T22:21:59,401][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T22:21:59,402][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

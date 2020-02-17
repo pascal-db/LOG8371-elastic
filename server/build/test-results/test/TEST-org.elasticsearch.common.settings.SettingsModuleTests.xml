@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.settings.SettingsModuleTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:54" hostname="Escoto-PC" time="0.077">
+  <properties/>
+  <testcase name="testOldMaxClauseCountSetting" classname="org.elasticsearch.common.settings.SettingsModuleTests" time="0.017"/>
+  <testcase name="testRegisterConsistentSettings" classname="org.elasticsearch.common.settings.SettingsModuleTests" time="0.022"/>
+  <testcase name="testLoggerSettings" classname="org.elasticsearch.common.settings.SettingsModuleTests" time="0.007"/>
+  <testcase name="testRegisterSettings" classname="org.elasticsearch.common.settings.SettingsModuleTests" time="0.006"/>
+  <testcase name="testRegisterSettingsFilter" classname="org.elasticsearch.common.settings.SettingsModuleTests" time="0.004"/>
+  <testcase name="testValidate" classname="org.elasticsearch.common.settings.SettingsModuleTests" time="0.013"/>
+  <testcase name="testMutuallyExclusiveScopes" classname="org.elasticsearch.common.settings.SettingsModuleTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T22:21:54,364][INFO ][o.e.c.s.SettingsModuleTests] [testOldMaxClauseCountSetting] before test
+[2020-02-16T22:21:54,378][INFO ][o.e.c.s.SettingsModuleTests] [testOldMaxClauseCountSetting] after test
+[2020-02-16T22:21:54,393][INFO ][o.e.c.s.SettingsModuleTests] [testRegisterConsistentSettings] before test
+[2020-02-16T22:21:54,400][INFO ][o.e.c.s.SettingsModuleTests] [testRegisterConsistentSettings] after test
+[2020-02-16T22:21:54,403][INFO ][o.e.c.s.SettingsModuleTests] [testLoggerSettings] before test
+[2020-02-16T22:21:54,407][INFO ][o.e.c.s.SettingsModuleTests] [testLoggerSettings] after test
+[2020-02-16T22:21:54,409][INFO ][o.e.c.s.SettingsModuleTests] [testRegisterSettings] before test
+[2020-02-16T22:21:54,413][INFO ][o.e.c.s.SettingsModuleTests] [testRegisterSettings] after test
+[2020-02-16T22:21:54,415][INFO ][o.e.c.s.SettingsModuleTests] [testRegisterSettingsFilter] before test
+[2020-02-16T22:21:54,417][INFO ][o.e.c.s.SettingsModuleTests] [testRegisterSettingsFilter] after test
+[2020-02-16T22:21:54,419][INFO ][o.e.c.s.SettingsModuleTests] [testValidate] before test
+[2020-02-16T22:21:54,428][WARN ][o.e.c.s.SettingsModule   ] [testValidate] 
+*************************************************************************************
+Found index level settings on node level configuration.
+
+Since elasticsearch 5.x index level settings can NOT be set on the nodes 
+configuration like the elasticsearch.yaml, in system properties or command line 
+arguments.In order to upgrade all indices the settings must be updated via the 
+/${index}/_settings API. Unless all settings are dynamic all indices must be closed 
+in order to apply the upgradeIndices created in the future should use index templates 
+to set default values. 
+
+Please ensure all required values are updated on all indices by executing: 
+
+curl -XPUT 'http://localhost:9200/_all/_settings?preserve_existing=true' -d '{
+  "index.foo.bar" : "1"
+}'
+*************************************************************************************
+
+[2020-02-16T22:21:54,431][INFO ][o.e.c.s.SettingsModuleTests] [testValidate] after test
+[2020-02-16T22:21:54,434][INFO ][o.e.c.s.SettingsModuleTests] [testMutuallyExclusiveScopes] before test
+[2020-02-16T22:21:54,438][INFO ][o.e.c.s.SettingsModuleTests] [testMutuallyExclusiveScopes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

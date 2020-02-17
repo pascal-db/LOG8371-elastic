@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.snapshots.mockstore.MockEventuallyConsistentRepositoryTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:53" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testReadAfterDeleteAfterWriteThrows" classname="org.elasticsearch.snapshots.mockstore.MockEventuallyConsistentRepositoryTests" time="0.005"/>
+  <testcase name="testReadAfterWriteAfterReadThrows" classname="org.elasticsearch.snapshots.mockstore.MockEventuallyConsistentRepositoryTests" time="0.002"/>
+  <testcase name="testOverwriteSnapshotInfoBlob" classname="org.elasticsearch.snapshots.mockstore.MockEventuallyConsistentRepositoryTests" time="0.004"/>
+  <testcase name="testOverwriteRandomBlobFails" classname="org.elasticsearch.snapshots.mockstore.MockEventuallyConsistentRepositoryTests" time="0.002"/>
+  <testcase name="testOverwriteShardSnapBlobFails" classname="org.elasticsearch.snapshots.mockstore.MockEventuallyConsistentRepositoryTests" time="0.002"/>
+  <testcase name="testReadAfterWriteConsistently" classname="org.elasticsearch.snapshots.mockstore.MockEventuallyConsistentRepositoryTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:53,075][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testReadAfterDeleteAfterWriteThrows] before test
+[2020-02-16T18:25:53,078][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testReadAfterDeleteAfterWriteThrows] after test
+[2020-02-16T18:25:53,079][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testReadAfterWriteAfterReadThrows] before test
+[2020-02-16T18:25:53,080][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testReadAfterWriteAfterReadThrows] after test
+[2020-02-16T18:25:53,081][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testOverwriteSnapshotInfoBlob] before test
+[2020-02-16T18:25:53,084][INFO ][o.e.r.b.BlobStoreRepository] [testOverwriteSnapshotInfoBlob] Determined repository generation [-1] from repository contents but correct generation must be at least [0]
+[2020-02-16T18:25:53,084][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testOverwriteSnapshotInfoBlob] after test
+[2020-02-16T18:25:53,085][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testOverwriteRandomBlobFails] before test
+[2020-02-16T18:25:53,086][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testOverwriteRandomBlobFails] after test
+[2020-02-16T18:25:53,088][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testOverwriteShardSnapBlobFails] before test
+[2020-02-16T18:25:53,088][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testOverwriteShardSnapBlobFails] after test
+[2020-02-16T18:25:53,090][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testReadAfterWriteConsistently] before test
+[2020-02-16T18:25:53,090][INFO ][o.e.s.m.MockEventuallyConsistentRepositoryTests] [testReadAfterWriteConsistently] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

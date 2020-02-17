@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ShardOperationFailedExceptionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testStatusCannotBeNull" classname="org.elasticsearch.action.ShardOperationFailedExceptionTests" time="0.004"/>
+  <testcase name="testCauseCannotBeNull" classname="org.elasticsearch.action.ShardOperationFailedExceptionTests" time="0.002"/>
+  <testcase name="testIndexIsNullable" classname="org.elasticsearch.action.ShardOperationFailedExceptionTests" time="0.002"/>
+  <testcase name="testReasonCannotBeNull" classname="org.elasticsearch.action.ShardOperationFailedExceptionTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T13:20:47,307][INFO ][o.e.a.ShardOperationFailedExceptionTests] [testStatusCannotBeNull] before test
+[2020-02-16T13:20:47,309][INFO ][o.e.a.ShardOperationFailedExceptionTests] [testStatusCannotBeNull] after test
+[2020-02-16T13:20:47,311][INFO ][o.e.a.ShardOperationFailedExceptionTests] [testCauseCannotBeNull] before test
+[2020-02-16T13:20:47,312][INFO ][o.e.a.ShardOperationFailedExceptionTests] [testCauseCannotBeNull] after test
+[2020-02-16T13:20:47,313][INFO ][o.e.a.ShardOperationFailedExceptionTests] [testIndexIsNullable] before test
+[2020-02-16T13:20:47,313][INFO ][o.e.a.ShardOperationFailedExceptionTests] [testIndexIsNullable] after test
+[2020-02-16T13:20:47,315][INFO ][o.e.a.ShardOperationFailedExceptionTests] [testReasonCannotBeNull] before test
+[2020-02-16T13:20:47,315][INFO ][o.e.a.ShardOperationFailedExceptionTests] [testReasonCannotBeNull] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

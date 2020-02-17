@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.AvgTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:31" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.metrics.AvgTests" time="0.012"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.AvgTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.AvgTests" time="0.001"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.metrics.AvgTests" time="0.002"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.metrics.AvgTests" time="0.001"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.metrics.AvgTests" time="0.001"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.AvgTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:31,602][INFO ][o.e.s.a.m.AvgTests       ] [testFromXContentMulti] before test
+[2020-02-16T18:25:31,604][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T18:25:31,604][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T18:25:31,609][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-16T18:25:31,609][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-16T18:25:31,612][INFO ][o.e.s.a.m.AvgTests       ] [testFromXContentMulti] after test
+[2020-02-16T18:25:31,614][INFO ][o.e.s.a.m.AvgTests       ] [testSerialization] before test
+[2020-02-16T18:25:31,614][INFO ][o.e.s.a.m.AvgTests       ] [testSerialization] after test
+[2020-02-16T18:25:31,615][INFO ][o.e.s.a.m.AvgTests       ] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:31,615][INFO ][o.e.s.a.m.AvgTests       ] [testEqualsAndHashcode] after test
+[2020-02-16T18:25:31,617][INFO ][o.e.s.a.m.AvgTests       ] [testSerializationMulti] before test
+[2020-02-16T18:25:31,617][INFO ][o.e.s.a.m.AvgTests       ] [testSerializationMulti] after test
+[2020-02-16T18:25:31,618][INFO ][o.e.s.a.m.AvgTests       ] [testShallowCopy] before test
+[2020-02-16T18:25:31,618][INFO ][o.e.s.a.m.AvgTests       ] [testShallowCopy] after test
+[2020-02-16T18:25:31,620][INFO ][o.e.s.a.m.AvgTests       ] [testToString] before test
+[2020-02-16T18:25:31,620][INFO ][o.e.s.a.m.AvgTests       ] [testToString] after test
+[2020-02-16T18:25:31,621][INFO ][o.e.s.a.m.AvgTests       ] [testFromXContent] before test
+[2020-02-16T18:25:31,622][INFO ][o.e.s.a.m.AvgTests       ] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

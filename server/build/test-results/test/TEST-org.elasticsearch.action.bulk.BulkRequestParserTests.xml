@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.bulk.BulkRequestParserTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:17" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testIndexRequest" classname="org.elasticsearch.action.bulk.BulkRequestParserTests" time="0.005"/>
+  <testcase name="testTypeWarning" classname="org.elasticsearch.action.bulk.BulkRequestParserTests" time="0.004"/>
+  <testcase name="testFailOnExplicitIndex" classname="org.elasticsearch.action.bulk.BulkRequestParserTests" time="0.002"/>
+  <testcase name="testBarfOnLackOfTrailingNewline" classname="org.elasticsearch.action.bulk.BulkRequestParserTests" time="0.003"/>
+  <testcase name="testDeleteRequest" classname="org.elasticsearch.action.bulk.BulkRequestParserTests" time="0.003"/>
+  <testcase name="testUpdateRequest" classname="org.elasticsearch.action.bulk.BulkRequestParserTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T02:50:17,533][INFO ][o.e.a.b.BulkRequestParserTests] [testIndexRequest] before test
+[2020-02-17T02:50:17,536][INFO ][o.e.a.b.BulkRequestParserTests] [testIndexRequest] after test
+[2020-02-17T02:50:17,538][INFO ][o.e.a.b.BulkRequestParserTests] [testTypeWarning] before test
+[2020-02-17T02:50:17,540][WARN ][o.e.d.a.b.BulkRequestParser] [testTypeWarning] [types removal] Specifying types in bulk requests is deprecated.
+[2020-02-17T02:50:17,540][INFO ][o.e.a.b.BulkRequestParserTests] [testTypeWarning] after test
+[2020-02-17T02:50:17,542][INFO ][o.e.a.b.BulkRequestParserTests] [testFailOnExplicitIndex] before test
+[2020-02-17T02:50:17,543][INFO ][o.e.a.b.BulkRequestParserTests] [testFailOnExplicitIndex] after test
+[2020-02-17T02:50:17,545][INFO ][o.e.a.b.BulkRequestParserTests] [testBarfOnLackOfTrailingNewline] before test
+[2020-02-17T02:50:17,545][INFO ][o.e.a.b.BulkRequestParserTests] [testBarfOnLackOfTrailingNewline] after test
+[2020-02-17T02:50:17,547][INFO ][o.e.a.b.BulkRequestParserTests] [testDeleteRequest] before test
+[2020-02-17T02:50:17,548][INFO ][o.e.a.b.BulkRequestParserTests] [testDeleteRequest] after test
+[2020-02-17T02:50:17,550][INFO ][o.e.a.b.BulkRequestParserTests] [testUpdateRequest] before test
+[2020-02-17T02:50:17,553][INFO ][o.e.a.b.BulkRequestParserTests] [testUpdateRequest] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

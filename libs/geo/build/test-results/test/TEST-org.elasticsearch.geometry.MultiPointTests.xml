@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.MultiPointTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:23" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.MultiPointTests" time="0.007"/>
+  <testcase name="testValidation" classname="org.elasticsearch.geometry.MultiPointTests" time="0.007"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.MultiPointTests" time="0.015"/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.MultiPointTests" time="0.007"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.MultiPointTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T16:50:23,300][INFO ][o.e.g.MultiPointTests    ] [testBasicSerialization] before test
+[2020-02-16T16:50:23,304][INFO ][o.e.g.MultiPointTests    ] [testBasicSerialization] after test
+[2020-02-16T16:50:23,309][INFO ][o.e.g.MultiPointTests    ] [testValidation] before test
+[2020-02-16T16:50:23,311][INFO ][o.e.g.MultiPointTests    ] [testValidation] after test
+[2020-02-16T16:50:23,322][INFO ][o.e.g.MultiPointTests    ] [testSerialization] before test
+[2020-02-16T16:50:23,326][INFO ][o.e.g.MultiPointTests    ] [testSerialization] after test
+[2020-02-16T16:50:23,335][INFO ][o.e.g.MultiPointTests    ] [testVisitor] before test
+[2020-02-16T16:50:23,336][INFO ][o.e.g.MultiPointTests    ] [testVisitor] after test
+[2020-02-16T16:50:23,340][INFO ][o.e.g.MultiPointTests    ] [testEqualsAndHashcode] before test
+[2020-02-16T16:50:23,344][INFO ][o.e.g.MultiPointTests    ] [testEqualsAndHashcode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

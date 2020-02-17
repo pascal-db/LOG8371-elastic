@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.053">
+  <properties/>
+  <testcase name="testExecuteVerboseItem" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.013"/>
+  <testcase name="testExecuteVerboseItemWithOnFailure" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.007"/>
+  <testcase name="testDropDocumentVerboseExtraProcessor" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.005"/>
+  <testcase name="testExecuteVerboseItemExceptionWithIgnoreFailure" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.004"/>
+  <testcase name="testExecuteVerboseItemWithoutExceptionAndWithIgnoreFailure" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.004"/>
+  <testcase name="testExecuteItem" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.003"/>
+  <testcase name="testDropDocumentVerbose" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.004"/>
+  <testcase name="testDropDocument" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.004"/>
+  <testcase name="testExecuteItemWithFailure" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.004"/>
+  <testcase name="testExecuteVerboseItemExceptionWithoutOnFailure" classname="org.elasticsearch.action.ingest.SimulateExecutionServiceTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T23:20:18,475][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItem] before test
+[2020-02-16T23:20:18,486][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItem] after test
+[2020-02-16T23:20:18,490][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItemWithOnFailure] before test
+[2020-02-16T23:20:18,493][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItemWithOnFailure] after test
+[2020-02-16T23:20:18,496][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testDropDocumentVerboseExtraProcessor] before test
+[2020-02-16T23:20:18,498][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testDropDocumentVerboseExtraProcessor] after test
+[2020-02-16T23:20:18,501][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItemExceptionWithIgnoreFailure] before test
+[2020-02-16T23:20:18,502][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItemExceptionWithIgnoreFailure] after test
+[2020-02-16T23:20:18,504][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItemWithoutExceptionAndWithIgnoreFailure] before test
+[2020-02-16T23:20:18,506][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItemWithoutExceptionAndWithIgnoreFailure] after test
+[2020-02-16T23:20:18,508][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteItem] before test
+[2020-02-16T23:20:18,510][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteItem] after test
+[2020-02-16T23:20:18,512][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testDropDocumentVerbose] before test
+[2020-02-16T23:20:18,514][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testDropDocumentVerbose] after test
+[2020-02-16T23:20:18,516][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testDropDocument] before test
+[2020-02-16T23:20:18,518][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testDropDocument] after test
+[2020-02-16T23:20:18,520][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteItemWithFailure] before test
+[2020-02-16T23:20:18,522][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteItemWithFailure] after test
+[2020-02-16T23:20:18,524][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItemExceptionWithoutOnFailure] before test
+[2020-02-16T23:20:18,526][INFO ][o.e.a.i.SimulateExecutionServiceTests] [testExecuteVerboseItemExceptionWithoutOnFailure] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

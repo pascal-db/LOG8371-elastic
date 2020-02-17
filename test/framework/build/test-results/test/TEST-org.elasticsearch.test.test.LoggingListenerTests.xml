@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.test.test.LoggingListenerTests" tests="15" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:48:54" hostname="Escoto-PC" time="0.12">
+  <properties/>
+  <testcase name="testCustomLevelPerClassMixed" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.024"/>
+  <testcase name="testInvalidMethodTestLoggingAnnotation" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.004"/>
+  <testcase name="testCustomLevelPerMethod" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.012"/>
+  <testcase name="testIssueCustomLevelPerClassAndPerMethod" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.011"/>
+  <testcase name="testCustomLevelPerClassAndPerMethod" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.01"/>
+  <testcase name="testCustomLevelPerClass" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.006"/>
+  <testcase name="testDuplicateLoggerBetweenTestLoggingAndTestIssueLogging" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.005"/>
+  <testcase name="testCustomLevelPerClassAndPerMethodMixed" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.009"/>
+  <testcase name="testTestRunStartedSupportsClassInDefaultPackage" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.002"/>
+  <testcase name="testMixedCustomLevelPerMethod" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.01"/>
+  <testcase name="testInvalidClassTestLoggingAnnotation" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.003"/>
+  <testcase name="testIssueCustomLevelPerMethod" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.01"/>
+  <testcase name="testInvalidClassTestIssueLoggingAnnotation" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.002"/>
+  <testcase name="testInvalidMethodTestIssueLoggingAnnotation" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.003"/>
+  <testcase name="testIssueCustomLevelPerClass" classname="org.elasticsearch.test.test.LoggingListenerTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T19:48:54,745][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerClassMixed] before test
+[2020-02-16T19:48:54,767][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerClassMixed] after test
+[2020-02-16T19:48:54,769][INFO ][o.e.t.t.LoggingListenerTests] [testInvalidMethodTestLoggingAnnotation] before test
+[2020-02-16T19:48:54,772][INFO ][o.e.t.t.LoggingListenerTests] [testInvalidMethodTestLoggingAnnotation] after test
+[2020-02-16T19:48:54,776][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerMethod] before test
+[2020-02-16T19:48:54,785][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerMethod] after test
+[2020-02-16T19:48:54,787][INFO ][o.e.t.t.LoggingListenerTests] [testIssueCustomLevelPerClassAndPerMethod] before test
+[2020-02-16T19:48:54,796][INFO ][o.e.t.t.LoggingListenerTests] [testIssueCustomLevelPerClassAndPerMethod] after test
+[2020-02-16T19:48:54,800][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerClassAndPerMethod] before test
+[2020-02-16T19:48:54,806][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerClassAndPerMethod] after test
+[2020-02-16T19:48:54,809][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerClass] before test
+[2020-02-16T19:48:54,812][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerClass] after test
+[2020-02-16T19:48:54,815][INFO ][o.e.t.t.LoggingListenerTests] [testDuplicateLoggerBetweenTestLoggingAndTestIssueLogging] before test
+[2020-02-16T19:48:54,816][INFO ][o.e.t.t.LoggingListenerTests] [testDuplicateLoggerBetweenTestLoggingAndTestIssueLogging] after test
+[2020-02-16T19:48:54,819][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerClassAndPerMethodMixed] before test
+[2020-02-16T19:48:54,826][INFO ][o.e.t.t.LoggingListenerTests] [testCustomLevelPerClassAndPerMethodMixed] after test
+[2020-02-16T19:48:54,828][INFO ][o.e.t.t.LoggingListenerTests] [testTestRunStartedSupportsClassInDefaultPackage] before test
+[2020-02-16T19:48:54,829][INFO ][o.e.t.t.LoggingListenerTests] [testTestRunStartedSupportsClassInDefaultPackage] after test
+[2020-02-16T19:48:54,835][INFO ][o.e.t.t.LoggingListenerTests] [testMixedCustomLevelPerMethod] before test
+[2020-02-16T19:48:54,840][INFO ][o.e.t.t.LoggingListenerTests] [testMixedCustomLevelPerMethod] after test
+[2020-02-16T19:48:54,842][INFO ][o.e.t.t.LoggingListenerTests] [testInvalidClassTestLoggingAnnotation] before test
+[2020-02-16T19:48:54,843][INFO ][o.e.t.t.LoggingListenerTests] [testInvalidClassTestLoggingAnnotation] after test
+[2020-02-16T19:48:54,850][INFO ][o.e.t.t.LoggingListenerTests] [testIssueCustomLevelPerMethod] before test
+[2020-02-16T19:48:54,853][INFO ][o.e.t.t.LoggingListenerTests] [testIssueCustomLevelPerMethod] after test
+[2020-02-16T19:48:54,855][INFO ][o.e.t.t.LoggingListenerTests] [testInvalidClassTestIssueLoggingAnnotation] before test
+[2020-02-16T19:48:54,856][INFO ][o.e.t.t.LoggingListenerTests] [testInvalidClassTestIssueLoggingAnnotation] after test
+[2020-02-16T19:48:54,857][INFO ][o.e.t.t.LoggingListenerTests] [testInvalidMethodTestIssueLoggingAnnotation] before test
+[2020-02-16T19:48:54,858][INFO ][o.e.t.t.LoggingListenerTests] [testInvalidMethodTestIssueLoggingAnnotation] after test
+[2020-02-16T19:48:54,860][INFO ][o.e.t.t.LoggingListenerTests] [testIssueCustomLevelPerClass] before test
+[2020-02-16T19:48:54,862][INFO ][o.e.t.t.LoggingListenerTests] [testIssueCustomLevelPerClass] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

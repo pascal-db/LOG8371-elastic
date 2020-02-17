@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.query.GeoBoundingBoxQueryBuilderTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.query.html">org.elasticsearch.index.query</a> &gt; GeoBoundingBoxQueryBuilderTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">34</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.135s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBrokenCoordinateCanBeSetWithIgnoreMalformed</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testBrokenCoordinateCannotBeSet</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testCacheability</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEqualsAndHashcode</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testExceptionOnMissingTypes</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromGeohash</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromJson</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromWKT</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFromXContent</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHonorsCoercion</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIgnoreUnmapped</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLeftRightCanBeFlipped</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMalformedGeohashes</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMustRewrite</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNegativeBoosts</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParsingAndToQuery1</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParsingAndToQuery2</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParsingAndToQuery3</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParsingAndToQuery4</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParsingAndToQuery5</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParsingAndToQuery6</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testQueryWrappedInArray</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSerialization</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStrictnessDefault</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testToQuery</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTopBottomCanBeFlippedOnIgnoreMalformed</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTopBottomCannotBeFlipped</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownField</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testUnknownObjectException</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidOutput</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidation</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidationNullFieldname</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidationNullType</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidationNullTypeString</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T17:23:37,244][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testStrictnessDefault] before test
+[2020-02-16T17:23:37,246][INFO ][o.e.p.PluginsService     ] [testStrictnessDefault] no modules loaded
+[2020-02-16T17:23:37,246][INFO ][o.e.p.PluginsService     ] [testStrictnessDefault] no plugins loaded
+[2020-02-16T17:23:37,254][INFO ][o.e.p.PluginsService     ] [testStrictnessDefault] no modules loaded
+[2020-02-16T17:23:37,254][INFO ][o.e.p.PluginsService     ] [testStrictnessDefault] no plugins loaded
+[2020-02-16T17:23:37,264][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testStrictnessDefault] after test
+[2020-02-16T17:23:37,266][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testHonorsCoercion] before test
+[2020-02-16T17:23:37,267][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testHonorsCoercion] after test
+[2020-02-16T17:23:37,269][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidation] before test
+[2020-02-16T17:23:37,271][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidation] after test
+[2020-02-16T17:23:37,277][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromGeohash] before test
+[2020-02-16T17:23:37,278][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromGeohash] after test
+[2020-02-16T17:23:37,280][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testBrokenCoordinateCannotBeSet] before test
+[2020-02-16T17:23:37,281][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testBrokenCoordinateCannotBeSet] after test
+[2020-02-16T17:23:37,284][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:37,285][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T17:23:37,287][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testBrokenCoordinateCanBeSetWithIgnoreMalformed] before test
+[2020-02-16T17:23:37,287][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testBrokenCoordinateCanBeSetWithIgnoreMalformed] after test
+[2020-02-16T17:23:37,289][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromJson] before test
+[2020-02-16T17:23:37,289][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromJson] after test
+[2020-02-16T17:23:37,291][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:37,291][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:37,293][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullTypeString] before test
+[2020-02-16T17:23:37,294][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullTypeString] after test
+[2020-02-16T17:23:37,296][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCannotBeFlipped] before test
+[2020-02-16T17:23:37,296][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCannotBeFlipped] top: -81.37387689864637 bottom: -86.74261239831314
+[2020-02-16T17:23:37,297][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCannotBeFlipped] after test
+[2020-02-16T17:23:37,299][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromWKT] before test
+[2020-02-16T17:23:37,300][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromWKT] after test
+[2020-02-16T17:23:37,302][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery6] before test
+[2020-02-16T17:23:37,302][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery6] after test
+[2020-02-16T17:23:37,305][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:37,307][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:37,311][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testMalformedGeohashes] before test
+[2020-02-16T17:23:37,312][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testMalformedGeohashes] after test
+[2020-02-16T17:23:37,314][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery3] before test
+[2020-02-16T17:23:37,314][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery3] after test
+[2020-02-16T17:23:37,317][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery2] before test
+[2020-02-16T17:23:37,317][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery2] after test
+[2020-02-16T17:23:37,319][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:37,319][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:37,321][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:37,325][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:37,327][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullType] before test
+[2020-02-16T17:23:37,327][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullType] after test
+[2020-02-16T17:23:37,330][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testIgnoreUnmapped] before test
+[2020-02-16T17:23:37,331][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testIgnoreUnmapped] after test
+[2020-02-16T17:23:37,333][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery5] before test
+[2020-02-16T17:23:37,334][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery5] after test
+[2020-02-16T17:23:37,336][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testLeftRightCanBeFlipped] before test
+[2020-02-16T17:23:37,336][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testLeftRightCanBeFlipped] after test
+[2020-02-16T17:23:37,338][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:37,339][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:37,341][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCanBeFlippedOnIgnoreMalformed] before test
+[2020-02-16T17:23:37,341][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testTopBottomCanBeFlippedOnIgnoreMalformed] after test
+[2020-02-16T17:23:37,343][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:37,346][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T17:23:37,347][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:37,348][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:23:37,356][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:37,357][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testSerialization] after test
+[2020-02-16T17:23:37,360][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:37,360][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:37,363][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery4] before test
+[2020-02-16T17:23:37,363][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery4] after test
+[2020-02-16T17:23:37,365][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery1] before test
+[2020-02-16T17:23:37,365][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testParsingAndToQuery1] after test
+[2020-02-16T17:23:37,367][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:37,369][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:37,372][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullFieldname] before test
+[2020-02-16T17:23:37,373][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testValidationNullFieldname] after test
+[2020-02-16T17:23:37,384][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testExceptionOnMissingTypes] before test
+[2020-02-16T17:23:37,384][INFO ][o.e.i.q.GeoBoundingBoxQueryBuilderTests] [testExceptionOnMissingTypes] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

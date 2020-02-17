@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.lucene.index.FreqTermsEnumTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:45" hostname="Escoto-PC" time="1.168">
+  <properties/>
+  <testcase name="testFilterFreqs" classname="org.elasticsearch.common.lucene.index.FreqTermsEnumTests" time="0.675"/>
+  <testcase name="testAllFreqs" classname="org.elasticsearch.common.lucene.index.FreqTermsEnumTests" time="0.456"/>
+  <testcase name="testNonDeletedFreqs" classname="org.elasticsearch.common.lucene.index.FreqTermsEnumTests" time="0.036"/>
+  <system-out><![CDATA[[2020-02-17T01:21:45,216][INFO ][o.e.c.l.i.FreqTermsEnumTests] [testFilterFreqs] before test
+[2020-02-17T01:21:45,890][INFO ][o.e.c.l.i.FreqTermsEnumTests] [testFilterFreqs] after test
+[2020-02-17T01:21:45,892][INFO ][o.e.c.l.i.FreqTermsEnumTests] [testAllFreqs] before test
+[2020-02-17T01:21:46,345][INFO ][o.e.c.l.i.FreqTermsEnumTests] [testAllFreqs] after test
+[2020-02-17T01:21:46,347][INFO ][o.e.c.l.i.FreqTermsEnumTests] [testNonDeletedFreqs] before test
+[2020-02-17T01:21:46,381][INFO ][o.e.c.l.i.FreqTermsEnumTests] [testNonDeletedFreqs] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

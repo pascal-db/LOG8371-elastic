@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.86">
+  <properties/>
+  <testcase name="testRandomKeywordAndDouble" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.068"/>
+  <testcase name="testRandomLongAndDouble" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.034"/>
+  <testcase name="testRandomDoubleAndKeyword" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.032"/>
+  <testcase name="testRandomKeywordAndLong" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.067"/>
+  <testcase name="testRandomLongAndKeyword" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.142"/>
+  <testcase name="testRandomDoubleAndLong" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.03"/>
+  <testcase name="testRandomDouble" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.018"/>
+  <testcase name="testRandom" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.42"/>
+  <testcase name="testRandomKeyword" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.028"/>
+  <testcase name="testRandomLong" classname="org.elasticsearch.search.aggregations.bucket.composite.CompositeValuesCollectorQueueTests" time="0.02"/>
+  <system-out><![CDATA[[2020-02-17T00:25:18,988][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomKeywordAndDouble] before test
+[2020-02-17T00:25:19,054][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomKeywordAndDouble] after test
+[2020-02-17T00:25:19,056][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomLongAndDouble] before test
+[2020-02-17T00:25:19,089][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomLongAndDouble] after test
+[2020-02-17T00:25:19,090][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomDoubleAndKeyword] before test
+[2020-02-17T00:25:19,120][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomDoubleAndKeyword] after test
+[2020-02-17T00:25:19,122][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomKeywordAndLong] before test
+[2020-02-17T00:25:19,188][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomKeywordAndLong] after test
+[2020-02-17T00:25:19,191][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomLongAndKeyword] before test
+[2020-02-17T00:25:19,330][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomLongAndKeyword] after test
+[2020-02-17T00:25:19,332][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomDoubleAndLong] before test
+[2020-02-17T00:25:19,360][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomDoubleAndLong] after test
+[2020-02-17T00:25:19,362][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomDouble] before test
+[2020-02-17T00:25:19,378][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomDouble] after test
+[2020-02-17T00:25:19,380][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandom] before test
+[2020-02-17T00:25:19,799][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandom] after test
+[2020-02-17T00:25:19,800][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomKeyword] before test
+[2020-02-17T00:25:19,827][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomKeyword] after test
+[2020-02-17T00:25:19,829][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomLong] before test
+[2020-02-17T00:25:19,846][INFO ][o.e.s.a.b.c.CompositeValuesCollectorQueueTests] [testRandomLong] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

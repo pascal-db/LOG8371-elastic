@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.SingleObjectCacheTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:01" hostname="Escoto-PC" time="0.005">
+  <properties/>
+  <testcase name="testRefresh" classname="org.elasticsearch.common.util.SingleObjectCacheTests" time="0.003"/>
+  <testcase name="testRefreshDoesntBlock" classname="org.elasticsearch.common.util.SingleObjectCacheTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T23:22:01,315][INFO ][o.e.c.u.SingleObjectCacheTests] [testRefresh] before test
+[2020-02-16T23:22:01,316][INFO ][o.e.c.u.SingleObjectCacheTests] [testRefresh] after test
+[2020-02-16T23:22:01,318][INFO ][o.e.c.u.SingleObjectCacheTests] [testRefreshDoesntBlock] before test
+[2020-02-16T23:22:01,318][INFO ][o.e.c.u.SingleObjectCacheTests] [testRefreshDoesntBlock] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

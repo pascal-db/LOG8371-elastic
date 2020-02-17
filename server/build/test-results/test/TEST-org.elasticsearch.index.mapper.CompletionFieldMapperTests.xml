@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.CompletionFieldMapperTests" tests="26" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:13" hostname="Escoto-PC" time="2.687">
+  <properties/>
+  <testcase name="testNonContextEnabledParsingWithContexts" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.631"/>
+  <testcase name="testParsingWithGeoFieldAlias" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.083"/>
+  <testcase name="testCompletionTypeWithSubCompletionFieldAndStringInsert" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.082"/>
+  <testcase name="testPrefixQueryType" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.082"/>
+  <testcase name="testCompletionAnalyzerSettings" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.08"/>
+  <testcase name="testParsingMixed" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.083"/>
+  <testcase name="testParsingMultiValueWithWeight" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.08"/>
+  <testcase name="testKeywordWithSubCompletionAndStringInsert" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.085"/>
+  <testcase name="testLimitOfContextMappings" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.077"/>
+  <testcase name="testParsingFailure" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.079"/>
+  <testcase name="testCompletionTypeWithSubKeywordFieldAndStringInsert" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.08"/>
+  <testcase name="testTypeParsing" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.08"/>
+  <testcase name="testParsingMinimal" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.084"/>
+  <testcase name="testParsingMultiValued" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.081"/>
+  <testcase name="testParsingWithWeight" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.079"/>
+  <testcase name="testKeywordWithSubCompletionAndContext" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.079"/>
+  <testcase name="testRegexQueryType" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.081"/>
+  <testcase name="testDefaultConfiguration" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.081"/>
+  <testcase name="testParsingFull" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.084"/>
+  <testcase name="testCompletionTypeWithSubKeywordFieldAndObjectInsert" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.091"/>
+  <testcase name="testFuzzyQueryType" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.08"/>
+  <testcase name="testCompletionTypeWithSubCompletionFieldAndObjectInsert" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.079"/>
+  <testcase name="testCompletionWithContextAndSubCompletion" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.083"/>
+  <testcase name="testEmptyName" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.091"/>
+  <testcase name="testCompletionWithContextAndSubCompletionIndexByPath" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.083"/>
+  <testcase name="testFieldValueValidation" classname="org.elasticsearch.index.mapper.CompletionFieldMapperTests" time="0.085"/>
+  <system-out><![CDATA[[2020-02-17T08:22:13,563][INFO ][o.e.e.NodeEnvironment    ] [testNonContextEnabledParsingWithContexts] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T08:22:13,564][INFO ][o.e.e.NodeEnvironment    ] [testNonContextEnabledParsingWithContexts] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T08:22:13,565][INFO ][o.e.n.Node               ] [testNonContextEnabledParsingWithContexts] node name [node_s_0], node ID [dvF7TqsRR2aYcRDw89vSoQ], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[5703604551194639915]-HASH=[13BA61102F6]]
+[2020-02-17T08:22:13,566][INFO ][o.e.n.Node               ] [testNonContextEnabledParsingWithContexts] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T08:22:13,566][INFO ][o.e.n.Node               ] [testNonContextEnabledParsingWithContexts] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T08:22:13,566][INFO ][o.e.n.Node               ] [testNonContextEnabledParsingWithContexts] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T08:22:13,566][INFO ][o.e.p.PluginsService     ] [testNonContextEnabledParsingWithContexts] no modules loaded
+[2020-02-17T08:22:13,566][INFO ][o.e.p.PluginsService     ] [testNonContextEnabledParsingWithContexts] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T08:22:13,566][INFO ][o.e.p.PluginsService     ] [testNonContextEnabledParsingWithContexts] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T08:22:13,740][INFO ][o.e.d.DiscoveryModule    ] [testNonContextEnabledParsingWithContexts] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T08:22:13,748][INFO ][o.e.n.Node               ] [testNonContextEnabledParsingWithContexts] initialized
+[2020-02-17T08:22:13,748][INFO ][o.e.n.Node               ] [testNonContextEnabledParsingWithContexts] starting ...
+[2020-02-17T08:22:14,004][INFO ][o.e.t.TransportService   ] [testNonContextEnabledParsingWithContexts] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-17T08:22:14,010][INFO ][o.e.c.c.Coordinator      ] [testNonContextEnabledParsingWithContexts] setting initial configuration to VotingConfiguration{dvF7TqsRR2aYcRDw89vSoQ}
+[2020-02-17T08:22:14,066][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{dvF7TqsRR2aYcRDw89vSoQ}{VyOD6MASRpShERo-4VPsyA}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{dvF7TqsRR2aYcRDw89vSoQ}{VyOD6MASRpShERo-4VPsyA}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-17T08:22:14,072][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [7P8Bi2feTlO9r_T-SZ2ZtQ]
+[2020-02-17T08:22:14,078][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{dvF7TqsRR2aYcRDw89vSoQ}{VyOD6MASRpShERo-4VPsyA}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T08:22:14,079][INFO ][o.e.n.Node               ] [testNonContextEnabledParsingWithContexts] started
+[2020-02-17T08:22:14,084][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T08:22:14,086][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T08:22:14,095][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T08:22:14,102][INFO ][o.e.i.m.CompletionFieldMapperTests] [testNonContextEnabledParsingWithContexts] before test
+[2020-02-17T08:22:14,104][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,150][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,164][INFO ][o.e.i.m.CompletionFieldMapperTests] [testNonContextEnabledParsingWithContexts] after test
+[2020-02-17T08:22:14,164][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/BYnQ0b_BTNCRcvVgii9N9Q] deleting index
+[2020-02-17T08:22:14,185][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingWithGeoFieldAlias] before test
+[2020-02-17T08:22:14,190][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-17T08:22:14,236][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,247][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingWithGeoFieldAlias] after test
+[2020-02-17T08:22:14,247][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/LPcia7i9QuinhYBO4c9PXA] deleting index
+[2020-02-17T08:22:14,268][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionTypeWithSubCompletionFieldAndStringInsert] before test
+[2020-02-17T08:22:14,269][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,317][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,327][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionTypeWithSubCompletionFieldAndStringInsert] after test
+[2020-02-17T08:22:14,327][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/HsRMuyR6TemEfZ3H41LgGA] deleting index
+[2020-02-17T08:22:14,350][INFO ][o.e.i.m.CompletionFieldMapperTests] [testPrefixQueryType] before test
+[2020-02-17T08:22:14,352][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,399][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,410][INFO ][o.e.i.m.CompletionFieldMapperTests] [testPrefixQueryType] after test
+[2020-02-17T08:22:14,411][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/ORA20_SRTxOkWxUdr65wXg] deleting index
+[2020-02-17T08:22:14,432][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionAnalyzerSettings] before test
+[2020-02-17T08:22:14,433][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,480][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,492][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionAnalyzerSettings] after test
+[2020-02-17T08:22:14,492][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/o6qlYbwFSs-VTkzEfGPNYA] deleting index
+[2020-02-17T08:22:14,512][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingMixed] before test
+[2020-02-17T08:22:14,513][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,561][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,571][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingMixed] after test
+[2020-02-17T08:22:14,571][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/0JK09tkyR2WKMA-o34JxAg] deleting index
+[2020-02-17T08:22:14,595][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingMultiValueWithWeight] before test
+[2020-02-17T08:22:14,596][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,643][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,652][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingMultiValueWithWeight] after test
+[2020-02-17T08:22:14,653][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/bXucKJE_S_almJe6fMgEAA] deleting index
+[2020-02-17T08:22:14,675][INFO ][o.e.i.m.CompletionFieldMapperTests] [testKeywordWithSubCompletionAndStringInsert] before test
+[2020-02-17T08:22:14,677][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,725][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,737][INFO ][o.e.i.m.CompletionFieldMapperTests] [testKeywordWithSubCompletionAndStringInsert] after test
+[2020-02-17T08:22:14,737][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/R5rIzBj9QQeXhK5d3YPPZg] deleting index
+[2020-02-17T08:22:14,760][INFO ][o.e.i.m.CompletionFieldMapperTests] [testLimitOfContextMappings] before test
+[2020-02-17T08:22:14,761][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,806][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,815][WARN ][o.e.d.i.m.C.Builder      ] [testLimitOfContextMappings] You have defined more than [10] completion contexts in the mapping for index [test]. The maximum allowed number of completion contexts in a mapping will be limited to [10] starting in version [8.0].
+[2020-02-17T08:22:14,815][INFO ][o.e.i.m.CompletionFieldMapperTests] [testLimitOfContextMappings] after test
+[2020-02-17T08:22:14,816][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/fPoJRjYWSHe1OZHizF0zqw] deleting index
+[2020-02-17T08:22:14,837][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingFailure] before test
+[2020-02-17T08:22:14,838][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,886][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,895][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingFailure] after test
+[2020-02-17T08:22:14,896][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/LWuK8GoEQFiXi6VfRaBQvQ] deleting index
+[2020-02-17T08:22:14,916][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionTypeWithSubKeywordFieldAndStringInsert] before test
+[2020-02-17T08:22:14,917][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:14,963][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:14,974][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionTypeWithSubKeywordFieldAndStringInsert] after test
+[2020-02-17T08:22:14,975][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/bwCVGYwrT4e0suZ98WqnSQ] deleting index
+[2020-02-17T08:22:14,996][INFO ][o.e.i.m.CompletionFieldMapperTests] [testTypeParsing] before test
+[2020-02-17T08:22:14,998][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,045][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,054][INFO ][o.e.i.m.CompletionFieldMapperTests] [testTypeParsing] after test
+[2020-02-17T08:22:15,054][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/P6AdghC8QlipElNFvMIvrQ] deleting index
+[2020-02-17T08:22:15,076][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingMinimal] before test
+[2020-02-17T08:22:15,078][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,127][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,139][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingMinimal] after test
+[2020-02-17T08:22:15,140][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/0zxto93_Rfi03IXJvJT73Q] deleting index
+[2020-02-17T08:22:15,161][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingMultiValued] before test
+[2020-02-17T08:22:15,162][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,211][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,220][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingMultiValued] after test
+[2020-02-17T08:22:15,220][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/eXGCB3fQQRKczANoaIfqxQ] deleting index
+[2020-02-17T08:22:15,241][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingWithWeight] before test
+[2020-02-17T08:22:15,242][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,288][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,298][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingWithWeight] after test
+[2020-02-17T08:22:15,298][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/xRDUvcLZT426TJskqvEROQ] deleting index
+[2020-02-17T08:22:15,320][INFO ][o.e.i.m.CompletionFieldMapperTests] [testKeywordWithSubCompletionAndContext] before test
+[2020-02-17T08:22:15,321][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,368][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,378][INFO ][o.e.i.m.CompletionFieldMapperTests] [testKeywordWithSubCompletionAndContext] after test
+[2020-02-17T08:22:15,378][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/hictUTOOR-WgTBBEgXc-sQ] deleting index
+[2020-02-17T08:22:15,399][INFO ][o.e.i.m.CompletionFieldMapperTests] [testRegexQueryType] before test
+[2020-02-17T08:22:15,401][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,450][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,459][INFO ][o.e.i.m.CompletionFieldMapperTests] [testRegexQueryType] after test
+[2020-02-17T08:22:15,460][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/pMa80JL_TLexPBnIJ76exQ] deleting index
+[2020-02-17T08:22:15,481][INFO ][o.e.i.m.CompletionFieldMapperTests] [testDefaultConfiguration] before test
+[2020-02-17T08:22:15,482][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,531][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,540][INFO ][o.e.i.m.CompletionFieldMapperTests] [testDefaultConfiguration] after test
+[2020-02-17T08:22:15,541][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/XWlO-HVxTB6tfNWx8WTaOw] deleting index
+[2020-02-17T08:22:15,562][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingFull] before test
+[2020-02-17T08:22:15,563][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,613][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,623][INFO ][o.e.i.m.CompletionFieldMapperTests] [testParsingFull] after test
+[2020-02-17T08:22:15,624][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/oYN3LbMjQ7KgH2TWatTAIg] deleting index
+[2020-02-17T08:22:15,647][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionTypeWithSubKeywordFieldAndObjectInsert] before test
+[2020-02-17T08:22:15,648][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,706][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,715][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionTypeWithSubKeywordFieldAndObjectInsert] after test
+[2020-02-17T08:22:15,715][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/QItaR6hLRuafMBEtleqpKA] deleting index
+[2020-02-17T08:22:15,738][INFO ][o.e.i.m.CompletionFieldMapperTests] [testFuzzyQueryType] before test
+[2020-02-17T08:22:15,740][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,788][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,798][INFO ][o.e.i.m.CompletionFieldMapperTests] [testFuzzyQueryType] after test
+[2020-02-17T08:22:15,798][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Lv6NfAPuQ4C-apgLN3QnRQ] deleting index
+[2020-02-17T08:22:15,818][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionTypeWithSubCompletionFieldAndObjectInsert] before test
+[2020-02-17T08:22:15,819][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,867][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,876][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionTypeWithSubCompletionFieldAndObjectInsert] after test
+[2020-02-17T08:22:15,876][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/uGiseCotRE6pPsdMKq0piA] deleting index
+[2020-02-17T08:22:15,898][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionWithContextAndSubCompletion] before test
+[2020-02-17T08:22:15,899][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:15,948][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:15,958][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionWithContextAndSubCompletion] after test
+[2020-02-17T08:22:15,958][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/TlXagm8oSeKYBl1WTMbBaQ] deleting index
+[2020-02-17T08:22:15,981][INFO ][o.e.i.m.CompletionFieldMapperTests] [testEmptyName] before test
+[2020-02-17T08:22:15,982][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:16,041][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:16,050][INFO ][o.e.i.m.CompletionFieldMapperTests] [testEmptyName] after test
+[2020-02-17T08:22:16,050][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/6kXPusXtQN2U1MtScRrPgg] deleting index
+[2020-02-17T08:22:16,073][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionWithContextAndSubCompletionIndexByPath] before test
+[2020-02-17T08:22:16,074][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:16,125][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:16,134][INFO ][o.e.i.m.CompletionFieldMapperTests] [testCompletionWithContextAndSubCompletionIndexByPath] after test
+[2020-02-17T08:22:16,134][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/0MO5SHPyTe-1MhwGXBABmQ] deleting index
+[2020-02-17T08:22:16,156][INFO ][o.e.i.m.CompletionFieldMapperTests] [testFieldValueValidation] before test
+[2020-02-17T08:22:16,158][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T08:22:16,206][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T08:22:16,216][INFO ][o.e.i.m.CompletionFieldMapperTests] [testFieldValueValidation] after test
+[2020-02-17T08:22:16,217][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/jLH8PTSjQYGGNGwMBZKyVw] deleting index
+[2020-02-17T08:22:16,239][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T08:22:16,241][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T08:22:16,241][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T08:22:16,242][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.gateway.AsyncShardFetchTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:24" hostname="Escoto-PC" time="0.078">
+  <properties/>
+  <testcase name="testIgnoreFailureFromDifferentRound" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.01"/>
+  <testcase name="testTwoNodesOnSetup" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.003"/>
+  <testcase name="testConcurrentRequestAndClearCache" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.005"/>
+  <testcase name="testIgnoreResponseFromDifferentRound" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.006"/>
+  <testcase name="testTwoNodesOnSetupAndFailure" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.007"/>
+  <testcase name="testFullCircleSingleNodeFailure" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.007"/>
+  <testcase name="testClose" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.004"/>
+  <testcase name="testClearCache" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.01"/>
+  <testcase name="testFullCircleSingleNodeSuccess" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.011"/>
+  <testcase name="testTwoNodesAddedInBetween" classname="org.elasticsearch.gateway.AsyncShardFetchTests" time="0.015"/>
+  <system-out><![CDATA[[2020-02-16T16:22:24,650][INFO ][o.e.g.AsyncShardFetchTests] [testIgnoreFailureFromDifferentRound] before test
+[2020-02-16T16:22:24,654][WARN ][o.e.g.A.TestFetch        ] [testIgnoreFailureFromDifferentRound] [test][1]: failed to list shard for test on node [node1]
+org.elasticsearch.action.FailedNodeException: unexpected
+	at org.elasticsearch.gateway.AsyncShardFetchTests$TestFetch$1.run(AsyncShardFetchTests.java:416) [test/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.Throwable: simulated failure 1
+	at org.elasticsearch.gateway.AsyncShardFetchTests.<init>(AsyncShardFetchTests.java:50) ~[test/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$NewInstanceProvider.newInstance(RandomizedRunner.java:1580) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:933) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) ~[randomizedtesting-runner-2.7.1.jar:?]
+	... 1 more
+[2020-02-16T16:22:24,658][INFO ][o.e.g.AsyncShardFetchTests] [testIgnoreFailureFromDifferentRound] after test
+[2020-02-16T16:22:24,661][INFO ][o.e.g.AsyncShardFetchTests] [testTwoNodesOnSetup] before test
+[2020-02-16T16:22:24,662][INFO ][o.e.g.AsyncShardFetchTests] [testTwoNodesOnSetup] after test
+[2020-02-16T16:22:24,665][INFO ][o.e.g.AsyncShardFetchTests] [testConcurrentRequestAndClearCache] before test
+[2020-02-16T16:22:24,667][INFO ][o.e.g.AsyncShardFetchTests] [testConcurrentRequestAndClearCache] after test
+[2020-02-16T16:22:24,669][INFO ][o.e.g.AsyncShardFetchTests] [testIgnoreResponseFromDifferentRound] before test
+[2020-02-16T16:22:24,673][INFO ][o.e.g.AsyncShardFetchTests] [testIgnoreResponseFromDifferentRound] after test
+[2020-02-16T16:22:24,675][INFO ][o.e.g.AsyncShardFetchTests] [testTwoNodesOnSetupAndFailure] before test
+[2020-02-16T16:22:24,678][WARN ][o.e.g.A.TestFetch        ] [testTwoNodesOnSetupAndFailure] [test][1]: failed to list shard for test on node [node2]
+org.elasticsearch.action.FailedNodeException: unexpected
+	at org.elasticsearch.gateway.AsyncShardFetchTests$TestFetch$1.run(AsyncShardFetchTests.java:416) [test/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.Throwable: simulate failure 2
+	at org.elasticsearch.gateway.AsyncShardFetchTests.<init>(AsyncShardFetchTests.java:54) ~[test/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$NewInstanceProvider.newInstance(RandomizedRunner.java:1580) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:933) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) ~[randomizedtesting-runner-2.7.1.jar:?]
+	... 1 more
+[2020-02-16T16:22:24,680][INFO ][o.e.g.AsyncShardFetchTests] [testTwoNodesOnSetupAndFailure] after test
+[2020-02-16T16:22:24,682][INFO ][o.e.g.AsyncShardFetchTests] [testFullCircleSingleNodeFailure] before test
+[2020-02-16T16:22:24,683][WARN ][o.e.g.A.TestFetch        ] [testFullCircleSingleNodeFailure] [test][1]: failed to list shard for test on node [node1]
+org.elasticsearch.action.FailedNodeException: unexpected
+	at org.elasticsearch.gateway.AsyncShardFetchTests$TestFetch$1.run(AsyncShardFetchTests.java:416) [test/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.lang.Throwable: simulated failure 1
+	at org.elasticsearch.gateway.AsyncShardFetchTests.<init>(AsyncShardFetchTests.java:50) ~[test/:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$NewInstanceProvider.newInstance(RandomizedRunner.java:1580) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:933) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) ~[randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) ~[randomizedtesting-runner-2.7.1.jar:?]
+	... 1 more
+[2020-02-16T16:22:24,686][INFO ][o.e.g.AsyncShardFetchTests] [testFullCircleSingleNodeFailure] after test
+[2020-02-16T16:22:24,689][INFO ][o.e.g.AsyncShardFetchTests] [testClose] before test
+[2020-02-16T16:22:24,691][INFO ][o.e.g.AsyncShardFetchTests] [testClose] after test
+[2020-02-16T16:22:24,692][INFO ][o.e.g.AsyncShardFetchTests] [testClearCache] before test
+[2020-02-16T16:22:24,701][INFO ][o.e.g.AsyncShardFetchTests] [testClearCache] after test
+[2020-02-16T16:22:24,704][INFO ][o.e.g.AsyncShardFetchTests] [testFullCircleSingleNodeSuccess] before test
+[2020-02-16T16:22:24,712][INFO ][o.e.g.AsyncShardFetchTests] [testFullCircleSingleNodeSuccess] after test
+[2020-02-16T16:22:24,716][INFO ][o.e.g.AsyncShardFetchTests] [testTwoNodesAddedInBetween] before test
+[2020-02-16T16:22:24,726][INFO ][o.e.g.AsyncShardFetchTests] [testTwoNodesAddedInBetween] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

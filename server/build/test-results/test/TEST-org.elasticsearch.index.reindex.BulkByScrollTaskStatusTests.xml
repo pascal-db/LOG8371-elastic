@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.reindex.BulkByScrollTaskStatusTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:41" hostname="Escoto-PC" time="0.185">
+  <properties/>
+  <testcase name="testBulkByTaskStatus" classname="org.elasticsearch.index.reindex.BulkByScrollTaskStatusTests" time="0.065"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.reindex.BulkByScrollTaskStatusTests" time="0.057"/>
+  <testcase name="testFromXContentWithFailures" classname="org.elasticsearch.index.reindex.BulkByScrollTaskStatusTests" time="0.063"/>
+  <system-out><![CDATA[[2020-02-16T19:23:42,055][INFO ][o.e.i.r.BulkByScrollTaskStatusTests] [testBulkByTaskStatus] before test
+[2020-02-16T19:23:42,056][INFO ][o.e.i.r.BulkByScrollTaskStatusTests] [testBulkByTaskStatus] after test
+[2020-02-16T19:23:42,058][INFO ][o.e.i.r.BulkByScrollTaskStatusTests] [testFromXContent] before test
+[2020-02-16T19:23:42,113][INFO ][o.e.i.r.BulkByScrollTaskStatusTests] [testFromXContent] after test
+[2020-02-16T19:23:42,132][INFO ][o.e.i.r.BulkByScrollTaskStatusTests] [testFromXContentWithFailures] before test
+[2020-02-16T19:23:42,176][INFO ][o.e.i.r.BulkByScrollTaskStatusTests] [testFromXContentWithFailures] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

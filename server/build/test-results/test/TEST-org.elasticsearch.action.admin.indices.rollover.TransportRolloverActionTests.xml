@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:27" hostname="Escoto-PC" time="0.375">
+  <properties/>
+  <testcase name="testConditionEvaluationWhenAliasToWriteAndReadIndicesConsidersOnlyPrimariesFromWriteIndex" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.297"/>
+  <testcase name="testEvaluateWithoutMetaData" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.016"/>
+  <testcase name="testValidation" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.005"/>
+  <testcase name="testRejectDuplicateAlias" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.007"/>
+  <testcase name="testCreateUpdateAliasRequestWithExplicitWriteIndex" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.004"/>
+  <testcase name="testDocStatsSelectionFromPrimariesOnly" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.024"/>
+  <testcase name="testEvaluateConditions" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.003"/>
+  <testcase name="testGenerateRolloverIndexName" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.008"/>
+  <testcase name="testCreateUpdateAliasRequest" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.003"/>
+  <testcase name="testCreateIndexRequest" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.003"/>
+  <testcase name="testEvaluateWithoutDocStats" classname="org.elasticsearch.action.admin.indices.rollover.TransportRolloverActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:20:27,998][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testConditionEvaluationWhenAliasToWriteAndReadIndicesConsidersOnlyPrimariesFromWriteIndex] before test
+[2020-02-16T22:20:28,285][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testConditionEvaluationWhenAliasToWriteAndReadIndicesConsidersOnlyPrimariesFromWriteIndex] after test
+[2020-02-16T22:20:28,292][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testEvaluateWithoutMetaData] before test
+[2020-02-16T22:20:28,302][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testEvaluateWithoutMetaData] after test
+[2020-02-16T22:20:28,306][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testValidation] before test
+[2020-02-16T22:20:28,307][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testValidation] after test
+[2020-02-16T22:20:28,313][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testRejectDuplicateAlias] before test
+[2020-02-16T22:20:28,315][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testRejectDuplicateAlias] after test
+[2020-02-16T22:20:28,317][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testCreateUpdateAliasRequestWithExplicitWriteIndex] before test
+[2020-02-16T22:20:28,319][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testCreateUpdateAliasRequestWithExplicitWriteIndex] after test
+[2020-02-16T22:20:28,321][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testDocStatsSelectionFromPrimariesOnly] before test
+[2020-02-16T22:20:28,342][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testDocStatsSelectionFromPrimariesOnly] after test
+[2020-02-16T22:20:28,345][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testEvaluateConditions] before test
+[2020-02-16T22:20:28,346][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testEvaluateConditions] after test
+[2020-02-16T22:20:28,353][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testGenerateRolloverIndexName] before test
+[2020-02-16T22:20:28,354][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testGenerateRolloverIndexName] after test
+[2020-02-16T22:20:28,356][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testCreateUpdateAliasRequest] before test
+[2020-02-16T22:20:28,356][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testCreateUpdateAliasRequest] after test
+[2020-02-16T22:20:28,360][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testCreateIndexRequest] before test
+[2020-02-16T22:20:28,360][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testCreateIndexRequest] after test
+[2020-02-16T22:20:28,363][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testEvaluateWithoutDocStats] before test
+[2020-02-16T22:20:28,364][INFO ][o.e.a.a.i.r.TransportRolloverActionTests] [testEvaluateWithoutDocStats] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

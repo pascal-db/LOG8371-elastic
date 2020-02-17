@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.cache.clear.ClearIndicesCacheResponseTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:25" hostname="Escoto-PC" time="0.065">
+  <properties/>
+  <testcase name="testFailuresDeduplication" classname="org.elasticsearch.action.admin.indices.cache.clear.ClearIndicesCacheResponseTests" time="0.008"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.cache.clear.ClearIndicesCacheResponseTests" time="0.02"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.admin.indices.cache.clear.ClearIndicesCacheResponseTests" time="0.036"/>
+  <system-out><![CDATA[[2020-02-16T21:20:25,056][INFO ][o.e.a.a.i.c.c.ClearIndicesCacheResponseTests] [testFailuresDeduplication] before test
+[2020-02-16T21:20:25,062][INFO ][o.e.a.a.i.c.c.ClearIndicesCacheResponseTests] [testFailuresDeduplication] after test
+[2020-02-16T21:20:25,064][INFO ][o.e.a.a.i.c.c.ClearIndicesCacheResponseTests] [testFromXContent] before test
+[2020-02-16T21:20:25,082][INFO ][o.e.a.a.i.c.c.ClearIndicesCacheResponseTests] [testFromXContent] after test
+[2020-02-16T21:20:25,118][INFO ][o.e.a.a.i.c.c.ClearIndicesCacheResponseTests] [testToXContent] before test
+[2020-02-16T21:20:25,118][INFO ][o.e.a.a.i.c.c.ClearIndicesCacheResponseTests] [testToXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

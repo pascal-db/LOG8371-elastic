@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.RareTermsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:24" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testFromXContentMulti" classname="org.elasticsearch.search.aggregations.bucket.RareTermsTests" time="0.015"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.RareTermsTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.RareTermsTests" time="0.002"/>
+  <testcase name="testSerializationMulti" classname="org.elasticsearch.search.aggregations.bucket.RareTermsTests" time="0.001"/>
+  <testcase name="testShallowCopy" classname="org.elasticsearch.search.aggregations.bucket.RareTermsTests" time="0.002"/>
+  <testcase name="testToString" classname="org.elasticsearch.search.aggregations.bucket.RareTermsTests" time="0.001"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.RareTermsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T06:25:24,021][INFO ][o.e.s.a.b.RareTermsTests ] [testFromXContentMulti] before test
+[2020-02-17T06:25:24,023][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T06:25:24,023][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T06:25:24,030][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no modules loaded
+[2020-02-17T06:25:24,030][INFO ][o.e.p.PluginsService     ] [testFromXContentMulti] no plugins loaded
+[2020-02-17T06:25:24,034][INFO ][o.e.s.a.b.RareTermsTests ] [testFromXContentMulti] after test
+[2020-02-17T06:25:24,035][INFO ][o.e.s.a.b.RareTermsTests ] [testSerialization] before test
+[2020-02-17T06:25:24,036][INFO ][o.e.s.a.b.RareTermsTests ] [testSerialization] after test
+[2020-02-17T06:25:24,037][INFO ][o.e.s.a.b.RareTermsTests ] [testEqualsAndHashcode] before test
+[2020-02-17T06:25:24,037][INFO ][o.e.s.a.b.RareTermsTests ] [testEqualsAndHashcode] after test
+[2020-02-17T06:25:24,039][INFO ][o.e.s.a.b.RareTermsTests ] [testSerializationMulti] before test
+[2020-02-17T06:25:24,039][INFO ][o.e.s.a.b.RareTermsTests ] [testSerializationMulti] after test
+[2020-02-17T06:25:24,041][INFO ][o.e.s.a.b.RareTermsTests ] [testShallowCopy] before test
+[2020-02-17T06:25:24,041][INFO ][o.e.s.a.b.RareTermsTests ] [testShallowCopy] after test
+[2020-02-17T06:25:24,042][INFO ][o.e.s.a.b.RareTermsTests ] [testToString] before test
+[2020-02-17T06:25:24,042][INFO ][o.e.s.a.b.RareTermsTests ] [testToString] after test
+[2020-02-17T06:25:24,044][INFO ][o.e.s.a.b.RareTermsTests ] [testFromXContent] before test
+[2020-02-17T06:25:24,044][INFO ][o.e.s.a.b.RareTermsTests ] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

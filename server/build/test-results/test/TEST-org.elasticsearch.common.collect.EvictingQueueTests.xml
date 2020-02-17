@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.collect.EvictingQueueTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:40" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testRemainingCapacityMaximumSizeZero" classname="org.elasticsearch.common.collect.EvictingQueueTests" time="0.01"/>
+  <testcase name="testAddAll" classname="org.elasticsearch.common.collect.EvictingQueueTests" time="0.002"/>
+  <testcase name="testRemainingCapacityMaximumSizeThree" classname="org.elasticsearch.common.collect.EvictingQueueTests" time="0.001"/>
+  <testcase name="testEvictingAfterOne" classname="org.elasticsearch.common.collect.EvictingQueueTests" time="0.001"/>
+  <testcase name="testCreateWithNegativeSize" classname="org.elasticsearch.common.collect.EvictingQueueTests" time="0.002"/>
+  <testcase name="testCreateWithZeroSize" classname="org.elasticsearch.common.collect.EvictingQueueTests" time="0.002"/>
+  <testcase name="testEvictingAfterThree" classname="org.elasticsearch.common.collect.EvictingQueueTests" time="0.001"/>
+  <testcase name="testRemainingCapacityMaximumSizeOne" classname="org.elasticsearch.common.collect.EvictingQueueTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T12:21:40,794][INFO ][o.e.c.c.EvictingQueueTests] [testRemainingCapacityMaximumSizeZero] before test
+[2020-02-16T12:21:40,796][INFO ][o.e.c.c.EvictingQueueTests] [testRemainingCapacityMaximumSizeZero] after test
+[2020-02-16T12:21:40,798][INFO ][o.e.c.c.EvictingQueueTests] [testAddAll] before test
+[2020-02-16T12:21:40,798][INFO ][o.e.c.c.EvictingQueueTests] [testAddAll] after test
+[2020-02-16T12:21:40,800][INFO ][o.e.c.c.EvictingQueueTests] [testRemainingCapacityMaximumSizeThree] before test
+[2020-02-16T12:21:40,800][INFO ][o.e.c.c.EvictingQueueTests] [testRemainingCapacityMaximumSizeThree] after test
+[2020-02-16T12:21:40,802][INFO ][o.e.c.c.EvictingQueueTests] [testEvictingAfterOne] before test
+[2020-02-16T12:21:40,802][INFO ][o.e.c.c.EvictingQueueTests] [testEvictingAfterOne] after test
+[2020-02-16T12:21:40,804][INFO ][o.e.c.c.EvictingQueueTests] [testCreateWithNegativeSize] before test
+[2020-02-16T12:21:40,804][INFO ][o.e.c.c.EvictingQueueTests] [testCreateWithNegativeSize] after test
+[2020-02-16T12:21:40,806][INFO ][o.e.c.c.EvictingQueueTests] [testCreateWithZeroSize] before test
+[2020-02-16T12:21:40,806][INFO ][o.e.c.c.EvictingQueueTests] [testCreateWithZeroSize] after test
+[2020-02-16T12:21:40,808][INFO ][o.e.c.c.EvictingQueueTests] [testEvictingAfterThree] before test
+[2020-02-16T12:21:40,808][INFO ][o.e.c.c.EvictingQueueTests] [testEvictingAfterThree] after test
+[2020-02-16T12:21:40,810][INFO ][o.e.c.c.EvictingQueueTests] [testRemainingCapacityMaximumSizeOne] before test
+[2020-02-16T12:21:40,810][INFO ][o.e.c.c.EvictingQueueTests] [testRemainingCapacityMaximumSizeOne] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

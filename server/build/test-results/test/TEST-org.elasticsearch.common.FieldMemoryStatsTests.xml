@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.FieldMemoryStatsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:44" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testHashCodeEquals" classname="org.elasticsearch.common.FieldMemoryStatsTests" time="0.005"/>
+  <testcase name="testAdd" classname="org.elasticsearch.common.FieldMemoryStatsTests" time="0.001"/>
+  <testcase name="testSerialize" classname="org.elasticsearch.common.FieldMemoryStatsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T15:20:44,274][INFO ][o.e.c.FieldMemoryStatsTests] [testHashCodeEquals] before test
+[2020-02-16T15:20:44,277][INFO ][o.e.c.FieldMemoryStatsTests] [testHashCodeEquals] after test
+[2020-02-16T15:20:44,279][INFO ][o.e.c.FieldMemoryStatsTests] [testAdd] before test
+[2020-02-16T15:20:44,279][INFO ][o.e.c.FieldMemoryStatsTests] [testAdd] after test
+[2020-02-16T15:20:44,281][INFO ][o.e.c.FieldMemoryStatsTests] [testSerialize] before test
+[2020-02-16T15:20:44,282][INFO ][o.e.c.FieldMemoryStatsTests] [testSerialize] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

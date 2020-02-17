@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.ScoreModeTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:08" hostname="Escoto-PC" time="0.009">
+  <properties/>
+  <testcase name="testWriteTo" classname="org.elasticsearch.index.query.ScoreModeTests" time="0.003"/>
+  <testcase name="testFromString" classname="org.elasticsearch.index.query.ScoreModeTests" time="0.002"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.index.query.ScoreModeTests" time="0.002"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.index.query.ScoreModeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T01:23:08,394][INFO ][o.e.i.q.ScoreModeTests   ] [testWriteTo] before test
+[2020-02-17T01:23:08,395][INFO ][o.e.i.q.ScoreModeTests   ] [testWriteTo] after test
+[2020-02-17T01:23:08,397][INFO ][o.e.i.q.ScoreModeTests   ] [testFromString] before test
+[2020-02-17T01:23:08,397][INFO ][o.e.i.q.ScoreModeTests   ] [testFromString] after test
+[2020-02-17T01:23:08,399][INFO ][o.e.i.q.ScoreModeTests   ] [testReadFrom] before test
+[2020-02-17T01:23:08,399][INFO ][o.e.i.q.ScoreModeTests   ] [testReadFrom] after test
+[2020-02-17T01:23:08,401][INFO ][o.e.i.q.ScoreModeTests   ] [testValidOrdinals] before test
+[2020-02-17T01:23:08,401][INFO ][o.e.i.q.ScoreModeTests   ] [testValidOrdinals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

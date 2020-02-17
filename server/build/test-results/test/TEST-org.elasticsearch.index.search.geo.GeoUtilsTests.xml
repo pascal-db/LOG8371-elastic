@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.search.geo.GeoUtilsTests" tests="40" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:49" hostname="Escoto-PC" time="0.127">
+  <properties/>
+  <testcase name="testParseGeoPointGeohashWrongType" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testNormalizePointHuge" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testNormalizeLonInNormalRange" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testNormalizeLatOutsideNormalRange" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testQuadTreeCellHeight" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testNormalizePointOutsideNormalRange" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testNormalizeLatEdgeCases" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testParseGeoPointExtraField" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.004"/>
+  <testcase name="testParseGeoPointLatNoLon" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testGeohashCellHeight" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testQuadTreeCellSize" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testParseGeoPoint" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.018"/>
+  <testcase name="testNormalizePointOutsideNormalRange_withOptions" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testParseGeoPointArray3D" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testParseGeoPointGeohashPositions" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.004"/>
+  <testcase name="testNormalizeLonOutsideNormalRange" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testGeoHashLevelsForPrecision" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.001"/>
+  <testcase name="testParseGeoPointInvalidType" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testParseGeoPointLonLatGeoHash" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testNormalizeLatInNormalRange" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.004"/>
+  <testcase name="testParseGeoPointLatWrongType" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testNormalizePointEdgeCases" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testGeoHashLevelsForPrecision_String" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testNormalizePointInNormalRange" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testParseGeoPointLonNoLat" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testGeohashCellSize" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testParseGeoPointArrayTooManyValues" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testParseGeoPointGeohash" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.009"/>
+  <testcase name="testQuadTreeLevelsForPrecisionString" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testQuadTreeLevelsForPrecision" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testParseGeoPointStringZValueError" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testNormalizeLatHuge" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testParseGeoPointLonWrongType" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testNormalizeLonEdgeCases" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testNormalizeLonHuge" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.003"/>
+  <testcase name="testParseGeoPointArrayWrongType" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testParseGeoPointArrayZValueError" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <testcase name="testGeohashCellWidth" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.004"/>
+  <testcase name="testPrefixTreeCellSizes" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.004"/>
+  <testcase name="testQuadTreeCellWidth" classname="org.elasticsearch.index.search.geo.GeoUtilsTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T07:23:49,174][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointGeohashWrongType] before test
+[2020-02-17T07:23:49,175][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointGeohashWrongType] after test
+[2020-02-17T07:23:49,177][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointHuge] before test
+[2020-02-17T07:23:49,177][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointHuge] after test
+[2020-02-17T07:23:49,179][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLonInNormalRange] before test
+[2020-02-17T07:23:49,179][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLonInNormalRange] after test
+[2020-02-17T07:23:49,181][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLatOutsideNormalRange] before test
+[2020-02-17T07:23:49,181][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLatOutsideNormalRange] after test
+[2020-02-17T07:23:49,183][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeCellHeight] before test
+[2020-02-17T07:23:49,183][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeCellHeight] after test
+[2020-02-17T07:23:49,184][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointOutsideNormalRange] before test
+[2020-02-17T07:23:49,185][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointOutsideNormalRange] after test
+[2020-02-17T07:23:49,187][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLatEdgeCases] before test
+[2020-02-17T07:23:49,187][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLatEdgeCases] after test
+[2020-02-17T07:23:49,190][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointExtraField] before test
+[2020-02-17T07:23:49,191][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointExtraField] after test
+[2020-02-17T07:23:49,193][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLatNoLon] before test
+[2020-02-17T07:23:49,194][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLatNoLon] after test
+[2020-02-17T07:23:49,196][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeohashCellHeight] before test
+[2020-02-17T07:23:49,196][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeohashCellHeight] after test
+[2020-02-17T07:23:49,199][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeCellSize] before test
+[2020-02-17T07:23:49,199][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeCellSize] after test
+[2020-02-17T07:23:49,201][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPoint] before test
+[2020-02-17T07:23:49,217][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPoint] after test
+[2020-02-17T07:23:49,219][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointOutsideNormalRange_withOptions] before test
+[2020-02-17T07:23:49,220][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointOutsideNormalRange_withOptions] after test
+[2020-02-17T07:23:49,223][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointArray3D] before test
+[2020-02-17T07:23:49,223][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointArray3D] after test
+[2020-02-17T07:23:49,227][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointGeohashPositions] before test
+[2020-02-17T07:23:49,227][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointGeohashPositions] after test
+[2020-02-17T07:23:49,229][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLonOutsideNormalRange] before test
+[2020-02-17T07:23:49,229][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLonOutsideNormalRange] after test
+[2020-02-17T07:23:49,231][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeoHashLevelsForPrecision] before test
+[2020-02-17T07:23:49,231][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeoHashLevelsForPrecision] after test
+[2020-02-17T07:23:49,233][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointInvalidType] before test
+[2020-02-17T07:23:49,234][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointInvalidType] after test
+[2020-02-17T07:23:49,237][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLonLatGeoHash] before test
+[2020-02-17T07:23:49,237][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLonLatGeoHash] after test
+[2020-02-17T07:23:49,240][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLatInNormalRange] before test
+[2020-02-17T07:23:49,241][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLatInNormalRange] after test
+[2020-02-17T07:23:49,243][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLatWrongType] before test
+[2020-02-17T07:23:49,243][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLatWrongType] after test
+[2020-02-17T07:23:49,245][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointEdgeCases] before test
+[2020-02-17T07:23:49,245][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointEdgeCases] after test
+[2020-02-17T07:23:49,247][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeoHashLevelsForPrecision_String] before test
+[2020-02-17T07:23:49,247][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeoHashLevelsForPrecision_String] after test
+[2020-02-17T07:23:49,249][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointInNormalRange] before test
+[2020-02-17T07:23:49,249][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizePointInNormalRange] after test
+[2020-02-17T07:23:49,251][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLonNoLat] before test
+[2020-02-17T07:23:49,251][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLonNoLat] after test
+[2020-02-17T07:23:49,253][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeohashCellSize] before test
+[2020-02-17T07:23:49,253][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeohashCellSize] after test
+[2020-02-17T07:23:49,255][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointArrayTooManyValues] before test
+[2020-02-17T07:23:49,255][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointArrayTooManyValues] after test
+[2020-02-17T07:23:49,258][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointGeohash] before test
+[2020-02-17T07:23:49,264][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointGeohash] after test
+[2020-02-17T07:23:49,266][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeLevelsForPrecisionString] before test
+[2020-02-17T07:23:49,266][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeLevelsForPrecisionString] after test
+[2020-02-17T07:23:49,270][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeLevelsForPrecision] before test
+[2020-02-17T07:23:49,270][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeLevelsForPrecision] after test
+[2020-02-17T07:23:49,272][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointStringZValueError] before test
+[2020-02-17T07:23:49,273][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointStringZValueError] after test
+[2020-02-17T07:23:49,276][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLatHuge] before test
+[2020-02-17T07:23:49,276][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLatHuge] after test
+[2020-02-17T07:23:49,278][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLonWrongType] before test
+[2020-02-17T07:23:49,279][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointLonWrongType] after test
+[2020-02-17T07:23:49,281][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLonEdgeCases] before test
+[2020-02-17T07:23:49,281][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLonEdgeCases] after test
+[2020-02-17T07:23:49,284][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLonHuge] before test
+[2020-02-17T07:23:49,284][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testNormalizeLonHuge] after test
+[2020-02-17T07:23:49,286][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointArrayWrongType] before test
+[2020-02-17T07:23:49,287][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointArrayWrongType] after test
+[2020-02-17T07:23:49,288][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointArrayZValueError] before test
+[2020-02-17T07:23:49,289][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testParseGeoPointArrayZValueError] after test
+[2020-02-17T07:23:49,293][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeohashCellWidth] before test
+[2020-02-17T07:23:49,293][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testGeohashCellWidth] after test
+[2020-02-17T07:23:49,295][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testPrefixTreeCellSizes] before test
+[2020-02-17T07:23:49,297][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testPrefixTreeCellSizes] after test
+[2020-02-17T07:23:49,299][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeCellWidth] before test
+[2020-02-17T07:23:49,299][INFO ][o.e.i.s.g.GeoUtilsTests  ] [testQuadTreeCellWidth] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.shard.ShardSplittingQueryTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:35" hostname="Escoto-PC" time="0.327">
+  <properties/>
+  <testcase name="testSplitOnRoutingPartitioned" classname="org.elasticsearch.index.shard.ShardSplittingQueryTests" time="0.046"/>
+  <testcase name="testSplitOnID" classname="org.elasticsearch.index.shard.ShardSplittingQueryTests" time="0.13"/>
+  <testcase name="testSplitOnIdOrRouting" classname="org.elasticsearch.index.shard.ShardSplittingQueryTests" time="0.075"/>
+  <testcase name="testSplitOnRouting" classname="org.elasticsearch.index.shard.ShardSplittingQueryTests" time="0.075"/>
+  <system-out><![CDATA[[2020-02-17T08:53:35,610][INFO ][o.e.i.s.ShardSplittingQueryTests] [testSplitOnRoutingPartitioned] before test
+[2020-02-17T08:53:35,654][INFO ][o.e.i.s.ShardSplittingQueryTests] [testSplitOnRoutingPartitioned] after test
+[2020-02-17T08:53:35,656][INFO ][o.e.i.s.ShardSplittingQueryTests] [testSplitOnID] before test
+[2020-02-17T08:53:35,785][INFO ][o.e.i.s.ShardSplittingQueryTests] [testSplitOnID] after test
+[2020-02-17T08:53:35,786][INFO ][o.e.i.s.ShardSplittingQueryTests] [testSplitOnIdOrRouting] before test
+[2020-02-17T08:53:35,860][INFO ][o.e.i.s.ShardSplittingQueryTests] [testSplitOnIdOrRouting] after test
+[2020-02-17T08:53:35,862][INFO ][o.e.i.s.ShardSplittingQueryTests] [testSplitOnRouting] before test
+[2020-02-17T08:53:35,935][INFO ][o.e.i.s.ShardSplittingQueryTests] [testSplitOnRouting] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

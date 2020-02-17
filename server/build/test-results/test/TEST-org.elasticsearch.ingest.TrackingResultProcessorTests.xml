@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.ingest.TrackingResultProcessorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:00" hostname="Escoto-PC" time="0.083">
+  <properties/>
+  <testcase name="testActualCompoundProcessorWithFalseConditional" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.038"/>
+  <testcase name="testActualPipelineProcessorWithFalseConditional" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.017"/>
+  <testcase name="testActualProcessor" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.003"/>
+  <testcase name="testActualPipelineProcessorWithTrueConditional" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.004"/>
+  <testcase name="testActualCompoundProcessorWithoutOnFailure" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.003"/>
+  <testcase name="testActualPipelineProcessor" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.004"/>
+  <testcase name="testActualPipelineProcessorRepeatedInvocation" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.003"/>
+  <testcase name="testActualPipelineProcessorWithHandledFailure" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.003"/>
+  <testcase name="testActualCompoundProcessorWithOnFailure" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.002"/>
+  <testcase name="testActualCompoundProcessorWithIgnoreFailure" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.002"/>
+  <testcase name="testActualPipelineProcessorWithCycle" classname="org.elasticsearch.ingest.TrackingResultProcessorTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T09:24:00,717][INFO ][o.e.i.TrackingResultProcessorTests] [testActualCompoundProcessorWithFalseConditional] before test
+[2020-02-17T09:24:00,750][INFO ][o.e.i.TrackingResultProcessorTests] [testActualCompoundProcessorWithFalseConditional] after test
+[2020-02-17T09:24:00,764][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorWithFalseConditional] before test
+[2020-02-17T09:24:00,767][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorWithFalseConditional] after test
+[2020-02-17T09:24:00,769][INFO ][o.e.i.TrackingResultProcessorTests] [testActualProcessor] before test
+[2020-02-17T09:24:00,770][INFO ][o.e.i.TrackingResultProcessorTests] [testActualProcessor] after test
+[2020-02-17T09:24:00,773][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorWithTrueConditional] before test
+[2020-02-17T09:24:00,775][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorWithTrueConditional] after test
+[2020-02-17T09:24:00,777][INFO ][o.e.i.TrackingResultProcessorTests] [testActualCompoundProcessorWithoutOnFailure] before test
+[2020-02-17T09:24:00,778][INFO ][o.e.i.TrackingResultProcessorTests] [testActualCompoundProcessorWithoutOnFailure] after test
+[2020-02-17T09:24:00,781][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessor] before test
+[2020-02-17T09:24:00,782][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessor] after test
+[2020-02-17T09:24:00,784][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorRepeatedInvocation] before test
+[2020-02-17T09:24:00,785][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorRepeatedInvocation] after test
+[2020-02-17T09:24:00,787][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorWithHandledFailure] before test
+[2020-02-17T09:24:00,788][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorWithHandledFailure] after test
+[2020-02-17T09:24:00,790][INFO ][o.e.i.TrackingResultProcessorTests] [testActualCompoundProcessorWithOnFailure] before test
+[2020-02-17T09:24:00,791][INFO ][o.e.i.TrackingResultProcessorTests] [testActualCompoundProcessorWithOnFailure] after test
+[2020-02-17T09:24:00,792][INFO ][o.e.i.TrackingResultProcessorTests] [testActualCompoundProcessorWithIgnoreFailure] before test
+[2020-02-17T09:24:00,793][INFO ][o.e.i.TrackingResultProcessorTests] [testActualCompoundProcessorWithIgnoreFailure] after test
+[2020-02-17T09:24:00,795][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorWithCycle] before test
+[2020-02-17T09:24:00,795][INFO ][o.e.i.TrackingResultProcessorTests] [testActualPipelineProcessorWithCycle] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

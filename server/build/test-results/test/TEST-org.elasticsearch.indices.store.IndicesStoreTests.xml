@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.store.IndicesStoreTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:00" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testShardCanBeDeletedNoShardStarted" classname="org.elasticsearch.indices.store.IndicesStoreTests" time="0.004"/>
+  <testcase name="testShardCanBeDeletedNoShardRouting" classname="org.elasticsearch.indices.store.IndicesStoreTests" time="0.002"/>
+  <testcase name="testShardCanBeDeletedShardExistsLocally" classname="org.elasticsearch.indices.store.IndicesStoreTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T16:24:00,325][INFO ][o.e.i.s.IndicesStoreTests] [testShardCanBeDeletedNoShardStarted] before test
+[2020-02-16T16:24:00,326][INFO ][o.e.i.s.IndicesStoreTests] [testShardCanBeDeletedNoShardStarted] after test
+[2020-02-16T16:24:00,328][INFO ][o.e.i.s.IndicesStoreTests] [testShardCanBeDeletedNoShardRouting] before test
+[2020-02-16T16:24:00,328][INFO ][o.e.i.s.IndicesStoreTests] [testShardCanBeDeletedNoShardRouting] after test
+[2020-02-16T16:24:00,330][INFO ][o.e.i.s.IndicesStoreTests] [testShardCanBeDeletedShardExistsLocally] before test
+[2020-02-16T16:24:00,330][INFO ][o.e.i.s.IndicesStoreTests] [testShardCanBeDeletedShardExistsLocally] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

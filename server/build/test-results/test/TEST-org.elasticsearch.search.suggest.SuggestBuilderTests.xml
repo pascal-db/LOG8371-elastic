@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.SuggestBuilderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:52" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.SuggestBuilderTests" time="0.006"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.suggest.SuggestBuilderTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.SuggestBuilderTests" time="0.009"/>
+  <testcase name="testIllegalSuggestionName" classname="org.elasticsearch.search.suggest.SuggestBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T20:25:52,896][INFO ][o.e.s.s.SuggestBuilderTests] [testSerialization] before test
+[2020-02-16T20:25:52,900][INFO ][o.e.s.s.SuggestBuilderTests] [testSerialization] after test
+[2020-02-16T20:25:52,902][INFO ][o.e.s.s.SuggestBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T20:25:52,906][INFO ][o.e.s.s.SuggestBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T20:25:52,908][INFO ][o.e.s.s.SuggestBuilderTests] [testFromXContent] before test
+[2020-02-16T20:25:52,915][INFO ][o.e.s.s.SuggestBuilderTests] [testFromXContent] after test
+[2020-02-16T20:25:52,917][INFO ][o.e.s.s.SuggestBuilderTests] [testIllegalSuggestionName] before test
+[2020-02-16T20:25:52,917][INFO ][o.e.s.s.SuggestBuilderTests] [testIllegalSuggestionName] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

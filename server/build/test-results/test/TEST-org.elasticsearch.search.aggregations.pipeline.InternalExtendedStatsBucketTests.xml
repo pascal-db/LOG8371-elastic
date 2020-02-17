@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.pipeline.InternalExtendedStatsBucketTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:34" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.pipeline.InternalExtendedStatsBucketTests" time="0.005"/>
+  <testcase name="testSummationAccuracy" classname="org.elasticsearch.search.aggregations.pipeline.InternalExtendedStatsBucketTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.pipeline.InternalExtendedStatsBucketTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.pipeline.InternalExtendedStatsBucketTests" time="0.005"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.pipeline.InternalExtendedStatsBucketTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.pipeline.InternalExtendedStatsBucketTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T02:25:34,645][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T02:25:34,646][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T02:25:34,648][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testSummationAccuracy] before test
+[2020-02-17T02:25:34,649][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testSummationAccuracy] after test
+[2020-02-17T02:25:34,651][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testFromXContent] before test
+[2020-02-17T02:25:34,651][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testFromXContent] after test
+[2020-02-17T02:25:34,655][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testEqualsAndHashcode] before test
+[2020-02-17T02:25:34,656][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testEqualsAndHashcode] after test
+[2020-02-17T02:25:34,659][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testSerialization] before test
+[2020-02-17T02:25:34,659][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testSerialization] after test
+[2020-02-17T02:25:34,662][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testReduceRandom] before test
+[2020-02-17T02:25:34,662][INFO ][o.e.s.a.p.InternalExtendedStatsBucketTests] [testReduceRandom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.AbstractRunnableTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:58" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testOnRejection" classname="org.elasticsearch.common.util.concurrent.AbstractRunnableTests" time="0.006"/>
+  <testcase name="testRunFailure" classname="org.elasticsearch.common.util.concurrent.AbstractRunnableTests" time="0.002"/>
+  <testcase name="testOnAfterSuccess" classname="org.elasticsearch.common.util.concurrent.AbstractRunnableTests" time="0.007"/>
+  <testcase name="testIsForceExecutuonDefaultsFalse" classname="org.elasticsearch.common.util.concurrent.AbstractRunnableTests" time="0.004"/>
+  <testcase name="testOnAfterFailure" classname="org.elasticsearch.common.util.concurrent.AbstractRunnableTests" time="0.002"/>
+  <testcase name="testRunSuccess" classname="org.elasticsearch.common.util.concurrent.AbstractRunnableTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T17:21:58,500][INFO ][o.e.c.u.c.AbstractRunnableTests] [testOnRejection] before test
+[2020-02-16T17:21:58,504][INFO ][o.e.c.u.c.AbstractRunnableTests] [testOnRejection] after test
+[2020-02-16T17:21:58,506][INFO ][o.e.c.u.c.AbstractRunnableTests] [testRunFailure] before test
+[2020-02-16T17:21:58,507][INFO ][o.e.c.u.c.AbstractRunnableTests] [testRunFailure] after test
+[2020-02-16T17:21:58,509][INFO ][o.e.c.u.c.AbstractRunnableTests] [testOnAfterSuccess] before test
+[2020-02-16T17:21:58,514][INFO ][o.e.c.u.c.AbstractRunnableTests] [testOnAfterSuccess] after test
+[2020-02-16T17:21:58,517][INFO ][o.e.c.u.c.AbstractRunnableTests] [testIsForceExecutuonDefaultsFalse] before test
+[2020-02-16T17:21:58,517][INFO ][o.e.c.u.c.AbstractRunnableTests] [testIsForceExecutuonDefaultsFalse] after test
+[2020-02-16T17:21:58,519][INFO ][o.e.c.u.c.AbstractRunnableTests] [testOnAfterFailure] before test
+[2020-02-16T17:21:58,519][INFO ][o.e.c.u.c.AbstractRunnableTests] [testOnAfterFailure] after test
+[2020-02-16T17:21:58,521][INFO ][o.e.c.u.c.AbstractRunnableTests] [testRunSuccess] before test
+[2020-02-16T17:21:58,522][INFO ][o.e.c.u.c.AbstractRunnableTests] [testRunSuccess] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

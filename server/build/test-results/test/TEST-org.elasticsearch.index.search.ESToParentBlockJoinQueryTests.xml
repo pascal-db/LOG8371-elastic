@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.search.ESToParentBlockJoinQueryTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:49" hostname="Escoto-PC" time="0.005">
+  <properties/>
+  <testcase name="testEquals" classname="org.elasticsearch.index.search.ESToParentBlockJoinQueryTests" time="0.003"/>
+  <testcase name="testRewrite" classname="org.elasticsearch.index.search.ESToParentBlockJoinQueryTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-17T11:23:49,151][INFO ][o.e.i.s.ESToParentBlockJoinQueryTests] [testEquals] before test
+[2020-02-17T11:23:49,153][INFO ][o.e.i.s.ESToParentBlockJoinQueryTests] [testEquals] after test
+[2020-02-17T11:23:49,154][INFO ][o.e.i.s.ESToParentBlockJoinQueryTests] [testRewrite] before test
+[2020-02-17T11:23:49,154][INFO ][o.e.i.s.ESToParentBlockJoinQueryTests] [testRewrite] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

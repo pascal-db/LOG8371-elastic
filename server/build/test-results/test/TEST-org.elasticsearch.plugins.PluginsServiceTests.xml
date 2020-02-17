@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.plugins.PluginsServiceTests" tests="29" skipped="2" failures="0" errors="0" timestamp="2020-02-16T22:24:01" hostname="Escoto-PC" time="1.331">
+  <properties/>
+  <testcase name="testAdditionalSettingsClash" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.004"/>
+  <testcase name="testSortBundlesCommonDep" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.007"/>
+  <testcase name="testJarHellDuplicateClassWithDep" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.012"/>
+  <testcase name="testSortBundlesCycle" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.003"/>
+  <testcase name="testFindPluginDirs" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.015"/>
+  <testcase name="testSortBundlesMissingDep" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.004"/>
+  <testcase name="testExistingMandatoryClasspathPlugin" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.004"/>
+  <testcase name="testExistingMandatoryInstalledPlugin" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testJarHellDuplicateCodebaseWithDep" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.004"/>
+  <testcase name="testSortBundlesCycleSelfReference" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.003"/>
+  <testcase name="testDesktopServicesStoreFiles" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.006"/>
+  <testcase name="testNonExtensibleDep" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase name="testLoadPluginWithMultiplePublicConstructors" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.003"/>
+  <testcase name="testLoadPluginWithNoPublicConstructor" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.004"/>
+  <testcase name="testIncompatibleElasticsearchVersion" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.002"/>
+  <testcase name="testAdditionalSettings" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.004"/>
+  <testcase name="testJarHellDuplicateClassWithCore" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.045"/>
+  <testcase name="testSortBundlesNoDeps" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.004"/>
+  <testcase name="testFilterPlugins" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.007"/>
+  <testcase name="testLoadPluginWithNoPublicConstructorOfCorrectSignature" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.011"/>
+  <testcase name="testIncompatibleJavaVersion" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.003"/>
+  <testcase name="testStartupWithRemovingMarker" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.006"/>
+  <testcase name="testHiddenFiles" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.012"/>
+  <testcase name="testJarHellTransitiveMap" classname="org.elasticsearch.plugins.PluginsServiceTests" time="1.09"/>
+  <testcase name="testExistingPluginMissingDescriptor" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.015"/>
+  <testcase name="testJarHellDuplicateCodebaseAcrossDeps" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.012"/>
+  <testcase name="testSortBundlesSingle" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.005"/>
+  <testcase name="testJarHellDuplicateClassAcrossDeps" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.035"/>
+  <testcase name="testSortBundlesAlreadyOrdered" classname="org.elasticsearch.plugins.PluginsServiceTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T14:24:01,845][INFO ][o.e.p.PluginsServiceTests] [testAdditionalSettingsClash] before test
+[2020-02-16T14:24:01,847][INFO ][o.e.p.PluginsService     ] [testAdditionalSettingsClash] no modules loaded
+[2020-02-16T14:24:01,847][INFO ][o.e.p.PluginsService     ] [testAdditionalSettingsClash] loaded plugin [org.elasticsearch.plugins.PluginsServiceTests$AdditionalSettingsPlugin1]
+[2020-02-16T14:24:01,847][INFO ][o.e.p.PluginsService     ] [testAdditionalSettingsClash] loaded plugin [org.elasticsearch.plugins.PluginsServiceTests$AdditionalSettingsPlugin2]
+[2020-02-16T14:24:01,847][INFO ][o.e.p.PluginsServiceTests] [testAdditionalSettingsClash] after test
+[2020-02-16T14:24:01,852][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesCommonDep] before test
+[2020-02-16T14:24:01,854][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesCommonDep] after test
+[2020-02-16T14:24:01,857][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateClassWithDep] before test
+[2020-02-16T14:24:01,867][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateClassWithDep] after test
+[2020-02-16T14:24:01,868][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesCycle] before test
+[2020-02-16T14:24:01,870][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesCycle] after test
+[2020-02-16T14:24:01,871][INFO ][o.e.p.PluginsServiceTests] [testFindPluginDirs] before test
+[2020-02-16T14:24:01,885][INFO ][o.e.p.PluginsServiceTests] [testFindPluginDirs] after test
+[2020-02-16T14:24:01,887][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesMissingDep] before test
+[2020-02-16T14:24:01,888][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesMissingDep] after test
+[2020-02-16T14:24:01,891][INFO ][o.e.p.PluginsServiceTests] [testExistingMandatoryClasspathPlugin] before test
+[2020-02-16T14:24:01,893][INFO ][o.e.p.PluginsService     ] [testExistingMandatoryClasspathPlugin] no modules loaded
+[2020-02-16T14:24:01,893][INFO ][o.e.p.PluginsService     ] [testExistingMandatoryClasspathPlugin] loaded plugin [org.elasticsearch.plugins.PluginsServiceTests$FakePlugin]
+[2020-02-16T14:24:01,893][INFO ][o.e.p.PluginsServiceTests] [testExistingMandatoryClasspathPlugin] after test
+[2020-02-16T14:24:01,895][INFO ][o.e.p.PluginsServiceTests] [testExistingMandatoryInstalledPlugin] before test
+[2020-02-16T14:24:01,895][INFO ][o.e.p.PluginsServiceTests] [testExistingMandatoryInstalledPlugin] after test
+[2020-02-16T14:24:01,896][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateCodebaseWithDep] before test
+[2020-02-16T14:24:01,900][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateCodebaseWithDep] after test
+[2020-02-16T14:24:01,901][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesCycleSelfReference] before test
+[2020-02-16T14:24:01,903][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesCycleSelfReference] after test
+[2020-02-16T14:24:01,905][INFO ][o.e.p.PluginsServiceTests] [testDesktopServicesStoreFiles] before test
+[2020-02-16T14:24:01,908][INFO ][o.e.p.PluginsServiceTests] [testDesktopServicesStoreFiles] after test
+[2020-02-16T14:24:01,910][INFO ][o.e.p.PluginsServiceTests] [testNonExtensibleDep] before test
+[2020-02-16T14:24:01,910][INFO ][o.e.p.PluginsServiceTests] [testNonExtensibleDep] after test
+[2020-02-16T14:24:01,912][INFO ][o.e.p.PluginsServiceTests] [testLoadPluginWithMultiplePublicConstructors] before test
+[2020-02-16T14:24:01,913][INFO ][o.e.p.PluginsServiceTests] [testLoadPluginWithMultiplePublicConstructors] after test
+[2020-02-16T14:24:01,916][INFO ][o.e.p.PluginsServiceTests] [testLoadPluginWithNoPublicConstructor] before test
+[2020-02-16T14:24:01,917][INFO ][o.e.p.PluginsServiceTests] [testLoadPluginWithNoPublicConstructor] after test
+[2020-02-16T14:24:01,919][INFO ][o.e.p.PluginsServiceTests] [testIncompatibleElasticsearchVersion] before test
+[2020-02-16T14:24:01,920][INFO ][o.e.p.PluginsServiceTests] [testIncompatibleElasticsearchVersion] after test
+[2020-02-16T14:24:01,921][INFO ][o.e.p.PluginsServiceTests] [testAdditionalSettings] before test
+[2020-02-16T14:24:01,923][INFO ][o.e.p.PluginsService     ] [testAdditionalSettings] no modules loaded
+[2020-02-16T14:24:01,923][INFO ][o.e.p.PluginsService     ] [testAdditionalSettings] loaded plugin [org.elasticsearch.plugins.PluginsServiceTests$AdditionalSettingsPlugin1]
+[2020-02-16T14:24:01,924][INFO ][o.e.p.PluginsServiceTests] [testAdditionalSettings] after test
+[2020-02-16T14:24:01,925][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateClassWithCore] before test
+[2020-02-16T14:24:01,969][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateClassWithCore] after test
+[2020-02-16T14:24:01,971][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesNoDeps] before test
+[2020-02-16T14:24:01,973][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesNoDeps] after test
+[2020-02-16T14:24:01,975][INFO ][o.e.p.PluginsServiceTests] [testFilterPlugins] before test
+[2020-02-16T14:24:01,980][INFO ][o.e.p.PluginsService     ] [testFilterPlugins] no modules loaded
+[2020-02-16T14:24:01,980][INFO ][o.e.p.PluginsService     ] [testFilterPlugins] loaded plugin [org.elasticsearch.plugins.PluginsServiceTests$AdditionalSettingsPlugin1]
+[2020-02-16T14:24:01,980][INFO ][o.e.p.PluginsService     ] [testFilterPlugins] loaded plugin [org.elasticsearch.plugins.PluginsServiceTests$FilterablePlugin]
+[2020-02-16T14:24:01,980][INFO ][o.e.p.PluginsServiceTests] [testFilterPlugins] after test
+[2020-02-16T14:24:01,984][INFO ][o.e.p.PluginsServiceTests] [testLoadPluginWithNoPublicConstructorOfCorrectSignature] before test
+[2020-02-16T14:24:01,991][INFO ][o.e.p.PluginsServiceTests] [testLoadPluginWithNoPublicConstructorOfCorrectSignature] after test
+[2020-02-16T14:24:01,994][INFO ][o.e.p.PluginsServiceTests] [testIncompatibleJavaVersion] before test
+[2020-02-16T14:24:01,995][INFO ][o.e.p.PluginsServiceTests] [testIncompatibleJavaVersion] after test
+[2020-02-16T14:24:01,996][INFO ][o.e.p.PluginsServiceTests] [testStartupWithRemovingMarker] before test
+[2020-02-16T14:24:02,001][INFO ][o.e.p.PluginsServiceTests] [testStartupWithRemovingMarker] after test
+[2020-02-16T14:24:02,002][INFO ][o.e.p.PluginsServiceTests] [testHiddenFiles] before test
+[2020-02-16T14:24:02,012][INFO ][o.e.p.PluginsServiceTests] [testHiddenFiles] after test
+[2020-02-16T14:24:02,015][INFO ][o.e.p.PluginsServiceTests] [testJarHellTransitiveMap] before test
+[2020-02-16T14:24:03,103][INFO ][o.e.p.PluginsServiceTests] [testJarHellTransitiveMap] after test
+[2020-02-16T14:24:03,114][INFO ][o.e.p.PluginsServiceTests] [testExistingPluginMissingDescriptor] before test
+[2020-02-16T14:24:03,117][INFO ][o.e.p.PluginsServiceTests] [testExistingPluginMissingDescriptor] after test
+[2020-02-16T14:24:03,120][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateCodebaseAcrossDeps] before test
+[2020-02-16T14:24:03,130][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateCodebaseAcrossDeps] after test
+[2020-02-16T14:24:03,132][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesSingle] before test
+[2020-02-16T14:24:03,135][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesSingle] after test
+[2020-02-16T14:24:03,145][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateClassAcrossDeps] before test
+[2020-02-16T14:24:03,170][INFO ][o.e.p.PluginsServiceTests] [testJarHellDuplicateClassAcrossDeps] after test
+[2020-02-16T14:24:03,172][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesAlreadyOrdered] before test
+[2020-02-16T14:24:03,175][INFO ][o.e.p.PluginsServiceTests] [testSortBundlesAlreadyOrdered] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

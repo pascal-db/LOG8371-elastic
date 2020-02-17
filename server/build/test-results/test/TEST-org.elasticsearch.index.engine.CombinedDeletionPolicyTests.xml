@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.engine.CombinedDeletionPolicyTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:14" hostname="Escoto-PC" time="1.368">
+  <properties/>
+  <testcase name="testKeepCommitsAfterGlobalCheckpoint" classname="org.elasticsearch.index.engine.CombinedDeletionPolicyTests" time="0.019"/>
+  <testcase name="testAcquireIndexCommit" classname="org.elasticsearch.index.engine.CombinedDeletionPolicyTests" time="1.333"/>
+  <testcase name="testCheckUnreferencedCommits" classname="org.elasticsearch.index.engine.CombinedDeletionPolicyTests" time="0.009"/>
+  <testcase name="testDeleteInvalidCommits" classname="org.elasticsearch.index.engine.CombinedDeletionPolicyTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T18:21:14,625][INFO ][o.e.i.e.CombinedDeletionPolicyTests] [testKeepCommitsAfterGlobalCheckpoint] before test
+[2020-02-16T18:21:14,641][INFO ][o.e.i.e.CombinedDeletionPolicyTests] [testKeepCommitsAfterGlobalCheckpoint] after test
+[2020-02-16T18:21:14,643][INFO ][o.e.i.e.CombinedDeletionPolicyTests] [testAcquireIndexCommit] before test
+[2020-02-16T18:21:15,975][INFO ][o.e.i.e.CombinedDeletionPolicyTests] [testAcquireIndexCommit] after test
+[2020-02-16T18:21:15,976][INFO ][o.e.i.e.CombinedDeletionPolicyTests] [testCheckUnreferencedCommits] before test
+[2020-02-16T18:21:15,984][INFO ][o.e.i.e.CombinedDeletionPolicyTests] [testCheckUnreferencedCommits] after test
+[2020-02-16T18:21:15,985][INFO ][o.e.i.e.CombinedDeletionPolicyTests] [testDeleteInvalidCommits] before test
+[2020-02-16T18:21:15,991][INFO ][o.e.i.e.CombinedDeletionPolicyTests] [testDeleteInvalidCommits] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

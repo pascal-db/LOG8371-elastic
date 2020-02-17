@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.095">
+  <properties/>
+  <testcase name="testShardRelocationsTakenIntoAccount" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.013"/>
+  <testcase name="testDiskThresholdWithAbsoluteSizes" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.02"/>
+  <testcase name="testFreeDiskPercentageAfterShardAssigned" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.003"/>
+  <testcase name="testUnknownDiskUsage" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.007"/>
+  <testcase name="testAverageUsage" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.005"/>
+  <testcase name="testDiskThreshold" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.015"/>
+  <testcase name="testDiskThresholdWithShardSizes" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.016"/>
+  <testcase name="testCanRemainWithShardRelocatingAway" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.009"/>
+  <testcase name="testForSingleDataNode" classname="org.elasticsearch.cluster.routing.allocation.decider.DiskThresholdDeciderTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T20:20:38,044][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] before test
+[2020-02-16T20:20:38,050][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> adding two nodes
+[2020-02-16T20:20:38,051][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> counts: total: 4, unassigned: 0, initializing: 4, relocating: 0, started: 0
+[2020-02-16T20:20:38,051][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> unassigned: [], initializing: [[test2][0], node[node2], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=qAU91BrES_2Q1kS3eKbQYA], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.050Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[1], [test][0], node[node2], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=DeX30fhTRGG3mWzxafwCWw], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.049Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[14], [test2][0], node[node1], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=5lEgnWsnSnakgNMQPJDu4w], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.050Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[1], [test][0], node[node1], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=k4d_fdanTA6ZpcoCepa0kQ], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.049Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[14]], relocating: [], started: []
+[2020-02-16T20:20:38,052][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> start the shards
+[2020-02-16T20:20:38,052][INFO ][o.e.c.r.a.AllocationService] [testShardRelocationsTakenIntoAccount] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test2][0], [test][0], [test2][0], [test][0]]]).
+[2020-02-16T20:20:38,052][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> counts: total: 4, unassigned: 0, initializing: 0, relocating: 0, started: 4
+[2020-02-16T20:20:38,052][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> unassigned: [], initializing: [], relocating: [], started: [[test2][0], node[node2], [P], s[STARTED], a[id=qAU91BrES_2Q1kS3eKbQYA], [test][0], node[node2], [R], s[STARTED], a[id=DeX30fhTRGG3mWzxafwCWw], [test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w], [test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]]
+[2020-02-16T20:20:38,052][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> adding node3
+[2020-02-16T20:20:38,052][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> counts: total: 5, unassigned: 0, initializing: 1, relocating: 1, started: 3
+[2020-02-16T20:20:38,053][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> unassigned: [], initializing: [[test][0], node[node3], relocating [node2], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=RkJjR6wkQcKBPbANyDiF1g, rId=DeX30fhTRGG3mWzxafwCWw], expected_shard_size[14]], relocating: [[test][0], node[node2], relocating [node3], [R], s[RELOCATING], a[id=DeX30fhTRGG3mWzxafwCWw, rId=RkJjR6wkQcKBPbANyDiF1g], expected_shard_size[14]], started: [[test2][0], node[node2], [P], s[STARTED], a[id=qAU91BrES_2Q1kS3eKbQYA], [test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w], [test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]]
+[2020-02-16T20:20:38,054][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> before starting: cluster uuid: _na_ [committed: false]
+version: 0
+state uuid: 3hw5FpP0QXSCIn6DaSflfg
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+   [test2]: v[4], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [qAU91BrES_2Q1kS3eKbQYA, 5lEgnWsnSnakgNMQPJDu4w]
+   [test]: v[4], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [k4d_fdanTA6ZpcoCepa0kQ, DeX30fhTRGG3mWzxafwCWw]
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node2}{2eiZEl9OSF-XnOkuRoJVlg}{0.0.0.0}{0.0.0.0:2}{dm}
+   {node1}{uDN65oiMRrCof7uTgcRi7A}{0.0.0.0}{0.0.0.0:1}{dm}
+   {node3}{wHEtJUmrRqenDzfiiDZtHQ}{0.0.0.0}{0.0.0.0:3}{dm}
+routing_table (version 0):
+-- index [[test2]]
+----shard_id [test2][0]
+--------[test2][0], node[node2], [P], s[STARTED], a[id=qAU91BrES_2Q1kS3eKbQYA]
+--------[test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w]
+
+-- index [[test]]
+----shard_id [test][0]
+--------[test][0], node[node2], relocating [node3], [R], s[RELOCATING], a[id=DeX30fhTRGG3mWzxafwCWw, rId=RkJjR6wkQcKBPbANyDiF1g], expected_shard_size[14]
+--------[test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]
+
+routing_nodes:
+-----node_id[node2][V]
+--------[test2][0], node[node2], [P], s[STARTED], a[id=qAU91BrES_2Q1kS3eKbQYA]
+--------[test][0], node[node2], relocating [node3], [R], s[RELOCATING], a[id=DeX30fhTRGG3mWzxafwCWw, rId=RkJjR6wkQcKBPbANyDiF1g], expected_shard_size[14]
+-----node_id[node3][V]
+--------[test][0], node[node3], relocating [node2], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=RkJjR6wkQcKBPbANyDiF1g, rId=DeX30fhTRGG3mWzxafwCWw], expected_shard_size[14]
+-----node_id[node1][V]
+--------[test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w]
+--------[test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]
+---- unassigned
+
+[2020-02-16T20:20:38,054][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> after starting: cluster uuid: _na_ [committed: false]
+version: 0
+state uuid: 3hw5FpP0QXSCIn6DaSflfg
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+   [test2]: v[4], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [qAU91BrES_2Q1kS3eKbQYA, 5lEgnWsnSnakgNMQPJDu4w]
+   [test]: v[5], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [k4d_fdanTA6ZpcoCepa0kQ, RkJjR6wkQcKBPbANyDiF1g]
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node2}{2eiZEl9OSF-XnOkuRoJVlg}{0.0.0.0}{0.0.0.0:2}{dm}
+   {node1}{uDN65oiMRrCof7uTgcRi7A}{0.0.0.0}{0.0.0.0:1}{dm}
+   {node3}{wHEtJUmrRqenDzfiiDZtHQ}{0.0.0.0}{0.0.0.0:3}{dm}
+routing_table (version 0):
+-- index [[test2]]
+----shard_id [test2][0]
+--------[test2][0], node[node2], [P], s[STARTED], a[id=qAU91BrES_2Q1kS3eKbQYA]
+--------[test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w]
+
+-- index [[test]]
+----shard_id [test][0]
+--------[test][0], node[node3], [R], s[STARTED], a[id=RkJjR6wkQcKBPbANyDiF1g]
+--------[test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]
+
+routing_nodes:
+-----node_id[node2][V]
+--------[test2][0], node[node2], [P], s[STARTED], a[id=qAU91BrES_2Q1kS3eKbQYA]
+-----node_id[node3][V]
+--------[test][0], node[node3], [R], s[STARTED], a[id=RkJjR6wkQcKBPbANyDiF1g]
+-----node_id[node1][V]
+--------[test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w]
+--------[test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]
+---- unassigned
+
+[2020-02-16T20:20:38,055][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> after running another command: cluster uuid: _na_ [committed: false]
+version: 0
+state uuid: 3hw5FpP0QXSCIn6DaSflfg
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+   [test2]: v[4], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [qAU91BrES_2Q1kS3eKbQYA, 5lEgnWsnSnakgNMQPJDu4w]
+   [test]: v[5], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [k4d_fdanTA6ZpcoCepa0kQ, RkJjR6wkQcKBPbANyDiF1g]
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node2}{2eiZEl9OSF-XnOkuRoJVlg}{0.0.0.0}{0.0.0.0:2}{dm}
+   {node1}{uDN65oiMRrCof7uTgcRi7A}{0.0.0.0}{0.0.0.0:1}{dm}
+   {node3}{wHEtJUmrRqenDzfiiDZtHQ}{0.0.0.0}{0.0.0.0:3}{dm}
+routing_table (version 0):
+-- index [[test2]]
+----shard_id [test2][0]
+--------[test2][0], node[node2], relocating [node3], [P], s[RELOCATING], a[id=qAU91BrES_2Q1kS3eKbQYA, rId=JA7bjfrHRimaKjkZtKClog], expected_shard_size[1]
+--------[test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w]
+
+-- index [[test]]
+----shard_id [test][0]
+--------[test][0], node[node3], [R], s[STARTED], a[id=RkJjR6wkQcKBPbANyDiF1g]
+--------[test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]
+
+routing_nodes:
+-----node_id[node2][V]
+--------[test2][0], node[node2], relocating [node3], [P], s[RELOCATING], a[id=qAU91BrES_2Q1kS3eKbQYA, rId=JA7bjfrHRimaKjkZtKClog], expected_shard_size[1]
+-----node_id[node3][V]
+--------[test2][0], node[node3], relocating [node2], [P], recovery_source[peer recovery], s[INITIALIZING], a[id=JA7bjfrHRimaKjkZtKClog, rId=qAU91BrES_2Q1kS3eKbQYA], expected_shard_size[1]
+--------[test][0], node[node3], [R], s[STARTED], a[id=RkJjR6wkQcKBPbANyDiF1g]
+-----node_id[node1][V]
+--------[test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w]
+--------[test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]
+---- unassigned
+
+[2020-02-16T20:20:38,055][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> counts: total: 5, unassigned: 0, initializing: 1, relocating: 1, started: 3
+[2020-02-16T20:20:38,055][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> unassigned: [], initializing: [[test2][0], node[node3], relocating [node2], [P], recovery_source[peer recovery], s[INITIALIZING], a[id=JA7bjfrHRimaKjkZtKClog, rId=qAU91BrES_2Q1kS3eKbQYA], expected_shard_size[1]], relocating: [[test2][0], node[node2], relocating [node3], [P], s[RELOCATING], a[id=qAU91BrES_2Q1kS3eKbQYA, rId=JA7bjfrHRimaKjkZtKClog], expected_shard_size[1]], started: [[test][0], node[node3], [R], s[STARTED], a[id=RkJjR6wkQcKBPbANyDiF1g], [test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w], [test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]]
+[2020-02-16T20:20:38,055][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] --> after another reroute: cluster uuid: _na_ [committed: false]
+version: 0
+state uuid: 3hw5FpP0QXSCIn6DaSflfg
+from_diff: false
+meta data version: 0
+   coordination_metadata:
+      term: 0
+      last_committed_config: VotingConfiguration{}
+      last_accepted_config: VotingConfiguration{}
+      voting tombstones: []
+   [test2]: v[4], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [qAU91BrES_2Q1kS3eKbQYA, 5lEgnWsnSnakgNMQPJDu4w]
+   [test]: v[5], mv[1], sv[1], av[1]
+      0: p_term [1], isa_ids [k4d_fdanTA6ZpcoCepa0kQ, RkJjR6wkQcKBPbANyDiF1g]
+metadata customs:
+   index-graveyard: IndexGraveyard[[]]
+nodes: 
+   {node2}{2eiZEl9OSF-XnOkuRoJVlg}{0.0.0.0}{0.0.0.0:2}{dm}
+   {node1}{uDN65oiMRrCof7uTgcRi7A}{0.0.0.0}{0.0.0.0:1}{dm}
+   {node3}{wHEtJUmrRqenDzfiiDZtHQ}{0.0.0.0}{0.0.0.0:3}{dm}
+routing_table (version 0):
+-- index [[test2]]
+----shard_id [test2][0]
+--------[test2][0], node[node2], relocating [node3], [P], s[RELOCATING], a[id=qAU91BrES_2Q1kS3eKbQYA, rId=JA7bjfrHRimaKjkZtKClog], expected_shard_size[1]
+--------[test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w]
+
+-- index [[test]]
+----shard_id [test][0]
+--------[test][0], node[node3], relocating [node2], [R], s[RELOCATING], a[id=RkJjR6wkQcKBPbANyDiF1g, rId=RqO0vP5KRlSLNho_e7aGGg], expected_shard_size[14]
+--------[test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]
+
+routing_nodes:
+-----node_id[node2][V]
+--------[test2][0], node[node2], relocating [node3], [P], s[RELOCATING], a[id=qAU91BrES_2Q1kS3eKbQYA, rId=JA7bjfrHRimaKjkZtKClog], expected_shard_size[1]
+--------[test][0], node[node2], relocating [node3], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=RqO0vP5KRlSLNho_e7aGGg, rId=RkJjR6wkQcKBPbANyDiF1g], expected_shard_size[14]
+-----node_id[node3][V]
+--------[test2][0], node[node3], relocating [node2], [P], recovery_source[peer recovery], s[INITIALIZING], a[id=JA7bjfrHRimaKjkZtKClog, rId=qAU91BrES_2Q1kS3eKbQYA], expected_shard_size[1]
+--------[test][0], node[node3], relocating [node2], [R], s[RELOCATING], a[id=RkJjR6wkQcKBPbANyDiF1g, rId=RqO0vP5KRlSLNho_e7aGGg], expected_shard_size[14]
+-----node_id[node1][V]
+--------[test2][0], node[node1], [R], s[STARTED], a[id=5lEgnWsnSnakgNMQPJDu4w]
+--------[test][0], node[node1], [P], s[STARTED], a[id=k4d_fdanTA6ZpcoCepa0kQ]
+---- unassigned
+
+[2020-02-16T20:20:38,055][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testShardRelocationsTakenIntoAccount] after test
+[2020-02-16T20:20:38,058][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] before test
+[2020-02-16T20:20:38,062][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> adding node1 and node2 node
+[2020-02-16T20:20:38,062][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,064][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 1, unassigned: 2, initializing: 1, relocating: 0, started: 0
+[2020-02-16T20:20:38,064][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [[test][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.062Z], delayed=false, allocation_status[no_attempt]], [test][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.062Z], delayed=false, allocation_status[no_attempt]]], initializing: [[test][0], node[node2], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=XvpjXuKBR2qPii6FRDBeSA], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.062Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[10]], relocating: [], started: []
+[2020-02-16T20:20:38,064][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> nodeWithPrimary: node2
+[2020-02-16T20:20:38,064][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> nodeWithoutPrimary: node1
+[2020-02-16T20:20:38,065][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,066][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 2, unassigned: 1, initializing: 2, relocating: 0, started: 0
+[2020-02-16T20:20:38,066][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [[test][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.062Z], delayed=false, allocation_status[no_attempt]]], initializing: [[test][0], node[node2], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=XvpjXuKBR2qPii6FRDBeSA], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.062Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[10], [test][0], node[node1], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=pQenbgI9R_mIxkvTfWY3YA], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.062Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[10]], relocating: [], started: []
+[2020-02-16T20:20:38,066][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> start the shards (primaries)
+[2020-02-16T20:20:38,066][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,066][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 2, unassigned: 1, initializing: 0, relocating: 0, started: 2
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [[test][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.062Z], delayed=false, allocation_status[no_attempt]]], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=XvpjXuKBR2qPii6FRDBeSA], [test][0], node[node1], [R], s[STARTED], a[id=pQenbgI9R_mIxkvTfWY3YA]]
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> adding node3
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 3, unassigned: 0, initializing: 1, relocating: 0, started: 2
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [], initializing: [[test][0], node[node3], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=BWruOhAMS5KUsdWvltEalg], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.062Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[10]], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=XvpjXuKBR2qPii6FRDBeSA], [test][0], node[node1], [R], s[STARTED], a[id=pQenbgI9R_mIxkvTfWY3YA]]
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> start the shards (replicas)
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.AllocationService] [testDiskThresholdWithAbsoluteSizes] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 3, unassigned: 0, initializing: 0, relocating: 0, started: 3
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=XvpjXuKBR2qPii6FRDBeSA], [test][0], node[node3], [R], s[STARTED], a[id=BWruOhAMS5KUsdWvltEalg], [test][0], node[node1], [R], s[STARTED], a[id=pQenbgI9R_mIxkvTfWY3YA]]
+[2020-02-16T20:20:38,067][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> changing decider settings
+[2020-02-16T20:20:38,070][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,070][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 3, unassigned: 0, initializing: 0, relocating: 0, started: 3
+[2020-02-16T20:20:38,070][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=XvpjXuKBR2qPii6FRDBeSA], [test][0], node[node3], [R], s[STARTED], a[id=BWruOhAMS5KUsdWvltEalg], [test][0], node[node1], [R], s[STARTED], a[id=pQenbgI9R_mIxkvTfWY3YA]]
+[2020-02-16T20:20:38,070][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> changing settings again
+[2020-02-16T20:20:38,073][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,073][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 3, unassigned: 0, initializing: 0, relocating: 0, started: 3
+[2020-02-16T20:20:38,073][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=XvpjXuKBR2qPii6FRDBeSA], [test][0], node[node3], [R], s[STARTED], a[id=BWruOhAMS5KUsdWvltEalg], [test][0], node[node1], [R], s[STARTED], a[id=pQenbgI9R_mIxkvTfWY3YA]]
+[2020-02-16T20:20:38,073][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> adding node4
+[2020-02-16T20:20:38,073][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 4, unassigned: 0, initializing: 1, relocating: 1, started: 2
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [], initializing: [[test][0], node[node4], relocating [node2], [P], recovery_source[peer recovery], s[INITIALIZING], a[id=5-H_RJE6SbChuW3W3jVWwA, rId=XvpjXuKBR2qPii6FRDBeSA], expected_shard_size[10]], relocating: [[test][0], node[node2], relocating [node4], [P], s[RELOCATING], a[id=XvpjXuKBR2qPii6FRDBeSA, rId=5-H_RJE6SbChuW3W3jVWwA], expected_shard_size[10]], started: [[test][0], node[node3], [R], s[STARTED], a[id=BWruOhAMS5KUsdWvltEalg], [test][0], node[node1], [R], s[STARTED], a[id=pQenbgI9R_mIxkvTfWY3YA]]
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> apply INITIALIZING shards
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 3, unassigned: 0, initializing: 0, relocating: 0, started: 3
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node4], [P], s[STARTED], a[id=5-H_RJE6SbChuW3W3jVWwA], [test][0], node[node3], [R], s[STARTED], a[id=BWruOhAMS5KUsdWvltEalg], [test][0], node[node1], [R], s[STARTED], a[id=pQenbgI9R_mIxkvTfWY3YA]]
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> adding node5
+[2020-02-16T20:20:38,074][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 4, unassigned: 0, initializing: 1, relocating: 1, started: 2
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [], initializing: [[test][0], node[node5], relocating [node1], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=b8gqrBTGQqGzgejlWNJeBg, rId=pQenbgI9R_mIxkvTfWY3YA], expected_shard_size[10]], relocating: [[test][0], node[node1], relocating [node5], [R], s[RELOCATING], a[id=pQenbgI9R_mIxkvTfWY3YA, rId=b8gqrBTGQqGzgejlWNJeBg], expected_shard_size[10]], started: [[test][0], node[node4], [P], s[STARTED], a[id=5-H_RJE6SbChuW3W3jVWwA], [test][0], node[node3], [R], s[STARTED], a[id=BWruOhAMS5KUsdWvltEalg]]
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> apply INITIALIZING shards
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> final cluster state:
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> counts: total: 3, unassigned: 0, initializing: 0, relocating: 0, started: 3
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node4], [P], s[STARTED], a[id=5-H_RJE6SbChuW3W3jVWwA], [test][0], node[node5], [R], s[STARTED], a[id=b8gqrBTGQqGzgejlWNJeBg], [test][0], node[node3], [R], s[STARTED], a[id=BWruOhAMS5KUsdWvltEalg]]
+[2020-02-16T20:20:38,075][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithAbsoluteSizes] after test
+[2020-02-16T20:20:38,077][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testFreeDiskPercentageAfterShardAssigned] before test
+[2020-02-16T20:20:38,079][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testFreeDiskPercentageAfterShardAssigned] after test
+[2020-02-16T20:20:38,082][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] before test
+[2020-02-16T20:20:38,085][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] --> adding node1
+[2020-02-16T20:20:38,085][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,086][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] --> start the shards (primaries)
+[2020-02-16T20:20:38,086][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,086][INFO ][o.e.c.r.a.AllocationService] [testUnknownDiskUsage] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T20:20:38,086][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,086][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] --> counts: total: 1, unassigned: 0, initializing: 0, relocating: 0, started: 1
+[2020-02-16T20:20:38,086][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node1], [P], s[STARTED], a[id=HYlw1KMhReu5FoW5S73f0Q]]
+[2020-02-16T20:20:38,086][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testUnknownDiskUsage] after test
+[2020-02-16T20:20:38,090][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testAverageUsage] before test
+[2020-02-16T20:20:38,091][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testAverageUsage] after test
+[2020-02-16T20:20:38,094][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] before test
+[2020-02-16T20:20:38,098][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> adding two nodes
+[2020-02-16T20:20:38,099][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,099][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 1, unassigned: 1, initializing: 1, relocating: 0, started: 0
+[2020-02-16T20:20:38,099][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [[test][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.098Z], delayed=false, allocation_status[no_attempt]]], initializing: [[test][0], node[node2], [P], recovery_source[new shard recovery], s[INITIALIZING], a[id=_67LUbWtSg6q8DfBmkW_wg], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.098Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[10]], relocating: [], started: []
+[2020-02-16T20:20:38,099][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> start the shards (primaries)
+[2020-02-16T20:20:38,099][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 1, unassigned: 1, initializing: 0, relocating: 0, started: 1
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [[test][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.098Z], delayed=false, allocation_status[no_attempt]]], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=_67LUbWtSg6q8DfBmkW_wg]]
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> start the shards (replicas)
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 1, unassigned: 1, initializing: 0, relocating: 0, started: 1
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [[test][0], node[null], [R], recovery_source[peer recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.098Z], delayed=false, allocation_status[no_attempt]]], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=_67LUbWtSg6q8DfBmkW_wg]]
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> adding node3
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,100][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 2, unassigned: 0, initializing: 1, relocating: 0, started: 1
+[2020-02-16T20:20:38,101][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [], initializing: [[test][0], node[node3], [R], recovery_source[peer recovery], s[INITIALIZING], a[id=MBibgmd1RaS3FArCeGnmDg], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.098Z], delayed=false, allocation_status[no_attempt]], expected_shard_size[10]], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=_67LUbWtSg6q8DfBmkW_wg]]
+[2020-02-16T20:20:38,101][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> start the shards (replicas)
+[2020-02-16T20:20:38,101][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,101][INFO ][o.e.c.r.a.AllocationService] [testDiskThreshold] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T20:20:38,101][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,101][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 2, unassigned: 0, initializing: 0, relocating: 0, started: 2
+[2020-02-16T20:20:38,101][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=_67LUbWtSg6q8DfBmkW_wg], [test][0], node[node3], [R], s[STARTED], a[id=MBibgmd1RaS3FArCeGnmDg]]
+[2020-02-16T20:20:38,101][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> changing decider settings
+[2020-02-16T20:20:38,103][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,103][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 2, unassigned: 0, initializing: 0, relocating: 0, started: 2
+[2020-02-16T20:20:38,103][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=_67LUbWtSg6q8DfBmkW_wg], [test][0], node[node3], [R], s[STARTED], a[id=MBibgmd1RaS3FArCeGnmDg]]
+[2020-02-16T20:20:38,103][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> changing settings again
+[2020-02-16T20:20:38,105][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 2, unassigned: 0, initializing: 0, relocating: 0, started: 2
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node2], [P], s[STARTED], a[id=_67LUbWtSg6q8DfBmkW_wg], [test][0], node[node3], [R], s[STARTED], a[id=MBibgmd1RaS3FArCeGnmDg]]
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> adding node4
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 3, unassigned: 0, initializing: 1, relocating: 1, started: 1
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [], initializing: [[test][0], node[node4], relocating [node2], [P], recovery_source[peer recovery], s[INITIALIZING], a[id=2TJ3eTd0TA6gP8oE-rCUTA, rId=_67LUbWtSg6q8DfBmkW_wg], expected_shard_size[10]], relocating: [[test][0], node[node2], relocating [node4], [P], s[RELOCATING], a[id=_67LUbWtSg6q8DfBmkW_wg, rId=2TJ3eTd0TA6gP8oE-rCUTA], expected_shard_size[10]], started: [[test][0], node[node3], [R], s[STARTED], a[id=MBibgmd1RaS3FArCeGnmDg]]
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> apply INITIALIZING shards
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> counts: total: 2, unassigned: 0, initializing: 0, relocating: 0, started: 2
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] --> unassigned: [], initializing: [], relocating: [], started: [[test][0], node[node4], [P], s[STARTED], a[id=2TJ3eTd0TA6gP8oE-rCUTA], [test][0], node[node3], [R], s[STARTED], a[id=MBibgmd1RaS3FArCeGnmDg]]
+[2020-02-16T20:20:38,106][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThreshold] after test
+[2020-02-16T20:20:38,112][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithShardSizes] before test
+[2020-02-16T20:20:38,122][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithShardSizes] --> adding node1
+[2020-02-16T20:20:38,122][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithShardSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,122][WARN ][o.e.c.r.a.d.DiskThresholdDecider] [testDiskThresholdWithShardSizes] after allocating, node [node1] would have more than the allowed 29% free disk threshold (21% free), preventing allocation
+[2020-02-16T20:20:38,122][INFO ][o.e.c.r.a.AllocationService] [testDiskThresholdWithShardSizes] Cluster health status changed from [YELLOW] to [RED] (reason: [reroute]).
+[2020-02-16T20:20:38,122][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithShardSizes] --> start the shards (primaries)
+[2020-02-16T20:20:38,122][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithShardSizes] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,122][WARN ][o.e.c.r.a.d.DiskThresholdDecider] [testDiskThresholdWithShardSizes] after allocating, node [node1] would have more than the allowed 29% free disk threshold (21% free), preventing allocation
+[2020-02-16T20:20:38,122][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithShardSizes] --> counts: total: 0, unassigned: 1, initializing: 0, relocating: 0, started: 0
+[2020-02-16T20:20:38,122][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithShardSizes] --> unassigned: [[test][0], node[null], [P], recovery_source[new shard recovery], s[UNASSIGNED], unassigned_info[[reason=INDEX_CREATED], at[2020-02-16T22:20:38.122Z], delayed=false, allocation_status[deciders_no]]], initializing: [], relocating: [], started: []
+[2020-02-16T20:20:38,122][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testDiskThresholdWithShardSizes] after test
+[2020-02-16T20:20:38,127][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testCanRemainWithShardRelocatingAway] before test
+[2020-02-16T20:20:38,131][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testCanRemainWithShardRelocatingAway] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,131][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testCanRemainWithShardRelocatingAway] after test
+[2020-02-16T20:20:38,133][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testForSingleDataNode] before test
+[2020-02-16T20:20:38,134][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testForSingleDataNode] --> adding one master node, one data node
+[2020-02-16T20:20:38,137][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testForSingleDataNode] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,137][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testForSingleDataNode] --> adding node3
+[2020-02-16T20:20:38,137][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testForSingleDataNode] --> calling fake getClusterInfo
+[2020-02-16T20:20:38,137][INFO ][o.e.c.r.a.d.DiskThresholdDeciderTests] [testForSingleDataNode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

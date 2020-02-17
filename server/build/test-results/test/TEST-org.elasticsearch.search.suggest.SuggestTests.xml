@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.SuggestTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:52" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testMergingSuggestionOptions" classname="org.elasticsearch.search.suggest.SuggestTests" time="0.003"/>
+  <testcase name="testParsingExceptionOnUnknownSuggestion" classname="org.elasticsearch.search.suggest.SuggestTests" time="0.003"/>
+  <testcase name="testFilter" classname="org.elasticsearch.search.suggest.SuggestTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.suggest.SuggestTests" time="0.006"/>
+  <testcase name="testSuggestionOrdering" classname="org.elasticsearch.search.suggest.SuggestTests" time="0.002"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.suggest.SuggestTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.SuggestTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:25:52,961][INFO ][o.e.s.s.SuggestTests     ] [testMergingSuggestionOptions] before test
+[2020-02-17T00:25:52,962][INFO ][o.e.s.s.SuggestTests     ] [testMergingSuggestionOptions] after test
+[2020-02-17T00:25:52,964][INFO ][o.e.s.s.SuggestTests     ] [testParsingExceptionOnUnknownSuggestion] before test
+[2020-02-17T00:25:52,965][INFO ][o.e.s.s.SuggestTests     ] [testParsingExceptionOnUnknownSuggestion] after test
+[2020-02-17T00:25:52,967][INFO ][o.e.s.s.SuggestTests     ] [testFilter] before test
+[2020-02-17T00:25:52,967][INFO ][o.e.s.s.SuggestTests     ] [testFilter] after test
+[2020-02-17T00:25:52,969][INFO ][o.e.s.s.SuggestTests     ] [testSerialization] before test
+[2020-02-17T00:25:52,974][INFO ][o.e.s.s.SuggestTests     ] [testSerialization] after test
+[2020-02-17T00:25:52,976][INFO ][o.e.s.s.SuggestTests     ] [testSuggestionOrdering] before test
+[2020-02-17T00:25:52,976][INFO ][o.e.s.s.SuggestTests     ] [testSuggestionOrdering] after test
+[2020-02-17T00:25:52,978][INFO ][o.e.s.s.SuggestTests     ] [testToXContent] before test
+[2020-02-17T00:25:52,978][INFO ][o.e.s.s.SuggestTests     ] [testToXContent] after test
+[2020-02-17T00:25:52,980][INFO ][o.e.s.s.SuggestTests     ] [testFromXContent] before test
+[2020-02-17T00:25:52,981][INFO ][o.e.s.s.SuggestTests     ] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

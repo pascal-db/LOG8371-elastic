@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.ObjectPathTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:46" hostname="Escoto-PC" time="0.294">
+  <properties/>
+  <testcase name="testEvalList" classname="org.elasticsearch.common.xcontent.ObjectPathTests" time="0.05"/>
+  <testcase name="testEvalMap" classname="org.elasticsearch.common.xcontent.ObjectPathTests" time="0.14"/>
+  <testcase name="testEvalArray" classname="org.elasticsearch.common.xcontent.ObjectPathTests" time="0.003"/>
+  <testcase name="testEvalMixed" classname="org.elasticsearch.common.xcontent.ObjectPathTests" time="0.005"/>
+  <testcase name="testEval" classname="org.elasticsearch.common.xcontent.ObjectPathTests" time="0.095"/>
+  <system-out><![CDATA[[2020-02-16T19:20:46,597][INFO ][o.e.c.x.ObjectPathTests  ] [testEvalList] before test
+[2020-02-16T19:20:46,639][INFO ][o.e.c.x.ObjectPathTests  ] [testEvalList] after test
+[2020-02-16T19:20:46,779][INFO ][o.e.c.x.ObjectPathTests  ] [testEvalMap] before test
+[2020-02-16T19:20:46,779][INFO ][o.e.c.x.ObjectPathTests  ] [testEvalMap] after test
+[2020-02-16T19:20:46,782][INFO ][o.e.c.x.ObjectPathTests  ] [testEvalArray] before test
+[2020-02-16T19:20:46,783][INFO ][o.e.c.x.ObjectPathTests  ] [testEvalArray] after test
+[2020-02-16T19:20:46,787][INFO ][o.e.c.x.ObjectPathTests  ] [testEvalMixed] before test
+[2020-02-16T19:20:46,788][INFO ][o.e.c.x.ObjectPathTests  ] [testEvalMixed] after test
+[2020-02-16T19:20:46,874][INFO ][o.e.c.x.ObjectPathTests  ] [testEval] before test
+[2020-02-16T19:20:46,883][INFO ][o.e.c.x.ObjectPathTests  ] [testEval] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

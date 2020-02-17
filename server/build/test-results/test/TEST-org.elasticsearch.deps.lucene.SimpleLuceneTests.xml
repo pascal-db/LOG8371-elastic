@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.deps.lucene.SimpleLuceneTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:04" hostname="Escoto-PC" time="0.221">
+  <properties/>
+  <testcase name="testSortValues" classname="org.elasticsearch.deps.lucene.SimpleLuceneTests" time="0.019"/>
+  <testcase name="testNRTSearchOnClosedWriter" classname="org.elasticsearch.deps.lucene.SimpleLuceneTests" time="0.072"/>
+  <testcase name="testOrdering" classname="org.elasticsearch.deps.lucene.SimpleLuceneTests" time="0.039"/>
+  <testcase name="testSimpleNumericOps" classname="org.elasticsearch.deps.lucene.SimpleLuceneTests" time="0.091"/>
+  <system-out><![CDATA[[2020-02-16T23:22:04,857][INFO ][o.e.d.l.SimpleLuceneTests] [testSortValues] before test
+[2020-02-16T23:22:04,863][INFO ][o.e.d.l.SimpleLuceneTests] [testSortValues] after test
+[2020-02-16T23:22:04,930][INFO ][o.e.d.l.SimpleLuceneTests] [testNRTSearchOnClosedWriter] before test
+[2020-02-16T23:22:04,935][INFO ][o.e.d.l.SimpleLuceneTests] [testNRTSearchOnClosedWriter] after test
+[2020-02-16T23:22:04,968][INFO ][o.e.d.l.SimpleLuceneTests] [testOrdering] before test
+[2020-02-16T23:22:04,975][INFO ][o.e.d.l.SimpleLuceneTests] [testOrdering] after test
+[2020-02-16T23:22:05,049][INFO ][o.e.d.l.SimpleLuceneTests] [testSimpleNumericOps] before test
+[2020-02-16T23:22:05,066][INFO ][o.e.d.l.SimpleLuceneTests] [testSimpleNumericOps] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

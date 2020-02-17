@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:32" hostname="Escoto-PC" time="0.06">
+  <properties/>
+  <testcase name="testResponseToRequestFromLeader" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.008"/>
+  <testcase name="testIgnoresPreVotesFromLaterVersionInSameTerm" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.007"/>
+  <testcase name="testStartsElectionIfOtherNodeIsQuorum" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.003"/>
+  <testcase name="testStartsElectionIfLocalNodeIsQuorum" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.007"/>
+  <testcase name="testDoesNotStartElectionIfStopped" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.003"/>
+  <testcase name="testResponseToNonLeaderIfNotCandidate" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.006"/>
+  <testcase name="testIgnoresPreVotesFromLaterTerms" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.006"/>
+  <testcase name="testStartsElectionIfLocalNodeIsOnlyNode" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.003"/>
+  <testcase name="testDoesNotStartsElectionIfOtherNodeIsQuorumAndDoesNotRespond" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.004"/>
+  <testcase name="testResponseIfCandidate" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.003"/>
+  <testcase name="testAcceptsPreVotesFromAnyVersionInEarlierTerms" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.004"/>
+  <testcase name="testPrevotingIndicatesElectionSuccess" classname="org.elasticsearch.cluster.coordination.PreVoteCollectorTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T08:20:32,985][INFO ][o.e.c.c.PreVoteCollectorTests] [testResponseToRequestFromLeader] before test
+[2020-02-17T08:20:32,990][INFO ][o.e.c.c.PreVoteCollectorTests] [testResponseToRequestFromLeader] after test
+[2020-02-17T08:20:32,994][INFO ][o.e.c.c.PreVoteCollectorTests] [testIgnoresPreVotesFromLaterVersionInSameTerm] before test
+[2020-02-17T08:20:32,997][INFO ][o.e.c.c.PreVoteCollectorTests] [testIgnoresPreVotesFromLaterVersionInSameTerm] after test
+[2020-02-17T08:20:32,999][INFO ][o.e.c.c.PreVoteCollectorTests] [testStartsElectionIfOtherNodeIsQuorum] before test
+[2020-02-17T08:20:33,000][INFO ][o.e.c.c.PreVoteCollectorTests] [testStartsElectionIfOtherNodeIsQuorum] after test
+[2020-02-17T08:20:33,005][INFO ][o.e.c.c.PreVoteCollectorTests] [testStartsElectionIfLocalNodeIsQuorum] before test
+[2020-02-17T08:20:33,007][INFO ][o.e.c.c.PreVoteCollectorTests] [testStartsElectionIfLocalNodeIsQuorum] after test
+[2020-02-17T08:20:33,009][INFO ][o.e.c.c.PreVoteCollectorTests] [testDoesNotStartElectionIfStopped] before test
+[2020-02-17T08:20:33,010][INFO ][o.e.c.c.PreVoteCollectorTests] [testDoesNotStartElectionIfStopped] after test
+[2020-02-17T08:20:33,013][INFO ][o.e.c.c.PreVoteCollectorTests] [testResponseToNonLeaderIfNotCandidate] before test
+[2020-02-17T08:20:33,016][INFO ][o.e.c.c.PreVoteCollectorTests] [testResponseToNonLeaderIfNotCandidate] after test
+[2020-02-17T08:20:33,020][INFO ][o.e.c.c.PreVoteCollectorTests] [testIgnoresPreVotesFromLaterTerms] before test
+[2020-02-17T08:20:33,022][INFO ][o.e.c.c.PreVoteCollectorTests] [testIgnoresPreVotesFromLaterTerms] after test
+[2020-02-17T08:20:33,024][INFO ][o.e.c.c.PreVoteCollectorTests] [testStartsElectionIfLocalNodeIsOnlyNode] before test
+[2020-02-17T08:20:33,025][INFO ][o.e.c.c.PreVoteCollectorTests] [testStartsElectionIfLocalNodeIsOnlyNode] after test
+[2020-02-17T08:20:33,027][INFO ][o.e.c.c.PreVoteCollectorTests] [testDoesNotStartsElectionIfOtherNodeIsQuorumAndDoesNotRespond] before test
+[2020-02-17T08:20:33,029][INFO ][o.e.c.c.PreVoteCollectorTests] [testDoesNotStartsElectionIfOtherNodeIsQuorumAndDoesNotRespond] after test
+[2020-02-17T08:20:33,031][INFO ][o.e.c.c.PreVoteCollectorTests] [testResponseIfCandidate] before test
+[2020-02-17T08:20:33,032][INFO ][o.e.c.c.PreVoteCollectorTests] [testResponseIfCandidate] after test
+[2020-02-17T08:20:33,034][INFO ][o.e.c.c.PreVoteCollectorTests] [testAcceptsPreVotesFromAnyVersionInEarlierTerms] before test
+[2020-02-17T08:20:33,036][INFO ][o.e.c.c.PreVoteCollectorTests] [testAcceptsPreVotesFromAnyVersionInEarlierTerms] after test
+[2020-02-17T08:20:33,040][INFO ][o.e.c.c.PreVoteCollectorTests] [testPrevotingIndicatesElectionSuccess] before test
+[2020-02-17T08:20:33,042][INFO ][o.e.c.c.PreVoteCollectorTests] [testPrevotingIndicatesElectionSuccess] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.repositories.RepositoriesServiceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testUnregisterInternalRepository" classname="org.elasticsearch.repositories.RepositoriesServiceTests" time="0.004"/>
+  <testcase name="testRegisterInternalRepository" classname="org.elasticsearch.repositories.RepositoriesServiceTests" time="0.003"/>
+  <testcase name="testRegisterRejectsInvalidRepositoryNames" classname="org.elasticsearch.repositories.RepositoriesServiceTests" time="0.003"/>
+  <testcase name="testRegisterWillNotUpdateIfInternalRepositoryWithNameExists" classname="org.elasticsearch.repositories.RepositoriesServiceTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T15:25:17,520][INFO ][o.e.r.RepositoriesServiceTests] [testUnregisterInternalRepository] before test
+[2020-02-16T15:25:17,521][INFO ][o.e.r.RepositoriesServiceTests] [testUnregisterInternalRepository] after test
+[2020-02-16T15:25:17,524][INFO ][o.e.r.RepositoriesServiceTests] [testRegisterInternalRepository] before test
+[2020-02-16T15:25:17,524][INFO ][o.e.r.RepositoriesServiceTests] [testRegisterInternalRepository] after test
+[2020-02-16T15:25:17,526][INFO ][o.e.r.RepositoriesServiceTests] [testRegisterRejectsInvalidRepositoryNames] before test
+[2020-02-16T15:25:17,527][INFO ][o.e.r.RepositoriesServiceTests] [testRegisterRejectsInvalidRepositoryNames] after test
+[2020-02-16T15:25:17,529][INFO ][o.e.r.RepositoriesServiceTests] [testRegisterWillNotUpdateIfInternalRepositoryWithNameExists] before test
+[2020-02-16T15:25:17,530][INFO ][o.e.r.RepositoriesServiceTests] [testRegisterWillNotUpdateIfInternalRepositoryWithNameExists] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

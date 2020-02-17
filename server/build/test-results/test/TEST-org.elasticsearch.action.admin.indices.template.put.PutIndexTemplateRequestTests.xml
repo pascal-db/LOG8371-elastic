@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateRequestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:34" hostname="Escoto-PC" time="0.049">
+  <properties/>
+  <testcase name="testMappingKeyedByType" classname="org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateRequestTests" time="0.008"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateRequestTests" time="0.031"/>
+  <testcase name="testValidateErrorMessage" classname="org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateRequestTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-17T00:20:34,289][INFO ][o.e.a.a.i.t.p.PutIndexTemplateRequestTests] [testMappingKeyedByType] before test
+[2020-02-17T00:20:34,291][INFO ][o.e.a.a.i.t.p.PutIndexTemplateRequestTests] [testMappingKeyedByType] after test
+[2020-02-17T00:20:34,301][INFO ][o.e.a.a.i.t.p.PutIndexTemplateRequestTests] [testFromXContent] before test
+[2020-02-17T00:20:34,322][INFO ][o.e.a.a.i.t.p.PutIndexTemplateRequestTests] [testFromXContent] after test
+[2020-02-17T00:20:34,332][INFO ][o.e.a.a.i.t.p.PutIndexTemplateRequestTests] [testValidateErrorMessage] before test
+[2020-02-17T00:20:34,332][INFO ][o.e.a.a.i.t.p.PutIndexTemplateRequestTests] [testValidateErrorMessage] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

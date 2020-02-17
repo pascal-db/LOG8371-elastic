@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.configuration.TransportClearVotingConfigExclusionsActionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:01" hostname="Escoto-PC" time="0.227">
+  <properties/>
+  <testcase name="testSucceedsIfNodesAreRemovedWhileWaiting" classname="org.elasticsearch.action.admin.cluster.configuration.TransportClearVotingConfigExclusionsActionTests" time="0.069"/>
+  <testcase name="testClearsVotingConfigExclusions" classname="org.elasticsearch.action.admin.cluster.configuration.TransportClearVotingConfigExclusionsActionTests" time="0.014"/>
+  <testcase name="testTimesOutIfWaitingForNodesThatAreNotRemoved" classname="org.elasticsearch.action.admin.cluster.configuration.TransportClearVotingConfigExclusionsActionTests" time="0.144"/>
+  <system-out><![CDATA[[2020-02-16T14:20:01,503][INFO ][o.e.a.a.c.c.TransportClearVotingConfigExclusionsActionTests] [testSucceedsIfNodesAreRemovedWhileWaiting] before test
+[2020-02-16T14:20:01,529][INFO ][o.e.c.s.ClusterApplierService] [test] added {{other1}{other1}{DxyEU0j-SWqUSwmddgujpA}{0.0.0.0}{0.0.0.0:2},{other2}{other2}{YrCrx0dwTfGyKnlZOMWmhA}{0.0.0.0}{0.0.0.0:3}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T14:20:01,546][INFO ][o.e.c.s.ClusterApplierService] [test] removed {{other1}{other1}{DxyEU0j-SWqUSwmddgujpA}{0.0.0.0}{0.0.0.0:2},{other2}{other2}{YrCrx0dwTfGyKnlZOMWmhA}{0.0.0.0}{0.0.0.0:3}}, term: 0, version: 2, reason: test setting state
+[2020-02-16T14:20:01,556][INFO ][o.e.a.a.c.c.TransportClearVotingConfigExclusionsActionTests] [testSucceedsIfNodesAreRemovedWhileWaiting] after test
+[2020-02-16T14:20:01,559][INFO ][o.e.a.a.c.c.TransportClearVotingConfigExclusionsActionTests] [testClearsVotingConfigExclusions] before test
+[2020-02-16T14:20:01,566][INFO ][o.e.c.s.ClusterApplierService] [test] added {{other1}{other1}{DxyEU0j-SWqUSwmddgujpA}{0.0.0.0}{0.0.0.0:2},{other2}{other2}{YrCrx0dwTfGyKnlZOMWmhA}{0.0.0.0}{0.0.0.0:3}}, term: 0, version: 1, reason: test setting state
+[2020-02-16T14:20:01,570][INFO ][o.e.a.a.c.c.TransportClearVotingConfigExclusionsActionTests] [testClearsVotingConfigExclusions] after test
+[2020-02-16T14:20:01,573][INFO ][o.e.a.a.c.c.TransportClearVotingConfigExclusionsActionTests] [testTimesOutIfWaitingForNodesThatAreNotRemoved] before test
+[2020-02-16T14:20:01,714][INFO ][o.e.a.a.c.c.TransportClearVotingConfigExclusionsActionTests] [testTimesOutIfWaitingForNodesThatAreNotRemoved] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

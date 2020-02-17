@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.ListenerTimeoutsTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testFinishNormallyBeforeTimeout" classname="org.elasticsearch.action.support.ListenerTimeoutsTests" time="0.009"/>
+  <testcase name="testFinishExceptionallyBeforeTimeout" classname="org.elasticsearch.action.support.ListenerTimeoutsTests" time="0.004"/>
+  <testcase name="testListenerTimeout" classname="org.elasticsearch.action.support.ListenerTimeoutsTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T00:20:47,591][INFO ][o.e.a.s.ListenerTimeoutsTests] [testFinishNormallyBeforeTimeout] before test
+[2020-02-17T00:20:47,598][INFO ][o.e.a.s.ListenerTimeoutsTests] [testFinishNormallyBeforeTimeout] after test
+[2020-02-17T00:20:47,601][INFO ][o.e.a.s.ListenerTimeoutsTests] [testFinishExceptionallyBeforeTimeout] before test
+[2020-02-17T00:20:47,602][INFO ][o.e.a.s.ListenerTimeoutsTests] [testFinishExceptionallyBeforeTimeout] after test
+[2020-02-17T00:20:47,605][INFO ][o.e.a.s.ListenerTimeoutsTests] [testListenerTimeout] before test
+[2020-02-17T00:20:47,606][INFO ][o.e.a.s.ListenerTimeoutsTests] [testListenerTimeout] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

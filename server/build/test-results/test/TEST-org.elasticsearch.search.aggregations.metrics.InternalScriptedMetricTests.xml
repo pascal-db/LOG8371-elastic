@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.metrics.InternalScriptedMetricTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:32" hostname="Escoto-PC" time="0.017">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.metrics.InternalScriptedMetricTests" time="0.004"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.metrics.InternalScriptedMetricTests" time="0.005"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.metrics.InternalScriptedMetricTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.metrics.InternalScriptedMetricTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.metrics.InternalScriptedMetricTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T18:25:32,356][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testSerialization] before test
+[2020-02-16T18:25:32,357][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testSerialization] after test
+[2020-02-16T18:25:32,361][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T18:25:32,362][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T18:25:32,364][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testReduceRandom] before test
+[2020-02-16T18:25:32,365][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testReduceRandom] after test
+[2020-02-16T18:25:32,367][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:25:32,368][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:25:32,370][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testFromXContent] before test
+[2020-02-16T18:25:32,370][INFO ][o.e.s.a.m.InternalScriptedMetricTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.support.IndicesOptionsTests" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.038">
+  <properties/>
+  <testcase name="testSimpleByteBWC" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.009"/>
+  <testcase name="testFromOptionsWithDefaultOptions" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.003"/>
+  <testcase name="testSerializationPre70" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.006"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.003"/>
+  <testcase name="testEqualityAndHashCode" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.003"/>
+  <testcase name="testFromOptions" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.002"/>
+  <testcase name="testFromParameters" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.002"/>
+  <testcase name="testFromMap" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.support.IndicesOptionsTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-17T00:20:47,540][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] before test
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=false, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=false, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=true, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=true, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=true, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=true, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=true, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=false, allow_no_indices=true, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=false, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=false, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=false, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=true, expand_wildcards_closed=false, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=true, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=true, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=true, allow_aliases_to_multiple_indices=false, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=false, allow_no_indices=false, expand_wildcards_open=false, expand_wildcards_closed=true, allow_aliases_to_multiple_indices=false, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=false, expand_wildcards_closed=true, allow_aliases_to_multiple_indices=false, forbid_closed_indices=true, ignore_aliases=true, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=true, allow_no_indices=true, expand_wildcards_open=false, expand_wildcards_closed=true, allow_aliases_to_multiple_indices=false, forbid_closed_indices=true, ignore_aliases=true, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 1 IndicesOptions[ignore_unavailable=true, allow_no_indices=false, expand_wildcards_open=true, expand_wildcards_closed=true, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] --> 2 IndicesOptions[ignore_unavailable=true, allow_no_indices=false, expand_wildcards_open=true, expand_wildcards_closed=true, allow_aliases_to_multiple_indices=true, forbid_closed_indices=false, ignore_aliases=false, ignore_throttled=false]
+[2020-02-17T00:20:47,542][INFO ][o.e.a.s.IndicesOptionsTests] [testSimpleByteBWC] after test
+[2020-02-17T00:20:47,544][INFO ][o.e.a.s.IndicesOptionsTests] [testFromOptionsWithDefaultOptions] before test
+[2020-02-17T00:20:47,544][INFO ][o.e.a.s.IndicesOptionsTests] [testFromOptionsWithDefaultOptions] after test
+[2020-02-17T00:20:47,551][INFO ][o.e.a.s.IndicesOptionsTests] [testSerializationPre70] before test
+[2020-02-17T00:20:47,551][INFO ][o.e.a.s.IndicesOptionsTests] [testSerializationPre70] after test
+[2020-02-17T00:20:47,554][INFO ][o.e.a.s.IndicesOptionsTests] [testToXContent] before test
+[2020-02-17T00:20:47,555][INFO ][o.e.a.s.IndicesOptionsTests] [testToXContent] after test
+[2020-02-17T00:20:47,557][INFO ][o.e.a.s.IndicesOptionsTests] [testEqualityAndHashCode] before test
+[2020-02-17T00:20:47,557][INFO ][o.e.a.s.IndicesOptionsTests] [testEqualityAndHashCode] after test
+[2020-02-17T00:20:47,559][INFO ][o.e.a.s.IndicesOptionsTests] [testFromOptions] before test
+[2020-02-17T00:20:47,559][INFO ][o.e.a.s.IndicesOptionsTests] [testFromOptions] after test
+[2020-02-17T00:20:47,561][INFO ][o.e.a.s.IndicesOptionsTests] [testFromParameters] before test
+[2020-02-17T00:20:47,562][INFO ][o.e.a.s.IndicesOptionsTests] [testFromParameters] after test
+[2020-02-17T00:20:47,563][INFO ][o.e.a.s.IndicesOptionsTests] [testFromMap] before test
+[2020-02-17T00:20:47,564][INFO ][o.e.a.s.IndicesOptionsTests] [testFromMap] after test
+[2020-02-17T00:20:47,569][INFO ][o.e.a.s.IndicesOptionsTests] [testSerialization] before test
+[2020-02-17T00:20:47,571][INFO ][o.e.a.s.IndicesOptionsTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

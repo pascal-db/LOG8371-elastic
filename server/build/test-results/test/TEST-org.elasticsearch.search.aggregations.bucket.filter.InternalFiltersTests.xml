@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.filter.InternalFiltersTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="0.025">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFiltersTests" time="0.005"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFiltersTests" time="0.004"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFiltersTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFiltersTests" time="0.003"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFiltersTests" time="0.006"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.filter.InternalFiltersTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T10:25:20,313][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testFromXContentWithRandomFields] before test
+[2020-02-17T10:25:20,315][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testFromXContentWithRandomFields] after test
+[2020-02-17T10:25:20,318][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testReduceRandom] before test
+[2020-02-17T10:25:20,319][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testReduceRandom] after test
+[2020-02-17T10:25:20,322][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testFromXContent] before test
+[2020-02-17T10:25:20,323][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testFromXContent] after test
+[2020-02-17T10:25:20,325][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testEqualsAndHashcode] before test
+[2020-02-17T10:25:20,326][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testEqualsAndHashcode] after test
+[2020-02-17T10:25:20,329][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testSerialization] before test
+[2020-02-17T10:25:20,332][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testSerialization] after test
+[2020-02-17T10:25:20,334][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testIterators] before test
+[2020-02-17T10:25:20,335][INFO ][o.e.s.a.b.f.InternalFiltersTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

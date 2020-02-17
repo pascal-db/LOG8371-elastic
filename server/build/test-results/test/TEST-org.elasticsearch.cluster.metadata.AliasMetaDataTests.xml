@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.AliasMetaDataTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:33" hostname="Escoto-PC" time="0.022">
+  <properties/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.cluster.metadata.AliasMetaDataTests" time="0.014"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.cluster.metadata.AliasMetaDataTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T23:20:33,278][INFO ][o.e.c.m.AliasMetaDataTests] [testFromXContent] before test
+[2020-02-16T23:20:33,290][INFO ][o.e.c.m.AliasMetaDataTests] [testFromXContent] after test
+[2020-02-16T23:20:33,297][INFO ][o.e.c.m.AliasMetaDataTests] [testSerialization] before test
+[2020-02-16T23:20:33,298][INFO ][o.e.c.m.AliasMetaDataTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.geo.ShapeBuilderTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:43" hostname="Escoto-PC" time="0.282">
+  <properties/>
+  <testcase name="testMultiLineString" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testLineStringWrapping" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.003"/>
+  <testcase name="testShapeWithEdgeAlongDateline" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.003"/>
+  <testcase name="testInvalidSelfCrossingPolygon" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.006"/>
+  <testcase name="testInvalidShapeWithConsecutiveDuplicatePoints" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.005"/>
+  <testcase name="testBoundaryShapeWithTangentialHole" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.005"/>
+  <testcase name="testDateline" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.003"/>
+  <testcase name="testPolygonSelfIntersection" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testNewPoint" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.003"/>
+  <testcase name="testShapeWithHoleAtEdgeEndPoints" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.007"/>
+  <testcase name="testLineStringBuilder" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.021"/>
+  <testcase name="testBoundaryShape" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testPolygon3D" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.001"/>
+  <testcase name="testShapeWithInvalidTangentialHole" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.003"/>
+  <testcase name="testNewPolygon" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testGeoCircle" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testPolygonWrapping" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testComplexShapeWithHole" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.118"/>
+  <testcase name="testShapeWithTangentialHole" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.003"/>
+  <testcase name="testBoundaryShapeWithInvalidTangentialHole" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.051"/>
+  <testcase name="testNewPolygon_coordinates" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.005"/>
+  <testcase name="testNewRectangle" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testDatelineOGC" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.006"/>
+  <testcase name="testShapeWithAlternateOrientation" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testShapeWithPointOnDateline" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.002"/>
+  <testcase name="testShapeWithBoundaryHoles" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.016"/>
+  <testcase name="testNewPolygon_coordinate" classname="org.elasticsearch.common.geo.ShapeBuilderTests" time="0.001"/>
+  <system-out><![CDATA[[2020-02-16T19:21:43,895][INFO ][o.e.c.g.ShapeBuilderTests] [testMultiLineString] before test
+[2020-02-16T19:21:43,896][INFO ][o.e.c.g.ShapeBuilderTests] [testMultiLineString] after test
+[2020-02-16T19:21:43,897][INFO ][o.e.c.g.ShapeBuilderTests] [testLineStringWrapping] before test
+[2020-02-16T19:21:43,898][INFO ][o.e.c.g.ShapeBuilderTests] [testLineStringWrapping] after test
+[2020-02-16T19:21:43,901][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithEdgeAlongDateline] before test
+[2020-02-16T19:21:43,901][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithEdgeAlongDateline] after test
+[2020-02-16T19:21:43,908][INFO ][o.e.c.g.ShapeBuilderTests] [testInvalidSelfCrossingPolygon] before test
+[2020-02-16T19:21:43,908][INFO ][o.e.c.g.ShapeBuilderTests] [testInvalidSelfCrossingPolygon] after test
+[2020-02-16T19:21:43,912][INFO ][o.e.c.g.ShapeBuilderTests] [testInvalidShapeWithConsecutiveDuplicatePoints] before test
+[2020-02-16T19:21:43,914][INFO ][o.e.c.g.ShapeBuilderTests] [testInvalidShapeWithConsecutiveDuplicatePoints] after test
+[2020-02-16T19:21:43,917][INFO ][o.e.c.g.ShapeBuilderTests] [testBoundaryShapeWithTangentialHole] before test
+[2020-02-16T19:21:43,919][INFO ][o.e.c.g.ShapeBuilderTests] [testBoundaryShapeWithTangentialHole] after test
+[2020-02-16T19:21:43,921][INFO ][o.e.c.g.ShapeBuilderTests] [testDateline] before test
+[2020-02-16T19:21:43,922][INFO ][o.e.c.g.ShapeBuilderTests] [testDateline] after test
+[2020-02-16T19:21:43,924][INFO ][o.e.c.g.ShapeBuilderTests] [testPolygonSelfIntersection] before test
+[2020-02-16T19:21:43,925][INFO ][o.e.c.g.ShapeBuilderTests] [testPolygonSelfIntersection] after test
+[2020-02-16T19:21:43,927][INFO ][o.e.c.g.ShapeBuilderTests] [testNewPoint] before test
+[2020-02-16T19:21:43,927][INFO ][o.e.c.g.ShapeBuilderTests] [testNewPoint] after test
+[2020-02-16T19:21:43,934][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithHoleAtEdgeEndPoints] before test
+[2020-02-16T19:21:43,935][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithHoleAtEdgeEndPoints] after test
+[2020-02-16T19:21:43,936][INFO ][o.e.c.g.ShapeBuilderTests] [testLineStringBuilder] before test
+[2020-02-16T19:21:43,955][INFO ][o.e.c.g.ShapeBuilderTests] [testLineStringBuilder] after test
+[2020-02-16T19:21:43,957][INFO ][o.e.c.g.ShapeBuilderTests] [testBoundaryShape] before test
+[2020-02-16T19:21:43,958][INFO ][o.e.c.g.ShapeBuilderTests] [testBoundaryShape] after test
+[2020-02-16T19:21:43,960][INFO ][o.e.c.g.ShapeBuilderTests] [testPolygon3D] before test
+[2020-02-16T19:21:43,960][INFO ][o.e.c.g.ShapeBuilderTests] [testPolygon3D] after test
+[2020-02-16T19:21:43,961][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithInvalidTangentialHole] before test
+[2020-02-16T19:21:43,962][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithInvalidTangentialHole] after test
+[2020-02-16T19:21:43,964][INFO ][o.e.c.g.ShapeBuilderTests] [testNewPolygon] before test
+[2020-02-16T19:21:43,964][INFO ][o.e.c.g.ShapeBuilderTests] [testNewPolygon] after test
+[2020-02-16T19:21:43,966][INFO ][o.e.c.g.ShapeBuilderTests] [testGeoCircle] before test
+[2020-02-16T19:21:43,966][INFO ][o.e.c.g.ShapeBuilderTests] [testGeoCircle] after test
+[2020-02-16T19:21:43,968][INFO ][o.e.c.g.ShapeBuilderTests] [testPolygonWrapping] before test
+[2020-02-16T19:21:43,969][INFO ][o.e.c.g.ShapeBuilderTests] [testPolygonWrapping] after test
+[2020-02-16T19:21:43,971][INFO ][o.e.c.g.ShapeBuilderTests] [testComplexShapeWithHole] before test
+[2020-02-16T19:21:44,087][INFO ][o.e.c.g.ShapeBuilderTests] [testComplexShapeWithHole] after test
+[2020-02-16T19:21:44,090][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithTangentialHole] before test
+[2020-02-16T19:21:44,091][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithTangentialHole] after test
+[2020-02-16T19:21:44,141][INFO ][o.e.c.g.ShapeBuilderTests] [testBoundaryShapeWithInvalidTangentialHole] before test
+[2020-02-16T19:21:44,142][INFO ][o.e.c.g.ShapeBuilderTests] [testBoundaryShapeWithInvalidTangentialHole] after test
+[2020-02-16T19:21:44,144][INFO ][o.e.c.g.ShapeBuilderTests] [testNewPolygon_coordinates] before test
+[2020-02-16T19:21:44,145][INFO ][o.e.c.g.ShapeBuilderTests] [testNewPolygon_coordinates] after test
+[2020-02-16T19:21:44,148][INFO ][o.e.c.g.ShapeBuilderTests] [testNewRectangle] before test
+[2020-02-16T19:21:44,148][INFO ][o.e.c.g.ShapeBuilderTests] [testNewRectangle] after test
+[2020-02-16T19:21:44,150][INFO ][o.e.c.g.ShapeBuilderTests] [testDatelineOGC] before test
+[2020-02-16T19:21:44,154][INFO ][o.e.c.g.ShapeBuilderTests] [testDatelineOGC] after test
+[2020-02-16T19:21:44,156][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithAlternateOrientation] before test
+[2020-02-16T19:21:44,156][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithAlternateOrientation] after test
+[2020-02-16T19:21:44,158][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithPointOnDateline] before test
+[2020-02-16T19:21:44,158][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithPointOnDateline] after test
+[2020-02-16T19:21:44,160][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithBoundaryHoles] before test
+[2020-02-16T19:21:44,174][INFO ][o.e.c.g.ShapeBuilderTests] [testShapeWithBoundaryHoles] after test
+[2020-02-16T19:21:44,176][INFO ][o.e.c.g.ShapeBuilderTests] [testNewPolygon_coordinate] before test
+[2020-02-16T19:21:44,176][INFO ][o.e.c.g.ShapeBuilderTests] [testNewPolygon_coordinate] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

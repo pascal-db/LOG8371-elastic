@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ingest.SimulatePipelineRequestTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:18" hostname="Escoto-PC" time="0.006">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.ingest.SimulatePipelineRequestTests" time="0.004"/>
+  <testcase name="testSerializationWithXContent" classname="org.elasticsearch.action.ingest.SimulatePipelineRequestTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:20:18,548][INFO ][o.e.a.i.SimulatePipelineRequestTests] [testSerialization] before test
+[2020-02-17T06:20:18,551][INFO ][o.e.a.i.SimulatePipelineRequestTests] [testSerialization] after test
+[2020-02-17T06:20:18,553][INFO ][o.e.a.i.SimulatePipelineRequestTests] [testSerializationWithXContent] before test
+[2020-02-17T06:20:18,554][INFO ][o.e.a.i.SimulatePipelineRequestTests] [testSerializationWithXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

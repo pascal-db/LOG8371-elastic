@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cli.MultiCommandTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:29" hostname="Escoto-PC" time="0.052">
+  <properties/>
+  <testcase name="testUnknownCommand" classname="org.elasticsearch.cli.MultiCommandTests" time="0.02"/>
+  <testcase name="testClose" classname="org.elasticsearch.cli.MultiCommandTests" time="0.003"/>
+  <testcase name="testSubcommandHelp" classname="org.elasticsearch.cli.MultiCommandTests" time="0.014"/>
+  <testcase name="testMissingCommand" classname="org.elasticsearch.cli.MultiCommandTests" time="0.003"/>
+  <testcase name="testCloseWhenSubCommandCloseThrowsException" classname="org.elasticsearch.cli.MultiCommandTests" time="0.002"/>
+  <testcase name="testHelp" classname="org.elasticsearch.cli.MultiCommandTests" time="0.004"/>
+  <testcase name="testNoCommandsConfigured" classname="org.elasticsearch.cli.MultiCommandTests" time="0.003"/>
+  <testcase name="testSubcommandArguments" classname="org.elasticsearch.cli.MultiCommandTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T14:20:29,080][INFO ][o.e.c.MultiCommandTests  ] [testUnknownCommand] before test
+[2020-02-16T14:20:29,094][INFO ][o.e.c.MultiCommandTests  ] [testUnknownCommand] after test
+[2020-02-16T14:20:29,096][INFO ][o.e.c.MultiCommandTests  ] [testClose] before test
+[2020-02-16T14:20:29,097][INFO ][o.e.c.MultiCommandTests  ] [testClose] after test
+[2020-02-16T14:20:29,099][INFO ][o.e.c.MultiCommandTests  ] [testSubcommandHelp] before test
+[2020-02-16T14:20:29,111][INFO ][o.e.c.MultiCommandTests  ] [testSubcommandHelp] after test
+[2020-02-16T14:20:29,113][INFO ][o.e.c.MultiCommandTests  ] [testMissingCommand] before test
+[2020-02-16T14:20:29,114][INFO ][o.e.c.MultiCommandTests  ] [testMissingCommand] after test
+[2020-02-16T14:20:29,116][INFO ][o.e.c.MultiCommandTests  ] [testCloseWhenSubCommandCloseThrowsException] before test
+[2020-02-16T14:20:29,117][INFO ][o.e.c.MultiCommandTests  ] [testCloseWhenSubCommandCloseThrowsException] after test
+[2020-02-16T14:20:29,119][INFO ][o.e.c.MultiCommandTests  ] [testHelp] before test
+[2020-02-16T14:20:29,121][INFO ][o.e.c.MultiCommandTests  ] [testHelp] after test
+[2020-02-16T14:20:29,123][INFO ][o.e.c.MultiCommandTests  ] [testNoCommandsConfigured] before test
+[2020-02-16T14:20:29,123][INFO ][o.e.c.MultiCommandTests  ] [testNoCommandsConfigured] after test
+[2020-02-16T14:20:29,126][INFO ][o.e.c.MultiCommandTests  ] [testSubcommandArguments] before test
+[2020-02-16T14:20:29,126][INFO ][o.e.c.MultiCommandTests  ] [testSubcommandArguments] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

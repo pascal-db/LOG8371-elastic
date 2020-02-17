@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.AllocationServiceTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:35" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testFirstListElementsToCommaDelimitedStringUsesFormatterNotToString" classname="org.elasticsearch.cluster.routing.allocation.AllocationServiceTests" time="0.006"/>
+  <testcase name="testFirstListElementsToCommaDelimitedStringReportsAllElementsIfDebugEnabled" classname="org.elasticsearch.cluster.routing.allocation.AllocationServiceTests" time="0.006"/>
+  <testcase name="testFirstListElementsToCommaDelimitedStringReportsAllElementsIfShort" classname="org.elasticsearch.cluster.routing.allocation.AllocationServiceTests" time="0.003"/>
+  <testcase name="testFirstListElementsToCommaDelimitedStringReportsFirstElementsIfLong" classname="org.elasticsearch.cluster.routing.allocation.AllocationServiceTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T15:21:35,118][INFO ][o.e.c.r.a.AllocationServiceTests] [testFirstListElementsToCommaDelimitedStringUsesFormatterNotToString] before test
+[2020-02-16T15:21:35,119][INFO ][o.e.c.r.a.AllocationServiceTests] [testFirstListElementsToCommaDelimitedStringUsesFormatterNotToString] after test
+[2020-02-16T15:21:35,125][INFO ][o.e.c.r.a.AllocationServiceTests] [testFirstListElementsToCommaDelimitedStringReportsAllElementsIfDebugEnabled] before test
+[2020-02-16T15:21:35,125][INFO ][o.e.c.r.a.AllocationServiceTests] [testFirstListElementsToCommaDelimitedStringReportsAllElementsIfDebugEnabled] after test
+[2020-02-16T15:21:35,128][INFO ][o.e.c.r.a.AllocationServiceTests] [testFirstListElementsToCommaDelimitedStringReportsAllElementsIfShort] before test
+[2020-02-16T15:21:35,129][INFO ][o.e.c.r.a.AllocationServiceTests] [testFirstListElementsToCommaDelimitedStringReportsAllElementsIfShort] after test
+[2020-02-16T15:21:35,131][INFO ][o.e.c.r.a.AllocationServiceTests] [testFirstListElementsToCommaDelimitedStringReportsFirstElementsIfLong] before test
+[2020-02-16T15:21:35,132][INFO ][o.e.c.r.a.AllocationServiceTests] [testFirstListElementsToCommaDelimitedStringReportsFirstElementsIfLong] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

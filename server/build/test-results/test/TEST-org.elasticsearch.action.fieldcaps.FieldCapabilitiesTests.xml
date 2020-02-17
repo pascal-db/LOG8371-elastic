@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.fieldcaps.FieldCapabilitiesTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:36" hostname="Escoto-PC" time="0.039">
+  <properties/>
+  <testcase name="testBuilder" classname="org.elasticsearch.action.fieldcaps.FieldCapabilitiesTests" time="0.009"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.action.fieldcaps.FieldCapabilitiesTests" time="0.013"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.action.fieldcaps.FieldCapabilitiesTests" time="0.013"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.fieldcaps.FieldCapabilitiesTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:20:36,542][INFO ][o.e.a.f.FieldCapabilitiesTests] [testBuilder] before test
+[2020-02-16T22:20:36,547][INFO ][o.e.a.f.FieldCapabilitiesTests] [testBuilder] after test
+[2020-02-16T22:20:36,555][INFO ][o.e.a.f.FieldCapabilitiesTests] [testFromXContent] before test
+[2020-02-16T22:20:36,561][INFO ][o.e.a.f.FieldCapabilitiesTests] [testFromXContent] after test
+[2020-02-16T22:20:36,572][INFO ][o.e.a.f.FieldCapabilitiesTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:20:36,574][INFO ][o.e.a.f.FieldCapabilitiesTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:20:36,577][INFO ][o.e.a.f.FieldCapabilitiesTests] [testSerialization] before test
+[2020-02-16T22:20:36,577][INFO ][o.e.a.f.FieldCapabilitiesTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

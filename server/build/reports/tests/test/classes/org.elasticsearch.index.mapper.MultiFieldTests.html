@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.mapper.MultiFieldTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.mapper.MultiFieldTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.mapper.html">org.elasticsearch.index.mapper</a> &gt; MultiFieldTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">6</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">1.302s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBuildThenParse</td>
+<td class="success">0.100s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiFieldMultiFields</td>
+<td class="success">0.088s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiFieldWithDot</td>
+<td class="success">0.119s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiFieldsInConsistentOrder</td>
+<td class="success">0.794s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedFieldNotAllowed</td>
+<td class="success">0.102s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testObjectFieldNotAllowed</td>
+<td class="success">0.099s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T17:23:21,663][INFO ][o.e.e.NodeEnvironment    ] [testMultiFieldsInConsistentOrder] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-16T17:23:21,663][INFO ][o.e.e.NodeEnvironment    ] [testMultiFieldsInConsistentOrder] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-16T17:23:21,665][INFO ][o.e.n.Node               ] [testMultiFieldsInConsistentOrder] node name [node_s_0], node ID [YErdbwPlTTC_Wa0Gwg_05Q], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[8733041969262174796]-HASH=[14B810895C6]]
+[2020-02-16T17:23:21,665][INFO ][o.e.n.Node               ] [testMultiFieldsInConsistentOrder] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-16T17:23:21,665][INFO ][o.e.n.Node               ] [testMultiFieldsInConsistentOrder] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-16T17:23:21,665][INFO ][o.e.n.Node               ] [testMultiFieldsInConsistentOrder] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-16T17:23:21,665][INFO ][o.e.p.PluginsService     ] [testMultiFieldsInConsistentOrder] no modules loaded
+[2020-02-16T17:23:21,665][INFO ][o.e.p.PluginsService     ] [testMultiFieldsInConsistentOrder] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-16T17:23:21,665][INFO ][o.e.p.PluginsService     ] [testMultiFieldsInConsistentOrder] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-16T17:23:21,876][INFO ][o.e.d.DiscoveryModule    ] [testMultiFieldsInConsistentOrder] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-16T17:23:21,883][INFO ][o.e.n.Node               ] [testMultiFieldsInConsistentOrder] initialized
+[2020-02-16T17:23:21,883][INFO ][o.e.n.Node               ] [testMultiFieldsInConsistentOrder] starting ...
+[2020-02-16T17:23:22,183][INFO ][o.e.t.TransportService   ] [testMultiFieldsInConsistentOrder] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T17:23:22,191][INFO ][o.e.c.c.Coordinator      ] [testMultiFieldsInConsistentOrder] setting initial configuration to VotingConfiguration{YErdbwPlTTC_Wa0Gwg_05Q}
+[2020-02-16T17:23:22,295][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{YErdbwPlTTC_Wa0Gwg_05Q}{iQYaBpwbT4usbEFCVYbHVA}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{YErdbwPlTTC_Wa0Gwg_05Q}{iQYaBpwbT4usbEFCVYbHVA}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-16T17:23:22,302][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [lDk-lZ4fSLq1U4gNSGFx-w]
+[2020-02-16T17:23:22,309][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{YErdbwPlTTC_Wa0Gwg_05Q}{iQYaBpwbT4usbEFCVYbHVA}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-16T17:23:22,310][INFO ][o.e.n.Node               ] [testMultiFieldsInConsistentOrder] started
+[2020-02-16T17:23:22,314][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-16T17:23:22,315][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-16T17:23:22,325][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-16T17:23:22,332][INFO ][o.e.i.m.MultiFieldTests  ] [testMultiFieldsInConsistentOrder] before test
+[2020-02-16T17:23:22,334][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T17:23:22,403][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:23:22,416][INFO ][o.e.i.m.MultiFieldTests  ] [testMultiFieldsInConsistentOrder] after test
+[2020-02-16T17:23:22,416][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/HEsUmp7pQrSjryMBaa_LYQ] deleting index
+[2020-02-16T17:23:22,448][INFO ][o.e.i.m.MultiFieldTests  ] [testNestedFieldNotAllowed] before test
+[2020-02-16T17:23:22,449][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T17:23:22,508][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:23:22,526][INFO ][o.e.i.m.MultiFieldTests  ] [testNestedFieldNotAllowed] after test
+[2020-02-16T17:23:22,526][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/psqyRJPmRxy7zANk5Hli6w] deleting index
+[2020-02-16T17:23:22,549][INFO ][o.e.i.m.MultiFieldTests  ] [testMultiFieldWithDot] before test
+[2020-02-16T17:23:22,550][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T17:23:22,620][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:23:22,637][INFO ][o.e.i.m.MultiFieldTests  ] [testMultiFieldWithDot] after test
+[2020-02-16T17:23:22,638][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Z8NIdvApSfq1qp1-ARk-xQ] deleting index
+[2020-02-16T17:23:22,673][INFO ][o.e.i.m.MultiFieldTests  ] [testBuildThenParse] before test
+[2020-02-16T17:23:22,674][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T17:23:22,727][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:23:22,738][INFO ][o.e.i.m.MultiFieldTests  ] [testBuildThenParse] after test
+[2020-02-16T17:23:22,744][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/0GPd8-jlTK-W5ossRC-bAg] deleting index
+[2020-02-16T17:23:22,768][INFO ][o.e.i.m.MultiFieldTests  ] [testMultiFieldMultiFields] before test
+[2020-02-16T17:23:22,770][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T17:23:22,823][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:23:22,834][INFO ][o.e.i.m.MultiFieldTests  ] [testMultiFieldMultiFields] after test
+[2020-02-16T17:23:22,834][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/bcebAZarTr6VBISdgIHtgw] deleting index
+[2020-02-16T17:23:22,855][INFO ][o.e.i.m.MultiFieldTests  ] [testObjectFieldNotAllowed] before test
+[2020-02-16T17:23:22,857][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-16T17:23:22,907][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T17:23:22,918][INFO ][o.e.i.m.MultiFieldTests  ] [testObjectFieldNotAllowed] after test
+[2020-02-16T17:23:22,918][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/WTYgloFVTsyHp86dTwvn5Q] deleting index
+[2020-02-16T17:23:22,953][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-16T17:23:22,954][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-16T17:23:22,954][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-16T17:23:22,955][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

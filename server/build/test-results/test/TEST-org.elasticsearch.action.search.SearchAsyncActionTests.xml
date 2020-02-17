@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchAsyncActionTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:19" hostname="Escoto-PC" time="0.036">
+  <properties/>
+  <testcase name="testSkipSearchShards" classname="org.elasticsearch.action.search.SearchAsyncActionTests" time="0.009"/>
+  <testcase name="testAllowPartialResults" classname="org.elasticsearch.action.search.SearchAsyncActionTests" time="0.015"/>
+  <testcase name="testFanOutAndCollect" classname="org.elasticsearch.action.search.SearchAsyncActionTests" time="0.006"/>
+  <testcase name="testLimitConcurrentShardRequests" classname="org.elasticsearch.action.search.SearchAsyncActionTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T00:20:19,329][INFO ][o.e.a.s.SearchAsyncActionTests] [testSkipSearchShards] before test
+[2020-02-17T00:20:19,336][INFO ][o.e.a.s.SearchAsyncActionTests] [testSkipSearchShards] after test
+[2020-02-17T00:20:19,343][INFO ][o.e.a.s.SearchAsyncActionTests] [testAllowPartialResults] before test
+[2020-02-17T00:20:19,351][INFO ][o.e.a.s.SearchAsyncActionTests] [testAllowPartialResults] after test
+[2020-02-17T00:20:19,354][INFO ][o.e.a.s.SearchAsyncActionTests] [testFanOutAndCollect] before test
+[2020-02-17T00:20:19,357][INFO ][o.e.a.s.SearchAsyncActionTests] [testFanOutAndCollect] after test
+[2020-02-17T00:20:19,359][INFO ][o.e.a.s.SearchAsyncActionTests] [testLimitConcurrentShardRequests] before test
+[2020-02-17T00:20:19,363][INFO ][o.e.a.s.SearchAsyncActionTests] [testLimitConcurrentShardRequests] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.TableTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:50" hostname="Escoto-PC" time="0.023">
+  <properties/>
+  <testcase name="testAliasMap" classname="org.elasticsearch.common.TableTests" time="0.004"/>
+  <testcase name="testFailOnStartRowWithoutHeader" classname="org.elasticsearch.common.TableTests" time="0.003"/>
+  <testcase name="testWithTimestamp" classname="org.elasticsearch.common.TableTests" time="0.002"/>
+  <testcase name="testSimple" classname="org.elasticsearch.common.TableTests" time="0.001"/>
+  <testcase name="testFailOnEndHeadersWithoutStart" classname="org.elasticsearch.common.TableTests" time="0.001"/>
+  <testcase name="testFailOnEndRowWithoutStart" classname="org.elasticsearch.common.TableTests" time="0.002"/>
+  <testcase name="testFailOnLessCellsThanDeclared" classname="org.elasticsearch.common.TableTests" time="0.002"/>
+  <testcase name="testOnLessCellsThanDeclaredUnchecked" classname="org.elasticsearch.common.TableTests" time="0.001"/>
+  <testcase name="testFailOnAddCellWithoutRow" classname="org.elasticsearch.common.TableTests" time="0.001"/>
+  <testcase name="testFailOnAddCellWithoutHeader" classname="org.elasticsearch.common.TableTests" time="0.002"/>
+  <testcase name="testFailOnMoreCellsThanDeclared" classname="org.elasticsearch.common.TableTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T16:20:50,730][INFO ][o.e.c.TableTests         ] [testAliasMap] before test
+[2020-02-16T16:20:50,732][INFO ][o.e.c.TableTests         ] [testAliasMap] after test
+[2020-02-16T16:20:50,734][INFO ][o.e.c.TableTests         ] [testFailOnStartRowWithoutHeader] before test
+[2020-02-16T16:20:50,735][INFO ][o.e.c.TableTests         ] [testFailOnStartRowWithoutHeader] after test
+[2020-02-16T16:20:50,736][INFO ][o.e.c.TableTests         ] [testWithTimestamp] before test
+[2020-02-16T16:20:50,737][INFO ][o.e.c.TableTests         ] [testWithTimestamp] after test
+[2020-02-16T16:20:50,738][INFO ][o.e.c.TableTests         ] [testSimple] before test
+[2020-02-16T16:20:50,739][INFO ][o.e.c.TableTests         ] [testSimple] after test
+[2020-02-16T16:20:50,740][INFO ][o.e.c.TableTests         ] [testFailOnEndHeadersWithoutStart] before test
+[2020-02-16T16:20:50,740][INFO ][o.e.c.TableTests         ] [testFailOnEndHeadersWithoutStart] after test
+[2020-02-16T16:20:50,742][INFO ][o.e.c.TableTests         ] [testFailOnEndRowWithoutStart] before test
+[2020-02-16T16:20:50,742][INFO ][o.e.c.TableTests         ] [testFailOnEndRowWithoutStart] after test
+[2020-02-16T16:20:50,744][INFO ][o.e.c.TableTests         ] [testFailOnLessCellsThanDeclared] before test
+[2020-02-16T16:20:50,744][INFO ][o.e.c.TableTests         ] [testFailOnLessCellsThanDeclared] after test
+[2020-02-16T16:20:50,745][INFO ][o.e.c.TableTests         ] [testOnLessCellsThanDeclaredUnchecked] before test
+[2020-02-16T16:20:50,746][INFO ][o.e.c.TableTests         ] [testOnLessCellsThanDeclaredUnchecked] after test
+[2020-02-16T16:20:50,747][INFO ][o.e.c.TableTests         ] [testFailOnAddCellWithoutRow] before test
+[2020-02-16T16:20:50,747][INFO ][o.e.c.TableTests         ] [testFailOnAddCellWithoutRow] after test
+[2020-02-16T16:20:50,749][INFO ][o.e.c.TableTests         ] [testFailOnAddCellWithoutHeader] before test
+[2020-02-16T16:20:50,749][INFO ][o.e.c.TableTests         ] [testFailOnAddCellWithoutHeader] after test
+[2020-02-16T16:20:50,750][INFO ][o.e.c.TableTests         ] [testFailOnMoreCellsThanDeclared] before test
+[2020-02-16T16:20:50,751][INFO ][o.e.c.TableTests         ] [testFailOnMoreCellsThanDeclared] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

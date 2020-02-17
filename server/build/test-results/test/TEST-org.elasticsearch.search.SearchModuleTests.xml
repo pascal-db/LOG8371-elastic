@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.SearchModuleTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:38" hostname="Escoto-PC" time="0.036">
+  <properties/>
+  <testcase name="testRegisterHighlighter" classname="org.elasticsearch.search.SearchModuleTests" time="0.002"/>
+  <testcase name="testRegisterPipelineAggregation" classname="org.elasticsearch.search.SearchModuleTests" time="0.004"/>
+  <testcase name="testDoubleRegister" classname="org.elasticsearch.search.SearchModuleTests" time="0.01"/>
+  <testcase name="testRegisterRescorer" classname="org.elasticsearch.search.SearchModuleTests" time="0.003"/>
+  <testcase name="testRegisterSuggester" classname="org.elasticsearch.search.SearchModuleTests" time="0.005"/>
+  <testcase name="testRegisteredQueries" classname="org.elasticsearch.search.SearchModuleTests" time="0.004"/>
+  <testcase name="testRegisterAggregation" classname="org.elasticsearch.search.SearchModuleTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T19:24:38,918][INFO ][o.e.s.SearchModuleTests  ] [testRegisterHighlighter] before test
+[2020-02-16T19:24:38,919][INFO ][o.e.s.SearchModuleTests  ] [testRegisterHighlighter] after test
+[2020-02-16T19:24:38,921][INFO ][o.e.s.SearchModuleTests  ] [testRegisterPipelineAggregation] before test
+[2020-02-16T19:24:38,923][INFO ][o.e.s.SearchModuleTests  ] [testRegisterPipelineAggregation] after test
+[2020-02-16T19:24:38,924][INFO ][o.e.s.SearchModuleTests  ] [testDoubleRegister] before test
+[2020-02-16T19:24:38,932][INFO ][o.e.s.SearchModuleTests  ] [testDoubleRegister] after test
+[2020-02-16T19:24:38,934][INFO ][o.e.s.SearchModuleTests  ] [testRegisterRescorer] before test
+[2020-02-16T19:24:38,936][INFO ][o.e.s.SearchModuleTests  ] [testRegisterRescorer] after test
+[2020-02-16T19:24:38,937][INFO ][o.e.s.SearchModuleTests  ] [testRegisterSuggester] before test
+[2020-02-16T19:24:38,940][INFO ][o.e.s.SearchModuleTests  ] [testRegisterSuggester] after test
+[2020-02-16T19:24:38,943][INFO ][o.e.s.SearchModuleTests  ] [testRegisteredQueries] before test
+[2020-02-16T19:24:38,944][INFO ][o.e.s.SearchModuleTests  ] [testRegisteredQueries] after test
+[2020-02-16T19:24:38,952][INFO ][o.e.s.SearchModuleTests  ] [testRegisterAggregation] before test
+[2020-02-16T19:24:38,953][INFO ][o.e.s.SearchModuleTests  ] [testRegisterAggregation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

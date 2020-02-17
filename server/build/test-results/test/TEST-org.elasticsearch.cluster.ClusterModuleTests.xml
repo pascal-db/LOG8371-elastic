@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.ClusterModuleTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:31" hostname="Escoto-PC" time="0.112">
+  <properties/>
+  <testcase name="testRegisterShardsAllocator" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.01"/>
+  <testcase name="testRegisterClusterDynamicSetting" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.006"/>
+  <testcase name="testUnknownShardsAllocator" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.005"/>
+  <testcase name="testShardsAllocatorFactoryNull" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.019"/>
+  <testcase name="testPre63CustomsFiltering" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.018"/>
+  <testcase name="testRegisterIndexDynamicSettingDuplicate" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.004"/>
+  <testcase name="testRegisterAllocationDeciderDuplicate" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.007"/>
+  <testcase name="testRegisterShardsAllocatorAlreadyRegistered" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.013"/>
+  <testcase name="testRegisterAllocationDecider" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.005"/>
+  <testcase name="testRegisterIndexDynamicSetting" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.006"/>
+  <testcase name="testAllocationDeciderOrder" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.009"/>
+  <testcase name="testRegisterClusterDynamicSettingDuplicate" classname="org.elasticsearch.cluster.ClusterModuleTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T18:20:31,742][INFO ][o.e.c.ClusterModuleTests ] [testRegisterShardsAllocator] before test
+[2020-02-16T18:20:31,746][INFO ][o.e.c.ClusterModuleTests ] [testRegisterShardsAllocator] after test
+[2020-02-16T18:20:31,750][INFO ][o.e.c.ClusterModuleTests ] [testRegisterClusterDynamicSetting] before test
+[2020-02-16T18:20:31,752][INFO ][o.e.c.ClusterModuleTests ] [testRegisterClusterDynamicSetting] after test
+[2020-02-16T18:20:31,756][INFO ][o.e.c.ClusterModuleTests ] [testUnknownShardsAllocator] before test
+[2020-02-16T18:20:31,757][INFO ][o.e.c.ClusterModuleTests ] [testUnknownShardsAllocator] after test
+[2020-02-16T18:20:31,775][INFO ][o.e.c.ClusterModuleTests ] [testShardsAllocatorFactoryNull] before test
+[2020-02-16T18:20:31,776][INFO ][o.e.c.ClusterModuleTests ] [testShardsAllocatorFactoryNull] after test
+[2020-02-16T18:20:31,793][INFO ][o.e.c.ClusterModuleTests ] [testPre63CustomsFiltering] before test
+[2020-02-16T18:20:31,795][INFO ][o.e.c.ClusterModuleTests ] [testPre63CustomsFiltering] after test
+[2020-02-16T18:20:31,799][INFO ][o.e.c.ClusterModuleTests ] [testRegisterIndexDynamicSettingDuplicate] before test
+[2020-02-16T18:20:31,799][INFO ][o.e.c.ClusterModuleTests ] [testRegisterIndexDynamicSettingDuplicate] after test
+[2020-02-16T18:20:31,805][INFO ][o.e.c.ClusterModuleTests ] [testRegisterAllocationDeciderDuplicate] before test
+[2020-02-16T18:20:31,806][INFO ][o.e.c.ClusterModuleTests ] [testRegisterAllocationDeciderDuplicate] after test
+[2020-02-16T18:20:31,819][INFO ][o.e.c.ClusterModuleTests ] [testRegisterShardsAllocatorAlreadyRegistered] before test
+[2020-02-16T18:20:31,819][INFO ][o.e.c.ClusterModuleTests ] [testRegisterShardsAllocatorAlreadyRegistered] after test
+[2020-02-16T18:20:31,823][INFO ][o.e.c.ClusterModuleTests ] [testRegisterAllocationDecider] before test
+[2020-02-16T18:20:31,825][INFO ][o.e.c.ClusterModuleTests ] [testRegisterAllocationDecider] after test
+[2020-02-16T18:20:31,828][INFO ][o.e.c.ClusterModuleTests ] [testRegisterIndexDynamicSetting] before test
+[2020-02-16T18:20:31,832][INFO ][o.e.c.ClusterModuleTests ] [testRegisterIndexDynamicSetting] after test
+[2020-02-16T18:20:31,838][INFO ][o.e.c.ClusterModuleTests ] [testAllocationDeciderOrder] before test
+[2020-02-16T18:20:31,843][INFO ][o.e.c.ClusterModuleTests ] [testAllocationDeciderOrder] after test
+[2020-02-16T18:20:31,847][INFO ][o.e.c.ClusterModuleTests ] [testRegisterClusterDynamicSettingDuplicate] before test
+[2020-02-16T18:20:31,847][INFO ][o.e.c.ClusterModuleTests ] [testRegisterClusterDynamicSettingDuplicate] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

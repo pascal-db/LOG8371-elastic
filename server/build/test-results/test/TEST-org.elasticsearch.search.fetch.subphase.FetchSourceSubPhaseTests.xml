@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.fetch.subphase.FetchSourceSubPhaseTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:32" hostname="Escoto-PC" time="0.05">
+  <properties/>
+  <testcase name="testNestedSource" classname="org.elasticsearch.search.fetch.subphase.FetchSourceSubPhaseTests" time="0.004"/>
+  <testcase name="testNestedSourceWithSourceDisabled" classname="org.elasticsearch.search.fetch.subphase.FetchSourceSubPhaseTests" time="0.002"/>
+  <testcase name="testMultipleFiltering" classname="org.elasticsearch.search.fetch.subphase.FetchSourceSubPhaseTests" time="0.003"/>
+  <testcase name="testBasicFiltering" classname="org.elasticsearch.search.fetch.subphase.FetchSourceSubPhaseTests" time="0.003"/>
+  <testcase name="testFetchSource" classname="org.elasticsearch.search.fetch.subphase.FetchSourceSubPhaseTests" time="0.034"/>
+  <testcase name="testSourceDisabled" classname="org.elasticsearch.search.fetch.subphase.FetchSourceSubPhaseTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T03:54:32,859][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testNestedSource] before test
+[2020-02-17T03:54:32,861][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testNestedSource] after test
+[2020-02-17T03:54:32,862][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testNestedSourceWithSourceDisabled] before test
+[2020-02-17T03:54:32,863][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testNestedSourceWithSourceDisabled] after test
+[2020-02-17T03:54:32,864][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testMultipleFiltering] before test
+[2020-02-17T03:54:32,865][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testMultipleFiltering] after test
+[2020-02-17T03:54:32,867][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testBasicFiltering] before test
+[2020-02-17T03:54:32,868][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testBasicFiltering] after test
+[2020-02-17T03:54:32,903][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testFetchSource] before test
+[2020-02-17T03:54:32,903][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testFetchSource] after test
+[2020-02-17T03:54:32,905][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testSourceDisabled] before test
+[2020-02-17T03:54:32,907][INFO ][o.e.s.f.s.FetchSourceSubPhaseTests] [testSourceDisabled] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

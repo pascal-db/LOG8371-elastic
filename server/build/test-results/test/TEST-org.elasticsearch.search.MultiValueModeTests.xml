@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.MultiValueModeTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.026">
+  <properties/>
+  <testcase name="testSingleValuedOrds" classname="org.elasticsearch.search.MultiValueModeTests" time="0.003"/>
+  <testcase name="testMultiValuedStrings" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testWriteTo" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testValidOrdinals" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testMultiValuedDoubles" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testSingleValuedLongs" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testMultiValuedOrds" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testSingleValuedStrings" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testMultiValuedLongs" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testSingleValuedDoubles" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <testcase name="testFromString" classname="org.elasticsearch.search.MultiValueModeTests" time="0.001"/>
+  <testcase name="testReadFrom" classname="org.elasticsearch.search.MultiValueModeTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:25:35,784][INFO ][o.e.s.MultiValueModeTests] [testSingleValuedOrds] before test
+[2020-02-16T17:25:35,784][INFO ][o.e.s.MultiValueModeTests] [testSingleValuedOrds] after test
+[2020-02-16T17:25:35,786][INFO ][o.e.s.MultiValueModeTests] [testMultiValuedStrings] before test
+[2020-02-16T17:25:35,787][INFO ][o.e.s.MultiValueModeTests] [testMultiValuedStrings] after test
+[2020-02-16T17:25:35,789][INFO ][o.e.s.MultiValueModeTests] [testWriteTo] before test
+[2020-02-16T17:25:35,789][INFO ][o.e.s.MultiValueModeTests] [testWriteTo] after test
+[2020-02-16T17:25:35,790][INFO ][o.e.s.MultiValueModeTests] [testValidOrdinals] before test
+[2020-02-16T17:25:35,790][INFO ][o.e.s.MultiValueModeTests] [testValidOrdinals] after test
+[2020-02-16T17:25:35,791][INFO ][o.e.s.MultiValueModeTests] [testMultiValuedDoubles] before test
+[2020-02-16T17:25:35,793][INFO ][o.e.s.MultiValueModeTests] [testMultiValuedDoubles] after test
+[2020-02-16T17:25:35,795][INFO ][o.e.s.MultiValueModeTests] [testSingleValuedLongs] before test
+[2020-02-16T17:25:35,796][INFO ][o.e.s.MultiValueModeTests] [testSingleValuedLongs] after test
+[2020-02-16T17:25:35,797][INFO ][o.e.s.MultiValueModeTests] [testMultiValuedOrds] before test
+[2020-02-16T17:25:35,798][INFO ][o.e.s.MultiValueModeTests] [testMultiValuedOrds] after test
+[2020-02-16T17:25:35,799][INFO ][o.e.s.MultiValueModeTests] [testSingleValuedStrings] before test
+[2020-02-16T17:25:35,800][INFO ][o.e.s.MultiValueModeTests] [testSingleValuedStrings] after test
+[2020-02-16T17:25:35,802][INFO ][o.e.s.MultiValueModeTests] [testMultiValuedLongs] before test
+[2020-02-16T17:25:35,802][INFO ][o.e.s.MultiValueModeTests] [testMultiValuedLongs] after test
+[2020-02-16T17:25:35,804][INFO ][o.e.s.MultiValueModeTests] [testSingleValuedDoubles] before test
+[2020-02-16T17:25:35,804][INFO ][o.e.s.MultiValueModeTests] [testSingleValuedDoubles] after test
+[2020-02-16T17:25:35,806][INFO ][o.e.s.MultiValueModeTests] [testFromString] before test
+[2020-02-16T17:25:35,806][INFO ][o.e.s.MultiValueModeTests] [testFromString] after test
+[2020-02-16T17:25:35,807][INFO ][o.e.s.MultiValueModeTests] [testReadFrom] before test
+[2020-02-16T17:25:35,807][INFO ][o.e.s.MultiValueModeTests] [testReadFrom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

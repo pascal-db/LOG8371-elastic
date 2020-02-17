@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.reindex.LeaderBulkByScrollTaskStateTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:10" hostname="Escoto-PC" time="0.015">
+  <properties/>
+  <testcase name="testBasicData" classname="org.elasticsearch.index.reindex.LeaderBulkByScrollTaskStateTests" time="0.005"/>
+  <testcase name="testProgress" classname="org.elasticsearch.index.reindex.LeaderBulkByScrollTaskStateTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-17T09:23:10,162][INFO ][o.e.i.r.LeaderBulkByScrollTaskStateTests] [testBasicData] before test
+[2020-02-17T09:23:10,163][INFO ][o.e.i.r.LeaderBulkByScrollTaskStateTests] [testBasicData] after test
+[2020-02-17T09:23:10,166][INFO ][o.e.i.r.LeaderBulkByScrollTaskStateTests] [testProgress] before test
+[2020-02-17T09:23:10,173][INFO ][o.e.i.r.LeaderBulkByScrollTaskStateTests] [testProgress] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.index.fielddata.NoOrdinalsStringFieldDataTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.index.fielddata.NoOrdinalsStringFieldDataTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.index.fielddata.html">org.elasticsearch.index.fielddata</a> &gt; NoOrdinalsStringFieldDataTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">19</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">1</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">7.443s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox skipped" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testActualMissingValue</td>
+<td class="success">0.129s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testActualMissingValueReverse</td>
+<td class="success">0.141s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testDeletedDocs</td>
+<td class="success">0.118s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testEmpty</td>
+<td class="success">0.089s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGlobalOrdinals</td>
+<td class="success">0.106s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testGlobalOrdinalsGetRemovedOnceIndexReaderCloses</td>
+<td class="success">0.099s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMissingValueForAll</td>
+<td class="success">1.217s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiValueAllSet</td>
+<td class="success">0.137s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiValueWithMissing</td>
+<td class="success">0.097s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedSortingMax</td>
+<td class="success">0.537s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testNestedSortingMin</td>
+<td class="success">0.780s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleValueAllSet</td>
+<td class="success">0.165s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSingleValueWithMissing</td>
+<td class="success">0.099s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortMissingFirst</td>
+<td class="success">0.314s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortMissingFirstReverse</td>
+<td class="success">1.090s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortMissingLast</td>
+<td class="success">0.402s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortMissingLastReverse</td>
+<td class="success">1.516s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSortMultiValuesFields</td>
+<td class="success">0.314s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="skipped">testTermsEnum</td>
+<td class="skipped">-</td>
+<td class="skipped">ignored</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T04:22:03,056][INFO ][o.e.e.NodeEnvironment    ] [testMissingValueForAll] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T04:22:03,056][INFO ][o.e.e.NodeEnvironment    ] [testMissingValueForAll] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T04:22:03,059][INFO ][o.e.n.Node               ] [testMissingValueForAll] node name [node_s_0], node ID [zU9s6pnRSkWXqNYbJEYGmg], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[5903382364872973650]-HASH=[13933D50F69]]
+[2020-02-17T04:22:03,059][INFO ][o.e.n.Node               ] [testMissingValueForAll] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T04:22:03,059][INFO ][o.e.n.Node               ] [testMissingValueForAll] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T04:22:03,059][INFO ][o.e.n.Node               ] [testMissingValueForAll] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T04:22:03,059][INFO ][o.e.p.PluginsService     ] [testMissingValueForAll] no modules loaded
+[2020-02-17T04:22:03,059][INFO ][o.e.p.PluginsService     ] [testMissingValueForAll] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-17T04:22:03,059][INFO ][o.e.p.PluginsService     ] [testMissingValueForAll] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T04:22:03,059][INFO ][o.e.p.PluginsService     ] [testMissingValueForAll] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T04:22:03,370][INFO ][o.e.d.DiscoveryModule    ] [testMissingValueForAll] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T04:22:03,380][INFO ][o.e.n.Node               ] [testMissingValueForAll] initialized
+[2020-02-17T04:22:03,380][INFO ][o.e.n.Node               ] [testMissingValueForAll] starting ...
+[2020-02-17T04:22:03,951][INFO ][o.e.t.TransportService   ] [testMissingValueForAll] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-17T04:22:03,960][INFO ][o.e.c.c.Coordinator      ] [testMissingValueForAll] setting initial configuration to VotingConfiguration{zU9s6pnRSkWXqNYbJEYGmg}
+[2020-02-17T04:22:04,035][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{zU9s6pnRSkWXqNYbJEYGmg}{JfzbKe8kS46-Qijm6ZVYcw}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{zU9s6pnRSkWXqNYbJEYGmg}{JfzbKe8kS46-Qijm6ZVYcw}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-17T04:22:04,049][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [e16twLZVR_epl1iFabo0uw]
+[2020-02-17T04:22:04,059][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{zU9s6pnRSkWXqNYbJEYGmg}{JfzbKe8kS46-Qijm6ZVYcw}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T04:22:04,064][INFO ][o.e.n.Node               ] [testMissingValueForAll] started
+[2020-02-17T04:22:04,080][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T04:22:04,082][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T04:22:04,101][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T04:22:04,122][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testMissingValueForAll] before test
+[2020-02-17T04:22:04,125][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:04,210][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:04,226][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Eb10ADoSQluzOfQaPnOitA] deleting index
+[2020-02-17T04:22:04,260][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testMissingValueForAll] after test
+[2020-02-17T04:22:04,294][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMissingLastReverse] before test
+[2020-02-17T04:22:04,312][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:04,390][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:05,725][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/q_j0Ofk5RbmezCjPhUKBPA] deleting index
+[2020-02-17T04:22:05,775][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMissingLastReverse] after test
+[2020-02-17T04:22:05,792][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMultiValuesFields] before test
+[2020-02-17T04:22:05,812][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:06,034][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:06,055][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/tOfWr_ChSCm0SUdjGG-HMQ] deleting index
+[2020-02-17T04:22:06,089][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMultiValuesFields] after test
+[2020-02-17T04:22:06,092][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testTermsEnum] before test
+[2020-02-17T04:22:06,096][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:06,149][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:06,161][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/QH00HSHhSsSES1wWC8jafw] deleting index
+[2020-02-17T04:22:06,183][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testTermsEnum] after test
+[2020-02-17T04:22:06,186][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testActualMissingValue] before test
+[2020-02-17T04:22:06,187][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:06,244][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:06,282][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/M8oRZEX6QjWFdLj8BBlU6A] deleting index
+[2020-02-17T04:22:06,313][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testActualMissingValue] after test
+[2020-02-17T04:22:06,315][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testGlobalOrdinalsGetRemovedOnceIndexReaderCloses] before test
+[2020-02-17T04:22:06,317][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:06,373][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:06,390][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/3hhq7VGqSfC1PlqweBnpTQ] deleting index
+[2020-02-17T04:22:06,412][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testGlobalOrdinalsGetRemovedOnceIndexReaderCloses] after test
+[2020-02-17T04:22:06,415][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testEmpty] before test
+[2020-02-17T04:22:06,416][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:06,466][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:06,478][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/3KDbmYljT-yeDep9_7rZVw] deleting index
+[2020-02-17T04:22:06,502][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testEmpty] after test
+[2020-02-17T04:22:06,505][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testNestedSortingMax] before test
+[2020-02-17T04:22:06,506][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:06,567][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:06,873][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/JKXWkt4ATOCXa1_ujUs71w] deleting index
+[2020-02-17T04:22:07,039][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testNestedSortingMax] after test
+[2020-02-17T04:22:07,042][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMissingFirstReverse] before test
+[2020-02-17T04:22:07,044][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:07,109][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:08,056][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/OB7PddOxTA6ZW4etz-KjVQ] deleting index
+[2020-02-17T04:22:08,130][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMissingFirstReverse] after test
+[2020-02-17T04:22:08,135][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testActualMissingValueReverse] before test
+[2020-02-17T04:22:08,137][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:08,226][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:08,243][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/PjzC4jInRb-Lhq-uNhhFFw] deleting index
+[2020-02-17T04:22:08,271][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testActualMissingValueReverse] after test
+[2020-02-17T04:22:08,275][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testMultiValueAllSet] before test
+[2020-02-17T04:22:08,285][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:08,362][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:08,378][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/1SAq1XMhSx24UkdOMGO9VQ] deleting index
+[2020-02-17T04:22:08,408][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testMultiValueAllSet] after test
+[2020-02-17T04:22:08,413][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSingleValueWithMissing] before test
+[2020-02-17T04:22:08,422][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:08,474][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:08,485][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/pIHF-abzSeekrNZeqeeifg] deleting index
+[2020-02-17T04:22:08,510][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSingleValueWithMissing] after test
+[2020-02-17T04:22:08,512][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testMultiValueWithMissing] before test
+[2020-02-17T04:22:08,514][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:08,572][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:08,583][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/S_H81izVRom65rXe8eUbIQ] deleting index
+[2020-02-17T04:22:08,606][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testMultiValueWithMissing] after test
+[2020-02-17T04:22:08,609][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testGlobalOrdinals] before test
+[2020-02-17T04:22:08,613][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:08,670][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:08,688][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/uVPc5SBURMOjghQORElv4Q] deleting index
+[2020-02-17T04:22:08,713][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testGlobalOrdinals] after test
+[2020-02-17T04:22:08,716][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testDeletedDocs] before test
+[2020-02-17T04:22:08,717][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:08,785][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:08,802][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/l0RKaJbyQJmePaidcQhh2Q] deleting index
+[2020-02-17T04:22:08,831][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testDeletedDocs] after test
+[2020-02-17T04:22:08,834][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMissingLast] before test
+[2020-02-17T04:22:08,836][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:08,907][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:09,118][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/nBDVz6YsRSaW79XNeq3cBw] deleting index
+[2020-02-17T04:22:09,232][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMissingLast] after test
+[2020-02-17T04:22:09,248][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSingleValueAllSet] before test
+[2020-02-17T04:22:09,250][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:09,309][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:09,346][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/iYyyKlxRRuKt356iEG5Iqw] deleting index
+[2020-02-17T04:22:09,397][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSingleValueAllSet] after test
+[2020-02-17T04:22:09,402][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testNestedSortingMin] before test
+[2020-02-17T04:22:09,405][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:09,478][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:10,131][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/LZmT3gpYSAGls60HrO5AuQ] deleting index
+[2020-02-17T04:22:10,177][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testNestedSortingMin] after test
+[2020-02-17T04:22:10,186][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMissingFirst] before test
+[2020-02-17T04:22:10,264][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T04:22:10,327][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T04:22:10,436][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/n6AC3GPpTAOYdXMthZjHrg] deleting index
+[2020-02-17T04:22:10,491][INFO ][o.e.i.f.NoOrdinalsStringFieldDataTests] [testSortMissingFirst] after test
+[2020-02-17T04:22:10,492][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T04:22:10,496][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T04:22:10,496][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T04:22:10,496][INFO ][o.e.n.Node               ] [suite] closed
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.script.ClassPermissionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:18" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testPermissionCollection" classname="org.elasticsearch.script.ClassPermissionTests" time="0.003"/>
+  <testcase name="testPermissionCollectionStandard" classname="org.elasticsearch.script.ClassPermissionTests" time="0.001"/>
+  <testcase name="testEquals" classname="org.elasticsearch.script.ClassPermissionTests" time="0.002"/>
+  <testcase name="testPermissionCollectionWildcards" classname="org.elasticsearch.script.ClassPermissionTests" time="0.001"/>
+  <testcase name="testStandard" classname="org.elasticsearch.script.ClassPermissionTests" time="0.002"/>
+  <testcase name="testWildcards" classname="org.elasticsearch.script.ClassPermissionTests" time="0.001"/>
+  <testcase name="testImplies" classname="org.elasticsearch.script.ClassPermissionTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:25:18,432][INFO ][o.e.s.ClassPermissionTests] [testPermissionCollection] before test
+[2020-02-16T17:25:18,434][INFO ][o.e.s.ClassPermissionTests] [testPermissionCollection] after test
+[2020-02-16T17:25:18,435][INFO ][o.e.s.ClassPermissionTests] [testPermissionCollectionStandard] before test
+[2020-02-16T17:25:18,436][INFO ][o.e.s.ClassPermissionTests] [testPermissionCollectionStandard] after test
+[2020-02-16T17:25:18,437][INFO ][o.e.s.ClassPermissionTests] [testEquals] before test
+[2020-02-16T17:25:18,437][INFO ][o.e.s.ClassPermissionTests] [testEquals] after test
+[2020-02-16T17:25:18,439][INFO ][o.e.s.ClassPermissionTests] [testPermissionCollectionWildcards] before test
+[2020-02-16T17:25:18,439][INFO ][o.e.s.ClassPermissionTests] [testPermissionCollectionWildcards] after test
+[2020-02-16T17:25:18,440][INFO ][o.e.s.ClassPermissionTests] [testStandard] before test
+[2020-02-16T17:25:18,440][INFO ][o.e.s.ClassPermissionTests] [testStandard] after test
+[2020-02-16T17:25:18,442][INFO ][o.e.s.ClassPermissionTests] [testWildcards] before test
+[2020-02-16T17:25:18,442][INFO ][o.e.s.ClassPermissionTests] [testWildcards] after test
+[2020-02-16T17:25:18,443][INFO ][o.e.s.ClassPermissionTests] [testImplies] before test
+[2020-02-16T17:25:18,443][INFO ][o.e.s.ClassPermissionTests] [testImplies] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

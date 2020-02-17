@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.settings.SettingTests" tests="52" skipped="1" failures="0" errors="0" timestamp="2020-02-16T22:21:54" hostname="Escoto-PC" time="0.176">
+  <properties/>
+  <testcase name="testDefault" classname="org.elasticsearch.common.settings.SettingTests" time="0.005"/>
+  <testcase name="testTimeValueBounds" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testCompositeValidator" classname="org.elasticsearch.common.settings.SettingTests" time="0.007"/>
+  <testcase name="testTimeValue" classname="org.elasticsearch.common.settings.SettingTests" time="0.005"/>
+  <testcase name="testComplexType" classname="org.elasticsearch.common.settings.SettingTests" time="0.004"/>
+  <testcase name="testValidator" classname="org.elasticsearch.common.settings.SettingTests" time="0.004"/>
+  <testcase name="testListSettingAcceptsNumberSyntax" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testAffixSettingsFailOnGet" classname="org.elasticsearch.common.settings.SettingTests" time="0.007"/>
+  <testcase name="testSettingsGroupUpdater" classname="org.elasticsearch.common.settings.SettingTests" time="0.004"/>
+  <testcase name="testSimpleUpdateOfFilteredSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testGetAllConcreteSettings" classname="org.elasticsearch.common.settings.SettingTests" time="0.007"/>
+  <testcase name="testRejectNonIndexScopedPrivateIndexSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.004"/>
+  <testcase name="testAffixSettingNamespaces" classname="org.elasticsearch.common.settings.SettingTests" time="0.005"/>
+  <testcase name="testSettingsGroupUpdaterWithAffixSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testListSettingsDeprecated" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testFilteredBooleanSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testAffixMapUpdateWithNullSettingValue" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testRejectNonIndexScopedNotCopyableOnResizeSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testExistsWithFallback" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testRejectNullProperties" classname="org.elasticsearch.common.settings.SettingTests" time="0.006"/>
+  <testcase name="testAffixKeySetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.004"/>
+  <testcase name="testDynamicKeySetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.001"/>
+  <testcase name="testUpdateNotDynamic" classname="org.elasticsearch.common.settings.SettingTests" time="0.001"/>
+  <testcase name="testGroups" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testAffixNamespacesWithGroupSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testNonSecureSettingInKeystore" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testValidatorForFilteredStringSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testByteSizeSettingMaxValue" classname="org.elasticsearch.common.settings.SettingTests" time="0.004"/>
+  <testcase name="testMemorySize" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testFilteredDoubleSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testAffixAsMap" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testGet" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testListSettings" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testFilteredTimeSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testByteSizeSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.001"/>
+  <testcase name="testUpdaterIsIsolated" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testSettingsGroupUpdaterRemoval" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testFilteredFloatSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testSimpleUpdate" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testByteSizeSettingMinValue" classname="org.elasticsearch.common.settings.SettingTests" time="0.004"/>
+  <testcase name="testMutuallyExclusiveScopes" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testRejectConflictingDynamicAndFinalProperties" classname="org.elasticsearch.common.settings.SettingTests" time="0.005"/>
+  <testcase name="testFilteredGroups" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testRejectNonIndexScopedInternalIndexSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.001"/>
+  <testcase name="testComposite" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testMinMaxInt" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testValidateStringSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testFilteredIntSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testExists" classname="org.elasticsearch.common.settings.SettingTests" time="0.002"/>
+  <testcase name="testType" classname="org.elasticsearch.common.settings.SettingTests" time="0.012"/>
+  <testcase name="testFilteredLongSetting" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <testcase name="testByteSizeSettingValidation" classname="org.elasticsearch.common.settings.SettingTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T18:21:54,496][INFO ][o.e.c.s.SettingTests     ] [testDefault] before test
+[2020-02-16T18:21:54,498][INFO ][o.e.c.s.SettingTests     ] [testDefault] after test
+[2020-02-16T18:21:54,501][INFO ][o.e.c.s.SettingTests     ] [testTimeValueBounds] before test
+[2020-02-16T18:21:54,502][INFO ][o.e.c.s.SettingTests     ] [testTimeValueBounds] after test
+[2020-02-16T18:21:54,508][INFO ][o.e.c.s.SettingTests     ] [testCompositeValidator] before test
+[2020-02-16T18:21:54,509][INFO ][o.e.c.s.SettingTests     ] [testCompositeValidator] updating [foo.int.bar.a] from [1] to [2]
+[2020-02-16T18:21:54,509][INFO ][o.e.c.s.SettingTests     ] [testCompositeValidator] updating [foo.int.bar.b] from [1] to [5]
+[2020-02-16T18:21:54,509][INFO ][o.e.c.s.SettingTests     ] [testCompositeValidator] updating [foo.int.bar.a] from [2] to [1]
+[2020-02-16T18:21:54,509][INFO ][o.e.c.s.SettingTests     ] [testCompositeValidator] updating [foo.int.bar.b] from [5] to [1]
+[2020-02-16T18:21:54,509][INFO ][o.e.c.s.SettingTests     ] [testCompositeValidator] after test
+[2020-02-16T18:21:54,513][INFO ][o.e.c.s.SettingTests     ] [testTimeValue] before test
+[2020-02-16T18:21:54,514][INFO ][o.e.c.s.SettingTests     ] [testTimeValue] after test
+[2020-02-16T18:21:54,517][INFO ][o.e.c.s.SettingTests     ] [testComplexType] before test
+[2020-02-16T18:21:54,518][INFO ][o.e.c.s.SettingTests     ] [testComplexType] updating [foo.bar] from [] to [2]
+[2020-02-16T18:21:54,518][INFO ][o.e.c.s.SettingTests     ] [testComplexType] updating [foo.bar] from [2] to []
+[2020-02-16T18:21:54,518][INFO ][o.e.c.s.SettingTests     ] [testComplexType] after test
+[2020-02-16T18:21:54,522][INFO ][o.e.c.s.SettingTests     ] [testValidator] before test
+[2020-02-16T18:21:54,522][INFO ][o.e.c.s.SettingTests     ] [testValidator] after test
+[2020-02-16T18:21:54,524][INFO ][o.e.c.s.SettingTests     ] [testListSettingAcceptsNumberSyntax] before test
+[2020-02-16T18:21:54,524][INFO ][o.e.c.s.SettingTests     ] [testListSettingAcceptsNumberSyntax] after test
+[2020-02-16T18:21:54,530][INFO ][o.e.c.s.SettingTests     ] [testAffixSettingsFailOnGet] before test
+[2020-02-16T18:21:54,531][INFO ][o.e.c.s.SettingTests     ] [testAffixSettingsFailOnGet] after test
+[2020-02-16T18:21:54,534][INFO ][o.e.c.s.SettingTests     ] [testSettingsGroupUpdater] before test
+[2020-02-16T18:21:54,535][INFO ][o.e.c.s.SettingTests     ] [testSettingsGroupUpdater] after test
+[2020-02-16T18:21:54,538][INFO ][o.e.c.s.SettingTests     ] [testSimpleUpdateOfFilteredSetting] before test
+[2020-02-16T18:21:54,538][INFO ][o.e.c.s.SettingTests     ] [testSimpleUpdateOfFilteredSetting] after test
+[2020-02-16T18:21:54,542][INFO ][o.e.c.s.SettingTests     ] [testGetAllConcreteSettings] before test
+[2020-02-16T18:21:54,545][INFO ][o.e.c.s.SettingTests     ] [testGetAllConcreteSettings] after test
+[2020-02-16T18:21:54,549][INFO ][o.e.c.s.SettingTests     ] [testRejectNonIndexScopedPrivateIndexSetting] before test
+[2020-02-16T18:21:54,550][INFO ][o.e.c.s.SettingTests     ] [testRejectNonIndexScopedPrivateIndexSetting] after test
+[2020-02-16T18:21:54,554][INFO ][o.e.c.s.SettingTests     ] [testAffixSettingNamespaces] before test
+[2020-02-16T18:21:54,555][INFO ][o.e.c.s.SettingTests     ] [testAffixSettingNamespaces] after test
+[2020-02-16T18:21:54,557][INFO ][o.e.c.s.SettingTests     ] [testSettingsGroupUpdaterWithAffixSetting] before test
+[2020-02-16T18:21:54,558][INFO ][o.e.c.s.SettingTests     ] [testSettingsGroupUpdaterWithAffixSetting] after test
+[2020-02-16T18:21:54,559][INFO ][o.e.c.s.SettingTests     ] [testListSettingsDeprecated] before test
+[2020-02-16T18:21:54,560][WARN ][o.e.d.c.s.Settings       ] [testListSettingsDeprecated] [foo.deprecated] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-16T18:21:54,561][INFO ][o.e.c.s.SettingTests     ] [testListSettingsDeprecated] after test
+[2020-02-16T18:21:54,563][INFO ][o.e.c.s.SettingTests     ] [testFilteredBooleanSetting] before test
+[2020-02-16T18:21:54,563][INFO ][o.e.c.s.SettingTests     ] [testFilteredBooleanSetting] after test
+[2020-02-16T18:21:54,565][INFO ][o.e.c.s.SettingTests     ] [testAffixMapUpdateWithNullSettingValue] before test
+[2020-02-16T18:21:54,566][INFO ][o.e.c.s.SettingTests     ] [testAffixMapUpdateWithNullSettingValue] after test
+[2020-02-16T18:21:54,568][INFO ][o.e.c.s.SettingTests     ] [testRejectNonIndexScopedNotCopyableOnResizeSetting] before test
+[2020-02-16T18:21:54,569][INFO ][o.e.c.s.SettingTests     ] [testRejectNonIndexScopedNotCopyableOnResizeSetting] after test
+[2020-02-16T18:21:54,572][INFO ][o.e.c.s.SettingTests     ] [testExistsWithFallback] before test
+[2020-02-16T18:21:54,572][INFO ][o.e.c.s.SettingTests     ] [testExistsWithFallback] after test
+[2020-02-16T18:21:54,574][INFO ][o.e.c.s.SettingTests     ] [testRejectNullProperties] before test
+[2020-02-16T18:21:54,578][INFO ][o.e.c.s.SettingTests     ] [testRejectNullProperties] after test
+[2020-02-16T18:21:54,581][INFO ][o.e.c.s.SettingTests     ] [testAffixKeySetting] before test
+[2020-02-16T18:21:54,582][INFO ][o.e.c.s.SettingTests     ] [testAffixKeySetting] after test
+[2020-02-16T18:21:54,583][INFO ][o.e.c.s.SettingTests     ] [testDynamicKeySetting] before test
+[2020-02-16T18:21:54,584][INFO ][o.e.c.s.SettingTests     ] [testDynamicKeySetting] after test
+[2020-02-16T18:21:54,585][INFO ][o.e.c.s.SettingTests     ] [testUpdateNotDynamic] before test
+[2020-02-16T18:21:54,585][INFO ][o.e.c.s.SettingTests     ] [testUpdateNotDynamic] after test
+[2020-02-16T18:21:54,587][INFO ][o.e.c.s.SettingTests     ] [testGroups] before test
+[2020-02-16T18:21:54,588][INFO ][o.e.c.s.SettingTests     ] [testGroups] updating [foo.bar.] from [{}] to [{"1":{"value":"1"},"2":{"value":"2"},"3":{"value":"3"}}]
+[2020-02-16T18:21:54,588][INFO ][o.e.c.s.SettingTests     ] [testGroups] updating [foo.bar.] from [{"1":{"value":"1"},"2":{"value":"2"},"3":{"value":"3"}}] to [{"1":{"value":"1"},"2":{"value":"2"}}]
+[2020-02-16T18:21:54,588][INFO ][o.e.c.s.SettingTests     ] [testGroups] updating [foo.bar.] from [{"1":{"value":"1"},"2":{"value":"2"}}] to [{"1":{"value":"1"},"2":{"value":"4"}}]
+[2020-02-16T18:21:54,588][INFO ][o.e.c.s.SettingTests     ] [testGroups] after test
+[2020-02-16T18:21:54,590][INFO ][o.e.c.s.SettingTests     ] [testAffixNamespacesWithGroupSetting] before test
+[2020-02-16T18:21:54,590][INFO ][o.e.c.s.SettingTests     ] [testAffixNamespacesWithGroupSetting] after test
+[2020-02-16T18:21:54,592][INFO ][o.e.c.s.SettingTests     ] [testNonSecureSettingInKeystore] before test
+[2020-02-16T18:21:54,593][INFO ][o.e.c.s.SettingTests     ] [testNonSecureSettingInKeystore] after test
+[2020-02-16T18:21:54,594][INFO ][o.e.c.s.SettingTests     ] [testValidatorForFilteredStringSetting] before test
+[2020-02-16T18:21:54,595][INFO ][o.e.c.s.SettingTests     ] [testValidatorForFilteredStringSetting] after test
+[2020-02-16T18:21:54,598][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSettingMaxValue] before test
+[2020-02-16T18:21:54,599][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSettingMaxValue] after test
+[2020-02-16T18:21:54,601][INFO ][o.e.c.s.SettingTests     ] [testMemorySize] before test
+[2020-02-16T18:21:54,602][INFO ][o.e.c.s.SettingTests     ] [testMemorySize] updating [a.byte.size] from [25%] to [12b]
+[2020-02-16T18:21:54,602][INFO ][o.e.c.s.SettingTests     ] [testMemorySize] updating [a.byte.size] from [25%] to [20%]
+[2020-02-16T18:21:54,602][INFO ][o.e.c.s.SettingTests     ] [testMemorySize] after test
+[2020-02-16T18:21:54,604][INFO ][o.e.c.s.SettingTests     ] [testFilteredDoubleSetting] before test
+[2020-02-16T18:21:54,605][INFO ][o.e.c.s.SettingTests     ] [testFilteredDoubleSetting] after test
+[2020-02-16T18:21:54,607][INFO ][o.e.c.s.SettingTests     ] [testAffixAsMap] before test
+[2020-02-16T18:21:54,608][INFO ][o.e.c.s.SettingTests     ] [testAffixAsMap] after test
+[2020-02-16T18:21:54,610][INFO ][o.e.c.s.SettingTests     ] [testGet] before test
+[2020-02-16T18:21:54,610][INFO ][o.e.c.s.SettingTests     ] [testGet] after test
+[2020-02-16T18:21:54,611][INFO ][o.e.c.s.SettingTests     ] [testListSettings] before test
+[2020-02-16T18:21:54,612][INFO ][o.e.c.s.SettingTests     ] [testListSettings] updating [foo.bar] from [["foo,bar"]] to [["test","test1, test2","test",",,,,"]]
+[2020-02-16T18:21:54,612][INFO ][o.e.c.s.SettingTests     ] [testListSettings] updating [foo.bar] from [["test","test1, test2","test",",,,,"]] to [["123"]]
+[2020-02-16T18:21:54,612][INFO ][o.e.c.s.SettingTests     ] [testListSettings] updating [foo.bar] from [["123"]] to [["1","2","3"]]
+[2020-02-16T18:21:54,612][INFO ][o.e.c.s.SettingTests     ] [testListSettings] updating [foo.bar] from [["1","2","3"]] to [["foo,bar"]]
+[2020-02-16T18:21:54,612][INFO ][o.e.c.s.SettingTests     ] [testListSettings] after test
+[2020-02-16T18:21:54,614][INFO ][o.e.c.s.SettingTests     ] [testFilteredTimeSetting] before test
+[2020-02-16T18:21:54,615][INFO ][o.e.c.s.SettingTests     ] [testFilteredTimeSetting] after test
+[2020-02-16T18:21:54,616][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSetting] before test
+[2020-02-16T18:21:54,616][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSetting] after test
+[2020-02-16T18:21:54,619][INFO ][o.e.c.s.SettingTests     ] [testUpdaterIsIsolated] before test
+[2020-02-16T18:21:54,619][INFO ][o.e.c.s.SettingTests     ] [testUpdaterIsIsolated] updating [foo.bar] from [false] to [true]
+[2020-02-16T18:21:54,619][INFO ][o.e.c.s.SettingTests     ] [testUpdaterIsIsolated] after test
+[2020-02-16T18:21:54,621][INFO ][o.e.c.s.SettingTests     ] [testSettingsGroupUpdaterRemoval] before test
+[2020-02-16T18:21:54,621][INFO ][o.e.c.s.SettingTests     ] [testSettingsGroupUpdaterRemoval] after test
+[2020-02-16T18:21:54,623][INFO ][o.e.c.s.SettingTests     ] [testFilteredFloatSetting] before test
+[2020-02-16T18:21:54,623][INFO ][o.e.c.s.SettingTests     ] [testFilteredFloatSetting] after test
+[2020-02-16T18:21:54,626][INFO ][o.e.c.s.SettingTests     ] [testSimpleUpdate] before test
+[2020-02-16T18:21:54,626][INFO ][o.e.c.s.SettingTests     ] [testSimpleUpdate] updating [foo.bar] from [false] to [true]
+[2020-02-16T18:21:54,626][INFO ][o.e.c.s.SettingTests     ] [testSimpleUpdate] after test
+[2020-02-16T18:21:54,629][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSettingMinValue] before test
+[2020-02-16T18:21:54,630][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSettingMinValue] after test
+[2020-02-16T18:21:54,632][INFO ][o.e.c.s.SettingTests     ] [testMutuallyExclusiveScopes] before test
+[2020-02-16T18:21:54,632][INFO ][o.e.c.s.SettingTests     ] [testMutuallyExclusiveScopes] after test
+[2020-02-16T18:21:54,637][INFO ][o.e.c.s.SettingTests     ] [testRejectConflictingDynamicAndFinalProperties] before test
+[2020-02-16T18:21:54,638][INFO ][o.e.c.s.SettingTests     ] [testRejectConflictingDynamicAndFinalProperties] after test
+[2020-02-16T18:21:54,640][INFO ][o.e.c.s.SettingTests     ] [testFilteredGroups] before test
+[2020-02-16T18:21:54,641][INFO ][o.e.c.s.SettingTests     ] [testFilteredGroups] after test
+[2020-02-16T18:21:54,642][INFO ][o.e.c.s.SettingTests     ] [testRejectNonIndexScopedInternalIndexSetting] before test
+[2020-02-16T18:21:54,642][INFO ][o.e.c.s.SettingTests     ] [testRejectNonIndexScopedInternalIndexSetting] after test
+[2020-02-16T18:21:54,644][INFO ][o.e.c.s.SettingTests     ] [testComposite] before test
+[2020-02-16T18:21:54,644][INFO ][o.e.c.s.SettingTests     ] [testComposite] updating [foo.int.bar.a] from [1] to [2]
+[2020-02-16T18:21:54,644][INFO ][o.e.c.s.SettingTests     ] [testComposite] updating [foo.int.bar.b] from [1] to [5]
+[2020-02-16T18:21:54,644][INFO ][o.e.c.s.SettingTests     ] [testComposite] updating [foo.int.bar.a] from [2] to [1]
+[2020-02-16T18:21:54,644][INFO ][o.e.c.s.SettingTests     ] [testComposite] updating [foo.int.bar.b] from [5] to [1]
+[2020-02-16T18:21:54,644][INFO ][o.e.c.s.SettingTests     ] [testComposite] after test
+[2020-02-16T18:21:54,646][INFO ][o.e.c.s.SettingTests     ] [testMinMaxInt] before test
+[2020-02-16T18:21:54,646][INFO ][o.e.c.s.SettingTests     ] [testMinMaxInt] after test
+[2020-02-16T18:21:54,648][INFO ][o.e.c.s.SettingTests     ] [testFilteredIntSetting] before test
+[2020-02-16T18:21:54,648][INFO ][o.e.c.s.SettingTests     ] [testFilteredIntSetting] after test
+[2020-02-16T18:21:54,650][INFO ][o.e.c.s.SettingTests     ] [testExists] before test
+[2020-02-16T18:21:54,650][INFO ][o.e.c.s.SettingTests     ] [testExists] after test
+[2020-02-16T18:21:54,662][INFO ][o.e.c.s.SettingTests     ] [testType] before test
+[2020-02-16T18:21:54,662][INFO ][o.e.c.s.SettingTests     ] [testType] after test
+[2020-02-16T18:21:54,665][INFO ][o.e.c.s.SettingTests     ] [testFilteredLongSetting] before test
+[2020-02-16T18:21:54,666][INFO ][o.e.c.s.SettingTests     ] [testFilteredLongSetting] after test
+[2020-02-16T18:21:54,668][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSettingValidation] before test
+[2020-02-16T18:21:54,669][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSettingValidation] updating [a.byte.size] from [2048b] to [12b]
+[2020-02-16T18:21:54,669][INFO ][o.e.c.s.SettingTests     ] [testByteSizeSettingValidation] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

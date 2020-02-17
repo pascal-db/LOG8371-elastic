@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.range.InternalRangeTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:21" hostname="Escoto-PC" time="0.059">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.range.InternalRangeTests" time="0.005"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.range.InternalRangeTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.range.InternalRangeTests" time="0.011"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.range.InternalRangeTests" time="0.022"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.range.InternalRangeTests" time="0.003"/>
+  <testcase name="testIterators" classname="org.elasticsearch.search.aggregations.bucket.range.InternalRangeTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-16T14:24:21,437][INFO ][o.e.s.a.b.r.InternalRangeTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T14:24:21,440][INFO ][o.e.s.a.b.r.InternalRangeTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T14:24:21,444][INFO ][o.e.s.a.b.r.InternalRangeTests] [testReduceRandom] before test
+[2020-02-16T14:24:21,444][INFO ][o.e.s.a.b.r.InternalRangeTests] [testReduceRandom] after test
+[2020-02-16T14:24:21,446][INFO ][o.e.s.a.b.r.InternalRangeTests] [testFromXContent] before test
+[2020-02-16T14:24:21,456][INFO ][o.e.s.a.b.r.InternalRangeTests] [testFromXContent] after test
+[2020-02-16T14:24:21,459][INFO ][o.e.s.a.b.r.InternalRangeTests] [testEqualsAndHashcode] before test
+[2020-02-16T14:24:21,478][INFO ][o.e.s.a.b.r.InternalRangeTests] [testEqualsAndHashcode] after test
+[2020-02-16T14:24:21,480][INFO ][o.e.s.a.b.r.InternalRangeTests] [testSerialization] before test
+[2020-02-16T14:24:21,481][INFO ][o.e.s.a.b.r.InternalRangeTests] [testSerialization] after test
+[2020-02-16T14:24:21,484][INFO ][o.e.s.a.b.r.InternalRangeTests] [testIterators] before test
+[2020-02-16T14:24:21,493][INFO ][o.e.s.a.b.r.InternalRangeTests] [testIterators] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

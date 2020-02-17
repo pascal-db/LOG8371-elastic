@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" tests="27" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:39" hostname="Escoto-PC" time="3.22">
+  <properties/>
+  <testcase name="testNumberQueryContextParsingBasic" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="1.063"/>
+  <testcase name="testNULLQueryContextParsingBasic" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.006"/>
+  <testcase name="testQueryContextParsingObjectArray" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.006"/>
+  <testcase name="testIndexingWithSimpleContexts" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.149"/>
+  <testcase name="testIndexingWithSimpleNULLContexts" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.245"/>
+  <testcase name="testIndexingWithMixedTypeContextList" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.283"/>
+  <testcase name="testIndexingWithMultipleContexts" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.131"/>
+  <testcase name="testQueryContextParsingMixedTypeObjectArrayHavingNULL" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.005"/>
+  <testcase name="testParsingContextFromDocument" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.004"/>
+  <testcase name="testQueryContextParsingObjectHavingBoolean" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.002"/>
+  <testcase name="testIndexingWithSimpleNumberContexts" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.292"/>
+  <testcase name="testBooleanQueryContextParsingBasic" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.005"/>
+  <testcase name="testQueryContextParsingMixedTypeObjectArray" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.003"/>
+  <testcase name="testQueryContextParsingObjectHavingNULL" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.003"/>
+  <testcase name="testQueryContextParsingArray" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.003"/>
+  <testcase name="testIndexingWithSimpleBooleanContexts" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.176"/>
+  <testcase name="testQueryContextParsingMixedTypeValuesArray" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.017"/>
+  <testcase name="testIndexingWithMixedTypeContextListHavingNULL" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.181"/>
+  <testcase name="testUnknownQueryContextParsing" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.147"/>
+  <testcase name="testIndexingWithContextList" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.2"/>
+  <testcase name="testQueryContextParsingMixed" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.004"/>
+  <testcase name="testQueryContextParsingMixedHavingNULL" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.037"/>
+  <testcase name="testIndexingWithNoContexts" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.239"/>
+  <testcase name="testQueryContextParsingMixedTypeValuesArrayHavingNULL" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.009"/>
+  <testcase name="testQueryContextParsingObjectHavingNumber" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.002"/>
+  <testcase name="testQueryContextParsingObject" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.002"/>
+  <testcase name="testQueryContextParsingBasic" classname="org.elasticsearch.search.suggest.completion.CategoryContextMappingTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T06:24:39,843][INFO ][o.e.e.NodeEnvironment    ] [testNumberQueryContextParsingBasic] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T06:24:39,844][INFO ][o.e.e.NodeEnvironment    ] [testNumberQueryContextParsingBasic] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T06:24:39,846][INFO ][o.e.n.Node               ] [testNumberQueryContextParsingBasic] node name [node_s_0], node ID [2eEFSf3rRHCB_2aBQ2piYA], cluster name [single-node-cluster-TEST_WORKER_VM=[13]-CLUSTER_SEED=[-1589597293030771880]-HASH=[15DB4F524AE]]
+[2020-02-17T06:24:39,846][INFO ][o.e.n.Node               ] [testNumberQueryContextParsingBasic] version[7.5.1], pid[5104], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T06:24:39,846][INFO ][o.e.n.Node               ] [testNumberQueryContextParsingBasic] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T06:24:39,846][INFO ][o.e.n.Node               ] [testNumberQueryContextParsingBasic] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T06:24:39,847][INFO ][o.e.p.PluginsService     ] [testNumberQueryContextParsingBasic] no modules loaded
+[2020-02-17T06:24:39,847][INFO ][o.e.p.PluginsService     ] [testNumberQueryContextParsingBasic] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T06:24:39,847][INFO ][o.e.p.PluginsService     ] [testNumberQueryContextParsingBasic] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T06:24:40,134][INFO ][o.e.d.DiscoveryModule    ] [testNumberQueryContextParsingBasic] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T06:24:40,145][INFO ][o.e.n.Node               ] [testNumberQueryContextParsingBasic] initialized
+[2020-02-17T06:24:40,145][INFO ][o.e.n.Node               ] [testNumberQueryContextParsingBasic] starting ...
+[2020-02-17T06:24:40,687][INFO ][o.e.t.TransportService   ] [testNumberQueryContextParsingBasic] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-17T06:24:40,694][INFO ][o.e.c.c.Coordinator      ] [testNumberQueryContextParsingBasic] setting initial configuration to VotingConfiguration{2eEFSf3rRHCB_2aBQ2piYA}
+[2020-02-17T06:24:40,793][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{2eEFSf3rRHCB_2aBQ2piYA}{EztZsjO7QeCDybKakNt10Q}{127.0.0.1}{127.0.0.1:11600}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{2eEFSf3rRHCB_2aBQ2piYA}{EztZsjO7QeCDybKakNt10Q}{127.0.0.1}{127.0.0.1:11600}{dim}]}
+[2020-02-17T06:24:40,801][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [JyDCdzxkSLiSwSzG7sUnng]
+[2020-02-17T06:24:40,811][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{2eEFSf3rRHCB_2aBQ2piYA}{EztZsjO7QeCDybKakNt10Q}{127.0.0.1}{127.0.0.1:11600}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T06:24:40,832][INFO ][o.e.n.Node               ] [testNumberQueryContextParsingBasic] started
+[2020-02-17T06:24:40,866][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T06:24:40,868][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T06:24:40,883][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T06:24:40,892][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testNumberQueryContextParsingBasic] before test
+[2020-02-17T06:24:40,893][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testNumberQueryContextParsingBasic] after test
+[2020-02-17T06:24:40,899][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testNULLQueryContextParsingBasic] before test
+[2020-02-17T06:24:40,899][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testNULLQueryContextParsingBasic] after test
+[2020-02-17T06:24:40,905][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObjectArray] before test
+[2020-02-17T06:24:40,905][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObjectArray] after test
+[2020-02-17T06:24:40,912][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithSimpleContexts] before test
+[2020-02-17T06:24:40,914][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:40,991][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:41,013][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithSimpleContexts] after test
+[2020-02-17T06:24:41,013][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/vbtlQVEbQLuiz-_nwC8aJg] deleting index
+[2020-02-17T06:24:41,071][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithSimpleNULLContexts] before test
+[2020-02-17T06:24:41,072][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:41,153][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:41,223][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithSimpleNULLContexts] after test
+[2020-02-17T06:24:41,224][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/fPsDhFG-TQqJ3_prhHt1eQ] deleting index
+[2020-02-17T06:24:41,304][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithMixedTypeContextList] before test
+[2020-02-17T06:24:41,306][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:41,389][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:41,402][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithMixedTypeContextList] after test
+[2020-02-17T06:24:41,403][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/lMR46lSSTxi5BynaWsnMAQ] deleting index
+[2020-02-17T06:24:41,587][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithMultipleContexts] before test
+[2020-02-17T06:24:41,588][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:41,653][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:41,681][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithMultipleContexts] after test
+[2020-02-17T06:24:41,682][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/SkranjGqSEqLYeechwsHsA] deleting index
+[2020-02-17T06:24:41,720][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedTypeObjectArrayHavingNULL] before test
+[2020-02-17T06:24:41,720][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedTypeObjectArrayHavingNULL] after test
+[2020-02-17T06:24:41,723][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testParsingContextFromDocument] before test
+[2020-02-17T06:24:41,724][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testParsingContextFromDocument] after test
+[2020-02-17T06:24:41,727][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObjectHavingBoolean] before test
+[2020-02-17T06:24:41,727][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObjectHavingBoolean] after test
+[2020-02-17T06:24:41,729][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithSimpleNumberContexts] before test
+[2020-02-17T06:24:41,738][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:41,815][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:41,837][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithSimpleNumberContexts] after test
+[2020-02-17T06:24:41,838][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/nIyWOHXmS0C4NipDIO_LGw] deleting index
+[2020-02-17T06:24:42,023][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testBooleanQueryContextParsingBasic] before test
+[2020-02-17T06:24:42,023][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testBooleanQueryContextParsingBasic] after test
+[2020-02-17T06:24:42,026][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedTypeObjectArray] before test
+[2020-02-17T06:24:42,026][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedTypeObjectArray] after test
+[2020-02-17T06:24:42,029][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObjectHavingNULL] before test
+[2020-02-17T06:24:42,029][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObjectHavingNULL] after test
+[2020-02-17T06:24:42,032][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingArray] before test
+[2020-02-17T06:24:42,032][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingArray] after test
+[2020-02-17T06:24:42,035][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithSimpleBooleanContexts] before test
+[2020-02-17T06:24:42,070][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:42,154][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:42,175][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithSimpleBooleanContexts] after test
+[2020-02-17T06:24:42,175][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/uZcMZ26tQ92nF4lC0TTfig] deleting index
+[2020-02-17T06:24:42,226][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedTypeValuesArray] before test
+[2020-02-17T06:24:42,226][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedTypeValuesArray] after test
+[2020-02-17T06:24:42,230][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithMixedTypeContextListHavingNULL] before test
+[2020-02-17T06:24:42,241][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:42,334][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:42,374][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithMixedTypeContextListHavingNULL] after test
+[2020-02-17T06:24:42,375][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/wPp5yMxyRHSMbLXYHWaVaw] deleting index
+[2020-02-17T06:24:42,420][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testUnknownQueryContextParsing] before test
+[2020-02-17T06:24:42,426][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings [type1]
+[2020-02-17T06:24:42,507][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:42,520][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testUnknownQueryContextParsing] after test
+[2020-02-17T06:24:42,520][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/gYAX_HrNSey9iu4K-Y2nTQ] deleting index
+[2020-02-17T06:24:42,567][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithContextList] before test
+[2020-02-17T06:24:42,570][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:42,688][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:42,716][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithContextList] after test
+[2020-02-17T06:24:42,720][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/ZYjVS6NwSXuJBgcHuvG0Uw] deleting index
+[2020-02-17T06:24:42,758][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixed] before test
+[2020-02-17T06:24:42,758][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixed] after test
+[2020-02-17T06:24:42,795][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedHavingNULL] before test
+[2020-02-17T06:24:42,795][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedHavingNULL] after test
+[2020-02-17T06:24:42,845][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithNoContexts] before test
+[2020-02-17T06:24:42,848][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [one_shard_index_template, random-soft-deletes-template], shards [1]/[0], mappings []
+[2020-02-17T06:24:42,994][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T06:24:43,007][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testIndexingWithNoContexts] after test
+[2020-02-17T06:24:43,007][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/bEkQdcWCSmC5z3n1V5w8-g] deleting index
+[2020-02-17T06:24:43,043][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedTypeValuesArrayHavingNULL] before test
+[2020-02-17T06:24:43,043][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingMixedTypeValuesArrayHavingNULL] after test
+[2020-02-17T06:24:43,046][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObjectHavingNumber] before test
+[2020-02-17T06:24:43,046][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObjectHavingNumber] after test
+[2020-02-17T06:24:43,048][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObject] before test
+[2020-02-17T06:24:43,048][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingObject] after test
+[2020-02-17T06:24:43,050][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingBasic] before test
+[2020-02-17T06:24:43,050][INFO ][o.e.s.s.c.CategoryContextMappingTests] [testQueryContextParsingBasic] after test
+[2020-02-17T06:24:43,051][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T06:24:43,064][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T06:24:43,064][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T06:24:43,065][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

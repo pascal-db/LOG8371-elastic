@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.structure.RoutingIteratorTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:39" hostname="Escoto-PC" time="0.051">
+  <properties/>
+  <testcase name="testShardsAndPreferNodeRouting" classname="org.elasticsearch.cluster.structure.RoutingIteratorTests" time="0.009"/>
+  <testcase name="testAttributePreferenceRouting" classname="org.elasticsearch.cluster.structure.RoutingIteratorTests" time="0.013"/>
+  <testcase name="testReplicaShardPreferenceIters" classname="org.elasticsearch.cluster.structure.RoutingIteratorTests" time="0.004"/>
+  <testcase name="testIterator2" classname="org.elasticsearch.cluster.structure.RoutingIteratorTests" time="0.004"/>
+  <testcase name="testEmptyIterator" classname="org.elasticsearch.cluster.structure.RoutingIteratorTests" time="0.002"/>
+  <testcase name="testIterator1" classname="org.elasticsearch.cluster.structure.RoutingIteratorTests" time="0.003"/>
+  <testcase name="testNodeSelectorRouting" classname="org.elasticsearch.cluster.structure.RoutingIteratorTests" time="0.005"/>
+  <testcase name="testRandomRouting" classname="org.elasticsearch.cluster.structure.RoutingIteratorTests" time="0.01"/>
+  <system-out><![CDATA[[2020-02-16T19:21:39,678][INFO ][o.e.c.s.RoutingIteratorTests] [testShardsAndPreferNodeRouting] before test
+[2020-02-16T19:21:39,682][INFO ][o.e.c.r.a.AllocationService] [testShardsAndPreferNodeRouting] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][4], [test][3], [test][2], [test][0]]]).
+[2020-02-16T19:21:39,685][INFO ][o.e.c.s.RoutingIteratorTests] [testShardsAndPreferNodeRouting] after test
+[2020-02-16T19:21:39,693][INFO ][o.e.c.s.RoutingIteratorTests] [testAttributePreferenceRouting] before test
+[2020-02-16T19:21:39,697][INFO ][o.e.c.r.a.AllocationService] [testAttributePreferenceRouting] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-16T19:21:39,698][INFO ][o.e.c.s.RoutingIteratorTests] [testAttributePreferenceRouting] after test
+[2020-02-16T19:21:39,700][INFO ][o.e.c.s.RoutingIteratorTests] [testReplicaShardPreferenceIters] before test
+[2020-02-16T19:21:39,702][INFO ][o.e.c.s.RoutingIteratorTests] [testReplicaShardPreferenceIters] after test
+[2020-02-16T19:21:39,706][INFO ][o.e.c.s.RoutingIteratorTests] [testIterator2] before test
+[2020-02-16T19:21:39,706][INFO ][o.e.c.s.RoutingIteratorTests] [testIterator2] after test
+[2020-02-16T19:21:39,708][INFO ][o.e.c.s.RoutingIteratorTests] [testEmptyIterator] before test
+[2020-02-16T19:21:39,709][INFO ][o.e.c.s.RoutingIteratorTests] [testEmptyIterator] after test
+[2020-02-16T19:21:39,711][INFO ][o.e.c.s.RoutingIteratorTests] [testIterator1] before test
+[2020-02-16T19:21:39,711][INFO ][o.e.c.s.RoutingIteratorTests] [testIterator1] after test
+[2020-02-16T19:21:39,714][INFO ][o.e.c.s.RoutingIteratorTests] [testNodeSelectorRouting] before test
+[2020-02-16T19:21:39,717][INFO ][o.e.c.s.RoutingIteratorTests] [testNodeSelectorRouting] after test
+[2020-02-16T19:21:39,725][INFO ][o.e.c.s.RoutingIteratorTests] [testRandomRouting] before test
+[2020-02-16T19:21:39,727][INFO ][o.e.c.s.RoutingIteratorTests] [testRandomRouting] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

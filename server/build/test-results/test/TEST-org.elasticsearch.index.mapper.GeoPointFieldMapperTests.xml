@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" tests="20" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:06" hostname="Escoto-PC" time="5.369">
+  <properties/>
+  <testcase name="testLonLatArrayArrayStored" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="1.491"/>
+  <testcase name="testLatLonInOneValueArray" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.227"/>
+  <testcase name="testInvalidGeohashIgnored" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.204"/>
+  <testcase name="testLatLonInOneValueStored" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.237"/>
+  <testcase name="testNullValue" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.14"/>
+  <testcase name="testLonLatArrayDynamic" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.148"/>
+  <testcase name="testLatLonStringWithZValueException" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.141"/>
+  <testcase name="testLonLatArray" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.11"/>
+  <testcase name="testWKT" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.117"/>
+  <testcase name="testArrayLatLonValues" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.108"/>
+  <testcase name="testInvalidGeohashNotIgnored" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.124"/>
+  <testcase name="testLonLatArrayStored" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.195"/>
+  <testcase name="testIgnoreZValue" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.343"/>
+  <testcase name="testEmptyName" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.097"/>
+  <testcase name="testLatLonStringWithZValue" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.118"/>
+  <testcase name="testLatLonValuesStored" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.108"/>
+  <testcase name="testLatLonInOneValue" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.094"/>
+  <testcase name="testGeoHashValue" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.095"/>
+  <testcase name="testInvalidGeopointValuesIgnored" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="0.161"/>
+  <testcase name="testMultiField" classname="org.elasticsearch.index.mapper.GeoPointFieldMapperTests" time="1.109"/>
+  <system-out><![CDATA[[2020-02-17T05:23:06,951][INFO ][o.e.e.NodeEnvironment    ] [testLonLatArrayArrayStored] using [1] data paths, mounts [[Old HDD (E:)]], net usable_space [89.5gb], net total_space [232.8gb], types [NTFS]
+[2020-02-17T05:23:06,952][INFO ][o.e.e.NodeEnvironment    ] [testLonLatArrayArrayStored] heap size [512mb], compressed ordinary object pointers [true]
+[2020-02-17T05:23:06,954][INFO ][o.e.n.Node               ] [testLonLatArrayArrayStored] node name [node_s_0], node ID [0_0bHZFgT9WBwlkwm33CKQ], cluster name [single-node-cluster-TEST_WORKER_VM=[12]-CLUSTER_SEED=[1726265122993626356]-HASH=[14814477CC1]]
+[2020-02-17T05:23:06,954][INFO ][o.e.n.Node               ] [testLonLatArrayArrayStored] version[7.5.1], pid[2148], build[unknown/unknown/unknown/unknown], OS[Windows 7/6.1/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/12.0.2/12.0.2+10]
+[2020-02-17T05:23:06,954][INFO ][o.e.n.Node               ] [testLonLatArrayArrayStored] JVM home [C:\Program Files\Java\jdk-12.0.2]
+[2020-02-17T05:23:06,954][INFO ][o.e.n.Node               ] [testLonLatArrayArrayStored] JVM arguments [-Dcompiler.java=12, -Des.scripting.update.ctx_in_params=false, -Des.transport.cname_in_publish_address=true, -Dgradle.dist.lib=C:\Users\Escoto\.gradle\wrapper\dists\gradle-5.6.2-bin\3clyn6icets6f02ptgd5hlmou\gradle-5.6.2\lib, -Dgradle.user.home=C:\Users\Escoto\.gradle, -Dgradle.worker.jar=C:\Users\Escoto\.gradle/caches/5.6.2/workerMain/gradle-worker.jar, -Dio.netty.noKeySetOptimization=true, -Dio.netty.noUnsafe=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Djava.awt.headless=true, -Djna.nosys=true, -Dorg.gradle.native=false, -Druntime.java=12, -Dtests.artifact=server, -Dtests.gradle=true, -Dtests.logger.level=WARN, -Dtests.security.manager=true, -Dtests.seed=9EA1F2A3814E5F76, -Dtests.task=:server:test, -Dtests.timeoutSuite=1800000!, -esa, --illegal-access=warn, -XX:+HeapDumpOnOutOfMemoryError, -XX:HeapDumpPath=E:\NotD\git\elasticsearch\server\build\heapdump, -Xms512m, -Xmx512m, -Dfile.encoding=windows-1252, -Djava.io.tmpdir=./temp, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+[2020-02-17T05:23:06,955][INFO ][o.e.p.PluginsService     ] [testLonLatArrayArrayStored] no modules loaded
+[2020-02-17T05:23:06,955][INFO ][o.e.p.PluginsService     ] [testLonLatArrayArrayStored] loaded plugin [org.elasticsearch.test.InternalSettingsPlugin]
+[2020-02-17T05:23:06,955][INFO ][o.e.p.PluginsService     ] [testLonLatArrayArrayStored] loaded plugin [org.elasticsearch.test.MockHttpTransport$TestPlugin]
+[2020-02-17T05:23:06,955][INFO ][o.e.p.PluginsService     ] [testLonLatArrayArrayStored] loaded plugin [org.elasticsearch.transport.nio.MockNioTransportPlugin]
+[2020-02-17T05:23:07,211][INFO ][o.e.d.DiscoveryModule    ] [testLonLatArrayArrayStored] using discovery type [zen] and seed hosts providers [settings]
+[2020-02-17T05:23:07,219][INFO ][o.e.n.Node               ] [testLonLatArrayArrayStored] initialized
+[2020-02-17T05:23:07,220][INFO ][o.e.n.Node               ] [testLonLatArrayArrayStored] starting ...
+[2020-02-17T05:23:08,105][INFO ][o.e.t.TransportService   ] [testLonLatArrayArrayStored] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T05:23:08,116][INFO ][o.e.c.c.Coordinator      ] [testLonLatArrayArrayStored] setting initial configuration to VotingConfiguration{0_0bHZFgT9WBwlkwm33CKQ}
+[2020-02-17T05:23:08,203][INFO ][o.e.c.s.MasterService    ] [node_s_0] elected-as-master ([1] nodes joined)[{node_s_0}{0_0bHZFgT9WBwlkwm33CKQ}{0SOcarocRci3nVZd0iGSRw}{127.0.0.1}{127.0.0.1:11500}{dim} elect leader, _BECOME_MASTER_TASK_, _FINISH_ELECTION_], term: 1, version: 1, delta: master node changed {previous [], current [{node_s_0}{0_0bHZFgT9WBwlkwm33CKQ}{0SOcarocRci3nVZd0iGSRw}{127.0.0.1}{127.0.0.1:11500}{dim}]}
+[2020-02-17T05:23:08,231][INFO ][o.e.c.c.CoordinationState] [node_s_0] cluster UUID set to [j8hduCRIS1K7qijX_YUIfg]
+[2020-02-17T05:23:08,242][INFO ][o.e.c.s.ClusterApplierService] [node_s_0] master node changed {previous [], current [{node_s_0}{0_0bHZFgT9WBwlkwm33CKQ}{0SOcarocRci3nVZd0iGSRw}{127.0.0.1}{127.0.0.1:11500}{dim}]}, term: 1, version: 1, reason: Publication{term=1, version=1}
+[2020-02-17T05:23:08,243][INFO ][o.e.n.Node               ] [testLonLatArrayArrayStored] started
+[2020-02-17T05:23:08,251][INFO ][o.e.g.GatewayService     ] [node_s_0] recovered [0] indices into cluster_state
+[2020-02-17T05:23:08,252][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [one_shard_index_template] for index patterns [*]
+[2020-02-17T05:23:08,267][INFO ][o.e.c.m.MetaDataIndexTemplateService] [node_s_0] adding template [random-soft-deletes-template] for index patterns [*]
+[2020-02-17T05:23:08,282][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLonLatArrayArrayStored] before test
+[2020-02-17T05:23:08,283][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:08,378][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:08,405][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLonLatArrayArrayStored] after test
+[2020-02-17T05:23:08,406][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/2SqLX_TNTfOqVo-j5FD99g] deleting index
+[2020-02-17T05:23:08,433][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonInOneValueArray] before test
+[2020-02-17T05:23:08,436][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:08,594][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:08,625][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonInOneValueArray] after test
+[2020-02-17T05:23:08,625][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/P-JGn9r-QFy_UuTAmTGsEQ] deleting index
+[2020-02-17T05:23:08,661][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testInvalidGeohashIgnored] before test
+[2020-02-17T05:23:08,679][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:08,823][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:08,833][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testInvalidGeohashIgnored] after test
+[2020-02-17T05:23:08,833][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/xoinOwVjT02Cwc9UH8WsNA] deleting index
+[2020-02-17T05:23:08,864][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonInOneValueStored] before test
+[2020-02-17T05:23:08,881][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:09,026][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:09,054][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonInOneValueStored] after test
+[2020-02-17T05:23:09,063][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/M0OsowaNT_6DMsC61tPz7g] deleting index
+[2020-02-17T05:23:09,105][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testNullValue] before test
+[2020-02-17T05:23:09,110][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:09,182][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:09,203][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testNullValue] after test
+[2020-02-17T05:23:09,209][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/p3LyxrxjTYCG7YbhqZTELA] deleting index
+[2020-02-17T05:23:09,247][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLonLatArrayDynamic] before test
+[2020-02-17T05:23:09,257][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:09,352][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:09,363][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLonLatArrayDynamic] after test
+[2020-02-17T05:23:09,364][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/GTMYxaDaQDuol9XmIWEd_w] deleting index
+[2020-02-17T05:23:09,412][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonStringWithZValueException] before test
+[2020-02-17T05:23:09,414][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:09,481][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:09,499][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonStringWithZValueException] after test
+[2020-02-17T05:23:09,501][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/fetWoGNvSL6mJnvc6a_0jg] deleting index
+[2020-02-17T05:23:09,530][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLonLatArray] before test
+[2020-02-17T05:23:09,532][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:09,597][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:09,611][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLonLatArray] after test
+[2020-02-17T05:23:09,611][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/-MdTaCRCSgC21q5Z2TF1mw] deleting index
+[2020-02-17T05:23:09,649][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testWKT] before test
+[2020-02-17T05:23:09,650][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:09,718][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:09,731][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testWKT] after test
+[2020-02-17T05:23:09,732][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/tALOjW6IT1WtgHv9A9dmpw] deleting index
+[2020-02-17T05:23:09,757][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testArrayLatLonValues] before test
+[2020-02-17T05:23:09,759][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:09,815][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:09,837][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testArrayLatLonValues] after test
+[2020-02-17T05:23:09,841][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/nq7Z--tKSAq0xUiyIZqVTA] deleting index
+[2020-02-17T05:23:09,866][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testInvalidGeohashNotIgnored] before test
+[2020-02-17T05:23:09,870][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:09,935][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:09,965][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testInvalidGeohashNotIgnored] after test
+[2020-02-17T05:23:09,966][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/JGLoBxSRQYea23maGEaq0w] deleting index
+[2020-02-17T05:23:09,994][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLonLatArrayStored] before test
+[2020-02-17T05:23:09,997][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:10,098][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:10,116][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLonLatArrayStored] after test
+[2020-02-17T05:23:10,120][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/xMFCN-0hRyy7jzW2v7qMxA] deleting index
+[2020-02-17T05:23:10,192][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testIgnoreZValue] before test
+[2020-02-17T05:23:10,219][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:10,398][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:10,417][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test2] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:10,480][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test2][0]]]).
+[2020-02-17T05:23:10,492][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testIgnoreZValue] after test
+[2020-02-17T05:23:10,492][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test2/UHa4ZTUeTmabbAdhG35BkQ] deleting index
+[2020-02-17T05:23:10,492][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Eu2KzZhCT6ShWWj7iA7sRg] deleting index
+[2020-02-17T05:23:10,528][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testEmptyName] before test
+[2020-02-17T05:23:10,532][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:10,593][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:10,603][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testEmptyName] after test
+[2020-02-17T05:23:10,603][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/Weu7FgBQRMyUkoyRbUf-Yg] deleting index
+[2020-02-17T05:23:10,626][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonStringWithZValue] before test
+[2020-02-17T05:23:10,627][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:10,697][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:10,708][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonStringWithZValue] after test
+[2020-02-17T05:23:10,710][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/691B5rgEQNewMuDcVfxhyA] deleting index
+[2020-02-17T05:23:10,743][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonValuesStored] before test
+[2020-02-17T05:23:10,745][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:10,815][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:10,828][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonValuesStored] after test
+[2020-02-17T05:23:10,828][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/QigvCSxmTTKpym9omi-8CQ] deleting index
+[2020-02-17T05:23:10,853][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonInOneValue] before test
+[2020-02-17T05:23:10,855][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:10,909][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:10,919][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testLatLonInOneValue] after test
+[2020-02-17T05:23:10,919][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/gImR77BMRMKD6ayDBYdJEw] deleting index
+[2020-02-17T05:23:10,948][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testGeoHashValue] before test
+[2020-02-17T05:23:10,950][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:11,003][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:11,015][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testGeoHashValue] after test
+[2020-02-17T05:23:11,015][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/ym6oy6TPRVWy2kb4YNfJWg] deleting index
+[2020-02-17T05:23:11,041][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testInvalidGeopointValuesIgnored] before test
+[2020-02-17T05:23:11,042][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings []
+[2020-02-17T05:23:11,101][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:11,118][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testInvalidGeopointValuesIgnored] after test
+[2020-02-17T05:23:11,130][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/CKoOXO6gQ6OYi5KoWzyhIA] deleting index
+[2020-02-17T05:23:11,206][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testMultiField] before test
+[2020-02-17T05:23:11,209][INFO ][o.e.c.m.MetaDataCreateIndexService] [node_s_0] [test] creating index, cause [api], templates [random-soft-deletes-template, one_shard_index_template], shards [1]/[0], mappings [pin]
+[2020-02-17T05:23:11,271][INFO ][o.e.c.r.a.AllocationService] [node_s_0] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][0]]]).
+[2020-02-17T05:23:12,183][INFO ][o.e.i.m.GeoPointFieldMapperTests] [testMultiField] after test
+[2020-02-17T05:23:12,209][INFO ][o.e.c.m.MetaDataDeleteIndexService] [node_s_0] [test/u8htQO1YRmGteVC3YyQSgg] deleting index
+[2020-02-17T05:23:12,310][INFO ][o.e.n.Node               ] [suite] stopping ...
+[2020-02-17T05:23:12,318][INFO ][o.e.n.Node               ] [suite] stopped
+[2020-02-17T05:23:12,318][INFO ][o.e.n.Node               ] [suite] closing ...
+[2020-02-17T05:23:12,319][INFO ][o.e.n.Node               ] [suite] closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

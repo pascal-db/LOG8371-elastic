@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.geometry.PolygonTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:50:25" hostname="Escoto-PC" time="0.047">
+  <properties/>
+  <testcase name="testVisitor" classname="org.elasticsearch.geometry.PolygonTests" time="0.007"/>
+  <testcase name="testWKTValidation" classname="org.elasticsearch.geometry.PolygonTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.geometry.PolygonTests" time="0.022"/>
+  <testcase name="testBasicSerialization" classname="org.elasticsearch.geometry.PolygonTests" time="0.004"/>
+  <testcase name="testInitValidation" classname="org.elasticsearch.geometry.PolygonTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.geometry.PolygonTests" time="0.005"/>
+  <system-out><![CDATA[[2020-02-16T22:50:25,026][INFO ][o.e.g.PolygonTests       ] [testVisitor] before test
+[2020-02-16T22:50:25,029][INFO ][o.e.g.PolygonTests       ] [testVisitor] after test
+[2020-02-16T22:50:25,031][INFO ][o.e.g.PolygonTests       ] [testWKTValidation] before test
+[2020-02-16T22:50:25,033][INFO ][o.e.g.PolygonTests       ] [testWKTValidation] after test
+[2020-02-16T22:50:25,037][INFO ][o.e.g.PolygonTests       ] [testEqualsAndHashcode] before test
+[2020-02-16T22:50:25,055][INFO ][o.e.g.PolygonTests       ] [testEqualsAndHashcode] after test
+[2020-02-16T22:50:25,058][INFO ][o.e.g.PolygonTests       ] [testBasicSerialization] before test
+[2020-02-16T22:50:25,059][INFO ][o.e.g.PolygonTests       ] [testBasicSerialization] after test
+[2020-02-16T22:50:25,062][INFO ][o.e.g.PolygonTests       ] [testInitValidation] before test
+[2020-02-16T22:50:25,063][INFO ][o.e.g.PolygonTests       ] [testInitValidation] after test
+[2020-02-16T22:50:25,067][INFO ][o.e.g.PolygonTests       ] [testSerialization] before test
+[2020-02-16T22:50:25,069][INFO ][o.e.g.PolygonTests       ] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

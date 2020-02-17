@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.PriorityTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:48" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testValueOf" classname="org.elasticsearch.common.PriorityTests" time="0.006"/>
+  <testcase name="testCompareTo" classname="org.elasticsearch.common.PriorityTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.common.PriorityTests" time="0.002"/>
+  <testcase name="testToString" classname="org.elasticsearch.common.PriorityTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:20:48,450][INFO ][o.e.c.PriorityTests      ] [testValueOf] before test
+[2020-02-16T17:20:48,453][INFO ][o.e.c.PriorityTests      ] [testValueOf] after test
+[2020-02-16T17:20:48,455][INFO ][o.e.c.PriorityTests      ] [testCompareTo] before test
+[2020-02-16T17:20:48,456][INFO ][o.e.c.PriorityTests      ] [testCompareTo] after test
+[2020-02-16T17:20:48,458][INFO ][o.e.c.PriorityTests      ] [testSerialization] before test
+[2020-02-16T17:20:48,458][INFO ][o.e.c.PriorityTests      ] [testSerialization] after test
+[2020-02-16T17:20:48,460][INFO ][o.e.c.PriorityTests      ] [testToString] before test
+[2020-02-16T17:20:48,460][INFO ][o.e.c.PriorityTests      ] [testToString] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

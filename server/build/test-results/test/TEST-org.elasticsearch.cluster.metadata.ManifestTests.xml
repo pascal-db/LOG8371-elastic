@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.ManifestTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:34" hostname="Escoto-PC" time="0.012">
+  <properties/>
+  <testcase name="testEqualsAndHashCode" classname="org.elasticsearch.cluster.metadata.ManifestTests" time="0.007"/>
+  <testcase name="testEmptyManifest" classname="org.elasticsearch.cluster.metadata.ManifestTests" time="0.003"/>
+  <testcase name="testXContent" classname="org.elasticsearch.cluster.metadata.ManifestTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T00:20:34,552][INFO ][o.e.c.m.ManifestTests    ] [testEqualsAndHashCode] before test
+[2020-02-17T00:20:34,555][INFO ][o.e.c.m.ManifestTests    ] [testEqualsAndHashCode] after test
+[2020-02-17T00:20:34,557][INFO ][o.e.c.m.ManifestTests    ] [testEmptyManifest] before test
+[2020-02-17T00:20:34,557][INFO ][o.e.c.m.ManifestTests    ] [testEmptyManifest] after test
+[2020-02-17T00:20:34,560][INFO ][o.e.c.m.ManifestTests    ] [testXContent] before test
+[2020-02-17T00:20:34,560][INFO ][o.e.c.m.ManifestTests    ] [testXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

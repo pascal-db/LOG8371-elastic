@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.client.transport.TransportClientNodesServiceTests" tests="5" skipped="1" failures="0" errors="0" timestamp="2020-02-16T22:20:29" hostname="Escoto-PC" time="1.915">
+  <properties/>
+  <testcase name="testListenerFailures" classname="org.elasticsearch.client.transport.TransportClientNodesServiceTests" time="0.0">
+    <skipped/>
+  </testcase>
+  <testcase name="testRemoveAddressSniff" classname="org.elasticsearch.client.transport.TransportClientNodesServiceTests" time="0.032"/>
+  <testcase name="testSniffNodesSamplerClosesConnections" classname="org.elasticsearch.client.transport.TransportClientNodesServiceTests" time="1.796"/>
+  <testcase name="testConnectedNodes" classname="org.elasticsearch.client.transport.TransportClientNodesServiceTests" time="0.078"/>
+  <testcase name="testRemoveAddressSimple" classname="org.elasticsearch.client.transport.TransportClientNodesServiceTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-16T23:20:29,231][INFO ][o.e.c.t.TransportClientNodesServiceTests] [testRemoveAddressSniff] before test
+[2020-02-16T23:20:29,262][INFO ][o.e.c.t.TransportClientNodesServiceTests] [testRemoveAddressSniff] after test
+[2020-02-16T23:20:29,264][INFO ][o.e.c.t.TransportClientNodesServiceTests] [testSniffNodesSamplerClosesConnections] before test
+[2020-02-16T23:20:29,579][INFO ][o.e.t.TransportService   ] [testSniffNodesSamplerClosesConnections] publish_address {127.0.0.1:11600}, bound_addresses {127.0.0.1:11600}, {[::1]:11600}
+[2020-02-16T23:20:29,980][INFO ][o.e.t.TransportService   ] [testSniffNodesSamplerClosesConnections] publish_address {127.0.0.1:11601}, bound_addresses {127.0.0.1:11601}, {[::1]:11601}
+[2020-02-16T23:20:31,048][INFO ][o.e.c.t.TransportClientNodesService] [testSniffNodesSamplerClosesConnections] failed to get local cluster state for {remote}{bAQv_iWJSVugXGc5HQZUOw}{hFg0s18RTc2j6h-YpbZM3g}{127.0.0.1}{127.0.0.1:11600}{dim}, disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [remote][127.0.0.1:11600][cluster:monitor/state] request_id [8] timed out after [1000ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1022) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T23:20:31,054][INFO ][o.e.c.t.TransportClientNodesService] [testSniffNodesSamplerClosesConnections] failed to get local cluster state for {#transport#-1}{qgKvtsltR8y__pIxUEOphA}{127.0.0.1}{127.0.0.1:11600}, disconnecting...
+org.elasticsearch.transport.ReceiveTimeoutTransportException: [][127.0.0.1:11600][cluster:monitor/state] request_id [10] timed out after [1000ms]
+	at org.elasticsearch.transport.TransportService$TimeoutHandler.run(TransportService.java:1022) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T23:20:31,058][INFO ][o.e.c.t.TransportClientNodesServiceTests] [testSniffNodesSamplerClosesConnections] after test
+[2020-02-16T23:20:31,060][INFO ][o.e.c.t.TransportClientNodesServiceTests] [testConnectedNodes] before test
+[2020-02-16T23:20:31,136][INFO ][o.e.c.t.TransportClientNodesServiceTests] [testConnectedNodes] after test
+[2020-02-16T23:20:31,138][INFO ][o.e.c.t.TransportClientNodesServiceTests] [testRemoveAddressSimple] before test
+[2020-02-16T23:20:31,144][INFO ][o.e.c.t.TransportClientNodesServiceTests] [testRemoveAddressSimple] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

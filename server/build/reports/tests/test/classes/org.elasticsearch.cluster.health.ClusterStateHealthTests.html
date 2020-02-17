@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.health.ClusterStateHealthTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.health.ClusterStateHealthTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.health.html">org.elasticsearch.cluster.health</a> &gt; ClusterStateHealthTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.069s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testClusterHealth</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterHealthOnClusterRecovery</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterHealthOnClusterRecoveryWithFailures</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterHealthOnClusterRecoveryWithPreviousAllocationIds</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterHealthOnClusterRecoveryWithPreviousAllocationIdsAndAllocationFailures</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterHealthOnIndexCreation</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterHealthOnIndexCreationWithFailedAllocations</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testClusterHealthWaitsForClusterStateApplication</td>
+<td class="success">0.023s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T06:21:32,917][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] before test
+[2020-02-17T06:21:32,925][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [{node}{zRu0C7QCTEScdt2Y8sNkhA}{0.0.0.0}{0.0.0.0:1}{dim}], current []}, term: 0, version: 1, reason: test setting state
+[2020-02-17T06:21:32,926][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] --&gt; submit task to restore master
+[2020-02-17T06:21:32,926][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] --&gt; waiting for listener to be called and cluster state being blocked
+[2020-02-17T06:21:32,927][INFO ][o.e.c.s.ClusterApplierService] [test] master node changed {previous [], current [{node}{zRu0C7QCTEScdt2Y8sNkhA}{0.0.0.0}{0.0.0.0:1}{dim}]}, term: 0, version: 1, reason: restore master
+[2020-02-17T06:21:32,927][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] --&gt; realising task to restore master
+[2020-02-17T06:21:32,927][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthWaitsForClusterStateApplication] after test
+[2020-02-17T06:21:32,933][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealth] before test
+[2020-02-17T06:21:32,936][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealth] cluster status: RED, expected RED
+[2020-02-17T06:21:32,936][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealth] after test
+[2020-02-17T06:21:32,942][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnIndexCreationWithFailedAllocations] before test
+[2020-02-17T06:21:32,944][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnIndexCreationWithFailedAllocations] after test
+[2020-02-17T06:21:32,946][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithPreviousAllocationIds] before test
+[2020-02-17T06:21:32,950][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithPreviousAllocationIds] after test
+[2020-02-17T06:21:32,952][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecovery] before test
+[2020-02-17T06:21:32,955][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecovery] after test
+[2020-02-17T06:21:32,957][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithFailures] before test
+[2020-02-17T06:21:32,961][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithFailures] after test
+[2020-02-17T06:21:32,963][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithPreviousAllocationIdsAndAllocationFailures] before test
+[2020-02-17T06:21:32,969][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnClusterRecoveryWithPreviousAllocationIdsAndAllocationFailures] after test
+[2020-02-17T06:21:32,972][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnIndexCreation] before test
+[2020-02-17T06:21:32,975][INFO ][o.e.c.h.ClusterStateHealthTests] [testClusterHealthOnIndexCreation] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

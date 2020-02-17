@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.coordination.LinearizabilityCheckerTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.coordination.html">org.elasticsearch.cluster.coordination</a> &gt; LinearizabilityCheckerTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">12</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.068s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testLockConsistent</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLockWithLinearizableHistory1</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLockWithLinearizableHistory2</td>
+<td class="success">0.019s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLockWithLinearizableHistory3</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLockWithNonLinearizableHistory</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiRegisterWithLinearizableHistory</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultiRegisterWithNonLinearizableHistory</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRegisterConsistent</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRegisterObservedSequenceOfUpdatesWitLinearizableHistory</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRegisterObservedSequenceOfUpdatesWithNonLinearizableHistory</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRegisterWithLinearizableHistory</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testRegisterWithNonLinearizableHistory</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T22:21:31,775][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterObservedSequenceOfUpdatesWitLinearizableHistory] before test
+[2020-02-16T22:21:31,777][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterObservedSequenceOfUpdatesWitLinearizableHistory] after test
+[2020-02-16T22:21:31,779][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithNonLinearizableHistory] before test
+[2020-02-16T22:21:31,779][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithNonLinearizableHistory] after test
+[2020-02-16T22:21:31,781][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterWithNonLinearizableHistory] before test
+[2020-02-16T22:21:31,782][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterWithNonLinearizableHistory] after test
+[2020-02-16T22:21:31,791][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterWithLinearizableHistory] before test
+[2020-02-16T22:21:31,792][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterWithLinearizableHistory] after test
+[2020-02-16T22:21:31,798][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory1] before test
+[2020-02-16T22:21:31,798][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory1] after test
+[2020-02-16T22:21:31,800][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterConsistent] before test
+[2020-02-16T22:21:31,800][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterConsistent] after test
+[2020-02-16T22:21:31,802][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory3] before test
+[2020-02-16T22:21:31,802][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory3] after test
+[2020-02-16T22:21:31,804][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterObservedSequenceOfUpdatesWithNonLinearizableHistory] before test
+[2020-02-16T22:21:31,804][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testRegisterObservedSequenceOfUpdatesWithNonLinearizableHistory] after test
+[2020-02-16T22:21:31,823][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory2] before test
+[2020-02-16T22:21:31,823][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockWithLinearizableHistory2] after test
+[2020-02-16T22:21:31,828][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testMultiRegisterWithNonLinearizableHistory] before test
+[2020-02-16T22:21:31,828][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testMultiRegisterWithNonLinearizableHistory] after test
+[2020-02-16T22:21:31,830][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockConsistent] before test
+[2020-02-16T22:21:31,830][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testLockConsistent] after test
+[2020-02-16T22:21:31,835][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testMultiRegisterWithLinearizableHistory] before test
+[2020-02-16T22:21:31,835][INFO ][o.e.c.c.LinearizabilityCheckerTests] [testMultiRegisterWithLinearizableHistory] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

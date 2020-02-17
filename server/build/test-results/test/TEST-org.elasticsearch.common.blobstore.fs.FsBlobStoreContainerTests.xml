@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.blobstore.fs.FsBlobStoreContainerTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:41" hostname="Escoto-PC" time="0.07">
+  <properties/>
+  <testcase name="testDeleteBlobs" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreContainerTests" time="0.015"/>
+  <testcase name="testList" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreContainerTests" time="0.024"/>
+  <testcase name="testDeleteBlob" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreContainerTests" time="0.009"/>
+  <testcase name="testReadNonExistingPath" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreContainerTests" time="0.003"/>
+  <testcase name="testVerifyOverwriteFails" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreContainerTests" time="0.008"/>
+  <testcase name="testWriteRead" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreContainerTests" time="0.007"/>
+  <testcase name="testDeleteBlobIgnoringIfNotExists" classname="org.elasticsearch.common.blobstore.fs.FsBlobStoreContainerTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-16T22:20:41,162][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testDeleteBlobs] before test
+[2020-02-16T22:20:41,175][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testDeleteBlobs] after test
+[2020-02-16T22:20:41,177][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testList] before test
+[2020-02-16T22:20:41,199][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testList] after test
+[2020-02-16T22:20:41,200][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testDeleteBlob] before test
+[2020-02-16T22:20:41,207][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testDeleteBlob] after test
+[2020-02-16T22:20:41,209][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testReadNonExistingPath] before test
+[2020-02-16T22:20:41,211][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testReadNonExistingPath] after test
+[2020-02-16T22:20:41,213][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testVerifyOverwriteFails] before test
+[2020-02-16T22:20:41,219][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testVerifyOverwriteFails] after test
+[2020-02-16T22:20:41,221][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testWriteRead] before test
+[2020-02-16T22:20:41,225][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testWriteRead] after test
+[2020-02-16T22:20:41,228][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testDeleteBlobIgnoringIfNotExists] before test
+[2020-02-16T22:20:41,229][INFO ][o.e.c.b.f.FsBlobStoreContainerTests] [testDeleteBlobIgnoringIfNotExists] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

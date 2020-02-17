@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.search.aggregations.bucket.histogram.RangeHistogramAggregatorTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.search.aggregations.bucket.histogram.html">org.elasticsearch.search.aggregations.bucket.histogram</a> &gt; RangeHistogramAggregatorTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.197s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testDoubles</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testIpRangesUnsupported</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLongs</td>
+<td class="success">0.029s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testLongsIrrationalInterval</td>
+<td class="success">0.021s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMinDocCount</td>
+<td class="success">0.031s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultipleRanges</td>
+<td class="success">0.012s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testMultipleRangesLotsOfOverlap</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOffset</td>
+<td class="success">0.015s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testOffsetGtInterval</td>
+<td class="success">0.045s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T16:24:17,978][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testOffset] before test
+[2020-02-16T16:24:17,989][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testOffset] after test
+[2020-02-16T16:24:17,992][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testLongsIrrationalInterval] before test
+[2020-02-16T16:24:18,010][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testLongsIrrationalInterval] after test
+[2020-02-16T16:24:18,017][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMultipleRangesLotsOfOverlap] before test
+[2020-02-16T16:24:18,021][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMultipleRangesLotsOfOverlap] after test
+[2020-02-16T16:24:18,034][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testOffsetGtInterval] before test
+[2020-02-16T16:24:18,067][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testOffsetGtInterval] after test
+[2020-02-16T16:24:18,069][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testDoubles] before test
+[2020-02-16T16:24:18,090][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testDoubles] after test
+[2020-02-16T16:24:18,105][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testLongs] before test
+[2020-02-16T16:24:18,119][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testLongs] after test
+[2020-02-16T16:24:18,122][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMinDocCount] before test
+[2020-02-16T16:24:18,151][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMinDocCount] after test
+[2020-02-16T16:24:18,152][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testIpRangesUnsupported] before test
+[2020-02-16T16:24:18,161][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testIpRangesUnsupported] after test
+[2020-02-16T16:24:18,171][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMultipleRanges] before test
+[2020-02-16T16:24:18,175][INFO ][o.e.s.a.b.h.RangeHistogramAggregatorTests] [testMultipleRanges] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

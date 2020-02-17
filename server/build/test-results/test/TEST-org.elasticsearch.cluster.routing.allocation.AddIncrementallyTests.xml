@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.AddIncrementallyTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.126">
+  <properties/>
+  <testcase name="testMinimalRelocations" classname="org.elasticsearch.cluster.routing.allocation.AddIncrementallyTests" time="0.03"/>
+  <testcase name="testAddNodesAndIndices" classname="org.elasticsearch.cluster.routing.allocation.AddIncrementallyTests" time="0.08"/>
+  <testcase name="testMinimalRelocationsNoLimit" classname="org.elasticsearch.cluster.routing.allocation.AddIncrementallyTests" time="0.016"/>
+  <system-out><![CDATA[[2020-02-17T02:20:37,173][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocations] before test
+[2020-02-17T02:20:37,176][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocations] start 1 nodes
+[2020-02-17T02:20:37,178][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocations] restart all the primary shards, replicas will start initializing
+[2020-02-17T02:20:37,179][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocations] start the replica shards
+[2020-02-17T02:20:37,180][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocations] complete rebalancing
+[2020-02-17T02:20:37,182][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocations] now, start [1] more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,186][INFO ][o.e.c.r.a.AllocationService] [testMinimalRelocations] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test0][2]]]).
+[2020-02-17T02:20:37,187][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocations] now, start one more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,190][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocations] after test
+[2020-02-17T02:20:37,211][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] before test
+[2020-02-17T02:20:37,214][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] start 1 nodes
+[2020-02-17T02:20:37,216][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] restart all the primary shards, replicas will start initializing
+[2020-02-17T02:20:37,218][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] start the replica shards
+[2020-02-17T02:20:37,219][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] complete rebalancing
+[2020-02-17T02:20:37,232][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] now, start [1] more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,237][INFO ][o.e.c.r.a.AllocationService] [testAddNodesAndIndices] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test0][2]]]).
+[2020-02-17T02:20:37,237][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] now, start [1] more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,240][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] now, start [1] more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,243][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] Removing [1] nodes
+[2020-02-17T02:20:37,245][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] start all the primary shards, replicas will start initializing
+[2020-02-17T02:20:37,246][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] start the replica shards
+[2020-02-17T02:20:37,247][INFO ][o.e.c.r.a.AllocationService] [testAddNodesAndIndices] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test0][0]]]).
+[2020-02-17T02:20:37,247][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] rebalancing
+[2020-02-17T02:20:37,247][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] complete rebalancing
+[2020-02-17T02:20:37,248][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] restart all the primary shards, replicas will start initializing
+[2020-02-17T02:20:37,249][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] start the replica shards
+[2020-02-17T02:20:37,250][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] complete rebalancing
+[2020-02-17T02:20:37,251][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] restart all the primary shards, replicas will start initializing
+[2020-02-17T02:20:37,252][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] start the replica shards
+[2020-02-17T02:20:37,254][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] complete rebalancing
+[2020-02-17T02:20:37,254][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] now, start [1] more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,256][INFO ][o.e.c.r.a.AllocationService] [testAddNodesAndIndices] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test3][1], [test3][0]]]).
+[2020-02-17T02:20:37,260][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] Removing [1] nodes
+[2020-02-17T02:20:37,262][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] start all the primary shards, replicas will start initializing
+[2020-02-17T02:20:37,263][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] start the replica shards
+[2020-02-17T02:20:37,264][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] rebalancing
+[2020-02-17T02:20:37,264][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] complete rebalancing
+[2020-02-17T02:20:37,264][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] now, start [1] more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,267][INFO ][o.e.c.r.a.AllocationService] [testAddNodesAndIndices] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test3][1], [test3][0]]]).
+[2020-02-17T02:20:37,270][INFO ][o.e.c.r.a.AddIncrementallyTests] [testAddNodesAndIndices] after test
+[2020-02-17T02:20:37,280][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocationsNoLimit] before test
+[2020-02-17T02:20:37,281][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocationsNoLimit] start 1 nodes
+[2020-02-17T02:20:37,282][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocationsNoLimit] restart all the primary shards, replicas will start initializing
+[2020-02-17T02:20:37,283][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocationsNoLimit] start the replica shards
+[2020-02-17T02:20:37,283][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocationsNoLimit] complete rebalancing
+[2020-02-17T02:20:37,283][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocationsNoLimit] now, start [1] more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,284][INFO ][o.e.c.r.a.AllocationService] [testMinimalRelocationsNoLimit] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][2], [test1][0], [test2][1], [test2][2], [test2][0], [test0][1], [test0][2], [test0][0]]]).
+[2020-02-17T02:20:37,284][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocationsNoLimit] now, start one more node, check that rebalancing will happen because we set it to always
+[2020-02-17T02:20:37,287][INFO ][o.e.c.r.a.AddIncrementallyTests] [testMinimalRelocationsNoLimit] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

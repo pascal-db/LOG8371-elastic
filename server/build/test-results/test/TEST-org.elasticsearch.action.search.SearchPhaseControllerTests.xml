@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.SearchPhaseControllerTests" tests="12" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:38" hostname="Escoto-PC" time="0.189">
+  <properties/>
+  <testcase name="testNewSearchPhaseResults" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.011"/>
+  <testcase name="testConsumerOnlyHits" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.007"/>
+  <testcase name="testSortDocsIsIdempotent" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.008"/>
+  <testcase name="testSortDocs" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.012"/>
+  <testcase name="testConsumerConcurrently" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.037"/>
+  <testcase name="testMerge" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.009"/>
+  <testcase name="testConsumerOnlyAggs" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.007"/>
+  <testcase name="testReduceTopNWithFromOffset" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.004"/>
+  <testcase name="testConsumerFieldCollapsing" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.004"/>
+  <testcase name="testConsumerSuggestions" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.056"/>
+  <testcase name="testConsumer" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.02"/>
+  <testcase name="testConsumerSortByField" classname="org.elasticsearch.action.search.SearchPhaseControllerTests" time="0.012"/>
+  <system-out><![CDATA[[2020-02-17T10:20:38,881][INFO ][o.e.a.s.SearchPhaseControllerTests] [testNewSearchPhaseResults] before test
+[2020-02-17T10:20:38,888][INFO ][o.e.a.s.SearchPhaseControllerTests] [testNewSearchPhaseResults] after test
+[2020-02-17T10:20:38,891][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerOnlyHits] before test
+[2020-02-17T10:20:38,895][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerOnlyHits] after test
+[2020-02-17T10:20:38,900][INFO ][o.e.a.s.SearchPhaseControllerTests] [testSortDocsIsIdempotent] before test
+[2020-02-17T10:20:38,903][INFO ][o.e.a.s.SearchPhaseControllerTests] [testSortDocsIsIdempotent] after test
+[2020-02-17T10:20:38,909][INFO ][o.e.a.s.SearchPhaseControllerTests] [testSortDocs] before test
+[2020-02-17T10:20:38,915][INFO ][o.e.a.s.SearchPhaseControllerTests] [testSortDocs] after test
+[2020-02-17T10:20:38,917][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerConcurrently] before test
+[2020-02-17T10:20:38,953][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerConcurrently] after test
+[2020-02-17T10:20:38,956][INFO ][o.e.a.s.SearchPhaseControllerTests] [testMerge] before test
+[2020-02-17T10:20:38,961][INFO ][o.e.a.s.SearchPhaseControllerTests] [testMerge] after test
+[2020-02-17T10:20:38,963][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerOnlyAggs] before test
+[2020-02-17T10:20:38,969][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerOnlyAggs] after test
+[2020-02-17T10:20:38,972][INFO ][o.e.a.s.SearchPhaseControllerTests] [testReduceTopNWithFromOffset] before test
+[2020-02-17T10:20:38,972][INFO ][o.e.a.s.SearchPhaseControllerTests] [testReduceTopNWithFromOffset] after test
+[2020-02-17T10:20:38,975][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerFieldCollapsing] before test
+[2020-02-17T10:20:38,977][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerFieldCollapsing] after test
+[2020-02-17T10:20:38,980][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerSuggestions] before test
+[2020-02-17T10:20:39,033][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerSuggestions] after test
+[2020-02-17T10:20:39,053][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumer] before test
+[2020-02-17T10:20:39,053][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumer] after test
+[2020-02-17T10:20:39,065][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerSortByField] before test
+[2020-02-17T10:20:39,066][INFO ][o.e.a.s.SearchPhaseControllerTests] [testConsumerSortByField] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

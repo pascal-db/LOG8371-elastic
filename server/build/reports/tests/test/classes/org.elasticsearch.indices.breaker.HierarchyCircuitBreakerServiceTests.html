@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.indices.breaker.HierarchyCircuitBreakerServiceTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.indices.breaker.HierarchyCircuitBreakerServiceTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.indices.breaker.html">org.elasticsearch.indices.breaker</a> &gt; HierarchyCircuitBreakerServiceTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">5</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.050s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testBorrowingSiblingBreakerMemory</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testParentBreaksOnRealMemoryUsage</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadedUpdatesToChildBreaker</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testThreadedUpdatesToChildBreakerWithParentLimit</td>
+<td class="success">0.022s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testTrippedCircuitBreakerDurability</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-16T12:23:44,905][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testParentBreaksOnRealMemoryUsage] before test
+[2020-02-16T12:23:44,909][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testParentBreaksOnRealMemoryUsage] after test
+[2020-02-16T12:23:44,912][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] before test
+[2020-02-16T12:23:44,917][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] --&gt; NUM_THREADS: [4], BYTES_PER_THREAD: [1757], TOTAL_BYTES: [7028], PARENT_LIMIT: [7026], CHILD_LIMIT: [7036]
+[2020-02-16T12:23:44,917][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] --&gt; starting threads...
+[2020-02-16T12:23:44,931][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [[Thread-720]] --&gt; parent tripped
+[2020-02-16T12:23:44,932][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [[Thread-720]] --&gt; parent tripped
+[2020-02-16T12:23:44,932][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] --&gt; child breaker: used: 7026, limit: 7036
+[2020-02-16T12:23:44,932][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] --&gt; parent tripped: 2, total trip count: 2 (expecting 1-2 for each)
+[2020-02-16T12:23:44,932][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreakerWithParentLimit] after test
+[2020-02-16T12:23:44,934][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testTrippedCircuitBreakerDurability] before test
+[2020-02-16T12:23:44,935][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testTrippedCircuitBreakerDurability] after test
+[2020-02-16T12:23:44,937][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testBorrowingSiblingBreakerMemory] before test
+[2020-02-16T12:23:44,938][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testBorrowingSiblingBreakerMemory] after test
+[2020-02-16T12:23:44,941][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreaker] before test
+[2020-02-16T12:23:44,953][WARN ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [[Thread-731]] [request] New used memory 20537 [20kb] for data of [test] would be larger than configured breaker: 20536 [20kb], breaking
+[2020-02-16T12:23:44,954][INFO ][o.e.i.b.HierarchyCircuitBreakerServiceTests] [testThreadedUpdatesToChildBreaker] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

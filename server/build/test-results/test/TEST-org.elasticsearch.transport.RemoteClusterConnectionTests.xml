@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.RemoteClusterConnectionTests" tests="22" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:00" hostname="Escoto-PC" time="20.823">
+  <properties/>
+  <testcase name="testCloseWhileConcurrentlyConnecting" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="1.109"/>
+  <testcase name="testGetConnection" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.768"/>
+  <testcase name="testSlowNodeCanBeCancelled" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.258"/>
+  <testcase name="testRenderConnectionInfoXContent" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.002"/>
+  <testcase name="testClusterNameIsChecked" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="1.262"/>
+  <testcase name="testProxyMode" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.758"/>
+  <testcase name="testDiscoverSingleNodeWithIncompatibleSeed" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="1.003"/>
+  <testcase name="testRemoteConnectionInfoBwComp" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.002"/>
+  <testcase name="testNodeDisconnected" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="2.003"/>
+  <testcase name="testRemoteConnectionInfo" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.002"/>
+  <testcase name="testFilterDiscoveredNodes" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.758"/>
+  <testcase name="testGetConnectionInfo" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="1.023"/>
+  <testcase name="testCollectNodes" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.511"/>
+  <testcase name="testTriggerUpdatesConcurrently" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="1.018"/>
+  <testcase name="testLazyResolveTransportAddress" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.775"/>
+  <testcase name="testRemoteProfileIsUsedForRemoteCluster" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.769"/>
+  <testcase name="testDiscoverSingleNode" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.756"/>
+  <testcase name="testConnectWithIncompatibleTransports" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.512"/>
+  <testcase name="testEnsureConnected" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.764"/>
+  <testcase name="testRemoteConnectionVersionMatchesTransportConnectionVersion" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.754"/>
+  <testcase name="testConnectedNodesConcurrentAccess" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="5.271"/>
+  <testcase name="testRemoteProfileIsUsedForLocalCluster" classname="org.elasticsearch.transport.RemoteClusterConnectionTests" time="0.744"/>
+  <system-out><![CDATA[[2020-02-17T02:26:00,531][INFO ][o.e.t.RemoteClusterConnectionTests] [testCloseWhileConcurrentlyConnecting] before test
+[2020-02-17T02:26:00,783][INFO ][o.e.t.TransportService   ] [testCloseWhileConcurrentlyConnecting] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:01,032][INFO ][o.e.t.TransportService   ] [testCloseWhileConcurrentlyConnecting] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:01,357][INFO ][o.e.t.TransportService   ] [testCloseWhileConcurrentlyConnecting] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:01,634][INFO ][o.e.t.TransportService   ] [testCloseWhileConcurrentlyConnecting] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-17T02:26:01,637][INFO ][o.e.t.RemoteClusterConnectionTests] [testCloseWhileConcurrentlyConnecting] after test
+[2020-02-17T02:26:01,639][INFO ][o.e.t.RemoteClusterConnectionTests] [testGetConnection] before test
+[2020-02-17T02:26:01,896][INFO ][o.e.t.TransportService   ] [testGetConnection] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:02,146][INFO ][o.e.t.TransportService   ] [testGetConnection] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:02,399][INFO ][o.e.t.TransportService   ] [testGetConnection] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:02,405][INFO ][o.e.t.RemoteClusterConnectionTests] [testGetConnection] after test
+[2020-02-17T02:26:02,407][INFO ][o.e.t.RemoteClusterConnectionTests] [testSlowNodeCanBeCancelled] before test
+[2020-02-17T02:26:02,659][INFO ][o.e.t.TransportService   ] [testSlowNodeCanBeCancelled] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:02,663][INFO ][o.e.t.RemoteClusterConnectionTests] [testSlowNodeCanBeCancelled] after test
+[2020-02-17T02:26:02,662][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.transport.RemoteClusterConnectionTests] fetching nodes from external cluster [test-cluster] failed
+org.elasticsearch.transport.ConnectTransportException: [][192.168.56.1:59686] general node connection failure
+	at org.elasticsearch.transport.TcpTransport$ChannelsConnectedListener.lambda$onResponse$2(TcpTransport.java:979) ~[main/:?]
+	at org.elasticsearch.action.ActionListener$1.onFailure(ActionListener.java:71) ~[main/:?]
+	at org.elasticsearch.transport.TransportHandshaker$HandshakeResponseHandler.handleLocalException(TransportHandshaker.java:155) ~[main/:?]
+	at org.elasticsearch.transport.TransportHandshaker.lambda$sendHandshake$0(TransportHandshaker.java:67) ~[main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$wrap$0(ActionListener.java:132) ~[main/:?]
+	at org.elasticsearch.action.ActionListener$1.onResponse(ActionListener.java:63) ~[main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$toBiConsumer$3(ActionListener.java:160) ~[main/:?]
+	at org.elasticsearch.common.concurrent.CompletableContext.lambda$addListener$0(CompletableContext.java:39) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2144) ~[?:?]
+	at org.elasticsearch.common.concurrent.CompletableContext.complete(CompletableContext.java:61) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.ChannelContext.closeFromSelector(ChannelContext.java:79) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.SocketChannelContext.closeFromSelector(SocketChannelContext.java:198) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleClose(EventHandler.java:240) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleClose(TestEventHandler.java:223) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.postHandling(EventHandler.java:198) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.processKey(NioSelector.java:250) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.singleLoop(NioSelector.java:174) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.runLoop(NioSelector.java:131) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: org.elasticsearch.transport.TransportException: handshake failed because connection reset
+	... 19 more
+[2020-02-17T02:26:02,665][INFO ][o.e.t.RemoteClusterConnectionTests] [testRenderConnectionInfoXContent] before test
+[2020-02-17T02:26:02,665][INFO ][o.e.t.RemoteClusterConnectionTests] [testRenderConnectionInfoXContent] after test
+[2020-02-17T02:26:02,667][INFO ][o.e.t.RemoteClusterConnectionTests] [testClusterNameIsChecked] before test
+[2020-02-17T02:26:02,916][INFO ][o.e.t.TransportService   ] [testClusterNameIsChecked] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:03,166][INFO ][o.e.t.TransportService   ] [testClusterNameIsChecked] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:03,417][INFO ][o.e.t.TransportService   ] [testClusterNameIsChecked] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:03,668][INFO ][o.e.t.TransportService   ] [testClusterNameIsChecked] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-17T02:26:03,919][INFO ][o.e.t.TransportService   ] [testClusterNameIsChecked] publish_address {127.0.0.1:11504}, bound_addresses {127.0.0.1:11504}, {[::1]:11504}
+[2020-02-17T02:26:03,925][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.transport.RemoteClusterConnectionTests] failed to connect to seed node [{other_cluster_discoverable_node}{OLHgt3BbRXGVipHRAN3OyA}{TqcSJ3GEStuphxhQQ_ARsw}{127.0.0.1}{127.0.0.1:11502}{dim}]
+java.lang.IllegalStateException: handshake with [{other_cluster_discoverable_node}{OLHgt3BbRXGVipHRAN3OyA}{TqcSJ3GEStuphxhQQ_ARsw}{127.0.0.1}{127.0.0.1:11502}{dim}] failed: remote cluster name [otherCluster] does not match expected remote cluster name [testClusterNameIsChecked]
+	at org.elasticsearch.transport.TransportService$5.onResponse(TransportService.java:461) [main/:?]
+	at org.elasticsearch.transport.TransportService$5.onResponse(TransportService.java:456) [main/:?]
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleResponse(ActionListenerResponseHandler.java:54) [main/:?]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleResponse(TransportService.java:1110) [main/:?]
+	at org.elasticsearch.transport.InboundHandler$1.doRun(InboundHandler.java:221) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T02:26:03,925][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.transport.RemoteClusterConnectionTests] fetching nodes from external cluster [test-cluster] failed
+java.lang.IllegalStateException: handshake with [{other_cluster_discoverable_node}{OLHgt3BbRXGVipHRAN3OyA}{TqcSJ3GEStuphxhQQ_ARsw}{127.0.0.1}{127.0.0.1:11502}{dim}] failed: remote cluster name [otherCluster] does not match expected remote cluster name [testClusterNameIsChecked]
+	at org.elasticsearch.transport.TransportService$5.onResponse(TransportService.java:461) [main/:?]
+	at org.elasticsearch.transport.TransportService$5.onResponse(TransportService.java:456) [main/:?]
+	at org.elasticsearch.action.ActionListenerResponseHandler.handleResponse(ActionListenerResponseHandler.java:54) [main/:?]
+	at org.elasticsearch.transport.TransportService$ContextRestoreResponseHandler.handleResponse(TransportService.java:1110) [main/:?]
+	at org.elasticsearch.transport.InboundHandler$1.doRun(InboundHandler.java:221) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T02:26:03,928][INFO ][o.e.t.RemoteClusterConnectionTests] [testClusterNameIsChecked] after test
+[2020-02-17T02:26:03,930][INFO ][o.e.t.RemoteClusterConnectionTests] [testProxyMode] before test
+[2020-02-17T02:26:04,179][INFO ][o.e.t.TransportService   ] [testProxyMode] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:04,432][INFO ][o.e.t.TransportService   ] [testProxyMode] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:04,678][INFO ][o.e.t.TransportService   ] [testProxyMode] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:04,686][INFO ][o.e.t.RemoteClusterConnectionTests] [testProxyMode] after test
+[2020-02-17T02:26:04,688][INFO ][o.e.t.RemoteClusterConnectionTests] [testDiscoverSingleNodeWithIncompatibleSeed] before test
+[2020-02-17T02:26:04,935][INFO ][o.e.t.TransportService   ] [testDiscoverSingleNodeWithIncompatibleSeed] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:05,183][INFO ][o.e.t.TransportService   ] [testDiscoverSingleNodeWithIncompatibleSeed] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:05,433][INFO ][o.e.t.TransportService   ] [testDiscoverSingleNodeWithIncompatibleSeed] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:05,680][INFO ][o.e.t.TransportService   ] [testDiscoverSingleNodeWithIncompatibleSeed] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-17T02:26:05,682][WARN ][o.e.t.TcpTransport       ] [incompat_seed_node] exception caught on transport layer [NioSocketChannel{localAddress=/127.0.0.1:11501, remoteAddress=/127.0.0.1:59761}], closing connection
+java.lang.IllegalStateException: Received handshake message from unsupported version: [6.8.0] minimal compatible version is: [2.0.0]
+	at org.elasticsearch.transport.InboundMessage.ensureVersionCompatibility(InboundMessage.java:146) ~[main/:?]
+	at org.elasticsearch.transport.InboundMessage.access$000(InboundMessage.java:39) ~[main/:?]
+	at org.elasticsearch.transport.InboundMessage$Reader.deserialize(InboundMessage.java:76) ~[main/:?]
+	at org.elasticsearch.transport.InboundHandler.messageReceived(InboundHandler.java:113) ~[main/:?]
+	at org.elasticsearch.transport.InboundHandler.inboundMessage(InboundHandler.java:102) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.inboundMessage(TcpTransport.java:667) [main/:?]
+	at org.elasticsearch.transport.TcpTransport.consumeNetworkReads(TcpTransport.java:691) [main/:?]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockTcpReadWriteHandler.consumeReads(MockNioTransport.java:276) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.SocketChannelContext.handleReadBytes(SocketChannelContext.java:228) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.BytesChannelContext.read(BytesChannelContext.java:40) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleRead(EventHandler.java:139) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleRead(TestEventHandler.java:151) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.handleRead(NioSelector.java:420) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.processKey(NioSelector.java:246) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.singleLoop(NioSelector.java:174) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.runLoop(NioSelector.java:131) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T02:26:05,687][WARN ][o.e.t.TcpTransport       ] [incompat_seed_node] exception caught on transport layer [NioSocketChannel{localAddress=/127.0.0.1:11501, remoteAddress=/127.0.0.1:59769}], closing connection
+java.lang.IllegalStateException: Received handshake message from unsupported version: [6.8.0] minimal compatible version is: [2.0.0]
+	at org.elasticsearch.transport.InboundMessage.ensureVersionCompatibility(InboundMessage.java:146) ~[main/:?]
+	at org.elasticsearch.transport.InboundMessage.access$000(InboundMessage.java:39) ~[main/:?]
+	at org.elasticsearch.transport.InboundMessage$Reader.deserialize(InboundMessage.java:76) ~[main/:?]
+	at org.elasticsearch.transport.InboundHandler.messageReceived(InboundHandler.java:113) ~[main/:?]
+	at org.elasticsearch.transport.InboundHandler.inboundMessage(InboundHandler.java:102) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.inboundMessage(TcpTransport.java:667) [main/:?]
+	at org.elasticsearch.transport.TcpTransport.consumeNetworkReads(TcpTransport.java:691) [main/:?]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockTcpReadWriteHandler.consumeReads(MockNioTransport.java:276) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.SocketChannelContext.handleReadBytes(SocketChannelContext.java:228) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.BytesChannelContext.read(BytesChannelContext.java:40) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleRead(EventHandler.java:139) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleRead(TestEventHandler.java:151) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.handleRead(NioSelector.java:420) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.processKey(NioSelector.java:246) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.singleLoop(NioSelector.java:174) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.runLoop(NioSelector.java:131) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T02:26:05,689][INFO ][o.e.t.RemoteClusterConnectionTests] [testDiscoverSingleNodeWithIncompatibleSeed] after test
+[2020-02-17T02:26:05,691][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteConnectionInfoBwComp] before test
+[2020-02-17T02:26:05,691][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteConnectionInfoBwComp] after test
+[2020-02-17T02:26:05,693][INFO ][o.e.t.RemoteClusterConnectionTests] [testNodeDisconnected] before test
+[2020-02-17T02:26:05,940][INFO ][o.e.t.TransportService   ] [testNodeDisconnected] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:06,187][INFO ][o.e.t.TransportService   ] [testNodeDisconnected] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:06,433][INFO ][o.e.t.TransportService   ] [testNodeDisconnected] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:06,682][INFO ][o.e.t.TransportService   ] [testNodeDisconnected] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-17T02:26:07,694][INFO ][o.e.t.RemoteClusterConnectionTests] [testNodeDisconnected] after test
+[2020-02-17T02:26:07,696][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteConnectionInfo] before test
+[2020-02-17T02:26:07,696][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteConnectionInfo] after test
+[2020-02-17T02:26:07,698][INFO ][o.e.t.RemoteClusterConnectionTests] [testFilterDiscoveredNodes] before test
+[2020-02-17T02:26:07,949][INFO ][o.e.t.TransportService   ] [testFilterDiscoveredNodes] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:08,199][INFO ][o.e.t.TransportService   ] [testFilterDiscoveredNodes] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:08,450][INFO ][o.e.t.TransportService   ] [testFilterDiscoveredNodes] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:08,454][INFO ][o.e.t.RemoteClusterConnectionTests] [testFilterDiscoveredNodes] after test
+[2020-02-17T02:26:08,456][INFO ][o.e.t.RemoteClusterConnectionTests] [testGetConnectionInfo] before test
+[2020-02-17T02:26:08,713][INFO ][o.e.t.TransportService   ] [testGetConnectionInfo] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:08,968][INFO ][o.e.t.TransportService   ] [testGetConnectionInfo] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:09,220][INFO ][o.e.t.TransportService   ] [testGetConnectionInfo] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:09,471][INFO ][o.e.t.TransportService   ] [testGetConnectionInfo] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-17T02:26:09,477][INFO ][o.e.t.RemoteClusterConnectionTests] [testGetConnectionInfo] after test
+[2020-02-17T02:26:09,479][INFO ][o.e.t.RemoteClusterConnectionTests] [testCollectNodes] before test
+[2020-02-17T02:26:09,735][INFO ][o.e.t.TransportService   ] [testCollectNodes] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:09,984][INFO ][o.e.t.TransportService   ] [testCollectNodes] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:09,989][INFO ][o.e.t.RemoteClusterConnectionTests] [testCollectNodes] after test
+[2020-02-17T02:26:09,991][INFO ][o.e.t.RemoteClusterConnectionTests] [testTriggerUpdatesConcurrently] before test
+[2020-02-17T02:26:10,241][INFO ][o.e.t.TransportService   ] [testTriggerUpdatesConcurrently] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:10,493][INFO ][o.e.t.TransportService   ] [testTriggerUpdatesConcurrently] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:10,747][INFO ][o.e.t.TransportService   ] [testTriggerUpdatesConcurrently] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:10,998][INFO ][o.e.t.TransportService   ] [testTriggerUpdatesConcurrently] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-17T02:26:11,006][INFO ][o.e.t.RemoteClusterConnectionTests] [testTriggerUpdatesConcurrently] after test
+[2020-02-17T02:26:11,008][INFO ][o.e.t.RemoteClusterConnectionTests] [testLazyResolveTransportAddress] before test
+[2020-02-17T02:26:11,261][INFO ][o.e.t.TransportService   ] [testLazyResolveTransportAddress] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:11,517][INFO ][o.e.t.TransportService   ] [testLazyResolveTransportAddress] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:11,775][INFO ][o.e.t.TransportService   ] [testLazyResolveTransportAddress] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:11,781][INFO ][o.e.t.RemoteClusterConnectionTests] [testLazyResolveTransportAddress] after test
+[2020-02-17T02:26:11,781][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.transport.RemoteClusterConnectionTests] fetching nodes from external cluster [test-cluster] failed
+org.elasticsearch.transport.ConnectTransportException: [seed_node][127.0.0.1:11500] general node connection failure
+	at org.elasticsearch.transport.TcpTransport$ChannelsConnectedListener.lambda$onResponse$2(TcpTransport.java:979) ~[main/:?]
+	at org.elasticsearch.action.ActionListener$1.onFailure(ActionListener.java:71) ~[main/:?]
+	at org.elasticsearch.transport.TransportHandshaker$HandshakeResponseHandler.handleLocalException(TransportHandshaker.java:155) ~[main/:?]
+	at org.elasticsearch.transport.TransportHandshaker.lambda$sendHandshake$0(TransportHandshaker.java:67) ~[main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$wrap$0(ActionListener.java:132) ~[main/:?]
+	at org.elasticsearch.action.ActionListener$1.onResponse(ActionListener.java:63) ~[main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$toBiConsumer$3(ActionListener.java:160) ~[main/:?]
+	at org.elasticsearch.common.concurrent.CompletableContext.lambda$addListener$0(CompletableContext.java:39) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2144) ~[?:?]
+	at org.elasticsearch.common.concurrent.CompletableContext.complete(CompletableContext.java:61) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.ChannelContext.closeFromSelector(ChannelContext.java:79) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.SocketChannelContext.closeFromSelector(SocketChannelContext.java:198) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleClose(EventHandler.java:240) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleClose(TestEventHandler.java:223) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.closeChannel(NioSelector.java:480) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.queueChannelClose(NioSelector.java:311) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.BytesChannelContext.closeChannel(BytesChannelContext.java:67) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockSocketChannel.close(MockNioTransport.java:311) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.core.internal.io.IOUtils.close(IOUtils.java:104) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.core.internal.io.IOUtils.close(IOUtils.java:86) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.common.network.CloseableChannel.closeChannels(CloseableChannel.java:89) ~[main/:?]
+	at org.elasticsearch.common.network.CloseableChannel.closeChannel(CloseableChannel.java:78) ~[main/:?]
+	at org.elasticsearch.common.network.CloseableChannel.closeChannel(CloseableChannel.java:68) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.onException(TcpTransport.java:582) ~[main/:?]
+	at org.elasticsearch.transport.nio.MockNioTransport.exceptionCaught(MockNioTransport.java:185) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport.access$600(MockNioTransport.java:77) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockTcpChannelFactory.lambda$createChannel$2(MockNioTransport.java:222) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.ChannelContext.handleException(ChannelContext.java:101) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.writeException(EventHandler.java:169) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.writeException(TestEventHandler.java:187) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.handleWrite(NioSelector.java:414) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.writeToChannel(NioSelector.java:365) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.queueWrite(NioSelector.java:289) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.SocketChannelContext.sendMessage(SocketChannelContext.java:161) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockSocketChannel.sendMessage(MockNioTransport.java:341) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.OutboundHandler.internalSend(OutboundHandler.java:131) ~[main/:?]
+	at org.elasticsearch.transport.OutboundHandler.sendMessage(OutboundHandler.java:124) ~[main/:?]
+	at org.elasticsearch.transport.OutboundHandler.sendRequest(OutboundHandler.java:88) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.lambda$new$1(TcpTransport.java:155) ~[main/:?]
+	at org.elasticsearch.transport.TransportHandshaker.sendHandshake(TransportHandshaker.java:74) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.executeHandshake(TcpTransport.java:836) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport$ChannelsConnectedListener.onResponse(TcpTransport.java:968) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport$ChannelsConnectedListener.onResponse(TcpTransport.java:945) ~[main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$toBiConsumer$3(ActionListener.java:160) ~[main/:?]
+	at org.elasticsearch.common.concurrent.CompletableContext.lambda$addListener$0(CompletableContext.java:39) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2144) ~[?:?]
+	at org.elasticsearch.common.concurrent.CompletableContext.complete(CompletableContext.java:61) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.SocketChannelContext.connect(SocketChannelContext.java:147) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleConnect(EventHandler.java:117) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleConnect(TestEventHandler.java:123) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.attemptConnect(NioSelector.java:428) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.registerChannel(NioSelector.java:451) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.setUpNewChannels(NioSelector.java:440) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.preSelect(NioSelector.java:261) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.singleLoop(NioSelector.java:155) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.runLoop(NioSelector.java:131) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: org.elasticsearch.transport.TransportException: handshake failed because connection reset
+	... 60 more
+[2020-02-17T02:26:11,784][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteProfileIsUsedForRemoteCluster] before test
+[2020-02-17T02:26:12,035][INFO ][o.e.t.TransportService   ] [testRemoteProfileIsUsedForRemoteCluster] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:12,288][INFO ][o.e.t.TransportService   ] [testRemoteProfileIsUsedForRemoteCluster] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:12,544][INFO ][o.e.t.TransportService   ] [testRemoteProfileIsUsedForRemoteCluster] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:12,550][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteProfileIsUsedForRemoteCluster] after test
+[2020-02-17T02:26:12,552][INFO ][o.e.t.RemoteClusterConnectionTests] [testDiscoverSingleNode] before test
+[2020-02-17T02:26:12,801][INFO ][o.e.t.TransportService   ] [testDiscoverSingleNode] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:13,052][INFO ][o.e.t.TransportService   ] [testDiscoverSingleNode] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:13,302][INFO ][o.e.t.TransportService   ] [testDiscoverSingleNode] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:13,307][INFO ][o.e.t.RemoteClusterConnectionTests] [testDiscoverSingleNode] after test
+[2020-02-17T02:26:13,309][INFO ][o.e.t.RemoteClusterConnectionTests] [testConnectWithIncompatibleTransports] before test
+[2020-02-17T02:26:13,563][INFO ][o.e.t.TransportService   ] [testConnectWithIncompatibleTransports] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:13,814][INFO ][o.e.t.TransportService   ] [testConnectWithIncompatibleTransports] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:13,816][WARN ][o.e.t.TcpTransport       ] [seed_node] exception caught on transport layer [NioSocketChannel{localAddress=/127.0.0.1:11500, remoteAddress=/127.0.0.1:59948}], closing connection
+java.lang.IllegalStateException: Received handshake message from unsupported version: [6.8.0] minimal compatible version is: [2.0.0]
+	at org.elasticsearch.transport.InboundMessage.ensureVersionCompatibility(InboundMessage.java:146) ~[main/:?]
+	at org.elasticsearch.transport.InboundMessage.access$000(InboundMessage.java:39) ~[main/:?]
+	at org.elasticsearch.transport.InboundMessage$Reader.deserialize(InboundMessage.java:76) ~[main/:?]
+	at org.elasticsearch.transport.InboundHandler.messageReceived(InboundHandler.java:113) ~[main/:?]
+	at org.elasticsearch.transport.InboundHandler.inboundMessage(InboundHandler.java:102) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.inboundMessage(TcpTransport.java:667) [main/:?]
+	at org.elasticsearch.transport.TcpTransport.consumeNetworkReads(TcpTransport.java:691) [main/:?]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockTcpReadWriteHandler.consumeReads(MockNioTransport.java:276) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.SocketChannelContext.handleReadBytes(SocketChannelContext.java:228) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.BytesChannelContext.read(BytesChannelContext.java:40) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleRead(EventHandler.java:139) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleRead(TestEventHandler.java:151) [framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.handleRead(NioSelector.java:420) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.processKey(NioSelector.java:246) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.singleLoop(NioSelector.java:174) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.runLoop(NioSelector.java:131) [elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-17T02:26:13,817][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.transport.RemoteClusterConnectionTests] fetching nodes from external cluster [test-cluster] failed
+org.elasticsearch.transport.ConnectTransportException: [seed_node][127.0.0.1:11500] general node connection failure
+	at org.elasticsearch.transport.TcpTransport$ChannelsConnectedListener.lambda$onResponse$2(TcpTransport.java:979) ~[main/:?]
+	at org.elasticsearch.action.ActionListener$1.onFailure(ActionListener.java:71) ~[main/:?]
+	at org.elasticsearch.transport.TransportHandshaker$HandshakeResponseHandler.handleLocalException(TransportHandshaker.java:155) ~[main/:?]
+	at org.elasticsearch.transport.TransportHandshaker.lambda$sendHandshake$0(TransportHandshaker.java:67) ~[main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$wrap$0(ActionListener.java:132) ~[main/:?]
+	at org.elasticsearch.action.ActionListener$1.onResponse(ActionListener.java:63) ~[main/:?]
+	at org.elasticsearch.action.ActionListener.lambda$toBiConsumer$3(ActionListener.java:160) ~[main/:?]
+	at org.elasticsearch.common.concurrent.CompletableContext.lambda$addListener$0(CompletableContext.java:39) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.util.concurrent.CompletableFuture.uniWhenComplete(CompletableFuture.java:859) ~[?:?]
+	at java.util.concurrent.CompletableFuture$UniWhenComplete.tryFire(CompletableFuture.java:837) ~[?:?]
+	at java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:506) ~[?:?]
+	at java.util.concurrent.CompletableFuture.complete(CompletableFuture.java:2144) ~[?:?]
+	at org.elasticsearch.common.concurrent.CompletableContext.complete(CompletableContext.java:61) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.ChannelContext.closeFromSelector(ChannelContext.java:79) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.SocketChannelContext.closeFromSelector(SocketChannelContext.java:198) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.handleClose(EventHandler.java:240) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.handleClose(TestEventHandler.java:223) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.closeChannel(NioSelector.java:480) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.queueChannelClose(NioSelector.java:311) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.BytesChannelContext.closeChannel(BytesChannelContext.java:67) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockSocketChannel.close(MockNioTransport.java:311) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.core.internal.io.IOUtils.close(IOUtils.java:104) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.core.internal.io.IOUtils.close(IOUtils.java:86) ~[elasticsearch-core-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.common.network.CloseableChannel.closeChannels(CloseableChannel.java:89) ~[main/:?]
+	at org.elasticsearch.common.network.CloseableChannel.closeChannel(CloseableChannel.java:78) ~[main/:?]
+	at org.elasticsearch.common.network.CloseableChannel.closeChannel(CloseableChannel.java:68) ~[main/:?]
+	at org.elasticsearch.transport.TcpTransport.onException(TcpTransport.java:590) ~[main/:?]
+	at org.elasticsearch.transport.nio.MockNioTransport.exceptionCaught(MockNioTransport.java:185) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport.access$600(MockNioTransport.java:77) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.MockNioTransport$MockTcpChannelFactory.lambda$createChannel$2(MockNioTransport.java:222) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.ChannelContext.handleException(ChannelContext.java:101) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.EventHandler.readException(EventHandler.java:149) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.nio.TestEventHandler.readException(TestEventHandler.java:163) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.handleRead(NioSelector.java:422) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.processKey(NioSelector.java:246) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.singleLoop(NioSelector.java:174) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.nio.NioSelector.runLoop(NioSelector.java:131) ~[elasticsearch-nio-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: org.elasticsearch.transport.TransportException: handshake failed because connection reset
+	... 35 more
+[2020-02-17T02:26:13,818][INFO ][o.e.t.RemoteClusterConnectionTests] [testConnectWithIncompatibleTransports] after test
+[2020-02-17T02:26:13,820][INFO ][o.e.t.RemoteClusterConnectionTests] [testEnsureConnected] before test
+[2020-02-17T02:26:14,072][INFO ][o.e.t.TransportService   ] [testEnsureConnected] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:14,325][INFO ][o.e.t.TransportService   ] [testEnsureConnected] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:14,576][INFO ][o.e.t.TransportService   ] [testEnsureConnected] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:14,583][INFO ][o.e.t.RemoteClusterConnectionTests] [testEnsureConnected] after test
+[2020-02-17T02:26:14,585][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteConnectionVersionMatchesTransportConnectionVersion] before test
+[2020-02-17T02:26:14,835][INFO ][o.e.t.TransportService   ] [testRemoteConnectionVersionMatchesTransportConnectionVersion] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:15,084][INFO ][o.e.t.TransportService   ] [testRemoteConnectionVersionMatchesTransportConnectionVersion] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:15,332][INFO ][o.e.t.TransportService   ] [testRemoteConnectionVersionMatchesTransportConnectionVersion] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:15,337][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteConnectionVersionMatchesTransportConnectionVersion] after test
+[2020-02-17T02:26:15,339][INFO ][o.e.t.RemoteClusterConnectionTests] [testConnectedNodesConcurrentAccess] before test
+[2020-02-17T02:26:15,590][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:15,839][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:16,086][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:16,335][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-17T02:26:16,589][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11504}, bound_addresses {127.0.0.1:11504}, {[::1]:11504}
+[2020-02-17T02:26:16,841][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11505}, bound_addresses {127.0.0.1:11505}, {[::1]:11505}
+[2020-02-17T02:26:17,092][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11506}, bound_addresses {127.0.0.1:11506}, {[::1]:11506}
+[2020-02-17T02:26:17,347][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11507}, bound_addresses {127.0.0.1:11507}, {[::1]:11507}
+[2020-02-17T02:26:17,602][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11508}, bound_addresses {127.0.0.1:11508}, {[::1]:11508}
+[2020-02-17T02:26:17,858][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11509}, bound_addresses {127.0.0.1:11509}, {[::1]:11509}
+[2020-02-17T02:26:18,113][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11510}, bound_addresses {127.0.0.1:11510}, {[::1]:11510}
+[2020-02-17T02:26:18,368][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11511}, bound_addresses {127.0.0.1:11511}, {[::1]:11511}
+[2020-02-17T02:26:18,622][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11512}, bound_addresses {127.0.0.1:11512}, {[::1]:11512}
+[2020-02-17T02:26:18,872][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11513}, bound_addresses {127.0.0.1:11513}, {[::1]:11513}
+[2020-02-17T02:26:19,123][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11514}, bound_addresses {127.0.0.1:11514}, {[::1]:11514}
+[2020-02-17T02:26:19,378][INFO ][o.e.t.TransportService   ] [testConnectedNodesConcurrentAccess] publish_address {127.0.0.1:11515}, bound_addresses {127.0.0.1:11515}, {[::1]:11515}
+[2020-02-17T02:26:19,874][INFO ][o.e.t.TransportService   ] [[Thread-6956]] publish_address {127.0.0.1:11516}, bound_addresses {127.0.0.1:11516}, {[::1]:11516}
+[2020-02-17T02:26:19,926][INFO ][o.e.t.TransportService   ] [[Thread-6959]] publish_address {127.0.0.1:11517}, bound_addresses {127.0.0.1:11517}, {[::1]:11517}
+[2020-02-17T02:26:19,970][INFO ][o.e.t.TransportService   ] [[Thread-6961]] publish_address {127.0.0.1:11519}, bound_addresses {127.0.0.1:11519}, {[::1]:11519}
+[2020-02-17T02:26:19,989][INFO ][o.e.t.TransportService   ] [[Thread-6957]] publish_address {127.0.0.1:11518}, bound_addresses {127.0.0.1:11518}, {[::1]:11518}
+[2020-02-17T02:26:20,015][INFO ][o.e.t.TransportService   ] [[Thread-6958]] publish_address {127.0.0.1:11521}, bound_addresses {127.0.0.1:11521}, {[::1]:11521}
+[2020-02-17T02:26:20,025][INFO ][o.e.t.TransportService   ] [[Thread-6962]] publish_address {127.0.0.1:11520}, bound_addresses {127.0.0.1:11520}, {[::1]:11520}
+[2020-02-17T02:26:20,294][INFO ][o.e.t.TransportService   ] [[Thread-6959]] publish_address {127.0.0.1:11522}, bound_addresses {127.0.0.1:11522}, {[::1]:11522}
+[2020-02-17T02:26:20,331][INFO ][o.e.t.TransportService   ] [[Thread-6957]] publish_address {127.0.0.1:11523}, bound_addresses {127.0.0.1:11523}, {[::1]:11523}
+[2020-02-17T02:26:20,344][INFO ][o.e.t.TransportService   ] [[Thread-6958]] publish_address {127.0.0.1:11524}, bound_addresses {127.0.0.1:11524}, {[::1]:11524}
+[2020-02-17T02:26:20,600][INFO ][o.e.t.TransportService   ] [[Thread-6958]] publish_address {127.0.0.1:11525}, bound_addresses {127.0.0.1:11525}, {[::1]:11525}
+[2020-02-17T02:26:20,606][INFO ][o.e.t.RemoteClusterConnectionTests] [testConnectedNodesConcurrentAccess] after test
+[2020-02-17T02:26:20,608][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteProfileIsUsedForLocalCluster] before test
+[2020-02-17T02:26:20,855][INFO ][o.e.t.TransportService   ] [testRemoteProfileIsUsedForLocalCluster] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-17T02:26:21,098][INFO ][o.e.t.TransportService   ] [testRemoteProfileIsUsedForLocalCluster] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-17T02:26:21,345][INFO ][o.e.t.TransportService   ] [testRemoteProfileIsUsedForLocalCluster] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-17T02:26:21,351][INFO ][o.e.t.RemoteClusterConnectionTests] [testRemoteProfileIsUsedForLocalCluster] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

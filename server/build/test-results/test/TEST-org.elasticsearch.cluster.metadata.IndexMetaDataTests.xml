@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.metadata.IndexMetaDataTests" tests="8" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:33" hostname="Escoto-PC" time="0.024">
+  <properties/>
+  <testcase name="testSelectSplitShard" classname="org.elasticsearch.cluster.metadata.IndexMetaDataTests" time="0.004"/>
+  <testcase name="testGetRoutingFactor" classname="org.elasticsearch.cluster.metadata.IndexMetaDataTests" time="0.002"/>
+  <testcase name="testSelectShrinkShards" classname="org.elasticsearch.cluster.metadata.IndexMetaDataTests" time="0.003"/>
+  <testcase name="testMappingOrDefault" classname="org.elasticsearch.cluster.metadata.IndexMetaDataTests" time="0.002"/>
+  <testcase name="testIndexFormat" classname="org.elasticsearch.cluster.metadata.IndexMetaDataTests" time="0.003"/>
+  <testcase name="testIndexMetaDataSerialization" classname="org.elasticsearch.cluster.metadata.IndexMetaDataTests" time="0.004"/>
+  <testcase name="testNumberOfRoutingShards" classname="org.elasticsearch.cluster.metadata.IndexMetaDataTests" time="0.002"/>
+  <testcase name="testSelectResizeShards" classname="org.elasticsearch.cluster.metadata.IndexMetaDataTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T11:21:33,317][INFO ][o.e.c.m.IndexMetaDataTests] [testSelectSplitShard] before test
+[2020-02-16T11:21:33,319][INFO ][o.e.c.m.IndexMetaDataTests] [testSelectSplitShard] after test
+[2020-02-16T11:21:33,321][INFO ][o.e.c.m.IndexMetaDataTests] [testGetRoutingFactor] before test
+[2020-02-16T11:21:33,322][INFO ][o.e.c.m.IndexMetaDataTests] [testGetRoutingFactor] after test
+[2020-02-16T11:21:33,324][INFO ][o.e.c.m.IndexMetaDataTests] [testSelectShrinkShards] before test
+[2020-02-16T11:21:33,324][INFO ][o.e.c.m.IndexMetaDataTests] [testSelectShrinkShards] after test
+[2020-02-16T11:21:33,326][INFO ][o.e.c.m.IndexMetaDataTests] [testMappingOrDefault] before test
+[2020-02-16T11:21:33,327][INFO ][o.e.c.m.IndexMetaDataTests] [testMappingOrDefault] after test
+[2020-02-16T11:21:33,329][INFO ][o.e.c.m.IndexMetaDataTests] [testIndexFormat] before test
+[2020-02-16T11:21:33,329][INFO ][o.e.c.m.IndexMetaDataTests] [testIndexFormat] after test
+[2020-02-16T11:21:33,331][INFO ][o.e.c.m.IndexMetaDataTests] [testIndexMetaDataSerialization] before test
+[2020-02-16T11:21:33,333][INFO ][o.e.c.m.IndexMetaDataTests] [testIndexMetaDataSerialization] after test
+[2020-02-16T11:21:33,335][INFO ][o.e.c.m.IndexMetaDataTests] [testNumberOfRoutingShards] before test
+[2020-02-16T11:21:33,336][INFO ][o.e.c.m.IndexMetaDataTests] [testNumberOfRoutingShards] after test
+[2020-02-16T11:21:33,339][INFO ][o.e.c.m.IndexMetaDataTests] [testSelectResizeShards] before test
+[2020-02-16T11:21:33,339][INFO ][o.e.c.m.IndexMetaDataTests] [testSelectResizeShards] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

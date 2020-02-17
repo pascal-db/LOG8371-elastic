@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.suggest.SuggestionTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:43" hostname="Escoto-PC" time="0.021">
+  <properties/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.suggest.SuggestionTests" time="0.007"/>
+  <testcase name="testToXContent" classname="org.elasticsearch.search.suggest.SuggestionTests" time="0.003"/>
+  <testcase name="testUnknownSuggestionTypeThrows" classname="org.elasticsearch.search.suggest.SuggestionTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.suggest.SuggestionTests" time="0.004"/>
+  <testcase name="testFromXContentWithoutTypeParam" classname="org.elasticsearch.search.suggest.SuggestionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:24:43,779][INFO ][o.e.s.s.SuggestionTests  ] [testFromXContentWithRandomFields] before test
+[2020-02-16T19:24:43,785][INFO ][o.e.s.s.SuggestionTests  ] [testFromXContentWithRandomFields] after test
+[2020-02-16T19:24:43,787][INFO ][o.e.s.s.SuggestionTests  ] [testToXContent] before test
+[2020-02-16T19:24:43,787][INFO ][o.e.s.s.SuggestionTests  ] [testToXContent] after test
+[2020-02-16T19:24:43,790][INFO ][o.e.s.s.SuggestionTests  ] [testUnknownSuggestionTypeThrows] before test
+[2020-02-16T19:24:43,791][INFO ][o.e.s.s.SuggestionTests  ] [testUnknownSuggestionTypeThrows] after test
+[2020-02-16T19:24:43,794][INFO ][o.e.s.s.SuggestionTests  ] [testFromXContent] before test
+[2020-02-16T19:24:43,795][INFO ][o.e.s.s.SuggestionTests  ] [testFromXContent] after test
+[2020-02-16T19:24:43,797][INFO ][o.e.s.s.SuggestionTests  ] [testFromXContentWithoutTypeParam] before test
+[2020-02-16T19:24:43,798][INFO ][o.e.s.s.SuggestionTests  ] [testFromXContentWithoutTypeParam] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

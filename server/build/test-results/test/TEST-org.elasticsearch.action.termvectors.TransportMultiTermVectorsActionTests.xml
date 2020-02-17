@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.termvectors.TransportMultiTermVectorsActionTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:49" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testTransportMultiGetAction" classname="org.elasticsearch.action.termvectors.TransportMultiTermVectorsActionTests" time="0.005"/>
+  <testcase name="testTransportMultiGetAction_withMissingRouting" classname="org.elasticsearch.action.termvectors.TransportMultiTermVectorsActionTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T18:20:49,566][INFO ][o.e.a.t.TransportMultiTermVectorsActionTests] [testTransportMultiGetAction] before test
+[2020-02-16T18:20:49,569][INFO ][o.e.a.t.TransportMultiTermVectorsActionTests] [testTransportMultiGetAction] after test
+[2020-02-16T18:20:49,571][INFO ][o.e.a.t.TransportMultiTermVectorsActionTests] [testTransportMultiGetAction_withMissingRouting] before test
+[2020-02-16T18:20:49,572][INFO ][o.e.a.t.TransportMultiTermVectorsActionTests] [testTransportMultiGetAction_withMissingRouting] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

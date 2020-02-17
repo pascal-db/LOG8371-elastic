@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.repositories.blobstore.BlobStoreRepositoryRestoreTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:03" hostname="Escoto-PC" time="0.831">
+  <properties/>
+  <testcase name="testRestoreSnapshotWithExistingFiles" classname="org.elasticsearch.repositories.blobstore.BlobStoreRepositoryRestoreTests" time="0.527"/>
+  <testcase name="testSnapshotWithConflictingName" classname="org.elasticsearch.repositories.blobstore.BlobStoreRepositoryRestoreTests" time="0.303"/>
+  <system-out><![CDATA[[2020-02-17T10:24:03,377][INFO ][o.e.r.b.BlobStoreRepositoryRestoreTests] [testRestoreSnapshotWithExistingFiles] before test
+[2020-02-17T10:24:03,828][WARN ][o.e.r.b.FileRestoreContext] [testRestoreSnapshotWithExistingFiles] [[aMBYctwNuy][0]] [ptKnKsuDva/_uuid] Can't read metadata from store, will not reuse local files during restore
+org.apache.lucene.index.CorruptIndexException: Unexpected file read error while reading index. (resource=BufferedChecksumIndexInput(MockIndexInputWrapper(NIOFSIndexInput(path="E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.repositories.blobstore.BlobStoreRepositoryRestoreTests_9EA1F2A3814E5F76-001\tempDir-002\indices\msh3l6xWSbCKRK-o0l4jBg\0\index\segments_7"))))
+	at org.apache.lucene.index.SegmentInfos.readCommit(SegmentInfos.java:291) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.SegmentInfos$1.doBody(SegmentInfos.java:432) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.SegmentInfos$1.doBody(SegmentInfos.java:429) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:680) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:632) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.SegmentInfos.readLatestCommit(SegmentInfos.java:434) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.elasticsearch.common.lucene.Lucene.readSegmentInfos(Lucene.java:147) ~[main/:?]
+	at org.elasticsearch.index.store.Store.readSegmentsInfo(Store.java:211) ~[main/:?]
+	at org.elasticsearch.index.store.Store.access$200(Store.java:131) ~[main/:?]
+	at org.elasticsearch.index.store.Store$MetadataSnapshot.loadMetadata(Store.java:856) ~[main/:?]
+	at org.elasticsearch.index.store.Store$MetadataSnapshot.<init>(Store.java:789) ~[main/:?]
+	at org.elasticsearch.index.store.Store.getMetadata(Store.java:297) ~[main/:?]
+	at org.elasticsearch.repositories.blobstore.FileRestoreContext.restore(FileRestoreContext.java:113) [main/:?]
+	at org.elasticsearch.repositories.blobstore.BlobStoreRepository.restoreShard(BlobStoreRepository.java:1253) [main/:?]
+	at org.elasticsearch.index.shard.IndexShardTestCase.recoverShardFromSnapshot(IndexShardTestCase.java:808) [framework-7.5.1-SNAPSHOT.jar:?]
+	at org.elasticsearch.repositories.blobstore.BlobStoreRepositoryRestoreTests.testRestoreSnapshotWithExistingFiles(BlobStoreRepositoryRestoreTests.java:117) [test/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:567) ~[?:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.invoke(RandomizedRunner.java:1750) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$8.evaluate(RandomizedRunner.java:938) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$9.evaluate(RandomizedRunner.java:974) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$10.evaluate(RandomizedRunner.java:988) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleSetupTeardownChained$1.evaluate(TestRuleSetupTeardownChained.java:49) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleThreadAndTestName$1.evaluate(TestRuleThreadAndTestName.java:48) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl.forkTimeoutingTask(ThreadLeakControl.java:817) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$3.evaluate(ThreadLeakControl.java:468) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner.runSingleTest(RandomizedRunner.java:947) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$5.evaluate(RandomizedRunner.java:832) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$6.evaluate(RandomizedRunner.java:883) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.RandomizedRunner$7.evaluate(RandomizedRunner.java:894) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.AbstractBeforeAfterRule$1.evaluate(AbstractBeforeAfterRule.java:45) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleStoreClassName$1.evaluate(TestRuleStoreClassName.java:41) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.NoShadowingOrOverridesOnMethodsRule$1.evaluate(NoShadowingOrOverridesOnMethodsRule.java:40) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at org.apache.lucene.util.TestRuleAssertionsRequired$1.evaluate(TestRuleAssertionsRequired.java:53) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleMarkFailure$1.evaluate(TestRuleMarkFailure.java:47) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreAfterMaxFailures$1.evaluate(TestRuleIgnoreAfterMaxFailures.java:64) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at org.apache.lucene.util.TestRuleIgnoreTestSuites$1.evaluate(TestRuleIgnoreTestSuites.java:54) [lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:05]
+	at com.carrotsearch.randomizedtesting.rules.StatementAdapter.evaluate(StatementAdapter.java:36) [randomizedtesting-runner-2.7.1.jar:?]
+	at com.carrotsearch.randomizedtesting.ThreadLeakControl$StatementRunner.run(ThreadLeakControl.java:368) [randomizedtesting-runner-2.7.1.jar:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+Caused by: java.nio.file.NoSuchFileException: _1.si in dir=NIOFSDirectory@E:\NotD\git\elasticsearch\server\build\testrun\test\temp\org.elasticsearch.repositories.blobstore.BlobStoreRepositoryRestoreTests_9EA1F2A3814E5F76-001\tempDir-002\indices\msh3l6xWSbCKRK-o0l4jBg\0\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@1ada94b3
+	at org.apache.lucene.store.MockDirectoryWrapper.openInput(MockDirectoryWrapper.java:748) ~[lucene-test-framework-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.store.FilterDirectory.openInput(FilterDirectory.java:100) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.store.FilterDirectory.openInput(FilterDirectory.java:100) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.store.Directory.openChecksumInput(Directory.java:157) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.codecs.lucene70.Lucene70SegmentInfoFormat.read(Lucene70SegmentInfoFormat.java:91) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.SegmentInfos.readCommit(SegmentInfos.java:353) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	at org.apache.lucene.index.SegmentInfos.readCommit(SegmentInfos.java:289) ~[lucene-core-8.3.0.jar:8.3.0 2aa586909b911e66e1d8863aa89f173d69f86cd2 - ishan - 2019-10-25 23:10:03]
+	... 51 more
+[2020-02-17T10:24:03,861][WARN ][o.e.r.b.FileRestoreContext] [testRestoreSnapshotWithExistingFiles] [[aMBYctwNuy][0]] [ptKnKsuDva/_uuid] failed to delete file [corrupted_SIrZG4lLQe2ltyjvEmghOQ] during snapshot cleanup
+[2020-02-17T10:24:03,898][INFO ][o.e.r.b.BlobStoreRepositoryRestoreTests] [testRestoreSnapshotWithExistingFiles] after test
+[2020-02-17T10:24:03,905][INFO ][o.e.r.b.BlobStoreRepositoryRestoreTests] [testSnapshotWithConflictingName] before test
+[2020-02-17T10:24:04,203][INFO ][o.e.r.b.BlobStoreRepositoryRestoreTests] [testSnapshotWithConflictingName] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.PrefixQueryBuilderTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:07" hostname="Escoto-PC" time="0.059">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.013"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.006"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.003"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.004"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.003"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.007"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.003"/>
+  <testcase name="testParseFailsWithMultipleFields" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testNumeric" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testBlendedRewriteMethod" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.PrefixQueryBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T17:23:07,982][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:07,985][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T17:23:07,985][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T17:23:07,990][INFO ][o.e.p.PluginsService     ] [testSerialization] no modules loaded
+[2020-02-16T17:23:07,990][INFO ][o.e.p.PluginsService     ] [testSerialization] no plugins loaded
+[2020-02-16T17:23:07,994][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testSerialization] after test
+[2020-02-16T17:23:08,000][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:08,000][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:08,001][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:08,003][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T17:23:08,006][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:08,007][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:08,009][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:08,010][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:08,012][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:08,013][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T17:23:08,014][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:08,015][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:08,017][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:08,021][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:08,024][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testFromJson] before test
+[2020-02-16T17:23:08,024][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testFromJson] after test
+[2020-02-16T17:23:08,026][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T17:23:08,027][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T17:23:08,029][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testParseFailsWithMultipleFields] before test
+[2020-02-16T17:23:08,029][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testParseFailsWithMultipleFields] after test
+[2020-02-16T17:23:08,031][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:08,031][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:08,033][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:08,033][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:08,034][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testNumeric] before test
+[2020-02-16T17:23:08,035][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testNumeric] after test
+[2020-02-16T17:23:08,036][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testBlendedRewriteMethod] before test
+[2020-02-16T17:23:08,037][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testBlendedRewriteMethod] after test
+[2020-02-16T17:23:08,039][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:08,040][INFO ][o.e.i.q.PrefixQueryBuilderTests] [testNegativeBoosts] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

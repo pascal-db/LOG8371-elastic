@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregationBuilderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:20" hostname="Escoto-PC" time="0.014">
+  <properties/>
+  <testcase name="testRoundingsMatchAllowedIntervals" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregationBuilderTests" time="0.004"/>
+  <testcase name="testBuildRoundingsWithMinIntervalOfAYear" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregationBuilderTests" time="0.003"/>
+  <testcase name="testBuildRoundingsWithNullParameter" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregationBuilderTests" time="0.003"/>
+  <testcase name="testInvalidInterval" classname="org.elasticsearch.search.aggregations.bucket.histogram.AutoDateHistogramAggregationBuilderTests" time="0.004"/>
+  <system-out><![CDATA[[2020-02-17T12:25:20,723][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregationBuilderTests] [testRoundingsMatchAllowedIntervals] before test
+[2020-02-17T12:25:20,724][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregationBuilderTests] [testRoundingsMatchAllowedIntervals] after test
+[2020-02-17T12:25:20,727][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregationBuilderTests] [testBuildRoundingsWithMinIntervalOfAYear] before test
+[2020-02-17T12:25:20,727][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregationBuilderTests] [testBuildRoundingsWithMinIntervalOfAYear] after test
+[2020-02-17T12:25:20,730][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregationBuilderTests] [testBuildRoundingsWithNullParameter] before test
+[2020-02-17T12:25:20,730][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregationBuilderTests] [testBuildRoundingsWithNullParameter] after test
+[2020-02-17T12:25:20,733][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregationBuilderTests] [testInvalidInterval] before test
+[2020-02-17T12:25:20,734][INFO ][o.e.s.a.b.h.AutoDateHistogramAggregationBuilderTests] [testInvalidInterval] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.search.TransportSearchActionTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="7.778">
+  <properties/>
+  <testcase name="testMergeShardsIterators" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="0.005"/>
+  <testcase name="testShouldSplitIndices" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="0.005"/>
+  <testcase name="testCCSRemoteReduceMergeFails" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="1.912"/>
+  <testcase name="testProcessRemoteShards" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="0.011"/>
+  <testcase name="testSplitIndices" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="0.003"/>
+  <testcase name="testCollectSearchShards" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="4.689"/>
+  <testcase name="testCCSRemoteReduce" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="1.113"/>
+  <testcase name="testBuildConnectionLookup" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="0.004"/>
+  <testcase name="testCreateSearchResponseMerger" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="0.003"/>
+  <testcase name="testShouldMinimizeRoundtrips" classname="org.elasticsearch.action.search.TransportSearchActionTests" time="0.033"/>
+  <system-out><![CDATA[[2020-02-16T16:20:39,515][INFO ][o.e.a.s.TransportSearchActionTests] [testMergeShardsIterators] before test
+[2020-02-16T16:20:39,517][INFO ][o.e.a.s.TransportSearchActionTests] [testMergeShardsIterators] after test
+[2020-02-16T16:20:39,522][INFO ][o.e.a.s.TransportSearchActionTests] [testShouldSplitIndices] before test
+[2020-02-16T16:20:39,522][INFO ][o.e.a.s.TransportSearchActionTests] [testShouldSplitIndices] after test
+[2020-02-16T16:20:39,525][INFO ][o.e.a.s.TransportSearchActionTests] [testCCSRemoteReduceMergeFails] before test
+[2020-02-16T16:20:39,880][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduceMergeFails] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T16:20:40,129][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduceMergeFails] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-16T16:20:40,382][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduceMergeFails] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-16T16:20:40,811][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduceMergeFails] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-16T16:20:41,378][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduceMergeFails] publish_address {127.0.0.1:11504}, bound_addresses {127.0.0.1:11504}, {[::1]:11504}
+[2020-02-16T16:20:41,432][INFO ][o.e.a.s.TransportSearchActionTests] [testCCSRemoteReduceMergeFails] after test
+[2020-02-16T16:20:41,441][INFO ][o.e.a.s.TransportSearchActionTests] [testProcessRemoteShards] before test
+[2020-02-16T16:20:41,445][INFO ][o.e.a.s.TransportSearchActionTests] [testProcessRemoteShards] after test
+[2020-02-16T16:20:41,447][INFO ][o.e.a.s.TransportSearchActionTests] [testSplitIndices] before test
+[2020-02-16T16:20:41,448][INFO ][o.e.a.s.TransportSearchActionTests] [testSplitIndices] after test
+[2020-02-16T16:20:41,452][INFO ][o.e.a.s.TransportSearchActionTests] [testCollectSearchShards] before test
+[2020-02-16T16:20:41,736][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T16:20:42,095][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-16T16:20:42,678][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-16T16:20:42,986][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-16T16:20:43,311][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11504}, bound_addresses {127.0.0.1:11504}, {[::1]:11504}
+[2020-02-16T16:20:43,775][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11505}, bound_addresses {127.0.0.1:11505}, {[::1]:11505}
+[2020-02-16T16:20:44,223][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11506}, bound_addresses {127.0.0.1:11506}, {[::1]:11506}
+[2020-02-16T16:20:45,167][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11507}, bound_addresses {127.0.0.1:11507}, {[::1]:11507}
+[2020-02-16T16:20:46,091][INFO ][o.e.t.TransportService   ] [testCollectSearchShards] publish_address {127.0.0.1:11508}, bound_addresses {127.0.0.1:11508}, {[::1]:11508}
+[2020-02-16T16:20:46,119][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.action.search.TransportSearchActionTests] fetching nodes from external cluster [remote7] failed
+org.elasticsearch.transport.ConnectTransportException: [][127.0.0.1:11507] DISCONNECT: simulated
+	at org.elasticsearch.test.transport.MockTransportService.lambda$addFailToSendNoConnectRule$2(MockTransportService.java:219) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.test.transport.StubbableTransport.openConnection(StubbableTransport.java:141) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) ~[main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) ~[main/:?]
+	at org.elasticsearch.transport.RemoteConnectionManager.openConnection(RemoteConnectionManager.java:62) ~[main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.collectRemoteNodes(RemoteClusterConnection.java:403) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.access$500(RemoteClusterConnection.java:301) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler$1.doRun(RemoteClusterConnection.java:345) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:20:46,119][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.action.search.TransportSearchActionTests] fetching nodes from external cluster [remote3] failed
+org.elasticsearch.transport.ConnectTransportException: [][127.0.0.1:11503] DISCONNECT: simulated
+	at org.elasticsearch.test.transport.MockTransportService.lambda$addFailToSendNoConnectRule$2(MockTransportService.java:219) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.test.transport.StubbableTransport.openConnection(StubbableTransport.java:141) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) ~[main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) ~[main/:?]
+	at org.elasticsearch.transport.RemoteConnectionManager.openConnection(RemoteConnectionManager.java:62) ~[main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.collectRemoteNodes(RemoteClusterConnection.java:403) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.access$500(RemoteClusterConnection.java:301) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler$1.doRun(RemoteClusterConnection.java:345) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:20:46,121][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.action.search.TransportSearchActionTests] fetching nodes from external cluster [remote3] failed
+org.elasticsearch.transport.ConnectTransportException: [][127.0.0.1:11503] DISCONNECT: simulated
+	at org.elasticsearch.test.transport.MockTransportService.lambda$addFailToSendNoConnectRule$2(MockTransportService.java:219) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.test.transport.StubbableTransport.openConnection(StubbableTransport.java:141) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) ~[main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) ~[main/:?]
+	at org.elasticsearch.transport.RemoteConnectionManager.openConnection(RemoteConnectionManager.java:62) ~[main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.collectRemoteNodes(RemoteClusterConnection.java:403) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.access$500(RemoteClusterConnection.java:301) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler$1.doRun(RemoteClusterConnection.java:345) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:20:46,122][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.action.search.TransportSearchActionTests] fetching nodes from external cluster [remote7] failed
+org.elasticsearch.transport.ConnectTransportException: [][127.0.0.1:11507] DISCONNECT: simulated
+	at org.elasticsearch.test.transport.MockTransportService.lambda$addFailToSendNoConnectRule$2(MockTransportService.java:219) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.test.transport.StubbableTransport.openConnection(StubbableTransport.java:141) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) ~[main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) ~[main/:?]
+	at org.elasticsearch.transport.RemoteConnectionManager.openConnection(RemoteConnectionManager.java:62) ~[main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.collectRemoteNodes(RemoteClusterConnection.java:403) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.access$500(RemoteClusterConnection.java:301) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler$1.doRun(RemoteClusterConnection.java:345) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:20:46,136][INFO ][o.e.a.s.TransportSearchActionTests] [testCollectSearchShards] after test
+[2020-02-16T16:20:46,140][INFO ][o.e.a.s.TransportSearchActionTests] [testCCSRemoteReduce] before test
+[2020-02-16T16:20:46,486][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduce] publish_address {127.0.0.1:11500}, bound_addresses {127.0.0.1:11500}, {[::1]:11500}
+[2020-02-16T16:20:46,737][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduce] publish_address {127.0.0.1:11501}, bound_addresses {127.0.0.1:11501}, {[::1]:11501}
+[2020-02-16T16:20:46,985][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduce] publish_address {127.0.0.1:11502}, bound_addresses {127.0.0.1:11502}, {[::1]:11502}
+[2020-02-16T16:20:47,233][INFO ][o.e.t.TransportService   ] [testCCSRemoteReduce] publish_address {127.0.0.1:11503}, bound_addresses {127.0.0.1:11503}, {[::1]:11503}
+[2020-02-16T16:20:47,241][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.action.search.TransportSearchActionTests] fetching nodes from external cluster [remote2] failed
+org.elasticsearch.transport.ConnectTransportException: [][127.0.0.1:11502] DISCONNECT: simulated
+	at org.elasticsearch.test.transport.MockTransportService.lambda$addFailToSendNoConnectRule$2(MockTransportService.java:219) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.test.transport.StubbableTransport.openConnection(StubbableTransport.java:141) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) ~[main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) ~[main/:?]
+	at org.elasticsearch.transport.RemoteConnectionManager.openConnection(RemoteConnectionManager.java:62) ~[main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.collectRemoteNodes(RemoteClusterConnection.java:403) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.access$500(RemoteClusterConnection.java:301) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler$1.doRun(RemoteClusterConnection.java:345) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:20:47,242][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.action.search.TransportSearchActionTests] fetching nodes from external cluster [remote1] failed
+org.elasticsearch.transport.ConnectTransportException: [][127.0.0.1:11501] DISCONNECT: simulated
+	at org.elasticsearch.test.transport.MockTransportService.lambda$addFailToSendNoConnectRule$2(MockTransportService.java:219) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.test.transport.StubbableTransport.openConnection(StubbableTransport.java:141) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) ~[main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) ~[main/:?]
+	at org.elasticsearch.transport.RemoteConnectionManager.openConnection(RemoteConnectionManager.java:62) ~[main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.collectRemoteNodes(RemoteClusterConnection.java:403) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.access$500(RemoteClusterConnection.java:301) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler$1.doRun(RemoteClusterConnection.java:345) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:20:47,243][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.action.search.TransportSearchActionTests] fetching nodes from external cluster [remote2] failed
+org.elasticsearch.transport.ConnectTransportException: [][127.0.0.1:11502] DISCONNECT: simulated
+	at org.elasticsearch.test.transport.MockTransportService.lambda$addFailToSendNoConnectRule$2(MockTransportService.java:219) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.test.transport.StubbableTransport.openConnection(StubbableTransport.java:141) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) ~[main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) ~[main/:?]
+	at org.elasticsearch.transport.RemoteConnectionManager.openConnection(RemoteConnectionManager.java:62) ~[main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.collectRemoteNodes(RemoteClusterConnection.java:403) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.access$500(RemoteClusterConnection.java:301) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler$1.doRun(RemoteClusterConnection.java:345) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:20:47,243][WARN ][o.e.t.RemoteClusterConnection] [org.elasticsearch.action.search.TransportSearchActionTests] fetching nodes from external cluster [remote1] failed
+org.elasticsearch.transport.ConnectTransportException: [][127.0.0.1:11501] DISCONNECT: simulated
+	at org.elasticsearch.test.transport.MockTransportService.lambda$addFailToSendNoConnectRule$2(MockTransportService.java:219) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.test.transport.StubbableTransport.openConnection(StubbableTransport.java:141) ~[framework-7.5.1-SNAPSHOT.jar:7.5.1-SNAPSHOT]
+	at org.elasticsearch.transport.ConnectionManager.internalOpenConnection(ConnectionManager.java:245) ~[main/:?]
+	at org.elasticsearch.transport.ConnectionManager.openConnection(ConnectionManager.java:92) ~[main/:?]
+	at org.elasticsearch.transport.RemoteConnectionManager.openConnection(RemoteConnectionManager.java:62) ~[main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.collectRemoteNodes(RemoteClusterConnection.java:403) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler.access$500(RemoteClusterConnection.java:301) [main/:?]
+	at org.elasticsearch.transport.RemoteClusterConnection$ConnectHandler$1.doRun(RemoteClusterConnection.java:345) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingRunnable.run(ThreadContext.java:703) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T16:20:47,250][INFO ][o.e.a.s.TransportSearchActionTests] [testCCSRemoteReduce] after test
+[2020-02-16T16:20:47,254][INFO ][o.e.a.s.TransportSearchActionTests] [testBuildConnectionLookup] before test
+[2020-02-16T16:20:47,255][INFO ][o.e.a.s.TransportSearchActionTests] [testBuildConnectionLookup] after test
+[2020-02-16T16:20:47,257][INFO ][o.e.a.s.TransportSearchActionTests] [testCreateSearchResponseMerger] before test
+[2020-02-16T16:20:47,258][INFO ][o.e.a.s.TransportSearchActionTests] [testCreateSearchResponseMerger] after test
+[2020-02-16T16:20:47,260][INFO ][o.e.a.s.TransportSearchActionTests] [testShouldMinimizeRoundtrips] before test
+[2020-02-16T16:20:47,290][INFO ][o.e.a.s.TransportSearchActionTests] [testShouldMinimizeRoundtrips] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

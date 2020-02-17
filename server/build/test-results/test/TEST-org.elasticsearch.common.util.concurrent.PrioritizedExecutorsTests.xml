@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.util.concurrent.PrioritizedExecutorsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:59" hostname="Escoto-PC" time="0.23">
+  <properties/>
+  <testcase name="testSubmitPrioritizedExecutorWithCallables" classname="org.elasticsearch.common.util.concurrent.PrioritizedExecutorsTests" time="0.007"/>
+  <testcase name="testSubmitPrioritizedExecutorWithMixed" classname="org.elasticsearch.common.util.concurrent.PrioritizedExecutorsTests" time="0.003"/>
+  <testcase name="testExecutePrioritizedExecutorWithRunnables" classname="org.elasticsearch.common.util.concurrent.PrioritizedExecutorsTests" time="0.002"/>
+  <testcase name="testSubmitPrioritizedExecutorWithRunnables" classname="org.elasticsearch.common.util.concurrent.PrioritizedExecutorsTests" time="0.002"/>
+  <testcase name="testTimeout" classname="org.elasticsearch.common.util.concurrent.PrioritizedExecutorsTests" time="0.206"/>
+  <testcase name="testTimeoutCleanup" classname="org.elasticsearch.common.util.concurrent.PrioritizedExecutorsTests" time="0.005"/>
+  <testcase name="testPriorityQueue" classname="org.elasticsearch.common.util.concurrent.PrioritizedExecutorsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:21:59,507][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testSubmitPrioritizedExecutorWithCallables] before test
+[2020-02-16T19:21:59,512][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testSubmitPrioritizedExecutorWithCallables] after test
+[2020-02-16T19:21:59,513][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testSubmitPrioritizedExecutorWithMixed] before test
+[2020-02-16T19:21:59,514][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testSubmitPrioritizedExecutorWithMixed] after test
+[2020-02-16T19:21:59,516][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testExecutePrioritizedExecutorWithRunnables] before test
+[2020-02-16T19:21:59,517][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testExecutePrioritizedExecutorWithRunnables] after test
+[2020-02-16T19:21:59,518][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testSubmitPrioritizedExecutorWithRunnables] before test
+[2020-02-16T19:21:59,519][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testSubmitPrioritizedExecutorWithRunnables] after test
+[2020-02-16T19:21:59,522][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testTimeout] before test
+[2020-02-16T19:21:59,726][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testTimeout] after test
+[2020-02-16T19:21:59,730][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testTimeoutCleanup] before test
+[2020-02-16T19:21:59,732][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testTimeoutCleanup] after test
+[2020-02-16T19:21:59,734][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testPriorityQueue] before test
+[2020-02-16T19:21:59,734][INFO ][o.e.c.u.c.PrioritizedExecutorsTests] [testPriorityQueue] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

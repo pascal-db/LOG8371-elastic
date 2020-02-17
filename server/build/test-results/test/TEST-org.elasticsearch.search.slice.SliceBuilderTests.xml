@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.slice.SliceBuilderTests" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:39" hostname="Escoto-PC" time="0.469">
+  <properties/>
+  <testcase name="testSerializationBackcompat" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.004"/>
+  <testcase name="testToFilterSimple" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.005"/>
+  <testcase name="testInvalidArguments" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.005"/>
+  <testcase name="testToFilterDeprecationMessage" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.005"/>
+  <testcase name="testToFilterWithRouting" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.005"/>
+  <testcase name="testInvalidField" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.003"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.002"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.002"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.007"/>
+  <testcase name="testToFilterRandom" classname="org.elasticsearch.search.slice.SliceBuilderTests" time="0.431"/>
+  <system-out><![CDATA[[2020-02-16T18:24:39,024][INFO ][o.e.s.s.SliceBuilderTests] [testSerializationBackcompat] before test
+[2020-02-16T18:24:39,026][INFO ][o.e.s.s.SliceBuilderTests] [testSerializationBackcompat] after test
+[2020-02-16T18:24:39,028][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterSimple] before test
+[2020-02-16T18:24:39,032][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterSimple] after test
+[2020-02-16T18:24:39,036][INFO ][o.e.s.s.SliceBuilderTests] [testInvalidArguments] before test
+[2020-02-16T18:24:39,037][INFO ][o.e.s.s.SliceBuilderTests] [testInvalidArguments] after test
+[2020-02-16T18:24:39,038][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterDeprecationMessage] before test
+[2020-02-16T18:24:39,041][WARN ][o.e.d.s.s.SliceBuilder   ] [testToFilterDeprecationMessage] Computing slices on the [_uid] field is deprecated for 6.x indices, use [_id] instead
+[2020-02-16T18:24:39,042][WARN ][o.e.d.s.s.SliceBuilder   ] [testToFilterDeprecationMessage] Computing slices on the [_uid] field is deprecated for 6.x indices, use [_id] instead
+[2020-02-16T18:24:39,042][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterDeprecationMessage] after test
+[2020-02-16T18:24:39,044][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterWithRouting] before test
+[2020-02-16T18:24:39,046][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterWithRouting] after test
+[2020-02-16T18:24:39,049][INFO ][o.e.s.s.SliceBuilderTests] [testInvalidField] before test
+[2020-02-16T18:24:39,050][INFO ][o.e.s.s.SliceBuilderTests] [testInvalidField] after test
+[2020-02-16T18:24:39,051][INFO ][o.e.s.s.SliceBuilderTests] [testFromXContent] before test
+[2020-02-16T18:24:39,052][INFO ][o.e.s.s.SliceBuilderTests] [testFromXContent] after test
+[2020-02-16T18:24:39,054][INFO ][o.e.s.s.SliceBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T18:24:39,054][INFO ][o.e.s.s.SliceBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T18:24:39,061][INFO ][o.e.s.s.SliceBuilderTests] [testSerialization] before test
+[2020-02-16T18:24:39,061][INFO ][o.e.s.s.SliceBuilderTests] [testSerialization] after test
+[2020-02-16T18:24:39,065][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterRandom] before test
+[2020-02-16T18:24:39,492][INFO ][o.e.s.s.SliceBuilderTests] [testToFilterRandom] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

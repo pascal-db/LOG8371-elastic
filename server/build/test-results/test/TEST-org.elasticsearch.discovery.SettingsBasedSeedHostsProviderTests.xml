@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.discovery.SettingsBasedSeedHostsProviderTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:58" hostname="Escoto-PC" time="0.011">
+  <properties/>
+  <testcase name="testScansPortsByDefault" classname="org.elasticsearch.discovery.SettingsBasedSeedHostsProviderTests" time="0.003"/>
+  <testcase name="testForbidsBothSettingsAtTheSameTime" classname="org.elasticsearch.discovery.SettingsBasedSeedHostsProviderTests" time="0.002"/>
+  <testcase name="testGetsHostsFromLegacySetting" classname="org.elasticsearch.discovery.SettingsBasedSeedHostsProviderTests" time="0.003"/>
+  <testcase name="testGetsHostsFromSetting" classname="org.elasticsearch.discovery.SettingsBasedSeedHostsProviderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T04:50:58,830][INFO ][o.e.d.SettingsBasedSeedHostsProviderTests] [testScansPortsByDefault] before test
+[2020-02-17T04:50:58,831][INFO ][o.e.d.SettingsBasedSeedHostsProviderTests] [testScansPortsByDefault] after test
+[2020-02-17T04:50:58,833][INFO ][o.e.d.SettingsBasedSeedHostsProviderTests] [testForbidsBothSettingsAtTheSameTime] before test
+[2020-02-17T04:50:58,833][INFO ][o.e.d.SettingsBasedSeedHostsProviderTests] [testForbidsBothSettingsAtTheSameTime] after test
+[2020-02-17T04:50:58,835][INFO ][o.e.d.SettingsBasedSeedHostsProviderTests] [testGetsHostsFromLegacySetting] before test
+[2020-02-17T04:50:58,836][WARN ][o.e.d.c.s.Settings       ] [testGetsHostsFromLegacySetting] [discovery.zen.ping.unicast.hosts] setting was deprecated in Elasticsearch and will be removed in a future release! See the breaking changes documentation for the next major version.
+[2020-02-17T04:50:58,836][INFO ][o.e.d.SettingsBasedSeedHostsProviderTests] [testGetsHostsFromLegacySetting] after test
+[2020-02-17T04:50:58,839][INFO ][o.e.d.SettingsBasedSeedHostsProviderTests] [testGetsHostsFromSetting] before test
+[2020-02-17T04:50:58,839][INFO ][o.e.d.SettingsBasedSeedHostsProviderTests] [testGetsHostsFromSetting] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

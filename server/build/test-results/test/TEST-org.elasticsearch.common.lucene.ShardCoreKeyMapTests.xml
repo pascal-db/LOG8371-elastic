@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.lucene.ShardCoreKeyMapTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:47" hostname="Escoto-PC" time="0.033">
+  <properties/>
+  <testcase name="testBasics" classname="org.elasticsearch.common.lucene.ShardCoreKeyMapTests" time="0.016"/>
+  <testcase name="testAddingAClosedReader" classname="org.elasticsearch.common.lucene.ShardCoreKeyMapTests" time="0.011"/>
+  <testcase name="testMissingShard" classname="org.elasticsearch.common.lucene.ShardCoreKeyMapTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-16T19:20:47,529][INFO ][o.e.c.l.ShardCoreKeyMapTests] [testBasics] before test
+[2020-02-16T19:20:47,541][INFO ][o.e.c.l.ShardCoreKeyMapTests] [testBasics] after test
+[2020-02-16T19:20:47,546][INFO ][o.e.c.l.ShardCoreKeyMapTests] [testAddingAClosedReader] before test
+[2020-02-16T19:20:47,552][INFO ][o.e.c.l.ShardCoreKeyMapTests] [testAddingAClosedReader] after test
+[2020-02-16T19:20:47,556][INFO ][o.e.c.l.ShardCoreKeyMapTests] [testMissingShard] before test
+[2020-02-16T19:20:47,558][INFO ][o.e.c.l.ShardCoreKeyMapTests] [testMissingShard] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

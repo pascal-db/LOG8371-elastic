@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ingest.SimulatePipelineRequestParsingTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:37" hostname="Escoto-PC" time="0.052">
+  <properties/>
+  <testcase name="testParseUsingPipelineStoreWithType" classname="org.elasticsearch.action.ingest.SimulatePipelineRequestParsingTests" time="0.028"/>
+  <testcase name="testParseWithProvidedPipelineNoType" classname="org.elasticsearch.action.ingest.SimulatePipelineRequestParsingTests" time="0.003"/>
+  <testcase name="testParseUsingPipelineStoreNoType" classname="org.elasticsearch.action.ingest.SimulatePipelineRequestParsingTests" time="0.003"/>
+  <testcase name="testNonExistentPipelineId" classname="org.elasticsearch.action.ingest.SimulatePipelineRequestParsingTests" time="0.01"/>
+  <testcase name="testNullPipelineId" classname="org.elasticsearch.action.ingest.SimulatePipelineRequestParsingTests" time="0.004"/>
+  <testcase name="testParseWithProvidedPipelineWithType" classname="org.elasticsearch.action.ingest.SimulatePipelineRequestParsingTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T22:20:37,292][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testParseUsingPipelineStoreWithType] before test
+[2020-02-16T22:20:37,308][WARN ][o.e.d.a.i.SimulatePipelineRequest] [testParseUsingPipelineStoreWithType] [types removal] specifying _type in pipeline simulation requests is deprecated
+[2020-02-16T22:20:37,309][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testParseUsingPipelineStoreWithType] after test
+[2020-02-16T22:20:37,312][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testParseWithProvidedPipelineNoType] before test
+[2020-02-16T22:20:37,313][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testParseWithProvidedPipelineNoType] after test
+[2020-02-16T22:20:37,315][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testParseUsingPipelineStoreNoType] before test
+[2020-02-16T22:20:37,315][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testParseUsingPipelineStoreNoType] after test
+[2020-02-16T22:20:37,325][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testNonExistentPipelineId] before test
+[2020-02-16T22:20:37,326][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testNonExistentPipelineId] after test
+[2020-02-16T22:20:37,330][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testNullPipelineId] before test
+[2020-02-16T22:20:37,331][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testNullPipelineId] after test
+[2020-02-16T22:20:37,332][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testParseWithProvidedPipelineWithType] before test
+[2020-02-16T22:20:37,334][INFO ][o.e.a.i.SimulatePipelineRequestParsingTests] [testParseWithProvidedPipelineWithType] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

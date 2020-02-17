@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.admin.cluster.shards.ClusterSearchShardsRequestTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:23" hostname="Escoto-PC" time="0.007">
+  <properties/>
+  <testcase name="testIndicesMustNotBeNull" classname="org.elasticsearch.action.admin.cluster.shards.ClusterSearchShardsRequestTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.action.admin.cluster.shards.ClusterSearchShardsRequestTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T15:20:23,798][INFO ][o.e.a.a.c.s.ClusterSearchShardsRequestTests] [testIndicesMustNotBeNull] before test
+[2020-02-16T15:20:23,801][INFO ][o.e.a.a.c.s.ClusterSearchShardsRequestTests] [testIndicesMustNotBeNull] after test
+[2020-02-16T15:20:23,803][INFO ][o.e.a.a.c.s.ClusterSearchShardsRequestTests] [testSerialization] before test
+[2020-02-16T15:20:23,804][INFO ][o.e.a.a.c.s.ClusterSearchShardsRequestTests] [testSerialization] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

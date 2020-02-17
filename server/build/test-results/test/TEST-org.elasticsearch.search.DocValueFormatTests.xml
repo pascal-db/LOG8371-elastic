@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.DocValueFormatTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:35" hostname="Escoto-PC" time="0.033">
+  <properties/>
+  <testcase name="testBinaryFormat" classname="org.elasticsearch.search.DocValueFormatTests" time="0.003"/>
+  <testcase name="testIpFormat" classname="org.elasticsearch.search.DocValueFormatTests" time="0.015"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.DocValueFormatTests" time="0.002"/>
+  <testcase name="testRawParse" classname="org.elasticsearch.search.DocValueFormatTests" time="0.002"/>
+  <testcase name="testDecimalFormat" classname="org.elasticsearch.search.DocValueFormatTests" time="0.001"/>
+  <testcase name="testDecimalParse" classname="org.elasticsearch.search.DocValueFormatTests" time="0.001"/>
+  <testcase name="testGeoTileFormat" classname="org.elasticsearch.search.DocValueFormatTests" time="0.002"/>
+  <testcase name="testRawFormat" classname="org.elasticsearch.search.DocValueFormatTests" time="0.001"/>
+  <testcase name="testBooleanParse" classname="org.elasticsearch.search.DocValueFormatTests" time="0.002"/>
+  <testcase name="testBooleanFormat" classname="org.elasticsearch.search.DocValueFormatTests" time="0.001"/>
+  <testcase name="testIPParse" classname="org.elasticsearch.search.DocValueFormatTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:25:35,591][INFO ][o.e.s.DocValueFormatTests] [testBinaryFormat] before test
+[2020-02-16T22:25:35,592][INFO ][o.e.s.DocValueFormatTests] [testBinaryFormat] after test
+[2020-02-16T22:25:35,607][INFO ][o.e.s.DocValueFormatTests] [testIpFormat] before test
+[2020-02-16T22:25:35,607][INFO ][o.e.s.DocValueFormatTests] [testIpFormat] after test
+[2020-02-16T22:25:35,609][INFO ][o.e.s.DocValueFormatTests] [testSerialization] before test
+[2020-02-16T22:25:35,610][INFO ][o.e.s.DocValueFormatTests] [testSerialization] after test
+[2020-02-16T22:25:35,612][INFO ][o.e.s.DocValueFormatTests] [testRawParse] before test
+[2020-02-16T22:25:35,612][INFO ][o.e.s.DocValueFormatTests] [testRawParse] after test
+[2020-02-16T22:25:35,613][INFO ][o.e.s.DocValueFormatTests] [testDecimalFormat] before test
+[2020-02-16T22:25:35,613][INFO ][o.e.s.DocValueFormatTests] [testDecimalFormat] after test
+[2020-02-16T22:25:35,615][INFO ][o.e.s.DocValueFormatTests] [testDecimalParse] before test
+[2020-02-16T22:25:35,615][INFO ][o.e.s.DocValueFormatTests] [testDecimalParse] after test
+[2020-02-16T22:25:35,616][INFO ][o.e.s.DocValueFormatTests] [testGeoTileFormat] before test
+[2020-02-16T22:25:35,617][INFO ][o.e.s.DocValueFormatTests] [testGeoTileFormat] after test
+[2020-02-16T22:25:35,618][INFO ][o.e.s.DocValueFormatTests] [testRawFormat] before test
+[2020-02-16T22:25:35,618][INFO ][o.e.s.DocValueFormatTests] [testRawFormat] after test
+[2020-02-16T22:25:35,619][INFO ][o.e.s.DocValueFormatTests] [testBooleanParse] before test
+[2020-02-16T22:25:35,620][INFO ][o.e.s.DocValueFormatTests] [testBooleanParse] after test
+[2020-02-16T22:25:35,621][INFO ][o.e.s.DocValueFormatTests] [testBooleanFormat] before test
+[2020-02-16T22:25:35,621][INFO ][o.e.s.DocValueFormatTests] [testBooleanFormat] after test
+[2020-02-16T22:25:35,622][INFO ][o.e.s.DocValueFormatTests] [testIPParse] before test
+[2020-02-16T22:25:35,622][INFO ][o.e.s.DocValueFormatTests] [testIPParse] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

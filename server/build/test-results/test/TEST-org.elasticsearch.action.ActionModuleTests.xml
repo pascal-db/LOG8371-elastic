@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.action.ActionModuleTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:19:59" hostname="Escoto-PC" time="1.298">
+  <properties/>
+  <testcase name="testPluginCantOverwriteBuiltinRestHandler" classname="org.elasticsearch.action.ActionModuleTests" time="1.133"/>
+  <testcase name="testSetupActionsContainsKnownBuiltin" classname="org.elasticsearch.action.ActionModuleTests" time="0.032"/>
+  <testcase name="testPluginCantOverwriteBuiltinAction" classname="org.elasticsearch.action.ActionModuleTests" time="0.053"/>
+  <testcase name="testPluginCanRegisterAction" classname="org.elasticsearch.action.ActionModuleTests" time="0.004"/>
+  <testcase name="testPluginCanRegisterRestHandler" classname="org.elasticsearch.action.ActionModuleTests" time="0.069"/>
+  <testcase name="testSetupRestHandlerContainsKnownBuiltin" classname="org.elasticsearch.action.ActionModuleTests" time="0.007"/>
+  <system-out><![CDATA[[2020-02-16T23:19:59,896][INFO ][o.e.a.ActionModuleTests  ] [testPluginCantOverwriteBuiltinRestHandler] before test
+[2020-02-16T23:20:01,026][INFO ][o.e.a.ActionModuleTests  ] [testPluginCantOverwriteBuiltinRestHandler] after test
+[2020-02-16T23:20:01,057][INFO ][o.e.a.ActionModuleTests  ] [testSetupActionsContainsKnownBuiltin] before test
+[2020-02-16T23:20:01,058][INFO ][o.e.a.ActionModuleTests  ] [testSetupActionsContainsKnownBuiltin] after test
+[2020-02-16T23:20:01,110][INFO ][o.e.a.ActionModuleTests  ] [testPluginCantOverwriteBuiltinAction] before test
+[2020-02-16T23:20:01,111][INFO ][o.e.a.ActionModuleTests  ] [testPluginCantOverwriteBuiltinAction] after test
+[2020-02-16T23:20:01,114][INFO ][o.e.a.ActionModuleTests  ] [testPluginCanRegisterAction] before test
+[2020-02-16T23:20:01,116][INFO ][o.e.a.ActionModuleTests  ] [testPluginCanRegisterAction] after test
+[2020-02-16T23:20:01,166][INFO ][o.e.a.ActionModuleTests  ] [testPluginCanRegisterRestHandler] before test
+[2020-02-16T23:20:01,184][INFO ][o.e.a.ActionModuleTests  ] [testPluginCanRegisterRestHandler] after test
+[2020-02-16T23:20:01,187][INFO ][o.e.a.ActionModuleTests  ] [testSetupRestHandlerContainsKnownBuiltin] before test
+[2020-02-16T23:20:01,191][INFO ][o.e.a.ActionModuleTests  ] [testSetupRestHandlerContainsKnownBuiltin] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.TransportInfoTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:09" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testHideCnameIfDeprecatedFormat" classname="org.elasticsearch.transport.TransportInfoTests" time="0.003"/>
+  <testcase name="testCorrectDisplayPublishedIp" classname="org.elasticsearch.transport.TransportInfoTests" time="0.002"/>
+  <testcase name="testCorrectDisplayPublishedIpv6" classname="org.elasticsearch.transport.TransportInfoTests" time="0.001"/>
+  <testcase name="testCorrectlyDisplayPublishedCname" classname="org.elasticsearch.transport.TransportInfoTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:25:09,799][INFO ][o.e.t.TransportInfoTests ] [testHideCnameIfDeprecatedFormat] before test
+[2020-02-16T17:25:09,800][WARN ][o.e.d.t.TransportInfo    ] [testHideCnameIfDeprecatedFormat] transport.publish_address was printed as [ip:port] instead of [hostname/ip:port]. This format is deprecated and will change to [hostname/ip:port] in a future version. Use -Des.transport.cname_in_publish_address=true to enforce non-deprecated formatting.
+[2020-02-16T17:25:09,800][WARN ][o.e.d.t.TransportInfo    ] [testHideCnameIfDeprecatedFormat] transport.test_profile.publish_address was printed as [ip:port] instead of [hostname/ip:port]. This format is deprecated and will change to [hostname/ip:port] in a future version. Use -Des.transport.cname_in_publish_address=true to enforce non-deprecated formatting.
+[2020-02-16T17:25:09,801][INFO ][o.e.t.TransportInfoTests ] [testHideCnameIfDeprecatedFormat] after test
+[2020-02-16T17:25:09,802][INFO ][o.e.t.TransportInfoTests ] [testCorrectDisplayPublishedIp] before test
+[2020-02-16T17:25:09,802][INFO ][o.e.t.TransportInfoTests ] [testCorrectDisplayPublishedIp] after test
+[2020-02-16T17:25:09,804][INFO ][o.e.t.TransportInfoTests ] [testCorrectDisplayPublishedIpv6] before test
+[2020-02-16T17:25:09,804][INFO ][o.e.t.TransportInfoTests ] [testCorrectDisplayPublishedIpv6] after test
+[2020-02-16T17:25:09,805][INFO ][o.e.t.TransportInfoTests ] [testCorrectlyDisplayPublishedCname] before test
+[2020-02-16T17:25:09,805][INFO ][o.e.t.TransportInfoTests ] [testCorrectlyDisplayPublishedCname] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

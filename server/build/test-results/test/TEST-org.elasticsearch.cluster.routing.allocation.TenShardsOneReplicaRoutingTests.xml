@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.TenShardsOneReplicaRoutingTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:20:39" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testSingleIndexFirstStartPrimaryThenBackups" classname="org.elasticsearch.cluster.routing.allocation.TenShardsOneReplicaRoutingTests" time="0.008"/>
+  <system-out><![CDATA[[2020-02-17T06:20:39,531][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] before test
+[2020-02-17T06:20:39,533][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Building initial routing table
+[2020-02-17T06:20:39,533][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Adding one node and performing rerouting
+[2020-02-17T06:20:39,534][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Add another node and perform rerouting, nothing will happen since primary not started
+[2020-02-17T06:20:39,535][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Start the primary shard (on node1)
+[2020-02-17T06:20:39,536][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Reroute, nothing should change
+[2020-02-17T06:20:39,536][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Start the backup shard
+[2020-02-17T06:20:39,536][INFO ][o.e.c.r.a.AllocationService] [testSingleIndexFirstStartPrimaryThenBackups] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][6], [test][8], [test][9], [test][7], [test][4], [test][3], [test][1], [test][5], [test][2], [test][0]]]).
+[2020-02-17T06:20:39,536][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Add another node and perform rerouting
+[2020-02-17T06:20:39,537][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] Start the shards on node 3
+[2020-02-17T06:20:39,538][INFO ][o.e.c.r.a.TenShardsOneReplicaRoutingTests] [testSingleIndexFirstStartPrimaryThenBackups] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

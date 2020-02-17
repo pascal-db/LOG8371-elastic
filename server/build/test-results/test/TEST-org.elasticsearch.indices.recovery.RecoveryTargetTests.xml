@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.recovery.RecoveryTargetTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:58" hostname="Escoto-PC" time="0.065">
+  <properties/>
+  <testcase name="testIndex" classname="org.elasticsearch.indices.recovery.RecoveryTargetTests" time="0.01"/>
+  <testcase name="testStageSequenceEnforcement" classname="org.elasticsearch.indices.recovery.RecoveryTargetTests" time="0.007"/>
+  <testcase name="testConcurrentModificationIndexFileDetailsMap" classname="org.elasticsearch.indices.recovery.RecoveryTargetTests" time="0.028"/>
+  <testcase name="testStart" classname="org.elasticsearch.indices.recovery.RecoveryTargetTests" time="0.003"/>
+  <testcase name="testTimers" classname="org.elasticsearch.indices.recovery.RecoveryTargetTests" time="0.006"/>
+  <testcase name="testTranslog" classname="org.elasticsearch.indices.recovery.RecoveryTargetTests" time="0.008"/>
+  <testcase name="testFileHashCodeAndEquals" classname="org.elasticsearch.indices.recovery.RecoveryTargetTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T01:24:58,739][INFO ][o.e.i.r.RecoveryTargetTests] [testIndex] before test
+[2020-02-17T01:24:58,740][INFO ][o.e.i.r.RecoveryTargetTests] [testIndex] testing initial information
+[2020-02-17T01:24:58,741][INFO ][o.e.i.r.RecoveryTargetTests] [testIndex] testing serialized information
+[2020-02-17T01:24:58,744][INFO ][o.e.i.r.RecoveryTargetTests] [testIndex] testing post recovery
+[2020-02-17T01:24:58,745][INFO ][o.e.i.r.RecoveryTargetTests] [testIndex] after test
+[2020-02-17T01:24:58,749][INFO ][o.e.i.r.RecoveryTargetTests] [testStageSequenceEnforcement] before test
+[2020-02-17T01:24:58,752][INFO ][o.e.i.r.RecoveryTargetTests] [testStageSequenceEnforcement] after test
+[2020-02-17T01:24:58,755][INFO ][o.e.i.r.RecoveryTargetTests] [testConcurrentModificationIndexFileDetailsMap] before test
+[2020-02-17T01:24:58,780][INFO ][o.e.i.r.RecoveryTargetTests] [testConcurrentModificationIndexFileDetailsMap] after test
+[2020-02-17T01:24:58,783][INFO ][o.e.i.r.RecoveryTargetTests] [testStart] before test
+[2020-02-17T01:24:58,783][INFO ][o.e.i.r.RecoveryTargetTests] [testStart] after test
+[2020-02-17T01:24:58,787][INFO ][o.e.i.r.RecoveryTargetTests] [testTimers] before test
+[2020-02-17T01:24:58,790][INFO ][o.e.i.r.RecoveryTargetTests] [testTimers] after test
+[2020-02-17T01:24:58,794][INFO ][o.e.i.r.RecoveryTargetTests] [testTranslog] before test
+[2020-02-17T01:24:58,797][INFO ][o.e.i.r.RecoveryTargetTests] [testTranslog] after test
+[2020-02-17T01:24:58,800][INFO ][o.e.i.r.RecoveryTargetTests] [testFileHashCodeAndEquals] before test
+[2020-02-17T01:24:58,800][INFO ][o.e.i.r.RecoveryTargetTests] [testFileHashCodeAndEquals] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

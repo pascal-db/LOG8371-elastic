@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.search.aggregations.bucket.nested.InternalReverseNestedTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:23" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.search.aggregations.bucket.nested.InternalReverseNestedTests" time="0.003"/>
+  <testcase name="testFromXContentWithRandomFields" classname="org.elasticsearch.search.aggregations.bucket.nested.InternalReverseNestedTests" time="0.003"/>
+  <testcase name="testReduceRandom" classname="org.elasticsearch.search.aggregations.bucket.nested.InternalReverseNestedTests" time="0.003"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.search.aggregations.bucket.nested.InternalReverseNestedTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.search.aggregations.bucket.nested.InternalReverseNestedTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:25:23,771][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testSerialization] before test
+[2020-02-16T22:25:23,772][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testSerialization] after test
+[2020-02-16T22:25:23,774][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testFromXContentWithRandomFields] before test
+[2020-02-16T22:25:23,774][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testFromXContentWithRandomFields] after test
+[2020-02-16T22:25:23,777][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testReduceRandom] before test
+[2020-02-16T22:25:23,777][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testReduceRandom] after test
+[2020-02-16T22:25:23,779][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testEqualsAndHashcode] before test
+[2020-02-16T22:25:23,780][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testEqualsAndHashcode] after test
+[2020-02-16T22:25:23,782][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testFromXContent] before test
+[2020-02-16T22:25:23,782][INFO ][o.e.s.a.b.n.InternalReverseNestedTests] [testFromXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

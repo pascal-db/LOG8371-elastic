@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.seqno.RetentionLeaseTests" tests="5" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:24" hostname="Escoto-PC" time="0.013">
+  <properties/>
+  <testcase name="testEmptySource" classname="org.elasticsearch.index.seqno.RetentionLeaseTests" time="0.002"/>
+  <testcase name="testRetentionLeaseSerialization" classname="org.elasticsearch.index.seqno.RetentionLeaseTests" time="0.002"/>
+  <testcase name="testTimestampOutOfRange" classname="org.elasticsearch.index.seqno.RetentionLeaseTests" time="0.002"/>
+  <testcase name="testEmptyId" classname="org.elasticsearch.index.seqno.RetentionLeaseTests" time="0.003"/>
+  <testcase name="testRetainingSequenceNumberOutOfRange" classname="org.elasticsearch.index.seqno.RetentionLeaseTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T22:23:24,146][INFO ][o.e.i.s.RetentionLeaseTests] [testEmptySource] before test
+[2020-02-16T22:23:24,147][INFO ][o.e.i.s.RetentionLeaseTests] [testEmptySource] after test
+[2020-02-16T22:23:24,150][INFO ][o.e.i.s.RetentionLeaseTests] [testRetentionLeaseSerialization] before test
+[2020-02-16T22:23:24,150][INFO ][o.e.i.s.RetentionLeaseTests] [testRetentionLeaseSerialization] after test
+[2020-02-16T22:23:24,152][INFO ][o.e.i.s.RetentionLeaseTests] [testTimestampOutOfRange] before test
+[2020-02-16T22:23:24,153][INFO ][o.e.i.s.RetentionLeaseTests] [testTimestampOutOfRange] after test
+[2020-02-16T22:23:24,155][INFO ][o.e.i.s.RetentionLeaseTests] [testEmptyId] before test
+[2020-02-16T22:23:24,156][INFO ][o.e.i.s.RetentionLeaseTests] [testEmptyId] after test
+[2020-02-16T22:23:24,157][INFO ][o.e.i.s.RetentionLeaseTests] [testRetainingSequenceNumberOutOfRange] before test
+[2020-02-16T22:23:24,158][INFO ][o.e.i.s.RetentionLeaseTests] [testRetainingSequenceNumberOutOfRange] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

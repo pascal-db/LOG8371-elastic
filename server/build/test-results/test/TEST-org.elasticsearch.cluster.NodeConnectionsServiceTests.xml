@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.NodeConnectionsServiceTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:34" hostname="Escoto-PC" time="0.905">
+  <properties/>
+  <testcase name="testOnlyBlocksOnConnectionsToNewNodes" classname="org.elasticsearch.cluster.NodeConnectionsServiceTests" time="0.707"/>
+  <testcase name="testConnectAndDisconnect" classname="org.elasticsearch.cluster.NodeConnectionsServiceTests" time="0.192"/>
+  <testcase name="testPeriodicReconnection" classname="org.elasticsearch.cluster.NodeConnectionsServiceTests" time="0.006"/>
+  <system-out><![CDATA[[2020-02-17T11:21:34,012][INFO ][o.e.c.NodeConnectionsServiceTests] [testOnlyBlocksOnConnectionsToNewNodes] before test
+[2020-02-17T11:21:34,717][INFO ][o.e.c.NodeConnectionsServiceTests] [testOnlyBlocksOnConnectionsToNewNodes] after test
+[2020-02-17T11:21:34,725][INFO ][o.e.c.NodeConnectionsServiceTests] [testConnectAndDisconnect] before test
+[2020-02-17T11:21:34,910][INFO ][o.e.c.NodeConnectionsServiceTests] [testConnectAndDisconnect] after test
+[2020-02-17T11:21:34,911][INFO ][o.e.c.NodeConnectionsServiceTests] [testPeriodicReconnection] before test
+[2020-02-17T11:21:34,914][INFO ][o.e.c.NodeConnectionsServiceTests] [testPeriodicReconnection] renewing connections
+[2020-02-17T11:21:34,916][INFO ][o.e.c.NodeConnectionsServiceTests] [testPeriodicReconnection] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

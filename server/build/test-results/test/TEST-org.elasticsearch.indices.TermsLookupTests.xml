@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.indices.TermsLookupTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:58" hostname="Escoto-PC" time="0.018">
+  <properties/>
+  <testcase name="testTermsLookup" classname="org.elasticsearch.indices.TermsLookupTests" time="0.008"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.indices.TermsLookupTests" time="0.004"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.indices.TermsLookupTests" time="0.003"/>
+  <testcase name="testSerializationWithTypes" classname="org.elasticsearch.indices.TermsLookupTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T23:24:58,855][INFO ][o.e.i.TermsLookupTests   ] [testTermsLookup] before test
+[2020-02-16T23:24:58,856][INFO ][o.e.i.TermsLookupTests   ] [testTermsLookup] after test
+[2020-02-16T23:24:58,860][INFO ][o.e.i.TermsLookupTests   ] [testIllegalArguments] before test
+[2020-02-16T23:24:58,860][INFO ][o.e.i.TermsLookupTests   ] [testIllegalArguments] after test
+[2020-02-16T23:24:58,863][INFO ][o.e.i.TermsLookupTests   ] [testSerialization] before test
+[2020-02-16T23:24:58,864][INFO ][o.e.i.TermsLookupTests   ] [testSerialization] after test
+[2020-02-16T23:24:58,866][INFO ][o.e.i.TermsLookupTests   ] [testSerializationWithTypes] before test
+[2020-02-16T23:24:58,866][INFO ][o.e.i.TermsLookupTests   ] [testSerializationWithTypes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

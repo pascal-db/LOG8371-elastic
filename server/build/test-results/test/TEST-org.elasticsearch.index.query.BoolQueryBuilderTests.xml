@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.BoolQueryBuilderTests" tests="21" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:33" hostname="Escoto-PC" time="0.195">
+  <properties/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.038"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.006"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.006"/>
+  <testcase name="testUnknownQueryName" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.002"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.023"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.011"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.004"/>
+  <testcase name="testEmptyBooleanQuery" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.002"/>
+  <testcase name="testMinShouldMatchDisableCoord" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.003"/>
+  <testcase name="testMinShouldMatchFilterWithoutShouldClauses" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.001"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.002"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.032"/>
+  <testcase name="testRewrite" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.029"/>
+  <testcase name="testIllegalArguments" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.003"/>
+  <testcase name="testRewriteWithMatchNone" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.004"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.013"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.005"/>
+  <testcase name="testMinShouldMatchBiggerThanNumberOfShouldClauses" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.002"/>
+  <testcase name="testRewriteMultipleTimes" classname="org.elasticsearch.index.query.BoolQueryBuilderTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-16T19:23:33,879][INFO ][o.e.i.q.BoolQueryBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T19:23:33,883][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no modules loaded
+[2020-02-16T19:23:33,883][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no plugins loaded
+[2020-02-16T19:23:33,899][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no modules loaded
+[2020-02-16T19:23:33,899][INFO ][o.e.p.PluginsService     ] [testUnknownObjectException] no plugins loaded
+[2020-02-16T19:23:33,915][INFO ][o.e.i.q.BoolQueryBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T19:23:33,917][INFO ][o.e.i.q.BoolQueryBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T19:23:33,922][INFO ][o.e.i.q.BoolQueryBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T19:23:33,927][INFO ][o.e.i.q.BoolQueryBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T19:23:33,927][INFO ][o.e.i.q.BoolQueryBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T19:23:33,929][INFO ][o.e.i.q.BoolQueryBuilderTests] [testUnknownQueryName] before test
+[2020-02-16T19:23:33,929][INFO ][o.e.i.q.BoolQueryBuilderTests] [testUnknownQueryName] after test
+[2020-02-16T19:23:33,931][INFO ][o.e.i.q.BoolQueryBuilderTests] [testUnknownField] before test
+[2020-02-16T19:23:33,931][INFO ][o.e.i.q.BoolQueryBuilderTests] [testUnknownField] after test
+[2020-02-16T19:23:33,933][INFO ][o.e.i.q.BoolQueryBuilderTests] [testFromXContent] before test
+[2020-02-16T19:23:33,955][INFO ][o.e.i.q.BoolQueryBuilderTests] [testFromXContent] after test
+[2020-02-16T19:23:33,962][INFO ][o.e.i.q.BoolQueryBuilderTests] [testSerialization] before test
+[2020-02-16T19:23:33,967][INFO ][o.e.i.q.BoolQueryBuilderTests] [testSerialization] after test
+[2020-02-16T19:23:33,969][INFO ][o.e.i.q.BoolQueryBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T19:23:33,970][INFO ][o.e.i.q.BoolQueryBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T19:23:33,972][INFO ][o.e.i.q.BoolQueryBuilderTests] [testEmptyBooleanQuery] before test
+[2020-02-16T19:23:33,973][INFO ][o.e.i.q.BoolQueryBuilderTests] [testEmptyBooleanQuery] after test
+[2020-02-16T19:23:33,975][INFO ][o.e.i.q.BoolQueryBuilderTests] [testMinShouldMatchDisableCoord] before test
+[2020-02-16T19:23:33,975][INFO ][o.e.i.q.BoolQueryBuilderTests] [testMinShouldMatchDisableCoord] after test
+[2020-02-16T19:23:33,977][INFO ][o.e.i.q.BoolQueryBuilderTests] [testMinShouldMatchFilterWithoutShouldClauses] before test
+[2020-02-16T19:23:33,977][INFO ][o.e.i.q.BoolQueryBuilderTests] [testMinShouldMatchFilterWithoutShouldClauses] after test
+[2020-02-16T19:23:33,978][INFO ][o.e.i.q.BoolQueryBuilderTests] [testMustRewrite] before test
+[2020-02-16T19:23:33,979][INFO ][o.e.i.q.BoolQueryBuilderTests] [testMustRewrite] after test
+[2020-02-16T19:23:33,981][INFO ][o.e.i.q.BoolQueryBuilderTests] [testToQuery] before test
+[2020-02-16T19:23:34,012][INFO ][o.e.i.q.BoolQueryBuilderTests] [testToQuery] after test
+[2020-02-16T19:23:34,040][INFO ][o.e.i.q.BoolQueryBuilderTests] [testRewrite] before test
+[2020-02-16T19:23:34,041][INFO ][o.e.i.q.BoolQueryBuilderTests] [testRewrite] after test
+[2020-02-16T19:23:34,043][INFO ][o.e.i.q.BoolQueryBuilderTests] [testIllegalArguments] before test
+[2020-02-16T19:23:34,044][INFO ][o.e.i.q.BoolQueryBuilderTests] [testIllegalArguments] after test
+[2020-02-16T19:23:34,046][INFO ][o.e.i.q.BoolQueryBuilderTests] [testRewriteWithMatchNone] before test
+[2020-02-16T19:23:34,048][INFO ][o.e.i.q.BoolQueryBuilderTests] [testRewriteWithMatchNone] after test
+[2020-02-16T19:23:34,050][INFO ][o.e.i.q.BoolQueryBuilderTests] [testValidOutput] before test
+[2020-02-16T19:23:34,061][INFO ][o.e.i.q.BoolQueryBuilderTests] [testValidOutput] after test
+[2020-02-16T19:23:34,065][INFO ][o.e.i.q.BoolQueryBuilderTests] [testFromJson] before test
+[2020-02-16T19:23:34,065][INFO ][o.e.i.q.BoolQueryBuilderTests] [testFromJson] after test
+[2020-02-16T19:23:34,067][INFO ][o.e.i.q.BoolQueryBuilderTests] [testMinShouldMatchBiggerThanNumberOfShouldClauses] before test
+[2020-02-16T19:23:34,068][INFO ][o.e.i.q.BoolQueryBuilderTests] [testMinShouldMatchBiggerThanNumberOfShouldClauses] after test
+[2020-02-16T19:23:34,069][INFO ][o.e.i.q.BoolQueryBuilderTests] [testCacheability] before test
+[2020-02-16T19:23:34,070][INFO ][o.e.i.q.BoolQueryBuilderTests] [testCacheability] after test
+[2020-02-16T19:23:34,072][INFO ][o.e.i.q.BoolQueryBuilderTests] [testRewriteMultipleTimes] before test
+[2020-02-16T19:23:34,072][INFO ][o.e.i.q.BoolQueryBuilderTests] [testRewriteMultipleTimes] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.transport.TcpTransportTests" tests="23" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:26:21" hostname="Escoto-PC" time="0.04">
+  <properties/>
+  <testcase name="testDecodePing" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testHTTPResponse" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testInvalidLength" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testDefaultSeedAddressesWithNonstandardGlobalPortRange" classname="org.elasticsearch.transport.TcpTransportTests" time="0.003"/>
+  <testcase name="testDefaultSeedAddressesWithSmallGlobalPortRange" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testParseV6DefaultPort" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testParseV4WithPort" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testDefaultSeedAddressesWithNonstandardProfilePortRange" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testDecodeIncompleteMessage" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testHTTPRequest" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testDefaultSeedAddressesPrefersProfileSettingToGlobalSetting" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testParseV6WithPort" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testDecodePingWithStartOfSecondMessage" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testDecodeMessage" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testDecodeWithIncompleteHeader" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testDefaultSeedAddressesWithDefaultPort" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testDefaultSeedAddressesWithNonstandardSinglePort" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testParseV6UnBracketed" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testInvalidHeader" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testParseV4DefaultPort" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testTLSHeader" classname="org.elasticsearch.transport.TcpTransportTests" time="0.001"/>
+  <testcase name="testDefaultSeedAddressesWithSmallProfilePortRange" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <testcase name="testRejectsPortRanges" classname="org.elasticsearch.transport.TcpTransportTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-17T03:26:21,405][INFO ][o.e.t.TcpTransportTests  ] [testDecodePing] before test
+[2020-02-17T03:26:21,406][INFO ][o.e.t.TcpTransportTests  ] [testDecodePing] after test
+[2020-02-17T03:26:21,408][INFO ][o.e.t.TcpTransportTests  ] [testHTTPResponse] before test
+[2020-02-17T03:26:21,408][INFO ][o.e.t.TcpTransportTests  ] [testHTTPResponse] after test
+[2020-02-17T03:26:21,409][INFO ][o.e.t.TcpTransportTests  ] [testInvalidLength] before test
+[2020-02-17T03:26:21,410][INFO ][o.e.t.TcpTransportTests  ] [testInvalidLength] after test
+[2020-02-17T03:26:21,411][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithNonstandardGlobalPortRange] before test
+[2020-02-17T03:26:21,412][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithNonstandardGlobalPortRange] after test
+[2020-02-17T03:26:21,414][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithSmallGlobalPortRange] before test
+[2020-02-17T03:26:21,415][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithSmallGlobalPortRange] after test
+[2020-02-17T03:26:21,416][INFO ][o.e.t.TcpTransportTests  ] [testParseV6DefaultPort] before test
+[2020-02-17T03:26:21,416][INFO ][o.e.t.TcpTransportTests  ] [testParseV6DefaultPort] after test
+[2020-02-17T03:26:21,417][INFO ][o.e.t.TcpTransportTests  ] [testParseV4WithPort] before test
+[2020-02-17T03:26:21,417][INFO ][o.e.t.TcpTransportTests  ] [testParseV4WithPort] after test
+[2020-02-17T03:26:21,419][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithNonstandardProfilePortRange] before test
+[2020-02-17T03:26:21,420][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithNonstandardProfilePortRange] after test
+[2020-02-17T03:26:21,421][INFO ][o.e.t.TcpTransportTests  ] [testDecodeIncompleteMessage] before test
+[2020-02-17T03:26:21,421][INFO ][o.e.t.TcpTransportTests  ] [testDecodeIncompleteMessage] after test
+[2020-02-17T03:26:21,422][INFO ][o.e.t.TcpTransportTests  ] [testHTTPRequest] before test
+[2020-02-17T03:26:21,422][INFO ][o.e.t.TcpTransportTests  ] [testHTTPRequest] after test
+[2020-02-17T03:26:21,424][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesPrefersProfileSettingToGlobalSetting] before test
+[2020-02-17T03:26:21,424][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesPrefersProfileSettingToGlobalSetting] after test
+[2020-02-17T03:26:21,426][INFO ][o.e.t.TcpTransportTests  ] [testParseV6WithPort] before test
+[2020-02-17T03:26:21,426][INFO ][o.e.t.TcpTransportTests  ] [testParseV6WithPort] after test
+[2020-02-17T03:26:21,427][INFO ][o.e.t.TcpTransportTests  ] [testDecodePingWithStartOfSecondMessage] before test
+[2020-02-17T03:26:21,427][INFO ][o.e.t.TcpTransportTests  ] [testDecodePingWithStartOfSecondMessage] after test
+[2020-02-17T03:26:21,429][INFO ][o.e.t.TcpTransportTests  ] [testDecodeMessage] before test
+[2020-02-17T03:26:21,429][INFO ][o.e.t.TcpTransportTests  ] [testDecodeMessage] after test
+[2020-02-17T03:26:21,430][INFO ][o.e.t.TcpTransportTests  ] [testDecodeWithIncompleteHeader] before test
+[2020-02-17T03:26:21,430][INFO ][o.e.t.TcpTransportTests  ] [testDecodeWithIncompleteHeader] after test
+[2020-02-17T03:26:21,432][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithDefaultPort] before test
+[2020-02-17T03:26:21,433][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithDefaultPort] after test
+[2020-02-17T03:26:21,434][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithNonstandardSinglePort] before test
+[2020-02-17T03:26:21,434][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithNonstandardSinglePort] after test
+[2020-02-17T03:26:21,436][INFO ][o.e.t.TcpTransportTests  ] [testParseV6UnBracketed] before test
+[2020-02-17T03:26:21,436][INFO ][o.e.t.TcpTransportTests  ] [testParseV6UnBracketed] after test
+[2020-02-17T03:26:21,437][INFO ][o.e.t.TcpTransportTests  ] [testInvalidHeader] before test
+[2020-02-17T03:26:21,437][INFO ][o.e.t.TcpTransportTests  ] [testInvalidHeader] after test
+[2020-02-17T03:26:21,439][INFO ][o.e.t.TcpTransportTests  ] [testParseV4DefaultPort] before test
+[2020-02-17T03:26:21,439][INFO ][o.e.t.TcpTransportTests  ] [testParseV4DefaultPort] after test
+[2020-02-17T03:26:21,440][INFO ][o.e.t.TcpTransportTests  ] [testTLSHeader] before test
+[2020-02-17T03:26:21,440][INFO ][o.e.t.TcpTransportTests  ] [testTLSHeader] after test
+[2020-02-17T03:26:21,441][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithSmallProfilePortRange] before test
+[2020-02-17T03:26:21,442][INFO ][o.e.t.TcpTransportTests  ] [testDefaultSeedAddressesWithSmallProfilePortRange] after test
+[2020-02-17T03:26:21,443][INFO ][o.e.t.TcpTransportTests  ] [testRejectsPortRanges] before test
+[2020-02-17T03:26:21,444][INFO ][o.e.t.TcpTransportTests  ] [testRejectsPortRanges] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

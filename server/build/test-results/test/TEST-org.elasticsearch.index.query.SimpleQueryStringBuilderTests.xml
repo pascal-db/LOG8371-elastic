@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" tests="41" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:23:08" hostname="Escoto-PC" time="0.183">
+  <properties/>
+  <testcase name="testDefaults" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.015"/>
+  <testcase name="testSerialization" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.003"/>
+  <testcase name="testFromJson" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.004"/>
+  <testcase name="testEqualsAndHashcode" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.003"/>
+  <testcase name="testDefaultEmptyComplainFlags" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testFieldCannotBeEmpty" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testCacheability" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.004"/>
+  <testcase name="testAnalyzeWildcard" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.003"/>
+  <testcase name="testNegativeFlags" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testMustRewrite" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testIllegalConstructorArg" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.008"/>
+  <testcase name="testAnalyzerWildcardWithSynonyms" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.005"/>
+  <testcase name="testAnalyzerWithGraph" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.003"/>
+  <testcase name="testToQueryBoost" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testMinimumShouldMatch" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testUnknownObjectException" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testFieldCannotBeEmptyAndWeighted" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testWithPrefixStopWords" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testNegativeBoosts" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testNegativeFieldBoost" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.001"/>
+  <testcase name="testQuoteFieldSuffix" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testFieldCannotBeNullAndWeighted" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testValidOutput" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.004"/>
+  <testcase name="testDefaultNullComplainOp" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testDefaultNullComplainFlags" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testFieldsCannotBeSetToNull" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.001"/>
+  <testcase name="testQueryWrappedInArray" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.001"/>
+  <testcase name="testFromXContent" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.017"/>
+  <testcase name="testWithStopWords" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <testcase name="testUnknownField" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.001"/>
+  <testcase name="testLenientToPrefixQuery" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.003"/>
+  <testcase name="testToQuery" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.021"/>
+  <testcase name="testExpandedTerms" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.003"/>
+  <testcase name="testAllFieldsWildcard" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.023"/>
+  <testcase name="testDefaultFieldParsing" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.003"/>
+  <testcase name="testFieldCannotBeNull" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.003"/>
+  <testcase name="testDefaultField" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.005"/>
+  <testcase name="testToFuzzyQuery" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.004"/>
+  <testcase name="testCachingStrategiesWithNow" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.004"/>
+  <testcase name="testDefaultOperatorHandling" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.005"/>
+  <testcase name="testUnmappedFieldNoTokenWithAndOperator" classname="org.elasticsearch.index.query.SimpleQueryStringBuilderTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T17:23:08,636][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaults] before test
+[2020-02-16T17:23:08,640][INFO ][o.e.p.PluginsService     ] [testDefaults] no modules loaded
+[2020-02-16T17:23:08,640][INFO ][o.e.p.PluginsService     ] [testDefaults] no plugins loaded
+[2020-02-16T17:23:08,645][INFO ][o.e.p.PluginsService     ] [testDefaults] no modules loaded
+[2020-02-16T17:23:08,645][INFO ][o.e.p.PluginsService     ] [testDefaults] no plugins loaded
+[2020-02-16T17:23:08,649][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaults] after test
+[2020-02-16T17:23:08,650][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testSerialization] before test
+[2020-02-16T17:23:08,652][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testSerialization] after test
+[2020-02-16T17:23:08,655][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFromJson] before test
+[2020-02-16T17:23:08,655][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFromJson] after test
+[2020-02-16T17:23:08,658][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testEqualsAndHashcode] before test
+[2020-02-16T17:23:08,659][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testEqualsAndHashcode] after test
+[2020-02-16T17:23:08,661][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultEmptyComplainFlags] before test
+[2020-02-16T17:23:08,661][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultEmptyComplainFlags] after test
+[2020-02-16T17:23:08,663][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeEmpty] before test
+[2020-02-16T17:23:08,663][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeEmpty] after test
+[2020-02-16T17:23:08,665][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testCacheability] before test
+[2020-02-16T17:23:08,667][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testCacheability] after test
+[2020-02-16T17:23:08,669][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzeWildcard] before test
+[2020-02-16T17:23:08,670][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzeWildcard] after test
+[2020-02-16T17:23:08,672][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeFlags] before test
+[2020-02-16T17:23:08,672][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeFlags] after test
+[2020-02-16T17:23:08,673][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testMustRewrite] before test
+[2020-02-16T17:23:08,674][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testMustRewrite] after test
+[2020-02-16T17:23:08,682][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testIllegalConstructorArg] before test
+[2020-02-16T17:23:08,682][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testIllegalConstructorArg] after test
+[2020-02-16T17:23:08,685][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzerWildcardWithSynonyms] before test
+[2020-02-16T17:23:08,687][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzerWildcardWithSynonyms] after test
+[2020-02-16T17:23:08,689][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzerWithGraph] before test
+[2020-02-16T17:23:08,690][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAnalyzerWithGraph] after test
+[2020-02-16T17:23:08,692][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToQueryBoost] before test
+[2020-02-16T17:23:08,692][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToQueryBoost] after test
+[2020-02-16T17:23:08,693][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testMinimumShouldMatch] before test
+[2020-02-16T17:23:08,694][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testMinimumShouldMatch] after test
+[2020-02-16T17:23:08,696][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnknownObjectException] before test
+[2020-02-16T17:23:08,696][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnknownObjectException] after test
+[2020-02-16T17:23:08,697][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeEmptyAndWeighted] before test
+[2020-02-16T17:23:08,698][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeEmptyAndWeighted] after test
+[2020-02-16T17:23:08,699][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testWithPrefixStopWords] before test
+[2020-02-16T17:23:08,700][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testWithPrefixStopWords] after test
+[2020-02-16T17:23:08,701][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeBoosts] before test
+[2020-02-16T17:23:08,702][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeBoosts] after test
+[2020-02-16T17:23:08,703][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeFieldBoost] before test
+[2020-02-16T17:23:08,703][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testNegativeFieldBoost] after test
+[2020-02-16T17:23:08,705][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testQuoteFieldSuffix] before test
+[2020-02-16T17:23:08,706][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testQuoteFieldSuffix] after test
+[2020-02-16T17:23:08,707][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeNullAndWeighted] before test
+[2020-02-16T17:23:08,708][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeNullAndWeighted] after test
+[2020-02-16T17:23:08,710][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testValidOutput] before test
+[2020-02-16T17:23:08,712][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testValidOutput] after test
+[2020-02-16T17:23:08,714][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultNullComplainOp] before test
+[2020-02-16T17:23:08,714][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultNullComplainOp] after test
+[2020-02-16T17:23:08,715][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultNullComplainFlags] before test
+[2020-02-16T17:23:08,716][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultNullComplainFlags] after test
+[2020-02-16T17:23:08,717][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldsCannotBeSetToNull] before test
+[2020-02-16T17:23:08,717][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldsCannotBeSetToNull] after test
+[2020-02-16T17:23:08,719][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testQueryWrappedInArray] before test
+[2020-02-16T17:23:08,719][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testQueryWrappedInArray] after test
+[2020-02-16T17:23:08,734][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFromXContent] before test
+[2020-02-16T17:23:08,736][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFromXContent] after test
+[2020-02-16T17:23:08,737][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testWithStopWords] before test
+[2020-02-16T17:23:08,738][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testWithStopWords] after test
+[2020-02-16T17:23:08,740][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnknownField] before test
+[2020-02-16T17:23:08,740][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnknownField] after test
+[2020-02-16T17:23:08,742][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testLenientToPrefixQuery] before test
+[2020-02-16T17:23:08,743][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testLenientToPrefixQuery] after test
+[2020-02-16T17:23:08,746][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToQuery] before test
+[2020-02-16T17:23:08,764][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToQuery] after test
+[2020-02-16T17:23:08,767][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testExpandedTerms] before test
+[2020-02-16T17:23:08,768][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testExpandedTerms] after test
+[2020-02-16T17:23:08,790][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAllFieldsWildcard] before test
+[2020-02-16T17:23:08,791][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testAllFieldsWildcard] after test
+[2020-02-16T17:23:08,793][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultFieldParsing] before test
+[2020-02-16T17:23:08,794][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultFieldParsing] after test
+[2020-02-16T17:23:08,796][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeNull] before test
+[2020-02-16T17:23:08,797][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testFieldCannotBeNull] after test
+[2020-02-16T17:23:08,801][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultField] before test
+[2020-02-16T17:23:08,802][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["*"]] to [["mapped_string","*","mapped_string_2"]]
+[2020-02-16T17:23:08,802][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["mapped_string","*","mapped_string_2"]] to [["mapped_string","mapped_string_2^5"]]
+[2020-02-16T17:23:08,802][INFO ][o.e.c.s.IndexScopedSettings] [testDefaultField] updating [index.query.default_field] from [["mapped_string","mapped_string_2^5"]] to [["*"]]
+[2020-02-16T17:23:08,802][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultField] after test
+[2020-02-16T17:23:08,806][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToFuzzyQuery] before test
+[2020-02-16T17:23:08,806][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testToFuzzyQuery] after test
+[2020-02-16T17:23:08,808][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testCachingStrategiesWithNow] before test
+[2020-02-16T17:23:08,810][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testCachingStrategiesWithNow] after test
+[2020-02-16T17:23:08,815][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultOperatorHandling] before test
+[2020-02-16T17:23:08,815][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testDefaultOperatorHandling] after test
+[2020-02-16T17:23:08,817][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnmappedFieldNoTokenWithAndOperator] before test
+[2020-02-16T17:23:08,817][INFO ][o.e.i.q.SimpleQueryStringBuilderTests] [testUnmappedFieldNoTokenWithAndOperator] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

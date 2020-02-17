@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="output" path="build-eclipse"/>
+	<classpathentry output="build-eclipse/1" kind="src" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8/"/>
+	<classpathentry sourcepath="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/8.3.0/2ecb8232ba352fed0286b0ff3896d7c3746b9c5b/lucene-core-8.3.0-sources.jar" kind="lib" path="C:/Users/Escoto/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/8.3.0/e98c442fa8b041072d5a5fe2d417d78a8ce46eaf/lucene-core-8.3.0.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+</classpath>

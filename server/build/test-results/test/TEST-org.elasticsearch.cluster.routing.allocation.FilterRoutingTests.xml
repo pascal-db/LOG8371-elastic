@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" tests="16" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:21:37" hostname="Escoto-PC" time="0.158">
+  <properties/>
+  <testcase name="testIndexExcludeFilters" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.009"/>
+  <testcase name="testClusterIncludeFiltersOptionalAttribute" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.007"/>
+  <testcase name="testClusterIncludeFiltersWildcards" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.004"/>
+  <testcase name="testIndexRequireFilters" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.006"/>
+  <testcase name="testClusterExcludeFiltersMultipleAttributes" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.005"/>
+  <testcase name="testIndexIncludeFilters" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.006"/>
+  <testcase name="testClusterIncludeFiltersSingleAttribute" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.009"/>
+  <testcase name="testIndexExcludeThenIncludeFilters" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.011"/>
+  <testcase name="testClusterExcludeFiltersSingleAttribute" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.008"/>
+  <testcase name="testClusterExcludeFiltersWildcards" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.01"/>
+  <testcase name="testClusterIncludeFiltersMultipleAttributes" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.008"/>
+  <testcase name="testClusterRequireFilters" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.013"/>
+  <testcase name="testIndexIncludeThenExcludeFilters" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.017"/>
+  <testcase name="testClusterIncludeAndExcludeFilters" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.024"/>
+  <testcase name="testClusterExcludeFiltersOptionalAttribute" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.006"/>
+  <testcase name="testConcurrentRecoveriesAfterShardsCannotRemainOnNode" classname="org.elasticsearch.cluster.routing.allocation.FilterRoutingTests" time="0.014"/>
+  <system-out><![CDATA[[2020-02-16T18:21:37,716][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] before test
+[2020-02-16T18:21:37,718][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] Building initial routing table
+[2020-02-16T18:21:37,719][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] --> rerouting
+[2020-02-16T18:21:37,719][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] --> start the shards (primaries)
+[2020-02-16T18:21:37,721][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] --> start the shards (replicas)
+[2020-02-16T18:21:37,721][INFO ][o.e.c.r.a.AllocationService] [testIndexExcludeFilters] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,722][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,722][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] --> switch between value2 and value4, shards should be relocating
+[2020-02-16T18:21:37,723][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] --> finish relocation
+[2020-02-16T18:21:37,723][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeFilters] after test
+[2020-02-16T18:21:37,725][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersOptionalAttribute] before test
+[2020-02-16T18:21:37,728][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersOptionalAttribute] Building initial routing table
+[2020-02-16T18:21:37,729][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersOptionalAttribute] --> rerouting
+[2020-02-16T18:21:37,729][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersOptionalAttribute] --> start the shards (primaries)
+[2020-02-16T18:21:37,729][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersOptionalAttribute] --> start the shards (replicas)
+[2020-02-16T18:21:37,729][INFO ][o.e.c.r.a.AllocationService] [testClusterIncludeFiltersOptionalAttribute] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,730][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersOptionalAttribute] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,730][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersOptionalAttribute] after test
+[2020-02-16T18:21:37,731][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersWildcards] before test
+[2020-02-16T18:21:37,733][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersWildcards] Building initial routing table
+[2020-02-16T18:21:37,733][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersWildcards] --> rerouting
+[2020-02-16T18:21:37,733][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersWildcards] --> start the shards (primaries)
+[2020-02-16T18:21:37,734][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersWildcards] --> start the shards (replicas)
+[2020-02-16T18:21:37,734][INFO ][o.e.c.r.a.AllocationService] [testClusterIncludeFiltersWildcards] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,734][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersWildcards] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,734][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersWildcards] after test
+[2020-02-16T18:21:37,736][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] before test
+[2020-02-16T18:21:37,738][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] Building initial routing table
+[2020-02-16T18:21:37,738][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] --> rerouting
+[2020-02-16T18:21:37,739][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] --> start the shards (primaries)
+[2020-02-16T18:21:37,739][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] --> start the shards (replicas)
+[2020-02-16T18:21:37,739][INFO ][o.e.c.r.a.AllocationService] [testIndexRequireFilters] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,739][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,739][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] --> switch between value2 and value4, shards should be relocating
+[2020-02-16T18:21:37,740][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] --> finish relocation
+[2020-02-16T18:21:37,740][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexRequireFilters] after test
+[2020-02-16T18:21:37,742][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersMultipleAttributes] before test
+[2020-02-16T18:21:37,744][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersMultipleAttributes] Building initial routing table
+[2020-02-16T18:21:37,744][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersMultipleAttributes] --> rerouting
+[2020-02-16T18:21:37,744][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersMultipleAttributes] --> start the shards (primaries)
+[2020-02-16T18:21:37,745][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersMultipleAttributes] --> start the shards (replicas)
+[2020-02-16T18:21:37,745][INFO ][o.e.c.r.a.AllocationService] [testClusterExcludeFiltersMultipleAttributes] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,745][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersMultipleAttributes] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,745][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersMultipleAttributes] after test
+[2020-02-16T18:21:37,747][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] before test
+[2020-02-16T18:21:37,748][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] Building initial routing table
+[2020-02-16T18:21:37,749][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] --> rerouting
+[2020-02-16T18:21:37,749][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] --> start the shards (primaries)
+[2020-02-16T18:21:37,750][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] --> start the shards (replicas)
+[2020-02-16T18:21:37,750][INFO ][o.e.c.r.a.AllocationService] [testIndexIncludeFilters] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,750][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,750][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] --> switch between value2 and value4, shards should be relocating
+[2020-02-16T18:21:37,751][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] --> finish relocation
+[2020-02-16T18:21:37,751][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeFilters] after test
+[2020-02-16T18:21:37,755][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersSingleAttribute] before test
+[2020-02-16T18:21:37,756][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersSingleAttribute] Building initial routing table
+[2020-02-16T18:21:37,757][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersSingleAttribute] --> rerouting
+[2020-02-16T18:21:37,757][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersSingleAttribute] --> start the shards (primaries)
+[2020-02-16T18:21:37,758][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersSingleAttribute] --> start the shards (replicas)
+[2020-02-16T18:21:37,759][INFO ][o.e.c.r.a.AllocationService] [testClusterIncludeFiltersSingleAttribute] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,760][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersSingleAttribute] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,760][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersSingleAttribute] after test
+[2020-02-16T18:21:37,763][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] before test
+[2020-02-16T18:21:37,764][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] Building initial routing table
+[2020-02-16T18:21:37,764][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] --> rerouting
+[2020-02-16T18:21:37,766][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] --> start the shards (primaries)
+[2020-02-16T18:21:37,768][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] --> start the shards (replicas)
+[2020-02-16T18:21:37,768][INFO ][o.e.c.r.a.AllocationService] [testIndexExcludeThenIncludeFilters] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,770][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,770][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] --> switch between value2 and value4, shards should be relocating
+[2020-02-16T18:21:37,771][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] --> finish relocation
+[2020-02-16T18:21:37,771][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexExcludeThenIncludeFilters] after test
+[2020-02-16T18:21:37,776][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersSingleAttribute] before test
+[2020-02-16T18:21:37,778][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersSingleAttribute] Building initial routing table
+[2020-02-16T18:21:37,778][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersSingleAttribute] --> rerouting
+[2020-02-16T18:21:37,778][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersSingleAttribute] --> start the shards (primaries)
+[2020-02-16T18:21:37,779][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersSingleAttribute] --> start the shards (replicas)
+[2020-02-16T18:21:37,779][INFO ][o.e.c.r.a.AllocationService] [testClusterExcludeFiltersSingleAttribute] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,779][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersSingleAttribute] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,779][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersSingleAttribute] after test
+[2020-02-16T18:21:37,782][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersWildcards] before test
+[2020-02-16T18:21:37,784][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersWildcards] Building initial routing table
+[2020-02-16T18:21:37,784][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersWildcards] --> rerouting
+[2020-02-16T18:21:37,785][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersWildcards] --> start the shards (primaries)
+[2020-02-16T18:21:37,786][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersWildcards] --> start the shards (replicas)
+[2020-02-16T18:21:37,788][INFO ][o.e.c.r.a.AllocationService] [testClusterExcludeFiltersWildcards] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,789][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersWildcards] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,789][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersWildcards] after test
+[2020-02-16T18:21:37,793][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersMultipleAttributes] before test
+[2020-02-16T18:21:37,795][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersMultipleAttributes] Building initial routing table
+[2020-02-16T18:21:37,795][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersMultipleAttributes] --> rerouting
+[2020-02-16T18:21:37,795][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersMultipleAttributes] --> start the shards (primaries)
+[2020-02-16T18:21:37,796][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersMultipleAttributes] --> start the shards (replicas)
+[2020-02-16T18:21:37,796][INFO ][o.e.c.r.a.AllocationService] [testClusterIncludeFiltersMultipleAttributes] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,797][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersMultipleAttributes] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,797][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeFiltersMultipleAttributes] after test
+[2020-02-16T18:21:37,807][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterRequireFilters] before test
+[2020-02-16T18:21:37,809][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterRequireFilters] Building initial routing table
+[2020-02-16T18:21:37,809][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterRequireFilters] --> rerouting
+[2020-02-16T18:21:37,809][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterRequireFilters] --> start the shards (primaries)
+[2020-02-16T18:21:37,810][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterRequireFilters] --> start the shards (replicas)
+[2020-02-16T18:21:37,810][INFO ][o.e.c.r.a.AllocationService] [testClusterRequireFilters] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,810][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterRequireFilters] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,810][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterRequireFilters] after test
+[2020-02-16T18:21:37,819][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] before test
+[2020-02-16T18:21:37,821][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] Building initial routing table
+[2020-02-16T18:21:37,821][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] --> rerouting
+[2020-02-16T18:21:37,822][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] --> start the shards (primaries)
+[2020-02-16T18:21:37,822][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] --> start the shards (replicas)
+[2020-02-16T18:21:37,822][INFO ][o.e.c.r.a.AllocationService] [testIndexIncludeThenExcludeFilters] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,823][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,823][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] --> switch between value2 and value4, shards should be relocating
+[2020-02-16T18:21:37,824][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] --> finish relocation
+[2020-02-16T18:21:37,827][INFO ][o.e.c.r.a.FilterRoutingTests] [testIndexIncludeThenExcludeFilters] after test
+[2020-02-16T18:21:37,848][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeAndExcludeFilters] before test
+[2020-02-16T18:21:37,850][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeAndExcludeFilters] Building initial routing table
+[2020-02-16T18:21:37,850][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeAndExcludeFilters] --> rerouting
+[2020-02-16T18:21:37,851][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeAndExcludeFilters] --> start the shards (primaries)
+[2020-02-16T18:21:37,851][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeAndExcludeFilters] --> start the shards (replicas)
+[2020-02-16T18:21:37,851][INFO ][o.e.c.r.a.AllocationService] [testClusterIncludeAndExcludeFilters] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,851][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeAndExcludeFilters] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,851][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterIncludeAndExcludeFilters] after test
+[2020-02-16T18:21:37,855][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersOptionalAttribute] before test
+[2020-02-16T18:21:37,856][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersOptionalAttribute] Building initial routing table
+[2020-02-16T18:21:37,856][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersOptionalAttribute] --> rerouting
+[2020-02-16T18:21:37,857][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersOptionalAttribute] --> start the shards (primaries)
+[2020-02-16T18:21:37,858][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersOptionalAttribute] --> start the shards (replicas)
+[2020-02-16T18:21:37,858][INFO ][o.e.c.r.a.AllocationService] [testClusterExcludeFiltersOptionalAttribute] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test][1], [test][0]]]).
+[2020-02-16T18:21:37,858][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersOptionalAttribute] --> make sure shards are only allocated on tag1 with value1 and value2
+[2020-02-16T18:21:37,858][INFO ][o.e.c.r.a.FilterRoutingTests] [testClusterExcludeFiltersOptionalAttribute] after test
+[2020-02-16T18:21:37,866][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] before test
+[2020-02-16T18:21:37,867][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] Building initial routing table
+[2020-02-16T18:21:37,867][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> adding two nodes and performing rerouting
+[2020-02-16T18:21:37,868][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> start the shards (only primaries)
+[2020-02-16T18:21:37,868][INFO ][o.e.c.r.a.AllocationService] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[test1][1], [test1][0], [test2][1], [test2][0]]]).
+[2020-02-16T18:21:37,868][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> make sure all shards are started
+[2020-02-16T18:21:37,868][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> disable allocation for node1 and reroute
+[2020-02-16T18:21:37,870][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> move shards from node1 to node2
+[2020-02-16T18:21:37,871][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> check that concurrent recoveries only allows 1 shard to move
+[2020-02-16T18:21:37,871][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> start the shards (only primaries)
+[2020-02-16T18:21:37,871][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> move second shard from node1 to node2
+[2020-02-16T18:21:37,871][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] --> start the shards (only primaries)
+[2020-02-16T18:21:37,871][INFO ][o.e.c.r.a.FilterRoutingTests] [testConcurrentRecoveriesAfterShardsCannotRemainOnNode] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class org.elasticsearch.cluster.coordination.CoordinationStateTests</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class org.elasticsearch.cluster.coordination.CoordinationStateTests</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/org.elasticsearch.cluster.coordination.html">org.elasticsearch.cluster.coordination</a> &gt; CoordinationStateTests</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">41</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.297s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testHandleClientValue</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleClientValueDuringOngoingPublication</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleClientValueWhenElectionNotWon</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleClientValueWithBadTerm</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleClientValueWithConfigurationChangeButNoJoinQuorum</td>
+<td class="success">0.011s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleClientValueWithDifferentReconfigurationWhileAlreadyReconfiguring</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleClientValueWithIllegalCommittedConfigurationChange</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleClientValueWithOldVersion</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleClientValueWithSameReconfigurationWhileAlreadyReconfiguring</td>
+<td class="success">0.035s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleCommit</td>
+<td class="success">0.009s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleCommitWithBadCurrentTerm</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleCommitWithBadLastAcceptedTerm</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandleCommitWithBadVersion</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishRequest</td>
+<td class="success">0.008s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishRequestWithBadTerm</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishRequestWithSameTermButOlderOrSameVersion</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishRequestWithTermHigherThanLastAcceptedTerm</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishResponseWhenSteppedDownAsLeader</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishResponseWithBadTerm</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishResponseWithCommit</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishResponseWithVersionMismatch</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishResponseWithoutCommit</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishResponseWithoutCommitedConfigQuorum</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testHandlePublishResponseWithoutPublishConfigQuorum</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinBeforeBootstrap</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinDoesNotWinElection</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinDoesNotWinElectionWhenOnlyCommittedConfigQuorum</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinDoesNotWinElectionWhenOnlyLastAcceptedConfigQuorum</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinWithBadCurrentTerm</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinWithHigherAcceptedTerm</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinWithLowerLastAcceptedTermWinsElection</td>
+<td class="success">0.005s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinWithNoStartJoinAfterReboot</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinWithSameAcceptedTermButHigherVersion</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinWithSameLastAcceptedTermButLowerOrSameVersionWinsElection</td>
+<td class="success">0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testJoinWithWrongTarget</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSafety</td>
+<td class="success">0.089s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSetInitialState</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testSetInitialStateWhenAlreadySet</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStartJoinAfterBootstrap</td>
+<td class="success">0.004s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testStartJoinBeforeBootstrap</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testVoteCollection</td>
+<td class="success">0.010s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>[2020-02-17T12:05:32,017][INFO ][o.e.c.c.CoordinationStateTests] [testHandleCommitWithBadVersion] before test
+[2020-02-17T12:05:32,020][INFO ][o.e.c.c.CoordinationStateTests] [testHandleCommitWithBadVersion] after test
+[2020-02-17T12:05:32,022][INFO ][o.e.c.c.CoordinationStateTests] [testSetInitialState] before test
+[2020-02-17T12:05:32,022][INFO ][o.e.c.c.CoordinationStateTests] [testSetInitialState] after test
+[2020-02-17T12:05:32,024][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithCommit] before test
+[2020-02-17T12:05:32,024][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithCommit] after test
+[2020-02-17T12:05:32,026][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithSameAcceptedTermButHigherVersion] before test
+[2020-02-17T12:05:32,027][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithSameAcceptedTermButHigherVersion] after test
+[2020-02-17T12:05:32,029][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithIllegalCommittedConfigurationChange] before test
+[2020-02-17T12:05:32,030][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithIllegalCommittedConfigurationChange] after test
+[2020-02-17T12:05:32,031][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishRequestWithBadTerm] before test
+[2020-02-17T12:05:32,032][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishRequestWithBadTerm] after test
+[2020-02-17T12:05:32,034][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithNoStartJoinAfterReboot] before test
+[2020-02-17T12:05:32,035][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithNoStartJoinAfterReboot] after test
+[2020-02-17T12:05:32,037][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWhenElectionNotWon] before test
+[2020-02-17T12:05:32,038][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWhenElectionNotWon] after test
+[2020-02-17T12:05:32,041][INFO ][o.e.c.c.CoordinationStateTests] [testJoinBeforeBootstrap] before test
+[2020-02-17T12:05:32,042][INFO ][o.e.c.c.CoordinationStateTests] [testJoinBeforeBootstrap] after test
+[2020-02-17T12:05:32,044][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithWrongTarget] before test
+[2020-02-17T12:05:32,045][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithWrongTarget] after test
+[2020-02-17T12:05:32,049][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithVersionMismatch] before test
+[2020-02-17T12:05:32,050][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithVersionMismatch] after test
+[2020-02-17T12:05:32,052][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithBadTerm] before test
+[2020-02-17T12:05:32,053][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithBadTerm] after test
+[2020-02-17T12:05:32,063][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithConfigurationChangeButNoJoinQuorum] before test
+[2020-02-17T12:05:32,064][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithConfigurationChangeButNoJoinQuorum] after test
+[2020-02-17T12:05:32,071][INFO ][o.e.c.c.CoordinationStateTests] [testJoinDoesNotWinElectionWhenOnlyLastAcceptedConfigQuorum] before test
+[2020-02-17T12:05:32,071][INFO ][o.e.c.c.CoordinationStateTests] [testJoinDoesNotWinElectionWhenOnlyLastAcceptedConfigQuorum] after test
+[2020-02-17T12:05:32,074][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithoutCommitedConfigQuorum] before test
+[2020-02-17T12:05:32,075][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithoutCommitedConfigQuorum] after test
+[2020-02-17T12:05:32,077][INFO ][o.e.c.c.CoordinationStateTests] [testStartJoinBeforeBootstrap] before test
+[2020-02-17T12:05:32,078][INFO ][o.e.c.c.CoordinationStateTests] [testStartJoinBeforeBootstrap] after test
+[2020-02-17T12:05:32,080][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishRequestWithSameTermButOlderOrSameVersion] before test
+[2020-02-17T12:05:32,081][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishRequestWithSameTermButOlderOrSameVersion] after test
+[2020-02-17T12:05:32,083][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithHigherAcceptedTerm] before test
+[2020-02-17T12:05:32,085][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithHigherAcceptedTerm] after test
+[2020-02-17T12:05:32,089][INFO ][o.e.c.c.CoordinationStateTests] [testSafety] before test
+[2020-02-17T12:05:32,174][INFO ][o.e.c.c.CoordinationStateTests] [testSafety] after test
+[2020-02-17T12:05:32,176][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithoutPublishConfigQuorum] before test
+[2020-02-17T12:05:32,177][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithoutPublishConfigQuorum] after test
+[2020-02-17T12:05:32,179][INFO ][o.e.c.c.CoordinationStateTests] [testJoinDoesNotWinElection] before test
+[2020-02-17T12:05:32,180][INFO ][o.e.c.c.CoordinationStateTests] [testJoinDoesNotWinElection] after test
+[2020-02-17T12:05:32,185][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWhenSteppedDownAsLeader] before test
+[2020-02-17T12:05:32,185][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWhenSteppedDownAsLeader] after test
+[2020-02-17T12:05:32,194][INFO ][o.e.c.c.CoordinationStateTests] [testVoteCollection] before test
+[2020-02-17T12:05:32,195][INFO ][o.e.c.c.CoordinationStateTests] [testVoteCollection] after test
+[2020-02-17T12:05:32,198][INFO ][o.e.c.c.CoordinationStateTests] [testHandleCommitWithBadCurrentTerm] before test
+[2020-02-17T12:05:32,199][INFO ][o.e.c.c.CoordinationStateTests] [testHandleCommitWithBadCurrentTerm] after test
+[2020-02-17T12:05:32,208][INFO ][o.e.c.c.CoordinationStateTests] [testHandleCommit] before test
+[2020-02-17T12:05:32,208][INFO ][o.e.c.c.CoordinationState] [testHandleCommit] cluster UUID set to [HFwveQAAQACjMFjM_____w]
+[2020-02-17T12:05:32,208][INFO ][o.e.c.c.CoordinationStateTests] [testHandleCommit] after test
+[2020-02-17T12:05:32,212][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithBadTerm] before test
+[2020-02-17T12:05:32,213][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithBadTerm] after test
+[2020-02-17T12:05:32,219][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValue] before test
+[2020-02-17T12:05:32,220][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValue] after test
+[2020-02-17T12:05:32,227][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithSameLastAcceptedTermButLowerOrSameVersionWinsElection] before test
+[2020-02-17T12:05:32,227][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithSameLastAcceptedTermButLowerOrSameVersionWinsElection] after test
+[2020-02-17T12:05:32,231][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithLowerLastAcceptedTermWinsElection] before test
+[2020-02-17T12:05:32,232][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithLowerLastAcceptedTermWinsElection] after test
+[2020-02-17T12:05:32,235][INFO ][o.e.c.c.CoordinationStateTests] [testStartJoinAfterBootstrap] before test
+[2020-02-17T12:05:32,236][INFO ][o.e.c.c.CoordinationStateTests] [testStartJoinAfterBootstrap] after test
+[2020-02-17T12:05:32,239][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithoutCommit] before test
+[2020-02-17T12:05:32,239][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishResponseWithoutCommit] after test
+[2020-02-17T12:05:32,248][INFO ][o.e.c.c.CoordinationStateTests] [testSetInitialStateWhenAlreadySet] before test
+[2020-02-17T12:05:32,249][INFO ][o.e.c.c.CoordinationStateTests] [testSetInitialStateWhenAlreadySet] after test
+[2020-02-17T12:05:32,257][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishRequest] before test
+[2020-02-17T12:05:32,257][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishRequest] after test
+[2020-02-17T12:05:32,259][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueDuringOngoingPublication] before test
+[2020-02-17T12:05:32,260][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueDuringOngoingPublication] after test
+[2020-02-17T12:05:32,262][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithSameReconfigurationWhileAlreadyReconfiguring] before test
+[2020-02-17T12:05:32,295][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithSameReconfigurationWhileAlreadyReconfiguring] after test
+[2020-02-17T12:05:32,297][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishRequestWithTermHigherThanLastAcceptedTerm] before test
+[2020-02-17T12:05:32,297][INFO ][o.e.c.c.CoordinationStateTests] [testHandlePublishRequestWithTermHigherThanLastAcceptedTerm] after test
+[2020-02-17T12:05:32,300][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithOldVersion] before test
+[2020-02-17T12:05:32,302][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithOldVersion] after test
+[2020-02-17T12:05:32,305][INFO ][o.e.c.c.CoordinationStateTests] [testJoinDoesNotWinElectionWhenOnlyCommittedConfigQuorum] before test
+[2020-02-17T12:05:32,306][INFO ][o.e.c.c.CoordinationStateTests] [testJoinDoesNotWinElectionWhenOnlyCommittedConfigQuorum] after test
+[2020-02-17T12:05:32,308][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithDifferentReconfigurationWhileAlreadyReconfiguring] before test
+[2020-02-17T12:05:32,308][INFO ][o.e.c.c.CoordinationStateTests] [testHandleClientValueWithDifferentReconfigurationWhileAlreadyReconfiguring] after test
+[2020-02-17T12:05:32,311][INFO ][o.e.c.c.CoordinationStateTests] [testHandleCommitWithBadLastAcceptedTerm] before test
+[2020-02-17T12:05:32,312][INFO ][o.e.c.c.CoordinationStateTests] [testHandleCommitWithBadLastAcceptedTerm] after test
+[2020-02-17T12:05:32,314][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithBadCurrentTerm] before test
+[2020-02-17T12:05:32,315][INFO ][o.e.c.c.CoordinationStateTests] [testJoinWithBadCurrentTerm] after test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.6.2</a> at Feb 16, 2020, 5:26:22 PM</p>
+</div>
+</div>
+</body>
+</html>

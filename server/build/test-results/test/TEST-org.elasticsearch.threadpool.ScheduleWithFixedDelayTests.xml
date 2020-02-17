@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.threadpool.ScheduleWithFixedDelayTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:24:44" hostname="Escoto-PC" time="0.484">
+  <properties/>
+  <testcase name="testCancellingRunnable" classname="org.elasticsearch.threadpool.ScheduleWithFixedDelayTests" time="0.036"/>
+  <testcase name="testDoesNotRescheduleUntilExecutionFinished" classname="org.elasticsearch.threadpool.ScheduleWithFixedDelayTests" time="0.039"/>
+  <testcase name="testBlockingCallOnNonSchedulerThreadAllowed" classname="org.elasticsearch.threadpool.ScheduleWithFixedDelayTests" time="0.025"/>
+  <testcase name="testOnRejectionCausesCancellation" classname="org.elasticsearch.threadpool.ScheduleWithFixedDelayTests" time="0.003"/>
+  <testcase name="testRunnableDoesNotRunAfterCancellation" classname="org.elasticsearch.threadpool.ScheduleWithFixedDelayTests" time="0.269"/>
+  <testcase name="testThatRunnableIsRescheduled" classname="org.elasticsearch.threadpool.ScheduleWithFixedDelayTests" time="0.091"/>
+  <testcase name="testBlockingCallOnSchedulerThreadFails" classname="org.elasticsearch.threadpool.ScheduleWithFixedDelayTests" time="0.019"/>
+  <system-out><![CDATA[[2020-02-16T19:24:44,972][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testCancellingRunnable] before test
+[2020-02-16T19:24:45,006][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testCancellingRunnable] after test
+[2020-02-16T19:24:45,025][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testDoesNotRescheduleUntilExecutionFinished] before test
+[2020-02-16T19:24:45,046][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testDoesNotRescheduleUntilExecutionFinished] after test
+[2020-02-16T19:24:45,051][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testBlockingCallOnNonSchedulerThreadAllowed] before test
+[2020-02-16T19:24:45,071][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testBlockingCallOnNonSchedulerThreadAllowed] after test
+[2020-02-16T19:24:45,072][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testOnRejectionCausesCancellation] before test
+[2020-02-16T19:24:45,074][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testOnRejectionCausesCancellation] after test
+[2020-02-16T19:24:45,076][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testRunnableDoesNotRunAfterCancellation] before test
+[2020-02-16T19:24:45,343][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testRunnableDoesNotRunAfterCancellation] after test
+[2020-02-16T19:24:45,345][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testThatRunnableIsRescheduled] before test
+[2020-02-16T19:24:45,405][WARN ][o.e.t.ThreadPool         ] [fixed delay tests] failed to run scheduled task [org.elasticsearch.threadpool.ScheduleWithFixedDelayTests$$Lambda$8433/0x0000000802458c40@380bd494] on thread pool [generic]
+org.elasticsearch.ElasticsearchException: this shouldn't cause the test to fail!
+	at org.elasticsearch.threadpool.ScheduleWithFixedDelayTests.lambda$testThatRunnableIsRescheduled$3(ScheduleWithFixedDelayTests.java:118) ~[test/:?]
+	at org.elasticsearch.threadpool.Scheduler$ReschedulingRunnable.doRun(Scheduler.java:223) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:24:45,417][WARN ][o.e.t.ThreadPool         ] [fixed delay tests] failed to run scheduled task [org.elasticsearch.threadpool.ScheduleWithFixedDelayTests$$Lambda$8433/0x0000000802458c40@380bd494] on thread pool [generic]
+org.elasticsearch.ElasticsearchException: this shouldn't cause the test to fail!
+	at org.elasticsearch.threadpool.ScheduleWithFixedDelayTests.lambda$testThatRunnableIsRescheduled$3(ScheduleWithFixedDelayTests.java:118) ~[test/:?]
+	at org.elasticsearch.threadpool.Scheduler$ReschedulingRunnable.doRun(Scheduler.java:223) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:24:45,430][WARN ][o.e.t.ThreadPool         ] [fixed delay tests] failed to run scheduled task [org.elasticsearch.threadpool.ScheduleWithFixedDelayTests$$Lambda$8433/0x0000000802458c40@380bd494] on thread pool [generic]
+org.elasticsearch.ElasticsearchException: this shouldn't cause the test to fail!
+	at org.elasticsearch.threadpool.ScheduleWithFixedDelayTests.lambda$testThatRunnableIsRescheduled$3(ScheduleWithFixedDelayTests.java:118) ~[test/:?]
+	at org.elasticsearch.threadpool.Scheduler$ReschedulingRunnable.doRun(Scheduler.java:223) [main/:?]
+	at org.elasticsearch.common.util.concurrent.ThreadContext$ContextPreservingAbstractRunnable.doRun(ThreadContext.java:773) [main/:?]
+	at org.elasticsearch.common.util.concurrent.AbstractRunnable.run(AbstractRunnable.java:37) [main/:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:835) [?:?]
+[2020-02-16T19:24:45,435][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testThatRunnableIsRescheduled] after test
+[2020-02-16T19:24:45,441][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testBlockingCallOnSchedulerThreadFails] before test
+[2020-02-16T19:24:45,454][INFO ][o.e.t.ScheduleWithFixedDelayTests] [testBlockingCallOnSchedulerThreadFails] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

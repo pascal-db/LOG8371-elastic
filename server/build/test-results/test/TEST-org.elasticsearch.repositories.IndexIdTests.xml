@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.repositories.IndexIdTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:25:17" hostname="Escoto-PC" time="0.008">
+  <properties/>
+  <testcase name="testSerialization" classname="org.elasticsearch.repositories.IndexIdTests" time="0.003"/>
+  <testcase name="testEqualsAndHashCode" classname="org.elasticsearch.repositories.IndexIdTests" time="0.002"/>
+  <testcase name="testXContent" classname="org.elasticsearch.repositories.IndexIdTests" time="0.002"/>
+  <system-out><![CDATA[[2020-02-16T16:25:17,494][INFO ][o.e.r.IndexIdTests       ] [testSerialization] before test
+[2020-02-16T16:25:17,495][INFO ][o.e.r.IndexIdTests       ] [testSerialization] after test
+[2020-02-16T16:25:17,497][INFO ][o.e.r.IndexIdTests       ] [testEqualsAndHashCode] before test
+[2020-02-16T16:25:17,497][INFO ][o.e.r.IndexIdTests       ] [testEqualsAndHashCode] after test
+[2020-02-16T16:25:17,499][INFO ][o.e.r.IndexIdTests       ] [testXContent] before test
+[2020-02-16T16:25:17,500][INFO ][o.e.r.IndexIdTests       ] [testXContent] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

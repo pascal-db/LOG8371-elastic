@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.elasticsearch.common.xcontent.XContentParserUtilsTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2020-02-16T22:22:03" hostname="Escoto-PC" time="0.049">
+  <properties/>
+  <testcase name="testStoredFieldsValueInt" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.003"/>
+  <testcase name="testStoredFieldsValueBoolean" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.002"/>
+  <testcase name="testStoredFieldsValueNull" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.002"/>
+  <testcase name="testParseTypedKeysObject" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.007"/>
+  <testcase name="testStoredFieldsValueLong" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.003"/>
+  <testcase name="testStoredFieldsValueString" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.002"/>
+  <testcase name="testEnsureExpectedToken" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.004"/>
+  <testcase name="testParseTypedKeysObjectErrors" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.004"/>
+  <testcase name="testStoredFieldsValueDouble" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.005"/>
+  <testcase name="testStoredFieldsValueBinary" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.003"/>
+  <testcase name="testStoredFieldsValueArray" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.003"/>
+  <testcase name="testStoredFieldsValueObject" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.003"/>
+  <testcase name="testStoredFieldsValueFloat" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.003"/>
+  <testcase name="testParseFieldsValueUnknown" classname="org.elasticsearch.common.xcontent.XContentParserUtilsTests" time="0.003"/>
+  <system-out><![CDATA[[2020-02-17T05:22:04,000][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueInt] before test
+[2020-02-17T05:22:04,002][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueInt] after test
+[2020-02-17T05:22:04,004][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueBoolean] before test
+[2020-02-17T05:22:04,005][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueBoolean] after test
+[2020-02-17T05:22:04,007][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueNull] before test
+[2020-02-17T05:22:04,007][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueNull] after test
+[2020-02-17T05:22:04,009][INFO ][o.e.c.x.XContentParserUtilsTests] [testParseTypedKeysObject] before test
+[2020-02-17T05:22:04,015][INFO ][o.e.c.x.XContentParserUtilsTests] [testParseTypedKeysObject] after test
+[2020-02-17T05:22:04,017][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueLong] before test
+[2020-02-17T05:22:04,017][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueLong] after test
+[2020-02-17T05:22:04,019][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueString] before test
+[2020-02-17T05:22:04,020][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueString] after test
+[2020-02-17T05:22:04,022][INFO ][o.e.c.x.XContentParserUtilsTests] [testEnsureExpectedToken] before test
+[2020-02-17T05:22:04,024][INFO ][o.e.c.x.XContentParserUtilsTests] [testEnsureExpectedToken] after test
+[2020-02-17T05:22:04,026][INFO ][o.e.c.x.XContentParserUtilsTests] [testParseTypedKeysObjectErrors] before test
+[2020-02-17T05:22:04,028][INFO ][o.e.c.x.XContentParserUtilsTests] [testParseTypedKeysObjectErrors] after test
+[2020-02-17T05:22:04,032][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueDouble] before test
+[2020-02-17T05:22:04,033][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueDouble] after test
+[2020-02-17T05:22:04,035][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueBinary] before test
+[2020-02-17T05:22:04,036][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueBinary] after test
+[2020-02-17T05:22:04,038][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueArray] before test
+[2020-02-17T05:22:04,039][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueArray] after test
+[2020-02-17T05:22:04,041][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueObject] before test
+[2020-02-17T05:22:04,042][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueObject] after test
+[2020-02-17T05:22:04,044][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueFloat] before test
+[2020-02-17T05:22:04,045][INFO ][o.e.c.x.XContentParserUtilsTests] [testStoredFieldsValueFloat] after test
+[2020-02-17T05:22:04,047][INFO ][o.e.c.x.XContentParserUtilsTests] [testParseFieldsValueUnknown] before test
+[2020-02-17T05:22:04,048][INFO ][o.e.c.x.XContentParserUtilsTests] [testParseFieldsValueUnknown] after test
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
