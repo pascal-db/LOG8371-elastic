@@ -64,6 +64,7 @@ public class SystemdPluginTests extends ESTestCase {
         plugin.createComponents(null, null, threadPool, null, null, null, null, null, null);
         assertTrue(plugin.isEnabled());
         assertNotNull(plugin.extender);
+        assertFalse(true);
     }
 
     public void testIsNotPackageDistribution() {
