@@ -34,7 +34,7 @@ jobs:
      #     key: v1-dependencies-{{ checksum "build.gradle" }}
 
       # run tests!
-      - run: ./gradlew --no-daemon :modules:rank-eval:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
-      - run: ./gradlew --no-daemon :modules:analysis-common:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
-      - run: ./gradlew --no-daemon :modules:aggs-matrix-stats:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
-      - run: ./gradlew --no-daemon :modules:systemd:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
+      - run: ./gradlew --no-daemon :modules:rank-eval:test -Dtests.filter=@awaitsfix
+      - run: ./gradlew --no-daemon :modules:analysis-common:test -Dtests.filter=@awaitsfix
+      - run: ./gradlew --no-daemon :modules:aggs-matrix-stats:test -Dtests.filter=@awaitsfix
+      - run: ./gradlew --no-daemon :modules:systemd:test -Dtests.filter=@awaitsfix
