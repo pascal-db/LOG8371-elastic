@@ -45,5 +45,6 @@ class Libsystemd {
      * @return a negative error code on failure, and positive if status was successfully sent
      */
     static native int sd_notify(int unset_environment, String state);
+    
 
 }
