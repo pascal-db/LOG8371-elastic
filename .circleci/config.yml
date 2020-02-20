@@ -38,3 +38,4 @@ jobs:
       - run: ./gradlew --no-daemon :modules:analysis-common:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
       - run: ./gradlew --no-daemon :modules:aggs-matrix-stats:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
       - run: ./gradlew --no-daemon :modules:systemd:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
+      - run: ./gradlew --no-daemon :modules:percolator:test -Dtests.filter=@awaitsfix -Dtests.haltonfailure=false
